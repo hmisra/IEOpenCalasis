@@ -1,0 +1,1117 @@
+#Relations: CompanyLocation, FamilyRelation, PersonAttributes, PersonLocation, PersonRelation
+#City: Alva
+#Company: J. C. Penney
+#Facility: Alva Municipal Cemetery, Marshall Funeral Home of Alva
+#Organization: Alva High School, Friendship School, God Church
+#Person: Bob Brown, Edna Haas, Lonnie, Mabel Doud, Marshall Funeral, Moye Alma Long, Murray Long, Nettie Elizabeth (Anderson) Cummings, Ramona, Richard Hezekiah Niles, Velma Cummings
+#ProvinceOrState: Oklahoma, Virginia, Woods County
+@prefix c:     <http://s.opencalais.com/1/pred/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://d.opencalais.com/pershash-1/626c86e4-9ed5-32df-9134-8ecc5b0a4a39>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Murray Long" ;
+        c:confidencelevel    "0.959" ;
+        c:firstname          "Murray" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Long" ;
+        c:name               "Murray Long" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/Instance/38>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[her parents, she was preceded in death by ]her husband, Murray[; three sisters, Mabel Doud, Edna Haas, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:exact      "her husband, Murray" ;
+        c:length     "19" ;
+        c:offset     "975" ;
+        c:prefix     "her parents, she was preceded in death by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/21f7e411-2e5e-37b0-82c8-4c792c40ca88> ;
+        c:suffix     "; three sisters, Mabel Doud, Edna Haas, and" .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/Relevance/12>
+        a                <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId          <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:relevance      "0.2" ;
+        c:relevancecont  "0.03" ;
+        c:subject        <http://d.opencalais.com/comphash-1/89ccaabc-4cab-3cd9-bab0-9862c925e96a> .
+
+<http://d.opencalais.com/genericHasher-1/8eade039-a4ea-3277-86f0-dccd360f428f>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Alva Municipal Cemetery" .
+
+<http://d.opencalais.com/genericHasher-1/dda7ee29-ec09-3c2c-854f-1a85e0e4b0f9>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/bb5e49f7-5e83-3564-ad3f-891f6c1d401a> , <http://d.opencalais.com/pershash-1/1671b7c6-4ca1-30e2-9024-1ecfc575b4d9> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/genericHasher-1/a9363e58-95d8-3543-8b75-5b12833bd833>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Alva, Oklahoma" ;
+        c:person             <http://d.opencalais.com/pershash-1/a735166d-9733-3133-8f02-ab03393097b3> .
+
+<http://d.opencalais.com/conf/pershash-1/a735166d-9733-3133-8f02-ab03393097b3>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.991" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.994" ;
+        c:subject             <http://d.opencalais.com/pershash-1/a735166d-9733-3133-8f02-ab03393097b3> .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/Instance/32>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[then at Ellison?s Dress Shop, before working at ]J. C. Penney[?s.  \nAs a family they loved to go camping,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:exact      "J. C. Penney" ;
+        c:length     "12" ;
+        c:offset     "786" ;
+        c:prefix     "then at Ellison?s Dress Shop, before working at " ;
+        c:subject    <http://d.opencalais.com/comphash-1/89ccaabc-4cab-3cd9-bab0-9862c925e96a> ;
+        c:suffix     "?s.  \nAs a family they loved to go camping," .
+
+<http://d.opencalais.com/pershash-1/38c4ac26-77f3-3859-b7bc-6d669d9ef8bb>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Mabel Doud" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Mabel" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Doud" ;
+        c:name               "Mabel Doud" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/Instance/45>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[grew up in the Dacoma/Hopeton area and attended ]Friendship School[ before graduating from Alva High School.  After]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:exact      "Friendship School" ;
+        c:length     "17" ;
+        c:offset     "550" ;
+        c:prefix     "grew up in the Dacoma/Hopeton area and attended " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e76cf256-9666-32d2-93c3-6251a837f11a> ;
+        c:suffix     " before graduating from Alva High School.  After" .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/Relevance/9>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/59835057-91b9-3e53-8d88-4ba67809d5f0> .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/Instance/17>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[her parents, she was preceded in death by ]her[ husband, Murray; three sisters, Mabel Doud, Edna]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "975" ;
+        c:prefix     "her parents, she was preceded in death by " ;
+        c:subject    <http://d.opencalais.com/pershash-1/a735166d-9733-3133-8f02-ab03393097b3> ;
+        c:suffix     " husband, Murray; three sisters, Mabel Doud, Edna" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/1114fb0e-25a2-49dd-a619-369b5b536840>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:latitude            "36.746" ;
+        c:longitude           "-98.7527" ;
+        c:name                "Woods County,Oklahoma,United States" ;
+        c:shortname           "Woods County" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/ce8de128-24bf-3473-ab18-361909e1197d> .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/Instance/4>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[her parents, she was preceded in death by ]her husband, Murray[; three sisters, Mabel Doud, Edna Haas, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:exact      "her husband, Murray" ;
+        c:length     "19" ;
+        c:offset     "975" ;
+        c:prefix     "her parents, she was preceded in death by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/198aa657-fbcf-3343-9a40-36d7b97d352b> ;
+        c:suffix     "; three sisters, Mabel Doud, Edna Haas, and" .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/Relevance/3>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/bb5e49f7-5e83-3564-ad3f-891f6c1d401a> .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/Relevance/17>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/4ef19f83-96d8-3a62-8bf0-69d9d1ea637c> .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/Instance/11>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[she was preceded in death by her husband, ]Murray[; three sisters, Mabel Doud, Edna Haas, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:exact      "Murray" ;
+        c:length     "6" ;
+        c:offset     "988" ;
+        c:prefix     "she was preceded in death by her husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/626c86e4-9ed5-32df-9134-8ecc5b0a4a39> ;
+        c:suffix     "; three sisters, Mabel Doud, Edna Haas, and" .
+
+<http://d.opencalais.com/genericHasher-1/21f7e411-2e5e-37b0-82c8-4c792c40ca88>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "husband" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/a735166d-9733-3133-8f02-ab03393097b3> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/626c86e4-9ed5-32df-9134-8ecc5b0a4a39> .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/lid/DefaultLangId>
+        a                    <http://s.opencalais.com/1/type/lid/DefaultLangId> ;
+        c:docId              <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:forenduserdisplay  "false" ;
+        c:lang               <http://d.opencalais.com/lid/DefaultLangId/English> ;
+        c:permid             "505062" .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/Instance/24>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[be 1:00 p.m. Monday, December 1, 2008, at the ]Alva Municipal Cemetery[ with Rev. Bob Brown officiating.  Interment is]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:exact      "Alva Municipal Cemetery" ;
+        c:length     "23" ;
+        c:offset     "89" ;
+        c:prefix     "be 1:00 p.m. Monday, December 1, 2008, at the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8eade039-a4ea-3277-86f0-dccd360f428f> ;
+        c:suffix     " with Rev. Bob Brown officiating.  Interment is" .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/ComponentVersions>
+        a          <http://s.opencalais.com/1/type/sys/ComponentVersions> ;
+        c:docId    <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:version  "People Override:258:258" , "FrenchIM:OneCalais_8.3-RELEASE:198" , "config-physicalAssets-ports:258:258" , "OA Index:201505252208:201505252208" , "SocialTags Index:201505191038:201505191038" , "config-sca-DataPackage:34:34" , "Deals Index:201505261718:201505261718" , "config-vessels:258:258" , "config-cse:271:271" , "config-refineries:258:258" , "AutocoderRuntimeIM:OneCalais_8.3-RELEASE:198" , "index-vessels:201505231718:201505231718" , "SECHeaderMetadataIM:OneCalais_8.3-RELEASE:198" , "BlackList:264:264" , "Collector:OneCalais_8.3-RELEASE:113" , "Dial4J:OneCalais_8.3-RELEASE:198" , "config-drugs:258:258" , "NextTags:OneCalais_8.3-RELEASE:113" , "OA Override:271:271" , "People Index:201505261608:201505261608" , "Housekeeper:OneCalais_8.3-RELEASE:113" , "BrokerResearchIM:OneCalais_8.3-RELEASE:198" , "SpanishIM:OneCalais_8.3-RELEASE:198" , "com.clearforest.infoext.dial4j.plugins-basistechconfig:OneCalais_8.3-RELEASE:225" , "WatchDog:OneCalais_8.3-RELEASE:113" , "OneCalais:OneCalais_8.3-RELEASE:364" , "OneCalaisIM:OneCalais_8.3-RELEASE:198" , "config-negativeSignature:258:258" .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/Instance/37>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Interment is under the direction of ]Marshall Funeral Home of Alva[.  \nMoye Alma Long, daughter of the late Richard]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:exact      "Marshall Funeral Home of Alva" ;
+        c:length     "29" ;
+        c:offset     "183" ;
+        c:prefix     " Interment is under the direction of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6bf2c0d-0ac3-3aaa-a334-e02dfcbc3358> ;
+        c:suffix     ".  \nMoye Alma Long, daughter of the late Richard" .
+
+<http://d.opencalais.com/genericHasher-1/6b96bcaf-79ad-3973-b52a-a34a63b7c6ea>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "wife" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/1671b7c6-4ca1-30e2-9024-1ecfc575b4d9> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/bb5e49f7-5e83-3564-ad3f-891f6c1d401a> .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/Relevance/11>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> .
+
+<http://d.opencalais.com/pershash-1/6bd9003a-1f36-364d-824b-d23190faffcf>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Richard Hezekiah Niles" ;
+        c:confidencelevel    "0.961" ;
+        c:firstname          "Richard" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Hezekiah Niles" ;
+        c:name               "Richard Hezekiah Niles" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/er/person/ralg-pa1/34413481279>
+        a             <http://s.opencalais.com/1/type/er/Person> ;
+        c:commonname  "Robert Brown" ;
+        c:docId       <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:name        "Robert J. Brown" ;
+        c:officerid   "N/A" ;
+        c:paid        "34413481279" ;
+        c:personid    "613791" ;
+        c:score       "0.61531043" ;
+        c:subject     <http://d.opencalais.com/pershash-1/6f91b867-29cb-3f04-96c6-96de4a086e59> .
+
+<http://d.opencalais.com/genericHasher-1/198aa657-fbcf-3343-9a40-36d7b97d352b>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/626c86e4-9ed5-32df-9134-8ecc5b0a4a39> , <http://d.opencalais.com/pershash-1/a735166d-9733-3133-8f02-ab03393097b3> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/pershash-1/59835057-91b9-3e53-8d88-4ba67809d5f0>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Velma Cummings" ;
+        c:confidencelevel    "0.994" ;
+        c:firstname          "Velma" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Cummings" ;
+        c:name               "Velma Cummings" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/e76cf256-9666-32d2-93c3-6251a837f11a>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Friendship School" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/Instance/31>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[may be made through the funeral home to the ]Alva[ First Assembly of God Church.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "1420" ;
+        c:prefix     "may be made through the funeral home to the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:suffix     " First Assembly of God Church." .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/Instance/9>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and passed away November 27, 2008, at Alva, ]Oklahoma[, at the age of 92 years, 6 months, and 13 days. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "438" ;
+        c:prefix     "and passed away November 27, 2008, at Alva, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", at the age of 92 years, 6 months, and 13 days. " .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/Instance/44>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Virgil and Garold.  \nMoye is survived by one son ]Lonnie[ and his wife, Ramona, of Chesapeake, Virginia;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:exact      "Lonnie" ;
+        c:length     "6" ;
+        c:offset     "1190" ;
+        c:prefix     " Virgil and Garold.  \nMoye is survived by one son " ;
+        c:subject    <http://d.opencalais.com/pershash-1/e5e29ab5-7410-3f0b-afd7-7579d1c3c27b> ;
+        c:suffix     " and his wife, Ramona, of Chesapeake, Virginia;" .
+
+<http://d.opencalais.com/genericHasher-1/ca5b52ad-4d0b-3c27-84ff-ee56ba8c03ec>
+        a                      <http://s.opencalais.com/1/type/em/r/CompanyLocation> ;
+        c:company              <http://d.opencalais.com/comphash-1/e193327a-d83c-3143-814d-194bf1a2aa30> ;
+        c:companylocationtype  "N/A" ;
+        c:forenduserdisplay    "true" ;
+        c:provinceorstate      <http://d.opencalais.com/genericHasher-1/c489280c-385d-3106-90ca-9210b3965ea8> .
+
+<http://d.opencalais.com/pershash-1/4ef19f83-96d8-3a62-8bf0-69d9d1ea637c>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Edna Haas" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Edna" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Haas" ;
+        c:name               "Edna Haas" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/Relevance/8>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8eade039-a4ea-3277-86f0-dccd360f428f> .
+
+<http://d.opencalais.com/conf/pershash-1/e5e29ab5-7410-3f0b-afd7-7579d1c3c27b>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.938" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.944" ;
+        c:subject             <http://d.opencalais.com/pershash-1/e5e29ab5-7410-3f0b-afd7-7579d1c3c27b> .
+
+<http://d.opencalais.com/pershash-1/1671b7c6-4ca1-30e2-9024-1ecfc575b4d9>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Moye Alma Long" ;
+        c:confidencelevel    "0.501" ;
+        c:firstname          "Moye" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Long" ;
+        c:middlename         "Alma" ;
+        c:name               "Moye Alma Long" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/Instance/16>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Assembly of God Church.  \nBesides her parents, ]she[ was preceded in death by her husband, Murray;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "946" ;
+        c:prefix     "Assembly of God Church.  \nBesides her parents, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/a735166d-9733-3133-8f02-ab03393097b3> ;
+        c:suffix     " was preceded in death by her husband, Murray;" .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/SocialTag/5>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "2" ;
+        c:name               "Moye" ;
+        c:originalValue      "Moye (name)" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/9d671ed6-cd0b-3774-bec3-cdc96f408424> .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/Instance/29>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[under the direction of Marshall Funeral Home of ]Alva[.  \nMoye Alma Long, daughter of the late Richard]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "208" ;
+        c:prefix     "under the direction of Marshall Funeral Home of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:suffix     ".  \nMoye Alma Long, daughter of the late Richard" .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/Instance/3>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[was born May 14, 1916, on the family farm in ]Woods County[, Oklahoma, and passed away November 27, 2008, at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:exact      "Woods County" ;
+        c:length     "12" ;
+        c:offset     "370" ;
+        c:prefix     "was born May 14, 1916, on the family farm in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ce8de128-24bf-3473-ab18-361909e1197d> ;
+        c:suffix     ", Oklahoma, and passed away November 27, 2008, at" .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/cat/1>
+        a                    <http://s.opencalais.com/1/type/cat/DocCat> ;
+        c:docId              <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Human Interest" ;
+        c:score              "1.000" .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/Relevance/2>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ce8de128-24bf-3473-ab18-361909e1197d> .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/Relevance/16>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/6bd9003a-1f36-364d-824b-d23190faffcf> .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/Instance/10>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[for a time, she was united in marriage to ]Murray Long[ in 1938.  Moye continued to work at Anthony?s,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:exact      "Murray Long" ;
+        c:length     "11" ;
+        c:offset     "679" ;
+        c:prefix     "for a time, she was united in marriage to " ;
+        c:subject    <http://d.opencalais.com/pershash-1/626c86e4-9ed5-32df-9134-8ecc5b0a4a39> ;
+        c:suffix     " in 1938.  Moye continued to work at Anthony?s," .
+
+<http://d.opencalais.com/conf/comphash-1/89ccaabc-4cab-3cd9-bab0-9862c925e96a>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.938" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:resolution          "0.9208753" ;
+        c:statisticalfeature  "0.894" ;
+        c:subject             <http://d.opencalais.com/comphash-1/89ccaabc-4cab-3cd9-bab0-9862c925e96a> .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/Instance/23>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Garold.  \nMoye is survived by one son Lonnie and ]his[ wife, Ramona, of Chesapeake, Virginia; five]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "1201" ;
+        c:prefix     " Garold.  \nMoye is survived by one son Lonnie and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/1671b7c6-4ca1-30e2-9024-1ecfc575b4d9> ;
+        c:suffix     " wife, Ramona, of Chesapeake, Virginia; five" .
+
+<http://d.opencalais.com/pershash-1/bb5e49f7-5e83-3564-ad3f-891f6c1d401a>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Ramona" ;
+        c:confidencelevel    "0.86" ;
+        c:firstname          "Ramona" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Ramona" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/Instance/36>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in death by her husband, Murray; three sisters, ]Mabel Doud[, Edna Haas, and infant Velma Cummings; and seven]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:exact      "Mabel Doud" ;
+        c:length     "10" ;
+        c:offset     "1011" ;
+        c:prefix     "in death by her husband, Murray; three sisters, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/38c4ac26-77f3-3859-b7bc-6d669d9ef8bb> ;
+        c:suffix     ", Edna Haas, and infant Velma Cummings; and seven" .
+
+<http://d.opencalais.com/conf/pershash-1/626c86e4-9ed5-32df-9134-8ecc5b0a4a39>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.959" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.976" ;
+        c:subject             <http://d.opencalais.com/pershash-1/626c86e4-9ed5-32df-9134-8ecc5b0a4a39> .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/Relevance/10>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c6bff7b1-e904-3e81-8457-b0a7e72cd506> .
+
+<http://d.opencalais.com/conf/pershash-1/6f91b867-29cb-3f04-96c6-96de4a086e59>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.999" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:resolution          "0.61531043" ;
+        c:statisticalfeature  "0.98" ;
+        c:subject             <http://d.opencalais.com/pershash-1/6f91b867-29cb-3f04-96c6-96de4a086e59> .
+
+<http://d.opencalais.com/genericHasher-1/490ada77-2e36-35de-8d8c-889b13e3d391>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonAttributes> ;
+        c:birthdate          "1916-05-14" ;
+        c:forenduserdisplay  "false" ;
+        c:gender             "F" ;
+        c:person             <http://d.opencalais.com/pershash-1/a735166d-9733-3133-8f02-ab03393097b3> .
+
+<http://d.opencalais.com/genericHasher-1/3bf8eca5-d76e-38b8-808e-1ee69e227c70>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:date                "1938-00-00" ;
+        c:datestring          "in 1938" ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/626c86e4-9ed5-32df-9134-8ecc5b0a4a39> , <http://d.opencalais.com/pershash-1/a735166d-9733-3133-8f02-ab03393097b3> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/Instance/30>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Oklahoma, and passed away November 27, 2008, at ]Alva[, Oklahoma, at the age of 92 years, 6 months, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "432" ;
+        c:prefix     "Oklahoma, and passed away November 27, 2008, at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:suffix     ", Oklahoma, at the age of 92 years, 6 months, and" .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/Instance/8>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[14, 1916, on the family farm in Woods County, ]Oklahoma[, and passed away November 27, 2008, at Alva,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "384" ;
+        c:prefix     "14, 1916, on the family farm in Woods County, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", and passed away November 27, 2008, at Alva," .
+
+<http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Alva" .
+
+<https://permid.org/1-4295904712>
+        a             <http://s.opencalais.com/1/type/er/Company> ;
+        c:commonname  "JC Penney" ;
+        c:docId       <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:legacyid    <http://d.opencalais.com/er/company/ralg-tr1r/c5d59a00-34db-35f3-bf98-259aea7d6c4a> ;
+        c:name        "J C Penney Company Inc" ;
+        c:permid      "4295904712" ;
+        c:primaryric  "JCP.N" ;
+        c:score       "0.9208753" ;
+        c:subject     <http://d.opencalais.com/comphash-1/89ccaabc-4cab-3cd9-bab0-9862c925e96a> ;
+        c:ticker      "JCP" .
+
+<http://d.opencalais.com/pershash-1/a735166d-9733-3133-8f02-ab03393097b3>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Nettie Elizabeth Cummings" ;
+        c:confidencelevel    "0.991" ;
+        c:firstname          "Nettie" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Cummings" ;
+        c:middlename         "Elizabeth" ;
+        c:name               "Nettie Elizabeth (Anderson) Cummings" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/Instance/43>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Interment is under the direction of ]Marshall Funeral Home of Alva[.  \nMoye Alma Long, daughter of the late Richard]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:exact      "Marshall Funeral Home of Alva" ;
+        c:length     "29" ;
+        c:offset     "183" ;
+        c:prefix     " Interment is under the direction of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce> ;
+        c:suffix     ".  \nMoye Alma Long, daughter of the late Richard" .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/Relevance/7>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/pershash-1/1671b7c6-4ca1-30e2-9024-1ecfc575b4d9> .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/Instance/15>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of the First Assembly of God Church.  \nBesides ]her[ parents, she was preceded in death by her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "933" ;
+        c:prefix     "of the First Assembly of God Church.  \nBesides " ;
+        c:subject    <http://d.opencalais.com/pershash-1/a735166d-9733-3133-8f02-ab03393097b3> ;
+        c:suffix     " parents, she was preceded in death by her" .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/SocialTag/4>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "2" ;
+        c:name               "Dacoma, Oklahoma" ;
+        c:originalValue      "Dacoma, Oklahoma" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/ddcdf07d-7c67-342f-8a8c-f881f846c968> .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/Instance/28>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Friendship School before graduating from ]Alva High School[.  After working at Anthony?s for a time, she was]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:exact      "Alva High School" ;
+        c:length     "16" ;
+        c:offset     "591" ;
+        c:prefix     "Friendship School before graduating from " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c6bff7b1-e904-3e81-8457-b0a7e72cd506> ;
+        c:suffix     ".  After working at Anthony?s for a time, she was" .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/Instance/2>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[the funeral home to the Alva First Assembly of ]God Church[. \n\t\t\t]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:exact      "God Church" ;
+        c:length     "10" ;
+        c:offset     "1443" ;
+        c:prefix     "the funeral home to the Alva First Assembly of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/723f4787-65a4-39e5-8c86-78ae4e630aa9> ;
+        c:suffix     ". \n\t\t\t" .
+
+<http://d.opencalais.com/genericHasher-1/c489280c-385d-3106-90ca-9210b3965ea8>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Virginia" .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/Relevance/1>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/723f4787-65a4-39e5-8c86-78ae4e630aa9> .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/Relevance/15>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/38c4ac26-77f3-3859-b7bc-6d669d9ef8bb> .
+
+<http://d.opencalais.com/pershash-1/0824c880-7431-3846-b832-1042cfbe83e9>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Marshall Funeral" .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/Instance/22>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Harold, and two infants, Virgil and Garold.  \n]Moye[ is survived by one son Lonnie and his wife,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:exact      "Moye" ;
+        c:length     "4" ;
+        c:offset     "1162" ;
+        c:prefix     "Harold, and two infants, Virgil and Garold.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/1671b7c6-4ca1-30e2-9024-1ecfc575b4d9> ;
+        c:suffix     " is survived by one son Lonnie and his wife," .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/Instance/35>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[2008, at the Alva Municipal Cemetery with Rev. ]Bob Brown[ officiating.  Interment is under the direction]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:exact      "Bob Brown" ;
+        c:length     "9" ;
+        c:offset     "123" ;
+        c:prefix     "2008, at the Alva Municipal Cemetery with Rev. " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6f91b867-29cb-3f04-96c6-96de4a086e59> ;
+        c:suffix     " officiating.  Interment is under the direction" .
+
+<http://d.opencalais.com/genericHasher-1/b6bf2c0d-0ac3-3aaa-a334-e02dfcbc3358>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Alva" ;
+        c:person             <http://d.opencalais.com/pershash-1/0824c880-7431-3846-b832-1042cfbe83e9> .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/Instance/7>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[by one son Lonnie and his wife, Ramona, of ]Chesapeake, Virginia[; five grandchildren; 14 great grandchildren; 2]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:exact      "Chesapeake, Virginia" ;
+        c:length     "20" ;
+        c:offset     "1222" ;
+        c:prefix     "by one son Lonnie and his wife, Ramona, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ca5b52ad-4d0b-3c27-84ff-ee56ba8c03ec> ;
+        c:suffix     "; five grandchildren; 14 great grandchildren; 2" .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/Instance/42>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[her husband, Murray; three sisters, Mabel Doud, ]Edna Haas[, and infant Velma Cummings; and seven brothers,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:exact      "Edna Haas" ;
+        c:length     "9" ;
+        c:offset     "1023" ;
+        c:prefix     "her husband, Murray; three sisters, Mabel Doud, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/4ef19f83-96d8-3a62-8bf0-69d9d1ea637c> ;
+        c:suffix     ", and infant Velma Cummings; and seven brothers," .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/Relevance/6>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/a735166d-9733-3133-8f02-ab03393097b3> .
+
+<http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Marshall Funeral Home of Alva" .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/Instance/14>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[loved to go camping, boating and water skiing.  ]She[ was a member of the First Assembly of God]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "869" ;
+        c:prefix     "loved to go camping, boating and water skiing.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/a735166d-9733-3133-8f02-ab03393097b3> ;
+        c:suffix     " was a member of the First Assembly of God" .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/SocialTag/3>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "James Cash Penney" ;
+        c:originalValue      "James Cash Penney" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/381c3e95-e525-300d-b9bc-04353d4d886d> .
+
+<http://d.opencalais.com/pershash-1/e5e29ab5-7410-3f0b-afd7-7579d1c3c27b>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Lonnie" ;
+        c:confidencelevel    "0.938" ;
+        c:firstname          "Lonnie" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Lonnie" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/Instance/27>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Garold.  \nMoye is survived by one son Lonnie and ]his wife, Ramona[, of Chesapeake, Virginia; five grandchildren; 14]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:exact      "his wife, Ramona" ;
+        c:length     "16" ;
+        c:offset     "1201" ;
+        c:prefix     " Garold.  \nMoye is survived by one son Lonnie and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/6b96bcaf-79ad-3973-b52a-a34a63b7c6ea> ;
+        c:suffix     ", of Chesapeake, Virginia; five grandchildren; 14" .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/Instance/1>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ She was a member of the First Assembly of ]God Church[.  \nBesides her parents, she was preceded in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:exact      "God Church" ;
+        c:length     "10" ;
+        c:offset     "911" ;
+        c:prefix     " She was a member of the First Assembly of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/723f4787-65a4-39e5-8c86-78ae4e630aa9> ;
+        c:suffix     ".  \nBesides her parents, she was preceded in" .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/Relevance/14>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/6f91b867-29cb-3f04-96c6-96de4a086e59> .
+
+<http://d.opencalais.com/conf/pershash-1/38c4ac26-77f3-3859-b7bc-6d669d9ef8bb>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/38c4ac26-77f3-3859-b7bc-6d669d9ef8bb> .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/Instance/21>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[was united in marriage to Murray Long in 1938.  ]Moye[ continued to work at Anthony?s, then at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:exact      "Moye" ;
+        c:length     "4" ;
+        c:offset     "701" ;
+        c:prefix     "was united in marriage to Murray Long in 1938.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/1671b7c6-4ca1-30e2-9024-1ecfc575b4d9> ;
+        c:suffix     " continued to work at Anthony?s, then at" .
+
+<http://d.opencalais.com/comphash-1/89ccaabc-4cab-3cd9-bab0-9862c925e96a>
+        a                    <http://s.opencalais.com/1/type/em/e/Company> ;
+        c:confidencelevel    "0.938" ;
+        c:forenduserdisplay  "false" ;
+        c:name               "J. C. Penney" ;
+        c:nationality        "N/A" .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/Instance/34>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of the late Richard Hezekiah Niles \"Dick? and ]Nettie Elizabeth (Anderson) Cummings, was born May 14, 1916, on the family farm in Woods County, Oklahoma, and passed away November 27, 2008, at Alva, Oklahoma[, at the age of 92 years, 6 months, and 13 days. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:exact      "Nettie Elizabeth (Anderson) Cummings, was born May 14, 1916, on the family farm in Woods County, Oklahoma, and passed away November 27, 2008, at Alva, Oklahoma" ;
+        c:length     "159" ;
+        c:offset     "287" ;
+        c:prefix     "of the late Richard Hezekiah Niles \"Dick? and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a9363e58-95d8-3543-8b75-5b12833bd833> ;
+        c:suffix     ", at the age of 92 years, 6 months, and 13 days. " .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/Instance/19>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[direction of Marshall Funeral Home of Alva.  \n]Moye Alma Long[, daughter of the late Richard Hezekiah Niles]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:exact      "Moye Alma Long" ;
+        c:length     "14" ;
+        c:offset     "216" ;
+        c:prefix     "direction of Marshall Funeral Home of Alva.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/1671b7c6-4ca1-30e2-9024-1ecfc575b4d9> ;
+        c:suffix     ", daughter of the late Richard Hezekiah Niles" .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/Relevance/21>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/0824c880-7431-3846-b832-1042cfbe83e9> .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/Instance/6>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[is survived by one son Lonnie and his wife, ]Ramona[, of Chesapeake, Virginia; five grandchildren; 14]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:exact      "Ramona" ;
+        c:length     "6" ;
+        c:offset     "1211" ;
+        c:prefix     "is survived by one son Lonnie and his wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/bb5e49f7-5e83-3564-ad3f-891f6c1d401a> ;
+        c:suffix     ", of Chesapeake, Virginia; five grandchildren; 14" .
+
+<http://d.opencalais.com/pershash-1/6f91b867-29cb-3f04-96c6-96de4a086e59>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Bob Brown" ;
+        c:confidencelevel    "0.999" ;
+        c:firstname          "Bob" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Brown" ;
+        c:name               "Bob Brown" ;
+        c:nationality        "N/A" ;
+        c:persontype         "sports" .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/Instance/41>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and seven brothers, Earnest, Delbert, Lester, ]Richard[, Harold, and two infants, Virgil and Garold. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:exact      "Richard" ;
+        c:length     "7" ;
+        c:offset     "1107" ;
+        c:prefix     "and seven brothers, Earnest, Delbert, Lester, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6bd9003a-1f36-364d-824b-d23190faffcf> ;
+        c:suffix     ", Harold, and two infants, Virgil and Garold. " .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/Relevance/5>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/626c86e4-9ed5-32df-9134-8ecc5b0a4a39> .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/Relevance/19>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/e5e29ab5-7410-3f0b-afd7-7579d1c3c27b> .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/Instance/13>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[School.  After working at Anthony?s for a time, ]she[ was united in marriage to Murray Long in 1938. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "649" ;
+        c:prefix     "School.  After working at Anthony?s for a time, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/a735166d-9733-3133-8f02-ab03393097b3> ;
+        c:suffix     " was united in marriage to Murray Long in 1938. " .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/SocialTag/2>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Alva" ;
+        c:originalValue      "Alva" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/17f61973-ed95-369b-b381-dec22ce26b2a> .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/meta>
+        a                 <http://s.opencalais.com/1/type/sys/DocInfoMeta> ;
+        c:contentType     "text/raw" ;
+        c:docId           <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:language        "English" ;
+        c:processingVer   "AllMetadata" ;
+        c:serverVersion   "OneCalais_8.3-RELEASE:364" ;
+        c:signature       "digestalg-1|vzoJ7SytCH5pASthRNS+H8Ea0ng=|ZCb3sXGkCFTJKNlYE14AZ/uMZ2FU19xFrpEkYK4wmLfEGg8TF/zsFQ==" ;
+        c:stagsVer        "OneCalais_8.3-RELEASE-b11-2015-03-25_18:29:00" ;
+        c:submissionDate  "2015-05-26 17:24:06.244" ;
+        c:submitterCode   "0ca6a864-5659-789d-5f32-f365f695e757" .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/Instance/26>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of the late Richard Hezekiah Niles \"Dick? and ]Nettie Elizabeth (Anderson) Cummings, was born May 14, 1916[, on the family farm in Woods County, Oklahoma,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:exact      "Nettie Elizabeth (Anderson) Cummings, was born May 14, 1916" ;
+        c:length     "59" ;
+        c:offset     "287" ;
+        c:prefix     "of the late Richard Hezekiah Niles \"Dick? and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/490ada77-2e36-35de-8d8c-889b13e3d391> ;
+        c:suffix     ", on the family farm in Woods County, Oklahoma," .
+
+<http://d.opencalais.com/conf/pershash-1/6bd9003a-1f36-364d-824b-d23190faffcf>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.961" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.979" ;
+        c:subject             <http://d.opencalais.com/pershash-1/6bd9003a-1f36-364d-824b-d23190faffcf> .
+
+<http://d.opencalais.com/genericHasher-1/ce8de128-24bf-3473-ab18-361909e1197d>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Woods County" .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/Instance/39>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Virgil and Garold.  \nMoye is survived by one son ]Lonnie and his wife, Ramona[, of Chesapeake, Virginia; five grandchildren; 14]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:exact      "Lonnie and his wife, Ramona" ;
+        c:length     "27" ;
+        c:offset     "1190" ;
+        c:prefix     " Virgil and Garold.  \nMoye is survived by one son " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/dda7ee29-ec09-3c2c-854f-1a85e0e4b0f9> ;
+        c:suffix     ", of Chesapeake, Virginia; five grandchildren; 14" .
+
+<http://d.opencalais.com/conf/pershash-1/59835057-91b9-3e53-8d88-4ba67809d5f0>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.994" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.996" ;
+        c:subject             <http://d.opencalais.com/pershash-1/59835057-91b9-3e53-8d88-4ba67809d5f0> .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/Relevance/13>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c489280c-385d-3106-90ca-9210b3965ea8> .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/Instance/20>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ at the age of 92 years, 6 months, and 13 days.  \n]Moye[ grew up in the Dacoma/Hopeton area and attended]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:exact      "Moye" ;
+        c:length     "4" ;
+        c:offset     "497" ;
+        c:prefix     " at the age of 92 years, 6 months, and 13 days.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/1671b7c6-4ca1-30e2-9024-1ecfc575b4d9> ;
+        c:suffix     " grew up in the Dacoma/Hopeton area and attended" .
+
+<http://d.opencalais.com/conf/pershash-1/1671b7c6-4ca1-30e2-9024-1ecfc575b4d9>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.501" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.582" ;
+        c:subject             <http://d.opencalais.com/pershash-1/1671b7c6-4ca1-30e2-9024-1ecfc575b4d9> .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/Instance/33>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[son Lonnie and his wife, Ramona, of Chesapeake, ]Virginia[; five grandchildren; 14 great grandchildren; 2]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:exact      "Virginia" ;
+        c:length     "8" ;
+        c:offset     "1234" ;
+        c:prefix     "son Lonnie and his wife, Ramona, of Chesapeake, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c489280c-385d-3106-90ca-9210b3965ea8> ;
+        c:suffix     "; five grandchildren; 14 great grandchildren; 2" .
+
+<http://d.opencalais.com/conf/pershash-1/4ef19f83-96d8-3a62-8bf0-69d9d1ea637c>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/4ef19f83-96d8-3a62-8bf0-69d9d1ea637c> .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/Instance/46>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Interment is under the direction of ]Marshall Funeral[ Home of Alva.  \nMoye Alma Long, daughter of the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:exact      "Marshall Funeral" ;
+        c:length     "16" ;
+        c:offset     "183" ;
+        c:prefix     " Interment is under the direction of " ;
+        c:subject    <http://d.opencalais.com/pershash-1/0824c880-7431-3846-b832-1042cfbe83e9> ;
+        c:suffix     " Home of Alva.  \nMoye Alma Long, daughter of the" .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/Instance/18>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Graveside services for ]Moye Alma Long[ will be 1:00 p.m. Monday, December 1, 2008, at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:exact      "Moye Alma Long" ;
+        c:length     "14" ;
+        c:offset     "23" ;
+        c:prefix     "Graveside services for " ;
+        c:subject    <http://d.opencalais.com/pershash-1/1671b7c6-4ca1-30e2-9024-1ecfc575b4d9> ;
+        c:suffix     " will be 1:00 p.m. Monday, December 1, 2008, at" .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/Relevance/20>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e76cf256-9666-32d2-93c3-6251a837f11a> .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/1f4482fa-8b1f-d76a-8943-1a7e3fa9bf1a>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:latitude            "37.6666466469" ;
+        c:longitude           "-78.6145553005" ;
+        c:name                "Virginia,United States" ;
+        c:permid              "100328" ;
+        c:rcscode             "G:87" ;
+        c:shortname           "Virginia" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/c489280c-385d-3106-90ca-9210b3965ea8> .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/e9e27c26-4013-8712-a5f0-97dcdc412c26>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:latitude            "35.5607802899" ;
+        c:longitude           "-96.8460570462" ;
+        c:name                "Oklahoma,United States" ;
+        c:permid              "100229" ;
+        c:rcscode             "G:9H" ;
+        c:shortname           "Oklahoma" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61>
+        a                  <http://s.opencalais.com/1/type/sys/DocInfo> ;
+        c:calaisRequestID  "6b61bd3e-0a01-f7bc-14d9-140b3e412501" ;
+        c:docDate          "2015-05-26 17:24:06.582" ;
+        c:docTitle         "" ;
+        c:document         "Graveside services for Moye Alma Long will be 1:00 p.m. Monday, December 1, 2008, at the Alva Municipal Cemetery with Rev. Bob Brown officiating.  Interment is under the direction of Marshall Funeral Home of Alva.  \nMoye Alma Long, daughter of the late Richard Hezekiah Niles \"Dick? and Nettie Elizabeth (Anderson) Cummings, was born May 14, 1916, on the family farm in Woods County, Oklahoma, and passed away November 27, 2008, at Alva, Oklahoma, at the age of 92 years, 6 months, and 13 days.  \nMoye grew up in the Dacoma/Hopeton area and attended Friendship School before graduating from Alva High School.  After working at Anthony?s for a time, she was united in marriage to Murray Long in 1938.  Moye continued to work at Anthony?s, then at Ellison?s Dress Shop, before working at J. C. Penney?s.  \nAs a family they loved to go camping, boating and water skiing.  She was a member of the First Assembly of God Church.  \nBesides her parents, she was preceded in death by her husband, Murray; three sisters, Mabel Doud, Edna Haas, and infant Velma Cummings; and seven brothers, Earnest, Delbert, Lester, Richard, Harold, and two infants, Virgil and Garold.  \nMoye is survived by one son Lonnie and his wife, Ramona, of Chesapeake, Virginia; five grandchildren; 14 great grandchildren; 2 great great grandchildren; other relatives and many friends.  \nMemorial contributions may be made through the funeral home to the Alva First Assembly of God Church. \n\t\t\t" ;
+        c:id               "http://id.opencalais.com/RnDW0o0q0ajH5U0yvaZL0Q" ;
+        c:ontology         "http://163.231.4.65/owlschema/8.3/onecalais.owl.allmetadata.xml" .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/Instance/5>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[School.  After working at Anthony?s for a time, ]she was united in marriage to Murray Long in 1938[.  Moye continued to work at Anthony?s, then at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:exact      "she was united in marriage to Murray Long in 1938" ;
+        c:length     "49" ;
+        c:offset     "649" ;
+        c:prefix     "School.  After working at Anthony?s for a time, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3bf8eca5-d76e-38b8-808e-1ee69e227c70> ;
+        c:suffix     ".  Moye continued to work at Anthony?s, then at" .
+
+<http://d.opencalais.com/genericHasher-1/723f4787-65a4-39e5-8c86-78ae4e630aa9>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "God Church" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/Relevance/18>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce> .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/Instance/40>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Alva.  \nMoye Alma Long, daughter of the late ]Richard Hezekiah Niles[ \"Dick? and Nettie Elizabeth (Anderson) Cummings,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:exact      "Richard Hezekiah Niles" ;
+        c:length     "22" ;
+        c:offset     "253" ;
+        c:prefix     "of Alva.  \nMoye Alma Long, daughter of the late " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6bd9003a-1f36-364d-824b-d23190faffcf> ;
+        c:suffix     " \"Dick? and Nettie Elizabeth (Anderson) Cummings," .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/Relevance/4>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/conf/pershash-1/bb5e49f7-5e83-3564-ad3f-891f6c1d401a>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.86" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/bb5e49f7-5e83-3564-ad3f-891f6c1d401a> .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/Instance/12>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of the late Richard Hezekiah Niles \"Dick? and ]Nettie Elizabeth (Anderson) Cummings[, was born May 14, 1916, on the family farm in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:exact      "Nettie Elizabeth (Anderson) Cummings" ;
+        c:length     "36" ;
+        c:offset     "287" ;
+        c:prefix     "of the late Richard Hezekiah Niles \"Dick? and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/a735166d-9733-3133-8f02-ab03393097b3> ;
+        c:suffix     ", was born May 14, 1916, on the family farm in" .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/SocialTag/1>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Woods County, Oklahoma" ;
+        c:originalValue      "Woods County, Oklahoma" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/1fcae946-086d-3a26-bc84-7ee7397b8b27> .
+
+<http://d.opencalais.com/genericHasher-1/c6bff7b1-e904-3e81-8457-b0a7e72cd506>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Alva High School" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oklahoma" .
+
+<http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61/Instance/25>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ three sisters, Mabel Doud, Edna Haas, and infant ]Velma Cummings[; and seven brothers, Earnest, Delbert, Lester,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b3305fea-4412-335d-b7fc-65f1ae46bf61> ;
+        c:exact      "Velma Cummings" ;
+        c:length     "14" ;
+        c:offset     "1045" ;
+        c:prefix     " three sisters, Mabel Doud, Edna Haas, and infant " ;
+        c:subject    <http://d.opencalais.com/pershash-1/59835057-91b9-3e53-8d88-4ba67809d5f0> ;
+        c:suffix     "; and seven brothers, Earnest, Delbert, Lester," .

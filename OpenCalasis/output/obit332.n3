@@ -1,0 +1,1703 @@
+#Relations: FamilyRelation, PersonAttributes, PersonCareer, PersonLocation, PersonRelation
+#City: Coldwater, Las Vegas, Longdale, Thornton
+#Facility: Jude Children’s Hospital, Marshall Funeral Home of Alva, Wakita Cemetery
+#IndustryTerm: Funeral services
+#Organization: Christian Church, Freedom High School, St. Jude Children’s Hospital
+#Person: Catherine Bilyeu, Clayton Harvey, Connie White-Buckley, Darrel, David Kenyon, Frieda Henson, George, Harvey Dunlap, Howard Dunlap, Jackie McBride, James Leroy, Minnie Mary (McMurphy) Dunlap, Patsy Jean Rogers, Peggy Jean Hastings, Robert, Ron Pingelton, Sharon, Sharyn, Tyson Yarnell, Vida, Wendy
+#Position: butcher, handyman
+#ProvinceOrState: Kansas, Nevada, Oklahoma, Texas
+@prefix c:     <http://s.opencalais.com/1/pred/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://d.opencalais.com/pershash-1/d7ec5b46-9ae9-3869-8236-26cc188ff77a>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Harvey Dunlap" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Harvey" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Dunlap" ;
+        c:name               "Harvey Dunlap" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/e874fa3f-80d0-3099-8730-7ad1072231d6>
+        a                    <http://s.opencalais.com/1/type/em/e/Position> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "handyman" .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Instance/57>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[1 month, and two days.    \nJim graduated from ]Freedom High School[ and was trained to be a butcher.  He was united]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:exact      "Freedom High School" ;
+        c:length     "19" ;
+        c:offset     "564" ;
+        c:prefix     "1 month, and two days.    \nJim graduated from " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/bddd42db-8afa-3c90-a587-ec656b517117> ;
+        c:suffix     " and was trained to be a butcher.  He was united" .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Instance/36>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[at the Alva First Christian Church with Pastor ]Ron Pingelton[ officiating.  Interment will be 1:00 p.m. Friday]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:exact      "Ron Pingelton" ;
+        c:length     "13" ;
+        c:offset     "135" ;
+        c:prefix     "at the Alva First Christian Church with Pastor " ;
+        c:subject    <http://d.opencalais.com/pershash-1/85fb91a9-d8ce-3309-be28-75c4a36875c0> ;
+        c:suffix     " officiating.  Interment will be 1:00 p.m. Friday" .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Relevance/24>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Instance/15>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[may be made through the funeral home to St. ]Jude Children’s Hospital[. \n\t\t\t]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:exact      "Jude Children’s Hospital" ;
+        c:length     "24" ;
+        c:offset     "1636" ;
+        c:prefix     "may be made through the funeral home to St. " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/123e92c7-5fc2-3497-9169-0fae84f5fe83> ;
+        c:suffix     ". \n\t\t\t" .
+
+<http://d.opencalais.com/conf/pershash-1/c1575431-db2c-3810-8cbf-237b295f0f19>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.988" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.993" ;
+        c:subject             <http://d.opencalais.com/pershash-1/c1575431-db2c-3810-8cbf-237b295f0f19> .
+
+<http://d.opencalais.com/genericHasher-1/dd158e28-2ad2-359d-9f99-5ce4c15340ac>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Las Vegas" ;
+        c:person             <http://d.opencalais.com/pershash-1/9d2fac7d-cf2f-31fe-a8ef-d25584493eec> .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Relevance/3>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> .
+
+<http://d.opencalais.com/conf/pershash-1/85fb91a9-d8ce-3309-be28-75c4a36875c0>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/85fb91a9-d8ce-3309-be28-75c4a36875c0> .
+
+<http://d.opencalais.com/genericHasher-1/ec3f5fe5-3a94-37b5-a3b2-d307aba95d3b>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonAttributes> ;
+        c:birthdate          "1941-05-21" ;
+        c:birthplace         "Alva, Oklahoma" ;
+        c:forenduserdisplay  "false" ;
+        c:gender             "F" ;
+        c:person             <http://d.opencalais.com/pershash-1/a89cf68d-a3e6-3659-83aa-d0ded7701e20> .
+
+<http://d.opencalais.com/conf/pershash-1/69da4861-fbe3-3a4b-8ee6-19a21e7aaa16>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/69da4861-fbe3-3a4b-8ee6-19a21e7aaa16> .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Instance/65>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and Catherine Bilyeu and husband, Darrel of ]Coldwater[, Kansas; 13 grandchildren; 22 great]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:exact      "Coldwater" ;
+        c:length     "9" ;
+        c:offset     "1475" ;
+        c:prefix     "and Catherine Bilyeu and husband, Darrel of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/48c34119-ac5a-3349-a473-ed9032f4608e> ;
+        c:suffix     ", Kansas; 13 grandchildren; 22 great" .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Relevance/32>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/c42363bf-b5a5-3b80-bc1f-49532eb673a3> .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Instance/44>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[was united in marriage to Peggy Jean Hastings.  ]He[ worked as a handyman for anybody who needed]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:exact      "He" ;
+        c:length     "2" ;
+        c:offset     "669" ;
+        c:prefix     "was united in marriage to Peggy Jean Hastings.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/577c38a8-17bb-309c-9b18-1c444f1c4db8> ;
+        c:suffix     " worked as a handyman for anybody who needed" .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Instance/23>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Kansas, and Catherine Bilyeu and husband, ]Darrel of Coldwater, Kansas[; 13 grandchildren; 22 great grandchildren; other]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:exact      "Darrel of Coldwater, Kansas" ;
+        c:length     "27" ;
+        c:offset     "1465" ;
+        c:prefix     "Kansas, and Catherine Bilyeu and husband, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee4e8f08-df29-3900-b65e-4c267586e1ca> ;
+        c:suffix     "; 13 grandchildren; 22 great grandchildren; other" .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Relevance/11>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/123e92c7-5fc2-3497-9169-0fae84f5fe83> .
+
+<http://d.opencalais.com/genericHasher-1/307d8285-3e14-3c92-918b-f042dc6ca2d6>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/298b1077-36e3-32f8-a038-3c931893fbf2> , <http://d.opencalais.com/pershash-1/577c38a8-17bb-309c-9b18-1c444f1c4db8> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/genericHasher-1/3567b65f-9590-3c31-bf46-bfdd9404d11f>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Thornton" .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Instance/52>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Funeral Home of Alva.    \nJames Leroy “Jim” ]Dunlap[, son of the late Clayton Harvey and Minnie Mary]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:exact      "Dunlap" ;
+        c:length     "6" ;
+        c:offset     "328" ;
+        c:prefix     "Funeral Home of Alva.    \nJames Leroy “Jim” " ;
+        c:subject    <http://d.opencalais.com/pershash-1/a89cf68d-a3e6-3659-83aa-d0ded7701e20> ;
+        c:suffix     ", son of the late Clayton Harvey and Minnie Mary" .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Instance/6>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Bilyeu and husband, Darrel of Coldwater, ]Kansas[; 13 grandchildren; 22 great grandchildren; other]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:exact      "Kansas" ;
+        c:length     "6" ;
+        c:offset     "1486" ;
+        c:prefix     "Bilyeu and husband, Darrel of Coldwater, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> ;
+        c:suffix     "; 13 grandchildren; 22 great grandchildren; other" .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Instance/31>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[a.m. Friday, June 27, 2014, at the Alva First ]Christian Church[ with Pastor Ron Pingelton officiating. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:exact      "Christian Church" ;
+        c:length     "16" ;
+        c:offset     "106" ;
+        c:prefix     "a.m. Friday, June 27, 2014, at the Alva First " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c1e14c20-7ec2-3637-872f-855b5253364e> ;
+        c:suffix     " with Pastor Ron Pingelton officiating. " .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Relevance/19>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c1e14c20-7ec2-3637-872f-855b5253364e> .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Instance/10>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and husband, Robert, of Las Vegas, Nevada, and ]Jackie McBride[ and husband, George, of Thornton, Texas; two]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:exact      "Jackie McBride" ;
+        c:length     "14" ;
+        c:offset     "1197" ;
+        c:prefix     "and husband, Robert, of Las Vegas, Nevada, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/69da4861-fbe3-3a4b-8ee6-19a21e7aaa16> ;
+        c:suffix     " and husband, George, of Thornton, Texas; two" .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Instance/60>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Funeral services for ]James Leroy[ “Jim” Dunlap will be 10:00 a.m. Friday, June 27,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:exact      "James Leroy" ;
+        c:length     "11" ;
+        c:offset     "21" ;
+        c:prefix     "Funeral services for " ;
+        c:subject    <http://d.opencalais.com/pershash-1/780ed94d-5d74-32ad-84ab-2372c0082448> ;
+        c:suffix     " “Jim” Dunlap will be 10:00 a.m. Friday, June 27," .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Relevance/27>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/77c8f176-bc0f-34da-b3b2-1a396fa588ee> .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Instance/39>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and passed away June 23, 2014, at Alva, ]Oklahoma[, at the age of 73 years, 1 month, and two days. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "484" ;
+        c:prefix     "and passed away June 23, 2014, at Alva, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", at the age of 73 years, 1 month, and two days. " .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Instance/18>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Texas; two brothers, Howard Dunlap and wife, ]Sharyn[, of Longdale, Oklahoma, and Harvey Dunlap and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:exact      "Sharyn" ;
+        c:length     "6" ;
+        c:offset     "1291" ;
+        c:prefix     "Texas; two brothers, Howard Dunlap and wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/61ea0351-77e2-3fa8-804e-a611026733a7> ;
+        c:suffix     ", of Longdale, Oklahoma, and Harvey Dunlap and" .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Relevance/6>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/610e94bb-32b8-38de-b3c8-7ab463a2380a> .
+
+<http://d.opencalais.com/genericHasher-1/ee4e8f08-df29-3900-b65e-4c267586e1ca>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Coldwater" ;
+        c:person             <http://d.opencalais.com/pershash-1/c42363bf-b5a5-3b80-bc1f-49532eb673a3> .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/07011bdb-0b81-180b-5619-2839b9995800>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:latitude            "38.8215008889" ;
+        c:longitude           "-116.863863852" ;
+        c:name                "Nevada,United States" ;
+        c:permid              "100206" ;
+        c:rcscode             "G:57" ;
+        c:shortname           "Nevada" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/77c8f176-bc0f-34da-b3b2-1a396fa588ee> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/1e33c37b-26b8-b2e8-c19c-4c120be12511>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:latitude            "36.1333" ;
+        c:longitude           "-98.5503" ;
+        c:name                "Longdale,Oklahoma,United States" ;
+        c:shortname           "Longdale" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/ee97d97f-9650-3111-b3ab-bb94dc7cb9ad> .
+
+<http://d.opencalais.com/genericHasher-1/377e8773-11d4-3f73-936b-c6475fd87826>
+        a                    <http://s.opencalais.com/1/type/em/e/Position> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "butcher" .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Instance/68>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Longdale, Oklahoma, and Harvey Dunlap and wife, ]Wendy[, of Sharon, Oklahoma; two sisters, Patsy Jean]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:exact      "Wendy" ;
+        c:length     "5" ;
+        c:offset     "1350" ;
+        c:prefix     "Longdale, Oklahoma, and Harvey Dunlap and wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/a0afe2dc-c9b4-3cb7-81b6-880807354b58> ;
+        c:suffix     ", of Sharon, Oklahoma; two sisters, Patsy Jean" .
+
+<http://d.opencalais.com/conf/pershash-1/54516e73-13a5-3c4a-adbf-a4575b44f33b>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/54516e73-13a5-3c4a-adbf-a4575b44f33b> .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Relevance/35>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/c6602bc1-ffc3-3562-9709-20c40f2229b3> .
+
+<http://d.opencalais.com/genericHasher-1/93061e0f-98f7-3e65-990c-8b937efc282e>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Coldwater" ;
+        c:person             <http://d.opencalais.com/pershash-1/c1575431-db2c-3810-8cbf-237b295f0f19> .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Instance/1>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[wife, Wendy, of Sharon, Oklahoma; two sisters, ]Patsy Jean Rogers[ of Coldwater, Kansas, and Catherine Bilyeu and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:exact      "Patsy Jean Rogers" ;
+        c:length     "17" ;
+        c:offset     "1391" ;
+        c:prefix     "wife, Wendy, of Sharon, Oklahoma; two sisters, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/c1575431-db2c-3810-8cbf-237b295f0f19> ;
+        c:suffix     " of Coldwater, Kansas, and Catherine Bilyeu and" .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Instance/47>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[picture frames, rocking horses, and signs.  ]He[ loved to fish and enjoyed playing dominoes and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:exact      "He" ;
+        c:length     "2" ;
+        c:offset     "882" ;
+        c:prefix     "picture frames, rocking horses, and signs.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/577c38a8-17bb-309c-9b18-1c444f1c4db8> ;
+        c:suffix     " loved to fish and enjoyed playing dominoes and" .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Relevance/14>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce> .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Instance/26>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[to be a butcher.  He was united in marriage to ]Peggy Jean Hastings[.  He worked as a handyman for anybody who needed]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:exact      "Peggy Jean Hastings" ;
+        c:length     "19" ;
+        c:offset     "647" ;
+        c:prefix     "to be a butcher.  He was united in marriage to " ;
+        c:subject    <http://d.opencalais.com/pershash-1/298b1077-36e3-32f8-a038-3c931893fbf2> ;
+        c:suffix     ".  He worked as a handyman for anybody who needed" .
+
+<http://d.opencalais.com/pershash-1/102b8b76-9d8e-3563-a3d7-9050a7833a1d>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Tyson Yarnell" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Tyson" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Yarnell" ;
+        c:name               "Tyson Yarnell" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/d7ec5b46-9ae9-3869-8236-26cc188ff77a>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/d7ec5b46-9ae9-3869-8236-26cc188ff77a> .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Instance/55>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and Jackie McBride and husband, George, of ]Thornton[, Texas; two brothers, Howard Dunlap and wife,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:exact      "Thornton" ;
+        c:length     "8" ;
+        c:offset     "1236" ;
+        c:prefix     "and Jackie McBride and husband, George, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3567b65f-9590-3c31-bf46-bfdd9404d11f> ;
+        c:suffix     ", Texas; two brothers, Howard Dunlap and wife," .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Instance/9>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Vegas, Nevada, and Jackie McBride and husband, ]George[, of Thornton, Texas; two brothers, Howard Dunlap]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:exact      "George" ;
+        c:length     "6" ;
+        c:offset     "1225" ;
+        c:prefix     "Vegas, Nevada, and Jackie McBride and husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/ddbc39cd-bd7b-37da-a5bb-60b14b6615ae> ;
+        c:suffix     ", of Thornton, Texas; two brothers, Howard Dunlap" .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/cat/1>
+        a                    <http://s.opencalais.com/1/type/cat/DocCat> ;
+        c:docId              <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Human Interest" ;
+        c:score              "0.968" .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Relevance/22>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/73972fd8-e489-311b-9f44-d0005cd08a05> .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Instance/34>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ two brothers, Howard Dunlap and wife, Sharyn, of ]Longdale[, Oklahoma, and Harvey Dunlap and wife, Wendy, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:exact      "Longdale" ;
+        c:length     "8" ;
+        c:offset     "1302" ;
+        c:prefix     " two brothers, Howard Dunlap and wife, Sharyn, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee97d97f-9650-3111-b3ab-bb94dc7cb9ad> ;
+        c:suffix     ", Oklahoma, and Harvey Dunlap and wife, Wendy, of" .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Instance/13>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[his parents, he was preceded in death by ]his wife, Peggy[, and one sister, Frieda Henson.    \nJim is]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:exact      "his wife, Peggy" ;
+        c:length     "15" ;
+        c:offset     "996" ;
+        c:prefix     "his parents, he was preceded in death by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/369ec5a0-5e17-3587-9c38-dd99b071bce3> ;
+        c:suffix     ", and one sister, Frieda Henson.    \nJim is" .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/ComponentVersions>
+        a          <http://s.opencalais.com/1/type/sys/ComponentVersions> ;
+        c:docId    <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:version  "Housekeeper:OneCalais_8.3-RELEASE:113" , "OneCalais:OneCalais_8.3-RELEASE:364" , "index-vessels:201505231718:201505231718" , "Deals Index:201505261613:201505261613" , "FrenchIM:OneCalais_8.3-RELEASE:198" , "People Override:258:258" , "OA Override:271:271" , "config-sca-DataPackage:34:34" , "Dial4J:OneCalais_8.3-RELEASE:198" , "OneCalaisIM:OneCalais_8.3-RELEASE:198" , "AutocoderRuntimeIM:OneCalais_8.3-RELEASE:198" , "People Index:201505261608:201505261608" , "config-vessels:258:258" , "OA Index:201505252208:201505252208" , "WatchDog:OneCalais_8.3-RELEASE:113" , "config-negativeSignature:258:258" , "config-drugs:258:258" , "config-cse:271:271" , "BlackList:264:264" , "com.clearforest.infoext.dial4j.plugins-basistechconfig:OneCalais_8.3-RELEASE:225" , "config-refineries:258:258" , "Collector:OneCalais_8.3-RELEASE:113" , "SocialTags Index:201505191038:201505191038" , "config-physicalAssets-ports:258:258" , "SpanishIM:OneCalais_8.3-RELEASE:198" , "BrokerResearchIM:OneCalais_8.3-RELEASE:198" , "NextTags:OneCalais_8.3-RELEASE:113" , "SECHeaderMetadataIM:OneCalais_8.3-RELEASE:198" .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Relevance/1>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/c1575431-db2c-3810-8cbf-237b295f0f19> .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Instance/63>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[was united in marriage to Peggy Jean Hastings.  ]He worked as a handyman for anybody who needed anything done[.    \nHe was a member of the Alva First Christian]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:exact      "He worked as a handyman for anybody who needed anything done" ;
+        c:length     "60" ;
+        c:offset     "669" ;
+        c:prefix     "was united in marriage to Peggy Jean Hastings.  " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/77e0732b-092f-3abb-852e-4871f3fbc7d2> ;
+        c:suffix     ".    \nHe was a member of the Alva First Christian" .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Instance/42>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[   \nJames Leroy “Jim” Dunlap, son of the late ]Clayton Harvey[ and Minnie Mary (McMurphy) Dunlap, was born May]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:exact      "Clayton Harvey" ;
+        c:length     "14" ;
+        c:offset     "352" ;
+        c:prefix     "   \nJames Leroy “Jim” Dunlap, son of the late " ;
+        c:subject    <http://d.opencalais.com/pershash-1/577c38a8-17bb-309c-9b18-1c444f1c4db8> ;
+        c:suffix     " and Minnie Mary (McMurphy) Dunlap, was born May" .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Relevance/30>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/bddd42db-8afa-3c90-a587-ec656b517117> .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Instance/21>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Oklahoma, and passed away June 23, 2014, at ]Alva[, Oklahoma, at the age of 73 years, 1 month, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "478" ;
+        c:prefix     "Oklahoma, and passed away June 23, 2014, at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce> ;
+        c:suffix     ", Oklahoma, at the age of 73 years, 1 month, and" .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Relevance/9>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/377e8773-11d4-3f73-936b-c6475fd87826> .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Instance/50>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[his parents, he was preceded in death by ]his[ wife, Peggy, and one sister, Frieda Henson.   ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "996" ;
+        c:prefix     "his parents, he was preceded in death by " ;
+        c:subject    <http://d.opencalais.com/pershash-1/577c38a8-17bb-309c-9b18-1c444f1c4db8> ;
+        c:suffix     " wife, Peggy, and one sister, Frieda Henson.   " .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Instance/4>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Connie White-Buckley and husband, Robert, of ]Las Vegas[, Nevada, and Jackie McBride and husband, George,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:exact      "Las Vegas" ;
+        c:length     "9" ;
+        c:offset     "1174" ;
+        c:prefix     "Connie White-Buckley and husband, Robert, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/74bedf45-09a4-371a-8090-6776d1276c1a> ;
+        c:suffix     ", Nevada, and Jackie McBride and husband, George," .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Relevance/38>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/102b8b76-9d8e-3563-a3d7-9050a7833a1d> .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Instance/29>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[his parents, he was preceded in death by ]his wife, Peggy[, and one sister, Frieda Henson.    \nJim is]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:exact      "his wife, Peggy" ;
+        c:length     "15" ;
+        c:offset     "996" ;
+        c:prefix     "his parents, he was preceded in death by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/307d8285-3e14-3c92-918b-f042dc6ca2d6> ;
+        c:suffix     ", and one sister, Frieda Henson.    \nJim is" .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Relevance/17>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/298b1077-36e3-32f8-a038-3c931893fbf2> .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/SocialTag/2>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Dunlap" ;
+        c:originalValue      "Dunlap" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/fcdc3467-d41d-30f0-bb20-b26989f5dea2> .
+
+<http://d.opencalais.com/pershash-1/577c38a8-17bb-309c-9b18-1c444f1c4db8>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Clayton Harvey" ;
+        c:confidencelevel    "0.97" ;
+        c:firstname          "Clayton" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Harvey" ;
+        c:name               "Clayton Harvey" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Marshall Funeral Home of Alva" .
+
+<http://d.opencalais.com/pershash-1/a89cf68d-a3e6-3659-83aa-d0ded7701e20>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Minnie Mary Dunlap" ;
+        c:confidencelevel    "0.982" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Minnie Mary (McMurphy) Dunlap" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Kansas" .
+
+<http://d.opencalais.com/genericHasher-1/77e0732b-092f-3abb-852e-4871f3fbc7d2>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:forenduserdisplay  "true" ;
+        c:organization       <http://d.opencalais.com/genericHasher-1/bddd42db-8afa-3c90-a587-ec656b517117> ;
+        c:person             <http://d.opencalais.com/pershash-1/577c38a8-17bb-309c-9b18-1c444f1c4db8> ;
+        c:position           "handyman for anybody who needed anything done" ;
+        c:status             "past" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/62914270-0a1c-1bcc-880e-6dbe9fb82eb9>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:latitude            "31.4484328889" ;
+        c:longitude           "-97.7816569778" ;
+        c:name                "Texas,United States" ;
+        c:permid              "100299" ;
+        c:rcscode             "G:50" ;
+        c:shortname           "Texas" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Instance/58>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[may be made through the funeral home to ]St. Jude Children’s Hospital[. \n\t\t\t]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:exact      "St. Jude Children’s Hospital" ;
+        c:length     "28" ;
+        c:offset     "1632" ;
+        c:prefix     "may be made through the funeral home to " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b042225e-b67d-3208-8018-24476e09ba09> ;
+        c:suffix     ". \n\t\t\t" .
+
+<http://d.opencalais.com/pershash-1/a0afe2dc-c9b4-3cb7-81b6-880807354b58>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Wendy" ;
+        c:confidencelevel    "0.898" ;
+        c:firstname          "Wendy" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Wendy" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Instance/37>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ “Jim” Dunlap, son of the late Clayton Harvey and ]Minnie Mary (McMurphy) Dunlap, was born May 21, 1941, at Alva, Oklahoma[, and passed away June 23, 2014, at Alva,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:exact      "Minnie Mary (McMurphy) Dunlap, was born May 21, 1941, at Alva, Oklahoma" ;
+        c:length     "71" ;
+        c:offset     "371" ;
+        c:prefix     " “Jim” Dunlap, son of the late Clayton Harvey and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ec3f5fe5-3a94-37b5-a3b2-d307aba95d3b> ;
+        c:suffix     ", and passed away June 23, 2014, at Alva," .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Relevance/25>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/577c38a8-17bb-309c-9b18-1c444f1c4db8> .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Instance/16>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Vegas, Nevada, and Jackie McBride and husband, ]George, of Thornton, Texas[; two brothers, Howard Dunlap and wife, Sharyn,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:exact      "George, of Thornton, Texas" ;
+        c:length     "26" ;
+        c:offset     "1225" ;
+        c:prefix     "Vegas, Nevada, and Jackie McBride and husband, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e47c5198-bc95-3b14-88de-17597420149a> ;
+        c:suffix     "; two brothers, Howard Dunlap and wife, Sharyn," .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/meta>
+        a                 <http://s.opencalais.com/1/type/sys/DocInfoMeta> ;
+        c:contentType     "text/raw" ;
+        c:docId           <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:language        "English" ;
+        c:processingVer   "AllMetadata" ;
+        c:serverVersion   "OneCalais_8.3-RELEASE:364" ;
+        c:signature       "digestalg-1|xxV33XbJAVKiKltADuJseiq+ocA=|eGbrcumr7r45riGmjxwhsQ+Hc4QQUZB5Slpo5Yd7/dwwiJY7097hNw==" ;
+        c:stagsVer        "OneCalais_8.3-RELEASE-b11-2015-03-25_18:29:00" ;
+        c:submissionDate  "2015-05-26 17:20:59.212" ;
+        c:submitterCode   "0ca6a864-5659-789d-5f32-f365f695e757" .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Relevance/4>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/74bedf45-09a4-371a-8090-6776d1276c1a> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/d13d21d5-6af3-3506-c1b4-8ac8ae003c2d>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Texas" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:latitude            "31.4108" ;
+        c:longitude           "-96.5719" ;
+        c:name                "Thornton,Texas,United States" ;
+        c:shortname           "Thornton" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/3567b65f-9590-3c31-bf46-bfdd9404d11f> .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Instance/66>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Oklahoma, and Harvey Dunlap and wife, Wendy, of ]Sharon[, Oklahoma; two sisters, Patsy Jean Rogers of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:exact      "Sharon" ;
+        c:length     "6" ;
+        c:offset     "1360" ;
+        c:prefix     "Oklahoma, and Harvey Dunlap and wife, Wendy, of " ;
+        c:subject    <http://d.opencalais.com/pershash-1/c6602bc1-ffc3-3562-9709-20c40f2229b3> ;
+        c:suffix     ", Oklahoma; two sisters, Patsy Jean Rogers of" .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Relevance/33>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/780ed94d-5d74-32ad-84ab-2372c0082448> .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Instance/45>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[for anybody who needed anything done.    \n]He[ was a member of the Alva First Christian Church.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:exact      "He" ;
+        c:length     "2" ;
+        c:offset     "735" ;
+        c:prefix     "for anybody who needed anything done.    \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/577c38a8-17bb-309c-9b18-1c444f1c4db8> ;
+        c:suffix     " was a member of the Alva First Christian Church." .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Instance/24>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[]Funeral services[ for James Leroy “Jim” Dunlap will be 10:00 a.m.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:exact      "Funeral services" ;
+        c:length     "16" ;
+        c:offset     "0" ;
+        c:prefix     "" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee> ;
+        c:suffix     " for James Leroy “Jim” Dunlap will be 10:00 a.m." .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Relevance/12>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e874fa3f-80d0-3099-8730-7ad1072231d6> .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458>
+        a                  <http://s.opencalais.com/1/type/sys/DocInfo> ;
+        c:calaisRequestID  "392610ae-7612-6cdd-14d9-13dd94c12501" ;
+        c:docDate          "2015-05-26 17:20:59.543" ;
+        c:docTitle         "" ;
+        c:document         "Funeral services for James Leroy “Jim” Dunlap will be 10:00 a.m. Friday, June 27, 2014, at the Alva First Christian Church with Pastor Ron Pingelton officiating.  Interment will be 1:00 p.m. Friday at the Wakita Cemetery with Tyson Yarnell officiating under the direction of Marshall Funeral Home of Alva.    \nJames Leroy “Jim” Dunlap, son of the late Clayton Harvey and Minnie Mary (McMurphy) Dunlap, was born May 21, 1941, at Alva, Oklahoma, and passed away June 23, 2014, at Alva, Oklahoma, at the age of 73 years, 1 month, and two days.    \nJim graduated from Freedom High School and was trained to be a butcher.  He was united in marriage to Peggy Jean Hastings.  He worked as a handyman for anybody who needed anything done.    \nHe was a member of the Alva First Christian Church.  He was an excellent woodworker and enjoyed making picture frames, rocking horses, and signs.  He loved to fish and enjoyed playing dominoes and Solitaire.    \nBesides his parents, he was preceded in death by his wife, Peggy, and one sister, Frieda Henson.    \nJim is survived by one son, David Kenyon and wife, Vida, of Alva; two daughters, Connie White-Buckley and husband, Robert, of Las Vegas, Nevada, and Jackie McBride and husband, George, of Thornton, Texas; two brothers, Howard Dunlap and wife, Sharyn, of Longdale, Oklahoma, and Harvey Dunlap and wife, Wendy, of Sharon, Oklahoma; two sisters, Patsy Jean Rogers of Coldwater, Kansas, and Catherine Bilyeu and husband, Darrel of Coldwater, Kansas; 13 grandchildren; 22 great grandchildren; other relatives and friends.    \nMemorial contributions may be made through the funeral home to St. Jude Children’s Hospital. \n\t\t\t" ;
+        c:id               "http://id.opencalais.com/QgvGAhWpkGsZciES-ROsOw" ;
+        c:ontology         "http://163.231.4.65/owlschema/8.3/onecalais.owl.allmetadata.xml" .
+
+<http://d.opencalais.com/pershash-1/9d2fac7d-cf2f-31fe-a8ef-d25584493eec>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Robert" ;
+        c:confidencelevel    "0.991" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Robert" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Texas" .
+
+<http://d.opencalais.com/conf/pershash-1/102b8b76-9d8e-3563-a3d7-9050a7833a1d>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/102b8b76-9d8e-3563-a3d7-9050a7833a1d> .
+
+<http://d.opencalais.com/pershash-1/610e94bb-32b8-38de-b3c8-7ab463a2380a>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "David Kenyon" ;
+        c:confidencelevel    "0.997" ;
+        c:firstname          "David" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Kenyon" ;
+        c:name               "David Kenyon" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/pershash-1/61ea0351-77e2-3fa8-804e-a611026733a7>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Sharyn" ;
+        c:confidencelevel    "0.914" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Sharyn" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/pershash-1/73972fd8-e489-311b-9f44-d0005cd08a05>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Catherine Bilyeu" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Catherine" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Bilyeu" ;
+        c:name               "Catherine Bilyeu" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Instance/7>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Frieda Henson.    \nJim is survived by one son, ]David Kenyon[ and wife, Vida, of Alva; two daughters, Connie]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:exact      "David Kenyon" ;
+        c:length     "12" ;
+        c:offset     "1076" ;
+        c:prefix     "Frieda Henson.    \nJim is survived by one son, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/610e94bb-32b8-38de-b3c8-7ab463a2380a> ;
+        c:suffix     " and wife, Vida, of Alva; two daughters, Connie" .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Instance/53>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ “Jim” Dunlap, son of the late Clayton Harvey and ]Minnie Mary (McMurphy) Dunlap[, was born May 21, 1941, at Alva, Oklahoma, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:exact      "Minnie Mary (McMurphy) Dunlap" ;
+        c:length     "29" ;
+        c:offset     "371" ;
+        c:prefix     " “Jim” Dunlap, son of the late Clayton Harvey and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/a89cf68d-a3e6-3659-83aa-d0ded7701e20> ;
+        c:suffix     ", was born May 21, 1941, at Alva, Oklahoma, and" .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Instance/32>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[done.    \nHe was a member of the Alva First ]Christian Church[.  He was an excellent woodworker and enjoyed]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:exact      "Christian Church" ;
+        c:length     "16" ;
+        c:offset     "769" ;
+        c:prefix     "done.    \nHe was a member of the Alva First " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c1e14c20-7ec2-3637-872f-855b5253364e> ;
+        c:suffix     ".  He was an excellent woodworker and enjoyed" .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Relevance/20>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/15c5be8c-eb86-3ccd-98cf-318c8a828e93> .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Instance/11>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[from Freedom High School and was trained to be ]a butcher[.  He was united in marriage to Peggy Jean]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:exact      "a butcher" ;
+        c:length     "9" ;
+        c:offset     "606" ;
+        c:prefix     "from Freedom High School and was trained to be " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/377e8773-11d4-3f73-936b-c6475fd87826> ;
+        c:suffix     ".  He was united in marriage to Peggy Jean" .
+
+<http://d.opencalais.com/pershash-1/8485c868-a3d1-3742-9a0b-d361a22914d5>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Howard Dunlap" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Howard" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Dunlap" ;
+        c:name               "Howard Dunlap" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Instance/61>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[direction of Marshall Funeral Home of Alva.    \n]James Leroy[ “Jim” Dunlap, son of the late Clayton Harvey and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:exact      "James Leroy" ;
+        c:length     "11" ;
+        c:offset     "310" ;
+        c:prefix     "direction of Marshall Funeral Home of Alva.    \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/780ed94d-5d74-32ad-84ab-2372c0082448> ;
+        c:suffix     " “Jim” Dunlap, son of the late Clayton Harvey and" .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/lid/DefaultLangId>
+        a                    <http://s.opencalais.com/1/type/lid/DefaultLangId> ;
+        c:docId              <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:forenduserdisplay  "false" ;
+        c:lang               <http://d.opencalais.com/lid/DefaultLangId/English> ;
+        c:permid             "505062" .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Instance/40>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Howard Dunlap and wife, Sharyn, of Longdale, ]Oklahoma[, and Harvey Dunlap and wife, Wendy, of Sharon,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "1312" ;
+        c:prefix     "Howard Dunlap and wife, Sharyn, of Longdale, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", and Harvey Dunlap and wife, Wendy, of Sharon," .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Relevance/28>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3567b65f-9590-3c31-bf46-bfdd9404d11f> .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Instance/19>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Tyson Yarnell officiating under the direction of ]Marshall Funeral Home of Alva[.    \nJames Leroy “Jim” Dunlap, son of the late]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:exact      "Marshall Funeral Home of Alva" ;
+        c:length     "29" ;
+        c:offset     "275" ;
+        c:prefix     " Tyson Yarnell officiating under the direction of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce> ;
+        c:suffix     ".    \nJames Leroy “Jim” Dunlap, son of the late" .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Relevance/7>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/ddbc39cd-bd7b-37da-a5bb-60b14b6615ae> .
+
+<http://d.opencalais.com/genericHasher-1/77c8f176-bc0f-34da-b3b2-1a396fa588ee>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Nevada" .
+
+<http://d.opencalais.com/genericHasher-1/369ec5a0-5e17-3587-9c38-dd99b071bce3>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "wife" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/577c38a8-17bb-309c-9b18-1c444f1c4db8> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/298b1077-36e3-32f8-a038-3c931893fbf2> .
+
+<http://d.opencalais.com/pershash-1/d98fb359-dfbe-368c-8dc9-7f192e4a637d>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Frieda Henson" ;
+        c:confidencelevel    "0.993" ;
+        c:firstname          "Frieda" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Henson" ;
+        c:name               "Frieda Henson" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/1c2bce8f-6748-376c-a776-7ed129518985>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.769" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/1c2bce8f-6748-376c-a776-7ed129518985> .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Instance/69>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[be 1:00 p.m. Friday at the Wakita Cemetery with ]Tyson Yarnell[ officiating under the direction of Marshall]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:exact      "Tyson Yarnell" ;
+        c:length     "13" ;
+        c:offset     "226" ;
+        c:prefix     "be 1:00 p.m. Friday at the Wakita Cemetery with " ;
+        c:subject    <http://d.opencalais.com/pershash-1/102b8b76-9d8e-3563-a3d7-9050a7833a1d> ;
+        c:suffix     " officiating under the direction of Marshall" .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Relevance/36>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/d98fb359-dfbe-368c-8dc9-7f192e4a637d> .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Instance/48>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[playing dominoes and Solitaire.    \nBesides ]his[ parents, he was preceded in death by his wife,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "955" ;
+        c:prefix     "playing dominoes and Solitaire.    \nBesides " ;
+        c:subject    <http://d.opencalais.com/pershash-1/577c38a8-17bb-309c-9b18-1c444f1c4db8> ;
+        c:suffix     " parents, he was preceded in death by his wife," .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Instance/2>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Kenyon and wife, Vida, of Alva; two daughters, ]Connie White-Buckley[ and husband, Robert, of Las Vegas, Nevada, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:exact      "Connie White-Buckley" ;
+        c:length     "20" ;
+        c:offset     "1129" ;
+        c:prefix     "Kenyon and wife, Vida, of Alva; two daughters, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/54516e73-13a5-3c4a-adbf-a4575b44f33b> ;
+        c:suffix     " and husband, Robert, of Las Vegas, Nevada, and" .
+
+<http://d.opencalais.com/genericHasher-1/bddd42db-8afa-3c90-a587-ec656b517117>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Freedom High School" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Instance/27>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[parents, he was preceded in death by his wife, ]Peggy[, and one sister, Frieda Henson.    \nJim is]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:exact      "Peggy" ;
+        c:length     "5" ;
+        c:offset     "1006" ;
+        c:prefix     "parents, he was preceded in death by his wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/298b1077-36e3-32f8-a038-3c931893fbf2> ;
+        c:suffix     ", and one sister, Frieda Henson.    \nJim is" .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Relevance/15>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee> .
+
+<http://d.opencalais.com/genericHasher-1/e82d4879-f202-305b-8372-6221693ef2fa>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Longdale" ;
+        c:person             <http://d.opencalais.com/pershash-1/61ea0351-77e2-3fa8-804e-a611026733a7> .
+
+<http://d.opencalais.com/conf/pershash-1/577c38a8-17bb-309c-9b18-1c444f1c4db8>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.97" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.984" ;
+        c:subject             <http://d.opencalais.com/pershash-1/577c38a8-17bb-309c-9b18-1c444f1c4db8> .
+
+<http://d.opencalais.com/genericHasher-1/123e92c7-5fc2-3497-9169-0fae84f5fe83>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Jude Children’s Hospital" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/c4dfaff1-af8c-0f92-ec4e-3b7af88d5ab4>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Nevada" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:latitude            "36.175" ;
+        c:longitude           "-115.1364" ;
+        c:name                "Las Vegas,Nevada,United States" ;
+        c:rcscode             "G:2DT" ;
+        c:shortname           "Las Vegas" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/74bedf45-09a4-371a-8090-6776d1276c1a> .
+
+<http://d.opencalais.com/conf/pershash-1/a89cf68d-a3e6-3659-83aa-d0ded7701e20>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.982" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.989" ;
+        c:subject             <http://d.opencalais.com/pershash-1/a89cf68d-a3e6-3659-83aa-d0ded7701e20> .
+
+<http://d.opencalais.com/genericHasher-1/b042225e-b67d-3208-8018-24476e09ba09>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "St. Jude Children’s Hospital" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/a0afe2dc-c9b4-3cb7-81b6-880807354b58>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.898" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/a0afe2dc-c9b4-3cb7-81b6-880807354b58> .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Instance/56>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ two daughters, Connie White-Buckley and husband, ]Robert[, of Las Vegas, Nevada, and Jackie McBride and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:exact      "Robert" ;
+        c:length     "6" ;
+        c:offset     "1163" ;
+        c:prefix     " two daughters, Connie White-Buckley and husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9d2fac7d-cf2f-31fe-a8ef-d25584493eec> ;
+        c:suffix     ", of Las Vegas, Nevada, and Jackie McBride and" .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Instance/35>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Patsy Jean Rogers of Coldwater, Kansas, and ]Catherine Bilyeu[ and husband, Darrel of Coldwater, Kansas; 13]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:exact      "Catherine Bilyeu" ;
+        c:length     "16" ;
+        c:offset     "1435" ;
+        c:prefix     "Patsy Jean Rogers of Coldwater, Kansas, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/73972fd8-e489-311b-9f44-d0005cd08a05> ;
+        c:suffix     " and husband, Darrel of Coldwater, Kansas; 13" .
+
+<http://d.opencalais.com/genericHasher-1/e47c5198-bc95-3b14-88de-17597420149a>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Thornton" ;
+        c:person             <http://d.opencalais.com/pershash-1/ddbc39cd-bd7b-37da-a5bb-60b14b6615ae> .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Relevance/23>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/85fb91a9-d8ce-3309-be28-75c4a36875c0> .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Instance/14>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[is survived by one son, David Kenyon and wife, ]Vida[, of Alva; two daughters, Connie White-Buckley]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:exact      "Vida" ;
+        c:length     "4" ;
+        c:offset     "1099" ;
+        c:prefix     "is survived by one son, David Kenyon and wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/1c2bce8f-6748-376c-a776-7ed129518985> ;
+        c:suffix     ", of Alva; two daughters, Connie White-Buckley" .
+
+<http://d.opencalais.com/conf/pershash-1/c42363bf-b5a5-3b80-bc1f-49532eb673a3>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.914" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.932" ;
+        c:subject             <http://d.opencalais.com/pershash-1/c42363bf-b5a5-3b80-bc1f-49532eb673a3> .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Relevance/2>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/54516e73-13a5-3c4a-adbf-a4575b44f33b> .
+
+<http://d.opencalais.com/conf/pershash-1/780ed94d-5d74-32ad-84ab-2372c0082448>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.98" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/780ed94d-5d74-32ad-84ab-2372c0082448> .
+
+<http://d.opencalais.com/pershash-1/298b1077-36e3-32f8-a038-3c931893fbf2>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Peggy Jean Hastings" ;
+        c:confidencelevel    "0.994" ;
+        c:firstname          "Peggy" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Hastings" ;
+        c:middlename         "Jean" ;
+        c:name               "Peggy Jean Hastings" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/pershash-1/c6602bc1-ffc3-3562-9709-20c40f2229b3>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Sharon" ;
+        c:confidencelevel    "0.979" ;
+        c:firstname          "Sharon" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Sharon" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Instance/64>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Oklahoma; two sisters, Patsy Jean Rogers of ]Coldwater[, Kansas, and Catherine Bilyeu and husband,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:exact      "Coldwater" ;
+        c:length     "9" ;
+        c:offset     "1412" ;
+        c:prefix     "Oklahoma; two sisters, Patsy Jean Rogers of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/48c34119-ac5a-3349-a473-ed9032f4608e> ;
+        c:suffix     ", Kansas, and Catherine Bilyeu and husband," .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Relevance/31>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b042225e-b67d-3208-8018-24476e09ba09> .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Instance/43>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[High School and was trained to be a butcher.  ]He[ was united in marriage to Peggy Jean Hastings. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:exact      "He" ;
+        c:length     "2" ;
+        c:offset     "618" ;
+        c:prefix     "High School and was trained to be a butcher.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/577c38a8-17bb-309c-9b18-1c444f1c4db8> ;
+        c:suffix     " was united in marriage to Peggy Jean Hastings. " .
+
+<http://d.opencalais.com/conf/pershash-1/9d2fac7d-cf2f-31fe-a8ef-d25584493eec>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.991" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.932" ;
+        c:subject             <http://d.opencalais.com/pershash-1/9d2fac7d-cf2f-31fe-a8ef-d25584493eec> .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Instance/22>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[by one son, David Kenyon and wife, Vida, of ]Alva[; two daughters, Connie White-Buckley and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "1108" ;
+        c:prefix     "by one son, David Kenyon and wife, Vida, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce> ;
+        c:suffix     "; two daughters, Connie White-Buckley and" .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Relevance/10>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/1c2bce8f-6748-376c-a776-7ed129518985> .
+
+<http://d.opencalais.com/conf/pershash-1/610e94bb-32b8-38de-b3c8-7ab463a2380a>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.997" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.995" ;
+        c:subject             <http://d.opencalais.com/pershash-1/610e94bb-32b8-38de-b3c8-7ab463a2380a> .
+
+<http://d.opencalais.com/conf/pershash-1/61ea0351-77e2-3fa8-804e-a611026733a7>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.914" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.932" ;
+        c:subject             <http://d.opencalais.com/pershash-1/61ea0351-77e2-3fa8-804e-a611026733a7> .
+
+<http://d.opencalais.com/conf/pershash-1/73972fd8-e489-311b-9f44-d0005cd08a05>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/73972fd8-e489-311b-9f44-d0005cd08a05> .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Instance/51>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[services for James Leroy “Jim” ]Dunlap[ will be 10:00 a.m. Friday, June 27, 2014, at the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:exact      "Dunlap" ;
+        c:length     "6" ;
+        c:offset     "39" ;
+        c:prefix     "services for James Leroy “Jim” " ;
+        c:subject    <http://d.opencalais.com/pershash-1/a89cf68d-a3e6-3659-83aa-d0ded7701e20> ;
+        c:suffix     " will be 10:00 a.m. Friday, June 27, 2014, at the" .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Instance/5>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[two sisters, Patsy Jean Rogers of Coldwater, ]Kansas[, and Catherine Bilyeu and husband, Darrel of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:exact      "Kansas" ;
+        c:length     "6" ;
+        c:offset     "1423" ;
+        c:prefix     "two sisters, Patsy Jean Rogers of Coldwater, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> ;
+        c:suffix     ", and Catherine Bilyeu and husband, Darrel of" .
+
+<http://d.opencalais.com/conf/pershash-1/8485c868-a3d1-3742-9a0b-d361a22914d5>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/8485c868-a3d1-3742-9a0b-d361a22914d5> .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Instance/30>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and wife, Sharyn, of Longdale, Oklahoma, and ]Harvey Dunlap[ and wife, Wendy, of Sharon, Oklahoma; two]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:exact      "Harvey Dunlap" ;
+        c:length     "13" ;
+        c:offset     "1326" ;
+        c:prefix     "and wife, Sharyn, of Longdale, Oklahoma, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/d7ec5b46-9ae9-3869-8236-26cc188ff77a> ;
+        c:suffix     " and wife, Wendy, of Sharon, Oklahoma; two" .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Relevance/18>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/d7ec5b46-9ae9-3869-8236-26cc188ff77a> .
+
+<http://d.opencalais.com/pershash-1/ddbc39cd-bd7b-37da-a5bb-60b14b6615ae>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "George" ;
+        c:confidencelevel    "0.988" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "George" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/SocialTag/3>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Wakita" ;
+        c:originalValue      "Wakita" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/7ac2549f-f6c2-3a96-a57d-824aca3f42da> .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Instance/59>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Kansas, and Catherine Bilyeu and husband, ]Darrel[ of Coldwater, Kansas; 13 grandchildren; 22 great]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:exact      "Darrel" ;
+        c:length     "6" ;
+        c:offset     "1465" ;
+        c:prefix     "Kansas, and Catherine Bilyeu and husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/c42363bf-b5a5-3b80-bc1f-49532eb673a3> ;
+        c:suffix     " of Coldwater, Kansas; 13 grandchildren; 22 great" .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Instance/38>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Dunlap, was born May 21, 1941, at Alva, ]Oklahoma[, and passed away June 23, 2014, at Alva,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "434" ;
+        c:prefix     "Dunlap, was born May 21, 1941, at Alva, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", and passed away June 23, 2014, at Alva," .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Relevance/26>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/a89cf68d-a3e6-3659-83aa-d0ded7701e20> .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Instance/17>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[marriage to Peggy Jean Hastings.  He worked as ]a handyman[ for anybody who needed anything done.    \nHe was]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:exact      "a handyman" ;
+        c:length     "10" ;
+        c:offset     "682" ;
+        c:prefix     "marriage to Peggy Jean Hastings.  He worked as " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e874fa3f-80d0-3099-8730-7ad1072231d6> ;
+        c:suffix     " for anybody who needed anything done.    \nHe was" .
+
+<http://d.opencalais.com/pershash-1/c1575431-db2c-3810-8cbf-237b295f0f19>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Patsy Jean Rogers" ;
+        c:confidencelevel    "0.988" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Patsy Jean Rogers" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/pershash-1/1c2bce8f-6748-376c-a776-7ed129518985>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Vida" ;
+        c:confidencelevel    "0.769" ;
+        c:firstname          "Vida" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Vida" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Relevance/5>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> .
+
+<http://d.opencalais.com/genericHasher-1/c1e14c20-7ec2-3637-872f-855b5253364e>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Christian Church" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/d98fb359-dfbe-368c-8dc9-7f192e4a637d>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.993" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.995" ;
+        c:subject             <http://d.opencalais.com/pershash-1/d98fb359-dfbe-368c-8dc9-7f192e4a637d> .
+
+<http://d.opencalais.com/pershash-1/85fb91a9-d8ce-3309-be28-75c4a36875c0>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Ron Pingelton" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Ron" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Pingelton" ;
+        c:name               "Ron Pingelton" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Instance/67>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in death by his wife, Peggy, and one sister, ]Frieda Henson[.    \nJim is survived by one son, David Kenyon]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:exact      "Frieda Henson" ;
+        c:length     "13" ;
+        c:offset     "1029" ;
+        c:prefix     "in death by his wife, Peggy, and one sister, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/d98fb359-dfbe-368c-8dc9-7f192e4a637d> ;
+        c:suffix     ".    \nJim is survived by one son, David Kenyon" .
+
+<http://d.opencalais.com/genericHasher-1/48c34119-ac5a-3349-a473-ed9032f4608e>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Coldwater" .
+
+<http://d.opencalais.com/genericHasher-1/15c5be8c-eb86-3ccd-98cf-318c8a828e93>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Wakita Cemetery" .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Relevance/34>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/48c34119-ac5a-3349-a473-ed9032f4608e> .
+
+<http://d.opencalais.com/pershash-1/69da4861-fbe3-3a4b-8ee6-19a21e7aaa16>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Jackie McBride" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Jackie" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "McBride" ;
+        c:name               "Jackie McBride" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Instance/46>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[a member of the Alva First Christian Church.  ]He[ was an excellent woodworker and enjoyed making]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:exact      "He" ;
+        c:length     "2" ;
+        c:offset     "788" ;
+        c:prefix     "a member of the Alva First Christian Church.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/577c38a8-17bb-309c-9b18-1c444f1c4db8> ;
+        c:suffix     " was an excellent woodworker and enjoyed making" .
+
+<http://d.opencalais.com/genericHasher-1/ee97d97f-9650-3111-b3ab-bb94dc7cb9ad>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Longdale" .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Instance/25>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[George, of Thornton, Texas; two brothers, ]Howard Dunlap[ and wife, Sharyn, of Longdale, Oklahoma, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:exact      "Howard Dunlap" ;
+        c:length     "13" ;
+        c:offset     "1267" ;
+        c:prefix     "George, of Thornton, Texas; two brothers, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/8485c868-a3d1-3742-9a0b-d361a22914d5> ;
+        c:suffix     " and wife, Sharyn, of Longdale, Oklahoma, and" .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Relevance/13>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/61ea0351-77e2-3fa8-804e-a611026733a7> .
+
+<http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee>
+        a                    <http://s.opencalais.com/1/type/em/e/IndustryTerm> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Funeral services" .
+
+<http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oklahoma" .
+
+<http://d.opencalais.com/pershash-1/c42363bf-b5a5-3b80-bc1f-49532eb673a3>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Darrel" ;
+        c:confidencelevel    "0.914" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Darrel" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Instance/8>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ two daughters, Connie White-Buckley and husband, ]Robert, of Las Vegas, Nevada[, and Jackie McBride and husband, George, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:exact      "Robert, of Las Vegas, Nevada" ;
+        c:length     "28" ;
+        c:offset     "1163" ;
+        c:prefix     " two daughters, Connie White-Buckley and husband, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/dd158e28-2ad2-359d-9f99-5ce4c15340ac> ;
+        c:suffix     ", and Jackie McBride and husband, George, of" .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Instance/54>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ White-Buckley and husband, Robert, of Las Vegas, ]Nevada[, and Jackie McBride and husband, George, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:exact      "Nevada" ;
+        c:length     "6" ;
+        c:offset     "1185" ;
+        c:prefix     " White-Buckley and husband, Robert, of Las Vegas, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/77c8f176-bc0f-34da-b3b2-1a396fa588ee> ;
+        c:suffix     ", and Jackie McBride and husband, George, of" .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Relevance/21>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee97d97f-9650-3111-b3ab-bb94dc7cb9ad> .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Instance/33>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Interment will be 1:00 p.m. Friday at the ]Wakita Cemetery[ with Tyson Yarnell officiating under the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:exact      "Wakita Cemetery" ;
+        c:length     "15" ;
+        c:offset     "205" ;
+        c:prefix     " Interment will be 1:00 p.m. Friday at the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/15c5be8c-eb86-3ccd-98cf-318c8a828e93> ;
+        c:suffix     " with Tyson Yarnell officiating under the" .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Instance/12>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Texas; two brothers, Howard Dunlap and wife, ]Sharyn, of Longdale, Oklahoma[, and Harvey Dunlap and wife, Wendy, of Sharon,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:exact      "Sharyn, of Longdale, Oklahoma" ;
+        c:length     "29" ;
+        c:offset     "1291" ;
+        c:prefix     "Texas; two brothers, Howard Dunlap and wife, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e82d4879-f202-305b-8372-6221693ef2fa> ;
+        c:suffix     ", and Harvey Dunlap and wife, Wendy, of Sharon," .
+
+<http://d.opencalais.com/pershash-1/780ed94d-5d74-32ad-84ab-2372c0082448>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "James Leroy" ;
+        c:confidencelevel    "0.98" ;
+        c:firstname          "James" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Leroy" ;
+        c:name               "James Leroy" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/ec80b062-8d1e-123a-1d6e-8bd0b7355690>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:latitude            "38.45" ;
+        c:longitude           "-96.5333" ;
+        c:name                "Kansas,United States" ;
+        c:permid              "100151" ;
+        c:rcscode             "G:6D" ;
+        c:shortname           "Kansas" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> .
+
+<http://d.opencalais.com/conf/pershash-1/298b1077-36e3-32f8-a038-3c931893fbf2>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.994" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.996" ;
+        c:subject             <http://d.opencalais.com/pershash-1/298b1077-36e3-32f8-a038-3c931893fbf2> .
+
+<http://d.opencalais.com/conf/pershash-1/c6602bc1-ffc3-3562-9709-20c40f2229b3>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.979" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.956" ;
+        c:subject             <http://d.opencalais.com/pershash-1/c6602bc1-ffc3-3562-9709-20c40f2229b3> .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Instance/62>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[wife, Wendy, of Sharon, Oklahoma; two sisters, ]Patsy Jean Rogers of Coldwater, Kansas[, and Catherine Bilyeu and husband, Darrel of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:exact      "Patsy Jean Rogers of Coldwater, Kansas" ;
+        c:length     "38" ;
+        c:offset     "1391" ;
+        c:prefix     "wife, Wendy, of Sharon, Oklahoma; two sisters, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/93061e0f-98f7-3e65-990c-8b937efc282e> ;
+        c:suffix     ", and Catherine Bilyeu and husband, Darrel of" .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Instance/41>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and Harvey Dunlap and wife, Wendy, of Sharon, ]Oklahoma[; two sisters, Patsy Jean Rogers of Coldwater,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "1368" ;
+        c:prefix     "and Harvey Dunlap and wife, Wendy, of Sharon, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     "; two sisters, Patsy Jean Rogers of Coldwater," .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Relevance/29>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/9d2fac7d-cf2f-31fe-a8ef-d25584493eec> .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Instance/20>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[(McMurphy) Dunlap, was born May 21, 1941, at ]Alva[, Oklahoma, and passed away June 23, 2014, at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "428" ;
+        c:prefix     "(McMurphy) Dunlap, was born May 21, 1941, at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce> ;
+        c:suffix     ", Oklahoma, and passed away June 23, 2014, at" .
+
+<http://d.opencalais.com/genericHasher-1/74bedf45-09a4-371a-8090-6776d1276c1a>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Las Vegas" .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Relevance/8>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/69da4861-fbe3-3a4b-8ee6-19a21e7aaa16> .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/e9e27c26-4013-8712-a5f0-97dcdc412c26>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:latitude            "35.5607802899" ;
+        c:longitude           "-96.8460570462" ;
+        c:name                "Oklahoma,United States" ;
+        c:permid              "100229" ;
+        c:rcscode             "G:9H" ;
+        c:shortname           "Oklahoma" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Relevance/37>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/a0afe2dc-c9b4-3cb7-81b6-880807354b58> .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Instance/49>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ dominoes and Solitaire.    \nBesides his parents, ]he[ was preceded in death by his wife, Peggy, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:exact      "he" ;
+        c:length     "2" ;
+        c:offset     "968" ;
+        c:prefix     " dominoes and Solitaire.    \nBesides his parents, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/577c38a8-17bb-309c-9b18-1c444f1c4db8> ;
+        c:suffix     " was preceded in death by his wife, Peggy, and" .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Instance/3>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Jackie McBride and husband, George, of Thornton, ]Texas[; two brothers, Howard Dunlap and wife, Sharyn,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:exact      "Texas" ;
+        c:length     "5" ;
+        c:offset     "1246" ;
+        c:prefix     " Jackie McBride and husband, George, of Thornton, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> ;
+        c:suffix     "; two brothers, Howard Dunlap and wife, Sharyn," .
+
+<http://d.opencalais.com/pershash-1/54516e73-13a5-3c4a-adbf-a4575b44f33b>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Connie White-Buckley" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Connie" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "White-Buckley" ;
+        c:name               "Connie White-Buckley" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Instance/28>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[High School and was trained to be a butcher.  ]He was united in marriage to Peggy Jean Hastings[.  He worked as a handyman for anybody who needed]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:exact      "He was united in marriage to Peggy Jean Hastings" ;
+        c:length     "48" ;
+        c:offset     "618" ;
+        c:prefix     "High School and was trained to be a butcher.  " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/307d8285-3e14-3c92-918b-f042dc6ca2d6> ;
+        c:suffix     ".  He worked as a handyman for anybody who needed" .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/Relevance/16>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/8485c868-a3d1-3742-9a0b-d361a22914d5> .
+
+<http://d.opencalais.com/conf/pershash-1/ddbc39cd-bd7b-37da-a5bb-60b14b6615ae>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.988" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.932" ;
+        c:subject             <http://d.opencalais.com/pershash-1/ddbc39cd-bd7b-37da-a5bb-60b14b6615ae> .
+
+<http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458/SocialTag/1>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/6234fc32-d8ec-357b-a95b-bc1d2502d458> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Alva" ;
+        c:originalValue      "Alva" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/17f61973-ed95-369b-b381-dec22ce26b2a> .

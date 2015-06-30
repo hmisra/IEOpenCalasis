@@ -1,0 +1,1354 @@
+#Relations: FamilyRelation, PersonAttributes, PersonCareer, PersonEducation, PersonLocation, PersonRelation
+#City: Lakeland, Liberty, Memphis, Tulsa
+#Facility: Alva Municipal Cemetery, Marshall Funeral Home, Marshall Funeral Home Chapel
+#IndustryTerm: Funeral services
+#Organization: Alva High School, Honduras Mission, Protestant Episcopal Church
+#Person: Baylie Meredith Perry, Beth Diacon, Brent Perry, Britni Diacon, Brooke Jordan Perry, Bruce Meredith Perry, Carolyn Perry, Jim, Jimmy Jordan Perry, Mendee, Perry Tire
+#Position: avid golfer
+#ProvinceOrState: Florida, Missouri, Oklahoma, Tennessee
+@prefix c:     <http://s.opencalais.com/1/pred/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Instance/7>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Perry, was born November 30, 1959, at Memphis, ]Tennessee[, and passed away May 5, 2008, at St. Francis]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:exact      "Tennessee" ;
+        c:length     "9" ;
+        c:offset     "444" ;
+        c:prefix     "Perry, was born November 30, 1959, at Memphis, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0a7fdcc6-a3b7-333e-8d28-91e08d809b69> ;
+        c:suffix     ", and passed away May 5, 2008, at St. Francis" .
+
+<http://d.opencalais.com/genericHasher-1/8ff1d6df-d51b-3c9c-8a90-12ebda3d4e07>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Lakeland" ;
+        c:person             <http://d.opencalais.com/pershash-1/015553d1-a934-35f4-8923-f9860caa949c> .
+
+<http://d.opencalais.com/conf/pershash-1/058565ac-ba9a-37ef-8f55-9a5d6422d15f>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.986" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.99" ;
+        c:subject             <http://d.opencalais.com/pershash-1/058565ac-ba9a-37ef-8f55-9a5d6422d15f> .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Instance/21>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Lakeland, Florida; one brother Brent Perry, and ]his wife, Mendee, of Tulsa[; and one sister; Beth Diacon of Lakeland,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:exact      "his wife, Mendee, of Tulsa" ;
+        c:length     "26" ;
+        c:offset     "1089" ;
+        c:prefix     "Lakeland, Florida; one brother Brent Perry, and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/fb29a543-0850-3e8d-9469-f8e457a85b62> ;
+        c:suffix     "; and one sister; Beth Diacon of Lakeland," .
+
+<http://d.opencalais.com/genericHasher-1/8eade039-a4ea-3277-86f0-dccd360f428f>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Alva Municipal Cemetery" .
+
+<http://d.opencalais.com/genericHasher-1/ca0a21df-e760-37f9-9410-6c435302d516>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Liberty" ;
+        c:person             <http://d.opencalais.com/pershash-1/058565ac-ba9a-37ef-8f55-9a5d6422d15f> .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Instance/34>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[may be made through the funeral home to the ]Honduras Mission[ of the All Saint?s Episcopal Church.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:exact      "Honduras Mission" ;
+        c:length     "16" ;
+        c:offset     "1284" ;
+        c:prefix     "may be made through the funeral home to the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9ee7f8a3-a643-3d76-9b68-4f6d054d4642> ;
+        c:suffix     " of the All Saint?s Episcopal Church." .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/SocialTag/1>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Alva" ;
+        c:originalValue      "Alva" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/17f61973-ed95-369b-b381-dec22ce26b2a> .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Instance/1>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[under the direction of Marshall Funeral Home.  \n]Bruce Perry, son of Carolyn[ (Caldwell) and the late Jimmy Jordan Perry, was]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:exact      "Bruce Perry, son of Carolyn" ;
+        c:length     "27" ;
+        c:offset     "332" ;
+        c:prefix     "under the direction of Marshall Funeral Home.  \n" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/da9d2d0c-1504-38e4-a5da-8064d65275b8> ;
+        c:suffix     " (Caldwell) and the late Jimmy Jordan Perry, was" .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Instance/47>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Perry, son of Carolyn (Caldwell) and the late ]Jimmy Jordan Perry, was born November 30, 1959, at Memphis, Tennessee[, and passed away May 5, 2008, at St. Francis]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:exact      "Jimmy Jordan Perry, was born November 30, 1959, at Memphis, Tennessee" ;
+        c:length     "69" ;
+        c:offset     "384" ;
+        c:prefix     "Perry, son of Carolyn (Caldwell) and the late " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/5d615bd3-9567-3963-b715-10d7b31815e0> ;
+        c:suffix     ", and passed away May 5, 2008, at St. Francis" .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Instance/19>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[  \nHe was preceded in death by his father, Jim.  \n]Bruce[ is survived by two daughters, Brooke Jordan]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:exact      "Bruce" ;
+        c:length     "5" ;
+        c:offset     "908" ;
+        c:prefix     "  \nHe was preceded in death by his father, Jim.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/0a2ac7e1-a441-384d-837f-d8c91a538647> ;
+        c:suffix     " is survived by two daughters, Brooke Jordan" .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Relevance/14>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/4ceb3414-3cda-35aa-af94-a9b7da512845> .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Relevance/27>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/99ac9e0f-fe59-3e56-a547-7fd0e257d43f> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/6e17c132-65a3-1976-f075-2d818ea72b71>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Missouri" ;
+        c:docId               <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:latitude            "39.8947596" ;
+        c:longitude           "-92.2737947" ;
+        c:name                "Lakeland,Missouri,United States" ;
+        c:shortname           "Lakeland" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/3752f8d1-b0f7-381c-a1b4-82b37e9f3b7a> .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Instance/41>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Lakeland, Florida; one brother Brent Perry, and ]his[ wife, Mendee, of Tulsa; and one sister; Beth]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "1089" ;
+        c:prefix     "Lakeland, Florida; one brother Brent Perry, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/431f0c62-0f68-3e03-a124-327145e039ee> ;
+        c:suffix     " wife, Mendee, of Tulsa; and one sister; Beth" .
+
+<http://d.opencalais.com/pershash-1/b0eed018-a0cf-30df-9893-0f721316cb4f>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Jimmy Jordan Perry" ;
+        c:confidencelevel    "0.98" ;
+        c:firstname          "Jimmy" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Perry" ;
+        c:middlename         "Jordan" ;
+        c:name               "Jimmy Jordan Perry" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Relevance/5>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/pershash-1/0a2ac7e1-a441-384d-837f-d8c91a538647> .
+
+<http://d.opencalais.com/conf/pershash-1/b60208d9-6a58-30fe-9df5-71c5dcf1c203>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.997" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.998" ;
+        c:subject             <http://d.opencalais.com/pershash-1/b60208d9-6a58-30fe-9df5-71c5dcf1c203> .
+
+<http://d.opencalais.com/genericHasher-1/b1afdd87-9fc9-3727-85ae-1d00231ebf62>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/a371d161-c3fc-3e51-8fbe-2e6a15f8d2e2> , <http://d.opencalais.com/pershash-1/431f0c62-0f68-3e03-a124-327145e039ee> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Instance/13>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and was associated with the tire business all ]his[ life.  He was active in the family business,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "663" ;
+        c:prefix     "and was associated with the tire business all " ;
+        c:subject    <http://d.opencalais.com/pershash-1/0a2ac7e1-a441-384d-837f-d8c91a538647> ;
+        c:suffix     " life.  He was active in the family business," .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Instance/54>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Perry Tire and Alignment in Alva.  Bruce was ]an avid golfer[ and enjoyed being with friends on the golf]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:exact      "an avid golfer" ;
+        c:length     "14" ;
+        c:offset     "757" ;
+        c:prefix     "Perry Tire and Alignment in Alva.  Bruce was " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/1af0d179-1575-3403-8f5e-1081fb52abc0> ;
+        c:suffix     " and enjoyed being with friends on the golf" .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Instance/26>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[prior to the service.  Interment will be in the ]Alva Municipal Cemetery[ under the direction of Marshall Funeral Home. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:exact      "Alva Municipal Cemetery" ;
+        c:length     "23" ;
+        c:offset     "260" ;
+        c:prefix     "prior to the service.  Interment will be in the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8eade039-a4ea-3277-86f0-dccd360f428f> ;
+        c:suffix     " under the direction of Marshall Funeral Home. " .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Relevance/21>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ffe3480a-abe7-3145-bdfe-b1e4a35ad4cd> .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Instance/39>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[home to the Honduras Mission of the All Saint?s ]Episcopal Church[. \n\t\t\t]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:exact      "Episcopal Church" ;
+        c:length     "16" ;
+        c:offset     "1320" ;
+        c:prefix     "home to the Honduras Mission of the All Saint?s " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b744fca3-3eab-3aa5-9ae8-c517ed76eadb> ;
+        c:suffix     ". \n\t\t\t" .
+
+<http://d.opencalais.com/genericHasher-1/3752f8d1-b0f7-381c-a1b4-82b37e9f3b7a>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Lakeland" .
+
+<http://d.opencalais.com/pershash-1/a2c2b6ef-2419-38b7-a69f-30c419696bef>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Jim" ;
+        c:confidencelevel    "0.967" ;
+        c:firstname          "Jim" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Jim" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Instance/6>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Beth Diacon of Lakeland, Florida; one niece, ]Britni Diacon of Lakeland, Florida[ .  \nMemorial contributions may be made through]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:exact      "Britni Diacon of Lakeland, Florida" ;
+        c:length     "34" ;
+        c:offset     "1178" ;
+        c:prefix     "Beth Diacon of Lakeland, Florida; one niece, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8ff1d6df-d51b-3c9c-8a90-12ebda3d4e07> ;
+        c:suffix     " .  \nMemorial contributions may be made through" .
+
+<http://d.opencalais.com/genericHasher-1/9af9edc3-d610-36a5-b133-35e6d9110d33>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Marshall Funeral Home" .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Relevance/19>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b744fca3-3eab-3aa5-9ae8-c517ed76eadb> .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Instance/20>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Brooke Jordan Perry and Baylie Meredith Perry of ]Liberty[, Missouri; his mother, Carolyn Perry of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:exact      "Liberty" ;
+        c:length     "7" ;
+        c:offset     "993" ;
+        c:prefix     " Brooke Jordan Perry and Baylie Meredith Perry of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a85a4686-4186-33ca-aae0-f5903a537ee2> ;
+        c:suffix     ", Missouri; his mother, Carolyn Perry of" .
+
+<http://d.opencalais.com/conf/pershash-1/431f0c62-0f68-3e03-a124-327145e039ee>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.999" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.999" ;
+        c:subject             <http://d.opencalais.com/pershash-1/431f0c62-0f68-3e03-a124-327145e039ee> .
+
+<http://d.opencalais.com/conf/pershash-1/99ac9e0f-fe59-3e56-a547-7fd0e257d43f>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.983" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.99" ;
+        c:subject             <http://d.opencalais.com/pershash-1/99ac9e0f-fe59-3e56-a547-7fd0e257d43f> .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/cat/1>
+        a                    <http://s.opencalais.com/1/type/cat/DocCat> ;
+        c:docId              <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Human Interest" ;
+        c:score              "1.000" .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Instance/33>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[loves was flying.  \nHe was preceded in death by ]his father, Jim[.  \nBruce is survived by two daughters, Brooke]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:exact      "his father, Jim" ;
+        c:length     "15" ;
+        c:offset     "889" ;
+        c:prefix     "loves was flying.  \nHe was preceded in death by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4cd5f9d4-6dd5-30b2-9cee-717d4d6b3fed> ;
+        c:suffix     ".  \nBruce is survived by two daughters, Brooke" .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Instance/46>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Jim.  \nBruce is survived by two daughters, ]Brooke Jordan Perry[ and Baylie Meredith Perry of Liberty, Missouri;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:exact      "Brooke Jordan Perry" ;
+        c:length     "19" ;
+        c:offset     "944" ;
+        c:prefix     "Jim.  \nBruce is survived by two daughters, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b64ca857-1d3d-3e99-b136-aeed41469532> ;
+        c:suffix     " and Baylie Meredith Perry of Liberty, Missouri;" .
+
+<http://d.opencalais.com/pershash-1/a371d161-c3fc-3e51-8fbe-2e6a15f8d2e2>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Mendee" ;
+        c:confidencelevel    "0.914" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Mendee" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/8da39760-87db-3aa5-9369-142d08eb16f8>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Tulsa" .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Instance/18>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[loves was flying.  \nHe was preceded in death by ]his[ father, Jim.  \nBruce is survived by two]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "889" ;
+        c:prefix     "loves was flying.  \nHe was preceded in death by " ;
+        c:subject    <http://d.opencalais.com/pershash-1/0a2ac7e1-a441-384d-837f-d8c91a538647> ;
+        c:suffix     " father, Jim.  \nBruce is survived by two" .
+
+<http://d.opencalais.com/pershash-1/015553d1-a934-35f4-8923-f9860caa949c>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Britni Diacon" ;
+        c:confidencelevel    "0.997" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Britni Diacon" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Relevance/13>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9af9edc3-d610-36a5-b133-35e6d9110d33> .
+
+<http://d.opencalais.com/genericHasher-1/c05b7203-8899-304d-9bc3-ba98761dffc3>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:forenduserdisplay  "true" ;
+        c:organization       <http://d.opencalais.com/genericHasher-1/c6bff7b1-e904-3e81-8457-b0a7e72cd506> ;
+        c:person             <http://d.opencalais.com/pershash-1/0a2ac7e1-a441-384d-837f-d8c91a538647> ;
+        c:position           "avid golfer" ;
+        c:status             "past" .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Relevance/26>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/1af0d179-1575-3403-8f5e-1081fb52abc0> .
+
+<http://d.opencalais.com/genericHasher-1/9ee7f8a3-a643-3d76-9b68-4f6d054d4642>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Honduras Mission" ;
+        c:nationality        "Honduran" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Instance/40>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Carolyn Perry of Lakeland, Florida; one brother ]Brent Perry[, and his wife, Mendee, of Tulsa; and one sister;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:exact      "Brent Perry" ;
+        c:length     "11" ;
+        c:offset     "1072" ;
+        c:prefix     "Carolyn Perry of Lakeland, Florida; one brother " ;
+        c:subject    <http://d.opencalais.com/pershash-1/431f0c62-0f68-3e03-a124-327145e039ee> ;
+        c:suffix     ", and his wife, Mendee, of Tulsa; and one sister;" .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Relevance/4>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/015553d1-a934-35f4-8923-f9860caa949c> .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Instance/12>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[at the age of 48 years, 5 months, and 5 days.  \n]Bruce[ graduated from Alva High School and was]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:exact      "Bruce" ;
+        c:length     "5" ;
+        c:offset     "579" ;
+        c:prefix     "at the age of 48 years, 5 months, and 5 days.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/0a2ac7e1-a441-384d-837f-d8c91a538647> ;
+        c:suffix     " graduated from Alva High School and was" .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Instance/53>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and Baylie Meredith Perry of Liberty, Missouri; ]his mother, Carolyn Perry of Lakeland, Florida[; one brother Brent Perry, and his wife, Mendee,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:exact      "his mother, Carolyn Perry of Lakeland, Florida" ;
+        c:length     "46" ;
+        c:offset     "1012" ;
+        c:prefix     "and Baylie Meredith Perry of Liberty, Missouri; " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/bb16bd8b-8f7a-3942-b3d2-c24ccb0fbc4d> ;
+        c:suffix     "; one brother Brent Perry, and his wife, Mendee," .
+
+<http://d.opencalais.com/conf/pershash-1/0a2ac7e1-a441-384d-837f-d8c91a538647>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.998" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.999" ;
+        c:subject             <http://d.opencalais.com/pershash-1/0a2ac7e1-a441-384d-837f-d8c91a538647> .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Instance/25>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and Baylie Meredith Perry of Liberty, Missouri; ]his[ mother, Carolyn Perry of Lakeland, Florida; one]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "1012" ;
+        c:prefix     "and Baylie Meredith Perry of Liberty, Missouri; " ;
+        c:subject    <http://d.opencalais.com/pershash-1/058565ac-ba9a-37ef-8f55-9a5d6422d15f> ;
+        c:suffix     " mother, Carolyn Perry of Lakeland, Florida; one" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/cdbe37bc-3af5-6ff0-3597-7615ea496cd1>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:latitude            "36.1539" ;
+        c:longitude           "-95.9925" ;
+        c:name                "Tulsa,Oklahoma,United States" ;
+        c:shortname           "Tulsa" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/8da39760-87db-3aa5-9369-142d08eb16f8> .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/22a2e9d4-42cf-58a2-d8d3-3269b69ad67a>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:latitude            "38.5" ;
+        c:longitude           "-92.5" ;
+        c:name                "Missouri,United States" ;
+        c:permid              "100190" ;
+        c:rcscode             "G:45" ;
+        c:shortname           "Missouri" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/4b59c1ad-8092-34d5-b763-a43226a1836c> .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Relevance/20>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/431f0c62-0f68-3e03-a124-327145e039ee> .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Instance/38>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[brother Brent Perry, and his wife, Mendee, of ]Tulsa[; and one sister; Beth Diacon of Lakeland,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:exact      "Tulsa" ;
+        c:length     "5" ;
+        c:offset     "1110" ;
+        c:prefix     "brother Brent Perry, and his wife, Mendee, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8da39760-87db-3aa5-9369-142d08eb16f8> ;
+        c:suffix     "; and one sister; Beth Diacon of Lakeland," .
+
+<http://d.opencalais.com/genericHasher-1/4dd225c2-37d6-3b77-87e9-6ccf17d9a793>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Memphis" .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Instance/5>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Lakeland, Florida; one niece, Britni Diacon of ]Lakeland[, Florida .  \nMemorial contributions may be made]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:exact      "Lakeland" ;
+        c:length     "8" ;
+        c:offset     "1195" ;
+        c:prefix     "Lakeland, Florida; one niece, Britni Diacon of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3752f8d1-b0f7-381c-a1b4-82b37e9f3b7a> ;
+        c:suffix     ", Florida .  \nMemorial contributions may be made" .
+
+<http://d.opencalais.com/genericHasher-1/b5bf3113-97ac-319c-a20d-308c716c8d7b>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Florida" .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Relevance/18>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8da39760-87db-3aa5-9369-142d08eb16f8> .
+
+<http://d.opencalais.com/genericHasher-1/b744fca3-3eab-3aa5-9ae8-c517ed76eadb>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Protestant Episcopal Church" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Instance/32>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ his life.  He was active in the family business, ]Perry Tire[ and Alignment in Alva.  Bruce was an avid golfer]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:exact      "Perry Tire" ;
+        c:length     "10" ;
+        c:offset     "712" ;
+        c:prefix     " his life.  He was active in the family business, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/4ceb3414-3cda-35aa-af94-a9b7da512845> ;
+        c:suffix     " and Alignment in Alva.  Bruce was an avid golfer" .
+
+<http://d.opencalais.com/genericHasher-1/4cd5f9d4-6dd5-30b2-9cee-717d4d6b3fed>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "father" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/0a2ac7e1-a441-384d-837f-d8c91a538647> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/a2c2b6ef-2419-38b7-a69f-30c419696bef> .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Instance/45>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and his wife, Mendee, of Tulsa; and one sister; ]Beth Diacon of Lakeland, Florida[; one niece, Britni Diacon of Lakeland, Florida .]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:exact      "Beth Diacon of Lakeland, Florida" ;
+        c:length     "32" ;
+        c:offset     "1133" ;
+        c:prefix     "and his wife, Mendee, of Tulsa; and one sister; " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9604384c-d223-31ac-bbac-29f2029d914c> ;
+        c:suffix     "; one niece, Britni Diacon of Lakeland, Florida ." .
+
+<http://d.opencalais.com/genericHasher-1/0a7fdcc6-a3b7-333e-8d28-91e08d809b69>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Tennessee" .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Relevance/9>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8eade039-a4ea-3277-86f0-dccd360f428f> .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Instance/17>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[course.  One of his great loves was flying.  \n]He[ was preceded in death by his father, Jim. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:exact      "He" ;
+        c:length     "2" ;
+        c:offset     "861" ;
+        c:prefix     "course.  One of his great loves was flying.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/0a2ac7e1-a441-384d-837f-d8c91a538647> ;
+        c:suffix     " was preceded in death by his father, Jim. " .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Relevance/12>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c6bff7b1-e904-3e81-8457-b0a7e72cd506> .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Relevance/25>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/b60208d9-6a58-30fe-9df5-71c5dcf1c203> .
+
+<http://d.opencalais.com/conf/pershash-1/b64ca857-1d3d-3e99-b136-aeed41469532>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.963" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.978" ;
+        c:subject             <http://d.opencalais.com/pershash-1/b64ca857-1d3d-3e99-b136-aeed41469532> .
+
+<http://d.opencalais.com/genericHasher-1/ffe3480a-abe7-3145-bdfe-b1e4a35ad4cd>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Marshall Funeral Home Chapel" .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Relevance/3>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0a7fdcc6-a3b7-333e-8d28-91e08d809b69> .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Instance/11>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[under the direction of Marshall Funeral Home.  \n]Bruce Perry[, son of Carolyn (Caldwell) and the late Jimmy]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:exact      "Bruce Perry" ;
+        c:length     "11" ;
+        c:offset     "332" ;
+        c:prefix     "under the direction of Marshall Funeral Home.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/0a2ac7e1-a441-384d-837f-d8c91a538647> ;
+        c:suffix     ", son of Carolyn (Caldwell) and the late Jimmy" .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Instance/52>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Meredith Perry of Liberty, Missouri; his mother, ]Carolyn Perry[ of Lakeland, Florida; one brother Brent Perry,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:exact      "Carolyn Perry" ;
+        c:length     "13" ;
+        c:offset     "1024" ;
+        c:prefix     " Meredith Perry of Liberty, Missouri; his mother, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b60208d9-6a58-30fe-9df5-71c5dcf1c203> ;
+        c:suffix     " of Lakeland, Florida; one brother Brent Perry," .
+
+<http://d.opencalais.com/pershash-1/b60208d9-6a58-30fe-9df5-71c5dcf1c203>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Carolyn Perry" ;
+        c:confidencelevel    "0.997" ;
+        c:firstname          "Carolyn" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Carolyn Perry" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Instance/24>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[by two daughters, Brooke Jordan Perry and ]Baylie Meredith Perry[ of Liberty, Missouri; his mother, Carolyn Perry]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:exact      "Baylie Meredith Perry" ;
+        c:length     "21" ;
+        c:offset     "968" ;
+        c:prefix     "by two daughters, Brooke Jordan Perry and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/058565ac-ba9a-37ef-8f55-9a5d6422d15f> ;
+        c:suffix     " of Liberty, Missouri; his mother, Carolyn Perry" .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Instance/37>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[away May 5, 2008, at St. Francis Health System, ]Tulsa[, Oklahoma, at the age of 48 years, 5 months, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:exact      "Tulsa" ;
+        c:length     "5" ;
+        c:offset     "514" ;
+        c:prefix     "away May 5, 2008, at St. Francis Health System, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8da39760-87db-3aa5-9369-142d08eb16f8> ;
+        c:suffix     ", Oklahoma, at the age of 48 years, 5 months, and" .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/SocialTag/4>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "2" ;
+        c:name               "Funeral home" ;
+        c:originalValue      "Funeral home" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/8cd06800-72b8-33ea-8f80-bce86a94e4e1> .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Instance/4>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Mendee, of Tulsa; and one sister; Beth Diacon of ]Lakeland[, Florida; one niece, Britni Diacon of Lakeland,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:exact      "Lakeland" ;
+        c:length     "8" ;
+        c:offset     "1148" ;
+        c:prefix     " Mendee, of Tulsa; and one sister; Beth Diacon of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3752f8d1-b0f7-381c-a1b4-82b37e9f3b7a> ;
+        c:suffix     ", Florida; one niece, Britni Diacon of Lakeland," .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Relevance/17>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/b0eed018-a0cf-30df-9893-0f721316cb4f> .
+
+<http://d.opencalais.com/conf/pershash-1/4ceb3414-3cda-35aa-af94-a9b7da512845>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.768" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.858" ;
+        c:subject             <http://d.opencalais.com/pershash-1/4ceb3414-3cda-35aa-af94-a9b7da512845> .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Instance/31>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Florida; one brother Brent Perry, and his wife, ]Mendee, of Tulsa[; and one sister; Beth Diacon of Lakeland,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:exact      "Mendee, of Tulsa" ;
+        c:length     "16" ;
+        c:offset     "1099" ;
+        c:prefix     "Florida; one brother Brent Perry, and his wife, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/2a549bd7-0b82-3b77-a902-5308d1e58a57> ;
+        c:suffix     "; and one sister; Beth Diacon of Lakeland," .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Instance/44>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[by two daughters, Brooke Jordan Perry and ]Baylie Meredith Perry of Liberty, Missouri[; his mother, Carolyn Perry of Lakeland, Florida;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:exact      "Baylie Meredith Perry of Liberty, Missouri" ;
+        c:length     "42" ;
+        c:offset     "968" ;
+        c:prefix     "by two daughters, Brooke Jordan Perry and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ca0a21df-e760-37f9-9410-6c435302d516> ;
+        c:suffix     "; his mother, Carolyn Perry of Lakeland, Florida;" .
+
+<http://d.opencalais.com/pershash-1/431f0c62-0f68-3e03-a124-327145e039ee>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Brent Perry" ;
+        c:confidencelevel    "0.999" ;
+        c:firstname          "Brent" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Perry" ;
+        c:name               "Brent Perry" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Relevance/8>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/058565ac-ba9a-37ef-8f55-9a5d6422d15f> .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/meta>
+        a                 <http://s.opencalais.com/1/type/sys/DocInfoMeta> ;
+        c:contentType     "text/raw" ;
+        c:docId           <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:language        "English" ;
+        c:processingVer   "AllMetadata" ;
+        c:serverVersion   "OneCalais_8.3-RELEASE:364" ;
+        c:signature       "digestalg-1|eetuh6NIsHy3CuG1WairBSYUdUA=|NWhabwkcuKA+VCtWieXtMRklqZxc5mkqskBBTx0YD3ySZGHrp/aMew==" ;
+        c:stagsVer        "OneCalais_8.3-RELEASE-b11-2015-03-25_18:29:00" ;
+        c:submissionDate  "2015-05-26 17:28:41.856" ;
+        c:submitterCode   "0ca6a864-5659-789d-5f32-f365f695e757" .
+
+<http://d.opencalais.com/genericHasher-1/a85a4686-4186-33ca-aae0-f5903a537ee2>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Liberty" .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Instance/16>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[being with friends on the golf course.  One of ]his[ great loves was flying.  \nHe was preceded in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "831" ;
+        c:prefix     "being with friends on the golf course.  One of " ;
+        c:subject    <http://d.opencalais.com/pershash-1/0a2ac7e1-a441-384d-837f-d8c91a538647> ;
+        c:suffix     " great loves was flying.  \nHe was preceded in" .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Relevance/11>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/a371d161-c3fc-3e51-8fbe-2e6a15f8d2e2> .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Instance/57>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[business, Perry Tire and Alignment in Alva.  ]Bruce was an avid golfer[ and enjoyed being with friends on the golf]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:exact      "Bruce was an avid golfer" ;
+        c:length     "24" ;
+        c:offset     "747" ;
+        c:prefix     "business, Perry Tire and Alignment in Alva.  " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c05b7203-8899-304d-9bc3-ba98761dffc3> ;
+        c:suffix     " and enjoyed being with friends on the golf" .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Instance/29>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[5 months, and 5 days.  \nBruce graduated from ]Alva High School[ and was associated with the tire business all]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:exact      "Alva High School" ;
+        c:length     "16" ;
+        c:offset     "600" ;
+        c:prefix     "5 months, and 5 days.  \nBruce graduated from " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c6bff7b1-e904-3e81-8457-b0a7e72cd506> ;
+        c:suffix     " and was associated with the tire business all" .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Relevance/24>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b5bf3113-97ac-319c-a20d-308c716c8d7b> .
+
+<http://d.opencalais.com/genericHasher-1/4b59c1ad-8092-34d5-b763-a43226a1836c>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Missouri" .
+
+<http://d.opencalais.com/genericHasher-1/fb29a543-0850-3e8d-9469-f8e457a85b62>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "wife" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/431f0c62-0f68-3e03-a124-327145e039ee> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/a371d161-c3fc-3e51-8fbe-2e6a15f8d2e2> .
+
+<http://d.opencalais.com/pershash-1/058565ac-ba9a-37ef-8f55-9a5d6422d15f>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Baylie Meredith Perry" ;
+        c:confidencelevel    "0.986" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Baylie Meredith Perry" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Relevance/2>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3752f8d1-b0f7-381c-a1b4-82b37e9f3b7a> .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Instance/9>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Beth Diacon of Lakeland, Florida; one niece, ]Britni Diacon[ of Lakeland, Florida .  \nMemorial contributions]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:exact      "Britni Diacon" ;
+        c:length     "13" ;
+        c:offset     "1178" ;
+        c:prefix     "Beth Diacon of Lakeland, Florida; one niece, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/015553d1-a934-35f4-8923-f9860caa949c> ;
+        c:suffix     " of Lakeland, Florida .  \nMemorial contributions" .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Instance/10>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Funeral services for ]Bruce Meredith Perry[ will be 2:30 p.m. Monday, May 12, 2008, at the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:exact      "Bruce Meredith Perry" ;
+        c:length     "20" ;
+        c:offset     "21" ;
+        c:prefix     "Funeral services for " ;
+        c:subject    <http://d.opencalais.com/pershash-1/0a2ac7e1-a441-384d-837f-d8c91a538647> ;
+        c:suffix     " will be 2:30 p.m. Monday, May 12, 2008, at the" .
+
+<http://d.opencalais.com/genericHasher-1/9604384c-d223-31ac-bbac-29f2029d914c>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Lakeland" ;
+        c:person             <http://d.opencalais.com/pershash-1/99ac9e0f-fe59-3e56-a547-7fd0e257d43f> .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/ead8a759-31d2-262c-540f-e93fc56b22eb>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:latitude            "28.0908069444" ;
+        c:longitude           "-81.960407533" ;
+        c:name                "Florida,United States" ;
+        c:permid              "100104" ;
+        c:rcscode             "G:4X" ;
+        c:shortname           "Florida" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/b5bf3113-97ac-319c-a20d-308c716c8d7b> .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d>
+        a                  <http://s.opencalais.com/1/type/sys/DocInfo> ;
+        c:calaisRequestID  "4a5d6b67-a3ce-4237-14d9-144e8806fa60" ;
+        c:docDate          "2015-05-26 17:28:42.218" ;
+        c:docTitle         "" ;
+        c:document         "Funeral services for Bruce Meredith Perry will be 2:30 p.m. Monday, May 12, 2008, at the Marshall Funeral Home Chapel with Rev. Judye Pistole officiating.  There will be a visitation with the family at 1:00 p.m. prior to the service.  Interment will be in the Alva Municipal Cemetery under the direction of Marshall Funeral Home.  \nBruce Perry, son of Carolyn (Caldwell) and the late Jimmy Jordan Perry, was born November 30, 1959, at Memphis, Tennessee, and passed away May 5, 2008, at St. Francis Health System, Tulsa, Oklahoma, at the age of 48 years, 5 months, and 5 days.  \nBruce graduated from Alva High School and was associated with the tire business all his life.  He was active in the family business, Perry Tire and Alignment in Alva.  Bruce was an avid golfer and enjoyed being with friends on the golf course.  One of his great loves was flying.  \nHe was preceded in death by his father, Jim.  \nBruce is survived by two daughters, Brooke Jordan Perry and Baylie Meredith Perry of Liberty, Missouri; his mother, Carolyn Perry of Lakeland, Florida; one brother Brent Perry, and his wife, Mendee, of Tulsa; and one sister; Beth Diacon of Lakeland, Florida; one niece, Britni Diacon of Lakeland, Florida .  \nMemorial contributions may be made through the funeral home to the Honduras Mission of the All Saint?s Episcopal Church. \n\t\t\t" ;
+        c:id               "http://id.opencalais.com/D*JyFAbm2wMUzJh9mlhDZQ" ;
+        c:ontology         "http://163.231.4.65/owlschema/8.3/onecalais.owl.allmetadata.xml" .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Instance/51>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Marshall Funeral Home.  \nBruce Perry, son of ]Carolyn[ (Caldwell) and the late Jimmy Jordan Perry, was]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:exact      "Carolyn" ;
+        c:length     "7" ;
+        c:offset     "352" ;
+        c:prefix     "of Marshall Funeral Home.  \nBruce Perry, son of " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b60208d9-6a58-30fe-9df5-71c5dcf1c203> ;
+        c:suffix     " (Caldwell) and the late Jimmy Jordan Perry, was" .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Instance/23>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Carolyn Perry of Lakeland, Florida; one brother ]Brent Perry, and his wife, Mendee, of Tulsa[; and one sister; Beth Diacon of Lakeland,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:exact      "Brent Perry, and his wife, Mendee, of Tulsa" ;
+        c:length     "43" ;
+        c:offset     "1072" ;
+        c:prefix     "Carolyn Perry of Lakeland, Florida; one brother " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b1afdd87-9fc9-3727-85ae-1d00231ebf62> ;
+        c:suffix     "; and one sister; Beth Diacon of Lakeland," .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/lid/DefaultLangId>
+        a                    <http://s.opencalais.com/1/type/lid/DefaultLangId> ;
+        c:docId              <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:forenduserdisplay  "false" ;
+        c:lang               <http://d.opencalais.com/lid/DefaultLangId/English> ;
+        c:permid             "505062" .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Instance/36>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Perry, son of Carolyn (Caldwell) and the late ]Jimmy Jordan Perry[, was born November 30, 1959, at Memphis,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:exact      "Jimmy Jordan Perry" ;
+        c:length     "18" ;
+        c:offset     "384" ;
+        c:prefix     "Perry, son of Carolyn (Caldwell) and the late " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b0eed018-a0cf-30df-9893-0f721316cb4f> ;
+        c:suffix     ", was born November 30, 1959, at Memphis," .
+
+<http://d.opencalais.com/pershash-1/0a2ac7e1-a441-384d-837f-d8c91a538647>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Bruce Meredith Perry" ;
+        c:confidencelevel    "0.998" ;
+        c:firstname          "Bruce" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Perry" ;
+        c:middlename         "Meredith" ;
+        c:name               "Bruce Meredith Perry" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/SocialTag/3>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Perry" ;
+        c:originalValue      "Perry (disambiguation)" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/aeef97bb-285c-38e1-91a5-3302167737da> .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Instance/49>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Tulsa; and one sister; Beth Diacon of Lakeland, ]Florida[; one niece, Britni Diacon of Lakeland, Florida .]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:exact      "Florida" ;
+        c:length     "7" ;
+        c:offset     "1158" ;
+        c:prefix     "Tulsa; and one sister; Beth Diacon of Lakeland, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b5bf3113-97ac-319c-a20d-308c716c8d7b> ;
+        c:suffix     "; one niece, Britni Diacon of Lakeland, Florida ." .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Instance/3>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Liberty, Missouri; his mother, Carolyn Perry of ]Lakeland[, Florida; one brother Brent Perry, and his wife,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:exact      "Lakeland" ;
+        c:length     "8" ;
+        c:offset     "1041" ;
+        c:prefix     "Liberty, Missouri; his mother, Carolyn Perry of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3752f8d1-b0f7-381c-a1b4-82b37e9f3b7a> ;
+        c:suffix     ", Florida; one brother Brent Perry, and his wife," .
+
+<http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee>
+        a                    <http://s.opencalais.com/1/type/em/e/IndustryTerm> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Funeral services" .
+
+<http://d.opencalais.com/genericHasher-1/06ce9d2b-4e43-34c8-8389-c86f6a85aaad>
+        a                       <http://s.opencalais.com/1/type/em/r/PersonEducation> ;
+        c:forenduserdisplay     "false" ;
+        c:person                <http://d.opencalais.com/pershash-1/0a2ac7e1-a441-384d-837f-d8c91a538647> ;
+        c:schoolororganization  "Alva High School" .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Relevance/16>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee> .
+
+<http://d.opencalais.com/conf/pershash-1/b0eed018-a0cf-30df-9893-0f721316cb4f>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.98" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.986" ;
+        c:subject             <http://d.opencalais.com/pershash-1/b0eed018-a0cf-30df-9893-0f721316cb4f> .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/b6c35d4d-27c9-558f-e24b-15b8908a1968>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:latitude            "35.8489644444" ;
+        c:longitude           "-86.227190641" ;
+        c:name                "Tennessee,United States" ;
+        c:permid              "100298" ;
+        c:rcscode             "G:6T" ;
+        c:shortname           "Tennessee" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/0a7fdcc6-a3b7-333e-8d28-91e08d809b69> .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Instance/30>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Alva Municipal Cemetery under the direction of ]Marshall Funeral Home[.  \nBruce Perry, son of Carolyn (Caldwell) and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:exact      "Marshall Funeral Home" ;
+        c:length     "21" ;
+        c:offset     "307" ;
+        c:prefix     "Alva Municipal Cemetery under the direction of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9af9edc3-d610-36a5-b133-35e6d9110d33> ;
+        c:suffix     ".  \nBruce Perry, son of Carolyn (Caldwell) and" .
+
+<http://d.opencalais.com/genericHasher-1/da9d2d0c-1504-38e4-a5da-8064d65275b8>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "son" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/b60208d9-6a58-30fe-9df5-71c5dcf1c203> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/0a2ac7e1-a441-384d-837f-d8c91a538647> .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Instance/43>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[5, 2008, at St. Francis Health System, Tulsa, ]Oklahoma[, at the age of 48 years, 5 months, and 5 days. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "521" ;
+        c:prefix     "5, 2008, at St. Francis Health System, Tulsa, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", at the age of 48 years, 5 months, and 5 days. " .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Relevance/7>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4dd225c2-37d6-3b77-87e9-6ccf17d9a793> .
+
+<http://d.opencalais.com/genericHasher-1/bb16bd8b-8f7a-3942-b3d2-c24ccb0fbc4d>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "mother" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/058565ac-ba9a-37ef-8f55-9a5d6422d15f> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/b60208d9-6a58-30fe-9df5-71c5dcf1c203> .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Instance/15>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[business, Perry Tire and Alignment in Alva.  ]Bruce[ was an avid golfer and enjoyed being with]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:exact      "Bruce" ;
+        c:length     "5" ;
+        c:offset     "747" ;
+        c:prefix     "business, Perry Tire and Alignment in Alva.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/0a2ac7e1-a441-384d-837f-d8c91a538647> ;
+        c:suffix     " was an avid golfer and enjoyed being with" .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Relevance/10>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/a2c2b6ef-2419-38b7-a69f-30c419696bef> .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Instance/56>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and his wife, Mendee, of Tulsa; and one sister; ]Beth Diacon[ of Lakeland, Florida; one niece, Britni Diacon]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:exact      "Beth Diacon" ;
+        c:length     "11" ;
+        c:offset     "1133" ;
+        c:prefix     "and his wife, Mendee, of Tulsa; and one sister; " ;
+        c:subject    <http://d.opencalais.com/pershash-1/99ac9e0f-fe59-3e56-a547-7fd0e257d43f> ;
+        c:suffix     " of Lakeland, Florida; one niece, Britni Diacon" .
+
+<http://d.opencalais.com/genericHasher-1/591fdc86-d2bf-3a96-a6d9-2e807c164f5b>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Lakeland" ;
+        c:person             <http://d.opencalais.com/pershash-1/b60208d9-6a58-30fe-9df5-71c5dcf1c203> .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Instance/28>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Florida; one brother Brent Perry, and his wife, ]Mendee[, of Tulsa; and one sister; Beth Diacon of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:exact      "Mendee" ;
+        c:length     "6" ;
+        c:offset     "1099" ;
+        c:prefix     "Florida; one brother Brent Perry, and his wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/a371d161-c3fc-3e51-8fbe-2e6a15f8d2e2> ;
+        c:suffix     ", of Tulsa; and one sister; Beth Diacon of" .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Relevance/23>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/b64ca857-1d3d-3e99-b136-aeed41469532> .
+
+<http://d.opencalais.com/conf/pershash-1/a2c2b6ef-2419-38b7-a69f-30c419696bef>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.967" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/a2c2b6ef-2419-38b7-a69f-30c419696bef> .
+
+<http://d.opencalais.com/pershash-1/b64ca857-1d3d-3e99-b136-aeed41469532>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Brooke Jordan Perry" ;
+        c:confidencelevel    "0.963" ;
+        c:firstname          "Brooke" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Perry" ;
+        c:middlename         "Jordan" ;
+        c:name               "Brooke Jordan Perry" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/2a549bd7-0b82-3b77-a902-5308d1e58a57>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Tulsa" ;
+        c:person             <http://d.opencalais.com/pershash-1/a371d161-c3fc-3e51-8fbe-2e6a15f8d2e2> .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Relevance/1>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4b59c1ad-8092-34d5-b763-a43226a1836c> .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Instance/8>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[at the age of 48 years, 5 months, and 5 days.  \n]Bruce graduated from Alva High School[ and was associated with the tire business all]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:exact      "Bruce graduated from Alva High School" ;
+        c:length     "37" ;
+        c:offset     "579" ;
+        c:prefix     "at the age of 48 years, 5 months, and 5 days.  \n" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/06ce9d2b-4e43-34c8-8389-c86f6a85aaad> ;
+        c:suffix     " and was associated with the tire business all" .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Instance/50>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Florida; one niece, Britni Diacon of Lakeland, ]Florida[ .  \nMemorial contributions may be made through]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:exact      "Florida" ;
+        c:length     "7" ;
+        c:offset     "1205" ;
+        c:prefix     "Florida; one niece, Britni Diacon of Lakeland, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b5bf3113-97ac-319c-a20d-308c716c8d7b> ;
+        c:suffix     " .  \nMemorial contributions may be made through" .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Instance/22>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Jordan Perry, was born November 30, 1959, at ]Memphis[, Tennessee, and passed away May 5, 2008, at St.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:exact      "Memphis" ;
+        c:length     "7" ;
+        c:offset     "435" ;
+        c:prefix     "Jordan Perry, was born November 30, 1959, at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4dd225c2-37d6-3b77-87e9-6ccf17d9a793> ;
+        c:suffix     ", Tennessee, and passed away May 5, 2008, at St." .
+
+<http://d.opencalais.com/pershash-1/99ac9e0f-fe59-3e56-a547-7fd0e257d43f>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Beth Diacon" ;
+        c:confidencelevel    "0.983" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Beth Diacon" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/43190af9-5e13-d744-2064-5071045a0dbf>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Tennessee" ;
+        c:docId               <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:latitude            "35.1494" ;
+        c:longitude           "-90.0489" ;
+        c:name                "Memphis,Tennessee,United States" ;
+        c:rcscode             "G:1I1" ;
+        c:shortname           "Memphis" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/4dd225c2-37d6-3b77-87e9-6ccf17d9a793> .
+
+<http://d.opencalais.com/conf/pershash-1/a371d161-c3fc-3e51-8fbe-2e6a15f8d2e2>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.914" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.932" ;
+        c:subject             <http://d.opencalais.com/pershash-1/a371d161-c3fc-3e51-8fbe-2e6a15f8d2e2> .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Instance/35>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[]Funeral services[ for Bruce Meredith Perry will be 2:30 p.m.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:exact      "Funeral services" ;
+        c:length     "16" ;
+        c:offset     "0" ;
+        c:prefix     "" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee> ;
+        c:suffix     " for Bruce Meredith Perry will be 2:30 p.m." .
+
+<http://d.opencalais.com/conf/pershash-1/015553d1-a934-35f4-8923-f9860caa949c>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.997" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.998" ;
+        c:subject             <http://d.opencalais.com/pershash-1/015553d1-a934-35f4-8923-f9860caa949c> .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/SocialTag/2>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Lakeland" ;
+        c:originalValue      "Lakeland" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/ca45b8df-2ea0-3905-8d8e-1ef8b9f577cb> .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Instance/2>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Perry and Baylie Meredith Perry of Liberty, ]Missouri[; his mother, Carolyn Perry of Lakeland, Florida;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:exact      "Missouri" ;
+        c:length     "8" ;
+        c:offset     "1002" ;
+        c:prefix     "Perry and Baylie Meredith Perry of Liberty, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4b59c1ad-8092-34d5-b763-a43226a1836c> ;
+        c:suffix     "; his mother, Carolyn Perry of Lakeland, Florida;" .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Instance/48>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Missouri; his mother, Carolyn Perry of Lakeland, ]Florida[; one brother Brent Perry, and his wife, Mendee,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:exact      "Florida" ;
+        c:length     "7" ;
+        c:offset     "1051" ;
+        c:prefix     " Missouri; his mother, Carolyn Perry of Lakeland, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b5bf3113-97ac-319c-a20d-308c716c8d7b> ;
+        c:suffix     "; one brother Brent Perry, and his wife, Mendee," .
+
+<http://d.opencalais.com/genericHasher-1/5d615bd3-9567-3963-b715-10d7b31815e0>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonAttributes> ;
+        c:birthdate          "1959-11-30" ;
+        c:birthplace         <http://d.opencalais.com/genericHasher-1/4dd225c2-37d6-3b77-87e9-6ccf17d9a793> ;
+        c:forenduserdisplay  "false" ;
+        c:gender             "M" ;
+        c:person             <http://d.opencalais.com/pershash-1/b0eed018-a0cf-30df-9893-0f721316cb4f> .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Relevance/15>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9ee7f8a3-a643-3d76-9b68-4f6d054d4642> .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/e9e27c26-4013-8712-a5f0-97dcdc412c26>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:latitude            "35.5607802899" ;
+        c:longitude           "-96.8460570462" ;
+        c:name                "Oklahoma,United States" ;
+        c:permid              "100229" ;
+        c:rcscode             "G:9H" ;
+        c:shortname           "Oklahoma" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/45630a83-15ef-af82-c23e-1e7c746146a1>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Missouri" ;
+        c:docId               <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:latitude            "39.2461" ;
+        c:longitude           "-94.4189" ;
+        c:name                "Liberty,Missouri,United States" ;
+        c:shortname           "Liberty" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/a85a4686-4186-33ca-aae0-f5903a537ee2> .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Instance/42>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[will be 2:30 p.m. Monday, May 12, 2008, at the ]Marshall Funeral Home Chapel[ with Rev. Judye Pistole officiating.  There will]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:exact      "Marshall Funeral Home Chapel" ;
+        c:length     "28" ;
+        c:offset     "89" ;
+        c:prefix     "will be 2:30 p.m. Monday, May 12, 2008, at the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ffe3480a-abe7-3145-bdfe-b1e4a35ad4cd> ;
+        c:suffix     " with Rev. Judye Pistole officiating.  There will" .
+
+<http://d.opencalais.com/pershash-1/4ceb3414-3cda-35aa-af94-a9b7da512845>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Perry Tire" ;
+        c:confidencelevel    "0.768" ;
+        c:firstname          "Perry" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Tire" ;
+        c:name               "Perry Tire" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Relevance/6>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a85a4686-4186-33ca-aae0-f5903a537ee2> .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/ComponentVersions>
+        a          <http://s.opencalais.com/1/type/sys/ComponentVersions> ;
+        c:docId    <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:version  "OA Override:271:271" , "OneCalais:OneCalais_8.3-RELEASE:364" , "Dial4J:OneCalais_8.3-RELEASE:198" , "config-refineries:258:258" , "People Override:258:258" , "FrenchIM:OneCalais_8.3-RELEASE:198" , "config-drugs:258:258" , "Housekeeper:OneCalais_8.3-RELEASE:113" , "config-negativeSignature:258:258" , "WatchDog:OneCalais_8.3-RELEASE:113" , "People Index:201505261608:201505261608" , "index-vessels:201505231718:201505231718" , "SpanishIM:OneCalais_8.3-RELEASE:198" , "OA Index:201505252208:201505252208" , "BlackList:264:264" , "BrokerResearchIM:OneCalais_8.3-RELEASE:198" , "config-physicalAssets-ports:258:258" , "config-vessels:258:258" , "SECHeaderMetadataIM:OneCalais_8.3-RELEASE:198" , "SocialTags Index:201505191038:201505191038" , "config-sca-DataPackage:34:34" , "com.clearforest.infoext.dial4j.plugins-basistechconfig:OneCalais_8.3-RELEASE:225" , "NextTags:OneCalais_8.3-RELEASE:113" , "OneCalaisIM:OneCalais_8.3-RELEASE:198" , "AutocoderRuntimeIM:OneCalais_8.3-RELEASE:198" , "Collector:OneCalais_8.3-RELEASE:113" , "Deals Index:201505261613:201505261613" , "config-cse:271:271" .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Instance/14>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ associated with the tire business all his life.  ]He[ was active in the family business, Perry Tire]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:exact      "He" ;
+        c:length     "2" ;
+        c:offset     "674" ;
+        c:prefix     " associated with the tire business all his life.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/0a2ac7e1-a441-384d-837f-d8c91a538647> ;
+        c:suffix     " was active in the family business, Perry Tire" .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Instance/55>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Meredith Perry of Liberty, Missouri; his mother, ]Carolyn Perry of Lakeland, Florida[; one brother Brent Perry, and his wife, Mendee,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:exact      "Carolyn Perry of Lakeland, Florida" ;
+        c:length     "34" ;
+        c:offset     "1024" ;
+        c:prefix     " Meredith Perry of Liberty, Missouri; his mother, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/591fdc86-d2bf-3a96-a6d9-2e807c164f5b> ;
+        c:suffix     "; one brother Brent Perry, and his wife, Mendee," .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Relevance/22>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d/Instance/27>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ \nHe was preceded in death by his father, ]Jim[.  \nBruce is survived by two daughters, Brooke]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0793f7e-1d4b-3566-870d-bb2cee15c67d> ;
+        c:exact      "Jim" ;
+        c:length     "3" ;
+        c:offset     "901" ;
+        c:prefix     " \nHe was preceded in death by his father, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/a2c2b6ef-2419-38b7-a69f-30c419696bef> ;
+        c:suffix     ".  \nBruce is survived by two daughters, Brooke" .
+
+<http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oklahoma" .
+
+<http://d.opencalais.com/genericHasher-1/c6bff7b1-e904-3e81-8457-b0a7e72cd506>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Alva High School" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/1af0d179-1575-3403-8f5e-1081fb52abc0>
+        a                    <http://s.opencalais.com/1/type/em/e/Position> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "avid golfer" .

@@ -1,0 +1,1192 @@
+#Relations: FamilyRelation, PersonLocation, PersonRelation
+#City: Bristol, Enid, Reno
+#Company: Wentworth Mortuary LLC
+#Facility: Carmen City Cemetery, Oklahoma State University, University of Connecticut
+#Holiday: Christmas
+#IndustryTerm: Funeral services
+#Organization: Christian Church, Kirk Board, Oklahoma State University, University of Connecticut
+#Person: Carmen Christian Church, Christina, Leslie Chauncey, Marilyn Esther Moore, Marilyn Moore, Ray Moore, Ron Hall
+#ProvinceOrState: California, Connecticut, Nevada, Oklahoma, Oregon
+@prefix c:     <http://s.opencalais.com/1/pred/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Relevance/14>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9679b237-33e8-3478-ba13-d9af3c4b943e> .
+
+<http://d.opencalais.com/pershash-1/c42b4fcd-2ccb-39cb-bdc1-16793ad7f930>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Carmen Christian Church" ;
+        c:confidencelevel    "0.887" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Carmen Christian Church" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/cat/1>
+        a                    <http://s.opencalais.com/1/type/cat/DocCat> ;
+        c:docId              <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Human Interest" ;
+        c:score              "0.969" .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Instance/42>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ \nMarilyn is survived by her husband, Ray, of ]Carmen[; three sons, James of California, Kenny of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:exact      "Carmen" ;
+        c:length     "6" ;
+        c:offset     "1518" ;
+        c:prefix     " \nMarilyn is survived by her husband, Ray, of " ;
+        c:subject    <http://d.opencalais.com/pershash-1/c42b4fcd-2ccb-39cb-bdc1-16793ad7f930> ;
+        c:suffix     "; three sons, James of California, Kenny of" .
+
+<http://d.opencalais.com/genericHasher-1/91640611-0d7c-384c-a4a8-cdb4ec701bba>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "husband" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/32d231ce-8226-39d4-b770-195ee7bb2536> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/6f6e54ff-35c3-326d-8ed3-57a0d7eb1367> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/9abed97f-1f19-0004-aee6-0a06b0289f38>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:latitude            "36.3956" ;
+        c:longitude           "-97.8781" ;
+        c:name                "Enid,Oklahoma,United States" ;
+        c:shortname           "Enid" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/35a979c1-2108-3761-99bd-8c6f499ef6f2> .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Relevance/6>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/7263a11a-7766-3155-92bd-09b61daeb4d4> .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Instance/14>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and watch college basketball, rooting for the ]University of Connecticut[ and Oklahoma State University.  She also enjoyed]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:exact      "University of Connecticut" ;
+        c:length     "25" ;
+        c:offset     "836" ;
+        c:prefix     "and watch college basketball, rooting for the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/45feda90-9628-32f9-8338-3fa02bbb7374> ;
+        c:suffix     " and Oklahoma State University.  She also enjoyed" .
+
+<http://d.opencalais.com/pershash-1/364dd7cb-4da7-360d-bb5e-0fdd3db7b593>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Ron Hall" ;
+        c:confidencelevel    "0.995" ;
+        c:firstname          "Ron" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Hall" ;
+        c:name               "Ron Hall" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Instance/7>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ California, Kenny of Oregon, and Chris and wife, ]Christina[, of Carmen; one brother, Ron Hall of Carmen; six]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:exact      "Christina" ;
+        c:length     "9" ;
+        c:offset     "1596" ;
+        c:prefix     " California, Kenny of Oregon, and Chris and wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/7263a11a-7766-3155-92bd-09b61daeb4d4> ;
+        c:suffix     ", of Carmen; one brother, Ron Hall of Carmen; six" .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Instance/55>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[parents.  \nMarilyn is survived by her husband, ]Ray[, of Carmen; three sons, James of California,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:exact      "Ray" ;
+        c:length     "3" ;
+        c:offset     "1510" ;
+        c:prefix     "parents.  \nMarilyn is survived by her husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6f6e54ff-35c3-326d-8ed3-57a0d7eb1367> ;
+        c:suffix     ", of Carmen; three sons, James of California," .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Instance/27>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of the Opera. Marilyn loved spending time with ]her[ grandchildren and decorating for all holidays]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1035" ;
+        c:prefix     "of the Opera. Marilyn loved spending time with " ;
+        c:subject    <http://d.opencalais.com/pershash-1/32d231ce-8226-39d4-b770-195ee7bb2536> ;
+        c:suffix     " grandchildren and decorating for all holidays" .
+
+<http://d.opencalais.com/genericHasher-1/77c8f176-bc0f-34da-b3b2-1a396fa588ee>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Nevada" .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Relevance/21>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/7f75012d-30b9-3b41-8960-2e3aa31c55cf> .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Instance/1>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Funeral services for ]Marilyn Moore[ will be 1:30 p.m. Monday, November 12, 2012, at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:exact      "Marilyn Moore" ;
+        c:length     "13" ;
+        c:offset     "21" ;
+        c:prefix     "Funeral services for " ;
+        c:subject    <http://d.opencalais.com/pershash-1/a38f791d-f4bc-3130-a9a2-77b78a5b7fcd> ;
+        c:suffix     " will be 1:30 p.m. Monday, November 12, 2012, at" .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Relevance/19>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/92f76ec9-104d-352f-ac0f-7bac76522a85> .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Instance/21>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[direction of Wentworth Mortuary, LLC, Carmen. \t ]Marilyn Esther Moore[, daughter of the late Leslie Chauncey and Ruth]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:exact      "Marilyn Esther Moore" ;
+        c:length     "20" ;
+        c:offset     "250" ;
+        c:prefix     "direction of Wentworth Mortuary, LLC, Carmen. \t " ;
+        c:subject    <http://d.opencalais.com/pershash-1/32d231ce-8226-39d4-b770-195ee7bb2536> ;
+        c:suffix     ", daughter of the late Leslie Chauncey and Ruth" .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Instance/34>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[death by her parents.  \nMarilyn is survived by ]her husband, Ray[, of Carmen; three sons, James of California,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:exact      "her husband, Ray" ;
+        c:length     "16" ;
+        c:offset     "1497" ;
+        c:prefix     "death by her parents.  \nMarilyn is survived by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/91640611-0d7c-384c-a4a8-cdb4ec701bba> ;
+        c:suffix     ", of Carmen; three sons, James of California," .
+
+<http://d.opencalais.com/conf/pershash-1/32d231ce-8226-39d4-b770-195ee7bb2536>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.993" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.995" ;
+        c:subject             <http://d.opencalais.com/pershash-1/32d231ce-8226-39d4-b770-195ee7bb2536> .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Instance/47>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Hall, was born on November 27, 1938, at Bristol, ]Connecticut[, and passed away on November 7, 2012, at Enid,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:exact      "Connecticut" ;
+        c:length     "11" ;
+        c:offset     "375" ;
+        c:prefix     " Hall, was born on November 27, 1938, at Bristol, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/7f75012d-30b9-3b41-8960-2e3aa31c55cf> ;
+        c:suffix     ", and passed away on November 7, 2012, at Enid," .
+
+<http://d.opencalais.com/genericHasher-1/c9da2311-accc-3ae5-b33a-b3f92c37a58f>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oklahoma State University" .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Instance/19>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[(Leser) Hall, was born on November 27, 1938, at ]Bristol[, Connecticut, and passed away on November 7,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:exact      "Bristol" ;
+        c:length     "7" ;
+        c:offset     "366" ;
+        c:prefix     "(Leser) Hall, was born on November 27, 1938, at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c5591fd2-2de9-3a88-868f-0f1d4a5d94f6> ;
+        c:suffix     ", Connecticut, and passed away on November 7," .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Relevance/13>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/364dd7cb-4da7-360d-bb5e-0fdd3db7b593> .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/0876e379-8821-c934-0ec1-6ddec40bfef2>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:latitude            "41.6" ;
+        c:longitude           "-72.7" ;
+        c:name                "Connecticut,United States" ;
+        c:permid              "100072" ;
+        c:rcscode             "G:97" ;
+        c:shortname           "Connecticut" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/7f75012d-30b9-3b41-8960-2e3aa31c55cf> .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/1387cd3f-8aa9-83e9-1f68-43b807d6e532>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:latitude            "44.5106146616" ;
+        c:longitude           "-121.431326778" ;
+        c:name                "Oregon,United States" ;
+        c:permid              "100231" ;
+        c:rcscode             "G:9Q" ;
+        c:shortname           "Oregon" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/95509614-15fb-3c20-984e-74f223a9e1bb> .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Instance/41>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and the D.A.R.  \t She was preceded in death by ]her[ parents.  \nMarilyn is survived by her husband,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1459" ;
+        c:prefix     "and the D.A.R.  \t She was preceded in death by " ;
+        c:subject    <http://d.opencalais.com/pershash-1/c42b4fcd-2ccb-39cb-bdc1-16793ad7f930> ;
+        c:suffix     " parents.  \nMarilyn is survived by her husband," .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Relevance/5>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/77c8f176-bc0f-34da-b3b2-1a396fa588ee> .
+
+<http://d.opencalais.com/conf/pershash-1/f21f47a0-69e4-3818-9605-93630efb6c58>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/f21f47a0-69e4-3818-9605-93630efb6c58> .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Instance/13>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ 1963, she was united in marriage to Ray Moore in ]Reno[, Nevada. They made their home in California and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:exact      "Reno" ;
+        c:length     "4" ;
+        c:offset     "657" ;
+        c:prefix     " 1963, she was united in marriage to Ray Moore in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3c683560-39d7-3f14-a967-67cb4cac18d2> ;
+        c:suffix     ", Nevada. They made their home in California and" .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/SocialTag/2>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Marilyn Moore" ;
+        c:originalValue      "Marilyn Moore" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/8001e373-3d3a-3494-9076-487342cdc8ba> .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Instance/6>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ she was united in marriage to Ray Moore in Reno, ]Nevada[. They made their home in California and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:exact      "Nevada" ;
+        c:length     "6" ;
+        c:offset     "663" ;
+        c:prefix     " she was united in marriage to Ray Moore in Reno, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/77c8f176-bc0f-34da-b3b2-1a396fa588ee> ;
+        c:suffix     ". They made their home in California and" .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Instance/54>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ February 13, 1963, she was united in marriage to ]Ray Moore[ in Reno, Nevada. They made their home in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:exact      "Ray Moore" ;
+        c:length     "9" ;
+        c:offset     "644" ;
+        c:prefix     " February 13, 1963, she was united in marriage to " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6f6e54ff-35c3-326d-8ed3-57a0d7eb1367> ;
+        c:suffix     " in Reno, Nevada. They made their home in" .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Instance/26>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[plays, such as Annie and Phantom of the Opera. ]Marilyn[ loved spending time with her grandchildren and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:exact      "Marilyn" ;
+        c:length     "7" ;
+        c:offset     "1002" ;
+        c:prefix     "plays, such as Annie and Phantom of the Opera. " ;
+        c:subject    <http://d.opencalais.com/pershash-1/32d231ce-8226-39d4-b770-195ee7bb2536> ;
+        c:suffix     " loved spending time with her grandchildren and" .
+
+<http://d.opencalais.com/conf/pershash-1/7263a11a-7766-3155-92bd-09b61daeb4d4>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.898" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/7263a11a-7766-3155-92bd-09b61daeb4d4> .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Relevance/20>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c9da2311-accc-3ae5-b33a-b3f92c37a58f> .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Instance/39>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[for several years. Marilyn was a member of the ]Carmen Christian Church[ and the D.A.R.  \t She was preceded in death by]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:exact      "Carmen Christian Church" ;
+        c:length     "23" ;
+        c:offset     "1388" ;
+        c:prefix     "for several years. Marilyn was a member of the " ;
+        c:subject    <http://d.opencalais.com/pershash-1/c42b4fcd-2ccb-39cb-bdc1-16793ad7f930> ;
+        c:suffix     " and the D.A.R.  \t She was preceded in death by" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/d07b8321-658d-eebb-cfd2-3d871bbe06f6>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Connecticut" ;
+        c:docId               <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:latitude            "41.6717" ;
+        c:longitude           "-72.9497" ;
+        c:name                "Bristol,Connecticut,United States" ;
+        c:shortname           "Bristol" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/c5591fd2-2de9-3a88-868f-0f1d4a5d94f6> .
+
+<http://d.opencalais.com/genericHasher-1/c1e14c20-7ec2-3637-872f-855b5253364e>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Christian Church" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/f8951afe-0db0-3be8-b17c-f562910da1ed>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/6f6e54ff-35c3-326d-8ed3-57a0d7eb1367> , <http://d.opencalais.com/pershash-1/32d231ce-8226-39d4-b770-195ee7bb2536> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/07011bdb-0b81-180b-5619-2839b9995800>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:latitude            "38.8215008889" ;
+        c:longitude           "-116.863863852" ;
+        c:name                "Nevada,United States" ;
+        c:permid              "100206" ;
+        c:rcscode             "G:57" ;
+        c:shortname           "Nevada" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/77c8f176-bc0f-34da-b3b2-1a396fa588ee> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/302e3f74-2669-a4ab-1197-3800256ab093>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Nevada" ;
+        c:docId               <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:latitude            "39.5297" ;
+        c:longitude           "-119.8128" ;
+        c:name                "Reno,Nevada,United States" ;
+        c:shortname           "Reno" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/3c683560-39d7-3f14-a967-67cb4cac18d2> .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Relevance/18>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/pershash-1/c42b4fcd-2ccb-39cb-bdc1-16793ad7f930> .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Instance/20>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[11 months, and 11 days. \t Marilyn grew up in ]Bristol[ and graduated high school from there and then]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:exact      "Bristol" ;
+        c:length     "7" ;
+        c:offset     "513" ;
+        c:prefix     "11 months, and 11 days. \t Marilyn grew up in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c5591fd2-2de9-3a88-868f-0f1d4a5d94f6> ;
+        c:suffix     " and graduated high school from there and then" .
+
+<http://d.opencalais.com/genericHasher-1/45feda90-9628-32f9-8338-3fa02bbb7374>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "University of Connecticut" .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Instance/33>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[death by her parents.  \nMarilyn is survived by ]her[ husband, Ray, of Carmen; three sons, James of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1497" ;
+        c:prefix     "death by her parents.  \nMarilyn is survived by " ;
+        c:subject    <http://d.opencalais.com/pershash-1/32d231ce-8226-39d4-b770-195ee7bb2536> ;
+        c:suffix     " husband, Ray, of Carmen; three sons, James of" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/fd9e1e90-96a9-04ff-1397-445c4e93208b>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:latitude            "36.4885198674" ;
+        c:longitude           "-119.701379437" ;
+        c:name                "California,United States" ;
+        c:permid              "100049" ;
+        c:rcscode             "G:4V" ;
+        c:shortname           "California" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/9679b237-33e8-3478-ba13-d9af3c4b943e> .
+
+<http://d.opencalais.com/conf/pershash-1/a38f791d-f4bc-3130-a9a2-77b78a5b7fcd>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.992" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/a38f791d-f4bc-3130-a9a2-77b78a5b7fcd> .
+
+<http://d.opencalais.com/genericHasher-1/86006a8e-d4dc-382e-b9b9-e6eecf3dd241>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oklahoma State University" ;
+        c:nationality        "American" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Instance/46>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[rooting for the University of Connecticut and ]Oklahoma State University[.  She also enjoyed cross stitching and watching]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:exact      "Oklahoma State University" ;
+        c:length     "25" ;
+        c:offset     "866" ;
+        c:prefix     "rooting for the University of Connecticut and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c9da2311-accc-3ae5-b33a-b3f92c37a58f> ;
+        c:suffix     ".  She also enjoyed cross stitching and watching" .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Instance/18>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[husband, Ray, of Carmen; three sons, James of ]California[, Kenny of Oregon, and Chris and wife, Christina,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:exact      "California" ;
+        c:length     "10" ;
+        c:offset     "1547" ;
+        c:prefix     "husband, Ray, of Carmen; three sons, James of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9679b237-33e8-3478-ba13-d9af3c4b943e> ;
+        c:suffix     ", Kenny of Oregon, and Chris and wife, Christina," .
+
+<http://d.opencalais.com/genericHasher-1/95509614-15fb-3c20-984e-74f223a9e1bb>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oregon" .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Relevance/12>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/95509614-15fb-3c20-984e-74f223a9e1bb> .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Relevance/25>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/6f6e54ff-35c3-326d-8ed3-57a0d7eb1367> .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/lid/DefaultLangId>
+        a                    <http://s.opencalais.com/1/type/lid/DefaultLangId> ;
+        c:docId              <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:forenduserdisplay  "false" ;
+        c:lang               <http://d.opencalais.com/lid/DefaultLangId/English> ;
+        c:permid             "505062" .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Instance/40>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ of the Carmen Christian Church and the D.A.R.  \t ]She[ was preceded in death by her parents.  \nMarilyn]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "1430" ;
+        c:prefix     " of the Carmen Christian Church and the D.A.R.  \t " ;
+        c:subject    <http://d.opencalais.com/pershash-1/c42b4fcd-2ccb-39cb-bdc1-16793ad7f930> ;
+        c:suffix     " was preceded in death by her parents.  \nMarilyn" .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Relevance/4>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Instance/12>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[\t Marilyn Esther Moore, daughter of the late ]Leslie Chauncey[ and Ruth (Leser) Hall, was born on November 27,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:exact      "Leslie Chauncey" ;
+        c:length     "15" ;
+        c:offset     "293" ;
+        c:prefix     "\t Marilyn Esther Moore, daughter of the late " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f21f47a0-69e4-3818-9605-93630efb6c58> ;
+        c:suffix     " and Ruth (Leser) Hall, was born on November 27," .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/SocialTag/1>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Carmen" ;
+        c:originalValue      "Carmen (disambiguation)" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/c495db0c-22d4-3715-927e-1e0c1e00426a> .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Instance/53>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[years. Marilyn was a member of the Carmen ]Christian Church[ and the D.A.R.  \t She was preceded in death by]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:exact      "Christian Church" ;
+        c:length     "16" ;
+        c:offset     "1395" ;
+        c:prefix     "years. Marilyn was a member of the Carmen " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c1e14c20-7ec2-3637-872f-855b5253364e> ;
+        c:suffix     " and the D.A.R.  \t She was preceded in death by" .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Instance/5>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[from there and then attended a trade school. ]On February 13, 1963, she was united in marriage to Ray Moore[ in Reno, Nevada. They made their home in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:exact      "On February 13, 1963, she was united in marriage to Ray Moore" ;
+        c:length     "61" ;
+        c:offset     "592" ;
+        c:prefix     "from there and then attended a trade school. " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/73f725d0-adfc-3d94-8975-ec3a27d51aad> ;
+        c:suffix     " in Reno, Nevada. They made their home in" .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4>
+        a                  <http://s.opencalais.com/1/type/sys/DocInfo> ;
+        c:calaisRequestID  "13fb7759-2024-3726-14d9-14082297848c" ;
+        c:docDate          "2015-05-26 17:23:53.839" ;
+        c:docTitle         "" ;
+        c:document         "Funeral services for Marilyn Moore will be 1:30 p.m. Monday, November 12, 2012, at the Carmen Christian Church  with Rev. Kirk Board officiating. Interment will be in the Carmen City Cemetery under the direction of Wentworth Mortuary, LLC, Carmen. \t Marilyn Esther Moore, daughter of the late Leslie Chauncey and Ruth (Leser) Hall, was born on November 27, 1938, at Bristol, Connecticut, and passed away on November 7, 2012, at Enid, Oklahoma, at the age of 73 years, 11 months, and 11 days. \t Marilyn grew up in Bristol and graduated high school from there and then attended a trade school. On February 13, 1963, she was united in marriage to Ray Moore in Reno, Nevada. They made their home in California and Connecticut before moving to Carmen 32 years ago. \t Marilyn loved to read books and watch college basketball, rooting for the University of Connecticut and Oklahoma State University.  She also enjoyed cross stitching and watching old movies and plays, such as Annie and Phantom of the Opera. Marilyn loved spending time with her grandchildren and decorating for all holidays and was looking forward to decorating the Christmas tree with twin grandsons, Brayden and Cayden. She was also a Civil War history buff and collected Precious Moments figurines. She and her family owned and operated the Nifty 50&amp;s Restaurant in Carmen for several years. Marilyn was a member of the Carmen Christian Church and the D.A.R.  \t She was preceded in death by her parents.  \nMarilyn is survived by her husband, Ray, of Carmen; three sons, James of California, Kenny of Oregon, and Chris and wife, Christina, of Carmen; one brother, Ron Hall of Carmen; six grandchildren, Brayden, Cayden, Savannah, Jessie, Nichole, and Heather; one great grandchild; other relatives and friends.\t  \nMemorial contributions may be made through the funeral home to help with funeral expenses. \n\t\t\t" ;
+        c:id               "http://id.opencalais.com/1kBnHIxQBRTjXfstlwLuDg" ;
+        c:ontology         "http://163.231.4.65/owlschema/8.3/onecalais.owl.allmetadata.xml" .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Instance/25>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Connecticut and Oklahoma State University.  ]She[ also enjoyed cross stitching and watching old]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "894" ;
+        c:prefix     "of Connecticut and Oklahoma State University.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/32d231ce-8226-39d4-b770-195ee7bb2536> ;
+        c:suffix     " also enjoyed cross stitching and watching old" .
+
+<http://d.opencalais.com/conf/comphash-1/a8ee0a81-b629-368a-b237-71a89306beec>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.558" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.788" ;
+        c:subject             <http://d.opencalais.com/comphash-1/a8ee0a81-b629-368a-b237-71a89306beec> .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Instance/38>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and operated the Nifty 50&s Restaurant in ]Carmen[ for several years. Marilyn was a member of the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:exact      "Carmen" ;
+        c:length     "6" ;
+        c:offset     "1334" ;
+        c:prefix     "and operated the Nifty 50&s Restaurant in " ;
+        c:subject    <http://d.opencalais.com/pershash-1/c42b4fcd-2ccb-39cb-bdc1-16793ad7f930> ;
+        c:suffix     " for several years. Marilyn was a member of the" .
+
+<http://d.opencalais.com/genericHasher-1/73f725d0-adfc-3d94-8975-ec3a27d51aad>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:date                "1963-02-13" ;
+        c:datestring          "February 13, 1963" ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/6f6e54ff-35c3-326d-8ed3-57a0d7eb1367> , <http://d.opencalais.com/pershash-1/32d231ce-8226-39d4-b770-195ee7bb2536> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Relevance/17>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/175f5654-d576-3c19-8e1e-fa538443ff42> .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Instance/32>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ \t She was preceded in death by her parents.  \n]Marilyn[ is survived by her husband, Ray, of Carmen;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:exact      "Marilyn" ;
+        c:length     "7" ;
+        c:offset     "1474" ;
+        c:prefix     " \t She was preceded in death by her parents.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/32d231ce-8226-39d4-b770-195ee7bb2536> ;
+        c:suffix     " is survived by her husband, Ray, of Carmen;" .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Instance/45>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[2012, at the Carmen Christian Church  with Rev. ]Kirk Board[ officiating. Interment will be in the Carmen]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:exact      "Kirk Board" ;
+        c:length     "10" ;
+        c:offset     "122" ;
+        c:prefix     "2012, at the Carmen Christian Church  with Rev. " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/92f76ec9-104d-352f-ac0f-7bac76522a85> ;
+        c:suffix     " officiating. Interment will be in the Carmen" .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Relevance/9>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/f21f47a0-69e4-3818-9605-93630efb6c58> .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Instance/17>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Moore in Reno, Nevada. They made their home in ]California[ and Connecticut before moving to Carmen 32 years]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:exact      "California" ;
+        c:length     "10" ;
+        c:offset     "695" ;
+        c:prefix     "Moore in Reno, Nevada. They made their home in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9679b237-33e8-3478-ba13-d9af3c4b943e> ;
+        c:suffix     " and Connecticut before moving to Carmen 32 years" .
+
+<http://d.opencalais.com/pershash-1/32d231ce-8226-39d4-b770-195ee7bb2536>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Marilyn Esther Moore" ;
+        c:confidencelevel    "0.993" ;
+        c:firstname          "Marilyn" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Moore" ;
+        c:middlename         "Esther" ;
+        c:name               "Marilyn Esther Moore" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Relevance/11>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/45feda90-9628-32f9-8338-3fa02bbb7374> .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Relevance/24>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c1e14c20-7ec2-3637-872f-855b5253364e> .
+
+<http://d.opencalais.com/genericHasher-1/7f75012d-30b9-3b41-8960-2e3aa31c55cf>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Connecticut" .
+
+<http://d.opencalais.com/conf/pershash-1/6f6e54ff-35c3-326d-8ed3-57a0d7eb1367>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.999" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.989" ;
+        c:subject             <http://d.opencalais.com/pershash-1/6f6e54ff-35c3-326d-8ed3-57a0d7eb1367> .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Relevance/3>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/86006a8e-d4dc-382e-b9b9-e6eecf3dd241> .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Instance/11>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ \t She was preceded in death by her parents.  \n]Marilyn is survived by her husband, Ray[, of Carmen; three sons, James of California,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:exact      "Marilyn is survived by her husband, Ray" ;
+        c:length     "39" ;
+        c:offset     "1474" ;
+        c:prefix     " \t She was preceded in death by her parents.  \n" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/f8951afe-0db0-3be8-b17c-f562910da1ed> ;
+        c:suffix     ", of Carmen; three sons, James of California," .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Instance/4>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and passed away on November 7, 2012, at Enid, ]Oklahoma[, at the age of 73 years, 11 months, and 11 days.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "434" ;
+        c:prefix     "and passed away on November 7, 2012, at Enid, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", at the age of 73 years, 11 months, and 11 days." .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Instance/52>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[p.m. Monday, November 12, 2012, at the Carmen ]Christian Church[  with Rev. Kirk Board officiating. Interment]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:exact      "Christian Church" ;
+        c:length     "16" ;
+        c:offset     "94" ;
+        c:prefix     "p.m. Monday, November 12, 2012, at the Carmen " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c1e14c20-7ec2-3637-872f-855b5253364e> ;
+        c:suffix     "  with Rev. Kirk Board officiating. Interment" .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Instance/24>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[before moving to Carmen 32 years ago. \t ]Marilyn[ loved to read books and watch college]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:exact      "Marilyn" ;
+        c:length     "7" ;
+        c:offset     "762" ;
+        c:prefix     "before moving to Carmen 32 years ago. \t " ;
+        c:subject    <http://d.opencalais.com/pershash-1/32d231ce-8226-39d4-b770-195ee7bb2536> ;
+        c:suffix     " loved to read books and watch college" .
+
+<http://d.opencalais.com/pershash-1/f21f47a0-69e4-3818-9605-93630efb6c58>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Leslie Chauncey" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Leslie" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Chauncey" ;
+        c:name               "Leslie Chauncey" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/meta>
+        a                 <http://s.opencalais.com/1/type/sys/DocInfoMeta> ;
+        c:contentType     "text/raw" ;
+        c:docId           <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:language        "English" ;
+        c:processingVer   "AllMetadata" ;
+        c:serverVersion   "OneCalais_8.3-RELEASE:364" ;
+        c:signature       "digestalg-1|m4nMz0OES6+hs83+S2RgLIKfWp0=|JZaqXlihTgmuk413402TlOo2s2QQcairCZ1N5emVqmtMAItuoSlfhQ==" ;
+        c:stagsVer        "OneCalais_8.3-RELEASE-b11-2015-03-25_18:29:00" ;
+        c:submissionDate  "2015-05-26 17:23:53.513" ;
+        c:submitterCode   "0ca6a864-5659-789d-5f32-f365f695e757" .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Instance/37>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in California and Connecticut before moving to ]Carmen[ 32 years ago. \t Marilyn loved to read books and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:exact      "Carmen" ;
+        c:length     "6" ;
+        c:offset     "739" ;
+        c:prefix     "in California and Connecticut before moving to " ;
+        c:subject    <http://d.opencalais.com/pershash-1/c42b4fcd-2ccb-39cb-bdc1-16793ad7f930> ;
+        c:suffix     " 32 years ago. \t Marilyn loved to read books and" .
+
+<http://d.opencalais.com/genericHasher-1/175f5654-d576-3c19-8e1e-fa538443ff42>
+        a                    <http://s.opencalais.com/1/type/em/e/Holiday> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Christmas" .
+
+<http://d.opencalais.com/genericHasher-1/92f76ec9-104d-352f-ac0f-7bac76522a85>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Kirk Board" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/pershash-1/7263a11a-7766-3155-92bd-09b61daeb4d4>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Christina" ;
+        c:confidencelevel    "0.898" ;
+        c:firstname          "Christina" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Christina" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/c42b4fcd-2ccb-39cb-bdc1-16793ad7f930>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.887" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.941" ;
+        c:subject             <http://d.opencalais.com/pershash-1/c42b4fcd-2ccb-39cb-bdc1-16793ad7f930> .
+
+<http://d.opencalais.com/genericHasher-1/68262876-6925-34c2-80f1-87b2870f6c94>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Reno" ;
+        c:person             <http://d.opencalais.com/pershash-1/6f6e54ff-35c3-326d-8ed3-57a0d7eb1367> .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/ComponentVersions>
+        a          <http://s.opencalais.com/1/type/sys/ComponentVersions> ;
+        c:docId    <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:version  "BlackList:264:264" , "config-sca-DataPackage:34:34" , "OneCalais:OneCalais_8.3-RELEASE:364" , "com.clearforest.infoext.dial4j.plugins-basistechconfig:OneCalais_8.3-RELEASE:225" , "People Index:201505261608:201505261608" , "config-drugs:258:258" , "SpanishIM:OneCalais_8.3-RELEASE:198" , "BrokerResearchIM:OneCalais_8.3-RELEASE:198" , "config-physicalAssets-ports:258:258" , "SocialTags Index:201505191038:201505191038" , "config-cse:271:271" , "FrenchIM:OneCalais_8.3-RELEASE:198" , "config-negativeSignature:258:258" , "SECHeaderMetadataIM:OneCalais_8.3-RELEASE:198" , "OA Override:271:271" , "WatchDog:OneCalais_8.3-RELEASE:113" , "AutocoderRuntimeIM:OneCalais_8.3-RELEASE:198" , "Housekeeper:OneCalais_8.3-RELEASE:113" , "Collector:OneCalais_8.3-RELEASE:113" , "index-vessels:201505231718:201505231718" , "config-vessels:258:258" , "OA Index:201505252208:201505252208" , "NextTags:OneCalais_8.3-RELEASE:113" , "Dial4J:OneCalais_8.3-RELEASE:198" , "OneCalaisIM:OneCalais_8.3-RELEASE:198" , "People Override:258:258" , "config-refineries:258:258" , "Deals Index:201505261613:201505261613" .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Relevance/16>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/pershash-1/32d231ce-8226-39d4-b770-195ee7bb2536> .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Instance/31>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ 50&s Restaurant in Carmen for several years. ]Marilyn[ was a member of the Carmen Christian Church and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:exact      "Marilyn" ;
+        c:length     "7" ;
+        c:offset     "1360" ;
+        c:prefix     " 50&s Restaurant in Carmen for several years. " ;
+        c:subject    <http://d.opencalais.com/pershash-1/32d231ce-8226-39d4-b770-195ee7bb2536> ;
+        c:suffix     " was a member of the Carmen Christian Church and" .
+
+<http://d.opencalais.com/conf/pershash-1/364dd7cb-4da7-360d-bb5e-0fdd3db7b593>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.995" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.976" ;
+        c:subject             <http://d.opencalais.com/pershash-1/364dd7cb-4da7-360d-bb5e-0fdd3db7b593> .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Instance/44>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Christina, of Carmen; one brother, Ron Hall of ]Carmen[; six grandchildren, Brayden, Cayden, Savannah,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:exact      "Carmen" ;
+        c:length     "6" ;
+        c:offset     "1643" ;
+        c:prefix     "Christina, of Carmen; one brother, Ron Hall of " ;
+        c:subject    <http://d.opencalais.com/pershash-1/c42b4fcd-2ccb-39cb-bdc1-16793ad7f930> ;
+        c:suffix     "; six grandchildren, Brayden, Cayden, Savannah," .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Relevance/8>
+        a                <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId          <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:relevance      "0.2" ;
+        c:relevancecont  "0.03" ;
+        c:subject        <http://d.opencalais.com/comphash-1/a8ee0a81-b629-368a-b237-71a89306beec> .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Instance/16>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and wife, Christina, of Carmen; one brother, ]Ron Hall[ of Carmen; six grandchildren, Brayden, Cayden,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:exact      "Ron Hall" ;
+        c:length     "8" ;
+        c:offset     "1631" ;
+        c:prefix     "and wife, Christina, of Carmen; one brother, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/364dd7cb-4da7-360d-bb5e-0fdd3db7b593> ;
+        c:suffix     " of Carmen; six grandchildren, Brayden, Cayden," .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Relevance/10>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3c683560-39d7-3f14-a967-67cb4cac18d2> .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Instance/9>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ February 13, 1963, she was united in marriage to ]Ray Moore in Reno, Nevada[. They made their home in California and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:exact      "Ray Moore in Reno, Nevada" ;
+        c:length     "25" ;
+        c:offset     "644" ;
+        c:prefix     " February 13, 1963, she was united in marriage to " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/68262876-6925-34c2-80f1-87b2870f6c94> ;
+        c:suffix     ". They made their home in California and" .
+
+<http://d.opencalais.com/pershash-1/a38f791d-f4bc-3130-a9a2-77b78a5b7fcd>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Marilyn Moore" ;
+        c:confidencelevel    "0.992" ;
+        c:firstname          "Marilyn" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Moore" ;
+        c:name               "Marilyn Moore" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Instance/29>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[buff and collected Precious Moments figurines. ]She[ and her family owned and operated the Nifty]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "1263" ;
+        c:prefix     "buff and collected Precious Moments figurines. " ;
+        c:subject    <http://d.opencalais.com/pershash-1/32d231ce-8226-39d4-b770-195ee7bb2536> ;
+        c:suffix     " and her family owned and operated the Nifty" .
+
+<http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee>
+        a                    <http://s.opencalais.com/1/type/em/e/IndustryTerm> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Funeral services" .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Relevance/23>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/aa358205-e926-391f-a5fa-12701e5328c9> .
+
+<http://d.opencalais.com/genericHasher-1/9679b237-33e8-3478-ba13-d9af3c4b943e>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "California" .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Relevance/2>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/35a979c1-2108-3761-99bd-8c6f499ef6f2> .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Instance/10>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[the Carmen City Cemetery under the direction of ]Wentworth Mortuary, LLC[, Carmen. \t Marilyn Esther Moore, daughter of the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:exact      "Wentworth Mortuary, LLC" ;
+        c:length     "23" ;
+        c:offset     "215" ;
+        c:prefix     "the Carmen City Cemetery under the direction of " ;
+        c:subject    <http://d.opencalais.com/comphash-1/a8ee0a81-b629-368a-b237-71a89306beec> ;
+        c:suffix     ", Carmen. \t Marilyn Esther Moore, daughter of the" .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Instance/3>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[rooting for the University of Connecticut and ]Oklahoma State University[.  She also enjoyed cross stitching and watching]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:exact      "Oklahoma State University" ;
+        c:length     "25" ;
+        c:offset     "866" ;
+        c:prefix     "rooting for the University of Connecticut and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/86006a8e-d4dc-382e-b9b9-e6eecf3dd241> ;
+        c:suffix     ".  She also enjoyed cross stitching and watching" .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Instance/51>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and watch college basketball, rooting for the ]University of Connecticut[ and Oklahoma State University.  She also enjoyed]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:exact      "University of Connecticut" ;
+        c:length     "25" ;
+        c:offset     "836" ;
+        c:prefix     "and watch college basketball, rooting for the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/aa358205-e926-391f-a5fa-12701e5328c9> ;
+        c:suffix     " and Oklahoma State University.  She also enjoyed" .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Instance/23>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[attended a trade school. On February 13, 1963, ]she[ was united in marriage to Ray Moore in Reno,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "614" ;
+        c:prefix     "attended a trade school. On February 13, 1963, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/32d231ce-8226-39d4-b770-195ee7bb2536> ;
+        c:suffix     " was united in marriage to Ray Moore in Reno," .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Instance/36>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[under the direction of Wentworth Mortuary, LLC, ]Carmen[. \t Marilyn Esther Moore, daughter of the late]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:exact      "Carmen" ;
+        c:length     "6" ;
+        c:offset     "240" ;
+        c:prefix     "under the direction of Wentworth Mortuary, LLC, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/c42b4fcd-2ccb-39cb-bdc1-16793ad7f930> ;
+        c:suffix     ". \t Marilyn Esther Moore, daughter of the late" .
+
+<http://d.opencalais.com/comphash-1/a8ee0a81-b629-368a-b237-71a89306beec>
+        a                    <http://s.opencalais.com/1/type/em/e/Company> ;
+        c:confidencelevel    "0.558" ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Wentworth Mortuary LLC" ;
+        c:nationality        "N/A" .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Instance/49>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[basketball, rooting for the University of ]Connecticut[ and Oklahoma State University.  She also enjoyed]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:exact      "Connecticut" ;
+        c:length     "11" ;
+        c:offset     "850" ;
+        c:prefix     "basketball, rooting for the University of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/7f75012d-30b9-3b41-8960-2e3aa31c55cf> ;
+        c:suffix     " and Oklahoma State University.  She also enjoyed" .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Relevance/15>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c5591fd2-2de9-3a88-868f-0f1d4a5d94f6> .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Instance/30>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[collected Precious Moments figurines. She and ]her[ family owned and operated the Nifty 50&s]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1271" ;
+        c:prefix     "collected Precious Moments figurines. She and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/32d231ce-8226-39d4-b770-195ee7bb2536> ;
+        c:suffix     " family owned and operated the Nifty 50&s" .
+
+<http://d.opencalais.com/genericHasher-1/52f06da9-a2d1-3490-aa54-9f8b91e94324>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Carmen City Cemetery" .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Instance/43>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Oregon, and Chris and wife, Christina, of ]Carmen[; one brother, Ron Hall of Carmen; six]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:exact      "Carmen" ;
+        c:length     "6" ;
+        c:offset     "1610" ;
+        c:prefix     "of Oregon, and Chris and wife, Christina, of " ;
+        c:subject    <http://d.opencalais.com/pershash-1/c42b4fcd-2ccb-39cb-bdc1-16793ad7f930> ;
+        c:suffix     "; one brother, Ron Hall of Carmen; six" .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Relevance/7>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/52f06da9-a2d1-3490-aa54-9f8b91e94324> .
+
+<http://d.opencalais.com/genericHasher-1/c5591fd2-2de9-3a88-868f-0f1d4a5d94f6>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Bristol" .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Instance/15>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[three sons, James of California, Kenny of ]Oregon[, and Chris and wife, Christina, of Carmen; one]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:exact      "Oregon" ;
+        c:length     "6" ;
+        c:offset     "1568" ;
+        c:prefix     "three sons, James of California, Kenny of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/95509614-15fb-3c20-984e-74f223a9e1bb> ;
+        c:suffix     ", and Chris and wife, Christina, of Carmen; one" .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Instance/8>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Kirk Board officiating. Interment will be in the ]Carmen City Cemetery[ under the direction of Wentworth Mortuary, LLC,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:exact      "Carmen City Cemetery" ;
+        c:length     "20" ;
+        c:offset     "171" ;
+        c:prefix     " Kirk Board officiating. Interment will be in the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/52f06da9-a2d1-3490-aa54-9f8b91e94324> ;
+        c:suffix     " under the direction of Wentworth Mortuary, LLC," .
+
+<http://d.opencalais.com/genericHasher-1/aa358205-e926-391f-a5fa-12701e5328c9>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "University of Connecticut" ;
+        c:nationality        "American" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Instance/28>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[tree with twin grandsons, Brayden and Cayden. ]She[ was also a Civil War history buff and collected]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "1183" ;
+        c:prefix     "tree with twin grandsons, Brayden and Cayden. " ;
+        c:subject    <http://d.opencalais.com/pershash-1/32d231ce-8226-39d4-b770-195ee7bb2536> ;
+        c:suffix     " was also a Civil War history buff and collected" .
+
+<http://d.opencalais.com/genericHasher-1/3c683560-39d7-3f14-a967-67cb4cac18d2>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Reno" .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Relevance/22>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee> .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Relevance/1>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/a38f791d-f4bc-3130-a9a2-77b78a5b7fcd> .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/e9e27c26-4013-8712-a5f0-97dcdc412c26>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:latitude            "35.5607802899" ;
+        c:longitude           "-96.8460570462" ;
+        c:name                "Oklahoma,United States" ;
+        c:permid              "100229" ;
+        c:rcscode             "G:9H" ;
+        c:shortname           "Oklahoma" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Instance/2>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and passed away on November 7, 2012, at ]Enid[, Oklahoma, at the age of 73 years, 11 months,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:exact      "Enid" ;
+        c:length     "4" ;
+        c:offset     "428" ;
+        c:prefix     "and passed away on November 7, 2012, at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/35a979c1-2108-3761-99bd-8c6f499ef6f2> ;
+        c:suffix     ", Oklahoma, at the age of 73 years, 11 months," .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Instance/50>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[]Funeral services[ for Marilyn Moore will be 1:30 p.m. Monday,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:exact      "Funeral services" ;
+        c:length     "16" ;
+        c:offset     "0" ;
+        c:prefix     "" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee> ;
+        c:suffix     " for Marilyn Moore will be 1:30 p.m. Monday," .
+
+<http://d.opencalais.com/pershash-1/6f6e54ff-35c3-326d-8ed3-57a0d7eb1367>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Ray Moore" ;
+        c:confidencelevel    "0.999" ;
+        c:firstname          "Ray" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Moore" ;
+        c:name               "Ray Moore" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Instance/22>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[the age of 73 years, 11 months, and 11 days. \t ]Marilyn[ grew up in Bristol and graduated high school]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:exact      "Marilyn" ;
+        c:length     "7" ;
+        c:offset     "494" ;
+        c:prefix     "the age of 73 years, 11 months, and 11 days. \t " ;
+        c:subject    <http://d.opencalais.com/pershash-1/32d231ce-8226-39d4-b770-195ee7bb2536> ;
+        c:suffix     " grew up in Bristol and graduated high school" .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Instance/35>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and was looking forward to decorating the ]Christmas[ tree with twin grandsons, Brayden and Cayden.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:exact      "Christmas" ;
+        c:length     "9" ;
+        c:offset     "1127" ;
+        c:prefix     "and was looking forward to decorating the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/175f5654-d576-3c19-8e1e-fa538443ff42> ;
+        c:suffix     " tree with twin grandsons, Brayden and Cayden." .
+
+<http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4/Instance/48>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Nevada. They made their home in California and ]Connecticut[ before moving to Carmen 32 years ago. \t Marilyn]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c7dfdc9f-aef9-37b6-b394-1699a76944a4> ;
+        c:exact      "Connecticut" ;
+        c:length     "11" ;
+        c:offset     "710" ;
+        c:prefix     "Nevada. They made their home in California and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/7f75012d-30b9-3b41-8960-2e3aa31c55cf> ;
+        c:suffix     " before moving to Carmen 32 years ago. \t Marilyn" .
+
+<http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oklahoma" .
+
+<http://d.opencalais.com/genericHasher-1/35a979c1-2108-3761-99bd-8c6f499ef6f2>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Enid" .

@@ -1,0 +1,1558 @@
+#Relations: FamilyRelation, PersonCareer, PersonEducation, PersonLocation, PersonRelation
+#City: Alva, Shawnee
+#Facility: Bethel Cemetery, Bethel United Methodist Church, Marshall Funeral Home Chapel, Marshall Funeral Home of Alva, State Drug Rehab Center
+#IndustryTerm: Funeral services
+#Organization: Alva High School, Beadles Nursing Home Activity Fund, Beauty School in Oklahoma City, Bethel United Methodist Church, Christian Church, State Drug Rehab Center, Washington Grade School
+#Person: Afton Carrol Nichols, Alice, Bill, Carrol Nichols, Elma Ruth McMurphy, Ernie Nichols, Marna Lou Finney, Marshall Funeral, Monty Blaine Wimmer, Rhonda Walker, Rocky Nichols, Ron Pingelton
+#Position: athlete
+#ProvinceOrState: Arizona, Oklahoma
+#SportsEvent: Olympics
+@prefix c:     <http://s.opencalais.com/1/pred/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://d.opencalais.com/pershash-1/cb0f2420-a174-3034-aae7-437ea531b0c4>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Elma Ruth McMurphy" ;
+        c:confidencelevel    "0.994" ;
+        c:firstname          "Elma" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "McMurphy" ;
+        c:middlename         "Ruth" ;
+        c:name               "Elma Ruth McMurphy" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/87781301-83de-34f6-85f7-10b12f5a686f>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Alva" ;
+        c:person             <http://d.opencalais.com/pershash-1/8b849ed8-bce7-3ef9-8a40-3fca6752f753> .
+
+<http://d.opencalais.com/genericHasher-1/ad252bb3-ed39-3c2a-ae6e-897993c398af>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Bethel United Methodist Church" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Instance/74>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[near Shawnee, Oklahoma, under the direction of ]Marshall Funeral[ Home of Alva.  \nAfton Carrol Nichols, daughter]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:exact      "Marshall Funeral" ;
+        c:length     "16" ;
+        c:offset     "266" ;
+        c:prefix     "near Shawnee, Oklahoma, under the direction of " ;
+        c:subject    <http://d.opencalais.com/pershash-1/0824c880-7431-3846-b832-1042cfbe83e9> ;
+        c:suffix     " Home of Alva.  \nAfton Carrol Nichols, daughter" .
+
+<http://d.opencalais.com/conf/pershash-1/8b849ed8-bce7-3ef9-8a40-3fca6752f753>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.962" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/8b849ed8-bce7-3ef9-8a40-3fca6752f753> .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Relevance/26>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/317bd67c-156a-32bd-8a5f-dd97b6d4c5a2> .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Instance/53>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ at the age of 67 years, 8 months, and 22 days.  \n]Afton attended Washington Grade School in Alva and graduated from Alva High School[.  She was quite an athlete in school, holding]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:exact      "Afton attended Washington Grade School in Alva and graduated from Alva High School" ;
+        c:length     "82" ;
+        c:offset     "531" ;
+        c:prefix     " at the age of 67 years, 8 months, and 22 days.  \n" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/08a8c0d9-406c-30a3-ab3e-37428f514839> ;
+        c:suffix     ".  She was quite an athlete in school, holding" .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Instance/32>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and playing the guitar.  \nBesides her parents, ]she[ was preceded in death by her husband, Ernie, in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "1285" ;
+        c:prefix     "and playing the guitar.  \nBesides her parents, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b67ee46d-079f-3800-a5b3-a20ca99869f7> ;
+        c:suffix     " was preceded in death by her husband, Ernie, in" .
+
+<http://d.opencalais.com/pershash-1/29667255-41bc-3e54-bdff-849f3e7a7b63>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Afton Carrol Nichols" ;
+        c:confidencelevel    "0.745" ;
+        c:firstname          "Afton" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Nichols" ;
+        c:middlename         "Carrol" ;
+        c:name               "Afton Carrol Nichols" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Instance/11>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Elma (Wells) Rose, was born March 23, 1944, at ]Alva[, Oklahoma, and passed away December 15, 2011, at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "412" ;
+        c:prefix     "Elma (Wells) Rose, was born March 23, 1944, at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:suffix     ", Oklahoma, and passed away December 15, 2011, at" .
+
+<http://d.opencalais.com/pershash-1/0824c880-7431-3846-b832-1042cfbe83e9>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Marshall Funeral" .
+
+<http://d.opencalais.com/pershash-1/5c363ee8-9939-3d50-a242-6610fa19de9b>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Monty Blaine Wimmer" ;
+        c:confidencelevel    "0.994" ;
+        c:firstname          "Monty" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Wimmer" ;
+        c:middlename         "Blaine" ;
+        c:name               "Monty Blaine Wimmer" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/f12a5c54-6703-3bd6-a83d-8fa6973ef353>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Shawnee" .
+
+<http://d.opencalais.com/conf/pershash-1/85fb91a9-d8ce-3309-be28-75c4a36875c0>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/85fb91a9-d8ce-3309-be28-75c4a36875c0> .
+
+<http://d.opencalais.com/genericHasher-1/b3a723f6-5d1b-3f0d-a330-6713bd74bf72>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Bethel United Methodist Church" .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Instance/61>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[near Shawnee, Oklahoma, under the direction of ]Marshall Funeral Home of Alva[.  \nAfton Carrol Nichols, daughter of the late]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:exact      "Marshall Funeral Home of Alva" ;
+        c:length     "29" ;
+        c:offset     "266" ;
+        c:prefix     "near Shawnee, Oklahoma, under the direction of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6bf2c0d-0ac3-3aaa-a334-e02dfcbc3358> ;
+        c:suffix     ".  \nAfton Carrol Nichols, daughter of the late" .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Relevance/13>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/52512cea-846b-3ee5-a88c-a572ce14c274> .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Instance/40>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ the Bethel United Methodist Church and the First ]Christian Church[ in Alva.  She enjoyed knitting and crocheting]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:exact      "Christian Church" ;
+        c:length     "16" ;
+        c:offset     "1175" ;
+        c:prefix     " the Bethel United Methodist Church and the First " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c1e14c20-7ec2-3637-872f-855b5253364e> ;
+        c:suffix     " in Alva.  She enjoyed knitting and crocheting" .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Instance/19>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[by her sister, Elma Ruth McMurphy and husband, ]Bill[, of Alva; one stepson, Rocky Nichols and wife,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:exact      "Bill" ;
+        c:length     "4" ;
+        c:offset     "1478" ;
+        c:prefix     "by her sister, Elma Ruth McMurphy and husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/8b849ed8-bce7-3ef9-8a40-3fca6752f753> ;
+        c:suffix     ", of Alva; one stepson, Rocky Nichols and wife," .
+
+<http://d.opencalais.com/genericHasher-1/43c6563a-6994-36ef-a236-2760c2258f02>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "husband" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/b67ee46d-079f-3800-a5b3-a20ca99869f7> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/52512cea-846b-3ee5-a88c-a572ce14c274> .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Relevance/7>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c6bff7b1-e904-3e81-8457-b0a7e72cd506> .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Instance/69>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Finney; and one brother, Monty Blaine Wimmer.  \n]Afton[ is survived by her sister, Elma Ruth McMurphy]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:exact      "Afton" ;
+        c:length     "5" ;
+        c:offset     "1413" ;
+        c:prefix     "Finney; and one brother, Monty Blaine Wimmer.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/29667255-41bc-3e54-bdff-849f3e7a7b63> ;
+        c:suffix     " is survived by her sister, Elma Ruth McMurphy" .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Relevance/21>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ffe3480a-abe7-3145-bdfe-b1e4a35ad4cd> .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Instance/5>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[sisters and brother.  \nShe was a member of the ]Bethel United Methodist Church[ and the First Christian Church in Alva.  She]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:exact      "Bethel United Methodist Church" ;
+        c:length     "30" ;
+        c:offset     "1130" ;
+        c:prefix     "sisters and brother.  \nShe was a member of the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ad252bb3-ed39-3c2a-ae6e-897993c398af> ;
+        c:suffix     " and the First Christian Church in Alva.  She" .
+
+<http://d.opencalais.com/conf/pershash-1/a6cc0c61-9320-3431-a9c5-8c09975e9ddf>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.997" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.998" ;
+        c:subject             <http://d.opencalais.com/pershash-1/a6cc0c61-9320-3431-a9c5-8c09975e9ddf> .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Instance/48>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[they moved to Vinita where she worked at the ]State Drug Rehab Center[ until health issues forced her to retire and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:exact      "State Drug Rehab Center" ;
+        c:length     "23" ;
+        c:offset     "925" ;
+        c:prefix     "they moved to Vinita where she worked at the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/d62895f0-da97-36e2-ba34-eb154a809250> ;
+        c:suffix     " until health issues forced her to retire and" .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Instance/27>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[to Shawnee.  After the death of her husband, ]she[ moved to Alva to be near her sisters and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "1050" ;
+        c:prefix     "to Shawnee.  After the death of her husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b67ee46d-079f-3800-a5b3-a20ca99869f7> ;
+        c:suffix     " moved to Alva to be near her sisters and" .
+
+<http://d.opencalais.com/genericHasher-1/c6bff7b1-e904-3e81-8457-b0a7e72cd506>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Alva High School" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Relevance/29>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/ceb82cbb-c44b-3c8f-839b-64ef15b324c9> .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Instance/56>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ at the age of 67 years, 8 months, and 22 days.  \n]Afton attended Washington Grade School in Alva and graduated from Alva High School[.  She was quite an athlete in school, holding]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:exact      "Afton attended Washington Grade School in Alva and graduated from Alva High School" ;
+        c:length     "82" ;
+        c:offset     "531" ;
+        c:prefix     " at the age of 67 years, 8 months, and 22 days.  \n" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/940a5914-3390-3f73-9b15-adf6d7da59ac> ;
+        c:suffix     ".  She was quite an athlete in school, holding" .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Instance/35>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Alva; one stepson, Rocky Nichols and wife, ]Alice[ of Arizona; one stepdaughter, Rhonda Walker of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:exact      "Alice" ;
+        c:length     "5" ;
+        c:offset     "1530" ;
+        c:prefix     "of Alva; one stepson, Rocky Nichols and wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/2200b271-d670-32d3-9f36-7bcbf3abcc44> ;
+        c:suffix     " of Arizona; one stepdaughter, Rhonda Walker of" .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Instance/14>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ After the death of her husband, she moved to ]Alva[ to be near her sisters and brother.  \nShe was a]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "1063" ;
+        c:prefix     " After the death of her husband, she moved to " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:suffix     " to be near her sisters and brother.  \nShe was a" .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Relevance/2>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4f7b7ff1-4dad-3e4d-b2e6-410bf4a326d0> .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Instance/64>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Little Olympics 50-yard dash for many years.  ]She then attended Beauty School in Oklahoma City[.  She owned and operated a beauty shop in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:exact      "She then attended Beauty School in Oklahoma City" ;
+        c:length     "48" ;
+        c:offset     "724" ;
+        c:prefix     "Little Olympics 50-yard dash for many years.  " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/163a83ed-6fc1-3b3f-a3a4-0920099b3f4a> ;
+        c:suffix     ".  She owned and operated a beauty shop in" .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Relevance/16>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e9872a8a-2e1d-3d8c-a758-e2ce52e0d0b9> .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Instance/43>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[issues forced her to retire and they moved to ]Shawnee[.  After the death of her husband, she moved to]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:exact      "Shawnee" ;
+        c:length     "7" ;
+        c:offset     "1008" ;
+        c:prefix     "issues forced her to retire and they moved to " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/f12a5c54-6703-3bd6-a83d-8fa6973ef353> ;
+        c:suffix     ".  After the death of her husband, she moved to" .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Instance/22>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Little Olympics 50-yard dash for many years.  ]She[ then attended Beauty School in Oklahoma City. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "724" ;
+        c:prefix     "Little Olympics 50-yard dash for many years.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b67ee46d-079f-3800-a5b3-a20ca99869f7> ;
+        c:suffix     " then attended Beauty School in Oklahoma City. " .
+
+<http://d.opencalais.com/conf/pershash-1/cb0f2420-a174-3034-aae7-437ea531b0c4>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.994" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.996" ;
+        c:subject             <http://d.opencalais.com/pershash-1/cb0f2420-a174-3034-aae7-437ea531b0c4> .
+
+<http://d.opencalais.com/pershash-1/2200b271-d670-32d3-9f36-7bcbf3abcc44>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Alice" ;
+        c:confidencelevel    "0.898" ;
+        c:firstname          "Alice" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Alice" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Instance/72>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Monty Blaine Wimmer.  \nAfton is survived by ]her sister, Elma Ruth McMurphy and husband, Bill, of Alva[; one stepson, Rocky Nichols and wife, Alice of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:exact      "her sister, Elma Ruth McMurphy and husband, Bill, of Alva" ;
+        c:length     "57" ;
+        c:offset     "1434" ;
+        c:prefix     "Monty Blaine Wimmer.  \nAfton is survived by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8ea53e5d-0996-3c78-93f7-e9714c4d87f3> ;
+        c:suffix     "; one stepson, Rocky Nichols and wife, Alice of" .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Relevance/24>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/99d7955c-0ca3-382f-b022-79bf95cc143c> .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Instance/8>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[by her husband, Ernie, in 2004; one sister, ]Marna Lou Finney[; and one brother, Monty Blaine Wimmer.  \nAfton]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:exact      "Marna Lou Finney" ;
+        c:length     "16" ;
+        c:offset     "1355" ;
+        c:prefix     "by her husband, Ernie, in 2004; one sister, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/a6cc0c61-9320-3431-a9c5-8c09975e9ddf> ;
+        c:suffix     "; and one brother, Monty Blaine Wimmer.  \nAfton" .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Instance/51>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[(Wells) Rose, was born March 23, 1944, at Alva, ]Oklahoma[, and passed away December 15, 2011, at Alva,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "418" ;
+        c:prefix     "(Wells) Rose, was born March 23, 1944, at Alva, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", and passed away December 15, 2011, at Alva," .
+
+<http://d.opencalais.com/conf/pershash-1/29667255-41bc-3e54-bdff-849f3e7a7b63>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.745" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.804" ;
+        c:subject             <http://d.opencalais.com/pershash-1/29667255-41bc-3e54-bdff-849f3e7a7b63> .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Instance/30>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Church and the First Christian Church in Alva.  ]She[ enjoyed knitting and crocheting and playing the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "1202" ;
+        c:prefix     "Church and the First Christian Church in Alva.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b67ee46d-079f-3800-a5b3-a20ca99869f7> ;
+        c:suffix     " enjoyed knitting and crocheting and playing the" .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/SocialTag/3>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Afton" ;
+        c:originalValue      "Afton" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/93e5095f-8855-3546-9b8b-1c7649805d86> .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Relevance/11>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce> .
+
+<http://d.opencalais.com/genericHasher-1/ffe3480a-abe7-3145-bdfe-b1e4a35ad4cd>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Marshall Funeral Home Chapel" .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Instance/59>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[to Alva to be near her sisters and brother.  \n]She was a member of the Bethel United Methodist Church[ and the First Christian Church in Alva.  She]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:exact      "She was a member of the Bethel United Methodist Church" ;
+        c:length     "54" ;
+        c:offset     "1106" ;
+        c:prefix     "to Alva to be near her sisters and brother.  \n" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/814606e0-2f01-3259-9d2b-7b017a1648f8> ;
+        c:suffix     " and the First Christian Church in Alva.  She" .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Instance/38>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in Newkirk for several years.  After marrying ]Ernie Nichols[ in 1997 they moved to Vinita where she worked at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:exact      "Ernie Nichols" ;
+        c:length     "13" ;
+        c:offset     "858" ;
+        c:prefix     "in Newkirk for several years.  After marrying " ;
+        c:subject    <http://d.opencalais.com/pershash-1/52512cea-846b-3ee5-a88c-a572ce14c274> ;
+        c:suffix     " in 1997 they moved to Vinita where she worked at" .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Instance/17>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[to the Beadles Nursing Home Activity Fund or ]Alva[ First Christian Church.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "1756" ;
+        c:prefix     "to the Beadles Nursing Home Activity Fund or " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:suffix     " First Christian Church." .
+
+<http://d.opencalais.com/genericHasher-1/d62895f0-da97-36e2-ba34-eb154a809250>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "State Drug Rehab Center" .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Relevance/5>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/a6cc0c61-9320-3431-a9c5-8c09975e9ddf> .
+
+<http://d.opencalais.com/pershash-1/52512cea-846b-3ee5-a88c-a572ce14c274>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Ernie Nichols" ;
+        c:confidencelevel    "0.992" ;
+        c:firstname          "Ernie" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Nichols" ;
+        c:name               "Ernie Nichols" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Instance/67>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[direction of Marshall Funeral Home of Alva.  \n]Afton Carrol Nichols[, daughter of the late Martin Luther and Ruby]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:exact      "Afton Carrol Nichols" ;
+        c:length     "20" ;
+        c:offset     "299" ;
+        c:prefix     "direction of Marshall Funeral Home of Alva.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/29667255-41bc-3e54-bdff-849f3e7a7b63> ;
+        c:suffix     ", daughter of the late Martin Luther and Ruby" .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Instance/3>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[sisters and brother.  \nShe was a member of the ]Bethel United Methodist Church[ and the First Christian Church in Alva.  She]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:exact      "Bethel United Methodist Church" ;
+        c:length     "30" ;
+        c:offset     "1130" ;
+        c:prefix     "sisters and brother.  \nShe was a member of the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b3a723f6-5d1b-3f0d-a330-6713bd74bf72> ;
+        c:suffix     " and the First Christian Church in Alva.  She" .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Relevance/19>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/83d6b6ba-4c0c-3d16-999f-41fa2ba3ddc5> .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Instance/46>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[at the Marshall Funeral Home Chapel with Rev. ]Ron Pingelton[ officiating.  Interment will be at 4:00 p.m. in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:exact      "Ron Pingelton" ;
+        c:length     "13" ;
+        c:offset     "137" ;
+        c:prefix     "at the Marshall Funeral Home Chapel with Rev. " ;
+        c:subject    <http://d.opencalais.com/pershash-1/85fb91a9-d8ce-3309-be28-75c4a36875c0> ;
+        c:suffix     " officiating.  Interment will be at 4:00 p.m. in" .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Instance/25>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Drug Rehab Center until health issues forced ]her[ to retire and they moved to Shawnee.  After the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "976" ;
+        c:prefix     "Drug Rehab Center until health issues forced " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b67ee46d-079f-3800-a5b3-a20ca99869f7> ;
+        c:suffix     " to retire and they moved to Shawnee.  After the" .
+
+<http://d.opencalais.com/genericHasher-1/b6bf2c0d-0ac3-3aaa-a334-e02dfcbc3358>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Alva" ;
+        c:person             <http://d.opencalais.com/pershash-1/0824c880-7431-3846-b832-1042cfbe83e9> .
+
+<http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Marshall Funeral Home of Alva" .
+
+<http://d.opencalais.com/genericHasher-1/e57b7ef0-cdaa-3571-841e-6dcea7ac00bd>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/8b849ed8-bce7-3ef9-8a40-3fca6752f753> , <http://d.opencalais.com/pershash-1/a6cc0c61-9320-3431-a9c5-8c09975e9ddf> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/ComponentVersions>
+        a          <http://s.opencalais.com/1/type/sys/ComponentVersions> ;
+        c:docId    <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:version  "Dial4J:OneCalais_8.3-RELEASE:198" , "People Index:201505261608:201505261608" , "OneCalais:OneCalais_8.3-RELEASE:364" , "Collector:OneCalais_8.3-RELEASE:113" , "Deals Index:201505261613:201505261613" , "SpanishIM:OneCalais_8.3-RELEASE:198" , "AutocoderRuntimeIM:OneCalais_8.3-RELEASE:198" , "config-drugs:258:258" , "NextTags:OneCalais_8.3-RELEASE:113" , "WatchDog:OneCalais_8.3-RELEASE:113" , "config-cse:271:271" , "BrokerResearchIM:OneCalais_8.3-RELEASE:198" , "BlackList:264:264" , "FrenchIM:OneCalais_8.3-RELEASE:198" , "OneCalaisIM:OneCalais_8.3-RELEASE:198" , "Housekeeper:OneCalais_8.3-RELEASE:113" , "config-physicalAssets-ports:258:258" , "config-sca-DataPackage:34:34" , "OA Index:201505252208:201505252208" , "SocialTags Index:201505191038:201505191038" , "People Override:258:258" , "SECHeaderMetadataIM:OneCalais_8.3-RELEASE:198" , "config-vessels:258:258" , "index-vessels:201505231718:201505231718" , "OA Override:271:271" , "config-negativeSignature:258:258" , "com.clearforest.infoext.dial4j.plugins-basistechconfig:OneCalais_8.3-RELEASE:225" , "config-refineries:258:258" .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Relevance/27>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/5c363ee8-9939-3d50-a242-6610fa19de9b> .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Instance/54>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Interment will be at 4:00 p.m. in the ]Bethel Cemetery[ near Shawnee, Oklahoma, under the direction of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:exact      "Bethel Cemetery" ;
+        c:length     "15" ;
+        c:offset     "203" ;
+        c:prefix     " Interment will be at 4:00 p.m. in the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b06260e5-ffb1-322c-941c-7a0eb260985d> ;
+        c:suffix     " near Shawnee, Oklahoma, under the direction of" .
+
+<http://d.opencalais.com/genericHasher-1/814606e0-2f01-3259-9d2b-7b017a1648f8>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:forenduserdisplay  "true" ;
+        c:organization       <http://d.opencalais.com/genericHasher-1/ad252bb3-ed39-3c2a-ae6e-897993c398af> ;
+        c:person             <http://d.opencalais.com/pershash-1/b67ee46d-079f-3800-a5b3-a20ca99869f7> ;
+        c:position           "member" ;
+        c:status             "past" .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Instance/33>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[her parents, she was preceded in death by ]her[ husband, Ernie, in 2004; one sister, Marna Lou]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1314" ;
+        c:prefix     "her parents, she was preceded in death by " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b67ee46d-079f-3800-a5b3-a20ca99869f7> ;
+        c:suffix     " husband, Ernie, in 2004; one sister, Marna Lou" .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Instance/12>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Oklahoma, and passed away December 15, 2011, at ]Alva[, Oklahoma, at the age of 67 years, 8 months, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "466" ;
+        c:prefix     "Oklahoma, and passed away December 15, 2011, at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:suffix     ", Oklahoma, at the age of 67 years, 8 months, and" .
+
+<http://d.opencalais.com/pershash-1/b67ee46d-079f-3800-a5b3-a20ca99869f7>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Carrol Nichols" ;
+        c:confidencelevel    "0.969" ;
+        c:firstname          "Carrol" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Nichols" ;
+        c:name               "Carrol Nichols" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/e9872a8a-2e1d-3d8c-a758-e2ce52e0d0b9>
+        a                    <http://s.opencalais.com/1/type/em/e/Position> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "athlete" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/15f0deb5-fdee-353c-85e9-a36268ab0134>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:latitude            "33.8947715893" ;
+        c:longitude           "-111.509465331" ;
+        c:name                "Arizona,United States" ;
+        c:permid              "100018" ;
+        c:rcscode             "G:23" ;
+        c:shortname           "Arizona" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/317bd67c-156a-32bd-8a5f-dd97b6d4c5a2> .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Instance/62>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Wimmer.  \nAfton is survived by her sister, ]Elma Ruth McMurphy[ and husband, Bill, of Alva; one stepson, Rocky]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:exact      "Elma Ruth McMurphy" ;
+        c:length     "18" ;
+        c:offset     "1446" ;
+        c:prefix     "Wimmer.  \nAfton is survived by her sister, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/cb0f2420-a174-3034-aae7-437ea531b0c4> ;
+        c:suffix     " and husband, Bill, of Alva; one stepson, Rocky" .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Relevance/14>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c1e14c20-7ec2-3637-872f-855b5253364e> .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Instance/41>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Beadles Nursing Home Activity Fund or Alva First ]Christian Church[. \n\t\t\t]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:exact      "Christian Church" ;
+        c:length     "16" ;
+        c:offset     "1767" ;
+        c:prefix     " Beadles Nursing Home Activity Fund or Alva First " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c1e14c20-7ec2-3637-872f-855b5253364e> ;
+        c:suffix     ". \n\t\t\t" .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Instance/20>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Funeral services for Afton ]Carrol Nichols[ will be 10:00 a.m. Wednesday, December 21, 2011,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:exact      "Carrol Nichols" ;
+        c:length     "14" ;
+        c:offset     "27" ;
+        c:prefix     "Funeral services for Afton " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b67ee46d-079f-3800-a5b3-a20ca99869f7> ;
+        c:suffix     " will be 10:00 a.m. Wednesday, December 21, 2011," .
+
+<http://d.opencalais.com/conf/pershash-1/2200b271-d670-32d3-9f36-7bcbf3abcc44>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.898" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/2200b271-d670-32d3-9f36-7bcbf3abcc44> .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Relevance/8>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/8b849ed8-bce7-3ef9-8a40-3fca6752f753> .
+
+<http://d.opencalais.com/pershash-1/ceb82cbb-c44b-3c8f-839b-64ef15b324c9>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Rocky Nichols" ;
+        c:confidencelevel    "0.7" ;
+        c:firstname          "Rocky" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Nichols" ;
+        c:name               "Rocky Nichols" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Instance/70>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and husband, Bill, of Alva; one stepson, ]Rocky Nichols[ and wife, Alice of Arizona; one stepdaughter,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:exact      "Rocky Nichols" ;
+        c:length     "13" ;
+        c:offset     "1506" ;
+        c:prefix     "and husband, Bill, of Alva; one stepson, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/ceb82cbb-c44b-3c8f-839b-64ef15b324c9> ;
+        c:suffix     " and wife, Alice of Arizona; one stepdaughter," .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Relevance/22>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Instance/6>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Monty Blaine Wimmer.  \nAfton is survived by ]her sister, Elma Ruth McMurphy and husband, Bill, of Alva[; one stepson, Rocky Nichols and wife, Alice of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:exact      "her sister, Elma Ruth McMurphy and husband, Bill, of Alva" ;
+        c:length     "57" ;
+        c:offset     "1434" ;
+        c:prefix     "Monty Blaine Wimmer.  \nAfton is survived by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/593f67aa-6108-3e5a-8e22-3d5c45581277> ;
+        c:suffix     "; one stepson, Rocky Nichols and wife, Alice of" .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Instance/49>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[10:00 a.m. Wednesday, December 21, 2011, at the ]Marshall Funeral Home Chapel[ with Rev. Ron Pingelton officiating.  Interment]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:exact      "Marshall Funeral Home Chapel" ;
+        c:length     "28" ;
+        c:offset     "98" ;
+        c:prefix     "10:00 a.m. Wednesday, December 21, 2011, at the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ffe3480a-abe7-3145-bdfe-b1e4a35ad4cd> ;
+        c:suffix     " with Rev. Ron Pingelton officiating.  Interment" .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Instance/28>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of her husband, she moved to Alva to be near ]her[ sisters and brother.  \nShe was a member of the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1079" ;
+        c:prefix     "of her husband, she moved to Alva to be near " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b67ee46d-079f-3800-a5b3-a20ca99869f7> ;
+        c:suffix     " sisters and brother.  \nShe was a member of the" .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/SocialTag/1>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Alva" ;
+        c:originalValue      "Alva" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/17f61973-ed95-369b-b381-dec22ce26b2a> .
+
+<http://d.opencalais.com/genericHasher-1/c52f9916-feba-3dbb-a229-179ac6fd1a2b>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:forenduserdisplay  "true" ;
+        c:organization       <http://d.opencalais.com/genericHasher-1/83d6b6ba-4c0c-3d16-999f-41fa2ba3ddc5> ;
+        c:person             <http://d.opencalais.com/pershash-1/b67ee46d-079f-3800-a5b3-a20ca99869f7> ;
+        c:status             "past" .
+
+<http://d.opencalais.com/genericHasher-1/99d7955c-0ca3-382f-b022-79bf95cc143c>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Washington Grade School" ;
+        c:nationality        "American" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Relevance/30>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/f4a61ee4-9c63-3039-b747-7a27e4659992> .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Instance/57>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[her parents, she was preceded in death by ]her husband, Ernie[, in 2004; one sister, Marna Lou Finney; and one]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:exact      "her husband, Ernie" ;
+        c:length     "18" ;
+        c:offset     "1314" ;
+        c:prefix     "her parents, she was preceded in death by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/43c6563a-6994-36ef-a236-2760c2258f02> ;
+        c:suffix     ", in 2004; one sister, Marna Lou Finney; and one" .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Instance/36>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[near Shawnee, Oklahoma, under the direction of ]Marshall Funeral Home of Alva[.  \nAfton Carrol Nichols, daughter of the late]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:exact      "Marshall Funeral Home of Alva" ;
+        c:length     "29" ;
+        c:offset     "266" ;
+        c:prefix     "near Shawnee, Oklahoma, under the direction of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce> ;
+        c:suffix     ".  \nAfton Carrol Nichols, daughter of the late" .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Instance/15>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Church and the First Christian Church in ]Alva[.  She enjoyed knitting and crocheting and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "1195" ;
+        c:prefix     "Church and the First Christian Church in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:suffix     ".  She enjoyed knitting and crocheting and" .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Relevance/3>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ad252bb3-ed39-3c2a-ae6e-897993c398af> .
+
+<http://d.opencalais.com/genericHasher-1/08a8c0d9-406c-30a3-ab3e-37428f514839>
+        a                       <http://s.opencalais.com/1/type/em/r/PersonEducation> ;
+        c:forenduserdisplay     "false" ;
+        c:person                <http://d.opencalais.com/pershash-1/29667255-41bc-3e54-bdff-849f3e7a7b63> ;
+        c:schoolororganization  "Alva High School" .
+
+<http://d.opencalais.com/genericHasher-1/a7b63392-6e09-3249-86f1-83ce0c7baf35>
+        a                    <http://s.opencalais.com/1/type/em/e/SportsEvent> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Olympics" .
+
+<http://d.opencalais.com/genericHasher-1/940a5914-3390-3f73-9b15-adf6d7da59ac>
+        a                       <http://s.opencalais.com/1/type/em/r/PersonEducation> ;
+        c:forenduserdisplay     "false" ;
+        c:person                <http://d.opencalais.com/pershash-1/29667255-41bc-3e54-bdff-849f3e7a7b63> ;
+        c:schoolororganization  "Washington Grade School" .
+
+<http://d.opencalais.com/conf/pershash-1/52512cea-846b-3ee5-a88c-a572ce14c274>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.992" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.995" ;
+        c:subject             <http://d.opencalais.com/pershash-1/52512cea-846b-3ee5-a88c-a572ce14c274> .
+
+<http://d.opencalais.com/genericHasher-1/163a83ed-6fc1-3b3f-a3a4-0920099b3f4a>
+        a                       <http://s.opencalais.com/1/type/em/r/PersonEducation> ;
+        c:forenduserdisplay     "false" ;
+        c:person                <http://d.opencalais.com/pershash-1/b67ee46d-079f-3800-a5b3-a20ca99869f7> ;
+        c:schoolororganization  "Beauty School in Oklahoma City" .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Instance/65>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[one sister, Marna Lou Finney; and one brother, ]Monty Blaine Wimmer[.  \nAfton is survived by her sister, Elma Ruth]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:exact      "Monty Blaine Wimmer" ;
+        c:length     "19" ;
+        c:offset     "1390" ;
+        c:prefix     "one sister, Marna Lou Finney; and one brother, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/5c363ee8-9939-3d50-a242-6610fa19de9b> ;
+        c:suffix     ".  \nAfton is survived by her sister, Elma Ruth" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/82e662d9-003c-9162-cb10-0da07ead1abc>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:latitude            "35.3272" ;
+        c:longitude           "-96.925" ;
+        c:name                "Shawnee,Oklahoma,United States" ;
+        c:shortname           "Shawnee" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/f12a5c54-6703-3bd6-a83d-8fa6973ef353> .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Relevance/17>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a7b63392-6e09-3249-86f1-83ce0c7baf35> .
+
+<http://d.opencalais.com/genericHasher-1/593f67aa-6108-3e5a-8e22-3d5c45581277>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "husband" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/a6cc0c61-9320-3431-a9c5-8c09975e9ddf> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/8b849ed8-bce7-3ef9-8a40-3fca6752f753> .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Instance/1>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[direction of Marshall Funeral Home of Alva.  \n]Afton Carrol Nichols, daughter of the late Martin Luther and Ruby Elma (Wells) Rose, was born March 23, 1944, at Alva, Oklahoma, and passed away December 15, 2011, at Alva, Oklahoma[, at the age of 67 years, 8 months, and 22 days. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:exact      "Afton Carrol Nichols, daughter of the late Martin Luther and Ruby Elma (Wells) Rose, was born March 23, 1944, at Alva, Oklahoma, and passed away December 15, 2011, at Alva, Oklahoma" ;
+        c:length     "181" ;
+        c:offset     "299" ;
+        c:prefix     "direction of Marshall Funeral Home of Alva.  \n" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/73e4d620-2bae-326c-ab72-216ae66109ab> ;
+        c:suffix     ", at the age of 67 years, 8 months, and 22 days. " .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Instance/44>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[graduated from Alva High School.  She was quite ]an athlete[ in school, holding the record in the Little]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:exact      "an athlete" ;
+        c:length     "10" ;
+        c:offset     "630" ;
+        c:prefix     "graduated from Alva High School.  She was quite " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e9872a8a-2e1d-3d8c-a758-e2ce52e0d0b9> ;
+        c:suffix     " in school, holding the record in the Little" .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Instance/23>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[then attended Beauty School in Oklahoma City.  ]She[ owned and operated a beauty shop in Newkirk for]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "775" ;
+        c:prefix     "then attended Beauty School in Oklahoma City.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b67ee46d-079f-3800-a5b3-a20ca99869f7> ;
+        c:suffix     " owned and operated a beauty shop in Newkirk for" .
+
+<http://d.opencalais.com/genericHasher-1/d42018f6-7138-3266-8855-d64c95994c8a>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Beadles Nursing Home Activity Fund" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Instance/73>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in Alva and graduated from Alva High School.  ]She was quite an athlete[ in school, holding the record in the Little]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:exact      "She was quite an athlete" ;
+        c:length     "24" ;
+        c:offset     "616" ;
+        c:prefix     "in Alva and graduated from Alva High School.  " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9b8e8cf0-f7d0-3ba0-89e9-d602bbab385b> ;
+        c:suffix     " in school, holding the record in the Little" .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0>
+        a                  <http://s.opencalais.com/1/type/sys/DocInfo> ;
+        c:calaisRequestID  "61de9011-f55d-f0d2-14d9-144f1af7848c" ;
+        c:docDate          "2015-05-26 17:28:44.604" ;
+        c:docTitle         "" ;
+        c:document         "Funeral services for Afton Carrol Nichols will be 10:00 a.m. Wednesday, December 21, 2011, at the Marshall Funeral Home Chapel with Rev. Ron Pingelton officiating.  Interment will be at 4:00 p.m. in the Bethel Cemetery near Shawnee, Oklahoma, under the direction of Marshall Funeral Home of Alva.  \nAfton Carrol Nichols, daughter of the late Martin Luther and Ruby Elma (Wells) Rose, was born March 23, 1944, at Alva, Oklahoma, and passed away December 15, 2011, at Alva, Oklahoma, at the age of 67 years, 8 months, and 22 days.  \nAfton attended Washington Grade School in Alva and graduated from Alva High School.  She was quite an athlete in school, holding the record in the Little Olympics 50-yard dash for many years.  She then attended Beauty School in Oklahoma City.  She owned and operated a beauty shop in Newkirk for several years.  After marrying Ernie Nichols in 1997 they moved to Vinita where she worked at the State Drug Rehab Center until health issues forced her to retire and they moved to Shawnee.  After the death of her husband, she moved to Alva to be near her sisters and brother.  \nShe was a member of the Bethel United Methodist Church and the First Christian Church in Alva.  She enjoyed knitting and crocheting and playing the guitar.  \nBesides her parents, she was preceded in death by her husband, Ernie, in 2004; one sister, Marna Lou Finney; and one brother, Monty Blaine Wimmer.  \nAfton is survived by her sister, Elma Ruth McMurphy and husband, Bill, of Alva; one stepson, Rocky Nichols and wife, Alice of Arizona; one stepdaughter, Rhonda Walker of Durant; two step grandchildren; other relatives and many friends.  \nMemorial contributions may be made through the funeral home to the Beadles Nursing Home Activity Fund or Alva First Christian Church. \n\t\t\t" ;
+        c:id               "http://id.opencalais.com/31Vx-*xP6qqfXR6tjNTh0Q" ;
+        c:ontology         "http://163.231.4.65/owlschema/8.3/onecalais.owl.allmetadata.xml" .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Relevance/25>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/cb0f2420-a174-3034-aae7-437ea531b0c4> .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Instance/9>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Monty Blaine Wimmer.  \nAfton is survived by ]her[ sister, Elma Ruth McMurphy and husband, Bill, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1434" ;
+        c:prefix     "Monty Blaine Wimmer.  \nAfton is survived by " ;
+        c:subject    <http://d.opencalais.com/pershash-1/a6cc0c61-9320-3431-a9c5-8c09975e9ddf> ;
+        c:suffix     " sister, Elma Ruth McMurphy and husband, Bill, of" .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Instance/52>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and passed away December 15, 2011, at Alva, ]Oklahoma[, at the age of 67 years, 8 months, and 22 days. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "472" ;
+        c:prefix     "and passed away December 15, 2011, at Alva, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", at the age of 67 years, 8 months, and 22 days. " .
+
+<http://d.opencalais.com/conf/pershash-1/b67ee46d-079f-3800-a5b3-a20ca99869f7>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.969" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.984" ;
+        c:subject             <http://d.opencalais.com/pershash-1/b67ee46d-079f-3800-a5b3-a20ca99869f7> .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Instance/31>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ and crocheting and playing the guitar.  \nBesides ]her[ parents, she was preceded in death by her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1272" ;
+        c:prefix     " and crocheting and playing the guitar.  \nBesides " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b67ee46d-079f-3800-a5b3-a20ca99869f7> ;
+        c:suffix     " parents, she was preceded in death by her" .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Instance/10>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[under the direction of Marshall Funeral Home of ]Alva[.  \nAfton Carrol Nichols, daughter of the late]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "291" ;
+        c:prefix     "under the direction of Marshall Funeral Home of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:suffix     ".  \nAfton Carrol Nichols, daughter of the late" .
+
+<http://d.opencalais.com/genericHasher-1/b06260e5-ffb1-322c-941c-7a0eb260985d>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Bethel Cemetery" .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/SocialTag/4>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "2" ;
+        c:name               "Bethel United Methodist Church" ;
+        c:originalValue      "Bethel United Methodist Church (Bethel Acres, Oklahoma)" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/7be7cd21-2297-3ae3-9069-ac4ea4014afe> .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/lid/DefaultLangId>
+        a                    <http://s.opencalais.com/1/type/lid/DefaultLangId> ;
+        c:docId              <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:forenduserdisplay  "false" ;
+        c:lang               <http://d.opencalais.com/lid/DefaultLangId/English> ;
+        c:permid             "505062" .
+
+<http://d.opencalais.com/genericHasher-1/16fa88cd-c3fd-3171-ba11-0a144ab54d14>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Arizona" ;
+        c:person             <http://d.opencalais.com/pershash-1/2200b271-d670-32d3-9f36-7bcbf3abcc44> .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Instance/60>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[by her sister, Elma Ruth McMurphy and husband, ]Bill, of Alva[; one stepson, Rocky Nichols and wife, Alice of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:exact      "Bill, of Alva" ;
+        c:length     "13" ;
+        c:offset     "1478" ;
+        c:prefix     "by her sister, Elma Ruth McMurphy and husband, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/87781301-83de-34f6-85f7-10b12f5a686f> ;
+        c:suffix     "; one stepson, Rocky Nichols and wife, Alice of" .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Relevance/12>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee> .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Instance/39>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[she was preceded in death by her husband, ]Ernie[, in 2004; one sister, Marna Lou Finney; and one]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:exact      "Ernie" ;
+        c:length     "5" ;
+        c:offset     "1327" ;
+        c:prefix     "she was preceded in death by her husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/52512cea-846b-3ee5-a88c-a572ce14c274> ;
+        c:suffix     ", in 2004; one sister, Marna Lou Finney; and one" .
+
+<http://d.opencalais.com/genericHasher-1/9b8e8cf0-f7d0-3ba0-89e9-d602bbab385b>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:forenduserdisplay  "true" ;
+        c:person             <http://d.opencalais.com/pershash-1/b67ee46d-079f-3800-a5b3-a20ca99869f7> ;
+        c:position           "athlete" ;
+        c:status             "past" .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Instance/18>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Grade School in Alva and graduated from ]Alva High School[.  She was quite an athlete in school, holding]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:exact      "Alva High School" ;
+        c:length     "16" ;
+        c:offset     "597" ;
+        c:prefix     "Grade School in Alva and graduated from " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c6bff7b1-e904-3e81-8457-b0a7e72cd506> ;
+        c:suffix     ".  She was quite an athlete in school, holding" .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Relevance/6>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> .
+
+<http://d.opencalais.com/pershash-1/f4a61ee4-9c63-3039-b747-7a27e4659992>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Rhonda Walker" ;
+        c:confidencelevel    "0.993" ;
+        c:firstname          "Rhonda" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Walker" ;
+        c:name               "Rhonda Walker" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/ceb82cbb-c44b-3c8f-839b-64ef15b324c9>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.7" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.75" ;
+        c:subject             <http://d.opencalais.com/pershash-1/ceb82cbb-c44b-3c8f-839b-64ef15b324c9> .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Instance/68>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ at the age of 67 years, 8 months, and 22 days.  \n]Afton[ attended Washington Grade School in Alva and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:exact      "Afton" ;
+        c:length     "5" ;
+        c:offset     "531" ;
+        c:prefix     " at the age of 67 years, 8 months, and 22 days.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/29667255-41bc-3e54-bdff-849f3e7a7b63> ;
+        c:suffix     " attended Washington Grade School in Alva and" .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Relevance/20>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/d62895f0-da97-36e2-ba34-eb154a809250> .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Instance/4>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[50-yard dash for many years.  She then attended ]Beauty School in Oklahoma City[.  She owned and operated a beauty shop in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:exact      "Beauty School in Oklahoma City" ;
+        c:length     "30" ;
+        c:offset     "742" ;
+        c:prefix     "50-yard dash for many years.  She then attended " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4f7b7ff1-4dad-3e4d-b2e6-410bf4a326d0> ;
+        c:suffix     ".  She owned and operated a beauty shop in" .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Instance/47>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[they moved to Vinita where she worked at the ]State Drug Rehab Center[ until health issues forced her to retire and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:exact      "State Drug Rehab Center" ;
+        c:length     "23" ;
+        c:offset     "925" ;
+        c:prefix     "they moved to Vinita where she worked at the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/83d6b6ba-4c0c-3d16-999f-41fa2ba3ddc5> ;
+        c:suffix     " until health issues forced her to retire and" .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Instance/26>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and they moved to Shawnee.  After the death of ]her[ husband, she moved to Alva to be near her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1037" ;
+        c:prefix     "and they moved to Shawnee.  After the death of " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b67ee46d-079f-3800-a5b3-a20ca99869f7> ;
+        c:suffix     " husband, she moved to Alva to be near her" .
+
+<http://d.opencalais.com/genericHasher-1/83d6b6ba-4c0c-3d16-999f-41fa2ba3ddc5>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "State Drug Rehab Center" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/cat/1>
+        a                    <http://s.opencalais.com/1/type/cat/DocCat> ;
+        c:docId              <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Human Interest" ;
+        c:score              "1.000" .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Relevance/28>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/29667255-41bc-3e54-bdff-849f3e7a7b63> .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Instance/55>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Finney; and one brother, Monty Blaine Wimmer.  \n]Afton is survived by her sister, Elma Ruth McMurphy and husband, Bill, of Alva[; one stepson, Rocky Nichols and wife, Alice of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:exact      "Afton is survived by her sister, Elma Ruth McMurphy and husband, Bill, of Alva" ;
+        c:length     "78" ;
+        c:offset     "1413" ;
+        c:prefix     "Finney; and one brother, Monty Blaine Wimmer.  \n" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e57b7ef0-cdaa-3571-841e-6dcea7ac00bd> ;
+        c:suffix     "; one stepson, Rocky Nichols and wife, Alice of" .
+
+<http://d.opencalais.com/pershash-1/8b849ed8-bce7-3ef9-8a40-3fca6752f753>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Bill" ;
+        c:confidencelevel    "0.962" ;
+        c:firstname          "Bill" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Bill" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Instance/34>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Ernie Nichols in 1997 they moved to Vinita where ]she worked at the State Drug Rehab Center[ until health issues forced her to retire and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:exact      "she worked at the State Drug Rehab Center" ;
+        c:length     "41" ;
+        c:offset     "907" ;
+        c:prefix     " Ernie Nichols in 1997 they moved to Vinita where " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c52f9916-feba-3dbb-a229-179ac6fd1a2b> ;
+        c:suffix     " until health issues forced her to retire and" .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Instance/13>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ \nAfton attended Washington Grade School in ]Alva[ and graduated from Alva High School.  She was]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "573" ;
+        c:prefix     " \nAfton attended Washington Grade School in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:suffix     " and graduated from Alva High School.  She was" .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Relevance/1>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b3a723f6-5d1b-3f0d-a330-6713bd74bf72> .
+
+<http://d.opencalais.com/genericHasher-1/c1e14c20-7ec2-3637-872f-855b5253364e>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Christian Church" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/pershash-1/85fb91a9-d8ce-3309-be28-75c4a36875c0>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Ron Pingelton" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Ron" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Pingelton" ;
+        c:name               "Ron Pingelton" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/5c363ee8-9939-3d50-a242-6610fa19de9b>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.994" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.996" ;
+        c:subject             <http://d.opencalais.com/pershash-1/5c363ee8-9939-3d50-a242-6610fa19de9b> .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Relevance/15>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/f12a5c54-6703-3bd6-a83d-8fa6973ef353> .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Instance/63>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[one stepson, Rocky Nichols and wife, Alice of ]Arizona[; one stepdaughter, Rhonda Walker of Durant; two]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:exact      "Arizona" ;
+        c:length     "7" ;
+        c:offset     "1539" ;
+        c:prefix     "one stepson, Rocky Nichols and wife, Alice of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/317bd67c-156a-32bd-8a5f-dd97b6d4c5a2> ;
+        c:suffix     "; one stepdaughter, Rhonda Walker of Durant; two" .
+
+<http://d.opencalais.com/genericHasher-1/73e4d620-2bae-326c-ab72-216ae66109ab>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Alva, Oklahoma" ;
+        c:person             <http://d.opencalais.com/pershash-1/29667255-41bc-3e54-bdff-849f3e7a7b63> .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Instance/42>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ will be at 4:00 p.m. in the Bethel Cemetery near ]Shawnee[, Oklahoma, under the direction of Marshall]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:exact      "Shawnee" ;
+        c:length     "7" ;
+        c:offset     "224" ;
+        c:prefix     " will be at 4:00 p.m. in the Bethel Cemetery near " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/f12a5c54-6703-3bd6-a83d-8fa6973ef353> ;
+        c:suffix     ", Oklahoma, under the direction of Marshall" .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Instance/21>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in Alva and graduated from Alva High School.  ]She[ was quite an athlete in school, holding the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "616" ;
+        c:prefix     "in Alva and graduated from Alva High School.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b67ee46d-079f-3800-a5b3-a20ca99869f7> ;
+        c:suffix     " was quite an athlete in school, holding the" .
+
+<http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee>
+        a                    <http://s.opencalais.com/1/type/em/e/IndustryTerm> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Funeral services" .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Relevance/9>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/pershash-1/b67ee46d-079f-3800-a5b3-a20ca99869f7> .
+
+<http://d.opencalais.com/genericHasher-1/317bd67c-156a-32bd-8a5f-dd97b6d4c5a2>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Arizona" .
+
+<http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oklahoma" .
+
+<http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Alva" .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Instance/71>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and wife, Alice of Arizona; one stepdaughter, ]Rhonda Walker[ of Durant; two step grandchildren; other]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:exact      "Rhonda Walker" ;
+        c:length     "13" ;
+        c:offset     "1566" ;
+        c:prefix     "and wife, Alice of Arizona; one stepdaughter, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f4a61ee4-9c63-3039-b747-7a27e4659992> ;
+        c:suffix     " of Durant; two step grandchildren; other" .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Relevance/23>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b06260e5-ffb1-322c-941c-7a0eb260985d> .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Instance/7>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[may be made through the funeral home to the ]Beadles Nursing Home Activity Fund[ or Alva First Christian Church.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:exact      "Beadles Nursing Home Activity Fund" ;
+        c:length     "34" ;
+        c:offset     "1718" ;
+        c:prefix     "may be made through the funeral home to the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/d42018f6-7138-3266-8855-d64c95994c8a> ;
+        c:suffix     " or Alva First Christian Church." .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Instance/50>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[4:00 p.m. in the Bethel Cemetery near Shawnee, ]Oklahoma[, under the direction of Marshall Funeral Home of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "233" ;
+        c:prefix     "4:00 p.m. in the Bethel Cemetery near Shawnee, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", under the direction of Marshall Funeral Home of" .
+
+<http://d.opencalais.com/pershash-1/a6cc0c61-9320-3431-a9c5-8c09975e9ddf>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Marna Lou Finney" ;
+        c:confidencelevel    "0.997" ;
+        c:firstname          "Marna" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Finney" ;
+        c:middlename         "Lou" ;
+        c:name               "Marna Lou Finney" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Instance/29>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[to Alva to be near her sisters and brother.  \n]She[ was a member of the Bethel United Methodist]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "1106" ;
+        c:prefix     "to Alva to be near her sisters and brother.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/b67ee46d-079f-3800-a5b3-a20ca99869f7> ;
+        c:suffix     " was a member of the Bethel United Methodist" .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/SocialTag/2>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Afton, Oklahoma" ;
+        c:originalValue      "Afton, Oklahoma" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/0f6ce34a-330b-32f8-a451-7de35e6e4c99> .
+
+<http://d.opencalais.com/genericHasher-1/8ea53e5d-0996-3c78-93f7-e9714c4d87f3>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "sister" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/a6cc0c61-9320-3431-a9c5-8c09975e9ddf> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/cb0f2420-a174-3034-aae7-437ea531b0c4> .
+
+<http://d.opencalais.com/genericHasher-1/4f7b7ff1-4dad-3e4d-b2e6-410bf4a326d0>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Beauty School in Oklahoma City" ;
+        c:nationality        "American" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Relevance/31>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/0824c880-7431-3846-b832-1042cfbe83e9> .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Relevance/10>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/2200b271-d670-32d3-9f36-7bcbf3abcc44> .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Instance/58>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[years, 8 months, and 22 days.  \nAfton attended ]Washington Grade School[ in Alva and graduated from Alva High School. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:exact      "Washington Grade School" ;
+        c:length     "23" ;
+        c:offset     "546" ;
+        c:prefix     "years, 8 months, and 22 days.  \nAfton attended " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/99d7955c-0ca3-382f-b022-79bf95cc143c> ;
+        c:suffix     " in Alva and graduated from Alva High School. " .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Instance/37>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[]Funeral services[ for Afton Carrol Nichols will be 10:00 a.m.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:exact      "Funeral services" ;
+        c:length     "16" ;
+        c:offset     "0" ;
+        c:prefix     "" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee> ;
+        c:suffix     " for Afton Carrol Nichols will be 10:00 a.m." .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Instance/16>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ sister, Elma Ruth McMurphy and husband, Bill, of ]Alva[; one stepson, Rocky Nichols and wife, Alice of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "1487" ;
+        c:prefix     " sister, Elma Ruth McMurphy and husband, Bill, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:suffix     "; one stepson, Rocky Nichols and wife, Alice of" .
+
+<http://d.opencalais.com/conf/pershash-1/f4a61ee4-9c63-3039-b747-7a27e4659992>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.993" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.995" ;
+        c:subject             <http://d.opencalais.com/pershash-1/f4a61ee4-9c63-3039-b747-7a27e4659992> .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Relevance/4>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/d42018f6-7138-3266-8855-d64c95994c8a> .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/e9e27c26-4013-8712-a5f0-97dcdc412c26>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:latitude            "35.5607802899" ;
+        c:longitude           "-96.8460570462" ;
+        c:name                "Oklahoma,United States" ;
+        c:permid              "100229" ;
+        c:rcscode             "G:9H" ;
+        c:shortname           "Oklahoma" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Instance/66>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[her parents, she was preceded in death by ]her husband, Ernie[, in 2004; one sister, Marna Lou Finney; and one]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:exact      "her husband, Ernie" ;
+        c:length     "18" ;
+        c:offset     "1314" ;
+        c:prefix     "her parents, she was preceded in death by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3b0ed88b-16d7-3d9e-95b2-5cb08778fdeb> ;
+        c:suffix     ", in 2004; one sister, Marna Lou Finney; and one" .
+
+<http://d.opencalais.com/genericHasher-1/3b0ed88b-16d7-3d9e-95b2-5cb08778fdeb>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/52512cea-846b-3ee5-a88c-a572ce14c274> , <http://d.opencalais.com/pershash-1/b67ee46d-079f-3800-a5b3-a20ca99869f7> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Instance/2>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Alva; one stepson, Rocky Nichols and wife, ]Alice of Arizona[; one stepdaughter, Rhonda Walker of Durant; two]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:exact      "Alice of Arizona" ;
+        c:length     "16" ;
+        c:offset     "1530" ;
+        c:prefix     "of Alva; one stepson, Rocky Nichols and wife, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/16fa88cd-c3fd-3171-ba11-0a144ab54d14> ;
+        c:suffix     "; one stepdaughter, Rhonda Walker of Durant; two" .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/meta>
+        a                 <http://s.opencalais.com/1/type/sys/DocInfoMeta> ;
+        c:contentType     "text/raw" ;
+        c:docId           <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:language        "English" ;
+        c:processingVer   "AllMetadata" ;
+        c:serverVersion   "OneCalais_8.3-RELEASE:364" ;
+        c:signature       "digestalg-1|X782MuHjZbV2qVzFZ2Nf3lu3nbY=|Gt4HPGyY15GdsRncrsOsi0Hq3dsvwN4OqAe7c8AzfsAEIBfSmDJRPg==" ;
+        c:stagsVer        "OneCalais_8.3-RELEASE-b11-2015-03-25_18:29:00" ;
+        c:submissionDate  "2015-05-26 17:28:44.207" ;
+        c:submitterCode   "0ca6a864-5659-789d-5f32-f365f695e757" .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Relevance/18>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/85fb91a9-d8ce-3309-be28-75c4a36875c0> .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Instance/45>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in school, holding the record in the Little ]Olympics[ 50-yard dash for many years.  She then attended]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:exact      "Olympics" ;
+        c:length     "8" ;
+        c:offset     "685" ;
+        c:prefix     "in school, holding the record in the Little " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a7b63392-6e09-3249-86f1-83ce0c7baf35> ;
+        c:suffix     " 50-yard dash for many years.  She then attended" .
+
+<http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0/Instance/24>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Ernie Nichols in 1997 they moved to Vinita where ]she[ worked at the State Drug Rehab Center until]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6d42dd1b-6609-3177-8542-de66b4e805b0> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "907" ;
+        c:prefix     " Ernie Nichols in 1997 they moved to Vinita where " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b67ee46d-079f-3800-a5b3-a20ca99869f7> ;
+        c:suffix     " worked at the State Drug Rehab Center until" .

@@ -1,0 +1,1331 @@
+#Relations: PersonAttributes, PersonEducation, PersonLocation, PersonRelation, PersonTravel, 
+#City: Dallas, Fredonia, Lincoln, Oklahoma City
+#Company: Alva Community Theatre Inc.
+#Facility: Marshall Funeral Home Chapel, Marshall Funeral Home of Alva, Northwestern State College
+#IndustryTerm: Funeral services
+#Organization: Alva United Methodist Church, Baptist Church, Capron High School, Northwestern State College, Oklahoma Education Association
+#Person: Andrew Ewing Holt, Dustin, Genevieve (Hawkins) Augustynick, Kelly Clark, Kelly Clark Ewing, Mary Sue, Rita Vonada, Terry Ewing, Terry Jearl, Terry Martindale
+#ProvinceOrState: Kansas, Oklahoma
+@prefix c:     <http://s.opencalais.com/1/pred/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://d.opencalais.com/conf/pershash-1/f218bcd2-37d9-3af2-93b9-8d73e140b9b4>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.997" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.998" ;
+        c:subject             <http://d.opencalais.com/pershash-1/f218bcd2-37d9-3af2-93b9-8d73e140b9b4> .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Instance/18>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[taught in Leavenworth, Kansas before moving to ]Oklahoma City[ after her retirement.    \nWhile living in Alva,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:exact      "Oklahoma City" ;
+        c:length     "13" ;
+        c:offset     "1022" ;
+        c:prefix     "taught in Leavenworth, Kansas before moving to " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b8620f48-da64-3b29-b094-f0b9edcda36f> ;
+        c:suffix     " after her retirement.    \nWhile living in Alva," .
+
+<http://d.opencalais.com/pershash-1/f30ac2c4-b173-343f-a95a-aea3310c42bc>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Andrew Ewing Holt" ;
+        c:confidencelevel    "0.961" ;
+        c:firstname          "Andrew" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Ewing Holt" ;
+        c:name               "Andrew Ewing Holt" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Instance/59>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Holt and Terry Jearl “T.J.” Holt; one sister, ]Rita Vonada[, of Lincoln, Kansas; other relatives and many]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:exact      "Rita Vonada" ;
+        c:length     "11" ;
+        c:offset     "1646" ;
+        c:prefix     "Holt and Terry Jearl “T.J.” Holt; one sister, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f218bcd2-37d9-3af2-93b9-8d73e140b9b4> ;
+        c:suffix     ", of Lincoln, Kansas; other relatives and many" .
+
+<http://d.opencalais.com/genericHasher-1/b8620f48-da64-3b29-b094-f0b9edcda36f>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oklahoma City" .
+
+<http://d.opencalais.com/pershash-1/7fc71755-aaa7-36ed-a485-39be8300d563>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Terry Ewing" ;
+        c:confidencelevel    "0.983" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Terry Ewing" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Instance/40>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[taught school in Fredonia, Kansas, Capron, and ]Alva[ until 2000 when she moved to Dallas and edited]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "895" ;
+        c:prefix     "taught school in Fredonia, Kansas, Capron, and " ;
+        c:subject    <http://d.opencalais.com/comphash-1/27c3257e-de81-3c95-9958-0d05dac2ad62> ;
+        c:suffix     " until 2000 when she moved to Dallas and edited" .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Relevance/4>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/27ae7089-951f-35df-a32e-e05b6f166a8f> .
+
+<http://d.opencalais.com/conf/pershash-1/7e28360c-3cc0-3ed3-ae4f-9a4c8455daa7>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.994" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.996" ;
+        c:subject             <http://d.opencalais.com/pershash-1/7e28360c-3cc0-3ed3-ae4f-9a4c8455daa7> .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Instance/12>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[over the years.  She loved spending time with ]her[ grandkids and her dog, Addie.    \nBesides her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1368" ;
+        c:prefix     "over the years.  She loved spending time with " ;
+        c:subject    <http://d.opencalais.com/pershash-1/94e8a7e4-b9a3-399e-9f55-70545d46c7ea> ;
+        c:suffix     " grandkids and her dog, Addie.    \nBesides her" .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/SocialTag/1>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Alva" ;
+        c:originalValue      "Alva" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/17f61973-ed95-369b-b381-dec22ce26b2a> .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Instance/53>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ to Northwestern State College where she obtained ]her[ Masters Degree in Education.  In 1966, she was]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "690" ;
+        c:prefix     " to Northwestern State College where she obtained " ;
+        c:subject    <http://d.opencalais.com/pershash-1/7964093d-494a-348b-90ed-9dac7dfb7825> ;
+        c:suffix     " Masters Degree in Education.  In 1966, she was" .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Relevance/16>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/f30ac2c4-b173-343f-a95a-aea3310c42bc> .
+
+<http://d.opencalais.com/genericHasher-1/6d270812-af10-3fee-bf24-691d22fb9b99>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Oklahoma City" ;
+        c:person             <http://d.opencalais.com/pershash-1/7964093d-494a-348b-90ed-9dac7dfb7825> .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Instance/25>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[parents, she was preceded in death by one son, ]Kelly Clark Ewing[.    \nSusie is survived by one daughter, JoLinda]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:exact      "Kelly Clark Ewing" ;
+        c:length     "17" ;
+        c:offset     "1465" ;
+        c:prefix     "parents, she was preceded in death by one son, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/7e28360c-3cc0-3ed3-ae4f-9a4c8455daa7> ;
+        c:suffix     ".    \nSusie is survived by one daughter, JoLinda" .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Instance/66>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ School with the Class of 1961.  She then went to ]Northwestern State College[ where she obtained her Masters Degree in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:exact      "Northwestern State College" ;
+        c:length     "26" ;
+        c:offset     "644" ;
+        c:prefix     " School with the Class of 1961.  She then went to " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8b14f97f-02a4-3e59-aaba-7cb34aeeb7cb> ;
+        c:suffix     " where she obtained her Masters Degree in" .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Instance/6>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Kansas before moving to Oklahoma City after ]her[ retirement.    \nWhile living in Alva, she was a]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1042" ;
+        c:prefix     "Kansas before moving to Oklahoma City after " ;
+        c:subject    <http://d.opencalais.com/pershash-1/94e8a7e4-b9a3-399e-9f55-70545d46c7ea> ;
+        c:suffix     " retirement.    \nWhile living in Alva, she was a" .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Instance/38>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[under the direction of Marshall Funeral Home of ]Alva[.    \nMary Sue “Susie” Ewing, daughter of the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "311" ;
+        c:prefix     "under the direction of Marshall Funeral Home of " ;
+        c:subject    <http://d.opencalais.com/comphash-1/27c3257e-de81-3c95-9958-0d05dac2ad62> ;
+        c:suffix     ".    \nMary Sue “Susie” Ewing, daughter of the" .
+
+<http://d.opencalais.com/genericHasher-1/60c15352-45a7-3329-ac65-207b1f6e274d>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonAttributes> ;
+        c:birthdate          "1943-11-07" ;
+        c:birthplace         <http://d.opencalais.com/genericHasher-1/b8620f48-da64-3b29-b094-f0b9edcda36f> ;
+        c:forenduserdisplay  "false" ;
+        c:gender             "F" ;
+        c:person             <http://d.opencalais.com/pershash-1/7964093d-494a-348b-90ed-9dac7dfb7825> .
+
+<http://d.opencalais.com/pershash-1/b345dca4-521c-3f1d-9c35-5776c90a3226>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Terry Martindale" ;
+        c:confidencelevel    "0.973" ;
+        c:firstname          "Terry" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Martindale" ;
+        c:name               "Terry Martindale" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Kansas" .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Relevance/10>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Instance/60>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[services for Mary Sue “Susie” ]Ewing[ will be 10:30 a.m. Saturday, November 8, 2014,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:exact      "Ewing" ;
+        c:length     "5" ;
+        c:offset     "38" ;
+        c:prefix     "services for Mary Sue “Susie” " ;
+        c:subject    <http://d.opencalais.com/pershash-1/7fc71755-aaa7-36ed-a485-39be8300d563> ;
+        c:suffix     " will be 10:30 a.m. Saturday, November 8, 2014," .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Relevance/23>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/f218bcd2-37d9-3af2-93b9-8d73e140b9b4> .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Instance/32>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Holt; one sister, Rita Vonada, of Lincoln, ]Kansas[; other relatives and many friends.    \nMemorial]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:exact      "Kansas" ;
+        c:length     "6" ;
+        c:offset     "1671" ;
+        c:prefix     "Holt; one sister, Rita Vonada, of Lincoln, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> ;
+        c:suffix     "; other relatives and many friends.    \nMemorial" .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Instance/45>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Funeral services for ]Mary Sue[ “Susie” Ewing will be 10:30 a.m. Saturday,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:exact      "Mary Sue" ;
+        c:length     "8" ;
+        c:offset     "21" ;
+        c:prefix     "Funeral services for " ;
+        c:subject    <http://d.opencalais.com/pershash-1/1113e4d6-08f1-3d17-98d1-38efe22eb549> ;
+        c:suffix     " “Susie” Ewing will be 10:30 a.m. Saturday," .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Relevance/9>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ffe3480a-abe7-3145-bdfe-b1e4a35ad4cd> .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Instance/17>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[City, and passed away November 5, 2014, at ]Oklahoma City[, at the age of 70 years, 11 months, and 28 days.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:exact      "Oklahoma City" ;
+        c:length     "13" ;
+        c:offset     "495" ;
+        c:prefix     "City, and passed away November 5, 2014, at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b8620f48-da64-3b29-b094-f0b9edcda36f> ;
+        c:suffix     ", at the age of 70 years, 11 months, and 28 days." .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Instance/58>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[]Funeral services[ for Mary Sue “Susie” Ewing will be 10:30 a.m.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:exact      "Funeral services" ;
+        c:length     "16" ;
+        c:offset     "0" ;
+        c:prefix     "" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee> ;
+        c:suffix     " for Mary Sue “Susie” Ewing will be 10:30 a.m." .
+
+<http://d.opencalais.com/pershash-1/1113e4d6-08f1-3d17-98d1-38efe22eb549>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Mary Sue" ;
+        c:confidencelevel    "0.922" ;
+        c:firstname          "Mary" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Sue" ;
+        c:name               "Mary Sue" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Relevance/3>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b8620f48-da64-3b29-b094-f0b9edcda36f> .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Instance/11>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in and directed many plays over the years.  ]She[ loved spending time with her grandkids and her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "1339" ;
+        c:prefix     "in and directed many plays over the years.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/94e8a7e4-b9a3-399e-9f55-70545d46c7ea> ;
+        c:suffix     " loved spending time with her grandkids and her" .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Instance/52>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[then went to Northwestern State College where ]she[ obtained her Masters Degree in Education.  In]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "677" ;
+        c:prefix     "then went to Northwestern State College where " ;
+        c:subject    <http://d.opencalais.com/pershash-1/7964093d-494a-348b-90ed-9dac7dfb7825> ;
+        c:suffix     " obtained her Masters Degree in Education.  In" .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Relevance/15>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/1113e4d6-08f1-3d17-98d1-38efe22eb549> .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Instance/24>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and Kelly, were born.  She taught school in ]Fredonia[, Kansas, Capron, and Alva until 2000 when she]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:exact      "Fredonia" ;
+        c:length     "8" ;
+        c:offset     "865" ;
+        c:prefix     "and Kelly, were born.  She taught school in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/22af5e3c-a5d2-3acd-9ec5-2fba513a0698> ;
+        c:suffix     ", Kansas, Capron, and Alva until 2000 when she" .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/meta>
+        a                 <http://s.opencalais.com/1/type/sys/DocInfoMeta> ;
+        c:contentType     "text/raw" ;
+        c:docId           <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:language        "English" ;
+        c:processingVer   "AllMetadata" ;
+        c:serverVersion   "OneCalais_8.3-RELEASE:364" ;
+        c:signature       "digestalg-1|H9Rcjf+ChoGYXpWX4Pg4lT70ONQ=|kQpNw5klhUoiGbTXmHi66N34+MVN8SIRBzTkM7Y7dSI1L1rWQTvV3A==" ;
+        c:stagsVer        "OneCalais_8.3-RELEASE-b11-2015-03-25_18:29:00" ;
+        c:submissionDate  "2015-05-26 17:31:24.546" ;
+        c:submitterCode   "0ca6a864-5659-789d-5f32-f365f695e757" .
+
+<http://d.opencalais.com/genericHasher-1/a21a69b3-e9dd-341e-9fee-da93c550c744>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Baptist Church" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/27ae7089-951f-35df-a32e-e05b6f166a8f>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Alva United Methodist Church" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Instance/65>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[living in Alva, she was a member of the First ]Baptist Church[.  She was also a member of Beta Sigma Phi,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:exact      "Baptist Church" ;
+        c:length     "14" ;
+        c:offset     "1114" ;
+        c:prefix     "living in Alva, she was a member of the First " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a21a69b3-e9dd-341e-9fee-da93c550c744> ;
+        c:suffix     ".  She was also a member of Beta Sigma Phi," .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Instance/5>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[moved to Dallas and edited children’s books.  ]She[ then taught in Leavenworth, Kansas before moving]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "966" ;
+        c:prefix     "moved to Dallas and edited children’s books.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/94e8a7e4-b9a3-399e-9f55-70545d46c7ea> ;
+        c:suffix     " then taught in Leavenworth, Kansas before moving" .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Instance/37>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Chapel with Rev. Terry Martindale, pastor of the ]Alva[ United Methodist Church officiating.  At her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "165" ;
+        c:prefix     " Chapel with Rev. Terry Martindale, pastor of the " ;
+        c:subject    <http://d.opencalais.com/comphash-1/27c3257e-de81-3c95-9958-0d05dac2ad62> ;
+        c:suffix     " United Methodist Church officiating.  At her" .
+
+<http://d.opencalais.com/genericHasher-1/bde6f1dc-5734-37c4-af07-b078fd82e4d7>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonEducation> ;
+        c:degree             "Masters" ;
+        c:forenduserdisplay  "false" ;
+        c:person             <http://d.opencalais.com/pershash-1/7964093d-494a-348b-90ed-9dac7dfb7825> .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Relevance/22>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee> .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Instance/31>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[books.  She then taught in Leavenworth, ]Kansas[ before moving to Oklahoma City after her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:exact      "Kansas" ;
+        c:length     "6" ;
+        c:offset     "998" ;
+        c:prefix     "books.  She then taught in Leavenworth, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> ;
+        c:suffix     " before moving to Oklahoma City after her" .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Instance/44>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Holt and Terry Jearl “T.J.” Holt; one sister, ]Rita Vonada, of Lincoln, Kansas[; other relatives and many friends.    \nMemorial]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:exact      "Rita Vonada, of Lincoln, Kansas" ;
+        c:length     "31" ;
+        c:offset     "1646" ;
+        c:prefix     "Holt and Terry Jearl “T.J.” Holt; one sister, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ec876aa6-a515-36a2-ac4f-53f2c6f50400> ;
+        c:suffix     "; other relatives and many friends.    \nMemorial" .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Relevance/8>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/f51a2caa-bb7f-3cdb-be49-49e4eb6e04b7> .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Instance/16>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Augustynick, was born November 7, 1943, in ]Oklahoma City[, and passed away November 5, 2014, at Oklahoma]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:exact      "Oklahoma City" ;
+        c:length     "13" ;
+        c:offset     "443" ;
+        c:prefix     "Augustynick, was born November 7, 1943, in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b8620f48-da64-3b29-b094-f0b9edcda36f> ;
+        c:suffix     ", and passed away November 5, 2014, at Oklahoma" .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Instance/57>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[after the service under the direction of ]Marshall Funeral Home of Alva[.    \nMary Sue “Susie” Ewing, daughter of the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:exact      "Marshall Funeral Home of Alva" ;
+        c:length     "29" ;
+        c:offset     "286" ;
+        c:prefix     "after the service under the direction of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce> ;
+        c:suffix     ".    \nMary Sue “Susie” Ewing, daughter of the" .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Instance/29>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ 11 months, and 28 days.    \nSusie graduated from ]Capron High School[ with the Class of 1961.  She then went to]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:exact      "Capron High School" ;
+        c:length     "18" ;
+        c:offset     "583" ;
+        c:prefix     " 11 months, and 28 days.    \nSusie graduated from " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/fc322fad-d2bd-3e88-9414-1e59ade90f5d> ;
+        c:suffix     " with the Class of 1961.  She then went to" .
+
+<http://d.opencalais.com/pershash-1/f218bcd2-37d9-3af2-93b9-8d73e140b9b4>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Rita Vonada" ;
+        c:confidencelevel    "0.997" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Rita Vonada" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/50004268-be33-39de-86b7-00ffa3df223e>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:date                "1966-00-00" ;
+        c:datestring          "In 1966" ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/7fc71755-aaa7-36ed-a485-39be8300d563> , <http://d.opencalais.com/pershash-1/7964093d-494a-348b-90ed-9dac7dfb7825> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Relevance/2>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/94e8a7e4-b9a3-399e-9f55-70545d46c7ea> .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Instance/10>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ also very active in Alva Community Theatre where ]she[ acted in and directed many plays over the years.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "1285" ;
+        c:prefix     " also very active in Alva Community Theatre where " ;
+        c:subject    <http://d.opencalais.com/pershash-1/94e8a7e4-b9a3-399e-9f55-70545d46c7ea> ;
+        c:suffix     " acted in and directed many plays over the years." .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Instance/51>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ from Capron High School with the Class of 1961.  ]She[ then went to Northwestern State College where]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "627" ;
+        c:prefix     " from Capron High School with the Class of 1961.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/7964093d-494a-348b-90ed-9dac7dfb7825> ;
+        c:suffix     " then went to Northwestern State College where" .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Relevance/14>
+        a                <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId          <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:relevance      "0.8" ;
+        c:relevancecont  "0.84" ;
+        c:subject        <http://d.opencalais.com/comphash-1/27c3257e-de81-3c95-9958-0d05dac2ad62> .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Instance/23>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Methodist Church officiating.  At her request, ]she[ will be cremated after the service under the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "224" ;
+        c:prefix     "Methodist Church officiating.  At her request, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b345dca4-521c-3f1d-9c35-5776c90a3226> ;
+        c:suffix     " will be cremated after the service under the" .
+
+<http://d.opencalais.com/pershash-1/7e28360c-3cc0-3ed3-ae4f-9a4c8455daa7>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Kelly Clark Ewing" ;
+        c:confidencelevel    "0.994" ;
+        c:firstname          "Kelly" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Ewing" ;
+        c:middlename         "Clark" ;
+        c:name               "Kelly Clark Ewing" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Instance/64>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[then went to Northwestern State College where ]she obtained her Masters Degree in Education[.  In 1966, she was united in marriage to Terry]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:exact      "she obtained her Masters Degree in Education" ;
+        c:length     "44" ;
+        c:offset     "677" ;
+        c:prefix     "then went to Northwestern State College where " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/bde6f1dc-5734-37c4-af07-b078fd82e4d7> ;
+        c:suffix     ".  In 1966, she was united in marriage to Terry" .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Instance/4>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Kansas, Capron, and Alva until 2000 when ]she[ moved to Dallas and edited children’s books. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "916" ;
+        c:prefix     "Kansas, Capron, and Alva until 2000 when " ;
+        c:subject    <http://d.opencalais.com/pershash-1/94e8a7e4-b9a3-399e-9f55-70545d46c7ea> ;
+        c:suffix     " moved to Dallas and edited children’s books. " .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Instance/36>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ She was also a member of Beta Sigma Phi, ]Oklahoma Education Association[, and the Silver Crowes.  She was also very]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:exact      "Oklahoma Education Association" ;
+        c:length     "30" ;
+        c:offset     "1172" ;
+        c:prefix     " She was also a member of Beta Sigma Phi, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/003e74c3-530a-3aa5-807a-43586ce6800a> ;
+        c:suffix     ", and the Silver Crowes.  She was also very" .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Instance/49>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ School with the Class of 1961.  She then went to ]Northwestern State College[ where she obtained her Masters Degree in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:exact      "Northwestern State College" ;
+        c:length     "26" ;
+        c:offset     "644" ;
+        c:prefix     " School with the Class of 1961.  She then went to " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/f56ea056-7dff-3a0f-8506-30ab66f1b25f> ;
+        c:suffix     " where she obtained her Masters Degree in" .
+
+<http://d.opencalais.com/genericHasher-1/ffe3480a-abe7-3145-bdfe-b1e4a35ad4cd>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Marshall Funeral Home Chapel" .
+
+<http://d.opencalais.com/conf/pershash-1/f51a2caa-bb7f-3cdb-be49-49e4eb6e04b7>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/f51a2caa-bb7f-3cdb-be49-49e4eb6e04b7> .
+
+<http://d.opencalais.com/genericHasher-1/f56ea056-7dff-3a0f-8506-30ab66f1b25f>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Northwestern State College" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Relevance/21>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce> .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Instance/30>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[were born.  She taught school in Fredonia, ]Kansas[, Capron, and Alva until 2000 when she moved to]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:exact      "Kansas" ;
+        c:length     "6" ;
+        c:offset     "875" ;
+        c:prefix     "were born.  She taught school in Fredonia, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> ;
+        c:suffix     ", Capron, and Alva until 2000 when she moved to" .
+
+<http://d.opencalais.com/conf/comphash-1/27c3257e-de81-3c95-9958-0d05dac2ad62>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.773" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.917" ;
+        c:subject             <http://d.opencalais.com/comphash-1/27c3257e-de81-3c95-9958-0d05dac2ad62> .
+
+<http://d.opencalais.com/conf/pershash-1/7964093d-494a-348b-90ed-9dac7dfb7825>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.989" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.992" ;
+        c:subject             <http://d.opencalais.com/pershash-1/7964093d-494a-348b-90ed-9dac7dfb7825> .
+
+<http://d.opencalais.com/conf/pershash-1/30885422-8fe0-34bb-a291-01f25d273060>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.932" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/30885422-8fe0-34bb-a291-01f25d273060> .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Instance/43>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[may be made through the funeral home to the ]Alva Community Theatre, Inc.[    \nThe service will be live streamed over the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:exact      "Alva Community Theatre, Inc." ;
+        c:length     "28" ;
+        c:offset     "1784" ;
+        c:prefix     "may be made through the funeral home to the " ;
+        c:subject    <http://d.opencalais.com/comphash-1/27c3257e-de81-3c95-9958-0d05dac2ad62> ;
+        c:suffix     "    \nThe service will be live streamed over the" .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Relevance/7>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/7e28360c-3cc0-3ed3-ae4f-9a4c8455daa7> .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Instance/15>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and her dog, Addie.    \nBesides her parents, ]she[ was preceded in death by one son, Kelly Clark]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "1427" ;
+        c:prefix     "and her dog, Addie.    \nBesides her parents, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/94e8a7e4-b9a3-399e-9f55-70545d46c7ea> ;
+        c:suffix     " was preceded in death by one son, Kelly Clark" .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Instance/56>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Jearl “T.J.” Holt; one sister, Rita Vonada, of ]Lincoln[, Kansas; other relatives and many friends.   ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:exact      "Lincoln" ;
+        c:length     "7" ;
+        c:offset     "1662" ;
+        c:prefix     "Jearl “T.J.” Holt; one sister, Rita Vonada, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0a09ee91-9fc5-384d-9d3f-e4ddfb0fe1a7> ;
+        c:suffix     ", Kansas; other relatives and many friends.   " .
+
+<http://d.opencalais.com/genericHasher-1/001954c0-1b8b-3bb3-bf67-ac5fb8b86889>
+        a                      <http://s.opencalais.com/1/type/em/r/PersonTravel> ;
+        c:forenduserdisplay    "false" ;
+        c:locationdestination  "Northwestern State College" ;
+        c:person               <http://d.opencalais.com/pershash-1/7964093d-494a-348b-90ed-9dac7dfb7825> ;
+        c:status               "past" .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Relevance/19>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/82b8c016-34f7-3d31-9a9e-3b44a6ef2f08> .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Instance/28>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ She was also a member of Beta Sigma Phi, ]Oklahoma[ Education Association, and the Silver Crowes. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "1172" ;
+        c:prefix     " She was also a member of Beta Sigma Phi, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     " Education Association, and the Silver Crowes. " .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Instance/9>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Education Association, and the Silver Crowes.  ]She[ was also very active in Alva Community Theatre]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "1228" ;
+        c:prefix     "Education Association, and the Silver Crowes.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/94e8a7e4-b9a3-399e-9f55-70545d46c7ea> ;
+        c:suffix     " was also very active in Alva Community Theatre" .
+
+<http://d.opencalais.com/conf/pershash-1/94e8a7e4-b9a3-399e-9f55-70545d46c7ea>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.983" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.928" ;
+        c:subject             <http://d.opencalais.com/pershash-1/94e8a7e4-b9a3-399e-9f55-70545d46c7ea> .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Relevance/1>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/30885422-8fe0-34bb-a291-01f25d273060> .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Relevance/26>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8b14f97f-02a4-3e59-aaba-7cb34aeeb7cb> .
+
+<http://d.opencalais.com/genericHasher-1/82b8c016-34f7-3d31-9a9e-3b44a6ef2f08>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Dallas" .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Instance/50>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Ewing, daughter of the late Joseph S. And ]Genevieve (Hawkins) Augustynick[, was born November 7, 1943, in Oklahoma City,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:exact      "Genevieve (Hawkins) Augustynick" ;
+        c:length     "31" ;
+        c:offset     "380" ;
+        c:prefix     "Ewing, daughter of the late Joseph S. And " ;
+        c:subject    <http://d.opencalais.com/pershash-1/7964093d-494a-348b-90ed-9dac7dfb7825> ;
+        c:suffix     ", was born November 7, 1943, in Oklahoma City," .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Relevance/13>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/003e74c3-530a-3aa5-807a-43586ce6800a> .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Instance/22>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Alva United Methodist Church officiating.  At ]her[ request, she will be cremated after the service]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "211" ;
+        c:prefix     "Alva United Methodist Church officiating.  At " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b345dca4-521c-3f1d-9c35-5776c90a3226> ;
+        c:suffix     " request, she will be cremated after the service" .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0>
+        a                  <http://s.opencalais.com/1/type/sys/DocInfo> ;
+        c:calaisRequestID  "b8c3832a-820e-9c4c-14d9-147640212501" ;
+        c:docDate          "2015-05-26 17:31:24.913" ;
+        c:docTitle         "" ;
+        c:document         "Funeral services for Mary Sue “Susie” Ewing will be 10:30 a.m. Saturday, November 8, 2014, at Marshall Funeral Home Chapel with Rev. Terry Martindale, pastor of the Alva United Methodist Church officiating.  At her request, she will be cremated after the service under the direction of Marshall Funeral Home of Alva.    \nMary Sue “Susie” Ewing, daughter of the late Joseph S. And Genevieve (Hawkins) Augustynick, was born November 7, 1943, in Oklahoma City, and passed away November 5, 2014, at Oklahoma City, at the age of 70 years, 11 months, and 28 days.    \nSusie graduated from Capron High School with the Class of 1961.  She then went to Northwestern State College where she obtained her Masters Degree in Education.  In 1966, she was united in marriage to Terry Ewing in Alva.  To this union two children, JoLinda and Kelly, were born.  She taught school in Fredonia, Kansas, Capron, and Alva until 2000 when she moved to Dallas and edited children’s books.  She then taught in Leavenworth, Kansas before moving to Oklahoma City after her retirement.    \nWhile living in Alva, she was a member of the First Baptist Church.  She was also a member of Beta Sigma Phi, Oklahoma Education Association, and the Silver Crowes.  She was also very active in Alva Community Theatre where she acted in and directed many plays over the years.  She loved spending time with her grandkids and her dog, Addie.    \nBesides her parents, she was preceded in death by one son, Kelly Clark Ewing.    \nSusie is survived by one daughter, JoLinda Holt and husband, Dustin, of Edmond; two grandchildren, Andrew Ewing Holt and Terry Jearl “T.J.” Holt; one sister, Rita Vonada, of Lincoln, Kansas; other relatives and many friends.    \nMemorial contributions may be made through the funeral home to the Alva Community Theatre, Inc.    \nThe service will be live streamed over the internet at: http://citylinktv.com/channel/alva-marshall-funeral-home/ \n\t\t\t" ;
+        c:id               "http://id.opencalais.com/RMudj2ez1KRjN*u3g5IwxA" ;
+        c:ontology         "http://163.231.4.65/owlschema/8.3/onecalais.owl.allmetadata.xml" .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Instance/63>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Ewing, daughter of the late Joseph S. And ]Genevieve (Hawkins) Augustynick, was born November 7, 1943, in Oklahoma City[, and passed away November 5, 2014, at Oklahoma]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:exact      "Genevieve (Hawkins) Augustynick, was born November 7, 1943, in Oklahoma City" ;
+        c:length     "76" ;
+        c:offset     "380" ;
+        c:prefix     "Ewing, daughter of the late Joseph S. And " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/60c15352-45a7-3329-ac65-207b1f6e274d> ;
+        c:suffix     ", and passed away November 5, 2014, at Oklahoma" .
+
+<http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Marshall Funeral Home of Alva" .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Instance/35>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[she obtained her Masters Degree in Education.  ]In 1966, she was united in marriage to Terry Ewing[ in Alva.  To this union two children, JoLinda]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:exact      "In 1966, she was united in marriage to Terry Ewing" ;
+        c:length     "50" ;
+        c:offset     "724" ;
+        c:prefix     "she obtained her Masters Degree in Education.  " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/50004268-be33-39de-86b7-00ffa3df223e> ;
+        c:suffix     " in Alva.  To this union two children, JoLinda" .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Instance/3>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[two children, JoLinda and Kelly, were born.  ]She[ taught school in Fredonia, Kansas, Capron, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "844" ;
+        c:prefix     "two children, JoLinda and Kelly, were born.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/94e8a7e4-b9a3-399e-9f55-70545d46c7ea> ;
+        c:suffix     " taught school in Fredonia, Kansas, Capron, and" .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/lid/DefaultLangId>
+        a                    <http://s.opencalais.com/1/type/lid/DefaultLangId> ;
+        c:docId              <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:forenduserdisplay  "false" ;
+        c:lang               <http://d.opencalais.com/lid/DefaultLangId/English> ;
+        c:permid             "505062" .
+
+<http://d.opencalais.com/conf/pershash-1/f30ac2c4-b173-343f-a95a-aea3310c42bc>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.961" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.979" ;
+        c:subject             <http://d.opencalais.com/pershash-1/f30ac2c4-b173-343f-a95a-aea3310c42bc> .
+
+<http://d.opencalais.com/genericHasher-1/0a09ee91-9fc5-384d-9d3f-e4ddfb0fe1a7>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Lincoln" .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/ComponentVersions>
+        a          <http://s.opencalais.com/1/type/sys/ComponentVersions> ;
+        c:docId    <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:version  "BlackList:264:264" , "config-refineries:258:258" , "config-vessels:258:258" , "Collector:OneCalais_8.3-RELEASE:113" , "SocialTags Index:201505191038:201505191038" , "OneCalaisIM:OneCalais_8.3-RELEASE:198" , "NextTags:OneCalais_8.3-RELEASE:113" , "SECHeaderMetadataIM:OneCalais_8.3-RELEASE:198" , "index-vessels:201505231718:201505231718" , "config-drugs:258:258" , "People Index:201505261608:201505261608" , "People Override:258:258" , "Dial4J:OneCalais_8.3-RELEASE:198" , "WatchDog:OneCalais_8.3-RELEASE:113" , "Housekeeper:OneCalais_8.3-RELEASE:113" , "config-physicalAssets-ports:258:258" , "config-negativeSignature:258:258" , "OA Index:201505252208:201505252208" , "config-sca-DataPackage:34:34" , "BrokerResearchIM:OneCalais_8.3-RELEASE:198" , "OA Override:271:271" , "SpanishIM:OneCalais_8.3-RELEASE:198" , "AutocoderRuntimeIM:OneCalais_8.3-RELEASE:198" , "config-cse:271:271" , "OneCalais:OneCalais_8.3-RELEASE:364" , "com.clearforest.infoext.dial4j.plugins-basistechconfig:OneCalais_8.3-RELEASE:225" , "FrenchIM:OneCalais_8.3-RELEASE:198" , "Deals Index:201505261718:201505261718" .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Instance/48>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Andrew Ewing Holt and Terry Jearl “T.J.” ]Holt[; one sister, Rita Vonada, of Lincoln, Kansas;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:exact      "Holt" ;
+        c:length     "4" ;
+        c:offset     "1628" ;
+        c:prefix     "Andrew Ewing Holt and Terry Jearl “T.J.” " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f30ac2c4-b173-343f-a95a-aea3310c42bc> ;
+        c:suffix     "; one sister, Rita Vonada, of Lincoln, Kansas;" .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/cat/2>
+        a                    <http://s.opencalais.com/1/type/cat/DocCat> ;
+        c:docId              <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Education" ;
+        c:score              "0.809" .
+
+<http://d.opencalais.com/conf/pershash-1/7fc71755-aaa7-36ed-a485-39be8300d563>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.983" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.989" ;
+        c:subject             <http://d.opencalais.com/pershash-1/7fc71755-aaa7-36ed-a485-39be8300d563> .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Relevance/20>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0a09ee91-9fc5-384d-9d3f-e4ddfb0fe1a7> .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Instance/42>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[the Silver Crowes.  She was also very active in ]Alva Community Theatre[ where she acted in and directed many plays over]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:exact      "Alva Community Theatre" ;
+        c:length     "22" ;
+        c:offset     "1256" ;
+        c:prefix     "the Silver Crowes.  She was also very active in " ;
+        c:subject    <http://d.opencalais.com/comphash-1/27c3257e-de81-3c95-9958-0d05dac2ad62> ;
+        c:suffix     " where she acted in and directed many plays over" .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Relevance/6>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/22af5e3c-a5d2-3acd-9ec5-2fba513a0698> .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Instance/14>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[her grandkids and her dog, Addie.    \nBesides ]her[ parents, she was preceded in death by one son,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1414" ;
+        c:prefix     "her grandkids and her dog, Addie.    \nBesides " ;
+        c:subject    <http://d.opencalais.com/pershash-1/94e8a7e4-b9a3-399e-9f55-70545d46c7ea> ;
+        c:suffix     " parents, she was preceded in death by one son," .
+
+<http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee>
+        a                    <http://s.opencalais.com/1/type/em/e/IndustryTerm> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Funeral services" .
+
+<http://d.opencalais.com/genericHasher-1/22af5e3c-a5d2-3acd-9ec5-2fba513a0698>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Fredonia" .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Instance/55>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Capron, and Alva until 2000 when she moved to ]Dallas[ and edited children’s books.  She then taught in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:exact      "Dallas" ;
+        c:length     "6" ;
+        c:offset     "929" ;
+        c:prefix     "Capron, and Alva until 2000 when she moved to " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/82b8c016-34f7-3d31-9a9e-3b44a6ef2f08> ;
+        c:suffix     " and edited children’s books.  She then taught in" .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Relevance/18>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/7964093d-494a-348b-90ed-9dac7dfb7825> .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Instance/27>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[be 10:30 a.m. Saturday, November 8, 2014, at ]Marshall Funeral Home Chapel[ with Rev. Terry Martindale, pastor of the Alva]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:exact      "Marshall Funeral Home Chapel" ;
+        c:length     "28" ;
+        c:offset     "94" ;
+        c:prefix     "be 10:30 a.m. Saturday, November 8, 2014, at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ffe3480a-abe7-3145-bdfe-b1e4a35ad4cd> ;
+        c:suffix     " with Rev. Terry Martindale, pastor of the Alva" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/f24ef023-f5ce-f4ba-d403-af6634f7297d>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:latitude            "35.4675" ;
+        c:longitude           "-97.5161" ;
+        c:name                "Oklahoma City,Oklahoma,United States" ;
+        c:rcscode             "G:2BF" ;
+        c:shortname           "Oklahoma City" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/b8620f48-da64-3b29-b094-f0b9edcda36f> .
+
+<http://d.opencalais.com/conf/pershash-1/b345dca4-521c-3f1d-9c35-5776c90a3226>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.973" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.983" ;
+        c:subject             <http://d.opencalais.com/pershash-1/b345dca4-521c-3f1d-9c35-5776c90a3226> .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Instance/8>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[she was a member of the First Baptist Church.  ]She[ was also a member of Beta Sigma Phi, Oklahoma]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "1131" ;
+        c:prefix     "she was a member of the First Baptist Church.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/94e8a7e4-b9a3-399e-9f55-70545d46c7ea> ;
+        c:suffix     " was also a member of Beta Sigma Phi, Oklahoma" .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Relevance/12>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Instance/21>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[2014, at Marshall Funeral Home Chapel with Rev. ]Terry Martindale[, pastor of the Alva United Methodist Church]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:exact      "Terry Martindale" ;
+        c:length     "16" ;
+        c:offset     "133" ;
+        c:prefix     "2014, at Marshall Funeral Home Chapel with Rev. " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b345dca4-521c-3f1d-9c35-5776c90a3226> ;
+        c:suffix     ", pastor of the Alva United Methodist Church" .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Instance/62>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ In 1966, she was united in marriage to ]Terry Ewing[ in Alva.  To this union two children, JoLinda]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:exact      "Terry Ewing" ;
+        c:length     "11" ;
+        c:offset     "763" ;
+        c:prefix     " In 1966, she was united in marriage to " ;
+        c:subject    <http://d.opencalais.com/pershash-1/7fc71755-aaa7-36ed-a485-39be8300d563> ;
+        c:suffix     " in Alva.  To this union two children, JoLinda" .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Instance/2>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Alva.  To this union two children, JoLinda and ]Kelly[, were born.  She taught school in Fredonia,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:exact      "Kelly" ;
+        c:length     "5" ;
+        c:offset     "825" ;
+        c:prefix     "Alva.  To this union two children, JoLinda and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/94e8a7e4-b9a3-399e-9f55-70545d46c7ea> ;
+        c:suffix     ", were born.  She taught school in Fredonia," .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Relevance/25>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a21a69b3-e9dd-341e-9fee-da93c550c744> .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Instance/47>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[husband, Dustin, of Edmond; two grandchildren, ]Andrew Ewing Holt[ and Terry Jearl “T.J.” Holt; one sister, Rita]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:exact      "Andrew Ewing Holt" ;
+        c:length     "17" ;
+        c:offset     "1587" ;
+        c:prefix     "husband, Dustin, of Edmond; two grandchildren, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f30ac2c4-b173-343f-a95a-aea3310c42bc> ;
+        c:suffix     " and Terry Jearl “T.J.” Holt; one sister, Rita" .
+
+<http://d.opencalais.com/conf/pershash-1/1113e4d6-08f1-3d17-98d1-38efe22eb549>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.922" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.859" ;
+        c:subject             <http://d.opencalais.com/pershash-1/1113e4d6-08f1-3d17-98d1-38efe22eb549> .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Instance/19>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Chapel with Rev. Terry Martindale, pastor of the ]Alva United Methodist Church[ officiating.  At her request, she will be]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:exact      "Alva United Methodist Church" ;
+        c:length     "28" ;
+        c:offset     "165" ;
+        c:prefix     " Chapel with Rev. Terry Martindale, pastor of the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/27ae7089-951f-35df-a32e-e05b6f166a8f> ;
+        c:suffix     " officiating.  At her request, she will be" .
+
+<http://d.opencalais.com/genericHasher-1/fc322fad-d2bd-3e88-9414-1e59ade90f5d>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Capron High School" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/cat/1>
+        a                    <http://s.opencalais.com/1/type/cat/DocCat> ;
+        c:docId              <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Human Interest" ;
+        c:score              "1.000" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/ec80b062-8d1e-123a-1d6e-8bd0b7355690>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:latitude            "38.45" ;
+        c:longitude           "-96.5333" ;
+        c:name                "Kansas,United States" ;
+        c:permid              "100151" ;
+        c:rcscode             "G:6D" ;
+        c:shortname           "Kansas" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Instance/41>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[City after her retirement.    \nWhile living in ]Alva[, she was a member of the First Baptist Church. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "1078" ;
+        c:prefix     "City after her retirement.    \nWhile living in " ;
+        c:subject    <http://d.opencalais.com/comphash-1/27c3257e-de81-3c95-9958-0d05dac2ad62> ;
+        c:suffix     ", she was a member of the First Baptist Church. " .
+
+<http://d.opencalais.com/pershash-1/f51a2caa-bb7f-3cdb-be49-49e4eb6e04b7>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Terry Jearl" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Terry" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Jearl" ;
+        c:name               "Terry Jearl" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/003e74c3-530a-3aa5-807a-43586ce6800a>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oklahoma Education Association" ;
+        c:nationality        "American" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Relevance/5>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/b345dca4-521c-3f1d-9c35-5776c90a3226> .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Instance/54>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[her Masters Degree in Education.  In 1966, ]she[ was united in marriage to Terry Ewing in Alva. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "733" ;
+        c:prefix     "her Masters Degree in Education.  In 1966, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/7964093d-494a-348b-90ed-9dac7dfb7825> ;
+        c:suffix     " was united in marriage to Terry Ewing in Alva. " .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Instance/13>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ She loved spending time with her grandkids and ]her[ dog, Addie.    \nBesides her parents, she was]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1386" ;
+        c:prefix     " She loved spending time with her grandkids and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/94e8a7e4-b9a3-399e-9f55-70545d46c7ea> ;
+        c:suffix     " dog, Addie.    \nBesides her parents, she was" .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/SocialTag/2>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Dallas" ;
+        c:originalValue      "Dallas (1978 TV series)" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/f0a138fd-5a24-3703-a864-e01c476f4239> .
+
+<http://d.opencalais.com/comphash-1/27c3257e-de81-3c95-9958-0d05dac2ad62>
+        a                    <http://s.opencalais.com/1/type/em/e/Company> ;
+        c:confidencelevel    "0.773" ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Alva Community Theatre Inc." ;
+        c:nationality        "N/A" .
+
+<http://d.opencalais.com/pershash-1/7964093d-494a-348b-90ed-9dac7dfb7825>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Genevieve Augustynick" ;
+        c:confidencelevel    "0.989" ;
+        c:firstname          "Genevieve" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Augustynick" ;
+        c:name               "Genevieve (Hawkins) Augustynick" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/pershash-1/30885422-8fe0-34bb-a291-01f25d273060>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Dustin" ;
+        c:confidencelevel    "0.932" ;
+        c:firstname          "Dustin" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Dustin" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Relevance/17>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/f56ea056-7dff-3a0f-8506-30ab66f1b25f> .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Instance/26>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Edmond; two grandchildren, Andrew Ewing Holt and ]Terry Jearl[ “T.J.” Holt; one sister, Rita Vonada, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:exact      "Terry Jearl" ;
+        c:length     "11" ;
+        c:offset     "1609" ;
+        c:prefix     " Edmond; two grandchildren, Andrew Ewing Holt and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f51a2caa-bb7f-3cdb-be49-49e4eb6e04b7> ;
+        c:suffix     " “T.J.” Holt; one sister, Rita Vonada, of" .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Instance/7>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[after her retirement.    \nWhile living in Alva, ]she[ was a member of the First Baptist Church.  She]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "1084" ;
+        c:prefix     "after her retirement.    \nWhile living in Alva, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/94e8a7e4-b9a3-399e-9f55-70545d46c7ea> ;
+        c:suffix     " was a member of the First Baptist Church.  She" .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Instance/39>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[she was united in marriage to Terry Ewing in ]Alva[.  To this union two children, JoLinda and Kelly,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "778" ;
+        c:prefix     "she was united in marriage to Terry Ewing in " ;
+        c:subject    <http://d.opencalais.com/comphash-1/27c3257e-de81-3c95-9958-0d05dac2ad62> ;
+        c:suffix     ".  To this union two children, JoLinda and Kelly," .
+
+<http://d.opencalais.com/genericHasher-1/8b14f97f-02a4-3e59-aaba-7cb34aeeb7cb>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Northwestern State College" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/e9e27c26-4013-8712-a5f0-97dcdc412c26>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:latitude            "35.5607802899" ;
+        c:longitude           "-96.8460570462" ;
+        c:name                "Oklahoma,United States" ;
+        c:permid              "100229" ;
+        c:rcscode             "G:9H" ;
+        c:shortname           "Oklahoma" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/pershash-1/94e8a7e4-b9a3-399e-9f55-70545d46c7ea>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Kelly Clark" ;
+        c:confidencelevel    "0.983" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Kelly Clark" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Relevance/11>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/fc322fad-d2bd-3e88-9414-1e59ade90f5d> .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Instance/20>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ from Capron High School with the Class of 1961.  ]She then went to Northwestern State College[ where she obtained her Masters Degree in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:exact      "She then went to Northwestern State College" ;
+        c:length     "43" ;
+        c:offset     "627" ;
+        c:prefix     " from Capron High School with the Class of 1961.  " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/001954c0-1b8b-3bb3-bf67-ac5fb8b86889> ;
+        c:suffix     " where she obtained her Masters Degree in" .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Relevance/24>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/7fc71755-aaa7-36ed-a485-39be8300d563> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/56e164a8-ee81-df99-79ad-56dc584d26dd>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Texas" ;
+        c:docId               <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:latitude            "32.7833" ;
+        c:longitude           "-96.8" ;
+        c:name                "Dallas,Texas,United States" ;
+        c:rcscode             "G:13T" ;
+        c:shortname           "Dallas" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/82b8c016-34f7-3d31-9a9e-3b44a6ef2f08> .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Instance/61>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Funeral Home of Alva.    \nMary Sue “Susie” ]Ewing[, daughter of the late Joseph S. And Genevieve]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:exact      "Ewing" ;
+        c:length     "5" ;
+        c:offset     "338" ;
+        c:prefix     "Funeral Home of Alva.    \nMary Sue “Susie” " ;
+        c:subject    <http://d.opencalais.com/pershash-1/7fc71755-aaa7-36ed-a485-39be8300d563> ;
+        c:suffix     ", daughter of the late Joseph S. And Genevieve" .
+
+<http://d.opencalais.com/genericHasher-1/ec876aa6-a515-36a2-ac4f-53f2c6f50400>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Lincoln" ;
+        c:person             <http://d.opencalais.com/pershash-1/f218bcd2-37d9-3af2-93b9-8d73e140b9b4> .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Instance/1>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[by one daughter, JoLinda Holt and husband, ]Dustin[, of Edmond; two grandchildren, Andrew Ewing Holt]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:exact      "Dustin" ;
+        c:length     "6" ;
+        c:offset     "1549" ;
+        c:prefix     "by one daughter, JoLinda Holt and husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/30885422-8fe0-34bb-a291-01f25d273060> ;
+        c:suffix     ", of Edmond; two grandchildren, Andrew Ewing Holt" .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Instance/33>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Ewing, daughter of the late Joseph S. And ]Genevieve (Hawkins) Augustynick, was born November 7, 1943, in Oklahoma City, and passed away November 5, 2014, at Oklahoma City[, at the age of 70 years, 11 months, and 28 days.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:exact      "Genevieve (Hawkins) Augustynick, was born November 7, 1943, in Oklahoma City, and passed away November 5, 2014, at Oklahoma City" ;
+        c:length     "128" ;
+        c:offset     "380" ;
+        c:prefix     "Ewing, daughter of the late Joseph S. And " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/6d270812-af10-3fee-bf24-691d22fb9b99> ;
+        c:suffix     ", at the age of 70 years, 11 months, and 28 days." .
+
+<http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oklahoma" .
+
+<http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0/Instance/46>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[direction of Marshall Funeral Home of Alva.    \n]Mary Sue[ “Susie” Ewing, daughter of the late Joseph S.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/13a4dc51-3f16-314d-a561-da283440dab0> ;
+        c:exact      "Mary Sue" ;
+        c:length     "8" ;
+        c:offset     "321" ;
+        c:prefix     "direction of Marshall Funeral Home of Alva.    \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/1113e4d6-08f1-3d17-98d1-38efe22eb549> ;
+        c:suffix     " “Susie” Ewing, daughter of the late Joseph S." .

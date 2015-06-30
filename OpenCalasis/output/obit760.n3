@@ -1,0 +1,1609 @@
+#Relations: CompanyLocation, FamilyRelation, PersonAttributes, PersonCareer, PersonEducation, PersonRelation
+#City: Lawrence, Oklahoma City
+#Company: Chesapeake Energy, Waynoka LLC
+#Facility: Marshall Funeral Home of Waynoka
+#IndustryTerm: Funeral services, father-in-law
+#Organization: Christian Church, Classen High School in Oklahoma City, Indian Junior College, Oklahoma Medical Research Foundation
+#Person: Burton , Jr., Burton , Sr., Cleo, Diana, Fred Dupy, Gloria, Helen Dupy, John, Johnny Burton, Josh Ramos, Kasey Burton-Ramos, Kathy Ann Dupy, Mariah Hoover, Marion Hadsell, Michael, Ricky
+#Position: accomplished athlete, avid hunter
+#ProvinceOrState: Kansas, Oklahoma
+@prefix c:     <http://s.opencalais.com/1/pred/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://d.opencalais.com/genericHasher-1/4df38790-f38b-3a7a-b07b-e297b4057b24>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "brother" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/57802ed2-a083-39b7-b5e4-30f447385fd1> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/27c11fdf-d0d5-3930-8d64-78933a6ec2d9> .
+
+<http://d.opencalais.com/conf/pershash-1/b5dfe19e-4adb-30a1-949d-4a7cdce7f2e2>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.98" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.982" ;
+        c:subject             <http://d.opencalais.com/pershash-1/b5dfe19e-4adb-30a1-949d-4a7cdce7f2e2> .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Instance/68>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Burton-Ramos and husband, Josh Ramos of Alva; ]his[ son, Johnny Burton of Alva; five grandchildren,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "1336" ;
+        c:prefix     "Burton-Ramos and husband, Josh Ramos of Alva; " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9a73a353-5ef6-347b-af3d-f1e230e599f8> ;
+        c:suffix     " son, Johnny Burton of Alva; five grandchildren," .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Relevance/12>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c1e14c20-7ec2-3637-872f-855b5253364e> .
+
+<http://d.opencalais.com/conf/pershash-1/57802ed2-a083-39b7-b5e4-30f447385fd1>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.999" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.999" ;
+        c:subject             <http://d.opencalais.com/pershash-1/57802ed2-a083-39b7-b5e4-30f447385fd1> .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Instance/47>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Marshall Funeral Home of Waynoka, LLC. At ]his[ request, he will be cremated following the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "235" ;
+        c:prefix     "of Marshall Funeral Home of Waynoka, LLC. At " ;
+        c:subject    <http://d.opencalais.com/pershash-1/88e75713-3891-39db-989d-772b903b5970> ;
+        c:suffix     " request, he will be cremated following the" .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Instance/26>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[by two daughters, Mariah Hoover and husband, ]Michael[, of Alva, Kasey Burton-Ramos and husband, Josh]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:exact      "Michael" ;
+        c:length     "7" ;
+        c:offset     "1266" ;
+        c:prefix     "by two daughters, Mariah Hoover and husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/057bfc2b-1a10-396c-9049-547bc8711059> ;
+        c:suffix     ", of Alva, Kasey Burton-Ramos and husband, Josh" .
+
+<http://d.opencalais.com/conf/pershash-1/9a73a353-5ef6-347b-af3d-f1e230e599f8>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.996" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.997" ;
+        c:subject             <http://d.opencalais.com/pershash-1/9a73a353-5ef6-347b-af3d-f1e230e599f8> .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Instance/1>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[by his sister, Gloria; his brother, Ricky, and ]his mother and father-in-law, Helen[ and Fred Dupy. Buster is survived by two]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:exact      "his mother and father-in-law, Helen" ;
+        c:length     "35" ;
+        c:offset     "1151" ;
+        c:prefix     "by his sister, Gloria; his brother, Ricky, and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0353c219-6d6d-30dd-a343-886b2eb6fac0> ;
+        c:suffix     " and Fred Dupy. Buster is survived by two" .
+
+<https://permid.org/1-5035751620>
+        a             <http://s.opencalais.com/1/type/er/Company> ;
+        c:commonname  "Waynoka" ;
+        c:docId       <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:legacyid    <http://d.opencalais.com/er/company/ralg-tr1r/da554c4e-4d2b-3037-98bc-d26b5df2c525> ;
+        c:name        "Waynoka Utilities Authority" ;
+        c:permid      "5035751620" ;
+        c:score       "0.05522651" ;
+        c:subject     <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> .
+
+<http://d.opencalais.com/genericHasher-1/2b8a30a2-3fcc-3e03-8b72-325668d8ee83>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "father-in-law" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/27c11fdf-d0d5-3930-8d64-78933a6ec2d9> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/60b3b5dc-adb3-3154-83da-cdd3f7241ced> .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Relevance/5>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/84bb0714-85ab-39de-a7e7-f1ad2e79292b> .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Relevance/20>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/27c11fdf-d0d5-3930-8d64-78933a6ec2d9> .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Instance/55>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[from Classen High School in Oklahoma City where ]he[ was an accomplished athlete and would excel in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:exact      "he" ;
+        c:length     "2" ;
+        c:offset     "570" ;
+        c:prefix     "from Classen High School in Oklahoma City where " ;
+        c:subject    <http://d.opencalais.com/pershash-1/57802ed2-a083-39b7-b5e4-30f447385fd1> ;
+        c:suffix     " was an accomplished athlete and would excel in" .
+
+<http://d.opencalais.com/conf/pershash-1/88e75713-3891-39db-989d-772b903b5970>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.999" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.999" ;
+        c:subject             <http://d.opencalais.com/pershash-1/88e75713-3891-39db-989d-772b903b5970> .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Instance/34>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[November 21, 2012, at his home in Waynoka, ]Oklahoma[. Buster graduated from Classen High School in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "495" ;
+        c:prefix     "November 21, 2012, at his home in Waynoka, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ". Buster graduated from Classen High School in" .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Instance/13>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[he was preceded in death by his sister, Gloria; ]his brother, Ricky[, and his mother and father-in-law, Helen and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:exact      "his brother, Ricky" ;
+        c:length     "18" ;
+        c:offset     "1127" ;
+        c:prefix     "he was preceded in death by his sister, Gloria; " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4df38790-f38b-3a7a-b07b-e297b4057b24> ;
+        c:suffix     ", and his mother and father-in-law, Helen and" .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Instance/9>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ cremated following the service. Raphael “Buster” ]Burton, 55[, son of Cleo (Miller) and Raphael “Buck” Burton,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:exact      "Burton, 55" ;
+        c:length     "10" ;
+        c:offset     "308" ;
+        c:prefix     " cremated following the service. Raphael “Buster” " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/2e20574b-c3f4-3db0-b7ce-d3b54d664a3b> ;
+        c:suffix     ", son of Cleo (Miller) and Raphael “Buck” Burton," .
+
+<http://d.opencalais.com/genericHasher-1/c9b35e26-077d-3117-b4cf-8c23250ab992>
+        a                    <http://s.opencalais.com/1/type/em/e/Position> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "avid hunter" .
+
+<http://d.opencalais.com/pershash-1/27c11fdf-d0d5-3930-8d64-78933a6ec2d9>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Ricky" ;
+        c:confidencelevel    "0.99" ;
+        c:firstname          "Ricky" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Ricky" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/b8620f48-da64-3b29-b094-f0b9edcda36f>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oklahoma City" .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Relevance/28>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/60b3b5dc-adb3-3154-83da-cdd3f7241ced> .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Instance/63>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Besides his parents, he was preceded in death by ]his[ sister, Gloria; his brother, Ricky, and his]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "1107" ;
+        c:prefix     " Besides his parents, he was preceded in death by " ;
+        c:subject    <http://d.opencalais.com/pershash-1/57802ed2-a083-39b7-b5e4-30f447385fd1> ;
+        c:suffix     " sister, Gloria; his brother, Ricky, and his" .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Instance/42>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[from Classen High School in Oklahoma City where ]he was an accomplished athlete[ and would excel in several sports. He would go]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:exact      "he was an accomplished athlete" ;
+        c:length     "30" ;
+        c:offset     "570" ;
+        c:prefix     "from Classen High School in Oklahoma City where " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/798b7e53-b810-3749-befb-49da123aafbf> ;
+        c:suffix     " and would excel in several sports. He would go" .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Instance/21>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Christian, Patience, Precious, and Kaden; ]his nephew, John[; his niece, Diana, and many wonderful friends.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:exact      "his nephew, John" ;
+        c:length     "16" ;
+        c:offset     "1439" ;
+        c:prefix     "Christian, Patience, Precious, and Kaden; " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/cb82ef00-faed-38e1-a961-34989a4b9c54> ;
+        c:suffix     "; his niece, Diana, and many wonderful friends." .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Relevance/15>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/0c15af71-f8ef-3080-80b0-8bca980ad123> .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Instance/50>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[away suddenly November 21, 2012, at his home in ]Waynoka, Oklahoma[. Buster graduated from Classen High School in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:exact      "Waynoka, Oklahoma" ;
+        c:length     "17" ;
+        c:offset     "486" ;
+        c:prefix     "away suddenly November 21, 2012, at his home in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e7066147-31e8-3e47-b262-cbccccd7d7fc> ;
+        c:suffix     ". Buster graduated from Classen High School in" .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Instance/29>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Christian, Patience, Precious, and Kaden; ]his[ nephew, John; his niece, Diana, and many]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "1439" ;
+        c:prefix     "Christian, Patience, Precious, and Kaden; " ;
+        c:subject    <http://d.opencalais.com/pershash-1/0c15af71-f8ef-3080-80b0-8bca980ad123> ;
+        c:suffix     " nephew, John; his niece, Diana, and many" .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/SocialTag/2>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Alva" ;
+        c:originalValue      "Alva" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/17f61973-ed95-369b-b381-dec22ce26b2a> .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Instance/4>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ home in Waynoka, Oklahoma. Buster graduated from ]Classen High School in Oklahoma City[ where he was an accomplished athlete and would]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:exact      "Classen High School in Oklahoma City" ;
+        c:length     "36" ;
+        c:offset     "527" ;
+        c:prefix     " home in Waynoka, Oklahoma. Buster graduated from " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3ac19714-83e4-3e18-854c-0793bebc8758> ;
+        c:suffix     " where he was an accomplished athlete and would" .
+
+<http://d.opencalais.com/conf/comphash-1/a06b4136-8283-34a8-9679-8113228c40ce>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.923" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:resolution          "0.92278636" ;
+        c:statisticalfeature  "0.887" ;
+        c:subject             <http://d.opencalais.com/comphash-1/a06b4136-8283-34a8-9679-8113228c40ce> .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Relevance/8>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/dd7ee227-442e-3e82-a8e0-2cacbd1f85a0> .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Relevance/23>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/bb31d458-653d-375f-981c-d0f2a468a542> .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Instance/58>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and eventually make their home in Waynoka where ]he[ resided at the time of his death. He was]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:exact      "he" ;
+        c:length     "2" ;
+        c:offset     "868" ;
+        c:prefix     "and eventually make their home in Waynoka where " ;
+        c:subject    <http://d.opencalais.com/pershash-1/57802ed2-a083-39b7-b5e4-30f447385fd1> ;
+        c:suffix     " resided at the time of his death. He was" .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Instance/37>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[by his sister, Gloria; his brother, Ricky, and ]his[ mother and father-in-law, Helen and Fred Dupy.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "1151" ;
+        c:prefix     "by his sister, Gloria; his brother, Ricky, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/27c11fdf-d0d5-3930-8d64-78933a6ec2d9> ;
+        c:suffix     " mother and father-in-law, Helen and Fred Dupy." .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Instance/16>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[]Funeral services[ for Raphael “Buster” Burton, Jr. will be 2:00]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:exact      "Funeral services" ;
+        c:length     "16" ;
+        c:offset     "0" ;
+        c:prefix     "" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee> ;
+        c:suffix     " for Raphael “Buster” Burton, Jr. will be 2:00" .
+
+<https://permid.org/1-4295903700>
+        a             <http://s.opencalais.com/1/type/er/Company> ;
+        c:commonname  "Chesapeake Enrgy" ;
+        c:docId       <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:legacyid    <http://d.opencalais.com/er/company/ralg-tr1r/d806c473-3586-3e90-83e3-7fcf66ed81af> ;
+        c:name        "Chesapeake Energy Corp" ;
+        c:permid      "4295903700" ;
+        c:primaryric  "CHK.N" ;
+        c:score       "0.92278636" ;
+        c:subject     <http://d.opencalais.com/comphash-1/a06b4136-8283-34a8-9679-8113228c40ce> ;
+        c:ticker      "CHK" .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d>
+        a                  <http://s.opencalais.com/1/type/sys/DocInfo> ;
+        c:calaisRequestID  "cb99b9ed-4b24-920e-14d9-145550e12501" ;
+        c:docDate          "2015-05-26 17:29:09.980" ;
+        c:docTitle         "" ;
+        c:document         "Funeral services for Raphael “Buster” Burton, Jr. will be 2:00 p.m. Monday, November 26, 2012, at the Waynoka First Christian Church with Rev. Marion Hadsell officiating under the direction of Marshall Funeral Home of Waynoka, LLC. At his request, he will be cremated following the service. Raphael “Buster” Burton, 55, son of Cleo (Miller) and Raphael “Buck” Burton, Sr. was born October 29, 1957, in Oklahoma City, Oklahoma, and passed away suddenly November 21, 2012, at his home in Waynoka, Oklahoma. Buster graduated from Classen High School in Oklahoma City where he was an accomplished athlete and would excel in several sports. He would go on to play football for Haskell Indian Junior College in Lawrence, Kansas, and it was there he met and married Kathy Ann Dupy in 1977. The couple would have three children and eventually make their home in Waynoka where he resided at the time of his death. He was currently a pumper for Chesapeake Energy. Buster was an avid hunter, a beloved father and grandfather, a devoted friend, and an epic storyteller. Besides his parents, he was preceded in death by his sister, Gloria; his brother, Ricky, and his mother and father-in-law, Helen and Fred Dupy. Buster is survived by two daughters, Mariah Hoover and husband, Michael, of Alva, Kasey Burton-Ramos and husband, Josh Ramos of Alva; his son, Johnny Burton of Alva; five grandchildren, Gabriel, Christian, Patience, Precious, and Kaden; his nephew, John; his niece, Diana, and many wonderful friends. He left a hole in our hearts and will be fiercely missed as each day passes. We love you Daddy, and may you rest in peace. Memorial contributions may be made through the funeral home to the Oklahoma Medical Research Foundation for diabetes research. \n\t\t\t" ;
+        c:id               "http://id.opencalais.com/qywznZKfYK6-*hYJomXIVw" ;
+        c:ontology         "http://163.231.4.65/owlschema/8.3/onecalais.owl.allmetadata.xml" .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/meta>
+        a                 <http://s.opencalais.com/1/type/sys/DocInfoMeta> ;
+        c:contentType     "text/raw" ;
+        c:docId           <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:language        "English" ;
+        c:processingVer   "AllMetadata" ;
+        c:serverVersion   "OneCalais_8.3-RELEASE:364" ;
+        c:signature       "digestalg-1|fk1ONMAnvm3psK2HQA+7ov36aDg=|EQUF0E13OGSZhKQvz6xu+sWFG/+T0XbXplHZ+LVyzYd0LtU8ztd2Kg==" ;
+        c:stagsVer        "OneCalais_8.3-RELEASE-b11-2015-03-25_18:29:00" ;
+        c:submissionDate  "2015-05-26 17:29:09.646" ;
+        c:submitterCode   "0ca6a864-5659-789d-5f32-f365f695e757" .
+
+<http://d.opencalais.com/genericHasher-1/dd7ee227-442e-3e82-a8e0-2cacbd1f85a0>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Indian Junior College" ;
+        c:nationality        "Indian" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Relevance/31>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/9a73a353-5ef6-347b-af3d-f1e230e599f8> .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Instance/66>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[2012, at his home in Waynoka, Oklahoma. Buster ]graduated from Classen High School in Oklahoma City[ where he was an accomplished athlete and would]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:exact      "graduated from Classen High School in Oklahoma City" ;
+        c:length     "51" ;
+        c:offset     "512" ;
+        c:prefix     "2012, at his home in Waynoka, Oklahoma. Buster " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a16c5a06-54b8-35c0-adeb-bdace64cd766> ;
+        c:suffix     " where he was an accomplished athlete and would" .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Relevance/10>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee> .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Instance/45>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[his niece, Diana, and many wonderful friends. ]He[ left a hole in our hearts and will be fiercely]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:exact      "He" ;
+        c:length     "2" ;
+        c:offset     "1503" ;
+        c:prefix     "his niece, Diana, and many wonderful friends. " ;
+        c:subject    <http://d.opencalais.com/pershash-1/4e31a6f3-a2a1-3a1c-8920-67875031d234> ;
+        c:suffix     " left a hole in our hearts and will be fiercely" .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Instance/24>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[away suddenly November 21, 2012, at his home in ]Waynoka[, Oklahoma. Buster graduated from Classen High]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:exact      "Waynoka" ;
+        c:length     "7" ;
+        c:offset     "486" ;
+        c:prefix     "away suddenly November 21, 2012, at his home in " ;
+        c:subject    <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:suffix     ", Oklahoma. Buster graduated from Classen High" .
+
+<http://d.opencalais.com/pershash-1/4e31a6f3-a2a1-3a1c-8920-67875031d234>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "John" ;
+        c:confidencelevel    "0.99" ;
+        c:firstname          "John" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "John" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Relevance/3>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3ac19714-83e4-3e18-854c-0793bebc8758> .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Relevance/18>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Instance/53>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[55, son of Cleo (Miller) and Raphael “Buck” ]Burton, Sr.[ was born October 29, 1957, in Oklahoma City,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:exact      "Burton, Sr." ;
+        c:length     "11" ;
+        c:offset     "360" ;
+        c:prefix     "55, son of Cleo (Miller) and Raphael “Buck” " ;
+        c:subject    <http://d.opencalais.com/pershash-1/57802ed2-a083-39b7-b5e4-30f447385fd1> ;
+        c:suffix     " was born October 29, 1957, in Oklahoma City," .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Instance/32>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ cremated following the service. Raphael “Buster” ]Burton, 55, son of Cleo[ (Miller) and Raphael “Buck” Burton, Sr. was born]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:exact      "Burton, 55, son of Cleo" ;
+        c:length     "23" ;
+        c:offset     "308" ;
+        c:prefix     " cremated following the service. Raphael “Buster” " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b944016e-9a4a-3f36-85ea-88ebbafde073> ;
+        c:suffix     " (Miller) and Raphael “Buck” Burton, Sr. was born" .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Instance/11>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[by his sister, Gloria; his brother, Ricky, and ]his mother and father-in-law, Helen and Fred Dupy[. Buster is survived by two daughters, Mariah]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:exact      "his mother and father-in-law, Helen and Fred Dupy" ;
+        c:length     "49" ;
+        c:offset     "1151" ;
+        c:prefix     "by his sister, Gloria; his brother, Ricky, and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/2b8a30a2-3fcc-3e03-8b72-325668d8ee83> ;
+        c:suffix     ". Buster is survived by two daughters, Mariah" .
+
+<http://d.opencalais.com/genericHasher-1/3ac19714-83e4-3e18-854c-0793bebc8758>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Classen High School in Oklahoma City" ;
+        c:nationality        "American" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Instance/7>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Fred Dupy. Buster is survived by two daughters, ]Mariah Hoover[ and husband, Michael, of Alva, Kasey]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:exact      "Mariah Hoover" ;
+        c:length     "13" ;
+        c:offset     "1239" ;
+        c:prefix     "Fred Dupy. Buster is survived by two daughters, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/79c5b3a0-d5ba-36f1-83f2-952b15cf50cf> ;
+        c:suffix     " and husband, Michael, of Alva, Kasey" .
+
+<http://d.opencalais.com/pershash-1/0c15af71-f8ef-3080-80b0-8bca980ad123>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Johnny Burton" ;
+        c:confidencelevel    "0.996" ;
+        c:firstname          "Burton" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Johnny Burton" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/27c11fdf-d0d5-3930-8d64-78933a6ec2d9>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.99" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.957" ;
+        c:subject             <http://d.opencalais.com/pershash-1/27c11fdf-d0d5-3930-8d64-78933a6ec2d9> .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Relevance/26>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/88e75713-3891-39db-989d-772b903b5970> .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Instance/61>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ devoted friend, and an epic storyteller. Besides ]his[ parents, he was preceded in death by his sister,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "1066" ;
+        c:prefix     " devoted friend, and an epic storyteller. Besides " ;
+        c:subject    <http://d.opencalais.com/pershash-1/57802ed2-a083-39b7-b5e4-30f447385fd1> ;
+        c:suffix     " parents, he was preceded in death by his sister," .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Instance/40>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[may be made through the funeral home to the ]Oklahoma Medical Research Foundation[ for diabetes research.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:exact      "Oklahoma Medical Research Foundation" ;
+        c:length     "36" ;
+        c:offset     "1693" ;
+        c:prefix     "may be made through the funeral home to the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/bb31d458-653d-375f-981c-d0f2a468a542> ;
+        c:suffix     " for diabetes research." .
+
+<http://d.opencalais.com/genericHasher-1/5b59c953-b9a0-324b-9f24-de5432c19049>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Lawrence" .
+
+<http://d.opencalais.com/pershash-1/057bfc2b-1a10-396c-9049-547bc8711059>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Michael" ;
+        c:confidencelevel    "0.967" ;
+        c:firstname          "Michael" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Michael" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Instance/19>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[55, son of Cleo (Miller) and Raphael “Buck” ]Burton, Sr. was born October 29, 1957, in Oklahoma City, Oklahoma[, and passed away suddenly November 21, 2012, at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:exact      "Burton, Sr. was born October 29, 1957, in Oklahoma City, Oklahoma" ;
+        c:length     "65" ;
+        c:offset     "360" ;
+        c:prefix     "55, son of Cleo (Miller) and Raphael “Buck” " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/97f2d755-4911-3965-8d02-835e8a580ee3> ;
+        c:suffix     ", and passed away suddenly November 21, 2012, at" .
+
+<http://d.opencalais.com/genericHasher-1/b11588e2-1cb9-3aca-a7a5-e641259e289f>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:date                "1977-00-00" ;
+        c:datestring          "in 1977" ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/852f8784-a37d-3330-996f-72ed6c39a684> , <http://d.opencalais.com/pershash-1/57802ed2-a083-39b7-b5e4-30f447385fd1> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/pershash-1/58f1ce49-a71d-3567-8726-a6595a01ec1d>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Cleo" ;
+        c:confidencelevel    "0.881" ;
+        c:firstname          "Cleo" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Cleo" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/a16c5a06-54b8-35c0-adeb-bdace64cd766>
+        a                       <http://s.opencalais.com/1/type/em/r/PersonEducation> ;
+        c:forenduserdisplay     "false" ;
+        c:person                <http://d.opencalais.com/pershash-1/57802ed2-a083-39b7-b5e4-30f447385fd1> ;
+        c:schoolororganization  "Classen High School in Oklahoma City" .
+
+<http://d.opencalais.com/genericHasher-1/8a93a216-8bb4-3412-88d9-d978d8be05cb>
+        a                    <http://s.opencalais.com/1/type/em/e/Position> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "accomplished athlete" .
+
+<http://d.opencalais.com/genericHasher-1/e7066147-31e8-3e47-b262-cbccccd7d7fc>
+        a                      <http://s.opencalais.com/1/type/em/r/CompanyLocation> ;
+        c:company              <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:companylocationtype  "N/A" ;
+        c:forenduserdisplay    "true" ;
+        c:provinceorstate      <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/genericHasher-1/8ea50418-5610-3edf-8e97-b2a0f5928581>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "son" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/9a73a353-5ef6-347b-af3d-f1e230e599f8> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/0c15af71-f8ef-3080-80b0-8bca980ad123> .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Relevance/13>
+        a                <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId          <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:relevance      "0.8" ;
+        c:relevancecont  "0.8" ;
+        c:subject        <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Instance/48>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Funeral Home of Waynoka, LLC. At his request, ]he[ will be cremated following the service. Raphael]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:exact      "he" ;
+        c:length     "2" ;
+        c:offset     "248" ;
+        c:prefix     "Funeral Home of Waynoka, LLC. At his request, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/88e75713-3891-39db-989d-772b903b5970> ;
+        c:suffix     " will be cremated following the service. Raphael" .
+
+<http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Kansas" .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Instance/27>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ cremated following the service. Raphael “Buster” ]Burton[, 55, son of Cleo (Miller) and Raphael “Buck”]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:exact      "Burton" ;
+        c:length     "6" ;
+        c:offset     "308" ;
+        c:prefix     " cremated following the service. Raphael “Buster” " ;
+        c:subject    <http://d.opencalais.com/pershash-1/0c15af71-f8ef-3080-80b0-8bca980ad123> ;
+        c:suffix     ", 55, son of Cleo (Miller) and Raphael “Buck”" .
+
+<http://d.opencalais.com/pershash-1/852f8784-a37d-3330-996f-72ed6c39a684>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Kathy Ann Dupy" ;
+        c:confidencelevel    "0.963" ;
+        c:firstname          "Kathy" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Dupy" ;
+        c:middlename         "Ann" ;
+        c:name               "Kathy Ann Dupy" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Instance/2>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ time of his death. He was currently a pumper for ]Chesapeake Energy[. Buster was an avid hunter, a beloved father and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:exact      "Chesapeake Energy" ;
+        c:length     "17" ;
+        c:offset     "935" ;
+        c:prefix     " time of his death. He was currently a pumper for " ;
+        c:subject    <http://d.opencalais.com/comphash-1/a06b4136-8283-34a8-9679-8113228c40ce> ;
+        c:suffix     ". Buster was an avid hunter, a beloved father and" .
+
+<http://d.opencalais.com/genericHasher-1/0353c219-6d6d-30dd-a343-886b2eb6fac0>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "mother" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/27c11fdf-d0d5-3930-8d64-78933a6ec2d9> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/b5dfe19e-4adb-30a1-949d-4a7cdce7f2e2> .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Relevance/6>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/79c5b3a0-d5ba-36f1-83f2-952b15cf50cf> .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Relevance/21>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8a93a216-8bb4-3412-88d9-d978d8be05cb> .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Instance/56>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[athlete and would excel in several sports. ]He[ would go on to play football for Haskell Indian]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:exact      "He" ;
+        c:length     "2" ;
+        c:offset     "636" ;
+        c:prefix     "athlete and would excel in several sports. " ;
+        c:subject    <http://d.opencalais.com/pershash-1/57802ed2-a083-39b7-b5e4-30f447385fd1> ;
+        c:suffix     " would go on to play football for Haskell Indian" .
+
+<http://d.opencalais.com/pershash-1/79c5b3a0-d5ba-36f1-83f2-952b15cf50cf>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Mariah Hoover" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Mariah" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Hoover" ;
+        c:name               "Mariah Hoover" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Instance/35>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[football for Haskell Indian Junior College in ]Lawrence[, Kansas, and it was there he met and married]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:exact      "Lawrence" ;
+        c:length     "8" ;
+        c:offset     "705" ;
+        c:prefix     "football for Haskell Indian Junior College in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/5b59c953-b9a0-324b-9f24-de5432c19049> ;
+        c:suffix     ", Kansas, and it was there he met and married" .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Instance/14>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[He would go on to play football for Haskell ]Indian Junior College[ in Lawrence, Kansas, and it was there he met and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:exact      "Indian Junior College" ;
+        c:length     "21" ;
+        c:offset     "680" ;
+        c:prefix     "He would go on to play football for Haskell " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/dd7ee227-442e-3e82-a8e0-2cacbd1f85a0> ;
+        c:suffix     " in Lawrence, Kansas, and it was there he met and" .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Relevance/29>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/57802ed2-a083-39b7-b5e4-30f447385fd1> .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Instance/64>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[he was preceded in death by his sister, Gloria; ]his[ brother, Ricky, and his mother and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "1127" ;
+        c:prefix     "he was preceded in death by his sister, Gloria; " ;
+        c:subject    <http://d.opencalais.com/pershash-1/57802ed2-a083-39b7-b5e4-30f447385fd1> ;
+        c:suffix     " brother, Ricky, and his mother and" .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Instance/43>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Patience, Precious, and Kaden; his nephew, ]John[; his niece, Diana, and many wonderful friends.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:exact      "John" ;
+        c:length     "4" ;
+        c:offset     "1451" ;
+        c:prefix     "Patience, Precious, and Kaden; his nephew, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/4e31a6f3-a2a1-3a1c-8920-67875031d234> ;
+        c:suffix     "; his niece, Diana, and many wonderful friends." .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Instance/22>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[be 2:00 p.m. Monday, November 26, 2012, at the ]Waynoka[ First Christian Church with Rev. Marion Hadsell]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:exact      "Waynoka" ;
+        c:length     "7" ;
+        c:offset     "102" ;
+        c:prefix     "be 2:00 p.m. Monday, November 26, 2012, at the " ;
+        c:subject    <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:suffix     " First Christian Church with Rev. Marion Hadsell" .
+
+<http://d.opencalais.com/conf/pershash-1/4e31a6f3-a2a1-3a1c-8920-67875031d234>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.99" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.887" ;
+        c:subject             <http://d.opencalais.com/pershash-1/4e31a6f3-a2a1-3a1c-8920-67875031d234> .
+
+<http://d.opencalais.com/pershash-1/44d6b48c-725b-3beb-8201-d3745d87d733>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Marion Hadsell" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Marion" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Hadsell" ;
+        c:name               "Marion Hadsell" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Relevance/1>
+        a                <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId          <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:relevance      "0.2" ;
+        c:relevancecont  "0.03" ;
+        c:subject        <http://d.opencalais.com/comphash-1/a06b4136-8283-34a8-9679-8113228c40ce> .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Relevance/16>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b8620f48-da64-3b29-b094-f0b9edcda36f> .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Instance/51>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Mariah Hoover and husband, Michael, of Alva, ]Kasey Burton-Ramos[ and husband, Josh Ramos of Alva; his son, Johnny]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:exact      "Kasey Burton-Ramos" ;
+        c:length     "18" ;
+        c:offset     "1284" ;
+        c:prefix     "Mariah Hoover and husband, Michael, of Alva, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/2d5cd319-3cc9-3179-a4df-6c5f59387f49> ;
+        c:suffix     " and husband, Josh Ramos of Alva; his son, Johnny" .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Instance/30>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ “Buck” Burton, Sr. was born October 29, 1957, in ]Oklahoma City[, Oklahoma, and passed away suddenly November 21,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:exact      "Oklahoma City" ;
+        c:length     "13" ;
+        c:offset     "402" ;
+        c:prefix     " “Buck” Burton, Sr. was born October 29, 1957, in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b8620f48-da64-3b29-b094-f0b9edcda36f> ;
+        c:suffix     ", Oklahoma, and passed away suddenly November 21," .
+
+<http://d.opencalais.com/conf/pershash-1/0c15af71-f8ef-3080-80b0-8bca980ad123>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.996" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.997" ;
+        c:subject             <http://d.opencalais.com/pershash-1/0c15af71-f8ef-3080-80b0-8bca980ad123> .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/SocialTag/3>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Oklahoma City" ;
+        c:originalValue      "Oklahoma City" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/e0963270-9de9-388d-9b7d-cb28a487bbbd> .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Instance/5>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[a pumper for Chesapeake Energy. Buster was ]an avid hunter[, a beloved father and grandfather, a devoted]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:exact      "an avid hunter" ;
+        c:length     "14" ;
+        c:offset     "965" ;
+        c:prefix     "a pumper for Chesapeake Energy. Buster was " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c9b35e26-077d-3117-b4cf-8c23250ab992> ;
+        c:suffix     ", a beloved father and grandfather, a devoted" .
+
+<http://d.opencalais.com/genericHasher-1/cb82ef00-faed-38e1-a961-34989a4b9c54>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "nephew" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/0c15af71-f8ef-3080-80b0-8bca980ad123> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/4e31a6f3-a2a1-3a1c-8920-67875031d234> .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Relevance/9>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/ac554218-7511-3f20-9100-b2a00f66199f> .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Relevance/24>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/44d6b48c-725b-3beb-8201-d3745d87d733> .
+
+<http://d.opencalais.com/conf/pershash-1/057bfc2b-1a10-396c-9049-547bc8711059>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.967" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/057bfc2b-1a10-396c-9049-547bc8711059> .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Instance/59>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[home in Waynoka where he resided at the time of ]his[ death. He was currently a pumper for Chesapeake]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "894" ;
+        c:prefix     "home in Waynoka where he resided at the time of " ;
+        c:subject    <http://d.opencalais.com/pershash-1/57802ed2-a083-39b7-b5e4-30f447385fd1> ;
+        c:suffix     " death. He was currently a pumper for Chesapeake" .
+
+<http://d.opencalais.com/conf/pershash-1/58f1ce49-a71d-3567-8726-a6595a01ec1d>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.881" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.841" ;
+        c:subject             <http://d.opencalais.com/pershash-1/58f1ce49-a71d-3567-8726-a6595a01ec1d> .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Instance/38>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[High School in Oklahoma City where he was ]an accomplished athlete[ and would excel in several sports. He would go]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:exact      "an accomplished athlete" ;
+        c:length     "23" ;
+        c:offset     "577" ;
+        c:prefix     "High School in Oklahoma City where he was " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8a93a216-8bb4-3412-88d9-d978d8be05cb> ;
+        c:suffix     " and would excel in several sports. He would go" .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Instance/17>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Patience, Precious, and Kaden; his nephew, John; ]his niece, Diana[, and many wonderful friends. He left a hole in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:exact      "his niece, Diana" ;
+        c:length     "16" ;
+        c:offset     "1457" ;
+        c:prefix     " Patience, Precious, and Kaden; his nephew, John; " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4df55313-68c9-35dc-838e-7d1c2698193a> ;
+        c:suffix     ", and many wonderful friends. He left a hole in" .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Instance/67>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Alva, Kasey Burton-Ramos and husband, ]Josh Ramos[ of Alva; his son, Johnny Burton of Alva; five]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:exact      "Josh Ramos" ;
+        c:length     "10" ;
+        c:offset     "1316" ;
+        c:prefix     "of Alva, Kasey Burton-Ramos and husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9a73a353-5ef6-347b-af3d-f1e230e599f8> ;
+        c:suffix     " of Alva; his son, Johnny Burton of Alva; five" .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Relevance/11>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/b5dfe19e-4adb-30a1-949d-4a7cdce7f2e2> .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Instance/46>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[services for Raphael “Buster” ]Burton, Jr.[ will be 2:00 p.m. Monday, November 26, 2012, at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:exact      "Burton, Jr." ;
+        c:length     "11" ;
+        c:offset     "38" ;
+        c:prefix     "services for Raphael “Buster” " ;
+        c:subject    <http://d.opencalais.com/pershash-1/88e75713-3891-39db-989d-772b903b5970> ;
+        c:suffix     " will be 2:00 p.m. Monday, November 26, 2012, at" .
+
+<http://d.opencalais.com/pershash-1/2d5cd319-3cc9-3179-a4df-6c5f59387f49>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Kasey Burton-Ramos" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Kasey" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Burton-Ramos" ;
+        c:name               "Kasey Burton-Ramos" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Instance/25>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ three children and eventually make their home in ]Waynoka[ where he resided at the time of his death. He]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:exact      "Waynoka" ;
+        c:length     "7" ;
+        c:offset     "854" ;
+        c:prefix     " three children and eventually make their home in " ;
+        c:subject    <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:suffix     " where he resided at the time of his death. He" .
+
+<http://d.opencalais.com/conf/pershash-1/852f8784-a37d-3330-996f-72ed6c39a684>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.963" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.978" ;
+        c:subject             <http://d.opencalais.com/pershash-1/852f8784-a37d-3330-996f-72ed6c39a684> .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/ComponentVersions>
+        a          <http://s.opencalais.com/1/type/sys/ComponentVersions> ;
+        c:docId    <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:version  "NextTags:OneCalais_8.3-RELEASE:113" , "config-vessels:258:258" , "People Override:258:258" , "Deals Index:201505261718:201505261718" , "config-sca-DataPackage:34:34" , "SocialTags Index:201505191038:201505191038" , "SECHeaderMetadataIM:OneCalais_8.3-RELEASE:198" , "OA Index:201505252208:201505252208" , "Housekeeper:OneCalais_8.3-RELEASE:113" , "OA Override:271:271" , "Dial4J:OneCalais_8.3-RELEASE:198" , "BrokerResearchIM:OneCalais_8.3-RELEASE:198" , "index-vessels:201505231718:201505231718" , "config-drugs:258:258" , "WatchDog:OneCalais_8.3-RELEASE:113" , "config-physicalAssets-ports:258:258" , "SpanishIM:OneCalais_8.3-RELEASE:198" , "OneCalaisIM:OneCalais_8.3-RELEASE:198" , "FrenchIM:OneCalais_8.3-RELEASE:198" , "config-refineries:258:258" , "config-cse:271:271" , "BlackList:264:264" , "Collector:OneCalais_8.3-RELEASE:113" , "OneCalais:OneCalais_8.3-RELEASE:364" , "AutocoderRuntimeIM:OneCalais_8.3-RELEASE:198" , "config-negativeSignature:258:258" , "People Index:201505261608:201505261608" , "com.clearforest.infoext.dial4j.plugins-basistechconfig:OneCalais_8.3-RELEASE:225" .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Relevance/4>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c9b35e26-077d-3117-b4cf-8c23250ab992> .
+
+<http://d.opencalais.com/conf/pershash-1/79c5b3a0-d5ba-36f1-83f2-952b15cf50cf>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/79c5b3a0-d5ba-36f1-83f2-952b15cf50cf> .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Relevance/19>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/5b59c953-b9a0-324b-9f24-de5432c19049> .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Instance/54>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and passed away suddenly November 21, 2012, at ]his[ home in Waynoka, Oklahoma. Buster graduated from]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "474" ;
+        c:prefix     "and passed away suddenly November 21, 2012, at " ;
+        c:subject    <http://d.opencalais.com/pershash-1/57802ed2-a083-39b7-b5e4-30f447385fd1> ;
+        c:suffix     " home in Waynoka, Oklahoma. Buster graduated from" .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Instance/33>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Sr. was born October 29, 1957, in Oklahoma City, ]Oklahoma[, and passed away suddenly November 21, 2012, at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "417" ;
+        c:prefix     " Sr. was born October 29, 1957, in Oklahoma City, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", and passed away suddenly November 21, 2012, at" .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Instance/12>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Burton-Ramos and husband, Josh Ramos of Alva; ]his son, Johnny Burton[ of Alva; five grandchildren, Gabriel, Christian,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:exact      "his son, Johnny Burton" ;
+        c:length     "22" ;
+        c:offset     "1336" ;
+        c:prefix     "Burton-Ramos and husband, Josh Ramos of Alva; " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8ea50418-5610-3edf-8e97-b2a0f5928581> ;
+        c:suffix     " of Alva; five grandchildren, Gabriel, Christian," .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Instance/8>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[College in Lawrence, Kansas, and it was there ]he met and married Kathy Ann Dupy in 1977[. The couple would have three children and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:exact      "he met and married Kathy Ann Dupy in 1977" ;
+        c:length     "41" ;
+        c:offset     "740" ;
+        c:prefix     "College in Lawrence, Kansas, and it was there " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b11588e2-1cb9-3aca-a7a5-e641259e289f> ;
+        c:suffix     ". The couple would have three children and" .
+
+<http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205>
+        a                    <http://s.opencalais.com/1/type/em/e/Company> ;
+        c:confidencelevel    "0.787" ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Waynoka LLC" ;
+        c:nationality        "N/A" .
+
+<http://d.opencalais.com/pershash-1/60b3b5dc-adb3-3154-83da-cdd3f7241ced>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Fred Dupy" ;
+        c:confidencelevel    "0.98" ;
+        c:firstname          "Fred" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Dupy" ;
+        c:name               "Fred Dupy" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/pershash-1/ac554218-7511-3f20-9100-b2a00f66199f>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Diana" ;
+        c:confidencelevel    "0.942" ;
+        c:firstname          "Diana" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Diana" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Relevance/27>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/2d5cd319-3cc9-3179-a4df-6c5f59387f49> .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Instance/62>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and an epic storyteller. Besides his parents, ]he[ was preceded in death by his sister, Gloria; his]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:exact      "he" ;
+        c:length     "2" ;
+        c:offset     "1079" ;
+        c:prefix     "and an epic storyteller. Besides his parents, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/57802ed2-a083-39b7-b5e4-30f447385fd1> ;
+        c:suffix     " was preceded in death by his sister, Gloria; his" .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Instance/41>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[at the Waynoka First Christian Church with Rev. ]Marion Hadsell[ officiating under the direction of Marshall]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:exact      "Marion Hadsell" ;
+        c:length     "14" ;
+        c:offset     "143" ;
+        c:prefix     "at the Waynoka First Christian Church with Rev. " ;
+        c:subject    <http://d.opencalais.com/pershash-1/44d6b48c-725b-3beb-8201-d3745d87d733> ;
+        c:suffix     " officiating under the direction of Marshall" .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Instance/20>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Monday, November 26, 2012, at the Waynoka First ]Christian Church[ with Rev. Marion Hadsell officiating under the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:exact      "Christian Church" ;
+        c:length     "16" ;
+        c:offset     "116" ;
+        c:prefix     "Monday, November 26, 2012, at the Waynoka First " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c1e14c20-7ec2-3637-872f-855b5253364e> ;
+        c:suffix     " with Rev. Marion Hadsell officiating under the" .
+
+<http://d.opencalais.com/pershash-1/9b7c9ae9-77c7-3504-8736-2c7d9821e345>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Gloria" ;
+        c:confidencelevel    "0.942" ;
+        c:firstname          "Gloria" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Gloria" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/44d6b48c-725b-3beb-8201-d3745d87d733>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/44d6b48c-725b-3beb-8201-d3745d87d733> .
+
+<http://d.opencalais.com/pershash-1/b5dfe19e-4adb-30a1-949d-4a7cdce7f2e2>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Helen Dupy" ;
+        c:confidencelevel    "0.98" ;
+        c:firstname          "Helen" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Helen Dupy" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Relevance/14>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/057bfc2b-1a10-396c-9049-547bc8711059> .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Instance/49>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Besides his parents, he was preceded in death by ]his sister, Gloria[; his brother, Ricky, and his mother and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:exact      "his sister, Gloria" ;
+        c:length     "18" ;
+        c:offset     "1107" ;
+        c:prefix     " Besides his parents, he was preceded in death by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/6af24cb2-5f0c-3f04-8301-2cd3b1c56a2f> ;
+        c:suffix     "; his brother, Ricky, and his mother and" .
+
+<http://d.opencalais.com/pershash-1/57802ed2-a083-39b7-b5e4-30f447385fd1>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Burton Sr." ;
+        c:confidencelevel    "0.999" ;
+        c:firstname          "Burton" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Burton , Sr." ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Instance/28>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and husband, Josh Ramos of Alva; his son, ]Johnny Burton[ of Alva; five grandchildren, Gabriel, Christian,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:exact      "Johnny Burton" ;
+        c:length     "13" ;
+        c:offset     "1345" ;
+        c:prefix     "and husband, Josh Ramos of Alva; his son, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/0c15af71-f8ef-3080-80b0-8bca980ad123> ;
+        c:suffix     " of Alva; five grandchildren, Gabriel, Christian," .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/SocialTag/1>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Waynoka, Oklahoma" ;
+        c:originalValue      "Waynoka, Oklahoma" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/77bc8be5-12a7-326b-962f-52fbf8cf09dd> .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Instance/3>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[for Haskell Indian Junior College in Lawrence, ]Kansas[, and it was there he met and married Kathy Ann]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:exact      "Kansas" ;
+        c:length     "6" ;
+        c:offset     "715" ;
+        c:prefix     "for Haskell Indian Junior College in Lawrence, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> ;
+        c:suffix     ", and it was there he met and married Kathy Ann" .
+
+<http://d.opencalais.com/genericHasher-1/84bb0714-85ab-39de-a7e7-f1ad2e79292b>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Marshall Funeral Home of Waynoka" .
+
+<http://d.opencalais.com/pershash-1/9a73a353-5ef6-347b-af3d-f1e230e599f8>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Josh Ramos" ;
+        c:confidencelevel    "0.996" ;
+        c:firstname          "Josh" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Ramos" ;
+        c:name               "Josh Ramos" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/c1e14c20-7ec2-3637-872f-855b5253364e>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Christian Church" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Relevance/7>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/afe38d03-6bfc-3578-a016-69ea26f34e0b> .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Relevance/22>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/9b7c9ae9-77c7-3504-8736-2c7d9821e345> .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Instance/57>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[College in Lawrence, Kansas, and it was there ]he[ met and married Kathy Ann Dupy in 1977. The]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:exact      "he" ;
+        c:length     "2" ;
+        c:offset     "740" ;
+        c:prefix     "College in Lawrence, Kansas, and it was there " ;
+        c:subject    <http://d.opencalais.com/pershash-1/57802ed2-a083-39b7-b5e4-30f447385fd1> ;
+        c:suffix     " met and married Kathy Ann Dupy in 1977. The" .
+
+<http://d.opencalais.com/genericHasher-1/4df55313-68c9-35dc-838e-7d1c2698193a>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "niece" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/4e31a6f3-a2a1-3a1c-8920-67875031d234> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/ac554218-7511-3f20-9100-b2a00f66199f> .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Instance/36>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in death by his sister, Gloria; his brother, ]Ricky[, and his mother and father-in-law, Helen and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:exact      "Ricky" ;
+        c:length     "5" ;
+        c:offset     "1140" ;
+        c:prefix     "in death by his sister, Gloria; his brother, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/27c11fdf-d0d5-3930-8d64-78933a6ec2d9> ;
+        c:suffix     ", and his mother and father-in-law, Helen and" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/f24ef023-f5ce-f4ba-d403-af6634f7297d>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:latitude            "35.4675" ;
+        c:longitude           "-97.5161" ;
+        c:name                "Oklahoma City,Oklahoma,United States" ;
+        c:rcscode             "G:2BF" ;
+        c:shortname           "Oklahoma City" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/b8620f48-da64-3b29-b094-f0b9edcda36f> .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Instance/15>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and Kaden; his nephew, John; his niece, ]Diana[, and many wonderful friends. He left a hole in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:exact      "Diana" ;
+        c:length     "5" ;
+        c:offset     "1468" ;
+        c:prefix     "and Kaden; his nephew, John; his niece, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/ac554218-7511-3f20-9100-b2a00f66199f> ;
+        c:suffix     ", and many wonderful friends. He left a hole in" .
+
+<http://d.opencalais.com/pershash-1/88e75713-3891-39db-989d-772b903b5970>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Burton Jr." ;
+        c:confidencelevel    "0.999" ;
+        c:firstname          "Burton" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Burton , Jr." ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee>
+        a                    <http://s.opencalais.com/1/type/em/e/IndustryTerm> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Funeral services" .
+
+<http://d.opencalais.com/genericHasher-1/b944016e-9a4a-3f36-85ea-88ebbafde073>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "son" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/58f1ce49-a71d-3567-8726-a6595a01ec1d> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/0c15af71-f8ef-3080-80b0-8bca980ad123> .
+
+<http://d.opencalais.com/genericHasher-1/afe38d03-6bfc-3578-a016-69ea26f34e0b>
+        a                    <http://s.opencalais.com/1/type/em/e/IndustryTerm> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "father-in-law" .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Relevance/30>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/852f8784-a37d-3330-996f-72ed6c39a684> .
+
+<http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oklahoma" .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Instance/65>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Kansas, and it was there he met and married ]Kathy Ann Dupy[ in 1977. The couple would have three children]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:exact      "Kathy Ann Dupy" ;
+        c:length     "14" ;
+        c:offset     "759" ;
+        c:prefix     "Kansas, and it was there he met and married " ;
+        c:subject    <http://d.opencalais.com/pershash-1/852f8784-a37d-3330-996f-72ed6c39a684> ;
+        c:suffix     " in 1977. The couple would have three children" .
+
+<http://d.opencalais.com/conf/pershash-1/2d5cd319-3cc9-3179-a4df-6c5f59387f49>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/2d5cd319-3cc9-3179-a4df-6c5f59387f49> .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Instance/44>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Patience, Precious, and Kaden; his nephew, John; ]his[ niece, Diana, and many wonderful friends. He]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "1457" ;
+        c:prefix     " Patience, Precious, and Kaden; his nephew, John; " ;
+        c:subject    <http://d.opencalais.com/pershash-1/4e31a6f3-a2a1-3a1c-8920-67875031d234> ;
+        c:suffix     " niece, Diana, and many wonderful friends. He" .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Instance/23>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[under the direction of Marshall Funeral Home of ]Waynoka, LLC[. At his request, he will be cremated following]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:exact      "Waynoka, LLC" ;
+        c:length     "12" ;
+        c:offset     "218" ;
+        c:prefix     "under the direction of Marshall Funeral Home of " ;
+        c:subject    <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:suffix     ". At his request, he will be cremated following" .
+
+<http://d.opencalais.com/genericHasher-1/2e20574b-c3f4-3db0-b7ce-d3b54d664a3b>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonAttributes> ;
+        c:age                "55" ;
+        c:forenduserdisplay  "false" ;
+        c:gender             "M" ;
+        c:person             <http://d.opencalais.com/pershash-1/0c15af71-f8ef-3080-80b0-8bca980ad123> .
+
+<http://d.opencalais.com/genericHasher-1/97f2d755-4911-3965-8d02-835e8a580ee3>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonAttributes> ;
+        c:birthdate          "1957-10-29" ;
+        c:birthplace         <http://d.opencalais.com/genericHasher-1/b8620f48-da64-3b29-b094-f0b9edcda36f> ;
+        c:forenduserdisplay  "false" ;
+        c:gender             "M" ;
+        c:person             <http://d.opencalais.com/pershash-1/57802ed2-a083-39b7-b5e4-30f447385fd1> .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/ec80b062-8d1e-123a-1d6e-8bd0b7355690>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:latitude            "38.45" ;
+        c:longitude           "-96.5333" ;
+        c:name                "Kansas,United States" ;
+        c:permid              "100151" ;
+        c:rcscode             "G:6D" ;
+        c:shortname           "Kansas" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/a6934b2b-9847-5cce-8f0e-19af28806978>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Kansas" ;
+        c:docId               <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:latitude            "38.9717" ;
+        c:longitude           "-95.235" ;
+        c:name                "Lawrence,Kansas,United States" ;
+        c:shortname           "Lawrence" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/5b59c953-b9a0-324b-9f24-de5432c19049> .
+
+<http://d.opencalais.com/genericHasher-1/bb31d458-653d-375f-981c-d0f2a468a542>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oklahoma Medical Research Foundation" ;
+        c:nationality        "American" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Relevance/2>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Relevance/17>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/58f1ce49-a71d-3567-8726-a6595a01ec1d> .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/lid/DefaultLangId>
+        a                    <http://s.opencalais.com/1/type/lid/DefaultLangId> ;
+        c:docId              <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:forenduserdisplay  "false" ;
+        c:lang               <http://d.opencalais.com/lid/DefaultLangId/English> ;
+        c:permid             "505062" .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Instance/52>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and his mother and father-in-law, Helen and ]Fred Dupy[. Buster is survived by two daughters, Mariah]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:exact      "Fred Dupy" ;
+        c:length     "9" ;
+        c:offset     "1191" ;
+        c:prefix     "and his mother and father-in-law, Helen and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/60b3b5dc-adb3-3154-83da-cdd3f7241ced> ;
+        c:suffix     ". Buster is survived by two daughters, Mariah" .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Instance/31>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ the service. Raphael “Buster” Burton, 55, son of ]Cleo[ (Miller) and Raphael “Buck” Burton, Sr. was born]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:exact      "Cleo" ;
+        c:length     "4" ;
+        c:offset     "327" ;
+        c:prefix     " the service. Raphael “Buster” Burton, 55, son of " ;
+        c:subject    <http://d.opencalais.com/pershash-1/58f1ce49-a71d-3567-8726-a6595a01ec1d> ;
+        c:suffix     " (Miller) and Raphael “Buck” Burton, Sr. was born" .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Instance/10>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Gloria; his brother, Ricky, and his mother and ]father-in-law[, Helen and Fred Dupy. Buster is survived by two]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:exact      "father-in-law" ;
+        c:length     "13" ;
+        c:offset     "1166" ;
+        c:prefix     "Gloria; his brother, Ricky, and his mother and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/afe38d03-6bfc-3578-a016-69ea26f34e0b> ;
+        c:suffix     ", Helen and Fred Dupy. Buster is survived by two" .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/SocialTag/4>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "2" ;
+        c:name               "Burton" ;
+        c:originalValue      "Burton" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/185e4fe4-d5fa-3070-86cd-5e87ff468000> .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Instance/6>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Hadsell officiating under the direction of ]Marshall Funeral Home of Waynoka[, LLC. At his request, he will be cremated]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:exact      "Marshall Funeral Home of Waynoka" ;
+        c:length     "32" ;
+        c:offset     "193" ;
+        c:prefix     "Hadsell officiating under the direction of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/84bb0714-85ab-39de-a7e7-f1ad2e79292b> ;
+        c:suffix     ", LLC. At his request, he will be cremated" .
+
+<http://d.opencalais.com/conf/comphash-1/e6417933-98e8-365f-8f80-b92f05707205>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.787" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:resolution          "0.05522651" ;
+        c:statisticalfeature  "0.872" ;
+        c:subject             <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> .
+
+<http://d.opencalais.com/conf/pershash-1/60b3b5dc-adb3-3154-83da-cdd3f7241ced>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.98" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.982" ;
+        c:subject             <http://d.opencalais.com/pershash-1/60b3b5dc-adb3-3154-83da-cdd3f7241ced> .
+
+<http://d.opencalais.com/comphash-1/a06b4136-8283-34a8-9679-8113228c40ce>
+        a                    <http://s.opencalais.com/1/type/em/e/Company> ;
+        c:confidencelevel    "0.923" ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Chesapeake Energy" ;
+        c:nationality        "N/A" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/e9e27c26-4013-8712-a5f0-97dcdc412c26>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:latitude            "35.5607802899" ;
+        c:longitude           "-96.8460570462" ;
+        c:name                "Oklahoma,United States" ;
+        c:permid              "100229" ;
+        c:rcscode             "G:9H" ;
+        c:shortname           "Oklahoma" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/conf/pershash-1/ac554218-7511-3f20-9100-b2a00f66199f>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.942" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/ac554218-7511-3f20-9100-b2a00f66199f> .
+
+<http://d.opencalais.com/genericHasher-1/6af24cb2-5f0c-3f04-8301-2cd3b1c56a2f>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "sister" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/57802ed2-a083-39b7-b5e4-30f447385fd1> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/9b7c9ae9-77c7-3504-8736-2c7d9821e345> .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Relevance/25>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/4e31a6f3-a2a1-3a1c-8920-67875031d234> .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Instance/60>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[where he resided at the time of his death. ]He[ was currently a pumper for Chesapeake Energy.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:exact      "He" ;
+        c:length     "2" ;
+        c:offset     "905" ;
+        c:prefix     "where he resided at the time of his death. " ;
+        c:subject    <http://d.opencalais.com/pershash-1/57802ed2-a083-39b7-b5e4-30f447385fd1> ;
+        c:suffix     " was currently a pumper for Chesapeake Energy." .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Instance/39>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ parents, he was preceded in death by his sister, ]Gloria[; his brother, Ricky, and his mother and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:exact      "Gloria" ;
+        c:length     "6" ;
+        c:offset     "1119" ;
+        c:prefix     " parents, he was preceded in death by his sister, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9b7c9ae9-77c7-3504-8736-2c7d9821e345> ;
+        c:suffix     "; his brother, Ricky, and his mother and" .
+
+<http://d.opencalais.com/conf/pershash-1/9b7c9ae9-77c7-3504-8736-2c7d9821e345>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.942" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/9b7c9ae9-77c7-3504-8736-2c7d9821e345> .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/Instance/18>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Ricky, and his mother and father-in-law, ]Helen[ and Fred Dupy. Buster is survived by two]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:exact      "Helen" ;
+        c:length     "5" ;
+        c:offset     "1181" ;
+        c:prefix     "Ricky, and his mother and father-in-law, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b5dfe19e-4adb-30a1-949d-4a7cdce7f2e2> ;
+        c:suffix     " and Fred Dupy. Buster is survived by two" .
+
+<http://d.opencalais.com/genericHasher-1/798b7e53-b810-3749-befb-49da123aafbf>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:forenduserdisplay  "true" ;
+        c:organization       <http://d.opencalais.com/genericHasher-1/3ac19714-83e4-3e18-854c-0793bebc8758> ;
+        c:person             <http://d.opencalais.com/pershash-1/57802ed2-a083-39b7-b5e4-30f447385fd1> ;
+        c:position           "accomplished athlete" ;
+        c:status             "past" .
+
+<http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d/cat/1>
+        a                    <http://s.opencalais.com/1/type/cat/DocCat> ;
+        c:docId              <http://d.opencalais.com/dochash-1/fe8f50f7-5a74-3616-84b8-ce6b0adafc1d> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Human Interest" ;
+        c:score              "1.000" .

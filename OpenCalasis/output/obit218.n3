@@ -1,0 +1,1851 @@
+#Relations: FamilyRelation, PersonAttributes, PersonCareer, PersonEducation, PersonLocation, PersonRelation
+#City: Amarillo, Oklahoma City, Seiling, St. Joseph
+#Company: Waynoka LLC
+#Facility: Marshall Funeral Home of Waynoka, Waynoka Municipal Cemetery
+#Holiday: St. Joseph
+#IndustryTerm: Funeral services
+#Organization: Baptist Church
+#Person: Alyssa , Alyssa Inman, Barry Mason, Beau Inman, Becky Gay Sharp, Brandon, Bryce , Bryce Mason, David Kauth, David Shaw, Debbie Hefner, Emily Mason, Gurly Gay (Russell) Hefner, Josh, Monte Sharp, Noah Kauth, Paisley Inman, Richard Allen, Rick Allen Hefner
+#Position: Licensed Practical Nurse, nurse
+#ProvinceOrState: Missouri, Oklahoma, Texas
+@prefix c:     <http://s.opencalais.com/1/pred/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Relevance/6>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/84bb0714-85ab-39de-a7e7-f1ad2e79292b> .
+
+<http://d.opencalais.com/conf/pershash-1/f87b63c4-df10-33d7-8879-b1a2612709e3>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.998" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/f87b63c4-df10-33d7-8879-b1a2612709e3> .
+
+<http://d.opencalais.com/conf/pershash-1/1741ad50-8a12-332e-a22d-5fc6356d6c27>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.999" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.999" ;
+        c:subject             <http://d.opencalais.com/pershash-1/1741ad50-8a12-332e-a22d-5fc6356d6c27> .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Relevance/29>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/fe914589-e6b5-3ed7-8da4-ef0229be325f> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/51bfb8e4-298f-c704-8d14-c14ff4e3efab>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:latitude            "36.1481" ;
+        c:longitude           "-98.9239" ;
+        c:name                "Seiling,Oklahoma,United States" ;
+        c:shortname           "Seiling" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/b5df13b5-808d-39be-8e01-6a23fd3b330d> .
+
+<http://d.opencalais.com/genericHasher-1/17a24f6c-d5a8-39fe-9968-ddbd4aa5a2ce>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "husband" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/84c54d1d-70db-3890-9654-e48870589895> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/50d4e356-eec2-3c96-89cc-84959e70bf44> .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/68>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Shaw officiating.  Interment will be in the ]Waynoka Municipal Cemetery[ under the direction of Marshall Funeral Home of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "Waynoka Municipal Cemetery" ;
+        c:length     "26" ;
+        c:offset     "175" ;
+        c:prefix     "Shaw officiating.  Interment will be in the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c960096a-c52e-3cf1-9ef3-a4a18889d7c9> ;
+        c:suffix     " under the direction of Marshall Funeral Home of" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/47>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[four grandchildren, Kade and Xhalin Flores of ]Waynoka[ and Beau and Paisley Inman of Waynoka; other]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "Waynoka" ;
+        c:length     "7" ;
+        c:offset     "1636" ;
+        c:prefix     "four grandchildren, Kade and Xhalin Flores of " ;
+        c:subject    <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:suffix     " and Beau and Paisley Inman of Waynoka; other" .
+
+<http://d.opencalais.com/pershash-1/6177ad5b-a7c8-3b69-bb4e-d6fc0754dc98>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Rick Allen Hefner" ;
+        c:confidencelevel    "0.998" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Rick Allen Hefner" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3>
+        a                  <http://s.opencalais.com/1/type/sys/DocInfo> ;
+        c:calaisRequestID  "3a4097a8-936a-5d17-14d9-13bcdf07848c" ;
+        c:docDate          "2015-05-26 17:18:45.593" ;
+        c:docTitle         "" ;
+        c:document         "Funeral services for Becky Gay Sharp will be 2:00 p.m. Thursday, December 12, 2013, at the Waynoka First Baptist Church with David Shaw officiating.  Interment will be in the Waynoka Municipal Cemetery under the direction of Marshall Funeral Home of Waynoka, LLC.  The casket will be open until 12:30 p.m. Thursday and remain closed at the church.    \nBecky Gay Sharp, daughter of the late Richard Allen and Gurly Gay (Russell) Hefner, was born April 3, 1957, at Amarillo, Texas, and passed away December 7, 2013, at Waynoka at the age of 56 years, 8 months, and 6 days.    \nBecky attended Waynoka Schools and later obtained her GED and her Licensed Practical Nurse Certification.  She married David Kauth and had two children, Alyssa and Noah.  She later married Barry Mason and they had two children, Bryce and Emily.  On May 22, 2002, she was united in marriage to Monte Sharp at Seiling, Oklahoma.  She lived in Waynoka where she worked at the Waynoka Nursing Home, Share Convalescent Home, and currently at the  Cherokee Manor.    \nShe attended the Morning Star Baptist Church and she loved being a nurse and was dedicated to taking care of the residents.     \nBesides her parents, she was preceded in death by one infant daughter, Emily Mason.    \nBecky is survived by her husband, Monte, of Texas; two sons, Noah Kauth of Waynoka, and Bryce Mason of Alva; one daughter, Alyssa Inman and husband, Josh, of Waynoka; one brother, Rick Allen Hefner of Oklahoma City; two sisters Jerri Dee Fair Neal and husband, Brandon, of St. Joseph, Missouri, and Debbie Hefner of Pensacola, Flordia; four grandchildren, Kade and Xhalin Flores of Waynoka and Beau and Paisley Inman of Waynoka; other relatives and friends.    \nMemorial contributions may be made to the funeral home to help with expenses. \n\t\t\t" ;
+        c:id               "http://id.opencalais.com/yNUFvZV5x5smeNTOvazT6A" ;
+        c:ontology         "http://163.231.4.65/owlschema/8.3/onecalais.owl.allmetadata.xml" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/26>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Practical Nurse Certification.  She married ]David Kauth[ and had two children, Alyssa and Noah.  She]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "David Kauth" ;
+        c:length     "11" ;
+        c:offset     "694" ;
+        c:prefix     "Practical Nurse Certification.  She married " ;
+        c:subject    <http://d.opencalais.com/pershash-1/50d4e356-eec2-3c96-89cc-84959e70bf44> ;
+        c:suffix     " and had two children, Alyssa and Noah.  She" .
+
+<http://d.opencalais.com/conf/pershash-1/41267cde-50d8-3da2-81a9-c29a6a9acc4c>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.999" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.996" ;
+        c:subject             <http://d.opencalais.com/pershash-1/41267cde-50d8-3da2-81a9-c29a6a9acc4c> .
+
+<https://permid.org/1-5035751620>
+        a             <http://s.opencalais.com/1/type/er/Company> ;
+        c:commonname  "Waynoka" ;
+        c:docId       <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:legacyid    <http://d.opencalais.com/er/company/ralg-tr1r/da554c4e-4d2b-3037-98bc-d26b5df2c525> ;
+        c:name        "Waynoka Utilities Authority" ;
+        c:permid      "5035751620" ;
+        c:score       "0.05522651" ;
+        c:subject     <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> .
+
+<http://d.opencalais.com/conf/pershash-1/993eafd5-208a-3bc1-b609-66b7d276a1a4>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.993" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.995" ;
+        c:subject             <http://d.opencalais.com/pershash-1/993eafd5-208a-3bc1-b609-66b7d276a1a4> .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Relevance/16>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/6177ad5b-a7c8-3b69-bb4e-d6fc0754dc98> .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/4>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[   \nBecky is survived by her husband, Monte, of ]Texas[; two sons, Noah Kauth of Waynoka, and Bryce]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "Texas" ;
+        c:length     "5" ;
+        c:offset     "1298" ;
+        c:prefix     "   \nBecky is survived by her husband, Monte, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> ;
+        c:suffix     "; two sons, Noah Kauth of Waynoka, and Bryce" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/76>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Mason.    \nBecky is survived by her husband, ]Monte[, of Texas; two sons, Noah Kauth of Waynoka, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "Monte" ;
+        c:length     "5" ;
+        c:offset     "1288" ;
+        c:prefix     "Mason.    \nBecky is survived by her husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/5cb0f602-7113-3ad9-84bd-1716280baae4> ;
+        c:suffix     ", of Texas; two sons, Noah Kauth of Waynoka, and" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/55>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Kauth and had two children, Alyssa and Noah.  ]She later married Barry Mason[ and they had two children, Bryce and Emily.  On]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "She later married Barry Mason" ;
+        c:length     "29" ;
+        c:offset     "746" ;
+        c:prefix     "Kauth and had two children, Alyssa and Noah.  " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e320c9c7-8e7a-390a-a7f7-01c262423f76> ;
+        c:suffix     " and they had two children, Bryce and Emily.  On" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/34>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[daughter, Emily Mason.    \nBecky is survived by ]her[ husband, Monte, of Texas; two sons, Noah Kauth]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1275" ;
+        c:prefix     "daughter, Emily Mason.    \nBecky is survived by " ;
+        c:subject    <http://d.opencalais.com/pershash-1/84c54d1d-70db-3890-9654-e48870589895> ;
+        c:suffix     " husband, Monte, of Texas; two sons, Noah Kauth" .
+
+<http://d.opencalais.com/pershash-1/cac442b3-9d2c-3bd5-ae83-ef9c3ad455be>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Josh" ;
+        c:confidencelevel    "0.932" ;
+        c:firstname          "Josh" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Josh" ;
+        c:nationality        "N/A" ;
+        c:persontype         "economic" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/13>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ care of the residents.     \nBesides her parents, ]she[ was preceded in death by one infant daughter,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "1187" ;
+        c:prefix     " care of the residents.     \nBesides her parents, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/85d2970b-526f-31e7-a008-f995d42d740d> ;
+        c:suffix     " was preceded in death by one infant daughter," .
+
+<http://d.opencalais.com/genericHasher-1/e320c9c7-8e7a-390a-a7f7-01c262423f76>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/daa6c277-8b13-352a-ae15-85a68903340a> , <http://d.opencalais.com/pershash-1/1741ad50-8a12-332e-a22d-5fc6356d6c27> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Relevance/1>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/cac442b3-9d2c-3bd5-ae83-ef9c3ad455be> .
+
+<http://d.opencalais.com/genericHasher-1/b8620f48-da64-3b29-b094-f0b9edcda36f>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oklahoma City" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Relevance/24>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/993eafd5-208a-3bc1-b609-66b7d276a1a4> .
+
+<http://d.opencalais.com/genericHasher-1/b29ac646-9bbe-3257-8d88-b4f2b9df512a>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:date                "2002-05-22" ;
+        c:datestring          "May 22, 2002" ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/5cb0f602-7113-3ad9-84bd-1716280baae4> , <http://d.opencalais.com/pershash-1/85d2970b-526f-31e7-a008-f995d42d740d> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/63>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[children, Alyssa and Noah.  She later married ]Barry Mason[ and they had two children, Bryce and Emily.  On]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "Barry Mason" ;
+        c:length     "11" ;
+        c:offset     "764" ;
+        c:prefix     "children, Alyssa and Noah.  She later married " ;
+        c:subject    <http://d.opencalais.com/pershash-1/daa6c277-8b13-352a-ae15-85a68903340a> ;
+        c:suffix     " and they had two children, Bryce and Emily.  On" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/42>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[years, 8 months, and 6 days.    \nBecky attended ]Waynoka[ Schools and later obtained her GED and her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "Waynoka" ;
+        c:length     "7" ;
+        c:offset     "590" ;
+        c:prefix     "years, 8 months, and 6 days.    \nBecky attended " ;
+        c:subject    <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:suffix     " Schools and later obtained her GED and her" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/21>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[2013, at the Waynoka First Baptist Church with ]David Shaw[ officiating.  Interment will be in the Waynoka]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "David Shaw" ;
+        c:length     "10" ;
+        c:offset     "125" ;
+        c:prefix     "2013, at the Waynoka First Baptist Church with " ;
+        c:subject    <http://d.opencalais.com/pershash-1/41267cde-50d8-3da2-81a9-c29a6a9acc4c> ;
+        c:suffix     " officiating.  Interment will be in the Waynoka" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Relevance/9>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/41267cde-50d8-3da2-81a9-c29a6a9acc4c> .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/cat/2>
+        a                    <http://s.opencalais.com/1/type/cat/DocCat> ;
+        c:docId              <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Religion_Belief" ;
+        c:score              "0.844" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Relevance/32>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/1741ad50-8a12-332e-a22d-5fc6356d6c27> .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Relevance/11>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b9da4204-f424-3e41-8b74-e2ca3d71e090> .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/71>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Sharp, daughter of the late Richard Allen and ]Gurly Gay (Russell) Hefner[, was born April 3, 1957, at Amarillo, Texas, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "Gurly Gay (Russell) Hefner" ;
+        c:length     "26" ;
+        c:offset     "408" ;
+        c:prefix     "Sharp, daughter of the late Richard Allen and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/703cbabd-e8db-3b23-9e9d-940d88a47127> ;
+        c:suffix     ", was born April 3, 1957, at Amarillo, Texas, and" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/50>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[David Kauth and had two children, Alyssa and ]Noah[.  She later married Barry Mason and they had two]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "Noah" ;
+        c:length     "4" ;
+        c:offset     "739" ;
+        c:prefix     "David Kauth and had two children, Alyssa and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/8b9477fd-b38f-3445-b093-942d386a338a> ;
+        c:suffix     ".  She later married Barry Mason and they had two" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/29>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[the age of 56 years, 8 months, and 6 days.    \n]Becky[ attended Waynoka Schools and later obtained her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "Becky" ;
+        c:length     "5" ;
+        c:offset     "575" ;
+        c:prefix     "the age of 56 years, 8 months, and 6 days.    \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/84c54d1d-70db-3890-9654-e48870589895> ;
+        c:suffix     " attended Waynoka Schools and later obtained her" .
+
+<http://d.opencalais.com/genericHasher-1/b9da4204-f424-3e41-8b74-e2ca3d71e090>
+        a                    <http://s.opencalais.com/1/type/em/e/Position> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Licensed Practical Nurse" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/SocialTag/2>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Hefner" ;
+        c:originalValue      "Hefner" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/a34ebe81-756f-34a5-b503-1eee510f64b6> .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/7>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ two children, Bryce and Emily.  On May 22, 2002, ]she[ was united in marriage to Monte Sharp at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "838" ;
+        c:prefix     " two children, Bryce and Emily.  On May 22, 2002, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/85d2970b-526f-31e7-a008-f995d42d740d> ;
+        c:suffix     " was united in marriage to Monte Sharp at" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Relevance/19>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/8b9477fd-b38f-3445-b093-942d386a338a> .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/79>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[December 12, 2013, at the Waynoka First ]Baptist Church[ with David Shaw officiating.  Interment will be]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "Baptist Church" ;
+        c:length     "14" ;
+        c:offset     "105" ;
+        c:prefix     "December 12, 2013, at the Waynoka First " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a21a69b3-e9dd-341e-9fee-da93c550c744> ;
+        c:suffix     " with David Shaw officiating.  Interment will be" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/58>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[by her husband, Monte, of Texas; two sons, ]Noah Kauth of Waynoka[, and Bryce Mason of Alva; one daughter, Alyssa]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "Noah Kauth of Waynoka" ;
+        c:length     "21" ;
+        c:offset     "1315" ;
+        c:prefix     "by her husband, Monte, of Texas; two sons, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/d213df8c-f454-3d02-86f3-39267244b4a4> ;
+        c:suffix     ", and Bryce Mason of Alva; one daughter, Alyssa" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/37>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and husband, Josh, of Waynoka; one brother, ]Rick Allen Hefner[ of Oklahoma City; two sisters Jerri Dee Fair]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "Rick Allen Hefner" ;
+        c:length     "17" ;
+        c:offset     "1434" ;
+        c:prefix     "and husband, Josh, of Waynoka; one brother, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6177ad5b-a7c8-3b69-bb4e-d6fc0754dc98> ;
+        c:suffix     " of Oklahoma City; two sisters Jerri Dee Fair" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/16>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[two sisters Jerri Dee Fair Neal and husband, ]Brandon, of St. Joseph, Missouri[, and Debbie Hefner of Pensacola, Flordia; four]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "Brandon, of St. Joseph, Missouri" ;
+        c:length     "32" ;
+        c:offset     "1515" ;
+        c:prefix     "two sisters Jerri Dee Fair Neal and husband, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/affd9ca6-8bb7-321c-8ad8-7b5e78af7e36> ;
+        c:suffix     ", and Debbie Hefner of Pensacola, Flordia; four" .
+
+<http://d.opencalais.com/conf/pershash-1/17197313-5b8b-30a1-9075-2bb5ea3bc071>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.981" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.932" ;
+        c:subject             <http://d.opencalais.com/pershash-1/17197313-5b8b-30a1-9075-2bb5ea3bc071> .
+
+<http://d.opencalais.com/genericHasher-1/428912df-8d96-359b-bc2e-cd3e941be11e>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "St. Joseph" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Relevance/4>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/85d2970b-526f-31e7-a008-f995d42d740d> .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Relevance/27>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/9407fd8a-af1c-350d-9dc0-4cc4e35e8795> .
+
+<http://d.opencalais.com/genericHasher-1/1be85dc9-73b6-3dca-bdc2-a975ca44c164>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:company            <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:forenduserdisplay  "true" ;
+        c:person             <http://d.opencalais.com/pershash-1/a5cdeaab-d472-37ca-bc5a-44db8bd70656> ;
+        c:status             "current" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/66>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and they had two children, Bryce and Emily.  ]On May 22, 2002, she was united in marriage to Monte Sharp[ at Seiling, Oklahoma.  She lived in Waynoka]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "On May 22, 2002, she was united in marriage to Monte Sharp" ;
+        c:length     "58" ;
+        c:offset     "821" ;
+        c:prefix     "and they had two children, Bryce and Emily.  " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b29ac646-9bbe-3257-8d88-b4f2b9df512a> ;
+        c:suffix     " at Seiling, Oklahoma.  She lived in Waynoka" .
+
+<http://d.opencalais.com/conf/pershash-1/6177ad5b-a7c8-3b69-bb4e-d6fc0754dc98>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.998" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.999" ;
+        c:subject             <http://d.opencalais.com/pershash-1/6177ad5b-a7c8-3b69-bb4e-d6fc0754dc98> .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/45>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Monte, of Texas; two sons, Noah Kauth of ]Waynoka[, and Bryce Mason of Alva; one daughter, Alyssa]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "Waynoka" ;
+        c:length     "7" ;
+        c:offset     "1329" ;
+        c:prefix     "Monte, of Texas; two sons, Noah Kauth of " ;
+        c:subject    <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:suffix     ", and Bryce Mason of Alva; one daughter, Alyssa" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/24>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Schools and later obtained her GED and her ]Licensed Practical Nurse[ Certification.  She married David Kauth and had]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "Licensed Practical Nurse" ;
+        c:length     "24" ;
+        c:offset     "641" ;
+        c:prefix     "Schools and later obtained her GED and her " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b9da4204-f424-3e41-8b74-e2ca3d71e090> ;
+        c:suffix     " Certification.  She married David Kauth and had" .
+
+<http://d.opencalais.com/pershash-1/daa6c277-8b13-352a-ae15-85a68903340a>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Barry Mason" ;
+        c:confidencelevel    "0.991" ;
+        c:firstname          "Barry" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Mason" ;
+        c:name               "Barry Mason" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/pershash-1/85d2970b-526f-31e7-a008-f995d42d740d>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Emily Mason" ;
+        c:confidencelevel    "0.996" ;
+        c:firstname          "Emily" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Emily Mason" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/pershash-1/703cbabd-e8db-3b23-9e9d-940d88a47127>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Gurly Gay Hefner" ;
+        c:confidencelevel    "0.696" ;
+        c:firstname          "Gurly" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Hefner" ;
+        c:middlename         "Gay" ;
+        c:name               "Gurly Gay (Russell) Hefner" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/2>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Fair Neal and husband, Brandon, of St. Joseph, ]Missouri[, and Debbie Hefner of Pensacola, Flordia; four]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "Missouri" ;
+        c:length     "8" ;
+        c:offset     "1539" ;
+        c:prefix     "Fair Neal and husband, Brandon, of St. Joseph, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4b59c1ad-8092-34d5-b763-a43226a1836c> ;
+        c:suffix     ", and Debbie Hefner of Pensacola, Flordia; four" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Relevance/14>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/pershash-1/84c54d1d-70db-3890-9654-e48870589895> .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/74>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Kauth and had two children, Alyssa and Noah.  ]She[ later married Barry Mason and they had two]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "746" ;
+        c:prefix     "Kauth and had two children, Alyssa and Noah.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/1741ad50-8a12-332e-a22d-5fc6356d6c27> ;
+        c:suffix     " later married Barry Mason and they had two" .
+
+<http://d.opencalais.com/pershash-1/5cb0f602-7113-3ad9-84bd-1716280baae4>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Monte Sharp" ;
+        c:confidencelevel    "0.959" ;
+        c:firstname          "Monte" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Sharp" ;
+        c:name               "Monte Sharp" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/53>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Waynoka; one brother, Rick Allen Hefner of ]Oklahoma City[; two sisters Jerri Dee Fair Neal and husband,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "Oklahoma City" ;
+        c:length     "13" ;
+        c:offset     "1455" ;
+        c:prefix     "of Waynoka; one brother, Rick Allen Hefner of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b8620f48-da64-3b29-b094-f0b9edcda36f> ;
+        c:suffix     "; two sisters Jerri Dee Fair Neal and husband," .
+
+<http://d.opencalais.com/conf/pershash-1/cac442b3-9d2c-3bd5-ae83-ef9c3ad455be>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.932" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/cac442b3-9d2c-3bd5-ae83-ef9c3ad455be> .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/32>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ and her Licensed Practical Nurse Certification.  ]She[ married David Kauth and had two children, Alyssa]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "682" ;
+        c:prefix     " and her Licensed Practical Nurse Certification.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/84c54d1d-70db-3890-9654-e48870589895> ;
+        c:suffix     " married David Kauth and had two children, Alyssa" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/11>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[attended the Morning Star Baptist Church and ]she[ loved being a nurse and was dedicated to taking]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "1086" ;
+        c:prefix     "attended the Morning Star Baptist Church and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/85d2970b-526f-31e7-a008-f995d42d740d> ;
+        c:suffix     " loved being a nurse and was dedicated to taking" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Relevance/22>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/genericHasher-1/0f4deecf-7482-3d5c-9888-f43f729d995c>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Oklahoma City" ;
+        c:person             <http://d.opencalais.com/pershash-1/6177ad5b-a7c8-3b69-bb4e-d6fc0754dc98> .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/22a2e9d4-42cf-58a2-d8d3-3269b69ad67a>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:latitude            "38.5" ;
+        c:longitude           "-92.5" ;
+        c:name                "Missouri,United States" ;
+        c:permid              "100190" ;
+        c:rcscode             "G:45" ;
+        c:shortname           "Missouri" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/4b59c1ad-8092-34d5-b763-a43226a1836c> .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/82>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ On May 22, 2002, she was united in marriage to ]Monte Sharp at Seiling, Oklahoma[.  She lived in Waynoka where she worked at the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "Monte Sharp at Seiling, Oklahoma" ;
+        c:length     "32" ;
+        c:offset     "868" ;
+        c:prefix     " On May 22, 2002, she was united in marriage to " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/bae4a379-333e-3f47-8170-c7dc64331607> ;
+        c:suffix     ".  She lived in Waynoka where she worked at the" .
+
+<http://d.opencalais.com/pershash-1/84c54d1d-70db-3890-9654-e48870589895>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Becky Gay Sharp" ;
+        c:confidencelevel    "0.964" ;
+        c:firstname          "Becky" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Sharp" ;
+        c:middlename         "Gay" ;
+        c:name               "Becky Gay Sharp" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/61>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Waynoka, and Bryce Mason of Alva; one daughter, ]Alyssa Inman[ and husband, Josh, of Waynoka; one brother, Rick]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "Alyssa Inman" ;
+        c:length     "12" ;
+        c:offset     "1377" ;
+        c:prefix     "Waynoka, and Bryce Mason of Alva; one daughter, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/993eafd5-208a-3bc1-b609-66b7d276a1a4> ;
+        c:suffix     " and husband, Josh, of Waynoka; one brother, Rick" .
+
+<http://d.opencalais.com/genericHasher-1/d18ca3f2-30c5-30c8-80c2-bd324f192dc2>
+        a                    <http://s.opencalais.com/1/type/em/e/Holiday> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "St. Joseph" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/40>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[under the direction of Marshall Funeral Home of ]Waynoka, LLC[.  The casket will be open until 12:30 p.m.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "Waynoka, LLC" ;
+        c:length     "12" ;
+        c:offset     "250" ;
+        c:prefix     "under the direction of Marshall Funeral Home of " ;
+        c:subject    <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:suffix     ".  The casket will be open until 12:30 p.m." .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/19>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[she was united in marriage to Monte Sharp at ]Seiling[, Oklahoma.  She lived in Waynoka where she]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "Seiling" ;
+        c:length     "7" ;
+        c:offset     "883" ;
+        c:prefix     "she was united in marriage to Monte Sharp at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b5df13b5-808d-39be-8e01-6a23fd3b330d> ;
+        c:suffix     ", Oklahoma.  She lived in Waynoka where she" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Relevance/7>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/d18ca3f2-30c5-30c8-80c2-bd324f192dc2> .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Relevance/30>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/703cbabd-e8db-3b23-9e9d-940d88a47127> .
+
+<http://d.opencalais.com/genericHasher-1/ccc99605-3331-3135-ae3a-ff31bd505465>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:company            <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:forenduserdisplay  "true" ;
+        c:person             <http://d.opencalais.com/pershash-1/85d2970b-526f-31e7-a008-f995d42d740d> ;
+        c:status             "past" .
+
+<http://d.opencalais.com/genericHasher-1/c960096a-c52e-3cf1-9ef3-a4a18889d7c9>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Waynoka Municipal Cemetery" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/69>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[married Barry Mason and they had two children, ]Bryce[ and Emily.  On May 22, 2002, she was united in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "Bryce" ;
+        c:length     "5" ;
+        c:offset     "803" ;
+        c:prefix     "married Barry Mason and they had two children, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/fe914589-e6b5-3ed7-8da4-ef0229be325f> ;
+        c:suffix     " and Emily.  On May 22, 2002, she was united in" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/62914270-0a1c-1bcc-880e-6dbe9fb82eb9>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:latitude            "31.4484328889" ;
+        c:longitude           "-97.7816569778" ;
+        c:name                "Texas,United States" ;
+        c:permid              "100299" ;
+        c:rcscode             "G:50" ;
+        c:shortname           "Texas" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/48>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Flores of Waynoka and Beau and Paisley Inman of ]Waynoka[; other relatives and friends.    \nMemorial]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "Waynoka" ;
+        c:length     "7" ;
+        c:offset     "1674" ;
+        c:prefix     "Flores of Waynoka and Beau and Paisley Inman of " ;
+        c:subject    <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:suffix     "; other relatives and friends.    \nMemorial" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/27>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Funeral services for ]Becky Gay Sharp[ will be 2:00 p.m. Thursday, December 12, 2013,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "Becky Gay Sharp" ;
+        c:length     "15" ;
+        c:offset     "21" ;
+        c:prefix     "Funeral services for " ;
+        c:subject    <http://d.opencalais.com/pershash-1/84c54d1d-70db-3890-9654-e48870589895> ;
+        c:suffix     " will be 2:00 p.m. Thursday, December 12, 2013," .
+
+<http://d.opencalais.com/genericHasher-1/2e255344-5719-3601-a957-16be434809ec>
+        a                       <http://s.opencalais.com/1/type/em/r/PersonEducation> ;
+        c:forenduserdisplay     "false" ;
+        c:person                <http://d.opencalais.com/pershash-1/85d2970b-526f-31e7-a008-f995d42d740d> ;
+        c:schoolororganization  "Morning Star Baptist Church" .
+
+<http://d.opencalais.com/genericHasher-1/0f51d9ef-71f0-32dd-a54e-936aab7466d2>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "husband" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/84c54d1d-70db-3890-9654-e48870589895> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/5cb0f602-7113-3ad9-84bd-1716280baae4> .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Relevance/17>
+        a                <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId          <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:relevance      "0.8" ;
+        c:relevancecont  "0.89" ;
+        c:subject        <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/5>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Kade and Xhalin Flores of Waynoka and Beau and ]Paisley Inman of Waynoka[; other relatives and friends.    \nMemorial]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "Paisley Inman of Waynoka" ;
+        c:length     "24" ;
+        c:offset     "1657" ;
+        c:prefix     "Kade and Xhalin Flores of Waynoka and Beau and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/1be85dc9-73b6-3dca-bdc2-a975ca44c164> ;
+        c:suffix     "; other relatives and friends.    \nMemorial" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/77>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[daughter, Emily Mason.    \nBecky is survived by ]her husband, Monte[, of Texas; two sons, Noah Kauth of Waynoka, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "her husband, Monte" ;
+        c:length     "18" ;
+        c:offset     "1275" ;
+        c:prefix     "daughter, Emily Mason.    \nBecky is survived by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0f51d9ef-71f0-32dd-a54e-936aab7466d2> ;
+        c:suffix     ", of Texas; two sons, Noah Kauth of Waynoka, and" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/56>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[united in marriage to Monte Sharp at Seiling, ]Oklahoma[.  She lived in Waynoka where she worked at the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "892" ;
+        c:prefix     "united in marriage to Monte Sharp at Seiling, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ".  She lived in Waynoka where she worked at the" .
+
+<http://d.opencalais.com/genericHasher-1/d213df8c-f454-3d02-86f3-39267244b4a4>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:company            <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:forenduserdisplay  "true" ;
+        c:person             <http://d.opencalais.com/pershash-1/8b9477fd-b38f-3445-b093-942d386a338a> ;
+        c:status             "current" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/35>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[]Funeral services[ for Becky Gay Sharp will be 2:00 p.m. Thursday,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "Funeral services" ;
+        c:length     "16" ;
+        c:offset     "0" ;
+        c:prefix     "" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee> ;
+        c:suffix     " for Becky Gay Sharp will be 2:00 p.m. Thursday," .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/14>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[was preceded in death by one infant daughter, ]Emily Mason[.    \nBecky is survived by her husband, Monte, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "Emily Mason" ;
+        c:length     "11" ;
+        c:offset     "1237" ;
+        c:prefix     "was preceded in death by one infant daughter, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/85d2970b-526f-31e7-a008-f995d42d740d> ;
+        c:suffix     ".    \nBecky is survived by her husband, Monte, of" .
+
+<http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Texas" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Relevance/2>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4b59c1ad-8092-34d5-b763-a43226a1836c> .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Relevance/25>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/daa6c277-8b13-352a-ae15-85a68903340a> .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/64>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Kade and Xhalin Flores of Waynoka and ]Beau[ and Paisley Inman of Waynoka; other relatives]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "Beau" ;
+        c:length     "4" ;
+        c:offset     "1648" ;
+        c:prefix     "Kade and Xhalin Flores of Waynoka and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/e5bf422c-376f-3490-abea-01844195cb52> ;
+        c:suffix     " and Paisley Inman of Waynoka; other relatives" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/43>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Monte Sharp at Seiling, Oklahoma.  She lived in ]Waynoka[ where she worked at the Waynoka Nursing Home,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "Waynoka" ;
+        c:length     "7" ;
+        c:offset     "916" ;
+        c:prefix     "Monte Sharp at Seiling, Oklahoma.  She lived in " ;
+        c:subject    <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:suffix     " where she worked at the Waynoka Nursing Home," .
+
+<http://d.opencalais.com/conf/pershash-1/daa6c277-8b13-352a-ae15-85a68903340a>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.991" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/daa6c277-8b13-352a-ae15-85a68903340a> .
+
+<http://d.opencalais.com/conf/pershash-1/85d2970b-526f-31e7-a008-f995d42d740d>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.996" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.997" ;
+        c:subject             <http://d.opencalais.com/pershash-1/85d2970b-526f-31e7-a008-f995d42d740d> .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/22>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and husband, Josh, of Waynoka; one brother, ]Rick Allen Hefner of Oklahoma City[; two sisters Jerri Dee Fair Neal and husband,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "Rick Allen Hefner of Oklahoma City" ;
+        c:length     "34" ;
+        c:offset     "1434" ;
+        c:prefix     "and husband, Josh, of Waynoka; one brother, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0f4deecf-7482-3d5c-9888-f43f729d995c> ;
+        c:suffix     "; two sisters Jerri Dee Fair Neal and husband," .
+
+<http://d.opencalais.com/conf/pershash-1/703cbabd-e8db-3b23-9e9d-940d88a47127>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.696" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.744" ;
+        c:subject             <http://d.opencalais.com/pershash-1/703cbabd-e8db-3b23-9e9d-940d88a47127> .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Relevance/33>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/5cb0f602-7113-3ad9-84bd-1716280baae4> .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Relevance/12>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/428912df-8d96-359b-bc2e-cd3e941be11e> .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/ComponentVersions>
+        a          <http://s.opencalais.com/1/type/sys/ComponentVersions> ;
+        c:docId    <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:version  "Dial4J:OneCalais_8.3-RELEASE:198" , "config-physicalAssets-ports:258:258" , "WatchDog:OneCalais_8.3-RELEASE:113" , "SpanishIM:OneCalais_8.3-RELEASE:198" , "config-drugs:258:258" , "NextTags:OneCalais_8.3-RELEASE:113" , "config-sca-DataPackage:34:34" , "com.clearforest.infoext.dial4j.plugins-basistechconfig:OneCalais_8.3-RELEASE:225" , "People Override:258:258" , "OneCalais:OneCalais_8.3-RELEASE:364" , "SocialTags Index:201505191038:201505191038" , "index-vessels:201505231718:201505231718" , "SECHeaderMetadataIM:OneCalais_8.3-RELEASE:198" , "FrenchIM:OneCalais_8.3-RELEASE:198" , "AutocoderRuntimeIM:OneCalais_8.3-RELEASE:198" , "config-negativeSignature:258:258" , "Housekeeper:OneCalais_8.3-RELEASE:113" , "config-cse:271:271" , "OA Override:271:271" , "OneCalaisIM:OneCalais_8.3-RELEASE:198" , "Deals Index:201505261613:201505261613" , "config-refineries:258:258" , "BrokerResearchIM:OneCalais_8.3-RELEASE:198" , "Collector:OneCalais_8.3-RELEASE:113" , "People Index:201505261608:201505261608" , "BlackList:264:264" , "config-vessels:258:258" , "OA Index:201505252208:201505252208" .
+
+<http://d.opencalais.com/conf/pershash-1/5cb0f602-7113-3ad9-84bd-1716280baae4>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.959" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.976" ;
+        c:subject             <http://d.opencalais.com/pershash-1/5cb0f602-7113-3ad9-84bd-1716280baae4> .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/72>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[two sisters Jerri Dee Fair Neal and husband, ]Brandon[, of St. Joseph, Missouri, and Debbie Hefner of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "Brandon" ;
+        c:length     "7" ;
+        c:offset     "1515" ;
+        c:prefix     "two sisters Jerri Dee Fair Neal and husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/17197313-5b8b-30a1-9075-2bb5ea3bc071> ;
+        c:suffix     ", of St. Joseph, Missouri, and Debbie Hefner of" .
+
+<http://d.opencalais.com/pershash-1/fe914589-e6b5-3ed7-8da4-ef0229be325f>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Bryce" ;
+        c:confidencelevel    "0.999" ;
+        c:firstname          "Bryce" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Bryce" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/51>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[by her husband, Monte, of Texas; two sons, ]Noah Kauth[ of Waynoka, and Bryce Mason of Alva; one]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "Noah Kauth" ;
+        c:length     "10" ;
+        c:offset     "1315" ;
+        c:prefix     "by her husband, Monte, of Texas; two sons, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/8b9477fd-b38f-3445-b093-942d386a338a> ;
+        c:suffix     " of Waynoka, and Bryce Mason of Alva; one" .
+
+<http://d.opencalais.com/genericHasher-1/0a09ae8f-0456-38fc-b965-ff815c60f9d3>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Amarillo" .
+
+<http://d.opencalais.com/pershash-1/9407fd8a-af1c-350d-9dc0-4cc4e35e8795>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Debbie Hefner" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Debbie" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Hefner" ;
+        c:name               "Debbie Hefner" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/30>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[attended Waynoka Schools and later obtained ]her[ GED and her Licensed Practical Nurse]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "625" ;
+        c:prefix     "attended Waynoka Schools and later obtained " ;
+        c:subject    <http://d.opencalais.com/pershash-1/84c54d1d-70db-3890-9654-e48870589895> ;
+        c:suffix     " GED and her Licensed Practical Nurse" .
+
+<http://d.opencalais.com/genericHasher-1/b5df13b5-808d-39be-8e01-6a23fd3b330d>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Seiling" .
+
+<http://d.opencalais.com/genericHasher-1/4d10d257-2fc4-3ae9-ae20-7de5d327dfae>
+        a                    <http://s.opencalais.com/1/type/em/e/Position> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "nurse" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/SocialTag/3>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "First Baptist Church" ;
+        c:originalValue      "First Baptist Church (Knoxville, Tennessee)" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/e6c3e903-cbaa-37d7-89a8-f2e92ed77ee0> .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Relevance/20>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/a5cdeaab-d472-37ca-bc5a-44db8bd70656> .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/8>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[marriage to Monte Sharp at Seiling, Oklahoma.  ]She[ lived in Waynoka where she worked at the Waynoka]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "903" ;
+        c:prefix     "marriage to Monte Sharp at Seiling, Oklahoma.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/85d2970b-526f-31e7-a008-f995d42d740d> ;
+        c:suffix     " lived in Waynoka where she worked at the Waynoka" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/80>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[12:30 p.m. Thursday and remain closed at the ]church[.    \nBecky Gay Sharp, daughter of the late]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "church" ;
+        c:length     "6" ;
+        c:offset     "340" ;
+        c:prefix     "12:30 p.m. Thursday and remain closed at the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a21a69b3-e9dd-341e-9fee-da93c550c744> ;
+        c:suffix     ".    \nBecky Gay Sharp, daughter of the late" .
+
+<http://d.opencalais.com/genericHasher-1/4b59c1ad-8092-34d5-b763-a43226a1836c>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Missouri" .
+
+<http://d.opencalais.com/conf/pershash-1/84c54d1d-70db-3890-9654-e48870589895>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.964" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.978" ;
+        c:subject             <http://d.opencalais.com/pershash-1/84c54d1d-70db-3890-9654-e48870589895> .
+
+<http://d.opencalais.com/pershash-1/a5cdeaab-d472-37ca-bc5a-44db8bd70656>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Paisley Inman" ;
+        c:confidencelevel    "0.87" ;
+        c:firstname          "Paisley" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Inman" ;
+        c:name               "Paisley Inman" ;
+        c:nationality        "N/A" ;
+        c:persontype         "economic" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/59>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Kauth and had two children, Alyssa and Noah.  ]She later married Barry Mason[ and they had two children, Bryce and Emily.  On]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "She later married Barry Mason" ;
+        c:length     "29" ;
+        c:offset     "746" ;
+        c:prefix     "Kauth and had two children, Alyssa and Noah.  " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3aa82573-cfa6-3e23-8121-22d028c86e90> ;
+        c:suffix     " and they had two children, Bryce and Emily.  On" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/38>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ be 2:00 p.m. Thursday, December 12, 2013, at the ]Waynoka[ First Baptist Church with David Shaw]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "Waynoka" ;
+        c:length     "7" ;
+        c:offset     "91" ;
+        c:prefix     " be 2:00 p.m. Thursday, December 12, 2013, at the " ;
+        c:subject    <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:suffix     " First Baptist Church with David Shaw" .
+
+<http://d.opencalais.com/pershash-1/e5bf422c-376f-3490-abea-01844195cb52>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Beau Inman" ;
+        c:confidencelevel    "0.87" ;
+        c:firstname          "Paisley" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Inman" ;
+        c:name               "Beau Inman" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/17>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Municipal Cemetery under the direction of ]Marshall Funeral Home of Waynoka[, LLC.  The casket will be open until 12:30 p.m.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "Marshall Funeral Home of Waynoka" ;
+        c:length     "32" ;
+        c:offset     "225" ;
+        c:prefix     "Municipal Cemetery under the direction of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/84bb0714-85ab-39de-a7e7-f1ad2e79292b> ;
+        c:suffix     ", LLC.  The casket will be open until 12:30 p.m." .
+
+<http://d.opencalais.com/genericHasher-1/3aa82573-cfa6-3e23-8121-22d028c86e90>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "husband" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/1741ad50-8a12-332e-a22d-5fc6356d6c27> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/daa6c277-8b13-352a-ae15-85a68903340a> .
+
+<http://d.opencalais.com/pershash-1/8b9477fd-b38f-3445-b093-942d386a338a>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Noah Kauth" ;
+        c:confidencelevel    "0.947" ;
+        c:firstname          "Noah" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Noah Kauth" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/bae4a379-333e-3f47-8170-c7dc64331607>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Seiling" ;
+        c:person             <http://d.opencalais.com/pershash-1/5cb0f602-7113-3ad9-84bd-1716280baae4> .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Relevance/5>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/9519a6ee-f045-3ac4-8b52-d1305403bc3a> .
+
+<http://d.opencalais.com/pershash-1/9519a6ee-f045-3ac4-8b52-d1305403bc3a>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Bryce Mason" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Bryce" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Mason" ;
+        c:name               "Bryce Mason" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Relevance/28>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c960096a-c52e-3cf1-9ef3-a4a18889d7c9> .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/67>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Sharp, daughter of the late Richard Allen and ]Gurly Gay (Russell) Hefner, was born April 3, 1957, at Amarillo, Texas[, and passed away December 7, 2013, at Waynoka at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "Gurly Gay (Russell) Hefner, was born April 3, 1957, at Amarillo, Texas" ;
+        c:length     "70" ;
+        c:offset     "408" ;
+        c:prefix     "Sharp, daughter of the late Richard Allen and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/af9a990c-b6fa-37fc-835a-45286f5a341c> ;
+        c:suffix     ", and passed away December 7, 2013, at Waynoka at" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/46>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ one daughter, Alyssa Inman and husband, Josh, of ]Waynoka[; one brother, Rick Allen Hefner of Oklahoma]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "Waynoka" ;
+        c:length     "7" ;
+        c:offset     "1412" ;
+        c:prefix     " one daughter, Alyssa Inman and husband, Josh, of " ;
+        c:subject    <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:suffix     "; one brother, Rick Allen Hefner of Oklahoma" .
+
+<http://d.opencalais.com/genericHasher-1/df61ab2c-a3bb-3661-9309-e439138cacee>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/50d4e356-eec2-3c96-89cc-84959e70bf44> , <http://d.opencalais.com/pershash-1/84c54d1d-70db-3890-9654-e48870589895> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/25>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Jerri Dee Fair Neal and husband, Brandon, of ]St. Joseph[, Missouri, and Debbie Hefner of Pensacola,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "St. Joseph" ;
+        c:length     "10" ;
+        c:offset     "1527" ;
+        c:prefix     "Jerri Dee Fair Neal and husband, Brandon, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/428912df-8d96-359b-bc2e-cd3e941be11e> ;
+        c:suffix     ", Missouri, and Debbie Hefner of Pensacola," .
+
+<http://d.opencalais.com/genericHasher-1/459ce348-eafa-3f31-a3e8-6241bc2009d2>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/5cb0f602-7113-3ad9-84bd-1716280baae4> , <http://d.opencalais.com/pershash-1/84c54d1d-70db-3890-9654-e48870589895> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/3>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Hefner, was born April 3, 1957, at Amarillo, ]Texas[, and passed away December 7, 2013, at Waynoka at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "Texas" ;
+        c:length     "5" ;
+        c:offset     "473" ;
+        c:prefix     "Hefner, was born April 3, 1957, at Amarillo, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> ;
+        c:suffix     ", and passed away December 7, 2013, at Waynoka at" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Relevance/15>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee> .
+
+<http://d.opencalais.com/conf/pershash-1/50d4e356-eec2-3c96-89cc-84959e70bf44>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/50d4e356-eec2-3c96-89cc-84959e70bf44> .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/75>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ On May 22, 2002, she was united in marriage to ]Monte Sharp[ at Seiling, Oklahoma.  She lived in Waynoka]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "Monte Sharp" ;
+        c:length     "11" ;
+        c:offset     "868" ;
+        c:prefix     " On May 22, 2002, she was united in marriage to " ;
+        c:subject    <http://d.opencalais.com/pershash-1/5cb0f602-7113-3ad9-84bd-1716280baae4> ;
+        c:suffix     " at Seiling, Oklahoma.  She lived in Waynoka" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/54>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Home, and currently at the  Cherokee Manor.    \n]She attended the Morning Star Baptist Church[ and she loved being a nurse and was dedicated to]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "She attended the Morning Star Baptist Church" ;
+        c:length     "44" ;
+        c:offset     "1037" ;
+        c:prefix     "Home, and currently at the  Cherokee Manor.    \n" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/2e255344-5719-3601-a957-16be434809ec> ;
+        c:suffix     " and she loved being a nurse and was dedicated to" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/33>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[death by one infant daughter, Emily Mason.    \n]Becky[ is survived by her husband, Monte, of Texas; two]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "Becky" ;
+        c:length     "5" ;
+        c:offset     "1254" ;
+        c:prefix     "death by one infant daughter, Emily Mason.    \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/84c54d1d-70db-3890-9654-e48870589895> ;
+        c:suffix     " is survived by her husband, Monte, of Texas; two" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/12>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[to taking care of the residents.     \nBesides ]her[ parents, she was preceded in death by one infant]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1174" ;
+        c:prefix     "to taking care of the residents.     \nBesides " ;
+        c:subject    <http://d.opencalais.com/pershash-1/85d2970b-526f-31e7-a008-f995d42d740d> ;
+        c:suffix     " parents, she was preceded in death by one infant" .
+
+<http://d.opencalais.com/genericHasher-1/af9a990c-b6fa-37fc-835a-45286f5a341c>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonAttributes> ;
+        c:birthdate          "1957-04-03" ;
+        c:birthplace         <http://d.opencalais.com/genericHasher-1/0a09ae8f-0456-38fc-b965-ff815c60f9d3> ;
+        c:forenduserdisplay  "false" ;
+        c:gender             "M" ;
+        c:person             <http://d.opencalais.com/pershash-1/703cbabd-e8db-3b23-9e9d-940d88a47127> .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Relevance/23>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/f87b63c4-df10-33d7-8879-b1a2612709e3> .
+
+<http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205>
+        a                    <http://s.opencalais.com/1/type/em/e/Company> ;
+        c:confidencelevel    "0.861" ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Waynoka LLC" ;
+        c:nationality        "N/A" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/62>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Seiling, Oklahoma.  She lived in Waynoka where ]she worked at the Waynoka[ Nursing Home, Share Convalescent Home, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "she worked at the Waynoka" ;
+        c:length     "25" ;
+        c:offset     "930" ;
+        c:prefix     "Seiling, Oklahoma.  She lived in Waynoka where " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ccc99605-3331-3135-ae3a-ff31bd505465> ;
+        c:suffix     " Nursing Home, Share Convalescent Home, and" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/722d85ea-c4bf-360f-3723-c565a8f4bcc0>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Texas" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:latitude            "35.2219" ;
+        c:longitude           "-101.8308" ;
+        c:name                "Amarillo,Texas,United States" ;
+        c:shortname           "Amarillo" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/0a09ae8f-0456-38fc-b965-ff815c60f9d3> .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/41>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Texas, and passed away December 7, 2013, at ]Waynoka[ at the age of 56 years, 8 months, and 6 days.   ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "Waynoka" ;
+        c:length     "7" ;
+        c:offset     "517" ;
+        c:prefix     "Texas, and passed away December 7, 2013, at " ;
+        c:subject    <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:suffix     " at the age of 56 years, 8 months, and 6 days.   " .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/20>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ and her Licensed Practical Nurse Certification.  ]She married David Kauth[ and had two children, Alyssa and Noah.  She]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "She married David Kauth" ;
+        c:length     "23" ;
+        c:offset     "682" ;
+        c:prefix     " and her Licensed Practical Nurse Certification.  " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/17a24f6c-d5a8-39fe-9968-ddbd4aa5a2ce> ;
+        c:suffix     " and had two children, Alyssa and Noah.  She" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Relevance/8>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b5df13b5-808d-39be-8e01-6a23fd3b330d> .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/cat/1>
+        a                    <http://s.opencalais.com/1/type/cat/DocCat> ;
+        c:docId              <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Human Interest" ;
+        c:score              "1.000" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Relevance/31>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/17197313-5b8b-30a1-9075-2bb5ea3bc071> .
+
+<http://d.opencalais.com/pershash-1/1741ad50-8a12-332e-a22d-5fc6356d6c27>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Alyssa" ;
+        c:confidencelevel    "0.999" ;
+        c:firstname          "Alyssa" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Alyssa" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Relevance/10>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0a09ae8f-0456-38fc-b965-ff815c60f9d3> .
+
+<http://d.opencalais.com/pershash-1/f87b63c4-df10-33d7-8879-b1a2612709e3>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Richard Allen" ;
+        c:confidencelevel    "0.998" ;
+        c:firstname          "Richard" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Allen" ;
+        c:name               "Richard Allen" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/70>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[death by one infant daughter, Emily Mason.    \n]Becky is survived by her husband, Monte[, of Texas; two sons, Noah Kauth of Waynoka, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "Becky is survived by her husband, Monte" ;
+        c:length     "39" ;
+        c:offset     "1254" ;
+        c:prefix     "death by one infant daughter, Emily Mason.    \n" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/459ce348-eafa-3f31-a3e8-6241bc2009d2> ;
+        c:suffix     ", of Texas; two sons, Noah Kauth of Waynoka, and" .
+
+<http://d.opencalais.com/conf/pershash-1/9407fd8a-af1c-350d-9dc0-4cc4e35e8795>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/9407fd8a-af1c-350d-9dc0-4cc4e35e8795> .
+
+<http://d.opencalais.com/conf/pershash-1/fe914589-e6b5-3ed7-8da4-ef0229be325f>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.999" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.999" ;
+        c:subject             <http://d.opencalais.com/pershash-1/fe914589-e6b5-3ed7-8da4-ef0229be325f> .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/49>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Morning Star Baptist Church and she loved being ]a nurse[ and was dedicated to taking care of the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "a nurse" ;
+        c:length     "7" ;
+        c:offset     "1102" ;
+        c:prefix     "Morning Star Baptist Church and she loved being " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4d10d257-2fc4-3ae9-ae20-7de5d327dfae> ;
+        c:suffix     " and was dedicated to taking care of the" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/28>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Thursday and remain closed at the church.    \n]Becky Gay Sharp[, daughter of the late Richard Allen and Gurly]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "Becky Gay Sharp" ;
+        c:length     "15" ;
+        c:offset     "352" ;
+        c:prefix     "Thursday and remain closed at the church.    \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/84c54d1d-70db-3890-9654-e48870589895> ;
+        c:suffix     ", daughter of the late Richard Allen and Gurly" .
+
+<http://d.opencalais.com/genericHasher-1/84bb0714-85ab-39de-a7e7-f1ad2e79292b>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Marshall Funeral Home of Waynoka" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/SocialTag/1>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Waynoka, Oklahoma" ;
+        c:originalValue      "Waynoka, Oklahoma" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/77bc8be5-12a7-326b-962f-52fbf8cf09dd> .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/lid/DefaultLangId>
+        a                    <http://s.opencalais.com/1/type/lid/DefaultLangId> ;
+        c:docId              <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:forenduserdisplay  "false" ;
+        c:lang               <http://d.opencalais.com/lid/DefaultLangId/English> ;
+        c:permid             "505062" .
+
+<http://d.opencalais.com/pershash-1/41267cde-50d8-3da2-81a9-c29a6a9acc4c>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "David Shaw" ;
+        c:confidencelevel    "0.999" ;
+        c:firstname          "David" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Shaw" ;
+        c:name               "David Shaw" ;
+        c:nationality        "N/A" ;
+        c:persontype         "sports" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Relevance/18>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4d10d257-2fc4-3ae9-ae20-7de5d327dfae> .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/6>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Barry Mason and they had two children, Bryce and ]Emily[.  On May 22, 2002, she was united in marriage to]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "Emily" ;
+        c:length     "5" ;
+        c:offset     "813" ;
+        c:prefix     " Barry Mason and they had two children, Bryce and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/85d2970b-526f-31e7-a008-f995d42d740d> ;
+        c:suffix     ".  On May 22, 2002, she was united in marriage to" .
+
+<http://d.opencalais.com/conf/pershash-1/a5cdeaab-d472-37ca-bc5a-44db8bd70656>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.87" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.893" ;
+        c:subject             <http://d.opencalais.com/pershash-1/a5cdeaab-d472-37ca-bc5a-44db8bd70656> .
+
+<http://d.opencalais.com/pershash-1/993eafd5-208a-3bc1-b609-66b7d276a1a4>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Alyssa Inman" ;
+        c:confidencelevel    "0.993" ;
+        c:firstname          "Alyssa" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Inman" ;
+        c:name               "Alyssa Inman" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/78>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ of Alva; one daughter, Alyssa Inman and husband, ]Josh, of Waynoka[; one brother, Rick Allen Hefner of Oklahoma]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "Josh, of Waynoka" ;
+        c:length     "16" ;
+        c:offset     "1403" ;
+        c:prefix     " of Alva; one daughter, Alyssa Inman and husband, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee17aa75-cc16-39ef-85b9-b8f97a8dfad1> ;
+        c:suffix     "; one brother, Rick Allen Hefner of Oklahoma" .
+
+<http://d.opencalais.com/genericHasher-1/a21a69b3-e9dd-341e-9fee-da93c550c744>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Baptist Church" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/f24ef023-f5ce-f4ba-d403-af6634f7297d>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:latitude            "35.4675" ;
+        c:longitude           "-97.5161" ;
+        c:name                "Oklahoma City,Oklahoma,United States" ;
+        c:rcscode             "G:2BF" ;
+        c:shortname           "Oklahoma City" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/b8620f48-da64-3b29-b094-f0b9edcda36f> .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/57>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ and her Licensed Practical Nurse Certification.  ]She married David Kauth[ and had two children, Alyssa and Noah.  She]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "She married David Kauth" ;
+        c:length     "23" ;
+        c:offset     "682" ;
+        c:prefix     " and her Licensed Practical Nurse Certification.  " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/df61ab2c-a3bb-3661-9309-e439138cacee> ;
+        c:suffix     " and had two children, Alyssa and Noah.  She" .
+
+<http://d.opencalais.com/conf/pershash-1/e5bf422c-376f-3490-abea-01844195cb52>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.87" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.893" ;
+        c:subject             <http://d.opencalais.com/pershash-1/e5bf422c-376f-3490-abea-01844195cb52> .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/36>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[daughter, Emily Mason.    \nBecky is survived by ]her husband, Monte, of Texas[; two sons, Noah Kauth of Waynoka, and Bryce]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "her husband, Monte, of Texas" ;
+        c:length     "28" ;
+        c:offset     "1275" ;
+        c:prefix     "daughter, Emily Mason.    \nBecky is survived by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/6efc24c8-ed18-3e6b-ad90-090d256f2add> ;
+        c:suffix     "; two sons, Noah Kauth of Waynoka, and Bryce" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/15>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Texas; two sons, Noah Kauth of Waynoka, and ]Bryce Mason[ of Alva; one daughter, Alyssa Inman and husband,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "Bryce Mason" ;
+        c:length     "11" ;
+        c:offset     "1342" ;
+        c:prefix     "of Texas; two sons, Noah Kauth of Waynoka, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9519a6ee-f045-3ac4-8b52-d1305403bc3a> ;
+        c:suffix     " of Alva; one daughter, Alyssa Inman and husband," .
+
+<http://d.opencalais.com/conf/pershash-1/8b9477fd-b38f-3445-b093-942d386a338a>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.947" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/8b9477fd-b38f-3445-b093-942d386a338a> .
+
+<http://d.opencalais.com/conf/pershash-1/9519a6ee-f045-3ac4-8b52-d1305403bc3a>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/9519a6ee-f045-3ac4-8b52-d1305403bc3a> .
+
+<http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee>
+        a                    <http://s.opencalais.com/1/type/em/e/IndustryTerm> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Funeral services" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Relevance/3>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Relevance/26>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/e5bf422c-376f-3490-abea-01844195cb52> .
+
+<http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oklahoma" .
+
+<http://d.opencalais.com/genericHasher-1/6efc24c8-ed18-3e6b-ad90-090d256f2add>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Texas" ;
+        c:person             <http://d.opencalais.com/pershash-1/5cb0f602-7113-3ad9-84bd-1716280baae4> .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/65>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[husband, Brandon, of St. Joseph, Missouri, and ]Debbie Hefner[ of Pensacola, Flordia; four grandchildren, Kade]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "Debbie Hefner" ;
+        c:length     "13" ;
+        c:offset     "1553" ;
+        c:prefix     "husband, Brandon, of St. Joseph, Missouri, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9407fd8a-af1c-350d-9dc0-4cc4e35e8795> ;
+        c:suffix     " of Pensacola, Flordia; four grandchildren, Kade" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/44>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ She lived in Waynoka where she worked at the ]Waynoka[ Nursing Home, Share Convalescent Home, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "Waynoka" ;
+        c:length     "7" ;
+        c:offset     "948" ;
+        c:prefix     " She lived in Waynoka where she worked at the " ;
+        c:subject    <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:suffix     " Nursing Home, Share Convalescent Home, and" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/23>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Gay (Russell) Hefner, was born April 3, 1957, at ]Amarillo[, Texas, and passed away December 7, 2013, at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "Amarillo" ;
+        c:length     "8" ;
+        c:offset     "463" ;
+        c:prefix     " Gay (Russell) Hefner, was born April 3, 1957, at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0a09ae8f-0456-38fc-b965-ff815c60f9d3> ;
+        c:suffix     ", Texas, and passed away December 7, 2013, at" .
+
+<http://d.opencalais.com/pershash-1/50d4e356-eec2-3c96-89cc-84959e70bf44>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "David Kauth" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "David" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Kauth" ;
+        c:name               "David Kauth" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Relevance/34>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a21a69b3-e9dd-341e-9fee-da93c550c744> .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/1>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ of Alva; one daughter, Alyssa Inman and husband, ]Josh[, of Waynoka; one brother, Rick Allen Hefner of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "Josh" ;
+        c:length     "4" ;
+        c:offset     "1403" ;
+        c:prefix     " of Alva; one daughter, Alyssa Inman and husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/cac442b3-9d2c-3bd5-ae83-ef9c3ad455be> ;
+        c:suffix     ", of Waynoka; one brother, Rick Allen Hefner of" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Relevance/13>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/50d4e356-eec2-3c96-89cc-84959e70bf44> .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/73>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ She married David Kauth and had two children, ]Alyssa[ and Noah.  She later married Barry Mason and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "Alyssa" ;
+        c:length     "6" ;
+        c:offset     "728" ;
+        c:prefix     " She married David Kauth and had two children, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/1741ad50-8a12-332e-a22d-5fc6356d6c27> ;
+        c:suffix     " and Noah.  She later married Barry Mason and" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/52>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Kade and Xhalin Flores of Waynoka and Beau and ]Paisley Inman[ of Waynoka; other relatives and friends.   ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "Paisley Inman" ;
+        c:length     "13" ;
+        c:offset     "1657" ;
+        c:prefix     "Kade and Xhalin Flores of Waynoka and Beau and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/a5cdeaab-d472-37ca-bc5a-44db8bd70656> ;
+        c:suffix     " of Waynoka; other relatives and friends.   " .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/31>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Waynoka Schools and later obtained her GED and ]her[ Licensed Practical Nurse Certification.  She]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "637" ;
+        c:prefix     "Waynoka Schools and later obtained her GED and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/84c54d1d-70db-3890-9654-e48870589895> ;
+        c:suffix     " Licensed Practical Nurse Certification.  She" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/10>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Home, and currently at the  Cherokee Manor.    \n]She[ attended the Morning Star Baptist Church and she]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "1037" ;
+        c:prefix     "Home, and currently at the  Cherokee Manor.    \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/85d2970b-526f-31e7-a008-f995d42d740d> ;
+        c:suffix     " attended the Morning Star Baptist Church and she" .
+
+<http://d.opencalais.com/genericHasher-1/affd9ca6-8bb7-321c-8ad8-7b5e78af7e36>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "St. Joseph" ;
+        c:person             <http://d.opencalais.com/pershash-1/17197313-5b8b-30a1-9075-2bb5ea3bc071> .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/meta>
+        a                 <http://s.opencalais.com/1/type/sys/DocInfoMeta> ;
+        c:contentType     "text/raw" ;
+        c:docId           <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:language        "English" ;
+        c:processingVer   "AllMetadata" ;
+        c:serverVersion   "OneCalais_8.3-RELEASE:364" ;
+        c:signature       "digestalg-1|XgWLdCxydZYehNuN9fihIGrwHzc=|kX0zqbtp0HAnI1xowraPo2GKVZVk8tNKMxyrLAZ4ERo6D5Jf89is0w==" ;
+        c:stagsVer        "OneCalais_8.3-RELEASE-b11-2015-03-25_18:29:00" ;
+        c:submissionDate  "2015-05-26 17:18:45.232" ;
+        c:submitterCode   "0ca6a864-5659-789d-5f32-f365f695e757" .
+
+<http://d.opencalais.com/conf/comphash-1/e6417933-98e8-365f-8f80-b92f05707205>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.861" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:resolution          "0.05522651" ;
+        c:statisticalfeature  "0.929" ;
+        c:subject             <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/e9e27c26-4013-8712-a5f0-97dcdc412c26>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:latitude            "35.5607802899" ;
+        c:longitude           "-96.8460570462" ;
+        c:name                "Oklahoma,United States" ;
+        c:permid              "100229" ;
+        c:rcscode             "G:9H" ;
+        c:shortname           "Oklahoma" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Relevance/21>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b8620f48-da64-3b29-b094-f0b9edcda36f> .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/9>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Seiling, Oklahoma.  She lived in Waynoka where ]she[ worked at the Waynoka Nursing Home, Share]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "930" ;
+        c:prefix     "Seiling, Oklahoma.  She lived in Waynoka where " ;
+        c:subject    <http://d.opencalais.com/pershash-1/85d2970b-526f-31e7-a008-f995d42d740d> ;
+        c:suffix     " worked at the Waynoka Nursing Home, Share" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/81>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Manor.    \nShe attended the Morning Star ]Baptist Church[ and she loved being a nurse and was dedicated to]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "Baptist Church" ;
+        c:length     "14" ;
+        c:offset     "1067" ;
+        c:prefix     "Manor.    \nShe attended the Morning Star " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a21a69b3-e9dd-341e-9fee-da93c550c744> ;
+        c:suffix     " and she loved being a nurse and was dedicated to" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/60>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[   \nBecky Gay Sharp, daughter of the late ]Richard Allen[ and Gurly Gay (Russell) Hefner, was born April]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "Richard Allen" ;
+        c:length     "13" ;
+        c:offset     "390" ;
+        c:prefix     "   \nBecky Gay Sharp, daughter of the late " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f87b63c4-df10-33d7-8879-b1a2612709e3> ;
+        c:suffix     " and Gurly Gay (Russell) Hefner, was born April" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/39>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Shaw officiating.  Interment will be in the ]Waynoka[ Municipal Cemetery under the direction of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "Waynoka" ;
+        c:length     "7" ;
+        c:offset     "175" ;
+        c:prefix     "Shaw officiating.  Interment will be in the " ;
+        c:subject    <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:suffix     " Municipal Cemetery under the direction of" .
+
+<http://d.opencalais.com/genericHasher-1/ee17aa75-cc16-39ef-85b9-b8f97a8dfad1>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:company            <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:forenduserdisplay  "true" ;
+        c:person             <http://d.opencalais.com/pershash-1/cac442b3-9d2c-3bd5-ae83-ef9c3ad455be> ;
+        c:status             "current" .
+
+<http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3/Instance/18>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Jerri Dee Fair Neal and husband, Brandon, of ]St. Joseph[, Missouri, and Debbie Hefner of Pensacola,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6470b2eb-ccfd-354a-8dd3-c093d8e4baa3> ;
+        c:exact      "St. Joseph" ;
+        c:length     "10" ;
+        c:offset     "1527" ;
+        c:prefix     "Jerri Dee Fair Neal and husband, Brandon, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/d18ca3f2-30c5-30c8-80c2-bd324f192dc2> ;
+        c:suffix     ", Missouri, and Debbie Hefner of Pensacola," .
+
+<http://d.opencalais.com/pershash-1/17197313-5b8b-30a1-9075-2bb5ea3bc071>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Brandon" ;
+        c:confidencelevel    "0.981" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Brandon" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .

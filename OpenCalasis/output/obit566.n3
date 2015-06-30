@@ -1,0 +1,2277 @@
+#Relations: PersonCareer, PersonEducation, PersonLocation, PersonRelation
+#City: Alva, Birmingham, Oklahoma City, Ponca City, Waynoka
+#Company: Wentworth Mortuary LLC
+#Facility: Carmen City Cemetery
+#IndustryTerm: Funeral services
+#Organization: Helena Church of Christ, Twin Oaks Grade School, Waynoka High School
+#Person: Andrew Shelton, Angela Shelton, Audra Qualls, Bryan Curry, Chris, Christin Curry, David Curry, Emma Curry, Ezra Shelton, Galena, Garry Curry, Glenda Curry, Glenda Maxine (Camp) Curry, Harvey Curry, Helena Church, Homer James, Ira Leroy Curry, James Curry, Kellie, Leslie, Linda Shepard, Malissa Curry, Matthew Curry, Mike, Pamela Magee, Rae Lynn McCullough, Roger Curry, Ron, Ryan, Shaena, Steve, Valerie Curry, Verda Lee Haltom, William Curry
+#ProvinceOrState: Alabama, Florida, Oklahoma
+@prefix c:     <http://s.opencalais.com/1/pred/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/65>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in Alva, Oklahoma. \t She was a member of the ]Helena Church of Christ[. Glenda loved spending time with her family and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Helena Church of Christ" ;
+        c:length     "23" ;
+        c:offset     "911" ;
+        c:prefix     "in Alva, Oklahoma. \t She was a member of the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/5c3eef2f-9ed4-32cb-9d4c-a9dcfcd31a1e> ;
+        c:suffix     ". Glenda loved spending time with her family and" .
+
+<http://d.opencalais.com/conf/comphash-1/a8ee0a81-b629-368a-b237-71a89306beec>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.558" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.788" ;
+        c:subject             <http://d.opencalais.com/comphash-1/a8ee0a81-b629-368a-b237-71a89306beec> .
+
+<http://d.opencalais.com/conf/pershash-1/4d0af67b-95de-3c56-bb36-579acf392246>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.993" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.995" ;
+        c:subject             <http://d.opencalais.com/pershash-1/4d0af67b-95de-3c56-bb36-579acf392246> .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/44>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[12, 1936, she was united in marriage to ]Ira Leroy Curry[ at Alva, Oklahoma.  To this union five children]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Ira Leroy Curry" ;
+        c:length     "15" ;
+        c:offset     "616" ;
+        c:prefix     "12, 1936, she was united in marriage to " ;
+        c:subject    <http://d.opencalais.com/pershash-1/35359339-5455-3b37-b3ac-24cb5d684474> ;
+        c:suffix     " at Alva, Oklahoma.  To this union five children" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/23>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Harvey Curry and wife, Leslie, of Carmen, and ]Garry Curry[ of Alva; two daughters, Linda Shepard and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Garry Curry" ;
+        c:length     "11" ;
+        c:offset     "1295" ;
+        c:prefix     "Harvey Curry and wife, Leslie, of Carmen, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/12811028-d95a-3d27-9abb-5c2905ef306c> ;
+        c:suffix     " of Alva; two daughters, Linda Shepard and" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Relevance/42>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b5bf3113-97ac-319c-a20d-308c716c8d7b> .
+
+<http://d.opencalais.com/genericHasher-1/09c099e0-c861-3ae1-8f5d-7b53e4904f4a>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Waynoka" ;
+        c:person             <http://d.opencalais.com/pershash-1/fdd1e15e-ef5b-3193-87ff-3c8e1e5ce24e> .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Relevance/21>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/282c8b2c-b763-3648-9407-53e58373ce95> .
+
+<http://d.opencalais.com/conf/pershash-1/c8cce68c-2ff2-3886-9710-024766681f9c>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.988" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.99" ;
+        c:subject             <http://d.opencalais.com/pershash-1/c8cce68c-2ff2-3886-9710-024766681f9c> .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/2>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Linda, and Irala.  They made their home at ]Galena[ before moving to the Carmen area in 1949. Glenda]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Galena" ;
+        c:length     "6" ;
+        c:offset     "756" ;
+        c:prefix     "Linda, and Irala.  They made their home at " ;
+        c:subject    <http://d.opencalais.com/pershash-1/82ee2b07-77d6-364e-98a5-1b2cddc1372d> ;
+        c:suffix     " before moving to the Carmen area in 1949. Glenda" .
+
+<http://d.opencalais.com/pershash-1/582c26f8-ea11-34d0-9505-a1ce62db4232>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Chris" ;
+        c:confidencelevel    "0.965" ;
+        c:firstname          "Chris" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Chris" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/lid/DefaultLangId>
+        a                    <http://s.opencalais.com/1/type/lid/DefaultLangId> ;
+        c:docId              <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:forenduserdisplay  "false" ;
+        c:lang               <http://d.opencalais.com/lid/DefaultLangId/English> ;
+        c:permid             "505062" .
+
+<http://d.opencalais.com/pershash-1/356836b0-a96a-3ab5-94b7-401bcd13f911>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Andrew Shelton" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Andrew" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Shelton" ;
+        c:name               "Andrew Shelton" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/73>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and passed away March 8, 2010, at Alva, ]Oklahoma[, at the age of 92 years, 10 months, and 22 days.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "423" ;
+        c:prefix     "and passed away March 8, 2010, at Alva, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", at the age of 92 years, 10 months, and 22 days." .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Relevance/2>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/82ee2b07-77d6-364e-98a5-1b2cddc1372d> .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/52>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ and Christin Curry of Carmen, Andrew Shelton and ]Ezra Shelton[ of Ponca City; other relatives and friends. \t]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Ezra Shelton" ;
+        c:length     "12" ;
+        c:offset     "2025" ;
+        c:prefix     " and Christin Curry of Carmen, Andrew Shelton and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/97fc8e81-c4f0-3dc0-ada1-a09f42a34cb5> ;
+        c:suffix     " of Ponca City; other relatives and friends. \t" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/31>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Wentworth Mortuary, LLC, of Carmen. \t ]Glenda Maxine (Camp) Curry[, daughter of the late Homer James and Ada]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Glenda Maxine (Camp) Curry" ;
+        c:length     "26" ;
+        c:offset     "252" ;
+        c:prefix     "of Wentworth Mortuary, LLC, of Carmen. \t " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b4d843ac-f7f9-3c38-8b5b-bb5066bb0e86> ;
+        c:suffix     ", daughter of the late Homer James and Ada" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/10>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[great grandchildren, Bryan Curry of Birmingham, ]Alabama[, Matthew Curry and Alex Curry of Waynoka, Emma]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Alabama" ;
+        c:length     "7" ;
+        c:offset     "1915" ;
+        c:prefix     "great grandchildren, Bryan Curry of Birmingham, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/873dd82e-0874-3bb9-955e-dc0600362d72> ;
+        c:suffix     ", Matthew Curry and Alex Curry of Waynoka, Emma" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/f6ce3662-5fe9-83fa-3a6d-8c65e2714094>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:latitude            "36.5822" ;
+        c:longitude           "-98.8794" ;
+        c:name                "Waynoka,Oklahoma,United States" ;
+        c:shortname           "Waynoka" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/5cdb0ca2-a978-3b12-a2ae-6ff11510810c> .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Relevance/29>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/81>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ McCullough and husband, Mike, of Tarpon Springs, ]Florida[, Marenda Eslinger and husband, James, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Florida" ;
+        c:length     "7" ;
+        c:offset     "1654" ;
+        c:prefix     " McCullough and husband, Mike, of Tarpon Springs, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b5bf3113-97ac-319c-a20d-308c716c8d7b> ;
+        c:suffix     ", Marenda Eslinger and husband, James, of" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/60>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[are nine grandchildren, William Curry and wife, ]Shaena[, Roger Curry, and David Curry and wife, Kellie,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Shaena" ;
+        c:length     "6" ;
+        c:offset     "1526" ;
+        c:prefix     "are nine grandchildren, William Curry and wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/7fa3a6f7-83f4-3cbc-aba0-1bb05c049572> ;
+        c:suffix     ", Roger Curry, and David Curry and wife, Kellie," .
+
+<http://d.opencalais.com/conf/pershash-1/7fa3a6f7-83f4-3cbc-aba0-1bb05c049572>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.769" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/7fa3a6f7-83f4-3cbc-aba0-1bb05c049572> .
+
+<http://d.opencalais.com/genericHasher-1/b8620f48-da64-3b29-b094-f0b9edcda36f>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oklahoma City" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/39>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[with her grandchildren and great grandchildren. ]She[ also enjoyed crocheting and embroidery. \t]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "1042" ;
+        c:prefix     "with her grandchildren and great grandchildren. " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b4d843ac-f7f9-3c38-8b5b-bb5066bb0e86> ;
+        c:suffix     " also enjoyed crocheting and embroidery. \t" .
+
+<http://d.opencalais.com/conf/pershash-1/dc3dc064-0e2e-36dc-9ca8-8b671d21caf5>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.942" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/dc3dc064-0e2e-36dc-9ca8-8b671d21caf5> .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/18>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Ada (Kisner) Camp, was born April 14, 1917, at ]Waynoka[, Oklahoma, and passed away March 8, 2010, at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Waynoka" ;
+        c:length     "7" ;
+        c:offset     "364" ;
+        c:prefix     "Ada (Kisner) Camp, was born April 14, 1917, at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/5cdb0ca2-a978-3b12-a2ae-6ff11510810c> ;
+        c:suffix     ", Oklahoma, and passed away March 8, 2010, at" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Relevance/37>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Relevance/16>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/12811028-d95a-3d27-9abb-5c2905ef306c> .
+
+<http://d.opencalais.com/conf/pershash-1/4476a045-9672-33fc-a29f-6c9e5866177b>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.993" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/4476a045-9672-33fc-a29f-6c9e5866177b> .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/89>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Funeral services for ]Glenda Curry[ will be 10:00 a.m. Saturday, March 13, 2010, at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Glenda Curry" ;
+        c:length     "12" ;
+        c:offset     "21" ;
+        c:prefix     "Funeral services for " ;
+        c:subject    <http://d.opencalais.com/pershash-1/fdd1e15e-ef5b-3193-87ff-3c8e1e5ce24e> ;
+        c:suffix     " will be 10:00 a.m. Saturday, March 13, 2010, at" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/68>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[five children were born: Harvey, Garry, James, ]Linda[, and Irala.  They made their home at Galena]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Linda" ;
+        c:length     "5" ;
+        c:offset     "713" ;
+        c:prefix     "five children were born: Harvey, Garry, James, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/df9ecbf5-03d7-3418-949e-49dfee8769be> ;
+        c:suffix     ", and Irala.  They made their home at Galena" .
+
+<http://d.opencalais.com/pershash-1/46f52c7b-a72e-379b-8e9c-f3a227ad5d29>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "William Curry" ;
+        c:confidencelevel    "0.99" ;
+        c:firstname          "William" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Curry" ;
+        c:name               "William Curry" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/47>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Eslinger and husband, James, of Oklahoma City, ]Audra Qualls[ and husband, Chris, of Mustang, Valerie Curry of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Audra Qualls" ;
+        c:length     "12" ;
+        c:offset     "1718" ;
+        c:prefix     "Eslinger and husband, James, of Oklahoma City, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/c65301bb-7fe8-328e-9ea1-1eab9961b3a9> ;
+        c:suffix     " and husband, Chris, of Mustang, Valerie Curry of" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/26>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Bolin officiating. Interment will follow in the ]Carmen City Cemetery[ under the direction of Wentworth Mortuary, LLC,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Carmen City Cemetery" ;
+        c:length     "20" ;
+        c:offset     "170" ;
+        c:prefix     "Bolin officiating. Interment will follow in the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/52f06da9-a2d1-3490-aa54-9f8b91e94324> ;
+        c:suffix     " under the direction of Wentworth Mortuary, LLC," .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Relevance/45>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/e87abafc-1577-32e5-a5c1-431092e3890f> .
+
+<http://d.opencalais.com/genericHasher-1/5cdb0ca2-a978-3b12-a2ae-6ff11510810c>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Waynoka" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Relevance/24>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/39d55745-2f08-3117-a324-0c17b7ed3ced> .
+
+<http://d.opencalais.com/conf/pershash-1/5f6bdd61-128b-3946-b744-1f0f73954a66>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.963" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.978" ;
+        c:subject             <http://d.opencalais.com/pershash-1/5f6bdd61-128b-3946-b744-1f0f73954a66> .
+
+<http://d.opencalais.com/genericHasher-1/b5bf3113-97ac-319c-a20d-308c716c8d7b>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Florida" .
+
+<http://d.opencalais.com/pershash-1/beec196b-9b13-363b-8e99-728d67628e99>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Matthew Curry" ;
+        c:confidencelevel    "0.98" ;
+        c:firstname          "Matthew" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Curry" ;
+        c:name               "Matthew Curry" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/pershash-1/1c0ce821-fb81-37dc-84d3-d762a44960dc>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "James Curry" ;
+        c:confidencelevel    "0.999" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "James Curry" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/5>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Vinita. \t Also surviving are nine grandchildren, ]William Curry[ and wife, Shaena, Roger Curry, and David Curry]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "William Curry" ;
+        c:length     "13" ;
+        c:offset     "1502" ;
+        c:prefix     " Vinita. \t Also surviving are nine grandchildren, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/46f52c7b-a72e-379b-8e9c-f3a227ad5d29> ;
+        c:suffix     " and wife, Shaena, Roger Curry, and David Curry" .
+
+<http://d.opencalais.com/pershash-1/e87abafc-1577-32e5-a5c1-431092e3890f>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Valerie Curry" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Valerie" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Curry" ;
+        c:name               "Valerie Curry" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/pershash-1/35359339-5455-3b37-b3ac-24cb5d684474>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Ira Leroy Curry" ;
+        c:confidencelevel    "0.997" ;
+        c:firstname          "Ira" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Curry" ;
+        c:middlename         "Leroy" ;
+        c:name               "Ira Leroy Curry" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/873dd82e-0874-3bb9-955e-dc0600362d72>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Alabama" .
+
+<http://d.opencalais.com/conf/pershash-1/b4d843ac-f7f9-3c38-8b5b-bb5066bb0e86>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.994" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.996" ;
+        c:subject             <http://d.opencalais.com/pershash-1/b4d843ac-f7f9-3c38-8b5b-bb5066bb0e86> .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/76>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ To this union five children were born: ]Harvey[, Garry, James, Linda, and Irala.  They made]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Harvey" ;
+        c:length     "6" ;
+        c:offset     "691" ;
+        c:prefix     " To this union five children were born: " ;
+        c:subject    <http://d.opencalais.com/pershash-1/12995e82-16ad-3da2-b8e2-c97ccd9878a2> ;
+        c:suffix     ", Garry, James, Linda, and Irala.  They made" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Relevance/5>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/46f52c7b-a72e-379b-8e9c-f3a227ad5d29> .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/55>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[the past five years at Beadles Nursing Home in ]Alva[, Oklahoma. \t She was a member of the Helena]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "869" ;
+        c:prefix     "the past five years at Beadles Nursing Home in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:suffix     ", Oklahoma. \t She was a member of the Helena" .
+
+<http://d.opencalais.com/pershash-1/82ee2b07-77d6-364e-98a5-1b2cddc1372d>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Galena" ;
+        c:confidencelevel    "0.794" ;
+        c:firstname          "Galena" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Galena" ;
+        c:nationality        "N/A" ;
+        c:persontype         "entertainment" .
+
+<http://d.opencalais.com/conf/pershash-1/c90f826f-8127-386d-8dfb-34666db50347>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/c90f826f-8127-386d-8dfb-34666db50347> .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/34>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Galena before moving to the Carmen area in 1949. ]Glenda[ has lived the past five years at Beadles Nursing]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Glenda" ;
+        c:length     "6" ;
+        c:offset     "805" ;
+        c:prefix     " Galena before moving to the Carmen area in 1949. " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b4d843ac-f7f9-3c38-8b5b-bb5066bb0e86> ;
+        c:suffix     " has lived the past five years at Beadles Nursing" .
+
+<http://d.opencalais.com/pershash-1/12811028-d95a-3d27-9abb-5c2905ef306c>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Garry Curry" ;
+        c:confidencelevel    "0.947" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Garry Curry" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/13>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Springs, Florida, Marenda Eslinger and husband, ]James[, of Oklahoma City, Audra Qualls and husband,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "James" ;
+        c:length     "5" ;
+        c:offset     "1693" ;
+        c:prefix     "Springs, Florida, Marenda Eslinger and husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/1c0ce821-fb81-37dc-84d3-d762a44960dc> ;
+        c:suffix     ", of Oklahoma City, Audra Qualls and husband," .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Relevance/32>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/c118d8d4-36ba-3d4f-9e8c-f70a58ddd909> .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Relevance/11>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/bbb15516-f58e-3582-a0b7-4486dc488696> .
+
+<http://d.opencalais.com/conf/pershash-1/fdd1e15e-ef5b-3193-87ff-3c8e1e5ce24e>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.947" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/fdd1e15e-ef5b-3193-87ff-3c8e1e5ce24e> .
+
+<http://d.opencalais.com/pershash-1/4d0af67b-95de-3c56-bb36-579acf392246>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Malissa Curry" ;
+        c:confidencelevel    "0.993" ;
+        c:firstname          "Malissa" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Curry" ;
+        c:name               "Malissa Curry" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/84>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Alva; two daughters, Linda Shepard and husband, ]Ron[, of Cherokee, and Irala Magee and husband,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Ron" ;
+        c:length     "3" ;
+        c:offset     "1358" ;
+        c:prefix     "Alva; two daughters, Linda Shepard and husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/d4dc8442-0e07-3b53-af91-0bbe861c2fdb> ;
+        c:suffix     ", of Cherokee, and Irala Magee and husband," .
+
+<http://d.opencalais.com/pershash-1/c8cce68c-2ff2-3886-9710-024766681f9c>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Bryan Curry" ;
+        c:confidencelevel    "0.988" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Bryan Curry" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/63>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Shaena, Roger Curry, and David Curry and wife, ]Kellie[, all of Carmen, Rae Lynn McCullough and husband,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Kellie" ;
+        c:length     "6" ;
+        c:offset     "1573" ;
+        c:prefix     "Shaena, Roger Curry, and David Curry and wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/5f990b50-39bf-36c9-8be8-cc93e2fd5291> ;
+        c:suffix     ", all of Carmen, Rae Lynn McCullough and husband," .
+
+<http://d.opencalais.com/genericHasher-1/d072b4db-c1d8-3625-b6dc-26a813929a4a>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Oklahoma City" ;
+        c:person             <http://d.opencalais.com/pershash-1/1c0ce821-fb81-37dc-84d3-d762a44960dc> .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/42>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Alva; seven great grandchildren, Bryan Curry of ]Birmingham[, Alabama, Matthew Curry and Alex Curry of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Birmingham" ;
+        c:length     "10" ;
+        c:offset     "1903" ;
+        c:prefix     "Alva; seven great grandchildren, Bryan Curry of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/282c8b2c-b763-3648-9407-53e58373ce95> ;
+        c:suffix     ", Alabama, Matthew Curry and Alex Curry of" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/21>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Florida, Marenda Eslinger and husband, James, of ]Oklahoma City[, Audra Qualls and husband, Chris, of Mustang,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Oklahoma City" ;
+        c:length     "13" ;
+        c:offset     "1703" ;
+        c:prefix     " Florida, Marenda Eslinger and husband, James, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b8620f48-da64-3b29-b094-f0b9edcda36f> ;
+        c:suffix     ", Audra Qualls and husband, Chris, of Mustang," .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Relevance/40>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/2fd644dc-5d7e-3b5a-9d7c-bd1035aa994d> .
+
+<http://d.opencalais.com/pershash-1/c118d8d4-36ba-3d4f-9e8c-f70a58ddd909>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Homer James" ;
+        c:confidencelevel    "0.925" ;
+        c:firstname          "Homer" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "James" ;
+        c:name               "Homer James" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Relevance/19>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a249dcf3-33d3-34a6-ac4c-5439181e64c9> .
+
+<http://d.opencalais.com/conf/pershash-1/582c26f8-ea11-34d0-9505-a1ce62db4232>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.965" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/582c26f8-ea11-34d0-9505-a1ce62db4232> .
+
+<http://d.opencalais.com/conf/pershash-1/356836b0-a96a-3ab5-94b7-401bcd13f911>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/356836b0-a96a-3ab5-94b7-401bcd13f911> .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/71>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[School and later attended Waynoka High School.  ]On September 12, 1936, she was united in marriage to Ira Leroy Curry[ at Alva, Oklahoma.  To this union five children]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "On September 12, 1936, she was united in marriage to Ira Leroy Curry" ;
+        c:length     "68" ;
+        c:offset     "563" ;
+        c:prefix     "School and later attended Waynoka High School.  " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/fa78bbfa-c2c3-34b9-83dc-386d1a52a22c> ;
+        c:suffix     " at Alva, Oklahoma.  To this union five children" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/50>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Matthew Curry and Alex Curry of Waynoka, ]Emma Curry[ and Christin Curry of Carmen, Andrew Shelton and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Emma Curry" ;
+        c:length     "10" ;
+        c:offset     "1965" ;
+        c:prefix     "Matthew Curry and Alex Curry of Waynoka, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/d6b2a660-1068-3feb-bf44-e8c13b2f86bd> ;
+        c:suffix     " and Christin Curry of Carmen, Andrew Shelton and" .
+
+<http://d.opencalais.com/pershash-1/4e31731d-5349-31b4-ba11-d0d6f38c589c>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Pamela Magee" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Pamela" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Magee" ;
+        c:name               "Pamela Magee" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/a32b238e-e9d7-36a8-ab33-41765605f0de>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Alva" ;
+        c:person             <http://d.opencalais.com/pershash-1/dad3066c-ec3e-3eea-be88-df4a5679ad69> .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/29>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Enid, Angela Shelton and husband, Ryan, of ]Ponca City[, and Pamela Magee of Alva; seven great]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Ponca City" ;
+        c:length     "10" ;
+        c:offset     "1823" ;
+        c:prefix     "of Enid, Angela Shelton and husband, Ryan, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a249dcf3-33d3-34a6-ac4c-5439181e64c9> ;
+        c:suffix     ", and Pamela Magee of Alva; seven great" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Relevance/48>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/pershash-1/fdd1e15e-ef5b-3193-87ff-3c8e1e5ce24e> .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Relevance/27>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/beec196b-9b13-363b-8e99-728d67628e99> .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/SocialTag/2>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Alva" ;
+        c:originalValue      "Alva" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/17f61973-ed95-369b-b381-dec22ce26b2a> .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/8>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Ron, of Cherokee, and Irala Magee and husband, ]Steve[, of Alva; one sister, Verda Lee Haltom of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Steve" ;
+        c:length     "5" ;
+        c:offset     "1405" ;
+        c:prefix     "Ron, of Cherokee, and Irala Magee and husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/dad3066c-ec3e-3eea-be88-df4a5679ad69> ;
+        c:suffix     ", of Alva; one sister, Verda Lee Haltom of" .
+
+<http://d.opencalais.com/pershash-1/2fd644dc-5d7e-3b5a-9d7c-bd1035aa994d>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Helena Church" ;
+        c:confidencelevel    "0.768" ;
+        c:firstname          "Helena" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Church" ;
+        c:name               "Helena Church" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/79>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in Alva, Oklahoma. \t She was a member of the ]Helena Church[ of Christ. Glenda loved spending time with her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Helena Church" ;
+        c:length     "13" ;
+        c:offset     "911" ;
+        c:prefix     "in Alva, Oklahoma. \t She was a member of the " ;
+        c:subject    <http://d.opencalais.com/pershash-1/2fd644dc-5d7e-3b5a-9d7c-bd1035aa994d> ;
+        c:suffix     " of Christ. Glenda loved spending time with her" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Relevance/8>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/44a342a8-9d2c-37a0-8377-68750dd45af0> .
+
+<http://d.opencalais.com/pershash-1/d92ebd41-b766-3cbe-8af1-f0a87ad6b4e3>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Ryan" ;
+        c:confidencelevel    "0.919" ;
+        c:firstname          "Ryan" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Ryan" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/58>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Ryan, of Ponca City, and Pamela Magee of ]Alva[; seven great grandchildren, Bryan Curry of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "1855" ;
+        c:prefix     "Ryan, of Ponca City, and Pamela Magee of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:suffix     "; seven great grandchildren, Bryan Curry of" .
+
+<http://d.opencalais.com/genericHasher-1/1db0ee63-7a43-3024-8531-dd4dbad31b08>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Alva" ;
+        c:person             <http://d.opencalais.com/pershash-1/4e31731d-5349-31b4-ba11-d0d6f38c589c> .
+
+<http://d.opencalais.com/pershash-1/87010168-9616-37e5-a304-736691ec4148>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Verda Lee Haltom" ;
+        c:confidencelevel    "0.994" ;
+        c:firstname          "Verda" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Haltom" ;
+        c:middlename         "Lee" ;
+        c:name               "Verda Lee Haltom" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/37>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Christ. Glenda loved spending time with ]her[ family and especially with her grandchildren and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "968" ;
+        c:prefix     "of Christ. Glenda loved spending time with " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b4d843ac-f7f9-3c38-8b5b-bb5066bb0e86> ;
+        c:suffix     " family and especially with her grandchildren and" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/cat/1>
+        a                    <http://s.opencalais.com/1/type/cat/DocCat> ;
+        c:docId              <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Hospitality_Recreation" ;
+        c:score              "0.575" .
+
+<http://d.opencalais.com/pershash-1/d4dc8442-0e07-3b53-af91-0bbe861c2fdb>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Ron" ;
+        c:confidencelevel    "0.942" ;
+        c:firstname          "Ron" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Ron" ;
+        c:nationality        "N/A" ;
+        c:persontype         "entertainment" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/16>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[]Funeral services[ for Glenda Curry will be 10:00 a.m. Saturday,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Funeral services" ;
+        c:length     "16" ;
+        c:offset     "0" ;
+        c:prefix     "" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee> ;
+        c:suffix     " for Glenda Curry will be 10:00 a.m. Saturday," .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Relevance/35>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/356836b0-a96a-3ab5-94b7-401bcd13f911> .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Relevance/14>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/5cdb0ca2-a978-3b12-a2ae-6ff11510810c> .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/8c0c06e3-21a3-0c87-67ee-6791af27a9ef>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:latitude            "32.9865857394" ;
+        c:longitude           "-86.7415782668" ;
+        c:name                "Alabama,United States" ;
+        c:permid              "100005" ;
+        c:rcscode             "G:9K" ;
+        c:shortname           "Alabama" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/873dd82e-0874-3bb9-955e-dc0600362d72> .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/87>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Birmingham, Alabama, Matthew Curry and Alex ]Curry of Waynoka[, Emma Curry and Christin Curry of Carmen, Andrew]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Curry of Waynoka" ;
+        c:length     "16" ;
+        c:offset     "1947" ;
+        c:prefix     "of Birmingham, Alabama, Matthew Curry and Alex " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/09c099e0-c861-3ae1-8f5d-7b53e4904f4a> ;
+        c:suffix     ", Emma Curry and Christin Curry of Carmen, Andrew" .
+
+<http://d.opencalais.com/pershash-1/12995e82-16ad-3da2-b8e2-c97ccd9878a2>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Harvey Curry" ;
+        c:confidencelevel    "0.947" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Harvey Curry" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/46f52c7b-a72e-379b-8e9c-f3a227ad5d29>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.99" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/46f52c7b-a72e-379b-8e9c-f3a227ad5d29> .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/66>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[home to the Carmen First Responders or the ]Helena Church of Christ[. \n\t\t\t]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Helena Church of Christ" ;
+        c:length     "23" ;
+        c:offset     "2182" ;
+        c:prefix     "home to the Carmen First Responders or the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/5c3eef2f-9ed4-32cb-9d4c-a9dcfcd31a1e> ;
+        c:suffix     ". \n\t\t\t" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/45>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[embroidery. \t Besides her parents and husband, ]Ira[, she was preceded in death by one son, James]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Ira" ;
+        c:length     "3" ;
+        c:offset     "1121" ;
+        c:prefix     "embroidery. \t Besides her parents and husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/35359339-5455-3b37-b3ac-24cb5d684474> ;
+        c:suffix     ", she was preceded in death by one son, James" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/24>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Springs, Florida, Marenda Eslinger and husband, ]James, of Oklahoma City[, Audra Qualls and husband, Chris, of Mustang,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "James, of Oklahoma City" ;
+        c:length     "23" ;
+        c:offset     "1693" ;
+        c:prefix     "Springs, Florida, Marenda Eslinger and husband, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/d072b4db-c1d8-3625-b6dc-26a813929a4a> ;
+        c:suffix     ", Audra Qualls and husband, Chris, of Mustang," .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Relevance/43>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/4e31731d-5349-31b4-ba11-d0d6f38c589c> .
+
+<http://d.opencalais.com/pershash-1/d6b2a660-1068-3feb-bf44-e8c13b2f86bd>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Emma Curry" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Emma" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Curry" ;
+        c:name               "Emma Curry" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Relevance/22>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/35359339-5455-3b37-b3ac-24cb5d684474> .
+
+<http://d.opencalais.com/conf/pershash-1/beec196b-9b13-363b-8e99-728d67628e99>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.98" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/beec196b-9b13-363b-8e99-728d67628e99> .
+
+<http://d.opencalais.com/conf/pershash-1/1c0ce821-fb81-37dc-84d3-d762a44960dc>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.999" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.998" ;
+        c:subject             <http://d.opencalais.com/pershash-1/1c0ce821-fb81-37dc-84d3-d762a44960dc> .
+
+<http://d.opencalais.com/genericHasher-1/bbb15516-f58e-3582-a0b7-4486dc488696>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Twin Oaks Grade School" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/35359339-5455-3b37-b3ac-24cb5d684474>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.997" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.998" ;
+        c:subject             <http://d.opencalais.com/pershash-1/35359339-5455-3b37-b3ac-24cb5d684474> .
+
+<http://d.opencalais.com/conf/pershash-1/e87abafc-1577-32e5-a5c1-431092e3890f>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/e87abafc-1577-32e5-a5c1-431092e3890f> .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/3>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[grandchildren, William Curry and wife, Shaena, ]Roger Curry[, and David Curry and wife, Kellie, all of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Roger Curry" ;
+        c:length     "11" ;
+        c:offset     "1534" ;
+        c:prefix     "grandchildren, William Curry and wife, Shaena, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/7262eee3-2917-3264-841b-5abacbad6437> ;
+        c:suffix     ", and David Curry and wife, Kellie, all of" .
+
+<http://d.opencalais.com/pershash-1/97fc8e81-c4f0-3dc0-ada1-a09f42a34cb5>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Ezra Shelton" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Ezra" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Shelton" ;
+        c:name               "Ezra Shelton" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/282c8b2c-b763-3648-9407-53e58373ce95>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Birmingham" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/74>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[united in marriage to Ira Leroy Curry at Alva, ]Oklahoma[.  To this union five children were born: Harvey,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "641" ;
+        c:prefix     "united in marriage to Ira Leroy Curry at Alva, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ".  To this union five children were born: Harvey," .
+
+<http://d.opencalais.com/conf/pershash-1/82ee2b07-77d6-364e-98a5-1b2cddc1372d>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.794" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.837" ;
+        c:subject             <http://d.opencalais.com/pershash-1/82ee2b07-77d6-364e-98a5-1b2cddc1372d> .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Relevance/3>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/7262eee3-2917-3264-841b-5abacbad6437> .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/53>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Oklahoma, and passed away March 8, 2010, at ]Alva[, Oklahoma, at the age of 92 years, 10 months,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "417" ;
+        c:prefix     "Oklahoma, and passed away March 8, 2010, at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:suffix     ", Oklahoma, at the age of 92 years, 10 months," .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/32>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[the age of 92 years, 10 months, and 22 days. \t ]Glenda[ attended Twin Oaks Grade School and later]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Glenda" ;
+        c:length     "6" ;
+        c:offset     "483" ;
+        c:prefix     "the age of 92 years, 10 months, and 22 days. \t " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b4d843ac-f7f9-3c38-8b5b-bb5066bb0e86> ;
+        c:suffix     " attended Twin Oaks Grade School and later" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/11>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[union five children were born: Harvey, Garry, ]James[, Linda, and Irala.  They made their home at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "James" ;
+        c:length     "5" ;
+        c:offset     "706" ;
+        c:prefix     "union five children were born: Harvey, Garry, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/1c0ce821-fb81-37dc-84d3-d762a44960dc> ;
+        c:suffix     ", Linda, and Irala.  They made their home at" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Relevance/30>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/c90f826f-8127-386d-8dfb-34666db50347> .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/82>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Curry of Enid, Angela Shelton and husband, ]Ryan, of Ponca City[, and Pamela Magee of Alva; seven great]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Ryan, of Ponca City" ;
+        c:length     "19" ;
+        c:offset     "1814" ;
+        c:prefix     "Curry of Enid, Angela Shelton and husband, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/34310271-69a7-3ba6-9860-02920a56d525> ;
+        c:suffix     ", and Pamela Magee of Alva; seven great" .
+
+<http://d.opencalais.com/genericHasher-1/5c3eef2f-9ed4-32cb-9d4c-a9dcfcd31a1e>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Helena Church of Christ" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/61>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Glenda Maxine (Camp) Curry, daughter of the late ]Homer James[ and Ada (Kisner) Camp, was born April 14, 1917,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Homer James" ;
+        c:length     "11" ;
+        c:offset     "301" ;
+        c:prefix     " Glenda Maxine (Camp) Curry, daughter of the late " ;
+        c:subject    <http://d.opencalais.com/pershash-1/c118d8d4-36ba-3d4f-9e8c-f70a58ddd909> ;
+        c:suffix     " and Ada (Kisner) Camp, was born April 14, 1917," .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/40>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[enjoyed crocheting and embroidery. \t Besides ]her[ parents and husband, Ira, she was preceded in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1096" ;
+        c:prefix     "enjoyed crocheting and embroidery. \t Besides " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b4d843ac-f7f9-3c38-8b5b-bb5066bb0e86> ;
+        c:suffix     " parents and husband, Ira, she was preceded in" .
+
+<http://d.opencalais.com/conf/pershash-1/c118d8d4-36ba-3d4f-9e8c-f70a58ddd909>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.925" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.934" ;
+        c:subject             <http://d.opencalais.com/pershash-1/c118d8d4-36ba-3d4f-9e8c-f70a58ddd909> .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/19>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Alabama, Matthew Curry and Alex Curry of ]Waynoka[, Emma Curry and Christin Curry of Carmen, Andrew]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Waynoka" ;
+        c:length     "7" ;
+        c:offset     "1956" ;
+        c:prefix     "Alabama, Matthew Curry and Alex Curry of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/5cdb0ca2-a978-3b12-a2ae-6ff11510810c> ;
+        c:suffix     ", Emma Curry and Christin Curry of Carmen, Andrew" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Relevance/38>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/12995e82-16ad-3da2-b8e2-c97ccd9878a2> .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4>
+        a                  <http://s.opencalais.com/1/type/sys/DocInfo> ;
+        c:calaisRequestID  "f98e10c9-0d53-7931-14d9-142011812501" ;
+        c:docDate          "2015-05-26 17:25:31.952" ;
+        c:docTitle         "" ;
+        c:document         "Funeral services for Glenda Curry will be 10:00 a.m. Saturday, March 13, 2010, at the Helena Church of Christ with Lindal Bolin officiating. Interment will follow in the Carmen City Cemetery under the direction of Wentworth Mortuary, LLC, of Carmen. \t Glenda Maxine (Camp) Curry, daughter of the late Homer James and Ada (Kisner) Camp, was born April 14, 1917, at Waynoka, Oklahoma, and passed away March 8, 2010, at Alva, Oklahoma, at the age of 92 years, 10 months, and 22 days. \t Glenda attended Twin Oaks Grade School and later attended Waynoka High School.  On September 12, 1936, she was united in marriage to Ira Leroy Curry at Alva, Oklahoma.  To this union five children were born: Harvey, Garry, James, Linda, and Irala.  They made their home at Galena before moving to the Carmen area in 1949. Glenda has lived the past five years at Beadles Nursing Home in Alva, Oklahoma. \t She was a member of the Helena Church of Christ. Glenda loved spending time with her family and especially with her grandchildren and great grandchildren. She also enjoyed crocheting and embroidery. \t Besides her parents and husband, Ira, she was preceded in death by one son, James Curry; and one granddaughter, Malissa Curry. \t Glenda is survived by two sons, Harvey Curry and wife, Leslie, of Carmen, and Garry Curry of Alva; two daughters, Linda Shepard and husband, Ron, of Cherokee, and Irala Magee and husband, Steve, of Alva; one sister, Verda Lee Haltom of Vinita. \t Also surviving are nine grandchildren, William Curry and wife, Shaena, Roger Curry, and David Curry and wife, Kellie, all of Carmen, Rae Lynn McCullough and husband, Mike, of Tarpon Springs, Florida, Marenda Eslinger and husband, James, of Oklahoma City, Audra Qualls and husband, Chris, of Mustang, Valerie Curry of Enid, Angela Shelton and husband, Ryan, of Ponca City, and Pamela Magee of Alva; seven great grandchildren, Bryan Curry of Birmingham, Alabama, Matthew Curry and Alex Curry of Waynoka, Emma Curry and Christin Curry of Carmen, Andrew Shelton and Ezra Shelton of Ponca City; other relatives and friends. \t Memorial contributions may be made through the funeral home to the Carmen First Responders or the Helena Church of Christ. \n\t\t\t" ;
+        c:id               "http://id.opencalais.com/v68PaYWiv9d7y0jwHZp67w" ;
+        c:ontology         "http://163.231.4.65/owlschema/8.3/onecalais.owl.allmetadata.xml" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Relevance/17>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/52f06da9-a2d1-3490-aa54-9f8b91e94324> .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/ead8a759-31d2-262c-540f-e93fc56b22eb>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:latitude            "28.0908069444" ;
+        c:longitude           "-81.960407533" ;
+        c:name                "Florida,United States" ;
+        c:permid              "100104" ;
+        c:rcscode             "G:4X" ;
+        c:shortname           "Florida" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/b5bf3113-97ac-319c-a20d-308c716c8d7b> .
+
+<http://d.opencalais.com/genericHasher-1/3111ee00-e482-323b-bf6e-4f9412ab3baf>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Alva" ;
+        c:person             <http://d.opencalais.com/pershash-1/12811028-d95a-3d27-9abb-5c2905ef306c> .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/90>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Birmingham, Alabama, Matthew Curry and Alex ]Curry[ of Waynoka, Emma Curry and Christin Curry of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Curry" ;
+        c:length     "5" ;
+        c:offset     "1947" ;
+        c:prefix     "of Birmingham, Alabama, Matthew Curry and Alex " ;
+        c:subject    <http://d.opencalais.com/pershash-1/fdd1e15e-ef5b-3193-87ff-3c8e1e5ce24e> ;
+        c:suffix     " of Waynoka, Emma Curry and Christin Curry of" .
+
+<http://d.opencalais.com/pershash-1/df9ecbf5-03d7-3418-949e-49dfee8769be>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Linda Shepard" ;
+        c:confidencelevel    "0.947" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Linda Shepard" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/69>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Carmen, and Garry Curry of Alva; two daughters, ]Linda Shepard[ and husband, Ron, of Cherokee, and Irala Magee]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Linda Shepard" ;
+        c:length     "13" ;
+        c:offset     "1331" ;
+        c:prefix     "Carmen, and Garry Curry of Alva; two daughters, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/df9ecbf5-03d7-3418-949e-49dfee8769be> ;
+        c:suffix     " and husband, Ron, of Cherokee, and Irala Magee" .
+
+<http://d.opencalais.com/conf/pershash-1/4e31731d-5349-31b4-ba11-d0d6f38c589c>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/4e31731d-5349-31b4-ba11-d0d6f38c589c> .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/48>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[all of Carmen, Rae Lynn McCullough and husband, ]Mike[, of Tarpon Springs, Florida, Marenda Eslinger]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Mike" ;
+        c:length     "4" ;
+        c:offset     "1629" ;
+        c:prefix     "all of Carmen, Rae Lynn McCullough and husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/39d55745-2f08-3117-a324-0c17b7ed3ced> ;
+        c:suffix     ", of Tarpon Springs, Florida, Marenda Eslinger" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/27>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Ron, of Cherokee, and Irala Magee and husband, ]Steve, of Alva[; one sister, Verda Lee Haltom of Vinita. \t Also]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Steve, of Alva" ;
+        c:length     "14" ;
+        c:offset     "1405" ;
+        c:prefix     "Ron, of Cherokee, and Irala Magee and husband, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a32b238e-e9d7-36a8-ab33-41765605f0de> ;
+        c:suffix     "; one sister, Verda Lee Haltom of Vinita. \t Also" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Relevance/46>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/87010168-9616-37e5-a304-736691ec4148> .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Relevance/25>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/d92ebd41-b766-3cbe-8af1-f0a87ad6b4e3> .
+
+<http://d.opencalais.com/pershash-1/7262eee3-2917-3264-841b-5abacbad6437>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Roger Curry" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Roger" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Curry" ;
+        c:name               "Roger Curry" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/6>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ and Christin Curry of Carmen, Andrew Shelton and ]Ezra Shelton of Ponca City[; other relatives and friends. \t Memorial]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Ezra Shelton of Ponca City" ;
+        c:length     "26" ;
+        c:offset     "2025" ;
+        c:prefix     " and Christin Curry of Carmen, Andrew Shelton and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/cdadc13a-a1f4-3bae-9b0b-f183a4eed747> ;
+        c:suffix     "; other relatives and friends. \t Memorial" .
+
+<http://d.opencalais.com/conf/pershash-1/2fd644dc-5d7e-3b5a-9d7c-bd1035aa994d>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.768" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.858" ;
+        c:subject             <http://d.opencalais.com/pershash-1/2fd644dc-5d7e-3b5a-9d7c-bd1035aa994d> .
+
+<http://d.opencalais.com/genericHasher-1/a249dcf3-33d3-34a6-ac4c-5439181e64c9>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Ponca City" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/77>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Malissa Curry. \t Glenda is survived by two sons, ]Harvey Curry[ and wife, Leslie, of Carmen, and Garry Curry of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Harvey Curry" ;
+        c:length     "12" ;
+        c:offset     "1249" ;
+        c:prefix     " Malissa Curry. \t Glenda is survived by two sons, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/12995e82-16ad-3da2-b8e2-c97ccd9878a2> ;
+        c:suffix     " and wife, Leslie, of Carmen, and Garry Curry of" .
+
+<http://d.opencalais.com/pershash-1/5f990b50-39bf-36c9-8be8-cc93e2fd5291>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Kellie" ;
+        c:confidencelevel    "0.769" ;
+        c:firstname          "Kellie" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Kellie" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/d92ebd41-b766-3cbe-8af1-f0a87ad6b4e3>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.919" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/d92ebd41-b766-3cbe-8af1-f0a87ad6b4e3> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/4c347b4e-0a7a-dd81-fa7b-2f2a402dcc28>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Alabama" ;
+        c:docId               <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:latitude            "33.5206" ;
+        c:longitude           "-86.8025" ;
+        c:name                "Birmingham,Alabama,United States" ;
+        c:shortname           "Birmingham" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/282c8b2c-b763-3648-9407-53e58373ce95> .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Relevance/6>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/c8cce68c-2ff2-3886-9710-024766681f9c> .
+
+<http://d.opencalais.com/pershash-1/c65301bb-7fe8-328e-9ea1-1eab9961b3a9>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Audra Qualls" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Audra" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Qualls" ;
+        c:name               "Audra Qualls" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/56>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and wife, Leslie, of Carmen, and Garry Curry of ]Alva[; two daughters, Linda Shepard and husband, Ron,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "1310" ;
+        c:prefix     "and wife, Leslie, of Carmen, and Garry Curry of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:suffix     "; two daughters, Linda Shepard and husband, Ron," .
+
+<http://d.opencalais.com/conf/pershash-1/d4dc8442-0e07-3b53-af91-0bbe861c2fdb>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.942" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/d4dc8442-0e07-3b53-af91-0bbe861c2fdb> .
+
+<http://d.opencalais.com/conf/pershash-1/87010168-9616-37e5-a304-736691ec4148>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.994" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.996" ;
+        c:subject             <http://d.opencalais.com/pershash-1/87010168-9616-37e5-a304-736691ec4148> .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/35>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[at Beadles Nursing Home in Alva, Oklahoma. \t ]She[ was a member of the Helena Church of Christ.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "887" ;
+        c:prefix     "at Beadles Nursing Home in Alva, Oklahoma. \t " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b4d843ac-f7f9-3c38-8b5b-bb5066bb0e86> ;
+        c:suffix     " was a member of the Helena Church of Christ." .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/14>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[the age of 92 years, 10 months, and 22 days. \t ]Glenda attended Twin Oaks Grade School[ and later attended Waynoka High School.  On]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Glenda attended Twin Oaks Grade School" ;
+        c:length     "38" ;
+        c:offset     "483" ;
+        c:prefix     "the age of 92 years, 10 months, and 22 days. \t " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/58326d09-f105-35ea-ae83-959ed973c33a> ;
+        c:suffix     " and later attended Waynoka High School.  On" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Relevance/33>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/5f990b50-39bf-36c9-8be8-cc93e2fd5291> .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Relevance/12>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/3638449d-0344-4b40-4c23-240459ab05f8>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:latitude            "36.7069" ;
+        c:longitude           "-97.0853" ;
+        c:name                "Ponca City,Oklahoma,United States" ;
+        c:shortname           "Ponca City" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/a249dcf3-33d3-34a6-ac4c-5439181e64c9> .
+
+<http://d.opencalais.com/pershash-1/9a665878-a3d1-3769-ad64-1c9c75ff34c7>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Angela Shelton" ;
+        c:confidencelevel    "0.98" ;
+        c:firstname          "Angela" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Shelton" ;
+        c:name               "Angela Shelton" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/12995e82-16ad-3da2-b8e2-c97ccd9878a2>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.947" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/12995e82-16ad-3da2-b8e2-c97ccd9878a2> .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/85>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Audra Qualls and husband, Chris, of Mustang, ]Valerie Curry[ of Enid, Angela Shelton and husband, Ryan, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Valerie Curry" ;
+        c:length     "13" ;
+        c:offset     "1763" ;
+        c:prefix     "Audra Qualls and husband, Chris, of Mustang, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/e87abafc-1577-32e5-a5c1-431092e3890f> ;
+        c:suffix     " of Enid, Angela Shelton and husband, Ryan, of" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/64>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[be 10:00 a.m. Saturday, March 13, 2010, at the ]Helena Church of Christ[ with Lindal Bolin officiating. Interment will]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Helena Church of Christ" ;
+        c:length     "23" ;
+        c:offset     "86" ;
+        c:prefix     "be 10:00 a.m. Saturday, March 13, 2010, at the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/5c3eef2f-9ed4-32cb-9d4c-a9dcfcd31a1e> ;
+        c:suffix     " with Lindal Bolin officiating. Interment will" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/43>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Harvey Curry and wife, Leslie, of Carmen, and ]Garry Curry of Alva[; two daughters, Linda Shepard and husband, Ron,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Garry Curry of Alva" ;
+        c:length     "19" ;
+        c:offset     "1295" ;
+        c:prefix     "Harvey Curry and wife, Leslie, of Carmen, and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3111ee00-e482-323b-bf6e-4f9412ab3baf> ;
+        c:suffix     "; two daughters, Linda Shepard and husband, Ron," .
+
+<http://d.opencalais.com/conf/pershash-1/d6b2a660-1068-3feb-bf44-e8c13b2f86bd>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/d6b2a660-1068-3feb-bf44-e8c13b2f86bd> .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/22>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ To this union five children were born: Harvey, ]Garry[, James, Linda, and Irala.  They made their home]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Garry" ;
+        c:length     "5" ;
+        c:offset     "699" ;
+        c:prefix     " To this union five children were born: Harvey, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/12811028-d95a-3d27-9abb-5c2905ef306c> ;
+        c:suffix     ", James, Linda, and Irala.  They made their home" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Relevance/41>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/dc3dc064-0e2e-36dc-9ca8-8b671d21caf5> .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Relevance/20>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/b4d843ac-f7f9-3c38-8b5b-bb5066bb0e86> .
+
+<http://d.opencalais.com/conf/pershash-1/97fc8e81-c4f0-3dc0-ada1-a09f42a34cb5>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/97fc8e81-c4f0-3dc0-ada1-a09f42a34cb5> .
+
+<http://d.opencalais.com/genericHasher-1/cdadc13a-a1f4-3bae-9b0b-f183a4eed747>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Ponca City" ;
+        c:person             <http://d.opencalais.com/pershash-1/97fc8e81-c4f0-3dc0-ada1-a09f42a34cb5> .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/1>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[by one son, James Curry; and one granddaughter, ]Malissa Curry[. \t Glenda is survived by two sons, Harvey Curry]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Malissa Curry" ;
+        c:length     "13" ;
+        c:offset     "1200" ;
+        c:prefix     "by one son, James Curry; and one granddaughter, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/4d0af67b-95de-3c56-bb36-579acf392246> ;
+        c:suffix     ". \t Glenda is survived by two sons, Harvey Curry" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/72>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Camp, was born April 14, 1917, at Waynoka, ]Oklahoma[, and passed away March 8, 2010, at Alva,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "373" ;
+        c:prefix     "Camp, was born April 14, 1917, at Waynoka, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", and passed away March 8, 2010, at Alva," .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Relevance/1>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/4d0af67b-95de-3c56-bb36-579acf392246> .
+
+<http://d.opencalais.com/genericHasher-1/58326d09-f105-35ea-ae83-959ed973c33a>
+        a                       <http://s.opencalais.com/1/type/em/r/PersonEducation> ;
+        c:forenduserdisplay     "false" ;
+        c:person                <http://d.opencalais.com/pershash-1/b4d843ac-f7f9-3c38-8b5b-bb5066bb0e86> ;
+        c:schoolororganization  "Twin Oaks Grade School" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/51>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Bryan Curry of Birmingham, Alabama, ]Matthew Curry[ and Alex Curry of Waynoka, Emma Curry and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Matthew Curry" ;
+        c:length     "13" ;
+        c:offset     "1924" ;
+        c:prefix     "Bryan Curry of Birmingham, Alabama, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/beec196b-9b13-363b-8e99-728d67628e99> ;
+        c:suffix     " and Alex Curry of Waynoka, Emma Curry and" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/30>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Carmen, Andrew Shelton and Ezra Shelton of ]Ponca City[; other relatives and friends. \t Memorial]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Ponca City" ;
+        c:length     "10" ;
+        c:offset     "2041" ;
+        c:prefix     "of Carmen, Andrew Shelton and Ezra Shelton of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a249dcf3-33d3-34a6-ac4c-5439181e64c9> ;
+        c:suffix     "; other relatives and friends. \t Memorial" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Relevance/28>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/97fc8e81-c4f0-3dc0-ada1-a09f42a34cb5> .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/SocialTag/3>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Curry" ;
+        c:originalValue      "Curry (surname)" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/64944a50-b601-342c-b4b5-7e7a08047d17> .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/9>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Twin Oaks Grade School and later attended ]Waynoka High School[.  On September 12, 1936, she was united in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Waynoka High School" ;
+        c:length     "19" ;
+        c:offset     "541" ;
+        c:prefix     "Twin Oaks Grade School and later attended " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/44a342a8-9d2c-37a0-8377-68750dd45af0> ;
+        c:suffix     ".  On September 12, 1936, she was united in" .
+
+<http://d.opencalais.com/genericHasher-1/6bc20db6-451c-377a-8a34-13e983e76758>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:forenduserdisplay  "true" ;
+        c:organization       <http://d.opencalais.com/genericHasher-1/5c3eef2f-9ed4-32cb-9d4c-a9dcfcd31a1e> ;
+        c:person             <http://d.opencalais.com/pershash-1/b4d843ac-f7f9-3c38-8b5b-bb5066bb0e86> ;
+        c:position           "member" ;
+        c:status             "past" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/80>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[is survived by two sons, Harvey Curry and wife, ]Leslie[, of Carmen, and Garry Curry of Alva; two]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Leslie" ;
+        c:length     "6" ;
+        c:offset     "1272" ;
+        c:prefix     "is survived by two sons, Harvey Curry and wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/dc3dc064-0e2e-36dc-9ca8-8b671d21caf5> ;
+        c:suffix     ", of Carmen, and Garry Curry of Alva; two" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Relevance/9>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/873dd82e-0874-3bb9-955e-dc0600362d72> .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/59>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Curry and Alex Curry of Waynoka, Emma Curry and ]Christin Curry[ of Carmen, Andrew Shelton and Ezra Shelton of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Christin Curry" ;
+        c:length     "14" ;
+        c:offset     "1980" ;
+        c:prefix     "Curry and Alex Curry of Waynoka, Emma Curry and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/c90f826f-8127-386d-8dfb-34666db50347> ;
+        c:suffix     " of Carmen, Andrew Shelton and Ezra Shelton of" .
+
+<http://d.opencalais.com/genericHasher-1/b9e43803-e148-3918-95bf-4314ecb84f5d>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Alva" ;
+        c:person             <http://d.opencalais.com/pershash-1/35359339-5455-3b37-b3ac-24cb5d684474> .
+
+<http://d.opencalais.com/pershash-1/39d55745-2f08-3117-a324-0c17b7ed3ced>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Mike" ;
+        c:confidencelevel    "0.973" ;
+        c:firstname          "Mike" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Mike" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/38>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[time with her family and especially with ]her[ grandchildren and great grandchildren. She also]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "999" ;
+        c:prefix     "time with her family and especially with " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b4d843ac-f7f9-3c38-8b5b-bb5066bb0e86> ;
+        c:suffix     " grandchildren and great grandchildren. She also" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/17>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ William Curry and wife, Shaena, Roger Curry, and ]David Curry[ and wife, Kellie, all of Carmen, Rae Lynn]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "David Curry" ;
+        c:length     "11" ;
+        c:offset     "1551" ;
+        c:prefix     " William Curry and wife, Shaena, Roger Curry, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/4476a045-9672-33fc-a29f-6c9e5866177b> ;
+        c:suffix     " and wife, Kellie, all of Carmen, Rae Lynn" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Relevance/36>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/df9ecbf5-03d7-3418-949e-49dfee8769be> .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Relevance/15>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b8620f48-da64-3b29-b094-f0b9edcda36f> .
+
+<http://d.opencalais.com/pershash-1/dad3066c-ec3e-3eea-be88-df4a5679ad69>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Steve" ;
+        c:confidencelevel    "0.958" ;
+        c:firstname          "Steve" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Steve" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/df9ecbf5-03d7-3418-949e-49dfee8769be>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.947" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/df9ecbf5-03d7-3418-949e-49dfee8769be> .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/88>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Oklahoma City, Audra Qualls and husband, ]Chris[, of Mustang, Valerie Curry of Enid, Angela]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Chris" ;
+        c:length     "5" ;
+        c:offset     "1744" ;
+        c:prefix     "of Oklahoma City, Audra Qualls and husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/582c26f8-ea11-34d0-9505-a1ce62db4232> ;
+        c:suffix     ", of Mustang, Valerie Curry of Enid, Angela" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/67>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Emma Curry and Christin Curry of Carmen, ]Andrew Shelton[ and Ezra Shelton of Ponca City; other relatives]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Andrew Shelton" ;
+        c:length     "14" ;
+        c:offset     "2006" ;
+        c:prefix     "Emma Curry and Christin Curry of Carmen, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/356836b0-a96a-3ab5-94b7-401bcd13f911> ;
+        c:suffix     " and Ezra Shelton of Ponca City; other relatives" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/ComponentVersions>
+        a          <http://s.opencalais.com/1/type/sys/ComponentVersions> ;
+        c:docId    <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:version  "Housekeeper:OneCalais_8.3-RELEASE:113" , "OA Override:271:271" , "OA Index:201505252208:201505252208" , "config-refineries:258:258" , "config-drugs:258:258" , "WatchDog:OneCalais_8.3-RELEASE:113" , "BlackList:264:264" , "index-vessels:201505231718:201505231718" , "BrokerResearchIM:OneCalais_8.3-RELEASE:198" , "com.clearforest.infoext.dial4j.plugins-basistechconfig:OneCalais_8.3-RELEASE:225" , "People Index:201505261608:201505261608" , "Deals Index:201505261718:201505261718" , "Dial4J:OneCalais_8.3-RELEASE:198" , "config-physicalAssets-ports:258:258" , "FrenchIM:OneCalais_8.3-RELEASE:198" , "OneCalaisIM:OneCalais_8.3-RELEASE:198" , "AutocoderRuntimeIM:OneCalais_8.3-RELEASE:198" , "config-sca-DataPackage:34:34" , "config-cse:271:271" , "Collector:OneCalais_8.3-RELEASE:113" , "SpanishIM:OneCalais_8.3-RELEASE:198" , "config-negativeSignature:258:258" , "OneCalais:OneCalais_8.3-RELEASE:364" , "config-vessels:258:258" , "SocialTags Index:201505191038:201505191038" , "NextTags:OneCalais_8.3-RELEASE:113" , "People Override:258:258" , "SECHeaderMetadataIM:OneCalais_8.3-RELEASE:198" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/46>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[\t Besides her parents and husband, Ira, ]she[ was preceded in death by one son, James Curry;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "1126" ;
+        c:prefix     "\t Besides her parents and husband, Ira, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/35359339-5455-3b37-b3ac-24cb5d684474> ;
+        c:suffix     " was preceded in death by one son, James Curry;" .
+
+<http://d.opencalais.com/comphash-1/a8ee0a81-b629-368a-b237-71a89306beec>
+        a                    <http://s.opencalais.com/1/type/em/e/Company> ;
+        c:confidencelevel    "0.558" ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Wentworth Mortuary LLC" ;
+        c:nationality        "N/A" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/25>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Pamela Magee of Alva; seven great grandchildren, ]Bryan Curry of Birmingham, Alabama[, Matthew Curry and Alex Curry of Waynoka, Emma]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Bryan Curry of Birmingham, Alabama" ;
+        c:length     "34" ;
+        c:offset     "1888" ;
+        c:prefix     " Pamela Magee of Alva; seven great grandchildren, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/1f12f33b-536b-39a8-a953-fc5b089f13e1> ;
+        c:suffix     ", Matthew Curry and Alex Curry of Waynoka, Emma" .
+
+<http://d.opencalais.com/conf/pershash-1/7262eee3-2917-3264-841b-5abacbad6437>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/7262eee3-2917-3264-841b-5abacbad6437> .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Relevance/44>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/d4dc8442-0e07-3b53-af91-0bbe861c2fdb> .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Relevance/23>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/c65301bb-7fe8-328e-9ea1-1eab9961b3a9> .
+
+<http://d.opencalais.com/genericHasher-1/44a342a8-9d2c-37a0-8377-68750dd45af0>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Waynoka High School" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/4>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[the Carmen City Cemetery under the direction of ]Wentworth Mortuary, LLC[, of Carmen. \t Glenda Maxine (Camp) Curry,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Wentworth Mortuary, LLC" ;
+        c:length     "23" ;
+        c:offset     "214" ;
+        c:prefix     "the Carmen City Cemetery under the direction of " ;
+        c:subject    <http://d.opencalais.com/comphash-1/a8ee0a81-b629-368a-b237-71a89306beec> ;
+        c:suffix     ", of Carmen. \t Glenda Maxine (Camp) Curry," .
+
+<http://d.opencalais.com/conf/pershash-1/5f990b50-39bf-36c9-8be8-cc93e2fd5291>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.769" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/5f990b50-39bf-36c9-8be8-cc93e2fd5291> .
+
+<http://d.opencalais.com/conf/pershash-1/c65301bb-7fe8-328e-9ea1-1eab9961b3a9>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/c65301bb-7fe8-328e-9ea1-1eab9961b3a9> .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/75>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ past five years at Beadles Nursing Home in Alva, ]Oklahoma[. \t She was a member of the Helena Church of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "875" ;
+        c:prefix     " past five years at Beadles Nursing Home in Alva, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ". \t She was a member of the Helena Church of" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Relevance/4>
+        a                <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId          <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:relevance      "0.8" ;
+        c:relevancecont  "0.64" ;
+        c:subject        <http://d.opencalais.com/comphash-1/a8ee0a81-b629-368a-b237-71a89306beec> .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/54>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ she was united in marriage to Ira Leroy Curry at ]Alva[, Oklahoma.  To this union five children were]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "635" ;
+        c:prefix     " she was united in marriage to Ira Leroy Curry at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:suffix     ", Oklahoma.  To this union five children were" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/33>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Waynoka High School.  On September 12, 1936, ]she[ was united in marriage to Ira Leroy Curry at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "586" ;
+        c:prefix     "Waynoka High School.  On September 12, 1936, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b4d843ac-f7f9-3c38-8b5b-bb5066bb0e86> ;
+        c:suffix     " was united in marriage to Ira Leroy Curry at" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/12>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Ira, she was preceded in death by one son, ]James Curry[; and one granddaughter, Malissa Curry. \t Glenda]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "James Curry" ;
+        c:length     "11" ;
+        c:offset     "1164" ;
+        c:prefix     "Ira, she was preceded in death by one son, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/1c0ce821-fb81-37dc-84d3-d762a44960dc> ;
+        c:suffix     "; and one granddaughter, Malissa Curry. \t Glenda" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Relevance/31>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/7fa3a6f7-83f4-3cbc-aba0-1bb05c049572> .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Relevance/10>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/1c0ce821-fb81-37dc-84d3-d762a44960dc> .
+
+<http://d.opencalais.com/conf/pershash-1/9a665878-a3d1-3769-ad64-1c9c75ff34c7>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.98" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/9a665878-a3d1-3769-ad64-1c9c75ff34c7> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/f24ef023-f5ce-f4ba-d403-af6634f7297d>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:latitude            "35.4675" ;
+        c:longitude           "-97.5161" ;
+        c:name                "Oklahoma City,Oklahoma,United States" ;
+        c:rcscode             "G:2BF" ;
+        c:shortname           "Oklahoma City" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/b8620f48-da64-3b29-b094-f0b9edcda36f> .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/meta>
+        a                 <http://s.opencalais.com/1/type/sys/DocInfoMeta> ;
+        c:contentType     "text/raw" ;
+        c:docId           <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:language        "English" ;
+        c:processingVer   "AllMetadata" ;
+        c:serverVersion   "OneCalais_8.3-RELEASE:364" ;
+        c:signature       "digestalg-1|NEVEMlX10gkQGzx/JGTxol0ZQGg=|Esp687XjIzU6xSVY6lOvETCYsDqEP0BN9gW6DSkJKDT3iV+m2YvJbA==" ;
+        c:stagsVer        "OneCalais_8.3-RELEASE-b11-2015-03-25_18:29:00" ;
+        c:submissionDate  "2015-05-26 17:25:31.544" ;
+        c:submitterCode   "0ca6a864-5659-789d-5f32-f365f695e757" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/83>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Shelton and husband, Ryan, of Ponca City, and ]Pamela Magee[ of Alva; seven great grandchildren, Bryan Curry]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Pamela Magee" ;
+        c:length     "12" ;
+        c:offset     "1839" ;
+        c:prefix     "Shelton and husband, Ryan, of Ponca City, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/4e31731d-5349-31b4-ba11-d0d6f38c589c> ;
+        c:suffix     " of Alva; seven great grandchildren, Bryan Curry" .
+
+<http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee>
+        a                    <http://s.opencalais.com/1/type/em/e/IndustryTerm> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Funeral services" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/62>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[12, 1936, she was united in marriage to ]Ira Leroy Curry at Alva, Oklahoma[.  To this union five children were born: Harvey,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Ira Leroy Curry at Alva, Oklahoma" ;
+        c:length     "33" ;
+        c:offset     "616" ;
+        c:prefix     "12, 1936, she was united in marriage to " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b9e43803-e148-3918-95bf-4314ecb84f5d> ;
+        c:suffix     ".  To this union five children were born: Harvey," .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/41>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Curry; and one granddaughter, Malissa Curry. \t ]Glenda[ is survived by two sons, Harvey Curry and wife,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Glenda" ;
+        c:length     "6" ;
+        c:offset     "1217" ;
+        c:prefix     "Curry; and one granddaughter, Malissa Curry. \t " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b4d843ac-f7f9-3c38-8b5b-bb5066bb0e86> ;
+        c:suffix     " is survived by two sons, Harvey Curry and wife," .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Relevance/39>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/9a665878-a3d1-3769-ad64-1c9c75ff34c7> .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/20>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Shelton and husband, Ryan, of Ponca City, and ]Pamela Magee of Alva[; seven great grandchildren, Bryan Curry of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Pamela Magee of Alva" ;
+        c:length     "20" ;
+        c:offset     "1839" ;
+        c:prefix     "Shelton and husband, Ryan, of Ponca City, and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/1db0ee63-7a43-3024-8531-dd4dbad31b08> ;
+        c:suffix     "; seven great grandchildren, Bryan Curry of" .
+
+<http://d.opencalais.com/pershash-1/7fa3a6f7-83f4-3cbc-aba0-1bb05c049572>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Shaena" ;
+        c:confidencelevel    "0.769" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Shaena" ;
+        c:name               "Shaena" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oklahoma" .
+
+<http://d.opencalais.com/pershash-1/dc3dc064-0e2e-36dc-9ca8-8b671d21caf5>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Leslie" ;
+        c:confidencelevel    "0.942" ;
+        c:firstname          "Leslie" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Leslie" ;
+        c:nationality        "N/A" ;
+        c:persontype         "entertainment" .
+
+<http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Alva" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Relevance/18>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/5f6bdd61-128b-3946-b744-1f0f73954a66> .
+
+<http://d.opencalais.com/pershash-1/4476a045-9672-33fc-a29f-6c9e5866177b>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "David Curry" ;
+        c:confidencelevel    "0.993" ;
+        c:firstname          "David" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Curry" ;
+        c:name               "David Curry" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/70>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[at Beadles Nursing Home in Alva, Oklahoma. \t ]She was a member of the Helena Church of Christ[. Glenda loved spending time with her family and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "She was a member of the Helena Church of Christ" ;
+        c:length     "47" ;
+        c:offset     "887" ;
+        c:prefix     "at Beadles Nursing Home in Alva, Oklahoma. \t " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/6bc20db6-451c-377a-8a34-13e983e76758> ;
+        c:suffix     ". Glenda loved spending time with her family and" .
+
+<http://d.opencalais.com/genericHasher-1/52f06da9-a2d1-3490-aa54-9f8b91e94324>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Carmen City Cemetery" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/49>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Curry of Enid, Angela Shelton and husband, ]Ryan[, of Ponca City, and Pamela Magee of Alva; seven]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Ryan" ;
+        c:length     "4" ;
+        c:offset     "1814" ;
+        c:prefix     "Curry of Enid, Angela Shelton and husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/d92ebd41-b766-3cbe-8af1-f0a87ad6b4e3> ;
+        c:suffix     ", of Ponca City, and Pamela Magee of Alva; seven" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/28>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ and David Curry and wife, Kellie, all of Carmen, ]Rae Lynn McCullough[ and husband, Mike, of Tarpon Springs, Florida,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Rae Lynn McCullough" ;
+        c:length     "19" ;
+        c:offset     "1596" ;
+        c:prefix     " and David Curry and wife, Kellie, all of Carmen, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/5f6bdd61-128b-3946-b744-1f0f73954a66> ;
+        c:suffix     " and husband, Mike, of Tarpon Springs, Florida," .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Relevance/47>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/582c26f8-ea11-34d0-9505-a1ce62db4232> .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Relevance/26>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/d6b2a660-1068-3feb-bf44-e8c13b2f86bd> .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/SocialTag/1>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "James Curry" ;
+        c:originalValue      "James Curry (disambiguation)" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/52e13799-ef96-375d-b118-18fcd5adafcf> .
+
+<http://d.opencalais.com/genericHasher-1/fa78bbfa-c2c3-34b9-83dc-386d1a52a22c>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:date                "1936-09-12" ;
+        c:datestring          "September 12, 1936" ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/35359339-5455-3b37-b3ac-24cb5d684474> , <http://d.opencalais.com/pershash-1/b4d843ac-f7f9-3c38-8b5b-bb5066bb0e86> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/pershash-1/5f6bdd61-128b-3946-b744-1f0f73954a66>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Rae Lynn McCullough" ;
+        c:confidencelevel    "0.963" ;
+        c:firstname          "Rae" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "McCullough" ;
+        c:middlename         "Lynn" ;
+        c:name               "Rae Lynn McCullough" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/7>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Pamela Magee of Alva; seven great grandchildren, ]Bryan Curry[ of Birmingham, Alabama, Matthew Curry and Alex]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Bryan Curry" ;
+        c:length     "11" ;
+        c:offset     "1888" ;
+        c:prefix     " Pamela Magee of Alva; seven great grandchildren, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/c8cce68c-2ff2-3886-9710-024766681f9c> ;
+        c:suffix     " of Birmingham, Alabama, Matthew Curry and Alex" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/8fac7585-3230-ed66-1dae-4ee48ac15a97>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:latitude            "36.805" ;
+        c:longitude           "-98.6661" ;
+        c:name                "Alva,Oklahoma,United States" ;
+        c:shortname           "Alva" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> .
+
+<http://d.opencalais.com/genericHasher-1/34310271-69a7-3ba6-9860-02920a56d525>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Ponca City" ;
+        c:person             <http://d.opencalais.com/pershash-1/d92ebd41-b766-3cbe-8af1-f0a87ad6b4e3> .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/78>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Chris, of Mustang, Valerie Curry of Enid, ]Angela Shelton[ and husband, Ryan, of Ponca City, and Pamela]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Angela Shelton" ;
+        c:length     "14" ;
+        c:offset     "1786" ;
+        c:prefix     "Chris, of Mustang, Valerie Curry of Enid, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9a665878-a3d1-3769-ad64-1c9c75ff34c7> ;
+        c:suffix     " and husband, Ryan, of Ponca City, and Pamela" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Relevance/7>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/dad3066c-ec3e-3eea-be88-df4a5679ad69> .
+
+<http://d.opencalais.com/conf/pershash-1/39d55745-2f08-3117-a324-0c17b7ed3ced>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.973" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/39d55745-2f08-3117-a324-0c17b7ed3ced> .
+
+<http://d.opencalais.com/pershash-1/b4d843ac-f7f9-3c38-8b5b-bb5066bb0e86>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Glenda Maxine Curry" ;
+        c:confidencelevel    "0.994" ;
+        c:firstname          "Glenda" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Curry" ;
+        c:middlename         "Maxine" ;
+        c:name               "Glenda Maxine (Camp) Curry" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/57>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Cherokee, and Irala Magee and husband, Steve, of ]Alva[; one sister, Verda Lee Haltom of Vinita. \t Also]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "1415" ;
+        c:prefix     " Cherokee, and Irala Magee and husband, Steve, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:suffix     "; one sister, Verda Lee Haltom of Vinita. \t Also" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/e9e27c26-4013-8712-a5f0-97dcdc412c26>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:latitude            "35.5607802899" ;
+        c:longitude           "-96.8460570462" ;
+        c:name                "Oklahoma,United States" ;
+        c:permid              "100229" ;
+        c:rcscode             "G:9H" ;
+        c:shortname           "Oklahoma" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/36>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ She was a member of the Helena Church of Christ. ]Glenda[ loved spending time with her family and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Glenda" ;
+        c:length     "6" ;
+        c:offset     "936" ;
+        c:prefix     " She was a member of the Helena Church of Christ. " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b4d843ac-f7f9-3c38-8b5b-bb5066bb0e86> ;
+        c:suffix     " loved spending time with her family and" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Relevance/34>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/5c3eef2f-9ed4-32cb-9d4c-a9dcfcd31a1e> .
+
+<http://d.opencalais.com/pershash-1/c90f826f-8127-386d-8dfb-34666db50347>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Christin Curry" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Christin" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Curry" ;
+        c:name               "Christin Curry" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/15>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ years, 10 months, and 22 days. \t Glenda attended ]Twin Oaks Grade School[ and later attended Waynoka High School.  On]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Twin Oaks Grade School" ;
+        c:length     "22" ;
+        c:offset     "499" ;
+        c:prefix     " years, 10 months, and 22 days. \t Glenda attended " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/bbb15516-f58e-3582-a0b7-4486dc488696> ;
+        c:suffix     " and later attended Waynoka High School.  On" .
+
+<http://d.opencalais.com/genericHasher-1/1f12f33b-536b-39a8-a953-fc5b089f13e1>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Birmingham" ;
+        c:person             <http://d.opencalais.com/pershash-1/c8cce68c-2ff2-3886-9710-024766681f9c> .
+
+<http://d.opencalais.com/conf/pershash-1/dad3066c-ec3e-3eea-be88-df4a5679ad69>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.958" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/dad3066c-ec3e-3eea-be88-df4a5679ad69> .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Relevance/13>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/4476a045-9672-33fc-a29f-6c9e5866177b> .
+
+<http://d.opencalais.com/pershash-1/fdd1e15e-ef5b-3193-87ff-3c8e1e5ce24e>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Glenda Curry" ;
+        c:confidencelevel    "0.947" ;
+        c:firstname          "Glenda" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Curry" ;
+        c:name               "Glenda Curry" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/12811028-d95a-3d27-9abb-5c2905ef306c>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.947" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/12811028-d95a-3d27-9abb-5c2905ef306c> .
+
+<http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4/Instance/86>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Magee and husband, Steve, of Alva; one sister, ]Verda Lee Haltom[ of Vinita. \t Also surviving are nine]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d0c76e08-6b8e-31f7-94b7-44265b7b78a4> ;
+        c:exact      "Verda Lee Haltom" ;
+        c:length     "16" ;
+        c:offset     "1433" ;
+        c:prefix     "Magee and husband, Steve, of Alva; one sister, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/87010168-9616-37e5-a304-736691ec4148> ;
+        c:suffix     " of Vinita. \t Also surviving are nine" .

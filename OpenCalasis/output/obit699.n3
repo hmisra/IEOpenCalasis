@@ -1,0 +1,1636 @@
+#Relations: FamilyRelation, PersonAttributes, PersonCareer, PersonLocation, PersonRelation
+#City: Clovis, Dallas, Friona, Lubbock, Oklahoma City, Phoenix
+#Company: Waynoka LLC
+#Facility: Marshall Funeral Home of Waynoka, Memorial Hill Cemetery
+#IndustryTerm: funeral services
+#Organization: Church of Christ, United States Army
+#Person: Alex Dunnam, Bessie (Carson) Devine, Floy (Hinderliter) Carson, Jim, Keeley Dunnam, Kenda Dunnam, Kenneth Kit Carson, Kit, Shannon Bullard, Sherry (Carson) Atwell, Sherry Lee, Virgalee (Redgate) Carson, Wayne Carson
+#Position: avid hunter, carpenter
+#ProvinceOrState: Arizona, New Mexico, Oklahoma, Texas, Woods County
+#Region: Northwest
+@prefix c:     <http://s.opencalais.com/1/pred/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://d.opencalais.com/genericHasher-1/94b56f97-3c2d-324f-86d3-81308600a9ef>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Dallas" ;
+        c:person             <http://d.opencalais.com/pershash-1/0a4dbb02-d56a-3312-b5ef-626ce85bc17d> .
+
+<http://d.opencalais.com/conf/pershash-1/6948f208-f68d-3124-ad8e-728d3cb0367d>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.978" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.986" ;
+        c:subject             <http://d.opencalais.com/pershash-1/6948f208-f68d-3124-ad8e-728d3cb0367d> .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Instance/50>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[attended several rural schools Northwest of ]Waynoka[. He loved the outdoors and as a youth became an]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:exact      "Waynoka" ;
+        c:length     "7" ;
+        c:offset     "489" ;
+        c:prefix     "attended several rural schools Northwest of " ;
+        c:subject    <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:suffix     ". He loved the outdoors and as a youth became an" .
+
+<http://d.opencalais.com/genericHasher-1/f25d8160-2f1b-3642-a771-602895d343f3>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Lubbock" .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Instance/29>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[become an accomplished furniture artisan.  ]He[ is a member of the Church of Christ.  \t   ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:exact      "He" ;
+        c:length     "2" ;
+        c:offset     "1158" ;
+        c:prefix     "become an accomplished furniture artisan.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/47ba953f-6911-3e4b-8f26-fc0bbac0ac9d> ;
+        c:suffix     " is a member of the Church of Christ.  \t   " .
+
+<http://d.opencalais.com/genericHasher-1/da2fcbc1-2fca-338a-b99d-d12a388e60df>
+        a                    <http://s.opencalais.com/1/type/em/e/Position> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "carpenter" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/ae7cfd69-bc92-7100-726a-403c68e94c0c>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Texas" ;
+        c:docId               <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:latitude            "34.6417" ;
+        c:longitude           "-102.7236" ;
+        c:name                "Friona,Texas,United States" ;
+        c:shortname           "Friona" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/51177ccf-f659-3abf-a6bb-a76d87292571> .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/SocialTag/2>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Kit Carson" ;
+        c:originalValue      "Kit Carson" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/877c1201-d510-3c41-a106-e0dc31760624> .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Instance/4>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[until his recent illness and moved to Friona, ]TX[. With his carpenter skills Kenneth become an]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:exact      "TX" ;
+        c:length     "2" ;
+        c:offset     "1077" ;
+        c:prefix     "until his recent illness and moved to Friona, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> ;
+        c:suffix     ". With his carpenter skills Kenneth become an" .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Relevance/20>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/51177ccf-f659-3abf-a6bb-a76d87292571> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/0f1bf0a2-6afe-a031-a2e1-2e32ae25b9aa>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Arizona" ;
+        c:docId               <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:latitude            "33.4483" ;
+        c:longitude           "-112.0733" ;
+        c:name                "Phoenix,Arizona,United States" ;
+        c:rcscode             "G:1SR" ;
+        c:shortname           "Phoenix" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/3dffde87-79be-32b9-b7f7-2e92114e8481> .
+
+<https://permid.org/1-5035751620>
+        a             <http://s.opencalais.com/1/type/er/Company> ;
+        c:commonname  "Waynoka" ;
+        c:docId       <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:legacyid    <http://d.opencalais.com/er/company/ralg-tr1r/da554c4e-4d2b-3037-98bc-d26b5df2c525> ;
+        c:name        "Waynoka Utilities Authority" ;
+        c:permid      "5035751620" ;
+        c:score       "0.05522651" ;
+        c:subject     <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> .
+
+<http://d.opencalais.com/genericHasher-1/b5e94f1f-8931-3210-b2a8-54df23a7dd2f>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/a8c8fd8c-fa42-38c8-9b5d-de8a555166b6> , <http://d.opencalais.com/pershash-1/47ba953f-6911-3e4b-8f26-fc0bbac0ac9d> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Relevance/8>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/213e5306-03a7-3b97-95c1-1db8365c9ad4> .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb>
+        a                  <http://s.opencalais.com/1/type/sys/DocInfo> ;
+        c:calaisRequestID  "6abb4080-0116-e3d9-14d9-14436f87848c" ;
+        c:docDate          "2015-05-26 17:27:56.738" ;
+        c:docTitle         "" ;
+        c:document         "\n\t\t\t\t\t\n\t\t\t\tGraveside funeral services for Kenneth Kit Carson will be 2:00 p.m. Saturday, February 7, 2015, at Memorial Hill Cemetery under the direction of Marshall Funeral Home of Waynoka, LLC.  \t    \nKenneth Kit Carson, son of the late Kit and Floy (Hinderliter) Carson, was born September 26, 1918, in Woods County, Oklahoma, and passed away February 2, 2015, at Friona, Texas, at the age of 96 years, 4 months and seven days.  \t    \nKenneth attended several rural schools Northwest of Waynoka. He loved the outdoors and as a youth became an avid hunter and trapper that brought him enjoyment throughout his life. Soon after serving in United States Army, Pacific theater during WWII, Kenneth was married to Virgalee Redgate Carson on May 13, 1945, in Oklahoma City, OK.  The couple made their home in Waynoka where he worked on the Santa Fe Railroad and as a carpenter.  To this union the couple was blessed with one daughter Sherry Lee in June of 1946.  \t    \nIn 1961, the couple moved to Clovis, New Mexico where he remained until his recent illness and moved to Friona, TX. With his carpenter skills Kenneth become an accomplished furniture artisan.  He is a member of the Church of Christ.  \t    \nKenneth is preceded in death by his wife Virgalee (Redgate) Carson, parents  Kit and Floy (Hinderliter) Carson, one sister Bessie (Carson) Devine, and one brother Wayne Carson.   \t    \nKenneth is survived by his daughter Sherry (Carson) Atwell, and husband Jim, of Friona, TX; granddaughters Shannon Bullard, Lubbock, TX, and Kenda Dunnam, Dallas TX; two great grandchildren, Alex Dunnam of Phoenix, AZ and Keeley Dunnam of Dallas, TX.   \t    \nMemorial contributions may be made through the funeral home to the New Mexico Christian Children’s Home, Portales NM. \n\t\t\t" ;
+        c:id               "http://id.opencalais.com/1agfvNZyjNlchoY4yDRzoQ" ;
+        c:ontology         "http://163.231.4.65/owlschema/8.3/onecalais.owl.allmetadata.xml" .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Instance/58>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Christ.  \t    \nKenneth is preceded in death by ]his wife Virgalee (Redgate) Carson[, parents  Kit and Floy (Hinderliter) Carson, one]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:exact      "his wife Virgalee (Redgate) Carson" ;
+        c:length     "34" ;
+        c:offset     "1237" ;
+        c:prefix     "Christ.  \t    \nKenneth is preceded in death by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b5e94f1f-8931-3210-b2a8-54df23a7dd2f> ;
+        c:suffix     ", parents  Kit and Floy (Hinderliter) Carson, one" .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Instance/37>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Friona, TX; granddaughters Shannon Bullard, ]Lubbock[, TX, and Kenda Dunnam, Dallas TX; two great]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:exact      "Lubbock" ;
+        c:length     "7" ;
+        c:offset     "1514" ;
+        c:prefix     "of Friona, TX; granddaughters Shannon Bullard, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/f25d8160-2f1b-3642-a771-602895d343f3> ;
+        c:suffix     ", TX, and Kenda Dunnam, Dallas TX; two great" .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Instance/16>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ at Memorial Hill Cemetery under the direction of ]Marshall Funeral Home of Waynoka[, LLC.  \t    \nKenneth Kit Carson, son of the late]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:exact      "Marshall Funeral Home of Waynoka" ;
+        c:length     "32" ;
+        c:offset     "156" ;
+        c:prefix     " at Memorial Hill Cemetery under the direction of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/84bb0714-85ab-39de-a7e7-f1ad2e79292b> ;
+        c:suffix     ", LLC.  \t    \nKenneth Kit Carson, son of the late" .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Relevance/28>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/pershash-1/a2c2b6ef-2419-38b7-a69f-30c419696bef>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Jim" ;
+        c:confidencelevel    "0.991" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Jim" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/213e5306-03a7-3b97-95c1-1db8365c9ad4>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Clovis" .
+
+<http://d.opencalais.com/genericHasher-1/c9b35e26-077d-3117-b4cf-8c23250ab992>
+        a                    <http://s.opencalais.com/1/type/em/e/Position> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "avid hunter" .
+
+<http://d.opencalais.com/genericHasher-1/b8620f48-da64-3b29-b094-f0b9edcda36f>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oklahoma City" .
+
+<http://d.opencalais.com/conf/pershash-1/3c554e72-ca04-3ac6-b79e-bf91f8308f9d>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.983" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.99" ;
+        c:subject             <http://d.opencalais.com/pershash-1/3c554e72-ca04-3ac6-b79e-bf91f8308f9d> .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Instance/66>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Christ.  \t    \nKenneth is preceded in death by ]his wife Virgalee (Redgate) Carson[, parents  Kit and Floy (Hinderliter) Carson, one]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:exact      "his wife Virgalee (Redgate) Carson" ;
+        c:length     "34" ;
+        c:offset     "1237" ;
+        c:prefix     "Christ.  \t    \nKenneth is preceded in death by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/95d791be-732c-3da4-8102-6eac4052ddd3> ;
+        c:suffix     ", parents  Kit and Floy (Hinderliter) Carson, one" .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Instance/45>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Sherry (Carson) Atwell, and husband Jim, of ]Friona[, TX; granddaughters Shannon Bullard, Lubbock,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:exact      "Friona" ;
+        c:length     "6" ;
+        c:offset     "1470" ;
+        c:prefix     "Sherry (Carson) Atwell, and husband Jim, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/51177ccf-f659-3abf-a6bb-a76d87292571> ;
+        c:suffix     ", TX; granddaughters Shannon Bullard, Lubbock," .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Instance/24>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ OK.  The couple made their home in Waynoka where ]he[ worked on the Santa Fe Railroad and as a]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:exact      "he" ;
+        c:length     "2" ;
+        c:offset     "819" ;
+        c:prefix     " OK.  The couple made their home in Waynoka where " ;
+        c:subject    <http://d.opencalais.com/pershash-1/47ba953f-6911-3e4b-8f26-fc0bbac0ac9d> ;
+        c:suffix     " worked on the Santa Fe Railroad and as a" .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Relevance/15>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/f25d8160-2f1b-3642-a771-602895d343f3> .
+
+<http://d.opencalais.com/conf/pershash-1/47ba953f-6911-3e4b-8f26-fc0bbac0ac9d>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.993" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.995" ;
+        c:subject             <http://d.opencalais.com/pershash-1/47ba953f-6911-3e4b-8f26-fc0bbac0ac9d> .
+
+<http://d.opencalais.com/pershash-1/ce2dbe47-8121-3ac7-9f17-2ab0de866d37>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Sherry Atwell" ;
+        c:confidencelevel    "0.996" ;
+        c:firstname          "Sherry" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Atwell" ;
+        c:name               "Sherry (Carson) Atwell" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/4065e8ed-904a-b496-a4d4-9f9a2feb7f5a>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "New Mexico" ;
+        c:docId               <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:latitude            "34.4047" ;
+        c:longitude           "-103.2047" ;
+        c:name                "Clovis,New Mexico,United States" ;
+        c:shortname           "Clovis" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/213e5306-03a7-3b97-95c1-1db8365c9ad4> .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Relevance/3>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Instance/53>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[to Virgalee Redgate Carson on May 13, 1945, in ]Oklahoma City[, OK.  The couple made their home in Waynoka]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:exact      "Oklahoma City" ;
+        c:length     "13" ;
+        c:offset     "755" ;
+        c:prefix     "to Virgalee Redgate Carson on May 13, 1945, in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b8620f48-da64-3b29-b094-f0b9edcda36f> ;
+        c:suffix     ", OK.  The couple made their home in Waynoka" .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Instance/32>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Devine, and one brother Wayne Carson.   \t    \n]Kenneth[ is survived by his daughter Sherry (Carson)]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:exact      "Kenneth" ;
+        c:length     "7" ;
+        c:offset     "1390" ;
+        c:prefix     "Devine, and one brother Wayne Carson.   \t    \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/47ba953f-6911-3e4b-8f26-fc0bbac0ac9d> ;
+        c:suffix     " is survived by his daughter Sherry (Carson)" .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Instance/11>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[LLC.  \t    \nKenneth Kit Carson, son of the late ]Kit and Floy (Hinderliter) Carson, was born September 26, 1918, in Woods County, Oklahoma, and passed away February 2, 2015, at Friona, Texas[, at the age of 96 years, 4 months and seven]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:exact      "Kit and Floy (Hinderliter) Carson, was born September 26, 1918, in Woods County, Oklahoma, and passed away February 2, 2015, at Friona, Texas" ;
+        c:length     "141" ;
+        c:offset     "238" ;
+        c:prefix     "LLC.  \t    \nKenneth Kit Carson, son of the late " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c0260d43-767e-3899-8c96-c6403f676c9c> ;
+        c:suffix     ", at the age of 96 years, 4 months and seven" .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Instance/7>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Phoenix, AZ and Keeley Dunnam of Dallas, ]TX[.   \t    \nMemorial contributions may be made]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:exact      "TX" ;
+        c:length     "2" ;
+        c:offset     "1637" ;
+        c:prefix     "of Phoenix, AZ and Keeley Dunnam of Dallas, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> ;
+        c:suffix     ".   \t    \nMemorial contributions may be made" .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Relevance/23>
+        a                <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId          <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:relevance      "0.8" ;
+        c:relevancecont  "0.79" ;
+        c:subject        <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/4c547155-958b-6b45-c099-778cead258c6>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:latitude            "34.831864378" ;
+        c:longitude           "-106.295252344" ;
+        c:name                "New Mexico,United States" ;
+        c:permid              "100210" ;
+        c:rcscode             "G:4S" ;
+        c:shortname           "New Mexico" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/3d0928fd-64b3-3d17-9c4c-92638701503a> .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Instance/61>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ recent illness and moved to Friona, TX. With his ]carpenter[ skills Kenneth become an accomplished furniture]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:exact      "carpenter" ;
+        c:length     "9" ;
+        c:offset     "1090" ;
+        c:prefix     " recent illness and moved to Friona, TX. With his " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/da2fcbc1-2fca-338a-b99d-d12a388e60df> ;
+        c:suffix     " skills Kenneth become an accomplished furniture" .
+
+<http://d.opencalais.com/pershash-1/a8c8fd8c-fa42-38c8-9b5d-de8a555166b6>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Virgalee Carson" ;
+        c:confidencelevel    "0.9" ;
+        c:firstname          "Virgalee" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Carson" ;
+        c:name               "Virgalee (Redgate) Carson" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/00d33b26-d807-3ff8-bf1d-949bb8e39332>
+        a                    <http://s.opencalais.com/1/type/em/e/Region> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Northwest" .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Instance/40>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Alex Dunnam of Phoenix, AZ and Keeley Dunnam of ]Dallas[, TX.   \t    \nMemorial contributions may be made]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:exact      "Dallas" ;
+        c:length     "6" ;
+        c:offset     "1629" ;
+        c:prefix     "Alex Dunnam of Phoenix, AZ and Keeley Dunnam of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/82b8c016-34f7-3d31-9a9e-3b44a6ef2f08> ;
+        c:suffix     ", TX.   \t    \nMemorial contributions may be made" .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Instance/19>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ age of 96 years, 4 months and seven days.  \t    \n]Kenneth[ attended several rural schools Northwest of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:exact      "Kenneth" ;
+        c:length     "7" ;
+        c:offset     "437" ;
+        c:prefix     " age of 96 years, 4 months and seven days.  \t    \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/47ba953f-6911-3e4b-8f26-fc0bbac0ac9d> ;
+        c:suffix     " attended several rural schools Northwest of" .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/meta>
+        a                 <http://s.opencalais.com/1/type/sys/DocInfoMeta> ;
+        c:contentType     "text/raw" ;
+        c:docId           <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:language        "English" ;
+        c:processingVer   "AllMetadata" ;
+        c:serverVersion   "OneCalais_8.3-RELEASE:364" ;
+        c:signature       "digestalg-1|4pJN/PFSLzJsaVLUZHYyUapI2q0=|act7ExfCwD5V1A0NilFCzsr/sZotZe+s1/o+Cw5fHCb/PmF3/vC18w==" ;
+        c:stagsVer        "OneCalais_8.3-RELEASE-b11-2015-03-25_18:29:00" ;
+        c:submissionDate  "2015-05-26 17:27:56.408" ;
+        c:submitterCode   "0ca6a864-5659-789d-5f32-f365f695e757" .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Relevance/31>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/77e6c581-4f84-30bd-8395-91d8ab0f1e4e> .
+
+<http://d.opencalais.com/genericHasher-1/bb2b7d1d-34ec-3c64-8d2b-b49b76b46927>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Memorial Hill Cemetery" .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Relevance/10>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/84bb0714-85ab-39de-a7e7-f1ad2e79292b> .
+
+<http://d.opencalais.com/genericHasher-1/e90aa913-a085-3822-b89c-a6e94eb88acd>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Church of Christ" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Instance/69>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[union the couple was blessed with one daughter ]Sherry Lee[ in June of 1946.  \t    \nIn 1961, the couple]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:exact      "Sherry Lee" ;
+        c:length     "10" ;
+        c:offset     "930" ;
+        c:prefix     "union the couple was blessed with one daughter " ;
+        c:subject    <http://d.opencalais.com/pershash-1/42f5315b-ccda-36ab-9928-a89453412f40> ;
+        c:suffix     " in June of 1946.  \t    \nIn 1961, the couple" .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Instance/48>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[sister Bessie (Carson) Devine, and one brother ]Wayne Carson[.   \t    \nKenneth is survived by his daughter]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:exact      "Wayne Carson" ;
+        c:length     "12" ;
+        c:offset     "1368" ;
+        c:prefix     "sister Bessie (Carson) Devine, and one brother " ;
+        c:subject    <http://d.opencalais.com/pershash-1/c15ae15b-f8ab-369b-a4f3-ef8e3292f1b3> ;
+        c:suffix     ".   \t    \nKenneth is survived by his daughter" .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Instance/27>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ his recent illness and moved to Friona, TX. With ]his[ carpenter skills Kenneth become an accomplished]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "1086" ;
+        c:prefix     " his recent illness and moved to Friona, TX. With " ;
+        c:subject    <http://d.opencalais.com/pershash-1/47ba953f-6911-3e4b-8f26-fc0bbac0ac9d> ;
+        c:suffix     " carpenter skills Kenneth become an accomplished" .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Instance/2>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and husband Jim, of Friona, TX; granddaughters ]Shannon Bullard[, Lubbock, TX, and Kenda Dunnam, Dallas TX; two]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:exact      "Shannon Bullard" ;
+        c:length     "15" ;
+        c:offset     "1497" ;
+        c:prefix     "and husband Jim, of Friona, TX; granddaughters " ;
+        c:subject    <http://d.opencalais.com/pershash-1/960f87c1-ef5c-30e8-bb9a-47e724dc752d> ;
+        c:suffix     ", Lubbock, TX, and Kenda Dunnam, Dallas TX; two" .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Relevance/18>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e90aa913-a085-3822-b89c-a6e94eb88acd> .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Relevance/6>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/a8c8fd8c-fa42-38c8-9b5d-de8a555166b6> .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Instance/56>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ wife Virgalee (Redgate) Carson, parents  Kit and ]Floy (Hinderliter) Carson[, one sister Bessie (Carson) Devine, and one]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:exact      "Floy (Hinderliter) Carson" ;
+        c:length     "25" ;
+        c:offset     "1290" ;
+        c:prefix     " wife Virgalee (Redgate) Carson, parents  Kit and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6948f208-f68d-3124-ad8e-728d3cb0367d> ;
+        c:suffix     ", one sister Bessie (Carson) Devine, and one" .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Instance/35>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ his daughter Sherry (Carson) Atwell, and husband ]Jim[, of Friona, TX; granddaughters Shannon Bullard,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:exact      "Jim" ;
+        c:length     "3" ;
+        c:offset     "1462" ;
+        c:prefix     " his daughter Sherry (Carson) Atwell, and husband " ;
+        c:subject    <http://d.opencalais.com/pershash-1/a2c2b6ef-2419-38b7-a69f-30c419696bef> ;
+        c:suffix     ", of Friona, TX; granddaughters Shannon Bullard," .
+
+<http://d.opencalais.com/pershash-1/0a4dbb02-d56a-3312-b5ef-626ce85bc17d>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Keeley Dunnam" ;
+        c:confidencelevel    "0.983" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Keeley Dunnam" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Instance/14>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[become an accomplished furniture artisan.  ]He is a member of the Church of Christ[.  \t    \nKenneth is preceded in death by his wife]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:exact      "He is a member of the Church of Christ" ;
+        c:length     "38" ;
+        c:offset     "1158" ;
+        c:prefix     "become an accomplished furniture artisan.  " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a0b14d2e-ba7d-3c86-bb57-2516cd304ef6> ;
+        c:suffix     ".  \t    \nKenneth is preceded in death by his wife" .
+
+<http://d.opencalais.com/conf/pershash-1/a2c2b6ef-2419-38b7-a69f-30c419696bef>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.991" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.951" ;
+        c:subject             <http://d.opencalais.com/pershash-1/a2c2b6ef-2419-38b7-a69f-30c419696bef> .
+
+<http://d.opencalais.com/genericHasher-1/82b8c016-34f7-3d31-9a9e-3b44a6ef2f08>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Dallas" .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Relevance/26>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/00d33b26-d807-3ff8-bf1d-949bb8e39332> .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Instance/64>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Dunnam, Dallas TX; two great grandchildren, ]Alex Dunnam of Phoenix, AZ[ and Keeley Dunnam of Dallas, TX.   \t   ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:exact      "Alex Dunnam of Phoenix, AZ" ;
+        c:length     "26" ;
+        c:offset     "1581" ;
+        c:prefix     "Dunnam, Dallas TX; two great grandchildren, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/60bd6ff7-d553-394c-a5a6-dc2687f9e71a> ;
+        c:suffix     " and Keeley Dunnam of Dallas, TX.   \t   " .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Instance/43>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Oklahoma, and passed away February 2, 2015, at ]Friona[, Texas, at the age of 96 years, 4 months and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:exact      "Friona" ;
+        c:length     "6" ;
+        c:offset     "366" ;
+        c:prefix     "Oklahoma, and passed away February 2, 2015, at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/51177ccf-f659-3abf-a6bb-a76d87292571> ;
+        c:suffix     ", Texas, at the age of 96 years, 4 months and" .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Instance/22>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[trapper that brought him enjoyment throughout ]his[ life. Soon after serving in United States Army,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "607" ;
+        c:prefix     "trapper that brought him enjoyment throughout " ;
+        c:subject    <http://d.opencalais.com/pershash-1/47ba953f-6911-3e4b-8f26-fc0bbac0ac9d> ;
+        c:suffix     " life. Soon after serving in United States Army," .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/ComponentVersions>
+        a          <http://s.opencalais.com/1/type/sys/ComponentVersions> ;
+        c:docId    <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:version  "config-refineries:258:258" , "Deals Index:201505261613:201505261613" , "config-physicalAssets-ports:258:258" , "AutocoderRuntimeIM:OneCalais_8.3-RELEASE:198" , "OneCalais:OneCalais_8.3-RELEASE:364" , "WatchDog:OneCalais_8.3-RELEASE:113" , "config-cse:271:271" , "Dial4J:OneCalais_8.3-RELEASE:198" , "com.clearforest.infoext.dial4j.plugins-basistechconfig:OneCalais_8.3-RELEASE:225" , "Housekeeper:OneCalais_8.3-RELEASE:113" , "config-vessels:258:258" , "OA Override:271:271" , "NextTags:OneCalais_8.3-RELEASE:113" , "People Index:201505261608:201505261608" , "Collector:OneCalais_8.3-RELEASE:113" , "BlackList:264:264" , "SECHeaderMetadataIM:OneCalais_8.3-RELEASE:198" , "BrokerResearchIM:OneCalais_8.3-RELEASE:198" , "SpanishIM:OneCalais_8.3-RELEASE:198" , "FrenchIM:OneCalais_8.3-RELEASE:198" , "OA Index:201505252208:201505252208" , "config-sca-DataPackage:34:34" , "config-negativeSignature:258:258" , "config-drugs:258:258" , "SocialTags Index:201505191038:201505191038" , "index-vessels:201505231718:201505231718" , "People Override:258:258" , "OneCalaisIM:OneCalais_8.3-RELEASE:198" .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Relevance/13>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/a2c2b6ef-2419-38b7-a69f-30c419696bef> .
+
+<http://d.opencalais.com/genericHasher-1/60bd6ff7-d553-394c-a5a6-dc2687f9e71a>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Phoenix" ;
+        c:person             <http://d.opencalais.com/pershash-1/3c554e72-ca04-3ac6-b79e-bf91f8308f9d> .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Relevance/1>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ce8de128-24bf-3473-ab18-361909e1197d> .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Instance/51>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[City, OK.  The couple made their home in ]Waynoka[ where he worked on the Santa Fe Railroad and as]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:exact      "Waynoka" ;
+        c:length     "7" ;
+        c:offset     "805" ;
+        c:prefix     "City, OK.  The couple made their home in " ;
+        c:subject    <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:suffix     " where he worked on the Santa Fe Railroad and as" .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Instance/30>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ He is a member of the Church of Christ.  \t    \n]Kenneth[ is preceded in death by his wife Virgalee]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:exact      "Kenneth" ;
+        c:length     "7" ;
+        c:offset     "1205" ;
+        c:prefix     " He is a member of the Church of Christ.  \t    \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/47ba953f-6911-3e4b-8f26-fc0bbac0ac9d> ;
+        c:suffix     " is preceded in death by his wife Virgalee" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/62914270-0a1c-1bcc-880e-6dbe9fb82eb9>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:latitude            "31.4484328889" ;
+        c:longitude           "-97.7816569778" ;
+        c:name                "Texas,United States" ;
+        c:permid              "100299" ;
+        c:rcscode             "G:50" ;
+        c:shortname           "Texas" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/SocialTag/3>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Carson" ;
+        c:originalValue      "Carson (surname)" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/457cf243-d2c9-3ea7-ba13-82539a9fdb88> .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Instance/5>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[(Carson) Atwell, and husband Jim, of Friona, ]TX[; granddaughters Shannon Bullard, Lubbock, TX,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:exact      "TX" ;
+        c:length     "2" ;
+        c:offset     "1478" ;
+        c:prefix     "(Carson) Atwell, and husband Jim, of Friona, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> ;
+        c:suffix     "; granddaughters Shannon Bullard, Lubbock, TX," .
+
+<http://d.opencalais.com/pershash-1/931e5443-f586-346a-be00-148f4faaca03>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Bessie Devine" ;
+        c:confidencelevel    "0.996" ;
+        c:firstname          "Bessie" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Devine" ;
+        c:name               "Bessie (Carson) Devine" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Relevance/21>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/931e5443-f586-346a-be00-148f4faaca03> .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/15f0deb5-fdee-353c-85e9-a36268ab0134>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:latitude            "33.8947715893" ;
+        c:longitude           "-111.509465331" ;
+        c:name                "Arizona,United States" ;
+        c:permid              "100018" ;
+        c:rcscode             "G:23" ;
+        c:shortname           "Arizona" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/317bd67c-156a-32bd-8a5f-dd97b6d4c5a2> .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Relevance/9>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c9b35e26-077d-3117-b4cf-8c23250ab992> .
+
+<http://d.opencalais.com/conf/pershash-1/a8c8fd8c-fa42-38c8-9b5d-de8a555166b6>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.9" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.932" ;
+        c:subject             <http://d.opencalais.com/pershash-1/a8c8fd8c-fa42-38c8-9b5d-de8a555166b6> .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Instance/59>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[  \t    \nKenneth is survived by his daughter ]Sherry (Carson) Atwell[, and husband Jim, of Friona, TX; granddaughters]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:exact      "Sherry (Carson) Atwell" ;
+        c:length     "22" ;
+        c:offset     "1426" ;
+        c:prefix     "  \t    \nKenneth is survived by his daughter " ;
+        c:subject    <http://d.opencalais.com/pershash-1/ce2dbe47-8121-3ac7-9f17-2ab0de866d37> ;
+        c:suffix     ", and husband Jim, of Friona, TX; granddaughters" .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Instance/38>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Wayne Carson.   \t    \nKenneth is survived by ]his daughter Sherry (Carson) Atwell, and husband Jim, of Friona, TX[; granddaughters Shannon Bullard, Lubbock, TX,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:exact      "his daughter Sherry (Carson) Atwell, and husband Jim, of Friona, TX" ;
+        c:length     "67" ;
+        c:offset     "1413" ;
+        c:prefix     "Wayne Carson.   \t    \nKenneth is survived by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/6cb84b8e-7a60-3da3-a38b-09f974c30f17> ;
+        c:suffix     "; granddaughters Shannon Bullard, Lubbock, TX," .
+
+<http://d.opencalais.com/pershash-1/ee409f60-cebb-3ad9-826d-9148716742da>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Kit" ;
+        c:confidencelevel    "0.91" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Kit" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Instance/17>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[funeral services for ]Kenneth Kit Carson[ will be 2:00 p.m. Saturday, February 7, 2015, at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:exact      "Kenneth Kit Carson" ;
+        c:length     "18" ;
+        c:offset     "42" ;
+        c:prefix     "funeral services for " ;
+        c:subject    <http://d.opencalais.com/pershash-1/47ba953f-6911-3e4b-8f26-fc0bbac0ac9d> ;
+        c:suffix     " will be 2:00 p.m. Saturday, February 7, 2015, at" .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Relevance/29>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/ce2dbe47-8121-3ac7-9f17-2ab0de866d37> .
+
+<http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Texas" .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Instance/67>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[   \nKenneth Kit Carson, son of the late Kit and ]Floy (Hinderliter) Carson, was born September 26, 1918, in Woods County[, Oklahoma, and passed away February 2, 2015, at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:exact      "Floy (Hinderliter) Carson, was born September 26, 1918, in Woods County" ;
+        c:length     "71" ;
+        c:offset     "246" ;
+        c:prefix     "   \nKenneth Kit Carson, son of the late Kit and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/bcec10aa-99b5-35b3-b3e3-6673cf0aad50> ;
+        c:suffix     ", Oklahoma, and passed away February 2, 2015, at" .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Instance/46>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[grandchildren, Alex Dunnam of Phoenix, AZ and ]Keeley Dunnam of Dallas, TX[.   \t    \nMemorial contributions may be made]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:exact      "Keeley Dunnam of Dallas, TX" ;
+        c:length     "27" ;
+        c:offset     "1612" ;
+        c:prefix     "grandchildren, Alex Dunnam of Phoenix, AZ and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/94b56f97-3c2d-324f-86d3-81308600a9ef> ;
+        c:suffix     ".   \t    \nMemorial contributions may be made" .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Instance/25>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[the couple moved to Clovis, New Mexico where ]he[ remained until his recent illness and moved to]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:exact      "he" ;
+        c:length     "2" ;
+        c:offset     "1019" ;
+        c:prefix     "the couple moved to Clovis, New Mexico where " ;
+        c:subject    <http://d.opencalais.com/pershash-1/47ba953f-6911-3e4b-8f26-fc0bbac0ac9d> ;
+        c:suffix     " remained until his recent illness and moved to" .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Relevance/16>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/fce36612-627b-34d0-9874-611de4063865> .
+
+<http://d.opencalais.com/genericHasher-1/51177ccf-f659-3abf-a6bb-a76d87292571>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Friona" .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Relevance/4>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/bb2b7d1d-34ec-3c64-8d2b-b49b76b46927> .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Instance/54>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ \t    \nKenneth attended several rural schools ]Northwest[ of Waynoka. He loved the outdoors and as a youth]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:exact      "Northwest" ;
+        c:length     "9" ;
+        c:offset     "476" ;
+        c:prefix     " \t    \nKenneth attended several rural schools " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/00d33b26-d807-3ff8-bf1d-949bb8e39332> ;
+        c:suffix     " of Waynoka. He loved the outdoors and as a youth" .
+
+<http://d.opencalais.com/conf/pershash-1/0a4dbb02-d56a-3312-b5ef-626ce85bc17d>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.983" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.99" ;
+        c:subject             <http://d.opencalais.com/pershash-1/0a4dbb02-d56a-3312-b5ef-626ce85bc17d> .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Instance/33>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Wayne Carson.   \t    \nKenneth is survived by ]his[ daughter Sherry (Carson) Atwell, and husband]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "1413" ;
+        c:prefix     "Wayne Carson.   \t    \nKenneth is survived by " ;
+        c:subject    <http://d.opencalais.com/pershash-1/47ba953f-6911-3e4b-8f26-fc0bbac0ac9d> ;
+        c:suffix     " daughter Sherry (Carson) Atwell, and husband" .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Instance/12>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[grandchildren, Alex Dunnam of Phoenix, AZ and ]Keeley Dunnam[ of Dallas, TX.   \t    \nMemorial contributions]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:exact      "Keeley Dunnam" ;
+        c:length     "13" ;
+        c:offset     "1612" ;
+        c:prefix     "grandchildren, Alex Dunnam of Phoenix, AZ and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/0a4dbb02-d56a-3312-b5ef-626ce85bc17d> ;
+        c:suffix     " of Dallas, TX.   \t    \nMemorial contributions" .
+
+<http://d.opencalais.com/genericHasher-1/a0b14d2e-ba7d-3c86-bb57-2516cd304ef6>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:forenduserdisplay  "true" ;
+        c:organization       <http://d.opencalais.com/genericHasher-1/e90aa913-a085-3822-b89c-a6e94eb88acd> ;
+        c:person             <http://d.opencalais.com/pershash-1/47ba953f-6911-3e4b-8f26-fc0bbac0ac9d> ;
+        c:position           "member" ;
+        c:status             "current" .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Instance/8>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ will be 2:00 p.m. Saturday, February 7, 2015, at ]Memorial Hill Cemetery[ under the direction of Marshall Funeral Home of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:exact      "Memorial Hill Cemetery" ;
+        c:length     "22" ;
+        c:offset     "110" ;
+        c:prefix     " will be 2:00 p.m. Saturday, February 7, 2015, at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/bb2b7d1d-34ec-3c64-8d2b-b49b76b46927> ;
+        c:suffix     " under the direction of Marshall Funeral Home of" .
+
+<http://d.opencalais.com/genericHasher-1/95d791be-732c-3da4-8102-6eac4052ddd3>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "wife" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/47ba953f-6911-3e4b-8f26-fc0bbac0ac9d> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/a8c8fd8c-fa42-38c8-9b5d-de8a555166b6> .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Relevance/24>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/3c554e72-ca04-3ac6-b79e-bf91f8308f9d> .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Instance/62>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ granddaughters Shannon Bullard, Lubbock, TX, and ]Kenda Dunnam[, Dallas TX; two great grandchildren, Alex Dunnam]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:exact      "Kenda Dunnam" ;
+        c:length     "12" ;
+        c:offset     "1531" ;
+        c:prefix     " granddaughters Shannon Bullard, Lubbock, TX, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/77e6c581-4f84-30bd-8395-91d8ab0f1e4e> ;
+        c:suffix     ", Dallas TX; two great grandchildren, Alex Dunnam" .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Instance/41>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[furniture artisan.  He is a member of the ]Church of Christ[.  \t    \nKenneth is preceded in death by his wife]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:exact      "Church of Christ" ;
+        c:length     "16" ;
+        c:offset     "1180" ;
+        c:prefix     "furniture artisan.  He is a member of the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e90aa913-a085-3822-b89c-a6e94eb88acd> ;
+        c:suffix     ".  \t    \nKenneth is preceded in death by his wife" .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Instance/20>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[several rural schools Northwest of Waynoka. ]He[ loved the outdoors and as a youth became an avid]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:exact      "He" ;
+        c:length     "2" ;
+        c:offset     "498" ;
+        c:prefix     "several rural schools Northwest of Waynoka. " ;
+        c:subject    <http://d.opencalais.com/pershash-1/47ba953f-6911-3e4b-8f26-fc0bbac0ac9d> ;
+        c:suffix     " loved the outdoors and as a youth became an avid" .
+
+<http://d.opencalais.com/genericHasher-1/7f634c01-1524-3dbd-be67-5bf60a86a620>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/a2c2b6ef-2419-38b7-a69f-30c419696bef> , <http://d.opencalais.com/pershash-1/47ba953f-6911-3e4b-8f26-fc0bbac0ac9d> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Relevance/32>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/317bd67c-156a-32bd-8a5f-dd97b6d4c5a2> .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Relevance/11>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/pershash-1/47ba953f-6911-3e4b-8f26-fc0bbac0ac9d> .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/lid/DefaultLangId>
+        a                    <http://s.opencalais.com/1/type/lid/DefaultLangId> ;
+        c:docId              <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:forenduserdisplay  "false" ;
+        c:lang               <http://d.opencalais.com/lid/DefaultLangId/English> ;
+        c:permid             "505062" .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Instance/70>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ his daughter Sherry (Carson) Atwell, and husband ]Jim, of Friona, TX[; granddaughters Shannon Bullard, Lubbock, TX,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:exact      "Jim, of Friona, TX" ;
+        c:length     "18" ;
+        c:offset     "1462" ;
+        c:prefix     " his daughter Sherry (Carson) Atwell, and husband " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/d8abe7a0-2fd2-3122-bd46-829f09e598d6> ;
+        c:suffix     "; granddaughters Shannon Bullard, Lubbock, TX," .
+
+<http://d.opencalais.com/pershash-1/77e6c581-4f84-30bd-8395-91d8ab0f1e4e>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Kenda Dunnam" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Kenda" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Dunnam" ;
+        c:name               "Kenda Dunnam" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/pershash-1/c15ae15b-f8ab-369b-a4f3-ef8e3292f1b3>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Wayne Carson" ;
+        c:confidencelevel    "0.997" ;
+        c:firstname          "Wayne" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Carson" ;
+        c:name               "Wayne Carson" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/ce8de128-24bf-3473-ab18-361909e1197d>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Woods County" .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Instance/49>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[under the direction of Marshall Funeral Home of ]Waynoka, LLC[.  \t    \nKenneth Kit Carson, son of the late Kit]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:exact      "Waynoka, LLC" ;
+        c:length     "12" ;
+        c:offset     "181" ;
+        c:prefix     "under the direction of Marshall Funeral Home of " ;
+        c:subject    <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:suffix     ".  \t    \nKenneth Kit Carson, son of the late Kit" .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Instance/28>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[moved to Friona, TX. With his carpenter skills ]Kenneth[ become an accomplished furniture artisan.  He is]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:exact      "Kenneth" ;
+        c:length     "7" ;
+        c:offset     "1107" ;
+        c:prefix     "moved to Friona, TX. With his carpenter skills " ;
+        c:subject    <http://d.opencalais.com/pershash-1/47ba953f-6911-3e4b-8f26-fc0bbac0ac9d> ;
+        c:suffix     " become an accomplished furniture artisan.  He is" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/b9a8eb53-0d57-c326-3738-6c8206e311a8>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Texas" ;
+        c:docId               <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:latitude            "33.5778" ;
+        c:longitude           "-101.8547" ;
+        c:name                "Lubbock,Texas,United States" ;
+        c:shortname           "Lubbock" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/f25d8160-2f1b-3642-a771-602895d343f3> .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/SocialTag/1>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Friona, Texas" ;
+        c:originalValue      "Friona, Texas" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/e2d28b8f-fedd-3d19-b81d-e59c6bde2c0d> .
+
+<http://d.opencalais.com/conf/pershash-1/931e5443-f586-346a-be00-148f4faaca03>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.996" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.997" ;
+        c:subject             <http://d.opencalais.com/pershash-1/931e5443-f586-346a-be00-148f4faaca03> .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Instance/3>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and passed away February 2, 2015, at Friona, ]Texas[, at the age of 96 years, 4 months and seven]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:exact      "Texas" ;
+        c:length     "5" ;
+        c:offset     "374" ;
+        c:prefix     "and passed away February 2, 2015, at Friona, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> ;
+        c:suffix     ", at the age of 96 years, 4 months and seven" .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Relevance/19>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee> .
+
+<http://d.opencalais.com/pershash-1/42f5315b-ccda-36ab-9928-a89453412f40>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Sherry Lee" ;
+        c:confidencelevel    "0.997" ;
+        c:firstname          "Sherry" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Lee" ;
+        c:name               "Sherry Lee" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Relevance/7>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/0a4dbb02-d56a-3312-b5ef-626ce85bc17d> .
+
+<http://d.opencalais.com/conf/pershash-1/ee409f60-cebb-3ad9-826d-9148716742da>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.91" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.889" ;
+        c:subject             <http://d.opencalais.com/pershash-1/ee409f60-cebb-3ad9-826d-9148716742da> .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Instance/57>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[was born September 26, 1918, in Woods County, ]Oklahoma[, and passed away February 2, 2015, at Friona,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "319" ;
+        c:prefix     "was born September 26, 1918, in Woods County, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", and passed away February 2, 2015, at Friona," .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Instance/36>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[TX; two great grandchildren, Alex Dunnam of ]Phoenix[, AZ and Keeley Dunnam of Dallas, TX.   \t   ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:exact      "Phoenix" ;
+        c:length     "7" ;
+        c:offset     "1596" ;
+        c:prefix     "TX; two great grandchildren, Alex Dunnam of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3dffde87-79be-32b9-b7f7-2e92114e8481> ;
+        c:suffix     ", AZ and Keeley Dunnam of Dallas, TX.   \t   " .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Instance/15>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[He loved the outdoors and as a youth became ]an avid hunter[ and trapper that brought him enjoyment]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:exact      "an avid hunter" ;
+        c:length     "14" ;
+        c:offset     "542" ;
+        c:prefix     "He loved the outdoors and as a youth became " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c9b35e26-077d-3117-b4cf-8c23250ab992> ;
+        c:suffix     " and trapper that brought him enjoyment" .
+
+<http://d.opencalais.com/genericHasher-1/6cb84b8e-7a60-3da3-a38b-09f974c30f17>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "husband" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/47ba953f-6911-3e4b-8f26-fc0bbac0ac9d> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/a2c2b6ef-2419-38b7-a69f-30c419696bef> .
+
+<http://d.opencalais.com/genericHasher-1/3d0928fd-64b3-3d17-9c4c-92638701503a>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "New Mexico" .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/cat/1>
+        a                    <http://s.opencalais.com/1/type/cat/DocCat> ;
+        c:docId              <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Human Interest" ;
+        c:score              "1.000" .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Relevance/27>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/6948f208-f68d-3124-ad8e-728d3cb0367d> .
+
+<http://d.opencalais.com/genericHasher-1/3dffde87-79be-32b9-b7f7-2e92114e8481>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Phoenix" .
+
+<http://d.opencalais.com/pershash-1/960f87c1-ef5c-30e8-bb9a-47e724dc752d>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Shannon Bullard" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Shannon" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Bullard" ;
+        c:name               "Shannon Bullard" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/bcec10aa-99b5-35b3-b3e3-6673cf0aad50>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonAttributes> ;
+        c:birthdate          "1918-09-26" ;
+        c:birthplace         <http://d.opencalais.com/genericHasher-1/ce8de128-24bf-3473-ab18-361909e1197d> ;
+        c:forenduserdisplay  "false" ;
+        c:gender             "F" ;
+        c:person             <http://d.opencalais.com/pershash-1/6948f208-f68d-3124-ad8e-728d3cb0367d> .
+
+<http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205>
+        a                    <http://s.opencalais.com/1/type/em/e/Company> ;
+        c:confidencelevel    "0.765" ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Waynoka LLC" ;
+        c:nationality        "N/A" .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Instance/65>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Devine, and one brother Wayne Carson.   \t    \n]Kenneth is survived by his daughter Sherry (Carson) Atwell, and husband Jim, of Friona, TX[; granddaughters Shannon Bullard, Lubbock, TX,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:exact      "Kenneth is survived by his daughter Sherry (Carson) Atwell, and husband Jim, of Friona, TX" ;
+        c:length     "90" ;
+        c:offset     "1390" ;
+        c:prefix     "Devine, and one brother Wayne Carson.   \t    \n" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/7f634c01-1524-3dbd-be67-5bf60a86a620> ;
+        c:suffix     "; granddaughters Shannon Bullard, Lubbock, TX," .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Instance/44>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[remained until his recent illness and moved to ]Friona[, TX. With his carpenter skills Kenneth become an]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:exact      "Friona" ;
+        c:length     "6" ;
+        c:offset     "1069" ;
+        c:prefix     "remained until his recent illness and moved to " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/51177ccf-f659-3abf-a6bb-a76d87292571> ;
+        c:suffix     ", TX. With his carpenter skills Kenneth become an" .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Instance/23>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ United States Army, Pacific theater during WWII, ]Kenneth[ was married to Virgalee Redgate Carson on May]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:exact      "Kenneth" ;
+        c:length     "7" ;
+        c:offset     "688" ;
+        c:prefix     " United States Army, Pacific theater during WWII, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/47ba953f-6911-3e4b-8f26-fc0bbac0ac9d> ;
+        c:suffix     " was married to Virgalee Redgate Carson on May" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/56e164a8-ee81-df99-79ad-56dc584d26dd>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Texas" ;
+        c:docId               <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:latitude            "32.7833" ;
+        c:longitude           "-96.8" ;
+        c:name                "Dallas,Texas,United States" ;
+        c:rcscode             "G:13T" ;
+        c:shortname           "Dallas" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/82b8c016-34f7-3d31-9a9e-3b44a6ef2f08> .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Relevance/14>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3dffde87-79be-32b9-b7f7-2e92114e8481> .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Relevance/2>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/960f87c1-ef5c-30e8-bb9a-47e724dc752d> .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Instance/52>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Dunnam, Dallas TX; two great grandchildren, ]Alex Dunnam[ of Phoenix, AZ and Keeley Dunnam of Dallas, TX. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:exact      "Alex Dunnam" ;
+        c:length     "11" ;
+        c:offset     "1581" ;
+        c:prefix     "Dunnam, Dallas TX; two great grandchildren, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/3c554e72-ca04-3ac6-b79e-bf91f8308f9d> ;
+        c:suffix     " of Phoenix, AZ and Keeley Dunnam of Dallas, TX. " .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Instance/31>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Christ.  \t    \nKenneth is preceded in death by ]his[ wife Virgalee (Redgate) Carson, parents  Kit and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "1237" ;
+        c:prefix     "Christ.  \t    \nKenneth is preceded in death by " ;
+        c:subject    <http://d.opencalais.com/pershash-1/47ba953f-6911-3e4b-8f26-fc0bbac0ac9d> ;
+        c:suffix     " wife Virgalee (Redgate) Carson, parents  Kit and" .
+
+<http://d.opencalais.com/pershash-1/6948f208-f68d-3124-ad8e-728d3cb0367d>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Floy Carson" ;
+        c:confidencelevel    "0.978" ;
+        c:firstname          "Floy" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Carson" ;
+        c:name               "Floy (Hinderliter) Carson" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Instance/10>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ \t    \nKenneth is preceded in death by his wife ]Virgalee (Redgate) Carson[, parents  Kit and Floy (Hinderliter) Carson, one]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:exact      "Virgalee (Redgate) Carson" ;
+        c:length     "25" ;
+        c:offset     "1246" ;
+        c:prefix     " \t    \nKenneth is preceded in death by his wife " ;
+        c:subject    <http://d.opencalais.com/pershash-1/a8c8fd8c-fa42-38c8-9b5d-de8a555166b6> ;
+        c:suffix     ", parents  Kit and Floy (Hinderliter) Carson, one" .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/SocialTag/4>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "2" ;
+        c:name               "Waynoka, Oklahoma" ;
+        c:originalValue      "Waynoka, Oklahoma" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/77bc8be5-12a7-326b-962f-52fbf8cf09dd> .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Instance/6>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[TX; granddaughters Shannon Bullard, Lubbock, ]TX[, and Kenda Dunnam, Dallas TX; two great]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:exact      "TX" ;
+        c:length     "2" ;
+        c:offset     "1523" ;
+        c:prefix     "TX; granddaughters Shannon Bullard, Lubbock, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> ;
+        c:suffix     ", and Kenda Dunnam, Dallas TX; two great" .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Relevance/22>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/c15ae15b-f8ab-369b-a4f3-ef8e3292f1b3> .
+
+<http://d.opencalais.com/genericHasher-1/d8abe7a0-2fd2-3122-bd46-829f09e598d6>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Friona" ;
+        c:person             <http://d.opencalais.com/pershash-1/a2c2b6ef-2419-38b7-a69f-30c419696bef> .
+
+<http://d.opencalais.com/genericHasher-1/84bb0714-85ab-39de-a7e7-f1ad2e79292b>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Marshall Funeral Home of Waynoka" .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Instance/60>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[where he worked on the Santa Fe Railroad and as ]a carpenter[.  To this union the couple was blessed with one]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:exact      "a carpenter" ;
+        c:length     "11" ;
+        c:offset     "861" ;
+        c:prefix     "where he worked on the Santa Fe Railroad and as " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/da2fcbc1-2fca-338a-b99d-d12a388e60df> ;
+        c:suffix     ".  To this union the couple was blessed with one" .
+
+<http://d.opencalais.com/genericHasher-1/d0fbbe2f-f517-3fb5-9a36-7fce862450c8>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "daughter" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/47ba953f-6911-3e4b-8f26-fc0bbac0ac9d> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/ce2dbe47-8121-3ac7-9f17-2ab0de866d37> .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Instance/39>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[throughout his life. Soon after serving in ]United States Army[, Pacific theater during WWII, Kenneth was]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:exact      "United States Army" ;
+        c:length     "18" ;
+        c:offset     "639" ;
+        c:prefix     "throughout his life. Soon after serving in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/fce36612-627b-34d0-9874-611de4063865> ;
+        c:suffix     ", Pacific theater during WWII, Kenneth was" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/f24ef023-f5ce-f4ba-d403-af6634f7297d>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:latitude            "35.4675" ;
+        c:longitude           "-97.5161" ;
+        c:name                "Oklahoma City,Oklahoma,United States" ;
+        c:rcscode             "G:2BF" ;
+        c:shortname           "Oklahoma City" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/b8620f48-da64-3b29-b094-f0b9edcda36f> .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Instance/18>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ of Marshall Funeral Home of Waynoka, LLC.  \t    \n]Kenneth Kit Carson[, son of the late Kit and Floy (Hinderliter)]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:exact      "Kenneth Kit Carson" ;
+        c:length     "18" ;
+        c:offset     "202" ;
+        c:prefix     " of Marshall Funeral Home of Waynoka, LLC.  \t    \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/47ba953f-6911-3e4b-8f26-fc0bbac0ac9d> ;
+        c:suffix     ", son of the late Kit and Floy (Hinderliter)" .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Relevance/30>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/da2fcbc1-2fca-338a-b99d-d12a388e60df> .
+
+<http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee>
+        a                    <http://s.opencalais.com/1/type/em/e/IndustryTerm> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "funeral services" .
+
+<http://d.opencalais.com/conf/pershash-1/77e6c581-4f84-30bd-8395-91d8ab0f1e4e>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/77e6c581-4f84-30bd-8395-91d8ab0f1e4e> .
+
+<http://d.opencalais.com/genericHasher-1/317bd67c-156a-32bd-8a5f-dd97b6d4c5a2>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Arizona" .
+
+<http://d.opencalais.com/conf/pershash-1/c15ae15b-f8ab-369b-a4f3-ef8e3292f1b3>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.997" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.996" ;
+        c:subject             <http://d.opencalais.com/pershash-1/c15ae15b-f8ab-369b-a4f3-ef8e3292f1b3> .
+
+<http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oklahoma" .
+
+<http://d.opencalais.com/pershash-1/3c554e72-ca04-3ac6-b79e-bf91f8308f9d>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Alex Dunnam" ;
+        c:confidencelevel    "0.983" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Alex Dunnam" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Instance/68>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ two great grandchildren, Alex Dunnam of Phoenix, ]AZ[ and Keeley Dunnam of Dallas, TX.   \t   ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:exact      "AZ" ;
+        c:length     "2" ;
+        c:offset     "1605" ;
+        c:prefix     " two great grandchildren, Alex Dunnam of Phoenix, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/317bd67c-156a-32bd-8a5f-dd97b6d4c5a2> ;
+        c:suffix     " and Keeley Dunnam of Dallas, TX.   \t   " .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Instance/47>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Kit and Floy (Hinderliter) Carson, one sister ]Bessie (Carson) Devine[, and one brother Wayne Carson.   \t    \nKenneth]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:exact      "Bessie (Carson) Devine" ;
+        c:length     "22" ;
+        c:offset     "1328" ;
+        c:prefix     " Kit and Floy (Hinderliter) Carson, one sister " ;
+        c:subject    <http://d.opencalais.com/pershash-1/931e5443-f586-346a-be00-148f4faaca03> ;
+        c:suffix     ", and one brother Wayne Carson.   \t    \nKenneth" .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Instance/26>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[to Clovis, New Mexico where he remained until ]his[ recent illness and moved to Friona, TX. With his]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "1037" ;
+        c:prefix     "to Clovis, New Mexico where he remained until " ;
+        c:subject    <http://d.opencalais.com/pershash-1/47ba953f-6911-3e4b-8f26-fc0bbac0ac9d> ;
+        c:suffix     " recent illness and moved to Friona, TX. With his" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/1114fb0e-25a2-49dd-a619-369b5b536840>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:latitude            "36.746" ;
+        c:longitude           "-98.7527" ;
+        c:name                "Woods County,Oklahoma,United States" ;
+        c:shortname           "Woods County" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/ce8de128-24bf-3473-ab18-361909e1197d> .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Instance/1>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Carson, was born September 26, 1918, in ]Woods County[, Oklahoma, and passed away February 2, 2015, at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:exact      "Woods County" ;
+        c:length     "12" ;
+        c:offset     "305" ;
+        c:prefix     "Carson, was born September 26, 1918, in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ce8de128-24bf-3473-ab18-361909e1197d> ;
+        c:suffix     ", Oklahoma, and passed away February 2, 2015, at" .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Relevance/17>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/82b8c016-34f7-3d31-9a9e-3b44a6ef2f08> .
+
+<http://d.opencalais.com/conf/pershash-1/42f5315b-ccda-36ab-9928-a89453412f40>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.997" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.996" ;
+        c:subject             <http://d.opencalais.com/pershash-1/42f5315b-ccda-36ab-9928-a89453412f40> .
+
+<http://d.opencalais.com/pershash-1/47ba953f-6911-3e4b-8f26-fc0bbac0ac9d>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Kenneth Kit Carson" ;
+        c:confidencelevel    "0.993" ;
+        c:firstname          "Kenneth" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Kit Carson" ;
+        c:name               "Kenneth Kit Carson" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Relevance/5>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/ee409f60-cebb-3ad9-826d-9148716742da> .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Instance/55>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[   \nKenneth Kit Carson, son of the late Kit and ]Floy (Hinderliter) Carson[, was born September 26, 1918, in Woods County,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:exact      "Floy (Hinderliter) Carson" ;
+        c:length     "25" ;
+        c:offset     "246" ;
+        c:prefix     "   \nKenneth Kit Carson, son of the late Kit and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6948f208-f68d-3124-ad8e-728d3cb0367d> ;
+        c:suffix     ", was born September 26, 1918, in Woods County," .
+
+<http://d.opencalais.com/conf/pershash-1/ce2dbe47-8121-3ac7-9f17-2ab0de866d37>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.996" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.997" ;
+        c:subject             <http://d.opencalais.com/pershash-1/ce2dbe47-8121-3ac7-9f17-2ab0de866d37> .
+
+<http://d.opencalais.com/genericHasher-1/fce36612-627b-34d0-9874-611de4063865>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "United States Army" ;
+        c:nationality        "American" ;
+        c:organizationtype   "governmental military" .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Instance/34>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ \t    \nIn 1961, the couple moved to Clovis, ]New Mexico[ where he remained until his recent illness and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:exact      "New Mexico" ;
+        c:length     "10" ;
+        c:offset     "1002" ;
+        c:prefix     " \t    \nIn 1961, the couple moved to Clovis, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3d0928fd-64b3-3d17-9c4c-92638701503a> ;
+        c:suffix     " where he remained until his recent illness and" .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Instance/13>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of 1946.  \t    \nIn 1961, the couple moved to ]Clovis[, New Mexico where he remained until his recent]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:exact      "Clovis" ;
+        c:length     "6" ;
+        c:offset     "994" ;
+        c:prefix     "of 1946.  \t    \nIn 1961, the couple moved to " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/213e5306-03a7-3b97-95c1-1db8365c9ad4> ;
+        c:suffix     ", New Mexico where he remained until his recent" .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Instance/9>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[LLC.  \t    \nKenneth Kit Carson, son of the late ]Kit[ and Floy (Hinderliter) Carson, was born]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:exact      "Kit" ;
+        c:length     "3" ;
+        c:offset     "238" ;
+        c:prefix     "LLC.  \t    \nKenneth Kit Carson, son of the late " ;
+        c:subject    <http://d.opencalais.com/pershash-1/ee409f60-cebb-3ad9-826d-9148716742da> ;
+        c:suffix     " and Floy (Hinderliter) Carson, was born" .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Relevance/25>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b8620f48-da64-3b29-b094-f0b9edcda36f> .
+
+<http://d.opencalais.com/conf/pershash-1/960f87c1-ef5c-30e8-bb9a-47e724dc752d>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/960f87c1-ef5c-30e8-bb9a-47e724dc752d> .
+
+<http://d.opencalais.com/genericHasher-1/c0260d43-767e-3899-8c96-c6403f676c9c>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Friona, Texas" ;
+        c:person             <http://d.opencalais.com/pershash-1/ee409f60-cebb-3ad9-826d-9148716742da> .
+
+<http://d.opencalais.com/conf/comphash-1/e6417933-98e8-365f-8f80-b92f05707205>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.765" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:resolution          "0.05522651" ;
+        c:statisticalfeature  "0.853" ;
+        c:subject             <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/e9e27c26-4013-8712-a5f0-97dcdc412c26>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:latitude            "35.5607802899" ;
+        c:longitude           "-96.8460570462" ;
+        c:name                "Oklahoma,United States" ;
+        c:permid              "100229" ;
+        c:rcscode             "G:9H" ;
+        c:shortname           "Oklahoma" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Instance/63>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Wayne Carson.   \t    \nKenneth is survived by ]his daughter Sherry (Carson) Atwell, and husband Jim, of Friona, TX[; granddaughters Shannon Bullard, Lubbock, TX,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:exact      "his daughter Sherry (Carson) Atwell, and husband Jim, of Friona, TX" ;
+        c:length     "67" ;
+        c:offset     "1413" ;
+        c:prefix     "Wayne Carson.   \t    \nKenneth is survived by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/d0fbbe2f-f517-3fb5-9a36-7fce862450c8> ;
+        c:suffix     "; granddaughters Shannon Bullard, Lubbock, TX," .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Instance/42>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[\n\t\t\t\t\t\n\t\t\t\tGraveside ]funeral services[ for Kenneth Kit Carson will be 2:00 p.m.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:exact      "funeral services" ;
+        c:length     "16" ;
+        c:offset     "21" ;
+        c:prefix     "\n\t\t\t\t\t\n\t\t\t\tGraveside " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee> ;
+        c:suffix     " for Kenneth Kit Carson will be 2:00 p.m." .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Instance/21>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[became an avid hunter and trapper that brought ]him[ enjoyment throughout his life. Soon after]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:exact      "him" ;
+        c:length     "3" ;
+        c:offset     "582" ;
+        c:prefix     "became an avid hunter and trapper that brought " ;
+        c:subject    <http://d.opencalais.com/pershash-1/47ba953f-6911-3e4b-8f26-fc0bbac0ac9d> ;
+        c:suffix     " enjoyment throughout his life. Soon after" .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Relevance/33>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/42f5315b-ccda-36ab-9928-a89453412f40> .
+
+<http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb/Relevance/12>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/39d60cc3-7263-375e-be86-6190a511eafb> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3d0928fd-64b3-3d17-9c4c-92638701503a> .

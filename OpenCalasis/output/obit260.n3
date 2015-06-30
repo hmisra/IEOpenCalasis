@@ -1,0 +1,1656 @@
+#Relations: FamilyRelation, PersonAttributes, PersonCareer, PersonLocation, PersonRelation, PersonTravel
+#City: Alva, City, Pratt, Willis
+#Company: Boeing, Fred's
+#Facility: Alva Municipal Cemetery, Marshall Funeral Home Chapel, Marshall Funeral Home of Alva
+#IndustryTerm: Funeral services
+#Organization: Baptist Church, Green Bay Packers, United States Army
+#Person: Betty Jean, Betty Lois Reutlinger, Dora May (Gaddie), Fred Allen, Fred Junior Cushenbery, Greg Hook, Jeff, Marshall Funeral, May (Gaddie) Cushenbery, Naoma Cushenbery, Rose Ann, Samantha Ward, Sherry Ward, Travis Ward
+#ProvinceOrState: Kansas, Oklahoma, Texas, Virginia
+@prefix c:     <http://s.opencalais.com/1/pred/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Relevance/2>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/c664baf1-e96e-100d-dd5d-1be457e25c10>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Virginia" ;
+        c:docId               <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:latitude            "36.8684412" ;
+        c:longitude           "-82.1140214" ;
+        c:name                "Willis,Virginia,United States" ;
+        c:shortname           "Willis" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/56041a53-e43f-3cfe-91dc-e8b644cb8011> .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Relevance/22>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e419a91f-d27e-3cca-92a8-7d7038b0182b> .
+
+<https://permid.org/1-4295903076>
+        a             <http://s.opencalais.com/1/type/er/Company> ;
+        c:commonname  "Boeing" ;
+        c:docId       <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:legacyid    <http://d.opencalais.com/er/company/ralg-tr1r/9616a23c-68ce-31ec-bba9-a60d3a8174dc> ;
+        c:name        "Boeing Co" ;
+        c:permid      "4295903076" ;
+        c:primaryric  "BA.N" ;
+        c:score       "0.97463197" ;
+        c:subject     <http://d.opencalais.com/comphash-1/153250e5-46b6-3405-9864-2f9acf461a09> ;
+        c:ticker      "BA" .
+
+<http://d.opencalais.com/pershash-1/f7a18370-e4ee-3be6-a139-0d9a1bbd45d9>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Naoma Cushenbery" ;
+        c:confidencelevel    "0.993" ;
+        c:firstname          "Naoma" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Cushenbery" ;
+        c:name               "Naoma Cushenbery" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/64>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ September 10, 1952, he was united in marriage to ]Betty Lois Reutlinger[ at Alva.  He started hauling ice when he was 13,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "Betty Lois Reutlinger" ;
+        c:length     "21" ;
+        c:offset     "655" ;
+        c:prefix     " September 10, 1952, he was united in marriage to " ;
+        c:subject    <http://d.opencalais.com/pershash-1/75b102c4-a4fd-3e8c-9c30-93ebb188c7b3> ;
+        c:suffix     " at Alva.  He started hauling ice when he was 13," .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/43>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Alva Municipal Cemetery under the direction of ]Marshall Funeral Home of Alva[.    \nFred Junior Cushenbery, son of the late]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "Marshall Funeral Home of Alva" ;
+        c:length     "29" ;
+        c:offset     "232" ;
+        c:prefix     "Alva Municipal Cemetery under the direction of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce> ;
+        c:suffix     ".    \nFred Junior Cushenbery, son of the late" .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/22>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and collecting belt buckles.    \nBesides ]his[ parents, he was preceded in death by seven]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "1110" ;
+        c:prefix     "and collecting belt buckles.    \nBesides " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9cb05679-6141-3ed2-b0b5-4859a23ffdcc> ;
+        c:suffix     " parents, he was preceded in death by seven" .
+
+<http://d.opencalais.com/pershash-1/0824c880-7431-3846-b832-1042cfbe83e9>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Marshall Funeral" .
+
+<http://d.opencalais.com/conf/pershash-1/b15bbdd8-ce8a-3cd5-b7bb-fc005f1000c8>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.94" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.972" ;
+        c:subject             <http://d.opencalais.com/pershash-1/b15bbdd8-ce8a-3cd5-b7bb-fc005f1000c8> .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Relevance/30>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a21a69b3-e9dd-341e-9fee-da93c550c744> .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/3>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ when he was 13, and later moved to Wichita where ]he worked at Boeing[ and at several body shops.  He returned to Alva]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "he worked at Boeing" ;
+        c:length     "19" ;
+        c:offset     "759" ;
+        c:prefix     " when he was 13, and later moved to Wichita where " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e2e596b-2374-3041-a082-d9ca2b7b5c66> ;
+        c:suffix     " and at several body shops.  He returned to Alva" .
+
+<http://d.opencalais.com/pershash-1/178dcd27-3508-32c6-a9f9-7d295bdd6e84>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "May Cushenbery" ;
+        c:confidencelevel    "0.448" ;
+        c:firstname          "May" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Cushenbery" ;
+        c:name               "May (Gaddie) Cushenbery" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/72>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[home at Fred's request to a scholarship for ]his[ grandson, Travis Ward, at the Southwestern]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "1732" ;
+        c:prefix     "home at Fred's request to a scholarship for " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f2e5c258-3ced-3856-a31d-6567a520e9d1> ;
+        c:suffix     " grandson, Travis Ward, at the Southwestern" .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/51>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ be 2:00 p.m. Wednesday, January 16, 2013, at the ]Marshall Funeral Home Chapel[ with Dr. Greg Hook officiating.  Interment will]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "Marshall Funeral Home Chapel" ;
+        c:length     "28" ;
+        c:offset     "98" ;
+        c:prefix     " be 2:00 p.m. Wednesday, January 16, 2013, at the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ffe3480a-abe7-3145-bdfe-b1e4a35ad4cd> ;
+        c:suffix     " with Dr. Greg Hook officiating.  Interment will" .
+
+<http://d.opencalais.com/conf/pershash-1/fc7c428d-a460-3792-aed8-d2bbecfe6fd8>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.819" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.895" ;
+        c:subject             <http://d.opencalais.com/pershash-1/fc7c428d-a460-3792-aed8-d2bbecfe6fd8> .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/30>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[united in marriage to Betty Lois Reutlinger at ]Alva[.  He started hauling ice when he was 13, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "680" ;
+        c:prefix     "united in marriage to Betty Lois Reutlinger at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:suffix     ".  He started hauling ice when he was 13, and" .
+
+<http://d.opencalais.com/pershash-1/75b102c4-a4fd-3e8c-9c30-93ebb188c7b3>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Betty Lois Reutlinger" ;
+        c:confidencelevel    "0.963" ;
+        c:firstname          "Betty" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Reutlinger" ;
+        c:middlename         "Lois" ;
+        c:name               "Betty Lois Reutlinger" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/comphash-1/153250e5-46b6-3405-9864-2f9acf461a09>
+        a                    <http://s.opencalais.com/1/type/em/e/Company> ;
+        c:confidencelevel    "0.902" ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Boeing" ;
+        c:nationality        "N/A" .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/SocialTag/3>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Fred Figglehorn" ;
+        c:originalValue      "Fred Figglehorn" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/c2123e8b-b947-3ede-9a0a-265bec743ec9> .
+
+<http://d.opencalais.com/pershash-1/68bbc8a9-91b7-3361-aa46-93a2ae8d5323>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Sherry Ward" ;
+        c:confidencelevel    "0.961" ;
+        c:firstname          "Sherry" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Ward" ;
+        c:name               "Sherry Ward" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Relevance/17>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/02ac436e-01fb-3aa1-b7c6-73ea3535cf11> .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/59>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ September 10, 1952, he was united in marriage to ]Betty Lois Reutlinger at Alva[.  He started hauling ice when he was 13, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "Betty Lois Reutlinger at Alva" ;
+        c:length     "29" ;
+        c:offset     "655" ;
+        c:prefix     " September 10, 1952, he was united in marriage to " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/d5ab74c8-b1eb-36d3-a268-9ddaffc3ee9e> ;
+        c:suffix     ".  He started hauling ice when he was 13, and" .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/38>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[may be made through the funeral home at ]Fred's[ request to a scholarship for his grandson,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "Fred's" ;
+        c:length     "6" ;
+        c:offset     "1696" ;
+        c:prefix     "may be made through the funeral home at " ;
+        c:subject    <http://d.opencalais.com/comphash-1/7dab018f-99be-3fec-9e2e-8899e4e3b2b2> ;
+        c:suffix     " request to a scholarship for his grandson," .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/17>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[several body shops.  He returned to Alva where ]he[ worked at K&K Body Works for 27 years until]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "he" ;
+        c:length     "2" ;
+        c:offset     "833" ;
+        c:prefix     "several body shops.  He returned to Alva where " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9cb05679-6141-3ed2-b0b5-4859a23ffdcc> ;
+        c:suffix     " worked at K&K Body Works for 27 years until" .
+
+<http://d.opencalais.com/genericHasher-1/2f34e965-6e3b-34a9-856b-8ced9f64df45>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Alva" ;
+        c:person             <http://d.opencalais.com/pershash-1/9cb05679-6141-3ed2-b0b5-4859a23ffdcc> .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Relevance/5>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Relevance/25>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/75b102c4-a4fd-3e8c-9c30-93ebb188c7b3> .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/67>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and Jimmie.    \nFred is survived by his wife, ]Betty[, of Alva; one daughter, Sherry Ward and husband,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "Betty" ;
+        c:length     "5" ;
+        c:offset     "1342" ;
+        c:prefix     "and Jimmie.    \nFred is survived by his wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/a971ab49-ad44-37c9-9b3c-3fda593b916d> ;
+        c:suffix     ", of Alva; one daughter, Sherry Ward and husband," .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/46>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Cushenbery, son of the late Fred Allen and Dora ]May (Gaddie) Cushenbery, was born September 9, 1928, at Alva, Oklahoma[, and passed away January 12, 2013, at Alva,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "May (Gaddie) Cushenbery, was born September 9, 1928, at Alva, Oklahoma" ;
+        c:length     "70" ;
+        c:offset     "327" ;
+        c:prefix     "Cushenbery, son of the late Fred Allen and Dora " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8af047b9-8fb8-323e-b928-e293d95a90f2> ;
+        c:suffix     ", and passed away January 12, 2013, at Alva," .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/25>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[(Rex) and Jimmie.    \nFred is survived by ]his[ wife, Betty, of Alva; one daughter, Sherry Ward]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "1332" ;
+        c:prefix     "(Rex) and Jimmie.    \nFred is survived by " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9cb05679-6141-3ed2-b0b5-4859a23ffdcc> ;
+        c:suffix     " wife, Betty, of Alva; one daughter, Sherry Ward" .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Relevance/12>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/fc7c428d-a460-3792-aed8-d2bbecfe6fd8> .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/6>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[sister-in-law, Naoma Cushenbery, of Ark City, ]Kansas[; other relatives and friends.    \nMemorial]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "Kansas" ;
+        c:length     "6" ;
+        c:offset     "1592" ;
+        c:prefix     "sister-in-law, Naoma Cushenbery, of Ark City, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> ;
+        c:suffix     "; other relatives and friends.    \nMemorial" .
+
+<http://d.opencalais.com/genericHasher-1/8eade039-a4ea-3277-86f0-dccd360f428f>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Alva Municipal Cemetery" .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/75>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[   \nFred was a member of the Alva First ]Baptist Church[.  He loved football and was an avid fan of the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "Baptist Church" ;
+        c:length     "14" ;
+        c:offset     "940" ;
+        c:prefix     "   \nFred was a member of the Alva First " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a21a69b3-e9dd-341e-9fee-da93c550c744> ;
+        c:suffix     ".  He loved football and was an avid fan of the" .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/54>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and later moved to Wichita where he worked at ]Boeing[ and at several body shops.  He returned to Alva]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "Boeing" ;
+        c:length     "6" ;
+        c:offset     "772" ;
+        c:prefix     "and later moved to Wichita where he worked at " ;
+        c:subject    <http://d.opencalais.com/comphash-1/153250e5-46b6-3405-9864-2f9acf461a09> ;
+        c:suffix     " and at several body shops.  He returned to Alva" .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/33>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[   \nFred is survived by his wife, Betty, of ]Alva[; one daughter, Sherry Ward and husband, Jeff, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "1352" ;
+        c:prefix     "   \nFred is survived by his wife, Betty, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:suffix     "; one daughter, Sherry Ward and husband, Jeff, of" .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/12>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[the Korean Conflict.  On September 10, 1952, ]he[ was united in marriage to Betty Lois Reutlinger]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "he" ;
+        c:length     "2" ;
+        c:offset     "626" ;
+        c:prefix     "the Korean Conflict.  On September 10, 1952, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9cb05679-6141-3ed2-b0b5-4859a23ffdcc> ;
+        c:suffix     " was united in marriage to Betty Lois Reutlinger" .
+
+<http://d.opencalais.com/genericHasher-1/3708826b-e0c8-3827-8245-74bc51fff0bc>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Pratt" .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/meta>
+        a                 <http://s.opencalais.com/1/type/sys/DocInfoMeta> ;
+        c:contentType     "text/raw" ;
+        c:docId           <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:language        "English" ;
+        c:processingVer   "AllMetadata" ;
+        c:serverVersion   "OneCalais_8.3-RELEASE:364" ;
+        c:signature       "digestalg-1|ykldcd80g8oyTYlMgZCxOwdrNcw=|YoKFbHdIDSg0+mk0btSKlNJHsLozk33eN/dU0LsE/XPbDckWgR0hzg==" ;
+        c:stagsVer        "OneCalais_8.3-RELEASE-b11-2015-03-25_18:29:00" ;
+        c:submissionDate  "2015-05-26 17:19:26.219" ;
+        c:submitterCode   "0ca6a864-5659-789d-5f32-f365f695e757" .
+
+<http://d.opencalais.com/pershash-1/f2e5c258-3ced-3856-a31d-6567a520e9d1>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Travis Ward" ;
+        c:confidencelevel    "0.992" ;
+        c:firstname          "Travis" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Ward" ;
+        c:name               "Travis Ward" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/f7a18370-e4ee-3be6-a139-0d9a1bbd45d9>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.993" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.995" ;
+        c:subject             <http://d.opencalais.com/pershash-1/f7a18370-e4ee-3be6-a139-0d9a1bbd45d9> .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Relevance/20>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/pershash-1/2bd9f53a-91c1-3c04-b3f6-35bc47a63a17>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Fred Junior Cushenbery" ;
+        c:confidencelevel    "0.988" ;
+        c:firstname          "Fred" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Junior Cushenbery" ;
+        c:name               "Fred Junior Cushenbery" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/62>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Alva; one daughter, Sherry Ward and husband, ]Jeff, of Pratt, Kansas[; two grandchildren, Travis Ward of Ft. Worth,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "Jeff, of Pratt, Kansas" ;
+        c:length     "22" ;
+        c:offset     "1397" ;
+        c:prefix     "of Alva; one daughter, Sherry Ward and husband, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/7ca7d70f-ab01-3fbd-8102-c9253ff83daa> ;
+        c:suffix     "; two grandchildren, Travis Ward of Ft. Worth," .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/41>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[attended Alva Public Schools.  He served in the ]United States Army[ during the Korean Conflict.  On September 10,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "United States Army" ;
+        c:length     "18" ;
+        c:offset     "555" ;
+        c:prefix     "attended Alva Public Schools.  He served in the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/fce36612-627b-34d0-9874-611de4063865> ;
+        c:suffix     " during the Korean Conflict.  On September 10," .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/20>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[was a member of the Alva First Baptist Church.  ]He[ loved football and was an avid fan of the Green]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "He" ;
+        c:length     "2" ;
+        c:offset     "957" ;
+        c:prefix     "was a member of the Alva First Baptist Church.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9cb05679-6141-3ed2-b0b5-4859a23ffdcc> ;
+        c:suffix     " loved football and was an avid fan of the Green" .
+
+<http://d.opencalais.com/genericHasher-1/8af047b9-8fb8-323e-b928-e293d95a90f2>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonAttributes> ;
+        c:birthdate          "1928-09-09" ;
+        c:birthplace         <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:forenduserdisplay  "false" ;
+        c:gender             "M" ;
+        c:person             <http://d.opencalais.com/pershash-1/178dcd27-3508-32c6-a9f9-7d295bdd6e84> .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Relevance/8>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3708826b-e0c8-3827-8245-74bc51fff0bc> .
+
+<http://d.opencalais.com/pershash-1/a971ab49-ad44-37c9-9b3c-3fda593b916d>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Betty Jean" ;
+        c:confidencelevel    "0.997" ;
+        c:firstname          "Betty" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Jean" ;
+        c:name               "Betty Jean" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/pershash-1/fc7c428d-a460-3792-aed8-d2bbecfe6fd8>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Dora May" ;
+        c:confidencelevel    "0.819" ;
+        c:firstname          "Dora" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "May" ;
+        c:name               "Dora May (Gaddie)" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/178dcd27-3508-32c6-a9f9-7d295bdd6e84>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.448" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.492" ;
+        c:subject             <http://d.opencalais.com/pershash-1/178dcd27-3508-32c6-a9f9-7d295bdd6e84> .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Relevance/28>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/68bbc8a9-91b7-3361-aa46-93a2ae8d5323> .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/70>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[by his wife, Betty, of Alva; one daughter, ]Sherry Ward[ and husband, Jeff, of Pratt, Kansas; two]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "Sherry Ward" ;
+        c:length     "11" ;
+        c:offset     "1372" ;
+        c:prefix     "by his wife, Betty, of Alva; one daughter, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/68bbc8a9-91b7-3361-aa46-93a2ae8d5323> ;
+        c:suffix     " and husband, Jeff, of Pratt, Kansas; two" .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/1>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[United States Army during the Korean Conflict.  ]On September 10, 1952, he was united in marriage to Betty Lois Reutlinger[ at Alva.  He started hauling ice when he was 13,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "On September 10, 1952, he was united in marriage to Betty Lois Reutlinger" ;
+        c:length     "73" ;
+        c:offset     "603" ;
+        c:prefix     "United States Army during the Korean Conflict.  " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/480ca482-763e-30fd-aeab-287bdceaf7d4> ;
+        c:suffix     " at Alva.  He started hauling ice when he was 13," .
+
+<http://d.opencalais.com/genericHasher-1/c489280c-385d-3106-90ca-9210b3965ea8>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Virginia" .
+
+<http://d.opencalais.com/genericHasher-1/ffe3480a-abe7-3145-bdfe-b1e4a35ad4cd>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Marshall Funeral Home Chapel" .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/cat/2>
+        a                    <http://s.opencalais.com/1/type/cat/DocCat> ;
+        c:docId              <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Religion_Belief" ;
+        c:score              "0.860" .
+
+<http://d.opencalais.com/conf/comphash-1/153250e5-46b6-3405-9864-2f9acf461a09>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.902" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:resolution          "0.97463197" ;
+        c:statisticalfeature  "0.876" ;
+        c:subject             <http://d.opencalais.com/comphash-1/153250e5-46b6-3405-9864-2f9acf461a09> .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/49>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Ward of Ft. Worth, Texas, and Samantha Ward and ]her[ fiancé, Zach Pixler, of Pratt, Kansas, and one]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1495" ;
+        c:prefix     "Ward of Ft. Worth, Texas, and Samantha Ward and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/02ac436e-01fb-3aa1-b7c6-73ea3535cf11> ;
+        c:suffix     " fiancé, Zach Pixler, of Pratt, Kansas, and one" .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/28>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Cushenbery, was born September 9, 1928, at ]Alva[, Oklahoma, and passed away January 12, 2013, at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "383" ;
+        c:prefix     "Cushenbery, was born September 9, 1928, at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:suffix     ", Oklahoma, and passed away January 12, 2013, at" .
+
+<http://d.opencalais.com/genericHasher-1/ec5afa2c-4a7d-3b80-af7e-85b9f07da29c>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Green Bay Packers" ;
+        c:nationality        "American" ;
+        c:organizationtype   "sports" .
+
+<http://d.opencalais.com/conf/pershash-1/75b102c4-a4fd-3e8c-9c30-93ebb188c7b3>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.963" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.978" ;
+        c:subject             <http://d.opencalais.com/pershash-1/75b102c4-a4fd-3e8c-9c30-93ebb188c7b3> .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/SocialTag/1>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Alva Independent School District" ;
+        c:originalValue      "Alva Independent School District" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/2b59f114-10a6-3e2b-b17c-d7b150a0bba7> .
+
+<http://d.opencalais.com/genericHasher-1/fd24b51d-de9d-39d1-aa33-8cc1a6376470>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "wife" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/9cb05679-6141-3ed2-b0b5-4859a23ffdcc> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/a971ab49-ad44-37c9-9b3c-3fda593b916d> .
+
+<http://d.opencalais.com/pershash-1/02ac436e-01fb-3aa1-b7c6-73ea3535cf11>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Samantha Ward" ;
+        c:confidencelevel    "0.87" ;
+        c:firstname          "Samantha" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Ward" ;
+        c:name               "Samantha Ward" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/68bbc8a9-91b7-3361-aa46-93a2ae8d5323>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.961" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.976" ;
+        c:subject             <http://d.opencalais.com/pershash-1/68bbc8a9-91b7-3361-aa46-93a2ae8d5323> .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Relevance/15>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ec5afa2c-4a7d-3b80-af7e-85b9f07da29c> .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/9>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[   \nFred Junior Cushenbery, son of the late ]Fred Allen[ and Dora May (Gaddie) Cushenbery, was born]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "Fred Allen" ;
+        c:length     "10" ;
+        c:offset     "307" ;
+        c:prefix     "   \nFred Junior Cushenbery, son of the late " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9cb05679-6141-3ed2-b0b5-4859a23ffdcc> ;
+        c:suffix     " and Dora May (Gaddie) Cushenbery, was born" .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/57>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Funeral services for ]Fred Junior Cushenbery[ will be 2:00 p.m. Wednesday, January 16, 2013,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "Fred Junior Cushenbery" ;
+        c:length     "22" ;
+        c:offset     "21" ;
+        c:prefix     "Funeral services for " ;
+        c:subject    <http://d.opencalais.com/pershash-1/2bd9f53a-91c1-3c04-b3f6-35bc47a63a17> ;
+        c:suffix     " will be 2:00 p.m. Wednesday, January 16, 2013," .
+
+<http://d.opencalais.com/genericHasher-1/b6bf2c0d-0ac3-3aaa-a334-e02dfcbc3358>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Alva" ;
+        c:person             <http://d.opencalais.com/pershash-1/0824c880-7431-3846-b832-1042cfbe83e9> .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/36>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[one daughter, Sherry Ward and husband, Jeff, of ]Pratt[, Kansas; two grandchildren, Travis Ward of Ft.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "Pratt" ;
+        c:length     "5" ;
+        c:offset     "1406" ;
+        c:prefix     "one daughter, Sherry Ward and husband, Jeff, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3708826b-e0c8-3827-8245-74bc51fff0bc> ;
+        c:suffix     ", Kansas; two grandchildren, Travis Ward of Ft." .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/15>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ when he was 13, and later moved to Wichita where ]he[ worked at Boeing and at several body shops.  He]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "he" ;
+        c:length     "2" ;
+        c:offset     "759" ;
+        c:prefix     " when he was 13, and later moved to Wichita where " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9cb05679-6141-3ed2-b0b5-4859a23ffdcc> ;
+        c:suffix     " worked at Boeing and at several body shops.  He" .
+
+<http://d.opencalais.com/comphash-1/7dab018f-99be-3fec-9e2e-8899e4e3b2b2>
+        a                    <http://s.opencalais.com/1/type/em/e/Company> ;
+        c:confidencelevel    "0.896" ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Fred's" ;
+        c:nationality        "N/A" .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Relevance/3>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/9cb05679-6141-3ed2-b0b5-4859a23ffdcc> .
+
+<http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Marshall Funeral Home of Alva" .
+
+<http://d.opencalais.com/pershash-1/fa49ecd7-f186-3145-9aa3-0bfff951f18a>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Jeff" ;
+        c:confidencelevel    "0.977" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Jeff" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Relevance/23>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/2bd9f53a-91c1-3c04-b3f6-35bc47a63a17> .
+
+<http://d.opencalais.com/genericHasher-1/480ca482-763e-30fd-aeab-287bdceaf7d4>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:date                "1952-09-10" ;
+        c:datestring          "September 10, 1952" ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/75b102c4-a4fd-3e8c-9c30-93ebb188c7b3> , <http://d.opencalais.com/pershash-1/9cb05679-6141-3ed2-b0b5-4859a23ffdcc> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Kansas" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/62914270-0a1c-1bcc-880e-6dbe9fb82eb9>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:latitude            "31.4484328889" ;
+        c:longitude           "-97.7816569778" ;
+        c:name                "Texas,United States" ;
+        c:permid              "100299" ;
+        c:rcscode             "G:50" ;
+        c:shortname           "Texas" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/65>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Alva Municipal Cemetery under the direction of ]Marshall Funeral Home of Alva[.    \nFred Junior Cushenbery, son of the late]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "Marshall Funeral Home of Alva" ;
+        c:length     "29" ;
+        c:offset     "232" ;
+        c:prefix     "Alva Municipal Cemetery under the direction of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6bf2c0d-0ac3-3aaa-a334-e02dfcbc3358> ;
+        c:suffix     ".    \nFred Junior Cushenbery, son of the late" .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/44>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[]Funeral services[ for Fred Junior Cushenbery will be 2:00 p.m.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "Funeral services" ;
+        c:length     "16" ;
+        c:offset     "0" ;
+        c:prefix     "" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee> ;
+        c:suffix     " for Fred Junior Cushenbery will be 2:00 p.m." .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/23>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[belt buckles.    \nBesides his parents, ]he[ was preceded in death by seven sisters and six]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "he" ;
+        c:length     "2" ;
+        c:offset     "1123" ;
+        c:prefix     "belt buckles.    \nBesides his parents, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9cb05679-6141-3ed2-b0b5-4859a23ffdcc> ;
+        c:suffix     " was preceded in death by seven sisters and six" .
+
+<http://d.opencalais.com/genericHasher-1/1d00abce-f123-3f81-a1a5-6983b2487a19>
+        a                      <http://s.opencalais.com/1/type/em/r/PersonTravel> ;
+        c:forenduserdisplay    "false" ;
+        c:locationdestination  <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:person               <http://d.opencalais.com/pershash-1/9cb05679-6141-3ed2-b0b5-4859a23ffdcc> ;
+        c:status               "past" .
+
+<http://d.opencalais.com/pershash-1/5c9f83b2-dd70-35d2-8b43-89cbefe41752>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Rose Ann" ;
+        c:confidencelevel    "0.952" ;
+        c:firstname          "Rose" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Ann" ;
+        c:name               "Rose Ann" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/e419a91f-d27e-3cca-92a8-7d7038b0182b>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "City" .
+
+<http://d.opencalais.com/genericHasher-1/4e2e596b-2374-3041-a082-d9ca2b7b5c66>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:company            <http://d.opencalais.com/comphash-1/153250e5-46b6-3405-9864-2f9acf461a09> ;
+        c:forenduserdisplay  "true" ;
+        c:person             <http://d.opencalais.com/pershash-1/9cb05679-6141-3ed2-b0b5-4859a23ffdcc> ;
+        c:status             "past" .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/ComponentVersions>
+        a          <http://s.opencalais.com/1/type/sys/ComponentVersions> ;
+        c:docId    <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:version  "SECHeaderMetadataIM:OneCalais_8.3-RELEASE:198" , "People Override:258:258" , "Collector:OneCalais_8.3-RELEASE:113" , "BlackList:264:264" , "index-vessels:201505231718:201505231718" , "config-negativeSignature:258:258" , "config-drugs:258:258" , "config-refineries:258:258" , "SpanishIM:OneCalais_8.3-RELEASE:198" , "Dial4J:OneCalais_8.3-RELEASE:198" , "AutocoderRuntimeIM:OneCalais_8.3-RELEASE:198" , "OneCalaisIM:OneCalais_8.3-RELEASE:198" , "config-cse:271:271" , "SocialTags Index:201505191038:201505191038" , "NextTags:OneCalais_8.3-RELEASE:113" , "com.clearforest.infoext.dial4j.plugins-basistechconfig:OneCalais_8.3-RELEASE:225" , "Deals Index:201505261613:201505261613" , "People Index:201505261608:201505261608" , "WatchDog:OneCalais_8.3-RELEASE:113" , "config-sca-DataPackage:34:34" , "Housekeeper:OneCalais_8.3-RELEASE:113" , "config-vessels:258:258" , "config-physicalAssets-ports:258:258" , "FrenchIM:OneCalais_8.3-RELEASE:198" , "OA Override:271:271" , "BrokerResearchIM:OneCalais_8.3-RELEASE:198" , "OneCalais:OneCalais_8.3-RELEASE:364" , "OA Index:201505252208:201505252208" .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Relevance/31>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/0824c880-7431-3846-b832-1042cfbe83e9> .
+
+<https://permid.org/1-4295906539>
+        a             <http://s.opencalais.com/1/type/er/Company> ;
+        c:commonname  "Fred's" ;
+        c:docId       <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:legacyid    <http://d.opencalais.com/er/company/ralg-tr1r/5e4346f3-4bc0-36c2-87a5-c7be885e7ca4> ;
+        c:name        "Fred's Inc" ;
+        c:permid      "4295906539" ;
+        c:primaryric  "FRED.OQ" ;
+        c:score       "0.91496086" ;
+        c:subject     <http://d.opencalais.com/comphash-1/7dab018f-99be-3fec-9e2e-8899e4e3b2b2> ;
+        c:ticker      "FRED" .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Relevance/10>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/178dcd27-3508-32c6-a9f9-7d295bdd6e84> .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/4>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Sherry Ward and husband, Jeff, of Pratt, ]Kansas[; two grandchildren, Travis Ward of Ft. Worth,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "Kansas" ;
+        c:length     "6" ;
+        c:offset     "1413" ;
+        c:prefix     "Sherry Ward and husband, Jeff, of Pratt, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> ;
+        c:suffix     "; two grandchildren, Travis Ward of Ft. Worth," .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/73>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[request to a scholarship for his grandson, ]Travis Ward[, at the Southwestern Baptist Theological]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "Travis Ward" ;
+        c:length     "11" ;
+        c:offset     "1746" ;
+        c:prefix     "request to a scholarship for his grandson, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f2e5c258-3ced-3856-a31d-6567a520e9d1> ;
+        c:suffix     ", at the Southwestern Baptist Theological" .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/52>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Cushenbery, was born September 9, 1928, at Alva, ]Oklahoma[, and passed away January 12, 2013, at Alva,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "389" ;
+        c:prefix     " Cushenbery, was born September 9, 1928, at Alva, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", and passed away January 12, 2013, at Alva," .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/31>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and at several body shops.  He returned to ]Alva[ where he worked at K&K Body Works for 27]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "822" ;
+        c:prefix     "and at several body shops.  He returned to " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:suffix     " where he worked at K&K Body Works for 27" .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/10>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[the age of 84 years, 4 months, and 3 days.    \n]Fred[ attended Alva Public Schools.  He served in the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "Fred" ;
+        c:length     "4" ;
+        c:offset     "502" ;
+        c:prefix     "the age of 84 years, 4 months, and 3 days.    \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/9cb05679-6141-3ed2-b0b5-4859a23ffdcc> ;
+        c:suffix     " attended Alva Public Schools.  He served in the" .
+
+<http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Texas" .
+
+<http://d.opencalais.com/conf/pershash-1/f2e5c258-3ced-3856-a31d-6567a520e9d1>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.992" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.986" ;
+        c:subject             <http://d.opencalais.com/pershash-1/f2e5c258-3ced-3856-a31d-6567a520e9d1> .
+
+<http://d.opencalais.com/conf/pershash-1/2bd9f53a-91c1-3c04-b3f6-35bc47a63a17>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.988" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.992" ;
+        c:subject             <http://d.opencalais.com/pershash-1/2bd9f53a-91c1-3c04-b3f6-35bc47a63a17> .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Relevance/18>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/5c9f83b2-dd70-35d2-8b43-89cbefe41752> .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/60>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[he worked at Boeing and at several body shops.  ]He returned to Alva[ where he worked at K&K Body Works for 27]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "He returned to Alva" ;
+        c:length     "19" ;
+        c:offset     "807" ;
+        c:prefix     "he worked at Boeing and at several body shops.  " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/2f34e965-6e3b-34a9-856b-8ced9f64df45> ;
+        c:suffix     " where he worked at K&K Body Works for 27" .
+
+<http://d.opencalais.com/genericHasher-1/56041a53-e43f-3cfe-91dc-e8b644cb8011>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Willis" .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/39>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Cushenbery, son of the late Fred Allen and Dora ]May (Gaddie) Cushenbery[, was born September 9, 1928, at Alva, Oklahoma,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "May (Gaddie) Cushenbery" ;
+        c:length     "23" ;
+        c:offset     "327" ;
+        c:prefix     "Cushenbery, son of the late Fred Allen and Dora " ;
+        c:subject    <http://d.opencalais.com/pershash-1/178dcd27-3508-32c6-a9f9-7d295bdd6e84> ;
+        c:suffix     ", was born September 9, 1928, at Alva, Oklahoma," .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/18>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[worked at K&K Body Works for 27 years until ]his[ retirement.    \nFred was a member of the Alva]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "884" ;
+        c:prefix     "worked at K&K Body Works for 27 years until " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9cb05679-6141-3ed2-b0b5-4859a23ffdcc> ;
+        c:suffix     " retirement.    \nFred was a member of the Alva" .
+
+<http://d.opencalais.com/conf/pershash-1/a971ab49-ad44-37c9-9b3c-3fda593b916d>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.997" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.995" ;
+        c:subject             <http://d.opencalais.com/pershash-1/a971ab49-ad44-37c9-9b3c-3fda593b916d> .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Relevance/6>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c489280c-385d-3106-90ca-9210b3965ea8> .
+
+<http://d.opencalais.com/genericHasher-1/af8918ab-0b53-3836-a300-536101bcb16b>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:forenduserdisplay  "true" ;
+        c:organization       <http://d.opencalais.com/genericHasher-1/fce36612-627b-34d0-9874-611de4063865> ;
+        c:person             <http://d.opencalais.com/pershash-1/9cb05679-6141-3ed2-b0b5-4859a23ffdcc> ;
+        c:status             "past" .
+
+<http://d.opencalais.com/pershash-1/9cb05679-6141-3ed2-b0b5-4859a23ffdcc>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Fred Allen" ;
+        c:confidencelevel    "0.999" ;
+        c:firstname          "Fred" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Allen" ;
+        c:name               "Fred Allen" ;
+        c:nationality        "N/A" ;
+        c:persontype         "sports" .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Relevance/26>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/a971ab49-ad44-37c9-9b3c-3fda593b916d> .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/68>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Ann, Betty Jean, Charles (Rex) and Jimmie.    \n]Fred is survived by his wife, Betty, of Alva[; one daughter, Sherry Ward and husband, Jeff, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "Fred is survived by his wife, Betty, of Alva" ;
+        c:length     "44" ;
+        c:offset     "1312" ;
+        c:prefix     "Ann, Betty Jean, Charles (Rex) and Jimmie.    \n" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/d5c4a30c-0609-38c0-bf42-df2542b20612> ;
+        c:suffix     "; one daughter, Sherry Ward and husband, Jeff, of" .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/47>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[2013, at the Marshall Funeral Home Chapel with ]Dr. Greg Hook[ officiating.  Interment will be in the Alva]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "Dr. Greg Hook" ;
+        c:length     "13" ;
+        c:offset     "132" ;
+        c:prefix     "2013, at the Marshall Funeral Home Chapel with " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b15bbdd8-ce8a-3cd5-b7bb-fc005f1000c8> ;
+        c:suffix     " officiating.  Interment will be in the Alva" .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/26>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Greg Hook officiating.  Interment will be in the ]Alva Municipal Cemetery[ under the direction of Marshall Funeral Home of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "Alva Municipal Cemetery" ;
+        c:length     "23" ;
+        c:offset     "185" ;
+        c:prefix     " Greg Hook officiating.  Interment will be in the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8eade039-a4ea-3277-86f0-dccd360f428f> ;
+        c:suffix     " under the direction of Marshall Funeral Home of" .
+
+<http://d.opencalais.com/genericHasher-1/9ce7d255-5430-3522-9ce6-815b90d02771>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Alva" ;
+        c:person             <http://d.opencalais.com/pershash-1/a971ab49-ad44-37c9-9b3c-3fda593b916d> .
+
+<http://d.opencalais.com/conf/pershash-1/02ac436e-01fb-3aa1-b7c6-73ea3535cf11>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.87" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.917" ;
+        c:subject             <http://d.opencalais.com/pershash-1/02ac436e-01fb-3aa1-b7c6-73ea3535cf11> .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Relevance/13>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce> .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/7>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[he worked at Boeing and at several body shops.  ]He returned to Alva[ where he worked at K&K Body Works for 27]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "He returned to Alva" ;
+        c:length     "19" ;
+        c:offset     "807" ;
+        c:prefix     "he worked at Boeing and at several body shops.  " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/1d00abce-f123-3f81-a1a5-6983b2487a19> ;
+        c:suffix     " where he worked at K&K Body Works for 27" .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/76>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Alva Municipal Cemetery under the direction of ]Marshall Funeral[ Home of Alva.    \nFred Junior Cushenbery, son of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "Marshall Funeral" ;
+        c:length     "16" ;
+        c:offset     "232" ;
+        c:prefix     "Alva Municipal Cemetery under the direction of " ;
+        c:subject    <http://d.opencalais.com/pershash-1/0824c880-7431-3846-b832-1042cfbe83e9> ;
+        c:suffix     " Home of Alva.    \nFred Junior Cushenbery, son of" .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/55>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and one sister-in-law, Naoma Cushenbery, of Ark ]City[, Kansas; other relatives and friends.   ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "City" ;
+        c:length     "4" ;
+        c:offset     "1586" ;
+        c:prefix     "and one sister-in-law, Naoma Cushenbery, of Ark " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e419a91f-d27e-3cca-92a8-7d7038b0182b> ;
+        c:suffix     ", Kansas; other relatives and friends.   " .
+
+<http://d.opencalais.com/conf/comphash-1/7dab018f-99be-3fec-9e2e-8899e4e3b2b2>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.896" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:resolution          "0.91496086" ;
+        c:statisticalfeature  "0.876" ;
+        c:subject             <http://d.opencalais.com/comphash-1/7dab018f-99be-3fec-9e2e-8899e4e3b2b2> .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/34>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Helen, Blanche, Glenn (Bud), Juanita, Willis, ]Virginia[, Max, Rose Ann, Betty Jean, Charles (Rex) and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "Virginia" ;
+        c:length     "8" ;
+        c:offset     "1245" ;
+        c:prefix     "Helen, Blanche, Glenn (Bud), Juanita, Willis, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c489280c-385d-3106-90ca-9210b3965ea8> ;
+        c:suffix     ", Max, Rose Ann, Betty Jean, Charles (Rex) and" .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/13>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in marriage to Betty Lois Reutlinger at Alva.  ]He[ started hauling ice when he was 13, and later]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "He" ;
+        c:length     "2" ;
+        c:offset     "687" ;
+        c:prefix     "in marriage to Betty Lois Reutlinger at Alva.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9cb05679-6141-3ed2-b0b5-4859a23ffdcc> ;
+        c:suffix     " started hauling ice when he was 13, and later" .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Relevance/1>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> .
+
+<http://d.opencalais.com/conf/pershash-1/fa49ecd7-f186-3145-9aa3-0bfff951f18a>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.977" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.932" ;
+        c:subject             <http://d.opencalais.com/pershash-1/fa49ecd7-f186-3145-9aa3-0bfff951f18a> .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Relevance/21>
+        a                <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId          <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:relevance      "0.2" ;
+        c:relevancecont  "0.03" ;
+        c:subject        <http://d.opencalais.com/comphash-1/153250e5-46b6-3405-9864-2f9acf461a09> .
+
+<http://d.opencalais.com/genericHasher-1/d5c4a30c-0609-38c0-bf42-df2542b20612>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/a971ab49-ad44-37c9-9b3c-3fda593b916d> , <http://d.opencalais.com/pershash-1/9cb05679-6141-3ed2-b0b5-4859a23ffdcc> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/63>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Pixler, of Pratt, Kansas, and one sister-in-law, ]Naoma Cushenbery[, of Ark City, Kansas; other relatives and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "Naoma Cushenbery" ;
+        c:length     "16" ;
+        c:offset     "1561" ;
+        c:prefix     " Pixler, of Pratt, Kansas, and one sister-in-law, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f7a18370-e4ee-3be6-a139-0d9a1bbd45d9> ;
+        c:suffix     ", of Ark City, Kansas; other relatives and" .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/42>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Cushenbery, son of the late Fred Allen and ]Dora May (Gaddie)[ Cushenbery, was born September 9, 1928, at Alva,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "Dora May (Gaddie)" ;
+        c:length     "17" ;
+        c:offset     "322" ;
+        c:prefix     "Cushenbery, son of the late Fred Allen and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/fc7c428d-a460-3792-aed8-d2bbecfe6fd8> ;
+        c:suffix     " Cushenbery, was born September 9, 1928, at Alva," .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/21>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of the Green Bay Packers and the OU Sooners.  ]He[ also enjoyed woodworking and collecting belt]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "He" ;
+        c:length     "2" ;
+        c:offset     "1041" ;
+        c:prefix     "of the Green Bay Packers and the OU Sooners.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9cb05679-6141-3ed2-b0b5-4859a23ffdcc> ;
+        c:suffix     " also enjoyed woodworking and collecting belt" .
+
+<http://d.opencalais.com/conf/pershash-1/5c9f83b2-dd70-35d2-8b43-89cbefe41752>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.952" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.934" ;
+        c:subject             <http://d.opencalais.com/pershash-1/5c9f83b2-dd70-35d2-8b43-89cbefe41752> .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Relevance/9>
+        a                <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId          <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:relevance      "0.2" ;
+        c:relevancecont  "0.03" ;
+        c:subject        <http://d.opencalais.com/comphash-1/7dab018f-99be-3fec-9e2e-8899e4e3b2b2> .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Relevance/29>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/f2e5c258-3ced-3856-a31d-6567a520e9d1> .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/2>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[two grandchildren, Travis Ward of Ft. Worth, ]Texas[, and Samantha Ward and her fiancé, Zach Pixler,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "Texas" ;
+        c:length     "5" ;
+        c:offset     "1466" ;
+        c:prefix     "two grandchildren, Travis Ward of Ft. Worth, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> ;
+        c:suffix     ", and Samantha Ward and her fiancé, Zach Pixler," .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/71>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Jeff, of Pratt, Kansas; two grandchildren, ]Travis Ward[ of Ft. Worth, Texas, and Samantha Ward and her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "Travis Ward" ;
+        c:length     "11" ;
+        c:offset     "1440" ;
+        c:prefix     "Jeff, of Pratt, Kansas; two grandchildren, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f2e5c258-3ced-3856-a31d-6567a520e9d1> ;
+        c:suffix     " of Ft. Worth, Texas, and Samantha Ward and her" .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/50>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Glenn (Bud), Juanita, Willis, Virginia, Max, ]Rose Ann[, Betty Jean, Charles (Rex) and Jimmie.    \nFred]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "Rose Ann" ;
+        c:length     "8" ;
+        c:offset     "1260" ;
+        c:prefix     "Glenn (Bud), Juanita, Willis, Virginia, Max, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/5c9f83b2-dd70-35d2-8b43-89cbefe41752> ;
+        c:suffix     ", Betty Jean, Charles (Rex) and Jimmie.    \nFred" .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/29>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Oklahoma, and passed away January 12, 2013, at ]Alva[, Oklahoma, at the age of 84 years, 4 months, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "436" ;
+        c:prefix     "Oklahoma, and passed away January 12, 2013, at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:suffix     ", Oklahoma, at the age of 84 years, 4 months, and" .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/lid/DefaultLangId>
+        a                    <http://s.opencalais.com/1/type/lid/DefaultLangId> ;
+        c:docId              <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:forenduserdisplay  "false" ;
+        c:lang               <http://d.opencalais.com/lid/DefaultLangId/English> ;
+        c:permid             "505062" .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/SocialTag/2>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Alva" ;
+        c:originalValue      "Alva" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/17f61973-ed95-369b-b381-dec22ce26b2a> .
+
+<http://d.opencalais.com/genericHasher-1/d5ab74c8-b1eb-36d3-a268-9ddaffc3ee9e>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Alva" ;
+        c:person             <http://d.opencalais.com/pershash-1/75b102c4-a4fd-3e8c-9c30-93ebb188c7b3> .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Relevance/16>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/b15bbdd8-ce8a-3cd5-b7bb-fc005f1000c8> .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/58>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[direction of Marshall Funeral Home of Alva.    \n]Fred Junior Cushenbery[, son of the late Fred Allen and Dora May]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "Fred Junior Cushenbery" ;
+        c:length     "22" ;
+        c:offset     "267" ;
+        c:prefix     "direction of Marshall Funeral Home of Alva.    \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/2bd9f53a-91c1-3c04-b3f6-35bc47a63a17> ;
+        c:suffix     ", son of the late Fred Allen and Dora May" .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/37>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Samantha Ward and her fiancé, Zach Pixler, of ]Pratt[, Kansas, and one sister-in-law, Naoma]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "Pratt" ;
+        c:length     "5" ;
+        c:offset     "1523" ;
+        c:prefix     "Samantha Ward and her fiancé, Zach Pixler, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3708826b-e0c8-3827-8245-74bc51fff0bc> ;
+        c:suffix     ", Kansas, and one sister-in-law, Naoma" .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/16>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[he worked at Boeing and at several body shops.  ]He[ returned to Alva where he worked at K&K Body]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "He" ;
+        c:length     "2" ;
+        c:offset     "807" ;
+        c:prefix     "he worked at Boeing and at several body shops.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9cb05679-6141-3ed2-b0b5-4859a23ffdcc> ;
+        c:suffix     " returned to Alva where he worked at K&K Body" .
+
+<http://d.opencalais.com/conf/pershash-1/9cb05679-6141-3ed2-b0b5-4859a23ffdcc>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.999" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.998" ;
+        c:subject             <http://d.opencalais.com/pershash-1/9cb05679-6141-3ed2-b0b5-4859a23ffdcc> .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Relevance/4>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8eade039-a4ea-3277-86f0-dccd360f428f> .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Relevance/24>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/f7a18370-e4ee-3be6-a139-0d9a1bbd45d9> .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616>
+        a                  <http://s.opencalais.com/1/type/sys/DocInfo> ;
+        c:calaisRequestID  "fc10536b-e805-2e0d-14d9-13c6e0b7848c" ;
+        c:docDate          "2015-05-26 17:19:26.576" ;
+        c:docTitle         "" ;
+        c:document         "Funeral services for Fred Junior Cushenbery will be 2:00 p.m. Wednesday, January 16, 2013, at the Marshall Funeral Home Chapel with Dr. Greg Hook officiating.  Interment will be in the Alva Municipal Cemetery under the direction of Marshall Funeral Home of Alva.    \nFred Junior Cushenbery, son of the late Fred Allen and Dora May (Gaddie) Cushenbery, was born September 9, 1928, at Alva, Oklahoma, and passed away January 12, 2013, at Alva, Oklahoma, at the age of 84 years, 4 months, and 3 days.    \nFred attended Alva Public Schools.  He served in the United States Army during the Korean Conflict.  On September 10, 1952, he was united in marriage to Betty Lois Reutlinger at Alva.  He started hauling ice when he was 13, and later moved to Wichita where he worked at Boeing and at several body shops.  He returned to Alva where he worked at K&amp;K Body Works for 27 years until his retirement.    \nFred was a member of the Alva First Baptist Church.  He loved football and was an avid fan of the Green Bay Packers and the OU Sooners.  He also enjoyed woodworking and collecting belt buckles.    \nBesides his parents, he was preceded in death by seven sisters and six brothers, Thelma, Claude, Helen, Blanche, Glenn (Bud), Juanita, Willis, Virginia, Max, Rose Ann, Betty Jean, Charles (Rex) and Jimmie.    \nFred is survived by his wife, Betty, of Alva; one daughter, Sherry Ward and husband, Jeff, of Pratt, Kansas; two grandchildren, Travis Ward of Ft. Worth, Texas, and Samantha Ward and her fiancé, Zach Pixler, of Pratt, Kansas, and one sister-in-law, Naoma Cushenbery, of Ark City, Kansas; other relatives and friends.    \nMemorial contributions may be made through the funeral home at Fred's request to a scholarship for his grandson, Travis Ward, at the Southwestern Baptist Theological Seminary. \n\t\t\t" ;
+        c:id               "http://id.opencalais.com/5ooQEISC*7qJ6t7Oprip2A" ;
+        c:ontology         "http://163.231.4.65/owlschema/8.3/onecalais.owl.allmetadata.xml" .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/66>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ (Bud), Juanita, Willis, Virginia, Max, Rose Ann, ]Betty Jean[, Charles (Rex) and Jimmie.    \nFred is survived]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "Betty Jean" ;
+        c:length     "10" ;
+        c:offset     "1270" ;
+        c:prefix     " (Bud), Juanita, Willis, Virginia, Max, Rose Ann, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/a971ab49-ad44-37c9-9b3c-3fda593b916d> ;
+        c:suffix     ", Charles (Rex) and Jimmie.    \nFred is survived" .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/45>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ He loved football and was an avid fan of the ]Green Bay Packers[ and the OU Sooners.  He also enjoyed woodworking]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "Green Bay Packers" ;
+        c:length     "17" ;
+        c:offset     "1002" ;
+        c:prefix     " He loved football and was an avid fan of the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ec5afa2c-4a7d-3b80-af7e-85b9f07da29c> ;
+        c:suffix     " and the OU Sooners.  He also enjoyed woodworking" .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/24>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Ann, Betty Jean, Charles (Rex) and Jimmie.    \n]Fred[ is survived by his wife, Betty, of Alva; one]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "Fred" ;
+        c:length     "4" ;
+        c:offset     "1312" ;
+        c:prefix     "Ann, Betty Jean, Charles (Rex) and Jimmie.    \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/9cb05679-6141-3ed2-b0b5-4859a23ffdcc> ;
+        c:suffix     " is survived by his wife, Betty, of Alva; one" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/1f4482fa-8b1f-d76a-8943-1a7e3fa9bf1a>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:latitude            "37.6666466469" ;
+        c:longitude           "-78.6145553005" ;
+        c:name                "Virginia,United States" ;
+        c:permid              "100328" ;
+        c:rcscode             "G:87" ;
+        c:shortname           "Virginia" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/c489280c-385d-3106-90ca-9210b3965ea8> .
+
+<http://d.opencalais.com/genericHasher-1/4680be3e-00b0-353a-9f03-e678044b331a>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Alva, Oklahoma" ;
+        c:person             <http://d.opencalais.com/pershash-1/9cb05679-6141-3ed2-b0b5-4859a23ffdcc> .
+
+<http://d.opencalais.com/pershash-1/b15bbdd8-ce8a-3cd5-b7bb-fc005f1000c8>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Greg Hook" ;
+        c:confidencelevel    "0.94" ;
+        c:firstname          "Greg" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Hook" ;
+        c:name               "Greg Hook" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Relevance/11>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/fce36612-627b-34d0-9874-611de4063865> .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/5>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Ward and her fiancé, Zach Pixler, of Pratt, ]Kansas[, and one sister-in-law, Naoma Cushenbery, of Ark]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "Kansas" ;
+        c:length     "6" ;
+        c:offset     "1530" ;
+        c:prefix     "Ward and her fiancé, Zach Pixler, of Pratt, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> ;
+        c:suffix     ", and one sister-in-law, Naoma Cushenbery, of Ark" .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/74>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[(Rex) and Jimmie.    \nFred is survived by ]his wife, Betty, of Alva[; one daughter, Sherry Ward and husband, Jeff, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "his wife, Betty, of Alva" ;
+        c:length     "24" ;
+        c:offset     "1332" ;
+        c:prefix     "(Rex) and Jimmie.    \nFred is survived by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/fd24b51d-de9d-39d1-aa33-8cc1a6376470> ;
+        c:suffix     "; one daughter, Sherry Ward and husband, Jeff, of" .
+
+<http://d.opencalais.com/genericHasher-1/a21a69b3-e9dd-341e-9fee-da93c550c744>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Baptist Church" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/53>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and passed away January 12, 2013, at Alva, ]Oklahoma[, at the age of 84 years, 4 months, and 3 days.  ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "442" ;
+        c:prefix     "and passed away January 12, 2013, at Alva, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", at the age of 84 years, 4 months, and 3 days.  " .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/32>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[his retirement.    \nFred was a member of the ]Alva[ First Baptist Church.  He loved football and was]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "929" ;
+        c:prefix     "his retirement.    \nFred was a member of the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:suffix     " First Baptist Church.  He loved football and was" .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/11>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[3 days.    \nFred attended Alva Public Schools.  ]He[ served in the United States Army during the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "He" ;
+        c:length     "2" ;
+        c:offset     "538" ;
+        c:prefix     "3 days.    \nFred attended Alva Public Schools.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9cb05679-6141-3ed2-b0b5-4859a23ffdcc> ;
+        c:suffix     " served in the United States Army during the" .
+
+<http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee>
+        a                    <http://s.opencalais.com/1/type/em/e/IndustryTerm> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Funeral services" .
+
+<http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oklahoma" .
+
+<http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Alva" .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Relevance/19>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ffe3480a-abe7-3145-bdfe-b1e4a35ad4cd> .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/61>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Works for 27 years until his retirement.    \n]Fred was a member of the Alva[ First Baptist Church.  He loved football and was]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "Fred was a member of the Alva" ;
+        c:length     "29" ;
+        c:offset     "904" ;
+        c:prefix     "Works for 27 years until his retirement.    \n" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/2f34e965-6e3b-34a9-856b-8ced9f64df45> ;
+        c:suffix     " First Baptist Church.  He loved football and was" .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/40>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[3 days.    \nFred attended Alva Public Schools.  ]He served in the United States Army[ during the Korean Conflict.  On September 10,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "He served in the United States Army" ;
+        c:length     "35" ;
+        c:offset     "538" ;
+        c:prefix     "3 days.    \nFred attended Alva Public Schools.  " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/af8918ab-0b53-3836-a300-536101bcb16b> ;
+        c:suffix     " during the Korean Conflict.  On September 10," .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/19>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Works for 27 years until his retirement.    \n]Fred[ was a member of the Alva First Baptist Church. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "Fred" ;
+        c:length     "4" ;
+        c:offset     "904" ;
+        c:prefix     "Works for 27 years until his retirement.    \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/9cb05679-6141-3ed2-b0b5-4859a23ffdcc> ;
+        c:suffix     " was a member of the Alva First Baptist Church. " .
+
+<http://d.opencalais.com/genericHasher-1/7ca7d70f-ab01-3fbd-8102-c9253ff83daa>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Pratt" ;
+        c:person             <http://d.opencalais.com/pershash-1/fa49ecd7-f186-3145-9aa3-0bfff951f18a> .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/ec80b062-8d1e-123a-1d6e-8bd0b7355690>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:latitude            "38.45" ;
+        c:longitude           "-96.5333" ;
+        c:name                "Kansas,United States" ;
+        c:permid              "100151" ;
+        c:rcscode             "G:6D" ;
+        c:shortname           "Kansas" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Relevance/7>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/56041a53-e43f-3cfe-91dc-e8b644cb8011> .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Relevance/27>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/fa49ecd7-f186-3145-9aa3-0bfff951f18a> .
+
+<http://d.opencalais.com/genericHasher-1/fce36612-627b-34d0-9874-611de4063865>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "United States Army" ;
+        c:nationality        "American" ;
+        c:organizationtype   "governmental military" .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/69>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Alva; one daughter, Sherry Ward and husband, ]Jeff[, of Pratt, Kansas; two grandchildren, Travis]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "Jeff" ;
+        c:length     "4" ;
+        c:offset     "1397" ;
+        c:prefix     "of Alva; one daughter, Sherry Ward and husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/fa49ecd7-f186-3145-9aa3-0bfff951f18a> ;
+        c:suffix     ", of Pratt, Kansas; two grandchildren, Travis" .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/48>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Travis Ward of Ft. Worth, Texas, and ]Samantha Ward[ and her fiancé, Zach Pixler, of Pratt, Kansas,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "Samantha Ward" ;
+        c:length     "13" ;
+        c:offset     "1477" ;
+        c:prefix     "Travis Ward of Ft. Worth, Texas, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/02ac436e-01fb-3aa1-b7c6-73ea3535cf11> ;
+        c:suffix     " and her fiancé, Zach Pixler, of Pratt, Kansas," .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/cat/1>
+        a                    <http://s.opencalais.com/1/type/cat/DocCat> ;
+        c:docId              <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Human Interest" ;
+        c:score              "1.000" .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/27>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[under the direction of Marshall Funeral Home of ]Alva[.    \nFred Junior Cushenbery, son of the late]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "257" ;
+        c:prefix     "under the direction of Marshall Funeral Home of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:suffix     ".    \nFred Junior Cushenbery, son of the late" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/e9e27c26-4013-8712-a5f0-97dcdc412c26>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:latitude            "35.5607802899" ;
+        c:longitude           "-96.8460570462" ;
+        c:name                "Oklahoma,United States" ;
+        c:permid              "100229" ;
+        c:rcscode             "G:9H" ;
+        c:shortname           "Oklahoma" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Relevance/14>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee> .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/8>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[   \nFred Junior Cushenbery, son of the late ]Fred Allen and Dora May (Gaddie) Cushenbery, was born September 9, 1928, at Alva, Oklahoma, and passed away January 12, 2013, at Alva, Oklahoma[, at the age of 84 years, 4 months, and 3 days.  ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "Fred Allen and Dora May (Gaddie) Cushenbery, was born September 9, 1928, at Alva, Oklahoma, and passed away January 12, 2013, at Alva, Oklahoma" ;
+        c:length     "143" ;
+        c:offset     "307" ;
+        c:prefix     "   \nFred Junior Cushenbery, son of the late " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4680be3e-00b0-353a-9f03-e678044b331a> ;
+        c:suffix     ", at the age of 84 years, 4 months, and 3 days.  " .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/56>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and Jimmie.    \nFred is survived by his wife, ]Betty, of Alva[; one daughter, Sherry Ward and husband, Jeff, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "Betty, of Alva" ;
+        c:length     "14" ;
+        c:offset     "1342" ;
+        c:prefix     "and Jimmie.    \nFred is survived by his wife, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9ce7d255-5430-3522-9ce6-815b90d02771> ;
+        c:suffix     "; one daughter, Sherry Ward and husband, Jeff, of" .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/35>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Claude, Helen, Blanche, Glenn (Bud), Juanita, ]Willis[, Virginia, Max, Rose Ann, Betty Jean, Charles]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "Willis" ;
+        c:length     "6" ;
+        c:offset     "1237" ;
+        c:prefix     "Claude, Helen, Blanche, Glenn (Bud), Juanita, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/56041a53-e43f-3cfe-91dc-e8b644cb8011> ;
+        c:suffix     ", Virginia, Max, Rose Ann, Betty Jean, Charles" .
+
+<http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616/Instance/14>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Reutlinger at Alva.  He started hauling ice when ]he[ was 13, and later moved to Wichita where he]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/14d4935f-9712-3f7b-b949-7c460efdd616> ;
+        c:exact      "he" ;
+        c:length     "2" ;
+        c:offset     "715" ;
+        c:prefix     " Reutlinger at Alva.  He started hauling ice when " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9cb05679-6141-3ed2-b0b5-4859a23ffdcc> ;
+        c:suffix     " was 13, and later moved to Wichita where he" .

@@ -1,0 +1,1215 @@
+#Relations: FamilyRelation, PersonAttributes, PersonCareer, PersonEducation, PersonLocation, PersonRelation
+#City: Carbondale, Los Angeles, Oklahoma City
+#Facility: University School, University of Oklahoma School
+#Organization: Mayflower Congregational Church, Oklahoma State University, Oklahoma University School of Journalism, University of Oklahoma School of Journalism
+#Person: Anna Belle Shafer, Brandon, Carl Shafer, David Shafer, Deidra Kistler, Dickie, Dirk Alan Shafer, Karen, Luella Ake, Patsy Glass
+#Position: model , screenwriter, and personal trainer
+#ProvinceOrState: California, Illinois, Oklahoma
+#Region: Northwestern Oklahoma
+@prefix c:     <http://s.opencalais.com/1/pred/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa>
+        a                  <http://s.opencalais.com/1/type/sys/DocInfo> ;
+        c:calaisRequestID  "48fc32ba-c06b-fb22-14d9-144ca966fa60" ;
+        c:docDate          "2015-05-26 17:28:34.490" ;
+        c:docTitle         "" ;
+        c:document         "Memorial service for Dirk Alan Shafer will be 3:00 p.m. Saturday, March 28, 2015, at the Mayflower Congregational Church, 3901 N. W. 63rd Street, Oklahoma City.    \n  Dirk Alan Shafer was born November 7, 1962, in Carbondale, Illinois, and died suddenly in Los Angeles, California, on March 5, 2015.    \n  He graduated from the University of Oklahoma School of Journalism and moved to Los Angeles to follow his dream.  He pursued acting and directing, was a model, screenwriter, and personal trainer.  Dirk wrote and directed two ground breaking movies.  He lived in Los Angeles 29 years.    \n  He was preceded in death by his brother, Dickie; and his grandparents, Carl and Anna Belle Shafer, and Luella Ake.    \n  Dirk is survived by his mother, Patsy Glass; his father, David Shafer and wife, Karen; his sister, Deidra Kistler and husband, Brandon; nephews, Fain and Ewing Kistler; numerous aunts, uncles, cousins, and friends.    \n  Memorial contributions may be made through the funeral home to the Northwestern Oklahoma State University Foundation Shafer Family Scholarship or the Oklahoma University School of Journalism. \n\t\t\t" ;
+        c:id               "http://id.opencalais.com/9FgLZv2af-*bcpox71h-6w" ;
+        c:ontology         "http://163.231.4.65/owlschema/8.3/onecalais.owl.allmetadata.xml" .
+
+<http://d.opencalais.com/genericHasher-1/b8620f48-da64-3b29-b094-f0b9edcda36f>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oklahoma City" .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Relevance/3>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8c173672-3a05-352d-b76a-862209e52161> .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Instance/11>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Memorial service for ]Dirk Alan Shafer[ will be 3:00 p.m. Saturday, March 28, 2015, at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:exact      "Dirk Alan Shafer" ;
+        c:length     "16" ;
+        c:offset     "21" ;
+        c:prefix     "Memorial service for " ;
+        c:subject    <http://d.opencalais.com/pershash-1/d95a6407-e6ab-3172-ba8c-f854c0be09fc> ;
+        c:suffix     " will be 3:00 p.m. Saturday, March 28, 2015, at" .
+
+<http://d.opencalais.com/pershash-1/683d860a-f2e6-3e48-aacb-68ea810180c5>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Dickie" ;
+        c:confidencelevel    "0.87" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Dickie" ;
+        c:name               "Dickie" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Instance/24>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[David Shafer and wife, Karen; his sister, ]Deidra Kistler[ and husband, Brandon; nephews, Fain and Ewing]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:exact      "Deidra Kistler" ;
+        c:length     "14" ;
+        c:offset     "815" ;
+        c:prefix     "David Shafer and wife, Karen; his sister, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/c9c11934-2735-3046-8206-6c1e4619f6ce> ;
+        c:suffix     " and husband, Brandon; nephews, Fain and Ewing" .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Instance/37>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and moved to Los Angeles to follow his dream.  ]He pursued acting and directing, was a model, screenwriter, and personal trainer[.  Dirk wrote and directed two ground breaking]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:exact      "He pursued acting and directing, was a model, screenwriter, and personal trainer" ;
+        c:length     "80" ;
+        c:offset     "419" ;
+        c:prefix     "and moved to Los Angeles to follow his dream.  " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/fdeae946-16f6-3fe0-b4b4-b017aa307ba4> ;
+        c:suffix     ".  Dirk wrote and directed two ground breaking" .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Instance/8>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[be 3:00 p.m. Saturday, March 28, 2015, at the ]Mayflower Congregational Church[, 3901 N. W. 63rd Street, Oklahoma City.    \n ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:exact      "Mayflower Congregational Church" ;
+        c:length     "31" ;
+        c:offset     "89" ;
+        c:prefix     "be 3:00 p.m. Saturday, March 28, 2015, at the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ce6fcdec-9d3a-39ea-ae80-693dbd89e4d4> ;
+        c:suffix     ", 3901 N. W. 63rd Street, Oklahoma City.    \n " .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Relevance/17>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/dec3ca7d-45d6-342a-a04a-f0ce192bf812> .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Instance/31>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[   \n  He was preceded in death by his brother, ]Dickie[; and his grandparents, Carl and Anna Belle]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:exact      "Dickie" ;
+        c:length     "6" ;
+        c:offset     "636" ;
+        c:prefix     "   \n  He was preceded in death by his brother, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/683d860a-f2e6-3e48-aacb-68ea810180c5> ;
+        c:suffix     "; and his grandparents, Carl and Anna Belle" .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Instance/44>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Illinois, and died suddenly in Los Angeles, ]California[, on March 5, 2015.    \n  He graduated from the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:exact      "California" ;
+        c:length     "10" ;
+        c:offset     "270" ;
+        c:prefix     "Illinois, and died suddenly in Los Angeles, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9679b237-33e8-3478-ba13-d9af3c4b943e> ;
+        c:suffix     ", on March 5, 2015.    \n  He graduated from the" .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Instance/2>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Glass; his father, David Shafer and wife, Karen; ]his sister, Deidra Kistler and husband, Brandon[; nephews, Fain and Ewing Kistler; numerous]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:exact      "his sister, Deidra Kistler and husband, Brandon" ;
+        c:length     "47" ;
+        c:offset     "803" ;
+        c:prefix     " Glass; his father, David Shafer and wife, Karen; " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/93c50c36-ddd3-3e86-9217-c4a86a68ed3d> ;
+        c:suffix     "; nephews, Fain and Ewing Kistler; numerous" .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Relevance/8>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/c9c11934-2735-3046-8206-6c1e4619f6ce> .
+
+<http://d.opencalais.com/pershash-1/c39e5887-fd6a-3077-a700-f26d137265ab>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Patsy Glass" ;
+        c:confidencelevel    "0.961" ;
+        c:firstname          "Patsy" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Glass" ;
+        c:name               "Patsy Glass" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Instance/16>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[a model, screenwriter, and personal trainer.  ]Dirk[ wrote and directed two ground breaking movies. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:exact      "Dirk" ;
+        c:length     "4" ;
+        c:offset     "502" ;
+        c:prefix     "a model, screenwriter, and personal trainer.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/d95a6407-e6ab-3172-ba8c-f854c0be09fc> ;
+        c:suffix     " wrote and directed two ground breaking movies. " .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Relevance/11>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/683d860a-f2e6-3e48-aacb-68ea810180c5> .
+
+<http://d.opencalais.com/pershash-1/c9c11934-2735-3046-8206-6c1e4619f6ce>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Deidra Kistler" ;
+        c:confidencelevel    "0.993" ;
+        c:firstname          "Deidra" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Kistler" ;
+        c:name               "Deidra Kistler" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Instance/29>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Los Angeles, California, on March 5, 2015.    \n  ]He graduated from the University of Oklahoma School of Journalism[ and moved to Los Angeles to follow his dream. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:exact      "He graduated from the University of Oklahoma School of Journalism" ;
+        c:length     "65" ;
+        c:offset     "306" ;
+        c:prefix     " Los Angeles, California, on March 5, 2015.    \n  " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/df361e4f-c5a0-383c-8b5b-953b1b01e306> ;
+        c:suffix     " and moved to Los Angeles to follow his dream. " .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/cat/2>
+        a                    <http://s.opencalais.com/1/type/cat/DocCat> ;
+        c:docId              <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Human Interest" ;
+        c:score              "1.000" .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Relevance/24>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/02b99921-dcc6-3dcf-b540-ee9c902b0a2b> .
+
+<http://d.opencalais.com/conf/pershash-1/d95a6407-e6ab-3172-ba8c-f854c0be09fc>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.988" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.992" ;
+        c:subject             <http://d.opencalais.com/pershash-1/d95a6407-e6ab-3172-ba8c-f854c0be09fc> .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Relevance/2>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/144fa827-8c85-36f8-a18d-d491a7592e42> .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Instance/10>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[grandparents, Carl and Anna Belle Shafer, and ]Luella Ake[.    \n  Dirk is survived by his mother, Patsy]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:exact      "Luella Ake" ;
+        c:length     "10" ;
+        c:offset     "698" ;
+        c:prefix     "grandparents, Carl and Anna Belle Shafer, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/3409c519-dcbe-36b9-af50-a004832adc3d> ;
+        c:suffix     ".    \n  Dirk is survived by his mother, Patsy" .
+
+<http://d.opencalais.com/conf/pershash-1/dec3ca7d-45d6-342a-a04a-f0ce192bf812>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.942" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/dec3ca7d-45d6-342a-a04a-f0ce192bf812> .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Instance/51>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Foundation Shafer Family Scholarship or the ]Oklahoma University School of Journalism[. \n\t\t\t]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:exact      "Oklahoma University School of Journalism" ;
+        c:length     "40" ;
+        c:offset     "1087" ;
+        c:prefix     "Foundation Shafer Family Scholarship or the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/02b99921-dcc6-3dcf-b540-ee9c902b0a2b> ;
+        c:suffix     ". \n\t\t\t" .
+
+<http://d.opencalais.com/pershash-1/a51ece16-1a61-3586-b553-32467a82fb9c>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "David Shafer" ;
+        c:confidencelevel    "0.999" ;
+        c:firstname          "David" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Shafer" ;
+        c:name               "David Shafer" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Instance/23>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[  \n  Dirk is survived by his mother, Patsy Glass; ]his father, David Shafer and wife, Karen[; his sister, Deidra Kistler and husband,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:exact      "his father, David Shafer and wife, Karen" ;
+        c:length     "40" ;
+        c:offset     "761" ;
+        c:prefix     "  \n  Dirk is survived by his mother, Patsy Glass; " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/05846f9a-2f78-352a-b88d-c118d2f2c9bc> ;
+        c:suffix     "; his sister, Deidra Kistler and husband," .
+
+<http://d.opencalais.com/genericHasher-1/72fa29d5-ce05-323d-b2d0-ebe6083559ab>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "mother" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/d95a6407-e6ab-3172-ba8c-f854c0be09fc> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/c39e5887-fd6a-3077-a700-f26d137265ab> .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Instance/36>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Shafer was born November 7, 1962, in Carbondale, ]Illinois[, and died suddenly in Los Angeles, California,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:exact      "Illinois" ;
+        c:length     "8" ;
+        c:offset     "226" ;
+        c:prefix     " Shafer was born November 7, 1962, in Carbondale, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/dd140cc8-655b-3f67-a3e2-54ed672db5a4> ;
+        c:suffix     ", and died suddenly in Los Angeles, California," .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/SocialTag/3>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Shafer" ;
+        c:originalValue      "Shafer (GRTC Pulse station)" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/f021ff99-433c-37ab-b011-d2b1760d4d8d> .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Instance/7>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ his dream.  He pursued acting and directing, was ]a model, screenwriter, and personal trainer[.  Dirk wrote and directed two ground breaking]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:exact      "a model, screenwriter, and personal trainer" ;
+        c:length     "43" ;
+        c:offset     "456" ;
+        c:prefix     " his dream.  He pursued acting and directing, was " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/7c0b285f-00d6-359a-be3e-fe2ac78f1f1e> ;
+        c:suffix     ".  Dirk wrote and directed two ground breaking" .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Instance/49>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Shafer Family Scholarship or the Oklahoma ]University School[ of Journalism. \n\t\t\t]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:exact      "University School" ;
+        c:length     "17" ;
+        c:offset     "1096" ;
+        c:prefix     "Shafer Family Scholarship or the Oklahoma " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/767630a7-83e0-354d-a889-c739405334eb> ;
+        c:suffix     " of Journalism. \n\t\t\t" .
+
+<http://d.opencalais.com/genericHasher-1/172c6b35-c381-3b47-81a8-c5391e7befc6>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Los Angeles, California" ;
+        c:person             <http://d.opencalais.com/pershash-1/d95a6407-e6ab-3172-ba8c-f854c0be09fc> .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Relevance/16>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/1c4de883-827f-35a6-bf51-df37441a8e08> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/9c147196-160d-8555-537a-06b783fe54af>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "California" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:latitude            "34.0522" ;
+        c:longitude           "-118.2428" ;
+        c:name                "Los Angeles,California,United States" ;
+        c:rcscode             "G:1S" ;
+        c:shortname           "Los Angeles" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/874eaab9-7b66-36e3-9650-8de7a5001cf9> .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Instance/30>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Congregational Church, 3901 N. W. 63rd Street, ]Oklahoma City[.    \n  Dirk Alan Shafer was born November 7,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:exact      "Oklahoma City" ;
+        c:length     "13" ;
+        c:offset     "146" ;
+        c:prefix     "Congregational Church, 3901 N. W. 63rd Street, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b8620f48-da64-3b29-b094-f0b9edcda36f> ;
+        c:suffix     ".    \n  Dirk Alan Shafer was born November 7," .
+
+<http://d.opencalais.com/conf/pershash-1/17197313-5b8b-30a1-9075-2bb5ea3bc071>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.942" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/17197313-5b8b-30a1-9075-2bb5ea3bc071> .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Instance/43>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[29 years.    \n  He was preceded in death by ]his brother, Dickie[; and his grandparents, Carl and Anna Belle]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:exact      "his brother, Dickie" ;
+        c:length     "19" ;
+        c:offset     "623" ;
+        c:prefix     "29 years.    \n  He was preceded in death by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/023f9fc7-406f-3b5b-bd83-3021a589f198> ;
+        c:suffix     "; and his grandparents, Carl and Anna Belle" .
+
+<http://d.opencalais.com/pershash-1/1c4de883-827f-35a6-bf51-df37441a8e08>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Anna Belle Shafer" ;
+        c:confidencelevel    "0.901" ;
+        c:firstname          "Anna" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Shafer" ;
+        c:middlename         "Belle" ;
+        c:name               "Anna Belle Shafer" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/86006a8e-d4dc-382e-b9b9-e6eecf3dd241>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oklahoma State University" ;
+        c:nationality        "American" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/fd9e1e90-96a9-04ff-1397-445c4e93208b>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:latitude            "36.4885198674" ;
+        c:longitude           "-119.701379437" ;
+        c:name                "California,United States" ;
+        c:permid              "100049" ;
+        c:rcscode             "G:4V" ;
+        c:shortname           "California" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/9679b237-33e8-3478-ba13-d9af3c4b943e> .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Instance/1>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[on March 5, 2015.    \n  He graduated from the ]University of Oklahoma School of Journalism[ and moved to Los Angeles to follow his dream. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:exact      "University of Oklahoma School of Journalism" ;
+        c:length     "43" ;
+        c:offset     "328" ;
+        c:prefix     "on March 5, 2015.    \n  He graduated from the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/59188fc7-195d-386e-828e-c7381609d38a> ;
+        c:suffix     " and moved to Los Angeles to follow his dream. " .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Relevance/7>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/pershash-1/d95a6407-e6ab-3172-ba8c-f854c0be09fc> .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Instance/15>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and moved to Los Angeles to follow his dream.  ]He[ pursued acting and directing, was a model,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:exact      "He" ;
+        c:length     "2" ;
+        c:offset     "419" ;
+        c:prefix     "and moved to Los Angeles to follow his dream.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/d95a6407-e6ab-3172-ba8c-f854c0be09fc> ;
+        c:suffix     " pursued acting and directing, was a model," .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Relevance/10>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b8620f48-da64-3b29-b094-f0b9edcda36f> .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Instance/28>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[3901 N. W. 63rd Street, Oklahoma City.    \n  ]Dirk Alan Shafer was born November 7, 1962, in Carbondale, Illinois, and died suddenly in Los Angeles, California, on March 5, 2015[.    \n  He graduated from the University of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:exact      "Dirk Alan Shafer was born November 7, 1962, in Carbondale, Illinois, and died suddenly in Los Angeles, California, on March 5, 2015" ;
+        c:length     "131" ;
+        c:offset     "167" ;
+        c:prefix     "3901 N. W. 63rd Street, Oklahoma City.    \n  " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/172c6b35-c381-3b47-81a8-c5391e7befc6> ;
+        c:suffix     ".    \n  He graduated from the University of" .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/cat/1>
+        a                    <http://s.opencalais.com/1/type/cat/DocCat> ;
+        c:docId              <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Entertainment_Culture" ;
+        c:score              "1.000" .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Relevance/23>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/767630a7-83e0-354d-a889-c739405334eb> .
+
+<http://d.opencalais.com/conf/pershash-1/3409c519-dcbe-36b9-af50-a004832adc3d>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/3409c519-dcbe-36b9-af50-a004832adc3d> .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Relevance/1>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/59188fc7-195d-386e-828e-c7381609d38a> .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Instance/50>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[  \n  Dirk is survived by his mother, Patsy Glass; ]his father, David Shafer and wife, Karen[; his sister, Deidra Kistler and husband,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:exact      "his father, David Shafer and wife, Karen" ;
+        c:length     "40" ;
+        c:offset     "761" ;
+        c:prefix     "  \n  Dirk is survived by his mother, Patsy Glass; " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/84d5ad08-15c6-3667-9e3c-56eb55f54629> ;
+        c:suffix     "; his sister, Deidra Kistler and husband," .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/meta>
+        a                 <http://s.opencalais.com/1/type/sys/DocInfoMeta> ;
+        c:contentType     "text/raw" ;
+        c:docId           <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:language        "English" ;
+        c:processingVer   "AllMetadata" ;
+        c:serverVersion   "OneCalais_8.3-RELEASE:364" ;
+        c:signature       "digestalg-1|GIGOVsKhJOk5f1v8+z5Oxevm22k=|UYbSSAtwPTH5kzt0wU/HI/YOZkhn0csZJETOmzGvc5FRkjmYNkN1MQ==" ;
+        c:stagsVer        "OneCalais_8.3-RELEASE-b11-2015-03-25_18:29:00" ;
+        c:submissionDate  "2015-05-26 17:28:34.198" ;
+        c:submitterCode   "0ca6a864-5659-789d-5f32-f365f695e757" .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Instance/22>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[  \n  Dirk is survived by his mother, Patsy Glass; ]his[ father, David Shafer and wife, Karen; his]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "761" ;
+        c:prefix     "  \n  Dirk is survived by his mother, Patsy Glass; " ;
+        c:subject    <http://d.opencalais.com/pershash-1/d95a6407-e6ab-3172-ba8c-f854c0be09fc> ;
+        c:suffix     " father, David Shafer and wife, Karen; his" .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Instance/35>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Foundation Shafer Family Scholarship or the ]Oklahoma[ University School of Journalism.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "1087" ;
+        c:prefix     "Foundation Shafer Family Scholarship or the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     " University School of Journalism." .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/SocialTag/2>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Carbondale" ;
+        c:originalValue      "Carbondale" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/97c7d2c9-c847-3591-ac93-e86f68b08bb6> .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Instance/6>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[may be made through the funeral home to the ]Northwestern Oklahoma[ State University Foundation Shafer Family]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:exact      "Northwestern Oklahoma" ;
+        c:length     "21" ;
+        c:offset     "1004" ;
+        c:prefix     "may be made through the funeral home to the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8c173672-3a05-352d-b76a-862209e52161> ;
+        c:suffix     " State University Foundation Shafer Family" .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Instance/48>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[by his brother, Dickie; and his grandparents, ]Carl[ and Anna Belle Shafer, and Luella Ake.    \n ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:exact      "Carl" ;
+        c:length     "4" ;
+        c:offset     "666" ;
+        c:prefix     "by his brother, Dickie; and his grandparents, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/e59fc3e9-25a8-3829-b29e-195d0d2f7f4c> ;
+        c:suffix     " and Anna Belle Shafer, and Luella Ake.    \n " .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Relevance/15>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/c39e5887-fd6a-3077-a700-f26d137265ab> .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Instance/42>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[on March 5, 2015.    \n  He graduated from the ]University of Oklahoma School[ of Journalism and moved to Los Angeles to follow]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:exact      "University of Oklahoma School" ;
+        c:length     "29" ;
+        c:offset     "328" ;
+        c:prefix     "on March 5, 2015.    \n  He graduated from the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/da6ef175-9930-3202-aa03-62468abe3d0a> ;
+        c:suffix     " of Journalism and moved to Los Angeles to follow" .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Relevance/6>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/3409c519-dcbe-36b9-af50-a004832adc3d> .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Instance/14>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ of Journalism and moved to Los Angeles to follow ]his[ dream.  He pursued acting and directing, was a]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "407" ;
+        c:prefix     " of Journalism and moved to Los Angeles to follow " ;
+        c:subject    <http://d.opencalais.com/pershash-1/d95a6407-e6ab-3172-ba8c-f854c0be09fc> ;
+        c:suffix     " dream.  He pursued acting and directing, was a" .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Instance/27>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[two ground breaking movies.  He lived in ]Los Angeles[ 29 years.    \n  He was preceded in death by his]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:exact      "Los Angeles" ;
+        c:length     "11" ;
+        c:offset     "567" ;
+        c:prefix     "two ground breaking movies.  He lived in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/874eaab9-7b66-36e3-9650-8de7a5001cf9> ;
+        c:suffix     " 29 years.    \n  He was preceded in death by his" .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Relevance/22>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/e59fc3e9-25a8-3829-b29e-195d0d2f7f4c> .
+
+<http://d.opencalais.com/conf/pershash-1/e59fc3e9-25a8-3829-b29e-195d0d2f7f4c>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.87" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.893" ;
+        c:subject             <http://d.opencalais.com/pershash-1/e59fc3e9-25a8-3829-b29e-195d0d2f7f4c> .
+
+<http://d.opencalais.com/genericHasher-1/ce6fcdec-9d3a-39ea-ae80-693dbd89e4d4>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Mayflower Congregational Church" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/dd140cc8-655b-3f67-a3e2-54ed672db5a4>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Illinois" .
+
+<http://d.opencalais.com/pershash-1/d95a6407-e6ab-3172-ba8c-f854c0be09fc>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Dirk Alan Shafer" ;
+        c:confidencelevel    "0.988" ;
+        c:firstname          "Dirk" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Shafer" ;
+        c:middlename         "Alan" ;
+        c:name               "Dirk Alan Shafer" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Instance/21>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and Luella Ake.    \n  Dirk is survived by ]his[ mother, Patsy Glass; his father, David Shafer]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "736" ;
+        c:prefix     "and Luella Ake.    \n  Dirk is survived by " ;
+        c:subject    <http://d.opencalais.com/pershash-1/d95a6407-e6ab-3172-ba8c-f854c0be09fc> ;
+        c:suffix     " mother, Patsy Glass; his father, David Shafer" .
+
+<http://d.opencalais.com/pershash-1/dec3ca7d-45d6-342a-a04a-f0ce192bf812>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Karen" ;
+        c:confidencelevel    "0.942" ;
+        c:firstname          "Karen" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Karen" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Instance/34>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[2015.    \n  He graduated from the University of ]Oklahoma[ School of Journalism and moved to Los Angeles to]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "342" ;
+        c:prefix     "2015.    \n  He graduated from the University of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     " School of Journalism and moved to Los Angeles to" .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/SocialTag/1>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "David Shafer" ;
+        c:originalValue      "David Shafer (politician)" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/4622dbed-bf68-33b8-a7a4-674f88754c2c> .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Instance/5>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Glass; his father, David Shafer and wife, Karen; ]his sister, Deidra Kistler and husband, Brandon[; nephews, Fain and Ewing Kistler; numerous]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:exact      "his sister, Deidra Kistler and husband, Brandon" ;
+        c:length     "47" ;
+        c:offset     "803" ;
+        c:prefix     " Glass; his father, David Shafer and wife, Karen; " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3f275cab-7407-31d7-ba20-cb72cb833fc5> ;
+        c:suffix     "; nephews, Fain and Ewing Kistler; numerous" .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Instance/47>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Karen; his sister, Deidra Kistler and husband, ]Brandon[; nephews, Fain and Ewing Kistler; numerous]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:exact      "Brandon" ;
+        c:length     "7" ;
+        c:offset     "843" ;
+        c:prefix     "Karen; his sister, Deidra Kistler and husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/17197313-5b8b-30a1-9075-2bb5ea3bc071> ;
+        c:suffix     "; nephews, Fain and Ewing Kistler; numerous" .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Instance/19>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[29 years.    \n  He was preceded in death by ]his[ brother, Dickie; and his grandparents, Carl and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "623" ;
+        c:prefix     "29 years.    \n  He was preceded in death by " ;
+        c:subject    <http://d.opencalais.com/pershash-1/d95a6407-e6ab-3172-ba8c-f854c0be09fc> ;
+        c:suffix     " brother, Dickie; and his grandparents, Carl and" .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Relevance/14>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/dd140cc8-655b-3f67-a3e2-54ed672db5a4> .
+
+<http://d.opencalais.com/genericHasher-1/02b99921-dcc6-3dcf-b540-ee9c902b0a2b>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oklahoma University School of Journalism" ;
+        c:nationality        "American" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/172b0fdb-43ff-cd44-b65b-40c844cf3508>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Illinois" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:latitude            "37.7272" ;
+        c:longitude           "-89.2167" ;
+        c:name                "Carbondale,Illinois,United States" ;
+        c:shortname           "Carbondale" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/144fa827-8c85-36f8-a18d-d491a7592e42> .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Instance/41>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Patsy Glass; his father, David Shafer and wife, ]Karen[; his sister, Deidra Kistler and husband,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:exact      "Karen" ;
+        c:length     "5" ;
+        c:offset     "796" ;
+        c:prefix     "Patsy Glass; his father, David Shafer and wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/dec3ca7d-45d6-342a-a04a-f0ce192bf812> ;
+        c:suffix     "; his sister, Deidra Kistler and husband," .
+
+<http://d.opencalais.com/conf/pershash-1/683d860a-f2e6-3e48-aacb-68ea810180c5>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.87" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.887" ;
+        c:subject             <http://d.opencalais.com/pershash-1/683d860a-f2e6-3e48-aacb-68ea810180c5> .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Relevance/5>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ce6fcdec-9d3a-39ea-ae80-693dbd89e4d4> .
+
+<http://d.opencalais.com/pershash-1/17197313-5b8b-30a1-9075-2bb5ea3bc071>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Brandon" ;
+        c:confidencelevel    "0.942" ;
+        c:firstname          "Brandon" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Brandon" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Instance/13>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Los Angeles, California, on March 5, 2015.    \n  ]He[ graduated from the University of Oklahoma School]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:exact      "He" ;
+        c:length     "2" ;
+        c:offset     "306" ;
+        c:prefix     " Los Angeles, California, on March 5, 2015.    \n  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/d95a6407-e6ab-3172-ba8c-f854c0be09fc> ;
+        c:suffix     " graduated from the University of Oklahoma School" .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Instance/26>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Oklahoma School of Journalism and moved to ]Los Angeles[ to follow his dream.  He pursued acting and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:exact      "Los Angeles" ;
+        c:length     "11" ;
+        c:offset     "385" ;
+        c:prefix     "of Oklahoma School of Journalism and moved to " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/874eaab9-7b66-36e3-9650-8de7a5001cf9> ;
+        c:suffix     " to follow his dream.  He pursued acting and" .
+
+<http://d.opencalais.com/genericHasher-1/767630a7-83e0-354d-a889-c739405334eb>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "University School" .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Relevance/21>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/17197313-5b8b-30a1-9075-2bb5ea3bc071> .
+
+<http://d.opencalais.com/genericHasher-1/3f275cab-7407-31d7-ba20-cb72cb833fc5>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "sister" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/a51ece16-1a61-3586-b553-32467a82fb9c> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/c9c11934-2735-3046-8206-6c1e4619f6ce> .
+
+<http://d.opencalais.com/genericHasher-1/05846f9a-2f78-352a-b88d-c118d2f2c9bc>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "wife" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/d95a6407-e6ab-3172-ba8c-f854c0be09fc> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/dec3ca7d-45d6-342a-a04a-f0ce192bf812> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/f24ef023-f5ce-f4ba-d403-af6634f7297d>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:latitude            "35.4675" ;
+        c:longitude           "-97.5161" ;
+        c:name                "Oklahoma City,Oklahoma,United States" ;
+        c:rcscode             "G:2BF" ;
+        c:shortname           "Oklahoma City" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/b8620f48-da64-3b29-b094-f0b9edcda36f> .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Instance/39>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[3901 N. W. 63rd Street, Oklahoma City.    \n  ]Dirk Alan Shafer was born November 7, 1962, in Carbondale, Illinois[, and died suddenly in Los Angeles, California,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:exact      "Dirk Alan Shafer was born November 7, 1962, in Carbondale, Illinois" ;
+        c:length     "67" ;
+        c:offset     "167" ;
+        c:prefix     "3901 N. W. 63rd Street, Oklahoma City.    \n  " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b2af6ec9-c876-3d38-bb8d-694ae207d8d8> ;
+        c:suffix     ", and died suddenly in Los Angeles, California," .
+
+<http://d.opencalais.com/genericHasher-1/9679b237-33e8-3478-ba13-d9af3c4b943e>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "California" .
+
+<http://d.opencalais.com/genericHasher-1/df361e4f-c5a0-383c-8b5b-953b1b01e306>
+        a                       <http://s.opencalais.com/1/type/em/r/PersonEducation> ;
+        c:forenduserdisplay     "false" ;
+        c:person                <http://d.opencalais.com/pershash-1/d95a6407-e6ab-3172-ba8c-f854c0be09fc> ;
+        c:schoolororganization  "University of Oklahoma School of Journalism" .
+
+<http://d.opencalais.com/genericHasher-1/7c0b285f-00d6-359a-be3e-fe2ac78f1f1e>
+        a                    <http://s.opencalais.com/1/type/em/e/Position> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "model , screenwriter, and personal trainer" .
+
+<http://d.opencalais.com/pershash-1/3409c519-dcbe-36b9-af50-a004832adc3d>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Luella Ake" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Luella" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Ake" ;
+        c:name               "Luella Ake" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Relevance/19>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9679b237-33e8-3478-ba13-d9af3c4b943e> .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Instance/20>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and Anna Belle Shafer, and Luella Ake.    \n  ]Dirk[ is survived by his mother, Patsy Glass; his]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:exact      "Dirk" ;
+        c:length     "4" ;
+        c:offset     "716" ;
+        c:prefix     "and Anna Belle Shafer, and Luella Ake.    \n  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/d95a6407-e6ab-3172-ba8c-f854c0be09fc> ;
+        c:suffix     " is survived by his mother, Patsy Glass; his" .
+
+<http://d.opencalais.com/genericHasher-1/8c173672-3a05-352d-b76a-862209e52161>
+        a                    <http://s.opencalais.com/1/type/em/e/Region> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Northwestern Oklahoma" .
+
+<http://d.opencalais.com/genericHasher-1/93c50c36-ddd3-3e86-9217-c4a86a68ed3d>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "husband" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/a51ece16-1a61-3586-b553-32467a82fb9c> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/17197313-5b8b-30a1-9075-2bb5ea3bc071> .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/lid/DefaultLangId>
+        a                    <http://s.opencalais.com/1/type/lid/DefaultLangId> ;
+        c:docId              <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:forenduserdisplay  "false" ;
+        c:lang               <http://d.opencalais.com/lid/DefaultLangId/English> ;
+        c:permid             "505062" .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Instance/33>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[through the funeral home to the Northwestern ]Oklahoma State University[ Foundation Shafer Family Scholarship or the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:exact      "Oklahoma State University" ;
+        c:length     "25" ;
+        c:offset     "1017" ;
+        c:prefix     "through the funeral home to the Northwestern " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/86006a8e-d4dc-382e-b9b9-e6eecf3dd241> ;
+        c:suffix     " Foundation Shafer Family Scholarship or the" .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/ComponentVersions>
+        a          <http://s.opencalais.com/1/type/sys/ComponentVersions> ;
+        c:docId    <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:version  "Deals Index:201505261613:201505261613" , "config-cse:271:271" , "WatchDog:OneCalais_8.3-RELEASE:113" , "Housekeeper:OneCalais_8.3-RELEASE:113" , "config-negativeSignature:258:258" , "Collector:OneCalais_8.3-RELEASE:113" , "NextTags:OneCalais_8.3-RELEASE:113" , "SpanishIM:OneCalais_8.3-RELEASE:198" , "config-physicalAssets-ports:258:258" , "SocialTags Index:201505191038:201505191038" , "index-vessels:201505231718:201505231718" , "BrokerResearchIM:OneCalais_8.3-RELEASE:198" , "OA Index:201505252208:201505252208" , "config-vessels:258:258" , "AutocoderRuntimeIM:OneCalais_8.3-RELEASE:198" , "Dial4J:OneCalais_8.3-RELEASE:198" , "com.clearforest.infoext.dial4j.plugins-basistechconfig:OneCalais_8.3-RELEASE:225" , "OneCalais:OneCalais_8.3-RELEASE:364" , "SECHeaderMetadataIM:OneCalais_8.3-RELEASE:198" , "OneCalaisIM:OneCalais_8.3-RELEASE:198" , "config-refineries:258:258" , "People Override:258:258" , "FrenchIM:OneCalais_8.3-RELEASE:198" , "BlackList:264:264" , "config-drugs:258:258" , "People Index:201505261608:201505261608" , "OA Override:271:271" , "config-sca-DataPackage:34:34" .
+
+<http://d.opencalais.com/conf/pershash-1/c39e5887-fd6a-3077-a700-f26d137265ab>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.961" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.976" ;
+        c:subject             <http://d.opencalais.com/pershash-1/c39e5887-fd6a-3077-a700-f26d137265ab> .
+
+<http://d.opencalais.com/genericHasher-1/144fa827-8c85-36f8-a18d-d491a7592e42>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Carbondale" .
+
+<http://d.opencalais.com/conf/pershash-1/c9c11934-2735-3046-8206-6c1e4619f6ce>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.993" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.995" ;
+        c:subject             <http://d.opencalais.com/pershash-1/c9c11934-2735-3046-8206-6c1e4619f6ce> .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Instance/4>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and Luella Ake.    \n  Dirk is survived by ]his mother, Patsy Glass[; his father, David Shafer and wife, Karen; his]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:exact      "his mother, Patsy Glass" ;
+        c:length     "23" ;
+        c:offset     "736" ;
+        c:prefix     "and Luella Ake.    \n  Dirk is survived by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/72fa29d5-ce05-323d-b2d0-ebe6083559ab> ;
+        c:suffix     "; his father, David Shafer and wife, Karen; his" .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Instance/46>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Glass; his father, David Shafer and wife, Karen; ]his[ sister, Deidra Kistler and husband, Brandon;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "803" ;
+        c:prefix     " Glass; his father, David Shafer and wife, Karen; " ;
+        c:subject    <http://d.opencalais.com/pershash-1/a51ece16-1a61-3586-b553-32467a82fb9c> ;
+        c:suffix     " sister, Deidra Kistler and husband, Brandon;" .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Instance/18>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ movies.  He lived in Los Angeles 29 years.    \n  ]He[ was preceded in death by his brother, Dickie;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:exact      "He" ;
+        c:length     "2" ;
+        c:offset     "595" ;
+        c:prefix     " movies.  He lived in Los Angeles 29 years.    \n  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/d95a6407-e6ab-3172-ba8c-f854c0be09fc> ;
+        c:suffix     " was preceded in death by his brother, Dickie;" .
+
+<http://d.opencalais.com/genericHasher-1/fdeae946-16f6-3fe0-b4b4-b017aa307ba4>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:forenduserdisplay  "true" ;
+        c:organization       <http://d.opencalais.com/genericHasher-1/59188fc7-195d-386e-828e-c7381609d38a> ;
+        c:person             <http://d.opencalais.com/pershash-1/d95a6407-e6ab-3172-ba8c-f854c0be09fc> ;
+        c:position           "model , screenwriter, and personal trainer" ;
+        c:status             "past" .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Relevance/13>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Instance/40>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[brother, Dickie; and his grandparents, Carl and ]Anna Belle Shafer[, and Luella Ake.    \n  Dirk is survived by his]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:exact      "Anna Belle Shafer" ;
+        c:length     "17" ;
+        c:offset     "675" ;
+        c:prefix     "brother, Dickie; and his grandparents, Carl and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/1c4de883-827f-35a6-bf51-df37441a8e08> ;
+        c:suffix     ", and Luella Ake.    \n  Dirk is survived by his" .
+
+<http://d.opencalais.com/conf/pershash-1/a51ece16-1a61-3586-b553-32467a82fb9c>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.999" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.997" ;
+        c:subject             <http://d.opencalais.com/pershash-1/a51ece16-1a61-3586-b553-32467a82fb9c> .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Relevance/4>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/7c0b285f-00d6-359a-be3e-fe2ac78f1f1e> .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Instance/12>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[3901 N. W. 63rd Street, Oklahoma City.    \n  ]Dirk Alan Shafer[ was born November 7, 1962, in Carbondale,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:exact      "Dirk Alan Shafer" ;
+        c:length     "16" ;
+        c:offset     "167" ;
+        c:prefix     "3901 N. W. 63rd Street, Oklahoma City.    \n  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/d95a6407-e6ab-3172-ba8c-f854c0be09fc> ;
+        c:suffix     " was born November 7, 1962, in Carbondale," .
+
+<http://d.opencalais.com/genericHasher-1/84d5ad08-15c6-3667-9e3c-56eb55f54629>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "father" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/d95a6407-e6ab-3172-ba8c-f854c0be09fc> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/a51ece16-1a61-3586-b553-32467a82fb9c> .
+
+<http://d.opencalais.com/genericHasher-1/da6ef175-9930-3202-aa03-62468abe3d0a>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "University of Oklahoma School" .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Instance/25>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in Carbondale, Illinois, and died suddenly in ]Los Angeles[, California, on March 5, 2015.    \n  He]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:exact      "Los Angeles" ;
+        c:length     "11" ;
+        c:offset     "257" ;
+        c:prefix     "in Carbondale, Illinois, and died suddenly in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/874eaab9-7b66-36e3-9650-8de7a5001cf9> ;
+        c:suffix     ", California, on March 5, 2015.    \n  He" .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Relevance/20>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/a51ece16-1a61-3586-b553-32467a82fb9c> .
+
+<http://d.opencalais.com/genericHasher-1/023f9fc7-406f-3b5b-bd83-3021a589f198>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "brother" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/d95a6407-e6ab-3172-ba8c-f854c0be09fc> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/683d860a-f2e6-3e48-aacb-68ea810180c5> .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Instance/38>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Ake.    \n  Dirk is survived by his mother, ]Patsy Glass[; his father, David Shafer and wife, Karen; his]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:exact      "Patsy Glass" ;
+        c:length     "11" ;
+        c:offset     "748" ;
+        c:prefix     "Ake.    \n  Dirk is survived by his mother, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/c39e5887-fd6a-3077-a700-f26d137265ab> ;
+        c:suffix     "; his father, David Shafer and wife, Karen; his" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/73806811-b887-5ac5-d1d0-6db9c6526c74>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:latitude            "40.4298247444" ;
+        c:longitude           "-88.9244490556" ;
+        c:name                "Illinois,United States" ;
+        c:permid              "100135" ;
+        c:rcscode             "G:95" ;
+        c:shortname           "Illinois" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/dd140cc8-655b-3f67-a3e2-54ed672db5a4> .
+
+<http://d.opencalais.com/pershash-1/e59fc3e9-25a8-3829-b29e-195d0d2f7f4c>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Carl Shafer" ;
+        c:confidencelevel    "0.87" ;
+        c:firstname          "Anna" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Shafer" ;
+        c:middlename         "Belle" ;
+        c:name               "Carl Shafer" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Instance/9>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Ake.    \n  Dirk is survived by his mother, ]Patsy Glass; his father, David Shafer and wife, Karen[; his sister, Deidra Kistler and husband,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:exact      "Patsy Glass; his father, David Shafer and wife, Karen" ;
+        c:length     "53" ;
+        c:offset     "748" ;
+        c:prefix     "Ake.    \n  Dirk is survived by his mother, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/d32d9613-b2ad-37b3-94ba-0ed867ad59b0> ;
+        c:suffix     "; his sister, Deidra Kistler and husband," .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Relevance/18>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/da6ef175-9930-3202-aa03-62468abe3d0a> .
+
+<http://d.opencalais.com/genericHasher-1/b2af6ec9-c876-3d38-bb8d-694ae207d8d8>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonAttributes> ;
+        c:birthdate          "1962-11-07" ;
+        c:birthplace         <http://d.opencalais.com/genericHasher-1/144fa827-8c85-36f8-a18d-d491a7592e42> ;
+        c:forenduserdisplay  "false" ;
+        c:gender             "M" ;
+        c:person             <http://d.opencalais.com/pershash-1/d95a6407-e6ab-3172-ba8c-f854c0be09fc> .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/e9e27c26-4013-8712-a5f0-97dcdc412c26>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:latitude            "35.5607802899" ;
+        c:longitude           "-96.8460570462" ;
+        c:name                "Oklahoma,United States" ;
+        c:permid              "100229" ;
+        c:rcscode             "G:9H" ;
+        c:shortname           "Oklahoma" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/conf/pershash-1/1c4de883-827f-35a6-bf51-df37441a8e08>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.901" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.921" ;
+        c:subject             <http://d.opencalais.com/pershash-1/1c4de883-827f-35a6-bf51-df37441a8e08> .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Instance/32>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[preceded in death by his brother, Dickie; and ]his[ grandparents, Carl and Anna Belle Shafer, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "648" ;
+        c:prefix     "preceded in death by his brother, Dickie; and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/683d860a-f2e6-3e48-aacb-68ea810180c5> ;
+        c:suffix     " grandparents, Carl and Anna Belle Shafer, and" .
+
+<http://d.opencalais.com/genericHasher-1/874eaab9-7b66-36e3-9650-8de7a5001cf9>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Los Angeles" .
+
+<http://d.opencalais.com/genericHasher-1/59188fc7-195d-386e-828e-c7381609d38a>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "University of Oklahoma School of Journalism" ;
+        c:nationality        "American" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Instance/45>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ survived by his mother, Patsy Glass; his father, ]David Shafer[ and wife, Karen; his sister, Deidra Kistler and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:exact      "David Shafer" ;
+        c:length     "12" ;
+        c:offset     "773" ;
+        c:prefix     " survived by his mother, Patsy Glass; his father, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/a51ece16-1a61-3586-b553-32467a82fb9c> ;
+        c:suffix     " and wife, Karen; his sister, Deidra Kistler and" .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Instance/3>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Dirk Alan Shafer was born November 7, 1962, in ]Carbondale[, Illinois, and died suddenly in Los Angeles,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:exact      "Carbondale" ;
+        c:length     "10" ;
+        c:offset     "214" ;
+        c:prefix     " Dirk Alan Shafer was born November 7, 1962, in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/144fa827-8c85-36f8-a18d-d491a7592e42> ;
+        c:suffix     ", Illinois, and died suddenly in Los Angeles," .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Relevance/9>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/874eaab9-7b66-36e3-9650-8de7a5001cf9> .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Instance/17>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[wrote and directed two ground breaking movies.  ]He[ lived in Los Angeles 29 years.    \n  He was]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:exact      "He" ;
+        c:length     "2" ;
+        c:offset     "555" ;
+        c:prefix     "wrote and directed two ground breaking movies.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/d95a6407-e6ab-3172-ba8c-f854c0be09fc> ;
+        c:suffix     " lived in Los Angeles 29 years.    \n  He was" .
+
+<http://d.opencalais.com/genericHasher-1/d32d9613-b2ad-37b3-94ba-0ed867ad59b0>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/dec3ca7d-45d6-342a-a04a-f0ce192bf812> , <http://d.opencalais.com/pershash-1/d95a6407-e6ab-3172-ba8c-f854c0be09fc> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oklahoma" .
+
+<http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa/Relevance/12>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9d737c3a-d2be-3ebf-8182-a9da114a7daa> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/86006a8e-d4dc-382e-b9b9-e6eecf3dd241> .

@@ -1,0 +1,1463 @@
+#Relations: FamilyRelation, PersonEducation, PersonLocation, PersonRelation
+#City: Enid, Norman, Ponca City
+#Company: Central National Bank, Flour Mills of America
+#Facility: Alva Municipal Cemetery, Alva Public Terminal, Business College, Marshall Funeral Home
+#IndustryTerm: Funeral services
+#Organization: Alva Church, Business College, Farry Elementary School, Farry High School
+#Person: Betty Lou Brown, Darin Smith, Dillon Smith, Frances Brown, Frances Ila (Lyon), Fred Brown, Frederick John, Julie, Lauren Smith, Mark Smith, Shelby Smith, Shirley Ann Smith, William S. Kalfas
+#Position: secretary
+#ProvinceOrState: Oklahoma
+@prefix c:     <http://s.opencalais.com/1/pred/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/cat/1>
+        a                    <http://s.opencalais.com/1/type/cat/DocCat> ;
+        c:docId              <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Human Interest" ;
+        c:score              "1.000" .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Relevance/7>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/d43a6962-5f51-3ebe-84c9-17ee17c16238> .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Relevance/28>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/2dd6cf5c-9c22-39f9-8de7-d3aa5d179ce1> .
+
+<http://d.opencalais.com/genericHasher-1/41d19ebb-5625-31cc-b199-2ce2f19778ec>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "wife" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/d43a6962-5f51-3ebe-84c9-17ee17c16238> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/1f63034a-8302-314b-ba8a-4693832a4427> .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Instance/48>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Funeral services for ]Betty Lou Brown[ will be 10:30 a.m. Monday, September 8th, 2008,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:exact      "Betty Lou Brown" ;
+        c:length     "15" ;
+        c:offset     "21" ;
+        c:prefix     "Funeral services for " ;
+        c:subject    <http://d.opencalais.com/pershash-1/09894a43-f40e-31f0-b4fe-dbef13953118> ;
+        c:suffix     " will be 10:30 a.m. Monday, September 8th, 2008," .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Instance/27>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ great nieces and nephew, Lauren Smith of Norman, ]Oklahoma[, and Shelby and Dillon Smith of Alva; other]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "1424" ;
+        c:prefix     " great nieces and nephew, Lauren Smith of Norman, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", and Shelby and Dillon Smith of Alva; other" .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Instance/3>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[survived by her mother, Frances Brown of Alva; ]her[ sister, Shirley Ann Smith of Ponca City,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1229" ;
+        c:prefix     "survived by her mother, Frances Brown of Alva; " ;
+        c:subject    <http://d.opencalais.com/pershash-1/a02d708a-90d7-36d5-baa7-a1d5c9c5448b> ;
+        c:suffix     " sister, Shirley Ann Smith of Ponca City," .
+
+<http://d.opencalais.com/genericHasher-1/36e9ca99-def1-3453-8eb5-ff1b78744d4b>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "daughter" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/3bfa62e5-0b95-3055-8b9c-ab66666a5d03> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/09894a43-f40e-31f0-b4fe-dbef13953118> .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Relevance/15>
+        a                <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId          <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:relevance      "0.2" ;
+        c:relevancecont  "0.03" ;
+        c:subject        <http://d.opencalais.com/comphash-1/c3742449-f106-3cac-bbcd-3e3b409c3f40> .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Instance/56>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[she went to work at Central National Bank until ]her[ retirement.    \nBetty was a devoted daughter,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "797" ;
+        c:prefix     "she went to work at Central National Bank until " ;
+        c:subject    <http://d.opencalais.com/pershash-1/09894a43-f40e-31f0-b4fe-dbef13953118> ;
+        c:suffix     " retirement.    \nBetty was a devoted daughter," .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/9abed97f-1f19-0004-aee6-0a06b0289f38>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:latitude            "36.3956" ;
+        c:longitude           "-97.8781" ;
+        c:name                "Enid,Oklahoma,United States" ;
+        c:shortname           "Enid" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/35a979c1-2108-3761-99bd-8c6f499ef6f2> .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Instance/35>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[away at her home on September 4th, 2008.  \n]Betty attended Farry Elementary School and graduated from Farry High School[ west of Alva.  After graduation she moved to]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:exact      "Betty attended Farry Elementary School and graduated from Farry High School" ;
+        c:length     "75" ;
+        c:offset     "432" ;
+        c:prefix     "away at her home on September 4th, 2008.  \n" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ce47a527-58f9-3de9-aa29-d4690706ca97> ;
+        c:suffix     " west of Alva.  After graduation she moved to" .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Instance/14>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ nephews, Mark Smith of Alva, and Darin Smith and ]his[ wife, Julie, of Norman, Oklahoma; great nieces]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "1337" ;
+        c:prefix     " nephews, Mark Smith of Alva, and Darin Smith and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/d43a6962-5f51-3ebe-84c9-17ee17c16238> ;
+        c:suffix     " wife, Julie, of Norman, Oklahoma; great nieces" .
+
+<http://d.opencalais.com/genericHasher-1/d146d230-eac4-36cf-87bc-4b4ff9ef2458>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "mother" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/09894a43-f40e-31f0-b4fe-dbef13953118> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/a02d708a-90d7-36d5-baa7-a1d5c9c5448b> .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/lid/DefaultLangId>
+        a                    <http://s.opencalais.com/1/type/lid/DefaultLangId> ;
+        c:docId              <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:forenduserdisplay  "false" ;
+        c:lang               <http://d.opencalais.com/lid/DefaultLangId/English> ;
+        c:permid             "505062" .
+
+<http://d.opencalais.com/conf/pershash-1/a02d708a-90d7-36d5-baa7-a1d5c9c5448b>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.996" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.986" ;
+        c:subject             <http://d.opencalais.com/pershash-1/a02d708a-90d7-36d5-baa7-a1d5c9c5448b> .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Relevance/2>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/d715fb43-943f-393e-a4f7-6f58e989d0d1> .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Relevance/23>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/1f63034a-8302-314b-ba8a-4693832a4427> .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Instance/64>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[west of Alva.    \nShe was preceded in death by ]her[ father, Fred Brown, in 2005.   \nBetty is]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1137" ;
+        c:prefix     "west of Alva.    \nShe was preceded in death by " ;
+        c:subject    <http://d.opencalais.com/pershash-1/09894a43-f40e-31f0-b4fe-dbef13953118> ;
+        c:suffix     " father, Fred Brown, in 2005.   \nBetty is" .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Instance/43>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[west of Alva.    \nShe was preceded in death by ]her father, Fred Brown[, in 2005.   \nBetty is survived by her mother,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:exact      "her father, Fred Brown" ;
+        c:length     "22" ;
+        c:offset     "1137" ;
+        c:prefix     "west of Alva.    \nShe was preceded in death by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/f609600c-1c81-3dcd-98b8-4bdbbd1d9d61> ;
+        c:suffix     ", in 2005.   \nBetty is survived by her mother," .
+
+<http://d.opencalais.com/pershash-1/bc4184fe-066e-3672-b238-989bc3ec714b>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Dillon Smith" ;
+        c:confidencelevel    "0.946" ;
+        c:firstname          "Dillon" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Smith" ;
+        c:name               "Dillon Smith" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Instance/22>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[west of Alva.  After graduation she moved to ]Enid[, Oklahoma, and began Business College.  Upon]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:exact      "Enid" ;
+        c:length     "4" ;
+        c:offset     "553" ;
+        c:prefix     "west of Alva.  After graduation she moved to " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/35a979c1-2108-3761-99bd-8c6f499ef6f2> ;
+        c:suffix     ", Oklahoma, and began Business College.  Upon" .
+
+<http://d.opencalais.com/genericHasher-1/0265320c-5a3b-3db2-94dc-92dc7e4c808d>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Alva Church" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Relevance/10>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/3bfa62e5-0b95-3055-8b9c-ab66666a5d03> .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Instance/51>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[the family farm west of Alva and passed away at ]her[ home on September 4th, 2008.  \nBetty attended]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "397" ;
+        c:prefix     "the family farm west of Alva and passed away at " ;
+        c:subject    <http://d.opencalais.com/pershash-1/09894a43-f40e-31f0-b4fe-dbef13953118> ;
+        c:suffix     " home on September 4th, 2008.  \nBetty attended" .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Instance/30>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Upon closing of the Mill, she went to work at ]Central National Bank[ until her retirement.    \nBetty was a devoted]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:exact      "Central National Bank" ;
+        c:length     "21" ;
+        c:offset     "769" ;
+        c:prefix     " Upon closing of the Mill, she went to work at " ;
+        c:subject    <http://d.opencalais.com/comphash-1/c3742449-f106-3cac-bbcd-3e3b409c3f40> ;
+        c:suffix     " until her retirement.    \nBetty was a devoted" .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Instance/6>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ S. Kalfas officiating.  Interment will be in the ]Alva Municipal Cemetery[ under the direction of Marshall Funeral Home. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:exact      "Alva Municipal Cemetery" ;
+        c:length     "23" ;
+        c:offset     "191" ;
+        c:prefix     " S. Kalfas officiating.  Interment will be in the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8eade039-a4ea-3277-86f0-dccd360f428f> ;
+        c:suffix     " under the direction of Marshall Funeral Home. " .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Relevance/18>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/1b3577ce-d7aa-3f85-a46b-2219a871095e> .
+
+<http://d.opencalais.com/genericHasher-1/8eade039-a4ea-3277-86f0-dccd360f428f>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Alva Municipal Cemetery" .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Instance/59>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in her home in Alva. Known as \"Aunt B\" to ]her[ nephews, she was a very proud and loving aunt]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "913" ;
+        c:prefix     "in her home in Alva. Known as \"Aunt B\" to " ;
+        c:subject    <http://d.opencalais.com/pershash-1/09894a43-f40e-31f0-b4fe-dbef13953118> ;
+        c:suffix     " nephews, she was a very proud and loving aunt" .
+
+<http://d.opencalais.com/comphash-1/c3742449-f106-3cac-bbcd-3e3b409c3f40>
+        a                    <http://s.opencalais.com/1/type/em/e/Company> ;
+        c:confidencelevel    "0.814" ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Central National Bank" ;
+        c:nationality        "N/A" .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Instance/38>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Farry Elementary School and graduated from ]Farry High School[ west of Alva.  After graduation she moved to]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:exact      "Farry High School" ;
+        c:length     "17" ;
+        c:offset     "490" ;
+        c:prefix     "Farry Elementary School and graduated from " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9badc3a6-f30e-3b54-94b6-87604a6dbdca> ;
+        c:suffix     " west of Alva.  After graduation she moved to" .
+
+<http://d.opencalais.com/conf/pershash-1/1f63034a-8302-314b-ba8a-4693832a4427>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.951" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.932" ;
+        c:subject             <http://d.opencalais.com/pershash-1/1f63034a-8302-314b-ba8a-4693832a4427> .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Instance/17>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[]Funeral services[ for Betty Lou Brown will be 10:30 a.m. Monday,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:exact      "Funeral services" ;
+        c:length     "16" ;
+        c:offset     "0" ;
+        c:prefix     "" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee> ;
+        c:suffix     " for Betty Lou Brown will be 10:30 a.m. Monday," .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Relevance/5>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9af9edc3-d610-36a5-b133-35e6d9110d33> .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Relevance/26>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/d15b790b-ebd9-35d0-a023-1b91eaeea505> .
+
+<http://d.opencalais.com/pershash-1/09894a43-f40e-31f0-b4fe-dbef13953118>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Betty Lou Brown" ;
+        c:confidencelevel    "0.929" ;
+        c:firstname          "Betty" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Brown" ;
+        c:middlename         "Lou" ;
+        c:name               "Betty Lou Brown" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Instance/46>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[may be made through the funeral home to the ]Alva Church[ of the Nazarene. \n\t\t\t]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:exact      "Alva Church" ;
+        c:length     "11" ;
+        c:offset     "1569" ;
+        c:prefix     "may be made through the funeral home to the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0265320c-5a3b-3db2-94dc-92dc7e4c808d> ;
+        c:suffix     " of the Nazarene. \n\t\t\t" .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Instance/25>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[her sister, Shirley Ann Smith of Ponca City, ]Oklahoma[; two nephews, Mark Smith of Alva, and Darin]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "1274" ;
+        c:prefix     "her sister, Shirley Ann Smith of Ponca City, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     "; two nephews, Mark Smith of Alva, and Darin" .
+
+<http://d.opencalais.com/conf/pershash-1/3bfa62e5-0b95-3055-8b9c-ab66666a5d03>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.999" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.996" ;
+        c:subject             <http://d.opencalais.com/pershash-1/3bfa62e5-0b95-3055-8b9c-ab66666a5d03> .
+
+<http://d.opencalais.com/pershash-1/2dd6cf5c-9c22-39f9-8de7-d3aa5d179ce1>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "William Kalfas" ;
+        c:confidencelevel    "0.963" ;
+        c:firstname          "William" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Kalfas" ;
+        c:middlename         "S." ;
+        c:name               "William S. Kalfas" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Instance/1>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[survived by her mother, Frances Brown of Alva; ]her sister, Shirley Ann Smith of Ponca City, Oklahoma[; two nephews, Mark Smith of Alva, and Darin]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:exact      "her sister, Shirley Ann Smith of Ponca City, Oklahoma" ;
+        c:length     "53" ;
+        c:offset     "1229" ;
+        c:prefix     "survived by her mother, Frances Brown of Alva; " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a473c8ea-909c-3de1-a754-2871451c0dfa> ;
+        c:suffix     "; two nephews, Mark Smith of Alva, and Darin" .
+
+<http://d.opencalais.com/comphash-1/4e8ccfd8-6c0f-3359-9750-46345939e957>
+        a                    <http://s.opencalais.com/1/type/em/e/Company> ;
+        c:confidencelevel    "0.662" ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Flour Mills of America" ;
+        c:nationality        "American" .
+
+<http://d.opencalais.com/pershash-1/ddb75665-f999-35b3-8fd4-885a2e2f26d8>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Shelby Smith" ;
+        c:confidencelevel    "0.956" ;
+        c:firstname          "Dillon" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Smith" ;
+        c:name               "Shelby Smith" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Relevance/13>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Instance/54>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and began Business College.  Upon graduation, ]Betty[ returned to Alva and worked as a secretary for]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:exact      "Betty" ;
+        c:length     "5" ;
+        c:offset     "615" ;
+        c:prefix     "and began Business College.  Upon graduation, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/09894a43-f40e-31f0-b4fe-dbef13953118> ;
+        c:suffix     " returned to Alva and worked as a secretary for" .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Instance/33>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[she moved to Enid, Oklahoma, and began ]Business College[.  Upon graduation, Betty returned to Alva and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:exact      "Business College" ;
+        c:length     "16" ;
+        c:offset     "579" ;
+        c:prefix     "she moved to Enid, Oklahoma, and began " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/1b3577ce-d7aa-3f85-a46b-2219a871095e> ;
+        c:suffix     ".  Upon graduation, Betty returned to Alva and" .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Instance/12>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Oklahoma; two nephews, Mark Smith of Alva, and ]Darin Smith and his wife, Julie, of Norman, Oklahoma[; great nieces and nephew, Lauren Smith of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:exact      "Darin Smith and his wife, Julie, of Norman, Oklahoma" ;
+        c:length     "52" ;
+        c:offset     "1321" ;
+        c:prefix     "Oklahoma; two nephews, Mark Smith of Alva, and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/d5b3e91f-1419-3654-a8d6-6efa590c9357> ;
+        c:suffix     "; great nieces and nephew, Lauren Smith of" .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Instance/9>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[home on September 4th, 2008.  \nBetty attended ]Farry Elementary School[ and graduated from Farry High School west of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:exact      "Farry Elementary School" ;
+        c:length     "23" ;
+        c:offset     "447" ;
+        c:prefix     "home on September 4th, 2008.  \nBetty attended " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/1bcf7e9e-0f25-35c8-b7e4-477c5a641bb9> ;
+        c:suffix     " and graduated from Farry High School west of" .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Relevance/21>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e81504a1-bda8-3738-b0c1-9b0b0dc1a4f5> .
+
+<http://d.opencalais.com/genericHasher-1/beed2d86-7bb1-3c16-8a78-41084610449d>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Norman" ;
+        c:person             <http://d.opencalais.com/pershash-1/1f63034a-8302-314b-ba8a-4693832a4427> .
+
+<http://d.opencalais.com/conf/pershash-1/bc4184fe-066e-3672-b238-989bc3ec714b>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.946" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.893" ;
+        c:subject             <http://d.opencalais.com/pershash-1/bc4184fe-066e-3672-b238-989bc3ec714b> .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Instance/62>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and they considered her their second mother.  ]She[ enjoyed gardening, cooking, crocheting, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "1009" ;
+        c:prefix     "and they considered her their second mother.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/09894a43-f40e-31f0-b4fe-dbef13953118> ;
+        c:suffix     " enjoyed gardening, cooking, crocheting, and" .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Instance/41>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ of Alva, and Darin Smith and his wife, Julie, of ]Norman[, Oklahoma; great nieces and nephew, Lauren Smith]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:exact      "Norman" ;
+        c:length     "6" ;
+        c:offset     "1357" ;
+        c:prefix     " of Alva, and Darin Smith and his wife, Julie, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9151e5e3-7516-3755-8254-43b22f814748> ;
+        c:suffix     ", Oklahoma; great nieces and nephew, Lauren Smith" .
+
+<http://d.opencalais.com/genericHasher-1/ee728fdf-16ca-3244-b1c7-7a4069c3d2aa>
+        a                       <http://s.opencalais.com/1/type/em/r/PersonEducation> ;
+        c:forenduserdisplay     "false" ;
+        c:person                <http://d.opencalais.com/pershash-1/09894a43-f40e-31f0-b4fe-dbef13953118> ;
+        c:schoolororganization  "Farry High School" .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Instance/20>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[she moved to Enid, Oklahoma, and began ]Business College[.  Upon graduation, Betty returned to Alva and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:exact      "Business College" ;
+        c:length     "16" ;
+        c:offset     "579" ;
+        c:prefix     "she moved to Enid, Oklahoma, and began " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/7961a8e4-4256-3d96-b9a7-5ce2af6ccc4d> ;
+        c:suffix     ".  Upon graduation, Betty returned to Alva and" .
+
+<http://d.opencalais.com/genericHasher-1/7961a8e4-4256-3d96-b9a7-5ce2af6ccc4d>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Business College" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/9151e5e3-7516-3755-8254-43b22f814748>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Norman" .
+
+<http://d.opencalais.com/pershash-1/d15b790b-ebd9-35d0-a023-1b91eaeea505>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Lauren Smith" ;
+        c:confidencelevel    "0.999" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Lauren Smith" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Relevance/8>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/031f65e5-1bef-346a-9db3-fadb45abbcbe> .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Relevance/29>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/pershash-1/09894a43-f40e-31f0-b4fe-dbef13953118> .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Instance/49>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[under the direction of Marshall Funeral Home.  \n]Betty Lou Brown[, daughter of Frederick John and Frances Ila]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:exact      "Betty Lou Brown" ;
+        c:length     "15" ;
+        c:offset     "263" ;
+        c:prefix     "under the direction of Marshall Funeral Home.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/09894a43-f40e-31f0-b4fe-dbef13953118> ;
+        c:suffix     ", daughter of Frederick John and Frances Ila" .
+
+<http://d.opencalais.com/genericHasher-1/9badc3a6-f30e-3b54-94b6-87604a6dbdca>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Farry High School" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Instance/28>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[her mother, Frances Brown of Alva; her sister, ]Shirley Ann Smith of Ponca City, Oklahoma[; two nephews, Mark Smith of Alva, and Darin]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:exact      "Shirley Ann Smith of Ponca City, Oklahoma" ;
+        c:length     "41" ;
+        c:offset     "1241" ;
+        c:prefix     "her mother, Frances Brown of Alva; her sister, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c9c543a2-143b-3b27-bae7-4db258ed45a8> ;
+        c:suffix     "; two nephews, Mark Smith of Alva, and Darin" .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/SocialTag/1>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Alva" ;
+        c:originalValue      "Alva" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/17f61973-ed95-369b-b381-dec22ce26b2a> .
+
+<http://d.opencalais.com/genericHasher-1/e81504a1-bda8-3738-b0c1-9b0b0dc1a4f5>
+        a                    <http://s.opencalais.com/1/type/em/e/Position> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "secretary" .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Instance/4>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Ann Smith of Ponca City, Oklahoma; two nephews, ]Mark Smith[ of Alva, and Darin Smith and his wife, Julie, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:exact      "Mark Smith" ;
+        c:length     "10" ;
+        c:offset     "1297" ;
+        c:prefix     "Ann Smith of Ponca City, Oklahoma; two nephews, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/d715fb43-943f-393e-a4f7-6f58e989d0d1> ;
+        c:suffix     " of Alva, and Darin Smith and his wife, Julie, of" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/73710012-058d-ad2b-a26b-ae426571d9df>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:latitude            "35.2225" ;
+        c:longitude           "-97.4392" ;
+        c:name                "Norman,Oklahoma,United States" ;
+        c:shortname           "Norman" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/9151e5e3-7516-3755-8254-43b22f814748> .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Relevance/16>
+        a                <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId          <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:relevance      "0.2" ;
+        c:relevancecont  "0.03" ;
+        c:subject        <http://d.opencalais.com/comphash-1/4e8ccfd8-6c0f-3359-9750-46345939e957> .
+
+<http://d.opencalais.com/conf/comphash-1/c3742449-f106-3cac-bbcd-3e3b409c3f40>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.814" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:resolution          "0.23014006" ;
+        c:statisticalfeature  "0.827" ;
+        c:subject             <http://d.opencalais.com/comphash-1/c3742449-f106-3cac-bbcd-3e3b409c3f40> .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Instance/57>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Central National Bank until her retirement.    \n]Betty[ was a devoted daughter, caring for both parents]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:exact      "Betty" ;
+        c:length     "5" ;
+        c:offset     "817" ;
+        c:prefix     "Central National Bank until her retirement.    \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/09894a43-f40e-31f0-b4fe-dbef13953118> ;
+        c:suffix     " was a devoted daughter, caring for both parents" .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Instance/36>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Lauren Smith of Norman, Oklahoma, and Shelby and ]Dillon Smith[ of Alva; other relatives and friends.  \nMemorial]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:exact      "Dillon Smith" ;
+        c:length     "12" ;
+        c:offset     "1449" ;
+        c:prefix     " Lauren Smith of Norman, Oklahoma, and Shelby and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/bc4184fe-066e-3672-b238-989bc3ec714b> ;
+        c:suffix     " of Alva; other relatives and friends.  \nMemorial" .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Instance/15>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Fred Brown, in 2005.   \nBetty is survived by ]her mother, Frances Brown[ of Alva; her sister, Shirley Ann Smith of Ponca]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:exact      "her mother, Frances Brown" ;
+        c:length     "25" ;
+        c:offset     "1194" ;
+        c:prefix     "Fred Brown, in 2005.   \nBetty is survived by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/d146d230-eac4-36cf-87bc-4b4ff9ef2458> ;
+        c:suffix     " of Alva; her sister, Shirley Ann Smith of Ponca" .
+
+<http://d.opencalais.com/pershash-1/8653c141-10b3-3e29-b561-814f06ff2c58>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Fred Brown" ;
+        c:confidencelevel    "0.999" ;
+        c:firstname          "Fred" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Brown" ;
+        c:name               "Fred Brown" ;
+        c:nationality        "N/A" ;
+        c:persontype         "sports" .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Relevance/3>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8eade039-a4ea-3277-86f0-dccd360f428f> .
+
+<http://d.opencalais.com/conf/pershash-1/09894a43-f40e-31f0-b4fe-dbef13953118>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.929" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.961" ;
+        c:subject             <http://d.opencalais.com/pershash-1/09894a43-f40e-31f0-b4fe-dbef13953118> .
+
+<http://d.opencalais.com/genericHasher-1/30c35d27-7eae-378e-8e0b-43a737e3fb43>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Alva Public Terminal" .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Relevance/24>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/399ea025-4f60-3d7f-905c-6cb4aca7d793> .
+
+<http://d.opencalais.com/pershash-1/3bfa62e5-0b95-3055-8b9c-ab66666a5d03>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Frederick John" ;
+        c:confidencelevel    "0.999" ;
+        c:firstname          "Frederick" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "John" ;
+        c:name               "Frederick John" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Instance/65>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in death by her father, Fred Brown, in 2005.   \n]Betty[ is survived by her mother, Frances Brown of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:exact      "Betty" ;
+        c:length     "5" ;
+        c:offset     "1173" ;
+        c:prefix     "in death by her father, Fred Brown, in 2005.   \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/09894a43-f40e-31f0-b4fe-dbef13953118> ;
+        c:suffix     " is survived by her mother, Frances Brown of" .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Instance/44>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Norman, Oklahoma; great nieces and nephew, ]Lauren Smith[ of Norman, Oklahoma, and Shelby and Dillon Smith]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:exact      "Lauren Smith" ;
+        c:length     "12" ;
+        c:offset     "1400" ;
+        c:prefix     "of Norman, Oklahoma; great nieces and nephew, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/d15b790b-ebd9-35d0-a023-1b91eaeea505> ;
+        c:suffix     " of Norman, Oklahoma, and Shelby and Dillon Smith" .
+
+<http://d.opencalais.com/conf/pershash-1/2dd6cf5c-9c22-39f9-8de7-d3aa5d179ce1>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.963" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.978" ;
+        c:subject             <http://d.opencalais.com/pershash-1/2dd6cf5c-9c22-39f9-8de7-d3aa5d179ce1> .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Instance/23>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Norman, Oklahoma; great nieces and nephew, ]Lauren Smith of Norman, Oklahoma[, and Shelby and Dillon Smith of Alva; other]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:exact      "Lauren Smith of Norman, Oklahoma" ;
+        c:length     "32" ;
+        c:offset     "1400" ;
+        c:prefix     "of Norman, Oklahoma; great nieces and nephew, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3494609a-6782-38e3-b55f-c7799ccf531e> ;
+        c:suffix     ", and Shelby and Dillon Smith of Alva; other" .
+
+<http://d.opencalais.com/conf/comphash-1/4e8ccfd8-6c0f-3359-9750-46345939e957>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.662" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.9" ;
+        c:subject             <http://d.opencalais.com/comphash-1/4e8ccfd8-6c0f-3359-9750-46345939e957> .
+
+<http://d.opencalais.com/pershash-1/399ea025-4f60-3d7f-905c-6cb4aca7d793>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Shirley Ann Smith" ;
+        c:confidencelevel    "0.998" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Shirley Ann Smith" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/ddb75665-f999-35b3-8fd4-885a2e2f26d8>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.956" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.893" ;
+        c:subject             <http://d.opencalais.com/pershash-1/ddb75665-f999-35b3-8fd4-885a2e2f26d8> .
+
+<http://d.opencalais.com/genericHasher-1/d5b3e91f-1419-3654-a8d6-6efa590c9357>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/1f63034a-8302-314b-ba8a-4693832a4427> , <http://d.opencalais.com/pershash-1/d43a6962-5f51-3ebe-84c9-17ee17c16238> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Relevance/11>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/7961a8e4-4256-3d96-b9a7-5ce2af6ccc4d> .
+
+<http://d.opencalais.com/genericHasher-1/a473c8ea-909c-3de1-a754-2871451c0dfa>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "sister" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/a02d708a-90d7-36d5-baa7-a1d5c9c5448b> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/399ea025-4f60-3d7f-905c-6cb4aca7d793> .
+
+<http://d.opencalais.com/pershash-1/031f65e5-1bef-346a-9db3-fadb45abbcbe>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Frances Ila" ;
+        c:confidencelevel    "0.963" ;
+        c:firstname          "Frances" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Ila" ;
+        c:name               "Frances Ila (Lyon)" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/f609600c-1c81-3dcd-98b8-4bdbbd1d9d61>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "father" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/09894a43-f40e-31f0-b4fe-dbef13953118> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/8653c141-10b3-3e29-b561-814f06ff2c58> .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Instance/52>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[away at her home on September 4th, 2008.  \n]Betty[ attended Farry Elementary School and graduated]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:exact      "Betty" ;
+        c:length     "5" ;
+        c:offset     "432" ;
+        c:prefix     "away at her home on September 4th, 2008.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/09894a43-f40e-31f0-b4fe-dbef13953118> ;
+        c:suffix     " attended Farry Elementary School and graduated" .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Instance/31>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ as a secretary for Alva Public Terminal and then ]Flour Mills of America[.  Upon closing of the Mill, she went to work at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:exact      "Flour Mills of America" ;
+        c:length     "22" ;
+        c:offset     "698" ;
+        c:prefix     " as a secretary for Alva Public Terminal and then " ;
+        c:subject    <http://d.opencalais.com/comphash-1/4e8ccfd8-6c0f-3359-9750-46345939e957> ;
+        c:suffix     ".  Upon closing of the Mill, she went to work at" .
+
+<http://d.opencalais.com/genericHasher-1/a249dcf3-33d3-34a6-ac4c-5439181e64c9>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Ponca City" .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Instance/10>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Alva Municipal Cemetery under the direction of ]Marshall Funeral Home[.  \nBetty Lou Brown, daughter of Frederick John]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:exact      "Marshall Funeral Home" ;
+        c:length     "21" ;
+        c:offset     "238" ;
+        c:prefix     "Alva Municipal Cemetery under the direction of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9af9edc3-d610-36a5-b133-35e6d9110d33> ;
+        c:suffix     ".  \nBetty Lou Brown, daughter of Frederick John" .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Instance/7>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ nephews, Mark Smith of Alva, and Darin Smith and ]his wife, Julie, of Norman, Oklahoma[; great nieces and nephew, Lauren Smith of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:exact      "his wife, Julie, of Norman, Oklahoma" ;
+        c:length     "36" ;
+        c:offset     "1337" ;
+        c:prefix     " nephews, Mark Smith of Alva, and Darin Smith and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/41d19ebb-5625-31cc-b199-2ce2f19778ec> ;
+        c:suffix     "; great nieces and nephew, Lauren Smith of" .
+
+<http://d.opencalais.com/genericHasher-1/1b3577ce-d7aa-3f85-a46b-2219a871095e>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Business College" .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Relevance/19>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a249dcf3-33d3-34a6-ac4c-5439181e64c9> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/3638449d-0344-4b40-4c23-240459ab05f8>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:latitude            "36.7069" ;
+        c:longitude           "-97.0853" ;
+        c:name                "Ponca City,Oklahoma,United States" ;
+        c:shortname           "Ponca City" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/a249dcf3-33d3-34a6-ac4c-5439181e64c9> .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Instance/60>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[home in Alva. Known as \"Aunt B\" to her nephews, ]she[ was a very proud and loving aunt and they]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "926" ;
+        c:prefix     "home in Alva. Known as \"Aunt B\" to her nephews, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/09894a43-f40e-31f0-b4fe-dbef13953118> ;
+        c:suffix     " was a very proud and loving aunt and they" .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Instance/39>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Smith of Alva, and Darin Smith and his wife, ]Julie[, of Norman, Oklahoma; great nieces and nephew,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:exact      "Julie" ;
+        c:length     "5" ;
+        c:offset     "1347" ;
+        c:prefix     "Smith of Alva, and Darin Smith and his wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/1f63034a-8302-314b-ba8a-4693832a4427> ;
+        c:suffix     ", of Norman, Oklahoma; great nieces and nephew," .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Instance/18>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[under the direction of Marshall Funeral Home.  \n]Betty Lou Brown, daughter of Frederick John and Frances Ila (Lyon)[ Brown, was born on the family farm west of Alva]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:exact      "Betty Lou Brown, daughter of Frederick John and Frances Ila (Lyon)" ;
+        c:length     "66" ;
+        c:offset     "263" ;
+        c:prefix     "under the direction of Marshall Funeral Home.  \n" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/69b89ac4-a292-3278-bdaf-a03f6e36cb59> ;
+        c:suffix     " Brown, was born on the family farm west of Alva" .
+
+<http://d.opencalais.com/genericHasher-1/69b89ac4-a292-3278-bdaf-a03f6e36cb59>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "daughter" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/3bfa62e5-0b95-3055-8b9c-ab66666a5d03> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/031f65e5-1bef-346a-9db3-fadb45abbcbe> .
+
+<http://d.opencalais.com/conf/pershash-1/d15b790b-ebd9-35d0-a023-1b91eaeea505>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.999" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.998" ;
+        c:subject             <http://d.opencalais.com/pershash-1/d15b790b-ebd9-35d0-a023-1b91eaeea505> .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Relevance/6>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/8653c141-10b3-3e29-b561-814f06ff2c58> .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Relevance/27>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0265320c-5a3b-3db2-94dc-92dc7e4c808d> .
+
+<http://d.opencalais.com/genericHasher-1/35a979c1-2108-3761-99bd-8c6f499ef6f2>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Enid" .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Instance/47>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ at the Alva Church of the Nazarene with Reverend ]William S. Kalfas[ officiating.  Interment will be in the Alva]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:exact      "William S. Kalfas" ;
+        c:length     "17" ;
+        c:offset     "134" ;
+        c:prefix     " at the Alva Church of the Nazarene with Reverend " ;
+        c:subject    <http://d.opencalais.com/pershash-1/2dd6cf5c-9c22-39f9-8de7-d3aa5d179ce1> ;
+        c:suffix     " officiating.  Interment will be in the Alva" .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Instance/26>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and Darin Smith and his wife, Julie, of Norman, ]Oklahoma[; great nieces and nephew, Lauren Smith of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "1365" ;
+        c:prefix     "and Darin Smith and his wife, Julie, of Norman, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     "; great nieces and nephew, Lauren Smith of" .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Instance/2>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in 2005.   \nBetty is survived by her mother, ]Frances Brown[ of Alva; her sister, Shirley Ann Smith of Ponca]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:exact      "Frances Brown" ;
+        c:length     "13" ;
+        c:offset     "1206" ;
+        c:prefix     "in 2005.   \nBetty is survived by her mother, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/a02d708a-90d7-36d5-baa7-a1d5c9c5448b> ;
+        c:suffix     " of Alva; her sister, Shirley Ann Smith of Ponca" .
+
+<http://d.opencalais.com/genericHasher-1/1bcf7e9e-0f25-35c8-b7e4-477c5a641bb9>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Farry Elementary School" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/3494609a-6782-38e3-b55f-c7799ccf531e>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Norman" ;
+        c:person             <http://d.opencalais.com/pershash-1/d15b790b-ebd9-35d0-a023-1b91eaeea505> .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Relevance/14>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/ddb75665-f999-35b3-8fd4-885a2e2f26d8> .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Instance/55>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Mills of America.  Upon closing of the Mill, ]she[ went to work at Central National Bank until her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "749" ;
+        c:prefix     "Mills of America.  Upon closing of the Mill, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/09894a43-f40e-31f0-b4fe-dbef13953118> ;
+        c:suffix     " went to work at Central National Bank until her" .
+
+<http://d.opencalais.com/pershash-1/d43a6962-5f51-3ebe-84c9-17ee17c16238>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Darin Smith" ;
+        c:confidencelevel    "0.997" ;
+        c:firstname          "Darin" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Smith" ;
+        c:name               "Darin Smith" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Instance/34>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Brown of Alva; her sister, Shirley Ann Smith of ]Ponca City[, Oklahoma; two nephews, Mark Smith of Alva, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:exact      "Ponca City" ;
+        c:length     "10" ;
+        c:offset     "1262" ;
+        c:prefix     "Brown of Alva; her sister, Shirley Ann Smith of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a249dcf3-33d3-34a6-ac4c-5439181e64c9> ;
+        c:suffix     ", Oklahoma; two nephews, Mark Smith of Alva, and" .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Instance/13>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Oklahoma; two nephews, Mark Smith of Alva, and ]Darin Smith[ and his wife, Julie, of Norman, Oklahoma; great]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:exact      "Darin Smith" ;
+        c:length     "11" ;
+        c:offset     "1321" ;
+        c:prefix     "Oklahoma; two nephews, Mark Smith of Alva, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/d43a6962-5f51-3ebe-84c9-17ee17c16238> ;
+        c:suffix     " and his wife, Julie, of Norman, Oklahoma; great" .
+
+<http://d.opencalais.com/conf/pershash-1/8653c141-10b3-3e29-b561-814f06ff2c58>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.999" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.996" ;
+        c:subject             <http://d.opencalais.com/pershash-1/8653c141-10b3-3e29-b561-814f06ff2c58> .
+
+<http://d.opencalais.com/genericHasher-1/c9c543a2-143b-3b27-bae7-4db258ed45a8>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Ponca City" ;
+        c:person             <http://d.opencalais.com/pershash-1/399ea025-4f60-3d7f-905c-6cb4aca7d793> .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Relevance/1>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/a02d708a-90d7-36d5-baa7-a1d5c9c5448b> .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Relevance/22>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9badc3a6-f30e-3b54-94b6-87604a6dbdca> .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Instance/63>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[time on the family farm west of Alva.    \n]She[ was preceded in death by her father, Fred Brown,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "1108" ;
+        c:prefix     "time on the family farm west of Alva.    \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/09894a43-f40e-31f0-b4fe-dbef13953118> ;
+        c:suffix     " was preceded in death by her father, Fred Brown," .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Instance/42>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[great nieces and nephew, Lauren Smith of ]Norman[, Oklahoma, and Shelby and Dillon Smith of Alva;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:exact      "Norman" ;
+        c:length     "6" ;
+        c:offset     "1416" ;
+        c:prefix     "great nieces and nephew, Lauren Smith of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9151e5e3-7516-3755-8254-43b22f814748> ;
+        c:suffix     ", Oklahoma, and Shelby and Dillon Smith of Alva;" .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Instance/21>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Smith of Alva, and Darin Smith and his wife, ]Julie, of Norman, Oklahoma[; great nieces and nephew, Lauren Smith of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:exact      "Julie, of Norman, Oklahoma" ;
+        c:length     "26" ;
+        c:offset     "1347" ;
+        c:prefix     "Smith of Alva, and Darin Smith and his wife, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/beed2d86-7bb1-3c16-8a78-41084610449d> ;
+        c:suffix     "; great nieces and nephew, Lauren Smith of" .
+
+<http://d.opencalais.com/conf/pershash-1/399ea025-4f60-3d7f-905c-6cb4aca7d793>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.998" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.999" ;
+        c:subject             <http://d.opencalais.com/pershash-1/399ea025-4f60-3d7f-905c-6cb4aca7d793> .
+
+<http://d.opencalais.com/pershash-1/d715fb43-943f-393e-a4f7-6f58e989d0d1>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Mark Smith" ;
+        c:confidencelevel    "0.999" ;
+        c:firstname          "Mark" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Smith" ;
+        c:name               "Mark Smith" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Relevance/9>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee> .
+
+<http://d.opencalais.com/conf/pershash-1/031f65e5-1bef-346a-9db3-fadb45abbcbe>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.963" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.978" ;
+        c:subject             <http://d.opencalais.com/pershash-1/031f65e5-1bef-346a-9db3-fadb45abbcbe> .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Instance/50>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Frederick John and Frances Ila (Lyon) ]Brown[, was born on the family farm west of Alva and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:exact      "Brown" ;
+        c:length     "5" ;
+        c:offset     "330" ;
+        c:prefix     "of Frederick John and Frances Ila (Lyon) " ;
+        c:subject    <http://d.opencalais.com/pershash-1/09894a43-f40e-31f0-b4fe-dbef13953118> ;
+        c:suffix     ", was born on the family farm west of Alva and" .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Instance/29>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[nephew, Lauren Smith of Norman, Oklahoma, and ]Shelby[ and Dillon Smith of Alva; other relatives and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:exact      "Shelby" ;
+        c:length     "6" ;
+        c:offset     "1438" ;
+        c:prefix     "nephew, Lauren Smith of Norman, Oklahoma, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/ddb75665-f999-35b3-8fd4-885a2e2f26d8> ;
+        c:suffix     " and Dillon Smith of Alva; other relatives and" .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Instance/5>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[away at her home on September 4th, 2008.  \n]Betty attended Farry Elementary School and graduated from Farry High School[ west of Alva.  After graduation she moved to]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:exact      "Betty attended Farry Elementary School and graduated from Farry High School" ;
+        c:length     "75" ;
+        c:offset     "432" ;
+        c:prefix     "away at her home on September 4th, 2008.  \n" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee728fdf-16ca-3244-b1c7-7a4069c3d2aa> ;
+        c:suffix     " west of Alva.  After graduation she moved to" .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Relevance/17>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/30c35d27-7eae-378e-8e0b-43a737e3fb43> .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/meta>
+        a                 <http://s.opencalais.com/1/type/sys/DocInfoMeta> ;
+        c:contentType     "text/raw" ;
+        c:docId           <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:language        "English" ;
+        c:processingVer   "AllMetadata" ;
+        c:serverVersion   "OneCalais_8.3-RELEASE:364" ;
+        c:signature       "digestalg-1|ul19Nn/vtG46VLQxjq+zWTLPwyI=|hAECXL4VqekpjPwVB3StwZdVCKmCR/wkQnUEZGxfeG/BR2eMb0/OGA==" ;
+        c:stagsVer        "OneCalais_8.3-RELEASE-b11-2015-03-25_18:29:00" ;
+        c:submissionDate  "2015-05-26 17:17:56.124" ;
+        c:submitterCode   "0ca6a864-5659-789d-5f32-f365f695e757" .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/ComponentVersions>
+        a          <http://s.opencalais.com/1/type/sys/ComponentVersions> ;
+        c:docId    <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:version  "People Index:201505261608:201505261608" , "config-cse:271:271" , "WatchDog:OneCalais_8.3-RELEASE:113" , "config-physicalAssets-ports:258:258" , "BlackList:264:264" , "OA Index:201505252208:201505252208" , "SpanishIM:OneCalais_8.3-RELEASE:198" , "OneCalaisIM:OneCalais_8.3-RELEASE:198" , "Dial4J:OneCalais_8.3-RELEASE:198" , "Collector:OneCalais_8.3-RELEASE:113" , "Housekeeper:OneCalais_8.3-RELEASE:113" , "config-vessels:258:258" , "BrokerResearchIM:OneCalais_8.3-RELEASE:198" , "AutocoderRuntimeIM:OneCalais_8.3-RELEASE:198" , "Deals Index:201505261613:201505261613" , "config-negativeSignature:258:258" , "config-sca-DataPackage:34:34" , "config-drugs:258:258" , "index-vessels:201505231718:201505231718" , "SocialTags Index:201505191038:201505191038" , "config-refineries:258:258" , "FrenchIM:OneCalais_8.3-RELEASE:198" , "com.clearforest.infoext.dial4j.plugins-basistechconfig:OneCalais_8.3-RELEASE:225" , "OneCalais:OneCalais_8.3-RELEASE:364" , "SECHeaderMetadataIM:OneCalais_8.3-RELEASE:198" , "People Override:258:258" , "OA Override:271:271" , "NextTags:OneCalais_8.3-RELEASE:113" .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Instance/58>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[a devoted daughter, caring for both parents in ]her[ home in Alva. Known as \"Aunt B\" to her nephews,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "874" ;
+        c:prefix     "a devoted daughter, caring for both parents in " ;
+        c:subject    <http://d.opencalais.com/pershash-1/09894a43-f40e-31f0-b4fe-dbef13953118> ;
+        c:suffix     " home in Alva. Known as \"Aunt B\" to her nephews," .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Instance/37>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ graduation, Betty returned to Alva and worked as ]a secretary[ for Alva Public Terminal and then Flour Mills of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:exact      "a secretary" ;
+        c:length     "11" ;
+        c:offset     "652" ;
+        c:prefix     " graduation, Betty returned to Alva and worked as " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e81504a1-bda8-3738-b0c1-9b0b0dc1a4f5> ;
+        c:suffix     " for Alva Public Terminal and then Flour Mills of" .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Instance/16>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ \nBetty Lou Brown, daughter of Frederick John and ]Frances Ila (Lyon)[ Brown, was born on the family farm west of Alva]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:exact      "Frances Ila (Lyon)" ;
+        c:length     "18" ;
+        c:offset     "311" ;
+        c:prefix     " \nBetty Lou Brown, daughter of Frederick John and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/031f65e5-1bef-346a-9db3-fadb45abbcbe> ;
+        c:suffix     " Brown, was born on the family farm west of Alva" .
+
+<http://d.opencalais.com/genericHasher-1/9af9edc3-d610-36a5-b133-35e6d9110d33>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Marshall Funeral Home" .
+
+<http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee>
+        a                    <http://s.opencalais.com/1/type/em/e/IndustryTerm> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Funeral services" .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Relevance/4>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/1bcf7e9e-0f25-35c8-b7e4-477c5a641bb9> .
+
+<http://d.opencalais.com/pershash-1/a02d708a-90d7-36d5-baa7-a1d5c9c5448b>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Frances Brown" ;
+        c:confidencelevel    "0.996" ;
+        c:firstname          "Frances" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Brown" ;
+        c:name               "Frances Brown" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oklahoma" .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Relevance/25>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9151e5e3-7516-3755-8254-43b22f814748> .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Instance/66>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Fred Brown, in 2005.   \nBetty is survived by ]her[ mother, Frances Brown of Alva; her sister,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1194" ;
+        c:prefix     "Fred Brown, in 2005.   \nBetty is survived by " ;
+        c:subject    <http://d.opencalais.com/pershash-1/09894a43-f40e-31f0-b4fe-dbef13953118> ;
+        c:suffix     " mother, Frances Brown of Alva; her sister," .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Instance/45>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[10:30 a.m. Monday, September 8th, 2008, at the ]Alva Church[ of the Nazarene with Reverend William S. Kalfas]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:exact      "Alva Church" ;
+        c:length     "11" ;
+        c:offset     "92" ;
+        c:prefix     "10:30 a.m. Monday, September 8th, 2008, at the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0265320c-5a3b-3db2-94dc-92dc7e4c808d> ;
+        c:suffix     " of the Nazarene with Reverend William S. Kalfas" .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Instance/24>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Alva.  After graduation she moved to Enid, ]Oklahoma[, and began Business College.  Upon graduation,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "559" ;
+        c:prefix     "of Alva.  After graduation she moved to Enid, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", and began Business College.  Upon graduation," .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Relevance/12>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/35a979c1-2108-3761-99bd-8c6f499ef6f2> .
+
+<http://d.opencalais.com/conf/pershash-1/d43a6962-5f51-3ebe-84c9-17ee17c16238>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.997" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.994" ;
+        c:subject             <http://d.opencalais.com/pershash-1/d43a6962-5f51-3ebe-84c9-17ee17c16238> .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Instance/53>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[High School west of Alva.  After graduation ]she[ moved to Enid, Oklahoma, and began Business]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "540" ;
+        c:prefix     "High School west of Alva.  After graduation " ;
+        c:subject    <http://d.opencalais.com/pershash-1/09894a43-f40e-31f0-b4fe-dbef13953118> ;
+        c:suffix     " moved to Enid, Oklahoma, and began Business" .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Instance/32>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[returned to Alva and worked as a secretary for ]Alva Public Terminal[ and then Flour Mills of America.  Upon closing]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:exact      "Alva Public Terminal" ;
+        c:length     "20" ;
+        c:offset     "668" ;
+        c:prefix     "returned to Alva and worked as a secretary for " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/30c35d27-7eae-378e-8e0b-43a737e3fb43> ;
+        c:suffix     " and then Flour Mills of America.  Upon closing" .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Instance/11>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[   \nShe was preceded in death by her father, ]Fred Brown[, in 2005.   \nBetty is survived by her mother,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:exact      "Fred Brown" ;
+        c:length     "10" ;
+        c:offset     "1149" ;
+        c:prefix     "   \nShe was preceded in death by her father, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/8653c141-10b3-3e29-b561-814f06ff2c58> ;
+        c:suffix     ", in 2005.   \nBetty is survived by her mother," .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Instance/8>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[under the direction of Marshall Funeral Home.  \n]Betty Lou Brown, daughter of Frederick John and Frances Ila (Lyon)[ Brown, was born on the family farm west of Alva]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:exact      "Betty Lou Brown, daughter of Frederick John and Frances Ila (Lyon)" ;
+        c:length     "66" ;
+        c:offset     "263" ;
+        c:prefix     "under the direction of Marshall Funeral Home.  \n" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/36e9ca99-def1-3453-8eb5-ff1b78744d4b> ;
+        c:suffix     " Brown, was born on the family farm west of Alva" .
+
+<https://permid.org/1-4296438965>
+        a             <http://s.opencalais.com/1/type/er/Company> ;
+        c:commonname  "Central National" ;
+        c:docId       <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:legacyid    <http://d.opencalais.com/er/company/ralg-tr1r/f28302d2-339a-3eaf-9ef2-d1514612f640> ;
+        c:name        "Central National Bank" ;
+        c:permid      "4296438965" ;
+        c:primaryric  "CKLV.PK^B07" ;
+        c:score       "0.23014006" ;
+        c:subject     <http://d.opencalais.com/comphash-1/c3742449-f106-3cac-bbcd-3e3b409c3f40> ;
+        c:ticker      "CKLV" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/e9e27c26-4013-8712-a5f0-97dcdc412c26>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:latitude            "35.5607802899" ;
+        c:longitude           "-96.8460570462" ;
+        c:name                "Oklahoma,United States" ;
+        c:permid              "100229" ;
+        c:rcscode             "G:9H" ;
+        c:shortname           "Oklahoma" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Relevance/20>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/bc4184fe-066e-3672-b238-989bc3ec714b> .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Instance/61>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ a very proud and loving aunt and they considered ]her[ their second mother.  She enjoyed gardening,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "983" ;
+        c:prefix     " a very proud and loving aunt and they considered " ;
+        c:subject    <http://d.opencalais.com/pershash-1/09894a43-f40e-31f0-b4fe-dbef13953118> ;
+        c:suffix     " their second mother.  She enjoyed gardening," .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Instance/40>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[her mother, Frances Brown of Alva; her sister, ]Shirley Ann Smith[ of Ponca City, Oklahoma; two nephews, Mark Smith]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:exact      "Shirley Ann Smith" ;
+        c:length     "17" ;
+        c:offset     "1241" ;
+        c:prefix     "her mother, Frances Brown of Alva; her sister, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/399ea025-4f60-3d7f-905c-6cb4aca7d793> ;
+        c:suffix     " of Ponca City, Oklahoma; two nephews, Mark Smith" .
+
+<http://d.opencalais.com/conf/pershash-1/d715fb43-943f-393e-a4f7-6f58e989d0d1>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.999" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.991" ;
+        c:subject             <http://d.opencalais.com/pershash-1/d715fb43-943f-393e-a4f7-6f58e989d0d1> .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165/Instance/19>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Funeral Home.  \nBetty Lou Brown, daughter of ]Frederick John[ and Frances Ila (Lyon) Brown, was born on the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165> ;
+        c:exact      "Frederick John" ;
+        c:length     "14" ;
+        c:offset     "292" ;
+        c:prefix     "Funeral Home.  \nBetty Lou Brown, daughter of " ;
+        c:subject    <http://d.opencalais.com/pershash-1/3bfa62e5-0b95-3055-8b9c-ab66666a5d03> ;
+        c:suffix     " and Frances Ila (Lyon) Brown, was born on the" .
+
+<http://d.opencalais.com/genericHasher-1/ce47a527-58f9-3de9-aa29-d4690706ca97>
+        a                       <http://s.opencalais.com/1/type/em/r/PersonEducation> ;
+        c:forenduserdisplay     "false" ;
+        c:person                <http://d.opencalais.com/pershash-1/09894a43-f40e-31f0-b4fe-dbef13953118> ;
+        c:schoolororganization  "Farry Elementary School" .
+
+<http://d.opencalais.com/dochash-1/b954eba9-78e8-33cf-adc8-d215ada15165>
+        a                  <http://s.opencalais.com/1/type/sys/DocInfo> ;
+        c:calaisRequestID  "e1ecb389-1045-89f0-14d9-13b0e1c12501" ;
+        c:docDate          "2015-05-26 17:17:56.445" ;
+        c:docTitle         "" ;
+        c:document         "Funeral services for Betty Lou Brown will be 10:30 a.m. Monday, September 8th, 2008, at the Alva Church of the Nazarene with Reverend William S. Kalfas officiating.  Interment will be in the Alva Municipal Cemetery under the direction of Marshall Funeral Home.  \nBetty Lou Brown, daughter of Frederick John and Frances Ila (Lyon) Brown, was born on the family farm west of Alva and passed away at her home on September 4th, 2008.  \nBetty attended Farry Elementary School and graduated from Farry High School west of Alva.  After graduation she moved to Enid, Oklahoma, and began Business College.  Upon graduation, Betty returned to Alva and worked as a secretary for Alva Public Terminal and then Flour Mills of America.  Upon closing of the Mill, she went to work at Central National Bank until her retirement.    \nBetty was a devoted daughter, caring for both parents in her home in Alva. Known as \"Aunt B\" to her nephews, she was a very proud and loving aunt and they considered her their second mother.  She enjoyed gardening, cooking, crocheting, and spending time on the family farm west of Alva.    \nShe was preceded in death by her father, Fred Brown, in 2005.   \nBetty is survived by her mother, Frances Brown of Alva; her sister, Shirley Ann Smith of Ponca City, Oklahoma; two nephews, Mark Smith of Alva, and Darin Smith and his wife, Julie, of Norman, Oklahoma; great nieces and nephew, Lauren Smith of Norman, Oklahoma, and Shelby and Dillon Smith of Alva; other relatives and friends.  \nMemorial contributions may be made through the funeral home to the Alva Church of the Nazarene. \n\t\t\t" ;
+        c:id               "http://id.opencalais.com/fO630pKgOdBo0cfhtD37qg" ;
+        c:ontology         "http://163.231.4.65/owlschema/8.3/onecalais.owl.allmetadata.xml" .
+
+<http://d.opencalais.com/pershash-1/1f63034a-8302-314b-ba8a-4693832a4427>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Julie" ;
+        c:confidencelevel    "0.951" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Julie" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .

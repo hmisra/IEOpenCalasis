@@ -1,0 +1,1296 @@
+#Relations: FamilyRelation, PersonAttributes, PersonLocation, PersonRelation
+#City: Alva, Clayton, Enid, Kiowa
+#Facility: Alva Municipal Cemetery, Marshall Funeral Home of Alva
+#IndustryTerm: Funeral services
+#Organization: Alva Church of God
+#Person: Bob Brown, Charlene Campbell, Charles Frederick, Charles Mason "Buck" Ingraham, Jane (Million) Ingraham, Joshua, Keith Ingraham, Kenneth, Leona Harper, Marshall Funeral, Sue, Verle Pedtrotta
+#Position: welder, welder for the Santa Fe Railroad
+#ProvinceOrState: New Mexico, Oklahoma, Texas
+#Region: south Texas
+@prefix c:     <http://s.opencalais.com/1/pred/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://d.opencalais.com/genericHasher-1/1c9d76f5-312b-35ce-90d1-ab9f9c3bb5a4>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "wife" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/00637140-680e-3ff8-8bce-19dc78e3ef4b> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/09b296f5-04ab-31d5-8e39-72b270bb768c> .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Relevance/1>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/79c851c1-8540-30c9-af1a-1749f3b3212a> .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Instance/50>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[great-grandson, Joshua; four brothers, Lewis, ]Bob[, Curly, and Walt; and one sister, Verle]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:exact      "Bob" ;
+        c:length     "3" ;
+        c:offset     "863" ;
+        c:prefix     "great-grandson, Joshua; four brothers, Lewis, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6f91b867-29cb-3f04-96c6-96de4a086e59> ;
+        c:suffix     ", Curly, and Walt; and one sister, Verle" .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Instance/22>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[he was united in marriage to Leona Harper at ]Alva[, Oklahoma.  To this union three children, Keith,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "308" ;
+        c:prefix     "he was united in marriage to Leona Harper at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:suffix     ", Oklahoma.  To this union three children, Keith," .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/9abed97f-1f19-0004-aee6-0a06b0289f38>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:latitude            "36.3956" ;
+        c:longitude           "-97.8781" ;
+        c:name                "Enid,Oklahoma,United States" ;
+        c:shortname           "Enid" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/35a979c1-2108-3761-99bd-8c6f499ef6f2> .
+
+<http://d.opencalais.com/genericHasher-1/ebeed35c-21bc-3160-a7cc-082e5588511d>
+        a                    <http://s.opencalais.com/1/type/em/e/Position> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "welder" .
+
+<http://d.opencalais.com/genericHasher-1/8eade039-a4ea-3277-86f0-dccd360f428f>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Alva Municipal Cemetery" .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Instance/35>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Alva; one son, Keith Ingraham and his wife, ]Sue[, of Alva; one daughter, Charlene Campbell of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:exact      "Sue" ;
+        c:length     "3" ;
+        c:offset     "1004" ;
+        c:prefix     "of Alva; one son, Keith Ingraham and his wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/39027706-ff9e-332a-9cb3-e34226d102e4> ;
+        c:suffix     ", of Alva; one daughter, Charlene Campbell of" .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Instance/48>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Ingraham, son of the late Charles Frederick and ]Jane (Million) Ingraham[, was born January 24, 1921, in Clayton, New]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:exact      "Jane (Million) Ingraham" ;
+        c:length     "23" ;
+        c:offset     "69" ;
+        c:prefix     "Ingraham, son of the late Charles Frederick and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/de4525ca-3e04-31fd-b3d6-41b34c26cd42> ;
+        c:suffix     ", was born January 24, 1921, in Clayton, New" .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Instance/8>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ of a campers club and spent the winters in south ]Texas[ for 15 years.  \nBesides his parents, he was]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:exact      "Texas" ;
+        c:length     "5" ;
+        c:offset     "724" ;
+        c:prefix     " of a campers club and spent the winters in south " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> ;
+        c:suffix     " for 15 years.  \nBesides his parents, he was" .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Relevance/16>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ebeed35c-21bc-3160-a7cc-082e5588511d> .
+
+<http://d.opencalais.com/conf/pershash-1/de4525ca-3e04-31fd-b3d6-41b34c26cd42>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.98" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.986" ;
+        c:subject             <http://d.opencalais.com/pershash-1/de4525ca-3e04-31fd-b3d6-41b34c26cd42> .
+
+<http://d.opencalais.com/genericHasher-1/003298db-635b-3436-aee3-9694dc09ac6a>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Alva Church of God" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/44d9ef53-448c-3c67-a9b5-d9f9ab74302d>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.999" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.999" ;
+        c:subject             <http://d.opencalais.com/pershash-1/44d9ef53-448c-3c67-a9b5-d9f9ab74302d> .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Instance/42>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[was united in marriage to Leona Harper at Alva, ]Oklahoma[.  To this union three children, Keith, Kenneth,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "314" ;
+        c:prefix     "was united in marriage to Leona Harper at Alva, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ".  To this union three children, Keith, Kenneth," .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Instance/2>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Alva, Oklahoma.  To this union three children, ]Keith[, Kenneth, and Charlene were born. They lived on]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:exact      "Keith" ;
+        c:length     "5" ;
+        c:offset     "355" ;
+        c:prefix     "Alva, Oklahoma.  To this union three children, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/64744a7a-4281-3777-b0ca-0dddc5348c57> ;
+        c:suffix     ", Kenneth, and Charlene were born. They lived on" .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Relevance/6>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3d0928fd-64b3-3d17-9c4c-92638701503a> .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Relevance/10>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/09b296f5-04ab-31d5-8e39-72b270bb768c> .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Instance/14>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Bob Brown officiating.  Interment will be in the ]Alva Municipal Cemetery[ under the direction of Marshall Funeral Home of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:exact      "Alva Municipal Cemetery" ;
+        c:length     "23" ;
+        c:offset     "1279" ;
+        c:prefix     " Bob Brown officiating.  Interment will be in the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8eade039-a4ea-3277-86f0-dccd360f428f> ;
+        c:suffix     " under the direction of Marshall Funeral Home of" .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Instance/55>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Verle Pedtrotta.  \nBuck is survived by his wife, ]Leona, of Alva[; one son, Keith Ingraham and his wife, Sue, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:exact      "Leona, of Alva" ;
+        c:length     "14" ;
+        c:offset     "950" ;
+        c:prefix     " Verle Pedtrotta.  \nBuck is survived by his wife, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9d2c1bc4-b262-328c-996a-aa29da25b5df> ;
+        c:suffix     "; one son, Keith Ingraham and his wife, Sue, of" .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Relevance/23>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/6f91b867-29cb-3f04-96c6-96de4a086e59> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/dcd381a5-7448-1aeb-935c-3fb7e1393ae9>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "New Mexico" ;
+        c:docId               <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:latitude            "36.4517" ;
+        c:longitude           "-103.1836" ;
+        c:name                "Clayton,New Mexico,United States" ;
+        c:shortname           "Clayton" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/79c851c1-8540-30c9-af1a-1749f3b3212a> .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Instance/27>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[under the direction of Marshall Funeral Home of ]Alva[.  \nMemorial contributions may be made through]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "1351" ;
+        c:prefix     "under the direction of Marshall Funeral Home of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:suffix     ".  \nMemorial contributions may be made through" .
+
+<http://d.opencalais.com/genericHasher-1/148a1a7d-dbfe-3f89-877e-e89071ebcf12>
+        a                    <http://s.opencalais.com/1/type/em/e/Region> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "south Texas" .
+
+<http://d.opencalais.com/pershash-1/64744a7a-4281-3777-b0ca-0dddc5348c57>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Keith Ingraham" ;
+        c:confidencelevel    "0.999" ;
+        c:firstname          "Keith" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Keith Ingraham" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/pershash-1/46d08025-a2db-3d0e-8c08-300b91442563>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Charlene Campbell" ;
+        c:confidencelevel    "0.992" ;
+        c:firstname          "Charlene" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Charlene Campbell" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/05f6a3d7-9f99-3c93-a14f-d010e636cfd1>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.954" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/05f6a3d7-9f99-3c93-a14f-d010e636cfd1> .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Instance/21>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[parents, he was preceded in death by one son, ]Kenneth[, one great-grandson, Joshua; four brothers,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:exact      "Kenneth" ;
+        c:length     "7" ;
+        c:offset     "804" ;
+        c:prefix     "parents, he was preceded in death by one son, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/44d9ef53-448c-3c67-a9b5-d9f9ab74302d> ;
+        c:suffix     ", one great-grandson, Joshua; four brothers," .
+
+<http://d.opencalais.com/genericHasher-1/79c851c1-8540-30c9-af1a-1749f3b3212a>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Clayton" .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Instance/34>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of a campers club and spent the winters in ]south Texas[ for 15 years.  \nBesides his parents, he was]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:exact      "south Texas" ;
+        c:length     "11" ;
+        c:offset     "718" ;
+        c:prefix     "of a campers club and spent the winters in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/148a1a7d-dbfe-3f89-877e-e89071ebcf12> ;
+        c:suffix     " for 15 years.  \nBesides his parents, he was" .
+
+<http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Texas" .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Instance/47>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Leona, of Alva; one son, Keith Ingraham and ]his wife, Sue, of Alva[; one daughter, Charlene Campbell of Alva; 7]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:exact      "his wife, Sue, of Alva" ;
+        c:length     "22" ;
+        c:offset     "994" ;
+        c:prefix     "Leona, of Alva; one son, Keith Ingraham and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/00717c52-6925-37c5-8537-e2ae4c4274cf> ;
+        c:suffix     "; one daughter, Charlene Campbell of Alva; 7" .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Instance/7>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[may be made through the funeral home to the ]Alva Church of God[. \n\t\t\t]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:exact      "Alva Church of God" ;
+        c:length     "18" ;
+        c:offset     "1426" ;
+        c:prefix     "may be made through the funeral home to the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/003298db-635b-3436-aee3-9694dc09ac6a> ;
+        c:suffix     ". \n\t\t\t" .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Relevance/15>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/05f6a3d7-9f99-3c93-a14f-d010e636cfd1> .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Instance/19>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[winters in south Texas for 15 years.  \nBesides ]his[ parents, he was preceded in death by one son,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "754" ;
+        c:prefix     "winters in south Texas for 15 years.  \nBesides " ;
+        c:subject    <http://d.opencalais.com/pershash-1/44d9ef53-448c-3c67-a9b5-d9f9ab74302d> ;
+        c:suffix     " parents, he was preceded in death by one son," .
+
+<http://d.opencalais.com/pershash-1/00637140-680e-3ff8-8bce-19dc78e3ef4b>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Charles Mason Ingraham" ;
+        c:confidencelevel    "0.995" ;
+        c:firstname          "Charles" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Ingraham" ;
+        c:middlename         "Mason" ;
+        c:name               "Charles Mason \"Buck\" Ingraham" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/af6568cb-e087-3273-b305-fc3ca1f8c940>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.838" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.873" ;
+        c:subject             <http://d.opencalais.com/pershash-1/af6568cb-e087-3273-b305-fc3ca1f8c940> .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/cat/1>
+        a                    <http://s.opencalais.com/1/type/cat/DocCat> ;
+        c:docId              <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Human Interest" ;
+        c:score              "1.000" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/62914270-0a1c-1bcc-880e-6dbe9fb82eb9>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:latitude            "31.4484328889" ;
+        c:longitude           "-97.7816569778" ;
+        c:name                "Texas,United States" ;
+        c:permid              "100299" ;
+        c:rcscode             "G:50" ;
+        c:shortname           "Texas" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Instance/41>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Mexico, and passed away June 3, 2006, at Enid, ]Oklahoma[, at the age of 88 years, 4 months, and 9 days. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "184" ;
+        c:prefix     "Mexico, and passed away June 3, 2006, at Enid, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", at the age of 88 years, 4 months, and 9 days. " .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Instance/1>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Ingraham, was born January 24, 1921, in ]Clayton[, New Mexico, and passed away June 3, 2006, at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:exact      "Clayton" ;
+        c:length     "7" ;
+        c:offset     "124" ;
+        c:prefix     "Ingraham, was born January 24, 1921, in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/79c851c1-8540-30c9-af1a-1749f3b3212a> ;
+        c:suffix     ", New Mexico, and passed away June 3, 2006, at" .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Relevance/5>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/e80e8fe7-22e5-37a2-b86d-59b288d6a9d1> .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Instance/13>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Ingraham, was born January 24, 1921, in Clayton, ]New Mexico[, and passed away June 3, 2006, at Enid,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:exact      "New Mexico" ;
+        c:length     "10" ;
+        c:offset     "133" ;
+        c:prefix     " Ingraham, was born January 24, 1921, in Clayton, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3d0928fd-64b3-3d17-9c4c-92638701503a> ;
+        c:suffix     ", and passed away June 3, 2006, at Enid," .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Instance/54>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[February 8, 1941, he was united in marriage to ]Leona Harper at Alva, Oklahoma[.  To this union three children, Keith, Kenneth,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:exact      "Leona Harper at Alva, Oklahoma" ;
+        c:length     "30" ;
+        c:offset     "292" ;
+        c:prefix     "February 8, 1941, he was united in marriage to " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9d2c1bc4-b262-328c-996a-aa29da25b5df> ;
+        c:suffix     ".  To this union three children, Keith, Kenneth," .
+
+<http://d.opencalais.com/conf/pershash-1/e80e8fe7-22e5-37a2-b86d-59b288d6a9d1>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.992" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.983" ;
+        c:subject             <http://d.opencalais.com/pershash-1/e80e8fe7-22e5-37a2-b86d-59b288d6a9d1> .
+
+<http://d.opencalais.com/conf/pershash-1/09b296f5-04ab-31d5-8e39-72b270bb768c>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.992" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.995" ;
+        c:subject             <http://d.opencalais.com/pershash-1/09b296f5-04ab-31d5-8e39-72b270bb768c> .
+
+<http://d.opencalais.com/genericHasher-1/15282f17-5f23-324e-8e99-0c9b5417be5d>
+        a                    <http://s.opencalais.com/1/type/em/e/Position> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "welder for the Santa Fe Railroad" .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Relevance/22>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/af6568cb-e087-3273-b305-fc3ca1f8c940> .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Instance/26>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Sue, of Alva; one daughter, Charlene Campbell of ]Alva[; 7 grandchildren; 15 great grandchildren; other]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "1053" ;
+        c:prefix     " Sue, of Alva; one daughter, Charlene Campbell of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:suffix     "; 7 grandchildren; 15 great grandchildren; other" .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Instance/39>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Ingraham, son of the late Charles Frederick and ]Jane (Million) Ingraham, was born January 24, 1921, in Clayton, New Mexico[, and passed away June 3, 2006, at Enid,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:exact      "Jane (Million) Ingraham, was born January 24, 1921, in Clayton, New Mexico" ;
+        c:length     "74" ;
+        c:offset     "69" ;
+        c:prefix     "Ingraham, son of the late Charles Frederick and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3648d94d-7709-3eb7-baad-54583a577105> ;
+        c:suffix     ", and passed away June 3, 2006, at Enid," .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/lid/DefaultLangId>
+        a                    <http://s.opencalais.com/1/type/lid/DefaultLangId> ;
+        c:docId              <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:forenduserdisplay  "false" ;
+        c:lang               <http://d.opencalais.com/lid/DefaultLangId/English> ;
+        c:permid             "505062" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/8fac7585-3230-ed66-1dae-4ee48ac15a97>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:latitude            "36.805" ;
+        c:longitude           "-98.6661" ;
+        c:name                "Alva,Oklahoma,United States" ;
+        c:shortname           "Alva" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/ComponentVersions>
+        a          <http://s.opencalais.com/1/type/sys/ComponentVersions> ;
+        c:docId    <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:version  "FrenchIM:OneCalais_8.3-RELEASE:198" , "SocialTags Index:201505191038:201505191038" , "WatchDog:OneCalais_8.3-RELEASE:113" , "AutocoderRuntimeIM:OneCalais_8.3-RELEASE:198" , "Dial4J:OneCalais_8.3-RELEASE:198" , "Housekeeper:OneCalais_8.3-RELEASE:113" , "OneCalaisIM:OneCalais_8.3-RELEASE:198" , "BlackList:264:264" , "config-cse:271:271" , "People Index:201505261608:201505261608" , "OA Index:201505252208:201505252208" , "OA Override:271:271" , "OneCalais:OneCalais_8.3-RELEASE:364" , "config-physicalAssets-ports:258:258" , "BrokerResearchIM:OneCalais_8.3-RELEASE:198" , "People Override:258:258" , "config-drugs:258:258" , "config-vessels:258:258" , "config-sca-DataPackage:34:34" , "Collector:OneCalais_8.3-RELEASE:113" , "com.clearforest.infoext.dial4j.plugins-basistechconfig:OneCalais_8.3-RELEASE:225" , "config-negativeSignature:258:258" , "config-refineries:258:258" , "SpanishIM:OneCalais_8.3-RELEASE:198" , "index-vessels:201505231718:201505231718" , "NextTags:OneCalais_8.3-RELEASE:113" , "SECHeaderMetadataIM:OneCalais_8.3-RELEASE:198" , "Deals Index:201505261613:201505261613" .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Instance/20>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ south Texas for 15 years.  \nBesides his parents, ]he[ was preceded in death by one son, Kenneth, one]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:exact      "he" ;
+        c:length     "2" ;
+        c:offset     "767" ;
+        c:prefix     " south Texas for 15 years.  \nBesides his parents, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/44d9ef53-448c-3c67-a9b5-d9f9ab74302d> ;
+        c:suffix     " was preceded in death by one son, Kenneth, one" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/4c547155-958b-6b45-c099-778cead258c6>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:latitude            "34.831864378" ;
+        c:longitude           "-106.295252344" ;
+        c:name                "New Mexico,United States" ;
+        c:permid              "100210" ;
+        c:rcscode             "G:4S" ;
+        c:shortname           "New Mexico" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/3d0928fd-64b3-3d17-9c4c-92638701503a> .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Instance/33>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[grandchildren; other relatives and friends.  \n]Funeral services[ will be 10:00 a.m. Wednesday, June 7, 2006, at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:exact      "Funeral services" ;
+        c:length     "16" ;
+        c:offset     "1131" ;
+        c:prefix     "grandchildren; other relatives and friends.  \n" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee> ;
+        c:suffix     " will be 10:00 a.m. Wednesday, June 7, 2006, at" .
+
+<http://d.opencalais.com/conf/pershash-1/6f91b867-29cb-3f04-96c6-96de4a086e59>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.999" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.995" ;
+        c:subject             <http://d.opencalais.com/pershash-1/6f91b867-29cb-3f04-96c6-96de4a086e59> .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Instance/46>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[survived by his wife, Leona, of Alva; one son, ]Keith Ingraham and his wife, Sue, of Alva[; one daughter, Charlene Campbell of Alva; 7]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:exact      "Keith Ingraham and his wife, Sue, of Alva" ;
+        c:length     "41" ;
+        c:offset     "975" ;
+        c:prefix     "survived by his wife, Leona, of Alva; one son, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b733cced-3e92-386c-b6ff-994113cfeed6> ;
+        c:suffix     "; one daughter, Charlene Campbell of Alva; 7" .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Relevance/14>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/39027706-ff9e-332a-9cb3-e34226d102e4> .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Instance/6>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[be 10:00 a.m. Wednesday, June 7, 2006, at the ]Alva Church of God[ with pastor Bob Brown officiating.  Interment]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:exact      "Alva Church of God" ;
+        c:length     "18" ;
+        c:offset     "1199" ;
+        c:prefix     "be 10:00 a.m. Wednesday, June 7, 2006, at the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/003298db-635b-3436-aee3-9694dc09ac6a> ;
+        c:suffix     " with pastor Bob Brown officiating.  Interment" .
+
+<http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Alva" .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Instance/18>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[a short time before moving to Alva in 1984.  \n]He[ liked bowling and playing pitch in their pitch]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:exact      "He" ;
+        c:length     "2" ;
+        c:offset     "595" ;
+        c:prefix     "a short time before moving to Alva in 1984.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/44d9ef53-448c-3c67-a9b5-d9f9ab74302d> ;
+        c:suffix     " liked bowling and playing pitch in their pitch" .
+
+<http://d.opencalais.com/genericHasher-1/7ef6b596-d277-342e-9c69-be011d27884f>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Alva" ;
+        c:person             <http://d.opencalais.com/pershash-1/46d08025-a2db-3d0e-8c08-300b91442563> .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Instance/59>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Alva Municipal Cemetery under the direction of ]Marshall Funeral[ Home of Alva.  \nMemorial contributions may be]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:exact      "Marshall Funeral" ;
+        c:length     "16" ;
+        c:offset     "1326" ;
+        c:prefix     "Alva Municipal Cemetery under the direction of " ;
+        c:subject    <http://d.opencalais.com/pershash-1/0824c880-7431-3846-b832-1042cfbe83e9> ;
+        c:suffix     " Home of Alva.  \nMemorial contributions may be" .
+
+<http://d.opencalais.com/genericHasher-1/b614ada9-7334-3208-8560-07c852451236>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:date                "1941-02-08" ;
+        c:datestring          "February 8, 1941" ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/09b296f5-04ab-31d5-8e39-72b270bb768c> , <http://d.opencalais.com/pershash-1/e80e8fe7-22e5-37a2-b86d-59b288d6a9d1> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/pershash-1/de4525ca-3e04-31fd-b3d6-41b34c26cd42>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Jane Ingraham" ;
+        c:confidencelevel    "0.98" ;
+        c:firstname          "Jane" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Ingraham" ;
+        c:name               "Jane (Million) Ingraham" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Instance/40>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[New Mexico, and passed away June 3, 2006, at ]Enid[, Oklahoma, at the age of 88 years, 4 months, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:exact      "Enid" ;
+        c:length     "4" ;
+        c:offset     "178" ;
+        c:prefix     "New Mexico, and passed away June 3, 2006, at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/35a979c1-2108-3761-99bd-8c6f499ef6f2> ;
+        c:suffix     ", Oklahoma, at the age of 88 years, 4 months, and" .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/meta>
+        a                 <http://s.opencalais.com/1/type/sys/DocInfoMeta> ;
+        c:contentType     "text/raw" ;
+        c:docId           <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:language        "English" ;
+        c:processingVer   "AllMetadata" ;
+        c:serverVersion   "OneCalais_8.3-RELEASE:364" ;
+        c:signature       "digestalg-1|eJUogX3RcWxxVRXyH13/vzzstI4=|KsOt8yXs9I0fRp8Dszku/6QyvfkyBapzr2yHZ5j6Yj/8MGeswljVbQ==" ;
+        c:stagsVer        "OneCalais_8.3-RELEASE-b11-2015-03-25_18:29:00" ;
+        c:submissionDate  "2015-05-26 17:25:49.889" ;
+        c:submitterCode   "0ca6a864-5659-789d-5f32-f365f695e757" .
+
+<http://d.opencalais.com/pershash-1/44d9ef53-448c-3c67-a9b5-d9f9ab74302d>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Kenneth" ;
+        c:confidencelevel    "0.999" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Kenneth" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Relevance/4>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Instance/12>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Mason \"Buck\" Ingraham, son of the late ]Charles Frederick and Jane (Million) Ingraham, was born January 24, 1921, in Clayton, New Mexico, and passed away June 3, 2006, at Enid, Oklahoma[, at the age of 88 years, 4 months, and 9 days. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:exact      "Charles Frederick and Jane (Million) Ingraham, was born January 24, 1921, in Clayton, New Mexico, and passed away June 3, 2006, at Enid, Oklahoma" ;
+        c:length     "145" ;
+        c:offset     "47" ;
+        c:prefix     "Mason \"Buck\" Ingraham, son of the late " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/42f33f60-eaa4-3410-8339-7fc7afd5be61> ;
+        c:suffix     ", at the age of 88 years, 4 months, and 9 days. " .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/SocialTag/1>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Alva" ;
+        c:originalValue      "Alva" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/17f61973-ed95-369b-b381-dec22ce26b2a> .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Instance/53>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ farm for a few years before he went to work as a ]welder for the Santa Fe Railroad[.  After his retirement in 1982, they lived in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:exact      "welder for the Santa Fe Railroad" ;
+        c:length     "32" ;
+        c:offset     "460" ;
+        c:prefix     " farm for a few years before he went to work as a " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/15282f17-5f23-324e-8e99-0c9b5417be5d> ;
+        c:suffix     ".  After his retirement in 1982, they lived in" .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Relevance/21>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/de4525ca-3e04-31fd-b3d6-41b34c26cd42> .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Instance/25>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[one son, Keith Ingraham and his wife, Sue, of ]Alva[; one daughter, Charlene Campbell of Alva; 7]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "1012" ;
+        c:prefix     "one son, Keith Ingraham and his wife, Sue, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:suffix     "; one daughter, Charlene Campbell of Alva; 7" .
+
+<http://d.opencalais.com/pershash-1/0824c880-7431-3846-b832-1042cfbe83e9>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Marshall Funeral" .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Instance/38>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ After his retirement in 1982, they lived in ]Kiowa[ for a short time before moving to Alva in 1984. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:exact      "Kiowa" ;
+        c:length     "5" ;
+        c:offset     "539" ;
+        c:prefix     " After his retirement in 1982, they lived in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/41aa2c9e-1c06-3424-8975-776edcc48f27> ;
+        c:suffix     " for a short time before moving to Alva in 1984. " .
+
+<http://d.opencalais.com/conf/pershash-1/39027706-ff9e-332a-9cb3-e34226d102e4>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.942" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/39027706-ff9e-332a-9cb3-e34226d102e4> .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Relevance/19>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/pershash-1/05f6a3d7-9f99-3c93-a14f-d010e636cfd1>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Joshua" ;
+        c:confidencelevel    "0.954" ;
+        c:firstname          "Joshua" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Joshua" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/b6bf2c0d-0ac3-3aaa-a334-e02dfcbc3358>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Alva" ;
+        c:person             <http://d.opencalais.com/pershash-1/0824c880-7431-3846-b832-1042cfbe83e9> .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Instance/32>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Alva Municipal Cemetery under the direction of ]Marshall Funeral Home of Alva[.  \nMemorial contributions may be made through]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:exact      "Marshall Funeral Home of Alva" ;
+        c:length     "29" ;
+        c:offset     "1326" ;
+        c:prefix     "Alva Municipal Cemetery under the direction of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce> ;
+        c:suffix     ".  \nMemorial contributions may be made through" .
+
+<http://d.opencalais.com/genericHasher-1/00717c52-6925-37c5-8537-e2ae4c4274cf>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "wife" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/64744a7a-4281-3777-b0ca-0dddc5348c57> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/39027706-ff9e-332a-9cb3-e34226d102e4> .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Instance/45>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and his wife, Sue, of Alva; one daughter, ]Charlene Campbell[ of Alva; 7 grandchildren; 15 great]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:exact      "Charlene Campbell" ;
+        c:length     "17" ;
+        c:offset     "1032" ;
+        c:prefix     "and his wife, Sue, of Alva; one daughter, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/46d08025-a2db-3d0e-8c08-300b91442563> ;
+        c:suffix     " of Alva; 7 grandchildren; 15 great" .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Relevance/9>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Instance/5>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[at the age of 88 years, 4 months, and 9 days.  \n]On February 8, 1941, he was united in marriage to Leona Harper[ at Alva, Oklahoma.  To this union three]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:exact      "On February 8, 1941, he was united in marriage to Leona Harper" ;
+        c:length     "62" ;
+        c:offset     "242" ;
+        c:prefix     "at the age of 88 years, 4 months, and 9 days.  \n" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b614ada9-7334-3208-8560-07c852451236> ;
+        c:suffix     " at Alva, Oklahoma.  To this union three" .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Relevance/13>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/148a1a7d-dbfe-3f89-877e-e89071ebcf12> .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Instance/17>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[as a welder for the Santa Fe Railroad.  After ]his[ retirement in 1982, they lived in Kiowa for a]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "501" ;
+        c:prefix     "as a welder for the Santa Fe Railroad.  After " ;
+        c:subject    <http://d.opencalais.com/pershash-1/44d9ef53-448c-3c67-a9b5-d9f9ab74302d> ;
+        c:suffix     " retirement in 1982, they lived in Kiowa for a" .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Instance/58>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[sister, Verle Pedtrotta.  \nBuck is survived by ]his[ wife, Leona, of Alva; one son, Keith Ingraham]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "940" ;
+        c:prefix     "sister, Verle Pedtrotta.  \nBuck is survived by " ;
+        c:subject    <http://d.opencalais.com/pershash-1/00637140-680e-3ff8-8bce-19dc78e3ef4b> ;
+        c:suffix     " wife, Leona, of Alva; one son, Keith Ingraham" .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Relevance/26>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/0824c880-7431-3846-b832-1042cfbe83e9> .
+
+<http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Marshall Funeral Home of Alva" .
+
+<http://d.opencalais.com/genericHasher-1/b733cced-3e92-386c-b6ff-994113cfeed6>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/39027706-ff9e-332a-9cb3-e34226d102e4> , <http://d.opencalais.com/pershash-1/64744a7a-4281-3777-b0ca-0dddc5348c57> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/pershash-1/af6568cb-e087-3273-b305-fc3ca1f8c940>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Verle Pedtrotta" ;
+        c:confidencelevel    "0.838" ;
+        c:firstname          "Verle" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Pedtrotta" ;
+        c:name               "Verle Pedtrotta" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52>
+        a                  <http://s.opencalais.com/1/type/sys/DocInfo> ;
+        c:calaisRequestID  "a97c0afd-63c6-2502-14d9-14248c17848c" ;
+        c:docDate          "2015-05-26 17:25:50.233" ;
+        c:docTitle         "" ;
+        c:document         "Charles Mason \"Buck\" Ingraham, son of the late Charles Frederick and Jane (Million) Ingraham, was born January 24, 1921, in Clayton, New Mexico, and passed away June 3, 2006, at Enid, Oklahoma, at the age of 88 years, 4 months, and 9 days.  \nOn February 8, 1941, he was united in marriage to Leona Harper at Alva, Oklahoma.  To this union three children, Keith, Kenneth, and Charlene were born. They lived on a farm for a few years before he went to work as a welder for the Santa Fe Railroad.  After his retirement in 1982, they lived in Kiowa for a short time before moving to Alva in 1984.  \nHe liked bowling and playing pitch in their pitch club.  They were also members of a campers club and spent the winters in south Texas for 15 years.  \nBesides his parents, he was preceded in death by one son, Kenneth, one great-grandson, Joshua; four brothers, Lewis, Bob, Curly, and Walt; and one sister, Verle Pedtrotta.  \nBuck is survived by his wife, Leona, of Alva; one son, Keith Ingraham and his wife, Sue, of Alva; one daughter, Charlene Campbell of Alva; 7 grandchildren; 15 great grandchildren; other relatives and friends.  \nFuneral services will be 10:00 a.m. Wednesday, June 7, 2006, at the Alva Church of God with pastor Bob Brown officiating.  Interment will be in the Alva Municipal Cemetery under the direction of Marshall Funeral Home of Alva.  \nMemorial contributions may be made through the funeral home to the Alva Church of God. \n\t\t\t" ;
+        c:id               "http://id.opencalais.com/PZ9Lj*ui*t7OAmNAtYlg7w" ;
+        c:ontology         "http://163.231.4.65/owlschema/8.3/onecalais.owl.allmetadata.xml" .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Relevance/3>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/003298db-635b-3436-aee3-9694dc09ac6a> .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Instance/11>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[4 months, and 9 days.  \nOn February 8, 1941, ]he[ was united in marriage to Leona Harper at Alva,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:exact      "he" ;
+        c:length     "2" ;
+        c:offset     "263" ;
+        c:prefix     "4 months, and 9 days.  \nOn February 8, 1941, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/e80e8fe7-22e5-37a2-b86d-59b288d6a9d1> ;
+        c:suffix     " was united in marriage to Leona Harper at Alva," .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Instance/52>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Alva Municipal Cemetery under the direction of ]Marshall Funeral Home of Alva[.  \nMemorial contributions may be made through]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:exact      "Marshall Funeral Home of Alva" ;
+        c:length     "29" ;
+        c:offset     "1326" ;
+        c:prefix     "Alva Municipal Cemetery under the direction of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6bf2c0d-0ac3-3aaa-a334-e02dfcbc3358> ;
+        c:suffix     ".  \nMemorial contributions may be made through" .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Relevance/20>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/46d08025-a2db-3d0e-8c08-300b91442563> .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Instance/24>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ \nBuck is survived by his wife, Leona, of ]Alva[; one son, Keith Ingraham and his wife, Sue, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "960" ;
+        c:prefix     " \nBuck is survived by his wife, Leona, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:suffix     "; one son, Keith Ingraham and his wife, Sue, of" .
+
+<http://d.opencalais.com/pershash-1/09b296f5-04ab-31d5-8e39-72b270bb768c>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Leona Harper" ;
+        c:confidencelevel    "0.992" ;
+        c:firstname          "Leona" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Harper" ;
+        c:name               "Leona Harper" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/pershash-1/e80e8fe7-22e5-37a2-b86d-59b288d6a9d1>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Charles Frederick" ;
+        c:confidencelevel    "0.992" ;
+        c:firstname          "Charles" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Frederick" ;
+        c:name               "Charles Frederick" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Instance/37>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ a farm for a few years before he went to work as ]a welder[ for the Santa Fe Railroad.  After his retirement]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:exact      "a welder" ;
+        c:length     "8" ;
+        c:offset     "458" ;
+        c:prefix     " a farm for a few years before he went to work as " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ebeed35c-21bc-3160-a7cc-082e5588511d> ;
+        c:suffix     " for the Santa Fe Railroad.  After his retirement" .
+
+<http://d.opencalais.com/genericHasher-1/3648d94d-7709-3eb7-baad-54583a577105>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonAttributes> ;
+        c:birthdate          "1921-01-24" ;
+        c:birthplace         <http://d.opencalais.com/genericHasher-1/79c851c1-8540-30c9-af1a-1749f3b3212a> ;
+        c:forenduserdisplay  "false" ;
+        c:gender             "F" ;
+        c:person             <http://d.opencalais.com/pershash-1/de4525ca-3e04-31fd-b3d6-41b34c26cd42> .
+
+<http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee>
+        a                    <http://s.opencalais.com/1/type/em/e/IndustryTerm> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Funeral services" .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Relevance/18>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/35a979c1-2108-3761-99bd-8c6f499ef6f2> .
+
+<http://d.opencalais.com/genericHasher-1/869e56af-048b-37d4-9a62-75b1b5f6ee0b>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/09b296f5-04ab-31d5-8e39-72b270bb768c> , <http://d.opencalais.com/pershash-1/00637140-680e-3ff8-8bce-19dc78e3ef4b> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/genericHasher-1/41aa2c9e-1c06-3424-8975-776edcc48f27>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Kiowa" .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Instance/31>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[sister, Verle Pedtrotta.  \nBuck is survived by ]his wife, Leona, of Alva[; one son, Keith Ingraham and his wife, Sue, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:exact      "his wife, Leona, of Alva" ;
+        c:length     "24" ;
+        c:offset     "940" ;
+        c:prefix     "sister, Verle Pedtrotta.  \nBuck is survived by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/1c9d76f5-312b-35ce-90d1-ab9f9c3bb5a4> ;
+        c:suffix     "; one son, Keith Ingraham and his wife, Sue, of" .
+
+<http://d.opencalais.com/pershash-1/6f91b867-29cb-3f04-96c6-96de4a086e59>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Bob Brown" ;
+        c:confidencelevel    "0.999" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Bob Brown" ;
+        c:nationality        "N/A" ;
+        c:persontype         "sports" .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Instance/44>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[this union three children, Keith, Kenneth, and ]Charlene[ were born. They lived on a farm for a few years]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:exact      "Charlene" ;
+        c:length     "8" ;
+        c:offset     "375" ;
+        c:prefix     "this union three children, Keith, Kenneth, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/46d08025-a2db-3d0e-8c08-300b91442563> ;
+        c:suffix     " were born. They lived on a farm for a few years" .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Relevance/8>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/44d9ef53-448c-3c67-a9b5-d9f9ab74302d> .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Instance/4>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Leona, of Alva; one son, Keith Ingraham and ]his[ wife, Sue, of Alva; one daughter, Charlene]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "994" ;
+        c:prefix     "Leona, of Alva; one son, Keith Ingraham and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/64744a7a-4281-3777-b0ca-0dddc5348c57> ;
+        c:suffix     " wife, Sue, of Alva; one daughter, Charlene" .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Relevance/12>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee> .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Instance/16>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[They lived on a farm for a few years before ]he[ went to work as a welder for the Santa Fe]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:exact      "he" ;
+        c:length     "2" ;
+        c:offset     "439" ;
+        c:prefix     "They lived on a farm for a few years before " ;
+        c:subject    <http://d.opencalais.com/pershash-1/44d9ef53-448c-3c67-a9b5-d9f9ab74302d> ;
+        c:suffix     " went to work as a welder for the Santa Fe" .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Relevance/25>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/00637140-680e-3ff8-8bce-19dc78e3ef4b> .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Instance/57>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and Walt; and one sister, Verle Pedtrotta.  \n]Buck[ is survived by his wife, Leona, of Alva; one]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:exact      "Buck" ;
+        c:length     "4" ;
+        c:offset     "920" ;
+        c:prefix     "and Walt; and one sister, Verle Pedtrotta.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/00637140-680e-3ff8-8bce-19dc78e3ef4b> ;
+        c:suffix     " is survived by his wife, Leona, of Alva; one" .
+
+<http://d.opencalais.com/conf/pershash-1/46d08025-a2db-3d0e-8c08-300b91442563>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.992" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.995" ;
+        c:subject             <http://d.opencalais.com/pershash-1/46d08025-a2db-3d0e-8c08-300b91442563> .
+
+<http://d.opencalais.com/conf/pershash-1/64744a7a-4281-3777-b0ca-0dddc5348c57>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.999" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.999" ;
+        c:subject             <http://d.opencalais.com/pershash-1/64744a7a-4281-3777-b0ca-0dddc5348c57> .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Instance/29>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[February 8, 1941, he was united in marriage to ]Leona Harper[ at Alva, Oklahoma.  To this union three]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:exact      "Leona Harper" ;
+        c:length     "12" ;
+        c:offset     "292" ;
+        c:prefix     "February 8, 1941, he was united in marriage to " ;
+        c:subject    <http://d.opencalais.com/pershash-1/09b296f5-04ab-31d5-8e39-72b270bb768c> ;
+        c:suffix     " at Alva, Oklahoma.  To this union three" .
+
+<http://d.opencalais.com/genericHasher-1/9d2c1bc4-b262-328c-996a-aa29da25b5df>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Alva" ;
+        c:person             <http://d.opencalais.com/pershash-1/09b296f5-04ab-31d5-8e39-72b270bb768c> .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Relevance/2>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/64744a7a-4281-3777-b0ca-0dddc5348c57> .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Instance/10>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Mason \"Buck\" Ingraham, son of the late ]Charles Frederick[ and Jane (Million) Ingraham, was born January]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:exact      "Charles Frederick" ;
+        c:length     "17" ;
+        c:offset     "47" ;
+        c:prefix     "Mason \"Buck\" Ingraham, son of the late " ;
+        c:subject    <http://d.opencalais.com/pershash-1/e80e8fe7-22e5-37a2-b86d-59b288d6a9d1> ;
+        c:suffix     " and Jane (Million) Ingraham, was born January" .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Instance/51>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[7, 2006, at the Alva Church of God with pastor ]Bob Brown[ officiating.  Interment will be in the Alva]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:exact      "Bob Brown" ;
+        c:length     "9" ;
+        c:offset     "1230" ;
+        c:prefix     "7, 2006, at the Alva Church of God with pastor " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6f91b867-29cb-3f04-96c6-96de4a086e59> ;
+        c:suffix     " officiating.  Interment will be in the Alva" .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Instance/23>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ lived in Kiowa for a short time before moving to ]Alva[ in 1984.  \nHe liked bowling and playing pitch in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "579" ;
+        c:prefix     " lived in Kiowa for a short time before moving to " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:suffix     " in 1984.  \nHe liked bowling and playing pitch in" .
+
+<http://d.opencalais.com/genericHasher-1/3d0928fd-64b3-3d17-9c4c-92638701503a>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "New Mexico" .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Instance/36>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[death by one son, Kenneth, one great-grandson, ]Joshua[; four brothers, Lewis, Bob, Curly, and Walt; and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:exact      "Joshua" ;
+        c:length     "6" ;
+        c:offset     "833" ;
+        c:prefix     "death by one son, Kenneth, one great-grandson, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/05f6a3d7-9f99-3c93-a14f-d010e636cfd1> ;
+        c:suffix     "; four brothers, Lewis, Bob, Curly, and Walt; and" .
+
+<http://d.opencalais.com/conf/pershash-1/00637140-680e-3ff8-8bce-19dc78e3ef4b>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.995" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.996" ;
+        c:subject             <http://d.opencalais.com/pershash-1/00637140-680e-3ff8-8bce-19dc78e3ef4b> .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Instance/49>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Lewis, Bob, Curly, and Walt; and one sister, ]Verle Pedtrotta[.  \nBuck is survived by his wife, Leona, of Alva;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:exact      "Verle Pedtrotta" ;
+        c:length     "15" ;
+        c:offset     "901" ;
+        c:prefix     "Lewis, Bob, Curly, and Walt; and one sister, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/af6568cb-e087-3273-b305-fc3ca1f8c940> ;
+        c:suffix     ".  \nBuck is survived by his wife, Leona, of Alva;" .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Instance/9>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and Walt; and one sister, Verle Pedtrotta.  \n]Buck is survived by his wife, Leona, of Alva[; one son, Keith Ingraham and his wife, Sue, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:exact      "Buck is survived by his wife, Leona, of Alva" ;
+        c:length     "44" ;
+        c:offset     "920" ;
+        c:prefix     "and Walt; and one sister, Verle Pedtrotta.  \n" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/869e56af-048b-37d4-9a62-75b1b5f6ee0b> ;
+        c:suffix     "; one son, Keith Ingraham and his wife, Sue, of" .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Relevance/17>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/41aa2c9e-1c06-3424-8975-776edcc48f27> .
+
+<http://d.opencalais.com/genericHasher-1/660ff198-8930-3dfa-98b0-368a8703119b>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Alva" ;
+        c:person             <http://d.opencalais.com/pershash-1/39027706-ff9e-332a-9cb3-e34226d102e4> .
+
+<http://d.opencalais.com/pershash-1/39027706-ff9e-332a-9cb3-e34226d102e4>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Sue" ;
+        c:confidencelevel    "0.942" ;
+        c:firstname          "Sue" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Sue" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Instance/30>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Verle Pedtrotta.  \nBuck is survived by his wife, ]Leona[, of Alva; one son, Keith Ingraham and his wife,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:exact      "Leona" ;
+        c:length     "5" ;
+        c:offset     "950" ;
+        c:prefix     " Verle Pedtrotta.  \nBuck is survived by his wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/09b296f5-04ab-31d5-8e39-72b270bb768c> ;
+        c:suffix     ", of Alva; one son, Keith Ingraham and his wife," .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/e9e27c26-4013-8712-a5f0-97dcdc412c26>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:latitude            "35.5607802899" ;
+        c:longitude           "-96.8460570462" ;
+        c:name                "Oklahoma,United States" ;
+        c:permid              "100229" ;
+        c:rcscode             "G:9H" ;
+        c:shortname           "Oklahoma" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Instance/43>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Alva; one son, Keith Ingraham and his wife, ]Sue, of Alva[; one daughter, Charlene Campbell of Alva; 7]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:exact      "Sue, of Alva" ;
+        c:length     "12" ;
+        c:offset     "1004" ;
+        c:prefix     "of Alva; one son, Keith Ingraham and his wife, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/660ff198-8930-3dfa-98b0-368a8703119b> ;
+        c:suffix     "; one daughter, Charlene Campbell of Alva; 7" .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Relevance/7>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8eade039-a4ea-3277-86f0-dccd360f428f> .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Instance/3>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[survived by his wife, Leona, of Alva; one son, ]Keith Ingraham[ and his wife, Sue, of Alva; one daughter,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:exact      "Keith Ingraham" ;
+        c:length     "14" ;
+        c:offset     "975" ;
+        c:prefix     "survived by his wife, Leona, of Alva; one son, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/64744a7a-4281-3777-b0ca-0dddc5348c57> ;
+        c:suffix     " and his wife, Sue, of Alva; one daughter," .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Relevance/11>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce> .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Instance/15>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Oklahoma.  To this union three children, Keith, ]Kenneth[, and Charlene were born. They lived on a farm]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:exact      "Kenneth" ;
+        c:length     "7" ;
+        c:offset     "362" ;
+        c:prefix     "Oklahoma.  To this union three children, Keith, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/44d9ef53-448c-3c67-a9b5-d9f9ab74302d> ;
+        c:suffix     ", and Charlene were born. They lived on a farm" .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Instance/56>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[]Charles Mason \"Buck\" Ingraham[, son of the late Charles Frederick and Jane]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:exact      "Charles Mason \"Buck\" Ingraham" ;
+        c:length     "29" ;
+        c:offset     "0" ;
+        c:prefix     "" ;
+        c:subject    <http://d.opencalais.com/pershash-1/00637140-680e-3ff8-8bce-19dc78e3ef4b> ;
+        c:suffix     ", son of the late Charles Frederick and Jane" .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Relevance/24>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/15282f17-5f23-324e-8e99-0c9b5417be5d> .
+
+<http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52/Instance/28>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and his wife, Sue, of Alva; one daughter, ]Charlene Campbell of Alva[; 7 grandchildren; 15 great grandchildren; other]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/34dd6077-eaf6-34f6-896a-9314f98f1b52> ;
+        c:exact      "Charlene Campbell of Alva" ;
+        c:length     "25" ;
+        c:offset     "1032" ;
+        c:prefix     "and his wife, Sue, of Alva; one daughter, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/7ef6b596-d277-342e-9c69-be011d27884f> ;
+        c:suffix     "; 7 grandchildren; 15 great grandchildren; other" .
+
+<http://d.opencalais.com/genericHasher-1/42f33f60-eaa4-3410-8339-7fc7afd5be61>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Enid, Oklahoma" ;
+        c:person             <http://d.opencalais.com/pershash-1/e80e8fe7-22e5-37a2-b86d-59b288d6a9d1> .
+
+<http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oklahoma" .
+
+<http://d.opencalais.com/genericHasher-1/35a979c1-2108-3761-99bd-8c6f499ef6f2>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Enid" .

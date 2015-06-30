@@ -1,0 +1,877 @@
+#Relations: FamilyRelation, PersonAttributes, PersonEducation, PersonLocation, PersonRelation
+#City: Waynoka
+#Facility: Marshall Funeral Home Chapel
+#IndustryTerm: Memorial services
+#Organization: Oklahoma Medical Research Foundation, Pleasant View School
+#Person: Leola McGee, Martha (Brown) Howell, Martha Woolley, Mary, Ted Jones, Teddy S. Jones, Verla Dean, Verla Dean Jones
+#ProvinceOrState: Oklahoma, Woods County
+@prefix c:     <http://s.opencalais.com/1/pred/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664/Relevance/6>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/fbfaf534-8f97-35b5-976a-8c26f1bda9b9> .
+
+<http://d.opencalais.com/genericHasher-1/3fd65ac0-49bf-33f1-aa1d-f1cef29b09e2>
+        a                       <http://s.opencalais.com/1/type/em/r/PersonEducation> ;
+        c:forenduserdisplay     "false" ;
+        c:person                <http://d.opencalais.com/pershash-1/cbb60512-ba82-3955-b127-a5b8d574ee37> ;
+        c:schoolororganization  "Pleasant View School" .
+
+<http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664/Instance/14>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Woolley of Waynoka, and Ted Jones and wife, ]Mary[, of Alva; 7 grandchildren; 19 great]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664> ;
+        c:exact      "Mary" ;
+        c:length     "4" ;
+        c:offset     "776" ;
+        c:prefix     "Woolley of Waynoka, and Ted Jones and wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/846aa3d9-5ab8-3c15-8d45-cd90a9ffe99b> ;
+        c:suffix     ", of Alva; 7 grandchildren; 19 great" .
+
+<http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664/SocialTag/3>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Alva" ;
+        c:originalValue      "Alva" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/17f61973-ed95-369b-b381-dec22ce26b2a> .
+
+<http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664/Instance/27>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ at the Marshall Funeral Home Chapel in Alva.    \n]Verla Dean Jones[, daughter of the late Lewis O. and Martha]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664> ;
+        c:exact      "Verla Dean Jones" ;
+        c:length     "16" ;
+        c:offset     "135" ;
+        c:prefix     " at the Marshall Funeral Home Chapel in Alva.    \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/64bab556-d760-3b4c-83ab-f7262e13ce0a> ;
+        c:suffix     ", daughter of the late Lewis O. and Martha" .
+
+<http://d.opencalais.com/conf/pershash-1/846aa3d9-5ab8-3c15-8d45-cd90a9ffe99b>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.971" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/846aa3d9-5ab8-3c15-8d45-cd90a9ffe99b> .
+
+<http://d.opencalais.com/genericHasher-1/66825a07-5db7-34f7-9771-3812ec2857b8>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Waynoka" ;
+        c:person             <http://d.opencalais.com/pershash-1/fbfaf534-8f97-35b5-976a-8c26f1bda9b9> .
+
+<http://d.opencalais.com/pershash-1/64bab556-d760-3b4c-83ab-f7262e13ce0a>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Verla Dean Jones" ;
+        c:confidencelevel    "0.988" ;
+        c:firstname          "Verla" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Jones" ;
+        c:middlename         "Dean" ;
+        c:name               "Verla Dean Jones" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664/Instance/21>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ and raising her children.  \nBesides her parents, ]she[ was preceded in death by her husband, Ted, in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "598" ;
+        c:prefix     " and raising her children.  \nBesides her parents, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/cbb60512-ba82-3955-b127-a5b8d574ee37> ;
+        c:suffix     " was preceded in death by her husband, Ted, in" .
+
+<http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664/Instance/6>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Dean Jones, daughter of the late Lewis O. and ]Martha (Brown) Howell, was born August 18, 1922, in Woods County[, Oklahoma, and passed away September 2, 2012, at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664> ;
+        c:exact      "Martha (Brown) Howell, was born August 18, 1922, in Woods County" ;
+        c:length     "64" ;
+        c:offset     "187" ;
+        c:prefix     "Dean Jones, daughter of the late Lewis O. and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/66795d08-c885-3278-9ffe-10b0cd5dc67e> ;
+        c:suffix     ", Oklahoma, and passed away September 2, 2012, at" .
+
+<http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664/Instance/34>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[]Memorial services[ for Verla Dean Jones will be 2:00 p.m. Tuesday,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664> ;
+        c:exact      "Memorial services" ;
+        c:length     "17" ;
+        c:offset     "0" ;
+        c:prefix     "" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3fc76fa0-2822-3a05-bc9a-d75c68ee10e1> ;
+        c:suffix     " for Verla Dean Jones will be 2:00 p.m. Tuesday," .
+
+<http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664/Relevance/11>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/cbb60512-ba82-3955-b127-a5b8d574ee37> .
+
+<http://d.opencalais.com/genericHasher-1/0eca6e6f-bbca-38e9-bf2c-95aff5958a36>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/9cf50f22-b88c-361e-948d-3b980fed08eb> , <http://d.opencalais.com/pershash-1/cbb60512-ba82-3955-b127-a5b8d574ee37> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/1114fb0e-25a2-49dd-a619-369b5b536840>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664> ;
+        c:latitude            "36.746" ;
+        c:longitude           "-98.7527" ;
+        c:name                "Woods County,Oklahoma,United States" ;
+        c:shortname           "Woods County" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/ce8de128-24bf-3473-ab18-361909e1197d> .
+
+<http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664/Instance/19>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[lives.  She really enjoyed sewing and raising ]her[ children.  \nBesides her parents, she was]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "561" ;
+        c:prefix     "lives.  She really enjoyed sewing and raising " ;
+        c:subject    <http://d.opencalais.com/pershash-1/cbb60512-ba82-3955-b127-a5b8d574ee37> ;
+        c:suffix     " children.  \nBesides her parents, she was" .
+
+<http://d.opencalais.com/pershash-1/fbfaf534-8f97-35b5-976a-8c26f1bda9b9>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Martha Howell" ;
+        c:confidencelevel    "0.99" ;
+        c:firstname          "Martha" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Howell" ;
+        c:name               "Martha (Brown) Howell" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664/Relevance/5>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/cd4cde6f-2042-3261-a769-625a05b4a49a> .
+
+<http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664/Instance/13>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ McGee.  \nVerla Dean is survived by two children, ]Martha Woolley[ of Waynoka, and Ted Jones and wife, Mary, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664> ;
+        c:exact      "Martha Woolley" ;
+        c:length     "14" ;
+        c:offset     "725" ;
+        c:prefix     " McGee.  \nVerla Dean is survived by two children, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/2f129e5b-6169-3774-8d99-2696ca8b606b> ;
+        c:suffix     " of Waynoka, and Ted Jones and wife, Mary, of" .
+
+<http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664/SocialTag/2>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Waynoka, Oklahoma" ;
+        c:originalValue      "Waynoka, Oklahoma" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/77bc8be5-12a7-326b-962f-52fbf8cf09dd> .
+
+<http://d.opencalais.com/conf/pershash-1/df83daa8-6ebc-3f40-befa-79e47447d254>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.963" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.978" ;
+        c:subject             <http://d.opencalais.com/pershash-1/df83daa8-6ebc-3f40-befa-79e47447d254> .
+
+<http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664/Instance/26>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Memorial services for ]Verla Dean Jones[ will be 2:00 p.m. Tuesday, September 11, 2012,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664> ;
+        c:exact      "Verla Dean Jones" ;
+        c:length     "16" ;
+        c:offset     "22" ;
+        c:prefix     "Memorial services for " ;
+        c:subject    <http://d.opencalais.com/pershash-1/64bab556-d760-3b4c-83ab-f7262e13ce0a> ;
+        c:suffix     " will be 2:00 p.m. Tuesday, September 11, 2012," .
+
+<http://d.opencalais.com/pershash-1/66bb5956-c260-3855-9990-cd2e80f168d2>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Leola McGee" ;
+        c:confidencelevel    "0.993" ;
+        c:firstname          "Leola" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "McGee" ;
+        c:name               "Leola McGee" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664/Instance/20>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[sewing and raising her children.  \nBesides ]her[ parents, she was preceded in death by her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "585" ;
+        c:prefix     "sewing and raising her children.  \nBesides " ;
+        c:subject    <http://d.opencalais.com/pershash-1/cbb60512-ba82-3955-b127-a5b8d574ee37> ;
+        c:suffix     " parents, she was preceded in death by her" .
+
+<http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664/Instance/5>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[away September 2, 2012, at her home in Waynoka, ]Oklahoma[, at the age of 90 years and 15 days.    \nVerla]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "322" ;
+        c:prefix     "away September 2, 2012, at her home in Waynoka, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", at the age of 90 years and 15 days.    \nVerla" .
+
+<http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664/Relevance/10>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/df83daa8-6ebc-3f40-befa-79e47447d254> .
+
+<http://d.opencalais.com/pershash-1/2f129e5b-6169-3774-8d99-2696ca8b606b>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Martha Woolley" ;
+        c:confidencelevel    "0.993" ;
+        c:firstname          "Martha" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Woolley" ;
+        c:name               "Martha Woolley" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664/Instance/33>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[by two children, Martha Woolley of Waynoka, and ]Ted Jones[ and wife, Mary, of Alva; 7 grandchildren; 19]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664> ;
+        c:exact      "Ted Jones" ;
+        c:length     "9" ;
+        c:offset     "756" ;
+        c:prefix     "by two children, Martha Woolley of Waynoka, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9cf50f22-b88c-361e-948d-3b980fed08eb> ;
+        c:suffix     " and wife, Mary, of Alva; 7 grandchildren; 19" .
+
+<http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664/Instance/18>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ They lived in Waynoka all of their lives.  ]She[ really enjoyed sewing and raising her children. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "523" ;
+        c:prefix     " They lived in Waynoka all of their lives.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/cbb60512-ba82-3955-b127-a5b8d574ee37> ;
+        c:suffix     " really enjoyed sewing and raising her children. " .
+
+<http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664/Relevance/4>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/genericHasher-1/5cdb0ca2-a978-3b12-a2ae-6ff11510810c>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Waynoka" .
+
+<http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664/Instance/12>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[her parents, she was preceded in death by ]her husband, Ted[, in 1990; and her sister, Leola McGee.  \nVerla]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664> ;
+        c:exact      "her husband, Ted" ;
+        c:length     "16" ;
+        c:offset     "627" ;
+        c:prefix     "her parents, she was preceded in death by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/2a7d6dd4-95b0-37fa-b518-ab2d2a70a464> ;
+        c:suffix     ", in 1990; and her sister, Leola McGee.  \nVerla" .
+
+<http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664/SocialTag/1>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Woods County, Oklahoma" ;
+        c:originalValue      "Woods County, Oklahoma" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/1fcae946-086d-3a26-bc84-7ee7397b8b27> .
+
+<http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664/Instance/25>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in death by her husband, Ted, in 1990; and ]her sister, Leola McGee[.  \nVerla Dean is survived by two children,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664> ;
+        c:exact      "her sister, Leola McGee" ;
+        c:length     "23" ;
+        c:offset     "658" ;
+        c:prefix     "in death by her husband, Ted, in 1990; and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9b074e46-1d49-3b03-bba7-732dc581fa70> ;
+        c:suffix     ".  \nVerla Dean is survived by two children," .
+
+<http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664/Relevance/15>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/5cdb0ca2-a978-3b12-a2ae-6ff11510810c> .
+
+<http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664/Instance/38>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[is survived by two children, Martha Woolley of ]Waynoka[, and Ted Jones and wife, Mary, of Alva; 7]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664> ;
+        c:exact      "Waynoka" ;
+        c:length     "7" ;
+        c:offset     "743" ;
+        c:prefix     "is survived by two children, Martha Woolley of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/5cdb0ca2-a978-3b12-a2ae-6ff11510810c> ;
+        c:suffix     ", and Ted Jones and wife, Mary, of Alva; 7" .
+
+<http://d.opencalais.com/genericHasher-1/3bc10d92-bf0c-3a62-85ff-9c7a4cbfd268>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Waynoka" ;
+        c:person             <http://d.opencalais.com/pershash-1/2f129e5b-6169-3774-8d99-2696ca8b606b> .
+
+<http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664/Instance/4>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[was born August 18, 1922, in Woods County, ]Oklahoma[, and passed away September 2, 2012, at her home]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "253" ;
+        c:prefix     "was born August 18, 1922, in Woods County, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", and passed away September 2, 2012, at her home" .
+
+<http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664/Instance/32>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[she was preceded in death by her husband, ]Ted[, in 1990; and her sister, Leola McGee.  \nVerla]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664> ;
+        c:exact      "Ted" ;
+        c:length     "3" ;
+        c:offset     "640" ;
+        c:prefix     "she was preceded in death by her husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9cf50f22-b88c-361e-948d-3b980fed08eb> ;
+        c:suffix     ", in 1990; and her sister, Leola McGee.  \nVerla" .
+
+<http://d.opencalais.com/genericHasher-1/ffe3480a-abe7-3145-bdfe-b1e4a35ad4cd>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Marshall Funeral Home Chapel" .
+
+<http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664/Relevance/9>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/846aa3d9-5ab8-3c15-8d45-cd90a9ffe99b> .
+
+<http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664/Instance/17>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[the Pleasant View School.  In May, 1936, ]she[ was united in marriage to Teddy S. Jones.  They]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "433" ;
+        c:prefix     "the Pleasant View School.  In May, 1936, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/cbb60512-ba82-3955-b127-a5b8d574ee37> ;
+        c:suffix     " was united in marriage to Teddy S. Jones.  They" .
+
+<http://d.opencalais.com/genericHasher-1/bb31d458-653d-375f-981c-d0f2a468a542>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oklahoma Medical Research Foundation" ;
+        c:nationality        "American" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/cd4cde6f-2042-3261-a769-625a05b4a49a>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Pleasant View School" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/2a7d6dd4-95b0-37fa-b518-ab2d2a70a464>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "husband" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/cbb60512-ba82-3955-b127-a5b8d574ee37> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/9cf50f22-b88c-361e-948d-3b980fed08eb> .
+
+<http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664/Relevance/3>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ffe3480a-abe7-3145-bdfe-b1e4a35ad4cd> .
+
+<http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664/Instance/11>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[her parents, she was preceded in death by ]her husband, Ted[, in 1990; and her sister, Leola McGee.  \nVerla]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664> ;
+        c:exact      "her husband, Ted" ;
+        c:length     "16" ;
+        c:offset     "627" ;
+        c:prefix     "her parents, she was preceded in death by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0eca6e6f-bbca-38e9-bf2c-95aff5958a36> ;
+        c:suffix     ", in 1990; and her sister, Leola McGee.  \nVerla" .
+
+<http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664/cat/1>
+        a                    <http://s.opencalais.com/1/type/cat/DocCat> ;
+        c:docId              <http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Human Interest" ;
+        c:score              "1.000" .
+
+<http://d.opencalais.com/conf/pershash-1/9cf50f22-b88c-361e-948d-3b980fed08eb>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.994" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/9cf50f22-b88c-361e-948d-3b980fed08eb> .
+
+<http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664/Instance/24>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Ted, in 1990; and her sister, Leola McGee.  \n]Verla Dean[ is survived by two children, Martha Woolley of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664> ;
+        c:exact      "Verla Dean" ;
+        c:length     "10" ;
+        c:offset     "685" ;
+        c:prefix     "Ted, in 1990; and her sister, Leola McGee.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/cbb60512-ba82-3955-b127-a5b8d574ee37> ;
+        c:suffix     " is survived by two children, Martha Woolley of" .
+
+<http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664/Instance/9>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Oklahoma, and passed away September 2, 2012, at ]her[ home in Waynoka, Oklahoma, at the age of 90]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "301" ;
+        c:prefix     "Oklahoma, and passed away September 2, 2012, at " ;
+        c:subject    <http://d.opencalais.com/pershash-1/fbfaf534-8f97-35b5-976a-8c26f1bda9b9> ;
+        c:suffix     " home in Waynoka, Oklahoma, at the age of 90" .
+
+<http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664/Relevance/14>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3fc76fa0-2822-3a05-bc9a-d75c68ee10e1> .
+
+<http://d.opencalais.com/pershash-1/df83daa8-6ebc-3f40-befa-79e47447d254>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Teddy Jones" ;
+        c:confidencelevel    "0.963" ;
+        c:firstname          "Teddy" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Jones" ;
+        c:middlename         "S." ;
+        c:name               "Teddy S. Jones" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664/Instance/37>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in marriage to Teddy S. Jones.  They lived in ]Waynoka[ all of their lives.  She really enjoyed sewing]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664> ;
+        c:exact      "Waynoka" ;
+        c:length     "7" ;
+        c:offset     "494" ;
+        c:prefix     "in marriage to Teddy S. Jones.  They lived in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/5cdb0ca2-a978-3b12-a2ae-6ff11510810c> ;
+        c:suffix     " all of their lives.  She really enjoyed sewing" .
+
+<http://d.opencalais.com/conf/pershash-1/cbb60512-ba82-3955-b127-a5b8d574ee37>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.852" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.919" ;
+        c:subject             <http://d.opencalais.com/pershash-1/cbb60512-ba82-3955-b127-a5b8d574ee37> .
+
+<http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664/Instance/3>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ be 2:00 p.m. Tuesday, September 11, 2012, at the ]Marshall Funeral Home Chapel[ in Alva.    \nVerla Dean Jones, daughter of the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664> ;
+        c:exact      "Marshall Funeral Home Chapel" ;
+        c:length     "28" ;
+        c:offset     "93" ;
+        c:prefix     " be 2:00 p.m. Tuesday, September 11, 2012, at the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ffe3480a-abe7-3145-bdfe-b1e4a35ad4cd> ;
+        c:suffix     " in Alva.    \nVerla Dean Jones, daughter of the" .
+
+<http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664/lid/DefaultLangId>
+        a                    <http://s.opencalais.com/1/type/lid/DefaultLangId> ;
+        c:docId              <http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664> ;
+        c:forenduserdisplay  "false" ;
+        c:lang               <http://d.opencalais.com/lid/DefaultLangId/English> ;
+        c:permid             "505062" .
+
+<http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664/Instance/31>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ McGee.  \nVerla Dean is survived by two children, ]Martha Woolley of Waynoka[, and Ted Jones and wife, Mary, of Alva; 7]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664> ;
+        c:exact      "Martha Woolley of Waynoka" ;
+        c:length     "25" ;
+        c:offset     "725" ;
+        c:prefix     " McGee.  \nVerla Dean is survived by two children, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3bc10d92-bf0c-3a62-85ff-9c7a4cbfd268> ;
+        c:suffix     ", and Ted Jones and wife, Mary, of Alva; 7" .
+
+<http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664/ComponentVersions>
+        a          <http://s.opencalais.com/1/type/sys/ComponentVersions> ;
+        c:docId    <http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664> ;
+        c:version  "OneCalaisIM:OneCalais_8.3-RELEASE:198" , "NextTags:OneCalais_8.3-RELEASE:113" , "WatchDog:OneCalais_8.3-RELEASE:113" , "config-cse:271:271" , "SECHeaderMetadataIM:OneCalais_8.3-RELEASE:198" , "Housekeeper:OneCalais_8.3-RELEASE:113" , "People Override:258:258" , "index-vessels:201505231718:201505231718" , "OA Override:271:271" , "BrokerResearchIM:OneCalais_8.3-RELEASE:198" , "BlackList:264:264" , "config-physicalAssets-ports:258:258" , "FrenchIM:OneCalais_8.3-RELEASE:198" , "config-drugs:258:258" , "Collector:OneCalais_8.3-RELEASE:113" , "OA Index:201505252208:201505252208" , "OneCalais:OneCalais_8.3-RELEASE:364" , "Deals Index:201505261718:201505261718" , "SocialTags Index:201505191038:201505191038" , "Dial4J:OneCalais_8.3-RELEASE:198" , "config-negativeSignature:258:258" , "config-refineries:258:258" , "config-vessels:258:258" , "People Index:201505261608:201505261608" , "config-sca-DataPackage:34:34" , "SpanishIM:OneCalais_8.3-RELEASE:198" , "com.clearforest.infoext.dial4j.plugins-basistechconfig:OneCalais_8.3-RELEASE:225" , "AutocoderRuntimeIM:OneCalais_8.3-RELEASE:198" .
+
+<http://d.opencalais.com/genericHasher-1/3fc76fa0-2822-3a05-bc9a-d75c68ee10e1>
+        a                    <http://s.opencalais.com/1/type/em/e/IndustryTerm> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Memorial services" .
+
+<http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664/Relevance/8>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/2f129e5b-6169-3774-8d99-2696ca8b606b> .
+
+<http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664/Instance/16>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[at the age of 90 years and 15 days.    \n]Verla Dean[ attended the Pleasant View School.  In May,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664> ;
+        c:exact      "Verla Dean" ;
+        c:length     "10" ;
+        c:offset     "372" ;
+        c:prefix     "at the age of 90 years and 15 days.    \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/cbb60512-ba82-3955-b127-a5b8d574ee37> ;
+        c:suffix     " attended the Pleasant View School.  In May," .
+
+<http://d.opencalais.com/conf/pershash-1/64bab556-d760-3b4c-83ab-f7262e13ce0a>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.988" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.992" ;
+        c:subject             <http://d.opencalais.com/pershash-1/64bab556-d760-3b4c-83ab-f7262e13ce0a> .
+
+<http://d.opencalais.com/pershash-1/846aa3d9-5ab8-3c15-8d45-cd90a9ffe99b>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Mary" ;
+        c:confidencelevel    "0.971" ;
+        c:firstname          "Mary" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Mary" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664/Instance/29>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[  \nVerla Dean attended the Pleasant View School.  ]In May, 1936, she was united in marriage to Teddy S. Jones[.  They lived in Waynoka all of their lives.  She]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664> ;
+        c:exact      "In May, 1936, she was united in marriage to Teddy S. Jones" ;
+        c:length     "58" ;
+        c:offset     "419" ;
+        c:prefix     "  \nVerla Dean attended the Pleasant View School.  " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c88da057-ec1b-3751-a5ea-32c11a51a3e7> ;
+        c:suffix     ".  They lived in Waynoka all of their lives.  She" .
+
+<http://d.opencalais.com/genericHasher-1/66795d08-c885-3278-9ffe-10b0cd5dc67e>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Woods County" ;
+        c:person             <http://d.opencalais.com/pershash-1/fbfaf534-8f97-35b5-976a-8c26f1bda9b9> .
+
+<http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664/meta>
+        a                 <http://s.opencalais.com/1/type/sys/DocInfoMeta> ;
+        c:contentType     "text/raw" ;
+        c:docId           <http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664> ;
+        c:language        "English" ;
+        c:processingVer   "AllMetadata" ;
+        c:serverVersion   "OneCalais_8.3-RELEASE:364" ;
+        c:signature       "digestalg-1|6ow14rMu0XkPCrMYDjkz0IFbx6s=|RG5f+wuX1kPVdzA5OLF49LfJNjgF3jRPrH0TmjZH9jjnOJ4ps6UkEQ==" ;
+        c:stagsVer        "OneCalais_8.3-RELEASE-b11-2015-03-25_18:29:00" ;
+        c:submissionDate  "2015-05-26 17:29:02.295" ;
+        c:submitterCode   "0ca6a864-5659-789d-5f32-f365f695e757" .
+
+<http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664/Relevance/2>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/66bb5956-c260-3855-9990-cd2e80f168d2> .
+
+<http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664/Instance/10>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[may be made through the funeral home to the ]Oklahoma Medical Research Foundation[ for cancer research.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664> ;
+        c:exact      "Oklahoma Medical Research Foundation" ;
+        c:length     "36" ;
+        c:offset     "963" ;
+        c:prefix     "may be made through the funeral home to the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/bb31d458-653d-375f-981c-d0f2a468a542> ;
+        c:suffix     " for cancer research." .
+
+<http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664/Instance/23>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in death by her husband, Ted, in 1990; and ]her[ sister, Leola McGee.  \nVerla Dean is survived by]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "658" ;
+        c:prefix     "in death by her husband, Ted, in 1990; and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/cbb60512-ba82-3955-b127-a5b8d574ee37> ;
+        c:suffix     " sister, Leola McGee.  \nVerla Dean is survived by" .
+
+<http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664/Instance/8>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Dean Jones, daughter of the late Lewis O. and ]Martha (Brown) Howell[, was born August 18, 1922, in Woods County,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664> ;
+        c:exact      "Martha (Brown) Howell" ;
+        c:length     "21" ;
+        c:offset     "187" ;
+        c:prefix     "Dean Jones, daughter of the late Lewis O. and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/fbfaf534-8f97-35b5-976a-8c26f1bda9b9> ;
+        c:suffix     ", was born August 18, 1922, in Woods County," .
+
+<http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664/Relevance/13>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/9cf50f22-b88c-361e-948d-3b980fed08eb> .
+
+<http://d.opencalais.com/genericHasher-1/9b074e46-1d49-3b03-bba7-732dc581fa70>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "sister" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/cbb60512-ba82-3955-b127-a5b8d574ee37> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/66bb5956-c260-3855-9990-cd2e80f168d2> .
+
+<http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664/Instance/36>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[passed away September 2, 2012, at her home in ]Waynoka[, Oklahoma, at the age of 90 years and 15 days.  ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664> ;
+        c:exact      "Waynoka" ;
+        c:length     "7" ;
+        c:offset     "313" ;
+        c:prefix     "passed away September 2, 2012, at her home in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/5cdb0ca2-a978-3b12-a2ae-6ff11510810c> ;
+        c:suffix     ", Oklahoma, at the age of 90 years and 15 days.  " .
+
+<http://d.opencalais.com/conf/pershash-1/fbfaf534-8f97-35b5-976a-8c26f1bda9b9>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.99" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.992" ;
+        c:subject             <http://d.opencalais.com/pershash-1/fbfaf534-8f97-35b5-976a-8c26f1bda9b9> .
+
+<http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664/Instance/2>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[by her husband, Ted, in 1990; and her sister, ]Leola McGee[.  \nVerla Dean is survived by two children,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664> ;
+        c:exact      "Leola McGee" ;
+        c:length     "11" ;
+        c:offset     "670" ;
+        c:prefix     "by her husband, Ted, in 1990; and her sister, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/66bb5956-c260-3855-9990-cd2e80f168d2> ;
+        c:suffix     ".  \nVerla Dean is survived by two children," .
+
+<http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664/Instance/30>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[at the age of 90 years and 15 days.    \n]Verla Dean attended the Pleasant View School[.  In May, 1936, she was united in marriage to]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664> ;
+        c:exact      "Verla Dean attended the Pleasant View School" ;
+        c:length     "44" ;
+        c:offset     "372" ;
+        c:prefix     "at the age of 90 years and 15 days.    \n" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3fd65ac0-49bf-33f1-aa1d-f1cef29b09e2> ;
+        c:suffix     ".  In May, 1936, she was united in marriage to" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/f6ce3662-5fe9-83fa-3a6d-8c65e2714094>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664> ;
+        c:latitude            "36.5822" ;
+        c:longitude           "-98.8794" ;
+        c:name                "Waynoka,Oklahoma,United States" ;
+        c:shortname           "Waynoka" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/5cdb0ca2-a978-3b12-a2ae-6ff11510810c> .
+
+<http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664/Relevance/7>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/bb31d458-653d-375f-981c-d0f2a468a542> .
+
+<http://d.opencalais.com/genericHasher-1/ce8de128-24bf-3473-ab18-361909e1197d>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Woods County" .
+
+<http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664/Instance/15>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ In May, 1936, she was united in marriage to ]Teddy S. Jones[.  They lived in Waynoka all of their lives.  She]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664> ;
+        c:exact      "Teddy S. Jones" ;
+        c:length     "14" ;
+        c:offset     "463" ;
+        c:prefix     " In May, 1936, she was united in marriage to " ;
+        c:subject    <http://d.opencalais.com/pershash-1/df83daa8-6ebc-3f40-befa-79e47447d254> ;
+        c:suffix     ".  They lived in Waynoka all of their lives.  She" .
+
+<http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664/Instance/28>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Dean Jones, daughter of the late Lewis O. and ]Martha (Brown) Howell, was born August 18, 1922, in Woods County[, Oklahoma, and passed away September 2, 2012, at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664> ;
+        c:exact      "Martha (Brown) Howell, was born August 18, 1922, in Woods County" ;
+        c:length     "64" ;
+        c:offset     "187" ;
+        c:prefix     "Dean Jones, daughter of the late Lewis O. and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/6943171f-19ac-3fa1-af9c-4a865674bfae> ;
+        c:suffix     ", Oklahoma, and passed away September 2, 2012, at" .
+
+<http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664>
+        a                  <http://s.opencalais.com/1/type/sys/DocInfo> ;
+        c:calaisRequestID  "3af18ba9-12ed-46c2-14d9-145385712501" ;
+        c:docDate          "2015-05-26 17:29:02.562" ;
+        c:docTitle         "" ;
+        c:document         "Memorial services for Verla Dean Jones will be 2:00 p.m. Tuesday, September 11, 2012, at the Marshall Funeral Home Chapel in Alva.    \nVerla Dean Jones, daughter of the late Lewis O. and Martha (Brown) Howell, was born August 18, 1922, in Woods County, Oklahoma, and passed away September 2, 2012, at her home in Waynoka, Oklahoma, at the age of 90 years and 15 days.    \nVerla Dean attended the Pleasant View School.  In May, 1936, she was united in marriage to Teddy S. Jones.  They lived in Waynoka all of their lives.  She really enjoyed sewing and raising her children.  \nBesides her parents, she was preceded in death by her husband, Ted, in 1990; and her sister, Leola McGee.  \nVerla Dean is survived by two children, Martha Woolley of Waynoka, and Ted Jones and wife, Mary, of Alva; 7 grandchildren; 19 great grandchildren, and 5 great great grandchildren; other relatives and friends.  \nMemorial contributions may be made through the funeral home to the Oklahoma Medical Research Foundation for cancer research. \n\t\t\t" ;
+        c:id               "http://id.opencalais.com/gJrfbHKv1vL4rGjyuoUaiw" ;
+        c:ontology         "http://163.231.4.65/owlschema/8.3/onecalais.owl.allmetadata.xml" .
+
+<http://d.opencalais.com/conf/pershash-1/66bb5956-c260-3855-9990-cd2e80f168d2>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.993" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.995" ;
+        c:subject             <http://d.opencalais.com/pershash-1/66bb5956-c260-3855-9990-cd2e80f168d2> .
+
+<http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664/Relevance/1>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ce8de128-24bf-3473-ab18-361909e1197d> .
+
+<http://d.opencalais.com/conf/pershash-1/2f129e5b-6169-3774-8d99-2696ca8b606b>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.993" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.995" ;
+        c:subject             <http://d.opencalais.com/pershash-1/2f129e5b-6169-3774-8d99-2696ca8b606b> .
+
+<http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664/Instance/22>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[her parents, she was preceded in death by ]her[ husband, Ted, in 1990; and her sister, Leola]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "627" ;
+        c:prefix     "her parents, she was preceded in death by " ;
+        c:subject    <http://d.opencalais.com/pershash-1/cbb60512-ba82-3955-b127-a5b8d574ee37> ;
+        c:suffix     " husband, Ted, in 1990; and her sister, Leola" .
+
+<http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664/Instance/35>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Oklahoma, and passed away September 2, 2012, at ]her home in Waynoka, Oklahoma[, at the age of 90 years and 15 days.    \nVerla]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664> ;
+        c:exact      "her home in Waynoka, Oklahoma" ;
+        c:length     "29" ;
+        c:offset     "301" ;
+        c:prefix     "Oklahoma, and passed away September 2, 2012, at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/66825a07-5db7-34f7-9771-3812ec2857b8> ;
+        c:suffix     ", at the age of 90 years and 15 days.    \nVerla" .
+
+<http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664/Instance/7>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[years and 15 days.    \nVerla Dean attended the ]Pleasant View School[.  In May, 1936, she was united in marriage to]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664> ;
+        c:exact      "Pleasant View School" ;
+        c:length     "20" ;
+        c:offset     "396" ;
+        c:prefix     "years and 15 days.    \nVerla Dean attended the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/cd4cde6f-2042-3261-a769-625a05b4a49a> ;
+        c:suffix     ".  In May, 1936, she was united in marriage to" .
+
+<http://d.opencalais.com/genericHasher-1/6943171f-19ac-3fa1-af9c-4a865674bfae>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonAttributes> ;
+        c:birthdate          "1922-08-18" ;
+        c:birthplace         <http://d.opencalais.com/genericHasher-1/ce8de128-24bf-3473-ab18-361909e1197d> ;
+        c:forenduserdisplay  "false" ;
+        c:gender             "F" ;
+        c:person             <http://d.opencalais.com/pershash-1/fbfaf534-8f97-35b5-976a-8c26f1bda9b9> .
+
+<http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664/Relevance/12>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/64bab556-d760-3b4c-83ab-f7262e13ce0a> .
+
+<http://d.opencalais.com/genericHasher-1/c88da057-ec1b-3751-a5ea-32c11a51a3e7>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:date                "1936-05-00" ;
+        c:datestring          "May, 1936" ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/df83daa8-6ebc-3f40-befa-79e47447d254> , <http://d.opencalais.com/pershash-1/cbb60512-ba82-3955-b127-a5b8d574ee37> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/e9e27c26-4013-8712-a5f0-97dcdc412c26>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664> ;
+        c:latitude            "35.5607802899" ;
+        c:longitude           "-96.8460570462" ;
+        c:name                "Oklahoma,United States" ;
+        c:permid              "100229" ;
+        c:rcscode             "G:9H" ;
+        c:shortname           "Oklahoma" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/pershash-1/9cf50f22-b88c-361e-948d-3b980fed08eb>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Ted Jones" ;
+        c:confidencelevel    "0.994" ;
+        c:firstname          "Ted" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Ted Jones" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664/Instance/1>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[(Brown) Howell, was born August 18, 1922, in ]Woods County[, Oklahoma, and passed away September 2, 2012, at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c13ce481-edea-30af-b907-a76342c52664> ;
+        c:exact      "Woods County" ;
+        c:length     "12" ;
+        c:offset     "239" ;
+        c:prefix     "(Brown) Howell, was born August 18, 1922, in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ce8de128-24bf-3473-ab18-361909e1197d> ;
+        c:suffix     ", Oklahoma, and passed away September 2, 2012, at" .
+
+<http://d.opencalais.com/pershash-1/cbb60512-ba82-3955-b127-a5b8d574ee37>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Verla Dean" ;
+        c:confidencelevel    "0.852" ;
+        c:firstname          "Verla" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Dean" ;
+        c:name               "Verla Dean" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oklahoma" .

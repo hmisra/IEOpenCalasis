@@ -1,0 +1,1774 @@
+#Relations: FamilyRelation, PersonAttributes, PersonCareer, PersonLocation, PersonRelation
+#City: Amarillo, Enid, Lindsborg, Oologah, Wichita
+#Company: Waynoka LLC
+#Facility: Integris Bass Hospital, Marshall Funeral Home of Waynoka, Waynoka Municipal Cemetery
+#IndustryTerm: Funeral services
+#Organization: Integris Bass Hospital, Sports Club, Waynoka Church of God
+#Person: Andrew Henry, Autumn, Deanna, Dennis, Diane Samms Rush, Elmer "Duke" Rush, Galen Hulse, Hollie Cunningham, John Brint, Karmen (Rush) Gulliford, Karmen Gulliford, Laurn, Leslie Henry, Ronnie, Sascha Bailey, Shenny Rush, Trenton Gulliford
+#ProvinceOrState: Kansas, Texas
+@prefix c:     <http://s.opencalais.com/1/pred/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/64>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ great grandchildren; one brother, Shenny Rush of ]Wichita[, KS; one sister-in-law, Diane Samms Rush of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "Wichita" ;
+        c:length     "7" ;
+        c:offset     "997" ;
+        c:prefix     " great grandchildren; one brother, Shenny Rush of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/1be89cab-3ede-3881-b26f-be89e5573164> ;
+        c:suffix     ", KS; one sister-in-law, Diane Samms Rush of" .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/43>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[by her children Leslie Henry and her husband, ]Ronnie[, of Amarillo, TX, Galen Hulse and his wife,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "Ronnie" ;
+        c:length     "6" ;
+        c:offset     "700" ;
+        c:prefix     "by her children Leslie Henry and her husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/95f9d5b0-44aa-3a2d-a2f0-3103a59176d2> ;
+        c:suffix     ", of Amarillo, TX, Galen Hulse and his wife," .
+
+<http://d.opencalais.com/pershash-1/b88dc3ac-776d-3a6c-a0dc-720189ee19dc>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Leslie Henry" ;
+        c:confidencelevel    "0.999" ;
+        c:firstname          "Leslie" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Henry" ;
+        c:name               "Leslie Henry" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/22>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Deanna, of Great Bend, KS, Hollie Cunningham and ]her[ husband, Dennis, of Waynoka, OK, Sascha Bailey]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "800" ;
+        c:prefix     " Deanna, of Great Bend, KS, Hollie Cunningham and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/14eac3a3-766c-34cf-a0a0-8f3c361b1027> ;
+        c:suffix     " husband, Dennis, of Waynoka, OK, Sascha Bailey" .
+
+<http://d.opencalais.com/genericHasher-1/1b7c5f3d-6555-328e-9277-35f88e6bf634>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Lindsborg" .
+
+<http://d.opencalais.com/pershash-1/7da352d6-638d-37a2-826e-1702542e6371>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Galen Hulse" ;
+        c:confidencelevel    "0.992" ;
+        c:firstname          "Galen" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Hulse" ;
+        c:name               "Galen Hulse" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/pershash-1/833bc8c7-7ae6-3412-9854-2108331996b9>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Deanna" ;
+        c:confidencelevel    "0.769" ;
+        c:firstname          "Deanna" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Deanna" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/e3bc216e-2a83-373d-8c6c-1e6c0c833b54>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:company            <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:forenduserdisplay  "true" ;
+        c:person             <http://d.opencalais.com/pershash-1/cd95814c-6b3b-3f4e-b642-b25f96708cd7> ;
+        c:status             "current" .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Relevance/23>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/c850c8d8-b29c-32b8-a719-600e79f1f3b2> .
+
+<https://permid.org/1-5035751620>
+        a             <http://s.opencalais.com/1/type/er/Company> ;
+        c:commonname  "Waynoka" ;
+        c:docId       <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:legacyid    <http://d.opencalais.com/er/company/ralg-tr1r/da554c4e-4d2b-3037-98bc-d26b5df2c525> ;
+        c:name        "Waynoka Utilities Authority" ;
+        c:permid      "5035751620" ;
+        c:score       "0.05522651" ;
+        c:subject     <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/72>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Hulse and his wife, Deanna, of Great Bend, KS, ]Hollie Cunningham and her husband, Dennis, of Waynoka[, OK, Sascha Bailey of Oologah, OK, and Trenton]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "Hollie Cunningham and her husband, Dennis, of Waynoka" ;
+        c:length     "53" ;
+        c:offset     "778" ;
+        c:prefix     "Hulse and his wife, Deanna, of Great Bend, KS, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3336ffff-c267-3b30-8240-c6400cd8bcea> ;
+        c:suffix     ", OK, Sascha Bailey of Oologah, OK, and Trenton" .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Relevance/1>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/6>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[grandson, Andrew Henry.  \nShe is survived by ]her[ children Leslie Henry and her husband, Ronnie,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "657" ;
+        c:prefix     "grandson, Andrew Henry.  \nShe is survived by " ;
+        c:subject    <http://d.opencalais.com/pershash-1/d52906f7-03bb-3270-99ec-51bb60f22a59> ;
+        c:suffix     " children Leslie Henry and her husband, Ronnie," .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/51>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Hollie Cunningham and her husband, Dennis, of ]Waynoka[, OK, Sascha Bailey of Oologah, OK, and Trenton]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "Waynoka" ;
+        c:length     "7" ;
+        c:offset     "824" ;
+        c:prefix     "Hollie Cunningham and her husband, Dennis, of " ;
+        c:subject    <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:suffix     ", OK, Sascha Bailey of Oologah, OK, and Trenton" .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/30>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ until her health made it impossible to continue. ]She[ loved to play cards, crochet, and watch her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "1219" ;
+        c:prefix     " until her health made it impossible to continue. " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6007ce0b-a419-3967-ab6e-18fc9f01bd8f> ;
+        c:suffix     " loved to play cards, crochet, and watch her" .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/SocialTag/3>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Lindsborg, Kansas" ;
+        c:originalValue      "Lindsborg, Kansas" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/283d0d87-47f7-37c3-96b6-4e8bfda1c7cd> .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Relevance/31>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/1c69713e-b2f5-3b0c-9953-127a6a1fa717> .
+
+<http://d.opencalais.com/pershash-1/c850c8d8-b29c-32b8-a719-600e79f1f3b2>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Trenton Gulliford" ;
+        c:confidencelevel    "0.992" ;
+        c:firstname          "Trenton" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Gulliford" ;
+        c:name               "Trenton Gulliford" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Relevance/10>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/14eac3a3-766c-34cf-a0a0-8f3c361b1027> .
+
+<http://d.opencalais.com/conf/pershash-1/00d9d2bd-8753-3abd-aa9c-f3c8053c7ea7>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/00d9d2bd-8753-3abd-aa9c-f3c8053c7ea7> .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/80>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Shenny Rush of Wichita, KS; one sister-in-law, ]Diane Samms Rush[ of Wichita, Kansas; and many special friends. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "Diane Samms Rush" ;
+        c:length     "16" ;
+        c:offset     "1029" ;
+        c:prefix     "Shenny Rush of Wichita, KS; one sister-in-law, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b9b5a22b-365f-359d-9b68-c65edf85ffb0> ;
+        c:suffix     " of Wichita, Kansas; and many special friends. " .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Relevance/9>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0a09ae8f-0456-38fc-b965-ff815c60f9d3> .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/59>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and grandmother, passed away May 3, 2007 at ]Integris Bass Hospital[, Enid, OK, after a long illness. Born May 21,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "Integris Bass Hospital" ;
+        c:length     "22" ;
+        c:offset     "349" ;
+        c:prefix     "and grandmother, passed away May 3, 2007 at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/2653716f-960d-387c-98c4-52846d5ba27f> ;
+        c:suffix     ", Enid, OK, after a long illness. Born May 21," .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/38>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and grandmother, passed away May 3, 2007 at ]Integris Bass Hospital[, Enid, OK, after a long illness. Born May 21,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "Integris Bass Hospital" ;
+        c:length     "22" ;
+        c:offset     "349" ;
+        c:prefix     "and grandmother, passed away May 3, 2007 at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c39e7a09-e877-3e57-9086-afed1f511dda> ;
+        c:suffix     ", Enid, OK, after a long illness. Born May 21," .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/17>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[OK, and Trenton Gulliford, and his wife, ]Autumn[, of Waynoka, OK; 13 grandchildren; 8 great]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "Autumn" ;
+        c:length     "6" ;
+        c:offset     "904" ;
+        c:prefix     "OK, and Trenton Gulliford, and his wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/cd95814c-6b3b-3f4e-b642-b25f96708cd7> ;
+        c:suffix     ", of Waynoka, OK; 13 grandchildren; 8 great" .
+
+<http://d.opencalais.com/conf/pershash-1/b9b5a22b-365f-359d-9b68-c65edf85ffb0>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.957" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.969" ;
+        c:subject             <http://d.opencalais.com/pershash-1/b9b5a22b-365f-359d-9b68-c65edf85ffb0> .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Relevance/18>
+        a                <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId          <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:relevance      "0.8" ;
+        c:relevancecont  "0.85" ;
+        c:subject        <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> .
+
+<http://d.opencalais.com/pershash-1/6007ce0b-a419-3967-ab6e-18fc9f01bd8f>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Karmen Gulliford" ;
+        c:confidencelevel    "0.977" ;
+        c:firstname          "Karmen" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Gulliford" ;
+        c:name               "Karmen (Rush) Gulliford" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/67>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[is survived by her children Leslie Henry and ]her husband, Ronnie, of Amarillo, TX[, Galen Hulse and his wife, Deanna, of Great]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "her husband, Ronnie, of Amarillo, TX" ;
+        c:length     "36" ;
+        c:offset     "687" ;
+        c:prefix     "is survived by her children Leslie Henry and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/5a492787-ad0b-39ae-a847-28984cea4663> ;
+        c:suffix     ", Galen Hulse and his wife, Deanna, of Great" .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/1>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Andrew Henry.  \nShe is survived by her children ]Leslie Henry and her husband, Ronnie, of Amarillo, TX[, Galen Hulse and his wife, Deanna, of Great]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "Leslie Henry and her husband, Ronnie, of Amarillo, TX" ;
+        c:length     "53" ;
+        c:offset     "670" ;
+        c:prefix     "Andrew Henry.  \nShe is survived by her children " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/7f111078-10d8-3a38-a8b1-137c47fa023c> ;
+        c:suffix     ", Galen Hulse and his wife, Deanna, of Great" .
+
+<http://d.opencalais.com/genericHasher-1/c6769503-10b9-33dc-945e-02be839047fb>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Wichita" ;
+        c:person             <http://d.opencalais.com/pershash-1/b9b5a22b-365f-359d-9b68-c65edf85ffb0> .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/46>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[OK, after a long illness. Born May 21, 1939 in ]Lindsborg[, KS, she was the daughter of Laurn \"Cotton\" and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "Lindsborg" ;
+        c:length     "9" ;
+        c:offset     "426" ;
+        c:prefix     "OK, after a long illness. Born May 21, 1939 in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/1b7c5f3d-6555-328e-9277-35f88e6bf634> ;
+        c:suffix     ", KS, she was the daughter of Laurn \"Cotton\" and" .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/25>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Laurn \"Cotton\" and Edna (Johnson) Rush.  \n]She[ is preceded in death by her father and mother,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "507" ;
+        c:prefix     "of Laurn \"Cotton\" and Edna (Johnson) Rush.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/6007ce0b-a419-3967-ab6e-18fc9f01bd8f> ;
+        c:suffix     " is preceded in death by her father and mother," .
+
+<http://d.opencalais.com/conf/pershash-1/cd95814c-6b3b-3f4e-b642-b25f96708cd7>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.86" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/cd95814c-6b3b-3f4e-b642-b25f96708cd7> .
+
+<http://d.opencalais.com/pershash-1/d52906f7-03bb-3270-99ec-51bb60f22a59>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Laurn" ;
+        c:confidencelevel    "0.982" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Laurn" ;
+        c:name               "Laurn" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Relevance/26>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/00d9d2bd-8753-3abd-aa9c-f3c8053c7ea7> .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/75>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[OK, and Trenton Gulliford, and his wife, ]Autumn, of Waynoka[, OK; 13 grandchildren; 8 great grandchildren;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "Autumn, of Waynoka" ;
+        c:length     "18" ;
+        c:offset     "904" ;
+        c:prefix     "OK, and Trenton Gulliford, and his wife, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e3bc216e-2a83-373d-8c6c-1e6c0c833b54> ;
+        c:suffix     ", OK; 13 grandchildren; 8 great grandchildren;" .
+
+<http://d.opencalais.com/genericHasher-1/2653716f-960d-387c-98c4-52846d5ba27f>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Integris Bass Hospital" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Relevance/4>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/84bb0714-85ab-39de-a7e7-f1ad2e79292b> .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/9>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[one brother, Shenny Rush of Wichita, ]KS[; one sister-in-law, Diane Samms Rush of Wichita,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "KS" ;
+        c:length     "2" ;
+        c:offset     "1006" ;
+        c:prefix     "one brother, Shenny Rush of Wichita, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> ;
+        c:suffix     "; one sister-in-law, Diane Samms Rush of Wichita," .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/54>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Bend, KS, Hollie Cunningham and her husband, ]Dennis[, of Waynoka, OK, Sascha Bailey of Oologah, OK,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "Dennis" ;
+        c:length     "6" ;
+        c:offset     "813" ;
+        c:prefix     "Bend, KS, Hollie Cunningham and her husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/4a20cc5c-f206-313b-a433-d698e1bf1358> ;
+        c:suffix     ", of Waynoka, OK, Sascha Bailey of Oologah, OK," .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/33>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[brought her great pride and joy.  \nEven as ]her[ health deteriorated and her participation in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1428" ;
+        c:prefix     "brought her great pride and joy.  \nEven as " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6007ce0b-a419-3967-ab6e-18fc9f01bd8f> ;
+        c:suffix     " health deteriorated and her participation in" .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/12>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Shenny Rush of Wichita, KS; one sister-in-law, ]Diane Samms Rush of Wichita, Kansas[; and many special friends.  \nKarmen never met a]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "Diane Samms Rush of Wichita, Kansas" ;
+        c:length     "35" ;
+        c:offset     "1029" ;
+        c:prefix     "Shenny Rush of Wichita, KS; one sister-in-law, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c6769503-10b9-33dc-945e-02be839047fb> ;
+        c:suffix     "; and many special friends.  \nKarmen never met a" .
+
+<http://d.opencalais.com/genericHasher-1/c1606f74-13fe-3186-8084-3f5c1c466e4e>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Waynoka Church of God" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Relevance/13>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/7da352d6-638d-37a2-826e-1702542e6371> .
+
+<http://d.opencalais.com/pershash-1/14eac3a3-766c-34cf-a0a0-8f3c361b1027>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Hollie Cunningham" ;
+        c:confidencelevel    "0.992" ;
+        c:firstname          "Hollie" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Cunningham" ;
+        c:name               "Hollie Cunningham" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/pershash-1/4e84fefd-5e35-37dc-9308-cbbe5c53bae2>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Karmen Gulliford" ;
+        c:confidencelevel    "0.998" ;
+        c:firstname          "Karmen" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Gulliford" ;
+        c:name               "Karmen Gulliford" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/62>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Oologah, OK, and Trenton Gulliford, and ]his[ wife, Autumn, of Waynoka, OK; 13 grandchildren;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "894" ;
+        c:prefix     "of Oologah, OK, and Trenton Gulliford, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/c850c8d8-b29c-32b8-a719-600e79f1f3b2> ;
+        c:suffix     " wife, Autumn, of Waynoka, OK; 13 grandchildren;" .
+
+<http://d.opencalais.com/conf/pershash-1/b88dc3ac-776d-3a6c-a0dc-720189ee19dc>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.999" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.999" ;
+        c:subject             <http://d.opencalais.com/pershash-1/b88dc3ac-776d-3a6c-a0dc-720189ee19dc> .
+
+<http://d.opencalais.com/pershash-1/5c2bde80-75a0-3990-8139-443308d5f379>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Andrew Henry" ;
+        c:confidencelevel    "0.998" ;
+        c:firstname          "Andrew" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Henry" ;
+        c:name               "Andrew Henry" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/41>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Ronnie, of Amarillo, TX, Galen Hulse and ]his[ wife, Deanna, of Great Bend, KS, Hollie]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "741" ;
+        c:prefix     "Ronnie, of Amarillo, TX, Galen Hulse and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/7da352d6-638d-37a2-826e-1702542e6371> ;
+        c:suffix     " wife, Deanna, of Great Bend, KS, Hollie" .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/20>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Leslie Henry and her husband, Ronnie, of ]Amarillo[, TX, Galen Hulse and his wife, Deanna, of Great]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "Amarillo" ;
+        c:length     "8" ;
+        c:offset     "711" ;
+        c:prefix     "Leslie Henry and her husband, Ronnie, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0a09ae8f-0456-38fc-b965-ff815c60f9d3> ;
+        c:suffix     ", TX, Galen Hulse and his wife, Deanna, of Great" .
+
+<http://d.opencalais.com/conf/pershash-1/7da352d6-638d-37a2-826e-1702542e6371>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.992" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.994" ;
+        c:subject             <http://d.opencalais.com/pershash-1/7da352d6-638d-37a2-826e-1702542e6371> .
+
+<http://d.opencalais.com/conf/pershash-1/833bc8c7-7ae6-3412-9854-2108331996b9>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.769" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/833bc8c7-7ae6-3412-9854-2108331996b9> .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Relevance/21>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/2653716f-960d-387c-98c4-52846d5ba27f> .
+
+<http://d.opencalais.com/genericHasher-1/d1247f36-2193-300b-b0eb-487a8e916e1a>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "wife" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/7da352d6-638d-37a2-826e-1702542e6371> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/833bc8c7-7ae6-3412-9854-2108331996b9> .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/70>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[brother, Elmer \"Duke\" Rush, and great grandson, ]Andrew Henry[.  \nShe is survived by her children Leslie Henry]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "Andrew Henry" ;
+        c:length     "12" ;
+        c:offset     "622" ;
+        c:prefix     "brother, Elmer \"Duke\" Rush, and great grandson, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/5c2bde80-75a0-3990-8139-443308d5f379> ;
+        c:suffix     ".  \nShe is survived by her children Leslie Henry" .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/4>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[is preceded in death by her father and mother, ]Laurn[ and Edna, brother, Elmer \"Duke\" Rush, and great]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "Laurn" ;
+        c:length     "5" ;
+        c:offset     "558" ;
+        c:prefix     "is preceded in death by her father and mother, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/d52906f7-03bb-3270-99ec-51bb60f22a59> ;
+        c:suffix     " and Edna, brother, Elmer \"Duke\" Rush, and great" .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/49>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Brint officiating.  Interment will be in the ]Waynoka[ Municipal Cemetery under the direction of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "Waynoka" ;
+        c:length     "7" ;
+        c:offset     "175" ;
+        c:prefix     "Brint officiating.  Interment will be in the " ;
+        c:subject    <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:suffix     " Municipal Cemetery under the direction of" .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/28>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[never met a stranger. They were all friends.  ]She[ was an avid bowler until her health made it]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "1147" ;
+        c:prefix     "never met a stranger. They were all friends.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6007ce0b-a419-3967-ab6e-18fc9f01bd8f> ;
+        c:suffix     " was an avid bowler until her health made it" .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/SocialTag/1>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Waynoka, Oklahoma" ;
+        c:originalValue      "Waynoka, Oklahoma" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/77bc8be5-12a7-326b-962f-52fbf8cf09dd> .
+
+<http://d.opencalais.com/conf/pershash-1/c850c8d8-b29c-32b8-a719-600e79f1f3b2>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.992" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.994" ;
+        c:subject             <http://d.opencalais.com/pershash-1/c850c8d8-b29c-32b8-a719-600e79f1f3b2> .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Relevance/29>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/24d33cab-7e9e-34de-8410-e117205c529e> .
+
+<http://d.opencalais.com/genericHasher-1/3336ffff-c267-3b30-8240-c6400cd8bcea>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/4a20cc5c-f206-313b-a433-d698e1bf1358> , <http://d.opencalais.com/pershash-1/14eac3a3-766c-34cf-a0a0-8f3c361b1027> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/genericHasher-1/d5b42c2c-69e2-3e75-a1b2-15c37bb06d62>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonAttributes> ;
+        c:age                "67" ;
+        c:forenduserdisplay  "false" ;
+        c:gender             "F" ;
+        c:person             <http://d.opencalais.com/pershash-1/4e84fefd-5e35-37dc-9308-cbbe5c53bae2> .
+
+<http://d.opencalais.com/genericHasher-1/ef94a166-2389-3d43-8d7d-65be020a44fb>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Integris Bass Hospital" ;
+        c:person             <http://d.opencalais.com/pershash-1/6007ce0b-a419-3967-ab6e-18fc9f01bd8f> .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/meta>
+        a                 <http://s.opencalais.com/1/type/sys/DocInfoMeta> ;
+        c:contentType     "text/raw" ;
+        c:docId           <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:language        "English" ;
+        c:processingVer   "AllMetadata" ;
+        c:serverVersion   "OneCalais_8.3-RELEASE:364" ;
+        c:signature       "digestalg-1|BTRih9K0cFYJuhs8k3O+UKtzYOY=|MpxoZCK3jCi1xo/UaKSRj0MR6xCJ0Oj/hvRhMKnSXIGeziLeQbhv5Q==" ;
+        c:stagsVer        "OneCalais_8.3-RELEASE-b11-2015-03-25_18:29:00" ;
+        c:submissionDate  "2015-05-26 17:24:34.487" ;
+        c:submitterCode   "0ca6a864-5659-789d-5f32-f365f695e757" .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/78>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Oologah, OK, and Trenton Gulliford, and ]his wife, Autumn, of Waynoka[, OK; 13 grandchildren; 8 great grandchildren;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "his wife, Autumn, of Waynoka" ;
+        c:length     "28" ;
+        c:offset     "894" ;
+        c:prefix     "of Oologah, OK, and Trenton Gulliford, and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9c8ee61e-efea-381d-a252-2d19d9b56d86> ;
+        c:suffix     ", OK; 13 grandchildren; 8 great grandchildren;" .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Relevance/7>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/cd95814c-6b3b-3f4e-b642-b25f96708cd7> .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/57>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[away May 3, 2007 at Integris Bass Hospital, ]Enid[, OK, after a long illness. Born May 21, 1939 in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "Enid" ;
+        c:length     "4" ;
+        c:offset     "373" ;
+        c:prefix     "away May 3, 2007 at Integris Bass Hospital, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/35a979c1-2108-3761-99bd-8c6f499ef6f2> ;
+        c:suffix     ", OK, after a long illness. Born May 21, 1939 in" .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/36>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ sure everyone had their favorite dish as well as ]her[ famous Peanut Brittle, Chocolate No-Bake]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1573" ;
+        c:prefix     " sure everyone had their favorite dish as well as " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6007ce0b-a419-3967-ab6e-18fc9f01bd8f> ;
+        c:suffix     " famous Peanut Brittle, Chocolate No-Bake" .
+
+<http://d.opencalais.com/genericHasher-1/7f111078-10d8-3a38-a8b1-137c47fa023c>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/95f9d5b0-44aa-3a2d-a2f0-3103a59176d2> , <http://d.opencalais.com/pershash-1/d52906f7-03bb-3270-99ec-51bb60f22a59> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/15>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ made through the funeral home to the Waynoka All ]Sports Club[. \n\t\t\t]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "Sports Club" ;
+        c:length     "11" ;
+        c:offset     "1809" ;
+        c:prefix     " made through the funeral home to the Waynoka All " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4d5d82c3-91c3-3821-9cff-479ec3ec1fc7> ;
+        c:suffix     ". \n\t\t\t" .
+
+<http://d.opencalais.com/conf/pershash-1/6007ce0b-a419-3967-ab6e-18fc9f01bd8f>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.977" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.988" ;
+        c:subject             <http://d.opencalais.com/pershash-1/6007ce0b-a419-3967-ab6e-18fc9f01bd8f> .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Relevance/16>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee> .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/65>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[KS; one sister-in-law, Diane Samms Rush of ]Wichita[, Kansas; and many special friends.  \nKarmen]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "Wichita" ;
+        c:length     "7" ;
+        c:offset     "1049" ;
+        c:prefix     "KS; one sister-in-law, Diane Samms Rush of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/1be89cab-3ede-3881-b26f-be89e5573164> ;
+        c:suffix     ", Kansas; and many special friends.  \nKarmen" .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/44>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Bass Hospital, Enid, OK, after a long illness. ]Born May 21, 1939 in Lindsborg, KS, she[ was the daughter of Laurn \"Cotton\" and Edna]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "Born May 21, 1939 in Lindsborg, KS, she" ;
+        c:length     "39" ;
+        c:offset     "405" ;
+        c:prefix     "Bass Hospital, Enid, OK, after a long illness. " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/408ff818-48e1-339f-9d28-a497a65d4a5a> ;
+        c:suffix     " was the daughter of Laurn \"Cotton\" and Edna" .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/23>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Marshall Funeral Home of Waynoka, LLC.  \n]Karmen (Rush) Gulliford[, loving mother and grandmother, passed away May]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "Karmen (Rush) Gulliford" ;
+        c:length     "23" ;
+        c:offset     "266" ;
+        c:prefix     "of Marshall Funeral Home of Waynoka, LLC.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/6007ce0b-a419-3967-ab6e-18fc9f01bd8f> ;
+        c:suffix     ", loving mother and grandmother, passed away May" .
+
+<http://d.opencalais.com/conf/pershash-1/d52906f7-03bb-3270-99ec-51bb60f22a59>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.982" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.985" ;
+        c:subject             <http://d.opencalais.com/pershash-1/d52906f7-03bb-3270-99ec-51bb60f22a59> .
+
+<http://d.opencalais.com/genericHasher-1/c960096a-c52e-3cf1-9ef3-a4a18889d7c9>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Waynoka Municipal Cemetery" .
+
+<http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Kansas" .
+
+<http://d.opencalais.com/genericHasher-1/e1e6d231-370a-35ba-b46b-7c7b3120285f>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/cd95814c-6b3b-3f4e-b642-b25f96708cd7> , <http://d.opencalais.com/pershash-1/c850c8d8-b29c-32b8-a719-600e79f1f3b2> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/62914270-0a1c-1bcc-880e-6dbe9fb82eb9>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:latitude            "31.4484328889" ;
+        c:longitude           "-97.7816569778" ;
+        c:name                "Texas,United States" ;
+        c:permid              "100299" ;
+        c:rcscode             "G:50" ;
+        c:shortname           "Texas" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/cat/1>
+        a                    <http://s.opencalais.com/1/type/cat/DocCat> ;
+        c:docId              <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Human Interest" ;
+        c:score              "1.000" .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Relevance/24>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/b88dc3ac-776d-3a6c-a0dc-720189ee19dc> .
+
+<http://d.opencalais.com/genericHasher-1/1be89cab-3ede-3881-b26f-be89e5573164>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Wichita" .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/73>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Dennis, of Waynoka, OK, Sascha Bailey of ]Oologah[, OK, and Trenton Gulliford, and his wife,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "Oologah" ;
+        c:length     "7" ;
+        c:offset     "854" ;
+        c:prefix     "Dennis, of Waynoka, OK, Sascha Bailey of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/24d33cab-7e9e-34de-8410-e117205c529e> ;
+        c:suffix     ", OK, and Trenton Gulliford, and his wife," .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Relevance/2>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/d52906f7-03bb-3270-99ec-51bb60f22a59> .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/7>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[is survived by her children Leslie Henry and ]her[ husband, Ronnie, of Amarillo, TX, Galen Hulse]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "687" ;
+        c:prefix     "is survived by her children Leslie Henry and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/d52906f7-03bb-3270-99ec-51bb60f22a59> ;
+        c:suffix     " husband, Ronnie, of Amarillo, TX, Galen Hulse" .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/52>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and Trenton Gulliford, and his wife, Autumn, of ]Waynoka[, OK; 13 grandchildren; 8 great grandchildren;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "Waynoka" ;
+        c:length     "7" ;
+        c:offset     "915" ;
+        c:prefix     "and Trenton Gulliford, and his wife, Autumn, of " ;
+        c:subject    <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:suffix     ", OK; 13 grandchildren; 8 great grandchildren;" .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/31>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[She loved to play cards, crochet, and watch ]her[ grandchildren participate in athletics, school]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1263" ;
+        c:prefix     "She loved to play cards, crochet, and watch " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6007ce0b-a419-3967-ab6e-18fc9f01bd8f> ;
+        c:suffix     " grandchildren participate in athletics, school" .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/10>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[one sister-in-law, Diane Samms Rush of Wichita, ]Kansas[; and many special friends.  \nKarmen never met a]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "Kansas" ;
+        c:length     "6" ;
+        c:offset     "1058" ;
+        c:prefix     "one sister-in-law, Diane Samms Rush of Wichita, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> ;
+        c:suffix     "; and many special friends.  \nKarmen never met a" .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Relevance/32>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/b9b5a22b-365f-359d-9b68-c65edf85ffb0> .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Relevance/11>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/pershash-1/6007ce0b-a419-3967-ab6e-18fc9f01bd8f> .
+
+<http://d.opencalais.com/conf/pershash-1/4e84fefd-5e35-37dc-9308-cbbe5c53bae2>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.998" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.999" ;
+        c:subject             <http://d.opencalais.com/pershash-1/4e84fefd-5e35-37dc-9308-cbbe5c53bae2> .
+
+<http://d.opencalais.com/conf/pershash-1/14eac3a3-766c-34cf-a0a0-8f3c361b1027>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.992" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.994" ;
+        c:subject             <http://d.opencalais.com/pershash-1/14eac3a3-766c-34cf-a0a0-8f3c361b1027> .
+
+<http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Texas" .
+
+<http://d.opencalais.com/conf/pershash-1/5c2bde80-75a0-3990-8139-443308d5f379>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.998" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.995" ;
+        c:subject             <http://d.opencalais.com/pershash-1/5c2bde80-75a0-3990-8139-443308d5f379> .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/60>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[her father and mother, Laurn and Edna, brother, ]Elmer[ \"Duke\" Rush, and great grandson, Andrew Henry. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "Elmer" ;
+        c:length     "5" ;
+        c:offset     "583" ;
+        c:prefix     "her father and mother, Laurn and Edna, brother, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/06316500-d7b3-3f59-a650-bcfd9afd431a> ;
+        c:suffix     " \"Duke\" Rush, and great grandson, Andrew Henry. " .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/39>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and her husband, Dennis, of Waynoka, OK, ]Sascha Bailey of Oologah[, OK, and Trenton Gulliford, and his wife,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "Sascha Bailey of Oologah" ;
+        c:length     "24" ;
+        c:offset     "837" ;
+        c:prefix     "and her husband, Dennis, of Waynoka, OK, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/61e7b5a0-72cd-3a78-9f69-21c7e0184266> ;
+        c:suffix     ", OK, and Trenton Gulliford, and his wife," .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/18>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[will be 2:00 p.m. Monday, May 7, 2007, at the ]Waynoka Church of God[ with Reverend John Brint officiating.  Interment]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "Waynoka Church of God" ;
+        c:length     "21" ;
+        c:offset     "89" ;
+        c:prefix     "will be 2:00 p.m. Monday, May 7, 2007, at the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c1606f74-13fe-3186-8084-3f5c1c466e4e> ;
+        c:suffix     " with Reverend John Brint officiating.  Interment" .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Relevance/19>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/4a20cc5c-f206-313b-a433-d698e1bf1358> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/06f3bc6b-36b3-b012-baf8-dd7c14cbe409>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Kansas" ;
+        c:docId               <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:latitude            "38.5736" ;
+        c:longitude           "-97.6742" ;
+        c:name                "Lindsborg,Kansas,United States" ;
+        c:shortname           "Lindsborg" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/1b7c5f3d-6555-328e-9277-35f88e6bf634> .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/68>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[special friends.  \nKarmen never met a stranger. ]They were all friends[.  She was an avid bowler until her health made]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "They were all friends" ;
+        c:length     "21" ;
+        c:offset     "1123" ;
+        c:prefix     "special friends.  \nKarmen never met a stranger. " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/7642894a-1780-3021-8092-cc7ffd82c345> ;
+        c:suffix     ".  She was an avid bowler until her health made" .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/2>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Henry and her husband, Ronnie, of Amarillo, ]TX[, Galen Hulse and his wife, Deanna, of Great]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "TX" ;
+        c:length     "2" ;
+        c:offset     "721" ;
+        c:prefix     "Henry and her husband, Ronnie, of Amarillo, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> ;
+        c:suffix     ", Galen Hulse and his wife, Deanna, of Great" .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/47>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[by her children Leslie Henry and her husband, ]Ronnie, of Amarillo, TX[, Galen Hulse and his wife, Deanna, of Great]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "Ronnie, of Amarillo, TX" ;
+        c:length     "23" ;
+        c:offset     "700" ;
+        c:prefix     "by her children Leslie Henry and her husband, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9cec6000-7d7e-3498-81f5-e30b2fdb5255> ;
+        c:suffix     ", Galen Hulse and his wife, Deanna, of Great" .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/26>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[(Johnson) Rush.  \nShe is preceded in death by ]her[ father and mother, Laurn and Edna, brother,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "535" ;
+        c:prefix     "(Johnson) Rush.  \nShe is preceded in death by " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6007ce0b-a419-3967-ab6e-18fc9f01bd8f> ;
+        c:suffix     " father and mother, Laurn and Edna, brother," .
+
+<http://d.opencalais.com/pershash-1/95f9d5b0-44aa-3a2d-a2f0-3103a59176d2>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Ronnie" ;
+        c:confidencelevel    "0.951" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Ronnie" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/pershash-1/1c69713e-b2f5-3b0c-9953-127a6a1fa717>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Sascha Bailey" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Sascha" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Bailey" ;
+        c:name               "Sascha Bailey" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/9c8ee61e-efea-381d-a252-2d19d9b56d86>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "wife" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/c850c8d8-b29c-32b8-a719-600e79f1f3b2> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/cd95814c-6b3b-3f4e-b642-b25f96708cd7> .
+
+<http://d.opencalais.com/genericHasher-1/0a09ae8f-0456-38fc-b965-ff815c60f9d3>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Amarillo" .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Relevance/27>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/5c2bde80-75a0-3990-8139-443308d5f379> .
+
+<http://d.opencalais.com/pershash-1/b41f1e98-98f6-3b20-9011-96ef27c16a18>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Shenny Rush" ;
+        c:confidencelevel    "0.741" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Shenny Rush" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/4d5d82c3-91c3-3821-9cff-479ec3ec1fc7>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Sports Club" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/76>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Waynoka, OK, Sascha Bailey of Oologah, OK, and ]Trenton Gulliford, and his wife, Autumn, of Waynoka[, OK; 13 grandchildren; 8 great grandchildren;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "Trenton Gulliford, and his wife, Autumn, of Waynoka" ;
+        c:length     "51" ;
+        c:offset     "871" ;
+        c:prefix     "Waynoka, OK, Sascha Bailey of Oologah, OK, and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e1e6d231-370a-35ba-b46b-7c7b3120285f> ;
+        c:suffix     ", OK; 13 grandchildren; 8 great grandchildren;" .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Relevance/5>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/4e84fefd-5e35-37dc-9308-cbbe5c53bae2> .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/55>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Henry and her husband, Ronnie, of Amarillo, TX, ]Galen Hulse and his wife, Deanna[, of Great Bend, KS, Hollie Cunningham and her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "Galen Hulse and his wife, Deanna" ;
+        c:length     "32" ;
+        c:offset     "725" ;
+        c:prefix     "Henry and her husband, Ronnie, of Amarillo, TX, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/f4d1a730-8121-37ba-977a-d0dd844d1366> ;
+        c:suffix     ", of Great Bend, KS, Hollie Cunningham and her" .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/34>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and joy.  \nEven as her health deteriorated and ]her[ participation in family functions became more]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1456" ;
+        c:prefix     "and joy.  \nEven as her health deteriorated and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6007ce0b-a419-3967-ab6e-18fc9f01bd8f> ;
+        c:suffix     " participation in family functions became more" .
+
+<http://d.opencalais.com/pershash-1/4a20cc5c-f206-313b-a433-d698e1bf1358>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Dennis" ;
+        c:confidencelevel    "0.954" ;
+        c:firstname          "Dennis" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Dennis" ;
+        c:nationality        "N/A" ;
+        c:persontype         "economic" .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/13>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Municipal Cemetery under the direction of ]Marshall Funeral Home of Waynoka[, LLC.  \nKarmen (Rush) Gulliford, loving mother]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "Marshall Funeral Home of Waynoka" ;
+        c:length     "32" ;
+        c:offset     "225" ;
+        c:prefix     "Municipal Cemetery under the direction of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/84bb0714-85ab-39de-a7e7-f1ad2e79292b> ;
+        c:suffix     ", LLC.  \nKarmen (Rush) Gulliford, loving mother" .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29>
+        a                  <http://s.opencalais.com/1/type/sys/DocInfo> ;
+        c:calaisRequestID  "4d3aa854-52e8-918f-14d9-141223712501" ;
+        c:docDate          "2015-05-26 17:24:34.827" ;
+        c:docTitle         "" ;
+        c:document         "Funeral services for Karmen Gulliford, 67, will be 2:00 p.m. Monday, May 7, 2007, at the Waynoka Church of God with Reverend John Brint officiating.  Interment will be in the Waynoka Municipal Cemetery under the direction of Marshall Funeral Home of Waynoka, LLC.  \nKarmen (Rush) Gulliford, loving mother and grandmother, passed away May 3, 2007 at Integris Bass Hospital, Enid, OK, after a long illness. Born May 21, 1939 in Lindsborg, KS, she was the daughter of Laurn \"Cotton\" and Edna (Johnson) Rush.  \nShe is preceded in death by her father and mother, Laurn and Edna, brother, Elmer \"Duke\" Rush, and great grandson, Andrew Henry.  \nShe is survived by her children Leslie Henry and her husband, Ronnie, of Amarillo, TX, Galen Hulse and his wife, Deanna, of Great Bend, KS, Hollie Cunningham and her husband, Dennis, of Waynoka, OK, Sascha Bailey of Oologah, OK, and Trenton Gulliford, and his wife, Autumn, of Waynoka, OK; 13 grandchildren; 8 great grandchildren; one brother, Shenny Rush of Wichita, KS; one sister-in-law, Diane Samms Rush of Wichita, Kansas; and many special friends.  \nKarmen never met a stranger. They were all friends.  She was an avid bowler until her health made it impossible to continue. She loved to play cards, crochet, and watch her grandchildren participate in athletics, school functions, and grow from birth to high school graduation. These things brought her great pride and joy.  \nEven as her health deteriorated and her participation in family functions became more limited, she made sure everyone had their favorite dish as well as her famous Peanut Brittle, Chocolate No-Bake Cookies, and Bierox, which everyone ranted and raved about.  \nKarmen will be greatly missed and always loved.  \nMemorial contributions may be made through the funeral home to the Waynoka All Sports Club. \n\t\t\t" ;
+        c:id               "http://id.opencalais.com/unQ8Vs--nl63ytubudb*Wg" ;
+        c:ontology         "http://163.231.4.65/owlschema/8.3/onecalais.owl.allmetadata.xml" .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Relevance/14>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/833bc8c7-7ae6-3412-9854-2108331996b9> .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/63>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Andrew Henry.  \nShe is survived by her children ]Leslie Henry[ and her husband, Ronnie, of Amarillo, TX, Galen]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "Leslie Henry" ;
+        c:length     "12" ;
+        c:offset     "670" ;
+        c:prefix     "Andrew Henry.  \nShe is survived by her children " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b88dc3ac-776d-3a6c-a0dc-720189ee19dc> ;
+        c:suffix     " and her husband, Ronnie, of Amarillo, TX, Galen" .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/42>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Amarillo, TX, Galen Hulse and his wife, ]Deanna[, of Great Bend, KS, Hollie Cunningham and her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "Deanna" ;
+        c:length     "6" ;
+        c:offset     "751" ;
+        c:prefix     "of Amarillo, TX, Galen Hulse and his wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/833bc8c7-7ae6-3412-9854-2108331996b9> ;
+        c:suffix     ", of Great Bend, KS, Hollie Cunningham and her" .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/21>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Hulse and his wife, Deanna, of Great Bend, KS, ]Hollie Cunningham[ and her husband, Dennis, of Waynoka, OK, Sascha]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "Hollie Cunningham" ;
+        c:length     "17" ;
+        c:offset     "778" ;
+        c:prefix     "Hulse and his wife, Deanna, of Great Bend, KS, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/14eac3a3-766c-34cf-a0a0-8f3c361b1027> ;
+        c:suffix     " and her husband, Dennis, of Waynoka, OK, Sascha" .
+
+<http://d.opencalais.com/pershash-1/06316500-d7b3-3f59-a650-bcfd9afd431a>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Elmer Rush" ;
+        c:confidencelevel    "0.971" ;
+        c:firstname          "Elmer" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Elmer \"Duke\" Rush" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/35a979c1-2108-3761-99bd-8c6f499ef6f2>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Enid" .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Relevance/22>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/06316500-d7b3-3f59-a650-bcfd9afd431a> .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/ComponentVersions>
+        a          <http://s.opencalais.com/1/type/sys/ComponentVersions> ;
+        c:docId    <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:version  "BrokerResearchIM:OneCalais_8.3-RELEASE:198" , "config-physicalAssets-ports:258:258" , "Dial4J:OneCalais_8.3-RELEASE:198" , "OA Index:201505252208:201505252208" , "WatchDog:OneCalais_8.3-RELEASE:113" , "OneCalais:OneCalais_8.3-RELEASE:364" , "config-negativeSignature:258:258" , "com.clearforest.infoext.dial4j.plugins-basistechconfig:OneCalais_8.3-RELEASE:225" , "Housekeeper:OneCalais_8.3-RELEASE:113" , "config-sca-DataPackage:34:34" , "config-cse:271:271" , "SocialTags Index:201505191038:201505191038" , "config-drugs:258:258" , "FrenchIM:OneCalais_8.3-RELEASE:198" , "Deals Index:201505261718:201505261718" , "config-refineries:258:258" , "config-vessels:258:258" , "Collector:OneCalais_8.3-RELEASE:113" , "SpanishIM:OneCalais_8.3-RELEASE:198" , "People Override:258:258" , "People Index:201505261608:201505261608" , "BlackList:264:264" , "NextTags:OneCalais_8.3-RELEASE:113" , "AutocoderRuntimeIM:OneCalais_8.3-RELEASE:198" , "index-vessels:201505231718:201505231718" , "OA Override:271:271" , "SECHeaderMetadataIM:OneCalais_8.3-RELEASE:198" , "OneCalaisIM:OneCalais_8.3-RELEASE:198" .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/71>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Brint officiating.  Interment will be in the ]Waynoka Municipal Cemetery[ under the direction of Marshall Funeral Home of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "Waynoka Municipal Cemetery" ;
+        c:length     "26" ;
+        c:offset     "175" ;
+        c:prefix     "Brint officiating.  Interment will be in the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c960096a-c52e-3cf1-9ef3-a4a18889d7c9> ;
+        c:suffix     " under the direction of Marshall Funeral Home of" .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/5>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ \"Duke\" Rush, and great grandson, Andrew Henry.  \n]She[ is survived by her children Leslie Henry and her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "638" ;
+        c:prefix     " \"Duke\" Rush, and great grandson, Andrew Henry.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/d52906f7-03bb-3270-99ec-51bb60f22a59> ;
+        c:suffix     " is survived by her children Leslie Henry and her" .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/50>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[under the direction of Marshall Funeral Home of ]Waynoka, LLC[.  \nKarmen (Rush) Gulliford, loving mother and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "Waynoka, LLC" ;
+        c:length     "12" ;
+        c:offset     "250" ;
+        c:prefix     "under the direction of Marshall Funeral Home of " ;
+        c:subject    <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:suffix     ".  \nKarmen (Rush) Gulliford, loving mother and" .
+
+<http://d.opencalais.com/genericHasher-1/f0a002d2-77bd-36c6-b2b7-b165e1073367>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Wichita" ;
+        c:person             <http://d.opencalais.com/pershash-1/b41f1e98-98f6-3b20-9011-96ef27c16a18> .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/29>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[were all friends.  She was an avid bowler until ]her[ health made it impossible to continue. She loved]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1176" ;
+        c:prefix     "were all friends.  She was an avid bowler until " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6007ce0b-a419-3967-ab6e-18fc9f01bd8f> ;
+        c:suffix     " health made it impossible to continue. She loved" .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/SocialTag/2>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Karmen" ;
+        c:originalValue      "Karmen" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/d568e3b1-54ec-3417-ad6a-21166a1635de> .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Relevance/30>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/b41f1e98-98f6-3b20-9011-96ef27c16a18> .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/79>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and her husband, Dennis, of Waynoka, OK, ]Sascha Bailey[ of Oologah, OK, and Trenton Gulliford, and his]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "Sascha Bailey" ;
+        c:length     "13" ;
+        c:offset     "837" ;
+        c:prefix     "and her husband, Dennis, of Waynoka, OK, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/1c69713e-b2f5-3b0c-9953-127a6a1fa717> ;
+        c:suffix     " of Oologah, OK, and Trenton Gulliford, and his" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/61f29abb-e794-d541-a717-7f9811b1ce02>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Kansas" ;
+        c:docId               <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:latitude            "37.6922" ;
+        c:longitude           "-97.3372" ;
+        c:name                "Wichita,Kansas,United States" ;
+        c:shortname           "Wichita" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/1be89cab-3ede-3881-b26f-be89e5573164> .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Relevance/8>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c1606f74-13fe-3186-8084-3f5c1c466e4e> .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/58>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Bass Hospital, Enid, OK, after a long illness. ]Born May 21, 1939 in Lindsborg, KS, she[ was the daughter of Laurn \"Cotton\" and Edna]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "Born May 21, 1939 in Lindsborg, KS, she" ;
+        c:length     "39" ;
+        c:offset     "405" ;
+        c:prefix     "Bass Hospital, Enid, OK, after a long illness. " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/be81f2d2-ab08-3577-9fc4-7a7174bc848c> ;
+        c:suffix     " was the daughter of Laurn \"Cotton\" and Edna" .
+
+<http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205>
+        a                    <http://s.opencalais.com/1/type/em/e/Company> ;
+        c:confidencelevel    "0.818" ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Waynoka LLC" ;
+        c:nationality        "N/A" .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/37>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Bierox, which everyone ranted and raved about.  \n]Karmen[ will be greatly missed and always loved. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "Karmen" ;
+        c:length     "6" ;
+        c:offset     "1680" ;
+        c:prefix     " Bierox, which everyone ranted and raved about.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/6007ce0b-a419-3967-ab6e-18fc9f01bd8f> ;
+        c:suffix     " will be greatly missed and always loved. " .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/16>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[8 great grandchildren; one brother, ]Shenny Rush of Wichita, KS[; one sister-in-law, Diane Samms Rush of Wichita,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "Shenny Rush of Wichita, KS" ;
+        c:length     "26" ;
+        c:offset     "982" ;
+        c:prefix     "8 great grandchildren; one brother, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/f0a002d2-77bd-36c6-b2b7-b165e1073367> ;
+        c:suffix     "; one sister-in-law, Diane Samms Rush of Wichita," .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/71d24d55-f000-acbf-73cb-6c725b64eec5>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:latitude            "36.4469" ;
+        c:longitude           "-95.7081" ;
+        c:name                "Oologah,Oklahoma,United States" ;
+        c:shortname           "Oologah" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/24d33cab-7e9e-34de-8410-e117205c529e> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/722d85ea-c4bf-360f-3723-c565a8f4bcc0>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Texas" ;
+        c:docId               <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:latitude            "35.2219" ;
+        c:longitude           "-101.8308" ;
+        c:name                "Amarillo,Texas,United States" ;
+        c:shortname           "Amarillo" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/0a09ae8f-0456-38fc-b965-ff815c60f9d3> .
+
+<http://d.opencalais.com/genericHasher-1/9cec6000-7d7e-3498-81f5-e30b2fdb5255>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Amarillo" ;
+        c:person             <http://d.opencalais.com/pershash-1/95f9d5b0-44aa-3a2d-a2f0-3103a59176d2> .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Relevance/17>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/1b7c5f3d-6555-328e-9277-35f88e6bf634> .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/66>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ 2007, at the Waynoka Church of God with Reverend ]John Brint[ officiating.  Interment will be in the Waynoka]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "John Brint" ;
+        c:length     "10" ;
+        c:offset     "125" ;
+        c:prefix     " 2007, at the Waynoka Church of God with Reverend " ;
+        c:subject    <http://d.opencalais.com/pershash-1/00d9d2bd-8753-3abd-aa9c-f3c8053c7ea7> ;
+        c:suffix     " officiating.  Interment will be in the Waynoka" .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/45>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[]Funeral services[ for Karmen Gulliford, 67, will be 2:00 p.m.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "Funeral services" ;
+        c:length     "16" ;
+        c:offset     "0" ;
+        c:prefix     "" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee> ;
+        c:suffix     " for Karmen Gulliford, 67, will be 2:00 p.m." .
+
+<http://d.opencalais.com/conf/pershash-1/95f9d5b0-44aa-3a2d-a2f0-3103a59176d2>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.951" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.932" ;
+        c:subject             <http://d.opencalais.com/pershash-1/95f9d5b0-44aa-3a2d-a2f0-3103a59176d2> .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/24>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[illness. Born May 21, 1939 in Lindsborg, KS, ]she[ was the daughter of Laurn \"Cotton\" and Edna]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "441" ;
+        c:prefix     "illness. Born May 21, 1939 in Lindsborg, KS, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6007ce0b-a419-3967-ab6e-18fc9f01bd8f> ;
+        c:suffix     " was the daughter of Laurn \"Cotton\" and Edna" .
+
+<http://d.opencalais.com/conf/pershash-1/1c69713e-b2f5-3b0c-9953-127a6a1fa717>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/1c69713e-b2f5-3b0c-9953-127a6a1fa717> .
+
+<http://d.opencalais.com/conf/pershash-1/b41f1e98-98f6-3b20-9011-96ef27c16a18>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.741" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.804" ;
+        c:subject             <http://d.opencalais.com/pershash-1/b41f1e98-98f6-3b20-9011-96ef27c16a18> .
+
+<http://d.opencalais.com/genericHasher-1/61e7b5a0-72cd-3a78-9f69-21c7e0184266>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Oologah" ;
+        c:person             <http://d.opencalais.com/pershash-1/1c69713e-b2f5-3b0c-9953-127a6a1fa717> .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Relevance/25>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/1be89cab-3ede-3881-b26f-be89e5573164> .
+
+<http://d.opencalais.com/genericHasher-1/84bb0714-85ab-39de-a7e7-f1ad2e79292b>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Marshall Funeral Home of Waynoka" .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/74>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Marshall Funeral Home of Waynoka, LLC.  \n]Karmen (Rush) Gulliford, loving mother and grandmother, passed away May 3, 2007 at Integris Bass Hospital, Enid, OK, after a long illness[. Born May 21, 1939 in Lindsborg, KS, she was the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "Karmen (Rush) Gulliford, loving mother and grandmother, passed away May 3, 2007 at Integris Bass Hospital, Enid, OK, after a long illness" ;
+        c:length     "137" ;
+        c:offset     "266" ;
+        c:prefix     "of Marshall Funeral Home of Waynoka, LLC.  \n" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ef94a166-2389-3d43-8d7d-65be020a44fb> ;
+        c:suffix     ". Born May 21, 1939 in Lindsborg, KS, she was the" .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Relevance/3>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/8>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[a long illness. Born May 21, 1939 in Lindsborg, ]KS[, she was the daughter of Laurn \"Cotton\" and Edna]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "KS" ;
+        c:length     "2" ;
+        c:offset     "437" ;
+        c:prefix     "a long illness. Born May 21, 1939 in Lindsborg, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> ;
+        c:suffix     ", she was the daughter of Laurn \"Cotton\" and Edna" .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/53>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[may be made through the funeral home to the ]Waynoka[ All Sports Club. \n\t\t\t]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "Waynoka" ;
+        c:length     "7" ;
+        c:offset     "1797" ;
+        c:prefix     "may be made through the funeral home to the " ;
+        c:subject    <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:suffix     " All Sports Club. \n\t\t\t" .
+
+<http://d.opencalais.com/conf/pershash-1/4a20cc5c-f206-313b-a433-d698e1bf1358>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.954" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/4a20cc5c-f206-313b-a433-d698e1bf1358> .
+
+<http://d.opencalais.com/genericHasher-1/f4d1a730-8121-37ba-977a-d0dd844d1366>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/833bc8c7-7ae6-3412-9854-2108331996b9> , <http://d.opencalais.com/pershash-1/7da352d6-638d-37a2-826e-1702542e6371> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/32>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[to high school graduation. These things brought ]her[ great pride and joy.  \nEven as her health]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1393" ;
+        c:prefix     "to high school graduation. These things brought " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6007ce0b-a419-3967-ab6e-18fc9f01bd8f> ;
+        c:suffix     " great pride and joy.  \nEven as her health" .
+
+<http://d.opencalais.com/genericHasher-1/7642894a-1780-3021-8092-cc7ffd82c345>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/d52906f7-03bb-3270-99ec-51bb60f22a59> , <http://d.opencalais.com/pershash-1/b88dc3ac-776d-3a6c-a0dc-720189ee19dc> ;
+        c:personrelationtype  "Friends" .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/11>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Ronnie, of Amarillo, TX, Galen Hulse and ]his wife, Deanna[, of Great Bend, KS, Hollie Cunningham and her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "his wife, Deanna" ;
+        c:length     "16" ;
+        c:offset     "741" ;
+        c:prefix     "Ronnie, of Amarillo, TX, Galen Hulse and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/d1247f36-2193-300b-b0eb-487a8e916e1a> ;
+        c:suffix     ", of Great Bend, KS, Hollie Cunningham and her" .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Relevance/12>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c39e7a09-e877-3e57-9086-afed1f511dda> .
+
+<http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee>
+        a                    <http://s.opencalais.com/1/type/em/e/IndustryTerm> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Funeral services" .
+
+<http://d.opencalais.com/pershash-1/00d9d2bd-8753-3abd-aa9c-f3c8053c7ea7>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "John Brint" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "John" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Brint" ;
+        c:name               "John Brint" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/61>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Waynoka, OK, Sascha Bailey of Oologah, OK, and ]Trenton Gulliford[, and his wife, Autumn, of Waynoka, OK; 13]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "Trenton Gulliford" ;
+        c:length     "17" ;
+        c:offset     "871" ;
+        c:prefix     "Waynoka, OK, Sascha Bailey of Oologah, OK, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/c850c8d8-b29c-32b8-a719-600e79f1f3b2> ;
+        c:suffix     ", and his wife, Autumn, of Waynoka, OK; 13" .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/40>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Henry and her husband, Ronnie, of Amarillo, TX, ]Galen Hulse[ and his wife, Deanna, of Great Bend, KS, Hollie]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "Galen Hulse" ;
+        c:length     "11" ;
+        c:offset     "725" ;
+        c:prefix     "Henry and her husband, Ronnie, of Amarillo, TX, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/7da352d6-638d-37a2-826e-1702542e6371> ;
+        c:suffix     " and his wife, Deanna, of Great Bend, KS, Hollie" .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/19>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Funeral services for ]Karmen Gulliford, 67[, will be 2:00 p.m. Monday, May 7, 2007, at the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "Karmen Gulliford, 67" ;
+        c:length     "20" ;
+        c:offset     "21" ;
+        c:prefix     "Funeral services for " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/d5b42c2c-69e2-3e75-a1b2-15c37bb06d62> ;
+        c:suffix     ", will be 2:00 p.m. Monday, May 7, 2007, at the" .
+
+<http://d.opencalais.com/conf/pershash-1/06316500-d7b3-3f59-a650-bcfd9afd431a>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.971" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.982" ;
+        c:subject             <http://d.opencalais.com/pershash-1/06316500-d7b3-3f59-a650-bcfd9afd431a> .
+
+<http://d.opencalais.com/pershash-1/b9b5a22b-365f-359d-9b68-c65edf85ffb0>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Diane Samms Rush" ;
+        c:confidencelevel    "0.957" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Diane Samms Rush" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Relevance/20>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/35a979c1-2108-3761-99bd-8c6f499ef6f2> .
+
+<http://d.opencalais.com/genericHasher-1/be81f2d2-ab08-3577-9fc4-7a7174bc848c>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Lindsborg" ;
+        c:person             <http://d.opencalais.com/pershash-1/6007ce0b-a419-3967-ab6e-18fc9f01bd8f> .
+
+<http://d.opencalais.com/genericHasher-1/f857eae7-14f7-3e04-b1b3-9d7c9df2b8db>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "husband" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/14eac3a3-766c-34cf-a0a0-8f3c361b1027> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/4a20cc5c-f206-313b-a433-d698e1bf1358> .
+
+<http://d.opencalais.com/genericHasher-1/24d33cab-7e9e-34de-8410-e117205c529e>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oologah" .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/69>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Deanna, of Great Bend, KS, Hollie Cunningham and ]her husband, Dennis, of Waynoka[, OK, Sascha Bailey of Oologah, OK, and Trenton]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "her husband, Dennis, of Waynoka" ;
+        c:length     "31" ;
+        c:offset     "800" ;
+        c:prefix     " Deanna, of Great Bend, KS, Hollie Cunningham and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/f857eae7-14f7-3e04-b1b3-9d7c9df2b8db> ;
+        c:suffix     ", OK, Sascha Bailey of Oologah, OK, and Trenton" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/ec80b062-8d1e-123a-1d6e-8bd0b7355690>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:latitude            "38.45" ;
+        c:longitude           "-96.5333" ;
+        c:name                "Kansas,United States" ;
+        c:permid              "100151" ;
+        c:rcscode             "G:6D" ;
+        c:shortname           "Kansas" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/3>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[1939 in Lindsborg, KS, she was the daughter of ]Laurn[ \"Cotton\" and Edna (Johnson) Rush.  \nShe is]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "Laurn" ;
+        c:length     "5" ;
+        c:offset     "465" ;
+        c:prefix     "1939 in Lindsborg, KS, she was the daughter of " ;
+        c:subject    <http://d.opencalais.com/pershash-1/d52906f7-03bb-3270-99ec-51bb60f22a59> ;
+        c:suffix     " \"Cotton\" and Edna (Johnson) Rush.  \nShe is" .
+
+<http://d.opencalais.com/genericHasher-1/4af8ac9b-771e-3ff9-85ea-0717b336bddc>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:company            <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:forenduserdisplay  "true" ;
+        c:person             <http://d.opencalais.com/pershash-1/4a20cc5c-f206-313b-a433-d698e1bf1358> ;
+        c:status             "current" .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/48>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[will be 2:00 p.m. Monday, May 7, 2007, at the ]Waynoka[ Church of God with Reverend John Brint]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "Waynoka" ;
+        c:length     "7" ;
+        c:offset     "89" ;
+        c:prefix     "will be 2:00 p.m. Monday, May 7, 2007, at the " ;
+        c:subject    <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:suffix     " Church of God with Reverend John Brint" .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/27>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Wichita, Kansas; and many special friends.  \n]Karmen[ never met a stranger. They were all friends. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "Karmen" ;
+        c:length     "6" ;
+        c:offset     "1094" ;
+        c:prefix     "of Wichita, Kansas; and many special friends.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/6007ce0b-a419-3967-ab6e-18fc9f01bd8f> ;
+        c:suffix     " never met a stranger. They were all friends. " .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/lid/DefaultLangId>
+        a                    <http://s.opencalais.com/1/type/lid/DefaultLangId> ;
+        c:docId              <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:forenduserdisplay  "false" ;
+        c:lang               <http://d.opencalais.com/lid/DefaultLangId/English> ;
+        c:permid             "505062" .
+
+<http://d.opencalais.com/genericHasher-1/5a492787-ad0b-39ae-a847-28984cea4663>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "husband" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/d52906f7-03bb-3270-99ec-51bb60f22a59> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/95f9d5b0-44aa-3a2d-a2f0-3103a59176d2> .
+
+<http://d.opencalais.com/pershash-1/cd95814c-6b3b-3f4e-b642-b25f96708cd7>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Autumn" ;
+        c:confidencelevel    "0.86" ;
+        c:firstname          "Autumn" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Autumn" ;
+        c:nationality        "N/A" ;
+        c:persontype         "economic" .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Relevance/28>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c960096a-c52e-3cf1-9ef3-a4a18889d7c9> .
+
+<http://d.opencalais.com/genericHasher-1/c39e7a09-e877-3e57-9086-afed1f511dda>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Integris Bass Hospital" .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/77>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[8 great grandchildren; one brother, ]Shenny Rush[ of Wichita, KS; one sister-in-law, Diane Samms]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "Shenny Rush" ;
+        c:length     "11" ;
+        c:offset     "982" ;
+        c:prefix     "8 great grandchildren; one brother, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b41f1e98-98f6-3b20-9011-96ef27c16a18> ;
+        c:suffix     " of Wichita, KS; one sister-in-law, Diane Samms" .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Relevance/6>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4d5d82c3-91c3-3821-9cff-479ec3ec1fc7> .
+
+<http://d.opencalais.com/conf/comphash-1/e6417933-98e8-365f-8f80-b92f05707205>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.818" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:resolution          "0.05522651" ;
+        c:statisticalfeature  "0.898" ;
+        c:subject             <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/56>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Bend, KS, Hollie Cunningham and her husband, ]Dennis, of Waynoka[, OK, Sascha Bailey of Oologah, OK, and Trenton]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "Dennis, of Waynoka" ;
+        c:length     "18" ;
+        c:offset     "813" ;
+        c:prefix     "Bend, KS, Hollie Cunningham and her husband, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4af8ac9b-771e-3ff9-85ea-0717b336bddc> ;
+        c:suffix     ", OK, Sascha Bailey of Oologah, OK, and Trenton" .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/35>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in family functions became more limited, ]she[ made sure everyone had their favorite dish as]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "1515" ;
+        c:prefix     "in family functions became more limited, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6007ce0b-a419-3967-ab6e-18fc9f01bd8f> ;
+        c:suffix     " made sure everyone had their favorite dish as" .
+
+<http://d.opencalais.com/genericHasher-1/408ff818-48e1-339f-9d28-a497a65d4a5a>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonAttributes> ;
+        c:birthdate          "1939-05-21" ;
+        c:birthplace         <http://d.opencalais.com/genericHasher-1/1b7c5f3d-6555-328e-9277-35f88e6bf634> ;
+        c:forenduserdisplay  "false" ;
+        c:gender             "F" ;
+        c:person             <http://d.opencalais.com/pershash-1/6007ce0b-a419-3967-ab6e-18fc9f01bd8f> .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Instance/14>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Funeral services for ]Karmen Gulliford[, 67, will be 2:00 p.m. Monday, May 7, 2007, at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:exact      "Karmen Gulliford" ;
+        c:length     "16" ;
+        c:offset     "21" ;
+        c:prefix     "Funeral services for " ;
+        c:subject    <http://d.opencalais.com/pershash-1/4e84fefd-5e35-37dc-9308-cbbe5c53bae2> ;
+        c:suffix     ", 67, will be 2:00 p.m. Monday, May 7, 2007, at" .
+
+<http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29/Relevance/15>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/c0e8a818-bd1e-37d7-a523-7a549b3f9a29> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/95f9d5b0-44aa-3a2d-a2f0-3103a59176d2> .

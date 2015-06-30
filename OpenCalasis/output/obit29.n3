@@ -1,0 +1,1185 @@
+#Relations: FamilyRelation, PersonAttributes, PersonLocation, PersonRelation
+#City: Enid, Hemphill, Jasper, Jena
+#Company: Wentworth Mortuary LLC
+#Facility: Carmen City Cemetery
+#IndustryTerm: Funeral services
+#Organization: Carmen United Methodist Church
+#Person: Betty, Carl Brown, Debora Bebee, James Brown, James Robbins, Janie Beatrice Coburn, Janie Coburn, John Bizzell, John Brown, John Tillman Coburn, Ruby (Bowden) Robbins, Sandra, William Elbert
+#ProvinceOrState: Louisiana, Oklahoma, Texas
+@prefix c:     <http://s.opencalais.com/1/pred/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/e8086874-45f8-f367-7cb6-ec7a623bbb64>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Louisiana" ;
+        c:docId               <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:latitude            "31.69" ;
+        c:longitude           "-92.1247222222" ;
+        c:name                "Jena,Louisiana,United States" ;
+        c:shortname           "Jena" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/2d220310-d0dc-3d08-8bb3-281c48187750> .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/Relevance/2>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/35a979c1-2108-3761-99bd-8c6f499ef6f2> .
+
+<http://d.opencalais.com/pershash-1/8ae4465f-f912-3748-98ba-65427b8836a8>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Carl Brown" ;
+        c:confidencelevel    "0.992" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Carl Brown" ;
+        c:nationality        "N/A" ;
+        c:persontype         "sports" .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/Instance/10>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Coburn, daughter of the late William Elbert and ]Ruby (Bowden) Robbins[ was born November 10, 1934, at Hemphill, Texas,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:exact      "Ruby (Bowden) Robbins" ;
+        c:length     "21" ;
+        c:offset     "320" ;
+        c:prefix     "Coburn, daughter of the late William Elbert and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b31212af-6d91-3264-9577-6b517c12057a> ;
+        c:suffix     " was born November 10, 1934, at Hemphill, Texas," .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/Relevance/22>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/399374bb-b91e-33ea-99ac-2f4b57c4aef4> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/ed286a92-2008-9c6c-3200-87813a569655>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Texas" ;
+        c:docId               <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:latitude            "30.92" ;
+        c:longitude           "-93.9964" ;
+        c:name                "Jasper,Texas,United States" ;
+        c:shortname           "Jasper" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/e42c6227-29a1-3fe0-a56a-e493a9ada4c3> .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/Instance/23>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ She was united in marriage to Gemes Ivy Brown at ]Jena[, Louisiana. To this union three sons were born:]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:exact      "Jena" ;
+        c:length     "4" ;
+        c:offset     "567" ;
+        c:prefix     " She was united in marriage to Gemes Ivy Brown at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/2d220310-d0dc-3d08-8bb3-281c48187750> ;
+        c:suffix     ", Louisiana. To this union three sons were born:" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/9abed97f-1f19-0004-aee6-0a06b0289f38>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:latitude            "36.3956" ;
+        c:longitude           "-97.8781" ;
+        c:name                "Enid,Oklahoma,United States" ;
+        c:shortname           "Enid" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/35a979c1-2108-3761-99bd-8c6f499ef6f2> .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/Instance/36>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ years in a refinery.  \t    \nBesides her parents, ]she[ was preceded in death by one grandson and two]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "747" ;
+        c:prefix     " years in a refinery.  \t    \nBesides her parents, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/fc572248-d6dd-3c1a-bd4d-8324c8942337> ;
+        c:suffix     " was preceded in death by one grandson and two" .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/SocialTag/3>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Funeral home" ;
+        c:originalValue      "Funeral home" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/8cd06800-72b8-33ea-8f80-bce86a94e4e1> .
+
+<http://d.opencalais.com/genericHasher-1/4cbdab3e-204c-32f3-974a-7ec9649b35d5>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "husband" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/fc572248-d6dd-3c1a-bd4d-8324c8942337> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/3614fdf4-8e98-33b2-b474-37de9a3ab81a> .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234>
+        a                  <http://s.opencalais.com/1/type/sys/DocInfo> ;
+        c:calaisRequestID  "685547b8-21e7-588d-14d9-13ceeba7848c" ;
+        c:docDate          "2015-05-26 17:19:59.442" ;
+        c:docTitle         "" ;
+        c:document         "Funeral services for Janie Coburn will be 1:30 p.m. Monday, December 8, 2014, at the Carmen United Methodist Church with Rev. John Bizzell officiating. Interment will follow in the Carmen City Cemetery under the direction of Wentworth Mortuary, LLC.  \t    \nJanie Beatrice Coburn, daughter of the late William Elbert and Ruby (Bowden) Robbins was born November 10, 1934, at Hemphill, Texas, and passed away December 3, 2014, at Enid, Oklahoma, at the age of 80 years and 23 days.  \t    \nJanie grew up in Jasper, Texas. She was united in marriage to Gemes Ivy Brown at Jena, Louisiana. To this union three sons were born: James, Carl, and John. Later she married John Tillman Coburn. She worked many years in a refinery.  \t    \nBesides her parents, she was preceded in death by one grandson and two brothers, William “Joe” Robbins and James Robbins.  \t    \nJanie is survived by three sons, James Brown and wife, Betty, of Jasper, Texas, Carl Brown and wife, Sandra, of Jasper, Texas, and John Brown and girlfriend, Debora Bebee, of Carmen; 7 grandchildren, 16 great grandchildren, other relatives and friends.  \t    \nMemorial contributions may be made through the funeral home to help with funeral expenses. \n\t\t\t" ;
+        c:id               "http://id.opencalais.com/X9H0JuHJ*NB8h0BHwJ-PMg" ;
+        c:ontology         "http://163.231.4.65/owlschema/8.3/onecalais.owl.allmetadata.xml" .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/Instance/30>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ the direction of Wentworth Mortuary, LLC.  \t    \n]Janie Beatrice Coburn[, daughter of the late William Elbert and Ruby]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:exact      "Janie Beatrice Coburn" ;
+        c:length     "21" ;
+        c:offset     "257" ;
+        c:prefix     " the direction of Wentworth Mortuary, LLC.  \t    \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/fc572248-d6dd-3c1a-bd4d-8324c8942337> ;
+        c:suffix     ", daughter of the late William Elbert and Ruby" .
+
+<http://d.opencalais.com/conf/pershash-1/86b110de-ed6b-3880-8cae-0da9012fdb93>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.981" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.932" ;
+        c:subject             <http://d.opencalais.com/pershash-1/86b110de-ed6b-3880-8cae-0da9012fdb93> .
+
+<http://d.opencalais.com/conf/pershash-1/9a3f1bc2-cb1f-3141-a6ec-8084e969ff1c>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.994" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.996" ;
+        c:subject             <http://d.opencalais.com/pershash-1/9a3f1bc2-cb1f-3141-a6ec-8084e969ff1c> .
+
+<http://d.opencalais.com/genericHasher-1/578d98a2-65cb-3a19-8cdf-b9e895d41dc9>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Enid, Oklahoma" ;
+        c:person             <http://d.opencalais.com/pershash-1/eb52816f-fcb1-3926-be8a-63058ed64e22> .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/Relevance/14>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/2de7474d-37f9-3179-bda5-6bde1bcf78e6> .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/Instance/43>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[at the Carmen United Methodist Church with Rev. ]John Bizzell[ officiating. Interment will follow in the Carmen]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:exact      "John Bizzell" ;
+        c:length     "12" ;
+        c:offset     "126" ;
+        c:prefix     "at the Carmen United Methodist Church with Rev. " ;
+        c:subject    <http://d.opencalais.com/pershash-1/399374bb-b91e-33ea-99ac-2f4b57c4aef4> ;
+        c:suffix     " officiating. Interment will follow in the Carmen" .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/Relevance/7>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/52f06da9-a2d1-3490-aa54-9f8b91e94324> .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/Instance/15>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ of 80 years and 23 days.  \t    \nJanie grew up in ]Jasper[, Texas. She was united in marriage to Gemes Ivy]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:exact      "Jasper" ;
+        c:length     "6" ;
+        c:offset     "503" ;
+        c:prefix     " of 80 years and 23 days.  \t    \nJanie grew up in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e42c6227-29a1-3fe0-a56a-e493a9ada4c3> ;
+        c:suffix     ", Texas. She was united in marriage to Gemes Ivy" .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/Instance/4>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Robbins was born November 10, 1934, at Hemphill, ]Texas[, and passed away December 3, 2014, at Enid,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:exact      "Texas" ;
+        c:length     "5" ;
+        c:offset     "383" ;
+        c:prefix     " Robbins was born November 10, 1934, at Hemphill, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> ;
+        c:suffix     ", and passed away December 3, 2014, at Enid," .
+
+<http://d.opencalais.com/conf/pershash-1/b31212af-6d91-3264-9577-6b517c12057a>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.979" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.986" ;
+        c:subject             <http://d.opencalais.com/pershash-1/b31212af-6d91-3264-9577-6b517c12057a> .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/Instance/28>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[James Brown and wife, Betty, of Jasper, Texas, ]Carl Brown[ and wife, Sandra, of Jasper, Texas, and John]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:exact      "Carl Brown" ;
+        c:length     "10" ;
+        c:offset     "935" ;
+        c:prefix     "James Brown and wife, Betty, of Jasper, Texas, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/8ae4465f-f912-3748-98ba-65427b8836a8> ;
+        c:suffix     " and wife, Sandra, of Jasper, Texas, and John" .
+
+<http://d.opencalais.com/pershash-1/5e846e3f-8a22-319b-98c8-b60f46883eba>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "James Robbins" ;
+        c:confidencelevel    "0.988" ;
+        c:firstname          "James" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Robbins" ;
+        c:name               "James Robbins" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/Relevance/1>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/86b110de-ed6b-3880-8cae-0da9012fdb93> .
+
+<http://d.opencalais.com/conf/pershash-1/ee591157-7b82-37b6-b344-bc92addae0bc>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.998" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.98" ;
+        c:subject             <http://d.opencalais.com/pershash-1/ee591157-7b82-37b6-b344-bc92addae0bc> .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/Relevance/21>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/70862fe3-662e-3504-b824-3b542e3ba2d9> .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/lid/DefaultLangId>
+        a                    <http://s.opencalais.com/1/type/lid/DefaultLangId> ;
+        c:docId              <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:forenduserdisplay  "false" ;
+        c:lang               <http://d.opencalais.com/lid/DefaultLangId/English> ;
+        c:permid             "505062" .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/Instance/22>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Brown and wife, Sandra, of Jasper, Texas, and ]John Brown[ and girlfriend, Debora Bebee, of Carmen; 7]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:exact      "John Brown" ;
+        c:length     "10" ;
+        c:offset     "986" ;
+        c:prefix     "Brown and wife, Sandra, of Jasper, Texas, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/ee591157-7b82-37b6-b344-bc92addae0bc> ;
+        c:suffix     " and girlfriend, Debora Bebee, of Carmen; 7" .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/ComponentVersions>
+        a          <http://s.opencalais.com/1/type/sys/ComponentVersions> ;
+        c:docId    <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:version  "com.clearforest.infoext.dial4j.plugins-basistechconfig:OneCalais_8.3-RELEASE:225" , "config-drugs:258:258" , "config-refineries:258:258" , "Deals Index:201505261613:201505261613" , "config-physicalAssets-ports:258:258" , "Housekeeper:OneCalais_8.3-RELEASE:113" , "OneCalaisIM:OneCalais_8.3-RELEASE:198" , "config-vessels:258:258" , "AutocoderRuntimeIM:OneCalais_8.3-RELEASE:198" , "config-sca-DataPackage:34:34" , "OneCalais:OneCalais_8.3-RELEASE:364" , "OA Override:271:271" , "People Index:201505261608:201505261608" , "index-vessels:201505231718:201505231718" , "OA Index:201505252208:201505252208" , "config-cse:271:271" , "Collector:OneCalais_8.3-RELEASE:113" , "NextTags:OneCalais_8.3-RELEASE:113" , "SocialTags Index:201505191038:201505191038" , "SECHeaderMetadataIM:OneCalais_8.3-RELEASE:198" , "Dial4J:OneCalais_8.3-RELEASE:198" , "BlackList:264:264" , "BrokerResearchIM:OneCalais_8.3-RELEASE:198" , "WatchDog:OneCalais_8.3-RELEASE:113" , "SpanishIM:OneCalais_8.3-RELEASE:198" , "FrenchIM:OneCalais_8.3-RELEASE:198" , "config-negativeSignature:258:258" , "People Override:258:258" .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/Instance/35>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[worked many years in a refinery.  \t    \nBesides ]her[ parents, she was preceded in death by one]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "734" ;
+        c:prefix     "worked many years in a refinery.  \t    \nBesides " ;
+        c:subject    <http://d.opencalais.com/pershash-1/fc572248-d6dd-3c1a-bd4d-8324c8942337> ;
+        c:suffix     " parents, she was preceded in death by one" .
+
+<http://d.opencalais.com/genericHasher-1/bac42fdb-c896-3940-ac72-498457e2f38d>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Jasper" ;
+        c:person             <http://d.opencalais.com/pershash-1/86b110de-ed6b-3880-8cae-0da9012fdb93> .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/SocialTag/2>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Jasper" ;
+        c:originalValue      "Jasper (disambiguation)" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/4ceb0b36-99ba-3465-8b97-0749b7316dca> .
+
+<http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Texas" .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/meta>
+        a                 <http://s.opencalais.com/1/type/sys/DocInfoMeta> ;
+        c:contentType     "text/raw" ;
+        c:docId           <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:language        "English" ;
+        c:processingVer   "AllMetadata" ;
+        c:serverVersion   "OneCalais_8.3-RELEASE:364" ;
+        c:signature       "digestalg-1|XXlCtiCLTZFPkMZjpeKYnOt4A14=|OY7T75+qkwdn4jMjlO5uMTM9bxFzWZZEROlzMHe4E4xatSQYPxq3kQ==" ;
+        c:stagsVer        "OneCalais_8.3-RELEASE-b11-2015-03-25_18:29:00" ;
+        c:submissionDate  "2015-05-26 17:19:59.162" ;
+        c:submitterCode   "0ca6a864-5659-789d-5f32-f365f695e757" .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/Relevance/19>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee> .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/Instance/9>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[   \nJanie Beatrice Coburn, daughter of the late ]William Elbert and Ruby (Bowden) Robbins was born November 10, 1934, at Hemphill, Texas, and passed away December 3, 2014, at Enid, Oklahoma[, at the age of 80 years and 23 days.  \t   ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:exact      "William Elbert and Ruby (Bowden) Robbins was born November 10, 1934, at Hemphill, Texas, and passed away December 3, 2014, at Enid, Oklahoma" ;
+        c:length     "140" ;
+        c:offset     "301" ;
+        c:prefix     "   \nJanie Beatrice Coburn, daughter of the late " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/578d98a2-65cb-3a19-8cdf-b9e895d41dc9> ;
+        c:suffix     ", at the age of 80 years and 23 days.  \t   " .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/Instance/42>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Funeral services for ]Janie Coburn[ will be 1:30 p.m. Monday, December 8, 2014, at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:exact      "Janie Coburn" ;
+        c:length     "12" ;
+        c:offset     "21" ;
+        c:prefix     "Funeral services for " ;
+        c:subject    <http://d.opencalais.com/pershash-1/70862fe3-662e-3504-b824-3b542e3ba2d9> ;
+        c:suffix     " will be 1:30 p.m. Monday, December 8, 2014, at" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/62914270-0a1c-1bcc-880e-6dbe9fb82eb9>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:latitude            "31.4484328889" ;
+        c:longitude           "-97.7816569778" ;
+        c:name                "Texas,United States" ;
+        c:permid              "100299" ;
+        c:rcscode             "G:50" ;
+        c:shortname           "Texas" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> .
+
+<http://d.opencalais.com/pershash-1/70862fe3-662e-3504-b824-3b542e3ba2d9>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Janie Coburn" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Janie" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Coburn" ;
+        c:name               "Janie Coburn" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/Relevance/13>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/2d220310-d0dc-3d08-8bb3-281c48187750> .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/Relevance/6>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/1402f9b1-5c20-3cf0-9ec3-8808a8966ab4> .
+
+<http://d.opencalais.com/conf/pershash-1/5b776565-7153-3155-abf8-2cc2f9b18ec9>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.997" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.98" ;
+        c:subject             <http://d.opencalais.com/pershash-1/5b776565-7153-3155-abf8-2cc2f9b18ec9> .
+
+<http://d.opencalais.com/genericHasher-1/1402f9b1-5c20-3cf0-9ec3-8808a8966ab4>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Carmen United Methodist Church" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/Instance/14>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ of Jasper, Texas, and John Brown and girlfriend, ]Debora Bebee[, of Carmen; 7 grandchildren, 16 great]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:exact      "Debora Bebee" ;
+        c:length     "12" ;
+        c:offset     "1013" ;
+        c:prefix     " of Jasper, Texas, and John Brown and girlfriend, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9a3f1bc2-cb1f-3141-a6ec-8084e969ff1c> ;
+        c:suffix     ", of Carmen; 7 grandchildren, 16 great" .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/Instance/3>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Texas, and passed away December 3, 2014, at ]Enid[, Oklahoma, at the age of 80 years and 23 days. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:exact      "Enid" ;
+        c:length     "4" ;
+        c:offset     "427" ;
+        c:prefix     "Texas, and passed away December 3, 2014, at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/35a979c1-2108-3761-99bd-8c6f499ef6f2> ;
+        c:suffix     ", Oklahoma, at the age of 80 years and 23 days. " .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/Instance/27>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[To this union three sons were born: James, ]Carl[, and John. Later she married John Tillman]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:exact      "Carl" ;
+        c:length     "4" ;
+        c:offset     "627" ;
+        c:prefix     "To this union three sons were born: James, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/8ae4465f-f912-3748-98ba-65427b8836a8> ;
+        c:suffix     ", and John. Later she married John Tillman" .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/Relevance/20>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/5e846e3f-8a22-319b-98c8-b60f46883eba> .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/Instance/21>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[union three sons were born: James, Carl, and ]John[. Later she married John Tillman Coburn. She]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:exact      "John" ;
+        c:length     "4" ;
+        c:offset     "637" ;
+        c:prefix     "union three sons were born: James, Carl, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/ee591157-7b82-37b6-b344-bc92addae0bc> ;
+        c:suffix     ". Later she married John Tillman Coburn. She" .
+
+<http://d.opencalais.com/conf/pershash-1/399374bb-b91e-33ea-99ac-2f4b57c4aef4>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.98" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/399374bb-b91e-33ea-99ac-2f4b57c4aef4> .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/Instance/34>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ and John. Later she married John Tillman Coburn. ]She[ worked many years in a refinery.  \t    \nBesides]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "682" ;
+        c:prefix     " and John. Later she married John Tillman Coburn. " ;
+        c:subject    <http://d.opencalais.com/pershash-1/fc572248-d6dd-3c1a-bd4d-8324c8942337> ;
+        c:suffix     " worked many years in a refinery.  \t    \nBesides" .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/SocialTag/1>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Coburn" ;
+        c:originalValue      "Coburn (surname)" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/a9b9c535-d159-3c6f-922f-d94a3b78cdfd> .
+
+<http://d.opencalais.com/genericHasher-1/54d1330d-b447-3381-a717-1b0022fe8f8e>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/3614fdf4-8e98-33b2-b474-37de9a3ab81a> , <http://d.opencalais.com/pershash-1/fc572248-d6dd-3c1a-bd4d-8324c8942337> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/conf/comphash-1/a8ee0a81-b629-368a-b237-71a89306beec>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.558" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.788" ;
+        c:subject             <http://d.opencalais.com/comphash-1/a8ee0a81-b629-368a-b237-71a89306beec> .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/Relevance/18>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/5b776565-7153-3155-abf8-2cc2f9b18ec9> .
+
+<http://d.opencalais.com/conf/pershash-1/6231761a-5ce8-316e-a742-c6733465812b>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.983" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.932" ;
+        c:subject             <http://d.opencalais.com/pershash-1/6231761a-5ce8-316e-a742-c6733465812b> .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/Instance/47>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in death by one grandson and two brothers, ]William[ “Joe” Robbins and James Robbins.  \t    \nJanie is]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:exact      "William" ;
+        c:length     "7" ;
+        c:offset     "807" ;
+        c:prefix     "in death by one grandson and two brothers, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/eb52816f-fcb1-3926-be8a-63058ed64e22> ;
+        c:suffix     " “Joe” Robbins and James Robbins.  \t    \nJanie is" .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/Instance/19>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ is survived by three sons, James Brown and wife, ]Betty, of Jasper, Texas[, Carl Brown and wife, Sandra, of Jasper, Texas,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:exact      "Betty, of Jasper, Texas" ;
+        c:length     "23" ;
+        c:offset     "910" ;
+        c:prefix     " is survived by three sons, James Brown and wife, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/dd8c50f2-286d-33bf-8a91-9a5336018525> ;
+        c:suffix     ", Carl Brown and wife, Sandra, of Jasper, Texas," .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/Instance/8>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and passed away December 3, 2014, at Enid, ]Oklahoma[, at the age of 80 years and 23 days.  \t   ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "433" ;
+        c:prefix     "and passed away December 3, 2014, at Enid, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", at the age of 80 years and 23 days.  \t   " .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/Instance/41>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and two brothers, William “Joe” Robbins and ]James Robbins[.  \t    \nJanie is survived by three sons, James]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:exact      "James Robbins" ;
+        c:length     "13" ;
+        c:offset     "833" ;
+        c:prefix     "and two brothers, William “Joe” Robbins and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/5e846e3f-8a22-319b-98c8-b60f46883eba> ;
+        c:suffix     ".  \t    \nJanie is survived by three sons, James" .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/Relevance/12>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/ee591157-7b82-37b6-b344-bc92addae0bc> .
+
+<http://d.opencalais.com/pershash-1/9a3f1bc2-cb1f-3141-a6ec-8084e969ff1c>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Debora Bebee" ;
+        c:confidencelevel    "0.994" ;
+        c:firstname          "Debora" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Bebee" ;
+        c:name               "Debora Bebee" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/Instance/13>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[officiating. Interment will follow in the ]Carmen City Cemetery[ under the direction of Wentworth Mortuary, LLC. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:exact      "Carmen City Cemetery" ;
+        c:length     "20" ;
+        c:offset     "181" ;
+        c:prefix     "officiating. Interment will follow in the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/52f06da9-a2d1-3490-aa54-9f8b91e94324> ;
+        c:suffix     " under the direction of Wentworth Mortuary, LLC. " .
+
+<http://d.opencalais.com/conf/pershash-1/eb52816f-fcb1-3926-be8a-63058ed64e22>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.947" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/eb52816f-fcb1-3926-be8a-63058ed64e22> .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/Relevance/5>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/b31212af-6d91-3264-9577-6b517c12057a> .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/Instance/2>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Betty, of Jasper, Texas, Carl Brown and wife, ]Sandra[, of Jasper, Texas, and John Brown and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:exact      "Sandra" ;
+        c:length     "6" ;
+        c:offset     "956" ;
+        c:prefix     "Betty, of Jasper, Texas, Carl Brown and wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/86b110de-ed6b-3880-8cae-0da9012fdb93> ;
+        c:suffix     ", of Jasper, Texas, and John Brown and" .
+
+<http://d.opencalais.com/pershash-1/86b110de-ed6b-3880-8cae-0da9012fdb93>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Sandra" ;
+        c:confidencelevel    "0.981" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Sandra" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/53940ca4-8e02-bdb2-662f-6adae1a31394>
+        a            <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:docId      <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:latitude   "31.0413428196" ;
+        c:longitude  "-91.8359559164" ;
+        c:name       "Louisiana" ;
+        c:permid     "100166" ;
+        c:rcscode    "G:20" ;
+        c:shortname  "Louisiana" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/2de7474d-37f9-3179-bda5-6bde1bcf78e6> .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/cat/1>
+        a                    <http://s.opencalais.com/1/type/cat/DocCat> ;
+        c:docId              <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Human Interest" ;
+        c:score              "1.000" .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/Instance/26>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[born: James, Carl, and John. Later she married ]John Tillman Coburn[. She worked many years in a refinery.  \t   ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:exact      "John Tillman Coburn" ;
+        c:length     "19" ;
+        c:offset     "661" ;
+        c:prefix     "born: James, Carl, and John. Later she married " ;
+        c:subject    <http://d.opencalais.com/pershash-1/3614fdf4-8e98-33b2-b474-37de9a3ab81a> ;
+        c:suffix     ". She worked many years in a refinery.  \t   " .
+
+<http://d.opencalais.com/conf/pershash-1/fc572248-d6dd-3c1a-bd4d-8324c8942337>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.993" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.995" ;
+        c:subject             <http://d.opencalais.com/pershash-1/fc572248-d6dd-3c1a-bd4d-8324c8942337> .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/Instance/39>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Robbins.  \t    \nJanie is survived by three sons, ]James Brown[ and wife, Betty, of Jasper, Texas, Carl Brown]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:exact      "James Brown" ;
+        c:length     "11" ;
+        c:offset     "888" ;
+        c:prefix     " Robbins.  \t    \nJanie is survived by three sons, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/5b776565-7153-3155-abf8-2cc2f9b18ec9> ;
+        c:suffix     " and wife, Betty, of Jasper, Texas, Carl Brown" .
+
+<http://d.opencalais.com/pershash-1/b31212af-6d91-3264-9577-6b517c12057a>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Ruby Robbins" ;
+        c:confidencelevel    "0.979" ;
+        c:firstname          "Ruby" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Robbins" ;
+        c:name               "Ruby (Bowden) Robbins" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/3614fdf4-8e98-33b2-b474-37de9a3ab81a>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.963" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.978" ;
+        c:subject             <http://d.opencalais.com/pershash-1/3614fdf4-8e98-33b2-b474-37de9a3ab81a> .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/Instance/20>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[(Bowden) Robbins was born November 10, 1934, at ]Hemphill[, Texas, and passed away December 3, 2014, at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:exact      "Hemphill" ;
+        c:length     "8" ;
+        c:offset     "373" ;
+        c:prefix     "(Bowden) Robbins was born November 10, 1934, at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e1b2acb8-9832-3da5-87b9-552a2f4c6194> ;
+        c:suffix     ", Texas, and passed away December 3, 2014, at" .
+
+<http://d.opencalais.com/pershash-1/ee591157-7b82-37b6-b344-bc92addae0bc>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "John Brown" ;
+        c:confidencelevel    "0.998" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "John Brown" ;
+        c:nationality        "N/A" ;
+        c:persontype         "sports" .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/Instance/33>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[sons were born: James, Carl, and John. Later ]she[ married John Tillman Coburn. She worked many]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "649" ;
+        c:prefix     "sons were born: James, Carl, and John. Later " ;
+        c:subject    <http://d.opencalais.com/pershash-1/fc572248-d6dd-3c1a-bd4d-8324c8942337> ;
+        c:suffix     " married John Tillman Coburn. She worked many" .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/Relevance/17>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/fc572248-d6dd-3c1a-bd4d-8324c8942337> .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/Instance/46>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[   \nJanie Beatrice Coburn, daughter of the late ]William Elbert[ and Ruby (Bowden) Robbins was born November 10,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:exact      "William Elbert" ;
+        c:length     "14" ;
+        c:offset     "301" ;
+        c:prefix     "   \nJanie Beatrice Coburn, daughter of the late " ;
+        c:subject    <http://d.opencalais.com/pershash-1/eb52816f-fcb1-3926-be8a-63058ed64e22> ;
+        c:suffix     " and Ruby (Bowden) Robbins was born November 10," .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/Instance/18>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[the Carmen City Cemetery under the direction of ]Wentworth Mortuary, LLC[.  \t    \nJanie Beatrice Coburn, daughter of the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:exact      "Wentworth Mortuary, LLC" ;
+        c:length     "23" ;
+        c:offset     "225" ;
+        c:prefix     "the Carmen City Cemetery under the direction of " ;
+        c:subject    <http://d.opencalais.com/comphash-1/a8ee0a81-b629-368a-b237-71a89306beec> ;
+        c:suffix     ".  \t    \nJanie Beatrice Coburn, daughter of the" .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/Instance/7>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Texas, Carl Brown and wife, Sandra, of Jasper, ]Texas[, and John Brown and girlfriend, Debora Bebee, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:exact      "Texas" ;
+        c:length     "5" ;
+        c:offset     "975" ;
+        c:prefix     "Texas, Carl Brown and wife, Sandra, of Jasper, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> ;
+        c:suffix     ", and John Brown and girlfriend, Debora Bebee, of" .
+
+<http://d.opencalais.com/conf/pershash-1/8ae4465f-f912-3748-98ba-65427b8836a8>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.992" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.98" ;
+        c:subject             <http://d.opencalais.com/pershash-1/8ae4465f-f912-3748-98ba-65427b8836a8> .
+
+<http://d.opencalais.com/genericHasher-1/82305afd-1a57-334b-b9cf-da97c3fb6645>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonAttributes> ;
+        c:birthdate          "1934-11-10" ;
+        c:birthplace         <http://d.opencalais.com/genericHasher-1/e1b2acb8-9832-3da5-87b9-552a2f4c6194> ;
+        c:forenduserdisplay  "false" ;
+        c:gender             "M" ;
+        c:person             <http://d.opencalais.com/pershash-1/b31212af-6d91-3264-9577-6b517c12057a> .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/Instance/40>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[]Funeral services[ for Janie Coburn will be 1:30 p.m. Monday,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:exact      "Funeral services" ;
+        c:length     "16" ;
+        c:offset     "0" ;
+        c:prefix     "" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee> ;
+        c:suffix     " for Janie Coburn will be 1:30 p.m. Monday," .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/Relevance/11>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e1b2acb8-9832-3da5-87b9-552a2f4c6194> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/99dcc443-5213-0466-f377-c15f466a2f56>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Texas" ;
+        c:docId               <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:latitude            "31.3406" ;
+        c:longitude           "-93.8467" ;
+        c:name                "Hemphill,Texas,United States" ;
+        c:shortname           "Hemphill" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/e1b2acb8-9832-3da5-87b9-552a2f4c6194> .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/Relevance/4>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/Instance/12>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[be 1:30 p.m. Monday, December 8, 2014, at the ]Carmen United Methodist Church[ with Rev. John Bizzell officiating. Interment]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:exact      "Carmen United Methodist Church" ;
+        c:length     "30" ;
+        c:offset     "85" ;
+        c:prefix     "be 1:30 p.m. Monday, December 8, 2014, at the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/1402f9b1-5c20-3cf0-9ec3-8808a8966ab4> ;
+        c:suffix     " with Rev. John Bizzell officiating. Interment" .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/Instance/1>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Betty, of Jasper, Texas, Carl Brown and wife, ]Sandra, of Jasper, Texas[, and John Brown and girlfriend, Debora Bebee, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:exact      "Sandra, of Jasper, Texas" ;
+        c:length     "24" ;
+        c:offset     "956" ;
+        c:prefix     "Betty, of Jasper, Texas, Carl Brown and wife, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/bac42fdb-c896-3940-ac72-498457e2f38d> ;
+        c:suffix     ", and John Brown and girlfriend, Debora Bebee, of" .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/Relevance/24>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/eb52816f-fcb1-3926-be8a-63058ed64e22> .
+
+<http://d.opencalais.com/genericHasher-1/e42c6227-29a1-3fe0-a56a-e493a9ada4c3>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Jasper" .
+
+<http://d.opencalais.com/pershash-1/5b776565-7153-3155-abf8-2cc2f9b18ec9>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "James Brown" ;
+        c:confidencelevel    "0.997" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "James Brown" ;
+        c:nationality        "N/A" ;
+        c:persontype         "sports" .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/Instance/25>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Coburn, daughter of the late William Elbert and ]Ruby (Bowden) Robbins was born November 10, 1934, at Hemphill, Texas[, and passed away December 3, 2014, at Enid,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:exact      "Ruby (Bowden) Robbins was born November 10, 1934, at Hemphill, Texas" ;
+        c:length     "68" ;
+        c:offset     "320" ;
+        c:prefix     "Coburn, daughter of the late William Elbert and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/82305afd-1a57-334b-b9cf-da97c3fb6645> ;
+        c:suffix     ", and passed away December 3, 2014, at Enid," .
+
+<http://d.opencalais.com/genericHasher-1/2de7474d-37f9-3179-bda5-6bde1bcf78e6>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Louisiana" .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/Instance/38>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Louisiana. To this union three sons were born: ]James[, Carl, and John. Later she married John Tillman]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:exact      "James" ;
+        c:length     "5" ;
+        c:offset     "620" ;
+        c:prefix     "Louisiana. To this union three sons were born: " ;
+        c:subject    <http://d.opencalais.com/pershash-1/5b776565-7153-3155-abf8-2cc2f9b18ec9> ;
+        c:suffix     ", Carl, and John. Later she married John Tillman" .
+
+<http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee>
+        a                    <http://s.opencalais.com/1/type/em/e/IndustryTerm> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Funeral services" .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/Instance/32>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[23 days.  \t    \nJanie grew up in Jasper, Texas. ]She[ was united in marriage to Gemes Ivy Brown at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "518" ;
+        c:prefix     "23 days.  \t    \nJanie grew up in Jasper, Texas. " ;
+        c:subject    <http://d.opencalais.com/pershash-1/fc572248-d6dd-3c1a-bd4d-8324c8942337> ;
+        c:suffix     " was united in marriage to Gemes Ivy Brown at" .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/Instance/45>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[sons were born: James, Carl, and John. Later ]she married John Tillman Coburn[. She worked many years in a refinery.  \t   ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:exact      "she married John Tillman Coburn" ;
+        c:length     "31" ;
+        c:offset     "649" ;
+        c:prefix     "sons were born: James, Carl, and John. Later " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/54d1330d-b447-3381-a717-1b0022fe8f8e> ;
+        c:suffix     ". She worked many years in a refinery.  \t   " .
+
+<http://d.opencalais.com/pershash-1/399374bb-b91e-33ea-99ac-2f4b57c4aef4>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "John Bizzell" ;
+        c:confidencelevel    "0.98" ;
+        c:firstname          "John" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Bizzell" ;
+        c:name               "John Bizzell" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/Relevance/16>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/8ae4465f-f912-3748-98ba-65427b8836a8> .
+
+<http://d.opencalais.com/conf/pershash-1/5e846e3f-8a22-319b-98c8-b60f46883eba>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.988" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/5e846e3f-8a22-319b-98c8-b60f46883eba> .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/Relevance/9>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e42c6227-29a1-3fe0-a56a-e493a9ada4c3> .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/Instance/17>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Jasper, Texas, Carl Brown and wife, Sandra, of ]Jasper[, Texas, and John Brown and girlfriend, Debora]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:exact      "Jasper" ;
+        c:length     "6" ;
+        c:offset     "967" ;
+        c:prefix     "Jasper, Texas, Carl Brown and wife, Sandra, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e42c6227-29a1-3fe0-a56a-e493a9ada4c3> ;
+        c:suffix     ", Texas, and John Brown and girlfriend, Debora" .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/Instance/6>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[sons, James Brown and wife, Betty, of Jasper, ]Texas[, Carl Brown and wife, Sandra, of Jasper, Texas,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:exact      "Texas" ;
+        c:length     "5" ;
+        c:offset     "928" ;
+        c:prefix     "sons, James Brown and wife, Betty, of Jasper, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> ;
+        c:suffix     ", Carl Brown and wife, Sandra, of Jasper, Texas," .
+
+<http://d.opencalais.com/pershash-1/6231761a-5ce8-316e-a742-c6733465812b>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Betty" ;
+        c:confidencelevel    "0.983" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Betty" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/comphash-1/a8ee0a81-b629-368a-b237-71a89306beec>
+        a                    <http://s.opencalais.com/1/type/em/e/Company> ;
+        c:confidencelevel    "0.558" ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Wentworth Mortuary LLC" ;
+        c:nationality        "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/2d220310-d0dc-3d08-8bb3-281c48187750>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Jena" .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/Relevance/10>
+        a                <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId          <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:relevance      "0.2" ;
+        c:relevancecont  "0.03" ;
+        c:subject        <http://d.opencalais.com/comphash-1/a8ee0a81-b629-368a-b237-71a89306beec> .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/Relevance/3>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/Instance/11>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[by one grandson and two brothers, William “Joe” ]Robbins[ and James Robbins.  \t    \nJanie is survived by]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:exact      "Robbins" ;
+        c:length     "7" ;
+        c:offset     "821" ;
+        c:prefix     "by one grandson and two brothers, William “Joe” " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b31212af-6d91-3264-9577-6b517c12057a> ;
+        c:suffix     " and James Robbins.  \t    \nJanie is survived by" .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/Relevance/23>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/6231761a-5ce8-316e-a742-c6733465812b> .
+
+<http://d.opencalais.com/pershash-1/eb52816f-fcb1-3926-be8a-63058ed64e22>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "William Elbert" ;
+        c:confidencelevel    "0.947" ;
+        c:firstname          "William" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Elbert" ;
+        c:name               "William Elbert" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/52f06da9-a2d1-3490-aa54-9f8b91e94324>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Carmen City Cemetery" .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/Instance/24>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[united in marriage to Gemes Ivy Brown at Jena, ]Louisiana[. To this union three sons were born: James,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:exact      "Louisiana" ;
+        c:length     "9" ;
+        c:offset     "573" ;
+        c:prefix     "united in marriage to Gemes Ivy Brown at Jena, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/2de7474d-37f9-3179-bda5-6bde1bcf78e6> ;
+        c:suffix     ". To this union three sons were born: James," .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/Instance/37>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[William “Joe” Robbins and James Robbins.  \t    \n]Janie[ is survived by three sons, James Brown and wife,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:exact      "Janie" ;
+        c:length     "5" ;
+        c:offset     "855" ;
+        c:prefix     "William “Joe” Robbins and James Robbins.  \t    \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/fc572248-d6dd-3c1a-bd4d-8324c8942337> ;
+        c:suffix     " is survived by three sons, James Brown and wife," .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/SocialTag/4>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "2" ;
+        c:name               "Robbins" ;
+        c:originalValue      "Robbins (name)" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/f59f930d-bb50-3d2a-a52c-f8a39d33342b> .
+
+<http://d.opencalais.com/pershash-1/fc572248-d6dd-3c1a-bd4d-8324c8942337>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Janie Beatrice Coburn" ;
+        c:confidencelevel    "0.993" ;
+        c:firstname          "Janie" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Coburn" ;
+        c:middlename         "Beatrice" ;
+        c:name               "Janie Beatrice Coburn" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/70862fe3-662e-3504-b824-3b542e3ba2d9>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/70862fe3-662e-3504-b824-3b542e3ba2d9> .
+
+<http://d.opencalais.com/genericHasher-1/dd8c50f2-286d-33bf-8a91-9a5336018525>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Jasper" ;
+        c:person             <http://d.opencalais.com/pershash-1/6231761a-5ce8-316e-a742-c6733465812b> .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/Instance/31>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[at the age of 80 years and 23 days.  \t    \n]Janie[ grew up in Jasper, Texas. She was united in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:exact      "Janie" ;
+        c:length     "5" ;
+        c:offset     "486" ;
+        c:prefix     "at the age of 80 years and 23 days.  \t    \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/fc572248-d6dd-3c1a-bd4d-8324c8942337> ;
+        c:suffix     " grew up in Jasper, Texas. She was united in" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/e9e27c26-4013-8712-a5f0-97dcdc412c26>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:latitude            "35.5607802899" ;
+        c:longitude           "-96.8460570462" ;
+        c:name                "Oklahoma,United States" ;
+        c:permid              "100229" ;
+        c:rcscode             "G:9H" ;
+        c:shortname           "Oklahoma" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/pershash-1/3614fdf4-8e98-33b2-b474-37de9a3ab81a>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "John Tillman Coburn" ;
+        c:confidencelevel    "0.963" ;
+        c:firstname          "John" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Tillman Coburn" ;
+        c:name               "John Tillman Coburn" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/Relevance/15>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/3614fdf4-8e98-33b2-b474-37de9a3ab81a> .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/Instance/44>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ is survived by three sons, James Brown and wife, ]Betty[, of Jasper, Texas, Carl Brown and wife, Sandra,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:exact      "Betty" ;
+        c:length     "5" ;
+        c:offset     "910" ;
+        c:prefix     " is survived by three sons, James Brown and wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6231761a-5ce8-316e-a742-c6733465812b> ;
+        c:suffix     ", of Jasper, Texas, Carl Brown and wife, Sandra," .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/Relevance/8>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/9a3f1bc2-cb1f-3141-a6ec-8084e969ff1c> .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/Instance/16>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[by three sons, James Brown and wife, Betty, of ]Jasper[, Texas, Carl Brown and wife, Sandra, of Jasper,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:exact      "Jasper" ;
+        c:length     "6" ;
+        c:offset     "920" ;
+        c:prefix     "by three sons, James Brown and wife, Betty, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e42c6227-29a1-3fe0-a56a-e493a9ada4c3> ;
+        c:suffix     ", Texas, Carl Brown and wife, Sandra, of Jasper," .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/Instance/5>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and 23 days.  \t    \nJanie grew up in Jasper, ]Texas[. She was united in marriage to Gemes Ivy Brown]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:exact      "Texas" ;
+        c:length     "5" ;
+        c:offset     "511" ;
+        c:prefix     "and 23 days.  \t    \nJanie grew up in Jasper, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> ;
+        c:suffix     ". She was united in marriage to Gemes Ivy Brown" .
+
+<http://d.opencalais.com/genericHasher-1/e1b2acb8-9832-3da5-87b9-552a2f4c6194>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Hemphill" .
+
+<http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234/Instance/29>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[sons were born: James, Carl, and John. Later ]she married John Tillman Coburn[. She worked many years in a refinery.  \t   ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/5ca2ecd3-0507-3ac2-b6b3-87e26b0bf234> ;
+        c:exact      "she married John Tillman Coburn" ;
+        c:length     "31" ;
+        c:offset     "649" ;
+        c:prefix     "sons were born: James, Carl, and John. Later " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4cbdab3e-204c-32f3-974a-7ec9649b35d5> ;
+        c:suffix     ". She worked many years in a refinery.  \t   " .
+
+<http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oklahoma" .
+
+<http://d.opencalais.com/genericHasher-1/35a979c1-2108-3761-99bd-8c6f499ef6f2>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Enid" .

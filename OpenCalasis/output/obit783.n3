@@ -1,0 +1,2640 @@
+#Relations: FamilyRelation, PersonAttributes, PersonCareer, PersonEducation, PersonLocation, PersonRelation
+#City: Cleveland, Lodge, Oklahoma City, Quinlan, Salt Lake City, Sapulpa, Shawnee, Weatherford
+#Company: Waynoka LLC
+#Country: United States
+#Facility: Marshall Funeral Home of Waynoka, Medicine Lodge, Waynoka Municipal Cemetery
+#IndustryTerm: Funeral services
+#Movie: Happy, Texas
+#Organization: Christian Church, Historical Society, Quinlan High School, Saddle Club, United States Navy
+#Person: Aaron Nutter, Angie, Betty, Brian Mullins, Carrie, Clara Eva (Atkinson) Mullins, Cody Mullins, David Balch, Erlene Stevens, Irvin Allen Mullins, Irvin Gale Mullins, Justin, Kevin Balch, Kevin Mullins, Kim Watkins, Leona Rickman, Leota Million, Marsha Bower, Michael Balch, Michael Kelly Mullins, Mike Paddy, Norma, Rachel, Sean Mullins, Tammy, Thomas Kent Mullins, Travis Mullins, William Oscar
+#Position: Crew Clerk, Crew Clerk for the Santa Fe Railroad
+#ProvinceOrState: Georgia, Kansas, Oklahoma, Texas, Utah
+@prefix c:     <http://s.opencalais.com/1/pred/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://d.opencalais.com/conf/pershash-1/4895227e-99d3-308b-93c4-477fad78c9f1>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.965" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.932" ;
+        c:subject             <http://d.opencalais.com/pershash-1/4895227e-99d3-308b-93c4-477fad78c9f1> .
+
+<http://d.opencalais.com/genericHasher-1/a4eb8d1c-f6e5-37ab-bb95-07bb3c19a8bc>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:company            <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:forenduserdisplay  "true" ;
+        c:person             <http://d.opencalais.com/pershash-1/01b4d2cb-3316-3ea7-a545-a0bd3e07b99f> ;
+        c:position           "Crew Clerk for the Santa Fe Railroad" ;
+        c:status             "past" .
+
+<http://d.opencalais.com/genericHasher-1/cb0170d4-d9cb-3333-9178-96f36aef538d>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Shawnee" ;
+        c:person             <http://d.opencalais.com/pershash-1/a738bc18-3420-30f0-93d4-f8de9a1e1162> .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/88>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Waynoka, and Michael Kelly Mullins and ]his[ wife, Georgia, of Avard; and one sister, Leona]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "1537" ;
+        c:prefix     "of Waynoka, and Michael Kelly Mullins and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/71f0738f-31ca-3923-b2a1-627fe724c409> ;
+        c:suffix     " wife, Georgia, of Avard; and one sister, Leona" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/100>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Cleveland, Oklahoma, Michael Balch and wife, ]Tammy, of Sapulpa, Oklahoma[, Kevin Balch of Sand Springs, Oklahoma, Scott]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Tammy, of Sapulpa, Oklahoma" ;
+        c:length     "27" ;
+        c:offset     "1988" ;
+        c:prefix     "of Cleveland, Oklahoma, Michael Balch and wife, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/87602df5-29ba-38c6-b1ef-cdb1a2c1efa2> ;
+        c:suffix     ", Kevin Balch of Sand Springs, Oklahoma, Scott" .
+
+<http://d.opencalais.com/conf/pershash-1/a738bc18-3420-30f0-93d4-f8de9a1e1162>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.993" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.99" ;
+        c:subject             <http://d.opencalais.com/pershash-1/a738bc18-3420-30f0-93d4-f8de9a1e1162> .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/67>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[made their home in Waynoka where he worked as ]a Crew Clerk[ for the Santa Fe Railroad. He also farmed and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "a Crew Clerk" ;
+        c:length     "12" ;
+        c:offset     "869" ;
+        c:prefix     "made their home in Waynoka where he worked as " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ff180d1f-86ac-3f9c-97cb-dd88f22e7b41> ;
+        c:suffix     " for the Santa Fe Railroad. He also farmed and" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/46>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Medicine Lodge, Kansas. They made their home in ]Waynoka[ where he worked as a Crew Clerk for the Santa Fe]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Waynoka" ;
+        c:length     "7" ;
+        c:offset     "842" ;
+        c:prefix     "Medicine Lodge, Kansas. They made their home in " ;
+        c:subject    <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:suffix     " where he worked as a Crew Clerk for the Santa Fe" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/25>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Waynoka; two sons, Irvin Allen Mullins and ]his[ wife, Carrie, of Waynoka, and Michael Kelly]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "1477" ;
+        c:prefix     "of Waynoka; two sons, Irvin Allen Mullins and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/01b4d2cb-3316-3ea7-a545-a0bd3e07b99f> ;
+        c:suffix     " wife, Carrie, of Waynoka, and Michael Kelly" .
+
+<http://d.opencalais.com/genericHasher-1/df207caf-4afe-36d0-ba74-c02c9a546792>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Sapulpa" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Relevance/43>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/71f0738f-31ca-3923-b2a1-627fe724c409> .
+
+<http://d.opencalais.com/pershash-1/8b5db014-37f0-3729-8e7c-68caaa3549ba>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Thomas Kent Mullins" ;
+        c:confidencelevel    "0.994" ;
+        c:firstname          "Thomas" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Mullins" ;
+        c:middlename         "Kent" ;
+        c:name               "Thomas Kent Mullins" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Relevance/22>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/f8395b30-9623-3b5d-b7fd-3f6b090321af> .
+
+<http://d.opencalais.com/pershash-1/4eaf6c5a-78e0-3704-98ea-d478ac49d632>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Irvin Gale Mullins" ;
+        c:confidencelevel    "0.988" ;
+        c:firstname          "Irvin" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Mullins" ;
+        c:middlename         "Gale" ;
+        c:name               "Irvin Gale Mullins" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/d09535b1-4c74-3c32-a440-d767dd64532b>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.769" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/d09535b1-4c74-3c32-a440-d767dd64532b> .
+
+<https://permid.org/1-5035751620>
+        a             <http://s.opencalais.com/1/type/er/Company> ;
+        c:commonname  "Waynoka" ;
+        c:docId       <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:legacyid    <http://d.opencalais.com/er/company/ralg-tr1r/da554c4e-4d2b-3037-98bc-d26b5df2c525> ;
+        c:name        "Waynoka Utilities Authority" ;
+        c:permid      "5035751620" ;
+        c:score       "0.05522651" ;
+        c:subject     <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/108>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[by his wife, Erlene, of Waynoka; two sons, ]Irvin Allen Mullins and his wife, Carrie, of Waynoka[, and Michael Kelly Mullins and his wife,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Irvin Allen Mullins and his wife, Carrie, of Waynoka" ;
+        c:length     "52" ;
+        c:offset     "1453" ;
+        c:prefix     "by his wife, Erlene, of Waynoka; two sons, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/604668cb-39a8-32b8-9b07-723fea6497fa> ;
+        c:suffix     ", and Michael Kelly Mullins and his wife," .
+
+<http://d.opencalais.com/genericHasher-1/bf94807c-1c72-3b9d-84a4-e6eb90970048>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Quinlan High School" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/8>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[from Quinlan High School. After graduation, ]he[ enlisted in the United States Navy where he]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "he" ;
+        c:length     "2" ;
+        c:offset     "643" ;
+        c:prefix     "from Quinlan High School. After graduation, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/01b4d2cb-3316-3ea7-a545-a0bd3e07b99f> ;
+        c:suffix     " enlisted in the United States Navy where he" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/96>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ in marriage to Leveda Erlene Stevens at Medicine ]Lodge[, Kansas. They made their home in Waynoka where]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Lodge" ;
+        c:length     "5" ;
+        c:offset     "803" ;
+        c:prefix     " in marriage to Leveda Erlene Stevens at Medicine " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8e0d8710-a34c-31da-add8-1a2530652e76> ;
+        c:suffix     ", Kansas. They made their home in Waynoka where" .
+
+<http://d.opencalais.com/conf/pershash-1/4668a141-34f2-3df3-8af8-00c14ce55ba4>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.997" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.998" ;
+        c:subject             <http://d.opencalais.com/pershash-1/4668a141-34f2-3df3-8af8-00c14ce55ba4> .
+
+<http://d.opencalais.com/genericHasher-1/f12a5c54-6703-3bd6-a83d-8fa6973ef353>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Shawnee" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/75>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Balch and wife, Tammy, of Sapulpa, Oklahoma, ]Kevin Balch[ of Sand Springs, Oklahoma, Scott Balch and wife,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Kevin Balch" ;
+        c:length     "11" ;
+        c:offset     "2017" ;
+        c:prefix     "Balch and wife, Tammy, of Sapulpa, Oklahoma, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/583a4e40-66c9-3386-98d5-3f36461ffce1> ;
+        c:suffix     " of Sand Springs, Oklahoma, Scott Balch and wife," .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Relevance/4>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/54>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Mooreland, Cody Mullins of Weatherford, Texas, ]Kevin Mullins of Weatherford, Texas[, David Balch and wife, Angie, of Cleveland,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Kevin Mullins of Weatherford, Texas" ;
+        c:length     "35" ;
+        c:offset     "1874" ;
+        c:prefix     "Mooreland, Cody Mullins of Weatherford, Texas, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/d8d04b1f-28bb-307f-b2c3-9ac9b1b8d3dd> ;
+        c:suffix     ", David Balch and wife, Angie, of Cleveland," .
+
+<http://d.opencalais.com/conf/pershash-1/34c7d611-4a96-325b-9528-e9dc25486bf3>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.951" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.932" ;
+        c:subject             <http://d.opencalais.com/pershash-1/34c7d611-4a96-325b-9528-e9dc25486bf3> .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/33>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Texas, Kevin Mullins of Weatherford, Texas, ]David Balch[ and wife, Angie, of Cleveland, Oklahoma, Michael]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "David Balch" ;
+        c:length     "11" ;
+        c:offset     "1911" ;
+        c:prefix     "Texas, Kevin Mullins of Weatherford, Texas, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/4508d650-325e-3c47-bf1a-89115735fcad> ;
+        c:suffix     " and wife, Angie, of Cleveland, Oklahoma, Michael" .
+
+<http://d.opencalais.com/genericHasher-1/4098ba14-95b9-36e8-a252-bd23a575c384>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Salt Lake City" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/12>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[as a Crew Clerk for the Santa Fe Railroad. ]He[ also farmed and ranched his entire life.  \nHe]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "He" ;
+        c:length     "2" ;
+        c:offset     "909" ;
+        c:prefix     "as a Crew Clerk for the Santa Fe Railroad. " ;
+        c:subject    <http://d.opencalais.com/pershash-1/01b4d2cb-3316-3ea7-a545-a0bd3e07b99f> ;
+        c:suffix     " also farmed and ranched his entire life.  \nHe" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Relevance/51>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e3b633f3-aa73-339f-b8c8-66b62e079ed6> .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Relevance/30>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/8ab75e6b-ad1d-34b3-b5d1-abf68a33bcf1> .
+
+<http://d.opencalais.com/pershash-1/44963a4f-4463-3854-91db-aa36b4f2e826>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Norma" ;
+        c:confidencelevel    "0.86" ;
+        c:firstname          "Norma" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Norma" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/e3b633f3-aa73-339f-b8c8-66b62e079ed6>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "United States Navy" ;
+        c:nationality        "American" ;
+        c:organizationtype   "governmental military" .
+
+<http://d.opencalais.com/genericHasher-1/b8620f48-da64-3b29-b094-f0b9edcda36f>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oklahoma City" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/83>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[The casket will remain closed at the ]church[.  Interment will be in the Waynoka Municipal]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "church" ;
+        c:length     "6" ;
+        c:offset     "214" ;
+        c:prefix     "The casket will remain closed at the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c1e14c20-7ec2-3637-872f-855b5253364e> ;
+        c:suffix     ".  Interment will be in the Waynoka Municipal" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/62>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ and his wife, Georgia, of Avard; and one sister, ]Leona Rickman[ of Oklahoma City.  \nAlso surviving are 11]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Leona Rickman" ;
+        c:length     "13" ;
+        c:offset     "1582" ;
+        c:prefix     " and his wife, Georgia, of Avard; and one sister, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/4668a141-34f2-3df3-8af8-00c14ce55ba4> ;
+        c:suffix     " of Oklahoma City.  \nAlso surviving are 11" .
+
+<http://d.opencalais.com/pershash-1/148e71d2-33c7-38f1-86f9-e17993f0197e>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Michael Balch" ;
+        c:confidencelevel    "0.98" ;
+        c:firstname          "Michael" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Balch" ;
+        c:name               "Michael Balch" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/41>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Balch and wife, Betty, of Sapulpa, Oklahoma, and ]Marsha Bower[ and husband, Justin, of Woodward; 22 great]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Marsha Bower" ;
+        c:length     "12" ;
+        c:offset     "2111" ;
+        c:prefix     " Balch and wife, Betty, of Sapulpa, Oklahoma, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/ec0c2852-e624-3102-95f1-9008ecd5f63e> ;
+        c:suffix     " and husband, Justin, of Woodward; 22 great" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/20>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[to reunions with his Navy shipmates.  \nBesides ]his[ parents, he was preceded in death by one son,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "1289" ;
+        c:prefix     "to reunions with his Navy shipmates.  \nBesides " ;
+        c:subject    <http://d.opencalais.com/pershash-1/01b4d2cb-3316-3ea7-a545-a0bd3e07b99f> ;
+        c:suffix     " parents, he was preceded in death by one son," .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/40fff34a-9518-8686-1941-53a8b417a19c>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:latitude            "35.9986" ;
+        c:longitude           "-96.1139" ;
+        c:name                "Sapulpa,Oklahoma,United States" ;
+        c:shortname           "Sapulpa" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/df207caf-4afe-36d0-ba74-c02c9a546792> .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Relevance/38>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/51a1bbc0-879d-34b4-b4f0-0c77362f0e61> .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Relevance/17>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/f12a5c54-6703-3bd6-a83d-8fa6973ef353> .
+
+<http://d.opencalais.com/conf/pershash-1/6231761a-5ce8-316e-a742-c6733465812b>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.983" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.932" ;
+        c:subject             <http://d.opencalais.com/pershash-1/6231761a-5ce8-316e-a742-c6733465812b> .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/3>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Mooreland, Cody Mullins of Weatherford, ]Texas[, Kevin Mullins of Weatherford, Texas, David]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Texas" ;
+        c:length     "5" ;
+        c:offset     "1867" ;
+        c:prefix     "of Mooreland, Cody Mullins of Weatherford, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> ;
+        c:suffix     ", Kevin Mullins of Weatherford, Texas, David" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/91>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[David Balch and wife, Angie, of Cleveland, ]Oklahoma[, Michael Balch and wife, Tammy, of Sapulpa,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "1954" ;
+        c:prefix     "David Balch and wife, Angie, of Cleveland, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", Michael Balch and wife, Tammy, of Sapulpa," .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/103>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[City.  \nAlso surviving are 11 grandchildren, ]Kim Watkins of Shawnee, Oklahoma[, Travis Mullins and wife, T. J., of Salt Lake]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Kim Watkins of Shawnee, Oklahoma" ;
+        c:length     "32" ;
+        c:offset     "1653" ;
+        c:prefix     "City.  \nAlso surviving are 11 grandchildren, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/cb0170d4-d9cb-3333-9178-96f36aef538d> ;
+        c:suffix     ", Travis Mullins and wife, T. J., of Salt Lake" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/70>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Mooreland, Cody Mullins of Weatherford, Texas, ]Kevin Mullins[ of Weatherford, Texas, David Balch and wife,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Kevin Mullins" ;
+        c:length     "13" ;
+        c:offset     "1874" ;
+        c:prefix     "Mooreland, Cody Mullins of Weatherford, Texas, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/52b0eecf-239c-39c9-aa21-4f93588108b2> ;
+        c:suffix     " of Weatherford, Texas, David Balch and wife," .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/49>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Irvin Allen Mullins and his wife, Carrie, of ]Waynoka[, and Michael Kelly Mullins and his wife,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Waynoka" ;
+        c:length     "7" ;
+        c:offset     "1498" ;
+        c:prefix     "Irvin Allen Mullins and his wife, Carrie, of " ;
+        c:subject    <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:suffix     ", and Michael Kelly Mullins and his wife," .
+
+<http://d.opencalais.com/pershash-1/52b0eecf-239c-39c9-aa21-4f93588108b2>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Kevin Mullins" ;
+        c:confidencelevel    "0.983" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Kevin Mullins" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/28>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[two sons, Irvin Allen Mullins and his wife, ]Carrie, of Waynoka[, and Michael Kelly Mullins and his wife,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Carrie, of Waynoka" ;
+        c:length     "18" ;
+        c:offset     "1487" ;
+        c:prefix     "two sons, Irvin Allen Mullins and his wife, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3bf5ead6-a64a-32e3-872b-051274a99149> ;
+        c:suffix     ", and Michael Kelly Mullins and his wife," .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Relevance/46>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8e0d8710-a34c-31da-add8-1a2530652e76> .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/SocialTag/1>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Waynoka, Oklahoma" ;
+        c:originalValue      "Waynoka, Oklahoma" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/77bc8be5-12a7-326b-962f-52fbf8cf09dd> .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Relevance/25>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/bf8c106f-206c-30bb-b6f5-45db507ec78f> .
+
+<http://d.opencalais.com/genericHasher-1/5291d0ca-3c6e-35cd-8fab-a98e16cc8d48>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Cleveland" .
+
+<http://d.opencalais.com/genericHasher-1/4bf1cd71-3004-3ce1-a3bd-1c1fb41d53ac>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Weatherford" ;
+        c:person             <http://d.opencalais.com/pershash-1/d7211f4c-6273-3b80-84d9-cb36ecee64d9> .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/99>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ of Sand Springs, Oklahoma, Scott Balch and wife, ]Betty, of Sapulpa, Oklahoma[, and Marsha Bower and husband, Justin, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Betty, of Sapulpa, Oklahoma" ;
+        c:length     "27" ;
+        c:offset     "2078" ;
+        c:prefix     " of Sand Springs, Oklahoma, Scott Balch and wife, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6a7aa10-de3f-3f41-9531-15ba2226d436> ;
+        c:suffix     ", and Marsha Bower and husband, Justin, of" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/111>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Kansas. They made their home in Waynoka where ]he worked as a Crew Clerk for the Santa Fe Railroad[. He also farmed and ranched his entire life. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "he worked as a Crew Clerk for the Santa Fe Railroad" ;
+        c:length     "51" ;
+        c:offset     "856" ;
+        c:prefix     "Kansas. They made their home in Waynoka where " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a4eb8d1c-f6e5-37ab-bb95-07bb3c19a8bc> ;
+        c:suffix     ". He also farmed and ranched his entire life. " .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/78>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Mullins of Weatherford, Texas, Kevin Mullins of ]Weatherford[, Texas, David Balch and wife, Angie, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Weatherford" ;
+        c:length     "11" ;
+        c:offset     "1891" ;
+        c:prefix     "Mullins of Weatherford, Texas, Kevin Mullins of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/51a1bbc0-879d-34b4-b4f0-0c77362f0e61> ;
+        c:suffix     ", Texas, David Balch and wife, Angie, of" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Relevance/7>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/98a7c074-cbf2-3d93-abe4-6c991d17d669> .
+
+<http://d.opencalais.com/genericHasher-1/b4106c9c-1955-3c4a-b0e3-aaf51f9483b9>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Utah" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/57>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ and his wife, Georgia, of Avard; and one sister, ]Leona Rickman of Oklahoma City[.  \nAlso surviving are 11 grandchildren, Kim]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Leona Rickman of Oklahoma City" ;
+        c:length     "30" ;
+        c:offset     "1582" ;
+        c:prefix     " and his wife, Georgia, of Avard; and one sister, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/5958f72e-8bb4-3286-b4c3-824946cb861f> ;
+        c:suffix     ".  \nAlso surviving are 11 grandchildren, Kim" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/36>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[united in marriage to Leveda Erlene Stevens at ]Medicine Lodge[, Kansas. They made their home in Waynoka where]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Medicine Lodge" ;
+        c:length     "14" ;
+        c:offset     "794" ;
+        c:prefix     "united in marriage to Leveda Erlene Stevens at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a589b59e-00b1-3fb2-a917-d300cbcbfb35> ;
+        c:suffix     ", Kansas. They made their home in Waynoka where" .
+
+<http://d.opencalais.com/conf/pershash-1/f8395b30-9623-3b5d-b7fd-3f6b090321af>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/f8395b30-9623-3b5d-b7fd-3f6b090321af> .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Relevance/54>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/4eaf6c5a-78e0-3704-98ea-d478ac49d632> .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/15>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of the Waynoka First Christian Church where ]he[ served on the board. He was very active in his]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "he" ;
+        c:length     "2" ;
+        c:offset     "1023" ;
+        c:prefix     "of the Waynoka First Christian Church where " ;
+        c:subject    <http://d.opencalais.com/pershash-1/01b4d2cb-3316-3ea7-a545-a0bd3e07b99f> ;
+        c:suffix     " served on the board. He was very active in his" .
+
+<http://d.opencalais.com/pershash-1/6f390d7b-29ac-3b0a-8473-ddfd5e402bca>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Leota Million" ;
+        c:confidencelevel    "0.961" ;
+        c:firstname          "Leota" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Million" ;
+        c:name               "Leota Million" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/pershash-1/4895227e-99d3-308b-93c4-477fad78c9f1>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Angie" ;
+        c:confidencelevel    "0.965" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Angie" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Relevance/33>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/84bb0714-85ab-39de-a7e7-f1ad2e79292b> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/e35dd121-6ec1-63e1-dbbb-7367769aa453>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Utah" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:latitude            "40.7608" ;
+        c:longitude           "-111.8903" ;
+        c:name                "Salt Lake City,Utah,United States" ;
+        c:rcscode             "G:202" ;
+        c:shortname           "Salt Lake City" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/4098ba14-95b9-36e8-a252-bd23a575c384> .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Relevance/12>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/dfd9e88a-a4aa-3ba4-a1e9-1725e6abe14e> .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/86>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Kent Mullins and one sister, Leota Million.  \n]Irvin is survived by his wife, Erlene, of Waynoka[; two sons, Irvin Allen Mullins and his wife,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Irvin is survived by his wife, Erlene, of Waynoka" ;
+        c:length     "49" ;
+        c:offset     "1392" ;
+        c:prefix     "Kent Mullins and one sister, Leota Million.  \n" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a7366f3f-ce6f-3cac-b1e8-7e5e5e23c831> ;
+        c:suffix     "; two sons, Irvin Allen Mullins and his wife," .
+
+<http://d.opencalais.com/genericHasher-1/a7366f3f-ce6f-3cac-b1e8-7e5e5e23c831>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/973200c1-b124-3a79-afe2-4c874122e83c> , <http://d.opencalais.com/pershash-1/01b4d2cb-3316-3ea7-a545-a0bd3e07b99f> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/65>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[two sons, Irvin Allen Mullins and his wife, ]Carrie[, of Waynoka, and Michael Kelly Mullins and his]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Carrie" ;
+        c:length     "6" ;
+        c:offset     "1487" ;
+        c:prefix     "two sons, Irvin Allen Mullins and his wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/d09535b1-4c74-3c32-a440-d767dd64532b> ;
+        c:suffix     ", of Waynoka, and Michael Kelly Mullins and his" .
+
+<http://d.opencalais.com/pershash-1/bf8c106f-206c-30bb-b6f5-45db507ec78f>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Brian Mullins" ;
+        c:confidencelevel    "0.997" ;
+        c:firstname          "Brian" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Mullins" ;
+        c:name               "Brian Mullins" ;
+        c:nationality        "N/A" ;
+        c:persontype         "sports" .
+
+<http://d.opencalais.com/pershash-1/e9e34983-9b91-3ab4-b2d5-49c7aa5e923f>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "William Oscar" ;
+        c:confidencelevel    "0.989" ;
+        c:firstname          "William" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Oscar" ;
+        c:name               "William Oscar" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/44>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[closed at the church.  Interment will be in the ]Waynoka[ Municipal Cemetery under the direction of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Waynoka" ;
+        c:length     "7" ;
+        c:offset     "248" ;
+        c:prefix     "closed at the church.  Interment will be in the " ;
+        c:subject    <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:suffix     " Municipal Cemetery under the direction of" .
+
+<http://d.opencalais.com/conf/pershash-1/8b5db014-37f0-3729-8e7c-68caaa3549ba>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.994" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.996" ;
+        c:subject             <http://d.opencalais.com/pershash-1/8b5db014-37f0-3729-8e7c-68caaa3549ba> .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/23>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[sister, Leota Million.  \nIrvin is survived by ]his[ wife, Erlene, of Waynoka; two sons, Irvin Allen]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "1413" ;
+        c:prefix     "sister, Leota Million.  \nIrvin is survived by " ;
+        c:subject    <http://d.opencalais.com/pershash-1/01b4d2cb-3316-3ea7-a545-a0bd3e07b99f> ;
+        c:suffix     " wife, Erlene, of Waynoka; two sons, Irvin Allen" .
+
+<http://d.opencalais.com/conf/pershash-1/4eaf6c5a-78e0-3704-98ea-d478ac49d632>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.988" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.992" ;
+        c:subject             <http://d.opencalais.com/pershash-1/4eaf6c5a-78e0-3704-98ea-d478ac49d632> .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Relevance/41>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/5291d0ca-3c6e-35cd-8fab-a98e16cc8d48> .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Relevance/20>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ea8b4fdc-7e4d-3cd7-88c1-7b0ef767599d> .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/6>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[to Leveda Erlene Stevens at Medicine Lodge, ]Kansas[. They made their home in Waynoka where he worked]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Kansas" ;
+        c:length     "6" ;
+        c:offset     "810" ;
+        c:prefix     "to Leveda Erlene Stevens at Medicine Lodge, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> ;
+        c:suffix     ". They made their home in Waynoka where he worked" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/106>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[LLC.  \nIrvin Gale Mullins, son of the late ]William Oscar[ and Clara Eva (Atkinson) Mullins, was born]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "William Oscar" ;
+        c:length     "13" ;
+        c:offset     "375" ;
+        c:prefix     "LLC.  \nIrvin Gale Mullins, son of the late " ;
+        c:subject    <http://d.opencalais.com/pershash-1/e9e34983-9b91-3ab4-b2d5-49c7aa5e923f> ;
+        c:suffix     " and Clara Eva (Atkinson) Mullins, was born" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/94>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Scott Balch and wife, Betty, of Sapulpa, ]Oklahoma[, and Marsha Bower and husband, Justin, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "2097" ;
+        c:prefix     "Scott Balch and wife, Betty, of Sapulpa, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", and Marsha Bower and husband, Justin, of" .
+
+<http://d.opencalais.com/genericHasher-1/a4a5b628-e73e-3680-b570-d01e3e16bbce>
+        a                    <http://s.opencalais.com/1/type/em/e/Movie> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Happy, Texas" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/73>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Oklahoma, Travis Mullins and wife, T. J., of ]Salt Lake City[, Utah, Brian Mullins and wife, Norma, of Happy,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Salt Lake City" ;
+        c:length     "14" ;
+        c:offset     "1722" ;
+        c:prefix     "Oklahoma, Travis Mullins and wife, T. J., of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4098ba14-95b9-36e8-a252-bd23a575c384> ;
+        c:suffix     ", Utah, Brian Mullins and wife, Norma, of Happy," .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Relevance/2>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> .
+
+<http://d.opencalais.com/genericHasher-1/ff180d1f-86ac-3f9c-97cb-dd88f22e7b41>
+        a                    <http://s.opencalais.com/1/type/em/e/Position> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Crew Clerk" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/52>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Mullins, was born September 7, 1925, at ]Quinlan[, Oklahoma, and passed away July 17, 2008, on his]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Quinlan" ;
+        c:length     "7" ;
+        c:offset     "454" ;
+        c:prefix     "Mullins, was born September 7, 1925, at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ea8b4fdc-7e4d-3cd7-88c1-7b0ef767599d> ;
+        c:suffix     ", Oklahoma, and passed away July 17, 2008, on his" .
+
+<http://d.opencalais.com/pershash-1/faf70424-165c-3c87-bc8a-002ea49d16e7>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Mike Paddy" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Mike" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Paddy" ;
+        c:name               "Mike Paddy" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/31>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Leota Million.  \nIrvin is survived by his wife, ]Erlene[, of Waynoka; two sons, Irvin Allen Mullins and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Erlene" ;
+        c:length     "6" ;
+        c:offset     "1423" ;
+        c:prefix     "Leota Million.  \nIrvin is survived by his wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/973200c1-b124-3a79-afe2-4c874122e83c> ;
+        c:suffix     ", of Waynoka; two sons, Irvin Allen Mullins and" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/10>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[on the U. S. S. Hornsby. On July 23, 1946, ]he[ was united in marriage to Leveda Erlene Stevens]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "he" ;
+        c:length     "2" ;
+        c:offset     "740" ;
+        c:prefix     "on the U. S. S. Hornsby. On July 23, 1946, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/01b4d2cb-3316-3ea7-a545-a0bd3e07b99f> ;
+        c:suffix     " was united in marriage to Leveda Erlene Stevens" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Relevance/49>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/faf70424-165c-3c87-bc8a-002ea49d16e7> .
+
+<http://d.opencalais.com/genericHasher-1/dfd9e88a-a4aa-3ba4-a1e9-1725e6abe14e>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Saddle Club" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/44963a4f-4463-3854-91db-aa36b4f2e826>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.86" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/44963a4f-4463-3854-91db-aa36b4f2e826> .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Relevance/28>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/8b5db014-37f0-3729-8e7c-68caaa3549ba> .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/f13696dd-c1ff-10d7-e502-bd204c86cfcb>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:latitude            "39.5" ;
+        c:longitude           "-111.5" ;
+        c:name                "Utah,United States" ;
+        c:permid              "100321" ;
+        c:rcscode             "G:4A" ;
+        c:shortname           "Utah" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/b4106c9c-1955-3c4a-b0e3-aaf51f9483b9> .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/114>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ of Sand Springs, Oklahoma, Scott Balch and wife, ]Betty[, of Sapulpa, Oklahoma, and Marsha Bower and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Betty" ;
+        c:length     "5" ;
+        c:offset     "2078" ;
+        c:prefix     " of Sand Springs, Oklahoma, Scott Balch and wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6231761a-5ce8-316e-a742-c6733465812b> ;
+        c:suffix     ", of Sapulpa, Oklahoma, and Marsha Bower and" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/81>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Texas, David Balch and wife, Angie, of ]Cleveland[, Oklahoma, Michael Balch and wife, Tammy, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Cleveland" ;
+        c:length     "9" ;
+        c:offset     "1943" ;
+        c:prefix     "Texas, David Balch and wife, Angie, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/5291d0ca-3c6e-35cd-8fab-a98e16cc8d48> ;
+        c:suffix     ", Oklahoma, Michael Balch and wife, Tammy, of" .
+
+<http://d.opencalais.com/conf/pershash-1/148e71d2-33c7-38f1-86f9-e17993f0197e>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.98" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/148e71d2-33c7-38f1-86f9-e17993f0197e> .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/60>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[closed at the church.  Interment will be in the ]Waynoka Municipal Cemetery[ under the direction of Marshall Funeral Home of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Waynoka Municipal Cemetery" ;
+        c:length     "26" ;
+        c:offset     "248" ;
+        c:prefix     "closed at the church.  Interment will be in the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c960096a-c52e-3cf1-9ef3-a4a18889d7c9> ;
+        c:suffix     " under the direction of Marshall Funeral Home of" .
+
+<http://d.opencalais.com/pershash-1/98a7c074-cbf2-3d93-abe4-6c991d17d669>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Justin" ;
+        c:confidencelevel    "0.962" ;
+        c:firstname          "Justin" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Justin" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/39>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[]Funeral services[ for Irvin Gale Mullins will be 10:30 a.m.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Funeral services" ;
+        c:length     "16" ;
+        c:offset     "0" ;
+        c:prefix     "" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee> ;
+        c:suffix     " for Irvin Gale Mullins will be 10:30 a.m." .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/18>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[with the gate and concessions at the rodeo. ]He[ enjoyed going to reunions with his Navy]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "He" ;
+        c:length     "2" ;
+        c:offset     "1225" ;
+        c:prefix     "with the gate and concessions at the rodeo. " ;
+        c:subject    <http://d.opencalais.com/pershash-1/01b4d2cb-3316-3ea7-a545-a0bd3e07b99f> ;
+        c:suffix     " enjoyed going to reunions with his Navy" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Relevance/36>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b4106c9c-1955-3c4a-b0e3-aaf51f9483b9> .
+
+<http://d.opencalais.com/conf/pershash-1/fc7a44bb-1c59-37c9-a315-e15e7733b3f8>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/fc7a44bb-1c59-37c9-a315-e15e7733b3f8> .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Relevance/15>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee> .
+
+<http://d.opencalais.com/genericHasher-1/730fdde2-2f5e-32bc-bf62-34773a58f1b3>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Historical Society" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/696bceb2-974e-3866-b9d6-47682e92ac51>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Cleveland" ;
+        c:person             <http://d.opencalais.com/pershash-1/4895227e-99d3-308b-93c4-477fad78c9f1> .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/1>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Oklahoma, Michael Balch and wife, Tammy, of ]Sapulpa[, Oklahoma, Kevin Balch of Sand Springs,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Sapulpa" ;
+        c:length     "7" ;
+        c:offset     "1998" ;
+        c:prefix     "Oklahoma, Michael Balch and wife, Tammy, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/df207caf-4afe-36d0-ba74-c02c9a546792> ;
+        c:suffix     ", Oklahoma, Kevin Balch of Sand Springs," .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/89>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Mullins, was born September 7, 1925, at Quinlan, ]Oklahoma[, and passed away July 17, 2008, on his farm east]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "463" ;
+        c:prefix     " Mullins, was born September 7, 1925, at Quinlan, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", and passed away July 17, 2008, on his farm east" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/101>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Christian Church with Rev. Aaron Nutter and Rev. ]Mike Paddy[ officiating. The casket will remain closed at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Mike Paddy" ;
+        c:length     "10" ;
+        c:offset     "153" ;
+        c:prefix     " Christian Church with Rev. Aaron Nutter and Rev. " ;
+        c:subject    <http://d.opencalais.com/pershash-1/faf70424-165c-3c87-bc8a-002ea49d16e7> ;
+        c:suffix     " officiating. The casket will remain closed at" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/68>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Gale Mullins, son of the late William Oscar and ]Clara Eva (Atkinson) Mullins[, was born September 7, 1925, at Quinlan,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Clara Eva (Atkinson) Mullins" ;
+        c:length     "28" ;
+        c:offset     "393" ;
+        c:prefix     "Gale Mullins, son of the late William Oscar and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/8ab75e6b-ad1d-34b3-b5d1-abf68a33bcf1> ;
+        c:suffix     ", was born September 7, 1925, at Quinlan," .
+
+<http://d.opencalais.com/conf/pershash-1/52b0eecf-239c-39c9-aa21-4f93588108b2>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.983" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.99" ;
+        c:subject             <http://d.opencalais.com/pershash-1/52b0eecf-239c-39c9-aa21-4f93588108b2> .
+
+<http://d.opencalais.com/pershash-1/01b4d2cb-3316-3ea7-a545-a0bd3e07b99f>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Irvin Allen Mullins" ;
+        c:confidencelevel    "0.993" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Irvin Allen Mullins" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/47>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[entire life.  \nHe was an active member of the ]Waynoka[ First Christian Church where he served on the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Waynoka" ;
+        c:length     "7" ;
+        c:offset     "986" ;
+        c:prefix     "entire life.  \nHe was an active member of the " ;
+        c:subject    <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:suffix     " First Christian Church where he served on the" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/26>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[made their home in Waynoka where he worked as a ]Crew Clerk for the Santa Fe Railroad[. He also farmed and ranched his entire life. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Crew Clerk for the Santa Fe Railroad" ;
+        c:length     "36" ;
+        c:offset     "871" ;
+        c:prefix     "made their home in Waynoka where he worked as a " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/04552b4d-c884-39d3-9821-36a157d77cea> ;
+        c:suffix     ". He also farmed and ranched his entire life. " .
+
+<http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Kansas" .
+
+<http://d.opencalais.com/genericHasher-1/c960096a-c52e-3cf1-9ef3-a4a18889d7c9>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Waynoka Municipal Cemetery" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/62914270-0a1c-1bcc-880e-6dbe9fb82eb9>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:latitude            "31.4484328889" ;
+        c:longitude           "-97.7816569778" ;
+        c:name                "Texas,United States" ;
+        c:permid              "100299" ;
+        c:rcscode             "G:50" ;
+        c:shortname           "Texas" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Relevance/44>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Relevance/23>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c960096a-c52e-3cf1-9ef3-a4a18889d7c9> .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/ComponentVersions>
+        a          <http://s.opencalais.com/1/type/sys/ComponentVersions> ;
+        c:docId    <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:version  "SECHeaderMetadataIM:OneCalais_8.3-RELEASE:198" , "BlackList:264:264" , "SocialTags Index:201505191038:201505191038" , "FrenchIM:OneCalais_8.3-RELEASE:198" , "config-sca-DataPackage:34:34" , "People Override:258:258" , "config-drugs:258:258" , "OneCalais:OneCalais_8.3-RELEASE:364" , "People Index:201505261608:201505261608" , "OA Override:271:271" , "com.clearforest.infoext.dial4j.plugins-basistechconfig:OneCalais_8.3-RELEASE:225" , "config-cse:271:271" , "Dial4J:OneCalais_8.3-RELEASE:198" , "OA Index:201505252208:201505252208" , "BrokerResearchIM:OneCalais_8.3-RELEASE:198" , "config-negativeSignature:258:258" , "Housekeeper:OneCalais_8.3-RELEASE:113" , "Collector:OneCalais_8.3-RELEASE:113" , "index-vessels:201505231718:201505231718" , "Deals Index:201505261613:201505261613" , "NextTags:OneCalais_8.3-RELEASE:113" , "WatchDog:OneCalais_8.3-RELEASE:113" , "config-vessels:258:258" , "SpanishIM:OneCalais_8.3-RELEASE:198" , "OneCalaisIM:OneCalais_8.3-RELEASE:198" , "config-refineries:258:258" , "config-physicalAssets-ports:258:258" , "AutocoderRuntimeIM:OneCalais_8.3-RELEASE:198" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/9>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[he enlisted in the United States Navy where ]he[ served on the U. S. S. Hornsby. On July 23,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "he" ;
+        c:length     "2" ;
+        c:offset     "687" ;
+        c:prefix     "he enlisted in the United States Navy where " ;
+        c:subject    <http://d.opencalais.com/pershash-1/01b4d2cb-3316-3ea7-a545-a0bd3e07b99f> ;
+        c:suffix     " served on the U. S. S. Hornsby. On July 23," .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/97>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[City, Utah, Brian Mullins and wife, Norma, of ]Happy, Texas[,, Sean Mullins and wife, Rachel, of Mooreland,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Happy, Texas" ;
+        c:length     "12" ;
+        c:offset     "1778" ;
+        c:prefix     "City, Utah, Brian Mullins and wife, Norma, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a4a5b628-e73e-3680-b570-d01e3e16bbce> ;
+        c:suffix     ",, Sean Mullins and wife, Rachel, of Mooreland," .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/109>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Funeral services for ]Irvin Gale Mullins[ will be 10:30 a.m. Tuesday, July 22, 2008, at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Irvin Gale Mullins" ;
+        c:length     "18" ;
+        c:offset     "21" ;
+        c:prefix     "Funeral services for " ;
+        c:subject    <http://d.opencalais.com/pershash-1/4eaf6c5a-78e0-3704-98ea-d478ac49d632> ;
+        c:suffix     " will be 10:30 a.m. Tuesday, July 22, 2008, at" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/76>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Leota Million.  \nIrvin is survived by his wife, ]Erlene, of Waynoka[; two sons, Irvin Allen Mullins and his wife,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Erlene, of Waynoka" ;
+        c:length     "18" ;
+        c:offset     "1423" ;
+        c:prefix     "Leota Million.  \nIrvin is survived by his wife, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4b7f4581-2b4c-3d85-96e2-ddc86de8b206> ;
+        c:suffix     "; two sons, Irvin Allen Mullins and his wife," .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Relevance/5>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/01b4d2cb-3316-3ea7-a545-a0bd3e07b99f> .
+
+<http://d.opencalais.com/conf/pershash-1/6f390d7b-29ac-3b0a-8473-ddfd5e402bca>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.961" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.976" ;
+        c:subject             <http://d.opencalais.com/pershash-1/6f390d7b-29ac-3b0a-8473-ddfd5e402bca> .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/55>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Avard; and one sister, Leona Rickman of ]Oklahoma City[.  \nAlso surviving are 11 grandchildren, Kim]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Oklahoma City" ;
+        c:length     "13" ;
+        c:offset     "1599" ;
+        c:prefix     "of Avard; and one sister, Leona Rickman of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b8620f48-da64-3b29-b094-f0b9edcda36f> ;
+        c:suffix     ".  \nAlso surviving are 11 grandchildren, Kim" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/cat/1>
+        a                    <http://s.opencalais.com/1/type/cat/DocCat> ;
+        c:docId              <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Human Interest" ;
+        c:score              "0.890" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/34>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Kevin Balch of Sand Springs, Oklahoma, Scott ]Balch[ and wife, Betty, of Sapulpa, Oklahoma, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Balch" ;
+        c:length     "5" ;
+        c:offset     "2062" ;
+        c:prefix     "Kevin Balch of Sand Springs, Oklahoma, Scott " ;
+        c:subject    <http://d.opencalais.com/pershash-1/4508d650-325e-3c47-bf1a-89115735fcad> ;
+        c:suffix     " and wife, Betty, of Sapulpa, Oklahoma, and" .
+
+<http://d.opencalais.com/pershash-1/a9a3f20c-13e0-39a3-9c09-cc50b33314e6>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Aaron Nutter" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Aaron" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Nutter" ;
+        c:name               "Aaron Nutter" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Relevance/52>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e4fe5e61-0000-3b15-9d70-d8c317ea934f> .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/13>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Santa Fe Railroad. He also farmed and ranched ]his[ entire life.  \nHe was an active member of the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "936" ;
+        c:prefix     "Santa Fe Railroad. He also farmed and ranched " ;
+        c:subject    <http://d.opencalais.com/pershash-1/01b4d2cb-3316-3ea7-a545-a0bd3e07b99f> ;
+        c:suffix     " entire life.  \nHe was an active member of the" .
+
+<http://d.opencalais.com/genericHasher-1/87602df5-29ba-38c6-b1ef-cdb1a2c1efa2>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Sapulpa" ;
+        c:person             <http://d.opencalais.com/pershash-1/34c7d611-4a96-325b-9528-e9dc25486bf3> .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Relevance/31>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/44963a4f-4463-3854-91db-aa36b4f2e826> .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Relevance/10>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/bf94807c-1c72-3b9d-84a4-e6eb90970048> .
+
+<http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Texas" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/84>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ \nHe was an active member of the Waynoka First ]Christian Church[ where he served on the board. He was very active]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Christian Church" ;
+        c:length     "16" ;
+        c:offset     "1000" ;
+        c:prefix     " \nHe was an active member of the Waynoka First " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c1e14c20-7ec2-3637-872f-855b5253364e> ;
+        c:suffix     " where he served on the board. He was very active" .
+
+<http://d.opencalais.com/conf/pershash-1/bf8c106f-206c-30bb-b6f5-45db507ec78f>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.997" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.996" ;
+        c:subject             <http://d.opencalais.com/pershash-1/bf8c106f-206c-30bb-b6f5-45db507ec78f> .
+
+<http://d.opencalais.com/genericHasher-1/d019a4ce-432e-3174-95d5-203e3457fc1f>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:date                "1946-07-23" ;
+        c:datestring          "July 23, 1946" ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/973200c1-b124-3a79-afe2-4c874122e83c> , <http://d.opencalais.com/pershash-1/01b4d2cb-3316-3ea7-a545-a0bd3e07b99f> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/conf/pershash-1/e9e34983-9b91-3ab4-b2d5-49c7aa5e923f>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.989" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.983" ;
+        c:subject             <http://d.opencalais.com/pershash-1/e9e34983-9b91-3ab4-b2d5-49c7aa5e923f> .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/63>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and wife, T. J., of Salt Lake City, Utah, ]Brian Mullins[ and wife, Norma, of Happy, Texas,, Sean Mullins]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Brian Mullins" ;
+        c:length     "13" ;
+        c:offset     "1744" ;
+        c:prefix     "and wife, T. J., of Salt Lake City, Utah, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/bf8c106f-206c-30bb-b6f5-45db507ec78f> ;
+        c:suffix     " and wife, Norma, of Happy, Texas,, Sean Mullins" .
+
+<http://d.opencalais.com/genericHasher-1/e4fe5e61-0000-3b15-9d70-d8c317ea934f>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Georgia" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/42>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[surviving are 11 grandchildren, Kim Watkins of ]Shawnee[, Oklahoma, Travis Mullins and wife, T. J., of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Shawnee" ;
+        c:length     "7" ;
+        c:offset     "1668" ;
+        c:prefix     "surviving are 11 grandchildren, Kim Watkins of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/f12a5c54-6703-3bd6-a83d-8fa6973ef353> ;
+        c:suffix     ", Oklahoma, Travis Mullins and wife, T. J., of" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/meta>
+        a                 <http://s.opencalais.com/1/type/sys/DocInfoMeta> ;
+        c:contentType     "text/raw" ;
+        c:docId           <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:language        "English" ;
+        c:processingVer   "AllMetadata" ;
+        c:serverVersion   "OneCalais_8.3-RELEASE:364" ;
+        c:signature       "digestalg-1|2YK7saVgKJAhMGZ08/JmjwL1NCI=|PahqPGNR0mrxq7ss2F8fTIASf5oKtleND+9ZHEwqm7dK6i1raumHrw==" ;
+        c:stagsVer        "OneCalais_8.3-RELEASE-b11-2015-03-25_18:29:00" ;
+        c:submissionDate  "2015-05-26 17:29:35.856" ;
+        c:submitterCode   "0ca6a864-5659-789d-5f32-f365f695e757" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/21>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[with his Navy shipmates.  \nBesides his parents, ]he[ was preceded in death by one son, Thomas Kent]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "he" ;
+        c:length     "2" ;
+        c:offset     "1302" ;
+        c:prefix     "with his Navy shipmates.  \nBesides his parents, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/01b4d2cb-3316-3ea7-a545-a0bd3e07b99f> ;
+        c:suffix     " was preceded in death by one son, Thomas Kent" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Relevance/39>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/4895227e-99d3-308b-93c4-477fad78c9f1> .
+
+<http://d.opencalais.com/pershash-1/ec0c2852-e624-3102-95f1-9008ecd5f63e>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Marsha Bower" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Marsha" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Bower" ;
+        c:name               "Marsha Bower" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Relevance/18>
+        a                <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId          <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:relevance      "0.8" ;
+        c:relevancecont  "0.85" ;
+        c:subject        <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/4>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Texas, Kevin Mullins of Weatherford, ]Texas[, David Balch and wife, Angie, of Cleveland,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Texas" ;
+        c:length     "5" ;
+        c:offset     "1904" ;
+        c:prefix     "Texas, Kevin Mullins of Weatherford, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> ;
+        c:suffix     ", David Balch and wife, Angie, of Cleveland," .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/92>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Michael Balch and wife, Tammy, of Sapulpa, ]Oklahoma[, Kevin Balch of Sand Springs, Oklahoma, Scott]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "2007" ;
+        c:prefix     "Michael Balch and wife, Tammy, of Sapulpa, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", Kevin Balch of Sand Springs, Oklahoma, Scott" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/104>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[School. After graduation, he enlisted in the ]United States Navy[ where he served on the U. S. S. Hornsby. On July]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "United States Navy" ;
+        c:length     "18" ;
+        c:offset     "662" ;
+        c:prefix     "School. After graduation, he enlisted in the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e3b633f3-aa73-339f-b8c8-66b62e079ed6> ;
+        c:suffix     " where he served on the U. S. S. Hornsby. On July" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/71>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Municipal Cemetery under the direction of ]Marshall Funeral Home of Waynoka[, LLC.  \nIrvin Gale Mullins, son of the late]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Marshall Funeral Home of Waynoka" ;
+        c:length     "32" ;
+        c:offset     "298" ;
+        c:prefix     "Municipal Cemetery under the direction of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/84bb0714-85ab-39de-a7e7-f1ad2e79292b> ;
+        c:suffix     ", LLC.  \nIrvin Gale Mullins, son of the late" .
+
+<http://d.opencalais.com/pershash-1/973200c1-b124-3a79-afe2-4c874122e83c>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Erlene Stevens" ;
+        c:confidencelevel    "0.992" ;
+        c:firstname          "Erlene" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Stevens" ;
+        c:name               "Erlene Stevens" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/faf70424-165c-3c87-bc8a-002ea49d16e7>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/faf70424-165c-3c87-bc8a-002ea49d16e7> .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/50>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[may be made through the funeral home to the ]Waynoka[ First Christian Church.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Waynoka" ;
+        c:length     "7" ;
+        c:offset     "2280" ;
+        c:prefix     "may be made through the funeral home to the " ;
+        c:subject    <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:suffix     " First Christian Church." .
+
+<http://d.opencalais.com/genericHasher-1/51a1bbc0-879d-34b4-b4f0-0c77362f0e61>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Weatherford" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/3da72a3a-27b3-afcb-fed6-3cd767a8fb7e>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Texas" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:latitude            "31.6768186" ;
+        c:longitude           "-99.253666" ;
+        c:name                "Cleveland,Texas,United States" ;
+        c:shortname           "Cleveland" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/5291d0ca-3c6e-35cd-8fab-a98e16cc8d48> .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/29>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Club with the Snake Hunt, giving tours for the ]Historical Society[, and helping with the gate and concessions at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Historical Society" ;
+        c:length     "18" ;
+        c:offset     "1149" ;
+        c:prefix     "Club with the Snake Hunt, giving tours for the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/730fdde2-2f5e-32bc-bf62-34773a58f1b3> ;
+        c:suffix     ", and helping with the gate and concessions at" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Relevance/47>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a4a5b628-e73e-3680-b570-d01e3e16bbce> .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/SocialTag/2>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Quinlan, Oklahoma" ;
+        c:originalValue      "Quinlan, Oklahoma" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/24a17de4-3d48-3027-9ddd-9baf3faca911> .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Relevance/26>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/34c7d611-4a96-325b-9528-e9dc25486bf3> .
+
+<http://d.opencalais.com/pershash-1/71fadc62-86e0-32da-b325-45877ebe2072>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Rachel" ;
+        c:confidencelevel    "0.942" ;
+        c:firstname          "Rachel" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Rachel" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/112>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Sean Mullins and wife, Rachel, of Mooreland, ]Cody Mullins of Weatherford, Texas[, Kevin Mullins of Weatherford, Texas, David]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Cody Mullins of Weatherford, Texas" ;
+        c:length     "34" ;
+        c:offset     "1838" ;
+        c:prefix     "Sean Mullins and wife, Rachel, of Mooreland, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4bf1cd71-3004-3ce1-a3bd-1c1fb41d53ac> ;
+        c:suffix     ", Kevin Mullins of Weatherford, Texas, David" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/79>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Weatherford, Texas, David Balch and wife, ]Angie[, of Cleveland, Oklahoma, Michael Balch and wife,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Angie" ;
+        c:length     "5" ;
+        c:offset     "1933" ;
+        c:prefix     "of Weatherford, Texas, David Balch and wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/4895227e-99d3-308b-93c4-477fad78c9f1> ;
+        c:suffix     ", of Cleveland, Oklahoma, Michael Balch and wife," .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Relevance/8>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/730fdde2-2f5e-32bc-bf62-34773a58f1b3> .
+
+<http://d.opencalais.com/conf/pershash-1/98a7c074-cbf2-3d93-abe4-6c991d17d669>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.962" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/98a7c074-cbf2-3d93-abe4-6c991d17d669> .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/58>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Gale Mullins, son of the late William Oscar and ]Clara Eva (Atkinson) Mullins, was born September 7, 1925, at Quinlan, Oklahoma[, and passed away July 17, 2008, on his farm east]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Clara Eva (Atkinson) Mullins, was born September 7, 1925, at Quinlan, Oklahoma" ;
+        c:length     "78" ;
+        c:offset     "393" ;
+        c:prefix     "Gale Mullins, son of the late William Oscar and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3281cdc1-5fb2-324d-b01a-ea0e62bf7d01> ;
+        c:suffix     ", and passed away July 17, 2008, on his farm east" .
+
+<http://d.opencalais.com/pershash-1/fc7a44bb-1c59-37c9-a315-e15e7733b3f8>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Travis Mullins" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Travis" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Mullins" ;
+        c:name               "Travis Mullins" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/37>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[City.  \nAlso surviving are 11 grandchildren, ]Kim Watkins[ of Shawnee, Oklahoma, Travis Mullins and wife,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Kim Watkins" ;
+        c:length     "11" ;
+        c:offset     "1653" ;
+        c:prefix     "City.  \nAlso surviving are 11 grandchildren, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/a738bc18-3420-30f0-93d4-f8de9a1e1162> ;
+        c:suffix     " of Shawnee, Oklahoma, Travis Mullins and wife," .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/82e662d9-003c-9162-cb10-0da07ead1abc>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:latitude            "35.3272" ;
+        c:longitude           "-96.925" ;
+        c:name                "Shawnee,Oklahoma,United States" ;
+        c:shortname           "Shawnee" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/f12a5c54-6703-3bd6-a83d-8fa6973ef353> .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/16>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Christian Church where he served on the board. ]He[ was very active in his community helping the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "He" ;
+        c:length     "2" ;
+        c:offset     "1047" ;
+        c:prefix     "Christian Church where he served on the board. " ;
+        c:subject    <http://d.opencalais.com/pershash-1/01b4d2cb-3316-3ea7-a545-a0bd3e07b99f> ;
+        c:suffix     " was very active in his community helping the" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Relevance/55>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/6231761a-5ce8-316e-a742-c6733465812b> .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Relevance/34>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/148e71d2-33c7-38f1-86f9-e17993f0197e> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/ad47ea75-9e3d-3481-2616-199bbfae4256>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Texas" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:latitude            "32.7592" ;
+        c:longitude           "-97.7969" ;
+        c:name                "Weatherford,Texas,United States" ;
+        c:shortname           "Weatherford" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/51a1bbc0-879d-34b4-b4f0-0c77362f0e61> .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Relevance/13>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a589b59e-00b1-3fb2-a917-d300cbcbfb35> .
+
+<http://d.opencalais.com/pershash-1/8ab75e6b-ad1d-34b3-b5d1-abf68a33bcf1>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Clara Eva Mullins" ;
+        c:confidencelevel    "0.984" ;
+        c:firstname          "Clara" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Mullins" ;
+        c:middlename         "Eva" ;
+        c:name               "Clara Eva (Atkinson) Mullins" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/87>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Mullins and his wife, Carrie, of Waynoka, and ]Michael Kelly Mullins[ and his wife, Georgia, of Avard; and one sister,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Michael Kelly Mullins" ;
+        c:length     "21" ;
+        c:offset     "1511" ;
+        c:prefix     "Mullins and his wife, Carrie, of Waynoka, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/71f0738f-31ca-3923-b2a1-627fe724c409> ;
+        c:suffix     " and his wife, Georgia, of Avard; and one sister," .
+
+<http://d.opencalais.com/conf/pershash-1/01b4d2cb-3316-3ea7-a545-a0bd3e07b99f>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.993" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.995" ;
+        c:subject             <http://d.opencalais.com/pershash-1/01b4d2cb-3316-3ea7-a545-a0bd3e07b99f> .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/66>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[parents, he was preceded in death by one son, ]Thomas Kent Mullins[ and one sister, Leota Million.  \nIrvin is]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Thomas Kent Mullins" ;
+        c:length     "19" ;
+        c:offset     "1339" ;
+        c:prefix     "parents, he was preceded in death by one son, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/8b5db014-37f0-3729-8e7c-68caaa3549ba> ;
+        c:suffix     " and one sister, Leota Million.  \nIrvin is" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48>
+        a                  <http://s.opencalais.com/1/type/sys/DocInfo> ;
+        c:calaisRequestID  "faa1339f-0ff3-7de7-14d9-145bb706fa60" ;
+        c:docDate          "2015-05-26 17:29:36.291" ;
+        c:docTitle         "" ;
+        c:document         "Funeral services for Irvin Gale Mullins will be 10:30 a.m. Tuesday, July 22, 2008, at the Waynoka First Christian Church with Rev. Aaron Nutter and Rev. Mike Paddy officiating. The casket will remain closed at the church.  Interment will be in the Waynoka Municipal Cemetery under the direction of Marshall Funeral Home of Waynoka, LLC.  \nIrvin Gale Mullins, son of the late William Oscar and Clara Eva (Atkinson) Mullins, was born September 7, 1925, at Quinlan, Oklahoma, and passed away July 17, 2008, on his farm east of Quinlan, at the age of 82 years, 10 months, and 10 days.  \nIrvin graduated from Quinlan High School. After graduation, he enlisted in the United States Navy where he served on the U. S. S. Hornsby. On July 23, 1946, he was united in marriage to Leveda Erlene Stevens at Medicine Lodge, Kansas. They made their home in Waynoka where he worked as a Crew Clerk for the Santa Fe Railroad. He also farmed and ranched his entire life.  \nHe was an active member of the Waynoka First Christian Church where he served on the board. He was very active in his community helping the Saddle Club with the Snake Hunt, giving tours for the Historical Society, and helping with the gate and concessions at the rodeo. He enjoyed going to reunions with his Navy shipmates.  \nBesides his parents, he was preceded in death by one son, Thomas Kent Mullins and one sister, Leota Million.  \nIrvin is survived by his wife, Erlene, of Waynoka; two sons, Irvin Allen Mullins and his wife, Carrie, of Waynoka, and Michael Kelly Mullins and his wife, Georgia, of Avard; and one sister, Leona Rickman of Oklahoma City.  \nAlso surviving are 11 grandchildren, Kim Watkins of Shawnee, Oklahoma, Travis Mullins and wife, T. J., of Salt Lake City, Utah, Brian Mullins and wife, Norma, of Happy, Texas,, Sean Mullins and wife, Rachel, of Mooreland, Cody Mullins of Weatherford, Texas, Kevin Mullins of Weatherford, Texas, David Balch and wife, Angie, of Cleveland, Oklahoma, Michael Balch and wife, Tammy, of Sapulpa, Oklahoma, Kevin Balch of Sand Springs, Oklahoma, Scott Balch and wife, Betty, of Sapulpa, Oklahoma, and Marsha Bower and husband, Justin, of Woodward; 22 great grandchildren; other relatives and friends.  \nMemorial contributions may be made through the funeral home to the Waynoka First Christian Church. \n\t\t\t" ;
+        c:id               "http://id.opencalais.com/3NDIn6fPxxcCsWWxHVYYSg" ;
+        c:ontology         "http://163.231.4.65/owlschema/8.3/onecalais.owl.allmetadata.xml" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/45>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[under the direction of Marshall Funeral Home of ]Waynoka, LLC[.  \nIrvin Gale Mullins, son of the late William]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Waynoka, LLC" ;
+        c:length     "12" ;
+        c:offset     "323" ;
+        c:prefix     "under the direction of Marshall Funeral Home of " ;
+        c:subject    <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:suffix     ".  \nIrvin Gale Mullins, son of the late William" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/24>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[by his wife, Erlene, of Waynoka; two sons, ]Irvin Allen Mullins[ and his wife, Carrie, of Waynoka, and Michael]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Irvin Allen Mullins" ;
+        c:length     "19" ;
+        c:offset     "1453" ;
+        c:prefix     "by his wife, Erlene, of Waynoka; two sons, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/01b4d2cb-3316-3ea7-a545-a0bd3e07b99f> ;
+        c:suffix     " and his wife, Carrie, of Waynoka, and Michael" .
+
+<http://d.opencalais.com/genericHasher-1/8e0d8710-a34c-31da-add8-1a2530652e76>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Lodge" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Relevance/42>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c1e14c20-7ec2-3637-872f-855b5253364e> .
+
+<http://d.opencalais.com/pershash-1/71f0738f-31ca-3923-b2a1-627fe724c409>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Michael Kelly Mullins" ;
+        c:confidencelevel    "0.994" ;
+        c:firstname          "Michael" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Mullins" ;
+        c:middlename         "Kelly" ;
+        c:name               "Michael Kelly Mullins" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Relevance/21>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b8620f48-da64-3b29-b094-f0b9edcda36f> .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/107>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Oklahoma, and passed away July 17, 2008, on ]his[ farm east of Quinlan, at the age of 82 years, 10]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "507" ;
+        c:prefix     "Oklahoma, and passed away July 17, 2008, on " ;
+        c:subject    <http://d.opencalais.com/pershash-1/e9e34983-9b91-3ab4-b2d5-49c7aa5e923f> ;
+        c:suffix     " farm east of Quinlan, at the age of 82 years, 10" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/7>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[the age of 82 years, 10 months, and 10 days.  \n]Irvin[ graduated from Quinlan High School. After]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Irvin" ;
+        c:length     "5" ;
+        c:offset     "583" ;
+        c:prefix     "the age of 82 years, 10 months, and 10 days.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/01b4d2cb-3316-3ea7-a545-a0bd3e07b99f> ;
+        c:suffix     " graduated from Quinlan High School. After" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/95>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Sean Mullins and wife, Rachel, of Mooreland, ]Cody Mullins[ of Weatherford, Texas, Kevin Mullins of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Cody Mullins" ;
+        c:length     "12" ;
+        c:offset     "1838" ;
+        c:prefix     "Sean Mullins and wife, Rachel, of Mooreland, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/d7211f4c-6273-3b80-84d9-cb36ecee64d9> ;
+        c:suffix     " of Weatherford, Texas, Kevin Mullins of" .
+
+<http://d.opencalais.com/pershash-1/4508d650-325e-3c47-bf1a-89115735fcad>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "David Balch" ;
+        c:confidencelevel    "0.947" ;
+        c:firstname          "David" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Balch" ;
+        c:name               "David Balch" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/74>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Mullins and wife, T. J., of Salt Lake City, ]Utah[, Brian Mullins and wife, Norma, of Happy,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Utah" ;
+        c:length     "4" ;
+        c:offset     "1738" ;
+        c:prefix     "Mullins and wife, T. J., of Salt Lake City, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b4106c9c-1955-3c4a-b0e3-aaf51f9483b9> ;
+        c:suffix     ", Brian Mullins and wife, Norma, of Happy," .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Relevance/3>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/a9a3f20c-13e0-39a3-9c09-cc50b33314e6> .
+
+<http://d.opencalais.com/genericHasher-1/54d5ceb5-165f-3c4f-84ec-d4b509c6bd4a>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "wife" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/01b4d2cb-3316-3ea7-a545-a0bd3e07b99f> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/d09535b1-4c74-3c32-a440-d767dd64532b> .
+
+<http://d.opencalais.com/conf/pershash-1/a9a3f20c-13e0-39a3-9c09-cc50b33314e6>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/a9a3f20c-13e0-39a3-9c09-cc50b33314e6> .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/53>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[passed away July 17, 2008, on his farm east of ]Quinlan[, at the age of 82 years, 10 months, and 10 days.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Quinlan" ;
+        c:length     "7" ;
+        c:offset     "524" ;
+        c:prefix     "passed away July 17, 2008, on his farm east of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ea8b4fdc-7e4d-3cd7-88c1-7b0ef767599d> ;
+        c:suffix     ", at the age of 82 years, 10 months, and 10 days." .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/32>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[10 months, and 10 days.  \nIrvin graduated from ]Quinlan High School[. After graduation, he enlisted in the United]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Quinlan High School" ;
+        c:length     "19" ;
+        c:offset     "604" ;
+        c:prefix     "10 months, and 10 days.  \nIrvin graduated from " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/bf94807c-1c72-3b9d-84a4-e6eb90970048> ;
+        c:suffix     ". After graduation, he enlisted in the United" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Relevance/50>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/71fadc62-86e0-32da-b325-45877ebe2072> .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/11>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Kansas. They made their home in Waynoka where ]he[ worked as a Crew Clerk for the Santa Fe]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "he" ;
+        c:length     "2" ;
+        c:offset     "856" ;
+        c:prefix     "Kansas. They made their home in Waynoka where " ;
+        c:subject    <http://d.opencalais.com/pershash-1/01b4d2cb-3316-3ea7-a545-a0bd3e07b99f> ;
+        c:suffix     " worked as a Crew Clerk for the Santa Fe" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/lid/DefaultLangId>
+        a                    <http://s.opencalais.com/1/type/lid/DefaultLangId> ;
+        c:docId              <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:forenduserdisplay  "false" ;
+        c:lang               <http://d.opencalais.com/lid/DefaultLangId/English> ;
+        c:permid             "505062" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Relevance/29>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ff180d1f-86ac-3f9c-97cb-dd88f22e7b41> .
+
+<http://d.opencalais.com/pershash-1/d7211f4c-6273-3b80-84d9-cb36ecee64d9>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Cody Mullins" ;
+        c:confidencelevel    "0.983" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Cody Mullins" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/5958f72e-8bb4-3286-b4c3-824946cb861f>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Oklahoma City" ;
+        c:person             <http://d.opencalais.com/pershash-1/4668a141-34f2-3df3-8af8-00c14ce55ba4> .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/82>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Tuesday, July 22, 2008, at the Waynoka First ]Christian Church[ with Rev. Aaron Nutter and Rev. Mike Paddy]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Christian Church" ;
+        c:length     "16" ;
+        c:offset     "104" ;
+        c:prefix     "Tuesday, July 22, 2008, at the Waynoka First " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c1e14c20-7ec2-3637-872f-855b5253364e> ;
+        c:suffix     " with Rev. Aaron Nutter and Rev. Mike Paddy" .
+
+<http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205>
+        a                    <http://s.opencalais.com/1/type/em/e/Company> ;
+        c:confidencelevel    "0.839" ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Waynoka LLC" ;
+        c:nationality        "N/A" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/61>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Weatherford, Texas, David Balch and wife, ]Angie, of Cleveland, Oklahoma[, Michael Balch and wife, Tammy, of Sapulpa,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Angie, of Cleveland, Oklahoma" ;
+        c:length     "29" ;
+        c:offset     "1933" ;
+        c:prefix     "of Weatherford, Texas, David Balch and wife, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/696bceb2-974e-3866-b9d6-47682e92ac51> ;
+        c:suffix     ", Michael Balch and wife, Tammy, of Sapulpa," .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/40>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Navy where he served on the U. S. S. Hornsby. ]On July 23, 1946, he was united in marriage to Leveda Erlene Stevens[ at Medicine Lodge, Kansas. They made their home]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "On July 23, 1946, he was united in marriage to Leveda Erlene Stevens" ;
+        c:length     "68" ;
+        c:offset     "722" ;
+        c:prefix     "Navy where he served on the U. S. S. Hornsby. " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/d019a4ce-432e-3174-95d5-203e3457fc1f> ;
+        c:suffix     " at Medicine Lodge, Kansas. They made their home" .
+
+<http://d.opencalais.com/genericHasher-1/4ef40ecc-7388-33fc-9f83-763cd5f30949>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "wife" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/01b4d2cb-3316-3ea7-a545-a0bd3e07b99f> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/973200c1-b124-3a79-afe2-4c874122e83c> .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/19>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[at the rodeo. He enjoyed going to reunions with ]his[ Navy shipmates.  \nBesides his parents, he was]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "1259" ;
+        c:prefix     "at the rodeo. He enjoyed going to reunions with " ;
+        c:subject    <http://d.opencalais.com/pershash-1/01b4d2cb-3316-3ea7-a545-a0bd3e07b99f> ;
+        c:suffix     " Navy shipmates.  \nBesides his parents, he was" .
+
+<http://d.opencalais.com/conf/pershash-1/ec0c2852-e624-3102-95f1-9008ecd5f63e>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/ec0c2852-e624-3102-95f1-9008ecd5f63e> .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Relevance/37>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/583a4e40-66c9-3386-98d5-3f36461ffce1> .
+
+<http://d.opencalais.com/genericHasher-1/4b7f4581-2b4c-3d85-96e2-ddc86de8b206>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:company            <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:forenduserdisplay  "true" ;
+        c:person             <http://d.opencalais.com/pershash-1/973200c1-b124-3a79-afe2-4c874122e83c> ;
+        c:status             "current" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Relevance/16>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/ec0c2852-e624-3102-95f1-9008ecd5f63e> .
+
+<http://d.opencalais.com/pershash-1/583a4e40-66c9-3386-98d5-3f36461ffce1>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Kevin Balch" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Kevin" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Balch" ;
+        c:name               "Kevin Balch" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/2>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Oklahoma, Scott Balch and wife, Betty, of ]Sapulpa[, Oklahoma, and Marsha Bower and husband, Justin,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Sapulpa" ;
+        c:length     "7" ;
+        c:offset     "2088" ;
+        c:prefix     "Oklahoma, Scott Balch and wife, Betty, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/df207caf-4afe-36d0-ba74-c02c9a546792> ;
+        c:suffix     ", Oklahoma, and Marsha Bower and husband, Justin," .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/90>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[are 11 grandchildren, Kim Watkins of Shawnee, ]Oklahoma[, Travis Mullins and wife, T. J., of Salt Lake]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "1677" ;
+        c:prefix     "are 11 grandchildren, Kim Watkins of Shawnee, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", Travis Mullins and wife, T. J., of Salt Lake" .
+
+<http://d.opencalais.com/conf/pershash-1/973200c1-b124-3a79-afe2-4c874122e83c>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.992" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.995" ;
+        c:subject             <http://d.opencalais.com/pershash-1/973200c1-b124-3a79-afe2-4c874122e83c> .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/102>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Norma, of Happy, Texas,, Sean Mullins and wife, ]Rachel[, of Mooreland, Cody Mullins of Weatherford,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Rachel" ;
+        c:length     "6" ;
+        c:offset     "1816" ;
+        c:prefix     "Norma, of Happy, Texas,, Sean Mullins and wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/71fadc62-86e0-32da-b325-45877ebe2072> ;
+        c:suffix     ", of Mooreland, Cody Mullins of Weatherford," .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/69>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ of Salt Lake City, Utah, Brian Mullins and wife, ]Norma[, of Happy, Texas,, Sean Mullins and wife,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Norma" ;
+        c:length     "5" ;
+        c:offset     "1768" ;
+        c:prefix     " of Salt Lake City, Utah, Brian Mullins and wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/44963a4f-4463-3854-91db-aa36b4f2e826> ;
+        c:suffix     ", of Happy, Texas,, Sean Mullins and wife," .
+
+<http://d.opencalais.com/genericHasher-1/3281cdc1-5fb2-324d-b01a-ea0e62bf7d01>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonAttributes> ;
+        c:birthdate          "1925-09-07" ;
+        c:birthplace         <http://d.opencalais.com/genericHasher-1/ea8b4fdc-7e4d-3cd7-88c1-7b0ef767599d> ;
+        c:forenduserdisplay  "false" ;
+        c:gender             "F" ;
+        c:person             <http://d.opencalais.com/pershash-1/8ab75e6b-ad1d-34b3-b5d1-abf68a33bcf1> .
+
+<http://d.opencalais.com/pershash-1/a738bc18-3420-30f0-93d4-f8de9a1e1162>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Kim Watkins" ;
+        c:confidencelevel    "0.993" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Kim Watkins" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/48>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ \nIrvin is survived by his wife, Erlene, of ]Waynoka[; two sons, Irvin Allen Mullins and his wife,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Waynoka" ;
+        c:length     "7" ;
+        c:offset     "1434" ;
+        c:prefix     " \nIrvin is survived by his wife, Erlene, of " ;
+        c:subject    <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:suffix     "; two sons, Irvin Allen Mullins and his wife," .
+
+<http://d.opencalais.com/genericHasher-1/e86786cc-a845-3219-89a6-62b542aa5d1c>
+        a                       <http://s.opencalais.com/1/type/em/r/PersonEducation> ;
+        c:forenduserdisplay     "false" ;
+        c:person                <http://d.opencalais.com/pershash-1/01b4d2cb-3316-3ea7-a545-a0bd3e07b99f> ;
+        c:schoolororganization  "Quinlan High School" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/27>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Sapulpa, Oklahoma, and Marsha Bower and husband, ]Justin[, of Woodward; 22 great grandchildren; other]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Justin" ;
+        c:length     "6" ;
+        c:offset     "2137" ;
+        c:prefix     " Sapulpa, Oklahoma, and Marsha Bower and husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/98a7c074-cbf2-3d93-abe4-6c991d17d669> ;
+        c:suffix     ", of Woodward; 22 great grandchildren; other" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Relevance/45>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/d7211f4c-6273-3b80-84d9-cb36ecee64d9> .
+
+<http://d.opencalais.com/er/geo/country/ralg-geo1/152649df-347e-e289-1a9e-acc883e07d17>
+        a            <http://s.opencalais.com/1/type/er/Geo/Country> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:latitude   "40.4230003233" ;
+        c:longitude  "-98.7372244786" ;
+        c:name       "United States" ;
+        c:permid     "100319" ;
+        c:rcscode    "G:6J" ;
+        c:shortname  "United States" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a54ac18b-a956-3b5c-b235-0609ca899305> .
+
+<http://d.opencalais.com/genericHasher-1/a54ac18b-a956-3b5c-b235-0609ca899305>
+        a                    <http://s.opencalais.com/1/type/em/e/Country> ;
+        c:forenduserdisplay  "true" ;
+        c:name               "United States" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Relevance/24>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/4668a141-34f2-3df3-8af8-00c14ce55ba4> .
+
+<http://d.opencalais.com/conf/pershash-1/71fadc62-86e0-32da-b325-45877ebe2072>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.942" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/71fadc62-86e0-32da-b325-45877ebe2072> .
+
+<http://d.opencalais.com/genericHasher-1/84bb0714-85ab-39de-a7e7-f1ad2e79292b>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Marshall Funeral Home of Waynoka" .
+
+<http://d.opencalais.com/genericHasher-1/ea8b4fdc-7e4d-3cd7-88c1-7b0ef767599d>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Quinlan" .
+
+<http://d.opencalais.com/pershash-1/d09535b1-4c74-3c32-a440-d767dd64532b>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Carrie" ;
+        c:confidencelevel    "0.769" ;
+        c:firstname          "Carrie" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Carrie" ;
+        c:nationality        "N/A" ;
+        c:persontype         "economic" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/110>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Marshall Funeral Home of Waynoka, LLC.  \n]Irvin Gale Mullins[, son of the late William Oscar and Clara Eva]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Irvin Gale Mullins" ;
+        c:length     "18" ;
+        c:offset     "339" ;
+        c:prefix     "of Marshall Funeral Home of Waynoka, LLC.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/4eaf6c5a-78e0-3704-98ea-d478ac49d632> ;
+        c:suffix     ", son of the late William Oscar and Clara Eva" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/98>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[by one son, Thomas Kent Mullins and one sister, ]Leota Million[.  \nIrvin is survived by his wife, Erlene, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Leota Million" ;
+        c:length     "13" ;
+        c:offset     "1375" ;
+        c:prefix     "by one son, Thomas Kent Mullins and one sister, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6f390d7b-29ac-3b0a-8473-ddfd5e402bca> ;
+        c:suffix     ".  \nIrvin is survived by his wife, Erlene, of" .
+
+<http://d.opencalais.com/genericHasher-1/c1e14c20-7ec2-3637-872f-855b5253364e>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Christian Church" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/77>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and wife, Rachel, of Mooreland, Cody Mullins of ]Weatherford[, Texas, Kevin Mullins of Weatherford, Texas,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Weatherford" ;
+        c:length     "11" ;
+        c:offset     "1854" ;
+        c:prefix     "and wife, Rachel, of Mooreland, Cody Mullins of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/51a1bbc0-879d-34b4-b4f0-0c77362f0e61> ;
+        c:suffix     ", Texas, Kevin Mullins of Weatherford, Texas," .
+
+<http://d.opencalais.com/genericHasher-1/d8d04b1f-28bb-307f-b2c3-9ac9b1b8d3dd>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Weatherford" ;
+        c:person             <http://d.opencalais.com/pershash-1/52b0eecf-239c-39c9-aa21-4f93588108b2> .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Relevance/6>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/04552b4d-c884-39d3-9821-36a157d77cea> .
+
+<http://d.opencalais.com/pershash-1/4668a141-34f2-3df3-8af8-00c14ce55ba4>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Leona Rickman" ;
+        c:confidencelevel    "0.997" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Leona Rickman" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/56>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[the age of 82 years, 10 months, and 10 days.  \n]Irvin graduated from Quinlan High School[. After graduation, he enlisted in the United]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Irvin graduated from Quinlan High School" ;
+        c:length     "40" ;
+        c:offset     "583" ;
+        c:prefix     "the age of 82 years, 10 months, and 10 days.  \n" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e86786cc-a845-3219-89a6-62b542aa5d1c> ;
+        c:suffix     ". After graduation, he enlisted in the United" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/35>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[He was very active in his community helping the ]Saddle Club[ with the Snake Hunt, giving tours for the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Saddle Club" ;
+        c:length     "11" ;
+        c:offset     "1095" ;
+        c:prefix     "He was very active in his community helping the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/dfd9e88a-a4aa-3ba4-a1e9-1725e6abe14e> ;
+        c:suffix     " with the Snake Hunt, giving tours for the" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Relevance/53>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/e9e34983-9b91-3ab4-b2d5-49c7aa5e923f> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/f24ef023-f5ce-f4ba-d403-af6634f7297d>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:latitude            "35.4675" ;
+        c:longitude           "-97.5161" ;
+        c:name                "Oklahoma City,Oklahoma,United States" ;
+        c:rcscode             "G:2BF" ;
+        c:shortname           "Oklahoma City" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/b8620f48-da64-3b29-b094-f0b9edcda36f> .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/14>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[He also farmed and ranched his entire life.  \n]He[ was an active member of the Waynoka First]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "He" ;
+        c:length     "2" ;
+        c:offset     "955" ;
+        c:prefix     "He also farmed and ranched his entire life.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/01b4d2cb-3316-3ea7-a545-a0bd3e07b99f> ;
+        c:suffix     " was an active member of the Waynoka First" .
+
+<http://d.opencalais.com/pershash-1/34c7d611-4a96-325b-9528-e9dc25486bf3>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Tammy" ;
+        c:confidencelevel    "0.951" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Tammy" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Relevance/32>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/52b0eecf-239c-39c9-aa21-4f93588108b2> .
+
+<http://d.opencalais.com/genericHasher-1/604668cb-39a8-32b8-9b07-723fea6497fa>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/d09535b1-4c74-3c32-a440-d767dd64532b> , <http://d.opencalais.com/pershash-1/01b4d2cb-3316-3ea7-a545-a0bd3e07b99f> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Relevance/11>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/4508d650-325e-3c47-bf1a-89115735fcad> .
+
+<http://d.opencalais.com/conf/pershash-1/8ab75e6b-ad1d-34b3-b5d1-abf68a33bcf1>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.984" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.989" ;
+        c:subject             <http://d.opencalais.com/pershash-1/8ab75e6b-ad1d-34b3-b5d1-abf68a33bcf1> .
+
+<http://d.opencalais.com/genericHasher-1/b6a7aa10-de3f-3f41-9531-15ba2226d436>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Sapulpa" ;
+        c:person             <http://d.opencalais.com/pershash-1/6231761a-5ce8-316e-a742-c6733465812b> .
+
+<http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee>
+        a                    <http://s.opencalais.com/1/type/em/e/IndustryTerm> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Funeral services" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/85>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[through the funeral home to the Waynoka First ]Christian Church[. \n\t\t\t]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Christian Church" ;
+        c:length     "16" ;
+        c:offset     "2294" ;
+        c:prefix     "through the funeral home to the Waynoka First " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c1e14c20-7ec2-3637-872f-855b5253364e> ;
+        c:suffix     ". \n\t\t\t" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/64>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Cleveland, Oklahoma, Michael Balch and wife, ]Tammy[, of Sapulpa, Oklahoma, Kevin Balch of Sand]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Tammy" ;
+        c:length     "5" ;
+        c:offset     "1988" ;
+        c:prefix     "of Cleveland, Oklahoma, Michael Balch and wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/34c7d611-4a96-325b-9528-e9dc25486bf3> ;
+        c:suffix     ", of Sapulpa, Oklahoma, Kevin Balch of Sand" .
+
+<http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oklahoma" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/43>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[be 10:30 a.m. Tuesday, July 22, 2008, at the ]Waynoka[ First Christian Church with Rev. Aaron Nutter]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Waynoka" ;
+        c:length     "7" ;
+        c:offset     "90" ;
+        c:prefix     "be 10:30 a.m. Tuesday, July 22, 2008, at the " ;
+        c:subject    <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:suffix     " First Christian Church with Rev. Aaron Nutter" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/b9d4552f-76e4-000f-38b1-2d6d7ee32304>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:latitude            "123456.0" ;
+        c:longitude           "123456.0" ;
+        c:name                "Georgia,United States" ;
+        c:permid              "100112" ;
+        c:rcscode             "G:9F" ;
+        c:shortname           "Georgia" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/e4fe5e61-0000-3b15-9d70-d8c317ea934f> .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/22>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Kent Mullins and one sister, Leota Million.  \n]Irvin[ is survived by his wife, Erlene, of Waynoka; two]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Irvin" ;
+        c:length     "5" ;
+        c:offset     "1392" ;
+        c:prefix     "Kent Mullins and one sister, Leota Million.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/01b4d2cb-3316-3ea7-a545-a0bd3e07b99f> ;
+        c:suffix     " is survived by his wife, Erlene, of Waynoka; two" .
+
+<http://d.opencalais.com/conf/pershash-1/71f0738f-31ca-3923-b2a1-627fe724c409>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.994" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.995" ;
+        c:subject             <http://d.opencalais.com/pershash-1/71f0738f-31ca-3923-b2a1-627fe724c409> .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Relevance/40>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a54ac18b-a956-3b5c-b235-0609ca899305> .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Relevance/19>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/fc7a44bb-1c59-37c9-a315-e15e7733b3f8> .
+
+<http://d.opencalais.com/pershash-1/6231761a-5ce8-316e-a742-c6733465812b>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Betty" ;
+        c:confidencelevel    "0.983" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Betty" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/4508d650-325e-3c47-bf1a-89115735fcad>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.947" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/4508d650-325e-3c47-bf1a-89115735fcad> .
+
+<http://d.opencalais.com/genericHasher-1/04552b4d-c884-39d3-9821-36a157d77cea>
+        a                    <http://s.opencalais.com/1/type/em/e/Position> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Crew Clerk for the Santa Fe Railroad" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/5>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[at the Waynoka First Christian Church with Rev. ]Aaron Nutter[ and Rev. Mike Paddy officiating. The casket will]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Aaron Nutter" ;
+        c:length     "12" ;
+        c:offset     "131" ;
+        c:prefix     "at the Waynoka First Christian Church with Rev. " ;
+        c:subject    <http://d.opencalais.com/pershash-1/a9a3f20c-13e0-39a3-9c09-cc50b33314e6> ;
+        c:suffix     " and Rev. Mike Paddy officiating. The casket will" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/ec80b062-8d1e-123a-1d6e-8bd0b7355690>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:latitude            "38.45" ;
+        c:longitude           "-96.5333" ;
+        c:name                "Kansas,United States" ;
+        c:permid              "100151" ;
+        c:rcscode             "G:6D" ;
+        c:shortname           "Kansas" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/93>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Sapulpa, Oklahoma, Kevin Balch of Sand Springs, ]Oklahoma[, Scott Balch and wife, Betty, of Sapulpa,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "2046" ;
+        c:prefix     "Sapulpa, Oklahoma, Kevin Balch of Sand Springs, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", Scott Balch and wife, Betty, of Sapulpa," .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/105>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Waynoka, and Michael Kelly Mullins and his wife, ]Georgia[, of Avard; and one sister, Leona Rickman of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Georgia" ;
+        c:length     "7" ;
+        c:offset     "1547" ;
+        c:prefix     " Waynoka, and Michael Kelly Mullins and his wife, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e4fe5e61-0000-3b15-9d70-d8c317ea934f> ;
+        c:suffix     ", of Avard; and one sister, Leona Rickman of" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/72>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Balch and wife, Angie, of Cleveland, Oklahoma, ]Michael Balch[ and wife, Tammy, of Sapulpa, Oklahoma, Kevin]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Michael Balch" ;
+        c:length     "13" ;
+        c:offset     "1964" ;
+        c:prefix     "Balch and wife, Angie, of Cleveland, Oklahoma, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/148e71d2-33c7-38f1-86f9-e17993f0197e> ;
+        c:suffix     " and wife, Tammy, of Sapulpa, Oklahoma, Kevin" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Relevance/1>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/df207caf-4afe-36d0-ba74-c02c9a546792> .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/51>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ grandchildren, Kim Watkins of Shawnee, Oklahoma, ]Travis Mullins[ and wife, T. J., of Salt Lake City, Utah, Brian]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Travis Mullins" ;
+        c:length     "14" ;
+        c:offset     "1687" ;
+        c:prefix     " grandchildren, Kim Watkins of Shawnee, Oklahoma, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/fc7a44bb-1c59-37c9-a315-e15e7733b3f8> ;
+        c:suffix     " and wife, T. J., of Salt Lake City, Utah, Brian" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/30>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[23, 1946, he was united in marriage to Leveda ]Erlene Stevens[ at Medicine Lodge, Kansas. They made their home]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Erlene Stevens" ;
+        c:length     "14" ;
+        c:offset     "776" ;
+        c:prefix     "23, 1946, he was united in marriage to Leveda " ;
+        c:subject    <http://d.opencalais.com/pershash-1/973200c1-b124-3a79-afe2-4c874122e83c> ;
+        c:suffix     " at Medicine Lodge, Kansas. They made their home" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Relevance/48>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/6f390d7b-29ac-3b0a-8473-ddfd5e402bca> .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/SocialTag/3>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Mullins" ;
+        c:originalValue      "Mullins (surname)" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/8616c272-66e3-3901-ad71-a8d48c7392e1> .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Relevance/27>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/d09535b1-4c74-3c32-a440-d767dd64532b> .
+
+<http://d.opencalais.com/conf/pershash-1/d7211f4c-6273-3b80-84d9-cb36ecee64d9>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.983" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.99" ;
+        c:subject             <http://d.opencalais.com/pershash-1/d7211f4c-6273-3b80-84d9-cb36ecee64d9> .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/113>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[sister, Leota Million.  \nIrvin is survived by ]his wife, Erlene, of Waynoka[; two sons, Irvin Allen Mullins and his wife,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "his wife, Erlene, of Waynoka" ;
+        c:length     "28" ;
+        c:offset     "1413" ;
+        c:prefix     "sister, Leota Million.  \nIrvin is survived by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4ef40ecc-7388-33fc-9f83-763cd5f30949> ;
+        c:suffix     "; two sons, Irvin Allen Mullins and his wife," .
+
+<http://d.opencalais.com/conf/comphash-1/e6417933-98e8-365f-8f80-b92f05707205>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.839" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:resolution          "0.05522651" ;
+        c:statisticalfeature  "0.914" ;
+        c:subject             <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/e9e27c26-4013-8712-a5f0-97dcdc412c26>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:latitude            "35.5607802899" ;
+        c:longitude           "-96.8460570462" ;
+        c:name                "Oklahoma,United States" ;
+        c:permid              "100229" ;
+        c:rcscode             "G:9H" ;
+        c:shortname           "Oklahoma" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/genericHasher-1/a589b59e-00b1-3fb2-a917-d300cbcbfb35>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Medicine Lodge" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/80>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[School. After graduation, he enlisted in the ]United States[ Navy where he served on the U. S. S. Hornsby. On]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "United States" ;
+        c:length     "13" ;
+        c:offset     "662" ;
+        c:prefix     "School. After graduation, he enlisted in the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a54ac18b-a956-3b5c-b235-0609ca899305> ;
+        c:suffix     " Navy where he served on the U. S. S. Hornsby. On" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Relevance/9>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/973200c1-b124-3a79-afe2-4c874122e83c> .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/59>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Brian Mullins and wife, Norma, of Happy, Texas,, ]Sean Mullins[ and wife, Rachel, of Mooreland, Cody Mullins of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "Sean Mullins" ;
+        c:length     "12" ;
+        c:offset     "1793" ;
+        c:prefix     " Brian Mullins and wife, Norma, of Happy, Texas,, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f8395b30-9623-3b5d-b7fd-3f6b090321af> ;
+        c:suffix     " and wife, Rachel, of Mooreland, Cody Mullins of" .
+
+<http://d.opencalais.com/genericHasher-1/3bf5ead6-a64a-32e3-872b-051274a99149>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:company            <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:forenduserdisplay  "true" ;
+        c:person             <http://d.opencalais.com/pershash-1/d09535b1-4c74-3c32-a440-d767dd64532b> ;
+        c:status             "current" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/38>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Waynoka; two sons, Irvin Allen Mullins and ]his wife, Carrie, of Waynoka[, and Michael Kelly Mullins and his wife,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "his wife, Carrie, of Waynoka" ;
+        c:length     "28" ;
+        c:offset     "1477" ;
+        c:prefix     "of Waynoka; two sons, Irvin Allen Mullins and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/54d5ceb5-165f-3c4f-84ec-d4b509c6bd4a> ;
+        c:suffix     ", and Michael Kelly Mullins and his wife," .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Instance/17>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[he served on the board. He was very active in ]his[ community helping the Saddle Club with the Snake]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "1069" ;
+        c:prefix     "he served on the board. He was very active in " ;
+        c:subject    <http://d.opencalais.com/pershash-1/01b4d2cb-3316-3ea7-a545-a0bd3e07b99f> ;
+        c:suffix     " community helping the Saddle Club with the Snake" .
+
+<http://d.opencalais.com/pershash-1/f8395b30-9623-3b5d-b7fd-3f6b090321af>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Sean Mullins" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Sean" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Mullins" ;
+        c:name               "Sean Mullins" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Relevance/35>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4098ba14-95b9-36e8-a252-bd23a575c384> .
+
+<http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48/Relevance/14>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/a738bc18-3420-30f0-93d4-f8de9a1e1162> .
+
+<http://d.opencalais.com/conf/pershash-1/583a4e40-66c9-3386-98d5-3f36461ffce1>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/583a4e40-66c9-3386-98d5-3f36461ffce1> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/1ef29c01-f84d-4b9b-e948-aaa6f3723ae2>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a493642d-b9b4-38cd-bc8e-8851c9d50e48> ;
+        c:latitude            "36.45448" ;
+        c:longitude           "-99.0453756" ;
+        c:name                "Quinlan,Oklahoma,United States" ;
+        c:shortname           "Quinlan" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/ea8b4fdc-7e4d-3cd7-88c1-7b0ef767599d> .

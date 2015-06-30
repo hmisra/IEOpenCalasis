@@ -1,0 +1,1415 @@
+#Relations: FamilyRelation, PersonAttributes, PersonCareer, PersonEducation, PersonLocation, PersonRelation
+#City: Alva, Dacoma, Long Beach, Oklahoma City, Sawyer
+#Company: Wentworth Mortuary LLC
+#Facility: Aline Locker Plant, Carmen City Cemetery, Share Hospice
+#IndustryTerm: memorial services
+#Organization: Carmen High School, Kirk Board
+#Person: Etta Mae (Whitworth) Moser, Justin Small, Laverne Lakey, Maxine Harriett Duel, Miranda, Pam Inman, Raymond, Richard, Robert A. Moser, Russell G. Duel, Rylan Small, Scott Nolting, Shari Duel, Travis Small
+#Position: secretary
+#ProvinceOrState: Kansas, N.Y, Oklahoma
+@prefix c:     <http://s.opencalais.com/1/pred/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://d.opencalais.com/conf/comphash-1/a8ee0a81-b629-368a-b237-71a89306beec>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.558" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.788" ;
+        c:subject             <http://d.opencalais.com/comphash-1/a8ee0a81-b629-368a-b237-71a89306beec> .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Relevance/17>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/24277006-981e-3f78-b2fc-7d9d2e43f457> .
+
+<http://d.opencalais.com/conf/pershash-1/8ea71dee-3202-36ac-a529-3f141d646d29>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/8ea71dee-3202-36ac-a529-3f141d646d29> .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Instance/50>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Cemetery , with immediate family only,  Rev. ]Kirk Board[ officiating. She was cremated at her request]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:exact      "Kirk Board" ;
+        c:length     "10" ;
+        c:offset     "159" ;
+        c:prefix     "Cemetery , with immediate family only,  Rev. " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/92f76ec9-104d-352f-ac0f-7bac76522a85> ;
+        c:suffix     " officiating. She was cremated at her request" .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Instance/29>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ tag agent for many years. \t Besides her parents, ]she[ was preceded in death by her husband, Russell;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "940" ;
+        c:prefix     " tag agent for many years. \t Besides her parents, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/983c1d29-a811-32c4-99de-b54f0466a6d0> ;
+        c:suffix     " was preceded in death by her husband, Russell;" .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/ComponentVersions>
+        a          <http://s.opencalais.com/1/type/sys/ComponentVersions> ;
+        c:docId    <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:version  "config-drugs:258:258" , "config-refineries:258:258" , "People Index:201505261608:201505261608" , "NextTags:OneCalais_8.3-RELEASE:113" , "BlackList:264:264" , "OneCalaisIM:OneCalais_8.3-RELEASE:198" , "config-vessels:258:258" , "config-physicalAssets-ports:258:258" , "index-vessels:201505231718:201505231718" , "com.clearforest.infoext.dial4j.plugins-basistechconfig:OneCalais_8.3-RELEASE:225" , "People Override:258:258" , "FrenchIM:OneCalais_8.3-RELEASE:198" , "SocialTags Index:201505191038:201505191038" , "OA Override:271:271" , "Collector:OneCalais_8.3-RELEASE:113" , "OA Index:201505252208:201505252208" , "Deals Index:201505261613:201505261613" , "config-sca-DataPackage:34:34" , "SpanishIM:OneCalais_8.3-RELEASE:198" , "AutocoderRuntimeIM:OneCalais_8.3-RELEASE:198" , "config-cse:271:271" , "Housekeeper:OneCalais_8.3-RELEASE:113" , "BrokerResearchIM:OneCalais_8.3-RELEASE:198" , "SECHeaderMetadataIM:OneCalais_8.3-RELEASE:198" , "config-negativeSignature:258:258" , "Dial4J:OneCalais_8.3-RELEASE:198" , "OneCalais:OneCalais_8.3-RELEASE:364" , "WatchDog:OneCalais_8.3-RELEASE:113" .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Instance/6>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ husband, Russell; one son, Richard; one brother, ]Robert Moser[; and one sister, Laverne Lakey. \t Maxine is]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:exact      "Robert Moser" ;
+        c:length     "12" ;
+        c:offset     "1022" ;
+        c:prefix     " husband, Russell; one son, Richard; one brother, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/905aad88-7513-389a-9cac-cffd80f24046> ;
+        c:suffix     "; and one sister, Laverne Lakey. \t Maxine is" .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/SocialTag/2>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Maxine" ;
+        c:originalValue      "Maxine (wrestler)" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/cae0c389-2073-3a18-ab0d-4d743cfb8634> .
+
+<http://d.opencalais.com/pershash-1/983c1d29-a811-32c4-99de-b54f0466a6d0>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Maxine Harriett Duel" ;
+        c:confidencelevel    "0.993" ;
+        c:firstname          "Maxine" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Duel" ;
+        c:middlename         "Harriett" ;
+        c:name               "Maxine Harriett Duel" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Relevance/25>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e3e42632-af76-3de6-a334-cd0ead7eb287> .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Relevance/8>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/7db4909d-1f3b-33d3-957c-4c37a8ca8c22> .
+
+<http://d.opencalais.com/pershash-1/d7639082-44ac-3b56-a7a3-ff286e48d6c7>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Pam Inman" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Pam" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Inman" ;
+        c:name               "Pam Inman" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Instance/37>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Carmen;  two grandsons, Justin Small and wife, ]Miranda[, of Oklahoma City and Travis Small of Long]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:exact      "Miranda" ;
+        c:length     "7" ;
+        c:offset     "1232" ;
+        c:prefix     "Carmen;  two grandsons, Justin Small and wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/24277006-981e-3f78-b2fc-7d9d2e43f457> ;
+        c:suffix     ", of Oklahoma City and Travis Small of Long" .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Instance/16>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[daughters, Pam Inman and husband, Raymond, of ]Dacoma[, and Shari Duel and Scott Nolting of Carmen; ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:exact      "Dacoma" ;
+        c:length     "6" ;
+        c:offset     "1141" ;
+        c:prefix     "daughters, Pam Inman and husband, Raymond, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/970a0102-ef7c-3230-b7ac-c25a80fd08e7> ;
+        c:suffix     ", and Shari Duel and Scott Nolting of Carmen; " .
+
+<http://d.opencalais.com/pershash-1/7a175540-b6f5-37a3-8f67-a6c31ddd4403>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Scott Nolting" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Scott" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Nolting" ;
+        c:name               "Scott Nolting" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/7db4909d-1f3b-33d3-957c-4c37a8ca8c22>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.741" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.804" ;
+        c:subject             <http://d.opencalais.com/pershash-1/7db4909d-1f3b-33d3-957c-4c37a8ca8c22> .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Relevance/12>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/d9594eda-4f6c-36ec-9620-f193bde009d2> .
+
+<http://d.opencalais.com/genericHasher-1/b8620f48-da64-3b29-b094-f0b9edcda36f>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oklahoma City" .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Instance/45>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ owned the Aline Locker Plant. She also worked as ]a secretary[ in Wright Attorney Law Firm in Cherokee and was]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:exact      "a secretary" ;
+        c:length     "11" ;
+        c:offset     "831" ;
+        c:prefix     " owned the Aline Locker Plant. She also worked as " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e81504a1-bda8-3738-b0c1-9b0b0dc1a4f5> ;
+        c:suffix     " in Wright Attorney Law Firm in Cherokee and was" .
+
+<http://d.opencalais.com/pershash-1/1d8e9611-dbc5-3720-90e2-97be07510512>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Richard" ;
+        c:confidencelevel    "0.962" ;
+        c:firstname          "Richard" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Richard" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Instance/24>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[the direction of Wentworth Mortuary, LLC.  \n]Maxine Harriett Duel[, daughter of the late Robert A. Moser and Etta]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:exact      "Maxine Harriett Duel" ;
+        c:length     "20" ;
+        c:offset     "265" ;
+        c:prefix     "the direction of Wentworth Mortuary, LLC.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/983c1d29-a811-32c4-99de-b54f0466a6d0> ;
+        c:suffix     ", daughter of the late Robert A. Moser and Etta" .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Instance/1>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ \nMaxine Harriett Duel, daughter of the late ]Robert A. Moser and Etta Mae (Whitworth) Moser, was born January 18, 1920, on a farm southeast of Dacoma, Oklahoma, and passed away April 14, 2011, at Alva, Oklahoma[, at the age of 91 years, 2 months, and 27 days. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:exact      "Robert A. Moser and Etta Mae (Whitworth) Moser, was born January 18, 1920, on a farm southeast of Dacoma, Oklahoma, and passed away April 14, 2011, at Alva, Oklahoma" ;
+        c:length     "165" ;
+        c:offset     "308" ;
+        c:prefix     " \nMaxine Harriett Duel, daughter of the late " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e91ec6cf-9d5c-31ef-877d-4cbe6b4f6efc> ;
+        c:suffix     ", at the age of 91 years, 2 months, and 27 days. " .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Relevance/20>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e81504a1-bda8-3738-b0c1-9b0b0dc1a4f5> .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Relevance/3>
+        a                <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId          <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:relevance      "0.2" ;
+        c:relevancecont  "0.03" ;
+        c:subject        <http://d.opencalais.com/comphash-1/a8ee0a81-b629-368a-b237-71a89306beec> .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Instance/53>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[she was preceded in death by her husband, ]Russell[; one son, Richard; one brother, Robert Moser;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:exact      "Russell" ;
+        c:length     "7" ;
+        c:offset     "982" ;
+        c:prefix     "she was preceded in death by her husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b6ab7bb4-22c0-3237-97f1-9277bf27ee64> ;
+        c:suffix     "; one son, Richard; one brother, Robert Moser;" .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Instance/32>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ January 18, 1920, on a farm southeast of Dacoma, ]Oklahoma[, and passed away April 14, 2011, at Alva,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "414" ;
+        c:prefix     " January 18, 1920, on a farm southeast of Dacoma, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", and passed away April 14, 2011, at Alva," .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Instance/11>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Oklahoma, and passed away April 14, 2011, at ]Alva[, Oklahoma, at the age of 91 years, 2 months, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "459" ;
+        c:prefix     "Oklahoma, and passed away April 14, 2011, at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:suffix     ", Oklahoma, at the age of 91 years, 2 months, and" .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Instance/9>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[by two daughters, Pam Inman and husband, ]Raymond[, of Dacoma, and Shari Duel and Scott Nolting of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:exact      "Raymond" ;
+        c:length     "7" ;
+        c:offset     "1129" ;
+        c:prefix     "by two daughters, Pam Inman and husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/17e98254-3e1d-3a98-9aca-807ac5539b45> ;
+        c:suffix     ", of Dacoma, and Shari Duel and Scott Nolting of" .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Relevance/28>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/585d512e-943c-3f15-8114-53caccdc475a> .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Instance/40>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Pam Inman and husband, Raymond, of Dacoma, and ]Shari Duel[ and Scott Nolting of Carmen;  two grandsons,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:exact      "Shari Duel" ;
+        c:length     "10" ;
+        c:offset     "1153" ;
+        c:prefix     "Pam Inman and husband, Raymond, of Dacoma, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/8ea71dee-3202-36ac-a529-3f141d646d29> ;
+        c:suffix     " and Scott Nolting of Carmen;  two grandsons," .
+
+<http://d.opencalais.com/conf/pershash-1/905aad88-7513-389a-9cac-cffd80f24046>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.996" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.996" ;
+        c:subject             <http://d.opencalais.com/pershash-1/905aad88-7513-389a-9cac-cffd80f24046> .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Instance/19>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[N.Y; one great granddaughter, Rylan Small of ]Oklahoma City[; other relatives and friends. \t Memorial]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:exact      "Oklahoma City" ;
+        c:length     "13" ;
+        c:offset     "1335" ;
+        c:prefix     "N.Y; one great granddaughter, Rylan Small of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b8620f48-da64-3b29-b094-f0b9edcda36f> ;
+        c:suffix     "; other relatives and friends. \t Memorial" .
+
+<http://d.opencalais.com/genericHasher-1/9df61165-512a-35f4-bf22-bbe427d680b8>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Sawyer" .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Relevance/15>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/52f06da9-a2d1-3490-aa54-9f8b91e94324> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/cf28aedd-9e8d-a8f0-bb71-cf744cda5c5e>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:latitude            "36.6594" ;
+        c:longitude           "-98.5628" ;
+        c:name                "Dacoma,Oklahoma,United States" ;
+        c:shortname           "Dacoma" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/970a0102-ef7c-3230-b7ac-c25a80fd08e7> .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Instance/48>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[one brother, Robert Moser; and one sister, ]Laverne Lakey[. \t Maxine is survived by two daughters, Pam]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:exact      "Laverne Lakey" ;
+        c:length     "13" ;
+        c:offset     "1052" ;
+        c:prefix     "one brother, Robert Moser; and one sister, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f81b47e9-13ea-393b-83de-7e4855fdff15> ;
+        c:suffix     ". \t Maxine is survived by two daughters, Pam" .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Instance/27>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[dairy, and owned the Aline Locker Plant. ]She[ also worked as a secretary in Wright Attorney]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "812" ;
+        c:prefix     "dairy, and owned the Aline Locker Plant. " ;
+        c:subject    <http://d.opencalais.com/pershash-1/983c1d29-a811-32c4-99de-b54f0466a6d0> ;
+        c:suffix     " also worked as a secretary in Wright Attorney" .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Instance/4>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Duel, daughter of the late Robert A. Moser and ]Etta Mae (Whitworth) Moser, was born January 18, 1920[, on a farm southeast of Dacoma, Oklahoma, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:exact      "Etta Mae (Whitworth) Moser, was born January 18, 1920" ;
+        c:length     "53" ;
+        c:offset     "328" ;
+        c:prefix     "Duel, daughter of the late Robert A. Moser and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/d2e952c8-4ab7-324f-8a53-df3da5f96766> ;
+        c:suffix     ", on a farm southeast of Dacoma, Oklahoma, and" .
+
+<http://d.opencalais.com/conf/pershash-1/983c1d29-a811-32c4-99de-b54f0466a6d0>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.993" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.995" ;
+        c:subject             <http://d.opencalais.com/pershash-1/983c1d29-a811-32c4-99de-b54f0466a6d0> .
+
+<http://d.opencalais.com/genericHasher-1/74d3f7dd-60bd-31ef-864a-438c497f8c62>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Long Beach" ;
+        c:person             <http://d.opencalais.com/pershash-1/fae7394c-ab2c-3219-aab8-a4b349c5f594> .
+
+<http://d.opencalais.com/conf/pershash-1/d7639082-44ac-3b56-a7a3-ff286e48d6c7>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/d7639082-44ac-3b56-a7a3-ff286e48d6c7> .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/lid/DefaultLangId>
+        a                    <http://s.opencalais.com/1/type/lid/DefaultLangId> ;
+        c:docId              <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:forenduserdisplay  "false" ;
+        c:lang               <http://d.opencalais.com/lid/DefaultLangId/English> ;
+        c:permid             "505062" .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Relevance/23>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/d7639082-44ac-3b56-a7a3-ff286e48d6c7> .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Relevance/6>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Instance/56>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[2 months, and 27 days.  \nMaxine graduated from ]Carmen High School[ and attended business school in Wichita. On]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:exact      "Carmen High School" ;
+        c:length     "18" ;
+        c:offset     "546" ;
+        c:prefix     "2 months, and 27 days.  \nMaxine graduated from " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/2d36d4be-5107-361b-9f90-16b8edd04330> ;
+        c:suffix     " and attended business school in Wichita. On" .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Instance/35>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ will be 9:00 a.m. Sunday, April 17, 2011, at the ]Carmen City Cemetery[ , with immediate family only,  Rev. Kirk Board]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:exact      "Carmen City Cemetery" ;
+        c:length     "20" ;
+        c:offset     "102" ;
+        c:prefix     " will be 9:00 a.m. Sunday, April 17, 2011, at the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/52f06da9-a2d1-3490-aa54-9f8b91e94324> ;
+        c:suffix     " , with immediate family only,  Rev. Kirk Board" .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Instance/14>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Long Beach, N.Y; one great granddaughter, ]Rylan Small[ of Oklahoma City; other relatives and friends. \t]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:exact      "Rylan Small" ;
+        c:length     "11" ;
+        c:offset     "1320" ;
+        c:prefix     "of Long Beach, N.Y; one great granddaughter, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/7db4909d-1f3b-33d3-957c-4c37a8ca8c22> ;
+        c:suffix     " of Oklahoma City; other relatives and friends. \t" .
+
+<http://d.opencalais.com/conf/pershash-1/7a175540-b6f5-37a3-8f67-a6c31ddd4403>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/7a175540-b6f5-37a3-8f67-a6c31ddd4403> .
+
+<http://d.opencalais.com/genericHasher-1/2d36d4be-5107-361b-9f90-16b8edd04330>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Carmen High School" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/e3e42632-af76-3de6-a334-cd0ead7eb287>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Long Beach" .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Relevance/10>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/1d8e9611-dbc5-3720-90e2-97be07510512> .
+
+<http://d.opencalais.com/conf/pershash-1/1d8e9611-dbc5-3720-90e2-97be07510512>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.962" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/1d8e9611-dbc5-3720-90e2-97be07510512> .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Instance/43>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[her parents, she was preceded in death by ]her husband, Russell[; one son, Richard; one brother, Robert Moser;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:exact      "her husband, Russell" ;
+        c:length     "20" ;
+        c:offset     "969" ;
+        c:prefix     "her parents, she was preceded in death by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/fad13517-5d1c-3d23-b1b4-6b21aad07aa6> ;
+        c:suffix     "; one son, Richard; one brother, Robert Moser;" .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Instance/22>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[family only,  Rev. Kirk Board officiating. ]She[ was cremated at her request under the direction]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "183" ;
+        c:prefix     "family only,  Rev. Kirk Board officiating. " ;
+        c:subject    <http://d.opencalais.com/pershash-1/983c1d29-a811-32c4-99de-b54f0466a6d0> ;
+        c:suffix     " was cremated at her request under the direction" .
+
+<http://d.opencalais.com/genericHasher-1/fad13517-5d1c-3d23-b1b4-6b21aad07aa6>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "husband" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/983c1d29-a811-32c4-99de-b54f0466a6d0> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/b6ab7bb4-22c0-3237-97f1-9277bf27ee64> .
+
+<http://d.opencalais.com/genericHasher-1/12875d82-ac6b-3b7e-9f84-0b674ac54a6e>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Sawyer" ;
+        c:person             <http://d.opencalais.com/pershash-1/b6ab7bb4-22c0-3237-97f1-9277bf27ee64> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/51b30f31-5975-3526-dd26-48c098880304>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Kansas" ;
+        c:docId               <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:latitude            "37.4972" ;
+        c:longitude           "-98.6819" ;
+        c:name                "Sawyer,Kansas,United States" ;
+        c:shortname           "Sawyer" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/9df61165-512a-35f4-bf22-bbe427d680b8> .
+
+<http://d.opencalais.com/pershash-1/fae7394c-ab2c-3219-aab8-a4b349c5f594>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Travis Small" ;
+        c:confidencelevel    "0.768" ;
+        c:firstname          "Travis" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Small" ;
+        c:name               "Travis Small" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/504b51be-5fc5-3fd3-b2fb-28714504f2e7>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:date                "1942-01-02" ;
+        c:datestring          "January 2, 1942" ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/b6ab7bb4-22c0-3237-97f1-9277bf27ee64> , <http://d.opencalais.com/pershash-1/983c1d29-a811-32c4-99de-b54f0466a6d0> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Relevance/18>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/7a175540-b6f5-37a3-8f67-a6c31ddd4403> .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Relevance/1>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Instance/51>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Miranda, of Oklahoma City and Travis Small of ]Long Beach[, N.Y; one great granddaughter, Rylan Small of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:exact      "Long Beach" ;
+        c:length     "10" ;
+        c:offset     "1278" ;
+        c:prefix     "Miranda, of Oklahoma City and Travis Small of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e3e42632-af76-3de6-a334-cd0ead7eb287> ;
+        c:suffix     ", N.Y; one great granddaughter, Rylan Small of" .
+
+<http://d.opencalais.com/pershash-1/a0d1ee5a-e1f7-370d-aa6d-0b4bc255d3fe>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Justin Small" ;
+        c:confidencelevel    "0.897" ;
+        c:firstname          "Justin" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Small" ;
+        c:name               "Justin Small" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Instance/30>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[her parents, she was preceded in death by ]her[ husband, Russell; one son, Richard; one brother,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "969" ;
+        c:prefix     "her parents, she was preceded in death by " ;
+        c:subject    <http://d.opencalais.com/pershash-1/983c1d29-a811-32c4-99de-b54f0466a6d0> ;
+        c:suffix     " husband, Russell; one son, Richard; one brother," .
+
+<http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Kansas" .
+
+<http://d.opencalais.com/pershash-1/b6ab7bb4-22c0-3237-97f1-9277bf27ee64>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Russell Duel" ;
+        c:confidencelevel    "0.994" ;
+        c:firstname          "Russell" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Duel" ;
+        c:middlename         "G." ;
+        c:name               "Russell G. Duel" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Instance/7>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[cremated at her request under the direction of ]Wentworth Mortuary, LLC[.  \nMaxine Harriett Duel, daughter of the late]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:exact      "Wentworth Mortuary, LLC" ;
+        c:length     "23" ;
+        c:offset     "238" ;
+        c:prefix     "cremated at her request under the direction of " ;
+        c:subject    <http://d.opencalais.com/comphash-1/a8ee0a81-b629-368a-b237-71a89306beec> ;
+        c:suffix     ".  \nMaxine Harriett Duel, daughter of the late" .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/SocialTag/3>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Carmen" ;
+        c:originalValue      "Carmen (disambiguation)" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/c495db0c-22d4-3715-927e-1e0c1e00426a> .
+
+<http://d.opencalais.com/pershash-1/17e98254-3e1d-3a98-9aca-807ac5539b45>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Raymond" ;
+        c:confidencelevel    "0.919" ;
+        c:firstname          "Raymond" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Raymond" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/e81504a1-bda8-3738-b0c1-9b0b0dc1a4f5>
+        a                    <http://s.opencalais.com/1/type/em/e/Position> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "secretary" .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Relevance/26>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/b6ab7bb4-22c0-3237-97f1-9277bf27ee64> .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Relevance/9>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/970a0102-ef7c-3230-b7ac-c25a80fd08e7> .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Instance/38>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[husband, Raymond, of Dacoma, and Shari Duel and ]Scott Nolting[ of Carmen;  two grandsons, Justin Small and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:exact      "Scott Nolting" ;
+        c:length     "13" ;
+        c:offset     "1168" ;
+        c:prefix     "husband, Raymond, of Dacoma, and Shari Duel and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/7a175540-b6f5-37a3-8f67-a6c31ddd4403> ;
+        c:suffix     " of Carmen;  two grandsons, Justin Small and" .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Instance/17>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in death by her husband, Russell; one son, ]Richard[; one brother, Robert Moser; and one sister,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:exact      "Richard" ;
+        c:length     "7" ;
+        c:offset     "1000" ;
+        c:prefix     "in death by her husband, Russell; one son, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/1d8e9611-dbc5-3720-90e2-97be07510512> ;
+        c:suffix     "; one brother, Robert Moser; and one sister," .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/meta>
+        a                 <http://s.opencalais.com/1/type/sys/DocInfoMeta> ;
+        c:contentType     "text/raw" ;
+        c:docId           <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:language        "English" ;
+        c:processingVer   "AllMetadata" ;
+        c:serverVersion   "OneCalais_8.3-RELEASE:364" ;
+        c:signature       "digestalg-1|g1lMyy+zMBRZLSzTASkh8dnpqUo=|Nq4W6IFcnlorC7+D8zW644Pu0IxBcTvu15NYSS34S9N0K/OAjwSfKw==" ;
+        c:stagsVer        "OneCalais_8.3-RELEASE-b11-2015-03-25_18:29:00" ;
+        c:submissionDate  "2015-05-26 17:18:51.000" ;
+        c:submitterCode   "0ca6a864-5659-789d-5f32-f365f695e757" .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Relevance/13>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/pershash-1/983c1d29-a811-32c4-99de-b54f0466a6d0> .
+
+<http://d.opencalais.com/genericHasher-1/9a7f1c14-47fc-33f1-9f07-ffef70939eed>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Oklahoma City" ;
+        c:person             <http://d.opencalais.com/pershash-1/24277006-981e-3f78-b2fc-7d9d2e43f457> .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Instance/46>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ she was united in marriage to Russell G. Duel in ]Sawyer[, Kansas. They lived in the Carmen area all of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:exact      "Sawyer" ;
+        c:length     "6" ;
+        c:offset     "675" ;
+        c:prefix     " she was united in marriage to Russell G. Duel in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9df61165-512a-35f4-bf22-bbe427d680b8> ;
+        c:suffix     ", Kansas. They lived in the Carmen area all of" .
+
+<http://d.opencalais.com/genericHasher-1/b12c3117-3a79-3d19-b2bc-8eee2e9f6631>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Share Hospice" .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Instance/25>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ at the age of 91 years, 2 months, and 27 days.  \n]Maxine[ graduated from Carmen High School and attended]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:exact      "Maxine" ;
+        c:length     "6" ;
+        c:offset     "524" ;
+        c:prefix     " at the age of 91 years, 2 months, and 27 days.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/983c1d29-a811-32c4-99de-b54f0466a6d0> ;
+        c:suffix     " graduated from Carmen High School and attended" .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Instance/2>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[by two daughters, Pam Inman and husband, ]Raymond, of Dacoma[, and Shari Duel and Scott Nolting of Carmen; ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:exact      "Raymond, of Dacoma" ;
+        c:length     "18" ;
+        c:offset     "1129" ;
+        c:prefix     "by two daughters, Pam Inman and husband, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/d736db7d-7dfc-3594-a4bc-55d4c8eb704f> ;
+        c:suffix     ", and Shari Duel and Scott Nolting of Carmen; " .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Relevance/21>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9df61165-512a-35f4-bf22-bbe427d680b8> .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Relevance/4>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/a184c5e9-083d-3030-a9ee-e98043f376d5> .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Instance/54>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Carmen First Responders, Ross Health Care , or ]Share Hospice[. \n\t\t\t]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:exact      "Share Hospice" ;
+        c:length     "13" ;
+        c:offset     "1495" ;
+        c:prefix     "Carmen First Responders, Ross Health Care , or " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b12c3117-3a79-3d19-b2bc-8eee2e9f6631> ;
+        c:suffix     ". \n\t\t\t" .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Instance/33>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and passed away April 14, 2011, at Alva, ]Oklahoma[, at the age of 91 years, 2 months, and 27 days. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "465" ;
+        c:prefix     "and passed away April 14, 2011, at Alva, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", at the age of 91 years, 2 months, and 27 days. " .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Instance/12>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Small and wife, Miranda, of Oklahoma City and ]Travis Small[ of Long Beach, N.Y; one great granddaughter,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:exact      "Travis Small" ;
+        c:length     "12" ;
+        c:offset     "1262" ;
+        c:prefix     "Small and wife, Miranda, of Oklahoma City and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/fae7394c-ab2c-3219-aab8-a4b349c5f594> ;
+        c:suffix     " of Long Beach, N.Y; one great granddaughter," .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/cat/1>
+        a                    <http://s.opencalais.com/1/type/cat/DocCat> ;
+        c:docId              <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Human Interest" ;
+        c:score              "0.973" .
+
+<http://d.opencalais.com/pershash-1/a184c5e9-083d-3030-a9ee-e98043f376d5>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Etta Mae Moser" ;
+        c:confidencelevel    "0.984" ;
+        c:firstname          "Etta" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Moser" ;
+        c:middlename         "Mae" ;
+        c:name               "Etta Mae (Whitworth) Moser" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/pershash-1/f81b47e9-13ea-393b-83de-7e4855fdff15>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Laverne Lakey" ;
+        c:confidencelevel    "0.993" ;
+        c:firstname          "Laverne" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Lakey" ;
+        c:name               "Laverne Lakey" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Relevance/29>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/2d36d4be-5107-361b-9f90-16b8edd04330> .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Instance/41>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[School and attended business school in Wichita. ]On January 2, 1942, she was united in marriage to Russell G. Duel[ in Sawyer, Kansas. They lived in the Carmen area]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:exact      "On January 2, 1942, she was united in marriage to Russell G. Duel" ;
+        c:length     "65" ;
+        c:offset     "606" ;
+        c:prefix     "School and attended business school in Wichita. " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/504b51be-5fc5-3fd3-b2fb-28714504f2e7> ;
+        c:suffix     " in Sawyer, Kansas. They lived in the Carmen area" .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Instance/20>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[they engaged in farming, dairy, and owned the ]Aline Locker Plant[. She also worked as a secretary in Wright]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:exact      "Aline Locker Plant" ;
+        c:length     "18" ;
+        c:offset     "792" ;
+        c:prefix     "they engaged in farming, dairy, and owned the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/d9594eda-4f6c-36ec-9620-f193bde009d2> ;
+        c:suffix     ". She also worked as a secretary in Wright" .
+
+<http://d.opencalais.com/conf/pershash-1/fae7394c-ab2c-3219-aab8-a4b349c5f594>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.768" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.858" ;
+        c:subject             <http://d.opencalais.com/pershash-1/fae7394c-ab2c-3219-aab8-a4b349c5f594> .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Relevance/16>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/a0d1ee5a-e1f7-370d-aa6d-0b4bc255d3fe> .
+
+<http://d.opencalais.com/conf/pershash-1/a0d1ee5a-e1f7-370d-aa6d-0b4bc255d3fe>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.897" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.858" ;
+        c:subject             <http://d.opencalais.com/pershash-1/a0d1ee5a-e1f7-370d-aa6d-0b4bc255d3fe> .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Instance/49>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Lakey. \t Maxine is survived by two daughters, ]Pam Inman[ and husband, Raymond, of Dacoma, and Shari Duel]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:exact      "Pam Inman" ;
+        c:length     "9" ;
+        c:offset     "1106" ;
+        c:prefix     "Lakey. \t Maxine is survived by two daughters, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/d7639082-44ac-3b56-a7a3-ff286e48d6c7> ;
+        c:suffix     " and husband, Raymond, of Dacoma, and Shari Duel" .
+
+<http://d.opencalais.com/pershash-1/24277006-981e-3f78-b2fc-7d9d2e43f457>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Miranda" ;
+        c:confidencelevel    "0.977" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Miranda" ;
+        c:nationality        "American" ;
+        c:persontype         "entertainment" .
+
+<http://d.opencalais.com/conf/pershash-1/b6ab7bb4-22c0-3237-97f1-9277bf27ee64>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.994" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.996" ;
+        c:subject             <http://d.opencalais.com/pershash-1/b6ab7bb4-22c0-3237-97f1-9277bf27ee64> .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Instance/28>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and was tag agent for many years. \t Besides ]her[ parents, she was preceded in death by her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "927" ;
+        c:prefix     "and was tag agent for many years. \t Besides " ;
+        c:subject    <http://d.opencalais.com/pershash-1/983c1d29-a811-32c4-99de-b54f0466a6d0> ;
+        c:suffix     " parents, she was preceded in death by her" .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/SocialTag/1>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Dacoma, Oklahoma" ;
+        c:originalValue      "Dacoma, Oklahoma" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/ddcdf07d-7c67-342f-8a8c-f881f846c968> .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Instance/5>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ \nMaxine Harriett Duel, daughter of the late ]Robert A. Moser[ and Etta Mae (Whitworth) Moser, was born January]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:exact      "Robert A. Moser" ;
+        c:length     "15" ;
+        c:offset     "308" ;
+        c:prefix     " \nMaxine Harriett Duel, daughter of the late " ;
+        c:subject    <http://d.opencalais.com/pershash-1/905aad88-7513-389a-9cac-cffd80f24046> ;
+        c:suffix     " and Etta Mae (Whitworth) Moser, was born January" .
+
+<http://d.opencalais.com/conf/pershash-1/17e98254-3e1d-3a98-9aca-807ac5539b45>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.919" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/17e98254-3e1d-3a98-9aca-807ac5539b45> .
+
+<http://d.opencalais.com/genericHasher-1/9de57969-985d-3e26-a957-0ed38f8279ec>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "political" ;
+        c:forenduserdisplay  "true" ;
+        c:person             <http://d.opencalais.com/pershash-1/983c1d29-a811-32c4-99de-b54f0466a6d0> ;
+        c:position           "secretary" ;
+        c:status             "past" .
+
+<http://d.opencalais.com/genericHasher-1/2ad74f22-ce3b-3af5-a7f9-73e0de0930aa>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/b6ab7bb4-22c0-3237-97f1-9277bf27ee64> , <http://d.opencalais.com/pershash-1/983c1d29-a811-32c4-99de-b54f0466a6d0> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/genericHasher-1/d736db7d-7dfc-3594-a4bc-55d4c8eb704f>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Dacoma" ;
+        c:person             <http://d.opencalais.com/pershash-1/17e98254-3e1d-3a98-9aca-807ac5539b45> .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Relevance/24>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/92f76ec9-104d-352f-ac0f-7bac76522a85> .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Relevance/7>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/fae7394c-ab2c-3219-aab8-a4b349c5f594> .
+
+<http://d.opencalais.com/genericHasher-1/e91ec6cf-9d5c-31ef-877d-4cbe6b4f6efc>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Alva, Oklahoma" ;
+        c:person             <http://d.opencalais.com/pershash-1/905aad88-7513-389a-9cac-cffd80f24046> .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Instance/57>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Graveside ]memorial services[ for Maxine Harriett Duel will be 9:00 a.m.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:exact      "memorial services" ;
+        c:length     "17" ;
+        c:offset     "10" ;
+        c:prefix     "Graveside " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3fc76fa0-2822-3a05-bc9a-d75c68ee10e1> ;
+        c:suffix     " for Maxine Harriett Duel will be 9:00 a.m." .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Instance/36>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and Scott Nolting of Carmen;  two grandsons, ]Justin Small[ and wife, Miranda, of Oklahoma City and Travis]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:exact      "Justin Small" ;
+        c:length     "12" ;
+        c:offset     "1209" ;
+        c:prefix     "and Scott Nolting of Carmen;  two grandsons, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/a0d1ee5a-e1f7-370d-aa6d-0b4bc255d3fe> ;
+        c:suffix     " and wife, Miranda, of Oklahoma City and Travis" .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Instance/15>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[born January 18, 1920, on a farm southeast of ]Dacoma[, Oklahoma, and passed away April 14, 2011, at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:exact      "Dacoma" ;
+        c:length     "6" ;
+        c:offset     "406" ;
+        c:prefix     "born January 18, 1920, on a farm southeast of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/970a0102-ef7c-3230-b7ac-c25a80fd08e7> ;
+        c:suffix     ", Oklahoma, and passed away April 14, 2011, at" .
+
+<http://d.opencalais.com/genericHasher-1/d2e952c8-4ab7-324f-8a53-df3da5f96766>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonAttributes> ;
+        c:birthdate          "1920-01-18" ;
+        c:forenduserdisplay  "false" ;
+        c:gender             "F" ;
+        c:person             <http://d.opencalais.com/pershash-1/a184c5e9-083d-3030-a9ee-e98043f376d5> .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0>
+        a                  <http://s.opencalais.com/1/type/sys/DocInfo> ;
+        c:calaisRequestID  "59bfd477-e1e1-6be8-14d9-13be4786fa60" ;
+        c:docDate          "2015-05-26 17:18:51.329" ;
+        c:docTitle         "" ;
+        c:document         "Graveside memorial services for Maxine Harriett Duel will be 9:00 a.m. Sunday, April 17, 2011, at the Carmen City Cemetery , with immediate family only,  Rev. Kirk Board officiating. She was cremated at her request under the direction of Wentworth Mortuary, LLC.  \nMaxine Harriett Duel, daughter of the late Robert A. Moser and Etta Mae (Whitworth) Moser, was born January 18, 1920, on a farm southeast of Dacoma, Oklahoma, and passed away April 14, 2011, at Alva, Oklahoma, at the age of 91 years, 2 months, and 27 days.  \nMaxine graduated from Carmen High School and attended business school in Wichita. On January 2, 1942, she was united in marriage to Russell G. Duel in Sawyer, Kansas. They lived in the Carmen area all of their lives where they engaged in farming, dairy, and owned the Aline Locker Plant. She also worked as a secretary in Wright Attorney Law Firm in Cherokee and was tag agent for many years. \t Besides her parents, she was preceded in death by her husband, Russell; one son, Richard; one brother, Robert Moser; and one sister, Laverne Lakey. \t Maxine is survived by two daughters, Pam Inman and husband, Raymond, of Dacoma, and Shari Duel and Scott Nolting of Carmen;  two grandsons, Justin Small and wife, Miranda, of Oklahoma City and Travis Small of Long Beach, N.Y; one great granddaughter, Rylan Small of Oklahoma City; other relatives and friends. \t Memorial contributions may be made through the funeral home to the Carmen First Responders, Ross Health Care , or Share Hospice. \n\t\t\t" ;
+        c:id               "http://id.opencalais.com/Wvjjjc8qnHj9nPU3UjjPRw" ;
+        c:ontology         "http://163.231.4.65/owlschema/8.3/onecalais.owl.allmetadata.xml" .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Relevance/11>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b8620f48-da64-3b29-b094-f0b9edcda36f> .
+
+<http://d.opencalais.com/genericHasher-1/585d512e-943c-3f15-8114-53caccdc475a>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "N.Y" .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Instance/44>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[dairy, and owned the Aline Locker Plant. ]She also worked as a secretary[ in Wright Attorney Law Firm in Cherokee and was]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:exact      "She also worked as a secretary" ;
+        c:length     "30" ;
+        c:offset     "812" ;
+        c:prefix     "dairy, and owned the Aline Locker Plant. " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9de57969-985d-3e26-a957-0ed38f8279ec> ;
+        c:suffix     " in Wright Attorney Law Firm in Cherokee and was" .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Instance/23>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Rev. Kirk Board officiating. She was cremated at ]her[ request under the direction of Wentworth]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "203" ;
+        c:prefix     " Rev. Kirk Board officiating. She was cremated at " ;
+        c:subject    <http://d.opencalais.com/pershash-1/983c1d29-a811-32c4-99de-b54f0466a6d0> ;
+        c:suffix     " request under the direction of Wentworth" .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Relevance/19>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/8ea71dee-3202-36ac-a529-3f141d646d29> .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Relevance/2>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/905aad88-7513-389a-9cac-cffd80f24046> .
+
+<http://d.opencalais.com/comphash-1/a8ee0a81-b629-368a-b237-71a89306beec>
+        a                    <http://s.opencalais.com/1/type/em/e/Company> ;
+        c:confidencelevel    "0.558" ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Wentworth Mortuary LLC" ;
+        c:nationality        "N/A" .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Instance/52>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[January 2, 1942, she was united in marriage to ]Russell G. Duel[ in Sawyer, Kansas. They lived in the Carmen area]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:exact      "Russell G. Duel" ;
+        c:length     "15" ;
+        c:offset     "656" ;
+        c:prefix     "January 2, 1942, she was united in marriage to " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b6ab7bb4-22c0-3237-97f1-9277bf27ee64> ;
+        c:suffix     " in Sawyer, Kansas. They lived in the Carmen area" .
+
+<http://d.opencalais.com/pershash-1/8ea71dee-3202-36ac-a529-3f141d646d29>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Shari Duel" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Shari" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Duel" ;
+        c:name               "Shari Duel" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Instance/31>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Robert Moser; and one sister, Laverne Lakey. \t ]Maxine[ is survived by two daughters, Pam Inman and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:exact      "Maxine" ;
+        c:length     "6" ;
+        c:offset     "1069" ;
+        c:prefix     "Robert Moser; and one sister, Laverne Lakey. \t " ;
+        c:subject    <http://d.opencalais.com/pershash-1/983c1d29-a811-32c4-99de-b54f0466a6d0> ;
+        c:suffix     " is survived by two daughters, Pam Inman and" .
+
+<http://d.opencalais.com/conf/pershash-1/a184c5e9-083d-3030-a9ee-e98043f376d5>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.984" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.989" ;
+        c:subject             <http://d.opencalais.com/pershash-1/a184c5e9-083d-3030-a9ee-e98043f376d5> .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Instance/10>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Small and wife, Miranda, of Oklahoma City and ]Travis Small of Long Beach, N.Y[; one great granddaughter, Rylan Small of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:exact      "Travis Small of Long Beach, N.Y" ;
+        c:length     "31" ;
+        c:offset     "1262" ;
+        c:prefix     "Small and wife, Miranda, of Oklahoma City and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/74d3f7dd-60bd-31ef-864a-438c497f8c62> ;
+        c:suffix     "; one great granddaughter, Rylan Small of" .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/SocialTag/4>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "2" ;
+        c:name               "Oklahoma City" ;
+        c:originalValue      "Oklahoma City" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/e0963270-9de9-388d-9b7d-cb28a487bbbd> .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Instance/8>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Duel, daughter of the late Robert A. Moser and ]Etta Mae (Whitworth) Moser[, was born January 18, 1920, on a farm southeast]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:exact      "Etta Mae (Whitworth) Moser" ;
+        c:length     "26" ;
+        c:offset     "328" ;
+        c:prefix     "Duel, daughter of the late Robert A. Moser and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/a184c5e9-083d-3030-a9ee-e98043f376d5> ;
+        c:suffix     ", was born January 18, 1920, on a farm southeast" .
+
+<http://d.opencalais.com/genericHasher-1/92f76ec9-104d-352f-ac0f-7bac76522a85>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Kirk Board" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/f81b47e9-13ea-393b-83de-7e4855fdff15>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.993" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.995" ;
+        c:subject             <http://d.opencalais.com/pershash-1/f81b47e9-13ea-393b-83de-7e4855fdff15> .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Relevance/27>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b12c3117-3a79-3d19-b2bc-8eee2e9f6631> .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Instance/39>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Long Beach, N.Y; one great granddaughter, ]Rylan Small of Oklahoma City[; other relatives and friends. \t Memorial]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:exact      "Rylan Small of Oklahoma City" ;
+        c:length     "28" ;
+        c:offset     "1320" ;
+        c:prefix     "of Long Beach, N.Y; one great granddaughter, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/5df77834-2e98-30d3-99e7-ac541a0d61e3> ;
+        c:suffix     "; other relatives and friends. \t Memorial" .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Instance/18>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[grandsons, Justin Small and wife, Miranda, of ]Oklahoma City[ and Travis Small of Long Beach, N.Y; one great]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:exact      "Oklahoma City" ;
+        c:length     "13" ;
+        c:offset     "1244" ;
+        c:prefix     "grandsons, Justin Small and wife, Miranda, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b8620f48-da64-3b29-b094-f0b9edcda36f> ;
+        c:suffix     " and Travis Small of Long Beach, N.Y; one great" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/f24ef023-f5ce-f4ba-d403-af6634f7297d>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:latitude            "35.4675" ;
+        c:longitude           "-97.5161" ;
+        c:name                "Oklahoma City,Oklahoma,United States" ;
+        c:rcscode             "G:2BF" ;
+        c:shortname           "Oklahoma City" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/b8620f48-da64-3b29-b094-f0b9edcda36f> .
+
+<http://d.opencalais.com/genericHasher-1/5df77834-2e98-30d3-99e7-ac541a0d61e3>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Oklahoma City" ;
+        c:person             <http://d.opencalais.com/pershash-1/7db4909d-1f3b-33d3-957c-4c37a8ca8c22> .
+
+<http://d.opencalais.com/pershash-1/7db4909d-1f3b-33d3-957c-4c37a8ca8c22>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Rylan Small" ;
+        c:confidencelevel    "0.741" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Rylan Small" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Relevance/14>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/conf/pershash-1/24277006-981e-3f78-b2fc-7d9d2e43f457>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.977" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.932" ;
+        c:subject             <http://d.opencalais.com/pershash-1/24277006-981e-3f78-b2fc-7d9d2e43f457> .
+
+<http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oklahoma" .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Instance/47>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[her parents, she was preceded in death by ]her husband, Russell[; one son, Richard; one brother, Robert Moser;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:exact      "her husband, Russell" ;
+        c:length     "20" ;
+        c:offset     "969" ;
+        c:prefix     "her parents, she was preceded in death by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/2ad74f22-ce3b-3af5-a7f9-73e0de0930aa> ;
+        c:suffix     "; one son, Richard; one brother, Robert Moser;" .
+
+<http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Alva" .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Instance/26>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[business school in Wichita. On January 2, 1942, ]she[ was united in marriage to Russell G. Duel in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "626" ;
+        c:prefix     "business school in Wichita. On January 2, 1942, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/983c1d29-a811-32c4-99de-b54f0466a6d0> ;
+        c:suffix     " was united in marriage to Russell G. Duel in" .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Instance/3>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ united in marriage to Russell G. Duel in Sawyer, ]Kansas[. They lived in the Carmen area all of their]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:exact      "Kansas" ;
+        c:length     "6" ;
+        c:offset     "683" ;
+        c:prefix     " united in marriage to Russell G. Duel in Sawyer, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> ;
+        c:suffix     ". They lived in the Carmen area all of their" .
+
+<http://d.opencalais.com/genericHasher-1/970a0102-ef7c-3230-b7ac-c25a80fd08e7>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Dacoma" .
+
+<http://d.opencalais.com/genericHasher-1/e329d414-c2ef-33ce-8e2c-ee0f2ad34d46>
+        a                       <http://s.opencalais.com/1/type/em/r/PersonEducation> ;
+        c:forenduserdisplay     "false" ;
+        c:person                <http://d.opencalais.com/pershash-1/983c1d29-a811-32c4-99de-b54f0466a6d0> ;
+        c:schoolororganization  "Carmen High School" .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Relevance/22>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/f81b47e9-13ea-393b-83de-7e4855fdff15> .
+
+<http://d.opencalais.com/genericHasher-1/52f06da9-a2d1-3490-aa54-9f8b91e94324>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Carmen City Cemetery" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/ec80b062-8d1e-123a-1d6e-8bd0b7355690>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:latitude            "38.45" ;
+        c:longitude           "-96.5333" ;
+        c:name                "Kansas,United States" ;
+        c:permid              "100151" ;
+        c:rcscode             "G:6D" ;
+        c:shortname           "Kansas" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Relevance/5>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/17e98254-3e1d-3a98-9aca-807ac5539b45> .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Instance/55>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ of Oklahoma City and Travis Small of Long Beach, ]N.Y[; one great granddaughter, Rylan Small of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:exact      "N.Y" ;
+        c:length     "3" ;
+        c:offset     "1290" ;
+        c:prefix     " of Oklahoma City and Travis Small of Long Beach, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/585d512e-943c-3f15-8114-53caccdc475a> ;
+        c:suffix     "; one great granddaughter, Rylan Small of" .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Instance/34>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ at the age of 91 years, 2 months, and 27 days.  \n]Maxine graduated from Carmen High School[ and attended business school in Wichita. On]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:exact      "Maxine graduated from Carmen High School" ;
+        c:length     "40" ;
+        c:offset     "524" ;
+        c:prefix     " at the age of 91 years, 2 months, and 27 days.  \n" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e329d414-c2ef-33ce-8e2c-ee0f2ad34d46> ;
+        c:suffix     " and attended business school in Wichita. On" .
+
+<http://d.opencalais.com/genericHasher-1/3fc76fa0-2822-3a05-bc9a-d75c68ee10e1>
+        a                    <http://s.opencalais.com/1/type/em/e/IndustryTerm> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "memorial services" .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Instance/13>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Carmen;  two grandsons, Justin Small and wife, ]Miranda, of Oklahoma City[ and Travis Small of Long Beach, N.Y; one great]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:exact      "Miranda, of Oklahoma City" ;
+        c:length     "25" ;
+        c:offset     "1232" ;
+        c:prefix     "Carmen;  two grandsons, Justin Small and wife, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9a7f1c14-47fc-33f1-9f07-ffef70939eed> ;
+        c:suffix     " and Travis Small of Long Beach, N.Y; one great" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/8fac7585-3230-ed66-1dae-4ee48ac15a97>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:latitude            "36.805" ;
+        c:longitude           "-98.6661" ;
+        c:name                "Alva,Oklahoma,United States" ;
+        c:shortname           "Alva" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Relevance/30>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3fc76fa0-2822-3a05-bc9a-d75c68ee10e1> .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/e9e27c26-4013-8712-a5f0-97dcdc412c26>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:latitude            "35.5607802899" ;
+        c:longitude           "-96.8460570462" ;
+        c:name                "Oklahoma,United States" ;
+        c:permid              "100229" ;
+        c:rcscode             "G:9H" ;
+        c:shortname           "Oklahoma" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Instance/42>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[January 2, 1942, she was united in marriage to ]Russell G. Duel in Sawyer, Kansas[. They lived in the Carmen area all of their]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:exact      "Russell G. Duel in Sawyer, Kansas" ;
+        c:length     "33" ;
+        c:offset     "656" ;
+        c:prefix     "January 2, 1942, she was united in marriage to " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/12875d82-ac6b-3b7e-9f84-0b674ac54a6e> ;
+        c:suffix     ". They lived in the Carmen area all of their" .
+
+<http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0/Instance/21>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[memorial services for ]Maxine Harriett Duel[ will be 9:00 a.m. Sunday, April 17, 2011, at the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ce0360ed-2792-30ef-b3a3-533e8804dff0> ;
+        c:exact      "Maxine Harriett Duel" ;
+        c:length     "20" ;
+        c:offset     "32" ;
+        c:prefix     "memorial services for " ;
+        c:subject    <http://d.opencalais.com/pershash-1/983c1d29-a811-32c4-99de-b54f0466a6d0> ;
+        c:suffix     " will be 9:00 a.m. Sunday, April 17, 2011, at the" .
+
+<http://d.opencalais.com/pershash-1/905aad88-7513-389a-9cac-cffd80f24046>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Robert Moser" ;
+        c:confidencelevel    "0.996" ;
+        c:firstname          "Robert" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Moser" ;
+        c:middlename         "A." ;
+        c:name               "Robert A. Moser" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/d9594eda-4f6c-36ec-9620-f193bde009d2>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Aline Locker Plant" .

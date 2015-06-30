@@ -1,0 +1,1330 @@
+#Relations: FamilyRelation, PersonAttributes, PersonEducation, PersonLocation
+#City: Denver, Mooreland, Tupelo
+#Company: Central National Bank of Enid, Roper, Waynoka LLC
+#Facility: Marshall Funeral Home of Waynoka, Mooreland Cemetery
+#Organization: Mooreland High School
+#Person: Brookee Lynn Cottingham-Roper, David Houchin, Devann Maunee Cottingham, Gage Cottingham, Garret Cottingham, Gerry Hand, James Bud Hand, James Cottingham, Michelle Rene (Hand) Cottingham, Sydney Rienhart, Tim Farrar
+#ProvinceOrState: California, Colorado, Mississippi, Oklahoma
+@prefix c:     <http://s.opencalais.com/1/pred/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://d.opencalais.com/genericHasher-1/2a448766-4c2c-361c-975a-8481666c8207>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonAttributes> ;
+        c:birthdate          "1990-07-05" ;
+        c:forenduserdisplay  "false" ;
+        c:gender             "M" ;
+        c:person             <http://d.opencalais.com/pershash-1/4894606f-4c53-3e69-ae58-3b7b37efa305> .
+
+<http://d.opencalais.com/pershash-1/68ca2e80-5556-3a48-ada3-d2e3463a52c1>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Gerry Hand" ;
+        c:confidencelevel    "0.942" ;
+        c:firstname          "Gerry" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Hand" ;
+        c:name               "Gerry Hand" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/meta>
+        a                 <http://s.opencalais.com/1/type/sys/DocInfoMeta> ;
+        c:contentType     "text/raw" ;
+        c:docId           <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:language        "English" ;
+        c:processingVer   "AllMetadata" ;
+        c:serverVersion   "OneCalais_8.3-RELEASE:364" ;
+        c:signature       "digestalg-1|FWqa1Mor0n47TcPe0SMzFxCEg5Y=|fzpYRuymv280bGa6KaFMVV/1bAwj0mYqBfFL+fIE5FmdwQiEuhSXVQ==" ;
+        c:stagsVer        "OneCalais_8.3-RELEASE-b11-2015-03-25_18:29:00" ;
+        c:submissionDate  "2015-05-26 17:27:43.745" ;
+        c:submitterCode   "0ca6a864-5659-789d-5f32-f365f695e757" .
+
+<https://permid.org/1-4295904842>
+        a             <http://s.opencalais.com/1/type/er/Company> ;
+        c:commonname  "Roper Tech" ;
+        c:docId       <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:legacyid    <http://d.opencalais.com/er/company/ralg-tr1r/f3e4768e-524b-36c5-a67c-04d01eb4f3a7> ;
+        c:name        "Roper Technologies Inc" ;
+        c:permid      "4295904842" ;
+        c:primaryric  "ROP.N" ;
+        c:score       "0.81785125" ;
+        c:subject     <http://d.opencalais.com/comphash-1/85f13b84-76a8-3606-af11-d8ba4375d5bf> ;
+        c:ticker      "ROP" .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Instance/21>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[survived by her mother, Michelle Cottingham, of ]Mooreland[; her father, James Cottingham, of Santa Maria,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:exact      "Mooreland" ;
+        c:length     "9" ;
+        c:offset     "840" ;
+        c:prefix     "survived by her mother, Michelle Cottingham, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e9882a3d-9d77-3624-970e-95aebbda4e8f> ;
+        c:suffix     "; her father, James Cottingham, of Santa Maria," .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Relevance/20>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0d1312d9-0ff4-3dd4-8128-601b8cd60656> .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Instance/34>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[balloons, dancing, school and hanging with ]her[ best friend Sydney.  In the short time Devann]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "617" ;
+        c:prefix     "balloons, dancing, school and hanging with " ;
+        c:subject    <http://d.opencalais.com/pershash-1/ca58d220-6a9e-3436-b231-9c97f5f588d3> ;
+        c:suffix     " best friend Sydney.  In the short time Devann" .
+
+<http://d.opencalais.com/conf/pershash-1/d3e92474-7583-32f3-b845-c5661a8eb058>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.895" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.928" ;
+        c:subject             <http://d.opencalais.com/pershash-1/d3e92474-7583-32f3-b845-c5661a8eb058> .
+
+<http://d.opencalais.com/pershash-1/dec37fbb-e66c-3e3f-8579-e7c459796680>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Sydney Rienhart" ;
+        c:confidencelevel    "0.992" ;
+        c:firstname          "Sydney" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Sydney Rienhart" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/b16011e4-6f50-3dce-9a3c-5db038fcd244>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "grandparent" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/bc55f540-cfb8-36c3-a5d2-a8e33fc25ae2> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/68ca2e80-5556-3a48-ada3-d2e3463a52c1> .
+
+<http://d.opencalais.com/genericHasher-1/d9dac85b-975d-3e65-a16b-5231524c8e17>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Denver" .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Instance/8>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ nephew Stetson Roper, her niece Jalynn Roper and ]her[ best friend, Sydney Rienhart; other many]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1157" ;
+        c:prefix     " nephew Stetson Roper, her niece Jalynn Roper and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/68ca2e80-5556-3a48-ada3-d2e3463a52c1> ;
+        c:suffix     " best friend, Sydney Rienhart; other many" .
+
+<http://d.opencalais.com/conf/pershash-1/4894606f-4c53-3e69-ae58-3b7b37efa305>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.996" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.997" ;
+        c:subject             <http://d.opencalais.com/pershash-1/4894606f-4c53-3e69-ae58-3b7b37efa305> .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Instance/47>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ funeral home or Central National Bank of Enid in ]Mooreland[ for funeral expenses.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:exact      "Mooreland" ;
+        c:length     "9" ;
+        c:offset     "1325" ;
+        c:prefix     " funeral home or Central National Bank of Enid in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/715fce02-21e8-33c1-a75a-e9e86ddedcb7> ;
+        c:suffix     " for funeral expenses." .
+
+<http://d.opencalais.com/genericHasher-1/18865315-a051-30a9-81cb-1257cbdb98e5>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Mississippi" .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Instance/19>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Hand, her nephew Stetson Roper, her niece Jalynn ]Roper[ and her best friend, Sydney Rienhart; other many]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:exact      "Roper" ;
+        c:length     "5" ;
+        c:offset     "1147" ;
+        c:prefix     " Hand, her nephew Stetson Roper, her niece Jalynn " ;
+        c:subject    <http://d.opencalais.com/comphash-1/85f13b84-76a8-3606-af11-d8ba4375d5bf> ;
+        c:suffix     " and her best friend, Sydney Rienhart; other many" .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Relevance/18>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/18865315-a051-30a9-81cb-1257cbdb98e5> .
+
+<http://d.opencalais.com/pershash-1/7ac897b0-e10f-36cc-a534-a4228a1028bc>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Garret Cottingham" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Garret" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Cottingham" ;
+        c:name               "Garret Cottingham" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/conf/comphash-1/85f13b84-76a8-3606-af11-d8ba4375d5bf>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.905" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:resolution          "0.81785125" ;
+        c:statisticalfeature  "0.905" ;
+        c:subject             <http://d.opencalais.com/comphash-1/85f13b84-76a8-3606-af11-d8ba4375d5bf> .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Instance/2>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Brookee Lynn Cottingham-Roper, two brothers, ]Garret Cottingham[ and Gage Cottingham; her grandparents James and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:exact      "Garret Cottingham" ;
+        c:length     "17" ;
+        c:offset     "1000" ;
+        c:prefix     "Brookee Lynn Cottingham-Roper, two brothers, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/7ac897b0-e10f-36cc-a534-a4228a1028bc> ;
+        c:suffix     " and Gage Cottingham; her grandparents James and" .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Instance/41>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[two brothers, Garret Cottingham and ]Gage Cottingham[; her grandparents James and Gerry Hand; her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:exact      "Gage Cottingham" ;
+        c:length     "15" ;
+        c:offset     "1022" ;
+        c:prefix     "two brothers, Garret Cottingham and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/d3e92474-7583-32f3-b845-c5661a8eb058> ;
+        c:suffix     "; her grandparents James and Gerry Hand; her" .
+
+<http://d.opencalais.com/genericHasher-1/1f9223a3-13c4-3aee-a041-57b5403a1eb1>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Mooreland High School" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Relevance/5>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/4894606f-4c53-3e69-ae58-3b7b37efa305> .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Instance/13>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[may be made through the funeral home or ]Central National Bank of Enid[ in Mooreland for funeral expenses.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:exact      "Central National Bank of Enid" ;
+        c:length     "29" ;
+        c:offset     "1292" ;
+        c:prefix     "may be made through the funeral home or " ;
+        c:subject    <http://d.opencalais.com/comphash-1/c658ba37-38d5-3d22-b237-9894c6db4fc9> ;
+        c:suffix     " in Mooreland for funeral expenses." .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/SocialTag/2>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Mooreland" ;
+        c:originalValue      "Mooreland" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/3bade30e-3e6b-3ad6-8302-a85ee39057d1> .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Relevance/12>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/dec37fbb-e66c-3e3f-8579-e7c459796680> .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Instance/54>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ brothers, Garret Cottingham and Gage Cottingham; ]her[ grandparents James and Gerry Hand; her Uncle]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1039" ;
+        c:prefix     " brothers, Garret Cottingham and Gage Cottingham; " ;
+        c:subject    <http://d.opencalais.com/pershash-1/bc55f540-cfb8-36c3-a5d2-a8e33fc25ae2> ;
+        c:suffix     " grandparents James and Gerry Hand; her Uncle" .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Instance/26>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[the age of 22 years, 6 months, and 19 days.    \n]Devann graduated from Mooreland High School[. She enjoyed laughter, music, lights, balloons,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:exact      "Devann graduated from Mooreland High School" ;
+        c:length     "43" ;
+        c:offset     "492" ;
+        c:prefix     "the age of 22 years, 6 months, and 19 days.    \n" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/63bad665-c07c-378b-bf7f-423439f8df8f> ;
+        c:suffix     ". She enjoyed laughter, music, lights, balloons," .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Instance/39>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[her mother, Michelle Cottingham, of Mooreland; ]her father, James Cottingham[, of Santa Maria, California and Tim Farrar of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:exact      "her father, James Cottingham" ;
+        c:length     "28" ;
+        c:offset     "851" ;
+        c:prefix     "her mother, Michelle Cottingham, of Mooreland; " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/aed83e1a-ea5c-3b69-b714-6e09e1eacc02> ;
+        c:suffix     ", of Santa Maria, California and Tim Farrar of" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/0f30bd2c-0ce2-845e-5410-1ce75cef04dc>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Mississippi" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:latitude            "34.2575" ;
+        c:longitude           "-88.7033" ;
+        c:name                "Tupelo,Mississippi,United States" ;
+        c:shortname           "Tupelo" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/0d1312d9-0ff4-3dd4-8128-601b8cd60656> .
+
+<http://d.opencalais.com/genericHasher-1/63bad665-c07c-378b-bf7f-423439f8df8f>
+        a                       <http://s.opencalais.com/1/type/em/r/PersonEducation> ;
+        c:forenduserdisplay     "false" ;
+        c:person                <http://d.opencalais.com/pershash-1/ca58d220-6a9e-3436-b231-9c97f5f588d3> ;
+        c:schoolororganization  "Mooreland High School" .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Instance/20>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ and passed away January 24, 2013, at her home in ]Mooreland[, Oklahoma, at the age of 22 years, 6 months, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:exact      "Mooreland" ;
+        c:length     "9" ;
+        c:offset     "420" ;
+        c:prefix     " and passed away January 24, 2013, at her home in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e9882a3d-9d77-3624-970e-95aebbda4e8f> ;
+        c:suffix     ", Oklahoma, at the age of 22 years, 6 months, and" .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Instance/33>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[    \nDevann graduated from Mooreland High School. ]She[ enjoyed laughter, music, lights, balloons,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "537" ;
+        c:prefix     "    \nDevann graduated from Mooreland High School. " ;
+        c:subject    <http://d.opencalais.com/pershash-1/ca58d220-6a9e-3436-b231-9c97f5f588d3> ;
+        c:suffix     " enjoyed laughter, music, lights, balloons," .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Instance/7>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Uncle James Bud Hand, her nephew Stetson Roper, ]her[ niece Jalynn Roper and her best friend, Sydney]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1130" ;
+        c:prefix     "Uncle James Bud Hand, her nephew Stetson Roper, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/68ca2e80-5556-3a48-ada3-d2e3463a52c1> ;
+        c:suffix     " niece Jalynn Roper and her best friend, Sydney" .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Instance/46>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[survived by her mother, Michelle Cottingham, of ]Mooreland[; her father, James Cottingham, of Santa Maria,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:exact      "Mooreland" ;
+        c:length     "9" ;
+        c:offset     "840" ;
+        c:prefix     "survived by her mother, Michelle Cottingham, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/715fce02-21e8-33c1-a75a-e9e86ddedcb7> ;
+        c:suffix     "; her father, James Cottingham, of Santa Maria," .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Instance/18>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[her Uncle James Bud Hand, her nephew Stetson ]Roper[, her niece Jalynn Roper and her best friend,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:exact      "Roper" ;
+        c:length     "5" ;
+        c:offset     "1123" ;
+        c:prefix     "her Uncle James Bud Hand, her nephew Stetson " ;
+        c:subject    <http://d.opencalais.com/comphash-1/85f13b84-76a8-3606-af11-d8ba4375d5bf> ;
+        c:suffix     ", her niece Jalynn Roper and her best friend," .
+
+<http://d.opencalais.com/conf/comphash-1/e6417933-98e8-365f-8f80-b92f05707205>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.684" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:resolution          "0.05522651" ;
+        c:statisticalfeature  "0.775" ;
+        c:subject             <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Relevance/17>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/d3e92474-7583-32f3-b845-c5661a8eb058> .
+
+<http://d.opencalais.com/genericHasher-1/cbf8a0e7-f3db-39dc-a743-6ff5319cfb45>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "Uncle" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/68ca2e80-5556-3a48-ada3-d2e3463a52c1> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/fd4a8b5b-dd3c-34ac-aafe-0e06310da936> .
+
+<http://d.opencalais.com/conf/pershash-1/89515b0c-9d09-3f61-8da8-2c49be27ae2f>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.999" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.999" ;
+        c:subject             <http://d.opencalais.com/pershash-1/89515b0c-9d09-3f61-8da8-2c49be27ae2f> .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Instance/1>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and James Cottingham, was born July 5, 1990, ]Denver[, Colorado, and passed away January 24, 2013, at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:exact      "Denver" ;
+        c:length     "6" ;
+        c:offset     "353" ;
+        c:prefix     "and James Cottingham, was born July 5, 1990, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/d9dac85b-975d-3e65-a16b-5231524c8e17> ;
+        c:suffix     ", Colorado, and passed away January 24, 2013, at" .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Instance/40>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ away January 24, 2013, at her home in Mooreland, ]Oklahoma[, at the age of 22 years, 6 months, and 19 days. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "431" ;
+        c:prefix     " away January 24, 2013, at her home in Mooreland, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", at the age of 22 years, 6 months, and 19 days. " .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Relevance/4>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/84bb0714-85ab-39de-a7e7-f1ad2e79292b> .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/fd9e1e90-96a9-04ff-1397-445c4e93208b>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:latitude            "36.4885198674" ;
+        c:longitude           "-119.701379437" ;
+        c:name                "California,United States" ;
+        c:permid              "100049" ;
+        c:rcscode             "G:4V" ;
+        c:shortname           "California" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/9679b237-33e8-3478-ba13-d9af3c4b943e> .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Instance/12>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Michelle Cottingham, of Mooreland; her father, ]James Cottingham[, of Santa Maria, California and Tim Farrar of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:exact      "James Cottingham" ;
+        c:length     "16" ;
+        c:offset     "863" ;
+        c:prefix     "Michelle Cottingham, of Mooreland; her father, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/4894606f-4c53-3e69-ae58-3b7b37efa305> ;
+        c:suffix     ", of Santa Maria, California and Tim Farrar of" .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/SocialTag/1>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Cottingham" ;
+        c:originalValue      "Cottingham" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/97def746-5c9f-3c1e-a830-3e0cc614a5ed> .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Relevance/11>
+        a                <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId          <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:relevance      "0.8" ;
+        c:relevancecont  "0.65" ;
+        c:subject        <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Instance/53>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and Tim Farrar of Tupelo, Mississippi; sister, ]Brookee Lynn Cottingham-Roper[, two brothers, Garret Cottingham and Gage]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:exact      "Brookee Lynn Cottingham-Roper" ;
+        c:length     "29" ;
+        c:offset     "955" ;
+        c:prefix     "and Tim Farrar of Tupelo, Mississippi; sister, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/bc55f540-cfb8-36c3-a5d2-a8e33fc25ae2> ;
+        c:suffix     ", two brothers, Garret Cottingham and Gage" .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Instance/25>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[under the direction of Marshall Funeral Home of ]Waynoka, LLC[.    \nDevann Maunee Cottingham, daughter of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:exact      "Waynoka, LLC" ;
+        c:length     "12" ;
+        c:offset     "220" ;
+        c:prefix     "under the direction of Marshall Funeral Home of " ;
+        c:subject    <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:suffix     ".    \nDevann Maunee Cottingham, daughter of" .
+
+<http://d.opencalais.com/conf/pershash-1/ca58d220-6a9e-3436-b231-9c97f5f588d3>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.85" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.883" ;
+        c:subject             <http://d.opencalais.com/pershash-1/ca58d220-6a9e-3436-b231-9c97f5f588d3> .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Relevance/24>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/89515b0c-9d09-3f61-8da8-2c49be27ae2f> .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Instance/38>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ her grandparents James and Gerry Hand; her Uncle ]James Bud Hand[, her nephew Stetson Roper, her niece Jalynn]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:exact      "James Bud Hand" ;
+        c:length     "14" ;
+        c:offset     "1088" ;
+        c:prefix     " her grandparents James and Gerry Hand; her Uncle " ;
+        c:subject    <http://d.opencalais.com/pershash-1/fd4a8b5b-dd3c-34ac-aafe-0e06310da936> ;
+        c:suffix     ", her nephew Stetson Roper, her niece Jalynn" .
+
+<http://d.opencalais.com/pershash-1/d8791a08-7e46-318a-805c-faf252886874>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "David Houchin" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "David" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Houchin" ;
+        c:name               "David Houchin" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/e9882a3d-9d77-3624-970e-95aebbda4e8f>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Mooreland" .
+
+<http://d.opencalais.com/conf/comphash-1/c658ba37-38d5-3d22-b237-9894c6db4fc9>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.659" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.841" ;
+        c:subject             <http://d.opencalais.com/comphash-1/c658ba37-38d5-3d22-b237-9894c6db4fc9> .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Instance/32>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[the age of 22 years, 6 months, and 19 days.    \n]Devann[ graduated from Mooreland High School. She]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:exact      "Devann" ;
+        c:length     "6" ;
+        c:offset     "492" ;
+        c:prefix     "the age of 22 years, 6 months, and 19 days.    \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/ca58d220-6a9e-3436-b231-9c97f5f588d3> ;
+        c:suffix     " graduated from Mooreland High School. She" .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Instance/6>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[James and Gerry Hand; her Uncle James Bud Hand, ]her[ nephew Stetson Roper, her niece Jalynn Roper and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1104" ;
+        c:prefix     "James and Gerry Hand; her Uncle James Bud Hand, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/68ca2e80-5556-3a48-ada3-d2e3463a52c1> ;
+        c:suffix     " nephew Stetson Roper, her niece Jalynn Roper and" .
+
+<http://d.opencalais.com/genericHasher-1/aed83e1a-ea5c-3b69-b714-6e09e1eacc02>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "father" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/89515b0c-9d09-3f61-8da8-2c49be27ae2f> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/4894606f-4c53-3e69-ae58-3b7b37efa305> .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Instance/45>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ and passed away January 24, 2013, at her home in ]Mooreland[, Oklahoma, at the age of 22 years, 6 months, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:exact      "Mooreland" ;
+        c:length     "9" ;
+        c:offset     "420" ;
+        c:prefix     " and passed away January 24, 2013, at her home in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/715fce02-21e8-33c1-a75a-e9e86ddedcb7> ;
+        c:suffix     ", Oklahoma, at the age of 22 years, 6 months, and" .
+
+<http://d.opencalais.com/pershash-1/d3e92474-7583-32f3-b845-c5661a8eb058>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Gage Cottingham" ;
+        c:confidencelevel    "0.895" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Gage Cottingham" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Relevance/9>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e9882a3d-9d77-3624-970e-95aebbda4e8f> .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Instance/17>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ James Cottingham, of Santa Maria, California and ]Tim Farrar of Tupelo, Mississippi[; sister, Brookee Lynn Cottingham-Roper, two]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:exact      "Tim Farrar of Tupelo, Mississippi" ;
+        c:length     "33" ;
+        c:offset     "912" ;
+        c:prefix     " James Cottingham, of Santa Maria, California and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/d68c41d8-74a6-372d-ad1d-917764389dbd> ;
+        c:suffix     "; sister, Brookee Lynn Cottingham-Roper, two" .
+
+<http://d.opencalais.com/conf/pershash-1/fd4a8b5b-dd3c-34ac-aafe-0e06310da936>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.936" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.96" ;
+        c:subject             <http://d.opencalais.com/pershash-1/fd4a8b5b-dd3c-34ac-aafe-0e06310da936> .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Relevance/16>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/conf/pershash-1/3ad63a0a-8d71-34f7-b9d8-a4ce2ba16987>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.983" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.99" ;
+        c:subject             <http://d.opencalais.com/pershash-1/3ad63a0a-8d71-34f7-b9d8-a4ce2ba16987> .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/cat/1>
+        a                    <http://s.opencalais.com/1/type/cat/DocCat> ;
+        c:docId              <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Human Interest" ;
+        c:score              "1.000" .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Relevance/3>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/68ca2e80-5556-3a48-ada3-d2e3463a52c1> .
+
+<http://d.opencalais.com/comphash-1/85f13b84-76a8-3606-af11-d8ba4375d5bf>
+        a                    <http://s.opencalais.com/1/type/em/e/Company> ;
+        c:confidencelevel    "0.905" ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Roper" ;
+        c:nationality        "N/A" .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Instance/11>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[daughter of Michelle Rene (Hand) Cottingham and ]James Cottingham[, was born July 5, 1990, Denver, Colorado, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:exact      "James Cottingham" ;
+        c:length     "16" ;
+        c:offset     "312" ;
+        c:prefix     "daughter of Michelle Rene (Hand) Cottingham and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/4894606f-4c53-3e69-ae58-3b7b37efa305> ;
+        c:suffix     ", was born July 5, 1990, Denver, Colorado, and" .
+
+<http://d.opencalais.com/genericHasher-1/d68c41d8-74a6-372d-ad1d-917764389dbd>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Tupelo" ;
+        c:person             <http://d.opencalais.com/pershash-1/3ad63a0a-8d71-34f7-b9d8-a4ce2ba16987> .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Relevance/10>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/1f9223a3-13c4-3aee-a041-57b5403a1eb1> .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Instance/52>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[forget.    \nDevann is survived by her mother, ]Michelle Cottingham, of Mooreland[; her father, James Cottingham, of Santa Maria,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:exact      "Michelle Cottingham, of Mooreland" ;
+        c:length     "33" ;
+        c:offset     "816" ;
+        c:prefix     "forget.    \nDevann is survived by her mother, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4845c2f3-132a-34a9-99b1-5ad4c1d8a3a2> ;
+        c:suffix     "; her father, James Cottingham, of Santa Maria," .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Instance/24>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ 6 months, and 19 days.    \nDevann graduated from ]Mooreland High School[. She enjoyed laughter, music, lights, balloons,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:exact      "Mooreland High School" ;
+        c:length     "21" ;
+        c:offset     "514" ;
+        c:prefix     " 6 months, and 19 days.    \nDevann graduated from " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/1f9223a3-13c4-3aee-a041-57b5403a1eb1> ;
+        c:suffix     ". She enjoyed laughter, music, lights, balloons," .
+
+<http://d.opencalais.com/genericHasher-1/4845c2f3-132a-34a9-99b1-5ad4c1d8a3a2>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Mooreland" ;
+        c:person             <http://d.opencalais.com/pershash-1/89515b0c-9d09-3f61-8da8-2c49be27ae2f> .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Relevance/23>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/bc55f540-cfb8-36c3-a5d2-a8e33fc25ae2> .
+
+<https://permid.org/1-5035751620>
+        a             <http://s.opencalais.com/1/type/er/Company> ;
+        c:commonname  "Waynoka" ;
+        c:docId       <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:legacyid    <http://d.opencalais.com/er/company/ralg-tr1r/da554c4e-4d2b-3037-98bc-d26b5df2c525> ;
+        c:name        "Waynoka Utilities Authority" ;
+        c:permid      "5035751620" ;
+        c:score       "0.05522651" ;
+        c:subject     <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> .
+
+<http://d.opencalais.com/genericHasher-1/0d1312d9-0ff4-3dd4-8128-601b8cd60656>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Tupelo" .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Instance/37>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Cottingham and Gage Cottingham; her grandparents ]James[ and Gerry Hand; her Uncle James Bud Hand, her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:exact      "James" ;
+        c:length     "5" ;
+        c:offset     "1056" ;
+        c:prefix     " Cottingham and Gage Cottingham; her grandparents " ;
+        c:subject    <http://d.opencalais.com/pershash-1/fd4a8b5b-dd3c-34ac-aafe-0e06310da936> ;
+        c:suffix     " and Gerry Hand; her Uncle James Bud Hand, her" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/d7dca348-860b-6f9e-32eb-b7fb5cb61c7c>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:latitude            "36.4392" ;
+        c:longitude           "-99.2044" ;
+        c:name                "Mooreland,Oklahoma,United States" ;
+        c:shortname           "Mooreland" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/e9882a3d-9d77-3624-970e-95aebbda4e8f> .
+
+<http://d.opencalais.com/genericHasher-1/22daaf27-f2b2-311b-861e-ac3eedc24774>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "grandparent" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/bc55f540-cfb8-36c3-a5d2-a8e33fc25ae2> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/fd4a8b5b-dd3c-34ac-aafe-0e06310da936> .
+
+<http://d.opencalais.com/conf/pershash-1/bc55f540-cfb8-36c3-a5d2-a8e33fc25ae2>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.934" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.947" ;
+        c:subject             <http://d.opencalais.com/pershash-1/bc55f540-cfb8-36c3-a5d2-a8e33fc25ae2> .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Instance/31>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Marshall Funeral Home of Waynoka, LLC.    \n]Devann Maunee Cottingham[, daughter of Michelle Rene (Hand) Cottingham and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:exact      "Devann Maunee Cottingham" ;
+        c:length     "24" ;
+        c:offset     "238" ;
+        c:prefix     "of Marshall Funeral Home of Waynoka, LLC.    \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/ca58d220-6a9e-3436-b231-9c97f5f588d3> ;
+        c:suffix     ", daughter of Michelle Rene (Hand) Cottingham and" .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Instance/5>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[her grandparents James and Gerry Hand; ]her[ Uncle James Bud Hand, her nephew Stetson Roper,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1078" ;
+        c:prefix     "her grandparents James and Gerry Hand; " ;
+        c:subject    <http://d.opencalais.com/pershash-1/68ca2e80-5556-3a48-ada3-d2e3463a52c1> ;
+        c:suffix     " Uncle James Bud Hand, her nephew Stetson Roper," .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Instance/44>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[be 2:00 p.m. Saturday, January 26, 2013, at the ]Mooreland Cemetery[ with Pastor David Houchin officiating. Interment]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:exact      "Mooreland Cemetery" ;
+        c:length     "18" ;
+        c:offset     "101" ;
+        c:prefix     "be 2:00 p.m. Saturday, January 26, 2013, at the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/715fce02-21e8-33c1-a75a-e9e86ddedcb7> ;
+        c:suffix     " with Pastor David Houchin officiating. Interment" .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Relevance/8>
+        a                <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId          <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:relevance      "0.2" ;
+        c:relevancecont  "0.03" ;
+        c:subject        <http://d.opencalais.com/comphash-1/85f13b84-76a8-3606-af11-d8ba4375d5bf> .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Instance/16>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and Gage Cottingham; her grandparents James and ]Gerry Hand[; her Uncle James Bud Hand, her nephew Stetson]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:exact      "Gerry Hand" ;
+        c:length     "10" ;
+        c:offset     "1066" ;
+        c:prefix     "and Gage Cottingham; her grandparents James and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b16011e4-6f50-3dce-9a3c-5db038fcd244> ;
+        c:suffix     "; her Uncle James Bud Hand, her nephew Stetson" .
+
+<http://d.opencalais.com/conf/pershash-1/68ca2e80-5556-3a48-ada3-d2e3463a52c1>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.942" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.918" ;
+        c:subject             <http://d.opencalais.com/pershash-1/68ca2e80-5556-3a48-ada3-d2e3463a52c1> .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/lid/DefaultLangId>
+        a                    <http://s.opencalais.com/1/type/lid/DefaultLangId> ;
+        c:docId              <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:forenduserdisplay  "false" ;
+        c:lang               <http://d.opencalais.com/lid/DefaultLangId/English> ;
+        c:permid             "505062" .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Relevance/15>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/fd4a8b5b-dd3c-34ac-aafe-0e06310da936> .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Instance/57>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[her mother, Michelle Cottingham, of Mooreland; ]her[ father, James Cottingham, of Santa Maria,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "851" ;
+        c:prefix     "her mother, Michelle Cottingham, of Mooreland; " ;
+        c:subject    <http://d.opencalais.com/pershash-1/89515b0c-9d09-3f61-8da8-2c49be27ae2f> ;
+        c:suffix     " father, James Cottingham, of Santa Maria," .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Instance/29>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[26, 2013, at the Mooreland Cemetery with Pastor ]David Houchin[ officiating. Interment is under the direction of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:exact      "David Houchin" ;
+        c:length     "13" ;
+        c:offset     "132" ;
+        c:prefix     "26, 2013, at the Mooreland Cemetery with Pastor " ;
+        c:subject    <http://d.opencalais.com/pershash-1/d8791a08-7e46-318a-805c-faf252886874> ;
+        c:suffix     " officiating. Interment is under the direction of" .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/ComponentVersions>
+        a          <http://s.opencalais.com/1/type/sys/ComponentVersions> ;
+        c:docId    <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:version  "config-sca-DataPackage:34:34" , "SpanishIM:OneCalais_8.3-RELEASE:198" , "Deals Index:201505261718:201505261718" , "config-physicalAssets-ports:258:258" , "OneCalaisIM:OneCalais_8.3-RELEASE:198" , "BrokerResearchIM:OneCalais_8.3-RELEASE:198" , "config-refineries:258:258" , "config-cse:271:271" , "FrenchIM:OneCalais_8.3-RELEASE:198" , "OneCalais:OneCalais_8.3-RELEASE:364" , "SocialTags Index:201505191038:201505191038" , "WatchDog:OneCalais_8.3-RELEASE:113" , "BlackList:264:264" , "AutocoderRuntimeIM:OneCalais_8.3-RELEASE:198" , "Dial4J:OneCalais_8.3-RELEASE:198" , "config-vessels:258:258" , "OA Index:201505252208:201505252208" , "People Override:258:258" , "SECHeaderMetadataIM:OneCalais_8.3-RELEASE:198" , "Collector:OneCalais_8.3-RELEASE:113" , "config-drugs:258:258" , "People Index:201505261608:201505261608" , "OA Override:271:271" , "config-negativeSignature:258:258" , "Housekeeper:OneCalais_8.3-RELEASE:113" , "index-vessels:201505231718:201505231718" , "NextTags:OneCalais_8.3-RELEASE:113" , "com.clearforest.infoext.dial4j.plugins-basistechconfig:OneCalais_8.3-RELEASE:225" .
+
+<http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205>
+        a                    <http://s.opencalais.com/1/type/em/e/Company> ;
+        c:confidencelevel    "0.684" ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Waynoka LLC" ;
+        c:nationality        "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/53b0abb2-9254-350f-8582-1012cc57cec7>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "daughter" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/89515b0c-9d09-3f61-8da8-2c49be27ae2f> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/4894606f-4c53-3e69-ae58-3b7b37efa305> .
+
+<http://d.opencalais.com/pershash-1/89515b0c-9d09-3f61-8da8-2c49be27ae2f>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Michelle Rene Cottingham" ;
+        c:confidencelevel    "0.999" ;
+        c:firstname          "Michelle" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Cottingham" ;
+        c:middlename         "Rene" ;
+        c:name               "Michelle Rene (Hand) Cottingham" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Relevance/2>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/7ac897b0-e10f-36cc-a534-a4228a1028bc> .
+
+<http://d.opencalais.com/genericHasher-1/096a73ce-884f-33d7-9375-ac1c8ec74b16>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Colorado" .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Instance/10>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ officiating. Interment is under the direction of ]Marshall Funeral Home of Waynoka[, LLC.    \nDevann Maunee Cottingham, daughter of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:exact      "Marshall Funeral Home of Waynoka" ;
+        c:length     "32" ;
+        c:offset     "195" ;
+        c:prefix     " officiating. Interment is under the direction of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/84bb0714-85ab-39de-a7e7-f1ad2e79292b> ;
+        c:suffix     ", LLC.    \nDevann Maunee Cottingham, daughter of" .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Instance/51>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ James Cottingham, was born July 5, 1990, Denver, ]Colorado[, and passed away January 24, 2013, at her home]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:exact      "Colorado" ;
+        c:length     "8" ;
+        c:offset     "361" ;
+        c:prefix     " James Cottingham, was born July 5, 1990, Denver, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/096a73ce-884f-33d7-9375-ac1c8ec74b16> ;
+        c:suffix     ", and passed away January 24, 2013, at her home" .
+
+<http://d.opencalais.com/conf/pershash-1/dec37fbb-e66c-3e3f-8579-e7c459796680>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.992" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.995" ;
+        c:subject             <http://d.opencalais.com/pershash-1/dec37fbb-e66c-3e3f-8579-e7c459796680> .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Instance/23>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Marshall Funeral Home of Waynoka, LLC.    \n]Devann Maunee Cottingham, daughter of Michelle Rene (Hand) Cottingham and James Cottingham[, was born July 5, 1990, Denver, Colorado, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:exact      "Devann Maunee Cottingham, daughter of Michelle Rene (Hand) Cottingham and James Cottingham" ;
+        c:length     "90" ;
+        c:offset     "238" ;
+        c:prefix     "of Marshall Funeral Home of Waynoka, LLC.    \n" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c520879e-b202-36b3-b659-e0f87d2a9b85> ;
+        c:suffix     ", was born July 5, 1990, Denver, Colorado, and" .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Relevance/22>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/096a73ce-884f-33d7-9375-ac1c8ec74b16> .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Instance/36>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in our life is a gift we will never forget.    \n]Devann[ is survived by her mother, Michelle Cottingham,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:exact      "Devann" ;
+        c:length     "6" ;
+        c:offset     "782" ;
+        c:prefix     "in our life is a gift we will never forget.    \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/ca58d220-6a9e-3436-b231-9c97f5f588d3> ;
+        c:suffix     " is survived by her mother, Michelle Cottingham," .
+
+<http://d.opencalais.com/genericHasher-1/84bb0714-85ab-39de-a7e7-f1ad2e79292b>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Marshall Funeral Home of Waynoka" .
+
+<http://d.opencalais.com/pershash-1/4894606f-4c53-3e69-ae58-3b7b37efa305>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "James Cottingham" ;
+        c:confidencelevel    "0.996" ;
+        c:firstname          "James" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Cottingham" ;
+        c:name               "James Cottingham" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/pershash-1/ca58d220-6a9e-3436-b231-9c97f5f588d3>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Devann Maunee Cottingham" ;
+        c:confidencelevel    "0.85" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Devann Maunee Cottingham" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/9679b237-33e8-3478-ba13-d9af3c4b943e>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "California" .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Instance/49>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Marshall Funeral Home of Waynoka, LLC.    \n]Devann Maunee Cottingham, daughter of Michelle Rene (Hand) Cottingham and James Cottingham[, was born July 5, 1990, Denver, Colorado, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:exact      "Devann Maunee Cottingham, daughter of Michelle Rene (Hand) Cottingham and James Cottingham" ;
+        c:length     "90" ;
+        c:offset     "238" ;
+        c:prefix     "of Marshall Funeral Home of Waynoka, LLC.    \n" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/53b0abb2-9254-350f-8582-1012cc57cec7> ;
+        c:suffix     ", was born July 5, 1990, Denver, Colorado, and" .
+
+<http://d.opencalais.com/conf/pershash-1/7ac897b0-e10f-36cc-a534-a4228a1028bc>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/7ac897b0-e10f-36cc-a534-a4228a1028bc> .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a>
+        a                  <http://s.opencalais.com/1/type/sys/DocInfo> ;
+        c:calaisRequestID  "89ad612a-af2c-9a59-14d9-144058112501" ;
+        c:docDate          "2015-05-26 17:27:44.012" ;
+        c:docTitle         "" ;
+        c:document         "Graveside services for Devann Maunee Cottingham will be 2:00 p.m. Saturday, January 26, 2013, at the Mooreland Cemetery with Pastor David Houchin officiating. Interment is under the direction of Marshall Funeral Home of Waynoka, LLC.    \nDevann Maunee Cottingham, daughter of Michelle Rene (Hand) Cottingham and James Cottingham, was born July 5, 1990, Denver, Colorado, and passed away January 24, 2013, at her home in Mooreland, Oklahoma, at the age of 22 years, 6 months, and 19 days.    \nDevann graduated from Mooreland High School. She enjoyed laughter, music, lights, balloons, dancing, school and hanging with her best friend Sydney.  In the short time Devann was in our lives she touched our hearts and souls and her presence in our life is a gift we will never forget.    \nDevann is survived by her mother, Michelle Cottingham, of Mooreland; her father, James Cottingham, of Santa Maria, California and Tim Farrar of Tupelo, Mississippi; sister, Brookee Lynn Cottingham-Roper, two brothers, Garret Cottingham and Gage Cottingham; her grandparents James and Gerry Hand; her Uncle James Bud Hand, her nephew Stetson Roper, her niece Jalynn Roper and her best friend, Sydney Rienhart; other many relatives and friends.    \nMemorial contributions may be made through the funeral home or Central National Bank of Enid in Mooreland for funeral expenses. \n\t\t\t" ;
+        c:id               "http://id.opencalais.com/hry5GJaR8tbL7bbGMHnLDA" ;
+        c:ontology         "http://163.231.4.65/owlschema/8.3/onecalais.owl.allmetadata.xml" .
+
+<http://d.opencalais.com/genericHasher-1/c520879e-b202-36b3-b659-e0f87d2a9b85>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "daughter" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/89515b0c-9d09-3f61-8da8-2c49be27ae2f> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/ca58d220-6a9e-3436-b231-9c97f5f588d3> .
+
+<http://d.opencalais.com/genericHasher-1/2aae2a7b-3a36-3368-8037-3a14c6530131>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Mooreland, Oklahoma" ;
+        c:person             <http://d.opencalais.com/pershash-1/89515b0c-9d09-3f61-8da8-2c49be27ae2f> .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Instance/30>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Graveside services for ]Devann Maunee Cottingham[ will be 2:00 p.m. Saturday, January 26, 2013, at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:exact      "Devann Maunee Cottingham" ;
+        c:length     "24" ;
+        c:offset     "23" ;
+        c:prefix     "Graveside services for " ;
+        c:subject    <http://d.opencalais.com/pershash-1/ca58d220-6a9e-3436-b231-9c97f5f588d3> ;
+        c:suffix     " will be 2:00 p.m. Saturday, January 26, 2013, at" .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Instance/4>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and Gage Cottingham; her grandparents James and ]Gerry Hand[; her Uncle James Bud Hand, her nephew Stetson]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:exact      "Gerry Hand" ;
+        c:length     "10" ;
+        c:offset     "1066" ;
+        c:prefix     "and Gage Cottingham; her grandparents James and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/68ca2e80-5556-3a48-ada3-d2e3463a52c1> ;
+        c:suffix     "; her Uncle James Bud Hand, her nephew Stetson" .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Instance/43>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Cottingham and Gage Cottingham; her grandparents ]James[ and Gerry Hand; her Uncle James Bud Hand, her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:exact      "James" ;
+        c:length     "5" ;
+        c:offset     "1056" ;
+        c:prefix     " Cottingham and Gage Cottingham; her grandparents " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/22daaf27-f2b2-311b-861e-ac3eedc24774> ;
+        c:suffix     " and Gerry Hand; her Uncle James Bud Hand, her" .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Relevance/7>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/3ad63a0a-8d71-34f7-b9d8-a4ce2ba16987> .
+
+<http://d.opencalais.com/comphash-1/c658ba37-38d5-3d22-b237-9894c6db4fc9>
+        a                    <http://s.opencalais.com/1/type/em/e/Company> ;
+        c:confidencelevel    "0.659" ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Central National Bank of Enid" ;
+        c:nationality        "N/A" .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Instance/15>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ James Cottingham, of Santa Maria, California and ]Tim Farrar[ of Tupelo, Mississippi; sister, Brookee Lynn]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:exact      "Tim Farrar" ;
+        c:length     "10" ;
+        c:offset     "912" ;
+        c:prefix     " James Cottingham, of Santa Maria, California and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/3ad63a0a-8d71-34f7-b9d8-a4ce2ba16987> ;
+        c:suffix     " of Tupelo, Mississippi; sister, Brookee Lynn" .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Relevance/14>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/pershash-1/ca58d220-6a9e-3436-b231-9c97f5f588d3> .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Instance/56>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[forget.    \nDevann is survived by her mother, ]Michelle Cottingham[, of Mooreland; her father, James Cottingham, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:exact      "Michelle Cottingham" ;
+        c:length     "19" ;
+        c:offset     "816" ;
+        c:prefix     "forget.    \nDevann is survived by her mother, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/89515b0c-9d09-3f61-8da8-2c49be27ae2f> ;
+        c:suffix     ", of Mooreland; her father, James Cottingham, of" .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Instance/28>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[her niece Jalynn Roper and her best friend, ]Sydney Rienhart[; other many relatives and friends.    \nMemorial]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:exact      "Sydney Rienhart" ;
+        c:length     "15" ;
+        c:offset     "1174" ;
+        c:prefix     "her niece Jalynn Roper and her best friend, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/dec37fbb-e66c-3e3f-8579-e7c459796680> ;
+        c:suffix     "; other many relatives and friends.    \nMemorial" .
+
+<http://d.opencalais.com/pershash-1/fd4a8b5b-dd3c-34ac-aafe-0e06310da936>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "James Bud Hand" ;
+        c:confidencelevel    "0.936" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "James Bud Hand" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/e088028d-cdce-c4fa-c28a-cf7a54cc36b7>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:latitude            "39.0473491002" ;
+        c:longitude           "-105.465397491" ;
+        c:name                "Colorado,United States" ;
+        c:permid              "100068" ;
+        c:rcscode             "G:7C" ;
+        c:shortname           "Colorado" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/096a73ce-884f-33d7-9375-ac1c8ec74b16> .
+
+<http://d.opencalais.com/pershash-1/3ad63a0a-8d71-34f7-b9d8-a4ce2ba16987>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Tim Farrar" ;
+        c:confidencelevel    "0.983" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Tim Farrar" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Relevance/1>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/d9dac85b-975d-3e65-a16b-5231524c8e17> .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Instance/50>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[her father, James Cottingham, of Santa Maria, ]California[ and Tim Farrar of Tupelo, Mississippi; sister,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:exact      "California" ;
+        c:length     "10" ;
+        c:offset     "897" ;
+        c:prefix     "her father, James Cottingham, of Santa Maria, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9679b237-33e8-3478-ba13-d9af3c4b943e> ;
+        c:suffix     " and Tim Farrar of Tupelo, Mississippi; sister," .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Instance/22>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ funeral home or Central National Bank of Enid in ]Mooreland[ for funeral expenses.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:exact      "Mooreland" ;
+        c:length     "9" ;
+        c:offset     "1325" ;
+        c:prefix     " funeral home or Central National Bank of Enid in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e9882a3d-9d77-3624-970e-95aebbda4e8f> ;
+        c:suffix     " for funeral expenses." .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Relevance/21>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9679b237-33e8-3478-ba13-d9af3c4b943e> .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Instance/35>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[with her best friend Sydney.  In the short time ]Devann[ was in our lives she touched our hearts and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:exact      "Devann" ;
+        c:length     "6" ;
+        c:offset     "660" ;
+        c:prefix     "with her best friend Sydney.  In the short time " ;
+        c:subject    <http://d.opencalais.com/pershash-1/ca58d220-6a9e-3436-b231-9c97f5f588d3> ;
+        c:suffix     " was in our lives she touched our hearts and" .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Instance/9>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[LLC.    \nDevann Maunee Cottingham, daughter of ]Michelle Rene (Hand) Cottingham and James Cottingham, was born July 5, 1990, Denver, Colorado, and passed away January 24, 2013, at her home in Mooreland, Oklahoma[, at the age of 22 years, 6 months, and 19 days. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:exact      "Michelle Rene (Hand) Cottingham and James Cottingham, was born July 5, 1990, Denver, Colorado, and passed away January 24, 2013, at her home in Mooreland, Oklahoma" ;
+        c:length     "163" ;
+        c:offset     "276" ;
+        c:prefix     "LLC.    \nDevann Maunee Cottingham, daughter of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/2aae2a7b-3a36-3368-8037-3a14c6530131> ;
+        c:suffix     ", at the age of 22 years, 6 months, and 19 days. " .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Instance/48>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Santa Maria, California and Tim Farrar of ]Tupelo[, Mississippi; sister, Brookee Lynn]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:exact      "Tupelo" ;
+        c:length     "6" ;
+        c:offset     "926" ;
+        c:prefix     "of Santa Maria, California and Tim Farrar of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0d1312d9-0ff4-3dd4-8128-601b8cd60656> ;
+        c:suffix     ", Mississippi; sister, Brookee Lynn" .
+
+<http://d.opencalais.com/genericHasher-1/715fce02-21e8-33c1-a75a-e9e86ddedcb7>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Mooreland Cemetery" .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Relevance/19>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/715fce02-21e8-33c1-a75a-e9e86ddedcb7> .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/e9e27c26-4013-8712-a5f0-97dcdc412c26>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:latitude            "35.5607802899" ;
+        c:longitude           "-96.8460570462" ;
+        c:name                "Oklahoma,United States" ;
+        c:permid              "100229" ;
+        c:rcscode             "G:9H" ;
+        c:shortname           "Oklahoma" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/1eb93d07-54ab-6795-ca9d-cb847945b9aa>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Colorado" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:latitude            "39.7392" ;
+        c:longitude           "-104.9842" ;
+        c:name                "Denver,Colorado,United States" ;
+        c:rcscode             "G:10E" ;
+        c:shortname           "Denver" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/d9dac85b-975d-3e65-a16b-5231524c8e17> .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Instance/3>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[her grandparents James and Gerry Hand; ]her Uncle James Bud Hand[, her nephew Stetson Roper, her niece Jalynn]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:exact      "her Uncle James Bud Hand" ;
+        c:length     "24" ;
+        c:offset     "1078" ;
+        c:prefix     "her grandparents James and Gerry Hand; " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/cbf8a0e7-f3db-39dc-a743-6ff5319cfb45> ;
+        c:suffix     ", her nephew Stetson Roper, her niece Jalynn" .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Instance/42>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Maria, California and Tim Farrar of Tupelo, ]Mississippi[; sister, Brookee Lynn Cottingham-Roper, two]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:exact      "Mississippi" ;
+        c:length     "11" ;
+        c:offset     "934" ;
+        c:prefix     "Maria, California and Tim Farrar of Tupelo, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/18865315-a051-30a9-81cb-1257cbdb98e5> ;
+        c:suffix     "; sister, Brookee Lynn Cottingham-Roper, two" .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Relevance/6>
+        a                <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId          <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:relevance      "0.2" ;
+        c:relevancecont  "0.03" ;
+        c:subject        <http://d.opencalais.com/comphash-1/c658ba37-38d5-3d22-b237-9894c6db4fc9> .
+
+<http://d.opencalais.com/pershash-1/bc55f540-cfb8-36c3-a5d2-a8e33fc25ae2>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Brookee Lynn Cottingham-Roper" ;
+        c:confidencelevel    "0.934" ;
+        c:firstname          "Brookee" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Lynn Cottingham-Roper" ;
+        c:name               "Brookee Lynn Cottingham-Roper" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Instance/14>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[daughter of Michelle Rene (Hand) Cottingham and ]James Cottingham, was born July 5, 1990[, Denver, Colorado, and passed away January 24,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:exact      "James Cottingham, was born July 5, 1990" ;
+        c:length     "39" ;
+        c:offset     "312" ;
+        c:prefix     "daughter of Michelle Rene (Hand) Cottingham and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/2a448766-4c2c-361c-975a-8481666c8207> ;
+        c:suffix     ", Denver, Colorado, and passed away January 24," .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Instance/55>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[LLC.    \nDevann Maunee Cottingham, daughter of ]Michelle Rene (Hand) Cottingham[ and James Cottingham, was born July 5, 1990,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:exact      "Michelle Rene (Hand) Cottingham" ;
+        c:length     "31" ;
+        c:offset     "276" ;
+        c:prefix     "LLC.    \nDevann Maunee Cottingham, daughter of " ;
+        c:subject    <http://d.opencalais.com/pershash-1/89515b0c-9d09-3f61-8da8-2c49be27ae2f> ;
+        c:suffix     " and James Cottingham, was born July 5, 1990," .
+
+<http://d.opencalais.com/conf/pershash-1/d8791a08-7e46-318a-805c-faf252886874>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/d8791a08-7e46-318a-805c-faf252886874> .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Relevance/13>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/d8791a08-7e46-318a-805c-faf252886874> .
+
+<http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oklahoma" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/94adf79d-053a-52f1-fe19-52bd40ed5d15>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:latitude            "32.9905984827" ;
+        c:longitude           "-89.5261187442" ;
+        c:name                "Mississippi,United States" ;
+        c:permid              "100189" ;
+        c:rcscode             "G:4Z" ;
+        c:shortname           "Mississippi" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/18865315-a051-30a9-81cb-1257cbdb98e5> .
+
+<http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a/Instance/27>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ dancing, school and hanging with her best friend ]Sydney[.  In the short time Devann was in our lives she]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7efdeeee-c708-39b0-b82e-6e60446e4f6a> ;
+        c:exact      "Sydney" ;
+        c:length     "6" ;
+        c:offset     "633" ;
+        c:prefix     " dancing, school and hanging with her best friend " ;
+        c:subject    <http://d.opencalais.com/pershash-1/dec37fbb-e66c-3e3f-8579-e7c459796680> ;
+        c:suffix     ".  In the short time Devann was in our lives she" .

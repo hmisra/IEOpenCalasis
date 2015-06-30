@@ -1,0 +1,2338 @@
+#Relations: FamilyRelation, PersonAttributes, PersonLocation, PersonRelation
+#City: Amarillo, Dodge City, Elmore City, Fritz, Lamont, Pampa
+#Facility: Alva Municipal Cemetery, Marshall Funeral Home Chapel, Marshall Funeral Home of Alva
+#IndustryTerm: Funeral services
+#Organization: Christian Church
+#Person: Ada Cheslic, Al Perks, Betty Anderson, Bobby Joe, Bud, Danny, Darlene, Dean Harding, Debbie, Janie, Leonard Harding, Linda, Martha (Hacker) Harding, Melvin Harding, Mike, Nici, Nick, Norma Swallow, Norman Silvanis Perks, Ramona Muegge, Ray Perks, Rick Perks, Roy Perks, Ruby Alice Perks, Sherry Kirkpatrick, Verda
+#ProvinceOrState: Kansas, Oklahoma, Texas, Woods County
+@prefix c:     <http://s.opencalais.com/1/pred/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/81>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[sons; Al Perks and his wife, Linda, of Alva, ]Rick Perks and his wife, Debbie[, of Alva, Ray Perks and his wife, Nici, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Rick Perks and his wife, Debbie" ;
+        c:length     "31" ;
+        c:offset     "1167" ;
+        c:prefix     "sons; Al Perks and his wife, Linda, of Alva, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ec24f4df-8d9a-3a14-8531-8fc1403a605a> ;
+        c:suffix     ", of Alva, Ray Perks and his wife, Nici, of" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/60>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[his wife, Nici, of Chickasha, and Roy Perks and ]his wife, Darlene[, of Alva; two daughters, Norma Swallow and her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "his wife, Darlene" ;
+        c:length     "17" ;
+        c:offset     "1271" ;
+        c:prefix     "his wife, Nici, of Chickasha, and Roy Perks and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/33dc741c-64ac-356d-a16c-f07f366f0b0a> ;
+        c:suffix     ", of Alva; two daughters, Norma Swallow and her" .
+
+<http://d.opencalais.com/genericHasher-1/0ae0e18d-d3ad-3361-8ffe-68d3b2d38136>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Amarillo" ;
+        c:person             <http://d.opencalais.com/pershash-1/6ea716ea-1651-39d0-aa18-629ec1e90ded> .
+
+<http://d.opencalais.com/conf/pershash-1/650f1cb1-9969-333e-b49f-a263cc936257>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.97" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.971" ;
+        c:subject             <http://d.opencalais.com/pershash-1/650f1cb1-9969-333e-b49f-a263cc936257> .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/39>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Alva; two daughters, Norma Swallow and ]her[ husband, Bud, of Elmore City, and Sherry]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1332" ;
+        c:prefix     "of Alva; two daughters, Norma Swallow and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f27a4b3b-fadc-3c4b-97e8-d41e08c08339> ;
+        c:suffix     " husband, Bud, of Elmore City, and Sherry" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/8e2786d6-87a6-2798-a4f1-213d2d3500c3>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:latitude            "34.6233333333" ;
+        c:longitude           "-97.3958333333" ;
+        c:name                "Elmore City,Oklahoma,United States" ;
+        c:shortname           "Elmore City" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/c7c81c03-c5b7-3c63-b292-77ec611d0f43> .
+
+<http://d.opencalais.com/genericHasher-1/5a6ef736-9af4-399b-a967-95f28a0a570d>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "wife" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/540fbad5-ba50-3d39-b6db-ff55648350c3> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/e2dfb4d0-276c-38b9-aeae-352cddddc10d> .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/18>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[surviving are two brothers, Dean Harding and ]his wife, Janie, of Amarillo, Texas[, and Leonard Harding and his wife, Verda, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "his wife, Janie, of Amarillo, Texas" ;
+        c:length     "35" ;
+        c:offset     "1476" ;
+        c:prefix     "surviving are two brothers, Dean Harding and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/640517e6-0a4e-36f6-b583-e6d20283b480> ;
+        c:suffix     ", and Leonard Harding and his wife, Verda, of" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/9>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and his wife, Linda, of Alva, Rick Perks and ]his wife, Debbie[, of Alva, Ray Perks and his wife, Nici, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "his wife, Debbie" ;
+        c:length     "16" ;
+        c:offset     "1182" ;
+        c:prefix     "and his wife, Linda, of Alva, Rick Perks and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/fb071f3d-34e8-3163-8c3b-c4638fcbe199> ;
+        c:suffix     ", of Alva, Ray Perks and his wife, Nici, of" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Relevance/28>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/31df13df-2df9-3474-b746-f7db65d04ea3> .
+
+<http://d.opencalais.com/pershash-1/3055b414-90f8-36f9-9108-6d9f99cf404c>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Ramona Muegge" ;
+        c:confidencelevel    "0.992" ;
+        c:firstname          "Ramona" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Muegge" ;
+        c:name               "Ramona Muegge" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/pershash-1/802f826c-58b5-3061-873c-f88924698a16>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Bobby Joe" ;
+        c:confidencelevel    "0.998" ;
+        c:firstname          "Bobby" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Joe" ;
+        c:name               "Bobby Joe" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Relevance/6>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/91a478c8-61ce-3bc5-9eb4-895c0e2b51d3> .
+
+<http://d.opencalais.com/conf/pershash-1/24378def-3d83-3d7b-aac0-86a088ddad16>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.983" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.99" ;
+        c:subject             <http://d.opencalais.com/pershash-1/24378def-3d83-3d7b-aac0-86a088ddad16> .
+
+<http://d.opencalais.com/genericHasher-1/c0b1ec6d-63a9-3a6f-92ae-5a7318f5827a>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Elmore City" ;
+        c:person             <http://d.opencalais.com/pershash-1/91a478c8-61ce-3bc5-9eb4-895c0e2b51d3> .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/89>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and his wife, Janie, of Amarillo, Texas, and ]Leonard Harding and his wife, Verda, of Fritz, Texas[; three sisters, Ada Cheslic of Alva, Betty]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Leonard Harding and his wife, Verda, of Fritz, Texas" ;
+        c:length     "52" ;
+        c:offset     "1517" ;
+        c:prefix     "and his wife, Janie, of Amarillo, Texas, and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/66125f33-c3c6-3e77-b399-317190be13bd> ;
+        c:suffix     "; three sisters, Ada Cheslic of Alva, Betty" .
+
+<http://d.opencalais.com/pershash-1/b27cbbf7-1a35-3f75-8dcb-4fdb10db69df>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Nick" ;
+        c:confidencelevel    "0.932" ;
+        c:firstname          "Nick" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Nick" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/68>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and Ramona Muegge and her husband, Mike, of ]Lamont[, Oklahoma; 16 grandchildren; 25 great]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Lamont" ;
+        c:length     "6" ;
+        c:offset     "1683" ;
+        c:prefix     "and Ramona Muegge and her husband, Mike, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e5daaf45-9c88-3ecb-90ba-48770408b69f> ;
+        c:suffix     ", Oklahoma; 16 grandchildren; 25 great" .
+
+<http://d.opencalais.com/pershash-1/c2fdd5a4-841d-3ac8-85ec-1c94bfa9993f>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Verda" ;
+        c:confidencelevel    "0.914" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Verda" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/pershash-1/1c802920-92da-3a5e-b514-7cdc3fbee170>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Melvin Harding" ;
+        c:confidencelevel    "0.928" ;
+        c:firstname          "Martha" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Harding" ;
+        c:name               "Melvin Harding" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/47>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[born: Al, Rick, Ray, Roy, Bobby Joe, Norma, and ]Sherry[.  She cleaned houses and offices and a laundry]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Sherry" ;
+        c:length     "6" ;
+        c:offset     "699" ;
+        c:prefix     "born: Al, Rick, Ray, Roy, Bobby Joe, Norma, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9eceed4f-f1af-3c80-b6f1-71a3b2dbedc8> ;
+        c:suffix     ".  She cleaned houses and offices and a laundry" .
+
+<http://d.opencalais.com/pershash-1/31df13df-2df9-3474-b746-f7db65d04ea3>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Danny" ;
+        c:confidencelevel    "0.962" ;
+        c:firstname          "Danny" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Danny" ;
+        c:nationality        "N/A" ;
+        c:persontype         "sports" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/26>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Funeral Home Chapel.  Interment will be in the ]Alva Municipal Cemetery[ under the direction of Marshall Funeral Home of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Alva Municipal Cemetery" ;
+        c:length     "23" ;
+        c:offset     "148" ;
+        c:prefix     "Funeral Home Chapel.  Interment will be in the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8eade039-a4ea-3277-86f0-dccd360f428f> ;
+        c:suffix     " under the direction of Marshall Funeral Home of" .
+
+<http://d.opencalais.com/pershash-1/9e708aa7-5875-3f0a-a109-6e25415f18d3>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Leonard Harding" ;
+        c:confidencelevel    "0.992" ;
+        c:firstname          "Leonard" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Harding" ;
+        c:name               "Leonard Harding" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Relevance/36>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/6af6da7b-ff84-340d-98b8-8861650aca60> .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347>
+        a                  <http://s.opencalais.com/1/type/sys/DocInfo> ;
+        c:calaisRequestID  "faa0422a-6029-a8b1-14d9-13a995912501" ;
+        c:docDate          "2015-05-26 17:17:26.601" ;
+        c:docTitle         "" ;
+        c:document         "Funeral services for Ruby Alice Perks, 83, will be 2:00 p.m. Tuesday, October 10,  2006, at Marshall Funeral Home Chapel.  Interment will be in the Alva Municipal Cemetery under the direction of Marshall Funeral Home of Alva.  \nRuby, daughter of the late Melvin and Martha (Hacker) Harding, was born July 29, 1923, in Woods County, Oklahoma, and passed away October 6, 2006, at her home at the age of 83 years, 2 months, and 7 days.  \nShe attended school in Alva.  On August 4, 1944, she was united in marriage to Norman Silvanis Perks at Dodge City, Kansas.  They  lived most of their married life in the Alva area. To this union seven children were born: Al, Rick, Ray, Roy, Bobby Joe, Norma, and Sherry.  She cleaned houses and offices and a laundry mat for many years.  Ruby enjoyed gardening, watching the birds, and crafting. She also attended the Town and Country Christian Church.  \nBesides her parents and her husband, Norman, she was preceded in death by one son, Bobby Joe; four brothers, Ernest, Noble, Freddy, and Earl; three sisters, Rosie, Opal, and Ruth; and one grandson, Nick.  \nRuby is survived by four sons; Al Perks and his wife, Linda, of Alva, Rick Perks and his wife, Debbie, of Alva, Ray Perks and his wife, Nici, of Chickasha, and Roy Perks and his wife, Darlene, of Alva; two daughters, Norma Swallow and her husband, Bud, of Elmore City, and Sherry Kirkpatrick and her husband, Danny of Guthrie.  \nAlso surviving are two brothers, Dean Harding and his wife, Janie, of Amarillo, Texas, and Leonard Harding and his wife, Verda, of Fritz, Texas; three sisters, Ada Cheslic of Alva, Betty Anderson of Pampa, Texas, and Ramona Muegge and her husband, Mike, of Lamont, Oklahoma; 16 grandchildren; 25 great grandchildren; other relatives and friends.  \nMemorial contributions may be made through the funeral home to help with the funeral expenses. \n\t\t\t" ;
+        c:id               "http://id.opencalais.com/GGd1qSc2OrOMNqPrnGUD7Q" ;
+        c:ontology         "http://163.231.4.65/owlschema/8.3/onecalais.owl.allmetadata.xml" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Relevance/15>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee> .
+
+<http://d.opencalais.com/genericHasher-1/640517e6-0a4e-36f6-b583-e6d20283b480>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "wife" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/df36f803-4a85-3c62-b8fb-7c840cd666dd> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/6ea716ea-1651-39d0-aa18-629ec1e90ded> .
+
+<http://d.opencalais.com/genericHasher-1/89526e2f-0e24-3d26-8d57-c60c33efe3b7>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/650f1cb1-9969-333e-b49f-a263cc936257> , <http://d.opencalais.com/pershash-1/1c802920-92da-3a5e-b514-7cdc3fbee170> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/conf/pershash-1/f27a4b3b-fadc-3c4b-97e8-d41e08c08339>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.958" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.969" ;
+        c:subject             <http://d.opencalais.com/pershash-1/f27a4b3b-fadc-3c4b-97e8-d41e08c08339> .
+
+<http://d.opencalais.com/conf/pershash-1/540fbad5-ba50-3d39-b6db-ff55648350c3>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.983" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.986" ;
+        c:subject             <http://d.opencalais.com/pershash-1/540fbad5-ba50-3d39-b6db-ff55648350c3> .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/97>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[two daughters, Norma Swallow and her husband, ]Bud, of Elmore City[, and Sherry Kirkpatrick and her husband, Danny]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Bud, of Elmore City" ;
+        c:length     "19" ;
+        c:offset     "1345" ;
+        c:prefix     "two daughters, Norma Swallow and her husband, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c0b1ec6d-63a9-3a6f-92ae-5a7318f5827a> ;
+        c:suffix     ", and Sherry Kirkpatrick and her husband, Danny" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/101>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Alva, Rick Perks and his wife, Debbie, of Alva, ]Ray Perks and his wife, Nici[, of Chickasha, and Roy Perks and his wife,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Ray Perks and his wife, Nici" ;
+        c:length     "28" ;
+        c:offset     "1209" ;
+        c:prefix     "Alva, Rick Perks and his wife, Debbie, of Alva, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/5b9078f4-adb3-3ebf-acd3-efa5b291203e> ;
+        c:suffix     ", of Chickasha, and Roy Perks and his wife," .
+
+<http://d.opencalais.com/genericHasher-1/53606d73-9345-3d75-bfaa-da99c1a32c58>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/6ea716ea-1651-39d0-aa18-629ec1e90ded> , <http://d.opencalais.com/pershash-1/df36f803-4a85-3c62-b8fb-7c840cd666dd> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/76>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[union seven children were born: Al, Rick, Ray, ]Roy[, Bobby Joe, Norma, and Sherry.  She cleaned]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Roy" ;
+        c:length     "3" ;
+        c:offset     "672" ;
+        c:prefix     "union seven children were born: Al, Rick, Ray, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/14738b1d-a36d-3089-be6d-39bd9d3ce8c0> ;
+        c:suffix     ", Bobby Joe, Norma, and Sherry.  She cleaned" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/55>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ of Alva.  \nRuby, daughter of the late Melvin and ]Martha (Hacker) Harding[, was born July 29, 1923, in Woods County,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Martha (Hacker) Harding" ;
+        c:length     "23" ;
+        c:offset     "266" ;
+        c:prefix     " of Alva.  \nRuby, daughter of the late Melvin and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/650f1cb1-9969-333e-b49f-a263cc936257> ;
+        c:suffix     ", was born July 29, 1923, in Woods County," .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/34>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Alva, Rick Perks and his wife, Debbie, of ]Alva[, Ray Perks and his wife, Nici, of Chickasha, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "1203" ;
+        c:prefix     "of Alva, Rick Perks and his wife, Debbie, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce> ;
+        c:suffix     ", Ray Perks and his wife, Nici, of Chickasha, and" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/13>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ marriage to Norman Silvanis Perks at Dodge City, ]Kansas[.  They  lived most of their married life in the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Kansas" ;
+        c:length     "6" ;
+        c:offset     "551" ;
+        c:prefix     " marriage to Norman Silvanis Perks at Dodge City, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> ;
+        c:suffix     ".  They  lived most of their married life in the" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/4>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Leonard Harding and his wife, Verda, of Fritz, ]Texas[; three sisters, Ada Cheslic of Alva, Betty]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Texas" ;
+        c:length     "5" ;
+        c:offset     "1564" ;
+        c:prefix     "Leonard Harding and his wife, Verda, of Fritz, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> ;
+        c:suffix     "; three sisters, Ada Cheslic of Alva, Betty" .
+
+<http://d.opencalais.com/genericHasher-1/c7c81c03-c5b7-3c63-b292-77ec611d0f43>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Elmore City" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Relevance/23>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/86e9036f-cceb-3e46-90cf-d064fb82e1d2> .
+
+<http://d.opencalais.com/genericHasher-1/dd8685e5-b88b-32f5-8cb1-a05983fbd523>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Fritz" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Relevance/1>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ce8de128-24bf-3473-ab18-361909e1197d> .
+
+<http://d.opencalais.com/pershash-1/e2dfb4d0-276c-38b9-aeae-352cddddc10d>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Nici" ;
+        c:confidencelevel    "0.769" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Nici" ;
+        c:name               "Nici" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/84>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Anderson of Pampa, Texas, and Ramona Muegge and ]her[ husband, Mike, of Lamont, Oklahoma; 16]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1661" ;
+        c:prefix     "Anderson of Pampa, Texas, and Ramona Muegge and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/3055b414-90f8-36f9-9108-6d9f99cf404c> ;
+        c:suffix     " husband, Mike, of Lamont, Oklahoma; 16" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/63>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Alva, Rick Perks and his wife, Debbie, of Alva, ]Ray Perks[ and his wife, Nici, of Chickasha, and Roy Perks]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Ray Perks" ;
+        c:length     "9" ;
+        c:offset     "1209" ;
+        c:prefix     "Alva, Rick Perks and his wife, Debbie, of Alva, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/540fbad5-ba50-3d39-b6db-ff55648350c3> ;
+        c:suffix     " and his wife, Nici, of Chickasha, and Roy Perks" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/42>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Pampa, Texas, and Ramona Muegge and her husband, ]Mike, of Lamont, Oklahoma[; 16 grandchildren; 25 great grandchildren; other]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Mike, of Lamont, Oklahoma" ;
+        c:length     "25" ;
+        c:offset     "1674" ;
+        c:prefix     " Pampa, Texas, and Ramona Muegge and her husband, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/89fe6313-bbe0-3e3d-8e2b-4e12f7279308> ;
+        c:suffix     "; 16 grandchildren; 25 great grandchildren; other" .
+
+<http://d.opencalais.com/genericHasher-1/7e0d3777-6970-37de-8f5c-069ff681bd8b>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonAttributes> ;
+        c:birthdate          "1923-07-29" ;
+        c:birthplace         <http://d.opencalais.com/genericHasher-1/ce8de128-24bf-3473-ab18-361909e1197d> ;
+        c:forenduserdisplay  "false" ;
+        c:gender             "F" ;
+        c:person             <http://d.opencalais.com/pershash-1/650f1cb1-9969-333e-b49f-a263cc936257> .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/21>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ of Alva.  \nRuby, daughter of the late Melvin and ]Martha (Hacker) Harding, was born July 29, 1923, in Woods County[, Oklahoma, and passed away October 6, 2006, at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Martha (Hacker) Harding, was born July 29, 1923, in Woods County" ;
+        c:length     "64" ;
+        c:offset     "266" ;
+        c:prefix     " of Alva.  \nRuby, daughter of the late Melvin and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/7e0d3777-6970-37de-8f5c-069ff681bd8b> ;
+        c:suffix     ", Oklahoma, and passed away October 6, 2006, at" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Relevance/31>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/14738b1d-a36d-3089-be6d-39bd9d3ce8c0> .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Relevance/10>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0a09ae8f-0456-38fc-b965-ff815c60f9d3> .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Relevance/9>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8eade039-a4ea-3277-86f0-dccd360f428f> .
+
+<http://d.opencalais.com/pershash-1/6ea716ea-1651-39d0-aa18-629ec1e90ded>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Janie" ;
+        c:confidencelevel    "0.914" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Janie" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/92>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ \nRuby is survived by four sons; Al Perks and ]his[ wife, Linda, of Alva, Rick Perks and his wife,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "1141" ;
+        c:prefix     " \nRuby is survived by four sons; Al Perks and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6af6da7b-ff84-340d-98b8-8861650aca60> ;
+        c:suffix     " wife, Linda, of Alva, Rick Perks and his wife," .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/71>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ grandson, Nick.  \nRuby is survived by four sons; ]Al Perks and his wife, Linda[, of Alva, Rick Perks and his wife, Debbie, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Al Perks and his wife, Linda" ;
+        c:length     "28" ;
+        c:offset     "1128" ;
+        c:prefix     " grandson, Nick.  \nRuby is survived by four sons; " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/157fd4b1-58ad-30ff-a5c7-7f5974f59ecf> ;
+        c:suffix     ", of Alva, Rick Perks and his wife, Debbie, of" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/50>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ the Town and Country Christian Church.  \nBesides ]her[ parents and her husband, Norman, she was]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "899" ;
+        c:prefix     " the Town and Country Christian Church.  \nBesides " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9eceed4f-f1af-3c80-b6f1-71a3b2dbedc8> ;
+        c:suffix     " parents and her husband, Norman, she was" .
+
+<http://d.opencalais.com/genericHasher-1/33dc741c-64ac-356d-a16c-f07f366f0b0a>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "wife" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/14738b1d-a36d-3089-be6d-39bd9d3ce8c0> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/6c2de34e-d48d-33f4-896b-e01985cda6d6> .
+
+<http://d.opencalais.com/pershash-1/80865446-6ee1-3cff-b3f8-8d9e09eef8f8>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Rick Perks" ;
+        c:confidencelevel    "0.992" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Rick Perks" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/6af6da7b-ff84-340d-98b8-8861650aca60>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.992" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.994" ;
+        c:subject             <http://d.opencalais.com/pershash-1/6af6da7b-ff84-340d-98b8-8861650aca60> .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/29>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Texas; three sisters, Ada Cheslic of Alva, ]Betty Anderson[ of Pampa, Texas, and Ramona Muegge and her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Betty Anderson" ;
+        c:length     "14" ;
+        c:offset     "1607" ;
+        c:prefix     "Texas; three sisters, Ada Cheslic of Alva, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/24378def-3d83-3d7b-aac0-86a088ddad16> ;
+        c:suffix     " of Pampa, Texas, and Ramona Muegge and her" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Relevance/39>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/dd8685e5-b88b-32f5-8cb1-a05983fbd523> .
+
+<http://d.opencalais.com/genericHasher-1/8eade039-a4ea-3277-86f0-dccd360f428f>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Alva Municipal Cemetery" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Relevance/18>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/1c802920-92da-3a5e-b514-7cdc3fbee170> .
+
+<http://d.opencalais.com/genericHasher-1/ec24f4df-8d9a-3a14-8531-8fc1403a605a>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/ccddf71e-bf34-3796-891d-0b702e50e201> , <http://d.opencalais.com/pershash-1/80865446-6ee1-3cff-b3f8-8d9e09eef8f8> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/genericHasher-1/7cc801d5-8ca3-3300-961f-5d291281daee>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/31df13df-2df9-3474-b746-f7db65d04ea3> , <http://d.opencalais.com/pershash-1/9eceed4f-f1af-3c80-b6f1-71a3b2dbedc8> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/104>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Texas; three sisters, Ada Cheslic of Alva, ]Betty Anderson of Pampa, Texas[, and Ramona Muegge and her husband, Mike, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Betty Anderson of Pampa, Texas" ;
+        c:length     "30" ;
+        c:offset     "1607" ;
+        c:prefix     "Texas; three sisters, Ada Cheslic of Alva, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/6d55f800-e84d-3904-80b4-15a9de34cec7> ;
+        c:suffix     ", and Ramona Muegge and her husband, Mike, of" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/79>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[seven children were born: Al, Rick, Ray, Roy, ]Bobby Joe[, Norma, and Sherry.  She cleaned houses and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Bobby Joe" ;
+        c:length     "9" ;
+        c:offset     "677" ;
+        c:prefix     "seven children were born: Al, Rick, Ray, Roy, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/802f826c-58b5-3061-873c-f88924698a16> ;
+        c:suffix     ", Norma, and Sherry.  She cleaned houses and" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/27e7c242-d3b0-bafd-90e5-8fd9ef4df226>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:latitude            "36.6906" ;
+        c:longitude           "-97.5561" ;
+        c:name                "Lamont,Oklahoma,United States" ;
+        c:shortname           "Lamont" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/e5daaf45-9c88-3ecb-90ba-48770408b69f> .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/58>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[attended school in Alva.  On August 4, 1944, ]she[ was united in marriage to Norman Silvanis Perks]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "484" ;
+        c:prefix     "attended school in Alva.  On August 4, 1944, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/650f1cb1-9969-333e-b49f-a263cc936257> ;
+        c:suffix     " was united in marriage to Norman Silvanis Perks" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/37>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[were born: Al, Rick, Ray, Roy, Bobby Joe, ]Norma[, and Sherry.  She cleaned houses and offices and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Norma" ;
+        c:length     "5" ;
+        c:offset     "688" ;
+        c:prefix     "were born: Al, Rick, Ray, Roy, Bobby Joe, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f27a4b3b-fadc-3c4b-97e8-d41e08c08339> ;
+        c:suffix     ", and Sherry.  She cleaned houses and offices and" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/16>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Christian Church.  \nBesides her parents and ]her husband, Norman[, she was preceded in death by one son, Bobby]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "her husband, Norman" ;
+        c:length     "19" ;
+        c:offset     "915" ;
+        c:prefix     "Christian Church.  \nBesides her parents and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/15be91f2-e63f-3430-b1d0-039ff6c338fb> ;
+        c:suffix     ", she was preceded in death by one son, Bobby" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/7>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[sons; Al Perks and his wife, Linda, of Alva, ]Rick Perks[ and his wife, Debbie, of Alva, Ray Perks and his]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Rick Perks" ;
+        c:length     "10" ;
+        c:offset     "1167" ;
+        c:prefix     "sons; Al Perks and his wife, Linda, of Alva, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/80865446-6ee1-3cff-b3f8-8d9e09eef8f8> ;
+        c:suffix     " and his wife, Debbie, of Alva, Ray Perks and his" .
+
+<http://d.opencalais.com/conf/pershash-1/3055b414-90f8-36f9-9108-6d9f99cf404c>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.992" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.994" ;
+        c:subject             <http://d.opencalais.com/pershash-1/3055b414-90f8-36f9-9108-6d9f99cf404c> .
+
+<http://d.opencalais.com/conf/pershash-1/802f826c-58b5-3061-873c-f88924698a16>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.998" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.995" ;
+        c:subject             <http://d.opencalais.com/pershash-1/802f826c-58b5-3061-873c-f88924698a16> .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Relevance/26>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/6c2de34e-d48d-33f4-896b-e01985cda6d6> .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Relevance/4>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/f3a84e56-ccfe-39f7-88d4-521dd62950c5> .
+
+<http://d.opencalais.com/conf/pershash-1/b27cbbf7-1a35-3f75-8dcb-4fdb10db69df>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.932" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/b27cbbf7-1a35-3f75-8dcb-4fdb10db69df> .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/87>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[was born July 29, 1923, in Woods County, ]Oklahoma[, and passed away October 6, 2006, at her home at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "332" ;
+        c:prefix     "was born July 29, 1923, in Woods County, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", and passed away October 6, 2006, at her home at" .
+
+<http://d.opencalais.com/conf/pershash-1/c2fdd5a4-841d-3ac8-85ec-1c94bfa9993f>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.914" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.932" ;
+        c:subject             <http://d.opencalais.com/pershash-1/c2fdd5a4-841d-3ac8-85ec-1c94bfa9993f> .
+
+<http://d.opencalais.com/conf/pershash-1/1c802920-92da-3a5e-b514-7cdc3fbee170>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.928" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.928" ;
+        c:subject             <http://d.opencalais.com/pershash-1/1c802920-92da-3a5e-b514-7cdc3fbee170> .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/66>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Amarillo, Texas, and Leonard Harding and ]his wife, Verda, of Fritz, Texas[; three sisters, Ada Cheslic of Alva, Betty]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "his wife, Verda, of Fritz, Texas" ;
+        c:length     "32" ;
+        c:offset     "1537" ;
+        c:prefix     "of Amarillo, Texas, and Leonard Harding and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/cba7f4b6-8acc-3e48-9e35-cd3ffc001bb8> ;
+        c:suffix     "; three sisters, Ada Cheslic of Alva, Betty" .
+
+<http://d.opencalais.com/conf/pershash-1/31df13df-2df9-3474-b746-f7db65d04ea3>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.962" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/31df13df-2df9-3474-b746-f7db65d04ea3> .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/45>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and his wife, Janie, of Amarillo, Texas, and ]Leonard Harding[ and his wife, Verda, of Fritz, Texas; three]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Leonard Harding" ;
+        c:length     "15" ;
+        c:offset     "1517" ;
+        c:prefix     "and his wife, Janie, of Amarillo, Texas, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9e708aa7-5875-3f0a-a109-6e25415f18d3> ;
+        c:suffix     " and his wife, Verda, of Fritz, Texas; three" .
+
+<http://d.opencalais.com/conf/pershash-1/9e708aa7-5875-3f0a-a109-6e25415f18d3>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.992" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.994" ;
+        c:subject             <http://d.opencalais.com/pershash-1/9e708aa7-5875-3f0a-a109-6e25415f18d3> .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/24>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and offices and a laundry mat for many years.  ]Ruby[ enjoyed gardening, watching the birds, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Ruby" ;
+        c:length     "4" ;
+        c:offset     "774" ;
+        c:prefix     "and offices and a laundry mat for many years.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b8a2da78-e87d-3b6e-a02d-cf2b9023db27> ;
+        c:suffix     " enjoyed gardening, watching the birds, and" .
+
+<http://d.opencalais.com/pershash-1/1016307d-43b6-3ea4-bff0-d554c1fde054>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Ada Cheslic" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Ada" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Cheslic" ;
+        c:name               "Ada Cheslic" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Relevance/34>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c1e14c20-7ec2-3637-872f-855b5253364e> .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Relevance/13>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce> .
+
+<http://d.opencalais.com/genericHasher-1/ffe3480a-abe7-3145-bdfe-b1e4a35ad4cd>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Marshall Funeral Home Chapel" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/95>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ On August 4, 1944, she was united in marriage to ]Norman Silvanis Perks at Dodge City, Kansas[.  They  lived most of their married life in the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Norman Silvanis Perks at Dodge City, Kansas" ;
+        c:length     "43" ;
+        c:offset     "514" ;
+        c:prefix     " On August 4, 1944, she was united in marriage to " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3650df4a-57ae-3db7-9666-e882339a1d01> ;
+        c:suffix     ".  They  lived most of their married life in the" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/74>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[are two brothers, Dean Harding and his wife, ]Janie, of Amarillo, Texas[, and Leonard Harding and his wife, Verda, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Janie, of Amarillo, Texas" ;
+        c:length     "25" ;
+        c:offset     "1486" ;
+        c:prefix     "are two brothers, Dean Harding and his wife, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0ae0e18d-d3ad-3361-8ffe-68d3b2d38136> ;
+        c:suffix     ", and Leonard Harding and his wife, Verda, of" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/53>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and her husband, Bud, of Elmore City, and ]Sherry Kirkpatrick[ and her husband, Danny of Guthrie.  \nAlso]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Sherry Kirkpatrick" ;
+        c:length     "18" ;
+        c:offset     "1370" ;
+        c:prefix     "and her husband, Bud, of Elmore City, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9eceed4f-f1af-3c80-b6f1-71a3b2dbedc8> ;
+        c:suffix     " and her husband, Danny of Guthrie.  \nAlso" .
+
+<http://d.opencalais.com/genericHasher-1/5b9078f4-adb3-3ebf-acd3-efa5b291203e>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/e2dfb4d0-276c-38b9-aeae-352cddddc10d> , <http://d.opencalais.com/pershash-1/540fbad5-ba50-3d39-b6db-ff55648350c3> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/32>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[2 months, and 7 days.  \nShe attended school in ]Alva[.  On August 4, 1944, she was united in marriage]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "458" ;
+        c:prefix     "2 months, and 7 days.  \nShe attended school in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce> ;
+        c:suffix     ".  On August 4, 1944, she was united in marriage" .
+
+<http://d.opencalais.com/genericHasher-1/157fd4b1-58ad-30ff-a5c7-7f5974f59ecf>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/86e9036f-cceb-3e46-90cf-d064fb82e1d2> , <http://d.opencalais.com/pershash-1/6af6da7b-ff84-340d-98b8-8861650aca60> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/11>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ On August 4, 1944, she was united in marriage to ]Norman Silvanis Perks[ at Dodge City, Kansas.  They  lived most of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Norman Silvanis Perks" ;
+        c:length     "21" ;
+        c:offset     "514" ;
+        c:prefix     " On August 4, 1944, she was united in marriage to " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f3a84e56-ccfe-39f7-88d4-521dd62950c5> ;
+        c:suffix     " at Dodge City, Kansas.  They  lived most of" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/2>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Funeral services for ]Ruby Alice Perks, 83[, will be 2:00 p.m. Tuesday, October 10,  2006,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Ruby Alice Perks, 83" ;
+        c:length     "20" ;
+        c:offset     "21" ;
+        c:prefix     "Funeral services for " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/d395a368-47fd-316a-8018-73a0e70510e7> ;
+        c:suffix     ", will be 2:00 p.m. Tuesday, October 10,  2006," .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Relevance/21>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/650f1cb1-9969-333e-b49f-a263cc936257> .
+
+<http://d.opencalais.com/conf/pershash-1/e2dfb4d0-276c-38b9-aeae-352cddddc10d>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.769" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/e2dfb4d0-276c-38b9-aeae-352cddddc10d> .
+
+<http://d.opencalais.com/pershash-1/6c2de34e-d48d-33f4-896b-e01985cda6d6>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Darlene" ;
+        c:confidencelevel    "0.769" ;
+        c:firstname          "Darlene" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Darlene" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/107>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and his wife, Debbie, of Alva, Ray Perks and ]his wife, Nici[, of Chickasha, and Roy Perks and his wife,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "his wife, Nici" ;
+        c:length     "14" ;
+        c:offset     "1223" ;
+        c:prefix     "and his wife, Debbie, of Alva, Ray Perks and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/5a6ef736-9af4-399b-a967-95f28a0a570d> ;
+        c:suffix     ", of Chickasha, and Roy Perks and his wife," .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/82>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and 7 days.  \nShe attended school in Alva.  ]On August 4, 1944, she was united in marriage to Norman Silvanis Perks[ at Dodge City, Kansas.  They  lived most of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "On August 4, 1944, she was united in marriage to Norman Silvanis Perks" ;
+        c:length     "70" ;
+        c:offset     "465" ;
+        c:prefix     "and 7 days.  \nShe attended school in Alva.  " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/2ca17264-ded5-3069-af9b-4f1d46076e20> ;
+        c:suffix     " at Dodge City, Kansas.  They  lived most of" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/61>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ is survived by four sons; Al Perks and his wife, ]Linda[, of Alva, Rick Perks and his wife, Debbie, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Linda" ;
+        c:length     "5" ;
+        c:offset     "1151" ;
+        c:prefix     " is survived by four sons; Al Perks and his wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/86e9036f-cceb-3e46-90cf-d064fb82e1d2> ;
+        c:suffix     ", of Alva, Rick Perks and his wife, Debbie, of" .
+
+<http://d.opencalais.com/genericHasher-1/9a8e60f9-46a1-3ef3-ab2c-5e9759e11426>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Fritz" ;
+        c:person             <http://d.opencalais.com/pershash-1/c2fdd5a4-841d-3ac8-85ec-1c94bfa9993f> .
+
+<http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Marshall Funeral Home of Alva" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/40>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[]Funeral services[ for Ruby Alice Perks, 83, will be 2:00 p.m.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Funeral services" ;
+        c:length     "16" ;
+        c:offset     "0" ;
+        c:prefix     "" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee> ;
+        c:suffix     " for Ruby Alice Perks, 83, will be 2:00 p.m." .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/19>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Guthrie.  \nAlso surviving are two brothers, ]Dean Harding[ and his wife, Janie, of Amarillo, Texas, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Dean Harding" ;
+        c:length     "12" ;
+        c:offset     "1459" ;
+        c:prefix     "of Guthrie.  \nAlso surviving are two brothers, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/df36f803-4a85-3c62-b8fb-7c840cd666dd> ;
+        c:suffix     " and his wife, Janie, of Amarillo, Texas, and" .
+
+<http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Kansas" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Relevance/29>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/c2fdd5a4-841d-3ac8-85ec-1c94bfa9993f> .
+
+<http://d.opencalais.com/pershash-1/ccddf71e-bf34-3796-891d-0b702e50e201>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Debbie" ;
+        c:confidencelevel    "0.898" ;
+        c:firstname          "Debbie" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Debbie" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/62914270-0a1c-1bcc-880e-6dbe9fb82eb9>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:latitude            "31.4484328889" ;
+        c:longitude           "-97.7816569778" ;
+        c:name                "Texas,United States" ;
+        c:permid              "100299" ;
+        c:rcscode             "G:50" ;
+        c:shortname           "Texas" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Relevance/7>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/df36f803-4a85-3c62-b8fb-7c840cd666dd> .
+
+<http://d.opencalais.com/pershash-1/9eceed4f-f1af-3c80-b6f1-71a3b2dbedc8>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Sherry Kirkpatrick" ;
+        c:confidencelevel    "0.991" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Sherry Kirkpatrick" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/6ea716ea-1651-39d0-aa18-629ec1e90ded>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.914" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.932" ;
+        c:subject             <http://d.opencalais.com/pershash-1/6ea716ea-1651-39d0-aa18-629ec1e90ded> .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/ComponentVersions>
+        a          <http://s.opencalais.com/1/type/sys/ComponentVersions> ;
+        c:docId    <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:version  "SocialTags Index:201505191038:201505191038" , "Collector:OneCalais_8.3-RELEASE:113" , "AutocoderRuntimeIM:OneCalais_8.3-RELEASE:198" , "WatchDog:OneCalais_8.3-RELEASE:113" , "config-vessels:258:258" , "config-drugs:258:258" , "Housekeeper:OneCalais_8.3-RELEASE:113" , "SpanishIM:OneCalais_8.3-RELEASE:198" , "Deals Index:201505261613:201505261613" , "index-vessels:201505231718:201505231718" , "People Override:258:258" , "config-refineries:258:258" , "Dial4J:OneCalais_8.3-RELEASE:198" , "BlackList:264:264" , "config-cse:271:271" , "People Index:201505261608:201505261608" , "BrokerResearchIM:OneCalais_8.3-RELEASE:198" , "OA Override:271:271" , "OneCalais:OneCalais_8.3-RELEASE:364" , "config-sca-DataPackage:34:34" , "config-negativeSignature:258:258" , "FrenchIM:OneCalais_8.3-RELEASE:198" , "com.clearforest.infoext.dial4j.plugins-basistechconfig:OneCalais_8.3-RELEASE:225" , "SECHeaderMetadataIM:OneCalais_8.3-RELEASE:198" , "OA Index:201505252208:201505252208" , "NextTags:OneCalais_8.3-RELEASE:113" , "OneCalaisIM:OneCalais_8.3-RELEASE:198" , "config-physicalAssets-ports:258:258" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/90>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[area. To this union seven children were born: ]Al[, Rick, Ray, Roy, Bobby Joe, Norma, and Sherry. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Al" ;
+        c:length     "2" ;
+        c:offset     "657" ;
+        c:prefix     "area. To this union seven children were born: " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6af6da7b-ff84-340d-98b8-8861650aca60> ;
+        c:suffix     ", Rick, Ray, Roy, Bobby Joe, Norma, and Sherry. " .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/69>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Bud, of Elmore City, and Sherry Kirkpatrick and ]her husband, Danny[ of Guthrie.  \nAlso surviving are two brothers,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "her husband, Danny" ;
+        c:length     "18" ;
+        c:offset     "1393" ;
+        c:prefix     "Bud, of Elmore City, and Sherry Kirkpatrick and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/02166a27-6600-3eec-abe5-f974dfcf6b6f> ;
+        c:suffix     " of Guthrie.  \nAlso surviving are two brothers," .
+
+<http://d.opencalais.com/conf/pershash-1/80865446-6ee1-3cff-b3f8-8d9e09eef8f8>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.992" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.994" ;
+        c:subject             <http://d.opencalais.com/pershash-1/80865446-6ee1-3cff-b3f8-8d9e09eef8f8> .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/cat/1>
+        a                    <http://s.opencalais.com/1/type/cat/DocCat> ;
+        c:docId              <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Human Interest" ;
+        c:score              "1.000" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/48>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Rick, Ray, Roy, Bobby Joe, Norma, and Sherry.  ]She[ cleaned houses and offices and a laundry mat for]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "708" ;
+        c:prefix     "Rick, Ray, Roy, Bobby Joe, Norma, and Sherry.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9eceed4f-f1af-3c80-b6f1-71a3b2dbedc8> ;
+        c:suffix     " cleaned houses and offices and a laundry mat for" .
+
+<http://d.opencalais.com/genericHasher-1/5c791a7e-5d8e-3af5-b64a-0c83873606a8>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "husband" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/3055b414-90f8-36f9-9108-6d9f99cf404c> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/39d55745-2f08-3117-a324-0c17b7ed3ced> .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/27>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Christian Church.  \nBesides her parents and ]her husband, Norman[, she was preceded in death by one son, Bobby]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "her husband, Norman" ;
+        c:length     "19" ;
+        c:offset     "915" ;
+        c:prefix     "Christian Church.  \nBesides her parents and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/7340a877-b798-3839-a652-9ac91dd90ece> ;
+        c:suffix     ", she was preceded in death by one son, Bobby" .
+
+<http://d.opencalais.com/genericHasher-1/3650df4a-57ae-3db7-9666-e882339a1d01>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Dodge City" ;
+        c:person             <http://d.opencalais.com/pershash-1/f3a84e56-ccfe-39f7-88d4-521dd62950c5> .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Relevance/37>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/15be93cb-bf47-3898-8ef8-d534e7c8fdbc> .
+
+<http://d.opencalais.com/genericHasher-1/cba7f4b6-8acc-3e48-9e35-cd3ffc001bb8>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "wife" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/9e708aa7-5875-3f0a-a109-6e25415f18d3> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/c2fdd5a4-841d-3ac8-85ec-1c94bfa9993f> .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Relevance/16>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/5c6d9af5-6139-3aea-9155-d9670a73862d> .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/102>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Alva; two daughters, Norma Swallow and ]her husband, Bud, of Elmore City[, and Sherry Kirkpatrick and her husband, Danny]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "her husband, Bud, of Elmore City" ;
+        c:length     "32" ;
+        c:offset     "1332" ;
+        c:prefix     "of Alva; two daughters, Norma Swallow and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/489009b8-f948-3d0d-80ef-bbebffc1f8d2> ;
+        c:suffix     ", and Sherry Kirkpatrick and her husband, Danny" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/98>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Rosie, Opal, and Ruth; and one grandson, ]Nick[.  \nRuby is survived by four sons; Al Perks and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Nick" ;
+        c:length     "4" ;
+        c:offset     "1089" ;
+        c:prefix     "Rosie, Opal, and Ruth; and one grandson, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b27cbbf7-1a35-3f75-8dcb-4fdb10db69df> ;
+        c:suffix     ".  \nRuby is survived by four sons; Al Perks and" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/77>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Ray Perks and his wife, Nici, of Chickasha, and ]Roy Perks[ and his wife, Darlene, of Alva; two daughters,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Roy Perks" ;
+        c:length     "9" ;
+        c:offset     "1257" ;
+        c:prefix     "Ray Perks and his wife, Nici, of Chickasha, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/14738b1d-a36d-3089-be6d-39bd9d3ce8c0> ;
+        c:suffix     " and his wife, Darlene, of Alva; two daughters," .
+
+<http://d.opencalais.com/genericHasher-1/46c78b4c-17df-38ba-912a-c9a3e966df22>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/6c2de34e-d48d-33f4-896b-e01985cda6d6> , <http://d.opencalais.com/pershash-1/14738b1d-a36d-3089-be6d-39bd9d3ce8c0> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Texas" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/56>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Oklahoma, and passed away October 6, 2006, at ]her[ home at the age of 83 years, 2 months, and 7]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "378" ;
+        c:prefix     "Oklahoma, and passed away October 6, 2006, at " ;
+        c:subject    <http://d.opencalais.com/pershash-1/650f1cb1-9969-333e-b49f-a263cc936257> ;
+        c:suffix     " home at the age of 83 years, 2 months, and 7" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/35>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and Roy Perks and his wife, Darlene, of ]Alva[; two daughters, Norma Swallow and her husband,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "1293" ;
+        c:prefix     "and Roy Perks and his wife, Darlene, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce> ;
+        c:suffix     "; two daughters, Norma Swallow and her husband," .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/14>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Guthrie.  \nAlso surviving are two brothers, ]Dean Harding and his wife, Janie, of Amarillo, Texas[, and Leonard Harding and his wife, Verda, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Dean Harding and his wife, Janie, of Amarillo, Texas" ;
+        c:length     "52" ;
+        c:offset     "1459" ;
+        c:prefix     "of Guthrie.  \nAlso surviving are two brothers, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/53606d73-9345-3d75-bfaa-da99c1a32c58> ;
+        c:suffix     ", and Leonard Harding and his wife, Verda, of" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/5>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Ada Cheslic of Alva, Betty Anderson of Pampa, ]Texas[, and Ramona Muegge and her husband, Mike, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Texas" ;
+        c:length     "5" ;
+        c:offset     "1632" ;
+        c:prefix     "Ada Cheslic of Alva, Betty Anderson of Pampa, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> ;
+        c:suffix     ", and Ramona Muegge and her husband, Mike, of" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Relevance/24>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/540fbad5-ba50-3d39-b6db-ff55648350c3> .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Relevance/2>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/85>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ crafting. She also attended the Town and Country ]Christian Church[.  \nBesides her parents and her husband, Norman,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Christian Church" ;
+        c:length     "16" ;
+        c:offset     "871" ;
+        c:prefix     " crafting. She also attended the Town and Country " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c1e14c20-7ec2-3637-872f-855b5253364e> ;
+        c:suffix     ".  \nBesides her parents and her husband, Norman," .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/64>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and his wife, Debbie, of Alva, Ray Perks and ]his[ wife, Nici, of Chickasha, and Roy Perks and his]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "1223" ;
+        c:prefix     "and his wife, Debbie, of Alva, Ray Perks and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/540fbad5-ba50-3d39-b6db-ff55648350c3> ;
+        c:suffix     " wife, Nici, of Chickasha, and Roy Perks and his" .
+
+<http://d.opencalais.com/conf/pershash-1/1016307d-43b6-3ea4-bff0-d554c1fde054>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/1016307d-43b6-3ea4-bff0-d554c1fde054> .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/43>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ will be 2:00 p.m. Tuesday, October 10,  2006, at ]Marshall Funeral Home Chapel[.  Interment will be in the Alva Municipal]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Marshall Funeral Home Chapel" ;
+        c:length     "28" ;
+        c:offset     "92" ;
+        c:prefix     " will be 2:00 p.m. Tuesday, October 10,  2006, at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ffe3480a-abe7-3145-bdfe-b1e4a35ad4cd> ;
+        c:suffix     ".  Interment will be in the Alva Municipal" .
+
+<http://d.opencalais.com/pershash-1/b8a2da78-e87d-3b6e-a02d-cf2b9023db27>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Ruby Alice Perks" ;
+        c:confidencelevel    "0.999" ;
+        c:firstname          "Ruby" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Perks" ;
+        c:middlename         "Alice" ;
+        c:name               "Ruby Alice Perks" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/89fe6313-bbe0-3e3d-8e2b-4e12f7279308>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Lamont" ;
+        c:person             <http://d.opencalais.com/pershash-1/39d55745-2f08-3117-a324-0c17b7ed3ced> .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/22>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Funeral services for ]Ruby Alice Perks[, 83, will be 2:00 p.m. Tuesday, October 10, ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Ruby Alice Perks" ;
+        c:length     "16" ;
+        c:offset     "21" ;
+        c:prefix     "Funeral services for " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b8a2da78-e87d-3b6e-a02d-cf2b9023db27> ;
+        c:suffix     ", 83, will be 2:00 p.m. Tuesday, October 10, " .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Relevance/32>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/802f826c-58b5-3061-873c-f88924698a16> .
+
+<http://d.opencalais.com/genericHasher-1/489009b8-f948-3d0d-80ef-bbebffc1f8d2>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "husband" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/f27a4b3b-fadc-3c4b-97e8-d41e08c08339> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/91a478c8-61ce-3bc5-9eb4-895c0e2b51d3> .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Relevance/11>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/24378def-3d83-3d7b-aac0-86a088ddad16> .
+
+<http://d.opencalais.com/genericHasher-1/0a09ae8f-0456-38fc-b965-ff815c60f9d3>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Amarillo" .
+
+<http://d.opencalais.com/genericHasher-1/15be91f2-e63f-3430-b1d0-039ff6c338fb>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/f3a84e56-ccfe-39f7-88d4-521dd62950c5> , <http://d.opencalais.com/pershash-1/9eceed4f-f1af-3c80-b6f1-71a3b2dbedc8> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/93>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ \nRuby is survived by four sons; Al Perks and ]his wife, Linda[, of Alva, Rick Perks and his wife, Debbie, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "his wife, Linda" ;
+        c:length     "15" ;
+        c:offset     "1141" ;
+        c:prefix     " \nRuby is survived by four sons; Al Perks and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c2ef39cf-514f-34d8-9d41-a3a5cf5393aa> ;
+        c:suffix     ", of Alva, Rick Perks and his wife, Debbie, of" .
+
+<http://d.opencalais.com/pershash-1/df36f803-4a85-3c62-b8fb-7c840cd666dd>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Dean Harding" ;
+        c:confidencelevel    "0.984" ;
+        c:firstname          "Dean" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Harding" ;
+        c:name               "Dean Harding" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/72>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[City, and Sherry Kirkpatrick and her husband, ]Danny[ of Guthrie.  \nAlso surviving are two brothers,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Danny" ;
+        c:length     "5" ;
+        c:offset     "1406" ;
+        c:prefix     "City, and Sherry Kirkpatrick and her husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/31df13df-2df9-3474-b746-f7db65d04ea3> ;
+        c:suffix     " of Guthrie.  \nAlso surviving are two brothers," .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/51>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Christian Church.  \nBesides her parents and ]her[ husband, Norman, she was preceded in death by]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "915" ;
+        c:prefix     "Christian Church.  \nBesides her parents and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9eceed4f-f1af-3c80-b6f1-71a3b2dbedc8> ;
+        c:suffix     " husband, Norman, she was preceded in death by" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/30>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ his wife, Verda, of Fritz, Texas; three sisters, ]Ada Cheslic[ of Alva, Betty Anderson of Pampa, Texas, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Ada Cheslic" ;
+        c:length     "11" ;
+        c:offset     "1586" ;
+        c:prefix     " his wife, Verda, of Fritz, Texas; three sisters, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/1016307d-43b6-3ea4-bff0-d554c1fde054> ;
+        c:suffix     " of Alva, Betty Anderson of Pampa, Texas, and" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Relevance/40>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/6ea716ea-1651-39d0-aa18-629ec1e90ded> .
+
+<http://d.opencalais.com/conf/pershash-1/6c2de34e-d48d-33f4-896b-e01985cda6d6>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.769" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/6c2de34e-d48d-33f4-896b-e01985cda6d6> .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Relevance/19>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/9e708aa7-5875-3f0a-a109-6e25415f18d3> .
+
+<http://d.opencalais.com/pershash-1/86e9036f-cceb-3e46-90cf-d064fb82e1d2>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Linda" ;
+        c:confidencelevel    "0.958" ;
+        c:firstname          "Linda" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Linda" ;
+        c:nationality        "N/A" ;
+        c:persontype         "entertainment" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/105>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and her husband, Bud, of Elmore City, and ]Sherry Kirkpatrick and her husband, Danny[ of Guthrie.  \nAlso surviving are two brothers,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Sherry Kirkpatrick and her husband, Danny" ;
+        c:length     "41" ;
+        c:offset     "1370" ;
+        c:prefix     "and her husband, Bud, of Elmore City, and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/7cc801d5-8ca3-3300-961f-5d291281daee> ;
+        c:suffix     " of Guthrie.  \nAlso surviving are two brothers," .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/80>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Norman, she was preceded in death by one son, ]Bobby Joe[; four brothers, Ernest, Noble, Freddy, and Earl;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Bobby Joe" ;
+        c:length     "9" ;
+        c:offset     "974" ;
+        c:prefix     "Norman, she was preceded in death by one son, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/802f826c-58b5-3061-873c-f88924698a16> ;
+        c:suffix     "; four brothers, Ernest, Noble, Freddy, and Earl;" .
+
+<http://d.opencalais.com/genericHasher-1/02166a27-6600-3eec-abe5-f974dfcf6b6f>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "husband" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/9eceed4f-f1af-3c80-b6f1-71a3b2dbedc8> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/31df13df-2df9-3474-b746-f7db65d04ea3> .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/59>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[wife, Debbie, of Alva, Ray Perks and his wife, ]Nici[, of Chickasha, and Roy Perks and his wife,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Nici" ;
+        c:length     "4" ;
+        c:offset     "1233" ;
+        c:prefix     "wife, Debbie, of Alva, Ray Perks and his wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/e2dfb4d0-276c-38b9-aeae-352cddddc10d> ;
+        c:suffix     ", of Chickasha, and Roy Perks and his wife," .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/38>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and his wife, Darlene, of Alva; two daughters, ]Norma Swallow[ and her husband, Bud, of Elmore City, and Sherry]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Norma Swallow" ;
+        c:length     "13" ;
+        c:offset     "1314" ;
+        c:prefix     "and his wife, Darlene, of Alva; two daughters, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f27a4b3b-fadc-3c4b-97e8-d41e08c08339> ;
+        c:suffix     " and her husband, Bud, of Elmore City, and Sherry" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Relevance/27>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e5daaf45-9c88-3ecb-90ba-48770408b69f> .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/17>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[two daughters, Norma Swallow and her husband, ]Bud[, of Elmore City, and Sherry Kirkpatrick and her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Bud" ;
+        c:length     "3" ;
+        c:offset     "1345" ;
+        c:prefix     "two daughters, Norma Swallow and her husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/91a478c8-61ce-3bc5-9eb4-895c0e2b51d3> ;
+        c:suffix     ", of Elmore City, and Sherry Kirkpatrick and her" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/8>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and his wife, Linda, of Alva, Rick Perks and ]his[ wife, Debbie, of Alva, Ray Perks and his wife,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "1182" ;
+        c:prefix     "and his wife, Linda, of Alva, Rick Perks and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/80865446-6ee1-3cff-b3f8-8d9e09eef8f8> ;
+        c:suffix     " wife, Debbie, of Alva, Ray Perks and his wife," .
+
+<http://d.opencalais.com/conf/pershash-1/ccddf71e-bf34-3796-891d-0b702e50e201>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.898" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/ccddf71e-bf34-3796-891d-0b702e50e201> .
+
+<http://d.opencalais.com/genericHasher-1/ce8de128-24bf-3473-ab18-361909e1197d>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Woods County" .
+
+<http://d.opencalais.com/genericHasher-1/fb071f3d-34e8-3163-8c3b-c4638fcbe199>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "wife" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/80865446-6ee1-3cff-b3f8-8d9e09eef8f8> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/ccddf71e-bf34-3796-891d-0b702e50e201> .
+
+<http://d.opencalais.com/conf/pershash-1/9eceed4f-f1af-3c80-b6f1-71a3b2dbedc8>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.991" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.994" ;
+        c:subject             <http://d.opencalais.com/pershash-1/9eceed4f-f1af-3c80-b6f1-71a3b2dbedc8> .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Relevance/5>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> .
+
+<http://d.opencalais.com/pershash-1/91a478c8-61ce-3bc5-9eb4-895c0e2b51d3>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Bud" ;
+        c:confidencelevel    "0.898" ;
+        c:firstname          "Bud" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Bud" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/88>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Ramona Muegge and her husband, Mike, of Lamont, ]Oklahoma[; 16 grandchildren; 25 great grandchildren; other]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "1691" ;
+        c:prefix     "Ramona Muegge and her husband, Mike, of Lamont, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     "; 16 grandchildren; 25 great grandchildren; other" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/67>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Nici, of Chickasha, and Roy Perks and his wife, ]Darlene[, of Alva; two daughters, Norma Swallow and her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Darlene" ;
+        c:length     "7" ;
+        c:offset     "1281" ;
+        c:prefix     "Nici, of Chickasha, and Roy Perks and his wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6c2de34e-d48d-33f4-896b-e01985cda6d6> ;
+        c:suffix     ", of Alva; two daughters, Norma Swallow and her" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/46>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Amarillo, Texas, and Leonard Harding and ]his[ wife, Verda, of Fritz, Texas; three sisters, Ada]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "1537" ;
+        c:prefix     "of Amarillo, Texas, and Leonard Harding and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9e708aa7-5875-3f0a-a109-6e25415f18d3> ;
+        c:suffix     " wife, Verda, of Fritz, Texas; three sisters, Ada" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/25>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Rosie, Opal, and Ruth; and one grandson, Nick.  \n]Ruby[ is survived by four sons; Al Perks and his wife,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Ruby" ;
+        c:length     "4" ;
+        c:offset     "1097" ;
+        c:prefix     " Rosie, Opal, and Ruth; and one grandson, Nick.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/b8a2da78-e87d-3b6e-a02d-cf2b9023db27> ;
+        c:suffix     " is survived by four sons; Al Perks and his wife," .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Relevance/35>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/lid/DefaultLangId>
+        a                    <http://s.opencalais.com/1/type/lid/DefaultLangId> ;
+        c:docId              <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:forenduserdisplay  "false" ;
+        c:lang               <http://d.opencalais.com/lid/DefaultLangId/English> ;
+        c:permid             "505062" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Relevance/14>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/f27a4b3b-fadc-3c4b-97e8-d41e08c08339> .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/96>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Anderson of Pampa, Texas, and Ramona Muegge and ]her husband, Mike, of Lamont, Oklahoma[; 16 grandchildren; 25 great grandchildren; other]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "her husband, Mike, of Lamont, Oklahoma" ;
+        c:length     "38" ;
+        c:offset     "1661" ;
+        c:prefix     "Anderson of Pampa, Texas, and Ramona Muegge and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/5c791a7e-5d8e-3af5-b64a-0c83873606a8> ;
+        c:suffix     "; 16 grandchildren; 25 great grandchildren; other" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/100>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[are two brothers, Dean Harding and his wife, ]Janie[, of Amarillo, Texas, and Leonard Harding and his]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Janie" ;
+        c:length     "5" ;
+        c:offset     "1486" ;
+        c:prefix     "are two brothers, Dean Harding and his wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6ea716ea-1651-39d0-aa18-629ec1e90ded> ;
+        c:suffix     ", of Amarillo, Texas, and Leonard Harding and his" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/75>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Norma Swallow and her husband, Bud, of ]Elmore City[, and Sherry Kirkpatrick and her husband, Danny]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Elmore City" ;
+        c:length     "11" ;
+        c:offset     "1353" ;
+        c:prefix     "Norma Swallow and her husband, Bud, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c7c81c03-c5b7-3c63-b292-77ec611d0f43> ;
+        c:suffix     ", and Sherry Kirkpatrick and her husband, Danny" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/54>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Bud, of Elmore City, and Sherry Kirkpatrick and ]her[ husband, Danny of Guthrie.  \nAlso surviving are]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1393" ;
+        c:prefix     "Bud, of Elmore City, and Sherry Kirkpatrick and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9eceed4f-f1af-3c80-b6f1-71a3b2dbedc8> ;
+        c:suffix     " husband, Danny of Guthrie.  \nAlso surviving are" .
+
+<http://d.opencalais.com/pershash-1/39d55745-2f08-3117-a324-0c17b7ed3ced>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Mike" ;
+        c:confidencelevel    "0.991" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Mike" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/0999f2dc-ba6d-3da6-9e9a-48a2d614902b>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/39d55745-2f08-3117-a324-0c17b7ed3ced> , <http://d.opencalais.com/pershash-1/3055b414-90f8-36f9-9108-6d9f99cf404c> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/33>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[by four sons; Al Perks and his wife, Linda, of ]Alva[, Rick Perks and his wife, Debbie, of Alva, Ray]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "1161" ;
+        c:prefix     "by four sons; Al Perks and his wife, Linda, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce> ;
+        c:suffix     ", Rick Perks and his wife, Debbie, of Alva, Ray" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/12>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Church.  \nBesides her parents and her husband, ]Norman[, she was preceded in death by one son, Bobby]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Norman" ;
+        c:length     "6" ;
+        c:offset     "928" ;
+        c:prefix     "Church.  \nBesides her parents and her husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f3a84e56-ccfe-39f7-88d4-521dd62950c5> ;
+        c:suffix     ", she was preceded in death by one son, Bobby" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/3>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Dean Harding and his wife, Janie, of Amarillo, ]Texas[, and Leonard Harding and his wife, Verda, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Texas" ;
+        c:length     "5" ;
+        c:offset     "1506" ;
+        c:prefix     "Dean Harding and his wife, Janie, of Amarillo, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> ;
+        c:suffix     ", and Leonard Harding and his wife, Verda, of" .
+
+<http://d.opencalais.com/pershash-1/f3a84e56-ccfe-39f7-88d4-521dd62950c5>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Norman Silvanis Perks" ;
+        c:confidencelevel    "0.994" ;
+        c:firstname          "Norman" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Silvanis Perks" ;
+        c:name               "Norman Silvanis Perks" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Relevance/22>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/e2dfb4d0-276c-38b9-aeae-352cddddc10d> .
+
+<http://d.opencalais.com/pershash-1/14738b1d-a36d-3089-be6d-39bd9d3ce8c0>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Roy Perks" ;
+        c:confidencelevel    "0.992" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Roy Perks" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/722d85ea-c4bf-360f-3723-c565a8f4bcc0>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Texas" ;
+        c:docId               <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:latitude            "35.2219" ;
+        c:longitude           "-101.8308" ;
+        c:name                "Amarillo,Texas,United States" ;
+        c:shortname           "Amarillo" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/0a09ae8f-0456-38fc-b965-ff815c60f9d3> .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/83>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Alva, Betty Anderson of Pampa, Texas, and ]Ramona Muegge[ and her husband, Mike, of Lamont, Oklahoma; 16]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Ramona Muegge" ;
+        c:length     "13" ;
+        c:offset     "1643" ;
+        c:prefix     "of Alva, Betty Anderson of Pampa, Texas, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/3055b414-90f8-36f9-9108-6d9f99cf404c> ;
+        c:suffix     " and her husband, Mike, of Lamont, Oklahoma; 16" .
+
+<http://d.opencalais.com/conf/pershash-1/b8a2da78-e87d-3b6e-a02d-cf2b9023db27>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.999" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.999" ;
+        c:subject             <http://d.opencalais.com/pershash-1/b8a2da78-e87d-3b6e-a02d-cf2b9023db27> .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/62>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[this union seven children were born: Al, Rick, ]Ray[, Roy, Bobby Joe, Norma, and Sherry.  She cleaned]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Ray" ;
+        c:length     "3" ;
+        c:offset     "667" ;
+        c:prefix     "this union seven children were born: Al, Rick, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/540fbad5-ba50-3d39-b6db-ff55648350c3> ;
+        c:suffix     ", Roy, Bobby Joe, Norma, and Sherry.  She cleaned" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/41>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[united in marriage to Norman Silvanis Perks at ]Dodge City[, Kansas.  They  lived most of their married life]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Dodge City" ;
+        c:length     "10" ;
+        c:offset     "539" ;
+        c:prefix     "united in marriage to Norman Silvanis Perks at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/5c6d9af5-6139-3aea-9155-d9670a73862d> ;
+        c:suffix     ", Kansas.  They  lived most of their married life" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/20>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[surviving are two brothers, Dean Harding and ]his[ wife, Janie, of Amarillo, Texas, and Leonard]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "1476" ;
+        c:prefix     "surviving are two brothers, Dean Harding and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/df36f803-4a85-3c62-b8fb-7c840cd666dd> ;
+        c:suffix     " wife, Janie, of Amarillo, Texas, and Leonard" .
+
+<http://d.opencalais.com/pershash-1/650f1cb1-9969-333e-b49f-a263cc936257>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Martha Harding" ;
+        c:confidencelevel    "0.97" ;
+        c:firstname          "Martha" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Harding" ;
+        c:name               "Martha (Hacker) Harding" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Relevance/30>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c7c81c03-c5b7-3c63-b292-77ec611d0f43> .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Relevance/8>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/pershash-1/b8a2da78-e87d-3b6e-a02d-cf2b9023db27> .
+
+<http://d.opencalais.com/genericHasher-1/6d55f800-e84d-3904-80b4-15a9de34cec7>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Pampa" ;
+        c:person             <http://d.opencalais.com/pershash-1/24378def-3d83-3d7b-aac0-86a088ddad16> .
+
+<http://d.opencalais.com/pershash-1/24378def-3d83-3d7b-aac0-86a088ddad16>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Betty Anderson" ;
+        c:confidencelevel    "0.983" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Betty Anderson" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/df36f803-4a85-3c62-b8fb-7c840cd666dd>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.984" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.986" ;
+        c:subject             <http://d.opencalais.com/pershash-1/df36f803-4a85-3c62-b8fb-7c840cd666dd> .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/91>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ grandson, Nick.  \nRuby is survived by four sons; ]Al Perks[ and his wife, Linda, of Alva, Rick Perks and his]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Al Perks" ;
+        c:length     "8" ;
+        c:offset     "1128" ;
+        c:prefix     " grandson, Nick.  \nRuby is survived by four sons; " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6af6da7b-ff84-340d-98b8-8861650aca60> ;
+        c:suffix     " and his wife, Linda, of Alva, Rick Perks and his" .
+
+<http://d.opencalais.com/genericHasher-1/c2ef39cf-514f-34d8-9d41-a3a5cf5393aa>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "wife" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/6af6da7b-ff84-340d-98b8-8861650aca60> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/86e9036f-cceb-3e46-90cf-d064fb82e1d2> .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/70>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Ray Perks and his wife, Nici, of Chickasha, and ]Roy Perks and his wife, Darlene[, of Alva; two daughters, Norma Swallow and her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Roy Perks and his wife, Darlene" ;
+        c:length     "31" ;
+        c:offset     "1257" ;
+        c:prefix     "Ray Perks and his wife, Nici, of Chickasha, and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/46c78b4c-17df-38ba-912a-c9a3e966df22> ;
+        c:suffix     ", of Alva; two daughters, Norma Swallow and her" .
+
+<http://d.opencalais.com/genericHasher-1/c1e14c20-7ec2-3637-872f-855b5253364e>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Christian Church" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/meta>
+        a                 <http://s.opencalais.com/1/type/sys/DocInfoMeta> ;
+        c:contentType     "text/raw" ;
+        c:docId           <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:language        "English" ;
+        c:processingVer   "AllMetadata" ;
+        c:serverVersion   "OneCalais_8.3-RELEASE:364" ;
+        c:signature       "digestalg-1|XSwKe+JCz5FDtPsN55ewZ+i0mAM=|MZFXF7XYK20gGBiT2AgRoQkEfedDh2twLxrx5kRIzngYLTKpusr8gQ==" ;
+        c:stagsVer        "OneCalais_8.3-RELEASE-b11-2015-03-25_18:29:00" ;
+        c:submissionDate  "2015-05-26 17:17:26.233" ;
+        c:submitterCode   "0ca6a864-5659-789d-5f32-f365f695e757" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/49>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[gardening, watching the birds, and crafting. ]She[ also attended the Town and Country Christian]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "832" ;
+        c:prefix     "gardening, watching the birds, and crafting. " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9eceed4f-f1af-3c80-b6f1-71a3b2dbedc8> ;
+        c:suffix     " also attended the Town and Country Christian" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/28>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[brothers, Dean Harding and his wife, Janie, of ]Amarillo[, Texas, and Leonard Harding and his wife, Verda,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Amarillo" ;
+        c:length     "8" ;
+        c:offset     "1496" ;
+        c:prefix     "brothers, Dean Harding and his wife, Janie, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0a09ae8f-0456-38fc-b965-ff815c60f9d3> ;
+        c:suffix     ", Texas, and Leonard Harding and his wife, Verda," .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Relevance/38>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/b27cbbf7-1a35-3f75-8dcb-4fdb10db69df> .
+
+<http://d.opencalais.com/conf/pershash-1/86e9036f-cceb-3e46-90cf-d064fb82e1d2>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.958" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/86e9036f-cceb-3e46-90cf-d064fb82e1d2> .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/SocialTag/1>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Alva" ;
+        c:originalValue      "Alva" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/17f61973-ed95-369b-b381-dec22ce26b2a> .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Relevance/17>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ffe3480a-abe7-3145-bdfe-b1e4a35ad4cd> .
+
+<http://d.opencalais.com/genericHasher-1/15be93cb-bf47-3898-8ef8-d534e7c8fdbc>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Pampa" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/103>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Alva, Betty Anderson of Pampa, Texas, and ]Ramona Muegge and her husband, Mike, of Lamont, Oklahoma[; 16 grandchildren; 25 great grandchildren; other]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Ramona Muegge and her husband, Mike, of Lamont, Oklahoma" ;
+        c:length     "56" ;
+        c:offset     "1643" ;
+        c:prefix     "of Alva, Betty Anderson of Pampa, Texas, and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0999f2dc-ba6d-3da6-9e9a-48a2d614902b> ;
+        c:suffix     "; 16 grandchildren; 25 great grandchildren; other" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/99>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and Leonard Harding and his wife, Verda, of ]Fritz[, Texas; three sisters, Ada Cheslic of Alva,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Fritz" ;
+        c:length     "5" ;
+        c:offset     "1557" ;
+        c:prefix     "and Leonard Harding and his wife, Verda, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/dd8685e5-b88b-32f5-8cb1-a05983fbd523> ;
+        c:suffix     ", Texas; three sisters, Ada Cheslic of Alva," .
+
+<http://d.opencalais.com/pershash-1/f27a4b3b-fadc-3c4b-97e8-d41e08c08339>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Norma Swallow" ;
+        c:confidencelevel    "0.958" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Norma Swallow" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee>
+        a                    <http://s.opencalais.com/1/type/em/e/IndustryTerm> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Funeral services" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/78>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[his wife, Nici, of Chickasha, and Roy Perks and ]his[ wife, Darlene, of Alva; two daughters, Norma]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "1271" ;
+        c:prefix     "his wife, Nici, of Chickasha, and Roy Perks and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/14738b1d-a36d-3089-be6d-39bd9d3ce8c0> ;
+        c:suffix     " wife, Darlene, of Alva; two daughters, Norma" .
+
+<http://d.opencalais.com/pershash-1/540fbad5-ba50-3d39-b6db-ff55648350c3>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Ray Perks" ;
+        c:confidencelevel    "0.983" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Ray Perks" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/57>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[at the age of 83 years, 2 months, and 7 days.  \n]She[ attended school in Alva.  On August 4, 1944, she]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "435" ;
+        c:prefix     "at the age of 83 years, 2 months, and 7 days.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/650f1cb1-9969-333e-b49f-a263cc936257> ;
+        c:suffix     " attended school in Alva.  On August 4, 1944, she" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/36>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Fritz, Texas; three sisters, Ada Cheslic of ]Alva[, Betty Anderson of Pampa, Texas, and Ramona]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "1601" ;
+        c:prefix     "of Fritz, Texas; three sisters, Ada Cheslic of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce> ;
+        c:suffix     ", Betty Anderson of Pampa, Texas, and Ramona" .
+
+<http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oklahoma" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/15>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Texas, and Leonard Harding and his wife, ]Verda, of Fritz, Texas[; three sisters, Ada Cheslic of Alva, Betty]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Verda, of Fritz, Texas" ;
+        c:length     "22" ;
+        c:offset     "1547" ;
+        c:prefix     "Texas, and Leonard Harding and his wife, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9a8e60f9-46a1-3ef3-ab2c-5e9759e11426> ;
+        c:suffix     "; three sisters, Ada Cheslic of Alva, Betty" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/6>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[To this union seven children were born: Al, ]Rick[, Ray, Roy, Bobby Joe, Norma, and Sherry.  She]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Rick" ;
+        c:length     "4" ;
+        c:offset     "661" ;
+        c:prefix     "To this union seven children were born: Al, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/80865446-6ee1-3cff-b3f8-8d9e09eef8f8> ;
+        c:suffix     ", Ray, Roy, Bobby Joe, Norma, and Sherry.  She" .
+
+<http://d.opencalais.com/genericHasher-1/1d7e8ac7-752f-3084-bef7-7d3f9dc81532>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/91a478c8-61ce-3bc5-9eb4-895c0e2b51d3> , <http://d.opencalais.com/pershash-1/f27a4b3b-fadc-3c4b-97e8-d41e08c08339> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Relevance/25>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/39d55745-2f08-3117-a324-0c17b7ed3ced> .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Relevance/3>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/80865446-6ee1-3cff-b3f8-8d9e09eef8f8> .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/1114fb0e-25a2-49dd-a619-369b5b536840>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:latitude            "36.746" ;
+        c:longitude           "-98.7527" ;
+        c:name                "Woods County,Oklahoma,United States" ;
+        c:shortname           "Woods County" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/ce8de128-24bf-3473-ab18-361909e1197d> .
+
+<http://d.opencalais.com/conf/pershash-1/91a478c8-61ce-3bc5-9eb4-895c0e2b51d3>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.898" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/91a478c8-61ce-3bc5-9eb4-895c0e2b51d3> .
+
+<http://d.opencalais.com/genericHasher-1/66125f33-c3c6-3e77-b399-317190be13bd>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/c2fdd5a4-841d-3ac8-85ec-1c94bfa9993f> , <http://d.opencalais.com/pershash-1/9e708aa7-5875-3f0a-a109-6e25415f18d3> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/86>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and his wife, Darlene, of Alva; two daughters, ]Norma Swallow and her husband, Bud, of Elmore City[, and Sherry Kirkpatrick and her husband, Danny]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Norma Swallow and her husband, Bud, of Elmore City" ;
+        c:length     "50" ;
+        c:offset     "1314" ;
+        c:prefix     "and his wife, Darlene, of Alva; two daughters, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/1d7e8ac7-752f-3084-bef7-7d3f9dc81532> ;
+        c:suffix     ", and Sherry Kirkpatrick and her husband, Danny" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/ec80b062-8d1e-123a-1d6e-8bd0b7355690>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:latitude            "38.45" ;
+        c:longitude           "-96.5333" ;
+        c:name                "Kansas,United States" ;
+        c:permid              "100151" ;
+        c:rcscode             "G:6D" ;
+        c:shortname           "Kansas" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/65>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Pampa, Texas, and Ramona Muegge and her husband, ]Mike[, of Lamont, Oklahoma; 16 grandchildren; 25 great]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Mike" ;
+        c:length     "4" ;
+        c:offset     "1674" ;
+        c:prefix     " Pampa, Texas, and Ramona Muegge and her husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/39d55745-2f08-3117-a324-0c17b7ed3ced> ;
+        c:suffix     ", of Lamont, Oklahoma; 16 grandchildren; 25 great" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/44>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Home of Alva.  \nRuby, daughter of the late ]Melvin[ and Martha (Hacker) Harding, was born July 29,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Melvin" ;
+        c:length     "6" ;
+        c:offset     "255" ;
+        c:prefix     "Home of Alva.  \nRuby, daughter of the late " ;
+        c:subject    <http://d.opencalais.com/pershash-1/1c802920-92da-3a5e-b514-7cdc3fbee170> ;
+        c:suffix     " and Martha (Hacker) Harding, was born July 29," .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/23>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[direction of Marshall Funeral Home of Alva.  \n]Ruby[, daughter of the late Melvin and Martha (Hacker)]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Ruby" ;
+        c:length     "4" ;
+        c:offset     "228" ;
+        c:prefix     "direction of Marshall Funeral Home of Alva.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/b8a2da78-e87d-3b6e-a02d-cf2b9023db27> ;
+        c:suffix     ", daughter of the late Melvin and Martha (Hacker)" .
+
+<http://d.opencalais.com/genericHasher-1/d395a368-47fd-316a-8018-73a0e70510e7>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonAttributes> ;
+        c:age                "83" ;
+        c:forenduserdisplay  "false" ;
+        c:gender             "M" ;
+        c:person             <http://d.opencalais.com/pershash-1/b8a2da78-e87d-3b6e-a02d-cf2b9023db27> .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Relevance/33>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/3055b414-90f8-36f9-9108-6d9f99cf404c> .
+
+<http://d.opencalais.com/genericHasher-1/e5daaf45-9c88-3ecb-90ba-48770408b69f>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Lamont" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Relevance/12>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/1016307d-43b6-3ea4-bff0-d554c1fde054> .
+
+<http://d.opencalais.com/genericHasher-1/2ca17264-ded5-3069-af9b-4f1d46076e20>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:date                "1944-08-04" ;
+        c:datestring          "August 4, 1944" ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/f3a84e56-ccfe-39f7-88d4-521dd62950c5> , <http://d.opencalais.com/pershash-1/650f1cb1-9969-333e-b49f-a263cc936257> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/94>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[sisters, Ada Cheslic of Alva, Betty Anderson of ]Pampa[, Texas, and Ramona Muegge and her husband, Mike,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Pampa" ;
+        c:length     "5" ;
+        c:offset     "1625" ;
+        c:prefix     "sisters, Ada Cheslic of Alva, Betty Anderson of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/15be93cb-bf47-3898-8ef8-d534e7c8fdbc> ;
+        c:suffix     ", Texas, and Ramona Muegge and her husband, Mike," .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/73>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Texas, and Leonard Harding and his wife, ]Verda[, of Fritz, Texas; three sisters, Ada Cheslic of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Verda" ;
+        c:length     "5" ;
+        c:offset     "1547" ;
+        c:prefix     "Texas, and Leonard Harding and his wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/c2fdd5a4-841d-3ac8-85ec-1c94bfa9993f> ;
+        c:suffix     ", of Fritz, Texas; three sisters, Ada Cheslic of" .
+
+<http://d.opencalais.com/conf/pershash-1/39d55745-2f08-3117-a324-0c17b7ed3ced>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.991" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.932" ;
+        c:subject             <http://d.opencalais.com/pershash-1/39d55745-2f08-3117-a324-0c17b7ed3ced> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/17f17a38-5851-ca52-8763-82e279e0ca54>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Texas" ;
+        c:docId               <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:latitude            "35.5361" ;
+        c:longitude           "-100.9594" ;
+        c:name                "Pampa,Texas,United States" ;
+        c:shortname           "Pampa" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/15be93cb-bf47-3898-8ef8-d534e7c8fdbc> .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/e9e27c26-4013-8712-a5f0-97dcdc412c26>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:latitude            "35.5607802899" ;
+        c:longitude           "-96.8460570462" ;
+        c:name                "Oklahoma,United States" ;
+        c:permid              "100229" ;
+        c:rcscode             "G:9H" ;
+        c:shortname           "Oklahoma" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/52>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ \nBesides her parents and her husband, Norman, ]she[ was preceded in death by one son, Bobby Joe;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "936" ;
+        c:prefix     " \nBesides her parents and her husband, Norman, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9eceed4f-f1af-3c80-b6f1-71a3b2dbedc8> ;
+        c:suffix     " was preceded in death by one son, Bobby Joe;" .
+
+<http://d.opencalais.com/genericHasher-1/5c6d9af5-6139-3aea-9155-d9670a73862d>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Dodge City" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/31>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Alva Municipal Cemetery under the direction of ]Marshall Funeral Home of Alva[.  \nRuby, daughter of the late Melvin and Martha]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Marshall Funeral Home of Alva" ;
+        c:length     "29" ;
+        c:offset     "195" ;
+        c:prefix     "Alva Municipal Cemetery under the direction of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce> ;
+        c:suffix     ".  \nRuby, daughter of the late Melvin and Martha" .
+
+<http://d.opencalais.com/pershash-1/6af6da7b-ff84-340d-98b8-8861650aca60>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Al Perks" ;
+        c:confidencelevel    "0.992" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Al Perks" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/f3a84e56-ccfe-39f7-88d4-521dd62950c5>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.994" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.996" ;
+        c:subject             <http://d.opencalais.com/pershash-1/f3a84e56-ccfe-39f7-88d4-521dd62950c5> .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/10>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[at Dodge City, Kansas.  They  lived most of ]their married[ life in the Alva area. To this union seven]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "their married" ;
+        c:length     "13" ;
+        c:offset     "580" ;
+        c:prefix     "at Dodge City, Kansas.  They  lived most of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/89526e2f-0e24-3d26-8d57-c60c33efe3b7> ;
+        c:suffix     " life in the Alva area. To this union seven" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/1>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[(Hacker) Harding, was born July 29, 1923, in ]Woods County[, Oklahoma, and passed away October 6, 2006, at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Woods County" ;
+        c:length     "12" ;
+        c:offset     "318" ;
+        c:prefix     "(Hacker) Harding, was born July 29, 1923, in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ce8de128-24bf-3473-ab18-361909e1197d> ;
+        c:suffix     ", Oklahoma, and passed away October 6, 2006, at" .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Relevance/41>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/ccddf71e-bf34-3796-891d-0b702e50e201> .
+
+<http://d.opencalais.com/conf/pershash-1/14738b1d-a36d-3089-be6d-39bd9d3ce8c0>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.992" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.994" ;
+        c:subject             <http://d.opencalais.com/pershash-1/14738b1d-a36d-3089-be6d-39bd9d3ce8c0> .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Relevance/20>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/9eceed4f-f1af-3c80-b6f1-71a3b2dbedc8> .
+
+<http://d.opencalais.com/genericHasher-1/7340a877-b798-3839-a652-9ac91dd90ece>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "husband" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/9eceed4f-f1af-3c80-b6f1-71a3b2dbedc8> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/f3a84e56-ccfe-39f7-88d4-521dd62950c5> .
+
+<http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347/Instance/106>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[wife, Linda, of Alva, Rick Perks and his wife, ]Debbie[, of Alva, Ray Perks and his wife, Nici, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/84799622-ed67-3abd-86be-196cfcb48347> ;
+        c:exact      "Debbie" ;
+        c:length     "6" ;
+        c:offset     "1192" ;
+        c:prefix     "wife, Linda, of Alva, Rick Perks and his wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/ccddf71e-bf34-3796-891d-0b702e50e201> ;
+        c:suffix     ", of Alva, Ray Perks and his wife, Nici, of" .

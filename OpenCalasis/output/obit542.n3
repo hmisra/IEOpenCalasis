@@ -1,0 +1,2279 @@
+#Relations: FamilyRelation, PersonAttributes, PersonCareer, PersonEducation, PersonLocation, PersonRelation
+#City: Enid, St. John
+#Company: Waynoka LLC
+#Country: France
+#Facility: Marshall Funeral Home of Waynoka, Waynoka Municipal Cemetery
+#IndustryTerm: Funeral services
+#Organization: Baptist Church, Cheyenne Valley High School, United States Army
+#Person: Alexa Humphries, Andrew Sallee, Bill, Brian, David Shaw, Erika Clausing, Gail Nickelson, Gary, Jack Nickelson, Jana Walker, Jane, Jeff, Jeffrey Sallee, Jeremy, Jerry Nickelson, Jessica, John Nickelson, Katie Logsdon, Kim, Mac Nickelson, Marilyn Moore, Mark Nickelson, Matthew Sallee, Melissa Slocter, Michael, Monica, Morgan, Natalie Nickelson, Peggy Sue Neill, Rita Clausing, Ruby (Gould) Nickelson, Scott Moore, Treva Sallee, Wade, Wesley Abednego, Wesley Mac Nickelson
+#ProvinceOrState: Arizona, Kansas, Oklahoma
+@prefix c:     <http://s.opencalais.com/1/pred/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://d.opencalais.com/conf/pershash-1/c7f83564-8c54-3b0b-9797-5fdcb4b7ff1b>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/c7f83564-8c54-3b0b-9797-5fdcb4b7ff1b> .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Relevance/15>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/ee3234d0-fafd-398f-a68e-ec0a76363906> .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/82>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Humphries and husband, Brian, Natalie Nickelson, ]John Nickelson[, Erika Clausing, Jeffrey Sallee and wife,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "John Nickelson" ;
+        c:length     "14" ;
+        c:offset     "1738" ;
+        c:prefix     " Humphries and husband, Brian, Natalie Nickelson, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/42954df0-22a6-36f0-a2dd-ff5e75062ee2> ;
+        c:suffix     ", Erika Clausing, Jeffrey Sallee and wife," .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/61>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in France for a time.  On December 24, 1949, ]he[ was united in marriage to Peggy Sue Neill at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "he" ;
+        c:length     "2" ;
+        c:offset     "731" ;
+        c:prefix     "in France for a time.  On December 24, 1949, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/21e724cd-937b-3096-baec-c2ab5177cfa9> ;
+        c:suffix     " was united in marriage to Peggy Sue Neill at" .
+
+<http://d.opencalais.com/conf/pershash-1/8b849ed8-bce7-3ef9-8a40-3fca6752f753>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.987" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.932" ;
+        c:subject             <http://d.opencalais.com/pershash-1/8b849ed8-bce7-3ef9-8a40-3fca6752f753> .
+
+<http://d.opencalais.com/conf/pershash-1/0e59d8fd-ee38-3927-b77a-19e948a7ef0f>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/0e59d8fd-ee38-3927-b77a-19e948a7ef0f> .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/40>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ of the home; two sons, Jerry Nickelson and wife, ]Jane[, of Waynoka, and Mark Nickelson and wife, Kim,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "Jane" ;
+        c:length     "4" ;
+        c:offset     "1225" ;
+        c:prefix     " of the home; two sons, Jerry Nickelson and wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/262b643f-aea8-3571-8bd7-1b1403dd53d6> ;
+        c:suffix     ", of Waynoka, and Mark Nickelson and wife, Kim," .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/19>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[under the direction of Marshall Funeral Home of ]Waynoka, LLC[.  \nWesley Mac Nickelson, son of the late Wesley]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "Waynoka, LLC" ;
+        c:length     "12" ;
+        c:offset     "260" ;
+        c:prefix     "under the direction of Marshall Funeral Home of " ;
+        c:subject    <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:suffix     ".  \nWesley Mac Nickelson, son of the late Wesley" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Relevance/44>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/317bd67c-156a-32bd-8a5f-dd97b6d4c5a2> .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/2>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ of the home; two sons, Jerry Nickelson and wife, ]Jane, of Waynoka[, and Mark Nickelson and wife, Kim, of Waynoka;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "Jane, of Waynoka" ;
+        c:length     "16" ;
+        c:offset     "1225" ;
+        c:prefix     " of the home; two sons, Jerry Nickelson and wife, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/97d072e8-e5f0-3e9d-bd1d-e865b1ceabd9> ;
+        c:suffix     ", and Mark Nickelson and wife, Kim, of Waynoka;" .
+
+<http://d.opencalais.com/conf/pershash-1/41267cde-50d8-3da2-81a9-c29a6a9acc4c>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.999" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.996" ;
+        c:subject             <http://d.opencalais.com/pershash-1/41267cde-50d8-3da2-81a9-c29a6a9acc4c> .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Relevance/23>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/262b643f-aea8-3571-8bd7-1b1403dd53d6> .
+
+<https://permid.org/1-5035751620>
+        a             <http://s.opencalais.com/1/type/er/Company> ;
+        c:commonname  "Waynoka" ;
+        c:docId       <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:legacyid    <http://d.opencalais.com/er/company/ralg-tr1r/da554c4e-4d2b-3037-98bc-d26b5df2c525> ;
+        c:name        "Waynoka Utilities Authority" ;
+        c:permid      "5035751620" ;
+        c:score       "0.05522651" ;
+        c:subject     <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> .
+
+<http://d.opencalais.com/conf/pershash-1/21e724cd-937b-3096-baec-c2ab5177cfa9>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.896" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.928" ;
+        c:subject             <http://d.opencalais.com/pershash-1/21e724cd-937b-3096-baec-c2ab5177cfa9> .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/69>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ and taught Sunday School.  \nBesides his parents, ]he[ was preceded in death by an infant daughter; one]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "he" ;
+        c:length     "2" ;
+        c:offset     "1061" ;
+        c:prefix     " and taught Sunday School.  \nBesides his parents, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/21e724cd-937b-3096-baec-c2ab5177cfa9> ;
+        c:suffix     " was preceded in death by an infant daughter; one" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/48>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in the United States Army and was stationed in ]France[ for a time.  On December 24, 1949, he was united]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "France" ;
+        c:length     "6" ;
+        c:offset     "689" ;
+        c:prefix     "in the United States Army and was stationed in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e1fd0a20-f464-39be-a88f-25038cc7f50c> ;
+        c:suffix     " for a time.  On December 24, 1949, he was united" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/27>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Jeremy, Alexa Humphries and husband, Brian, ]Natalie Nickelson[, John Nickelson, Erika Clausing, Jeffrey Sallee]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "Natalie Nickelson" ;
+        c:length     "17" ;
+        c:offset     "1719" ;
+        c:prefix     "Jeremy, Alexa Humphries and husband, Brian, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/a53ab354-3d58-3447-92dc-40d6b216e91b> ;
+        c:suffix     ", John Nickelson, Erika Clausing, Jeffrey Sallee" .
+
+<http://d.opencalais.com/pershash-1/7df258f4-3b95-37aa-9ce1-2eac4a50862f>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Scott Moore" ;
+        c:confidencelevel    "0.999" ;
+        c:firstname          "Scott" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Moore" ;
+        c:name               "Scott Moore" ;
+        c:nationality        "N/A" ;
+        c:persontype         "sports" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/9abed97f-1f19-0004-aee6-0a06b0289f38>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:latitude            "36.3956" ;
+        c:longitude           "-97.8781" ;
+        c:name                "Enid,Oklahoma,United States" ;
+        c:shortname           "Enid" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/35a979c1-2108-3761-99bd-8c6f499ef6f2> .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/cat/2>
+        a                    <http://s.opencalais.com/1/type/cat/DocCat> ;
+        c:docId              <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Human Interest" ;
+        c:score              "0.949" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Relevance/31>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e1fd0a20-f464-39be-a88f-25038cc7f50c> .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Relevance/10>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/a3b67ef6-5a4e-3c16-a10b-4186de1b99ac> .
+
+<http://d.opencalais.com/conf/pershash-1/852f5323-9bc2-3b0d-997e-3267bea9f307>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.997" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.981" ;
+        c:subject             <http://d.opencalais.com/pershash-1/852f5323-9bc2-3b0d-997e-3267bea9f307> .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/77>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[marriage to Peggy Sue Neill at Cheyenne Valley, ]Oklahoma[.  He farmed and ranched his entire life on the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "796" ;
+        c:prefix     "marriage to Peggy Sue Neill at Cheyenne Valley, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ".  He farmed and ranched his entire life on the" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Relevance/6>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/b78bf117-0aa8-309d-9cee-fed3290ba1e1> .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/56>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Nickelson, son of the late Wesley Abednego and ]Ruby (Gould) Nickelson, was born June 24, 1923[, on the family farm in Major County, Oklahoma,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "Ruby (Gould) Nickelson, was born June 24, 1923" ;
+        c:length     "46" ;
+        c:offset     "334" ;
+        c:prefix     "Nickelson, son of the late Wesley Abednego and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/46117d48-67a1-30fb-8f3e-f637e323afce> ;
+        c:suffix     ", on the family farm in Major County, Oklahoma," .
+
+<http://d.opencalais.com/conf/pershash-1/be039c62-ee83-3a7c-a48c-870f50ff4e9f>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/be039c62-ee83-3a7c-a48c-870f50ff4e9f> .
+
+<http://d.opencalais.com/pershash-1/3e879fc0-7030-3c4a-904d-83e119a7cba7>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Treva Sallee" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Treva" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Sallee" ;
+        c:name               "Treva Sallee" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/35>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ and husband, Wade, Scott Moore and wife, Monica, ]Melissa Slocter[ and husband, Michael, Katie Logsdon and husband,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "Melissa Slocter" ;
+        c:length     "15" ;
+        c:offset     "1610" ;
+        c:prefix     " and husband, Wade, Scott Moore and wife, Monica, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/be039c62-ee83-3a7c-a48c-870f50ff4e9f> ;
+        c:suffix     " and husband, Michael, Katie Logsdon and husband," .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/14>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[]Funeral services[ for Wesley Mac Nickelson will be 11:00 a.m.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "Funeral services" ;
+        c:length     "16" ;
+        c:offset     "0" ;
+        c:prefix     "" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee> ;
+        c:suffix     " for Wesley Mac Nickelson will be 11:00 a.m." .
+
+<http://d.opencalais.com/er/geo/country/ralg-geo1/e165d4f2-174b-66a7-d1a9-5cb204d296eb>
+        a            <http://s.opencalais.com/1/type/er/Geo/Country> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:latitude   "46.0" ;
+        c:longitude  "2.0" ;
+        c:name       "France" ;
+        c:permid     "100105" ;
+        c:rcscode    "G:5M" ;
+        c:shortname  "France" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e1fd0a20-f464-39be-a88f-25038cc7f50c> .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Relevance/39>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/057bfc2b-1a10-396c-9049-547bc8711059> .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Relevance/18>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/78d9721e-7d08-30db-aff9-ebf0b8e56c0c> .
+
+<http://d.opencalais.com/conf/pershash-1/a38f791d-f4bc-3130-a9a2-77b78a5b7fcd>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.992" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/a38f791d-f4bc-3130-a9a2-77b78a5b7fcd> .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/85>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Jerry Nickelson and wife, Jane, of Waynoka, and ]Mark Nickelson[ and wife, Kim, of Waynoka; and four daughters,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "Mark Nickelson" ;
+        c:length     "14" ;
+        c:offset     "1247" ;
+        c:prefix     "Jerry Nickelson and wife, Jane, of Waynoka, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/39a557bf-f4a7-38df-ae99-d079e2b2c972> ;
+        c:suffix     " and wife, Kim, of Waynoka; and four daughters," .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/64>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ ranched his entire life on the family farm where ]he[ was born and raised.  \nAs a teenager, Mac]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "he" ;
+        c:length     "2" ;
+        c:offset     "870" ;
+        c:prefix     " ranched his entire life on the family farm where " ;
+        c:subject    <http://d.opencalais.com/pershash-1/21e724cd-937b-3096-baec-c2ab5177cfa9> ;
+        c:suffix     " was born and raised.  \nAs a teenager, Mac" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/b293d0f1-038f-b15e-1cc2-e671420d8465>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Kansas" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:latitude            "38.0011111111" ;
+        c:longitude           "-98.7611111111" ;
+        c:name                "St. John,Kansas,United States" ;
+        c:shortname           "St. John" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/61357ba1-00f4-3213-aea2-e97a2456c086> .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/43>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Clausing and husband, Bill, of St. John, Kansas, ]Treva Sallee[ and husband, Jeff, of Sierra Vista, Arizona, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "Treva Sallee" ;
+        c:length     "12" ;
+        c:offset     "1405" ;
+        c:prefix     " Clausing and husband, Bill, of St. John, Kansas, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/3e879fc0-7030-3c4a-904d-83e119a7cba7> ;
+        c:suffix     " and husband, Jeff, of Sierra Vista, Arizona, and" .
+
+<http://d.opencalais.com/conf/pershash-1/85fe2183-2fbd-3d6f-9d7c-dc8826b57bdb>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.949" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/85fe2183-2fbd-3d6f-9d7c-dc8826b57bdb> .
+
+<http://d.opencalais.com/pershash-1/3386fc16-e8f2-381e-8f69-1619a06bee7b>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Rita Clausing" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Rita" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Clausing" ;
+        c:name               "Rita Clausing" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/22>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ of Waynoka, and Mark Nickelson and wife, Kim, of ]Waynoka[; and four daughters, Marilyn Moore and husband,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "Waynoka" ;
+        c:length     "7" ;
+        c:offset     "1280" ;
+        c:prefix     " of Waynoka, and Mark Nickelson and wife, Kim, of " ;
+        c:subject    <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:suffix     "; and four daughters, Marilyn Moore and husband," .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Relevance/47>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/193f540e-e1f3-3d6d-9cea-796bcdce1622> .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/5>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[LLC.  \nWesley Mac Nickelson, son of the late ]Wesley Abednego[ and Ruby (Gould) Nickelson, was born June 24,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "Wesley Abednego" ;
+        c:length     "15" ;
+        c:offset     "314" ;
+        c:prefix     "LLC.  \nWesley Mac Nickelson, son of the late " ;
+        c:subject    <http://d.opencalais.com/pershash-1/c7f83564-8c54-3b0b-9797-5fdcb4b7ff1b> ;
+        c:suffix     " and Ruby (Gould) Nickelson, was born June 24," .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Relevance/26>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/3e879fc0-7030-3c4a-904d-83e119a7cba7> .
+
+<http://d.opencalais.com/pershash-1/a3b67ef6-5a4e-3c16-a10b-4186de1b99ac>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Brian" ;
+        c:confidencelevel    "0.949" ;
+        c:firstname          "Brian" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Brian" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/72>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and wife, Monica, Melissa Slocter and husband, ]Michael[, Katie Logsdon and husband, Jeremy, Alexa]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "Michael" ;
+        c:length     "7" ;
+        c:offset     "1639" ;
+        c:prefix     "and wife, Monica, Melissa Slocter and husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/057bfc2b-1a10-396c-9049-547bc8711059> ;
+        c:suffix     ", Katie Logsdon and husband, Jeremy, Alexa" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Relevance/1>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/3386fc16-e8f2-381e-8f69-1619a06bee7b> .
+
+<http://d.opencalais.com/pershash-1/262b643f-aea8-3571-8bd7-1b1403dd53d6>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Jane" ;
+        c:confidencelevel    "0.958" ;
+        c:firstname          "Jane" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Jane" ;
+        c:nationality        "N/A" ;
+        c:persontype         "economic" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/51>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Gary, of Meno, Rita Clausing and husband, ]Bill[, of St. John, Kansas, Treva Sallee and husband,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "Bill" ;
+        c:length     "4" ;
+        c:offset     "1378" ;
+        c:prefix     "Gary, of Meno, Rita Clausing and husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/8b849ed8-bce7-3ef9-8a40-3fca6752f753> ;
+        c:suffix     ", of St. John, Kansas, Treva Sallee and husband," .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/30>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Monica, Melissa Slocter and husband, Michael, ]Katie Logsdon[ and husband, Jeremy, Alexa Humphries and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "Katie Logsdon" ;
+        c:length     "13" ;
+        c:offset     "1648" ;
+        c:prefix     "Monica, Melissa Slocter and husband, Michael, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/c67e591a-af0b-3b91-99b5-8cf7448c664d> ;
+        c:suffix     " and husband, Jeremy, Alexa Humphries and" .
+
+<http://d.opencalais.com/pershash-1/dcb00bec-753c-34ce-83f8-355724a092d2>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Jerry Nickelson" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Jerry" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Nickelson" ;
+        c:name               "Jerry Nickelson" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/46117d48-67a1-30fb-8f3e-f637e323afce>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonAttributes> ;
+        c:birthdate          "1923-06-24" ;
+        c:forenduserdisplay  "false" ;
+        c:gender             "M" ;
+        c:person             <http://d.opencalais.com/pershash-1/4aaee988-5e86-3eef-928d-f0edb7b1cbe8> .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Relevance/34>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/8b849ed8-bce7-3ef9-8a40-3fca6752f753> .
+
+<http://d.opencalais.com/pershash-1/d544b309-cf32-3d82-b889-6fa310138b3c>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Jeremy" ;
+        c:confidencelevel    "0.942" ;
+        c:firstname          "Jeremy" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Jeremy" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Relevance/13>
+        a                <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId          <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:relevance      "0.8" ;
+        c:relevancecont  "0.85" ;
+        c:subject        <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/80>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[school at Bethel through the 8th grade and ]graduated from Cheyenne Valley High School[.  He served in the United States Army and was]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "graduated from Cheyenne Valley High School" ;
+        c:length     "42" ;
+        c:offset     "587" ;
+        c:prefix     "school at Bethel through the 8th grade and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/d453379c-b720-3e3d-ba5e-f13329ed3ce2> ;
+        c:suffix     ".  He served in the United States Army and was" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Relevance/9>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/fdc6d7b4-5caf-31ce-8eb9-1e7738638bea> .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/59>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ at the age of 88 years, 5 months, and 11 days.  \n]Mac[ attended school at Bethel through the 8th grade]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "Mac" ;
+        c:length     "3" ;
+        c:offset     "531" ;
+        c:prefix     " at the age of 88 years, 5 months, and 11 days.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/21e724cd-937b-3096-baec-c2ab5177cfa9> ;
+        c:suffix     " attended school at Bethel through the 8th grade" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/38>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Jesus.  He was a member of the Waynoka First ]Baptist Church[ where he served as a Deacon and taught Sunday]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "Baptist Church" ;
+        c:length     "14" ;
+        c:offset     "969" ;
+        c:prefix     "Jesus.  He was a member of the Waynoka First " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a21a69b3-e9dd-341e-9fee-da93c550c744> ;
+        c:suffix     " where he served as a Deacon and taught Sunday" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/17>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ be 11:00 a.m. Thursday, December 8, 2011, at the ]Waynoka[ First Baptist Church with Rev. David Shaw]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "Waynoka" ;
+        c:length     "7" ;
+        c:offset     "96" ;
+        c:prefix     " be 11:00 a.m. Thursday, December 8, 2011, at the " ;
+        c:subject    <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:suffix     " First Baptist Church with Rev. David Shaw" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Relevance/42>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/pershash-1/b78bf117-0aa8-309d-9cee-fed3290ba1e1>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Andrew Sallee" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Andrew" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Sallee" ;
+        c:name               "Andrew Sallee" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Relevance/21>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/be039c62-ee83-3a7c-a48c-870f50ff4e9f> .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/SocialTag/2>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "First Baptist Church" ;
+        c:originalValue      "First Baptist Church (Boron, California)" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/e6c3e903-cbaa-37d7-89a8-f2e92ed77ee0> .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/67>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ member of the Waynoka First Baptist Church where ]he[ served as a Deacon and taught Sunday School. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "he" ;
+        c:length     "2" ;
+        c:offset     "990" ;
+        c:prefix     " member of the Waynoka First Baptist Church where " ;
+        c:subject    <http://d.opencalais.com/pershash-1/21e724cd-937b-3096-baec-c2ab5177cfa9> ;
+        c:suffix     " served as a Deacon and taught Sunday School. " .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/46>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Municipal Cemetery under the direction of ]Marshall Funeral Home of Waynoka[, LLC.  \nWesley Mac Nickelson, son of the late]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "Marshall Funeral Home of Waynoka" ;
+        c:length     "32" ;
+        c:offset     "235" ;
+        c:prefix     "Municipal Cemetery under the direction of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/84bb0714-85ab-39de-a7e7-f1ad2e79292b> ;
+        c:suffix     ", LLC.  \nWesley Mac Nickelson, son of the late" .
+
+<http://d.opencalais.com/conf/pershash-1/7df258f4-3b95-37aa-9ce1-2eac4a50862f>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.999" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.996" ;
+        c:subject             <http://d.opencalais.com/pershash-1/7df258f4-3b95-37aa-9ce1-2eac4a50862f> .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/25>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Army and was stationed in France for a time.  ]On December 24, 1949, he was united in marriage to Peggy Sue Neill[ at Cheyenne Valley, Oklahoma.  He farmed and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "On December 24, 1949, he was united in marriage to Peggy Sue Neill" ;
+        c:length     "66" ;
+        c:offset     "709" ;
+        c:prefix     "Army and was stationed in France for a time.  " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0ea8f018-5a88-33b7-9817-601f53dedf89> ;
+        c:suffix     " at Cheyenne Valley, Oklahoma.  He farmed and" .
+
+<http://d.opencalais.com/genericHasher-1/9402de7b-b64a-3da6-a823-b7ff5da87964>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:company            <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:forenduserdisplay  "true" ;
+        c:person             <http://d.opencalais.com/pershash-1/21e724cd-937b-3096-baec-c2ab5177cfa9> ;
+        c:position           "member" ;
+        c:status             "past" .
+
+<http://d.opencalais.com/genericHasher-1/0ea8f018-5a88-33b7-9817-601f53dedf89>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:date                "1949-12-24" ;
+        c:datestring          "December 24, 1949" ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/75e459f5-196f-37bf-b84c-10b0b9471866> , <http://d.opencalais.com/pershash-1/21e724cd-937b-3096-baec-c2ab5177cfa9> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/8>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[infant daughter; one brother; and one sister.  \n]Mac is survived by his wife, Peggy[, of the home; two sons, Jerry Nickelson and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "Mac is survived by his wife, Peggy" ;
+        c:length     "34" ;
+        c:offset     "1140" ;
+        c:prefix     "infant daughter; one brother; and one sister.  \n" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0ed5dc92-f245-33df-9c80-d3af5c52f8b2> ;
+        c:suffix     ", of the home; two sons, Jerry Nickelson and" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Relevance/29>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/84bb0714-85ab-39de-a7e7-f1ad2e79292b> .
+
+<http://d.opencalais.com/pershash-1/c67e591a-af0b-3b91-99b5-8cf7448c664d>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Katie Logsdon" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Katie" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Logsdon" ;
+        c:name               "Katie Logsdon" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/75>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[24, 1923, on the family farm in Major County, ]Oklahoma[, and passed away  December 5, 2011, at Enid,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "418" ;
+        c:prefix     "24, 1923, on the family farm in Major County, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", and passed away  December 5, 2011, at Enid," .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Relevance/4>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/c7f83564-8c54-3b0b-9797-5fdcb4b7ff1b> .
+
+<http://d.opencalais.com/conf/pershash-1/3e879fc0-7030-3c4a-904d-83e119a7cba7>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/3e879fc0-7030-3c4a-904d-83e119a7cba7> .
+
+<http://d.opencalais.com/pershash-1/057bfc2b-1a10-396c-9049-547bc8711059>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Michael" ;
+        c:confidencelevel    "0.967" ;
+        c:firstname          "Michael" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Michael" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/54>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ and graduated from Cheyenne Valley High School.  ]He served in the United States Army[ and was stationed in France for a time.  On]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "He served in the United States Army" ;
+        c:length     "35" ;
+        c:offset     "632" ;
+        c:prefix     " and graduated from Cheyenne Valley High School.  " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/f94e3bc7-8a8a-325a-af3a-7be3f3968751> ;
+        c:suffix     " and was stationed in France for a time.  On" .
+
+<http://d.opencalais.com/genericHasher-1/fbe81f8b-08e6-3384-a2b2-26109d140da8>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:company            <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:forenduserdisplay  "true" ;
+        c:person             <http://d.opencalais.com/pershash-1/ee3234d0-fafd-398f-a68e-ec0a76363906> ;
+        c:status             "current" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/33>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Shaw officiating.  Interment will be in the ]Waynoka Municipal Cemetery[ under the direction of Marshall Funeral Home of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "Waynoka Municipal Cemetery" ;
+        c:length     "26" ;
+        c:offset     "185" ;
+        c:prefix     "Shaw officiating.  Interment will be in the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c960096a-c52e-3cf1-9ef3-a4a18889d7c9> ;
+        c:suffix     " under the direction of Marshall Funeral Home of" .
+
+<http://d.opencalais.com/pershash-1/39a557bf-f4a7-38df-ae99-d079e2b2c972>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Mark Nickelson" ;
+        c:confidencelevel    "0.896" ;
+        c:firstname          "Mark" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Nickelson" ;
+        c:name               "Mark Nickelson" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/pershash-1/fdc6d7b4-5caf-31ce-8eb9-1e7738638bea>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Matthew Sallee" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Matthew" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Sallee" ;
+        c:name               "Matthew Sallee" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/12>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Jessica, Andrew Sallee and wife, Morgan, and ]Matthew Sallee[; 12 great grandchildren; other relatives and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "Matthew Sallee" ;
+        c:length     "14" ;
+        c:offset     "1840" ;
+        c:prefix     "Jessica, Andrew Sallee and wife, Morgan, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/fdc6d7b4-5caf-31ce-8eb9-1e7738638bea> ;
+        c:suffix     "; 12 great grandchildren; other relatives and" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Relevance/37>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/75e459f5-196f-37bf-b84c-10b0b9471866> .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Relevance/16>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/5925d3ad-b395-393e-b018-8dc0e2f29cd7> .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/83>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of St. John, Kansas, Treva Sallee and husband, ]Jeff[, of Sierra Vista, Arizona, and Gail Nickelson of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "Jeff" ;
+        c:length     "4" ;
+        c:offset     "1431" ;
+        c:prefix     "of St. John, Kansas, Treva Sallee and husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/fa49ecd7-f186-3145-9aa3-0bfff951f18a> ;
+        c:suffix     ", of Sierra Vista, Arizona, and Gail Nickelson of" .
+
+<http://d.opencalais.com/pershash-1/fa49ecd7-f186-3145-9aa3-0bfff951f18a>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Jeff" ;
+        c:confidencelevel    "0.932" ;
+        c:firstname          "Jeff" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Jeff" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/62>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Peggy Sue Neill at Cheyenne Valley, Oklahoma.  ]He[ farmed and ranched his entire life on the family]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "He" ;
+        c:length     "2" ;
+        c:offset     "807" ;
+        c:prefix     "Peggy Sue Neill at Cheyenne Valley, Oklahoma.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/21e724cd-937b-3096-baec-c2ab5177cfa9> ;
+        c:suffix     " farmed and ranched his entire life on the family" .
+
+<http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Kansas" .
+
+<http://d.opencalais.com/genericHasher-1/c960096a-c52e-3cf1-9ef3-a4a18889d7c9>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Waynoka Municipal Cemetery" .
+
+<http://d.opencalais.com/conf/pershash-1/3386fc16-e8f2-381e-8f69-1619a06bee7b>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/3386fc16-e8f2-381e-8f69-1619a06bee7b> .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/41>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Michael, Katie Logsdon and husband, Jeremy, ]Alexa Humphries[ and husband, Brian, Natalie Nickelson, John]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "Alexa Humphries" ;
+        c:length     "15" ;
+        c:offset     "1683" ;
+        c:prefix     "Michael, Katie Logsdon and husband, Jeremy, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/3def295c-eb90-3867-aa0a-d95ffdd3fad3> ;
+        c:suffix     " and husband, Brian, Natalie Nickelson, John" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/20>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Mac accepted Jesus.  He was a member of the ]Waynoka[ First Baptist Church where he served as a Deacon]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "Waynoka" ;
+        c:length     "7" ;
+        c:offset     "955" ;
+        c:prefix     "Mac accepted Jesus.  He was a member of the " ;
+        c:subject    <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:suffix     " First Baptist Church where he served as a Deacon" .
+
+<http://d.opencalais.com/genericHasher-1/e1fd0a20-f464-39be-a88f-25038cc7f50c>
+        a                    <http://s.opencalais.com/1/type/em/e/Country> ;
+        c:forenduserdisplay  "true" ;
+        c:name               "France" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Relevance/45>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/42954df0-22a6-36f0-a2dd-ff5e75062ee2> .
+
+<http://d.opencalais.com/pershash-1/42954df0-22a6-36f0-a2dd-ff5e75062ee2>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "John Nickelson" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "John" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Nickelson" ;
+        c:name               "John Nickelson" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/8c71a95d-b6a0-3c4d-8012-22d063c25a7f>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "wife" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/21e724cd-937b-3096-baec-c2ab5177cfa9> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/75e459f5-196f-37bf-b84c-10b0b9471866> .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/3>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and wife, Jessica, Andrew Sallee and wife, ]Morgan[, and Matthew Sallee; 12 great grandchildren;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "Morgan" ;
+        c:length     "6" ;
+        c:offset     "1828" ;
+        c:prefix     "and wife, Jessica, Andrew Sallee and wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/852f5323-9bc2-3b0d-997e-3267bea9f307> ;
+        c:suffix     ", and Matthew Sallee; 12 great grandchildren;" .
+
+<http://d.opencalais.com/genericHasher-1/d2980446-742a-3d88-859d-9ad33b75b0d8>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "St. John" ;
+        c:person             <http://d.opencalais.com/pershash-1/8b849ed8-bce7-3ef9-8a40-3fca6752f753> .
+
+<http://d.opencalais.com/pershash-1/cffb6aa4-6fa0-3109-9773-f1206c55ef24>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Gail Nickelson" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Gail" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Nickelson" ;
+        c:name               "Gail Nickelson" ;
+        c:nationality        "N/A" ;
+        c:persontype         "economic" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Relevance/24>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/3def295c-eb90-3867-aa0a-d95ffdd3fad3> .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/15f0deb5-fdee-353c-85e9-a36268ab0134>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:latitude            "33.8947715893" ;
+        c:longitude           "-111.509465331" ;
+        c:name                "Arizona,United States" ;
+        c:permid              "100018" ;
+        c:rcscode             "G:23" ;
+        c:shortname           "Arizona" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/317bd67c-156a-32bd-8a5f-dd97b6d4c5a2> .
+
+<http://d.opencalais.com/conf/pershash-1/262b643f-aea8-3571-8bd7-1b1403dd53d6>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.958" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/262b643f-aea8-3571-8bd7-1b1403dd53d6> .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/70>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[infant daughter; one brother; and one sister.  \n]Mac[ is survived by his wife, Peggy, of the home; two]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "Mac" ;
+        c:length     "3" ;
+        c:offset     "1140" ;
+        c:prefix     "infant daughter; one brother; and one sister.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/21e724cd-937b-3096-baec-c2ab5177cfa9> ;
+        c:suffix     " is survived by his wife, Peggy, of the home; two" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/49>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[at the Waynoka First Baptist Church with Rev. ]David Shaw[ officiating.  Interment will be in the Waynoka]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "David Shaw" ;
+        c:length     "10" ;
+        c:offset     "135" ;
+        c:prefix     "at the Waynoka First Baptist Church with Rev. " ;
+        c:subject    <http://d.opencalais.com/pershash-1/41267cde-50d8-3da2-81a9-c29a6a9acc4c> ;
+        c:suffix     " officiating.  Interment will be in the Waynoka" .
+
+<http://d.opencalais.com/conf/pershash-1/dcb00bec-753c-34ce-83f8-355724a092d2>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/dcb00bec-753c-34ce-83f8-355724a092d2> .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/28>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Jane, of Waynoka, and Mark Nickelson and wife, ]Kim[, of Waynoka; and four daughters, Marilyn Moore]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "Kim" ;
+        c:length     "3" ;
+        c:offset     "1272" ;
+        c:prefix     "Jane, of Waynoka, and Mark Nickelson and wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/ee3234d0-fafd-398f-a68e-ec0a76363906> ;
+        c:suffix     ", of Waynoka; and four daughters, Marilyn Moore" .
+
+<http://d.opencalais.com/pershash-1/5925d3ad-b395-393e-b018-8dc0e2f29cd7>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Jack Nickelson" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Jack" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Nickelson" ;
+        c:name               "Jack Nickelson" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/d544b309-cf32-3d82-b889-6fa310138b3c>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.942" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/d544b309-cf32-3d82-b889-6fa310138b3c> .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Relevance/32>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/41267cde-50d8-3da2-81a9-c29a6a9acc4c> .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Relevance/11>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee> .
+
+<http://d.opencalais.com/pershash-1/ca59d6d8-4293-3520-88e4-143f9ba4cc8b>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Monica" ;
+        c:confidencelevel    "0.919" ;
+        c:firstname          "Monica" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Monica" ;
+        c:nationality        "N/A" ;
+        c:persontype         "entertainment" .
+
+<http://d.opencalais.com/pershash-1/82315d5c-d33f-3652-8157-85a3fcadd57a>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Jana Walker" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Jana" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Walker" ;
+        c:name               "Jana Walker" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/78>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ and husband, Michael, Katie Logsdon and husband, ]Jeremy[, Alexa Humphries and husband, Brian, Natalie]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "Jeremy" ;
+        c:length     "6" ;
+        c:offset     "1675" ;
+        c:prefix     " and husband, Michael, Katie Logsdon and husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/d544b309-cf32-3d82-b889-6fa310138b3c> ;
+        c:suffix     ", Alexa Humphries and husband, Brian, Natalie" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Relevance/7>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/6b09aab5-3bf0-3887-a0d2-fe4cfbfff2c7> .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/57>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[December 24, 1949, he was united in marriage to ]Peggy Sue Neill[ at Cheyenne Valley, Oklahoma.  He farmed and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "Peggy Sue Neill" ;
+        c:length     "15" ;
+        c:offset     "760" ;
+        c:prefix     "December 24, 1949, he was united in marriage to " ;
+        c:subject    <http://d.opencalais.com/pershash-1/75e459f5-196f-37bf-b84c-10b0b9471866> ;
+        c:suffix     " at Cheyenne Valley, Oklahoma.  He farmed and" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/lid/DefaultLangId>
+        a                    <http://s.opencalais.com/1/type/lid/DefaultLangId> ;
+        c:docId              <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:forenduserdisplay  "false" ;
+        c:lang               <http://d.opencalais.com/lid/DefaultLangId/English> ;
+        c:permid             "505062" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/36>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[raised.  \nAs a teenager, Mac accepted Jesus.  ]He was a member of the Waynoka[ First Baptist Church where he served as a Deacon]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "He was a member of the Waynoka" ;
+        c:length     "30" ;
+        c:offset     "932" ;
+        c:prefix     "raised.  \nAs a teenager, Mac accepted Jesus.  " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9402de7b-b64a-3da6-a823-b7ff5da87964> ;
+        c:suffix     " First Baptist Church where he served as a Deacon" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/15>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[by his wife, Peggy, of the home; two sons, ]Jerry Nickelson[ and wife, Jane, of Waynoka, and Mark Nickelson]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "Jerry Nickelson" ;
+        c:length     "15" ;
+        c:offset     "1199" ;
+        c:prefix     "by his wife, Peggy, of the home; two sons, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/dcb00bec-753c-34ce-83f8-355724a092d2> ;
+        c:suffix     " and wife, Jane, of Waynoka, and Mark Nickelson" .
+
+<http://d.opencalais.com/conf/pershash-1/b78bf117-0aa8-309d-9cee-fed3290ba1e1>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/b78bf117-0aa8-309d-9cee-fed3290ba1e1> .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Relevance/40>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/a38f791d-f4bc-3130-a9a2-77b78a5b7fcd> .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Relevance/19>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c960096a-c52e-3cf1-9ef3-a4a18889d7c9> .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/meta>
+        a                 <http://s.opencalais.com/1/type/sys/DocInfoMeta> ;
+        c:contentType     "text/raw" ;
+        c:docId           <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:language        "English" ;
+        c:processingVer   "AllMetadata" ;
+        c:serverVersion   "OneCalais_8.3-RELEASE:364" ;
+        c:signature       "digestalg-1|mHuOg5XN1tW0nL6G351lLl93QIY=|FZZpAXEDGaKQgYzznDVOFZfd5JYoaFX0bv9Jh5zSBzDSSWUeHD2QWA==" ;
+        c:stagsVer        "OneCalais_8.3-RELEASE-b11-2015-03-25_18:29:00" ;
+        c:submissionDate  "2015-05-26 17:25:04.545" ;
+        c:submitterCode   "0ca6a864-5659-789d-5f32-f365f695e757" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/86>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Nickelson, John Nickelson, Erika Clausing, ]Jeffrey Sallee[ and wife, Jessica, Andrew Sallee and wife,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "Jeffrey Sallee" ;
+        c:length     "14" ;
+        c:offset     "1770" ;
+        c:prefix     "Nickelson, John Nickelson, Erika Clausing, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/0e59d8fd-ee38-3927-b77a-19e948a7ef0f> ;
+        c:suffix     " and wife, Jessica, Andrew Sallee and wife," .
+
+<http://d.opencalais.com/pershash-1/9166da4b-8936-370b-b7c1-b3aa7ce1549d>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Erika Clausing" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Erika" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Clausing" ;
+        c:name               "Erika Clausing" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/pershash-1/3def295c-eb90-3867-aa0a-d95ffdd3fad3>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Alexa Humphries" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Alexa" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Humphries" ;
+        c:name               "Alexa Humphries" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/65>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[where he was born and raised.  \nAs a teenager, ]Mac[ accepted Jesus.  He was a member of the Waynoka]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "Mac" ;
+        c:length     "3" ;
+        c:offset     "911" ;
+        c:prefix     "where he was born and raised.  \nAs a teenager, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/21e724cd-937b-3096-baec-c2ab5177cfa9> ;
+        c:suffix     " accepted Jesus.  He was a member of the Waynoka" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/44>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Meno, Rita Clausing and husband, Bill, of ]St. John[, Kansas, Treva Sallee and husband, Jeff, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "St. John" ;
+        c:length     "8" ;
+        c:offset     "1387" ;
+        c:prefix     "of Meno, Rita Clausing and husband, Bill, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/61357ba1-00f4-3213-aea2-e97a2456c086> ;
+        c:suffix     ", Kansas, Treva Sallee and husband, Jeff, of" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/23>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Sierra Vista, Arizona, and Gail Nickelson of ]Waynoka[.  \nAlso surviving are 12 grandchildren, Jack]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "Waynoka" ;
+        c:length     "7" ;
+        c:offset     "1485" ;
+        c:prefix     "of Sierra Vista, Arizona, and Gail Nickelson of " ;
+        c:subject    <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:suffix     ".  \nAlso surviving are 12 grandchildren, Jack" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Relevance/48>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/39a557bf-f4a7-38df-ae99-d079e2b2c972> .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/6>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Brian, Natalie Nickelson, John Nickelson, ]Erika Clausing[, Jeffrey Sallee and wife, Jessica, Andrew Sallee]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "Erika Clausing" ;
+        c:length     "14" ;
+        c:offset     "1754" ;
+        c:prefix     "Brian, Natalie Nickelson, John Nickelson, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9166da4b-8936-370b-b7c1-b3aa7ce1549d> ;
+        c:suffix     ", Jeffrey Sallee and wife, Jessica, Andrew Sallee" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Relevance/27>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/61357ba1-00f4-3213-aea2-e97a2456c086> .
+
+<http://d.opencalais.com/conf/pershash-1/c67e591a-af0b-3b91-99b5-8cf7448c664d>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/c67e591a-af0b-3b91-99b5-8cf7448c664d> .
+
+<http://d.opencalais.com/conf/pershash-1/057bfc2b-1a10-396c-9049-547bc8711059>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.967" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/057bfc2b-1a10-396c-9049-547bc8711059> .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/73>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and wife, Kim, of Waynoka; and four daughters, ]Marilyn Moore[ and husband, Gary, of Meno, Rita Clausing and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "Marilyn Moore" ;
+        c:length     "13" ;
+        c:offset     "1309" ;
+        c:prefix     "and wife, Kim, of Waynoka; and four daughters, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/a38f791d-f4bc-3130-a9a2-77b78a5b7fcd> ;
+        c:suffix     " and husband, Gary, of Meno, Rita Clausing and" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Relevance/2>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/852f5323-9bc2-3b0d-997e-3267bea9f307> .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/52>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Jack Nickelson, Jana Walker and husband, ]Wade[, Scott Moore and wife, Monica, Melissa Slocter]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "Wade" ;
+        c:length     "4" ;
+        c:offset     "1574" ;
+        c:prefix     "Jack Nickelson, Jana Walker and husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/394b44c1-4655-3b43-b042-5eca32a64c46> ;
+        c:suffix     ", Scott Moore and wife, Monica, Melissa Slocter" .
+
+<http://d.opencalais.com/conf/pershash-1/39a557bf-f4a7-38df-ae99-d079e2b2c972>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.896" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.934" ;
+        c:subject             <http://d.opencalais.com/pershash-1/39a557bf-f4a7-38df-ae99-d079e2b2c972> .
+
+<http://d.opencalais.com/conf/pershash-1/fdc6d7b4-5caf-31ce-8eb9-1e7738638bea>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/fdc6d7b4-5caf-31ce-8eb9-1e7738638bea> .
+
+<http://d.opencalais.com/pershash-1/a53ab354-3d58-3447-92dc-40d6b216e91b>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Natalie Nickelson" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Natalie" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Nickelson" ;
+        c:name               "Natalie Nickelson" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/31>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Funeral services for ]Wesley Mac Nickelson[ will be 11:00 a.m. Thursday, December 8, 2011,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "Wesley Mac Nickelson" ;
+        c:length     "20" ;
+        c:offset     "21" ;
+        c:prefix     "Funeral services for " ;
+        c:subject    <http://d.opencalais.com/pershash-1/78d9721e-7d08-30db-aff9-ebf0b8e56c0c> ;
+        c:suffix     " will be 11:00 a.m. Thursday, December 8, 2011," .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/10>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Bethel through the 8th grade and graduated from ]Cheyenne Valley High School[.  He served in the United States Army and was]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "Cheyenne Valley High School" ;
+        c:length     "27" ;
+        c:offset     "602" ;
+        c:prefix     "Bethel through the 8th grade and graduated from " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/6b09aab5-3bf0-3887-a0d2-fe4cfbfff2c7> ;
+        c:suffix     ".  He served in the United States Army and was" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Relevance/35>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/394b44c1-4655-3b43-b042-5eca32a64c46> .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Relevance/14>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/a53ab354-3d58-3447-92dc-40d6b216e91b> .
+
+<http://d.opencalais.com/genericHasher-1/0ed5dc92-f245-33df-9c80-d3af5c52f8b2>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/75e459f5-196f-37bf-b84c-10b0b9471866> , <http://d.opencalais.com/pershash-1/21e724cd-937b-3096-baec-c2ab5177cfa9> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/pershash-1/78d9721e-7d08-30db-aff9-ebf0b8e56c0c>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Wesley Mac Nickelson" ;
+        c:confidencelevel    "0.988" ;
+        c:firstname          "Wesley" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Mac Nickelson" ;
+        c:name               "Wesley Mac Nickelson" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/61357ba1-00f4-3213-aea2-e97a2456c086>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "St. John" .
+
+<http://d.opencalais.com/conf/pershash-1/fa49ecd7-f186-3145-9aa3-0bfff951f18a>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.932" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/fa49ecd7-f186-3145-9aa3-0bfff951f18a> .
+
+<http://d.opencalais.com/pershash-1/193f540e-e1f3-3d6d-9cea-796bcdce1622>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Gary" ;
+        c:confidencelevel    "0.919" ;
+        c:firstname          "Gary" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Gary" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/81>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Treva Sallee and husband, Jeff, of Sierra Vista, ]Arizona[, and Gail Nickelson of Waynoka.  \nAlso surviving]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "Arizona" ;
+        c:length     "7" ;
+        c:offset     "1454" ;
+        c:prefix     " Treva Sallee and husband, Jeff, of Sierra Vista, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/317bd67c-156a-32bd-8a5f-dd97b6d4c5a2> ;
+        c:suffix     ", and Gail Nickelson of Waynoka.  \nAlso surviving" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/60>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ and graduated from Cheyenne Valley High School.  ]He[ served in the United States Army and was]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "He" ;
+        c:length     "2" ;
+        c:offset     "632" ;
+        c:prefix     " and graduated from Cheyenne Valley High School.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/21e724cd-937b-3096-baec-c2ab5177cfa9> ;
+        c:suffix     " served in the United States Army and was" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/39>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[through the funeral home to the Waynoka First ]Baptist Church[. \n\t\t\t]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "Baptist Church" ;
+        c:length     "14" ;
+        c:offset     "1997" ;
+        c:prefix     "through the funeral home to the Waynoka First " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a21a69b3-e9dd-341e-9fee-da93c550c744> ;
+        c:suffix     ". \n\t\t\t" .
+
+<http://d.opencalais.com/genericHasher-1/35a979c1-2108-3761-99bd-8c6f499ef6f2>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Enid" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/18>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Shaw officiating.  Interment will be in the ]Waynoka[ Municipal Cemetery under the direction of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "Waynoka" ;
+        c:length     "7" ;
+        c:offset     "185" ;
+        c:prefix     "Shaw officiating.  Interment will be in the " ;
+        c:subject    <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:suffix     " Municipal Cemetery under the direction of" .
+
+<http://d.opencalais.com/conf/pershash-1/cffb6aa4-6fa0-3109-9773-f1206c55ef24>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/cffb6aa4-6fa0-3109-9773-f1206c55ef24> .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Relevance/43>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/d544b309-cf32-3d82-b889-6fa310138b3c> .
+
+<http://d.opencalais.com/conf/pershash-1/42954df0-22a6-36f0-a2dd-ff5e75062ee2>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/42954df0-22a6-36f0-a2dd-ff5e75062ee2> .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/1>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Marilyn Moore and husband, Gary, of Meno, ]Rita Clausing[ and husband, Bill, of St. John, Kansas, Treva]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "Rita Clausing" ;
+        c:length     "13" ;
+        c:offset     "1351" ;
+        c:prefix     "Marilyn Moore and husband, Gary, of Meno, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/3386fc16-e8f2-381e-8f69-1619a06bee7b> ;
+        c:suffix     " and husband, Bill, of St. John, Kansas, Treva" .
+
+<http://d.opencalais.com/genericHasher-1/6b09aab5-3bf0-3887-a0d2-fe4cfbfff2c7>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Cheyenne Valley High School" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Relevance/22>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a21a69b3-e9dd-341e-9fee-da93c550c744> .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/SocialTag/3>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Wesley" ;
+        c:originalValue      "Wesley (disambiguation)" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/b6c3d41b-a91f-3ca9-982d-39b4b63c7d3d> .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/ComponentVersions>
+        a          <http://s.opencalais.com/1/type/sys/ComponentVersions> ;
+        c:docId    <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:version  "index-vessels:201505231718:201505231718" , "Housekeeper:OneCalais_8.3-RELEASE:113" , "config-negativeSignature:258:258" , "Dial4J:OneCalais_8.3-RELEASE:198" , "OneCalaisIM:OneCalais_8.3-RELEASE:198" , "Deals Index:201505261613:201505261613" , "config-vessels:258:258" , "FrenchIM:OneCalais_8.3-RELEASE:198" , "BlackList:264:264" , "config-drugs:258:258" , "SpanishIM:OneCalais_8.3-RELEASE:198" , "NextTags:OneCalais_8.3-RELEASE:113" , "OA Index:201505252208:201505252208" , "BrokerResearchIM:OneCalais_8.3-RELEASE:198" , "OneCalais:OneCalais_8.3-RELEASE:364" , "Collector:OneCalais_8.3-RELEASE:113" , "SECHeaderMetadataIM:OneCalais_8.3-RELEASE:198" , "WatchDog:OneCalais_8.3-RELEASE:113" , "config-sca-DataPackage:34:34" , "SocialTags Index:201505191038:201505191038" , "People Index:201505261608:201505261608" , "OA Override:271:271" , "config-cse:271:271" , "AutocoderRuntimeIM:OneCalais_8.3-RELEASE:198" , "config-physicalAssets-ports:258:258" , "config-refineries:258:258" , "People Override:258:258" , "com.clearforest.infoext.dial4j.plugins-basistechconfig:OneCalais_8.3-RELEASE:225" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/68>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[as a Deacon and taught Sunday School.  \nBesides ]his[ parents, he was preceded in death by an infant]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "1048" ;
+        c:prefix     "as a Deacon and taught Sunday School.  \nBesides " ;
+        c:subject    <http://d.opencalais.com/pershash-1/21e724cd-937b-3096-baec-c2ab5177cfa9> ;
+        c:suffix     " parents, he was preceded in death by an infant" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/47>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Nickelson, son of the late Wesley Abednego and ]Ruby (Gould) Nickelson[, was born June 24, 1923, on the family farm in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "Ruby (Gould) Nickelson" ;
+        c:length     "22" ;
+        c:offset     "334" ;
+        c:prefix     "Nickelson, son of the late Wesley Abednego and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/4aaee988-5e86-3eef-928d-f0edb7b1cbe8> ;
+        c:suffix     ", was born June 24, 1923, on the family farm in" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/26>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Jane, of Waynoka, and Mark Nickelson and wife, ]Kim, of Waynoka[; and four daughters, Marilyn Moore and husband,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "Kim, of Waynoka" ;
+        c:length     "15" ;
+        c:offset     "1272" ;
+        c:prefix     "Jane, of Waynoka, and Mark Nickelson and wife, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/fbe81f8b-08e6-3384-a2b2-26109d140da8> ;
+        c:suffix     "; and four daughters, Marilyn Moore and husband," .
+
+<http://d.opencalais.com/conf/pershash-1/5925d3ad-b395-393e-b018-8dc0e2f29cd7>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/5925d3ad-b395-393e-b018-8dc0e2f29cd7> .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/cat/1>
+        a                    <http://s.opencalais.com/1/type/cat/DocCat> ;
+        c:docId              <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Religion_Belief" ;
+        c:score              "0.959" .
+
+<http://d.opencalais.com/conf/pershash-1/82315d5c-d33f-3652-8157-85a3fcadd57a>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/82315d5c-d33f-3652-8157-85a3fcadd57a> .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/9>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Gary, of Meno, Rita Clausing and husband, ]Bill, of St. John, Kansas[, Treva Sallee and husband, Jeff, of Sierra]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "Bill, of St. John, Kansas" ;
+        c:length     "25" ;
+        c:offset     "1378" ;
+        c:prefix     "Gary, of Meno, Rita Clausing and husband, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/d2980446-742a-3d88-859d-9ad33b75b0d8> ;
+        c:suffix     ", Treva Sallee and husband, Jeff, of Sierra" .
+
+<http://d.opencalais.com/conf/pershash-1/ca59d6d8-4293-3520-88e4-143f9ba4cc8b>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.919" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/ca59d6d8-4293-3520-88e4-143f9ba4cc8b> .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Relevance/30>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/4aaee988-5e86-3eef-928d-f0edb7b1cbe8> .
+
+<http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205>
+        a                    <http://s.opencalais.com/1/type/em/e/Company> ;
+        c:confidencelevel    "0.839" ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Waynoka LLC" ;
+        c:nationality        "N/A" .
+
+<http://d.opencalais.com/pershash-1/75e459f5-196f-37bf-b84c-10b0b9471866>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Peggy Sue Neill" ;
+        c:confidencelevel    "0.994" ;
+        c:firstname          "Peggy" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Neill" ;
+        c:middlename         "Sue" ;
+        c:name               "Peggy Sue Neill" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/76>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and passed away  December 5, 2011, at Enid, ]Oklahoma[, at the age of 88 years, 5 months, and 11 days. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "472" ;
+        c:prefix     "and passed away  December 5, 2011, at Enid, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", at the age of 88 years, 5 months, and 11 days. " .
+
+<http://d.opencalais.com/pershash-1/ee3234d0-fafd-398f-a68e-ec0a76363906>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Kim" ;
+        c:confidencelevel    "0.954" ;
+        c:firstname          "Kim" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Kim" ;
+        c:nationality        "N/A" ;
+        c:persontype         "economic" .
+
+<http://d.opencalais.com/pershash-1/394b44c1-4655-3b43-b042-5eca32a64c46>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Wade" ;
+        c:confidencelevel    "0.898" ;
+        c:firstname          "Wade" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Wade" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Relevance/5>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/9166da4b-8936-370b-b7c1-b3aa7ce1549d> .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/55>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Cheyenne Valley High School.  He served in the ]United States Army[ and was stationed in France for a time.  On]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "United States Army" ;
+        c:length     "18" ;
+        c:offset     "649" ;
+        c:prefix     "Cheyenne Valley High School.  He served in the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/fce36612-627b-34d0-9874-611de4063865> ;
+        c:suffix     " and was stationed in France for a time.  On" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/34>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[surviving are 12 grandchildren, Jack Nickelson, ]Jana Walker[ and husband, Wade, Scott Moore and wife, Monica,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "Jana Walker" ;
+        c:length     "11" ;
+        c:offset     "1549" ;
+        c:prefix     "surviving are 12 grandchildren, Jack Nickelson, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/82315d5c-d33f-3652-8157-85a3fcadd57a> ;
+        c:suffix     " and husband, Wade, Scott Moore and wife, Monica," .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/13>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[husband, Jeremy, Alexa Humphries and husband, ]Brian[, Natalie Nickelson, John Nickelson, Erika]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "Brian" ;
+        c:length     "5" ;
+        c:offset     "1712" ;
+        c:prefix     "husband, Jeremy, Alexa Humphries and husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/a3b67ef6-5a4e-3c16-a10b-4186de1b99ac> ;
+        c:suffix     ", Natalie Nickelson, John Nickelson, Erika" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Relevance/38>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/21e724cd-937b-3096-baec-c2ab5177cfa9> .
+
+<http://d.opencalais.com/pershash-1/4aaee988-5e86-3eef-928d-f0edb7b1cbe8>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Ruby Nickelson" ;
+        c:confidencelevel    "0.98" ;
+        c:firstname          "Ruby" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Nickelson" ;
+        c:name               "Ruby (Gould) Nickelson" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Relevance/17>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/c67e591a-af0b-3b91-99b5-8cf7448c664d> .
+
+<http://d.opencalais.com/pershash-1/c7f83564-8c54-3b0b-9797-5fdcb4b7ff1b>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Wesley Abednego" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Wesley" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Abednego" ;
+        c:name               "Wesley Abednego" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/f94e3bc7-8a8a-325a-af3a-7be3f3968751>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:forenduserdisplay  "true" ;
+        c:organization       <http://d.opencalais.com/genericHasher-1/fce36612-627b-34d0-9874-611de4063865> ;
+        c:person             <http://d.opencalais.com/pershash-1/21e724cd-937b-3096-baec-c2ab5177cfa9> ;
+        c:status             "past" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695>
+        a                  <http://s.opencalais.com/1/type/sys/DocInfo> ;
+        c:calaisRequestID  "4ba3193f-6737-56a1-14d9-14197a16fa60" ;
+        c:docDate          "2015-05-26 17:25:04.986" ;
+        c:docTitle         "" ;
+        c:document         "Funeral services for Wesley Mac Nickelson will be 11:00 a.m. Thursday, December 8, 2011, at the Waynoka First Baptist Church with Rev. David Shaw officiating.  Interment will be in the Waynoka Municipal Cemetery under the direction of Marshall Funeral Home of Waynoka, LLC.  \nWesley Mac Nickelson, son of the late Wesley Abednego and Ruby (Gould) Nickelson, was born June 24, 1923, on the family farm in Major County, Oklahoma, and passed away  December 5, 2011, at Enid, Oklahoma, at the age of 88 years, 5 months, and 11 days.  \nMac attended school at Bethel through the 8th grade and graduated from Cheyenne Valley High School.  He served in the United States Army and was stationed in France for a time.  On December 24, 1949, he was united in marriage to Peggy Sue Neill at Cheyenne Valley, Oklahoma.  He farmed and ranched his entire life on the family farm where he was born and raised.  \nAs a teenager, Mac accepted Jesus.  He was a member of the Waynoka First Baptist Church where he served as a Deacon and taught Sunday School.  \nBesides his parents, he was preceded in death by an infant daughter; one brother; and one sister.  \nMac is survived by his wife, Peggy, of the home; two sons, Jerry Nickelson and wife, Jane, of Waynoka, and Mark Nickelson and wife, Kim, of Waynoka; and four daughters, Marilyn Moore and husband, Gary, of Meno, Rita Clausing and husband, Bill, of St. John, Kansas, Treva Sallee and husband, Jeff, of Sierra Vista, Arizona, and Gail Nickelson of Waynoka.  \nAlso surviving are 12 grandchildren, Jack Nickelson, Jana Walker and husband, Wade, Scott Moore and wife, Monica, Melissa Slocter and husband, Michael, Katie Logsdon and husband, Jeremy, Alexa Humphries and husband, Brian, Natalie Nickelson, John Nickelson, Erika Clausing, Jeffrey Sallee and wife, Jessica, Andrew Sallee and wife, Morgan, and Matthew Sallee; 12 great grandchildren; other relatives and many friends.  \nMemorial contributions may be made through the funeral home to the Waynoka First Baptist Church. \n\t\t\t" ;
+        c:id               "http://id.opencalais.com/6NKBSI-Zu-L0mycY3xbcFQ" ;
+        c:ontology         "http://163.231.4.65/owlschema/8.3/onecalais.owl.allmetadata.xml" .
+
+<http://d.opencalais.com/conf/pershash-1/9166da4b-8936-370b-b7c1-b3aa7ce1549d>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/9166da4b-8936-370b-b7c1-b3aa7ce1549d> .
+
+<http://d.opencalais.com/conf/pershash-1/3def295c-eb90-3867-aa0a-d95ffdd3fad3>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/3def295c-eb90-3867-aa0a-d95ffdd3fad3> .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/84>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and four daughters, Marilyn Moore and husband, ]Gary[, of Meno, Rita Clausing and husband, Bill, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "Gary" ;
+        c:length     "4" ;
+        c:offset     "1336" ;
+        c:prefix     "and four daughters, Marilyn Moore and husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/193f540e-e1f3-3d6d-9cea-796bcdce1622> ;
+        c:suffix     ", of Meno, Rita Clausing and husband, Bill, of" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/63>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Valley, Oklahoma.  He farmed and ranched ]his[ entire life on the family farm where he was born]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "829" ;
+        c:prefix     "Valley, Oklahoma.  He farmed and ranched " ;
+        c:subject    <http://d.opencalais.com/pershash-1/21e724cd-937b-3096-baec-c2ab5177cfa9> ;
+        c:suffix     " entire life on the family farm where he was born" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/42>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Jack Nickelson, Jana Walker and husband, Wade, ]Scott Moore[ and wife, Monica, Melissa Slocter and husband,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "Scott Moore" ;
+        c:length     "11" ;
+        c:offset     "1580" ;
+        c:prefix     "Jack Nickelson, Jana Walker and husband, Wade, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/7df258f4-3b95-37aa-9ce1-2eac4a50862f> ;
+        c:suffix     " and wife, Monica, Melissa Slocter and husband," .
+
+<http://d.opencalais.com/pershash-1/8b849ed8-bce7-3ef9-8a40-3fca6752f753>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Bill" ;
+        c:confidencelevel    "0.987" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Bill" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/pershash-1/0e59d8fd-ee38-3927-b77a-19e948a7ef0f>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Jeffrey Sallee" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Jeffrey" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Sallee" ;
+        c:name               "Jeffrey Sallee" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/21>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[two sons, Jerry Nickelson and wife, Jane, of ]Waynoka[, and Mark Nickelson and wife, Kim, of Waynoka;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "Waynoka" ;
+        c:length     "7" ;
+        c:offset     "1234" ;
+        c:prefix     "two sons, Jerry Nickelson and wife, Jane, of " ;
+        c:subject    <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:suffix     ", and Mark Nickelson and wife, Kim, of Waynoka;" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Relevance/46>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/fa49ecd7-f186-3145-9aa3-0bfff951f18a> .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/4>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Rita Clausing and husband, Bill, of St. John, ]Kansas[, Treva Sallee and husband, Jeff, of Sierra]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "Kansas" ;
+        c:length     "6" ;
+        c:offset     "1397" ;
+        c:prefix     "Rita Clausing and husband, Bill, of St. John, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> ;
+        c:suffix     ", Treva Sallee and husband, Jeff, of Sierra" .
+
+<http://d.opencalais.com/genericHasher-1/84bb0714-85ab-39de-a7e7-f1ad2e79292b>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Marshall Funeral Home of Waynoka" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Relevance/25>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/7df258f4-3b95-37aa-9ce1-2eac4a50862f> .
+
+<http://d.opencalais.com/pershash-1/41267cde-50d8-3da2-81a9-c29a6a9acc4c>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "David Shaw" ;
+        c:confidencelevel    "0.999" ;
+        c:firstname          "David" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Shaw" ;
+        c:name               "David Shaw" ;
+        c:nationality        "N/A" ;
+        c:persontype         "sports" .
+
+<http://d.opencalais.com/pershash-1/21e724cd-937b-3096-baec-c2ab5177cfa9>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Mac Nickelson" ;
+        c:confidencelevel    "0.896" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Mac Nickelson" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/71>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[brother; and one sister.  \nMac is survived by ]his[ wife, Peggy, of the home; two sons, Jerry]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "1159" ;
+        c:prefix     "brother; and one sister.  \nMac is survived by " ;
+        c:subject    <http://d.opencalais.com/pershash-1/21e724cd-937b-3096-baec-c2ab5177cfa9> ;
+        c:suffix     " wife, Peggy, of the home; two sons, Jerry" .
+
+<http://d.opencalais.com/conf/pershash-1/a53ab354-3d58-3447-92dc-40d6b216e91b>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/a53ab354-3d58-3447-92dc-40d6b216e91b> .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/50>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ and husband, Jeff, of Sierra Vista, Arizona, and ]Gail Nickelson[ of Waynoka.  \nAlso surviving are 12]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "Gail Nickelson" ;
+        c:length     "14" ;
+        c:offset     "1467" ;
+        c:prefix     " and husband, Jeff, of Sierra Vista, Arizona, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/cffb6aa4-6fa0-3109-9773-f1206c55ef24> ;
+        c:suffix     " of Waynoka.  \nAlso surviving are 12" .
+
+<http://d.opencalais.com/genericHasher-1/a21a69b3-e9dd-341e-9fee-da93c550c744>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Baptist Church" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/29>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Waynoka.  \nAlso surviving are 12 grandchildren, ]Jack Nickelson[, Jana Walker and husband, Wade, Scott Moore and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "Jack Nickelson" ;
+        c:length     "14" ;
+        c:offset     "1533" ;
+        c:prefix     "Waynoka.  \nAlso surviving are 12 grandchildren, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/5925d3ad-b395-393e-b018-8dc0e2f29cd7> ;
+        c:suffix     ", Jana Walker and husband, Wade, Scott Moore and" .
+
+<http://d.opencalais.com/genericHasher-1/d453379c-b720-3e3d-ba5e-f13329ed3ce2>
+        a                       <http://s.opencalais.com/1/type/em/r/PersonEducation> ;
+        c:forenduserdisplay     "false" ;
+        c:person                <http://d.opencalais.com/pershash-1/21e724cd-937b-3096-baec-c2ab5177cfa9> ;
+        c:schoolororganization  "Cheyenne Valley High School" .
+
+<http://d.opencalais.com/conf/pershash-1/78d9721e-7d08-30db-aff9-ebf0b8e56c0c>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.988" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.992" ;
+        c:subject             <http://d.opencalais.com/pershash-1/78d9721e-7d08-30db-aff9-ebf0b8e56c0c> .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Relevance/33>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/cffb6aa4-6fa0-3109-9773-f1206c55ef24> .
+
+<http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee>
+        a                    <http://s.opencalais.com/1/type/em/e/IndustryTerm> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Funeral services" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Relevance/12>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/dcb00bec-753c-34ce-83f8-355724a092d2> .
+
+<http://d.opencalais.com/genericHasher-1/317bd67c-156a-32bd-8a5f-dd97b6d4c5a2>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Arizona" .
+
+<http://d.opencalais.com/conf/pershash-1/193f540e-e1f3-3d6d-9cea-796bcdce1622>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.919" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/193f540e-e1f3-3d6d-9cea-796bcdce1622> .
+
+<http://d.opencalais.com/pershash-1/852f5323-9bc2-3b0d-997e-3267bea9f307>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Morgan" ;
+        c:confidencelevel    "0.997" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Morgan" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oklahoma" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/79>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[brother; and one sister.  \nMac is survived by ]his wife, Peggy[, of the home; two sons, Jerry Nickelson and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "his wife, Peggy" ;
+        c:length     "15" ;
+        c:offset     "1159" ;
+        c:prefix     "brother; and one sister.  \nMac is survived by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8c71a95d-b6a0-3c4d-8012-22d063c25a7f> ;
+        c:suffix     ", of the home; two sons, Jerry Nickelson and" .
+
+<http://d.opencalais.com/genericHasher-1/97d072e8-e5f0-3e9d-bd1d-e865b1ceabd9>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:company            <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:forenduserdisplay  "true" ;
+        c:person             <http://d.opencalais.com/pershash-1/262b643f-aea8-3571-8bd7-1b1403dd53d6> ;
+        c:status             "current" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Relevance/8>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/ca59d6d8-4293-3520-88e4-143f9ba4cc8b> .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/58>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and one sister.  \nMac is survived by his wife, ]Peggy[, of the home; two sons, Jerry Nickelson and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "Peggy" ;
+        c:length     "5" ;
+        c:offset     "1169" ;
+        c:prefix     "and one sister.  \nMac is survived by his wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/75e459f5-196f-37bf-b84c-10b0b9471866> ;
+        c:suffix     ", of the home; two sons, Jerry Nickelson and" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/37>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Thursday, December 8, 2011, at the Waynoka First ]Baptist Church[ with Rev. David Shaw officiating.  Interment]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "Baptist Church" ;
+        c:length     "14" ;
+        c:offset     "110" ;
+        c:prefix     " Thursday, December 8, 2011, at the Waynoka First " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a21a69b3-e9dd-341e-9fee-da93c550c744> ;
+        c:suffix     " with Rev. David Shaw officiating.  Interment" .
+
+<http://d.opencalais.com/pershash-1/be039c62-ee83-3a7c-a48c-870f50ff4e9f>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Melissa Slocter" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Melissa" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Slocter" ;
+        c:name               "Melissa Slocter" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/16>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ and husband, Jeff, of Sierra Vista, Arizona, and ]Gail Nickelson of Waynoka[.  \nAlso surviving are 12 grandchildren, Jack]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "Gail Nickelson of Waynoka" ;
+        c:length     "25" ;
+        c:offset     "1467" ;
+        c:prefix     " and husband, Jeff, of Sierra Vista, Arizona, and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/f7484d5f-3007-3c33-bea6-94d0dfa992df> ;
+        c:suffix     ".  \nAlso surviving are 12 grandchildren, Jack" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Relevance/41>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/35a979c1-2108-3761-99bd-8c6f499ef6f2> .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Relevance/20>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/82315d5c-d33f-3652-8157-85a3fcadd57a> .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/ec80b062-8d1e-123a-1d6e-8bd0b7355690>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:latitude            "38.45" ;
+        c:longitude           "-96.5333" ;
+        c:name                "Kansas,United States" ;
+        c:permid              "100151" ;
+        c:rcscode             "G:6D" ;
+        c:shortname           "Kansas" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> .
+
+<http://d.opencalais.com/pershash-1/a38f791d-f4bc-3130-a9a2-77b78a5b7fcd>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Marilyn Moore" ;
+        c:confidencelevel    "0.992" ;
+        c:firstname          "Marilyn" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Moore" ;
+        c:name               "Marilyn Moore" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/6abe3161-12c6-3499-9487-c0d13629fc04>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Enid, Oklahoma" ;
+        c:person             <http://d.opencalais.com/pershash-1/c7f83564-8c54-3b0b-9797-5fdcb4b7ff1b> .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/SocialTag/1>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Waynoka, Oklahoma" ;
+        c:originalValue      "Waynoka, Oklahoma" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/77bc8be5-12a7-326b-962f-52fbf8cf09dd> .
+
+<http://d.opencalais.com/genericHasher-1/fce36612-627b-34d0-9874-611de4063865>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "United States Army" ;
+        c:nationality        "American" ;
+        c:organizationtype   "governmental military" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/66>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[raised.  \nAs a teenager, Mac accepted Jesus.  ]He[ was a member of the Waynoka First Baptist Church]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "He" ;
+        c:length     "2" ;
+        c:offset     "932" ;
+        c:prefix     "raised.  \nAs a teenager, Mac accepted Jesus.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/21e724cd-937b-3096-baec-c2ab5177cfa9> ;
+        c:suffix     " was a member of the Waynoka First Baptist Church" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/45>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Erika Clausing, Jeffrey Sallee and wife, ]Jessica[, Andrew Sallee and wife, Morgan, and Matthew]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "Jessica" ;
+        c:length     "7" ;
+        c:offset     "1795" ;
+        c:prefix     "Erika Clausing, Jeffrey Sallee and wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/85fe2183-2fbd-3d6f-9d7c-dc8826b57bdb> ;
+        c:suffix     ", Andrew Sallee and wife, Morgan, and Matthew" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/24>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[may be made through the funeral home to the ]Waynoka[ First Baptist Church.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "Waynoka" ;
+        c:length     "7" ;
+        c:offset     "1983" ;
+        c:prefix     "may be made through the funeral home to the " ;
+        c:subject    <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:suffix     " First Baptist Church." .
+
+<http://d.opencalais.com/pershash-1/85fe2183-2fbd-3d6f-9d7c-dc8826b57bdb>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Jessica" ;
+        c:confidencelevel    "0.949" ;
+        c:firstname          "Jessica" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Jessica" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Relevance/49>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/0e59d8fd-ee38-3927-b77a-19e948a7ef0f> .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/7>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Clausing, Jeffrey Sallee and wife, Jessica, ]Andrew Sallee[ and wife, Morgan, and Matthew Sallee; 12 great]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "Andrew Sallee" ;
+        c:length     "13" ;
+        c:offset     "1804" ;
+        c:prefix     "Clausing, Jeffrey Sallee and wife, Jessica, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b78bf117-0aa8-309d-9cee-fed3290ba1e1> ;
+        c:suffix     " and wife, Morgan, and Matthew Sallee; 12 great" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Relevance/28>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/85fe2183-2fbd-3d6f-9d7c-dc8826b57bdb> .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/e9e27c26-4013-8712-a5f0-97dcdc412c26>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:latitude            "35.5607802899" ;
+        c:longitude           "-96.8460570462" ;
+        c:name                "Oklahoma,United States" ;
+        c:permid              "100229" ;
+        c:rcscode             "G:9H" ;
+        c:shortname           "Oklahoma" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/conf/comphash-1/e6417933-98e8-365f-8f80-b92f05707205>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.839" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:resolution          "0.05522651" ;
+        c:statisticalfeature  "0.914" ;
+        c:subject             <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> .
+
+<http://d.opencalais.com/conf/pershash-1/75e459f5-196f-37bf-b84c-10b0b9471866>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.994" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.996" ;
+        c:subject             <http://d.opencalais.com/pershash-1/75e459f5-196f-37bf-b84c-10b0b9471866> .
+
+<http://d.opencalais.com/conf/pershash-1/ee3234d0-fafd-398f-a68e-ec0a76363906>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.954" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/ee3234d0-fafd-398f-a68e-ec0a76363906> .
+
+<http://d.opencalais.com/conf/pershash-1/394b44c1-4655-3b43-b042-5eca32a64c46>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.898" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/394b44c1-4655-3b43-b042-5eca32a64c46> .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/74>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Oklahoma, and passed away  December 5, 2011, at ]Enid[, Oklahoma, at the age of 88 years, 5 months, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "Enid" ;
+        c:length     "4" ;
+        c:offset     "466" ;
+        c:prefix     "Oklahoma, and passed away  December 5, 2011, at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/35a979c1-2108-3761-99bd-8c6f499ef6f2> ;
+        c:suffix     ", Oklahoma, at the age of 88 years, 5 months, and" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Relevance/3>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/53>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[LLC.  \nWesley Mac Nickelson, son of the late ]Wesley Abednego and Ruby (Gould) Nickelson, was born June 24, 1923, on the family farm in Major County, Oklahoma, and passed away  December 5, 2011, at Enid, Oklahoma[, at the age of 88 years, 5 months, and 11 days. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "Wesley Abednego and Ruby (Gould) Nickelson, was born June 24, 1923, on the family farm in Major County, Oklahoma, and passed away  December 5, 2011, at Enid, Oklahoma" ;
+        c:length     "166" ;
+        c:offset     "314" ;
+        c:prefix     "LLC.  \nWesley Mac Nickelson, son of the late " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/6abe3161-12c6-3499-9487-c0d13629fc04> ;
+        c:suffix     ", at the age of 88 years, 5 months, and 11 days. " .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/32>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Marshall Funeral Home of Waynoka, LLC.  \n]Wesley Mac Nickelson[, son of the late Wesley Abednego and Ruby]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "Wesley Mac Nickelson" ;
+        c:length     "20" ;
+        c:offset     "276" ;
+        c:prefix     "of Marshall Funeral Home of Waynoka, LLC.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/78d9721e-7d08-30db-aff9-ebf0b8e56c0c> ;
+        c:suffix     ", son of the late Wesley Abednego and Ruby" .
+
+<http://d.opencalais.com/conf/pershash-1/a3b67ef6-5a4e-3c16-a10b-4186de1b99ac>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.949" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/a3b67ef6-5a4e-3c16-a10b-4186de1b99ac> .
+
+<http://d.opencalais.com/genericHasher-1/f7484d5f-3007-3c33-bea6-94d0dfa992df>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:company            <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:forenduserdisplay  "true" ;
+        c:person             <http://d.opencalais.com/pershash-1/cffb6aa4-6fa0-3109-9773-f1206c55ef24> ;
+        c:status             "current" .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Instance/11>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Walker and husband, Wade, Scott Moore and wife, ]Monica[, Melissa Slocter and husband, Michael, Katie]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:exact      "Monica" ;
+        c:length     "6" ;
+        c:offset     "1602" ;
+        c:prefix     "Walker and husband, Wade, Scott Moore and wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/ca59d6d8-4293-3520-88e4-143f9ba4cc8b> ;
+        c:suffix     ", Melissa Slocter and husband, Michael, Katie" .
+
+<http://d.opencalais.com/conf/pershash-1/4aaee988-5e86-3eef-928d-f0edb7b1cbe8>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.98" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.986" ;
+        c:subject             <http://d.opencalais.com/pershash-1/4aaee988-5e86-3eef-928d-f0edb7b1cbe8> .
+
+<http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695/Relevance/36>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9544176f-1e84-3eef-a4e3-fbee9212d695> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/fce36612-627b-34d0-9874-611de4063865> .

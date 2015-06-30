@@ -1,0 +1,962 @@
+#Relations: PersonAttributes, PersonCareer, PersonEducation, PersonLocation
+#City: Denver, Enid
+#Company: Wentworth Mortuary LLC
+#Facility: Northwestern State College
+#IndustryTerm: Memorial services
+#Organization: Carmen High School, Carmen Methodist Church, Northwestern State College, s School of Beauty
+#Person: Carmen Methodist, Ella Kate, Ella Kate (Morrison) Solf, Ernest Solf, Mary Carol, Mary Carol Solf
+#Position: beautician
+#ProvinceOrState: Oklahoma
+@prefix c:     <http://s.opencalais.com/1/pred/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://d.opencalais.com/conf/pershash-1/01aff192-97f9-3c11-b52f-1d099ffa4144>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.98" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.984" ;
+        c:subject             <http://d.opencalais.com/pershash-1/01aff192-97f9-3c11-b52f-1d099ffa4144> .
+
+<http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341/Instance/32>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[to Denver where she graduated from Ricardo?]s School of Beauty[.  She returned to Carmen where she worked as a]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:exact      "s School of Beauty" ;
+        c:length     "18" ;
+        c:offset     "567" ;
+        c:prefix     "to Denver where she graduated from Ricardo?" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/2c3bf9b5-8f30-349c-a9a6-c100adad2d3f> ;
+        c:suffix     ".  She returned to Carmen where she worked as a" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/9abed97f-1f19-0004-aee6-0a06b0289f38>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:latitude            "36.3956" ;
+        c:longitude           "-97.8781" ;
+        c:name                "Enid,Oklahoma,United States" ;
+        c:shortname           "Enid" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/35a979c1-2108-3761-99bd-8c6f499ef6f2> .
+
+<http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341/Instance/45>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[from Carmen High School in 1961 and attended ]Northwestern State College[ in Alva before moving to Denver where she]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:exact      "Northwestern State College" ;
+        c:length     "26" ;
+        c:offset     "475" ;
+        c:prefix     "from Carmen High School in 1961 and attended " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8b14f97f-02a4-3e59-aaba-7cb34aeeb7cb> ;
+        c:suffix     " in Alva before moving to Denver where she" .
+
+<http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341/Relevance/14>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/b76d1935-3f74-3cfe-9807-62a0b4a18b20> .
+
+<http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341/Relevance/9>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/5f0253f4-6be9-3522-9de2-67285d6ab317> .
+
+<http://d.opencalais.com/genericHasher-1/80324d9d-412e-3c11-b5ac-a7c210609147>
+        a                       <http://s.opencalais.com/1/type/em/r/PersonEducation> ;
+        c:forenduserdisplay     "false" ;
+        c:person                <http://d.opencalais.com/pershash-1/01aff192-97f9-3c11-b52f-1d099ffa4144> ;
+        c:schoolororganization  "Carmen High School" .
+
+<http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341/Instance/17>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Solf, daughter of the late Ernest and Ella Kate (]Morrison[) Solf, was born January 8, 1943, at Alva,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:exact      "Morrison" ;
+        c:length     "8" ;
+        c:offset     "225" ;
+        c:prefix     " Solf, daughter of the late Ernest and Ella Kate (" ;
+        c:subject    <http://d.opencalais.com/pershash-1/a20bbee9-8838-3698-9f90-14b12b0715a6> ;
+        c:suffix     ") Solf, was born January 8, 1943, at Alva," .
+
+<http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341/Instance/7>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[School for 18 years, before retiring in 1990.  ]She[ loved teaching drama and wrote and directed her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "836" ;
+        c:prefix     "School for 18 years, before retiring in 1990.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/85992c85-cae6-3ecf-a99c-26d94cd23b39> ;
+        c:suffix     " loved teaching drama and wrote and directed her" .
+
+<http://d.opencalais.com/genericHasher-1/d9dac85b-975d-3e65-a16b-5231524c8e17>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Denver" .
+
+<http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341/meta>
+        a                 <http://s.opencalais.com/1/type/sys/DocInfoMeta> ;
+        c:contentType     "text/raw" ;
+        c:docId           <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:language        "English" ;
+        c:processingVer   "AllMetadata" ;
+        c:serverVersion   "OneCalais_8.3-RELEASE:364" ;
+        c:signature       "digestalg-1|yEcqe92ZLAv/uE+Wm1BSRSOMtwE=|aFg9w2QDMXexgUkPRY5I9v8oRwAnmJV+zrz7AzeSOBqV+m7ML7lOkw==" ;
+        c:stagsVer        "OneCalais_8.3-RELEASE-b11-2015-03-25_18:29:00" ;
+        c:submissionDate  "2015-05-26 17:16:11.397" ;
+        c:submitterCode   "0ca6a864-5659-789d-5f32-f365f695e757" .
+
+<http://d.opencalais.com/pershash-1/b76d1935-3f74-3cfe-9807-62a0b4a18b20>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Mary Carol Solf" ;
+        c:confidencelevel    "0.987" ;
+        c:firstname          "Mary" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Solf" ;
+        c:middlename         "Carol" ;
+        c:name               "Mary Carol Solf" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341/Relevance/3>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/85992c85-cae6-3ecf-a99c-26d94cd23b39> .
+
+<http://d.opencalais.com/conf/pershash-1/fc92ad30-eb6c-304d-9271-cf8e2ed560c8>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.997" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.997" ;
+        c:subject             <http://d.opencalais.com/pershash-1/fc92ad30-eb6c-304d-9271-cf8e2ed560c8> .
+
+<http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341/Instance/11>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[former students. \t She was preceded in death by ]her[ parents. \t Memorial contributions may be made]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1270" ;
+        c:prefix     "former students. \t She was preceded in death by " ;
+        c:subject    <http://d.opencalais.com/pershash-1/85992c85-cae6-3ecf-a99c-26d94cd23b39> ;
+        c:suffix     " parents. \t Memorial contributions may be made" .
+
+<http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341/Instance/1>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[State College in Alva before moving to ]Denver[ where she graduated from Ricardo?s School of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:exact      "Denver" ;
+        c:length     "6" ;
+        c:offset     "527" ;
+        c:prefix     "State College in Alva before moving to " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/d9dac85b-975d-3e65-a16b-5231524c8e17> ;
+        c:suffix     " where she graduated from Ricardo?s School of" .
+
+<http://d.opencalais.com/conf/pershash-1/5f0253f4-6be9-3522-9de2-67285d6ab317>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.928" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.928" ;
+        c:subject             <http://d.opencalais.com/pershash-1/5f0253f4-6be9-3522-9de2-67285d6ab317> .
+
+<http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341/Instance/24>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[where she worked as a beautician and attended ]Northwestern State College[. She earned teaching certificates in both]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:exact      "Northwestern State College" ;
+        c:length     "26" ;
+        c:offset     "657" ;
+        c:prefix     "where she worked as a beautician and attended " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/f56ea056-7dff-3a0f-8506-30ab66f1b25f> ;
+        c:suffix     ". She earned teaching certificates in both" .
+
+<http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341/Instance/37>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Memorial services for ]Mary Carol Solf[ will be 2:00 p.m. Saturday, February 21, 2009 at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:exact      "Mary Carol Solf" ;
+        c:length     "15" ;
+        c:offset     "22" ;
+        c:prefix     "Memorial services for " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b76d1935-3f74-3cfe-9807-62a0b4a18b20> ;
+        c:suffix     " will be 2:00 p.m. Saturday, February 21, 2009 at" .
+
+<http://d.opencalais.com/genericHasher-1/2106640e-433b-31ff-ad99-2b952f658a48>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Carmen Methodist Church" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341/Instance/31>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ L.G. McFarland in 1979.  She was an only child.  ]She[ was a member of the Carmen Methodist Church and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "1097" ;
+        c:prefix     " L.G. McFarland in 1979.  She was an only child.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/01aff192-97f9-3c11-b52f-1d099ffa4144> ;
+        c:suffix     " was a member of the Carmen Methodist Church and" .
+
+<http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341/Instance/44>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[at the age of 66 years, 2 months, and 3 days. \t ]Mary Carol graduated from Carmen High School in 1961 and attended Northwestern State College in Alva[ before moving to Denver where she graduated from]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:exact      "Mary Carol graduated from Carmen High School in 1961 and attended Northwestern State College in Alva" ;
+        c:length     "100" ;
+        c:offset     "409" ;
+        c:prefix     "at the age of 66 years, 2 months, and 3 days. \t " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/80324d9d-412e-3c11-b5ac-a7c210609147> ;
+        c:suffix     " before moving to Denver where she graduated from" .
+
+<http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341/Relevance/13>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/2106640e-433b-31ff-ad99-2b952f658a48> .
+
+<http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341/Relevance/8>
+        a                <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId          <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:relevance      "0.8" ;
+        c:relevancecont  "0.65" ;
+        c:subject        <http://d.opencalais.com/comphash-1/a8ee0a81-b629-368a-b237-71a89306beec> .
+
+<http://d.opencalais.com/pershash-1/a20bbee9-8838-3698-9f90-14b12b0715a6>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Ella Kate Solf" ;
+        c:confidencelevel    "0.957" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Ella Kate (Morrison) Solf" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341/Instance/16>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Mary Carol Solf, daughter of the late Ernest and ]Ella Kate[ (Morrison) Solf, was born January 8, 1943, at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:exact      "Ella Kate" ;
+        c:length     "9" ;
+        c:offset     "214" ;
+        c:prefix     " Mary Carol Solf, daughter of the late Ernest and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/fc92ad30-eb6c-304d-9271-cf8e2ed560c8> ;
+        c:suffix     " (Morrison) Solf, was born January 8, 1943, at" .
+
+<http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341/Instance/6>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in both elementary and secondary education.  ]She[ taught at Carmen High School for 18 years,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "763" ;
+        c:prefix     "in both elementary and secondary education.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/85992c85-cae6-3ecf-a99c-26d94cd23b39> ;
+        c:suffix     " taught at Carmen High School for 18 years," .
+
+<http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341/Instance/29>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[animals, cooking, and visiting with friends. \t ]She[ married L.G. McFarland in 1979.  She was an only]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "1036" ;
+        c:prefix     "animals, cooking, and visiting with friends. \t " ;
+        c:subject    <http://d.opencalais.com/pershash-1/01aff192-97f9-3c11-b52f-1d099ffa4144> ;
+        c:suffix     " married L.G. McFarland in 1979.  She was an only" .
+
+<http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341/Relevance/2>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/35a979c1-2108-3761-99bd-8c6f499ef6f2> .
+
+<http://d.opencalais.com/genericHasher-1/78df365d-4bc2-387c-831c-7940e3400158>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:forenduserdisplay  "true" ;
+        c:organization       <http://d.opencalais.com/genericHasher-1/2d36d4be-5107-361b-9f90-16b8edd04330> ;
+        c:person             <http://d.opencalais.com/pershash-1/85992c85-cae6-3ecf-a99c-26d94cd23b39> ;
+        c:status             "past" .
+
+<http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341/Instance/10>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[a wide circle of friends and former students. \t ]She[ was preceded in death by her parents. \t Memorial]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "1241" ;
+        c:prefix     "a wide circle of friends and former students. \t " ;
+        c:subject    <http://d.opencalais.com/pershash-1/85992c85-cae6-3ecf-a99c-26d94cd23b39> ;
+        c:suffix     " was preceded in death by her parents. \t Memorial" .
+
+<http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341/Instance/23>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[from Carmen High School in 1961 and attended ]Northwestern State College[ in Alva before moving to Denver where she]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:exact      "Northwestern State College" ;
+        c:length     "26" ;
+        c:offset     "475" ;
+        c:prefix     "from Carmen High School in 1961 and attended " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/f56ea056-7dff-3a0f-8506-30ab66f1b25f> ;
+        c:suffix     " in Alva before moving to Denver where she" .
+
+<http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341/Instance/36>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ funeral home to the Carmen First Responders, the ]Carmen Methodist Church[, Friends of the Library, the Carmen City Park,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:exact      "Carmen Methodist Church" ;
+        c:length     "23" ;
+        c:offset     "1381" ;
+        c:prefix     " funeral home to the Carmen First Responders, the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/2106640e-433b-31ff-ad99-2b952f658a48> ;
+        c:suffix     ", Friends of the Library, the Carmen City Park," .
+
+<http://d.opencalais.com/genericHasher-1/40df8d75-7832-3f51-8e42-57cd8a8a60ff>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Enid, Oklahoma" ;
+        c:person             <http://d.opencalais.com/pershash-1/b76d1935-3f74-3cfe-9807-62a0b4a18b20> .
+
+<http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341/Instance/30>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[friends. \t She married L.G. McFarland in 1979.  ]She[ was an only child.  She was a member of the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "1073" ;
+        c:prefix     "friends. \t She married L.G. McFarland in 1979.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/01aff192-97f9-3c11-b52f-1d099ffa4144> ;
+        c:suffix     " was an only child.  She was a member of the" .
+
+<http://d.opencalais.com/genericHasher-1/5c68edf4-c7db-3bb3-a089-89c3160adbdd>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:forenduserdisplay  "true" ;
+        c:organization       <http://d.opencalais.com/genericHasher-1/2c3bf9b5-8f30-349c-a9a6-c100adad2d3f> ;
+        c:person             <http://d.opencalais.com/pershash-1/85992c85-cae6-3ecf-a99c-26d94cd23b39> ;
+        c:position           "beautician" ;
+        c:status             "past" .
+
+<http://d.opencalais.com/pershash-1/01aff192-97f9-3c11-b52f-1d099ffa4144>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Mary Carol" ;
+        c:confidencelevel    "0.98" ;
+        c:firstname          "Mary" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Carol" ;
+        c:name               "Mary Carol" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341/Instance/43>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[]Memorial services[ for Mary Carol Solf will be 2:00 p.m. Saturday,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:exact      "Memorial services" ;
+        c:length     "17" ;
+        c:offset     "0" ;
+        c:prefix     "" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3fc76fa0-2822-3a05-bc9a-d75c68ee10e1> ;
+        c:suffix     " for Mary Carol Solf will be 2:00 p.m. Saturday," .
+
+<http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341/Relevance/12>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/2c3bf9b5-8f30-349c-a9a6-c100adad2d3f> .
+
+<http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341/Relevance/7>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/a20bbee9-8838-3698-9f90-14b12b0715a6> .
+
+<http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341/Instance/15>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[cancer Wednesday, February 11, 2009, at Enid, ]Oklahoma[ at the age of 66 years, 2 months, and 3 days. \t]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "352" ;
+        c:prefix     "cancer Wednesday, February 11, 2009, at Enid, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     " at the age of 66 years, 2 months, and 3 days. \t" .
+
+<http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341/Instance/5>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and attended Northwestern State College. ]She[ earned teaching certificates in both elementary]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "685" ;
+        c:prefix     "and attended Northwestern State College. " ;
+        c:subject    <http://d.opencalais.com/pershash-1/85992c85-cae6-3ecf-a99c-26d94cd23b39> ;
+        c:suffix     " earned teaching certificates in both elementary" .
+
+<http://d.opencalais.com/conf/comphash-1/a8ee0a81-b629-368a-b237-71a89306beec>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.558" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.788" ;
+        c:subject             <http://d.opencalais.com/comphash-1/a8ee0a81-b629-368a-b237-71a89306beec> .
+
+<http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341/Instance/28>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ were widely acclaimed by all who attended them.  ]Mary Carol[ loved books, animals, cooking, and visiting with]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:exact      "Mary Carol" ;
+        c:length     "10" ;
+        c:offset     "965" ;
+        c:prefix     " were widely acclaimed by all who attended them.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/01aff192-97f9-3c11-b52f-1d099ffa4144> ;
+        c:suffix     " loved books, animals, cooking, and visiting with" .
+
+<http://d.opencalais.com/conf/pershash-1/85992c85-cae6-3ecf-a99c-26d94cd23b39>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.97" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.984" ;
+        c:subject             <http://d.opencalais.com/pershash-1/85992c85-cae6-3ecf-a99c-26d94cd23b39> .
+
+<http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341/Relevance/1>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/d9dac85b-975d-3e65-a16b-5231524c8e17> .
+
+<http://d.opencalais.com/genericHasher-1/2d36d4be-5107-361b-9f90-16b8edd04330>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Carmen High School" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341/Instance/22>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[LLC. \t Mary Carol Solf, daughter of the late ]Ernest[ and Ella Kate (Morrison) Solf, was born January]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:exact      "Ernest" ;
+        c:length     "6" ;
+        c:offset     "203" ;
+        c:prefix     "LLC. \t Mary Carol Solf, daughter of the late " ;
+        c:subject    <http://d.opencalais.com/pershash-1/5f0253f4-6be9-3522-9de2-67285d6ab317> ;
+        c:suffix     " and Ella Kate (Morrison) Solf, was born January" .
+
+<http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341/lid/DefaultLangId>
+        a                    <http://s.opencalais.com/1/type/lid/DefaultLangId> ;
+        c:docId              <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:forenduserdisplay  "false" ;
+        c:lang               <http://d.opencalais.com/lid/DefaultLangId/English> ;
+        c:permid             "505062" .
+
+<http://d.opencalais.com/pershash-1/fc92ad30-eb6c-304d-9271-cf8e2ed560c8>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Ella Kate" ;
+        c:confidencelevel    "0.997" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Ella Kate" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/f56ea056-7dff-3a0f-8506-30ab66f1b25f>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Northwestern State College" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341/Instance/35>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[  She was an only child.  She was a member of the ]Carmen Methodist Church[ and a person who will be lovingly remembered by]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:exact      "Carmen Methodist Church" ;
+        c:length     "23" ;
+        c:offset     "1121" ;
+        c:prefix     "  She was an only child.  She was a member of the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/2106640e-433b-31ff-ad99-2b952f658a48> ;
+        c:suffix     " and a person who will be lovingly remembered by" .
+
+<http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341/ComponentVersions>
+        a          <http://s.opencalais.com/1/type/sys/ComponentVersions> ;
+        c:docId    <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:version  "com.clearforest.infoext.dial4j.plugins-basistechconfig:OneCalais_8.3-RELEASE:225" , "Housekeeper:OneCalais_8.3-RELEASE:113" , "OneCalais:OneCalais_8.3-RELEASE:364" , "People Override:258:258" , "OA Override:271:271" , "NextTags:OneCalais_8.3-RELEASE:113" , "config-cse:271:271" , "BrokerResearchIM:OneCalais_8.3-RELEASE:198" , "SECHeaderMetadataIM:OneCalais_8.3-RELEASE:198" , "config-physicalAssets-ports:258:258" , "SocialTags Index:201505191038:201505191038" , "config-sca-DataPackage:34:34" , "AutocoderRuntimeIM:OneCalais_8.3-RELEASE:198" , "Deals Index:201505261613:201505261613" , "config-drugs:258:258" , "Collector:OneCalais_8.3-RELEASE:113" , "BlackList:264:264" , "OneCalaisIM:OneCalais_8.3-RELEASE:198" , "OA Index:201505252208:201505252208" , "index-vessels:201505231718:201505231718" , "SpanishIM:OneCalais_8.3-RELEASE:198" , "FrenchIM:OneCalais_8.3-RELEASE:198" , "config-refineries:258:258" , "People Index:201505261608:201505261608" , "config-vessels:258:258" , "config-negativeSignature:258:258" , "Dial4J:OneCalais_8.3-RELEASE:198" , "WatchDog:OneCalais_8.3-RELEASE:113" .
+
+<http://d.opencalais.com/pershash-1/5f0253f4-6be9-3522-9de2-67285d6ab317>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Ernest Solf" ;
+        c:confidencelevel    "0.928" ;
+        c:firstname          "Ella" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Solf" ;
+        c:middlename         "Kate" ;
+        c:name               "Ernest Solf" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341/Relevance/17>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8b14f97f-02a4-3e59-aaba-7cb34aeeb7cb> .
+
+<http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341>
+        a                  <http://s.opencalais.com/1/type/sys/DocInfo> ;
+        c:calaisRequestID  "21145635-0340-a6c0-14d9-13975056fa60" ;
+        c:docDate          "2015-05-26 17:16:11.763" ;
+        c:docTitle         "" ;
+        c:document         "Memorial services for Mary Carol Solf will be 2:00 p.m. Saturday, February 21, 2009 at the Carmen Methodist Church under the direction of Wentworth Mortuary, LLC. \t Mary Carol Solf, daughter of the late Ernest and Ella Kate (Morrison) Solf, was born January 8, 1943, at Alva, Oklahoma and passed away from cancer Wednesday, February 11, 2009, at Enid, Oklahoma at the age of 66 years, 2 months, and 3 days. \t Mary Carol graduated from Carmen High School in 1961 and attended Northwestern State College in Alva before moving to Denver where she graduated from Ricardo?s School of Beauty.  She returned to Carmen where she worked as a beautician and attended Northwestern State College. She earned teaching certificates in both elementary and secondary education.  She taught at Carmen High School for 18 years, before retiring in 1990.  She loved teaching drama and wrote and directed her \"Speech Spectaculars\" which were widely acclaimed by all who attended them.  Mary Carol loved books, animals, cooking, and visiting with friends. \t She married L.G. McFarland in 1979.  She was an only child.  She was a member of the Carmen Methodist Church and a person who will be lovingly remembered by a wide circle of friends and former students. \t She was preceded in death by her parents. \t Memorial contributions may be made through the funeral home to the Carmen First Responders, the Carmen Methodist Church, Friends of the Library, the Carmen City Park, or the After 55 Club. \t Friends are invited to gather for a reception following the service. \n\t\t\t" ;
+        c:id               "http://id.opencalais.com/cuS6PLq7JUMv5OiiIX-Gqw" ;
+        c:ontology         "http://163.231.4.65/owlschema/8.3/onecalais.owl.allmetadata.xml" .
+
+<http://d.opencalais.com/genericHasher-1/a4cd2fbd-0423-3ba2-966e-1b2e19ceb90f>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonAttributes> ;
+        c:birthdate          "1943-01-08" ;
+        c:birthplace         "Alva, Oklahoma" ;
+        c:forenduserdisplay  "false" ;
+        c:gender             "F" ;
+        c:person             <http://d.opencalais.com/pershash-1/b76d1935-3f74-3cfe-9807-62a0b4a18b20> .
+
+<http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341/Instance/42>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[at the age of 66 years, 2 months, and 3 days. \t ]Mary Carol graduated from Carmen High School in 1961 and attended Northwestern State College in Alva[ before moving to Denver where she graduated from]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:exact      "Mary Carol graduated from Carmen High School in 1961 and attended Northwestern State College in Alva" ;
+        c:length     "100" ;
+        c:offset     "409" ;
+        c:prefix     "at the age of 66 years, 2 months, and 3 days. \t " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e661ffe-bff3-31bc-b0d4-42a08e17aaa5> ;
+        c:suffix     " before moving to Denver where she graduated from" .
+
+<http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341/Relevance/11>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/01aff192-97f9-3c11-b52f-1d099ffa4144> .
+
+<http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341/Relevance/6>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/fc92ad30-eb6c-304d-9271-cf8e2ed560c8> .
+
+<http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341/Instance/14>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Solf, was born January 8, 1943, at Alva, ]Oklahoma[ and passed away from cancer Wednesday, February]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "276" ;
+        c:prefix     "Solf, was born January 8, 1943, at Alva, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     " and passed away from cancer Wednesday, February" .
+
+<http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341/Instance/4>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[School of Beauty.  She returned to Carmen where ]she[ worked as a beautician and attended Northwestern]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "617" ;
+        c:prefix     "School of Beauty.  She returned to Carmen where " ;
+        c:subject    <http://d.opencalais.com/pershash-1/85992c85-cae6-3ecf-a99c-26d94cd23b39> ;
+        c:suffix     " worked as a beautician and attended Northwestern" .
+
+<http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341/Instance/27>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[she graduated from Ricardo?s School of Beauty.  ]She[ returned to Carmen where she worked as a]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "588" ;
+        c:prefix     "she graduated from Ricardo?s School of Beauty.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/01aff192-97f9-3c11-b52f-1d099ffa4144> ;
+        c:suffix     " returned to Carmen where she worked as a" .
+
+<http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341/cat/2>
+        a                    <http://s.opencalais.com/1/type/cat/DocCat> ;
+        c:docId              <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Human Interest" ;
+        c:score              "1.000" .
+
+<http://d.opencalais.com/genericHasher-1/3fc76fa0-2822-3a05-bc9a-d75c68ee10e1>
+        a                    <http://s.opencalais.com/1/type/em/e/IndustryTerm> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Memorial services" .
+
+<http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341/Instance/21>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in both elementary and secondary education.  ]She taught at Carmen High School[ for 18 years, before retiring in 1990.  She]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:exact      "She taught at Carmen High School" ;
+        c:length     "32" ;
+        c:offset     "763" ;
+        c:prefix     "in both elementary and secondary education.  " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/78df365d-4bc2-387c-831c-7940e3400158> ;
+        c:suffix     " for 18 years, before retiring in 1990.  She" .
+
+<http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341/Instance/34>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[be 2:00 p.m. Saturday, February 21, 2009 at the ]Carmen Methodist Church[ under the direction of Wentworth Mortuary, LLC.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:exact      "Carmen Methodist Church" ;
+        c:length     "23" ;
+        c:offset     "91" ;
+        c:prefix     "be 2:00 p.m. Saturday, February 21, 2009 at the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/2106640e-433b-31ff-ad99-2b952f658a48> ;
+        c:suffix     " under the direction of Wentworth Mortuary, LLC." .
+
+<http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341/Relevance/16>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3fc76fa0-2822-3a05-bc9a-d75c68ee10e1> .
+
+<http://d.opencalais.com/conf/pershash-1/b76d1935-3f74-3cfe-9807-62a0b4a18b20>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.987" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.992" ;
+        c:subject             <http://d.opencalais.com/pershash-1/b76d1935-3f74-3cfe-9807-62a0b4a18b20> .
+
+<http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341/Instance/19>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[School of Beauty.  She returned to Carmen where ]she worked as a beautician[ and attended Northwestern State College. She]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:exact      "she worked as a beautician" ;
+        c:length     "26" ;
+        c:offset     "617" ;
+        c:prefix     "School of Beauty.  She returned to Carmen where " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/5c68edf4-c7db-3bb3-a089-89c3160adbdd> ;
+        c:suffix     " and attended Northwestern State College. She" .
+
+<http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341/Instance/9>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[  She was an only child.  She was a member of the ]Carmen Methodist[ Church and a person who will be lovingly]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:exact      "Carmen Methodist" ;
+        c:length     "16" ;
+        c:offset     "1121" ;
+        c:prefix     "  She was an only child.  She was a member of the " ;
+        c:subject    <http://d.opencalais.com/pershash-1/85992c85-cae6-3ecf-a99c-26d94cd23b39> ;
+        c:suffix     " Church and a person who will be lovingly" .
+
+<http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341/Instance/41>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and secondary education.  She taught at ]Carmen High School[ for 18 years, before retiring in 1990.  She]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:exact      "Carmen High School" ;
+        c:length     "18" ;
+        c:offset     "777" ;
+        c:prefix     "and secondary education.  She taught at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/2d36d4be-5107-361b-9f90-16b8edd04330> ;
+        c:suffix     " for 18 years, before retiring in 1990.  She" .
+
+<http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341/Relevance/10>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/f56ea056-7dff-3a0f-8506-30ab66f1b25f> .
+
+<http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341/Relevance/5>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341/Instance/13>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ L.G. McFarland in 1979.  She was an only child.  ]She was a member of the Carmen Methodist Church[ and a person who will be lovingly remembered by]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:exact      "She was a member of the Carmen Methodist Church" ;
+        c:length     "47" ;
+        c:offset     "1097" ;
+        c:prefix     " L.G. McFarland in 1979.  She was an only child.  " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3811ef40-5c56-3fff-90d0-e5725d554deb> ;
+        c:suffix     " and a person who will be lovingly remembered by" .
+
+<http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341/Instance/3>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Ricardo?s School of Beauty.  She returned to ]Carmen[ where she worked as a beautician and attended]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:exact      "Carmen" ;
+        c:length     "6" ;
+        c:offset     "604" ;
+        c:prefix     "Ricardo?s School of Beauty.  She returned to " ;
+        c:subject    <http://d.opencalais.com/pershash-1/85992c85-cae6-3ecf-a99c-26d94cd23b39> ;
+        c:suffix     " where she worked as a beautician and attended" .
+
+<http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341/SocialTag/2>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Alva" ;
+        c:originalValue      "Alva" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/17f61973-ed95-369b-b381-dec22ce26b2a> .
+
+<http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341/Instance/26>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[College in Alva before moving to Denver where ]she[ graduated from Ricardo?s School of Beauty.  She]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "540" ;
+        c:prefix     "College in Alva before moving to Denver where " ;
+        c:subject    <http://d.opencalais.com/pershash-1/01aff192-97f9-3c11-b52f-1d099ffa4144> ;
+        c:suffix     " graduated from Ricardo?s School of Beauty.  She" .
+
+<http://d.opencalais.com/genericHasher-1/3811ef40-5c56-3fff-90d0-e5725d554deb>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:forenduserdisplay  "true" ;
+        c:organization       <http://d.opencalais.com/genericHasher-1/2106640e-433b-31ff-ad99-2b952f658a48> ;
+        c:person             <http://d.opencalais.com/pershash-1/01aff192-97f9-3c11-b52f-1d099ffa4144> ;
+        c:position           "member" ;
+        c:status             "past" .
+
+<http://d.opencalais.com/comphash-1/a8ee0a81-b629-368a-b237-71a89306beec>
+        a                    <http://s.opencalais.com/1/type/em/e/Company> ;
+        c:confidencelevel    "0.558" ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Wentworth Mortuary LLC" ;
+        c:nationality        "N/A" .
+
+<http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341/Instance/39>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of the late Ernest and Ella Kate (Morrison) ]Solf[, was born January 8, 1943, at Alva, Oklahoma and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:exact      "Solf" ;
+        c:length     "4" ;
+        c:offset     "235" ;
+        c:prefix     "of the late Ernest and Ella Kate (Morrison) " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b76d1935-3f74-3cfe-9807-62a0b4a18b20> ;
+        c:suffix     ", was born January 8, 1943, at Alva, Oklahoma and" .
+
+<http://d.opencalais.com/pershash-1/85992c85-cae6-3ecf-a99c-26d94cd23b39>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Carmen Methodist" ;
+        c:confidencelevel    "0.97" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Carmen Methodist" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341/cat/1>
+        a                    <http://s.opencalais.com/1/type/cat/DocCat> ;
+        c:docId              <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Education" ;
+        c:score              "1.000" .
+
+<http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341/Instance/20>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of the late Ernest and Ella Kate (Morrison) ]Solf, was born January 8, 1943, at Alva, Oklahoma and passed away from cancer Wednesday, February 11, 2009, at Enid, Oklahoma[ at the age of 66 years, 2 months, and 3 days. \t]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:exact      "Solf, was born January 8, 1943, at Alva, Oklahoma and passed away from cancer Wednesday, February 11, 2009, at Enid, Oklahoma" ;
+        c:length     "125" ;
+        c:offset     "235" ;
+        c:prefix     "of the late Ernest and Ella Kate (Morrison) " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/40df8d75-7832-3f51-8e42-57cd8a8a60ff> ;
+        c:suffix     " at the age of 66 years, 2 months, and 3 days. \t" .
+
+<http://d.opencalais.com/conf/pershash-1/a20bbee9-8838-3698-9f90-14b12b0715a6>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.957" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.959" ;
+        c:subject             <http://d.opencalais.com/pershash-1/a20bbee9-8838-3698-9f90-14b12b0715a6> .
+
+<http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341/Instance/33>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of the late Ernest and Ella Kate (Morrison) ]Solf, was born January 8, 1943, at Alva, Oklahoma[ and passed away from cancer Wednesday, February]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:exact      "Solf, was born January 8, 1943, at Alva, Oklahoma" ;
+        c:length     "49" ;
+        c:offset     "235" ;
+        c:prefix     "of the late Ernest and Ella Kate (Morrison) " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a4cd2fbd-0423-3ba2-966e-1b2e19ceb90f> ;
+        c:suffix     " and passed away from cancer Wednesday, February" .
+
+<http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341/Relevance/15>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/2d36d4be-5107-361b-9f90-16b8edd04330> .
+
+<http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341/Instance/46>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[where she worked as a beautician and attended ]Northwestern State College[. She earned teaching certificates in both]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:exact      "Northwestern State College" ;
+        c:length     "26" ;
+        c:offset     "657" ;
+        c:prefix     "where she worked as a beautician and attended " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8b14f97f-02a4-3e59-aaba-7cb34aeeb7cb> ;
+        c:suffix     ". She earned teaching certificates in both" .
+
+<http://d.opencalais.com/genericHasher-1/2c3bf9b5-8f30-349c-a9a6-c100adad2d3f>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "s School of Beauty" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341/Instance/18>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Carmen Methodist Church under the direction of ]Wentworth Mortuary, LLC[. \t Mary Carol Solf, daughter of the late Ernest]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:exact      "Wentworth Mortuary, LLC" ;
+        c:length     "23" ;
+        c:offset     "138" ;
+        c:prefix     "Carmen Methodist Church under the direction of " ;
+        c:subject    <http://d.opencalais.com/comphash-1/a8ee0a81-b629-368a-b237-71a89306beec> ;
+        c:suffix     ". \t Mary Carol Solf, daughter of the late Ernest" .
+
+<http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341/Instance/8>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[  She loved teaching drama and wrote and directed ]her[ \"Speech Spectaculars\" which were widely]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "884" ;
+        c:prefix     "  She loved teaching drama and wrote and directed " ;
+        c:subject    <http://d.opencalais.com/pershash-1/85992c85-cae6-3ecf-a99c-26d94cd23b39> ;
+        c:suffix     " \"Speech Spectaculars\" which were widely" .
+
+<http://d.opencalais.com/genericHasher-1/8b14f97f-02a4-3e59-aaba-7cb34aeeb7cb>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Northwestern State College" .
+
+<http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341/Instance/40>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[months, and 3 days. \t Mary Carol graduated from ]Carmen High School[ in 1961 and attended Northwestern State College]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:exact      "Carmen High School" ;
+        c:length     "18" ;
+        c:offset     "435" ;
+        c:prefix     "months, and 3 days. \t Mary Carol graduated from " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/2d36d4be-5107-361b-9f90-16b8edd04330> ;
+        c:suffix     " in 1961 and attended Northwestern State College" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/e9e27c26-4013-8712-a5f0-97dcdc412c26>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:latitude            "35.5607802899" ;
+        c:longitude           "-96.8460570462" ;
+        c:name                "Oklahoma,United States" ;
+        c:permid              "100229" ;
+        c:rcscode             "G:9H" ;
+        c:shortname           "Oklahoma" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/1eb93d07-54ab-6795-ca9d-cb847945b9aa>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Colorado" ;
+        c:docId               <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:latitude            "39.7392" ;
+        c:longitude           "-104.9842" ;
+        c:name                "Denver,Colorado,United States" ;
+        c:rcscode             "G:10E" ;
+        c:shortname           "Denver" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/d9dac85b-975d-3e65-a16b-5231524c8e17> .
+
+<http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341/Relevance/4>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/01842b88-04a2-376a-a802-24b3981c152d> .
+
+<http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341/Instance/2>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[from cancer Wednesday, February 11, 2009, at ]Enid[, Oklahoma at the age of 66 years, 2 months, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:exact      "Enid" ;
+        c:length     "4" ;
+        c:offset     "346" ;
+        c:prefix     "from cancer Wednesday, February 11, 2009, at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/35a979c1-2108-3761-99bd-8c6f499ef6f2> ;
+        c:suffix     ", Oklahoma at the age of 66 years, 2 months, and" .
+
+<http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341/Instance/12>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ She returned to Carmen where she worked as ]a beautician[ and attended Northwestern State College. She]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:exact      "a beautician" ;
+        c:length     "12" ;
+        c:offset     "631" ;
+        c:prefix     " She returned to Carmen where she worked as " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/01842b88-04a2-376a-a802-24b3981c152d> ;
+        c:suffix     " and attended Northwestern State College. She" .
+
+<http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341/SocialTag/1>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Carmen" ;
+        c:originalValue      "Carmen (disambiguation)" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/c495db0c-22d4-3715-927e-1e0c1e00426a> .
+
+<http://d.opencalais.com/genericHasher-1/01842b88-04a2-376a-a802-24b3981c152d>
+        a                    <http://s.opencalais.com/1/type/em/e/Position> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "beautician" .
+
+<http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341/Instance/25>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[at the age of 66 years, 2 months, and 3 days. \t ]Mary Carol[ graduated from Carmen High School in 1961 and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:exact      "Mary Carol" ;
+        c:length     "10" ;
+        c:offset     "409" ;
+        c:prefix     "at the age of 66 years, 2 months, and 3 days. \t " ;
+        c:subject    <http://d.opencalais.com/pershash-1/01aff192-97f9-3c11-b52f-1d099ffa4144> ;
+        c:suffix     " graduated from Carmen High School in 1961 and" .
+
+<http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341/Instance/38>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[the direction of Wentworth Mortuary, LLC. \t ]Mary Carol Solf[, daughter of the late Ernest and Ella Kate]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/3896be37-3bda-3c5f-93d0-71f104cf4341> ;
+        c:exact      "Mary Carol Solf" ;
+        c:length     "15" ;
+        c:offset     "165" ;
+        c:prefix     "the direction of Wentworth Mortuary, LLC. \t " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b76d1935-3f74-3cfe-9807-62a0b4a18b20> ;
+        c:suffix     ", daughter of the late Ernest and Ella Kate" .
+
+<http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oklahoma" .
+
+<http://d.opencalais.com/genericHasher-1/4e661ffe-bff3-31bc-b0d4-42a08e17aaa5>
+        a                       <http://s.opencalais.com/1/type/em/r/PersonEducation> ;
+        c:forenduserdisplay     "false" ;
+        c:person                <http://d.opencalais.com/pershash-1/01aff192-97f9-3c11-b52f-1d099ffa4144> ;
+        c:schoolororganization  "Northwestern State College" .
+
+<http://d.opencalais.com/genericHasher-1/35a979c1-2108-3761-99bd-8c6f499ef6f2>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Enid" .

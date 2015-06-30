@@ -1,0 +1,2813 @@
+#Relations: FamilyRelation, PersonAttributes, PersonCareer, PersonLocation, PersonRelation
+#City: Dalhart, Durango, Jacksonville, Lubbock, Lynn, Pecos
+#Company: Avery, Tecumseh
+#Facility: Freedom Cemetery, Marshall Funeral Home of Alva
+#IndustryTerm: Funeral services, brother-in-law
+#Organization: First United Methodist Church, Freedom United Methodist Church, UMW, Vacation Bible School, Wesley House Foundation
+#Person: Brianna Dillon, Brooklyn Wise, Casey McMurphy, Clay Owen, Cody McMurphy, Conley Campbell, Connie, Darla Wise, Gary Wise, Gavin Hamlin, Gracie (Rippa) Duncan, Gurtha Campbell, Jagger Welch, Jaiden Dillon, Jared Wise, Jay Paul, Jeffrey, John Lastly, Josh, Joshua Wise, Kailah Fessler, Katie, Larry Wise, Margaret, Megan, Paul G. Pearrow, Paula McMurphy, Randy, Reiley Wise, Scott Ware, Stena LaVerne, Stena LaVerne Wise, Tamela, Tory Hamlin, Tracy, Vincent Duncan
+#Position: District President, Marshall, church camp counselor
+#ProvinceOrState: Arkansas, Colorado, Florida, Texas
+@prefix c:     <http://s.opencalais.com/1/pred/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://d.opencalais.com/conf/pershash-1/de642547-5f23-3cd3-9e96-82a4eee91dcb>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/de642547-5f23-3cd3-9e96-82a4eee91dcb> .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/97>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Hamlin and husband, Jeffrey, of Jacksonville, ]Florida[; Cody McMurphy and wife, Megan, of Alva; Casey]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "Florida" ;
+        c:length     "7" ;
+        c:offset     "2484" ;
+        c:prefix     "Hamlin and husband, Jeffrey, of Jacksonville, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b5bf3113-97ac-319c-a20d-308c716c8d7b> ;
+        c:suffix     "; Cody McMurphy and wife, Megan, of Alva; Casey" .
+
+<http://d.opencalais.com/genericHasher-1/0d7b7e05-c870-320c-b2f2-ecc26beb4445>
+        a                    <http://s.opencalais.com/1/type/em/e/Position> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "church camp counselor" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Relevance/50>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0d7b7e05-c870-320c-b2f2-ecc26beb4445> .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/67>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[(Rippa) Duncan, was born July 25, l935, in ]Lynn[, Arkansas, and passed away October 31, 2012 at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "Lynn" ;
+        c:length     "4" ;
+        c:offset     "373" ;
+        c:prefix     "(Rippa) Duncan, was born July 25, l935, in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/921a0cca-2023-3fda-ae7a-ca5b88f4daac> ;
+        c:suffix     ", Arkansas, and passed away October 31, 2012 at" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Relevance/20>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/d26282df-143e-3a80-9742-18f5066c0c69> .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/ComponentVersions>
+        a          <http://s.opencalais.com/1/type/sys/ComponentVersions> ;
+        c:docId    <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:version  "config-negativeSignature:258:258" , "People Override:258:258" , "OneCalaisIM:OneCalais_8.3-RELEASE:198" , "SECHeaderMetadataIM:OneCalais_8.3-RELEASE:198" , "config-vessels:258:258" , "OneCalais:OneCalais_8.3-RELEASE:364" , "BrokerResearchIM:OneCalais_8.3-RELEASE:198" , "AutocoderRuntimeIM:OneCalais_8.3-RELEASE:198" , "FrenchIM:OneCalais_8.3-RELEASE:198" , "NextTags:OneCalais_8.3-RELEASE:113" , "People Index:201505261608:201505261608" , "com.clearforest.infoext.dial4j.plugins-basistechconfig:OneCalais_8.3-RELEASE:225" , "index-vessels:201505231718:201505231718" , "BlackList:264:264" , "SocialTags Index:201505191038:201505191038" , "OA Override:271:271" , "config-sca-DataPackage:34:34" , "config-drugs:258:258" , "SpanishIM:OneCalais_8.3-RELEASE:198" , "config-physicalAssets-ports:258:258" , "config-cse:271:271" , "Dial4J:OneCalais_8.3-RELEASE:198" , "OA Index:201505252208:201505252208" , "WatchDog:OneCalais_8.3-RELEASE:113" , "config-refineries:258:258" , "Collector:OneCalais_8.3-RELEASE:113" , "Deals Index:201505261718:201505261718" , "Housekeeper:OneCalais_8.3-RELEASE:113" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/115>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and Grayson McMurphy; Howdy, Jay Paul, and ]Jagger Welch[; Brooklyn and Reiley Wise, in addition to John]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "Jagger Welch" ;
+        c:length     "12" ;
+        c:offset     "2868" ;
+        c:prefix     "and Grayson McMurphy; Howdy, Jay Paul, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/7d869a70-2d4e-381f-beb2-a26e0129cf42> ;
+        c:suffix     "; Brooklyn and Reiley Wise, in addition to John" .
+
+<http://d.opencalais.com/conf/pershash-1/a9a9a8cc-f578-345c-9964-fbd37fcc0ea4>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/a9a9a8cc-f578-345c-9964-fbd37fcc0ea4> .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/37>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[]Funeral services[ for Stena LaVerne Wise will be 2:00 p.m. Friday,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "Funeral services" ;
+        c:length     "16" ;
+        c:offset     "0" ;
+        c:prefix     "" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee> ;
+        c:suffix     " for Stena LaVerne Wise will be 2:00 p.m. Friday," .
+
+<http://d.opencalais.com/genericHasher-1/dae81092-3879-38da-bf27-c2d54de7d754>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:company            <http://d.opencalais.com/comphash-1/2a7d446c-0eaf-355b-856d-b75c9ceb2a4d> ;
+        c:forenduserdisplay  "true" ;
+        c:person             <http://d.opencalais.com/pershash-1/a801f6ca-c4ea-3b07-8a28-f50b9988dde2> ;
+        c:status             "current" .
+
+<http://d.opencalais.com/conf/pershash-1/fa2c6833-ae28-30c5-8cb8-24e1844f2d5e>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.968" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.984" ;
+        c:subject             <http://d.opencalais.com/pershash-1/fa2c6833-ae28-30c5-8cb8-24e1844f2d5e> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/3427bebd-9e37-8de6-83ec-5cea32cb8697>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Texas" ;
+        c:docId               <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:latitude            "36.0594" ;
+        c:longitude           "-102.5128" ;
+        c:name                "Dalhart,Texas,United States" ;
+        c:shortname           "Dalhart" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/bcacf4bb-2a85-3b9d-a261-3a8ae9e1e28f> .
+
+<http://d.opencalais.com/genericHasher-1/2ea37313-4d90-31a7-9d36-c3e67521bb64>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Jacksonville" ;
+        c:person             <http://d.opencalais.com/pershash-1/57538c90-9436-3cdc-824a-8f127ef6b488> .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/79>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[be made through the funeral home to the Freedom ]First United Methodist Church[ or the Wesley House Foundation.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "First United Methodist Church" ;
+        c:length     "29" ;
+        c:offset     "3069" ;
+        c:prefix     "be made through the funeral home to the Freedom " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/34d355d7-ce2f-37b5-8997-7666290fe245> ;
+        c:suffix     " or the Wesley House Foundation." .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Relevance/32>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/584e503f-b789-36cf-85bf-63c487b3fd61> .
+
+<http://d.opencalais.com/conf/pershash-1/0916f0ff-9b52-30d0-b0a6-8fba3234905b>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.997" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.998" ;
+        c:subject             <http://d.opencalais.com/pershash-1/0916f0ff-9b52-30d0-b0a6-8fba3234905b> .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/49>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Alva.  \nStena LaVerne Wise, daughter of the late ]Clay Owen[ and Gracie (Rippa) Duncan, was born July 25,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "Clay Owen" ;
+        c:length     "9" ;
+        c:offset     "309" ;
+        c:prefix     " Alva.  \nStena LaVerne Wise, daughter of the late " ;
+        c:subject    <http://d.opencalais.com/pershash-1/d26282df-143e-3a80-9742-18f5066c0c69> ;
+        c:suffix     " and Gracie (Rippa) Duncan, was born July 25," .
+
+<http://d.opencalais.com/genericHasher-1/df74cc60-af38-3aba-b9ec-7db9e7e7c562>
+        a                    <http://s.opencalais.com/1/type/em/e/IndustryTerm> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "brother-in-law" .
+
+<http://d.opencalais.com/genericHasher-1/452adcdf-56e6-3fbf-91d5-cb7a6bc08aa7>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Wesley House Foundation" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/19>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[with Vacation Bible School for many summers.  ]She[ served as a District President of UMW and was]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "1306" ;
+        c:prefix     "with Vacation Bible School for many summers.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/fa2c6833-ae28-30c5-8cb8-24e1844f2d5e> ;
+        c:suffix     " served as a District President of UMW and was" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/80>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[summers.  She served as a District President of ]UMW[ and was involved with the Wesley House in Alva. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "UMW" ;
+        c:length     "3" ;
+        c:offset     "1344" ;
+        c:prefix     "summers.  She served as a District President of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/cdac5c64-bf26-3b5f-a14b-11c7ce972077> ;
+        c:suffix     " and was involved with the Wesley House in Alva. " .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Relevance/8>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/fa2c6833-ae28-30c5-8cb8-24e1844f2d5e> .
+
+<http://d.opencalais.com/conf/pershash-1/a801f6ca-c4ea-3b07-8a28-f50b9988dde2>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.954" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/a801f6ca-c4ea-3b07-8a28-f50b9988dde2> .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/50>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and husband, Randy, of Alva; and Darla Wise of ]Durango[, Colorado, as well as her brother, Vincent]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "Durango" ;
+        c:length     "7" ;
+        c:offset     "2239" ;
+        c:prefix     "and husband, Randy, of Alva; and Darla Wise of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/22f59469-bcea-3311-940a-4b75d5cbc6c5> ;
+        c:suffix     ", Colorado, as well as her brother, Vincent" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/ead8a759-31d2-262c-540f-e93fc56b22eb>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:latitude            "28.0908069444" ;
+        c:longitude           "-81.960407533" ;
+        c:name                "Florida,United States" ;
+        c:permid              "100104" ;
+        c:rcscode             "G:4X" ;
+        c:shortname           "Florida" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/b5bf3113-97ac-319c-a20d-308c716c8d7b> .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Relevance/44>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/e56aa6eb-e560-3b3c-8e7a-f7ad0843d2a6> .
+
+<http://d.opencalais.com/pershash-1/922b7142-5c82-320d-bba5-379e62ccb549>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Jared Wise" ;
+        c:confidencelevel    "0.768" ;
+        c:firstname          "Jared" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Wise" ;
+        c:name               "Jared Wise" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/20>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ camera to be ready for every photo opportunity.  ]She[ loved taking pictures of their ranch and cattle]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "1508" ;
+        c:prefix     " camera to be ready for every photo opportunity.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/fa2c6833-ae28-30c5-8cb8-24e1844f2d5e> ;
+        c:suffix     " loved taking pictures of their ranch and cattle" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Relevance/14>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/50f1e799-6fc4-3ef9-8642-33c2133c9af1> .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/4>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Vincent Duncan and wife, Margaret, of  Lubbock, ]Texas[, and brother-in-law, Conley Campbell, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "Texas" ;
+        c:length     "5" ;
+        c:offset     "2330" ;
+        c:prefix     "Vincent Duncan and wife, Margaret, of  Lubbock, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> ;
+        c:suffix     ", and brother-in-law, Conley Campbell, of" .
+
+<http://d.opencalais.com/pershash-1/56a3efc1-5492-3124-b778-e55735727ad1>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Tracy" ;
+        c:confidencelevel    "0.86" ;
+        c:firstname          "Tracy" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Tracy" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/50f1e799-6fc4-3ef9-8642-33c2133c9af1>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.981" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.932" ;
+        c:subject             <http://d.opencalais.com/pershash-1/50f1e799-6fc4-3ef9-8642-33c2133c9af1> .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/109>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[E.F. of Freedom; two sons, Larry Wise and wife, ]Tamela, of Tecumseh[; Gary Wise and wife, Connie, of Woodward; two]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "Tamela, of Tecumseh" ;
+        c:length     "19" ;
+        c:offset     "2100" ;
+        c:prefix     "E.F. of Freedom; two sons, Larry Wise and wife, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c007fcc7-c408-3a7e-936e-625712e30037> ;
+        c:suffix     "; Gary Wise and wife, Connie, of Woodward; two" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/92>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[McMurphy; Layton and Grayson McMurphy; Howdy, ]Jay Paul[, and Jagger Welch; Brooklyn and Reiley Wise, in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "Jay Paul" ;
+        c:length     "8" ;
+        c:offset     "2854" ;
+        c:prefix     "McMurphy; Layton and Grayson McMurphy; Howdy, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/5942ad3f-c8e7-3d50-86d5-206e2945b0f9> ;
+        c:suffix     ", and Jagger Welch; Brooklyn and Reiley Wise, in" .
+
+<http://d.opencalais.com/genericHasher-1/91816eb2-df13-311e-8c6b-785cf9bebb59>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:date                "1953-00-00" ;
+        c:datestring          "in 1953" ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/90fc82df-44f8-3794-bfab-11df80c4e84f> , <http://d.opencalais.com/pershash-1/9b3b4009-baab-33b5-bd38-474b65a8eb13> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/comphash-1/7cf01635-6bb6-3452-aedd-c1926e2bb36b>
+        a                    <http://s.opencalais.com/1/type/em/e/Company> ;
+        c:confidencelevel    "0.884" ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Avery" ;
+        c:nationality        "N/A" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/62>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Paula McMurphy and husband, Randy, of Alva; and ]Darla Wise of Durango, Colorado[, as well as her brother, Vincent Duncan and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "Darla Wise of Durango, Colorado" ;
+        c:length     "31" ;
+        c:offset     "2225" ;
+        c:prefix     "Paula McMurphy and husband, Randy, of Alva; and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/cc5f910f-278d-3cd5-b1b7-e79068730ee9> ;
+        c:suffix     ", as well as her brother, Vincent Duncan and" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Relevance/56>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/096a73ce-884f-33d7-9375-ac1c8ec74b16> .
+
+<http://d.opencalais.com/pershash-1/23b54af3-3ca9-3ff9-87ce-f457746ddcc7>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Stena LaVerne Wise" ;
+        c:confidencelevel    "0.345" ;
+        c:firstname          "Stena" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Wise" ;
+        c:middlename         "LaVerne" ;
+        c:name               "Stena LaVerne Wise" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/110>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[wife, Tamela, of Tecumseh; Gary Wise and wife, ]Connie[, of Woodward; two daughters, Paula McMurphy and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "Connie" ;
+        c:length     "6" ;
+        c:offset     "2141" ;
+        c:prefix     "wife, Tamela, of Tecumseh; Gary Wise and wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/74b555a7-e31b-3ace-a145-c5a3d3a779d5> ;
+        c:suffix     ", of Woodward; two daughters, Paula McMurphy and" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/32>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and Darla Wise of Durango, Colorado, as well as ]her brother, Vincent Duncan and wife, Margaret, of  Lubbock, Texas[, and brother-in-law, Conley Campbell, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "her brother, Vincent Duncan and wife, Margaret, of  Lubbock, Texas" ;
+        c:length     "66" ;
+        c:offset     "2269" ;
+        c:prefix     "and Darla Wise of Durango, Colorado, as well as " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3a6594a2-3e8d-3cbf-8789-05ba1d4e6821> ;
+        c:suffix     ", and brother-in-law, Conley Campbell, of" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Relevance/26>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/58e96598-3df6-321d-931e-f30a2f3290b5> .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/SocialTag/3>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Randle McMurphy" ;
+        c:originalValue      "Randle McMurphy" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/9b8039e4-5094-34c8-adf0-75b3233ab8bd> .
+
+<http://d.opencalais.com/pershash-1/1425cf7f-dc89-3d9b-bd84-af339eb0a7d4>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Gurtha Campbell" ;
+        c:confidencelevel    "0.912" ;
+        c:firstname          "Gurtha" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Campbell" ;
+        c:name               "Gurtha Campbell" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/e39e46b3-1476-3170-b865-e6a4ef61b8fb>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:forenduserdisplay  "true" ;
+        c:organization       <http://d.opencalais.com/genericHasher-1/5c8a220e-787d-3f24-95c5-e55792d500be> ;
+        c:person             <http://d.opencalais.com/pershash-1/572f2c03-3b12-3493-a794-3f6b203e1017> ;
+        c:position           "member" ;
+        c:status             "past" .
+
+<http://d.opencalais.com/genericHasher-1/096a73ce-884f-33d7-9375-ac1c8ec74b16>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Colorado" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/74>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ LaVerne Wise, daughter of the late Clay Owen and ]Gracie (Rippa) Duncan[, was born July 25, l935, in Lynn, Arkansas, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "Gracie (Rippa) Duncan" ;
+        c:length     "21" ;
+        c:offset     "323" ;
+        c:prefix     " LaVerne Wise, daughter of the late Clay Owen and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9b3b4009-baab-33b5-bd38-474b65a8eb13> ;
+        c:suffix     ", was born July 25, l935, in Lynn, Arkansas, and" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/44>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Howdy, Jay Paul, and Jagger Welch; Brooklyn and ]Reiley Wise[, in addition to John Lastly, an honorary]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "Reiley Wise" ;
+        c:length     "11" ;
+        c:offset     "2895" ;
+        c:prefix     "Howdy, Jay Paul, and Jagger Welch; Brooklyn and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/ef61220e-b05c-3f4f-a8b9-0b79688379ee> ;
+        c:suffix     ", in addition to John Lastly, an honorary" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Relevance/38>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/cdac5c64-bf26-3b5f-a14b-11c7ce972077> .
+
+<http://d.opencalais.com/genericHasher-1/693b9b27-4f42-328f-8fcd-34d3f5c08cc5>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Arkansas" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/14>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[was a people person and enjoyed being a part of ]her[ community.  She drove a school bus for the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "916" ;
+        c:prefix     "was a people person and enjoyed being a part of " ;
+        c:subject    <http://d.opencalais.com/pershash-1/fa2c6833-ae28-30c5-8cb8-24e1844f2d5e> ;
+        c:suffix     " community.  She drove a school bus for the" .
+
+<http://d.opencalais.com/pershash-1/41ab79de-f15b-3fe3-8372-d21dd0224b22>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Vincent Duncan" ;
+        c:confidencelevel    "0.993" ;
+        c:firstname          "Vincent" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Duncan" ;
+        c:name               "Vincent Duncan" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<https://permid.org/1-4295908701>
+        a             <http://s.opencalais.com/1/type/er/Company> ;
+        c:commonname  "Tecumseh Prods" ;
+        c:docId       <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:legacyid    <http://d.opencalais.com/er/company/ralg-tr1r/2cc0e145-3b55-3677-a5de-207d7abacc10> ;
+        c:name        "Tecumseh Products Co" ;
+        c:permid      "4295908701" ;
+        c:primaryric  "TECU.OQ" ;
+        c:score       "0.9148354" ;
+        c:subject     <http://d.opencalais.com/comphash-1/2a7d446c-0eaf-355b-856d-b75c9ceb2a4d> ;
+        c:ticker      "TECU" .
+
+<http://d.opencalais.com/pershash-1/c76a4928-f522-3b2f-9b16-da68ef82bb7d>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Tory Hamlin" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Tory" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Hamlin" ;
+        c:name               "Tory Hamlin" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Relevance/3>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/ab8055ae-ba22-3ab4-bc67-ca9a82bff1fe> .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/86>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ with twelve great grandchildren: Brianna Dillon, ]Jaiden Dillon[, Kailah Fessler, and Gavin Hamlin; Avery and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "Jaiden Dillon" ;
+        c:length     "13" ;
+        c:offset     "2743" ;
+        c:prefix     " with twelve great grandchildren: Brianna Dillon, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/3b56ee9a-5987-3ec8-99a1-a8fb2b215947> ;
+        c:suffix     ", Kailah Fessler, and Gavin Hamlin; Avery and" .
+
+<http://d.opencalais.com/pershash-1/1c60ec4a-82df-325d-8551-e96783d62111>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Randy" ;
+        c:confidencelevel    "0.919" ;
+        c:firstname          "Randy" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Randy" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/56>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ death in 1958, she married E. F. Wise in ]Pecos[, Texas, on May 15, 1959.  They moved to the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "Pecos" ;
+        c:length     "5" ;
+        c:offset     "737" ;
+        c:prefix     " death in 1958, she married E. F. Wise in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/902b2da1-5b15-3a77-8352-287235157309> ;
+        c:suffix     ", Texas, on May 15, 1959.  They moved to the" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/2ce5d9e9-aa0b-ab0f-0148-86cc8f723b5e>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Arkansas" ;
+        c:docId               <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:latitude            "36.0066666667" ;
+        c:longitude           "-91.2522222222" ;
+        c:name                "Lynn,Arkansas,United States" ;
+        c:shortname           "Lynn" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/921a0cca-2023-3fda-ae7a-ca5b88f4daac> .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/104>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[magazines and area calendars and brochures.  \n]LaVerne[?s greatest passion was her family.  She was]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "LaVerne" ;
+        c:length     "7" ;
+        c:offset     "1728" ;
+        c:prefix     "magazines and area calendars and brochures.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/572f2c03-3b12-3493-a794-3f6b203e1017> ;
+        c:suffix     "?s greatest passion was her family.  She was" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/26>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of her children and their  accomplishments.  ]She[ dearly loved her grandchildren and was in awe of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "1831" ;
+        c:prefix     "of her children and their  accomplishments.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/fa2c6833-ae28-30c5-8cb8-24e1844f2d5e> ;
+        c:suffix     " dearly loved her grandchildren and was in awe of" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/98>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and the annual Groundhog Supper.  She was ]a church camp counselor[ and helped with Vacation Bible School for many]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "a church camp counselor" ;
+        c:length     "23" ;
+        c:offset     "1225" ;
+        c:prefix     "and the annual Groundhog Supper.  She was " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0d7b7e05-c870-320c-b2f2-ecc26beb4445> ;
+        c:suffix     " and helped with Vacation Bible School for many" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Relevance/51>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/bcacf4bb-2a85-3b9d-a261-3a8ae9e1e28f> .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/68>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[E.F. of Freedom; two sons, Larry Wise and wife, ]Tamela[, of Tecumseh; Gary Wise and wife, Connie, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "Tamela" ;
+        c:length     "6" ;
+        c:offset     "2100" ;
+        c:prefix     "E.F. of Freedom; two sons, Larry Wise and wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/584e503f-b789-36cf-85bf-63c487b3fd61> ;
+        c:suffix     ", of Tecumseh; Gary Wise and wife, Connie, of" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Relevance/21>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/22f59469-bcea-3311-940a-4b75d5cbc6c5> .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/116>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[are six grandchildren: Tory Hamlin and husband, ]Jeffrey, of Jacksonville, Florida[; Cody McMurphy and wife, Megan, of Alva; Casey]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "Jeffrey, of Jacksonville, Florida" ;
+        c:length     "33" ;
+        c:offset     "2458" ;
+        c:prefix     "are six grandchildren: Tory Hamlin and husband, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/2ea37313-4d90-31a7-9d36-c3e67521bb64> ;
+        c:suffix     "; Cody McMurphy and wife, Megan, of Alva; Casey" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/38>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Jared Wise of Edmond; and Joshua Wise and wife, ]Katie, of Tecumseh[  along  with twelve great grandchildren: Brianna]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "Katie, of Tecumseh" ;
+        c:length     "18" ;
+        c:offset     "2667" ;
+        c:prefix     "Jared Wise of Edmond; and Joshua Wise and wife, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/dae81092-3879-38da-bf27-c2d54de7d754> ;
+        c:suffix     "  along  with twelve great grandchildren: Brianna" .
+
+<http://d.opencalais.com/pershash-1/cac442b3-9d2c-3bd5-ae83-ef9c3ad455be>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Josh" ;
+        c:confidencelevel    "0.932" ;
+        c:firstname          "Josh" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Josh" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/pershash-1/40c5ac82-ce27-3f4f-ae1a-59b981f9d327>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Gary Wise" ;
+        c:confidencelevel    "0.892" ;
+        c:firstname          "Gary" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Gary Wise" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Relevance/33>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/41ab79de-f15b-3fe3-8372-d21dd0224b22> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/768465cb-07ba-5bd7-e47b-38f083867905>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Texas" ;
+        c:docId               <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:latitude            "31.4228" ;
+        c:longitude           "-103.4928" ;
+        c:name                "Pecos,Texas,United States" ;
+        c:shortname           "Pecos" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/902b2da1-5b15-3a77-8352-287235157309> .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/meta>
+        a                 <http://s.opencalais.com/1/type/sys/DocInfoMeta> ;
+        c:contentType     "text/raw" ;
+        c:docId           <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:language        "English" ;
+        c:processingVer   "AllMetadata" ;
+        c:serverVersion   "OneCalais_8.3-RELEASE:364" ;
+        c:signature       "digestalg-1|AiXO0HKxHZqUQORVDyKQhFZHUOI=|JHLzvk1oIKQ6ZOdnWoELzcK8Gl2ITvutuFWhjbmx/bOAGQbKpYCdZQ==" ;
+        c:stagsVer        "OneCalais_8.3-RELEASE-b11-2015-03-25_18:29:00" ;
+        c:submissionDate  "2015-05-26 17:29:38.642" ;
+        c:submitterCode   "0ca6a864-5659-789d-5f32-f365f695e757" .
+
+<http://d.opencalais.com/pershash-1/fb084c37-d693-355a-b5a9-b1f5a4d59de8>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Darla Wise" ;
+        c:confidencelevel    "0.955" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Darla Wise" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<https://permid.org/1-4295903492>
+        a             <http://s.opencalais.com/1/type/er/Company> ;
+        c:commonname  "Avery Dennison" ;
+        c:docId       <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:legacyid    <http://d.opencalais.com/er/company/ralg-tr1r/00a795f0-9423-3228-a154-0ac1ac3f5c0c> ;
+        c:name        "Avery Dennison Corp" ;
+        c:permid      "4295903492" ;
+        c:primaryric  "AVY.N" ;
+        c:score       "0.82100415" ;
+        c:subject     <http://d.opencalais.com/comphash-1/7cf01635-6bb6-3452-aedd-c1926e2bb36b> ;
+        c:ticker      "AVY" .
+
+<http://d.opencalais.com/conf/pershash-1/12778960-de85-3dc1-a5c5-5b69175ae5b5>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.984" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.989" ;
+        c:subject             <http://d.opencalais.com/pershash-1/12778960-de85-3dc1-a5c5-5b69175ae5b5> .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/81>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ in 1953 and they had three children: Larry, ]Gary[, and Paula.  After Paul?s  accidental  death in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "Gary" ;
+        c:length     "4" ;
+        c:offset     "652" ;
+        c:prefix     " in 1953 and they had three children: Larry, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/40c5ac82-ce27-3f4f-ae1a-59b981f9d327> ;
+        c:suffix     ", and Paula.  After Paul?s  accidental  death in" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Relevance/9>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/bf3c3a13-07e4-38df-81ef-2d2fa0a3be57> .
+
+<http://d.opencalais.com/pershash-1/51a62235-a9fe-3052-bfe9-4138a0901485>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Megan" ;
+        c:confidencelevel    "0.769" ;
+        c:firstname          "Megan" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Megan" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/51>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of  Lubbock, Texas, and brother-in-law, ]Conley Campbell, of Dalhart, Texas[.  \nAlso surviving are six grandchildren: Tory]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "Conley Campbell, of Dalhart, Texas" ;
+        c:length     "34" ;
+        c:offset     "2357" ;
+        c:prefix     "of  Lubbock, Texas, and brother-in-law, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/dcb675e6-e225-3298-99f3-3c9f03a6dd1b> ;
+        c:suffix     ".  \nAlso surviving are six grandchildren: Tory" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Relevance/45>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/5942ad3f-c8e7-3d50-86d5-206e2945b0f9> .
+
+<http://d.opencalais.com/conf/comphash-1/2a7d446c-0eaf-355b-856d-b75c9ceb2a4d>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.903" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:resolution          "0.9148354" ;
+        c:statisticalfeature  "0.843" ;
+        c:subject             <http://d.opencalais.com/comphash-1/2a7d446c-0eaf-355b-856d-b75c9ceb2a4d> .
+
+<http://d.opencalais.com/pershash-1/37d73049-751d-3018-b70c-107e504bda91>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Cody McMurphy" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Cody" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "McMurphy" ;
+        c:name               "Cody McMurphy" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/21>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ and the landscapes of the area in every season.  ]She[ had the honor of having some of her photos]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "1616" ;
+        c:prefix     " and the landscapes of the area in every season.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/fa2c6833-ae28-30c5-8cb8-24e1844f2d5e> ;
+        c:suffix     " had the honor of having some of her photos" .
+
+<http://d.opencalais.com/genericHasher-1/c007fcc7-c408-3a7e-936e-625712e30037>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:company            <http://d.opencalais.com/comphash-1/2a7d446c-0eaf-355b-856d-b75c9ceb2a4d> ;
+        c:forenduserdisplay  "true" ;
+        c:person             <http://d.opencalais.com/pershash-1/584e503f-b789-36cf-85bf-63c487b3fd61> ;
+        c:status             "current" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Relevance/15>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/ef61220e-b05c-3f4f-a8b9-0b79688379ee> .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/5>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ and brother-in-law, Conley Campbell, of Dalhart, ]Texas[.  \nAlso surviving are six grandchildren: Tory]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "Texas" ;
+        c:length     "5" ;
+        c:offset     "2386" ;
+        c:prefix     " and brother-in-law, Conley Campbell, of Dalhart, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> ;
+        c:suffix     ".  \nAlso surviving are six grandchildren: Tory" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/93>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ the Freedom First United Methodist Church or the ]Wesley House Foundation[. \n\t\t\t]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "Wesley House Foundation" ;
+        c:length     "23" ;
+        c:offset     "3106" ;
+        c:prefix     " the Freedom First United Methodist Church or the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/452adcdf-56e6-3fbf-91d5-cb7a6bc08aa7> ;
+        c:suffix     ". \n\t\t\t" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/63>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in all aspects of the organization.  ]LaVerne was a member of the Freedom United Methodist Church[ and she enjoyed helping with funeral dinners and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "LaVerne was a member of the Freedom United Methodist Church" ;
+        c:length     "59" ;
+        c:offset     "1078" ;
+        c:prefix     "in all aspects of the organization.  " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e39e46b3-1476-3170-b865-e6a4ef61b8fb> ;
+        c:suffix     " and she enjoyed helping with funeral dinners and" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Relevance/57>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/693b9b27-4f42-328f-8fcd-34d3f5c08cc5> .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/lid/DefaultLangId>
+        a                    <http://s.opencalais.com/1/type/lid/DefaultLangId> ;
+        c:docId              <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:forenduserdisplay  "false" ;
+        c:lang               <http://d.opencalais.com/lid/DefaultLangId/English> ;
+        c:permid             "505062" .
+
+<http://d.opencalais.com/genericHasher-1/bcacf4bb-2a85-3b9d-a261-3a8ae9e1e28f>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Dalhart" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/33>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[the Freedom Cemetery under the direction of the ]Marshall Funeral Home of Alva[.  \nStena LaVerne Wise, daughter of the late Clay]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "Marshall Funeral Home of Alva" ;
+        c:length     "29" ;
+        c:offset     "235" ;
+        c:prefix     "the Freedom Cemetery under the direction of the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce> ;
+        c:suffix     ".  \nStena LaVerne Wise, daughter of the late Clay" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/111>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Randy, of Alva; and Darla Wise of Durango, ]Colorado[, as well as her brother, Vincent Duncan and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "Colorado" ;
+        c:length     "8" ;
+        c:offset     "2248" ;
+        c:prefix     "Randy, of Alva; and Darla Wise of Durango, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/096a73ce-884f-33d7-9375-ac1c8ec74b16> ;
+        c:suffix     ", as well as her brother, Vincent Duncan and" .
+
+<http://d.opencalais.com/genericHasher-1/67cfcc01-ca21-3fcd-a27f-5a3850efaff9>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:forenduserdisplay  "true" ;
+        c:organization       <http://d.opencalais.com/genericHasher-1/cdac5c64-bf26-3b5f-a14b-11c7ce972077> ;
+        c:person             <http://d.opencalais.com/pershash-1/fa2c6833-ae28-30c5-8cb8-24e1844f2d5e> ;
+        c:position           "District President" ;
+        c:status             "past" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Relevance/27>
+        a                <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId          <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:relevance      "0.2" ;
+        c:relevancecont  "0.03" ;
+        c:subject        <http://d.opencalais.com/comphash-1/7cf01635-6bb6-3452-aedd-c1926e2bb36b> .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/SocialTag/4>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "2" ;
+        c:name               "Wise" ;
+        c:originalValue      "Wise" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/1c3408f5-9d53-3c5a-9c3c-798e1a39fa92> .
+
+<http://d.opencalais.com/conf/pershash-1/57538c90-9436-3cdc-824a-8f127ef6b488>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.973" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.932" ;
+        c:subject             <http://d.opencalais.com/pershash-1/57538c90-9436-3cdc-824a-8f127ef6b488> .
+
+<http://d.opencalais.com/pershash-1/ef61220e-b05c-3f4f-a8b9-0b79688379ee>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Reiley Wise" ;
+        c:confidencelevel    "0.539" ;
+        c:firstname          "Reiley" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Wise" ;
+        c:name               "Reiley Wise" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/75>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Arkansas, and passed away October 31, 2012 at ]her[ home north of Freedom at the age of 77 years. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "425" ;
+        c:prefix     "Arkansas, and passed away October 31, 2012 at " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9b3b4009-baab-33b5-bd38-474b65a8eb13> ;
+        c:suffix     " home north of Freedom at the age of 77 years. " .
+
+<http://d.opencalais.com/conf/pershash-1/3b56ee9a-5987-3ec8-99a1-a8fb2b215947>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.895" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.928" ;
+        c:subject             <http://d.opencalais.com/pershash-1/3b56ee9a-5987-3ec8-99a1-a8fb2b215947> .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/45>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and wife, Margaret, of  Lubbock, Texas, and ]brother-in-law[, Conley Campbell, of Dalhart, Texas.  \nAlso]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "brother-in-law" ;
+        c:length     "14" ;
+        c:offset     "2341" ;
+        c:prefix     "and wife, Margaret, of  Lubbock, Texas, and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/df74cc60-af38-3aba-b9ec-7db9e7e7c562> ;
+        c:suffix     ", Conley Campbell, of Dalhart, Texas.  \nAlso" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Relevance/39>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/40c5ac82-ce27-3f4f-ae1a-59b981f9d327> .
+
+<http://d.opencalais.com/pershash-1/5942ad3f-c8e7-3d50-86d5-206e2945b0f9>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Jay Paul" ;
+        c:confidencelevel    "0.964" ;
+        c:firstname          "Jay" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Paul" ;
+        c:name               "Jay Paul" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/pershash-1/b09a04d3-94df-384d-aed4-6400bd73c42b>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Casey McMurphy" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Casey" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "McMurphy" ;
+        c:name               "Casey McMurphy" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/pershash-1/9b3b4009-baab-33b5-bd38-474b65a8eb13>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Gracie Duncan" ;
+        c:confidencelevel    "0.989" ;
+        c:firstname          "Gracie" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Duncan" ;
+        c:name               "Gracie (Rippa) Duncan" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/15>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and enjoyed being a part of her community.  ]She[ drove a school bus for the Freedom Schools for]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "932" ;
+        c:prefix     "and enjoyed being a part of her community.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/fa2c6833-ae28-30c5-8cb8-24e1844f2d5e> ;
+        c:suffix     " drove a school bus for the Freedom Schools for" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Relevance/4>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/fb084c37-d693-355a-b5a9-b1f5a4d59de8> .
+
+<http://d.opencalais.com/pershash-1/d26282df-143e-3a80-9742-18f5066c0c69>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Clay Owen" ;
+        c:confidencelevel    "0.896" ;
+        c:firstname          "Clay" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Owen" ;
+        c:name               "Clay Owen" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/pershash-1/74b555a7-e31b-3ace-a145-c5a3d3a779d5>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Connie" ;
+        c:confidencelevel    "0.86" ;
+        c:firstname          "Connie" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Connie" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/cdac5c64-bf26-3b5f-a14b-11c7ce972077>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "UMW" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/87>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Funeral services for ]Stena LaVerne Wise[ will be 2:00 p.m. Friday, November 2, 2012, at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "Stena LaVerne Wise" ;
+        c:length     "18" ;
+        c:offset     "21" ;
+        c:prefix     "Funeral services for " ;
+        c:subject    <http://d.opencalais.com/pershash-1/23b54af3-3ca9-3ff9-87ce-f457746ddcc7> ;
+        c:suffix     " will be 2:00 p.m. Friday, November 2, 2012, at" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Relevance/40>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/12778960-de85-3dc1-a5c5-5b69175ae5b5> .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/57>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[dinners and the annual Groundhog Supper.  ]She was a church camp counselor[ and helped with Vacation Bible School for many]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "She was a church camp counselor" ;
+        c:length     "31" ;
+        c:offset     "1217" ;
+        c:prefix     "dinners and the annual Groundhog Supper.  " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/5aec3c02-0687-3dd4-8ed1-41c9b1bac61b> ;
+        c:suffix     " and helped with Vacation Bible School for many" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Relevance/10>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce> .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/105>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[   \nBesides her parents and first husband, ]LaVerne[ was preceded in death by one sister, Gurtha]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "LaVerne" ;
+        c:length     "7" ;
+        c:offset     "1952" ;
+        c:prefix     "   \nBesides her parents and first husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/572f2c03-3b12-3493-a794-3f6b203e1017> ;
+        c:suffix     " was preceded in death by one sister, Gurtha" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/27>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and their  accomplishments.  She dearly loved ]her[ grandchildren and was in awe of her great]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1848" ;
+        c:prefix     "and their  accomplishments.  She dearly loved " ;
+        c:subject    <http://d.opencalais.com/pershash-1/fa2c6833-ae28-30c5-8cb8-24e1844f2d5e> ;
+        c:suffix     " grandchildren and was in awe of her great" .
+
+<http://d.opencalais.com/pershash-1/572f2c03-3b12-3493-a794-3f6b203e1017>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Stena LaVerne" ;
+        c:confidencelevel    "0.813" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Stena LaVerne" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/e088028d-cdce-c4fa-c28a-cf7a54cc36b7>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:latitude            "39.0473491002" ;
+        c:longitude           "-105.465397491" ;
+        c:name                "Colorado,United States" ;
+        c:permid              "100068" ;
+        c:rcscode             "G:7C" ;
+        c:shortname           "Colorado" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/096a73ce-884f-33d7-9375-ac1c8ec74b16> .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/99>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Texas, and brother-in-law, Conley Campbell, of ]Dalhart[, Texas.  \nAlso surviving are six grandchildren:]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "Dalhart" ;
+        c:length     "7" ;
+        c:offset     "2377" ;
+        c:prefix     "Texas, and brother-in-law, Conley Campbell, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/bcacf4bb-2a85-3b9d-a261-3a8ae9e1e28f> ;
+        c:suffix     ", Texas.  \nAlso surviving are six grandchildren:" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Relevance/52>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/572f2c03-3b12-3493-a794-3f6b203e1017> .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/69>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Durango, Colorado, as well as her brother, ]Vincent Duncan[ and wife, Margaret, of  Lubbock, Texas, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "Vincent Duncan" ;
+        c:length     "14" ;
+        c:offset     "2282" ;
+        c:prefix     "of Durango, Colorado, as well as her brother, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/41ab79de-f15b-3fe3-8372-d21dd0224b22> ;
+        c:suffix     " and wife, Margaret, of  Lubbock, Texas, and" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Relevance/22>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/5c8a220e-787d-3f24-95c5-e55792d500be> .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/39>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Texas.  \nAlso surviving are six grandchildren: ]Tory Hamlin[ and husband, Jeffrey, of Jacksonville, Florida;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "Tory Hamlin" ;
+        c:length     "11" ;
+        c:offset     "2433" ;
+        c:prefix     "Texas.  \nAlso surviving are six grandchildren: " ;
+        c:subject    <http://d.opencalais.com/pershash-1/c76a4928-f522-3b2f-9b16-da68ef82bb7d> ;
+        c:suffix     " and husband, Jeffrey, of Jacksonville, Florida;" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/70>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[with Vacation Bible School for many summers.  ]She served as a District President of UMW[ and was involved with the Wesley House in Alva. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "She served as a District President of UMW" ;
+        c:length     "41" ;
+        c:offset     "1306" ;
+        c:prefix     "with Vacation Bible School for many summers.  " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/67cfcc01-ca21-3fcd-a27f-5a3850efaff9> ;
+        c:suffix     " and was involved with the Wesley House in Alva. " .
+
+<http://d.opencalais.com/conf/pershash-1/922b7142-5c82-320d-bba5-379e62ccb549>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.768" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.858" ;
+        c:subject             <http://d.opencalais.com/pershash-1/922b7142-5c82-320d-bba5-379e62ccb549> .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/40>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[are six grandchildren: Tory Hamlin and husband, ]Jeffrey[, of Jacksonville, Florida; Cody McMurphy and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "Jeffrey" ;
+        c:length     "7" ;
+        c:offset     "2458" ;
+        c:prefix     "are six grandchildren: Tory Hamlin and husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/57538c90-9436-3cdc-824a-8f127ef6b488> ;
+        c:suffix     ", of Jacksonville, Florida; Cody McMurphy and" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Relevance/34>
+        a                <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId          <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:relevance      "0.2" ;
+        c:relevancecont  "0.03" ;
+        c:subject        <http://d.opencalais.com/comphash-1/2a7d446c-0eaf-355b-856d-b75c9ceb2a4d> .
+
+<http://d.opencalais.com/conf/pershash-1/56a3efc1-5492-3124-b778-e55735727ad1>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.86" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/56a3efc1-5492-3124-b778-e55735727ad1> .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/10>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[  She was a church camp counselor and helped with ]Vacation Bible School[ for many summers.  She served as a District]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "Vacation Bible School" ;
+        c:length     "21" ;
+        c:offset     "1265" ;
+        c:prefix     "  She was a church camp counselor and helped with " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/6e90a13f-dc01-3dda-8220-e9581aa41131> ;
+        c:suffix     " for many summers.  She served as a District" .
+
+<http://d.opencalais.com/genericHasher-1/23a129b7-d2bb-355c-aa8a-63dfb49bd1de>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "brother" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/fb084c37-d693-355a-b5a9-b1f5a4d59de8> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/41ab79de-f15b-3fe3-8372-d21dd0224b22> .
+
+<http://d.opencalais.com/genericHasher-1/34d355d7-ce2f-37b5-8997-7666290fe245>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "First United Methodist Church" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Texas" .
+
+<http://d.opencalais.com/conf/comphash-1/7cf01635-6bb6-3452-aedd-c1926e2bb36b>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.884" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:resolution          "0.82100415" ;
+        c:statisticalfeature  "0.876" ;
+        c:subject             <http://d.opencalais.com/comphash-1/7cf01635-6bb6-3452-aedd-c1926e2bb36b> .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/82>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[sons, Larry Wise and wife, Tamela, of Tecumseh; ]Gary Wise[ and wife, Connie, of Woodward; two daughters,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "Gary Wise" ;
+        c:length     "9" ;
+        c:offset     "2121" ;
+        c:prefix     "sons, Larry Wise and wife, Tamela, of Tecumseh; " ;
+        c:subject    <http://d.opencalais.com/pershash-1/40c5ac82-ce27-3f4f-ae1a-59b981f9d327> ;
+        c:suffix     " and wife, Connie, of Woodward; two daughters," .
+
+<http://d.opencalais.com/conf/pershash-1/23b54af3-3ca9-3ff9-87ce-f457746ddcc7>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.345" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.429" ;
+        c:subject             <http://d.opencalais.com/pershash-1/23b54af3-3ca9-3ff9-87ce-f457746ddcc7> .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/52>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[the organization.  LaVerne was a member of the ]Freedom United Methodist Church[ and she enjoyed helping with funeral dinners and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "Freedom United Methodist Church" ;
+        c:length     "31" ;
+        c:offset     "1106" ;
+        c:prefix     "the organization.  LaVerne was a member of the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/5c8a220e-787d-3f24-95c5-e55792d500be> ;
+        c:suffix     " and she enjoyed helping with funeral dinners and" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Relevance/46>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/452adcdf-56e6-3fbf-91d5-cb7a6bc08aa7> .
+
+<http://d.opencalais.com/pershash-1/ab8055ae-ba22-3ab4-bc67-ca9a82bff1fe>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Scott Ware" ;
+        c:confidencelevel    "0.995" ;
+        c:firstname          "Scott" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Ware" ;
+        c:name               "Scott Ware" ;
+        c:nationality        "N/A" ;
+        c:persontype         "sports" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/100>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[home north of Freedom at the age of 77 years.  \n]LaVerne[ attended several schools before completing her ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "LaVerne" ;
+        c:length     "7" ;
+        c:offset     "477" ;
+        c:prefix     "home north of Freedom at the age of 77 years.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/572f2c03-3b12-3493-a794-3f6b203e1017> ;
+        c:suffix     " attended several schools before completing her " .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/22>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[season.  She had the honor of having some of ]her[ photos published in state magazines and area]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1652" ;
+        c:prefix     "season.  She had the honor of having some of " ;
+        c:subject    <http://d.opencalais.com/pershash-1/fa2c6833-ae28-30c5-8cb8-24e1844f2d5e> ;
+        c:suffix     " photos published in state magazines and area" .
+
+<http://d.opencalais.com/conf/pershash-1/1425cf7f-dc89-3d9b-bd84-af339eb0a7d4>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.912" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.927" ;
+        c:subject             <http://d.opencalais.com/pershash-1/1425cf7f-dc89-3d9b-bd84-af339eb0a7d4> .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Relevance/16>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/df74cc60-af38-3aba-b9ec-7db9e7e7c562> .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/6>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[First United Methodist Church with Pastor ]Scott Ware[ officiating.  Interment will be in the Freedom]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "Scott Ware" ;
+        c:length     "10" ;
+        c:offset     "141" ;
+        c:prefix     "First United Methodist Church with Pastor " ;
+        c:subject    <http://d.opencalais.com/pershash-1/ab8055ae-ba22-3ab4-bc67-ca9a82bff1fe> ;
+        c:suffix     " officiating.  Interment will be in the Freedom" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/94>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in Pecos, Texas.  She was united in marriage to ]Paul G. Pearrow[  in 1953 and they had three children: Larry,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "Paul G. Pearrow" ;
+        c:length     "15" ;
+        c:offset     "591" ;
+        c:prefix     "in Pecos, Texas.  She was united in marriage to " ;
+        c:subject    <http://d.opencalais.com/pershash-1/90fc82df-44f8-3794-bfab-11df80c4e84f> ;
+        c:suffix     "  in 1953 and they had three children: Larry," .
+
+<http://d.opencalais.com/pershash-1/9d8bec4d-8f5f-3181-a885-25d964edc3bf>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Kailah Fessler" ;
+        c:confidencelevel    "0.895" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Kailah Fessler" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/64>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[two daughters, Paula McMurphy and husband, ]Randy[, of Alva; and Darla Wise of Durango, Colorado,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "Randy" ;
+        c:length     "5" ;
+        c:offset     "2205" ;
+        c:prefix     "two daughters, Paula McMurphy and husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/1c60ec4a-82df-325d-8551-e96783d62111> ;
+        c:suffix     ", of Alva; and Darla Wise of Durango, Colorado," .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Relevance/58>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/de642547-5f23-3cd3-9e96-82a4eee91dcb> .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/112>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ (Rippa) Duncan, was born July 25, l935, in Lynn, ]Arkansas[, and passed away October 31, 2012 at her home]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "Arkansas" ;
+        c:length     "8" ;
+        c:offset     "379" ;
+        c:prefix     " (Rippa) Duncan, was born July 25, l935, in Lynn, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/693b9b27-4f42-328f-8fcd-34d3f5c08cc5> ;
+        c:suffix     ", and passed away October 31, 2012 at her home" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/34>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ of UMW and was involved with the Wesley House in ]Alva[.    \nLaVerne had a passion for photography and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "1390" ;
+        c:prefix     " of UMW and was involved with the Wesley House in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce> ;
+        c:suffix     ".    \nLaVerne had a passion for photography and" .
+
+<http://d.opencalais.com/conf/pershash-1/41ab79de-f15b-3fe3-8372-d21dd0224b22>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.993" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.995" ;
+        c:subject             <http://d.opencalais.com/pershash-1/41ab79de-f15b-3fe3-8372-d21dd0224b22> .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Relevance/28>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/a9a9a8cc-f578-345c-9964-fbd37fcc0ea4> .
+
+<http://d.opencalais.com/conf/pershash-1/c76a4928-f522-3b2f-9b16-da68ef82bb7d>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/c76a4928-f522-3b2f-9b16-da68ef82bb7d> .
+
+<http://d.opencalais.com/genericHasher-1/0337841a-cd87-3427-ad44-058bbd63f9e8>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/50f1e799-6fc4-3ef9-8642-33c2133c9af1> , <http://d.opencalais.com/pershash-1/fb084c37-d693-355a-b5a9-b1f5a4d59de8> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/genericHasher-1/22f59469-bcea-3311-940a-4b75d5cbc6c5>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Durango" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/b9a8eb53-0d57-c326-3738-6c8206e311a8>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Texas" ;
+        c:docId               <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:latitude            "33.5778" ;
+        c:longitude           "-101.8547" ;
+        c:name                "Lubbock,Texas,United States" ;
+        c:shortname           "Lubbock" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/f25d8160-2f1b-3642-a771-602895d343f3> .
+
+<http://d.opencalais.com/conf/pershash-1/1c60ec4a-82df-325d-8551-e96783d62111>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.919" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/1c60ec4a-82df-325d-8551-e96783d62111> .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/76>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[attended several schools before completing ]her[  education in Pecos, Texas.  She was united in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "528" ;
+        c:prefix     "attended several schools before completing " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9b3b4009-baab-33b5-bd38-474b65a8eb13> ;
+        c:suffix     "  education in Pecos, Texas.  She was united in" .
+
+<http://d.opencalais.com/genericHasher-1/3a6594a2-3e8d-3cbf-8789-05ba1d4e6821>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "wife" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/fb084c37-d693-355a-b5a9-b1f5a4d59de8> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/50f1e799-6fc4-3ef9-8642-33c2133c9af1> .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/46>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Jacey Welch and husband, Josh, of Perkins; ]Jared Wise[ of Edmond; and Joshua Wise and wife, Katie, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "Jared Wise" ;
+        c:length     "10" ;
+        c:offset     "2619" ;
+        c:prefix     "Jacey Welch and husband, Josh, of Perkins; " ;
+        c:subject    <http://d.opencalais.com/pershash-1/922b7142-5c82-320d-bba5-379e62ccb549> ;
+        c:suffix     " of Edmond; and Joshua Wise and wife, Katie, of" .
+
+<http://d.opencalais.com/pershash-1/625117d0-abe2-3fb9-b13a-103aba9c9048>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Brooklyn Wise" ;
+        c:confidencelevel    "0.539" ;
+        c:firstname          "Reiley" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Wise" ;
+        c:name               "Brooklyn Wise" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/16>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ school bus for the Freedom Schools for 16 years. ]She[ was active in Eastern Star and participated in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "993" ;
+        c:prefix     " school bus for the Freedom Schools for 16 years. " ;
+        c:subject    <http://d.opencalais.com/pershash-1/fa2c6833-ae28-30c5-8cb8-24e1844f2d5e> ;
+        c:suffix     " was active in Eastern Star and participated in" .
+
+<http://d.opencalais.com/pershash-1/7d869a70-2d4e-381f-beb2-a26e0129cf42>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Jagger Welch" ;
+        c:confidencelevel    "0.895" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Jagger Welch" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/cc5f910f-278d-3cd5-b1b7-e79068730ee9>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Durango" ;
+        c:person             <http://d.opencalais.com/pershash-1/fb084c37-d693-355a-b5a9-b1f5a4d59de8> .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Relevance/5>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/9d8bec4d-8f5f-3181-a885-25d964edc3bf> .
+
+<http://d.opencalais.com/pershash-1/e56aa6eb-e560-3b3c-8e7a-f7ad0843d2a6>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Larry Wise" ;
+        c:confidencelevel    "0.911" ;
+        c:firstname          "Larry" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Larry Wise" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/88>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of the Marshall Funeral Home of Alva.  \n]Stena LaVerne Wise[, daughter of the late Clay Owen and Gracie]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "Stena LaVerne Wise" ;
+        c:length     "18" ;
+        c:offset     "268" ;
+        c:prefix     "of the Marshall Funeral Home of Alva.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/23b54af3-3ca9-3ff9-87ce-f457746ddcc7> ;
+        c:suffix     ", daughter of the late Clay Owen and Gracie" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Relevance/41>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/3b56ee9a-5987-3ec8-99a1-a8fb2b215947> .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/58>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Tory Hamlin and husband, Jeffrey, of ]Jacksonville[, Florida; Cody McMurphy and wife, Megan, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "Jacksonville" ;
+        c:length     "12" ;
+        c:offset     "2470" ;
+        c:prefix     "Tory Hamlin and husband, Jeffrey, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/58e96598-3df6-321d-931e-f30a2f3290b5> ;
+        c:suffix     ", Florida; Cody McMurphy and wife, Megan, of" .
+
+<http://d.opencalais.com/pershash-1/584e503f-b789-36cf-85bf-63c487b3fd61>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Tamela" ;
+        c:confidencelevel    "0.769" ;
+        c:firstname          "Tamela" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Tamela" ;
+        c:nationality        "N/A" ;
+        c:persontype         "economic" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Relevance/11>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee> .
+
+<http://d.opencalais.com/conf/pershash-1/cac442b3-9d2c-3bd5-ae83-ef9c3ad455be>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.932" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/cac442b3-9d2c-3bd5-ae83-ef9c3ad455be> .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/1>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ wife, Tracy, of Edmond; Jacey Welch and husband, ]Josh[, of Perkins; Jared Wise of Edmond; and Joshua]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "Josh" ;
+        c:length     "4" ;
+        c:offset     "2601" ;
+        c:prefix     " wife, Tracy, of Edmond; Jacey Welch and husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/cac442b3-9d2c-3bd5-ae83-ef9c3ad455be> ;
+        c:suffix     ", of Perkins; Jared Wise of Edmond; and Joshua" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/106>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in death by one sister, Gurtha Campbell.  \n]LaVerne[ is survived by her husband, E.F. of Freedom; two]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "LaVerne" ;
+        c:length     "7" ;
+        c:offset     "2016" ;
+        c:prefix     "in death by one sister, Gurtha Campbell.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/572f2c03-3b12-3493-a794-3f6b203e1017> ;
+        c:suffix     " is survived by her husband, E.F. of Freedom; two" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/28>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ dearly loved her grandchildren and was in awe of ]her[ great grandchildren.    \nBesides her parents and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1884" ;
+        c:prefix     " dearly loved her grandchildren and was in awe of " ;
+        c:subject    <http://d.opencalais.com/pershash-1/fa2c6833-ae28-30c5-8cb8-24e1844f2d5e> ;
+        c:suffix     " great grandchildren.    \nBesides her parents and" .
+
+<http://d.opencalais.com/conf/pershash-1/40c5ac82-ce27-3f4f-ae1a-59b981f9d327>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.892" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.859" ;
+        c:subject             <http://d.opencalais.com/pershash-1/40c5ac82-ce27-3f4f-ae1a-59b981f9d327> .
+
+<http://d.opencalais.com/genericHasher-1/5aec3c02-0687-3dd4-8ed1-41c9b1bac61b>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:forenduserdisplay  "true" ;
+        c:organization       <http://d.opencalais.com/genericHasher-1/5c8a220e-787d-3f24-95c5-e55792d500be> ;
+        c:person             <http://d.opencalais.com/pershash-1/fa2c6833-ae28-30c5-8cb8-24e1844f2d5e> ;
+        c:position           "church camp counselor" ;
+        c:status             "past" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Relevance/53>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/0916f0ff-9b52-30d0-b0a6-8fba3234905b> .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b>
+        a                  <http://s.opencalais.com/1/type/sys/DocInfo> ;
+        c:calaisRequestID  "c1434f43-f5bc-51f0-14d9-145c65212501" ;
+        c:docDate          "2015-05-26 17:29:39.200" ;
+        c:docTitle         "" ;
+        c:document         "Funeral services for Stena LaVerne Wise will be 2:00 p.m. Friday, November 2, 2012, at the Freedom First United Methodist Church with Pastor Scott Ware officiating.  Interment will be in the Freedom Cemetery under the direction of the Marshall Funeral Home of Alva.  \nStena LaVerne Wise, daughter of the late Clay Owen and Gracie (Rippa) Duncan, was born July 25, l935, in Lynn, Arkansas, and passed away October 31, 2012 at her home north of Freedom at the age of 77 years.  \nLaVerne attended several schools before completing her  education in Pecos, Texas.  She was united in marriage to Paul G. Pearrow  in 1953 and they had three children: Larry, Gary, and Paula.  After Paul?s  accidental  death in 1958, she married E. F. Wise in Pecos, Texas, on May 15, 1959.  They moved to the Freedom area where they farmed, ranched and they raised their family.   \nLaVerne was a people person and enjoyed being a part of her community.  She drove a school bus for the Freedom Schools for 16 years. She was active in Eastern Star and participated in all aspects of the organization.  LaVerne was a member of the Freedom United Methodist Church and she enjoyed helping with funeral dinners and the annual Groundhog Supper.  She was a church camp counselor and helped with Vacation Bible School for many summers.  She served as a District President of UMW and was involved with the Wesley House in Alva.    \nLaVerne had a passion for photography and always carried a camera to be ready for every photo opportunity.  She loved taking pictures of their ranch and cattle drives and the landscapes of the area in every season.  She had the honor of having some of her photos published in state magazines and area calendars and brochures.  \nLaVerne?s greatest passion was her family.  She was proud of her children and their  accomplishments.  She dearly loved her grandchildren and was in awe of her great grandchildren.    \nBesides her parents and first husband, LaVerne was preceded in death by one sister, Gurtha Campbell.  \nLaVerne is survived by her husband, E.F. of Freedom; two sons, Larry Wise and wife, Tamela, of Tecumseh; Gary Wise and wife, Connie, of Woodward; two daughters, Paula McMurphy and husband, Randy, of Alva; and Darla Wise of Durango, Colorado, as well as her brother, Vincent Duncan and wife, Margaret, of  Lubbock, Texas, and brother-in-law, Conley Campbell, of Dalhart, Texas.  \nAlso surviving are six grandchildren: Tory Hamlin and husband, Jeffrey, of Jacksonville, Florida; Cody McMurphy and wife, Megan, of Alva; Casey McMurphy and wife, Tracy, of Edmond; Jacey Welch and husband, Josh, of Perkins; Jared Wise of Edmond; and Joshua Wise and wife, Katie, of Tecumseh  along  with twelve great grandchildren: Brianna Dillon, Jaiden Dillon, Kailah Fessler, and Gavin Hamlin; Avery and Reece McMurphy; Layton and Grayson McMurphy; Howdy, Jay Paul, and Jagger Welch; Brooklyn and Reiley Wise, in addition to John Lastly, an honorary grandson, and  other relatives and friends.  \nMemorial contributions may be made through the funeral home to the Freedom First United Methodist Church or the Wesley House Foundation. \n\t\t\t" ;
+        c:id               "http://id.opencalais.com/6lg4YNp5REr*Ay7RNUoSyA" ;
+        c:ontology         "http://163.231.4.65/owlschema/8.3/onecalais.owl.allmetadata.xml" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Relevance/23>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/35d32813-e33a-3af2-8abf-88acef009587> .
+
+<http://d.opencalais.com/pershash-1/bf3c3a13-07e4-38df-81ef-2d2fa0a3be57>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Joshua Wise" ;
+        c:confidencelevel    "0.768" ;
+        c:firstname          "Joshua" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Wise" ;
+        c:name               "Joshua Wise" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/fb084c37-d693-355a-b5a9-b1f5a4d59de8>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.955" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.973" ;
+        c:subject             <http://d.opencalais.com/pershash-1/fb084c37-d693-355a-b5a9-b1f5a4d59de8> .
+
+<http://d.opencalais.com/conf/pershash-1/51a62235-a9fe-3052-bfe9-4138a0901485>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.769" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/51a62235-a9fe-3052-bfe9-4138a0901485> .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/71>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[two sons, Larry Wise and wife, Tamela, of ]Tecumseh[; Gary Wise and wife, Connie, of Woodward; two]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "Tecumseh" ;
+        c:length     "8" ;
+        c:offset     "2111" ;
+        c:prefix     "two sons, Larry Wise and wife, Tamela, of " ;
+        c:subject    <http://d.opencalais.com/comphash-1/2a7d446c-0eaf-355b-856d-b75c9ceb2a4d> ;
+        c:suffix     "; Gary Wise and wife, Connie, of Woodward; two" .
+
+<http://d.opencalais.com/conf/pershash-1/37d73049-751d-3018-b70c-107e504bda91>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/37d73049-751d-3018-b70c-107e504bda91> .
+
+<http://d.opencalais.com/pershash-1/90fc82df-44f8-3794-bfab-11df80c4e84f>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Paul Pearrow" ;
+        c:confidencelevel    "0.961" ;
+        c:firstname          "Paul" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Pearrow" ;
+        c:middlename         "G." ;
+        c:name               "Paul G. Pearrow" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/41>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ as well as her brother, Vincent Duncan and wife, ]Margaret[, of  Lubbock, Texas, and brother-in-law, Conley]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "Margaret" ;
+        c:length     "8" ;
+        c:offset     "2307" ;
+        c:prefix     " as well as her brother, Vincent Duncan and wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/50f1e799-6fc4-3ef9-8642-33c2133c9af1> ;
+        c:suffix     ", of  Lubbock, Texas, and brother-in-law, Conley" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Relevance/35>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/f25d8160-2f1b-3642-a771-602895d343f3> .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/11>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Florida; Cody McMurphy and wife, Megan, of Alva; ]Casey McMurphy[ and wife, Tracy, of Edmond; Jacey Welch and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "Casey McMurphy" ;
+        c:length     "14" ;
+        c:offset     "2533" ;
+        c:prefix     " Florida; Cody McMurphy and wife, Megan, of Alva; " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b09a04d3-94df-384d-aed4-6400bd73c42b> ;
+        c:suffix     " and wife, Tracy, of Edmond; Jacey Welch and" .
+
+<http://d.opencalais.com/conf/pershash-1/e56aa6eb-e560-3b3c-8e7a-f7ad0843d2a6>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.911" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.859" ;
+        c:subject             <http://d.opencalais.com/pershash-1/e56aa6eb-e560-3b3c-8e7a-f7ad0843d2a6> .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/62914270-0a1c-1bcc-880e-6dbe9fb82eb9>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:latitude            "31.4484328889" ;
+        c:longitude           "-97.7816569778" ;
+        c:name                "Texas,United States" ;
+        c:permid              "100299" ;
+        c:rcscode             "G:50" ;
+        c:shortname           "Texas" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/83>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[completing her  education in Pecos, Texas.  ]She was united in marriage to Paul G. Pearrow  in 1953[ and they had three children: Larry, Gary, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "She was united in marriage to Paul G. Pearrow  in 1953" ;
+        c:length     "54" ;
+        c:offset     "561" ;
+        c:prefix     "completing her  education in Pecos, Texas.  " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/91816eb2-df13-311e-8c6b-785cf9bebb59> ;
+        c:suffix     " and they had three children: Larry, Gary, and" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/53>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Ware officiating.  Interment will be in the ]Freedom Cemetery[ under the direction of the Marshall Funeral Home]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "Freedom Cemetery" ;
+        c:length     "16" ;
+        c:offset     "191" ;
+        c:prefix     "Ware officiating.  Interment will be in the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/35d32813-e33a-3af2-8abf-88acef009587> ;
+        c:suffix     " under the direction of the Marshall Funeral Home" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Relevance/47>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/90fc82df-44f8-3794-bfab-11df80c4e84f> .
+
+<http://d.opencalais.com/genericHasher-1/902b2da1-5b15-3a77-8352-287235157309>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Pecos" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/101>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ farmed, ranched and they raised their family.   \n]LaVerne[ was a people person and enjoyed being a part of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "LaVerne" ;
+        c:length     "7" ;
+        c:offset     "860" ;
+        c:prefix     " farmed, ranched and they raised their family.   \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/572f2c03-3b12-3493-a794-3f6b203e1017> ;
+        c:suffix     " was a people person and enjoyed being a part of" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/23>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and brochures.  \nLaVerne?s greatest passion was ]her[ family.  She was proud of her children and their]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1759" ;
+        c:prefix     "and brochures.  \nLaVerne?s greatest passion was " ;
+        c:subject    <http://d.opencalais.com/pershash-1/fa2c6833-ae28-30c5-8cb8-24e1844f2d5e> ;
+        c:suffix     " family.  She was proud of her children and their" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Relevance/17>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/922b7142-5c82-320d-bba5-379e62ccb549> .
+
+<http://d.opencalais.com/conf/pershash-1/ef61220e-b05c-3f4f-a8b9-0b79688379ee>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.539" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.606" ;
+        c:subject             <http://d.opencalais.com/pershash-1/ef61220e-b05c-3f4f-a8b9-0b79688379ee> .
+
+<http://d.opencalais.com/genericHasher-1/5c8a220e-787d-3f24-95c5-e55792d500be>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Freedom United Methodist Church" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/7>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Paula McMurphy and husband, Randy, of Alva; and ]Darla Wise[ of Durango, Colorado, as well as her brother,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "Darla Wise" ;
+        c:length     "10" ;
+        c:offset     "2225" ;
+        c:prefix     "Paula McMurphy and husband, Randy, of Alva; and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/fb084c37-d693-355a-b5a9-b1f5a4d59de8> ;
+        c:suffix     " of Durango, Colorado, as well as her brother," .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/95>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[three children: Larry, Gary, and Paula.  After ]Paul[?s  accidental  death in 1958, she married E. F.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "Paul" ;
+        c:length     "4" ;
+        c:offset     "676" ;
+        c:prefix     "three children: Larry, Gary, and Paula.  After " ;
+        c:subject    <http://d.opencalais.com/pershash-1/90fc82df-44f8-3794-bfab-11df80c4e84f> ;
+        c:suffix     "?s  accidental  death in 1958, she married E. F." .
+
+<http://d.opencalais.com/genericHasher-1/3cf810f3-e8b0-3065-ac70-6da424fb2716>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Lubbock" ;
+        c:person             <http://d.opencalais.com/pershash-1/50f1e799-6fc4-3ef9-8642-33c2133c9af1> .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/65>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[LaVerne was preceded in death by one sister, ]Gurtha Campbell[.  \nLaVerne is survived by her husband, E.F. of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "Gurtha Campbell" ;
+        c:length     "15" ;
+        c:offset     "1997" ;
+        c:prefix     "LaVerne was preceded in death by one sister, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/1425cf7f-dc89-3d9b-bd84-af339eb0a7d4> ;
+        c:suffix     ".  \nLaVerne is survived by her husband, E.F. of" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Relevance/59>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/56a3efc1-5492-3124-b778-e55735727ad1> .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/113>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Dillon, Jaiden Dillon, Kailah Fessler, and ]Gavin Hamlin[; Avery and Reece McMurphy; Layton and Grayson]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "Gavin Hamlin" ;
+        c:length     "12" ;
+        c:offset     "2778" ;
+        c:prefix     "Dillon, Jaiden Dillon, Kailah Fessler, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/de642547-5f23-3cd3-9e96-82a4eee91dcb> ;
+        c:suffix     "; Avery and Reece McMurphy; Layton and Grayson" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/35>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ daughters, Paula McMurphy and husband, Randy, of ]Alva[; and Darla Wise of Durango, Colorado, as well as]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "2215" ;
+        c:prefix     " daughters, Paula McMurphy and husband, Randy, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce> ;
+        c:suffix     "; and Darla Wise of Durango, Colorado, as well as" .
+
+<http://d.opencalais.com/conf/pershash-1/b09a04d3-94df-384d-aed4-6400bd73c42b>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/b09a04d3-94df-384d-aed4-6400bd73c42b> .
+
+<http://d.opencalais.com/conf/pershash-1/9b3b4009-baab-33b5-bd38-474b65a8eb13>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.989" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.992" ;
+        c:subject             <http://d.opencalais.com/pershash-1/9b3b4009-baab-33b5-bd38-474b65a8eb13> .
+
+<http://d.opencalais.com/conf/pershash-1/5942ad3f-c8e7-3d50-86d5-206e2945b0f9>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.964" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/5942ad3f-c8e7-3d50-86d5-206e2945b0f9> .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Relevance/29>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/1c60ec4a-82df-325d-8551-e96783d62111> .
+
+<http://d.opencalais.com/conf/pershash-1/d26282df-143e-3a80-9742-18f5066c0c69>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.896" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.934" ;
+        c:subject             <http://d.opencalais.com/pershash-1/d26282df-143e-3a80-9742-18f5066c0c69> .
+
+<http://d.opencalais.com/conf/pershash-1/74b555a7-e31b-3ace-a145-c5a3d3a779d5>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.86" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/74b555a7-e31b-3ace-a145-c5a3d3a779d5> .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Relevance/60>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/7d869a70-2d4e-381f-beb2-a26e0129cf42> .
+
+<http://d.opencalais.com/pershash-1/de642547-5f23-3cd3-9e96-82a4eee91dcb>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Gavin Hamlin" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Gavin" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Hamlin" ;
+        c:name               "Gavin Hamlin" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/77>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[completing her  education in Pecos, Texas.  ]She[ was united in marriage to Paul G. Pearrow  in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "561" ;
+        c:prefix     "completing her  education in Pecos, Texas.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9b3b4009-baab-33b5-bd38-474b65a8eb13> ;
+        c:suffix     " was united in marriage to Paul G. Pearrow  in" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Relevance/30>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/1425cf7f-dc89-3d9b-bd84-af339eb0a7d4> .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/47>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and husband, Jeffrey, of Jacksonville, Florida; ]Cody McMurphy[ and wife, Megan, of Alva; Casey McMurphy and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "Cody McMurphy" ;
+        c:length     "13" ;
+        c:offset     "2493" ;
+        c:prefix     "and husband, Jeffrey, of Jacksonville, Florida; " ;
+        c:subject    <http://d.opencalais.com/pershash-1/37d73049-751d-3018-b70c-107e504bda91> ;
+        c:suffix     " and wife, Megan, of Alva; Casey McMurphy and" .
+
+<http://d.opencalais.com/conf/pershash-1/572f2c03-3b12-3493-a794-3f6b203e1017>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.813" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.876" ;
+        c:subject             <http://d.opencalais.com/pershash-1/572f2c03-3b12-3493-a794-3f6b203e1017> .
+
+<http://d.opencalais.com/pershash-1/a9a9a8cc-f578-345c-9964-fbd37fcc0ea4>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Brianna Dillon" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Brianna" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Dillon" ;
+        c:name               "Brianna Dillon" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/17>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of the Freedom United Methodist Church and ]she[ enjoyed helping with funeral dinners and the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "1142" ;
+        c:prefix     "of the Freedom United Methodist Church and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/fa2c6833-ae28-30c5-8cb8-24e1844f2d5e> ;
+        c:suffix     " enjoyed helping with funeral dinners and the" .
+
+<http://d.opencalais.com/pershash-1/fa2c6833-ae28-30c5-8cb8-24e1844f2d5e>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Paula McMurphy" ;
+        c:confidencelevel    "0.968" ;
+        c:firstname          "Paula" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Paula McMurphy" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Relevance/6>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/6e90a13f-dc01-3dda-8220-e9581aa41131> .
+
+<http://d.opencalais.com/genericHasher-1/dcb675e6-e225-3298-99f3-3c9f03a6dd1b>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Dalhart" ;
+        c:person             <http://d.opencalais.com/pershash-1/0916f0ff-9b52-30d0-b0a6-8fba3234905b> .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/89>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Jared Wise of Edmond; and Joshua Wise and wife, ]Katie[, of Tecumseh  along  with twelve great]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "Katie" ;
+        c:length     "5" ;
+        c:offset     "2667" ;
+        c:prefix     "Jared Wise of Edmond; and Joshua Wise and wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/a801f6ca-c4ea-3b07-8a28-f50b9988dde2> ;
+        c:suffix     ", of Tecumseh  along  with twelve great" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Relevance/42>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/23b54af3-3ca9-3ff9-87ce-f457746ddcc7> .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/59>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Jaiden Dillon, Kailah Fessler, and Gavin Hamlin; ]Avery[ and Reece McMurphy; Layton and Grayson McMurphy;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "Avery" ;
+        c:length     "5" ;
+        c:offset     "2792" ;
+        c:prefix     " Jaiden Dillon, Kailah Fessler, and Gavin Hamlin; " ;
+        c:subject    <http://d.opencalais.com/comphash-1/7cf01635-6bb6-3452-aedd-c1926e2bb36b> ;
+        c:suffix     " and Reece McMurphy; Layton and Grayson McMurphy;" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Relevance/12>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/c76a4928-f522-3b2f-9b16-da68ef82bb7d> .
+
+<http://d.opencalais.com/pershash-1/0916f0ff-9b52-30d0-b0a6-8fba3234905b>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Conley Campbell" ;
+        c:confidencelevel    "0.997" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Conley Campbell" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/2>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[before completing her  education in Pecos, ]Texas[.  She was united in marriage to Paul G. Pearrow ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "Texas" ;
+        c:length     "5" ;
+        c:offset     "553" ;
+        c:prefix     "before completing her  education in Pecos, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> ;
+        c:suffix     ".  She was united in marriage to Paul G. Pearrow " .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/107>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of  Lubbock, Texas, and brother-in-law, ]Conley Campbell[, of Dalhart, Texas.  \nAlso surviving are six]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "Conley Campbell" ;
+        c:length     "15" ;
+        c:offset     "2357" ;
+        c:prefix     "of  Lubbock, Texas, and brother-in-law, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/0916f0ff-9b52-30d0-b0a6-8fba3234905b> ;
+        c:suffix     ", of Dalhart, Texas.  \nAlso surviving are six" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/29>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in awe of her great grandchildren.    \nBesides ]her[ parents and first husband, LaVerne was preceded]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1921" ;
+        c:prefix     "in awe of her great grandchildren.    \nBesides " ;
+        c:subject    <http://d.opencalais.com/pershash-1/fa2c6833-ae28-30c5-8cb8-24e1844f2d5e> ;
+        c:suffix     " parents and first husband, LaVerne was preceded" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/90>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ G. Pearrow  in 1953 and they had three children: ]Larry[, Gary, and Paula.  After Paul?s  accidental ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "Larry" ;
+        c:length     "5" ;
+        c:offset     "645" ;
+        c:prefix     " G. Pearrow  in 1953 and they had three children: " ;
+        c:subject    <http://d.opencalais.com/pershash-1/e56aa6eb-e560-3b3c-8e7a-f7ad0843d2a6> ;
+        c:suffix     ", Gary, and Paula.  After Paul?s  accidental " .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/60>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and Darla Wise of Durango, Colorado, as well as ]her brother, Vincent Duncan and wife, Margaret, of  Lubbock, Texas[, and brother-in-law, Conley Campbell, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "her brother, Vincent Duncan and wife, Margaret, of  Lubbock, Texas" ;
+        c:length     "66" ;
+        c:offset     "2269" ;
+        c:prefix     "and Darla Wise of Durango, Colorado, as well as " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0337841a-cd87-3427-ad44-058bbd63f9e8> ;
+        c:suffix     ", and brother-in-law, Conley Campbell, of" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Relevance/54>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/496358e2-9c82-39ef-8a64-bac3062b6d72> .
+
+<http://d.opencalais.com/genericHasher-1/6e90a13f-dc01-3dda-8220-e9581aa41131>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Vacation Bible School" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/pershash-1/a801f6ca-c4ea-3b07-8a28-f50b9988dde2>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Katie" ;
+        c:confidencelevel    "0.954" ;
+        c:firstname          "Katie" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Katie" ;
+        c:nationality        "N/A" ;
+        c:persontype         "economic" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/aa4e9278-0402-c8d9-1718-9baa090827ec>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Florida" ;
+        c:docId               <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:latitude            "30.3319" ;
+        c:longitude           "-81.6558" ;
+        c:name                "Jacksonville,Florida,United States" ;
+        c:shortname           "Jacksonville" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/58e96598-3df6-321d-931e-f30a2f3290b5> .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/30>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and wife, Connie, of Woodward; two daughters, ]Paula McMurphy[ and husband, Randy, of Alva; and Darla Wise of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "Paula McMurphy" ;
+        c:length     "14" ;
+        c:offset     "2177" ;
+        c:prefix     "and wife, Connie, of Woodward; two daughters, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/fa2c6833-ae28-30c5-8cb8-24e1844f2d5e> ;
+        c:suffix     " and husband, Randy, of Alva; and Darla Wise of" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Relevance/24>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/51a62235-a9fe-3052-bfe9-4138a0901485> .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/SocialTag/1>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Alva" ;
+        c:originalValue      "Alva (surname)" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/17f61973-ed95-369b-b381-dec22ce26b2a> .
+
+<http://d.opencalais.com/pershash-1/50f1e799-6fc4-3ef9-8642-33c2133c9af1>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Margaret" ;
+        c:confidencelevel    "0.981" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Margaret" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/72>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Edmond; and Joshua Wise and wife, Katie, of ]Tecumseh[  along  with twelve great grandchildren: Brianna]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "Tecumseh" ;
+        c:length     "8" ;
+        c:offset     "2677" ;
+        c:prefix     "of Edmond; and Joshua Wise and wife, Katie, of " ;
+        c:subject    <http://d.opencalais.com/comphash-1/2a7d446c-0eaf-355b-856d-b75c9ceb2a4d> ;
+        c:suffix     "  along  with twelve great grandchildren: Brianna" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/461248b4-a450-f80e-14de-34d5cf98875e>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Colorado" ;
+        c:docId               <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:latitude            "37.2753" ;
+        c:longitude           "-107.8794" ;
+        c:name                "Durango,Colorado,United States" ;
+        c:shortname           "Durango" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/22f59469-bcea-3311-940a-4b75d5cbc6c5> .
+
+<http://d.opencalais.com/conf/pershash-1/ab8055ae-ba22-3ab4-bc67-ca9a82bff1fe>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.995" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.996" ;
+        c:subject             <http://d.opencalais.com/pershash-1/ab8055ae-ba22-3ab4-bc67-ca9a82bff1fe> .
+
+<http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Marshall Funeral Home of Alva" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/42>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and Darla Wise of Durango, Colorado, as well as ]her brother, Vincent Duncan and wife, Margaret, of  Lubbock, Texas[, and brother-in-law, Conley Campbell, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "her brother, Vincent Duncan and wife, Margaret, of  Lubbock, Texas" ;
+        c:length     "66" ;
+        c:offset     "2269" ;
+        c:prefix     "and Darla Wise of Durango, Colorado, as well as " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/23a129b7-d2bb-355c-aa8a-63dfb49bd1de> ;
+        c:suffix     ", and brother-in-law, Conley Campbell, of" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Relevance/36>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/9b3b4009-baab-33b5-bd38-474b65a8eb13> .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/12>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and they had three children: Larry, Gary, and ]Paula[.  After Paul?s  accidental  death in 1958, she]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "Paula" ;
+        c:length     "5" ;
+        c:offset     "662" ;
+        c:prefix     "and they had three children: Larry, Gary, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/fa2c6833-ae28-30c5-8cb8-24e1844f2d5e> ;
+        c:suffix     ".  After Paul?s  accidental  death in 1958, she" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Relevance/1>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/cac442b3-9d2c-3bd5-ae83-ef9c3ad455be> .
+
+<http://d.opencalais.com/conf/pershash-1/9d8bec4d-8f5f-3181-a885-25d964edc3bf>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.895" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.928" ;
+        c:subject             <http://d.opencalais.com/pershash-1/9d8bec4d-8f5f-3181-a885-25d964edc3bf> .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/84>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Welch; Brooklyn and Reiley Wise, in addition to ]John Lastly[, an honorary grandson, and  other relatives and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "John Lastly" ;
+        c:length     "11" ;
+        c:offset     "2923" ;
+        c:prefix     "Welch; Brooklyn and Reiley Wise, in addition to " ;
+        c:subject    <http://d.opencalais.com/pershash-1/12778960-de85-3dc1-a5c5-5b69175ae5b5> ;
+        c:suffix     ", an honorary grandson, and  other relatives and" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/54>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Jacksonville, Florida; Cody McMurphy and wife, ]Megan[, of Alva; Casey McMurphy and wife, Tracy, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "Megan" ;
+        c:length     "5" ;
+        c:offset     "2517" ;
+        c:prefix     "Jacksonville, Florida; Cody McMurphy and wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/51a62235-a9fe-3052-bfe9-4138a0901485> ;
+        c:suffix     ", of Alva; Casey McMurphy and wife, Tracy, of" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Relevance/48>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/625117d0-abe2-3fb9-b13a-103aba9c9048> .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/102>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in all aspects of the organization.  ]LaVerne[ was a member of the Freedom United Methodist]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "LaVerne" ;
+        c:length     "7" ;
+        c:offset     "1078" ;
+        c:prefix     "in all aspects of the organization.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/572f2c03-3b12-3493-a794-3f6b203e1017> ;
+        c:suffix     " was a member of the Freedom United Methodist" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/24>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ \nLaVerne?s greatest passion was her family.  ]She[ was proud of her children and their ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "1772" ;
+        c:prefix     " \nLaVerne?s greatest passion was her family.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/fa2c6833-ae28-30c5-8cb8-24e1844f2d5e> ;
+        c:suffix     " was proud of her children and their " .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Relevance/18>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/37d73049-751d-3018-b70c-107e504bda91> .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/8>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and Darla Wise of Durango, Colorado, as well as ]her[ brother, Vincent Duncan and wife, Margaret, of ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "2269" ;
+        c:prefix     "and Darla Wise of Durango, Colorado, as well as " ;
+        c:subject    <http://d.opencalais.com/pershash-1/fb084c37-d693-355a-b5a9-b1f5a4d59de8> ;
+        c:suffix     " brother, Vincent Duncan and wife, Margaret, of " .
+
+<http://d.opencalais.com/genericHasher-1/496358e2-9c82-39ef-8a64-bac3062b6d72>
+        a                    <http://s.opencalais.com/1/type/em/e/Position> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Marshall" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/96>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[McMurphy; Howdy, Jay Paul, and Jagger Welch; ]Brooklyn[ and Reiley Wise, in addition to John Lastly, an]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "Brooklyn" ;
+        c:length     "8" ;
+        c:offset     "2882" ;
+        c:prefix     "McMurphy; Howdy, Jay Paul, and Jagger Welch; " ;
+        c:subject    <http://d.opencalais.com/pershash-1/625117d0-abe2-3fb9-b13a-103aba9c9048> ;
+        c:suffix     " and Reiley Wise, in addition to John Lastly, an" .
+
+<http://d.opencalais.com/genericHasher-1/58e96598-3df6-321d-931e-f30a2f3290b5>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Jacksonville" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/66>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Gurtha Campbell.  \nLaVerne is survived by ]her[ husband, E.F. of Freedom; two sons, Larry Wise]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "2039" ;
+        c:prefix     "Gurtha Campbell.  \nLaVerne is survived by " ;
+        c:subject    <http://d.opencalais.com/pershash-1/1425cf7f-dc89-3d9b-bd84-af339eb0a7d4> ;
+        c:suffix     " husband, E.F. of Freedom; two sons, Larry Wise" .
+
+<http://d.opencalais.com/conf/pershash-1/625117d0-abe2-3fb9-b13a-103aba9c9048>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.539" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.606" ;
+        c:subject             <http://d.opencalais.com/pershash-1/625117d0-abe2-3fb9-b13a-103aba9c9048> .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/114>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[wife, Megan, of Alva; Casey McMurphy and wife, ]Tracy[, of Edmond; Jacey Welch and husband, Josh, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "Tracy" ;
+        c:length     "5" ;
+        c:offset     "2558" ;
+        c:prefix     "wife, Megan, of Alva; Casey McMurphy and wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/56a3efc1-5492-3124-b778-e55735727ad1> ;
+        c:suffix     ", of Edmond; Jacey Welch and husband, Josh, of" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/36>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Florida; Cody McMurphy and wife, Megan, of ]Alva[; Casey McMurphy and wife, Tracy, of Edmond;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "2527" ;
+        c:prefix     "Florida; Cody McMurphy and wife, Megan, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce> ;
+        c:suffix     "; Casey McMurphy and wife, Tracy, of Edmond;" .
+
+<http://d.opencalais.com/conf/pershash-1/7d869a70-2d4e-381f-beb2-a26e0129cf42>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.895" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.928" ;
+        c:subject             <http://d.opencalais.com/pershash-1/7d869a70-2d4e-381f-beb2-a26e0129cf42> .
+
+<http://d.opencalais.com/genericHasher-1/f25d8160-2f1b-3642-a771-602895d343f3>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Lubbock" .
+
+<http://d.opencalais.com/genericHasher-1/4dc11151-7718-3a4e-8f8d-32255d065a20>
+        a                    <http://s.opencalais.com/1/type/em/e/Position> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "District President" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/c8ff68c4-bb14-b2db-4b27-924496d2fa2f>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:latitude            "34.8" ;
+        c:longitude           "-92.2" ;
+        c:name                "Arkansas,United States" ;
+        c:permid              "100019" ;
+        c:rcscode             "G:6U" ;
+        c:shortname           "Arkansas" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/693b9b27-4f42-328f-8fcd-34d3f5c08cc5> .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Relevance/31>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/921a0cca-2023-3fda-ae7a-ca5b88f4daac> .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/78>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[p.m. Friday, November 2, 2012, at the Freedom ]First United Methodist Church[ with Pastor Scott Ware officiating.  Interment]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "First United Methodist Church" ;
+        c:length     "29" ;
+        c:offset     "99" ;
+        c:prefix     "p.m. Friday, November 2, 2012, at the Freedom " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/34d355d7-ce2f-37b5-8997-7666290fe245> ;
+        c:suffix     " with Pastor Scott Ware officiating.  Interment" .
+
+<http://d.opencalais.com/conf/pershash-1/584e503f-b789-36cf-85bf-63c487b3fd61>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.769" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/584e503f-b789-36cf-85bf-63c487b3fd61> .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/48>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Bible School for many summers.  She served as ]a District President[ of UMW and was involved with the Wesley House in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "a District President" ;
+        c:length     "20" ;
+        c:offset     "1320" ;
+        c:prefix     "Bible School for many summers.  She served as " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4dc11151-7718-3a4e-8f8d-32255d065a20> ;
+        c:suffix     " of UMW and was involved with the Wesley House in" .
+
+<http://d.opencalais.com/genericHasher-1/921a0cca-2023-3fda-ae7a-ca5b88f4daac>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Lynn" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/18>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[dinners and the annual Groundhog Supper.  ]She[ was a church camp counselor and helped with]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "1217" ;
+        c:prefix     "dinners and the annual Groundhog Supper.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/fa2c6833-ae28-30c5-8cb8-24e1844f2d5e> ;
+        c:suffix     " was a church camp counselor and helped with" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Relevance/7>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/b09a04d3-94df-384d-aed4-6400bd73c42b> .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Relevance/43>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/a801f6ca-c4ea-3b07-8a28-f50b9988dde2> .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/cat/1>
+        a                    <http://s.opencalais.com/1/type/cat/DocCat> ;
+        c:docId              <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Human Interest" ;
+        c:score              "0.950" .
+
+<http://d.opencalais.com/conf/pershash-1/bf3c3a13-07e4-38df-81ef-2d2fa0a3be57>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.768" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.858" ;
+        c:subject             <http://d.opencalais.com/pershash-1/bf3c3a13-07e4-38df-81ef-2d2fa0a3be57> .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Relevance/13>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/57538c90-9436-3cdc-824a-8f127ef6b488> .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/3>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[  death in 1958, she married E. F. Wise in Pecos, ]Texas[, on May 15, 1959.  They moved to the Freedom]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "Texas" ;
+        c:length     "5" ;
+        c:offset     "744" ;
+        c:prefix     "  death in 1958, she married E. F. Wise in Pecos, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> ;
+        c:suffix     ", on May 15, 1959.  They moved to the Freedom" .
+
+<http://d.opencalais.com/genericHasher-1/b5bf3113-97ac-319c-a20d-308c716c8d7b>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Florida" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/108>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in the Freedom Cemetery under the direction of ]the Marshall[ Funeral Home of Alva.  \nStena LaVerne Wise,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "the Marshall" ;
+        c:length     "12" ;
+        c:offset     "231" ;
+        c:prefix     "in the Freedom Cemetery under the direction of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/496358e2-9c82-39ef-8a64-bac3062b6d72> ;
+        c:suffix     " Funeral Home of Alva.  \nStena LaVerne Wise," .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/91>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[by her husband, E.F. of Freedom; two sons, ]Larry Wise[ and wife, Tamela, of Tecumseh; Gary Wise and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "Larry Wise" ;
+        c:length     "10" ;
+        c:offset     "2079" ;
+        c:prefix     "by her husband, E.F. of Freedom; two sons, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/e56aa6eb-e560-3b3c-8e7a-f7ad0843d2a6> ;
+        c:suffix     " and wife, Tamela, of Tecumseh; Gary Wise and" .
+
+<http://d.opencalais.com/conf/pershash-1/90fc82df-44f8-3794-bfab-11df80c4e84f>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.961" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.979" ;
+        c:subject             <http://d.opencalais.com/pershash-1/90fc82df-44f8-3794-bfab-11df80c4e84f> .
+
+<http://d.opencalais.com/pershash-1/12778960-de85-3dc1-a5c5-5b69175ae5b5>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "John Lastly" ;
+        c:confidencelevel    "0.984" ;
+        c:firstname          "John" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Lastly" ;
+        c:name               "John Lastly" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/61>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ along  with twelve great grandchildren: ]Brianna Dillon[, Jaiden Dillon, Kailah Fessler, and Gavin]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "Brianna Dillon" ;
+        c:length     "14" ;
+        c:offset     "2727" ;
+        c:prefix     " along  with twelve great grandchildren: " ;
+        c:subject    <http://d.opencalais.com/pershash-1/a9a9a8cc-f578-345c-9964-fbd37fcc0ea4> ;
+        c:suffix     ", Jaiden Dillon, Kailah Fessler, and Gavin" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Relevance/55>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/74b555a7-e31b-3ace-a145-c5a3d3a779d5> .
+
+<http://d.opencalais.com/genericHasher-1/35d32813-e33a-3af2-8abf-88acef009587>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Freedom Cemetery" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/31>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Josh, of Perkins; Jared Wise of Edmond; and ]Joshua Wise[ and wife, Katie, of Tecumseh  along  with twelve]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "Joshua Wise" ;
+        c:length     "11" ;
+        c:offset     "2645" ;
+        c:prefix     "Josh, of Perkins; Jared Wise of Edmond; and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/bf3c3a13-07e4-38df-81ef-2d2fa0a3be57> ;
+        c:suffix     " and wife, Katie, of Tecumseh  along  with twelve" .
+
+<http://d.opencalais.com/comphash-1/2a7d446c-0eaf-355b-856d-b75c9ceb2a4d>
+        a                    <http://s.opencalais.com/1/type/em/e/Company> ;
+        c:confidencelevel    "0.903" ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Tecumseh" ;
+        c:nationality        "N/A" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Relevance/25>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/902b2da1-5b15-3a77-8352-287235157309> .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/SocialTag/2>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Laverne & Shirley" ;
+        c:originalValue      "Laverne & Shirley" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/fdd1a597-f45d-3bf8-b6c8-03d90853ee3e> .
+
+<http://d.opencalais.com/genericHasher-1/0f64cdeb-43aa-3687-96c7-1081d88a7b5d>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonAttributes> ;
+        c:birthdate          "2012-07-25" ;
+        c:forenduserdisplay  "false" ;
+        c:gender             "F" ;
+        c:person             <http://d.opencalais.com/pershash-1/9b3b4009-baab-33b5-bd38-474b65a8eb13> .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/73>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[brother, Vincent Duncan and wife, Margaret, of  ]Lubbock[, Texas, and brother-in-law, Conley Campbell, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "Lubbock" ;
+        c:length     "7" ;
+        c:offset     "2321" ;
+        c:prefix     "brother, Vincent Duncan and wife, Margaret, of  " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/f25d8160-2f1b-3642-a771-602895d343f3> ;
+        c:suffix     ", Texas, and brother-in-law, Conley Campbell, of" .
+
+<http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee>
+        a                    <http://s.opencalais.com/1/type/em/e/IndustryTerm> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Funeral services" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/43>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ LaVerne Wise, daughter of the late Clay Owen and ]Gracie (Rippa) Duncan, was born July 25[, l935, in Lynn, Arkansas, and passed away]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "Gracie (Rippa) Duncan, was born July 25" ;
+        c:length     "39" ;
+        c:offset     "323" ;
+        c:prefix     " LaVerne Wise, daughter of the late Clay Owen and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0f64cdeb-43aa-3687-96c7-1081d88a7b5d> ;
+        c:suffix     ", l935, in Lynn, Arkansas, and passed away" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Relevance/37>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/34d355d7-ce2f-37b5-8997-7666290fe245> .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/13>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Paula.  After Paul?s  accidental  death in 1958, ]she[ married E. F. Wise in Pecos, Texas, on May 15,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "711" ;
+        c:prefix     " Paula.  After Paul?s  accidental  death in 1958, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/fa2c6833-ae28-30c5-8cb8-24e1844f2d5e> ;
+        c:suffix     " married E. F. Wise in Pecos, Texas, on May 15," .
+
+<http://d.opencalais.com/pershash-1/57538c90-9436-3cdc-824a-8f127ef6b488>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Jeffrey" ;
+        c:confidencelevel    "0.973" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Jeffrey" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Relevance/2>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/85>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ as well as her brother, Vincent Duncan and wife, ]Margaret, of  Lubbock, Texas[, and brother-in-law, Conley Campbell, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "Margaret, of  Lubbock, Texas" ;
+        c:length     "28" ;
+        c:offset     "2307" ;
+        c:prefix     " as well as her brother, Vincent Duncan and wife, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3cf810f3-e8b0-3065-ac70-6da424fb2716> ;
+        c:suffix     ", and brother-in-law, Conley Campbell, of" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/55>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[schools before completing her  education in ]Pecos[, Texas.  She was united in marriage to Paul G.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "Pecos" ;
+        c:length     "5" ;
+        c:offset     "546" ;
+        c:prefix     "schools before completing her  education in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/902b2da1-5b15-3a77-8352-287235157309> ;
+        c:suffix     ", Texas.  She was united in marriage to Paul G." .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Relevance/49>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b5bf3113-97ac-319c-a20d-308c716c8d7b> .
+
+<http://d.opencalais.com/pershash-1/3b56ee9a-5987-3ec8-99a1-a8fb2b215947>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Jaiden Dillon" ;
+        c:confidencelevel    "0.895" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Jaiden Dillon" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/25>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[passion was her family.  She was proud of ]her[ children and their  accomplishments.  She dearly]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1789" ;
+        c:prefix     "passion was her family.  She was proud of " ;
+        c:subject    <http://d.opencalais.com/pershash-1/fa2c6833-ae28-30c5-8cb8-24e1844f2d5e> ;
+        c:suffix     " children and their  accomplishments.  She dearly" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/103>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[was involved with the Wesley House in Alva.    \n]LaVerne[ had a passion for photography and always carried]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "LaVerne" ;
+        c:length     "7" ;
+        c:offset     "1400" ;
+        c:prefix     "was involved with the Wesley House in Alva.    \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/572f2c03-3b12-3493-a794-3f6b203e1017> ;
+        c:suffix     " had a passion for photography and always carried" .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Relevance/19>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4dc11151-7718-3a4e-8f8d-32255d065a20> .
+
+<http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b/Instance/9>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[grandchildren: Brianna Dillon, Jaiden Dillon, ]Kailah Fessler[, and Gavin Hamlin; Avery and Reece McMurphy;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/29a34642-3f41-3e08-bd62-ca9dfacaff7b> ;
+        c:exact      "Kailah Fessler" ;
+        c:length     "14" ;
+        c:offset     "2758" ;
+        c:prefix     "grandchildren: Brianna Dillon, Jaiden Dillon, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9d8bec4d-8f5f-3181-a885-25d964edc3bf> ;
+        c:suffix     ", and Gavin Hamlin; Avery and Reece McMurphy;" .

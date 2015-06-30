@@ -1,0 +1,1662 @@
+#Relations: FamilyRelation, PersonAttributes, PersonCareer, PersonLocation, PersonRelation
+#City: Carmen, Enid, Fairview, Fallon, Springfield, Tulsa, Wakefield
+#Facility: Doris Garner
+#IndustryTerm: Funeral services
+#Organization: American Legion, Christian Church, Kirk Board, United States Army
+#Person: Bernita Allen, Bessie Lou Sayre, Cameron, Cemetery, Christee Jenlink, Dwight Nance, Greg, Jeane Shipler, Lana Coppock, Larry Nance, Lloydene, Lori Palmer, Marty, Merlin, Rick Nance, Stephanie Nance, Steve Nance, Sue, Thomas, Wentworth    Verlin Dwight Nance
+#ProvinceOrState: Missouri, Nevada, Oklahoma
+@prefix c:     <http://s.opencalais.com/1/pred/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://d.opencalais.com/pershash-1/3c6486f8-9bb3-37c9-b5be-9c4710bafe0e>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Lloydene" ;
+        c:confidencelevel    "0.769" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Lloydene" ;
+        c:name               "Lloydene" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/cat/1>
+        a                    <http://s.opencalais.com/1/type/cat/DocCat> ;
+        c:docId              <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Human Interest" ;
+        c:score              "0.955" .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Relevance/30>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/86552f74-e21c-32c8-8b1e-67e9818165a8> .
+
+<http://d.opencalais.com/conf/pershash-1/3f615fac-fc3c-3ed4-84c0-e492c0c6f7ce>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.986" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.989" ;
+        c:subject             <http://d.opencalais.com/pershash-1/3f615fac-fc3c-3ed4-84c0-e492c0c6f7ce> .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Instance/63>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and Bernita Allen.  \nVerlin is survived by ]his wife, Jeane, of Carmen[, two sons, Larry Nance and wife, Lloydene, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:exact      "his wife, Jeane, of Carmen" ;
+        c:length     "26" ;
+        c:offset     "1065" ;
+        c:prefix     "and Bernita Allen.  \nVerlin is survived by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3bbd3a6c-1b2e-34af-b76c-3b7db5b4f7c9> ;
+        c:suffix     ", two sons, Larry Nance and wife, Lloydene, of" .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Instance/42>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Dwight Nance, son of the late Obadiah and Addie (]Wakefield[) Nance, was born July 24, 1923,  at Carmen,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:exact      "Wakefield" ;
+        c:length     "9" ;
+        c:offset     "287" ;
+        c:prefix     " Dwight Nance, son of the late Obadiah and Addie (" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8b93bd9f-efac-33d4-af85-92bfd08e4c38> ;
+        c:suffix     ") Nance, was born July 24, 1923,  at Carmen," .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Instance/21>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[with the United States Army.  On July 12, 1945, ]he[ was united in marriage to Jeane Shipler at Enid,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:exact      "he" ;
+        c:length     "2" ;
+        c:offset     "591" ;
+        c:prefix     "with the United States Army.  On July 12, 1945, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/3f615fac-fc3c-3ed4-84c0-e492c0c6f7ce> ;
+        c:suffix     " was united in marriage to Jeane Shipler at Enid," .
+
+<http://d.opencalais.com/conf/pershash-1/39027706-ff9e-332a-9cb3-e34226d102e4>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.942" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/39027706-ff9e-332a-9cb3-e34226d102e4> .
+
+<http://d.opencalais.com/genericHasher-1/276c931a-bbd8-37bd-886b-02ffa3829955>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Fairview" .
+
+<http://d.opencalais.com/pershash-1/0d238087-e768-3fef-8d98-36b5778bcff0>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Merlin" ;
+        c:confidencelevel    "0.914" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Merlin" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Relevance/17>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/35a979c1-2108-3761-99bd-8c6f499ef6f2> .
+
+<http://d.opencalais.com/conf/pershash-1/6efd2582-e1c2-3338-815b-371ab612f5b2>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.898" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/6efd2582-e1c2-3338-815b-371ab612f5b2> .
+
+<http://d.opencalais.com/pershash-1/e97b644b-7d05-3bea-b806-915e2b2e9662>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Lori Palmer" ;
+        c:confidencelevel    "0.992" ;
+        c:firstname          "Lori" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Palmer" ;
+        c:name               "Lori Palmer" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Instance/50>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of the American Legion.  \nBesides his parents, ]he[ was preceded in death by four sisters, Loma]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:exact      "he" ;
+        c:length     "2" ;
+        c:offset     "939" ;
+        c:prefix     "of the American Legion.  \nBesides his parents, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/c78f8e5d-b1c5-3d93-b1ad-50401af8c259> ;
+        c:suffix     " was preceded in death by four sisters, Loma" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/9abed97f-1f19-0004-aee6-0a06b0289f38>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:latitude            "36.3956" ;
+        c:longitude           "-97.8781" ;
+        c:name                "Enid,Oklahoma,United States" ;
+        c:shortname           "Enid" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/35a979c1-2108-3761-99bd-8c6f499ef6f2> .
+
+<http://d.opencalais.com/conf/pershash-1/291478bd-f1eb-3cb6-b528-81e7fb5d104d>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.994" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.996" ;
+        c:subject             <http://d.opencalais.com/pershash-1/291478bd-f1eb-3cb6-b528-81e7fb5d104d> .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Instance/29>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and Bernita Allen.  \nVerlin is survived by ]his wife, Jeane, of Carmen[, two sons, Larry Nance and wife, Lloydene, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:exact      "his wife, Jeane, of Carmen" ;
+        c:length     "26" ;
+        c:offset     "1065" ;
+        c:prefix     "and Bernita Allen.  \nVerlin is survived by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/71f46960-2106-348f-9da3-84f6c0b27231> ;
+        c:suffix     ", two sons, Larry Nance and wife, Lloydene, of" .
+
+<http://d.opencalais.com/pershash-1/ede95839-e39c-358a-8530-5f3ea17e84e9>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Bernita Allen" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Bernita" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Allen" ;
+        c:name               "Bernita Allen" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/SocialTag/2>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Verlin" ;
+        c:originalValue      "Verlin (surname)" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/fbf5e0dc-0e85-3b50-ae70-063d8efc8fb1> .
+
+<http://d.opencalais.com/genericHasher-1/71f46960-2106-348f-9da3-84f6c0b27231>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/4058f37d-59a5-3cac-bccc-8ade46293c24> , <http://d.opencalais.com/pershash-1/c78f8e5d-b1c5-3d93-b1ad-50401af8c259> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Instance/6>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and wife, Sue, of Sand Springs; one daughter, ]Christee Jenlink of Tulsa[; six grandchildren, Ladena Shaffer and husband,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:exact      "Christee Jenlink of Tulsa" ;
+        c:length     "25" ;
+        c:offset     "1209" ;
+        c:prefix     "and wife, Sue, of Sand Springs; one daughter, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/f3bc9116-b3b6-332a-a175-12fb52d00c8c> ;
+        c:suffix     "; six grandchildren, Ladena Shaffer and husband," .
+
+<http://d.opencalais.com/conf/pershash-1/e521d1be-b54b-3a69-a72d-ac0db6c72311>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.967" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/e521d1be-b54b-3a69-a72d-ac0db6c72311> .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Relevance/25>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8b93bd9f-efac-33d4-af85-92bfd08e4c38> .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Relevance/8>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/fce36612-627b-34d0-9874-611de4063865> .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Instance/58>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ \nVerlin is survived by his wife, Jeane, of ]Carmen[, two sons, Larry Nance and wife, Lloydene, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:exact      "Carmen" ;
+        c:length     "6" ;
+        c:offset     "1085" ;
+        c:prefix     " \nVerlin is survived by his wife, Jeane, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/bdb71b6e-283b-31a4-9aee-7620fbb431be> ;
+        c:suffix     ", two sons, Larry Nance and wife, Lloydene, of" .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Instance/37>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and passed away February 13, 2011, at Fairview, ]Oklahoma[, at the age of 87 years, 6 months, and 20 days. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "399" ;
+        c:prefix     "and passed away February 13, 2011, at Fairview, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", at the age of 87 years, 6 months, and 20 days. " .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Instance/16>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[with the class of 1941. He served with the ]United States Army[.  On July 12, 1945, he was united in marriage to]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:exact      "United States Army" ;
+        c:length     "18" ;
+        c:offset     "552" ;
+        c:prefix     "with the class of 1941. He served with the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/fce36612-627b-34d0-9874-611de4063865> ;
+        c:suffix     ".  On July 12, 1945, he was united in marriage to" .
+
+<http://d.opencalais.com/conf/pershash-1/80718de5-c5b3-3c2f-9125-b201a76692ac>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.983" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.99" ;
+        c:subject             <http://d.opencalais.com/pershash-1/80718de5-c5b3-3c2f-9125-b201a76692ac> .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Relevance/33>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/54d71bab-56d1-387f-8407-2744a21d6d80> .
+
+<http://d.opencalais.com/conf/pershash-1/4058f37d-59a5-3cac-bccc-8ade46293c24>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.992" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.995" ;
+        c:subject             <http://d.opencalais.com/pershash-1/4058f37d-59a5-3cac-bccc-8ade46293c24> .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Relevance/12>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/39027706-ff9e-332a-9cb3-e34226d102e4> .
+
+<http://d.opencalais.com/pershash-1/c78f8e5d-b1c5-3d93-b1ad-50401af8c259>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Christee Jenlink" ;
+        c:confidencelevel    "0.998" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Christee Jenlink" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Instance/45>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Larry Nance and wife, Lloydene, of Ringwood, and ]Rick Nance[ and wife, Sue, of Sand Springs; one daughter,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:exact      "Rick Nance" ;
+        c:length     "10" ;
+        c:offset     "1152" ;
+        c:prefix     " Larry Nance and wife, Lloydene, of Ringwood, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/4542a493-4b72-3d4c-ac4b-b37cd40be084> ;
+        c:suffix     " and wife, Sue, of Sand Springs; one daughter," .
+
+<http://d.opencalais.com/conf/pershash-1/edf6cf31-9a9d-36ff-9f75-9d425dcaa6cb>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/edf6cf31-9a9d-36ff-9f75-9d425dcaa6cb> .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Instance/24>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Lloydene, of Ringwood, and Rick Nance and wife, ]Sue[, of Sand Springs; one daughter, Christee Jenlink]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:exact      "Sue" ;
+        c:length     "3" ;
+        c:offset     "1173" ;
+        c:prefix     "Lloydene, of Ringwood, and Rick Nance and wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/39027706-ff9e-332a-9cb3-e34226d102e4> ;
+        c:suffix     ", of Sand Springs; one daughter, Christee Jenlink" .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Instance/1>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Carmen, two sons, Larry Nance and wife, ]Lloydene[, of Ringwood, and Rick Nance and wife, Sue, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:exact      "Lloydene" ;
+        c:length     "8" ;
+        c:offset     "1125" ;
+        c:prefix     "of Carmen, two sons, Larry Nance and wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/3c6486f8-9bb3-37c9-b5be-9c4710bafe0e> ;
+        c:suffix     ", of Ringwood, and Rick Nance and wife, Sue, of" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/07011bdb-0b81-180b-5619-2839b9995800>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:latitude            "38.8215008889" ;
+        c:longitude           "-116.863863852" ;
+        c:name                "Nevada,United States" ;
+        c:permid              "100206" ;
+        c:rcscode             "G:57" ;
+        c:shortname           "Nevada" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/77c8f176-bc0f-34da-b3b2-1a396fa588ee> .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Relevance/20>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/276c931a-bbd8-37bd-886b-02ffa3829955> .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Relevance/3>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4b59c1ad-8092-34d5-b763-a43226a1836c> .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Instance/53>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[high school in Carmen with the class of 1941. ]He served with the United States Army[.  On July 12, 1945, he was united in marriage to]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:exact      "He served with the United States Army" ;
+        c:length     "37" ;
+        c:offset     "533" ;
+        c:prefix     "high school in Carmen with the class of 1941. " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/39a4f177-3019-36e0-b9ff-1dc089c7fe2d> ;
+        c:suffix     ".  On July 12, 1945, he was united in marriage to" .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Instance/32>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Bessie Lou Sayre and husband, Merlin, of ]Fallon[, Nevada; other relatives and friends.  \nMemorial]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:exact      "Fallon" ;
+        c:length     "6" ;
+        c:offset     "1618" ;
+        c:prefix     "Bessie Lou Sayre and husband, Merlin, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0e485917-4352-3718-a574-3ed27f44008c> ;
+        c:suffix     ", Nevada; other relatives and friends.  \nMemorial" .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Instance/11>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[a sister-in-law, Bessie Lou Sayre and husband, ]Merlin[, of Fallon, Nevada; other relatives and friends.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:exact      "Merlin" ;
+        c:length     "6" ;
+        c:offset     "1607" ;
+        c:prefix     "a sister-in-law, Bessie Lou Sayre and husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/0d238087-e768-3fef-8d98-36b5778bcff0> ;
+        c:suffix     ", of Fallon, Nevada; other relatives and friends." .
+
+<http://d.opencalais.com/conf/pershash-1/3c6486f8-9bb3-37c9-b5be-9c4710bafe0e>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.769" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/3c6486f8-9bb3-37c9-b5be-9c4710bafe0e> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/4db6df0c-25bb-592c-1ae6-b8a59c4b2921>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:latitude            "36.5789" ;
+        c:longitude           "-98.4619" ;
+        c:name                "Carmen,Oklahoma,United States" ;
+        c:shortname           "Carmen" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/bdb71b6e-283b-31a4-9aee-7620fbb431be> .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Instance/9>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Loma Percival, Irene Sims, Doris Garner, and ]Bernita Allen[.  \nVerlin is survived by his wife, Jeane, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:exact      "Bernita Allen" ;
+        c:length     "13" ;
+        c:offset     "1026" ;
+        c:prefix     "Loma Percival, Irene Sims, Doris Garner, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/ede95839-e39c-358a-8530-5f3ea17e84e9> ;
+        c:suffix     ".  \nVerlin is survived by his wife, Jeane, of" .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Relevance/28>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/73e41a3b-0464-3dfc-8351-c0c43a8f8e1d> .
+
+<http://d.opencalais.com/genericHasher-1/56ed9298-2f44-374c-b868-1f9618a0ca71>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonAttributes> ;
+        c:birthdate          "1923-07-24" ;
+        c:birthplace         <http://d.opencalais.com/genericHasher-1/bdb71b6e-283b-31a4-9aee-7620fbb431be> ;
+        c:forenduserdisplay  "false" ;
+        c:gender             "M" ;
+        c:person             <http://d.opencalais.com/pershash-1/3f615fac-fc3c-3ed4-84c0-e492c0c6f7ce> .
+
+<http://d.opencalais.com/genericHasher-1/bdb71b6e-283b-31a4-9aee-7620fbb431be>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Carmen" .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Instance/61>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[wife, Lori, of Sand Springs, Stephanie Nance of ]Springfield[, Missouri, and Kendee Casaus and husband,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:exact      "Springfield" ;
+        c:length     "11" ;
+        c:offset     "1458" ;
+        c:prefix     "wife, Lori, of Sand Springs, Stephanie Nance of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/54d71bab-56d1-387f-8407-2744a21d6d80> ;
+        c:suffix     ", Missouri, and Kendee Casaus and husband," .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Instance/40>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Cameron, of Mustang, Steve Nance and wife, ]Lori[, of Sand Springs, Stephanie Nance of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:exact      "Lori" ;
+        c:length     "4" ;
+        c:offset     "1416" ;
+        c:prefix     "Cameron, of Mustang, Steve Nance and wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/e97b644b-7d05-3bea-b806-915e2b2e9662> ;
+        c:suffix     ", of Sand Springs, Stephanie Nance of" .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Instance/19>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[son of the late Obadiah and Addie (Wakefield) ]Nance[, was born July 24, 1923,  at Carmen, Oklahoma,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:exact      "Nance" ;
+        c:length     "5" ;
+        c:offset     "298" ;
+        c:prefix     "son of the late Obadiah and Addie (Wakefield) " ;
+        c:subject    <http://d.opencalais.com/pershash-1/3f615fac-fc3c-3ed4-84c0-e492c0c6f7ce> ;
+        c:suffix     ", was born July 24, 1923,  at Carmen, Oklahoma," .
+
+<http://d.opencalais.com/genericHasher-1/45363587-f819-38d6-8fe1-640a9ad32cd6>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Fallon" ;
+        c:person             <http://d.opencalais.com/pershash-1/0d238087-e768-3fef-8d98-36b5778bcff0> .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/meta>
+        a                 <http://s.opencalais.com/1/type/sys/DocInfoMeta> ;
+        c:contentType     "text/raw" ;
+        c:docId           <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:language        "English" ;
+        c:processingVer   "AllMetadata" ;
+        c:serverVersion   "OneCalais_8.3-RELEASE:364" ;
+        c:signature       "digestalg-1|m3DTOuQRPcXAUjHuRgYR0e7IKEo=|FurN2JMPSuxfwGlumQWyjZ//hCKMVOmaRQkzsYTBjWq3VjWiGJepIQ==" ;
+        c:stagsVer        "OneCalais_8.3-RELEASE-b11-2015-03-25_18:29:00" ;
+        c:submissionDate  "2015-05-26 17:22:48.574" ;
+        c:submitterCode   "0ca6a864-5659-789d-5f32-f365f695e757" .
+
+<http://d.opencalais.com/conf/pershash-1/0d238087-e768-3fef-8d98-36b5778bcff0>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.914" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.932" ;
+        c:subject             <http://d.opencalais.com/pershash-1/0d238087-e768-3fef-8d98-36b5778bcff0> .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Relevance/36>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/6efd2582-e1c2-3338-815b-371ab612f5b2> .
+
+<http://d.opencalais.com/conf/pershash-1/e97b644b-7d05-3bea-b806-915e2b2e9662>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.992" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.995" ;
+        c:subject             <http://d.opencalais.com/pershash-1/e97b644b-7d05-3bea-b806-915e2b2e9662> .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Relevance/15>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8da39760-87db-3aa5-9369-142d08eb16f8> .
+
+<http://d.opencalais.com/genericHasher-1/f3bc9116-b3b6-332a-a175-12fb52d00c8c>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Tulsa" ;
+        c:person             <http://d.opencalais.com/pershash-1/c78f8e5d-b1c5-3d93-b1ad-50401af8c259> .
+
+<http://d.opencalais.com/conf/pershash-1/ede95839-e39c-358a-8530-5f3ea17e84e9>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/ede95839-e39c-358a-8530-5f3ea17e84e9> .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Instance/48>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[raised their family on their farm near Carmen.  ]He[ farmed and worked at the Farmers Cooperative for]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:exact      "He" ;
+        c:length     "2" ;
+        c:offset     "794" ;
+        c:prefix     "raised their family on their farm near Carmen.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/c78f8e5d-b1c5-3d93-b1ad-50401af8c259> ;
+        c:suffix     " farmed and worked at the Farmers Cooperative for" .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Instance/27>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Sand Springs; one daughter, Christee Jenlink of ]Tulsa[; six grandchildren, Ladena Shaffer and husband,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:exact      "Tulsa" ;
+        c:length     "5" ;
+        c:offset     "1229" ;
+        c:prefix     "Sand Springs; one daughter, Christee Jenlink of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8da39760-87db-3aa5-9369-142d08eb16f8> ;
+        c:suffix     "; six grandchildren, Ladena Shaffer and husband," .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Instance/4>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[officiating. Interment will be in the Eagle ]Chief  Cemetery[ under the direction of Wentworth   \nVerlin]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:exact      "Chief  Cemetery" ;
+        c:length     "15" ;
+        c:offset     "179" ;
+        c:prefix     "officiating. Interment will be in the Eagle " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8c7c1566-07f7-305a-a584-002988bcd461> ;
+        c:suffix     " under the direction of Wentworth   \nVerlin" .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Relevance/23>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/e97b644b-7d05-3bea-b806-915e2b2e9662> .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/22a2e9d4-42cf-58a2-d8d3-3269b69ad67a>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:latitude            "38.5" ;
+        c:longitude           "-92.5" ;
+        c:name                "Missouri,United States" ;
+        c:permid              "100190" ;
+        c:rcscode             "G:45" ;
+        c:shortname           "Missouri" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/4b59c1ad-8092-34d5-b763-a43226a1836c> .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Relevance/6>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/0d238087-e768-3fef-8d98-36b5778bcff0> .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Instance/56>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ \nVerlin grew up and graduated high school in ]Carmen[ with the class of 1941. He served with the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:exact      "Carmen" ;
+        c:length     "6" ;
+        c:offset     "502" ;
+        c:prefix     " \nVerlin grew up and graduated high school in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/bdb71b6e-283b-31a4-9aee-7620fbb431be> ;
+        c:suffix     " with the class of 1941. He served with the" .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Instance/35>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[before retiring. Verlin was a member of the ]American Legion[.  \nBesides his parents, he was preceded in death]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:exact      "American Legion" ;
+        c:length     "15" ;
+        c:offset     "899" ;
+        c:prefix     "before retiring. Verlin was a member of the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b7d3dee2-8459-3bab-8348-86e36899d491> ;
+        c:suffix     ".  \nBesides his parents, he was preceded in death" .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Instance/14>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Bernita Allen.  \nVerlin is survived by his wife, ]Jeane[, of Carmen, two sons, Larry Nance and wife,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:exact      "Jeane" ;
+        c:length     "5" ;
+        c:offset     "1075" ;
+        c:prefix     " Bernita Allen.  \nVerlin is survived by his wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/4058f37d-59a5-3cac-bccc-8ade46293c24> ;
+        c:suffix     ", of Carmen, two sons, Larry Nance and wife," .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/31cf2a8a-51ea-7249-250f-61d03afc8453>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Missouri" ;
+        c:docId               <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:latitude            "37.2153" ;
+        c:longitude           "-93.2981" ;
+        c:name                "Springfield,Missouri,United States" ;
+        c:rcscode             "G:11N" ;
+        c:shortname           "Springfield" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/54d71bab-56d1-387f-8407-2744a21d6d80> .
+
+<http://d.opencalais.com/conf/pershash-1/c78f8e5d-b1c5-3d93-b1ad-50401af8c259>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.998" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.999" ;
+        c:subject             <http://d.opencalais.com/pershash-1/c78f8e5d-b1c5-3d93-b1ad-50401af8c259> .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Relevance/31>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/bdb71b6e-283b-31a4-9aee-7620fbb431be> .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Relevance/10>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/3f615fac-fc3c-3ed4-84c0-e492c0c6f7ce> .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Instance/64>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Lori Palmer and husband, Greg, of Ringwood, ]Lana Coppock[ and husband, Cameron, of Mustang, Steve Nance]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:exact      "Lana Coppock" ;
+        c:length     "12" ;
+        c:offset     "1347" ;
+        c:prefix     "Lori Palmer and husband, Greg, of Ringwood, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/edf6cf31-9a9d-36ff-9f75-9d425dcaa6cb> ;
+        c:suffix     " and husband, Cameron, of Mustang, Steve Nance" .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Instance/43>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Missouri, and Kendee Casaus and husband, ]Thomas[, of Wagoner; 13 great grandchildren; and a]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:exact      "Thomas" ;
+        c:length     "6" ;
+        c:offset     "1512" ;
+        c:prefix     "Missouri, and Kendee Casaus and husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/e521d1be-b54b-3a69-a72d-ac0db6c72311> ;
+        c:suffix     ", of Wagoner; 13 great grandchildren; and a" .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Instance/22>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[]Funeral services[ for Verlin Nance will be 10:30 a.m., Thursday,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:exact      "Funeral services" ;
+        c:length     "16" ;
+        c:offset     "0" ;
+        c:prefix     "" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee> ;
+        c:suffix     " for Verlin Nance will be 10:30 a.m., Thursday," .
+
+<http://d.opencalais.com/genericHasher-1/2b9b7b99-69cb-301d-ad3b-826d0eaa370f>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Doris Garner" .
+
+<http://d.opencalais.com/pershash-1/206656e1-f2bd-3e0d-8120-b6af06ba4912>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Greg" ;
+        c:confidencelevel    "0.932" ;
+        c:firstname          "Greg" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Greg" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Relevance/18>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/2b9b7b99-69cb-301d-ad3b-826d0eaa370f> .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Relevance/1>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/3c6486f8-9bb3-37c9-b5be-9c4710bafe0e> .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Instance/51>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and Bernita Allen.  \nVerlin is survived by ]his[ wife, Jeane, of Carmen, two sons, Larry Nance]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "1065" ;
+        c:prefix     "and Bernita Allen.  \nVerlin is survived by " ;
+        c:subject    <http://d.opencalais.com/pershash-1/c78f8e5d-b1c5-3d93-b1ad-50401af8c259> ;
+        c:suffix     " wife, Jeane, of Carmen, two sons, Larry Nance" .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Instance/30>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[he was united in marriage to Jeane Shipler at ]Enid[, Oklahoma. To this union three children were]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:exact      "Enid" ;
+        c:length     "4" ;
+        c:offset     "637" ;
+        c:prefix     "he was united in marriage to Jeane Shipler at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/35a979c1-2108-3761-99bd-8c6f499ef6f2> ;
+        c:suffix     ", Oklahoma. To this union three children were" .
+
+<http://d.opencalais.com/genericHasher-1/5970dfde-c745-3e6d-9473-cc68c1c901d8>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Fairview, Oklahoma" ;
+        c:person             <http://d.opencalais.com/pershash-1/3f615fac-fc3c-3ed4-84c0-e492c0c6f7ce> .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/SocialTag/3>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Ringwood" ;
+        c:originalValue      "Ringwood (disambiguation)" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/71604a3e-b66a-3afe-a84b-b9a6e59c797a> .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Instance/7>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[six grandchildren, Ladena Shaffer and husband, ]Marty[, of Ringwood, Lori Palmer and husband, Greg, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:exact      "Marty" ;
+        c:length     "5" ;
+        c:offset     "1283" ;
+        c:prefix     "six grandchildren, Ladena Shaffer and husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/a73586b9-44d8-383d-a745-020d477ffb94> ;
+        c:suffix     ", of Ringwood, Lori Palmer and husband, Greg, of" .
+
+<http://d.opencalais.com/pershash-1/a73586b9-44d8-383d-a745-020d477ffb94>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Marty" ;
+        c:confidencelevel    "0.942" ;
+        c:firstname          "Marty" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Marty" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Relevance/26>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/e521d1be-b54b-3a69-a72d-ac0db6c72311> .
+
+<http://d.opencalais.com/pershash-1/73e41a3b-0464-3dfc-8351-c0c43a8f8e1d>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Cemetery" ;
+        c:confidencelevel    "0.81" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Cemetery" ;
+        c:name               "Cemetery" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Relevance/9>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/1e72615c-b66b-3fa9-bef0-001933cc3268> .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Instance/59>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[may be made through the funeral home to the ]Carmen[ First Responders. \n\t\t\t]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:exact      "Carmen" ;
+        c:length     "6" ;
+        c:offset     "1732" ;
+        c:prefix     "may be made through the funeral home to the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/bdb71b6e-283b-31a4-9aee-7620fbb431be> ;
+        c:suffix     " First Responders. \n\t\t\t" .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Instance/38>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ was united in marriage to Jeane Shipler at Enid, ]Oklahoma[. To this union three children were born: Larry,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "643" ;
+        c:prefix     " was united in marriage to Jeane Shipler at Enid, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ". To this union three children were born: Larry," .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Instance/17>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[To this union three children were born: ]Larry[, Rick, and Christee.  They made their home and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:exact      "Larry" ;
+        c:length     "5" ;
+        c:offset     "693" ;
+        c:prefix     "To this union three children were born: " ;
+        c:subject    <http://d.opencalais.com/pershash-1/1e72615c-b66b-3fa9-bef0-001933cc3268> ;
+        c:suffix     ", Rick, and Christee.  They made their home and" .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Relevance/34>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/291478bd-f1eb-3cb6-b528-81e7fb5d104d> .
+
+<http://d.opencalais.com/pershash-1/4542a493-4b72-3d4c-ac4b-b37cd40be084>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Rick Nance" ;
+        c:confidencelevel    "0.947" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Rick Nance" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Relevance/13>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/206656e1-f2bd-3e0d-8120-b6af06ba4912> .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Instance/46>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Interment will be in the Eagle Chief  ]Cemetery[ under the direction of Wentworth   \nVerlin]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:exact      "Cemetery" ;
+        c:length     "8" ;
+        c:offset     "186" ;
+        c:prefix     "Interment will be in the Eagle Chief  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/73e41a3b-0464-3dfc-8351-c0c43a8f8e1d> ;
+        c:suffix     " under the direction of Wentworth   \nVerlin" .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Instance/25>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Marty, of Ringwood, Lori Palmer and husband, ]Greg[, of Ringwood, Lana Coppock and husband, Cameron,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:exact      "Greg" ;
+        c:length     "4" ;
+        c:offset     "1328" ;
+        c:prefix     "Marty, of Ringwood, Lori Palmer and husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/206656e1-f2bd-3e0d-8120-b6af06ba4912> ;
+        c:suffix     ", of Ringwood, Lana Coppock and husband, Cameron," .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/ee1fe900-bbbc-ad89-dfb9-a308d382651d>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Nevada" ;
+        c:docId               <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:latitude            "39.4736" ;
+        c:longitude           "-118.7764" ;
+        c:name                "Fallon,Nevada,United States" ;
+        c:shortname           "Fallon" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/0e485917-4352-3718-a574-3ed27f44008c> .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Instance/2>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Lana Coppock and husband, Cameron, of Mustang, ]Steve Nance[ and wife, Lori, of Sand Springs, Stephanie Nance]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:exact      "Steve Nance" ;
+        c:length     "11" ;
+        c:offset     "1394" ;
+        c:prefix     "Lana Coppock and husband, Cameron, of Mustang, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/33efa3ed-af01-351c-a47b-fc978d3b839b> ;
+        c:suffix     " and wife, Lori, of Sand Springs, Stephanie Nance" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/cdbe37bc-3af5-6ff0-3597-7615ea496cd1>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:latitude            "36.1539" ;
+        c:longitude           "-95.9925" ;
+        c:name                "Tulsa,Oklahoma,United States" ;
+        c:shortname           "Tulsa" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/8da39760-87db-3aa5-9369-142d08eb16f8> .
+
+<http://d.opencalais.com/genericHasher-1/77c8f176-bc0f-34da-b3b2-1a396fa588ee>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Nevada" .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Relevance/21>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b7d3dee2-8459-3bab-8348-86e36899d491> .
+
+<http://d.opencalais.com/genericHasher-1/4b59c1ad-8092-34d5-b763-a43226a1836c>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Missouri" .
+
+<http://d.opencalais.com/pershash-1/86552f74-e21c-32c8-8b1e-67e9818165a8>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Wentworth Verlin Dwight Nance" ;
+        c:confidencelevel    "0.853" ;
+        c:firstname          "Wentworth" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Verlin Dwight Nance" ;
+        c:name               "Wentworth Verlin Dwight Nance" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/337c78bf-ff92-a6d8-9016-fd8a98727fca>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:latitude            "36.2689" ;
+        c:longitude           "-98.4794" ;
+        c:name                "Fairview,Oklahoma,United States" ;
+        c:shortname           "Fairview" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/276c931a-bbd8-37bd-886b-02ffa3829955> .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Relevance/4>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/a73586b9-44d8-383d-a745-020d477ffb94> .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Instance/54>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ the Eagle Chief  Cemetery under the direction of ]Wentworth   \nVerlin Dwight Nance[, son of the late Obadiah and Addie (Wakefield)]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:exact      "Wentworth   \nVerlin Dwight Nance" ;
+        c:length     "32" ;
+        c:offset     "218" ;
+        c:prefix     " the Eagle Chief  Cemetery under the direction of " ;
+        c:subject    <http://d.opencalais.com/pershash-1/86552f74-e21c-32c8-8b1e-67e9818165a8> ;
+        c:suffix     ", son of the late Obadiah and Addie (Wakefield)" .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Instance/33>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Oklahoma, and passed away February 13, 2011, at ]Fairview[, Oklahoma, at the age of 87 years, 6 months, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:exact      "Fairview" ;
+        c:length     "8" ;
+        c:offset     "389" ;
+        c:prefix     "Oklahoma, and passed away February 13, 2011, at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/276c931a-bbd8-37bd-886b-02ffa3829955> ;
+        c:suffix     ", Oklahoma, at the age of 87 years, 6 months, and" .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Instance/12>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[a sister-in-law, Bessie Lou Sayre and husband, ]Merlin, of Fallon, Nevada[; other relatives and friends.  \nMemorial]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:exact      "Merlin, of Fallon, Nevada" ;
+        c:length     "25" ;
+        c:offset     "1607" ;
+        c:prefix     "a sister-in-law, Bessie Lou Sayre and husband, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/45363587-f819-38d6-8fe1-640a9ad32cd6> ;
+        c:suffix     "; other relatives and friends.  \nMemorial" .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Relevance/29>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/c78f8e5d-b1c5-3d93-b1ad-50401af8c259> .
+
+<http://d.opencalais.com/pershash-1/33efa3ed-af01-351c-a47b-fc978d3b839b>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Steve Nance" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Steve" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Nance" ;
+        c:name               "Steve Nance" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Instance/62>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[13 great grandchildren; and a sister-in-law, ]Bessie Lou Sayre[ and husband, Merlin, of Fallon, Nevada; other]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:exact      "Bessie Lou Sayre" ;
+        c:length     "16" ;
+        c:offset     "1577" ;
+        c:prefix     "13 great grandchildren; and a sister-in-law, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/291478bd-f1eb-3cb6-b528-81e7fb5d104d> ;
+        c:suffix     " and husband, Merlin, of Fallon, Nevada; other" .
+
+<http://d.opencalais.com/genericHasher-1/e49ad5f6-c12d-3b1a-b395-0439e219de88>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Enid" ;
+        c:person             <http://d.opencalais.com/pershash-1/4058f37d-59a5-3cac-bccc-8ade46293c24> .
+
+<http://d.opencalais.com/genericHasher-1/35a979c1-2108-3761-99bd-8c6f499ef6f2>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Enid" .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Instance/41>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Bessie Lou Sayre and husband, Merlin, of Fallon, ]Nevada[; other relatives and friends.  \nMemorial]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:exact      "Nevada" ;
+        c:length     "6" ;
+        c:offset     "1626" ;
+        c:prefix     " Bessie Lou Sayre and husband, Merlin, of Fallon, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/77c8f176-bc0f-34da-b3b2-1a396fa588ee> ;
+        c:suffix     "; other relatives and friends.  \nMemorial" .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Instance/20>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[high school in Carmen with the class of 1941. ]He[ served with the United States Army.  On July 12,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:exact      "He" ;
+        c:length     "2" ;
+        c:offset     "533" ;
+        c:prefix     "high school in Carmen with the class of 1941. " ;
+        c:subject    <http://d.opencalais.com/pershash-1/3f615fac-fc3c-3ed4-84c0-e492c0c6f7ce> ;
+        c:suffix     " served with the United States Army.  On July 12," .
+
+<http://d.opencalais.com/conf/pershash-1/206656e1-f2bd-3e0d-8120-b6af06ba4912>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.932" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/206656e1-f2bd-3e0d-8120-b6af06ba4912> .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Relevance/16>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/80718de5-c5b3-3c2f-9125-b201a76692ac> .
+
+<http://d.opencalais.com/genericHasher-1/8b93bd9f-efac-33d4-af85-92bfd08e4c38>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Wakefield" .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/ComponentVersions>
+        a          <http://s.opencalais.com/1/type/sys/ComponentVersions> ;
+        c:docId    <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:version  "Collector:OneCalais_8.3-RELEASE:113" , "index-vessels:201505231718:201505231718" , "NextTags:OneCalais_8.3-RELEASE:113" , "Deals Index:201505261613:201505261613" , "FrenchIM:OneCalais_8.3-RELEASE:198" , "BlackList:264:264" , "AutocoderRuntimeIM:OneCalais_8.3-RELEASE:198" , "config-sca-DataPackage:34:34" , "SocialTags Index:201505191038:201505191038" , "SpanishIM:OneCalais_8.3-RELEASE:198" , "Housekeeper:OneCalais_8.3-RELEASE:113" , "OA Override:271:271" , "config-negativeSignature:258:258" , "config-physicalAssets-ports:258:258" , "WatchDog:OneCalais_8.3-RELEASE:113" , "SECHeaderMetadataIM:OneCalais_8.3-RELEASE:198" , "config-drugs:258:258" , "BrokerResearchIM:OneCalais_8.3-RELEASE:198" , "config-cse:271:271" , "OneCalaisIM:OneCalais_8.3-RELEASE:198" , "OA Index:201505252208:201505252208" , "OneCalais:OneCalais_8.3-RELEASE:364" , "config-vessels:258:258" , "People Override:258:258" , "People Index:201505261608:201505261608" , "com.clearforest.infoext.dial4j.plugins-basistechconfig:OneCalais_8.3-RELEASE:225" , "Dial4J:OneCalais_8.3-RELEASE:198" , "config-refineries:258:258" .
+
+<http://d.opencalais.com/genericHasher-1/3bbd3a6c-1b2e-34af-b76c-3b7db5b4f7c9>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "wife" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/c78f8e5d-b1c5-3d93-b1ad-50401af8c259> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/4058f37d-59a5-3cac-bccc-8ade46293c24> .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Instance/49>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[was a member of the American Legion.  \nBesides ]his[ parents, he was preceded in death by four]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "926" ;
+        c:prefix     "was a member of the American Legion.  \nBesides " ;
+        c:subject    <http://d.opencalais.com/pershash-1/c78f8e5d-b1c5-3d93-b1ad-50401af8c259> ;
+        c:suffix     " parents, he was preceded in death by four" .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Instance/28>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Steve Nance and wife, Lori, of Sand Springs, ]Stephanie Nance[ of Springfield, Missouri, and Kendee Casaus and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:exact      "Stephanie Nance" ;
+        c:length     "15" ;
+        c:offset     "1439" ;
+        c:prefix     "Steve Nance and wife, Lori, of Sand Springs, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/80718de5-c5b3-3c2f-9125-b201a76692ac> ;
+        c:suffix     " of Springfield, Missouri, and Kendee Casaus and" .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/SocialTag/1>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Nance" ;
+        c:originalValue      "Nance (surname)" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/53fd3b16-e304-3b13-893f-3ab397f247cf> .
+
+<http://d.opencalais.com/conf/pershash-1/a73586b9-44d8-383d-a745-020d477ffb94>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.942" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/a73586b9-44d8-383d-a745-020d477ffb94> .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Instance/5>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ of 1941. He served with the United States Army.  ]On July 12, 1945, he was united in marriage to Jeane Shipler[ at Enid, Oklahoma. To this union three children]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:exact      "On July 12, 1945, he was united in marriage to Jeane Shipler" ;
+        c:length     "60" ;
+        c:offset     "573" ;
+        c:prefix     " of 1941. He served with the United States Army.  " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a80b0681-938b-3a8e-9c2f-0996ee306fbe> ;
+        c:suffix     " at Enid, Oklahoma. To this union three children" .
+
+<http://d.opencalais.com/pershash-1/1e72615c-b66b-3fa9-bef0-001933cc3268>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Larry Nance" ;
+        c:confidencelevel    "0.995" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Larry Nance" ;
+        c:nationality        "N/A" ;
+        c:persontype         "sports" .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Relevance/24>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/77c8f176-bc0f-34da-b3b2-1a396fa588ee> .
+
+<http://d.opencalais.com/conf/pershash-1/73e41a3b-0464-3dfc-8351-c0c43a8f8e1d>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.81" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.857" ;
+        c:subject             <http://d.opencalais.com/pershash-1/73e41a3b-0464-3dfc-8351-c0c43a8f8e1d> .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f>
+        a                  <http://s.opencalais.com/1/type/sys/DocInfo> ;
+        c:calaisRequestID  "63d3449c-6679-0dc7-14d9-13f847e12501" ;
+        c:docDate          "2015-05-26 17:22:49.046" ;
+        c:docTitle         "" ;
+        c:document         "Funeral services for Verlin Nance will be 10:30 a.m., Thursday, February 17, 2011, at the Carmen Christian Church with Rev. Kirk Board officiating. Interment will be in the Eagle Chief  Cemetery under the direction of Wentworth   \nVerlin Dwight Nance, son of the late Obadiah and Addie (Wakefield) Nance, was born July 24, 1923,  at Carmen, Oklahoma, and passed away February 13, 2011, at Fairview, Oklahoma, at the age of 87 years, 6 months, and 20 days.  \nVerlin grew up and graduated high school in Carmen with the class of 1941. He served with the United States Army.  On July 12, 1945, he was united in marriage to Jeane Shipler at Enid, Oklahoma. To this union three children were born: Larry, Rick, and Christee.  They made their home and raised their family on their farm near Carmen.  He farmed and worked at the Farmers Cooperative for 29 years before retiring. Verlin was a member of the American Legion.  \nBesides his parents, he was preceded in death by four sisters, Loma Percival, Irene Sims, Doris Garner, and Bernita Allen.  \nVerlin is survived by his wife, Jeane, of Carmen, two sons, Larry Nance and wife, Lloydene, of Ringwood, and Rick Nance and wife, Sue, of Sand Springs; one daughter, Christee Jenlink of Tulsa; six grandchildren, Ladena Shaffer and husband, Marty, of Ringwood, Lori Palmer and husband, Greg, of Ringwood, Lana Coppock and husband, Cameron, of Mustang, Steve Nance and wife, Lori, of Sand Springs, Stephanie Nance of Springfield, Missouri, and Kendee Casaus and husband, Thomas, of Wagoner; 13 great grandchildren; and a sister-in-law, Bessie Lou Sayre and husband, Merlin, of Fallon, Nevada; other relatives and friends.  \nMemorial contributions may be made through the funeral home to the Carmen First Responders. \n\t\t\t" ;
+        c:id               "http://id.opencalais.com/HKkMbAS6GjKcwReiRWwIdw" ;
+        c:ontology         "http://163.231.4.65/owlschema/8.3/onecalais.owl.allmetadata.xml" .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Relevance/7>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/4058f37d-59a5-3cac-bccc-8ade46293c24> .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Instance/57>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[home and raised their family on their farm near ]Carmen[.  He farmed and worked at the Farmers]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:exact      "Carmen" ;
+        c:length     "6" ;
+        c:offset     "785" ;
+        c:prefix     "home and raised their family on their farm near " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/bdb71b6e-283b-31a4-9aee-7620fbb431be> ;
+        c:suffix     ".  He farmed and worked at the Farmers" .
+
+<http://d.opencalais.com/genericHasher-1/0e485917-4352-3718-a574-3ed27f44008c>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Fallon" .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Instance/36>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Nance, was born July 24, 1923,  at Carmen, ]Oklahoma[, and passed away February 13, 2011, at Fairview,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "341" ;
+        c:prefix     "Nance, was born July 24, 1923,  at Carmen, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", and passed away February 13, 2011, at Fairview," .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Instance/15>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[son of the late Obadiah and Addie (Wakefield) ]Nance, was born July 24, 1923,  at Carmen, Oklahoma[, and passed away February 13, 2011, at Fairview,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:exact      "Nance, was born July 24, 1923,  at Carmen, Oklahoma" ;
+        c:length     "51" ;
+        c:offset     "298" ;
+        c:prefix     "son of the late Obadiah and Addie (Wakefield) " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/56ed9298-2f44-374c-b868-1f9618a0ca71> ;
+        c:suffix     ", and passed away February 13, 2011, at Fairview," .
+
+<http://d.opencalais.com/conf/pershash-1/4542a493-4b72-3d4c-ac4b-b37cd40be084>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.947" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/4542a493-4b72-3d4c-ac4b-b37cd40be084> .
+
+<http://d.opencalais.com/genericHasher-1/39a4f177-3019-36e0-b9ff-1dc089c7fe2d>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:forenduserdisplay  "true" ;
+        c:organization       <http://d.opencalais.com/genericHasher-1/fce36612-627b-34d0-9874-611de4063865> ;
+        c:person             <http://d.opencalais.com/pershash-1/3f615fac-fc3c-3ed4-84c0-e492c0c6f7ce> ;
+        c:status             "past" .
+
+<http://d.opencalais.com/genericHasher-1/8da39760-87db-3aa5-9369-142d08eb16f8>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Tulsa" .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Relevance/32>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/92f76ec9-104d-352f-ac0f-7bac76522a85> .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Relevance/11>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee> .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Instance/65>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Greg, of Ringwood, Lana Coppock and husband, ]Cameron[, of Mustang, Steve Nance and wife, Lori, of Sand]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:exact      "Cameron" ;
+        c:length     "7" ;
+        c:offset     "1373" ;
+        c:prefix     "Greg, of Ringwood, Lana Coppock and husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6efd2582-e1c2-3338-815b-371ab612f5b2> ;
+        c:suffix     ", of Mustang, Steve Nance and wife, Lori, of Sand" .
+
+<http://d.opencalais.com/genericHasher-1/92f76ec9-104d-352f-ac0f-7bac76522a85>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Kirk Board" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/b7d3dee2-8459-3bab-8348-86e36899d491>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "American Legion" ;
+        c:nationality        "American" ;
+        c:organizationtype   "governmental military" .
+
+<http://d.opencalais.com/pershash-1/3f615fac-fc3c-3ed4-84c0-e492c0c6f7ce>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Dwight Nance" ;
+        c:confidencelevel    "0.986" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Nance" ;
+        c:name               "Dwight Nance" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Instance/44>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[To this union three children were born: Larry, ]Rick[, and Christee.  They made their home and raised]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:exact      "Rick" ;
+        c:length     "4" ;
+        c:offset     "700" ;
+        c:prefix     "To this union three children were born: Larry, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/4542a493-4b72-3d4c-ac4b-b37cd40be084> ;
+        c:suffix     ", and Christee.  They made their home and raised" .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Instance/23>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ On July 12, 1945, he was united in marriage to ]Jeane Shipler at Enid, Oklahoma[. To this union three children were born: Larry,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:exact      "Jeane Shipler at Enid, Oklahoma" ;
+        c:length     "31" ;
+        c:offset     "620" ;
+        c:prefix     " On July 12, 1945, he was united in marriage to " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e49ad5f6-c12d-3b1a-b395-0439e219de88> ;
+        c:suffix     ". To this union three children were born: Larry," .
+
+<http://d.opencalais.com/pershash-1/39027706-ff9e-332a-9cb3-e34226d102e4>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Sue" ;
+        c:confidencelevel    "0.942" ;
+        c:firstname          "Sue" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Sue" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/c1e14c20-7ec2-3637-872f-855b5253364e>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Christian Church" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/b961e2a6-7409-3076-8d0d-98e35373faef>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Carmen" ;
+        c:person             <http://d.opencalais.com/pershash-1/4058f37d-59a5-3cac-bccc-8ade46293c24> .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Relevance/19>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0e485917-4352-3718-a574-3ed27f44008c> .
+
+<http://d.opencalais.com/conf/pershash-1/86552f74-e21c-32c8-8b1e-67e9818165a8>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.853" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.887" ;
+        c:subject             <http://d.opencalais.com/pershash-1/86552f74-e21c-32c8-8b1e-67e9818165a8> .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Relevance/2>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/33efa3ed-af01-351c-a47b-fc978d3b839b> .
+
+<http://d.opencalais.com/pershash-1/6efd2582-e1c2-3338-815b-371ab612f5b2>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Cameron" ;
+        c:confidencelevel    "0.898" ;
+        c:firstname          "Cameron" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Cameron" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Instance/52>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and wife, Sue, of Sand Springs; one daughter, ]Christee Jenlink[ of Tulsa; six grandchildren, Ladena Shaffer and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:exact      "Christee Jenlink" ;
+        c:length     "16" ;
+        c:offset     "1209" ;
+        c:prefix     "and wife, Sue, of Sand Springs; one daughter, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/c78f8e5d-b1c5-3d93-b1ad-50401af8c259> ;
+        c:suffix     " of Tulsa; six grandchildren, Ladena Shaffer and" .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Instance/31>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[by four sisters, Loma Percival, Irene Sims, ]Doris Garner[, and Bernita Allen.  \nVerlin is survived by his]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:exact      "Doris Garner" ;
+        c:length     "12" ;
+        c:offset     "1008" ;
+        c:prefix     "by four sisters, Loma Percival, Irene Sims, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/2b9b7b99-69cb-301d-ad3b-826d0eaa370f> ;
+        c:suffix     ", and Bernita Allen.  \nVerlin is survived by his" .
+
+<http://d.opencalais.com/pershash-1/291478bd-f1eb-3cb6-b528-81e7fb5d104d>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Bessie Lou Sayre" ;
+        c:confidencelevel    "0.994" ;
+        c:firstname          "Bessie" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Sayre" ;
+        c:middlename         "Lou" ;
+        c:name               "Bessie Lou Sayre" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Instance/10>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[son of the late Obadiah and Addie (Wakefield) ]Nance, was born July 24, 1923,  at Carmen, Oklahoma, and passed away February 13, 2011, at Fairview, Oklahoma[, at the age of 87 years, 6 months, and 20 days. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:exact      "Nance, was born July 24, 1923,  at Carmen, Oklahoma, and passed away February 13, 2011, at Fairview, Oklahoma" ;
+        c:length     "109" ;
+        c:offset     "298" ;
+        c:prefix     "son of the late Obadiah and Addie (Wakefield) " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/5970dfde-c745-3e6d-9473-cc68c1c901d8> ;
+        c:suffix     ", at the age of 87 years, 6 months, and 20 days. " .
+
+<http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee>
+        a                    <http://s.opencalais.com/1/type/em/e/IndustryTerm> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Funeral services" .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Instance/8>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Bernita Allen.  \nVerlin is survived by his wife, ]Jeane, of Carmen[, two sons, Larry Nance and wife, Lloydene, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:exact      "Jeane, of Carmen" ;
+        c:length     "16" ;
+        c:offset     "1075" ;
+        c:prefix     " Bernita Allen.  \nVerlin is survived by his wife, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b961e2a6-7409-3076-8d0d-98e35373faef> ;
+        c:suffix     ", two sons, Larry Nance and wife, Lloydene, of" .
+
+<http://d.opencalais.com/pershash-1/e521d1be-b54b-3a69-a72d-ac0db6c72311>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Thomas" ;
+        c:confidencelevel    "0.967" ;
+        c:firstname          "Thomas" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Thomas" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oklahoma" .
+
+<http://d.opencalais.com/conf/pershash-1/33efa3ed-af01-351c-a47b-fc978d3b839b>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/33efa3ed-af01-351c-a47b-fc978d3b839b> .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Relevance/27>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/4542a493-4b72-3d4c-ac4b-b37cd40be084> .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Instance/60>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[2011, at the Carmen Christian Church with Rev. ]Kirk Board[ officiating. Interment will be in the Eagle]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:exact      "Kirk Board" ;
+        c:length     "10" ;
+        c:offset     "124" ;
+        c:prefix     "2011, at the Carmen Christian Church with Rev. " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/92f76ec9-104d-352f-ac0f-7bac76522a85> ;
+        c:suffix     " officiating. Interment will be in the Eagle" .
+
+<http://d.opencalais.com/genericHasher-1/c8f6d4e4-8d8b-34a3-aa2c-7e251e5f56bc>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Springfield" ;
+        c:person             <http://d.opencalais.com/pershash-1/80718de5-c5b3-3c2f-9125-b201a76692ac> .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Instance/39>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Ladena Shaffer and husband, Marty, of Ringwood, ]Lori Palmer[ and husband, Greg, of Ringwood, Lana Coppock and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:exact      "Lori Palmer" ;
+        c:length     "11" ;
+        c:offset     "1303" ;
+        c:prefix     "Ladena Shaffer and husband, Marty, of Ringwood, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/e97b644b-7d05-3bea-b806-915e2b2e9662> ;
+        c:suffix     " and husband, Greg, of Ringwood, Lana Coppock and" .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Instance/18>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[by his wife, Jeane, of Carmen, two sons, ]Larry Nance[ and wife, Lloydene, of Ringwood, and Rick Nance]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:exact      "Larry Nance" ;
+        c:length     "11" ;
+        c:offset     "1103" ;
+        c:prefix     "by his wife, Jeane, of Carmen, two sons, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/1e72615c-b66b-3fa9-bef0-001933cc3268> ;
+        c:suffix     " and wife, Lloydene, of Ringwood, and Rick Nance" .
+
+<http://d.opencalais.com/genericHasher-1/a80b0681-938b-3a8e-9c2f-0996ee306fbe>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:date                "1945-07-12" ;
+        c:datestring          "July 12, 1945" ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/4058f37d-59a5-3cac-bccc-8ade46293c24> , <http://d.opencalais.com/pershash-1/3f615fac-fc3c-3ed4-84c0-e492c0c6f7ce> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Relevance/35>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/edf6cf31-9a9d-36ff-9f75-9d425dcaa6cb> .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Relevance/14>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c1e14c20-7ec2-3637-872f-855b5253364e> .
+
+<http://d.opencalais.com/pershash-1/80718de5-c5b3-3c2f-9125-b201a76692ac>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Stephanie Nance" ;
+        c:confidencelevel    "0.983" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Stephanie Nance" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/fce36612-627b-34d0-9874-611de4063865>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "United States Army" ;
+        c:nationality        "American" ;
+        c:organizationtype   "governmental military" .
+
+<http://d.opencalais.com/pershash-1/4058f37d-59a5-3cac-bccc-8ade46293c24>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Jeane Shipler" ;
+        c:confidencelevel    "0.992" ;
+        c:firstname          "Jeane" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Shipler" ;
+        c:name               "Jeane Shipler" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Instance/47>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ union three children were born: Larry, Rick, and ]Christee[.  They made their home and raised their family]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:exact      "Christee" ;
+        c:length     "8" ;
+        c:offset     "710" ;
+        c:prefix     " union three children were born: Larry, Rick, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/c78f8e5d-b1c5-3d93-b1ad-50401af8c259> ;
+        c:suffix     ".  They made their home and raised their family" .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Instance/26>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ a.m., Thursday, February 17, 2011, at the Carmen ]Christian Church[ with Rev. Kirk Board officiating. Interment will]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:exact      "Christian Church" ;
+        c:length     "16" ;
+        c:offset     "97" ;
+        c:prefix     " a.m., Thursday, February 17, 2011, at the Carmen " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c1e14c20-7ec2-3637-872f-855b5253364e> ;
+        c:suffix     " with Rev. Kirk Board officiating. Interment will" .
+
+<http://d.opencalais.com/genericHasher-1/54d71bab-56d1-387f-8407-2744a21d6d80>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Springfield" .
+
+<http://d.opencalais.com/pershash-1/edf6cf31-9a9d-36ff-9f75-9d425dcaa6cb>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Lana Coppock" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Lana" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Coppock" ;
+        c:name               "Lana Coppock" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/e9e27c26-4013-8712-a5f0-97dcdc412c26>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:latitude            "35.5607802899" ;
+        c:longitude           "-96.8460570462" ;
+        c:name                "Oklahoma,United States" ;
+        c:permid              "100229" ;
+        c:rcscode             "G:9H" ;
+        c:shortname           "Oklahoma" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/conf/pershash-1/1e72615c-b66b-3fa9-bef0-001933cc3268>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.995" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.996" ;
+        c:subject             <http://d.opencalais.com/pershash-1/1e72615c-b66b-3fa9-bef0-001933cc3268> .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Instance/3>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ of Sand Springs, Stephanie Nance of Springfield, ]Missouri[, and Kendee Casaus and husband, Thomas, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:exact      "Missouri" ;
+        c:length     "8" ;
+        c:offset     "1471" ;
+        c:prefix     " of Sand Springs, Stephanie Nance of Springfield, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4b59c1ad-8092-34d5-b763-a43226a1836c> ;
+        c:suffix     ", and Kendee Casaus and husband, Thomas, of" .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/lid/DefaultLangId>
+        a                    <http://s.opencalais.com/1/type/lid/DefaultLangId> ;
+        c:docId              <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:forenduserdisplay  "false" ;
+        c:lang               <http://d.opencalais.com/lid/DefaultLangId/English> ;
+        c:permid             "505062" .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Relevance/22>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Relevance/5>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/ede95839-e39c-358a-8530-5f3ea17e84e9> .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Instance/55>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[(Wakefield) Nance, was born July 24, 1923,  at ]Carmen[, Oklahoma, and passed away February 13, 2011, at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:exact      "Carmen" ;
+        c:length     "6" ;
+        c:offset     "333" ;
+        c:prefix     "(Wakefield) Nance, was born July 24, 1923,  at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/bdb71b6e-283b-31a4-9aee-7620fbb431be> ;
+        c:suffix     ", Oklahoma, and passed away February 13, 2011, at" .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Instance/34>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Steve Nance and wife, Lori, of Sand Springs, ]Stephanie Nance of Springfield, Missouri[, and Kendee Casaus and husband, Thomas, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:exact      "Stephanie Nance of Springfield, Missouri" ;
+        c:length     "40" ;
+        c:offset     "1439" ;
+        c:prefix     "Steve Nance and wife, Lori, of Sand Springs, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c8f6d4e4-8d8b-34a3-aa2c-7e251e5f56bc> ;
+        c:suffix     ", and Kendee Casaus and husband, Thomas, of" .
+
+<http://d.opencalais.com/genericHasher-1/8c7c1566-07f7-305a-a584-002988bcd461>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:forenduserdisplay  "true" ;
+        c:person             <http://d.opencalais.com/pershash-1/73e41a3b-0464-3dfc-8351-c0c43a8f8e1d> ;
+        c:position           "Chief" ;
+        c:status             "current" .
+
+<http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f/Instance/13>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ On July 12, 1945, he was united in marriage to ]Jeane Shipler[ at Enid, Oklahoma. To this union three children]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/fff43e08-c51a-3609-93da-2a7e9e044a6f> ;
+        c:exact      "Jeane Shipler" ;
+        c:length     "13" ;
+        c:offset     "620" ;
+        c:prefix     " On July 12, 1945, he was united in marriage to " ;
+        c:subject    <http://d.opencalais.com/pershash-1/4058f37d-59a5-3cac-bccc-8ade46293c24> ;
+        c:suffix     " at Enid, Oklahoma. To this union three children" .

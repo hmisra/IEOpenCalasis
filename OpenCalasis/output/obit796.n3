@@ -1,0 +1,2560 @@
+#Relations: FamilyRelation, PersonAttributes, PersonCareer, PersonLocation, PersonRelation
+#City: Alva, Bazine, Bradford, Hatfield, Langston, Oklahoma City, Wichita, Woodward
+#Company: Waynoka LLC
+#Facility: Marshall Funeral Home of Waynoka, Memorial Hill Cemetery, Share Hospice
+#IndustryTerm: Funeral services, son-in-law
+#Organization: American Legion, Baptist Church, Convalescent Restorative Fund, Red Hat Society, Wolf Club, s Missionary Union
+#Person: Allan Cunningham, Audrey, Barbara, Beaver, Betty Ann Durkee, Beverly Brummell, Carl Cell, Carl Leroy, Charly Cell, Chuck, Cleta Maxine Cell, Cordela Bradford, David Cell, David Shaw, Denis, Doreen Balker, Emmie Mary Mae Cunningham, Etta Browning, Frankie Cunningham, Franklin Wayne, Gayle, Ivan Cunningham, Janie, Karen, Lanny, Lauerance Cunningham, Leona Brown, Lester Cell, Melody, Robert Browning, Sammy Cell, Sara Carlson, Skeet, Tammy
+#Position: head, homemaker
+#ProvinceOrState: Arkansas, Kansas, Missouri, Nevada, Oklahoma
+@prefix c:     <http://s.opencalais.com/1/pred/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Relevance/48>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b7d3dee2-8459-3bab-8348-86e36899d491> .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Relevance/27>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4776bbde-38b0-34ac-ae2b-a0ca41df5125> .
+
+<http://d.opencalais.com/genericHasher-1/9f578f0a-3156-34c2-bc0f-7e372164bcdc>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Bazine" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/1>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Shaw officiating.  Interment will be in the ]Memorial Hill Cemetery[ under the direction of Marshall Funeral Home of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "Memorial Hill Cemetery" ;
+        c:length     "22" ;
+        c:offset     "181" ;
+        c:prefix     "Shaw officiating.  Interment will be in the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/bb2b7d1d-34ec-3c64-8d2b-b49b76b46927> ;
+        c:suffix     " under the direction of Marshall Funeral Home of" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/85>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[until her children were out of school.  ]She[ then cleaned houses and worked at the flower]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "730" ;
+        c:prefix     "until her children were out of school.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6ad3f27e-48f8-33b9-a2e8-a64957dd07dc> ;
+        c:suffix     " then cleaned houses and worked at the flower" .
+
+<http://d.opencalais.com/pershash-1/8f0dfe6f-8bbf-3ef0-8f67-c6a51ec90973>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Carl Cell" ;
+        c:confidencelevel    "0.768" ;
+        c:firstname          "Carl" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Cell" ;
+        c:name               "Carl Cell" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/64>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Sara Carlson and husband, Denis, of Freedom, ]Carl Cell[ and wife, Tammy, of Nevada, Missouri, Charly]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "Carl Cell" ;
+        c:length     "9" ;
+        c:offset     "1685" ;
+        c:prefix     "Sara Carlson and husband, Denis, of Freedom, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/8f0dfe6f-8bbf-3ef0-8f67-c6a51ec90973> ;
+        c:suffix     " and wife, Tammy, of Nevada, Missouri, Charly" .
+
+<http://d.opencalais.com/conf/pershash-1/98a6eef0-8b75-309c-93e0-59c72a2bbee7>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/98a6eef0-8b75-309c-93e0-59c72a2bbee7> .
+
+<http://d.opencalais.com/conf/pershash-1/a4b85550-ac15-3023-9105-11b779850912>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.898" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/a4b85550-ac15-3023-9105-11b779850912> .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/43>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[five brothers and sisters, Cordela Bradford, ]Leona Brown[, Betty Ann Durkee, Frankie Cunningham, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "Leona Brown" ;
+        c:length     "11" ;
+        c:offset     "1292" ;
+        c:prefix     "five brothers and sisters, Cordela Bradford, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/8c4ef0ff-8828-3ae6-ad68-ab722da292a6> ;
+        c:suffix     ", Betty Ann Durkee, Frankie Cunningham, and" .
+
+<http://d.opencalais.com/pershash-1/9b2c2075-6a63-31fc-94b5-d9f19fcb1748>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Chuck" ;
+        c:confidencelevel    "0.919" ;
+        c:firstname          "Chuck" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Chuck" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/22>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[shop.  \nShe had been an active member of the ]Waynoka[ First Baptist Church for 62 years, where she]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "Waynoka" ;
+        c:length     "7" ;
+        c:offset     "824" ;
+        c:prefix     "shop.  \nShe had been an active member of the " ;
+        c:subject    <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:suffix     " First Baptist Church for 62 years, where she" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Relevance/56>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/dec3ca7d-45d6-342a-a04a-f0ce192bf812> .
+
+<http://d.opencalais.com/conf/pershash-1/41267cde-50d8-3da2-81a9-c29a6a9acc4c>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.999" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.996" ;
+        c:subject             <http://d.opencalais.com/pershash-1/41267cde-50d8-3da2-81a9-c29a6a9acc4c> .
+
+<https://permid.org/1-5035751620>
+        a             <http://s.opencalais.com/1/type/er/Company> ;
+        c:commonname  "Waynoka" ;
+        c:docId       <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:legacyid    <http://d.opencalais.com/er/company/ralg-tr1r/da554c4e-4d2b-3037-98bc-d26b5df2c525> ;
+        c:name        "Waynoka Utilities Authority" ;
+        c:permid      "5035751620" ;
+        c:score       "0.05522651" ;
+        c:subject     <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Relevance/35>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/5b43f8ed-3ac3-3953-983a-ed1be37e1c7a> .
+
+<http://d.opencalais.com/conf/pershash-1/71075e1f-90d3-3967-852f-29085285aa8c>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.768" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.858" ;
+        c:subject             <http://d.opencalais.com/pershash-1/71075e1f-90d3-3967-852f-29085285aa8c> .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Relevance/14>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/52b68de9-58b0-3a6b-b1df-e303726f4dda> .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/93>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[City; two brothers, Ivan Cunningham and wife, ]Janie[, of Waynoka, and Allan Cunningham and wife,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "Janie" ;
+        c:length     "5" ;
+        c:offset     "1866" ;
+        c:prefix     "City; two brothers, Ivan Cunningham and wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6ea716ea-1651-39d0-aa18-629ec1e90ded> ;
+        c:suffix     ", of Waynoka, and Allan Cunningham and wife," .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/72>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[wife, Audrey, of Oklahoma City; two brothers, ]Ivan Cunningham[ and wife, Janie, of Waynoka, and Allan]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "Ivan Cunningham" ;
+        c:length     "15" ;
+        c:offset     "1840" ;
+        c:prefix     "wife, Audrey, of Oklahoma City; two brothers, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/4afcd38b-f1c3-3a74-953c-0ed5634fe7cb> ;
+        c:suffix     " and wife, Janie, of Waynoka, and Allan" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/9>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Mae Cunningham, was born August 23, 1923, at ]Langston[, Kansas, and passed away January 16, 2012, at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "Langston" ;
+        c:length     "8" ;
+        c:offset     "383" ;
+        c:prefix     "Mae Cunningham, was born August 23, 1923, at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/46c9d0a7-2550-332b-b3a0-bd438860ee8e> ;
+        c:suffix     ", Kansas, and passed away January 16, 2012, at" .
+
+<http://d.opencalais.com/conf/pershash-1/34c7d611-4a96-325b-9528-e9dc25486bf3>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.86" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/34c7d611-4a96-325b-9528-e9dc25486bf3> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/26a9db43-de39-47d8-3f36-002d68b31238>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United Kingdom" ;
+        c:containedbystate    "England" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:latitude            "53.8" ;
+        c:longitude           "-1.75" ;
+        c:name                "Bradford,England,United Kingdom" ;
+        c:shortname           "Bradford" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/24a8cc5d-ecb2-36eb-932d-2321af2abcc9> .
+
+<http://d.opencalais.com/conf/pershash-1/8f739cd0-0fea-3e10-9e11-eb3aaf5c8d3e>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.983" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.99" ;
+        c:subject             <http://d.opencalais.com/pershash-1/8f739cd0-0fea-3e10-9e11-eb3aaf5c8d3e> .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Relevance/1>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/bb2b7d1d-34ec-3c64-8d2b-b49b76b46927> .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/51>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Waynoka First Baptist Church for 62 years, where ]she taught Sunday School, served as head[ of the kitchen for many years, and was a member]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "she taught Sunday School, served as head" ;
+        c:length     "40" ;
+        c:offset     "873" ;
+        c:prefix     " Waynoka First Baptist Church for 62 years, where " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/83cca5a2-1ca9-33c2-9af2-68ed096a94c6> ;
+        c:suffix     " of the kitchen for many years, and was a member" .
+
+<http://d.opencalais.com/conf/pershash-1/6e327b3d-e17b-3284-a40d-8df80bb3e788>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.993" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.995" ;
+        c:subject             <http://d.opencalais.com/pershash-1/6e327b3d-e17b-3284-a40d-8df80bb3e788> .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/30>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Wichita, Kansas, Sara Carlson and husband, ]Denis[, of Freedom, Carl Cell and wife, Tammy, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "Denis" ;
+        c:length     "5" ;
+        c:offset     "1666" ;
+        c:prefix     "of Wichita, Kansas, Sara Carlson and husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/a4b85550-ac15-3023-9105-11b779850912> ;
+        c:suffix     ", of Freedom, Carl Cell and wife, Tammy, of" .
+
+<http://d.opencalais.com/pershash-1/4122e2a0-db40-3e40-87bc-e8ec671048e5>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Gayle" ;
+        c:confidencelevel    "0.769" ;
+        c:firstname          "Gayle" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Gayle" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/pershash-1/3f0ecd1e-0394-3d48-bdc5-ba0863e89581>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Carl Leroy" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Carl" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Leroy" ;
+        c:name               "Carl Leroy" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Relevance/43>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/d2760a83-b4b4-3034-8736-a410b20774be> .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Relevance/22>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/24a8cc5d-ecb2-36eb-932d-2321af2abcc9> .
+
+<http://d.opencalais.com/genericHasher-1/b8620f48-da64-3b29-b094-f0b9edcda36f>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oklahoma City" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/ComponentVersions>
+        a          <http://s.opencalais.com/1/type/sys/ComponentVersions> ;
+        c:docId    <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:version  "SECHeaderMetadataIM:OneCalais_8.3-RELEASE:198" , "SocialTags Index:201505191038:201505191038" , "Deals Index:201505261613:201505261613" , "config-cse:271:271" , "People Override:258:258" , "Dial4J:OneCalais_8.3-RELEASE:198" , "config-vessels:258:258" , "OneCalaisIM:OneCalais_8.3-RELEASE:198" , "com.clearforest.infoext.dial4j.plugins-basistechconfig:OneCalais_8.3-RELEASE:225" , "OA Override:271:271" , "People Index:201505261608:201505261608" , "config-physicalAssets-ports:258:258" , "AutocoderRuntimeIM:OneCalais_8.3-RELEASE:198" , "OneCalais:OneCalais_8.3-RELEASE:364" , "config-drugs:258:258" , "config-refineries:258:258" , "OA Index:201505252208:201505252208" , "Housekeeper:OneCalais_8.3-RELEASE:113" , "BlackList:264:264" , "BrokerResearchIM:OneCalais_8.3-RELEASE:198" , "index-vessels:201505231718:201505231718" , "config-negativeSignature:258:258" , "WatchDog:OneCalais_8.3-RELEASE:113" , "FrenchIM:OneCalais_8.3-RELEASE:198" , "config-sca-DataPackage:34:34" , "NextTags:OneCalais_8.3-RELEASE:113" , "SpanishIM:OneCalais_8.3-RELEASE:198" , "Collector:OneCalais_8.3-RELEASE:113" .
+
+<http://d.opencalais.com/conf/pershash-1/d2760a83-b4b4-3034-8736-a410b20774be>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.951" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.932" ;
+        c:subject             <http://d.opencalais.com/pershash-1/d2760a83-b4b4-3034-8736-a410b20774be> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/145c4720-35d1-31e4-f3dd-e2998c4e4ae5>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:latitude            "36.4336" ;
+        c:longitude           "-99.39" ;
+        c:name                "Woodward,Oklahoma,United States" ;
+        c:shortname           "Woodward" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/197ba57c-6907-360c-bca0-1bbe8919877e> .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/80>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and wife, Barbara, of Carmen; one sister, ]Doreen Balker[ and husband, Chuck, of Beaver; 35 grandchildren;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "Doreen Balker" ;
+        c:length     "13" ;
+        c:offset     "1948" ;
+        c:prefix     "and wife, Barbara, of Carmen; one sister, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6e327b3d-e17b-3284-a40d-8df80bb3e788> ;
+        c:suffix     " and husband, Chuck, of Beaver; 35 grandchildren;" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Relevance/9>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee> .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/59>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ and 23 days.  \nMaxine attended Waynoka Schools.  ]On January 31, 1940, she was united in marriage to Carl Leroy[ \"Skeet? Cell at Woodward, Oklahoma.  They made]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "On January 31, 1940, she was united in marriage to Carl Leroy" ;
+        c:length     "61" ;
+        c:offset     "537" ;
+        c:prefix     " and 23 days.  \nMaxine attended Waynoka Schools.  " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/d7381043-0816-3b35-bf4e-18ad9bf3c746> ;
+        c:suffix     " \"Skeet? Cell at Woodward, Oklahoma.  They made" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/38>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ years, where she taught Sunday School, served as ]head[ of the kitchen for many years, and was a member]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "head" ;
+        c:length     "4" ;
+        c:offset     "909" ;
+        c:prefix     " years, where she taught Sunday School, served as " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c14241b6-5f57-315c-9d5e-aa617f57bfc1> ;
+        c:suffix     " of the kitchen for many years, and was a member" .
+
+<http://d.opencalais.com/pershash-1/f9314869-a5f6-34a2-a863-ea0dce9fbc60>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Betty Ann Durkee" ;
+        c:confidencelevel    "0.963" ;
+        c:firstname          "Betty" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Durkee" ;
+        c:middlename         "Ann" ;
+        c:name               "Betty Ann Durkee" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/17>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Arkansas, Sammy Cell and wife, Melody, of ]Bazine[, Kansas, Lester Cell and wife, Gayle, of Great]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "Bazine" ;
+        c:length     "6" ;
+        c:offset     "1538" ;
+        c:prefix     "Arkansas, Sammy Cell and wife, Melody, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9f578f0a-3156-34c2-bc0f-7e372164bcdc> ;
+        c:suffix     ", Kansas, Lester Cell and wife, Gayle, of Great" .
+
+<http://d.opencalais.com/genericHasher-1/047c47c0-2fcd-3758-bf32-767e43f53df3>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:company            <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:forenduserdisplay  "true" ;
+        c:person             <http://d.opencalais.com/pershash-1/6ea716ea-1651-39d0-aa18-629ec1e90ded> ;
+        c:status             "current" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Relevance/51>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c91b1642-c464-3638-9e83-86cfd2be4f69> .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Relevance/30>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a21a69b3-e9dd-341e-9fee-da93c550c744> .
+
+<http://d.opencalais.com/genericHasher-1/52752643-3bad-3401-bdb4-c077a6d17ef6>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Wichita" ;
+        c:person             <http://d.opencalais.com/pershash-1/8f739cd0-0fea-3e10-9e11-eb3aaf5c8d3e> .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/4>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Lester Cell and wife, Gayle, of Great Bend, ]Kansas[, Etta Browning of Wichita, Kansas, Sara Carlson]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "Kansas" ;
+        c:length     "6" ;
+        c:offset     "1598" ;
+        c:prefix     "Lester Cell and wife, Gayle, of Great Bend, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> ;
+        c:suffix     ", Etta Browning of Wichita, Kansas, Sara Carlson" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/88>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[was a member of the Women?s Missionary Union.  ]She[ was also a member of the American Legion Ladies]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "996" ;
+        c:prefix     "was a member of the Women?s Missionary Union.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6ad3f27e-48f8-33b9-a2e8-a64957dd07dc> ;
+        c:suffix     " was also a member of the American Legion Ladies" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/67>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Missionary Union.  She was also a member of the ]American Legion[ Ladies Auxiliary, the Red Hat Society, and the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "American Legion" ;
+        c:length     "15" ;
+        c:offset     "1025" ;
+        c:prefix     "Missionary Union.  She was also a member of the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b7d3dee2-8459-3bab-8348-86e36899d491> ;
+        c:suffix     " Ladies Auxiliary, the Red Hat Society, and the" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/46>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[had been an active member of the Waynoka First ]Baptist Church[ for 62 years, where she taught Sunday School,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "Baptist Church" ;
+        c:length     "14" ;
+        c:offset     "838" ;
+        c:prefix     "had been an active member of the Waynoka First " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a21a69b3-e9dd-341e-9fee-da93c550c744> ;
+        c:suffix     " for 62 years, where she taught Sunday School," .
+
+<http://d.opencalais.com/pershash-1/e87a2e27-af09-3c77-b9ff-0224a8551095>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Robert Browning" ;
+        c:confidencelevel    "0.999" ;
+        c:firstname          "Robert" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Browning" ;
+        c:name               "Robert Browning" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/25>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ \nMaxine is survived by eight children, ]Beverly Brummell[ and husband, Lanny, of Hatfield, Arkansas, Sammy]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "Beverly Brummell" ;
+        c:length     "16" ;
+        c:offset     "1446" ;
+        c:prefix     " \nMaxine is survived by eight children, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/52b68de9-58b0-3a6b-b1df-e303726f4dda> ;
+        c:suffix     " and husband, Lanny, of Hatfield, Arkansas, Sammy" .
+
+<http://d.opencalais.com/pershash-1/6ea716ea-1651-39d0-aa18-629ec1e90ded>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Janie" ;
+        c:confidencelevel    "0.769" ;
+        c:firstname          "Janie" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Janie" ;
+        c:nationality        "N/A" ;
+        c:persontype         "economic" .
+
+<http://d.opencalais.com/genericHasher-1/693b9b27-4f42-328f-8fcd-34d3f5c08cc5>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Arkansas" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Relevance/59>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/6ea716ea-1651-39d0-aa18-629ec1e90ded> .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Relevance/38>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/84bb0714-85ab-39de-a7e7-f1ad2e79292b> .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/07011bdb-0b81-180b-5619-2839b9995800>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:latitude            "38.8215008889" ;
+        c:longitude           "-116.863863852" ;
+        c:name                "Nevada,United States" ;
+        c:permid              "100206" ;
+        c:rcscode             "G:57" ;
+        c:shortname           "Nevada" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/77c8f176-bc0f-34da-b3b2-1a396fa588ee> .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Relevance/17>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/71075e1f-90d3-3967-852f-29085285aa8c> .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/96>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Brummell and husband, Lanny, of Hatfield, ]Arkansas[, Sammy Cell and wife, Melody, of Bazine, Kansas,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "Arkansas" ;
+        c:length     "8" ;
+        c:offset     "1496" ;
+        c:prefix     "Brummell and husband, Lanny, of Hatfield, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/693b9b27-4f42-328f-8fcd-34d3f5c08cc5> ;
+        c:suffix     ", Sammy Cell and wife, Melody, of Bazine, Kansas," .
+
+<http://d.opencalais.com/genericHasher-1/e5f6a1f3-361f-3941-968f-92b4c079464d>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Bazine" ;
+        c:person             <http://d.opencalais.com/pershash-1/63ae5de2-55d7-3298-92af-2a7d2a6014dc> .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/75>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ by eight children, Beverly Brummell and husband, ]Lanny, of Hatfield, Arkansas[, Sammy Cell and wife, Melody, of Bazine, Kansas,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "Lanny, of Hatfield, Arkansas" ;
+        c:length     "28" ;
+        c:offset     "1476" ;
+        c:prefix     " by eight children, Beverly Brummell and husband, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/f9759064-4dec-3e3b-8a6a-bf9b9d33f2df> ;
+        c:suffix     ", Sammy Cell and wife, Melody, of Bazine, Kansas," .
+
+<http://d.opencalais.com/conf/pershash-1/b90d7470-8d88-3ae6-8fdc-9eb4ebdbce4e>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.76" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.811" ;
+        c:subject             <http://d.opencalais.com/pershash-1/b90d7470-8d88-3ae6-8fdc-9eb4ebdbce4e> .
+
+<http://d.opencalais.com/conf/pershash-1/43aac0ee-0ba7-3b8c-8f1e-081e8b3f05b2>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.895" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.928" ;
+        c:subject             <http://d.opencalais.com/pershash-1/43aac0ee-0ba7-3b8c-8f1e-081e8b3f05b2> .
+
+<http://d.opencalais.com/genericHasher-1/d6c92421-670a-39e2-9722-9492fc113ebc>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "s Missionary Union" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Relevance/4>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/38cae77b-e14a-37ef-b32c-fb09b58eb818> .
+
+<http://d.opencalais.com/genericHasher-1/c14241b6-5f57-315c-9d5e-aa617f57bfc1>
+        a                    <http://s.opencalais.com/1/type/em/e/Position> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "head" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/54>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Carmen; one sister, Doreen Balker and husband, ]Chuck[, of Beaver; 35 grandchildren; 82 great]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "Chuck" ;
+        c:length     "5" ;
+        c:offset     "1975" ;
+        c:prefix     "Carmen; one sister, Doreen Balker and husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9b2c2075-6a63-31fc-94b5-d9f19fcb1748> ;
+        c:suffix     ", of Beaver; 35 grandchildren; 82 great" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/33>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Hatfield, Arkansas, Sammy Cell and wife, ]Melody[, of Bazine, Kansas, Lester Cell and wife, Gayle,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "Melody" ;
+        c:length     "6" ;
+        c:offset     "1527" ;
+        c:prefix     "of Hatfield, Arkansas, Sammy Cell and wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/63ae5de2-55d7-3298-92af-2a7d2a6014dc> ;
+        c:suffix     ", of Bazine, Kansas, Lester Cell and wife, Gayle," .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/12>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[be made through the funeral home to the Share ]Convalescent Restorative Fund[ or Share Hospice. \n\t\t\t]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "Convalescent Restorative Fund" ;
+        c:length     "29" ;
+        c:offset     "2174" ;
+        c:prefix     "be made through the funeral home to the Share " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4a597023-b6d3-3d0d-872e-df575ac38924> ;
+        c:suffix     " or Share Hospice. \n\t\t\t" .
+
+<http://d.opencalais.com/conf/pershash-1/52b68de9-58b0-3a6b-b1df-e303726f4dda>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.993" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.995" ;
+        c:subject             <http://d.opencalais.com/pershash-1/52b68de9-58b0-3a6b-b1df-e303726f4dda> .
+
+<http://d.opencalais.com/genericHasher-1/bb2b7d1d-34ec-3c64-8d2b-b49b76b46927>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Memorial Hill Cemetery" .
+
+<http://d.opencalais.com/genericHasher-1/c91b1642-c464-3638-9e83-86cfd2be4f69>
+        a                    <http://s.opencalais.com/1/type/em/e/Position> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "homemaker" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Relevance/46>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/e87a2e27-af09-3c77-b9ff-0224a8551095> .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/meta>
+        a                 <http://s.opencalais.com/1/type/sys/DocInfoMeta> ;
+        c:contentType     "text/raw" ;
+        c:docId           <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:language        "English" ;
+        c:processingVer   "AllMetadata" ;
+        c:serverVersion   "OneCalais_8.3-RELEASE:364" ;
+        c:signature       "digestalg-1|OXW0ngFSgdbk/3YG6hvhC3cukcg=|E2niKCJkTOGW/robueAu9she6/EchqBL8BeqkM9HtN4a8l6cm7Br3Q==" ;
+        c:stagsVer        "OneCalais_8.3-RELEASE-b11-2015-03-25_18:29:00" ;
+        c:submissionDate  "2015-05-26 17:30:00.497" ;
+        c:submitterCode   "0ca6a864-5659-789d-5f32-f365f695e757" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Relevance/25>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/f9cec080-4b8b-3dfb-bcbd-3fc6fb43b4c3> .
+
+<http://d.opencalais.com/conf/pershash-1/8f0dfe6f-8bbf-3ef0-8f67-c6a51ec90973>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.768" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.858" ;
+        c:subject             <http://d.opencalais.com/pershash-1/8f0dfe6f-8bbf-3ef0-8f67-c6a51ec90973> .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/83>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Oklahoma.  They made their home in Waynoka.  ]She[ was a homemaker until her children were out of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "670" ;
+        c:prefix     "Oklahoma.  They made their home in Waynoka.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6ad3f27e-48f8-33b9-a2e8-a64957dd07dc> ;
+        c:suffix     " was a homemaker until her children were out of" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/62>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Karen, of Fairview, and David Cell and wife, ]Audrey[, of Oklahoma City; two brothers, Ivan Cunningham]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "Audrey" ;
+        c:length     "6" ;
+        c:offset     "1800" ;
+        c:prefix     "Karen, of Fairview, and David Cell and wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/d2760a83-b4b4-3034-8736-a410b20774be> ;
+        c:suffix     ", of Oklahoma City; two brothers, Ivan Cunningham" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/cat/1>
+        a                    <http://s.opencalais.com/1/type/cat/DocCat> ;
+        c:docId              <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Human Interest" ;
+        c:score              "0.947" .
+
+<http://d.opencalais.com/conf/pershash-1/9b2c2075-6a63-31fc-94b5-d9f19fcb1748>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.919" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/9b2c2075-6a63-31fc-94b5-d9f19fcb1748> .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/41>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Cunningham, and Lauerance Cunningham; and one ]son-in-law[, Robert Browning.  \nMaxine is survived by eight]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "son-in-law" ;
+        c:length     "10" ;
+        c:offset     "1377" ;
+        c:prefix     "Cunningham, and Lauerance Cunningham; and one " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4776bbde-38b0-34ac-ae2b-a0ca41df5125> ;
+        c:suffix     ", Robert Browning.  \nMaxine is survived by eight" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/20>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[years, 4 months, and 23 days.  \nMaxine attended ]Waynoka[ Schools.  On January 31, 1940, she was united in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "Waynoka" ;
+        c:length     "7" ;
+        c:offset     "519" ;
+        c:prefix     "years, 4 months, and 23 days.  \nMaxine attended " ;
+        c:subject    <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:suffix     " Schools.  On January 31, 1940, she was united in" .
+
+<http://d.opencalais.com/pershash-1/b22716c4-0b74-30b8-8144-dd92b0f9f192>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Lester Cell" ;
+        c:confidencelevel    "0.768" ;
+        c:firstname          "Lester" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Cell" ;
+        c:name               "Lester Cell" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Relevance/54>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/1be89cab-3ede-3881-b26f-be89e5573164> .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Relevance/33>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/d6c92421-670a-39e2-9722-9492fc113ebc> .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Relevance/12>
+        a                <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId          <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:relevance      "0.8" ;
+        c:relevancecont  "0.85" ;
+        c:subject        <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/7>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and husband, Lanny, of Hatfield, Arkansas, ]Sammy Cell[ and wife, Melody, of Bazine, Kansas, Lester Cell]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "Sammy Cell" ;
+        c:length     "10" ;
+        c:offset     "1506" ;
+        c:prefix     "and husband, Lanny, of Hatfield, Arkansas, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/38cae77b-e14a-37ef-b32c-fb09b58eb818> ;
+        c:suffix     " and wife, Melody, of Bazine, Kansas, Lester Cell" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/91>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Club.  \nBesides her parents, she was preceded by ]her[ husband, Skeet, on April 27, 1994; one infant]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1142" ;
+        c:prefix     " Club.  \nBesides her parents, she was preceded by " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6ad3f27e-48f8-33b9-a2e8-a64957dd07dc> ;
+        c:suffix     " husband, Skeet, on April 27, 1994; one infant" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/70>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ marriage to Carl Leroy \"Skeet? Cell at Woodward, ]Oklahoma[.  They made their home in Waynoka.  She was a]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "625" ;
+        c:prefix     " marriage to Carl Leroy \"Skeet? Cell at Woodward, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ".  They made their home in Waynoka.  She was a" .
+
+<http://d.opencalais.com/pershash-1/e9a0b4b2-2382-30bb-8571-3d8486e91d61>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Cleta Maxine Cell" ;
+        c:confidencelevel    "0.936" ;
+        c:firstname          "Cleta" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Cell" ;
+        c:middlename         "Maxine" ;
+        c:name               "Cleta Maxine Cell" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/49>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[for many years, and was a member of the Women?]s Missionary Union[.  She was also a member of the American Legion]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "s Missionary Union" ;
+        c:length     "18" ;
+        c:offset     "975" ;
+        c:prefix     "for many years, and was a member of the Women?" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/d6c92421-670a-39e2-9722-9492fc113ebc> ;
+        c:suffix     ".  She was also a member of the American Legion" .
+
+<http://d.opencalais.com/conf/pershash-1/4122e2a0-db40-3e40-87bc-e8ec671048e5>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.769" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/4122e2a0-db40-3e40-87bc-e8ec671048e5> .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/28>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Denis, of Freedom, Carl Cell and wife, Tammy, of ]Nevada[, Missouri, Charly Cell and wife, Karen, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "Nevada" ;
+        c:length     "6" ;
+        c:offset     "1715" ;
+        c:prefix     " Denis, of Freedom, Carl Cell and wife, Tammy, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/77c8f176-bc0f-34da-b3b2-1a396fa588ee> ;
+        c:suffix     ", Missouri, Charly Cell and wife, Karen, of" .
+
+<http://d.opencalais.com/conf/pershash-1/3f0ecd1e-0394-3d48-bdc5-ba0863e89581>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/3f0ecd1e-0394-3d48-bdc5-ba0863e89581> .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Relevance/41>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/41267cde-50d8-3da2-81a9-c29a6a9acc4c> .
+
+<http://d.opencalais.com/conf/pershash-1/07ad7597-de13-3db3-b356-ebb5fe763b84>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.768" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.858" ;
+        c:subject             <http://d.opencalais.com/pershash-1/07ad7597-de13-3db3-b356-ebb5fe763b84> .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Relevance/20>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/63ae5de2-55d7-3298-92af-2a7d2a6014dc> .
+
+<http://d.opencalais.com/genericHasher-1/226bd6d2-d576-3b5d-909c-eae79148d881>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Hatfield" .
+
+<http://d.opencalais.com/genericHasher-1/96bfa298-a7d3-356b-8005-615b989b6fb5>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Wolf Club" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/78>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[City; two brothers, Ivan Cunningham and wife, ]Janie, of Waynoka[, and Allan Cunningham and wife, Barbara, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "Janie, of Waynoka" ;
+        c:length     "17" ;
+        c:offset     "1866" ;
+        c:prefix     "City; two brothers, Ivan Cunningham and wife, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/047c47c0-2fcd-3758-bf32-767e43f53df3> ;
+        c:suffix     ", and Allan Cunningham and wife, Barbara, of" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/22a2e9d4-42cf-58a2-d8d3-3269b69ad67a>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:latitude            "38.5" ;
+        c:longitude           "-92.5" ;
+        c:name                "Missouri,United States" ;
+        c:permid              "100190" ;
+        c:rcscode             "G:45" ;
+        c:shortname           "Missouri" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/4b59c1ad-8092-34d5-b763-a43226a1836c> .
+
+<http://d.opencalais.com/genericHasher-1/83cca5a2-1ca9-33c2-9af2-68ed096a94c6>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:forenduserdisplay  "true" ;
+        c:organization       <http://d.opencalais.com/genericHasher-1/a21a69b3-e9dd-341e-9fee-da93c550c744> ;
+        c:person             <http://d.opencalais.com/pershash-1/6ad3f27e-48f8-33b9-a2e8-a64957dd07dc> ;
+        c:position           "head" ;
+        c:status             "past" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Relevance/7>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/b22716c4-0b74-30b8-8144-dd92b0f9f192> .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/57>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Carl Cell and wife, Tammy, of Nevada, Missouri, ]Charly Cell[ and wife, Karen, of Fairview, and David Cell and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "Charly Cell" ;
+        c:length     "11" ;
+        c:offset     "1733" ;
+        c:prefix     "Carl Cell and wife, Tammy, of Nevada, Missouri, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/07ad7597-de13-3db3-b356-ebb5fe763b84> ;
+        c:suffix     " and wife, Karen, of Fairview, and David Cell and" .
+
+<http://d.opencalais.com/conf/pershash-1/f9314869-a5f6-34a2-a863-ea0dce9fbc60>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.963" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.978" ;
+        c:subject             <http://d.opencalais.com/pershash-1/f9314869-a5f6-34a2-a863-ea0dce9fbc60> .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/36>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[five brothers and sisters, Cordela ]Bradford[, Leona Brown, Betty Ann Durkee, Frankie]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "Bradford" ;
+        c:length     "8" ;
+        c:offset     "1282" ;
+        c:prefix     "five brothers and sisters, Cordela " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/24a8cc5d-ecb2-36eb-932d-2321af2abcc9> ;
+        c:suffix     ", Leona Brown, Betty Ann Durkee, Frankie" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/15>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[great grandchildren; five brothers and sisters, ]Cordela Bradford[, Leona Brown, Betty Ann Durkee, Frankie]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "Cordela Bradford" ;
+        c:length     "16" ;
+        c:offset     "1274" ;
+        c:prefix     "great grandchildren; five brothers and sisters, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/43aac0ee-0ba7-3b8c-8f1e-081e8b3f05b2> ;
+        c:suffix     ", Leona Brown, Betty Ann Durkee, Frankie" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/lid/DefaultLangId>
+        a                    <http://s.opencalais.com/1/type/lid/DefaultLangId> ;
+        c:docId              <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:forenduserdisplay  "false" ;
+        c:lang               <http://d.opencalais.com/lid/DefaultLangId/English> ;
+        c:permid             "505062" .
+
+<http://d.opencalais.com/genericHasher-1/1ea0544f-121d-3734-bc08-36e5173bfdda>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Oklahoma City" ;
+        c:person             <http://d.opencalais.com/pershash-1/d2760a83-b4b4-3034-8736-a410b20774be> .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Relevance/49>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/3f0ecd1e-0394-3d48-bdc5-ba0863e89581> .
+
+<http://d.opencalais.com/pershash-1/0ce8002e-f2ee-3d4f-be8a-e5f12e4fce42>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Lauerance Cunningham" ;
+        c:confidencelevel    "0.895" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Lauerance Cunningham" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Relevance/28>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/8c4ef0ff-8828-3ae6-ad68-ab722da292a6> .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/2>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[was born August 23, 1923, at Langston, ]Kansas[, and passed away January 16, 2012, at Alva,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "Kansas" ;
+        c:length     "6" ;
+        c:offset     "393" ;
+        c:prefix     "was born August 23, 1923, at Langston, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> ;
+        c:suffix     ", and passed away January 16, 2012, at Alva," .
+
+<http://d.opencalais.com/pershash-1/5b43f8ed-3ac3-3953-983a-ed1be37e1c7a>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Lanny" ;
+        c:confidencelevel    "0.914" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Lanny" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/86>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[cleaned houses and worked at the flower shop.  \n]She[ had been an active member of the Waynoka First]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "787" ;
+        c:prefix     "cleaned houses and worked at the flower shop.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/6ad3f27e-48f8-33b9-a2e8-a64957dd07dc> ;
+        c:suffix     " had been an active member of the Waynoka First" .
+
+<http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Kansas" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/65>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and Lauerance Cunningham; and one son-in-law, ]Robert Browning[.  \nMaxine is survived by eight children, Beverly]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "Robert Browning" ;
+        c:length     "15" ;
+        c:offset     "1389" ;
+        c:prefix     "and Lauerance Cunningham; and one son-in-law, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/e87a2e27-af09-3c77-b9ff-0224a8551095> ;
+        c:suffix     ".  \nMaxine is survived by eight children, Beverly" .
+
+<http://d.opencalais.com/conf/pershash-1/e87a2e27-af09-3c77-b9ff-0224a8551095>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.999" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.995" ;
+        c:subject             <http://d.opencalais.com/pershash-1/e87a2e27-af09-3c77-b9ff-0224a8551095> .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/44>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[husband, Denis, of Freedom, Carl Cell and wife, ]Tammy[, of Nevada, Missouri, Charly Cell and wife,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "Tammy" ;
+        c:length     "5" ;
+        c:offset     "1705" ;
+        c:prefix     "husband, Denis, of Freedom, Carl Cell and wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/34c7d611-4a96-325b-9528-e9dc25486bf3> ;
+        c:suffix     ", of Nevada, Missouri, Charly Cell and wife," .
+
+<http://d.opencalais.com/conf/pershash-1/6ea716ea-1651-39d0-aa18-629ec1e90ded>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.769" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/6ea716ea-1651-39d0-aa18-629ec1e90ded> .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/23>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[brothers, Ivan Cunningham and wife, Janie, of ]Waynoka[, and Allan Cunningham and wife, Barbara, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "Waynoka" ;
+        c:length     "7" ;
+        c:offset     "1876" ;
+        c:prefix     "brothers, Ivan Cunningham and wife, Janie, of " ;
+        c:subject    <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:suffix     ", and Allan Cunningham and wife, Barbara, of" .
+
+<http://d.opencalais.com/genericHasher-1/1be89cab-3ede-3881-b26f-be89e5573164>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Wichita" .
+
+<http://d.opencalais.com/genericHasher-1/4776bbde-38b0-34ac-ae2b-a0ca41df5125>
+        a                    <http://s.opencalais.com/1/type/em/e/IndustryTerm> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "son-in-law" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Relevance/57>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/6e327b3d-e17b-3284-a40d-8df80bb3e788> .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Relevance/36>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/9b2c2075-6a63-31fc-94b5-d9f19fcb1748> .
+
+<http://d.opencalais.com/genericHasher-1/197ba57c-6907-360c-bca0-1bbe8919877e>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Woodward" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Relevance/15>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/b90d7470-8d88-3ae6-8fdc-9eb4ebdbce4e> .
+
+<http://d.opencalais.com/pershash-1/4afcd38b-f1c3-3a74-953c-0ed5634fe7cb>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Ivan Cunningham" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Ivan" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Cunningham" ;
+        c:name               "Ivan Cunningham" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/94>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Cell and wife, Gayle, of Great Bend, Kansas, ]Etta Browning of Wichita, Kansas[, Sara Carlson and husband, Denis, of Freedom,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "Etta Browning of Wichita, Kansas" ;
+        c:length     "32" ;
+        c:offset     "1606" ;
+        c:prefix     "Cell and wife, Gayle, of Great Bend, Kansas, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/52752643-3bad-3401-bdb4-c077a6d17ef6> ;
+        c:suffix     ", Sara Carlson and husband, Denis, of Freedom," .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/73>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Funeral services for ]Cleta Maxine Cell[ will be 2:00 p.m. Thursday, January 19, 2012, at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "Cleta Maxine Cell" ;
+        c:length     "17" ;
+        c:offset     "21" ;
+        c:prefix     "Funeral services for " ;
+        c:subject    <http://d.opencalais.com/pershash-1/e9a0b4b2-2382-30bb-8571-3d8486e91d61> ;
+        c:suffix     " will be 2:00 p.m. Thursday, January 19, 2012, at" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Relevance/2>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> .
+
+<http://d.opencalais.com/pershash-1/ae9bed87-73d4-3867-bf21-03dd8446d3d7>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Beaver" ;
+        c:confidencelevel    "0.877" ;
+        c:firstname          "Beaver" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Beaver" ;
+        c:nationality        "N/A" ;
+        c:persontype         "entertainment" .
+
+<http://d.opencalais.com/pershash-1/63ae5de2-55d7-3298-92af-2a7d2a6014dc>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Melody" ;
+        c:confidencelevel    "0.973" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Melody" ;
+        c:nationality        "American" ;
+        c:persontype         "entertainment" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/52>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ by eight children, Beverly Brummell and husband, ]Lanny[, of Hatfield, Arkansas, Sammy Cell and wife,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "Lanny" ;
+        c:length     "5" ;
+        c:offset     "1476" ;
+        c:prefix     " by eight children, Beverly Brummell and husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/5b43f8ed-3ac3-3953-983a-ed1be37e1c7a> ;
+        c:suffix     ", of Hatfield, Arkansas, Sammy Cell and wife," .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/31>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Bend, Kansas, Etta Browning of Wichita, Kansas, ]Sara Carlson[ and husband, Denis, of Freedom, Carl Cell and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "Sara Carlson" ;
+        c:length     "12" ;
+        c:offset     "1640" ;
+        c:prefix     "Bend, Kansas, Etta Browning of Wichita, Kansas, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/12beb76b-6361-35e8-beed-675ff49f0fc3> ;
+        c:suffix     " and husband, Denis, of Freedom, Carl Cell and" .
+
+<http://d.opencalais.com/pershash-1/8c4ef0ff-8828-3ae6-ad68-ab722da292a6>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Leona Brown" ;
+        c:confidencelevel    "0.897" ;
+        c:firstname          "Leona" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Brown" ;
+        c:name               "Leona Brown" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/10>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Sammy Cell and wife, Melody, of Bazine, Kansas, ]Lester Cell[ and wife, Gayle, of Great Bend, Kansas, Etta]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "Lester Cell" ;
+        c:length     "11" ;
+        c:offset     "1554" ;
+        c:prefix     "Sammy Cell and wife, Melody, of Bazine, Kansas, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b22716c4-0b74-30b8-8144-dd92b0f9f192> ;
+        c:suffix     " and wife, Gayle, of Great Bend, Kansas, Etta" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Relevance/44>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/304bfaab-e3d5-38d1-8f47-c9a4dc9e11e2> .
+
+<http://d.opencalais.com/pershash-1/12beb76b-6361-35e8-beed-675ff49f0fc3>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Sara Carlson" ;
+        c:confidencelevel    "0.98" ;
+        c:firstname          "Sara" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Carlson" ;
+        c:name               "Sara Carlson" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Relevance/23>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/4122e2a0-db40-3e40-87bc-e8ec671048e5> .
+
+<http://d.opencalais.com/genericHasher-1/b12c3117-3a79-3d19-b2bc-8eee2e9f6631>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Share Hospice" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/81>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Cell, daughter of the late Franklin Wayne and ]Emmie Mary Mae Cunningham[, was born August 23, 1923, at Langston, Kansas,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "Emmie Mary Mae Cunningham" ;
+        c:length     "25" ;
+        c:offset     "327" ;
+        c:prefix     "Cell, daughter of the late Franklin Wayne and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6ad3f27e-48f8-33b9-a2e8-a64957dd07dc> ;
+        c:suffix     ", was born August 23, 1923, at Langston, Kansas," .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/60>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[at the Waynoka First Baptist Church with Rev. ]David Shaw[ officiating.  Interment will be in the Memorial]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "David Shaw" ;
+        c:length     "10" ;
+        c:offset     "131" ;
+        c:prefix     "at the Waynoka First Baptist Church with Rev. " ;
+        c:subject    <http://d.opencalais.com/pershash-1/41267cde-50d8-3da2-81a9-c29a6a9acc4c> ;
+        c:suffix     " officiating.  Interment will be in the Memorial" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/39>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Waynoka, and Allan Cunningham and wife, ]Barbara[, of Carmen; one sister, Doreen Balker and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "Barbara" ;
+        c:length     "7" ;
+        c:offset     "1916" ;
+        c:prefix     "of Waynoka, and Allan Cunningham and wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f9cec080-4b8b-3dfb-bcbd-3fc6fb43b4c3> ;
+        c:suffix     ", of Carmen; one sister, Doreen Balker and" .
+
+<http://d.opencalais.com/conf/pershash-1/b22716c4-0b74-30b8-8144-dd92b0f9f192>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.768" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.858" ;
+        c:subject             <http://d.opencalais.com/pershash-1/b22716c4-0b74-30b8-8144-dd92b0f9f192> .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/18>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[be 2:00 p.m. Thursday, January 19, 2012, at the ]Waynoka[ First Baptist Church with Rev. David Shaw]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "Waynoka" ;
+        c:length     "7" ;
+        c:offset     "92" ;
+        c:prefix     "be 2:00 p.m. Thursday, January 19, 2012, at the " ;
+        c:subject    <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:suffix     " First Baptist Church with Rev. David Shaw" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Relevance/52>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/4afcd38b-f1c3-3a74-953c-0ed5634fe7cb> .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Relevance/31>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/0ce8002e-f2ee-3d4f-be8a-e5f12e4fce42> .
+
+<http://d.opencalais.com/pershash-1/f9cec080-4b8b-3dfb-bcbd-3fc6fb43b4c3>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Barbara" ;
+        c:confidencelevel    "0.898" ;
+        c:firstname          "Barbara" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Barbara" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Relevance/10>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/43aac0ee-0ba7-3b8c-8f1e-081e8b3f05b2> .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/5>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ of Great Bend, Kansas, Etta Browning of Wichita, ]Kansas[, Sara Carlson and husband, Denis, of Freedom,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "Kansas" ;
+        c:length     "6" ;
+        c:offset     "1632" ;
+        c:prefix     " of Great Bend, Kansas, Etta Browning of Wichita, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> ;
+        c:suffix     ", Sara Carlson and husband, Denis, of Freedom," .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/89>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Red Hat Society, and the Wolf Club.  \nBesides ]her[ parents, she was preceded by her husband, Skeet,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1109" ;
+        c:prefix     "Red Hat Society, and the Wolf Club.  \nBesides " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6ad3f27e-48f8-33b9-a2e8-a64957dd07dc> ;
+        c:suffix     " parents, she was preceded by her husband, Skeet," .
+
+<http://d.opencalais.com/pershash-1/dec3ca7d-45d6-342a-a04a-f0ce192bf812>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Karen" ;
+        c:confidencelevel    "0.942" ;
+        c:firstname          "Karen" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Karen" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/e9a0b4b2-2382-30bb-8571-3d8486e91d61>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.936" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.96" ;
+        c:subject             <http://d.opencalais.com/pershash-1/e9a0b4b2-2382-30bb-8571-3d8486e91d61> .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/68>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[January 31, 1940, she was united in marriage to ]Carl Leroy[ \"Skeet? Cell at Woodward, Oklahoma.  They made]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "Carl Leroy" ;
+        c:length     "10" ;
+        c:offset     "588" ;
+        c:prefix     "January 31, 1940, she was united in marriage to " ;
+        c:subject    <http://d.opencalais.com/pershash-1/3f0ecd1e-0394-3d48-bdc5-ba0863e89581> ;
+        c:suffix     " \"Skeet? Cell at Woodward, Oklahoma.  They made" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/47>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Brown, Betty Ann Durkee, Frankie Cunningham, and ]Lauerance Cunningham[; and one son-in-law, Robert Browning.  \nMaxine]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "Lauerance Cunningham" ;
+        c:length     "20" ;
+        c:offset     "1347" ;
+        c:prefix     " Brown, Betty Ann Durkee, Frankie Cunningham, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/0ce8002e-f2ee-3d4f-be8a-e5f12e4fce42> ;
+        c:suffix     "; and one son-in-law, Robert Browning.  \nMaxine" .
+
+<http://d.opencalais.com/pershash-1/07ad7597-de13-3db3-b356-ebb5fe763b84>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Charly Cell" ;
+        c:confidencelevel    "0.768" ;
+        c:firstname          "Charly" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Cell" ;
+        c:name               "Charly Cell" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/26>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[1940, she was united in marriage to Carl Leroy \"]Skeet[? Cell at Woodward, Oklahoma.  They made their]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "Skeet" ;
+        c:length     "5" ;
+        c:offset     "600" ;
+        c:prefix     "1940, she was united in marriage to Carl Leroy \"" ;
+        c:subject    <http://d.opencalais.com/pershash-1/b90d7470-8d88-3ae6-8fdc-9eb4ebdbce4e> ;
+        c:suffix     "? Cell at Woodward, Oklahoma.  They made their" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Relevance/60>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/98a6eef0-8b75-309c-93e0-59c72a2bbee7> .
+
+<http://d.opencalais.com/genericHasher-1/46c9d0a7-2550-332b-b3a0-bd438860ee8e>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Langston" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Relevance/39>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/07ad7597-de13-3db3-b356-ebb5fe763b84> .
+
+<http://d.opencalais.com/genericHasher-1/77c8f176-bc0f-34da-b3b2-1a396fa588ee>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Nevada" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Relevance/18>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/a4b85550-ac15-3023-9105-11b779850912> .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/97>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Cell, daughter of the late Franklin Wayne and ]Emmie Mary Mae Cunningham, was born August 23, 1923, at Langston, Kansas[, and passed away January 16, 2012, at Alva,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "Emmie Mary Mae Cunningham, was born August 23, 1923, at Langston, Kansas" ;
+        c:length     "72" ;
+        c:offset     "327" ;
+        c:prefix     "Cell, daughter of the late Franklin Wayne and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/12f6c3ef-8902-3e88-8bf6-3583f4f0e6ae> ;
+        c:suffix     ", and passed away January 16, 2012, at Alva," .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/76>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Gayle, of Great Bend, Kansas, Etta Browning of ]Wichita[, Kansas, Sara Carlson and husband, Denis, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "Wichita" ;
+        c:length     "7" ;
+        c:offset     "1623" ;
+        c:prefix     "Gayle, of Great Bend, Kansas, Etta Browning of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/1be89cab-3ede-3881-b26f-be89e5573164> ;
+        c:suffix     ", Kansas, Sara Carlson and husband, Denis, of" .
+
+<http://d.opencalais.com/genericHasher-1/4b59c1ad-8092-34d5-b763-a43226a1836c>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Missouri" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Relevance/5>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/ae9bed87-73d4-3867-bf21-03dd8446d3d7> .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/55>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Cordela Bradford, Leona Brown, Betty Ann Durkee, ]Frankie Cunningham[, and Lauerance Cunningham; and one son-in-law,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "Frankie Cunningham" ;
+        c:length     "18" ;
+        c:offset     "1323" ;
+        c:prefix     " Cordela Bradford, Leona Brown, Betty Ann Durkee, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/cad85715-e0c9-3dd4-bbab-ffee45cd572d> ;
+        c:suffix     ", and Lauerance Cunningham; and one son-in-law," .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/34>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Ladies Auxiliary, the Red Hat Society, and the ]Wolf Club[.  \nBesides her parents, she was preceded by her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "Wolf Club" ;
+        c:length     "9" ;
+        c:offset     "1088" ;
+        c:prefix     "Ladies Auxiliary, the Red Hat Society, and the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/96bfa298-a7d3-356b-8005-615b989b6fb5> ;
+        c:suffix     ".  \nBesides her parents, she was preceded by her" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/13>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[]Funeral services[ for Cleta Maxine Cell will be 2:00 p.m.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "Funeral services" ;
+        c:length     "16" ;
+        c:offset     "0" ;
+        c:prefix     "" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee> ;
+        c:suffix     " for Cleta Maxine Cell will be 2:00 p.m." .
+
+<http://d.opencalais.com/genericHasher-1/12f6c3ef-8902-3e88-8bf6-3583f4f0e6ae>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonAttributes> ;
+        c:birthdate          "1923-08-23" ;
+        c:birthplace         <http://d.opencalais.com/genericHasher-1/46c9d0a7-2550-332b-b3a0-bd438860ee8e> ;
+        c:forenduserdisplay  "false" ;
+        c:gender             "F" ;
+        c:person             <http://d.opencalais.com/pershash-1/6ad3f27e-48f8-33b9-a2e8-a64957dd07dc> .
+
+<http://d.opencalais.com/conf/pershash-1/0ce8002e-f2ee-3d4f-be8a-e5f12e4fce42>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.895" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.928" ;
+        c:subject             <http://d.opencalais.com/pershash-1/0ce8002e-f2ee-3d4f-be8a-e5f12e4fce42> .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Relevance/47>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/197ba57c-6907-360c-bca0-1bbe8919877e> .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Relevance/26>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b12c3117-3a79-3d19-b2bc-8eee2e9f6631> .
+
+<http://d.opencalais.com/conf/pershash-1/5b43f8ed-3ac3-3953-983a-ed1be37e1c7a>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.914" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.932" ;
+        c:subject             <http://d.opencalais.com/pershash-1/5b43f8ed-3ac3-3953-983a-ed1be37e1c7a> .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/84>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[home in Waynoka.  She was a homemaker until ]her[ children were out of school.  She then cleaned]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "696" ;
+        c:prefix     "home in Waynoka.  She was a homemaker until " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6ad3f27e-48f8-33b9-a2e8-a64957dd07dc> ;
+        c:suffix     " children were out of school.  She then cleaned" .
+
+<http://d.opencalais.com/pershash-1/6ad3f27e-48f8-33b9-a2e8-a64957dd07dc>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Emmie Mary Mae Cunningham" ;
+        c:confidencelevel    "0.99" ;
+        c:firstname          "Emmie" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Cunningham" ;
+        c:middlename         "Mary Mae" ;
+        c:name               "Emmie Mary Mae Cunningham" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/63>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of the American Legion Ladies Auxiliary, the ]Red Hat Society[, and the Wolf Club.  \nBesides her parents, she]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "Red Hat Society" ;
+        c:length     "15" ;
+        c:offset     "1063" ;
+        c:prefix     "of the American Legion Ladies Auxiliary, the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/304bfaab-e3d5-38d1-8f47-c9a4dc9e11e2> ;
+        c:suffix     ", and the Wolf Club.  \nBesides her parents, she" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/42>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[LLC.  \nCleta Maxine Cell, daughter of the late ]Franklin Wayne and Emmie Mary Mae Cunningham, was born August 23, 1923, at Langston, Kansas, and passed away January 16, 2012, at Alva, Oklahoma[, at the age of 88 years, 4 months, and 23 days. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "Franklin Wayne and Emmie Mary Mae Cunningham, was born August 23, 1923, at Langston, Kansas, and passed away January 16, 2012, at Alva, Oklahoma" ;
+        c:length     "144" ;
+        c:offset     "308" ;
+        c:prefix     "LLC.  \nCleta Maxine Cell, daughter of the late " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c15ef7ea-f082-3691-9413-f332dd9a9dc4> ;
+        c:suffix     ", at the age of 88 years, 4 months, and 23 days. " .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/21>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[at Woodward, Oklahoma.  They made their home in ]Waynoka[.  She was a homemaker until her children were]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "Waynoka" ;
+        c:length     "7" ;
+        c:offset     "660" ;
+        c:prefix     "at Woodward, Oklahoma.  They made their home in " ;
+        c:subject    <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:suffix     ".  She was a homemaker until her children were" .
+
+<http://d.opencalais.com/genericHasher-1/4a597023-b6d3-3d0d-872e-df575ac38924>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Convalescent Restorative Fund" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/pershash-1/38cae77b-e14a-37ef-b32c-fb09b58eb818>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Sammy Cell" ;
+        c:confidencelevel    "0.768" ;
+        c:firstname          "Sammy" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Cell" ;
+        c:name               "Sammy Cell" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Relevance/55>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/226bd6d2-d576-3b5d-909c-eae79148d881> .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Relevance/34>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/939aaddd-33f6-36db-9661-922664c3c931> .
+
+<http://d.opencalais.com/conf/pershash-1/4afcd38b-f1c3-3a74-953c-0ed5634fe7cb>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/4afcd38b-f1c3-3a74-953c-0ed5634fe7cb> .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Relevance/13>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b8620f48-da64-3b29-b094-f0b9edcda36f> .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/92>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Karen, of Fairview, and David Cell and wife, ]Audrey, of Oklahoma City[; two brothers, Ivan Cunningham and wife, Janie,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "Audrey, of Oklahoma City" ;
+        c:length     "24" ;
+        c:offset     "1800" ;
+        c:prefix     "Karen, of Fairview, and David Cell and wife, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/1ea0544f-121d-3734-bc08-36e5173bfdda> ;
+        c:suffix     "; two brothers, Ivan Cunningham and wife, Janie," .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/8>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ one sister, Doreen Balker and husband, Chuck, of ]Beaver[; 35 grandchildren; 82 great grandchildren; 18]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "Beaver" ;
+        c:length     "6" ;
+        c:offset     "1985" ;
+        c:prefix     " one sister, Doreen Balker and husband, Chuck, of " ;
+        c:subject    <http://d.opencalais.com/pershash-1/ae9bed87-73d4-3867-bf21-03dd8446d3d7> ;
+        c:suffix     "; 35 grandchildren; 82 great grandchildren; 18" .
+
+<http://d.opencalais.com/conf/pershash-1/ae9bed87-73d4-3867-bf21-03dd8446d3d7>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.877" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.837" ;
+        c:subject             <http://d.opencalais.com/pershash-1/ae9bed87-73d4-3867-bf21-03dd8446d3d7> .
+
+<http://d.opencalais.com/conf/pershash-1/63ae5de2-55d7-3298-92af-2a7d2a6014dc>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.973" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.932" ;
+        c:subject             <http://d.opencalais.com/pershash-1/63ae5de2-55d7-3298-92af-2a7d2a6014dc> .
+
+<http://d.opencalais.com/pershash-1/cad85715-e0c9-3dd4-bbab-ffee45cd572d>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Frankie Cunningham" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Frankie" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Cunningham" ;
+        c:name               "Frankie Cunningham" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/71>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ They made their home in Waynoka.  She was ]a homemaker[ until her children were out of school.  She then]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "a homemaker" ;
+        c:length     "11" ;
+        c:offset     "678" ;
+        c:prefix     " They made their home in Waynoka.  She was " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c91b1642-c464-3638-9e83-86cfd2be4f69> ;
+        c:suffix     " until her children were out of school.  She then" .
+
+<http://d.opencalais.com/conf/pershash-1/8c4ef0ff-8828-3ae6-ad68-ab722da292a6>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.897" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.858" ;
+        c:subject             <http://d.opencalais.com/pershash-1/8c4ef0ff-8828-3ae6-ad68-ab722da292a6> .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/50>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Ivan Cunningham and wife, Janie, of Waynoka, and ]Allan Cunningham[ and wife, Barbara, of Carmen; one sister, Doreen]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "Allan Cunningham" ;
+        c:length     "16" ;
+        c:offset     "1889" ;
+        c:prefix     " Ivan Cunningham and wife, Janie, of Waynoka, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/939aaddd-33f6-36db-9661-922664c3c931> ;
+        c:suffix     " and wife, Barbara, of Carmen; one sister, Doreen" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/29>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Charly Cell and wife, Karen, of Fairview, and ]David Cell[ and wife, Audrey, of Oklahoma City; two]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "David Cell" ;
+        c:length     "10" ;
+        c:offset     "1779" ;
+        c:prefix     "Charly Cell and wife, Karen, of Fairview, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/71075e1f-90d3-3967-852f-29085285aa8c> ;
+        c:suffix     " and wife, Audrey, of Oklahoma City; two" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/61f29abb-e794-d541-a717-7f9811b1ce02>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Kansas" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:latitude            "37.6922" ;
+        c:longitude           "-97.3372" ;
+        c:name                "Wichita,Kansas,United States" ;
+        c:shortname           "Wichita" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/1be89cab-3ede-3881-b26f-be89e5573164> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/327acea9-de86-2001-bd44-f6fb57065d3c>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Kansas" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:latitude            "38.4444" ;
+        c:longitude           "-99.6917" ;
+        c:name                "Bazine,Kansas,United States" ;
+        c:shortname           "Bazine" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/9f578f0a-3156-34c2-bc0f-7e372164bcdc> .
+
+<http://d.opencalais.com/conf/pershash-1/12beb76b-6361-35e8-beed-675ff49f0fc3>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.98" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/12beb76b-6361-35e8-beed-675ff49f0fc3> .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316>
+        a                  <http://s.opencalais.com/1/type/sys/DocInfo> ;
+        c:calaisRequestID  "c57d086a-4e0d-9757-14d9-1461bb16fa60" ;
+        c:docDate          "2015-05-26 17:30:00.948" ;
+        c:docTitle         "" ;
+        c:document         "Funeral services for Cleta Maxine Cell will be 2:00 p.m. Thursday, January 19, 2012, at the Waynoka First Baptist Church with Rev. David Shaw officiating.  Interment will be in the Memorial Hill Cemetery under the direction of Marshall Funeral Home of Waynoka, LLC.  \nCleta Maxine Cell, daughter of the late Franklin Wayne and Emmie Mary Mae Cunningham, was born August 23, 1923, at Langston, Kansas, and passed away January 16, 2012, at Alva, Oklahoma, at the age of 88 years, 4 months, and 23 days.  \nMaxine attended Waynoka Schools.  On January 31, 1940, she was united in marriage to Carl Leroy \"Skeet? Cell at Woodward, Oklahoma.  They made their home in Waynoka.  She was a homemaker until her children were out of school.  She then cleaned houses and worked at the flower shop.  \nShe had been an active member of the Waynoka First Baptist Church for 62 years, where she taught Sunday School, served as head of the kitchen for many years, and was a member of the Women?s Missionary Union.  She was also a member of the American Legion Ladies Auxiliary, the Red Hat Society, and the Wolf Club.  \nBesides her parents, she was preceded by her husband, Skeet, on April 27, 1994; one infant daughter; six grandchildren; five great grandchildren; five brothers and sisters, Cordela Bradford, Leona Brown, Betty Ann Durkee, Frankie Cunningham, and Lauerance Cunningham; and one son-in-law, Robert Browning.  \nMaxine is survived by eight children, Beverly Brummell and husband, Lanny, of Hatfield, Arkansas, Sammy Cell and wife, Melody, of Bazine, Kansas, Lester Cell and wife, Gayle, of Great Bend, Kansas, Etta Browning of Wichita, Kansas, Sara Carlson and husband, Denis, of Freedom, Carl Cell and wife, Tammy, of Nevada, Missouri, Charly Cell and wife, Karen, of Fairview, and David Cell and wife, Audrey, of Oklahoma City; two brothers, Ivan Cunningham and wife, Janie, of Waynoka, and Allan Cunningham and wife, Barbara, of Carmen; one sister, Doreen Balker and husband, Chuck, of Beaver; 35 grandchildren; 82 great grandchildren; 18 great great grandchildren; other relatives and many friends.  \nMemorial contributions may be made through the funeral home to the Share Convalescent Restorative Fund or Share Hospice. \n\t\t\t" ;
+        c:id               "http://id.opencalais.com/yCQYBCqf5qL7zR*W8tFasg" ;
+        c:ontology         "http://163.231.4.65/owlschema/8.3/onecalais.owl.allmetadata.xml" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Relevance/42>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Relevance/21>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/96bfa298-a7d3-356b-8005-615b989b6fb5> .
+
+<http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205>
+        a                    <http://s.opencalais.com/1/type/em/e/Company> ;
+        c:confidencelevel    "0.818" ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Waynoka LLC" ;
+        c:nationality        "N/A" .
+
+<http://d.opencalais.com/pershash-1/939aaddd-33f6-36db-9661-922664c3c931>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Allan Cunningham" ;
+        c:confidencelevel    "0.995" ;
+        c:firstname          "Allan" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Cunningham" ;
+        c:name               "Allan Cunningham" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/79>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Nevada, Missouri, Charly Cell and wife, ]Karen[, of Fairview, and David Cell and wife, Audrey,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "Karen" ;
+        c:length     "5" ;
+        c:offset     "1755" ;
+        c:prefix     "of Nevada, Missouri, Charly Cell and wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/dec3ca7d-45d6-342a-a04a-f0ce192bf812> ;
+        c:suffix     ", of Fairview, and David Cell and wife, Audrey," .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Relevance/8>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4a597023-b6d3-3d0d-872e-df575ac38924> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/14b6a665-8a03-9b17-79ec-2665cb2346db>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Arkansas" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:latitude            "34.4856" ;
+        c:longitude           "-94.3783" ;
+        c:name                "Hatfield,Arkansas,United States" ;
+        c:shortname           "Hatfield" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/226bd6d2-d576-3b5d-909c-eae79148d881> .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/58>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and sisters, Cordela Bradford, Leona Brown, ]Betty Ann Durkee[, Frankie Cunningham, and Lauerance Cunningham;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "Betty Ann Durkee" ;
+        c:length     "16" ;
+        c:offset     "1305" ;
+        c:prefix     "and sisters, Cordela Bradford, Leona Brown, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f9314869-a5f6-34a2-a863-ea0dce9fbc60> ;
+        c:suffix     ", Frankie Cunningham, and Lauerance Cunningham;" .
+
+<http://d.opencalais.com/genericHasher-1/d7381043-0816-3b35-bf4e-18ad9bf3c746>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:date                "1940-01-31" ;
+        c:datestring          "January 31, 1940" ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/3f0ecd1e-0394-3d48-bdc5-ba0863e89581> , <http://d.opencalais.com/pershash-1/6ad3f27e-48f8-33b9-a2e8-a64957dd07dc> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/37>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Melody, of Bazine, Kansas, Lester Cell and wife, ]Gayle[, of Great Bend, Kansas, Etta Browning of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "Gayle" ;
+        c:length     "5" ;
+        c:offset     "1576" ;
+        c:prefix     " Melody, of Bazine, Kansas, Lester Cell and wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/4122e2a0-db40-3e40-87bc-e8ec671048e5> ;
+        c:suffix     ", of Great Bend, Kansas, Etta Browning of" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/16>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[husband, Denis, of Freedom, Carl Cell and wife, ]Tammy, of Nevada[, Missouri, Charly Cell and wife, Karen, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "Tammy, of Nevada" ;
+        c:length     "16" ;
+        c:offset     "1705" ;
+        c:prefix     "husband, Denis, of Freedom, Carl Cell and wife, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/37b7cd44-ea88-3d85-8e51-ad37d436cd10> ;
+        c:suffix     ", Missouri, Charly Cell and wife, Karen, of" .
+
+<http://d.opencalais.com/genericHasher-1/24a8cc5d-ecb2-36eb-932d-2321af2abcc9>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Bradford" .
+
+<http://d.opencalais.com/genericHasher-1/f9759064-4dec-3e3b-8a6a-bf9b9d33f2df>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Hatfield" ;
+        c:person             <http://d.opencalais.com/pershash-1/5b43f8ed-3ac3-3953-983a-ed1be37e1c7a> .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Relevance/50>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/conf/pershash-1/f9cec080-4b8b-3dfb-bcbd-3fc6fb43b4c3>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.898" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/f9cec080-4b8b-3dfb-bcbd-3fc6fb43b4c3> .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Relevance/29>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/34c7d611-4a96-325b-9528-e9dc25486bf3> .
+
+<http://d.opencalais.com/conf/pershash-1/dec3ca7d-45d6-342a-a04a-f0ce192bf812>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.942" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/dec3ca7d-45d6-342a-a04a-f0ce192bf812> .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/SocialTag/1>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Waynoka, Oklahoma" ;
+        c:originalValue      "Waynoka, Oklahoma" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/77bc8be5-12a7-326b-962f-52fbf8cf09dd> .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/3>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Sammy Cell and wife, Melody, of Bazine, ]Kansas[, Lester Cell and wife, Gayle, of Great Bend,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "Kansas" ;
+        c:length     "6" ;
+        c:offset     "1546" ;
+        c:prefix     "Sammy Cell and wife, Melody, of Bazine, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> ;
+        c:suffix     ", Lester Cell and wife, Gayle, of Great Bend," .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/87>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Waynoka First Baptist Church for 62 years, where ]she[ taught Sunday School, served as head of the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "873" ;
+        c:prefix     " Waynoka First Baptist Church for 62 years, where " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6ad3f27e-48f8-33b9-a2e8-a64957dd07dc> ;
+        c:suffix     " taught Sunday School, served as head of the" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/66>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ united in marriage to Carl Leroy \"Skeet? Cell at ]Woodward[, Oklahoma.  They made their home in Waynoka. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "Woodward" ;
+        c:length     "8" ;
+        c:offset     "615" ;
+        c:prefix     " united in marriage to Carl Leroy \"Skeet? Cell at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/197ba57c-6907-360c-bca0-1bbe8919877e> ;
+        c:suffix     ", Oklahoma.  They made their home in Waynoka. " .
+
+<http://d.opencalais.com/genericHasher-1/b7d3dee2-8459-3bab-8348-86e36899d491>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "American Legion" ;
+        c:nationality        "American" ;
+        c:organizationtype   "governmental military" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/45>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Thursday, January 19, 2012, at the Waynoka First ]Baptist Church[ with Rev. David Shaw officiating.  Interment]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "Baptist Church" ;
+        c:length     "14" ;
+        c:offset     "106" ;
+        c:prefix     " Thursday, January 19, 2012, at the Waynoka First " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a21a69b3-e9dd-341e-9fee-da93c550c744> ;
+        c:suffix     " with Rev. David Shaw officiating.  Interment" .
+
+<http://d.opencalais.com/pershash-1/98a6eef0-8b75-309c-93e0-59c72a2bbee7>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Franklin Wayne" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Franklin" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Wayne" ;
+        c:name               "Franklin Wayne" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/pershash-1/a4b85550-ac15-3023-9105-11b779850912>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Denis" ;
+        c:confidencelevel    "0.898" ;
+        c:firstname          "Denis" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Denis" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/24>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ of Fairview, and David Cell and wife, Audrey, of ]Oklahoma City[; two brothers, Ivan Cunningham and wife, Janie,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "Oklahoma City" ;
+        c:length     "13" ;
+        c:offset     "1811" ;
+        c:prefix     " of Fairview, and David Cell and wife, Audrey, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b8620f48-da64-3b29-b094-f0b9edcda36f> ;
+        c:suffix     "; two brothers, Ivan Cunningham and wife, Janie," .
+
+<http://d.opencalais.com/genericHasher-1/84bb0714-85ab-39de-a7e7-f1ad2e79292b>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Marshall Funeral Home of Waynoka" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Relevance/58>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/6ad3f27e-48f8-33b9-a2e8-a64957dd07dc> .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Relevance/37>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/cad85715-e0c9-3dd4-bbab-ffee45cd572d> .
+
+<http://d.opencalais.com/pershash-1/41267cde-50d8-3da2-81a9-c29a6a9acc4c>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "David Shaw" ;
+        c:confidencelevel    "0.999" ;
+        c:firstname          "David" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Shaw" ;
+        c:name               "David Shaw" ;
+        c:nationality        "N/A" ;
+        c:persontype         "sports" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Relevance/16>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/77c8f176-bc0f-34da-b3b2-1a396fa588ee> .
+
+<http://d.opencalais.com/genericHasher-1/24d5269d-2fb6-3138-854a-2f6eb2308c13>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:forenduserdisplay  "true" ;
+        c:organization       <http://d.opencalais.com/genericHasher-1/b7d3dee2-8459-3bab-8348-86e36899d491> ;
+        c:person             <http://d.opencalais.com/pershash-1/6ad3f27e-48f8-33b9-a2e8-a64957dd07dc> ;
+        c:position           "member" ;
+        c:status             "past" .
+
+<http://d.opencalais.com/pershash-1/71075e1f-90d3-3967-852f-29085285aa8c>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "David Cell" ;
+        c:confidencelevel    "0.768" ;
+        c:firstname          "David" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Cell" ;
+        c:name               "David Cell" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/95>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[LLC.  \nCleta Maxine Cell, daughter of the late ]Franklin Wayne[ and Emmie Mary Mae Cunningham, was born August]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "Franklin Wayne" ;
+        c:length     "14" ;
+        c:offset     "308" ;
+        c:prefix     "LLC.  \nCleta Maxine Cell, daughter of the late " ;
+        c:subject    <http://d.opencalais.com/pershash-1/98a6eef0-8b75-309c-93e0-59c72a2bbee7> ;
+        c:suffix     " and Emmie Mary Mae Cunningham, was born August" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/f24ef023-f5ce-f4ba-d403-af6634f7297d>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:latitude            "35.4675" ;
+        c:longitude           "-97.5161" ;
+        c:name                "Oklahoma City,Oklahoma,United States" ;
+        c:rcscode             "G:2BF" ;
+        c:shortname           "Oklahoma City" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/b8620f48-da64-3b29-b094-f0b9edcda36f> .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/74>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Marshall Funeral Home of Waynoka, LLC.  \n]Cleta Maxine Cell[, daughter of the late Franklin Wayne and Emmie]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "Cleta Maxine Cell" ;
+        c:length     "17" ;
+        c:offset     "268" ;
+        c:prefix     "of Marshall Funeral Home of Waynoka, LLC.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/e9a0b4b2-2382-30bb-8571-3d8486e91d61> ;
+        c:suffix     ", daughter of the late Franklin Wayne and Emmie" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Relevance/3>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/8f739cd0-0fea-3e10-9e11-eb3aaf5c8d3e> .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/53>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Club.  \nBesides her parents, she was preceded by ]her husband, Skeet[, on April 27, 1994; one infant daughter; six]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "her husband, Skeet" ;
+        c:length     "18" ;
+        c:offset     "1142" ;
+        c:prefix     " Club.  \nBesides her parents, she was preceded by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/48e18196-81cc-3cb2-a1d6-9d1c903e67f6> ;
+        c:suffix     ", on April 27, 1994; one infant daughter; six" .
+
+<http://d.opencalais.com/pershash-1/34c7d611-4a96-325b-9528-e9dc25486bf3>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Tammy" ;
+        c:confidencelevel    "0.86" ;
+        c:firstname          "Tammy" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Tammy" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/a21a69b3-e9dd-341e-9fee-da93c550c744>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Baptist Church" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/pershash-1/8f739cd0-0fea-3e10-9e11-eb3aaf5c8d3e>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Etta Browning" ;
+        c:confidencelevel    "0.983" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Etta Browning" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/32>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Oklahoma.  They made their home in Waynoka.  ]She was a homemaker[ until her children were out of school.  She then]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "She was a homemaker" ;
+        c:length     "19" ;
+        c:offset     "670" ;
+        c:prefix     "Oklahoma.  They made their home in Waynoka.  " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/5da9ba7f-0415-3208-8459-8419204a32ac> ;
+        c:suffix     " until her children were out of school.  She then" .
+
+<http://d.opencalais.com/pershash-1/6e327b3d-e17b-3284-a40d-8df80bb3e788>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Doreen Balker" ;
+        c:confidencelevel    "0.993" ;
+        c:firstname          "Doreen" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Balker" ;
+        c:name               "Doreen Balker" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/11>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[was a member of the Women?s Missionary Union.  ]She was also a member of the American Legion[ Ladies Auxiliary, the Red Hat Society, and the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "She was also a member of the American Legion" ;
+        c:length     "44" ;
+        c:offset     "996" ;
+        c:prefix     "was a member of the Women?s Missionary Union.  " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/24d5269d-2fb6-3138-854a-2f6eb2308c13> ;
+        c:suffix     " Ladies Auxiliary, the Red Hat Society, and the" .
+
+<http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee>
+        a                    <http://s.opencalais.com/1/type/em/e/IndustryTerm> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Funeral services" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Relevance/45>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/8f0dfe6f-8bbf-3ef0-8f67-c6a51ec90973> .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Relevance/24>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c14241b6-5f57-315c-9d5e-aa617f57bfc1> .
+
+<http://d.opencalais.com/genericHasher-1/37b7cd44-ea88-3d85-8e51-ad37d436cd10>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Nevada" ;
+        c:person             <http://d.opencalais.com/pershash-1/34c7d611-4a96-325b-9528-e9dc25486bf3> .
+
+<http://d.opencalais.com/conf/pershash-1/6ad3f27e-48f8-33b9-a2e8-a64957dd07dc>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.99" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.994" ;
+        c:subject             <http://d.opencalais.com/pershash-1/6ad3f27e-48f8-33b9-a2e8-a64957dd07dc> .
+
+<http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oklahoma" .
+
+<http://d.opencalais.com/genericHasher-1/304bfaab-e3d5-38d1-8f47-c9a4dc9e11e2>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Red Hat Society" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Alva" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/82>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[attended Waynoka Schools.  On January 31, 1940, ]she[ was united in marriage to Carl Leroy \"Skeet?]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "558" ;
+        c:prefix     "attended Waynoka Schools.  On January 31, 1940, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6ad3f27e-48f8-33b9-a2e8-a64957dd07dc> ;
+        c:suffix     " was united in marriage to Carl Leroy \"Skeet?" .
+
+<http://d.opencalais.com/pershash-1/d2760a83-b4b4-3034-8736-a410b20774be>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Audrey" ;
+        c:confidencelevel    "0.951" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Audrey" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/61>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Kansas, and passed away January 16, 2012, at ]Alva[, Oklahoma, at the age of 88 years, 4 months, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "438" ;
+        c:prefix     "Kansas, and passed away January 16, 2012, at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:suffix     ", Oklahoma, at the age of 88 years, 4 months, and" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/40>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[to the Share Convalescent Restorative Fund or ]Share Hospice[. \n\t\t\t]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "Share Hospice" ;
+        c:length     "13" ;
+        c:offset     "2207" ;
+        c:prefix     "to the Share Convalescent Restorative Fund or " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b12c3117-3a79-3d19-b2bc-8eee2e9f6631> ;
+        c:suffix     ". \n\t\t\t" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/19>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[under the direction of Marshall Funeral Home of ]Waynoka, LLC[.  \nCleta Maxine Cell, daughter of the late]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "Waynoka, LLC" ;
+        c:length     "12" ;
+        c:offset     "252" ;
+        c:prefix     "under the direction of Marshall Funeral Home of " ;
+        c:subject    <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:suffix     ".  \nCleta Maxine Cell, daughter of the late" .
+
+<http://d.opencalais.com/conf/pershash-1/38cae77b-e14a-37ef-b32c-fb09b58eb818>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.768" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.858" ;
+        c:subject             <http://d.opencalais.com/pershash-1/38cae77b-e14a-37ef-b32c-fb09b58eb818> .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Relevance/53>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/e9a0b4b2-2382-30bb-8571-3d8486e91d61> .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/ec80b062-8d1e-123a-1d6e-8bd0b7355690>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:latitude            "38.45" ;
+        c:longitude           "-96.5333" ;
+        c:name                "Kansas,United States" ;
+        c:permid              "100151" ;
+        c:rcscode             "G:6D" ;
+        c:shortname           "Kansas" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Relevance/32>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4b59c1ad-8092-34d5-b763-a43226a1836c> .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Relevance/11>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9f578f0a-3156-34c2-bc0f-7e372164bcdc> .
+
+<http://d.opencalais.com/conf/pershash-1/cad85715-e0c9-3dd4-bbab-ffee45cd572d>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/cad85715-e0c9-3dd4-bbab-ffee45cd572d> .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/6>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Cell and wife, Gayle, of Great Bend, Kansas, ]Etta Browning[ of Wichita, Kansas, Sara Carlson and husband,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "Etta Browning" ;
+        c:length     "13" ;
+        c:offset     "1606" ;
+        c:prefix     "Cell and wife, Gayle, of Great Bend, Kansas, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/8f739cd0-0fea-3e10-9e11-eb3aaf5c8d3e> ;
+        c:suffix     " of Wichita, Kansas, Sara Carlson and husband," .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/90>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and the Wolf Club.  \nBesides her parents, ]she[ was preceded by her husband, Skeet, on April 27,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "1122" ;
+        c:prefix     "and the Wolf Club.  \nBesides her parents, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6ad3f27e-48f8-33b9-a2e8-a64957dd07dc> ;
+        c:suffix     " was preceded by her husband, Skeet, on April 27," .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/69>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and passed away January 16, 2012, at Alva, ]Oklahoma[, at the age of 88 years, 4 months, and 23 days. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "444" ;
+        c:prefix     "and passed away January 16, 2012, at Alva, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", at the age of 88 years, 4 months, and 23 days. " .
+
+<http://d.opencalais.com/genericHasher-1/c15ef7ea-f082-3691-9413-f332dd9a9dc4>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Alva, Oklahoma" ;
+        c:person             <http://d.opencalais.com/pershash-1/98a6eef0-8b75-309c-93e0-59c72a2bbee7> .
+
+<http://d.opencalais.com/genericHasher-1/48e18196-81cc-3cb2-a1d6-9d1c903e67f6>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "husband" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/6ad3f27e-48f8-33b9-a2e8-a64957dd07dc> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/b90d7470-8d88-3ae6-8fdc-9eb4ebdbce4e> .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/48>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Freedom, Carl Cell and wife, Tammy, of Nevada, ]Missouri[, Charly Cell and wife, Karen, of Fairview, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "Missouri" ;
+        c:length     "8" ;
+        c:offset     "1723" ;
+        c:prefix     "Freedom, Carl Cell and wife, Tammy, of Nevada, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4b59c1ad-8092-34d5-b763-a43226a1836c> ;
+        c:suffix     ", Charly Cell and wife, Karen, of Fairview, and" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/8fac7585-3230-ed66-1dae-4ee48ac15a97>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:latitude            "36.805" ;
+        c:longitude           "-98.6661" ;
+        c:name                "Alva,Oklahoma,United States" ;
+        c:shortname           "Alva" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/27>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[her parents, she was preceded by her husband, ]Skeet[, on April 27, 1994; one infant daughter; six]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "Skeet" ;
+        c:length     "5" ;
+        c:offset     "1155" ;
+        c:prefix     "her parents, she was preceded by her husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b90d7470-8d88-3ae6-8fdc-9eb4ebdbce4e> ;
+        c:suffix     ", on April 27, 1994; one infant daughter; six" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Relevance/61>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/693b9b27-4f42-328f-8fcd-34d3f5c08cc5> .
+
+<http://d.opencalais.com/genericHasher-1/b6b35a64-ca57-33b4-b670-6df4c0f6fc5d>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/b90d7470-8d88-3ae6-8fdc-9eb4ebdbce4e> , <http://d.opencalais.com/pershash-1/6ad3f27e-48f8-33b9-a2e8-a64957dd07dc> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Relevance/40>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/f9314869-a5f6-34a2-a863-ea0dce9fbc60> .
+
+<http://d.opencalais.com/conf/comphash-1/e6417933-98e8-365f-8f80-b92f05707205>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.818" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:resolution          "0.05522651" ;
+        c:statisticalfeature  "0.898" ;
+        c:subject             <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/e9e27c26-4013-8712-a5f0-97dcdc412c26>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:latitude            "35.5607802899" ;
+        c:longitude           "-96.8460570462" ;
+        c:name                "Oklahoma,United States" ;
+        c:permid              "100229" ;
+        c:rcscode             "G:9H" ;
+        c:shortname           "Oklahoma" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/conf/pershash-1/939aaddd-33f6-36db-9661-922664c3c931>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.995" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/939aaddd-33f6-36db-9661-922664c3c931> .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Relevance/19>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/12beb76b-6361-35e8-beed-675ff49f0fc3> .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/77>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Beverly Brummell and husband, Lanny, of ]Hatfield[, Arkansas, Sammy Cell and wife, Melody, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "Hatfield" ;
+        c:length     "8" ;
+        c:offset     "1486" ;
+        c:prefix     "Beverly Brummell and husband, Lanny, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/226bd6d2-d576-3b5d-909c-eae79148d881> ;
+        c:suffix     ", Arkansas, Sammy Cell and wife, Melody, of" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Relevance/6>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/46c9d0a7-2550-332b-b3a0-bd438860ee8e> .
+
+<http://d.opencalais.com/pershash-1/b90d7470-8d88-3ae6-8fdc-9eb4ebdbce4e>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Skeet" ;
+        c:confidencelevel    "0.76" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Skeet" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/56>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Memorial Hill Cemetery under the direction of ]Marshall Funeral Home of Waynoka[, LLC.  \nCleta Maxine Cell, daughter of the late]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "Marshall Funeral Home of Waynoka" ;
+        c:length     "32" ;
+        c:offset     "227" ;
+        c:prefix     "Memorial Hill Cemetery under the direction of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/84bb0714-85ab-39de-a7e7-f1ad2e79292b> ;
+        c:suffix     ", LLC.  \nCleta Maxine Cell, daughter of the late" .
+
+<http://d.opencalais.com/pershash-1/43aac0ee-0ba7-3b8c-8f1e-081e8b3f05b2>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Cordela Bradford" ;
+        c:confidencelevel    "0.895" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Cordela Bradford" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/c8ff68c4-bb14-b2db-4b27-924496d2fa2f>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:latitude            "34.8" ;
+        c:longitude           "-92.2" ;
+        c:name                "Arkansas,United States" ;
+        c:permid              "100019" ;
+        c:rcscode             "G:6U" ;
+        c:shortname           "Arkansas" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/693b9b27-4f42-328f-8fcd-34d3f5c08cc5> .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/35>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Hatfield, Arkansas, Sammy Cell and wife, ]Melody, of Bazine, Kansas[, Lester Cell and wife, Gayle, of Great Bend,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "Melody, of Bazine, Kansas" ;
+        c:length     "25" ;
+        c:offset     "1527" ;
+        c:prefix     "of Hatfield, Arkansas, Sammy Cell and wife, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e5f6a1f3-361f-3941-968f-92b4c079464d> ;
+        c:suffix     ", Lester Cell and wife, Gayle, of Great Bend," .
+
+<http://d.opencalais.com/genericHasher-1/5da9ba7f-0415-3208-8459-8419204a32ac>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:forenduserdisplay  "true" ;
+        c:person             <http://d.opencalais.com/pershash-1/6ad3f27e-48f8-33b9-a2e8-a64957dd07dc> ;
+        c:position           "homemaker" ;
+        c:status             "past" .
+
+<http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316/Instance/14>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Club.  \nBesides her parents, she was preceded by ]her husband, Skeet[, on April 27, 1994; one infant daughter; six]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/a3ae3165-1a8b-3dbd-a7f1-ed8107768316> ;
+        c:exact      "her husband, Skeet" ;
+        c:length     "18" ;
+        c:offset     "1142" ;
+        c:prefix     " Club.  \nBesides her parents, she was preceded by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6b35a64-ca57-33b4-b670-6df4c0f6fc5d> ;
+        c:suffix     ", on April 27, 1994; one infant daughter; six" .
+
+<http://d.opencalais.com/pershash-1/52b68de9-58b0-3a6b-b1df-e303726f4dda>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Beverly Brummell" ;
+        c:confidencelevel    "0.993" ;
+        c:firstname          "Beverly" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Brummell" ;
+        c:name               "Beverly Brummell" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .

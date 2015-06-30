@@ -1,0 +1,1205 @@
+#Relations: FamilyRelation, PersonAttributes, PersonLocation, PersonRelation
+#City: Cache, Enid, Portland
+#Facility: Research Hospital
+#Organization: s Research Hospital
+#Person: Autumn Marie, Brian Lynch, Carolyn Ruth (Edwards) Lynch, DeLee Lynch, Douglas Carl, Emily Lynch, Eric Keith Lynch, Erica Elaine, Erica Elaine Welch, Jimmie Edwards, Logan El Dorado
+#ProvinceOrState: Oklahoma, Oregon
+@prefix c:     <http://s.opencalais.com/1/pred/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://d.opencalais.com/pershash-1/e6c894fe-7f9a-39fc-a7d9-a6ffb03d4536>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "DeLee Lynch" ;
+        c:confidencelevel    "0.838" ;
+        c:firstname          "DeLee" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Lynch" ;
+        c:name               "DeLee Lynch" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/pershash-1/e5816d37-9f24-315d-ac70-bb79baf4ec16>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Erica Elaine" ;
+        c:confidencelevel    "0.838" ;
+        c:firstname          "Erica" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Erica Elaine" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/pershash-1/3098f4a1-3825-35e5-8ac1-dfd7686a9b80>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Brian Lynch" ;
+        c:confidencelevel    "0.999" ;
+        c:firstname          "Brian" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Lynch" ;
+        c:name               "Brian Lynch" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Instance/35>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[his grandma, Jimmie Edwards; his grandfather, ]DeLee Lynch[; other relatives and many friends.  \nMemorial]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:exact      "DeLee Lynch" ;
+        c:length     "11" ;
+        c:offset     "991" ;
+        c:prefix     "his grandma, Jimmie Edwards; his grandfather, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/e6c894fe-7f9a-39fc-a7d9-a6ffb03d4536> ;
+        c:suffix     "; other relatives and many friends.  \nMemorial" .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Relevance/10>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/5aba2b44-4648-375d-b34e-02b9fd087318> .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Instance/48>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[  He is also survived by his parents, Douglas and ]Carolyn Lynch of Cache[; his brother, Brian Lynch; his sister, Emily]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:exact      "Carolyn Lynch of Cache" ;
+        c:length     "22" ;
+        c:offset     "870" ;
+        c:prefix     "  He is also survived by his parents, Douglas and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee00fa8c-e7fe-3888-9bbc-c6cc5b945d89> ;
+        c:suffix     "; his brother, Brian Lynch; his sister, Emily" .
+
+<http://d.opencalais.com/conf/pershash-1/e6fe98ca-f41e-3b3e-a034-738959cbad06>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.998" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.998" ;
+        c:subject             <http://d.opencalais.com/pershash-1/e6fe98ca-f41e-3b3e-a034-738959cbad06> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/9abed97f-1f19-0004-aee6-0a06b0289f38>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:latitude            "36.3956" ;
+        c:longitude           "-97.8781" ;
+        c:name                "Enid,Oklahoma,United States" ;
+        c:shortname           "Enid" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/35a979c1-2108-3761-99bd-8c6f499ef6f2> .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Instance/7>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Oregon, and passed away January 11, 2009, in ]Enid[, Oklahoma, at the age of 35 years, 10 months,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:exact      "Enid" ;
+        c:length     "4" ;
+        c:offset     "155" ;
+        c:prefix     "Oregon, and passed away January 11, 2009, in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/35a979c1-2108-3761-99bd-8c6f499ef6f2> ;
+        c:suffix     ", Oklahoma, at the age of 35 years, 10 months," .
+
+<http://d.opencalais.com/pershash-1/b5586191-20de-3cef-9db0-d2462a0c68bc>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Logan El Dorado" ;
+        c:confidencelevel    "0.979" ;
+        c:firstname          "Logan" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "El Dorado" ;
+        c:name               "Logan El Dorado" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/2b5bed17-2942-3602-8617-38cfed879396>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.993" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.995" ;
+        c:subject             <http://d.opencalais.com/pershash-1/2b5bed17-2942-3602-8617-38cfed879396> .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Instance/42>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Ruth (Edwards) Lynch, was born March 2, 1973, in ]Portland[, Oregon, and passed away January 11, 2009, in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:exact      "Portland" ;
+        c:length     "8" ;
+        c:offset     "100" ;
+        c:prefix     " Ruth (Edwards) Lynch, was born March 2, 1973, in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/02391de3-32f5-3fa9-a9d1-e21711704d0c> ;
+        c:suffix     ", Oregon, and passed away January 11, 2009, in" .
+
+<http://d.opencalais.com/genericHasher-1/5bb2678e-75e2-38ed-adb5-6cb90243f3c4>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "grandma" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/3098f4a1-3825-35e5-8ac1-dfd7686a9b80> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/5aba2b44-4648-375d-b34e-02b9fd087318> .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Relevance/6>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Instance/14>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ his parents, Douglas and Carolyn Lynch of Cache; ]his brother, Brian Lynch[; his sister, Emily Lynch; his grandma, Jimmie]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:exact      "his brother, Brian Lynch" ;
+        c:length     "24" ;
+        c:offset     "894" ;
+        c:prefix     " his parents, Douglas and Carolyn Lynch of Cache; " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/d4cd9833-e3ee-376e-9682-f3513c63a95e> ;
+        c:suffix     "; his sister, Emily Lynch; his grandma, Jimmie" .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Instance/55>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[to music, grilling out and camping with ]his[ kids.  He excelled in his 14 year career in the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "562" ;
+        c:prefix     "to music, grilling out and camping with " ;
+        c:subject    <http://d.opencalais.com/pershash-1/2b5bed17-2942-3602-8617-38cfed879396> ;
+        c:suffix     " kids.  He excelled in his 14 year career in the" .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Instance/27>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Autumn Marie.  \nHe will be severely missed by ]his[ wife, Erica, and three sons, Daymon, Talon, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "762" ;
+        c:prefix     "Autumn Marie.  \nHe will be severely missed by " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b5586191-20de-3cef-9db0-d2462a0c68bc> ;
+        c:suffix     " wife, Erica, and three sons, Daymon, Talon, and" .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Instance/1>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ 14 year career in the oilfield as toolpusher for ]Logan El Dorado in Enid[.  \nHe was preceded in death by an infant]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:exact      "Logan El Dorado in Enid" ;
+        c:length     "23" ;
+        c:offset     "641" ;
+        c:prefix     " 14 year career in the oilfield as toolpusher for " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/2ee605b5-536a-33b0-ab17-11a5d2503992> ;
+        c:suffix     ".  \nHe was preceded in death by an infant" .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Relevance/15>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/a1ec0ba0-124d-3d92-a8cf-ce99e62c1a94> .
+
+<http://d.opencalais.com/pershash-1/e6d8ac01-a9c9-3ad2-9b36-0bcc9134656c>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Autumn Marie" ;
+        c:confidencelevel    "0.984" ;
+        c:firstname          "Autumn" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Marie" ;
+        c:name               "Autumn Marie" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/2d033734-11ec-38b4-93f3-c23d70eaf9ce>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "wife" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/b5586191-20de-3cef-9db0-d2462a0c68bc> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/e5816d37-9f24-315d-ac70-bb79baf4ec16> .
+
+<http://d.opencalais.com/conf/pershash-1/8b728228-9ea6-30fe-a1de-8c6f38982ede>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.995" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.995" ;
+        c:subject             <http://d.opencalais.com/pershash-1/8b728228-9ea6-30fe-a1de-8c6f38982ede> .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Instance/21>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Keith Lynch, son of ]Douglas Carl  and Carolyn Ruth (Edwards) Lynch, was born March 2, 1973, in Portland, Oregon, and passed away January 11, 2009, in Enid, Oklahoma[, at the age of 35 years, 10 months, and 9 days. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:exact      "Douglas Carl  and Carolyn Ruth (Edwards) Lynch, was born March 2, 1973, in Portland, Oregon, and passed away January 11, 2009, in Enid, Oklahoma" ;
+        c:length     "144" ;
+        c:offset     "25" ;
+        c:prefix     "Keith Lynch, son of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/441ea1a2-cf04-3bc2-81d1-1b8c7b88736b> ;
+        c:suffix     ", at the age of 35 years, 10 months, and 9 days. " .
+
+<http://d.opencalais.com/genericHasher-1/3b4dda23-13ef-359f-b39a-bf10732465d4>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "s Research Hospital" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/meta>
+        a                 <http://s.opencalais.com/1/type/sys/DocInfoMeta> ;
+        c:contentType     "text/raw" ;
+        c:docId           <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:language        "English" ;
+        c:processingVer   "AllMetadata" ;
+        c:serverVersion   "OneCalais_8.3-RELEASE:364" ;
+        c:signature       "digestalg-1|IVblNyLZXsPI4Ha0IrGoDPYGjUs=|LA8wvHICwCopO3KIeNoMXeSYDEM9PXluWbMoJIEwsRtZrtdTiF46QQ==" ;
+        c:stagsVer        "OneCalais_8.3-RELEASE-b11-2015-03-25_18:29:00" ;
+        c:submissionDate  "2015-05-26 17:19:34.637" ;
+        c:submitterCode   "0ca6a864-5659-789d-5f32-f365f695e757" .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Instance/34>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Lynch, was born March 2, 1973, in Portland, ]Oregon[, and passed away January 11, 2009, in Enid,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:exact      "Oregon" ;
+        c:length     "6" ;
+        c:offset     "110" ;
+        c:prefix     "Lynch, was born March 2, 1973, in Portland, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/95509614-15fb-3c20-984e-74f223a9e1bb> ;
+        c:suffix     ", and passed away January 11, 2009, in Enid," .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/1387cd3f-8aa9-83e9-1f68-43b807d6e532>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:latitude            "44.5106146616" ;
+        c:longitude           "-121.431326778" ;
+        c:name                "Oregon,United States" ;
+        c:permid              "100231" ;
+        c:rcscode             "G:9Q" ;
+        c:shortname           "Oregon" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/95509614-15fb-3c20-984e-74f223a9e1bb> .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Instance/47>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[]Eric Keith Lynch, son of Douglas Carl  and Carolyn Ruth (Edwards) Lynch[, was born March 2, 1973, in Portland, Oregon,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:exact      "Eric Keith Lynch, son of Douglas Carl  and Carolyn Ruth (Edwards) Lynch" ;
+        c:length     "71" ;
+        c:offset     "0" ;
+        c:prefix     "" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/6e201f8d-7d7f-3e18-9ba7-56505292fede> ;
+        c:suffix     ", was born March 2, 1973, in Portland, Oregon," .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Instance/19>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Autumn Marie.  \nHe will be severely missed by ]his wife, Erica[, and three sons, Daymon, Talon, and Tydus.  He]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:exact      "his wife, Erica" ;
+        c:length     "15" ;
+        c:offset     "762" ;
+        c:prefix     "Autumn Marie.  \nHe will be severely missed by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/2d033734-11ec-38b4-93f3-c23d70eaf9ce> ;
+        c:suffix     ", and three sons, Daymon, Talon, and Tydus.  He" .
+
+<http://d.opencalais.com/genericHasher-1/c6ff5d00-0557-3be0-a04a-e1de2301bf38>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "son" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/46b0ac90-e12d-3a6e-8beb-9a831c39605b> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/e6fe98ca-f41e-3b3e-a034-738959cbad06> .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Instance/6>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Keith Lynch, son of Douglas Carl  and ]Carolyn Ruth (Edwards) Lynch, was born March 2, 1973, in Portland, Oregon[, and passed away January 11, 2009, in Enid,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:exact      "Carolyn Ruth (Edwards) Lynch, was born March 2, 1973, in Portland, Oregon" ;
+        c:length     "73" ;
+        c:offset     "43" ;
+        c:prefix     "Keith Lynch, son of Douglas Carl  and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9ed19716-27e3-3bb3-a0f7-7d6af33ad2e7> ;
+        c:suffix     ", and passed away January 11, 2009, in Enid," .
+
+<http://d.opencalais.com/genericHasher-1/27f221a1-d203-3a49-bf1e-0f9a23d57316>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "sister" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/3098f4a1-3825-35e5-8ac1-dfd7686a9b80> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/8b728228-9ea6-30fe-a1de-8c6f38982ede> .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Instance/41>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[]Eric Keith Lynch, son of Douglas Carl  and Carolyn Ruth (Edwards) Lynch[, was born March 2, 1973, in Portland, Oregon,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:exact      "Eric Keith Lynch, son of Douglas Carl  and Carolyn Ruth (Edwards) Lynch" ;
+        c:length     "71" ;
+        c:offset     "0" ;
+        c:prefix     "" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c6ff5d00-0557-3be0-a04a-e1de2301bf38> ;
+        c:suffix     ", was born March 2, 1973, in Portland, Oregon," .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Relevance/5>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/616ab440-f774-398d-bfce-4ff8c8cdb6c3> .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Instance/13>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Marie.  \nHe will be severely missed by his wife, ]Erica[, and three sons, Daymon, Talon, and Tydus.  He]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:exact      "Erica" ;
+        c:length     "5" ;
+        c:offset     "772" ;
+        c:prefix     " Marie.  \nHe will be severely missed by his wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/e5816d37-9f24-315d-ac70-bb79baf4ec16> ;
+        c:suffix     ", and three sons, Daymon, Talon, and Tydus.  He" .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/SocialTag/2>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Lahoma, Oklahoma" ;
+        c:originalValue      "Lahoma, Oklahoma" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/960cd935-4a55-367f-a4c0-49d0a72c9e2f> .
+
+<http://d.opencalais.com/conf/pershash-1/a1ec0ba0-124d-3d92-a8cf-ce99e62c1a94>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.994" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.996" ;
+        c:subject             <http://d.opencalais.com/pershash-1/a1ec0ba0-124d-3d92-a8cf-ce99e62c1a94> .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Instance/54>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[at the First Church of the Nazarene in Enid.  ]He[ enjoyed playing the guitar, listening to music,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:exact      "He" ;
+        c:length     "2" ;
+        c:offset     "481" ;
+        c:prefix     "at the First Church of the Nazarene in Enid.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/2b5bed17-2942-3602-8617-38cfed879396> ;
+        c:suffix     " enjoyed playing the guitar, listening to music," .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Instance/26>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in death by an infant daughter, Autumn Marie.  \n]He[ will be severely missed by his wife, Erica, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:exact      "He" ;
+        c:length     "2" ;
+        c:offset     "732" ;
+        c:prefix     "in death by an infant daughter, Autumn Marie.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/b5586191-20de-3cef-9db0-d2462a0c68bc> ;
+        c:suffix     " will be severely missed by his wife, Erica, and" .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Instance/39>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[brother, Brian Lynch; his sister, Emily Lynch; ]his[ grandma, Jimmie Edwards; his grandfather, DeLee]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "945" ;
+        c:prefix     "brother, Brian Lynch; his sister, Emily Lynch; " ;
+        c:subject    <http://d.opencalais.com/pershash-1/3098f4a1-3825-35e5-8ac1-dfd7686a9b80> ;
+        c:suffix     " grandma, Jimmie Edwards; his grandfather, DeLee" .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Relevance/14>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/02391de3-32f5-3fa9-a9d1-e21711704d0c> .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Instance/20>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ \nHe was preceded in death by an infant daughter, ]Autumn Marie[.  \nHe will be severely missed by his wife,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:exact      "Autumn Marie" ;
+        c:length     "12" ;
+        c:offset     "716" ;
+        c:prefix     " \nHe was preceded in death by an infant daughter, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/e6d8ac01-a9c9-3ad2-9b36-0bcc9134656c> ;
+        c:suffix     ".  \nHe will be severely missed by his wife," .
+
+<http://d.opencalais.com/genericHasher-1/d4cd9833-e3ee-376e-9682-f3513c63a95e>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "brother" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/46b0ac90-e12d-3a6e-8beb-9a831c39605b> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/3098f4a1-3825-35e5-8ac1-dfd7686a9b80> .
+
+<http://d.opencalais.com/genericHasher-1/95509614-15fb-3c20-984e-74f223a9e1bb>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oregon" .
+
+<http://d.opencalais.com/pershash-1/46b0ac90-e12d-3a6e-8beb-9a831c39605b>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Douglas Carl" ;
+        c:confidencelevel    "0.997" ;
+        c:firstname          "Douglas" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Carl" ;
+        c:name               "Douglas Carl" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Instance/33>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Lynch; his sister, Emily Lynch; his grandma, ]Jimmie Edwards[; his grandfather, DeLee Lynch; other relatives]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:exact      "Jimmie Edwards" ;
+        c:length     "14" ;
+        c:offset     "958" ;
+        c:prefix     "Lynch; his sister, Emily Lynch; his grandma, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/5aba2b44-4648-375d-b34e-02b9fd087318> ;
+        c:suffix     "; his grandfather, DeLee Lynch; other relatives" .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Instance/46>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[  He is also survived by his parents, Douglas and ]Carolyn Lynch[ of Cache; his brother, Brian Lynch; his sister,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:exact      "Carolyn Lynch" ;
+        c:length     "13" ;
+        c:offset     "870" ;
+        c:prefix     "  He is also survived by his parents, Douglas and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/e6fe98ca-f41e-3b3e-a034-738959cbad06> ;
+        c:suffix     " of Cache; his brother, Brian Lynch; his sister," .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Instance/18>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Erica Elaine Welch, on May 10, 2005, in Enid, ]Oklahoma[ and they made their home in Waukomis.  \nHe]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "367" ;
+        c:prefix     "Erica Elaine Welch, on May 10, 2005, in Enid, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     " and they made their home in Waukomis.  \nHe" .
+
+<http://d.opencalais.com/pershash-1/e6fe98ca-f41e-3b3e-a034-738959cbad06>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Carolyn Ruth Lynch" ;
+        c:confidencelevel    "0.998" ;
+        c:firstname          "Carolyn" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Lynch" ;
+        c:middlename         "Ruth" ;
+        c:name               "Carolyn Ruth (Edwards) Lynch" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/02391de3-32f5-3fa9-a9d1-e21711704d0c>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Portland" .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Instance/5>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ his parents, Douglas and Carolyn Lynch of Cache; ]his[ brother, Brian Lynch; his sister, Emily Lynch;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "894" ;
+        c:prefix     " his parents, Douglas and Carolyn Lynch of Cache; " ;
+        c:subject    <http://d.opencalais.com/pershash-1/46b0ac90-e12d-3a6e-8beb-9a831c39605b> ;
+        c:suffix     " brother, Brian Lynch; his sister, Emily Lynch;" .
+
+<http://d.opencalais.com/conf/pershash-1/5aba2b44-4648-375d-b34e-02b9fd087318>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.993" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.995" ;
+        c:subject             <http://d.opencalais.com/pershash-1/5aba2b44-4648-375d-b34e-02b9fd087318> .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Instance/40>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Emily Lynch; his grandma, Jimmie Edwards; ]his[ grandfather, DeLee Lynch; other relatives and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "974" ;
+        c:prefix     "Emily Lynch; his grandma, Jimmie Edwards; " ;
+        c:subject    <http://d.opencalais.com/pershash-1/3098f4a1-3825-35e5-8ac1-dfd7686a9b80> ;
+        c:suffix     " grandfather, DeLee Lynch; other relatives and" .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Relevance/4>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/e5816d37-9f24-315d-ac70-bb79baf4ec16> .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Instance/12>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Autumn Marie.  \nHe will be severely missed by ]his wife, Erica[, and three sons, Daymon, Talon, and Tydus.  He]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:exact      "his wife, Erica" ;
+        c:length     "15" ;
+        c:offset     "762" ;
+        c:prefix     "Autumn Marie.  \nHe will be severely missed by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b8775680-0198-3b55-9810-d8b56380696c> ;
+        c:suffix     ", and three sons, Daymon, Talon, and Tydus.  He" .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/SocialTag/1>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Enid" ;
+        c:originalValue      "Enid" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/63968db5-7d7b-3ecb-a2da-2dda55402eb0> .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Instance/53>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Oklahoma and they made their home in Waukomis.  \n]He[ attended church at the First Church of the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:exact      "He" ;
+        c:length     "2" ;
+        c:offset     "416" ;
+        c:prefix     " Oklahoma and they made their home in Waukomis.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/2b5bed17-2942-3602-8617-38cfed879396> ;
+        c:suffix     " attended church at the First Church of the" .
+
+<http://d.opencalais.com/pershash-1/2b5bed17-2942-3602-8617-38cfed879396>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Eric Keith Lynch" ;
+        c:confidencelevel    "0.993" ;
+        c:firstname          "Eric" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Lynch" ;
+        c:middlename         "Keith" ;
+        c:name               "Eric Keith Lynch" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Instance/25>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[as toolpusher for Logan El Dorado in Enid.  \n]He[ was preceded in death by an infant daughter,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:exact      "He" ;
+        c:length     "2" ;
+        c:offset     "668" ;
+        c:prefix     "as toolpusher for Logan El Dorado in Enid.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/b5586191-20de-3cef-9db0-d2462a0c68bc> ;
+        c:suffix     " was preceded in death by an infant daughter," .
+
+<http://d.opencalais.com/genericHasher-1/36c8df25-e3ad-3c49-b5c9-ddbcf0be60ce>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "grandfather" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/3098f4a1-3825-35e5-8ac1-dfd7686a9b80> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/e6c894fe-7f9a-39fc-a7d9-a6ffb03d4536> .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Instance/38>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Lynch of Cache; his brother, Brian Lynch; ]his[ sister, Emily Lynch; his grandma, Jimmie]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "920" ;
+        c:prefix     "Lynch of Cache; his brother, Brian Lynch; " ;
+        c:subject    <http://d.opencalais.com/pershash-1/3098f4a1-3825-35e5-8ac1-dfd7686a9b80> ;
+        c:suffix     " sister, Emily Lynch; his grandma, Jimmie" .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Relevance/13>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/3098f4a1-3825-35e5-8ac1-dfd7686a9b80> .
+
+<http://d.opencalais.com/genericHasher-1/441ea1a2-cf04-3bc2-81d1-1b8c7b88736b>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Enid, Oklahoma" ;
+        c:person             <http://d.opencalais.com/pershash-1/46b0ac90-e12d-3a6e-8beb-9a831c39605b> .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Instance/32>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[brother, Brian Lynch; his sister, Emily Lynch; ]his grandma, Jimmie Edwards[; his grandfather, DeLee Lynch; other relatives]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:exact      "his grandma, Jimmie Edwards" ;
+        c:length     "27" ;
+        c:offset     "945" ;
+        c:prefix     "brother, Brian Lynch; his sister, Emily Lynch; " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/5bb2678e-75e2-38ed-adb5-6cb90243f3c4> ;
+        c:suffix     "; his grandfather, DeLee Lynch; other relatives" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/8bb87798-95ed-ec33-84b4-3a027e5761e8>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oregon" ;
+        c:docId               <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:latitude            "45.5236" ;
+        c:longitude           "-122.675" ;
+        c:name                "Portland,Oregon,United States" ;
+        c:rcscode             "G:2DW" ;
+        c:shortname           "Portland" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/02391de3-32f5-3fa9-a9d1-e21711704d0c> .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Instance/45>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Keith Lynch, son of Douglas Carl  and ]Carolyn Ruth (Edwards) Lynch[, was born March 2, 1973, in Portland, Oregon,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:exact      "Carolyn Ruth (Edwards) Lynch" ;
+        c:length     "28" ;
+        c:offset     "43" ;
+        c:prefix     "Keith Lynch, son of Douglas Carl  and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/e6fe98ca-f41e-3b3e-a034-738959cbad06> ;
+        c:suffix     ", was born March 2, 1973, in Portland, Oregon," .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Relevance/9>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/56d6bb77-3ad0-33b6-813d-47817655696a> .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Instance/17>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[days.  \nEric attended school in Enid and Cache, ]Oklahoma[. He was united in marriage to his childhood]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "260" ;
+        c:prefix     "days.  \nEric attended school in Enid and Cache, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ". He was united in marriage to his childhood" .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/cat/1>
+        a                    <http://s.opencalais.com/1/type/cat/DocCat> ;
+        c:docId              <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Human Interest" ;
+        c:score              "0.911" .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/lid/DefaultLangId>
+        a                    <http://s.opencalais.com/1/type/lid/DefaultLangId> ;
+        c:docId              <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:forenduserdisplay  "false" ;
+        c:lang               <http://d.opencalais.com/lid/DefaultLangId/English> ;
+        c:permid             "505062" .
+
+<http://d.opencalais.com/genericHasher-1/450c7c14-8758-308a-bd4d-4c102cc4d6a7>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/a1ec0ba0-124d-3d92-a8cf-ce99e62c1a94> , <http://d.opencalais.com/pershash-1/2b5bed17-2942-3602-8617-38cfed879396> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Instance/4>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and Tydus.  He is also survived by his parents, ]Douglas[ and Carolyn Lynch of Cache; his brother, Brian]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:exact      "Douglas" ;
+        c:length     "7" ;
+        c:offset     "858" ;
+        c:prefix     "and Tydus.  He is also survived by his parents, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/46b0ac90-e12d-3a6e-8beb-9a831c39605b> ;
+        c:suffix     " and Carolyn Lynch of Cache; his brother, Brian" .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/ComponentVersions>
+        a          <http://s.opencalais.com/1/type/sys/ComponentVersions> ;
+        c:docId    <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:version  "BlackList:264:264" , "OneCalaisIM:OneCalais_8.3-RELEASE:198" , "config-negativeSignature:258:258" , "OA Index:201505252208:201505252208" , "config-sca-DataPackage:34:34" , "config-physicalAssets-ports:258:258" , "Deals Index:201505261613:201505261613" , "config-vessels:258:258" , "AutocoderRuntimeIM:OneCalais_8.3-RELEASE:198" , "OneCalais:OneCalais_8.3-RELEASE:364" , "WatchDog:OneCalais_8.3-RELEASE:113" , "config-cse:271:271" , "People Override:258:258" , "Dial4J:OneCalais_8.3-RELEASE:198" , "People Index:201505261608:201505261608" , "Housekeeper:OneCalais_8.3-RELEASE:113" , "SpanishIM:OneCalais_8.3-RELEASE:198" , "Collector:OneCalais_8.3-RELEASE:113" , "SECHeaderMetadataIM:OneCalais_8.3-RELEASE:198" , "com.clearforest.infoext.dial4j.plugins-basistechconfig:OneCalais_8.3-RELEASE:225" , "SocialTags Index:201505191038:201505191038" , "config-drugs:258:258" , "FrenchIM:OneCalais_8.3-RELEASE:198" , "config-refineries:258:258" , "OA Override:271:271" , "index-vessels:201505231718:201505231718" , "NextTags:OneCalais_8.3-RELEASE:113" , "BrokerResearchIM:OneCalais_8.3-RELEASE:198" .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Relevance/18>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/2b5bed17-2942-3602-8617-38cfed879396> .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Relevance/3>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/35a979c1-2108-3761-99bd-8c6f499ef6f2> .
+
+<http://d.opencalais.com/genericHasher-1/9ed19716-27e3-3bb3-a0f7-7d6af33ad2e7>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonAttributes> ;
+        c:birthdate          "1973-03-02" ;
+        c:birthplace         <http://d.opencalais.com/genericHasher-1/02391de3-32f5-3fa9-a9d1-e21711704d0c> ;
+        c:forenduserdisplay  "false" ;
+        c:gender             "F" ;
+        c:person             <http://d.opencalais.com/pershash-1/e6fe98ca-f41e-3b3e-a034-738959cbad06> .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Instance/11>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[oilfield as toolpusher for Logan El Dorado in ]Enid[.  \nHe was preceded in death by an infant]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:exact      "Enid" ;
+        c:length     "4" ;
+        c:offset     "660" ;
+        c:prefix     "oilfield as toolpusher for Logan El Dorado in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/35a979c1-2108-3761-99bd-8c6f499ef6f2> ;
+        c:suffix     ".  \nHe was preceded in death by an infant" .
+
+<http://d.opencalais.com/conf/pershash-1/e6c894fe-7f9a-39fc-a7d9-a6ffb03d4536>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.838" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.873" ;
+        c:subject             <http://d.opencalais.com/pershash-1/e6c894fe-7f9a-39fc-a7d9-a6ffb03d4536> .
+
+<http://d.opencalais.com/conf/pershash-1/e5816d37-9f24-315d-ac70-bb79baf4ec16>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.838" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.873" ;
+        c:subject             <http://d.opencalais.com/pershash-1/e5816d37-9f24-315d-ac70-bb79baf4ec16> .
+
+<http://d.opencalais.com/conf/pershash-1/3098f4a1-3825-35e5-8ac1-dfd7686a9b80>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.999" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.999" ;
+        c:subject             <http://d.opencalais.com/pershash-1/3098f4a1-3825-35e5-8ac1-dfd7686a9b80> .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Instance/52>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Cache, Oklahoma. He was united in marriage to ]his[ childhood friend, Erica Elaine Welch, on May 10,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "299" ;
+        c:prefix     "Cache, Oklahoma. He was united in marriage to " ;
+        c:subject    <http://d.opencalais.com/pershash-1/2b5bed17-2942-3602-8617-38cfed879396> ;
+        c:suffix     " childhood friend, Erica Elaine Welch, on May 10," .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Instance/24>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ 14 year career in the oilfield as toolpusher for ]Logan El Dorado[ in Enid.  \nHe was preceded in death by an infant]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:exact      "Logan El Dorado" ;
+        c:length     "15" ;
+        c:offset     "641" ;
+        c:prefix     " 14 year career in the oilfield as toolpusher for " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b5586191-20de-3cef-9db0-d2462a0c68bc> ;
+        c:suffix     " in Enid.  \nHe was preceded in death by an infant" .
+
+<http://d.opencalais.com/pershash-1/a1ec0ba0-124d-3d92-a8cf-ce99e62c1a94>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Erica Elaine Welch" ;
+        c:confidencelevel    "0.994" ;
+        c:firstname          "Erica" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Welch" ;
+        c:middlename         "Elaine" ;
+        c:name               "Erica Elaine Welch" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Instance/37>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Douglas and Carolyn Lynch of Cache; his brother, ]Brian Lynch[; his sister, Emily Lynch; his grandma, Jimmie]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:exact      "Brian Lynch" ;
+        c:length     "11" ;
+        c:offset     "907" ;
+        c:prefix     " Douglas and Carolyn Lynch of Cache; his brother, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/3098f4a1-3825-35e5-8ac1-dfd7686a9b80> ;
+        c:suffix     "; his sister, Emily Lynch; his grandma, Jimmie" .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Relevance/12>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/e6c894fe-7f9a-39fc-a7d9-a6ffb03d4536> .
+
+<http://d.opencalais.com/conf/pershash-1/b5586191-20de-3cef-9db0-d2462a0c68bc>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.979" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.988" ;
+        c:subject             <http://d.opencalais.com/pershash-1/b5586191-20de-3cef-9db0-d2462a0c68bc> .
+
+<http://d.opencalais.com/genericHasher-1/b8775680-0198-3b55-9810-d8b56380696c>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/e5816d37-9f24-315d-ac70-bb79baf4ec16> , <http://d.opencalais.com/pershash-1/b5586191-20de-3cef-9db0-d2462a0c68bc> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Instance/9>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[friend, Erica Elaine Welch, on May 10, 2005, in ]Enid[, Oklahoma and they made their home in Waukomis. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:exact      "Enid" ;
+        c:length     "4" ;
+        c:offset     "361" ;
+        c:prefix     "friend, Erica Elaine Welch, on May 10, 2005, in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/35a979c1-2108-3761-99bd-8c6f499ef6f2> ;
+        c:suffix     ", Oklahoma and they made their home in Waukomis. " .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Instance/31>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[by his parents, Douglas and Carolyn Lynch of ]Cache[; his brother, Brian Lynch; his sister, Emily]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:exact      "Cache" ;
+        c:length     "5" ;
+        c:offset     "887" ;
+        c:prefix     "by his parents, Douglas and Carolyn Lynch of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/56d6bb77-3ad0-33b6-813d-47817655696a> ;
+        c:suffix     "; his brother, Brian Lynch; his sister, Emily" .
+
+<http://d.opencalais.com/genericHasher-1/ee00fa8c-e7fe-3888-9bbc-c6cc5b945d89>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Cache" ;
+        c:person             <http://d.opencalais.com/pershash-1/e6fe98ca-f41e-3b3e-a034-738959cbad06> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/a8b4339e-7cb4-37d6-d67b-a1121edd8f06>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:latitude            "34.6294" ;
+        c:longitude           "-98.6283" ;
+        c:name                "Cache,Oklahoma,United States" ;
+        c:shortname           "Cache" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/56d6bb77-3ad0-33b6-813d-47817655696a> .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Instance/44>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Cache; his brother, Brian Lynch; his sister, ]Emily Lynch[; his grandma, Jimmie Edwards; his grandfather,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:exact      "Emily Lynch" ;
+        c:length     "11" ;
+        c:offset     "932" ;
+        c:prefix     "of Cache; his brother, Brian Lynch; his sister, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/8b728228-9ea6-30fe-a1de-8c6f38982ede> ;
+        c:suffix     "; his grandma, Jimmie Edwards; his grandfather," .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Relevance/8>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/b5586191-20de-3cef-9db0-d2462a0c68bc> .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Instance/16>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and passed away January 11, 2009, in Enid, ]Oklahoma[, at the age of 35 years, 10 months, and 9 days. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "161" ;
+        c:prefix     "and passed away January 11, 2009, in Enid, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", at the age of 35 years, 10 months, and 9 days. " .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Instance/57>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[out and camping with his kids.  He excelled in ]his[ 14 year career in the oilfield as toolpusher for]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "588" ;
+        c:prefix     "out and camping with his kids.  He excelled in " ;
+        c:subject    <http://d.opencalais.com/pershash-1/2b5bed17-2942-3602-8617-38cfed879396> ;
+        c:suffix     " 14 year career in the oilfield as toolpusher for" .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Instance/29>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Talon, and Tydus.  He is also survived by ]his[ parents, Douglas and Carolyn Lynch of Cache; his]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "845" ;
+        c:prefix     "Talon, and Tydus.  He is also survived by " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b5586191-20de-3cef-9db0-d2462a0c68bc> ;
+        c:suffix     " parents, Douglas and Carolyn Lynch of Cache; his" .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Instance/3>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Keith Lynch, son of ]Douglas Carl[  and Carolyn Ruth (Edwards) Lynch, was born]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:exact      "Douglas Carl" ;
+        c:length     "12" ;
+        c:offset     "25" ;
+        c:prefix     "Keith Lynch, son of " ;
+        c:subject    <http://d.opencalais.com/pershash-1/46b0ac90-e12d-3a6e-8beb-9a831c39605b> ;
+        c:suffix     "  and Carolyn Ruth (Edwards) Lynch, was born" .
+
+<http://d.opencalais.com/conf/pershash-1/e6d8ac01-a9c9-3ad2-9b36-0bcc9134656c>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.984" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.989" ;
+        c:subject             <http://d.opencalais.com/pershash-1/e6d8ac01-a9c9-3ad2-9b36-0bcc9134656c> .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Relevance/17>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/pershash-1/e6fe98ca-f41e-3b3e-a034-738959cbad06> .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Relevance/2>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/pershash-1/46b0ac90-e12d-3a6e-8beb-9a831c39605b> .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d>
+        a                  <http://s.opencalais.com/1/type/sys/DocInfo> ;
+        c:calaisRequestID  "7f027468-0496-80ce-14d9-13c8eed7848c" ;
+        c:docDate          "2015-05-26 17:19:34.872" ;
+        c:docTitle         "" ;
+        c:document         "Eric Keith Lynch, son of Douglas Carl  and Carolyn Ruth (Edwards) Lynch, was born March 2, 1973, in Portland, Oregon, and passed away January 11, 2009, in Enid, Oklahoma, at the age of 35 years, 10 months, and 9 days.  \nEric attended school in Enid and Cache, Oklahoma. He was united in marriage to his childhood friend, Erica Elaine Welch, on May 10, 2005, in Enid, Oklahoma and they made their home in Waukomis.  \nHe attended church at the First Church of the Nazarene in Enid.  He enjoyed playing the guitar, listening to music, grilling out and camping with his kids.  He excelled in his 14 year career in the oilfield as toolpusher for Logan El Dorado in Enid.  \nHe was preceded in death by an infant daughter, Autumn Marie.  \nHe will be severely missed by his wife, Erica, and three sons, Daymon, Talon, and Tydus.  He is also survived by his parents, Douglas and Carolyn Lynch of Cache; his brother, Brian Lynch; his sister, Emily Lynch; his grandma, Jimmie Edwards; his grandfather, DeLee Lynch; other relatives and many friends.  \nMemorial contributions may be made through the funeral home to St. Judes Children?s Research Hospital. \n\t\t\t" ;
+        c:id               "http://id.opencalais.com/ffG-cQZe8FIaMUzevxUS4Q" ;
+        c:ontology         "http://163.231.4.65/owlschema/8.3/onecalais.owl.allmetadata.xml" .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Instance/10>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[church at the First Church of the Nazarene in ]Enid[.  He enjoyed playing the guitar, listening to]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:exact      "Enid" ;
+        c:length     "4" ;
+        c:offset     "474" ;
+        c:prefix     "church at the First Church of the Nazarene in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/35a979c1-2108-3761-99bd-8c6f499ef6f2> ;
+        c:suffix     ".  He enjoyed playing the guitar, listening to" .
+
+<http://d.opencalais.com/pershash-1/8b728228-9ea6-30fe-a1de-8c6f38982ede>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Emily Lynch" ;
+        c:confidencelevel    "0.995" ;
+        c:firstname          "Emily" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Lynch" ;
+        c:name               "Emily Lynch" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/pershash-1/5aba2b44-4648-375d-b34e-02b9fd087318>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Jimmie Edwards" ;
+        c:confidencelevel    "0.993" ;
+        c:firstname          "Jimmie" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Edwards" ;
+        c:name               "Jimmie Edwards" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Instance/51>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[attended school in Enid and Cache, Oklahoma. ]He[ was united in marriage to his childhood friend,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:exact      "He" ;
+        c:length     "2" ;
+        c:offset     "270" ;
+        c:prefix     "attended school in Enid and Cache, Oklahoma. " ;
+        c:subject    <http://d.opencalais.com/pershash-1/2b5bed17-2942-3602-8617-38cfed879396> ;
+        c:suffix     " was united in marriage to his childhood friend," .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Instance/23>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[attended school in Enid and Cache, Oklahoma. ]He was united in marriage to his childhood friend, Erica Elaine Welch[, on May 10, 2005, in Enid, Oklahoma and they]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:exact      "He was united in marriage to his childhood friend, Erica Elaine Welch" ;
+        c:length     "69" ;
+        c:offset     "270" ;
+        c:prefix     "attended school in Enid and Cache, Oklahoma. " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/450c7c14-8758-308a-bd4d-4c102cc4d6a7> ;
+        c:suffix     ", on May 10, 2005, in Enid, Oklahoma and they" .
+
+<http://d.opencalais.com/genericHasher-1/56d6bb77-3ad0-33b6-813d-47817655696a>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Cache" .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Instance/36>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Lynch of Cache; his brother, Brian Lynch; ]his sister, Emily Lynch[; his grandma, Jimmie Edwards; his grandfather,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:exact      "his sister, Emily Lynch" ;
+        c:length     "23" ;
+        c:offset     "920" ;
+        c:prefix     "Lynch of Cache; his brother, Brian Lynch; " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/27f221a1-d203-3a49-bf1e-0f9a23d57316> ;
+        c:suffix     "; his grandma, Jimmie Edwards; his grandfather," .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Relevance/11>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/95509614-15fb-3c20-984e-74f223a9e1bb> .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Instance/49>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[]Eric Keith Lynch[, son of Douglas Carl  and Carolyn Ruth (Edwards)]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:exact      "Eric Keith Lynch" ;
+        c:length     "16" ;
+        c:offset     "0" ;
+        c:prefix     "" ;
+        c:subject    <http://d.opencalais.com/pershash-1/2b5bed17-2942-3602-8617-38cfed879396> ;
+        c:suffix     ", son of Douglas Carl  and Carolyn Ruth (Edwards)" .
+
+<http://d.opencalais.com/genericHasher-1/2ee605b5-536a-33b0-ab17-11a5d2503992>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Enid" ;
+        c:person             <http://d.opencalais.com/pershash-1/b5586191-20de-3cef-9db0-d2462a0c68bc> .
+
+<http://d.opencalais.com/genericHasher-1/6e201f8d-7d7f-3e18-9ba7-56505292fede>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "son" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/46b0ac90-e12d-3a6e-8beb-9a831c39605b> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/2b5bed17-2942-3602-8617-38cfed879396> .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Instance/8>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ 10 months, and 9 days.  \nEric attended school in ]Enid[ and Cache, Oklahoma. He was united in marriage]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:exact      "Enid" ;
+        c:length     "4" ;
+        c:offset     "244" ;
+        c:prefix     " 10 months, and 9 days.  \nEric attended school in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/35a979c1-2108-3761-99bd-8c6f499ef6f2> ;
+        c:suffix     " and Cache, Oklahoma. He was united in marriage" .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Instance/30>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and 9 days.  \nEric attended school in Enid and ]Cache[, Oklahoma. He was united in marriage to his]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:exact      "Cache" ;
+        c:length     "5" ;
+        c:offset     "253" ;
+        c:prefix     "and 9 days.  \nEric attended school in Enid and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/56d6bb77-3ad0-33b6-813d-47817655696a> ;
+        c:suffix     ", Oklahoma. He was united in marriage to his" .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Instance/43>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[was united in marriage to his childhood friend, ]Erica Elaine Welch[, on May 10, 2005, in Enid, Oklahoma and they]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:exact      "Erica Elaine Welch" ;
+        c:length     "18" ;
+        c:offset     "321" ;
+        c:prefix     "was united in marriage to his childhood friend, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/a1ec0ba0-124d-3d92-a8cf-ce99e62c1a94> ;
+        c:suffix     ", on May 10, 2005, in Enid, Oklahoma and they" .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Relevance/7>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/e6d8ac01-a9c9-3ad2-9b36-0bcc9134656c> .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Instance/15>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ through the funeral home to St. Judes Children?s ]Research Hospital[. \n\t\t\t]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:exact      "Research Hospital" ;
+        c:length     "17" ;
+        c:offset     "1124" ;
+        c:prefix     " through the funeral home to St. Judes Children?s " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/616ab440-f774-398d-bfce-4ff8c8cdb6c3> ;
+        c:suffix     ". \n\t\t\t" .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Instance/56>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[music, grilling out and camping with his kids.  ]He[ excelled in his 14 year career in the oilfield]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:exact      "He" ;
+        c:length     "2" ;
+        c:offset     "573" ;
+        c:prefix     "music, grilling out and camping with his kids.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/2b5bed17-2942-3602-8617-38cfed879396> ;
+        c:suffix     " excelled in his 14 year career in the oilfield" .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Instance/28>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and three sons, Daymon, Talon, and Tydus.  ]He[ is also survived by his parents, Douglas and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:exact      "He" ;
+        c:length     "2" ;
+        c:offset     "822" ;
+        c:prefix     "and three sons, Daymon, Talon, and Tydus.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b5586191-20de-3cef-9db0-d2462a0c68bc> ;
+        c:suffix     " is also survived by his parents, Douglas and" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/e9e27c26-4013-8712-a5f0-97dcdc412c26>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:latitude            "35.5607802899" ;
+        c:longitude           "-96.8460570462" ;
+        c:name                "Oklahoma,United States" ;
+        c:permid              "100229" ;
+        c:rcscode             "G:9H" ;
+        c:shortname           "Oklahoma" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Instance/2>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[through the funeral home to St. Judes Children?]s Research Hospital[. \n\t\t\t]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:exact      "s Research Hospital" ;
+        c:length     "19" ;
+        c:offset     "1122" ;
+        c:prefix     "through the funeral home to St. Judes Children?" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3b4dda23-13ef-359f-b39a-bf10732465d4> ;
+        c:suffix     ". \n\t\t\t" .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Relevance/16>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/8b728228-9ea6-30fe-a1de-8c6f38982ede> .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Relevance/1>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3b4dda23-13ef-359f-b39a-bf10732465d4> .
+
+<http://d.opencalais.com/conf/pershash-1/46b0ac90-e12d-3a6e-8beb-9a831c39605b>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.997" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.998" ;
+        c:subject             <http://d.opencalais.com/pershash-1/46b0ac90-e12d-3a6e-8beb-9a831c39605b> .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Instance/50>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ at the age of 35 years, 10 months, and 9 days.  \n]Eric[ attended school in Enid and Cache, Oklahoma. He]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:exact      "Eric" ;
+        c:length     "4" ;
+        c:offset     "220" ;
+        c:prefix     " at the age of 35 years, 10 months, and 9 days.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/2b5bed17-2942-3602-8617-38cfed879396> ;
+        c:suffix     " attended school in Enid and Cache, Oklahoma. He" .
+
+<http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d/Instance/22>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Emily Lynch; his grandma, Jimmie Edwards; ]his grandfather, DeLee Lynch[; other relatives and many friends.  \nMemorial]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/53ed0768-40be-3797-b66b-fd7b3093725d> ;
+        c:exact      "his grandfather, DeLee Lynch" ;
+        c:length     "28" ;
+        c:offset     "974" ;
+        c:prefix     "Emily Lynch; his grandma, Jimmie Edwards; " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/36c8df25-e3ad-3c49-b5c9-ddbcf0be60ce> ;
+        c:suffix     "; other relatives and many friends.  \nMemorial" .
+
+<http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oklahoma" .
+
+<http://d.opencalais.com/genericHasher-1/616ab440-f774-398d-bfce-4ff8c8cdb6c3>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Research Hospital" .
+
+<http://d.opencalais.com/genericHasher-1/35a979c1-2108-3761-99bd-8c6f499ef6f2>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Enid" .

@@ -1,0 +1,45 @@
+TrainingDataCreation.java line 202 function tag back and inside the for loop 
+
+
+String[] tokens;
+
+				//tokenize the sentence
+
+				tokens=tokenizer.tokenize(sentences);
+
+				//create self tags (i.e custom tags)
+				String[] selftags=new String[tokens.length];
+				for (int i=0;i<tokens.length;i++)
+				{
+					if(checktagSalutationInObit(tokens[i], obj.getSalutation()))
+					{
+						selftags[i]="Salutation";
+					}
+					else if(checktagFnameSalutationInObit(tokens[i], obj.getFname()))
+					{
+						selftags[i]="FirstName";
+					}
+					else if (checktagMnameSalutationInObit(tokens[i], obj.getMname()))
+					{
+						selftags[i]="MiddleName";
+					}
+					else if(checktagLnameSalutationInObit(tokens[i], obj.getLname()))
+					{
+						selftags[i]="LastName";
+					}
+					else if(checktagDodInObit(tokens[i], obj.getDod()))
+					{
+						selftags[i]="DateOfDeath";
+					}
+					else if(checktagDodInObit(tokens[i], obj.getDob()))
+					{
+						selftags[i]="DateOfBirth";
+					}
+					else
+					{
+						selftags[i]="NOTAG";
+					}
+				}
+				
+				
+				==========================================================================================

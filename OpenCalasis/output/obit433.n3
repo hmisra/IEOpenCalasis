@@ -1,0 +1,1223 @@
+#Relations: FamilyRelation, PersonAttributes, PersonLocation, PersonRelation
+#City: Alva, Freedom, Tahlequah
+#Facility: Alva Municipal Cemetery, Marshall Funeral Home of Alva
+#Organization: Old Cowhand's Association
+#Person: Alvia Moreland, Beulah Moreland, Jodi Gillett, Leota Beulah Fulton, Marietta Jean (Fulton) Graham, Marietta Jean Graham, Marshall Funeral, Mart Fulton, Roger J. Graham
+#ProvinceOrState: Oklahoma, Texas
+#Region: Northwest Oklahoma
+@prefix c:     <http://s.opencalais.com/1/pred/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Instance/20>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Alvia (1967), her mother, Beulah (1990), and ]her[ beloved husband, Mart, who passed away on]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1008" ;
+        c:prefix     "Alvia (1967), her mother, Beulah (1990), and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/e8f107a1-6c7c-3e48-87e0-7706c51e1be8> ;
+        c:suffix     " beloved husband, Mart, who passed away on" .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Instance/33>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[passed away on Wednesday, September 11th in ]Alva[, Oklahoma. She was born on February 5, 1916, to]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "263" ;
+        c:prefix     "passed away on Wednesday, September 11th in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:suffix     ", Oklahoma. She was born on February 5, 1916, to" .
+
+<http://d.opencalais.com/genericHasher-1/ea460f78-1294-3415-9e71-2892e5d0236f>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonAttributes> ;
+        c:age                "97" ;
+        c:forenduserdisplay  "false" ;
+        c:gender             "F" ;
+        c:person             <http://d.opencalais.com/pershash-1/f1c042f0-1f14-3313-b8ed-9cbb763b23d0> .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Instance/46>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Mart, who passed away on October 3, 1993.     \n]Leota[ is survived by her daughter Marietta Jean Graham]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:exact      "Leota" ;
+        c:length     "5" ;
+        c:offset     "1076" ;
+        c:prefix     "Mart, who passed away on October 3, 1993.     \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/f1c042f0-1f14-3313-b8ed-9cbb763b23d0> ;
+        c:suffix     " is survived by her daughter Marietta Jean Graham" .
+
+<http://d.opencalais.com/pershash-1/0a75a696-53d1-32c4-9843-bca24d63108d>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Jodi Gillett" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Jodi" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Gillett" ;
+        c:name               "Jodi Gillett" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/8eade039-a4ea-3277-86f0-dccd360f428f>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Alva Municipal Cemetery" .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Instance/18>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[She was born on February 5, 1916, to Alvia and ]Beulah Moreland[ of Freedom, Oklahoma.     \nIn 1935, she married]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:exact      "Beulah Moreland" ;
+        c:length     "15" ;
+        c:offset     "326" ;
+        c:prefix     "She was born on February 5, 1916, to Alvia and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/e8f107a1-6c7c-3e48-87e0-7706c51e1be8> ;
+        c:suffix     " of Freedom, Oklahoma.     \nIn 1935, she married" .
+
+<http://d.opencalais.com/genericHasher-1/8fe79293-44e2-3d0e-9604-a70a1e1bf5ab>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "father" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/f1c042f0-1f14-3313-b8ed-9cbb763b23d0> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/51725e55-b5e1-3304-a6c3-6d59120dba18> .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Instance/59>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[direction of Marshall Funeral Home of Alva.    \n]Leota Beulah Fulton passed away on Wednesday, September 11th in Alva, Oklahoma[. She was born on February 5, 1916, to Alvia and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:exact      "Leota Beulah Fulton passed away on Wednesday, September 11th in Alva, Oklahoma" ;
+        c:length     "78" ;
+        c:offset     "199" ;
+        c:prefix     "direction of Marshall Funeral Home of Alva.    \n" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/22bbcaf0-3d7d-33f4-8f6c-69cf6ab97b01> ;
+        c:suffix     ". She was born on February 5, 1916, to Alvia and" .
+
+<http://d.opencalais.com/genericHasher-1/57912f5b-a3aa-3e2a-9eaf-c39c4e24c0a3>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Freedom" ;
+        c:person             <http://d.opencalais.com/pershash-1/e8f107a1-6c7c-3e48-87e0-7706c51e1be8> .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Relevance/18>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/0824c880-7431-3846-b832-1042cfbe83e9> .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Instance/40>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Moreland of Freedom, Oklahoma.     \nIn 1935, ]she[ married the love of her life, Mart Fulton. The]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "378" ;
+        c:prefix     "Moreland of Freedom, Oklahoma.     \nIn 1935, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f1c042f0-1f14-3313-b8ed-9cbb763b23d0> ;
+        c:suffix     " married the love of her life, Mart Fulton. The" .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Relevance/4>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Instance/12>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[away on Wednesday, September 11th in Alva, ]Oklahoma[. She was born on February 5, 1916, to Alvia and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "269" ;
+        c:prefix     "away on Wednesday, September 11th in Alva, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ". She was born on February 5, 1916, to Alvia and" .
+
+<http://d.opencalais.com/conf/pershash-1/d94e9f25-4782-3b61-b751-24d3786ecf79>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.984" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.987" ;
+        c:subject             <http://d.opencalais.com/pershash-1/d94e9f25-4782-3b61-b751-24d3786ecf79> .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Instance/53>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Cemetery.  Interment is under the direction of ]Marshall Funeral Home of Alva[.    \nLeota Beulah Fulton passed away on]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:exact      "Marshall Funeral Home of Alva" ;
+        c:length     "29" ;
+        c:offset     "164" ;
+        c:prefix     "Cemetery.  Interment is under the direction of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6bf2c0d-0ac3-3aaa-a334-e02dfcbc3358> ;
+        c:suffix     ".    \nLeota Beulah Fulton passed away on" .
+
+<http://d.opencalais.com/conf/pershash-1/0e5538de-a3fb-3e3e-98e1-c4048a5c577b>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.996" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.997" ;
+        c:subject             <http://d.opencalais.com/pershash-1/0e5538de-a3fb-3e3e-98e1-c4048a5c577b> .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Instance/25>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[    \nIn 1935, she married the love of her life, ]Mart Fulton[. The couple had one daughter, Marietta Jean]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:exact      "Mart Fulton" ;
+        c:length     "11" ;
+        c:offset     "412" ;
+        c:prefix     "    \nIn 1935, she married the love of her life, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/d94e9f25-4782-3b61-b751-24d3786ecf79> ;
+        c:suffix     ". The couple had one daughter, Marietta Jean" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/0a5085e2-9561-e94c-f2c6-12efac644ce0>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:latitude            "35.9153" ;
+        c:longitude           "-94.9697" ;
+        c:name                "Tahlequah,Oklahoma,United States" ;
+        c:shortname           "Tahlequah" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/2ebc7a07-c1dd-3c09-b812-649100908bef> .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Relevance/12>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/0a75a696-53d1-32c4-9843-bca24d63108d> .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Instance/38>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[direction of Marshall Funeral Home of Alva.    \n]Leota Beulah Fulton[ passed away on Wednesday, September 11th in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:exact      "Leota Beulah Fulton" ;
+        c:length     "19" ;
+        c:offset     "199" ;
+        c:prefix     "direction of Marshall Funeral Home of Alva.    \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/f1c042f0-1f14-3313-b8ed-9cbb763b23d0> ;
+        c:suffix     " passed away on Wednesday, September 11th in" .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/SocialTag/5>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "2" ;
+        c:name               "Tahlequah" ;
+        c:originalValue      "Tahlequah" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/02507089-8162-3ff2-b861-14a782539f47> .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Instance/5>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Ron & Jodi Gillett also of El Paso, ]Texas[, as well as several cousins.    \nNorthwest]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:exact      "Texas" ;
+        c:length     "5" ;
+        c:offset     "1307" ;
+        c:prefix     "Ron & Jodi Gillett also of El Paso, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> ;
+        c:suffix     ", as well as several cousins.    \nNorthwest" .
+
+<http://d.opencalais.com/genericHasher-1/f3315b05-320b-3577-a68c-6f6bc177f483>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "mother" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/f1c042f0-1f14-3313-b8ed-9cbb763b23d0> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/e8f107a1-6c7c-3e48-87e0-7706c51e1be8> .
+
+<http://d.opencalais.com/genericHasher-1/f1234e17-3b1a-3b28-a87a-61ebbfcf37ce>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/d94e9f25-4782-3b61-b751-24d3786ecf79> , <http://d.opencalais.com/pershash-1/f1c042f0-1f14-3313-b8ed-9cbb763b23d0> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/genericHasher-1/a810408b-29b3-3c0f-8869-a33bf2d0df1c>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonAttributes> ;
+        c:birthdate          "1916-02-05" ;
+        c:forenduserdisplay  "false" ;
+        c:gender             "F" ;
+        c:person             <http://d.opencalais.com/pershash-1/f1c042f0-1f14-3313-b8ed-9cbb763b23d0> .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Instance/60>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Cemetery.  Interment is under the direction of ]Marshall Funeral[ Home of Alva.    \nLeota Beulah Fulton passed]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:exact      "Marshall Funeral" ;
+        c:length     "16" ;
+        c:offset     "164" ;
+        c:prefix     "Cemetery.  Interment is under the direction of " ;
+        c:subject    <http://d.opencalais.com/pershash-1/0824c880-7431-3846-b832-1042cfbe83e9> ;
+        c:suffix     " Home of Alva.    \nLeota Beulah Fulton passed" .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Instance/32>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[under the direction of Marshall Funeral Home of ]Alva[.    \nLeota Beulah Fulton passed away on]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "189" ;
+        c:prefix     "under the direction of Marshall Funeral Home of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:suffix     ".    \nLeota Beulah Fulton passed away on" .
+
+<http://d.opencalais.com/conf/pershash-1/e8f107a1-6c7c-3e48-87e0-7706c51e1be8>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.996" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.997" ;
+        c:subject             <http://d.opencalais.com/pershash-1/e8f107a1-6c7c-3e48-87e0-7706c51e1be8> .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Instance/45>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[preceded in death by her father, Alvia (1967), ]her[ mother, Beulah (1990), and her beloved husband,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "977" ;
+        c:prefix     "preceded in death by her father, Alvia (1967), " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f1c042f0-1f14-3313-b8ed-9cbb763b23d0> ;
+        c:suffix     " mother, Beulah (1990), and her beloved husband," .
+
+<http://d.opencalais.com/pershash-1/51725e55-b5e1-3304-a6c3-6d59120dba18>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Alvia Moreland" ;
+        c:confidencelevel    "0.634" ;
+        c:firstname          "Beulah" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Moreland" ;
+        c:name               "Alvia Moreland" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Relevance/9>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/af67158c-3273-300a-937b-528dafd84387> .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Instance/17>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[compassion.     \nLeota is preceded in death by ]her father, Alvia (1967)[, her mother, Beulah (1990), and her beloved]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:exact      "her father, Alvia (1967)" ;
+        c:length     "24" ;
+        c:offset     "951" ;
+        c:prefix     "compassion.     \nLeota is preceded in death by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8fe79293-44e2-3d0e-9604-a70a1e1bf5ab> ;
+        c:suffix     ", her mother, Beulah (1990), and her beloved" .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Instance/58>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[life, Mart Fulton. The couple had one daughter, ]Marietta Jean (Fulton) Graham[, born August 20, 1936. For the next 58 years,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:exact      "Marietta Jean (Fulton) Graham" ;
+        c:length     "29" ;
+        c:offset     "454" ;
+        c:prefix     "life, Mart Fulton. The couple had one daughter, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/eee2b3c8-6aa4-3c2f-8ab1-355fa6528b0b> ;
+        c:suffix     ", born August 20, 1936. For the next 58 years," .
+
+<http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Texas" .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Relevance/17>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/eee2b3c8-6aa4-3c2f-8ab1-355fa6528b0b> .
+
+<http://d.opencalais.com/conf/pershash-1/af67158c-3273-300a-937b-528dafd84387>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.996" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.997" ;
+        c:subject             <http://d.opencalais.com/pershash-1/af67158c-3273-300a-937b-528dafd84387> .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Relevance/3>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b1859fdd-73f6-32ef-821a-b28e8c0c4ead> .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Instance/11>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Home in Alva or the Old Cowhand's Association in ]Freedom[. \n\t\t\t]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:exact      "Freedom" ;
+        c:length     "7" ;
+        c:offset     "1675" ;
+        c:prefix     " Home in Alva or the Old Cowhand's Association in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b1859fdd-73f6-32ef-821a-b28e8c0c4ead> ;
+        c:suffix     ". \n\t\t\t" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/62914270-0a1c-1bcc-880e-6dbe9fb82eb9>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:latitude            "31.4484328889" ;
+        c:longitude           "-97.7816569778" ;
+        c:name                "Texas,United States" ;
+        c:permid              "100299" ;
+        c:rcscode             "G:50" ;
+        c:shortname           "Texas" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Instance/52>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[3, 1993.     \nLeota is survived by her daughter ]Marietta Jean Graham[ of El Paso, Texas, her grandson Roger J. Graham]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:exact      "Marietta Jean Graham" ;
+        c:length     "20" ;
+        c:offset     "1110" ;
+        c:prefix     "3, 1993.     \nLeota is survived by her daughter " ;
+        c:subject    <http://d.opencalais.com/pershash-1/0e5538de-a3fb-3e3e-98e1-c4048a5c577b> ;
+        c:suffix     " of El Paso, Texas, her grandson Roger J. Graham" .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Instance/24>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Jean Graham of El Paso, Texas, her grandson ]Roger J. Graham of Tahlequah, Oklahoma (the Cherokee Nation)[, and her granddaughter and grandson-in-law Ron]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:exact      "Roger J. Graham of Tahlequah, Oklahoma (the Cherokee Nation)" ;
+        c:length     "60" ;
+        c:offset     "1163" ;
+        c:prefix     "Jean Graham of El Paso, Texas, her grandson " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c5df657e-116a-3db3-9bdc-c12c572917ca> ;
+        c:suffix     ", and her granddaughter and grandson-in-law Ron" .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Relevance/11>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d>
+        a                  <http://s.opencalais.com/1/type/sys/DocInfo> ;
+        c:calaisRequestID  "5d3c19ca-c796-2f1e-14d9-13fba5d6fa60" ;
+        c:docDate          "2015-05-26 17:23:02.691" ;
+        c:docTitle         "" ;
+        c:document         "Graveside services for Leota Beulah Fulton, 97, will be 10:00 a.m. on Monday, September 16, 2013,  at Alva Municipal Cemetery.  Interment is under the direction of Marshall Funeral Home of Alva.    \nLeota Beulah Fulton passed away on Wednesday, September 11th in Alva, Oklahoma. She was born on February 5, 1916, to Alvia and Beulah Moreland of Freedom, Oklahoma.     \nIn 1935, she married the love of her life, Mart Fulton. The couple had one daughter, Marietta Jean (Fulton) Graham, born August 20, 1936. For the next 58 years, the two were rarely apart, making their living farming and ranching near Freedom. Many will remember seeing them late in life, holding hands as they walked together at places like the Freedom Rodeo or the Old Cowhand's Reunion.    \nSince 2011, the staff at Beadles Nursing Home has cared for Leota, and the family wishes to extend their sincere gratitude for their care and compassion.     \nLeota is preceded in death by her father, Alvia (1967), her mother, Beulah (1990), and her beloved husband, Mart, who passed away on October 3, 1993.     \nLeota is survived by her daughter Marietta Jean Graham of El Paso, Texas, her grandson Roger J. Graham of Tahlequah, Oklahoma (the Cherokee Nation), and her granddaughter and grandson-in-law Ron &amp; Jodi Gillett also of El Paso, Texas, as well as several cousins.    \nNorthwest Oklahoma was the only place the Fulton's loved to call home. Leota mourned Mart's passing for almost 20 years. Now, as it should be, they're together again, walking and holding hands.    \nLeota's family asks that in lieu of flowers, donations be made to Beadles Nursing Home in Alva or the Old Cowhand's Association in Freedom. \n\t\t\t" ;
+        c:id               "http://id.opencalais.com/mMboZ5fAa9AvB7TgdE5VNg" ;
+        c:ontology         "http://163.231.4.65/owlschema/8.3/onecalais.owl.allmetadata.xml" .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Instance/37>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Graveside services for ]Leota Beulah Fulton[, 97, will be 10:00 a.m. on Monday, September 16,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:exact      "Leota Beulah Fulton" ;
+        c:length     "19" ;
+        c:offset     "23" ;
+        c:prefix     "Graveside services for " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f1c042f0-1f14-3313-b8ed-9cbb763b23d0> ;
+        c:suffix     ", 97, will be 10:00 a.m. on Monday, September 16," .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/SocialTag/4>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "2" ;
+        c:name               "Marietta" ;
+        c:originalValue      "Marietta" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/4a16d790-b261-38d0-8987-9968de4f7cd1> .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Instance/4>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ by her daughter Marietta Jean Graham of El Paso, ]Texas[, her grandson Roger J. Graham of Tahlequah,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:exact      "Texas" ;
+        c:length     "5" ;
+        c:offset     "1143" ;
+        c:prefix     " by her daughter Marietta Jean Graham of El Paso, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> ;
+        c:suffix     ", her grandson Roger J. Graham of Tahlequah," .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/cat/1>
+        a                    <http://s.opencalais.com/1/type/cat/DocCat> ;
+        c:docId              <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Human Interest" ;
+        c:score              "0.792" .
+
+<http://d.opencalais.com/pershash-1/f1c042f0-1f14-3313-b8ed-9cbb763b23d0>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Leota Beulah Fulton" ;
+        c:confidencelevel    "0.999" ;
+        c:firstname          "Leota" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Fulton" ;
+        c:middlename         "Beulah" ;
+        c:name               "Leota Beulah Fulton" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Instance/31>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[El Paso, Texas, as well as several cousins.    \n]Northwest Oklahoma[ was the only place the Fulton's loved to call]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:exact      "Northwest Oklahoma" ;
+        c:length     "18" ;
+        c:offset     "1346" ;
+        c:prefix     "El Paso, Texas, as well as several cousins.    \n" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/d86b7833-932f-3546-aaef-6b481a8a52ea> ;
+        c:suffix     " was the only place the Fulton's loved to call" .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Instance/44>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[compassion.     \nLeota is preceded in death by ]her[ father, Alvia (1967), her mother, Beulah (1990),]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "951" ;
+        c:prefix     "compassion.     \nLeota is preceded in death by " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f1c042f0-1f14-3313-b8ed-9cbb763b23d0> ;
+        c:suffix     " father, Alvia (1967), her mother, Beulah (1990)," .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Relevance/8>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8eade039-a4ea-3277-86f0-dccd360f428f> .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/lid/DefaultLangId>
+        a                    <http://s.opencalais.com/1/type/lid/DefaultLangId> ;
+        c:docId              <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:forenduserdisplay  "false" ;
+        c:lang               <http://d.opencalais.com/lid/DefaultLangId/English> ;
+        c:permid             "505062" .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Instance/16>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[preceded in death by her father, Alvia (1967), ]her mother, Beulah (1990)[, and her beloved husband, Mart, who passed away]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:exact      "her mother, Beulah (1990)" ;
+        c:length     "25" ;
+        c:offset     "977" ;
+        c:prefix     "preceded in death by her father, Alvia (1967), " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/f3315b05-320b-3577-a68c-6f6bc177f483> ;
+        c:suffix     ", and her beloved husband, Mart, who passed away" .
+
+<http://d.opencalais.com/genericHasher-1/2ce46622-e616-37ea-82f3-9cfdeef99c69>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "husband" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/f1c042f0-1f14-3313-b8ed-9cbb763b23d0> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/d94e9f25-4782-3b61-b751-24d3786ecf79> .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/ComponentVersions>
+        a          <http://s.opencalais.com/1/type/sys/ComponentVersions> ;
+        c:docId    <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:version  "Deals Index:201505261613:201505261613" , "config-vessels:258:258" , "config-cse:271:271" , "BlackList:264:264" , "SocialTags Index:201505191038:201505191038" , "OneCalaisIM:OneCalais_8.3-RELEASE:198" , "WatchDog:OneCalais_8.3-RELEASE:113" , "config-drugs:258:258" , "Housekeeper:OneCalais_8.3-RELEASE:113" , "Dial4J:OneCalais_8.3-RELEASE:198" , "Collector:OneCalais_8.3-RELEASE:113" , "index-vessels:201505231718:201505231718" , "com.clearforest.infoext.dial4j.plugins-basistechconfig:OneCalais_8.3-RELEASE:225" , "config-refineries:258:258" , "OneCalais:OneCalais_8.3-RELEASE:364" , "People Index:201505261608:201505261608" , "BrokerResearchIM:OneCalais_8.3-RELEASE:198" , "People Override:258:258" , "OA Override:271:271" , "AutocoderRuntimeIM:OneCalais_8.3-RELEASE:198" , "config-physicalAssets-ports:258:258" , "SECHeaderMetadataIM:OneCalais_8.3-RELEASE:198" , "config-sca-DataPackage:34:34" , "NextTags:OneCalais_8.3-RELEASE:113" , "config-negativeSignature:258:258" , "OA Index:201505252208:201505252208" , "FrenchIM:OneCalais_8.3-RELEASE:198" , "SpanishIM:OneCalais_8.3-RELEASE:198" .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Instance/57>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Cemetery.  Interment is under the direction of ]Marshall Funeral Home of Alva[.    \nLeota Beulah Fulton passed away on]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:exact      "Marshall Funeral Home of Alva" ;
+        c:length     "29" ;
+        c:offset     "164" ;
+        c:prefix     "Cemetery.  Interment is under the direction of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce> ;
+        c:suffix     ".    \nLeota Beulah Fulton passed away on" .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Instance/29>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ be 10:00 a.m. on Monday, September 16, 2013,  at ]Alva Municipal Cemetery[.  Interment is under the direction of Marshall]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:exact      "Alva Municipal Cemetery" ;
+        c:length     "23" ;
+        c:offset     "102" ;
+        c:prefix     " be 10:00 a.m. on Monday, September 16, 2013,  at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8eade039-a4ea-3277-86f0-dccd360f428f> ;
+        c:suffix     ".  Interment is under the direction of Marshall" .
+
+<http://d.opencalais.com/genericHasher-1/dfc7a94a-354d-3814-9be4-395ac304b8bd>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "daughter" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/f1c042f0-1f14-3313-b8ed-9cbb763b23d0> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/0e5538de-a3fb-3e3e-98e1-c4048a5c577b> .
+
+<http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Alva" .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Relevance/16>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce> .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Instance/9>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[making their living farming and ranching near ]Freedom[. Many will remember seeing them late in life,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:exact      "Freedom" ;
+        c:length     "7" ;
+        c:offset     "603" ;
+        c:prefix     "making their living farming and ranching near " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b1859fdd-73f6-32ef-821a-b28e8c0c4ead> ;
+        c:suffix     ". Many will remember seeing them late in life," .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Relevance/2>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/2ebc7a07-c1dd-3c09-b812-649100908bef> .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Instance/10>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ hands as they walked together at places like the ]Freedom[ Rodeo or the Old Cowhand's Reunion.    \nSince]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:exact      "Freedom" ;
+        c:length     "7" ;
+        c:offset     "714" ;
+        c:prefix     " hands as they walked together at places like the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b1859fdd-73f6-32ef-821a-b28e8c0c4ead> ;
+        c:suffix     " Rodeo or the Old Cowhand's Reunion.    \nSince" .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Instance/51>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[together again, walking and holding hands.    \n]Leota['s family asks that in lieu of flowers, donations]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:exact      "Leota" ;
+        c:length     "5" ;
+        c:offset     "1544" ;
+        c:prefix     "together again, walking and holding hands.    \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/f1c042f0-1f14-3313-b8ed-9cbb763b23d0> ;
+        c:suffix     "'s family asks that in lieu of flowers, donations" .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Instance/23>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[    \nLeota is preceded in death by her father, ]Alvia[ (1967), her mother, Beulah (1990), and her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:exact      "Alvia" ;
+        c:length     "5" ;
+        c:offset     "963" ;
+        c:prefix     "    \nLeota is preceded in death by her father, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/51725e55-b5e1-3304-a6c3-6d59120dba18> ;
+        c:suffix     " (1967), her mother, Beulah (1990), and her" .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Instance/36>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[She was born on February 5, 1916, to Alvia and ]Beulah Moreland of Freedom, Oklahoma[.     \nIn 1935, she married the love of her life,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:exact      "Beulah Moreland of Freedom, Oklahoma" ;
+        c:length     "36" ;
+        c:offset     "326" ;
+        c:prefix     "She was born on February 5, 1916, to Alvia and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/57912f5b-a3aa-3e2a-9eaf-c39c4e24c0a3> ;
+        c:suffix     ".     \nIn 1935, she married the love of her life," .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Relevance/10>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/d86b7833-932f-3546-aaef-6b481a8a52ea> .
+
+<http://d.opencalais.com/pershash-1/d94e9f25-4782-3b61-b751-24d3786ecf79>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Mart Fulton" ;
+        c:confidencelevel    "0.984" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Mart Fulton" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Instance/3>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[on Wednesday, September 11th in Alva, Oklahoma. ]She was born on February 5, 1916[, to Alvia and Beulah Moreland of Freedom,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:exact      "She was born on February 5, 1916" ;
+        c:length     "32" ;
+        c:offset     "279" ;
+        c:prefix     "on Wednesday, September 11th in Alva, Oklahoma. " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a810408b-29b3-3c0f-8869-a33bf2d0df1c> ;
+        c:suffix     ", to Alvia and Beulah Moreland of Freedom," .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/SocialTag/3>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "El Paso, Texas" ;
+        c:originalValue      "El Paso, Texas" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/7a803cf7-f28c-3c82-ab38-924e0dfb7f29> .
+
+<http://d.opencalais.com/pershash-1/0e5538de-a3fb-3e3e-98e1-c4048a5c577b>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Marietta Jean Graham" ;
+        c:confidencelevel    "0.996" ;
+        c:firstname          "Marietta" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Graham" ;
+        c:middlename         "Jean" ;
+        c:name               "Marietta Jean Graham" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Instance/49>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Tahlequah, Oklahoma (the Cherokee Nation), and ]her[ granddaughter and grandson-in-law Ron & Jodi]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1229" ;
+        c:prefix     "Tahlequah, Oklahoma (the Cherokee Nation), and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f1c042f0-1f14-3313-b8ed-9cbb763b23d0> ;
+        c:suffix     " granddaughter and grandson-in-law Ron & Jodi" .
+
+<http://d.opencalais.com/pershash-1/0824c880-7431-3846-b832-1042cfbe83e9>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Marshall Funeral" .
+
+<http://d.opencalais.com/genericHasher-1/d645d62f-101e-3bbf-8809-845621b1c7da>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonAttributes> ;
+        c:birthdate          "1936-08-20" ;
+        c:forenduserdisplay  "false" ;
+        c:gender             "F" ;
+        c:person             <http://d.opencalais.com/pershash-1/eee2b3c8-6aa4-3c2f-8ab1-355fa6528b0b> .
+
+<http://d.opencalais.com/conf/pershash-1/eee2b3c8-6aa4-3c2f-8ab1-355fa6528b0b>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.997" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.998" ;
+        c:subject             <http://d.opencalais.com/pershash-1/eee2b3c8-6aa4-3c2f-8ab1-355fa6528b0b> .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Instance/30>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Jean Graham of El Paso, Texas, her grandson ]Roger J. Graham[ of Tahlequah, Oklahoma (the Cherokee Nation),]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:exact      "Roger J. Graham" ;
+        c:length     "15" ;
+        c:offset     "1163" ;
+        c:prefix     "Jean Graham of El Paso, Texas, her grandson " ;
+        c:subject    <http://d.opencalais.com/pershash-1/af67158c-3273-300a-937b-528dafd84387> ;
+        c:suffix     " of Tahlequah, Oklahoma (the Cherokee Nation)," .
+
+<http://d.opencalais.com/genericHasher-1/2ebc7a07-c1dd-3c09-b812-649100908bef>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Tahlequah" .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Instance/43>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[gratitude for their care and compassion.     \n]Leota[ is preceded in death by her father, Alvia]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:exact      "Leota" ;
+        c:length     "5" ;
+        c:offset     "921" ;
+        c:prefix     "gratitude for their care and compassion.     \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/f1c042f0-1f14-3313-b8ed-9cbb763b23d0> ;
+        c:suffix     " is preceded in death by her father, Alvia" .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Relevance/7>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/d94e9f25-4782-3b61-b751-24d3786ecf79> .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Instance/15>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Texas, as well as several cousins.    \nNorthwest ]Oklahoma[ was the only place the Fulton's loved to call]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "1356" ;
+        c:prefix     " Texas, as well as several cousins.    \nNorthwest " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     " was the only place the Fulton's loved to call" .
+
+<http://d.opencalais.com/genericHasher-1/b6bf2c0d-0ac3-3aaa-a334-e02dfcbc3358>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Alva" ;
+        c:person             <http://d.opencalais.com/pershash-1/0824c880-7431-3846-b832-1042cfbe83e9> .
+
+<http://d.opencalais.com/pershash-1/e8f107a1-6c7c-3e48-87e0-7706c51e1be8>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Beulah Moreland" ;
+        c:confidencelevel    "0.996" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Beulah Moreland" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Instance/56>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[be made to Beadles Nursing Home in Alva or the ]Old Cowhand's Association[ in Freedom. \n\t\t\t]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:exact      "Old Cowhand's Association" ;
+        c:length     "25" ;
+        c:offset     "1646" ;
+        c:prefix     "be made to Beadles Nursing Home in Alva or the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0d288fdc-b090-3578-9670-76649b05e074> ;
+        c:suffix     " in Freedom. \n\t\t\t" .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Instance/28>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ daughter Marietta Jean Graham of El Paso, Texas, ]her grandson Roger J. Graham of Tahlequah, Oklahoma (the Cherokee Nation)[, and her granddaughter and grandson-in-law Ron]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:exact      "her grandson Roger J. Graham of Tahlequah, Oklahoma (the Cherokee Nation)" ;
+        c:length     "73" ;
+        c:offset     "1150" ;
+        c:prefix     " daughter Marietta Jean Graham of El Paso, Texas, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/14bc8ec7-97c1-382e-a2f8-71ce8c16a9da> ;
+        c:suffix     ", and her granddaughter and grandson-in-law Ron" .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Relevance/15>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0d288fdc-b090-3578-9670-76649b05e074> .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Instance/8>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[5, 1916, to Alvia and Beulah Moreland of ]Freedom[, Oklahoma.     \nIn 1935, she married the love of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:exact      "Freedom" ;
+        c:length     "7" ;
+        c:offset     "345" ;
+        c:prefix     "5, 1916, to Alvia and Beulah Moreland of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b1859fdd-73f6-32ef-821a-b28e8c0c4ead> ;
+        c:suffix     ", Oklahoma.     \nIn 1935, she married the love of" .
+
+<http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Marshall Funeral Home of Alva" .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Relevance/1>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> .
+
+<http://d.opencalais.com/pershash-1/af67158c-3273-300a-937b-528dafd84387>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Roger Graham" ;
+        c:confidencelevel    "0.996" ;
+        c:firstname          "Roger" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Graham" ;
+        c:middlename         "J." ;
+        c:name               "Roger J. Graham" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Instance/50>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[the only place the Fulton's loved to call home. ]Leota[ mourned Mart's passing for almost 20 years. Now,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:exact      "Leota" ;
+        c:length     "5" ;
+        c:offset     "1417" ;
+        c:prefix     "the only place the Fulton's loved to call home. " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f1c042f0-1f14-3313-b8ed-9cbb763b23d0> ;
+        c:suffix     " mourned Mart's passing for almost 20 years. Now," .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Instance/22>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Oklahoma. She was born on February 5, 1916, to ]Alvia[ and Beulah Moreland of Freedom, Oklahoma.    ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:exact      "Alvia" ;
+        c:length     "5" ;
+        c:offset     "316" ;
+        c:prefix     "Oklahoma. She was born on February 5, 1916, to " ;
+        c:subject    <http://d.opencalais.com/pershash-1/51725e55-b5e1-3304-a6c3-6d59120dba18> ;
+        c:suffix     " and Beulah Moreland of Freedom, Oklahoma.    " .
+
+<http://d.opencalais.com/conf/pershash-1/0a75a696-53d1-32c4-9843-bca24d63108d>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/0a75a696-53d1-32c4-9843-bca24d63108d> .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Instance/35>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[her granddaughter and grandson-in-law Ron & ]Jodi Gillett[ also of El Paso, Texas, as well as several]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:exact      "Jodi Gillett" ;
+        c:length     "12" ;
+        c:offset     "1277" ;
+        c:prefix     "her granddaughter and grandson-in-law Ron & " ;
+        c:subject    <http://d.opencalais.com/pershash-1/0a75a696-53d1-32c4-9843-bca24d63108d> ;
+        c:suffix     " also of El Paso, Texas, as well as several" .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Instance/2>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[life, Mart Fulton. The couple had one daughter, ]Marietta Jean (Fulton) Graham, born August 20, 1936[. For the next 58 years, the two were rarely]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:exact      "Marietta Jean (Fulton) Graham, born August 20, 1936" ;
+        c:length     "51" ;
+        c:offset     "454" ;
+        c:prefix     "life, Mart Fulton. The couple had one daughter, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/d645d62f-101e-3bbf-8809-845621b1c7da> ;
+        c:suffix     ". For the next 58 years, the two were rarely" .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/SocialTag/2>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Alva" ;
+        c:originalValue      "Alva" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/17f61973-ed95-369b-b381-dec22ce26b2a> .
+
+<http://d.opencalais.com/genericHasher-1/22bbcaf0-3d7d-33f4-8f6c-69cf6ab97b01>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Alva, Oklahoma" ;
+        c:person             <http://d.opencalais.com/pershash-1/f1c042f0-1f14-3313-b8ed-9cbb763b23d0> .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Instance/48>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ daughter Marietta Jean Graham of El Paso, Texas, ]her[ grandson Roger J. Graham of Tahlequah, Oklahoma]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1150" ;
+        c:prefix     " daughter Marietta Jean Graham of El Paso, Texas, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f1c042f0-1f14-3313-b8ed-9cbb763b23d0> ;
+        c:suffix     " grandson Roger J. Graham of Tahlequah, Oklahoma" .
+
+<http://d.opencalais.com/genericHasher-1/14bc8ec7-97c1-382e-a2f8-71ce8c16a9da>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "grandson" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/f1c042f0-1f14-3313-b8ed-9cbb763b23d0> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/af67158c-3273-300a-937b-528dafd84387> .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/meta>
+        a                 <http://s.opencalais.com/1/type/sys/DocInfoMeta> ;
+        c:contentType     "text/raw" ;
+        c:docId           <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:language        "English" ;
+        c:processingVer   "AllMetadata" ;
+        c:serverVersion   "OneCalais_8.3-RELEASE:364" ;
+        c:signature       "digestalg-1|RJoYpgp7GxYdp7CwXHjnEfrerWs=|KzhDiqk4INuJ/Wh8LVTbubnTMzxdwr5h996RikOJ7kYWlTNFH+RP/w==" ;
+        c:stagsVer        "OneCalais_8.3-RELEASE-b11-2015-03-25_18:29:00" ;
+        c:submissionDate  "2015-05-26 17:23:02.365" ;
+        c:submitterCode   "0ca6a864-5659-789d-5f32-f365f695e757" .
+
+<http://d.opencalais.com/genericHasher-1/b1859fdd-73f6-32ef-821a-b28e8c0c4ead>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Freedom" .
+
+<http://d.opencalais.com/genericHasher-1/2aec3171-51fb-31d3-9af9-cc939ca7f2b1>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:date                "1935-00-00" ;
+        c:datestring          "In 1935" ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/d94e9f25-4782-3b61-b751-24d3786ecf79> , <http://d.opencalais.com/pershash-1/f1c042f0-1f14-3313-b8ed-9cbb763b23d0> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/genericHasher-1/c5df657e-116a-3db3-9bdc-c12c572917ca>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Tahlequah" ;
+        c:person             <http://d.opencalais.com/pershash-1/af67158c-3273-300a-937b-528dafd84387> .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Instance/42>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[the staff at Beadles Nursing Home has cared for ]Leota[, and the family wishes to extend their sincere]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:exact      "Leota" ;
+        c:length     "5" ;
+        c:offset     "822" ;
+        c:prefix     "the staff at Beadles Nursing Home has cared for " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f1c042f0-1f14-3313-b8ed-9cbb763b23d0> ;
+        c:suffix     ", and the family wishes to extend their sincere" .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Relevance/6>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/51725e55-b5e1-3304-a6c3-6d59120dba18> .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Instance/14>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[her grandson Roger J. Graham of Tahlequah, ]Oklahoma[ (the Cherokee Nation), and her granddaughter and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "1193" ;
+        c:prefix     "her grandson Roger J. Graham of Tahlequah, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     " (the Cherokee Nation), and her granddaughter and" .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Instance/55>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and Beulah Moreland of Freedom, Oklahoma.     \n]In 1935, she married the love of her life, Mart Fulton[. The couple had one daughter, Marietta Jean]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:exact      "In 1935, she married the love of her life, Mart Fulton" ;
+        c:length     "54" ;
+        c:offset     "369" ;
+        c:prefix     "and Beulah Moreland of Freedom, Oklahoma.     \n" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/2aec3171-51fb-31d3-9af9-cc939ca7f2b1> ;
+        c:suffix     ". The couple had one daughter, Marietta Jean" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/992deecd-8738-7b19-e501-9507c9a69dc1>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:latitude            "36.7689" ;
+        c:longitude           "-99.1125" ;
+        c:name                "Freedom,Oklahoma,United States" ;
+        c:shortname           "Freedom" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/b1859fdd-73f6-32ef-821a-b28e8c0c4ead> .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Instance/27>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[the Fulton's loved to call home. Leota mourned ]Mart['s passing for almost 20 years. Now, as it should]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:exact      "Mart" ;
+        c:length     "4" ;
+        c:offset     "1431" ;
+        c:prefix     "the Fulton's loved to call home. Leota mourned " ;
+        c:subject    <http://d.opencalais.com/pershash-1/d94e9f25-4782-3b61-b751-24d3786ecf79> ;
+        c:suffix     "'s passing for almost 20 years. Now, as it should" .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Relevance/14>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/0e5538de-a3fb-3e3e-98e1-c4048a5c577b> .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Instance/7>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Graveside services for ]Leota Beulah Fulton, 97[, will be 10:00 a.m. on Monday, September 16,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:exact      "Leota Beulah Fulton, 97" ;
+        c:length     "23" ;
+        c:offset     "23" ;
+        c:prefix     "Graveside services for " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ea460f78-1294-3415-9e71-2892e5d0236f> ;
+        c:suffix     ", will be 10:00 a.m. on Monday, September 16," .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Instance/21>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[father, Alvia (1967), her mother, Beulah (1990)], and her beloved husband, Mart[, who passed away on October 3, 1993.     \nLeota]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:exact      ", and her beloved husband, Mart" ;
+        c:length     "31" ;
+        c:offset     "1002" ;
+        c:prefix     "father, Alvia (1967), her mother, Beulah (1990)" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/2ce46622-e616-37ea-82f3-9cfdeef99c69> ;
+        c:suffix     ", who passed away on October 3, 1993.     \nLeota" .
+
+<http://d.opencalais.com/conf/pershash-1/51725e55-b5e1-3304-a6c3-6d59120dba18>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.634" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.638" ;
+        c:subject             <http://d.opencalais.com/pershash-1/51725e55-b5e1-3304-a6c3-6d59120dba18> .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Instance/34>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[donations be made to Beadles Nursing Home in ]Alva[ or the Old Cowhand's Association in Freedom.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "1634" ;
+        c:prefix     "donations be made to Beadles Nursing Home in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:suffix     " or the Old Cowhand's Association in Freedom." .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Instance/1>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[on October 3, 1993.     \nLeota is survived by ]her daughter Marietta Jean Graham[ of El Paso, Texas, her grandson Roger J. Graham]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:exact      "her daughter Marietta Jean Graham" ;
+        c:length     "33" ;
+        c:offset     "1097" ;
+        c:prefix     "on October 3, 1993.     \nLeota is survived by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/dfc7a94a-354d-3814-9be4-395ac304b8bd> ;
+        c:suffix     " of El Paso, Texas, her grandson Roger J. Graham" .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/SocialTag/1>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Fulton" ;
+        c:originalValue      "Fulton" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/c460524c-2bc4-3311-be4f-4ad10bdd3d59> .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Instance/47>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[on October 3, 1993.     \nLeota is survived by ]her[ daughter Marietta Jean Graham of El Paso, Texas,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1097" ;
+        c:prefix     "on October 3, 1993.     \nLeota is survived by " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f1c042f0-1f14-3313-b8ed-9cbb763b23d0> ;
+        c:suffix     " daughter Marietta Jean Graham of El Paso, Texas," .
+
+<http://d.opencalais.com/genericHasher-1/d86b7833-932f-3546-aaef-6b481a8a52ea>
+        a                    <http://s.opencalais.com/1/type/em/e/Region> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Northwest Oklahoma" .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Instance/19>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[death by her father, Alvia (1967), her mother, ]Beulah[ (1990), and her beloved husband, Mart, who]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:exact      "Beulah" ;
+        c:length     "6" ;
+        c:offset     "989" ;
+        c:prefix     "death by her father, Alvia (1967), her mother, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/e8f107a1-6c7c-3e48-87e0-7706c51e1be8> ;
+        c:suffix     " (1990), and her beloved husband, Mart, who" .
+
+<http://d.opencalais.com/pershash-1/eee2b3c8-6aa4-3c2f-8ab1-355fa6528b0b>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Marietta Jean Graham" ;
+        c:confidencelevel    "0.997" ;
+        c:firstname          "Marietta" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Graham" ;
+        c:middlename         "Jean" ;
+        c:name               "Marietta Jean (Fulton) Graham" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Instance/41>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Oklahoma.     \nIn 1935, she married the love of ]her[ life, Mart Fulton. The couple had one daughter,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "402" ;
+        c:prefix     "Oklahoma.     \nIn 1935, she married the love of " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f1c042f0-1f14-3313-b8ed-9cbb763b23d0> ;
+        c:suffix     " life, Mart Fulton. The couple had one daughter," .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Relevance/5>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/e8f107a1-6c7c-3e48-87e0-7706c51e1be8> .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Instance/13>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[1916, to Alvia and Beulah Moreland of Freedom, ]Oklahoma[.     \nIn 1935, she married the love of her life,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "354" ;
+        c:prefix     "1916, to Alvia and Beulah Moreland of Freedom, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ".     \nIn 1935, she married the love of her life," .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/e9e27c26-4013-8712-a5f0-97dcdc412c26>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:latitude            "35.5607802899" ;
+        c:longitude           "-96.8460570462" ;
+        c:name                "Oklahoma,United States" ;
+        c:permid              "100229" ;
+        c:rcscode             "G:9H" ;
+        c:shortname           "Oklahoma" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Instance/54>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[father, Alvia (1967), her mother, Beulah (1990)], and her beloved husband, Mart[, who passed away on October 3, 1993.     \nLeota]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:exact      ", and her beloved husband, Mart" ;
+        c:length     "31" ;
+        c:offset     "1002" ;
+        c:prefix     "father, Alvia (1967), her mother, Beulah (1990)" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/f1234e17-3b1a-3b28-a87a-61ebbfcf37ce> ;
+        c:suffix     ", who passed away on October 3, 1993.     \nLeota" .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Instance/26>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[mother, Beulah (1990), and her beloved husband, ]Mart[, who passed away on October 3, 1993.     \nLeota]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:exact      "Mart" ;
+        c:length     "4" ;
+        c:offset     "1029" ;
+        c:prefix     "mother, Beulah (1990), and her beloved husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/d94e9f25-4782-3b61-b751-24d3786ecf79> ;
+        c:suffix     ", who passed away on October 3, 1993.     \nLeota" .
+
+<http://d.opencalais.com/conf/pershash-1/f1c042f0-1f14-3313-b8ed-9cbb763b23d0>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.999" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.999" ;
+        c:subject             <http://d.opencalais.com/pershash-1/f1c042f0-1f14-3313-b8ed-9cbb763b23d0> .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Relevance/13>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/pershash-1/f1c042f0-1f14-3313-b8ed-9cbb763b23d0> .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Instance/39>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[on Wednesday, September 11th in Alva, Oklahoma. ]She[ was born on February 5, 1916, to Alvia and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "279" ;
+        c:prefix     "on Wednesday, September 11th in Alva, Oklahoma. " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f1c042f0-1f14-3313-b8ed-9cbb763b23d0> ;
+        c:suffix     " was born on February 5, 1916, to Alvia and" .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/Instance/6>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[El Paso, Texas, her grandson Roger J. Graham of ]Tahlequah[, Oklahoma (the Cherokee Nation), and her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:exact      "Tahlequah" ;
+        c:length     "9" ;
+        c:offset     "1182" ;
+        c:prefix     "El Paso, Texas, her grandson Roger J. Graham of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/2ebc7a07-c1dd-3c09-b812-649100908bef> ;
+        c:suffix     ", Oklahoma (the Cherokee Nation), and her" .
+
+<http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d/SocialTag/6>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/4181c6f7-9eec-3686-a771-73af84128a2d> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "2" ;
+        c:name               "Leota Township, Nobles County, Minnesota" ;
+        c:originalValue      "Leota Township, Nobles County, Minnesota" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/579814b6-3546-3fb9-92e7-f216e4107781> .
+
+<http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oklahoma" .
+
+<http://d.opencalais.com/genericHasher-1/0d288fdc-b090-3578-9670-76649b05e074>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Old Cowhand's Association" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .

@@ -1,0 +1,1500 @@
+#Relations: CompanyLocation, PersonAttributes, PersonCareer, PersonLocation, PersonRelation, PersonTravel
+#City: Alva, Frisco, Independence, Kansas City
+#Company: Bayer Chemical, Kansas City Southern
+#Country: United States
+#Facility: Alva Municipal Cemetery, Marshall Funeral Chapel, Marshall Funeral Home of Alva
+#IndustryTerm: Funeral services
+#Organization: Alva Church of God, Christian Church, National Rifle Association, United States Navy
+#Person: Angela Michelle Pittman, Bob Brown, Bobby Lee, Bonnie Louise Halphin, Funeral Chapel, Geraldine Maxine (Brown) Pittman, Jimmie Lee Pittman, Mack Truck, Marshall Funeral, Stanley Pittman
+#Position: Maintenance Engineer, Marshall
+#ProvinceOrState: Missouri, Oklahoma, Texas
+@prefix c:     <http://s.opencalais.com/1/pred/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://d.opencalais.com/conf/pershash-1/acb2c295-4f3b-3ed1-aac7-9726a46e4075>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.984" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.989" ;
+        c:subject             <http://d.opencalais.com/pershash-1/acb2c295-4f3b-3ed1-aac7-9726a46e4075> .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Relevance/14>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a54ac18b-a956-3b5c-b235-0609ca899305> .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Instance/21>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[he worked as a Maintenance Engineer for ]Bayer Chemical in Kansas City[.  After his retirement in 2002, he returned to]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:exact      "Bayer Chemical in Kansas City" ;
+        c:length     "29" ;
+        c:offset     "953" ;
+        c:prefix     "he worked as a Maintenance Engineer for " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/68c96b30-18c0-3990-8f1e-0ae05875d631> ;
+        c:suffix     ".  After his retirement in 2002, he returned to" .
+
+<http://d.opencalais.com/genericHasher-1/68c96b30-18c0-3990-8f1e-0ae05875d631>
+        a                      <http://s.opencalais.com/1/type/em/r/CompanyLocation> ;
+        c:city                 <http://d.opencalais.com/genericHasher-1/dcc4f0b4-633d-3ded-a0d6-25da5d10a9f5> ;
+        c:company              <http://d.opencalais.com/comphash-1/82f12751-f6ab-3423-af71-4ab49dec6744> ;
+        c:companylocationtype  "N/A" ;
+        c:forenduserdisplay    "true" .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Instance/50>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Following  his military service he worked for ]Mack Truck[ and the Kansas City Southern Railroad.  On]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:exact      "Mack Truck" ;
+        c:length     "10" ;
+        c:offset     "730" ;
+        c:prefix     " Following  his military service he worked for " ;
+        c:subject    <http://d.opencalais.com/pershash-1/767c32d2-ed2b-39a3-b8a9-9d88a6e3f475> ;
+        c:suffix     " and the Kansas City Southern Railroad.  On" .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Relevance/22>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/66832dfc-a7cc-34da-813d-518459853508> .
+
+<http://d.opencalais.com/pershash-1/0824c880-7431-3846-b832-1042cfbe83e9>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Marshall Funeral" ;
+        c:confidencelevel    "0.768" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Marshall Funeral" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Instance/29>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Lee Pittman, son of the late Bobby Lee and ]Geraldine Maxine (Brown) Pittman , was born November 24, 1947, in Alva, Oklahoma[, and passed away May 22, 2009, in Alva,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:exact      "Geraldine Maxine (Brown) Pittman , was born November 24, 1947, in Alva, Oklahoma" ;
+        c:length     "80" ;
+        c:offset     "336" ;
+        c:prefix     "Lee Pittman, son of the late Bobby Lee and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/1ff535f5-c323-3dab-a4a0-4f3ac361f1e1> ;
+        c:suffix     ", and passed away May 22, 2009, in Alva," .
+
+<http://d.opencalais.com/pershash-1/767c32d2-ed2b-39a3-b8a9-9d88a6e3f475>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Mack Truck" ;
+        c:confidencelevel    "0.851" ;
+        c:firstname          "Mack" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Truck" ;
+        c:name               "Mack Truck" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Instance/3>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[to Bonnie Louise Halphin at Independence, ]Missouri[.  For 27 years until his retirement he worked as]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:exact      "Missouri" ;
+        c:length     "8" ;
+        c:offset     "868" ;
+        c:prefix     "to Bonnie Louise Halphin at Independence, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4b59c1ad-8092-34d5-b763-a43226a1836c> ;
+        c:suffix     ".  For 27 years until his retirement he worked as" .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/lid/DefaultLangId>
+        a                    <http://s.opencalais.com/1/type/lid/DefaultLangId> ;
+        c:docId              <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:forenduserdisplay  "false" ;
+        c:lang               <http://d.opencalais.com/lid/DefaultLangId/English> ;
+        c:permid             "505062" .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Relevance/8>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/dcc4f0b4-633d-3ded-a0d6-25da5d10a9f5> .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Relevance/30>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/45fe7ef7-3ce3-3a9b-b0a1-7a5a02ee3915> .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Instance/58>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Christ).  He enjoyed gardening and hunting, but ]he[ really loved fishing and tending his acreage]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:exact      "he" ;
+        c:length     "2" ;
+        c:offset     "1146" ;
+        c:prefix     "Christ).  He enjoyed gardening and hunting, but " ;
+        c:subject    <http://d.opencalais.com/pershash-1/767c32d2-ed2b-39a3-b8a9-9d88a6e3f475> ;
+        c:suffix     " really loved fishing and tending his acreage" .
+
+<http://d.opencalais.com/genericHasher-1/e3b633f3-aa73-339f-b8c8-66b62e079ed6>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "United States Navy" ;
+        c:nationality        "American" ;
+        c:organizationtype   "governmental military" .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Instance/37>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[]Funeral services[ for Jimmie Lee Pittman, will be 10:00am]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:exact      "Funeral services" ;
+        c:length     "16" ;
+        c:offset     "0" ;
+        c:prefix     "" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee> ;
+        c:suffix     " for Jimmie Lee Pittman, will be 10:00am" .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Instance/16>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[States Navy from 1968 to 1969.  Following  ]his[ military service he worked for Mack Truck and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "695" ;
+        c:prefix     "States Navy from 1968 to 1969.  Following  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/3f6e7fce-e70e-36a9-8f6e-d496a3ca7925> ;
+        c:suffix     " military service he worked for Mack Truck and" .
+
+<http://d.opencalais.com/conf/comphash-1/88e26ced-f208-3b7e-b64d-b291880f167d>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.929" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:resolution          "0.8018823" ;
+        c:statisticalfeature  "0.894" ;
+        c:subject             <http://d.opencalais.com/comphash-1/88e26ced-f208-3b7e-b64d-b291880f167d> .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/SocialTag/1>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Alva" ;
+        c:originalValue      "Alva" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/17f61973-ed95-369b-b381-dec22ce26b2a> .
+
+<http://d.opencalais.com/genericHasher-1/871b24be-25c4-37f3-9053-a572e9020395>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Alva" ;
+        c:person             <http://d.opencalais.com/pershash-1/767c32d2-ed2b-39a3-b8a9-9d88a6e3f475> .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Instance/66>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Alva.  \nJimmie Lee Pittman, son of the late ]Bobby Lee and Geraldine Maxine (Brown) Pittman , was born November 24, 1947, in Alva, Oklahoma, and passed away May 22, 2009, in Alva, Oklahoma[, at the age of 61 years, 5 months, and 28 days. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:exact      "Bobby Lee and Geraldine Maxine (Brown) Pittman , was born November 24, 1947, in Alva, Oklahoma, and passed away May 22, 2009, in Alva, Oklahoma" ;
+        c:length     "143" ;
+        c:offset     "322" ;
+        c:prefix     "of Alva.  \nJimmie Lee Pittman, son of the late " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/2dfcb567-bb05-3607-81a2-4a55308aad52> ;
+        c:suffix     ", at the age of 61 years, 5 months, and 28 days. " .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Instance/45>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[will be 10:00am Wednesday, May 27, 2009, at the ]Marshall Funeral Chapel[ with Rev. Bob Brown, pastor of the Alva Church]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:exact      "Marshall Funeral Chapel" ;
+        c:length     "23" ;
+        c:offset     "89" ;
+        c:prefix     "will be 10:00am Wednesday, May 27, 2009, at the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/66832dfc-a7cc-34da-813d-518459853508> ;
+        c:suffix     " with Rev. Bob Brown, pastor of the Alva Church" .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Relevance/17>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce> .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Instance/24>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Alva, Oklahoma, and passed away May 22, 2009, in ]Alva[, Oklahoma, at the age of 61 years, 5 months, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "451" ;
+        c:prefix     " Alva, Oklahoma, and passed away May 22, 2009, in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:suffix     ", Oklahoma, at the age of 61 years, 5 months, and" .
+
+<http://d.opencalais.com/genericHasher-1/42c207b0-1e39-325f-840b-4b590eaa36c3>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "National Rifle Association" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Relevance/3>
+        a                <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId          <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:relevance      "0.2" ;
+        c:relevancecont  "0.03" ;
+        c:subject        <http://d.opencalais.com/comphash-1/82f12751-f6ab-3423-af71-4ab49dec6744> .
+
+<http://d.opencalais.com/conf/pershash-1/39a19fc3-c967-3df1-ae6b-35664549cc3f>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.997" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.998" ;
+        c:subject             <http://d.opencalais.com/pershash-1/39a19fc3-c967-3df1-ae6b-35664549cc3f> .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Instance/53>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Missouri.  For 27 years until his retirement ]he[ worked as a Maintenance Engineer for Bayer]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:exact      "he" ;
+        c:length     "2" ;
+        c:offset     "913" ;
+        c:prefix     "Missouri.  For 27 years until his retirement " ;
+        c:subject    <http://d.opencalais.com/pershash-1/767c32d2-ed2b-39a3-b8a9-9d88a6e3f475> ;
+        c:suffix     " worked as a Maintenance Engineer for Bayer" .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Relevance/25>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/6f91b867-29cb-3f04-96c6-96de4a086e59> .
+
+<http://d.opencalais.com/genericHasher-1/ad081d65-dc56-3ec8-85f6-7d51377afef2>
+        a                      <http://s.opencalais.com/1/type/em/r/PersonTravel> ;
+        c:date                 "2002-00-00" ;
+        c:datestring           "in 2002" ;
+        c:forenduserdisplay    "false" ;
+        c:locationdestination  <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:person               <http://d.opencalais.com/pershash-1/767c32d2-ed2b-39a3-b8a9-9d88a6e3f475> ;
+        c:status               "past" .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Instance/32>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[direction of Marshall Funeral Home of Alva.  \n]Jimmie Lee Pittman[, son of the late Bobby Lee and Geraldine Maxine]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:exact      "Jimmie Lee Pittman" ;
+        c:length     "18" ;
+        c:offset     "286" ;
+        c:prefix     "direction of Marshall Funeral Home of Alva.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/fb184035-42ad-31c9-8c9e-c9f43d91549f> ;
+        c:suffix     ", son of the late Bobby Lee and Geraldine Maxine" .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Instance/11>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[as a Maintenance Engineer for Bayer Chemical in ]Kansas City[.  After his retirement in 2002, he returned to]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:exact      "Kansas City" ;
+        c:length     "11" ;
+        c:offset     "971" ;
+        c:prefix     "as a Maintenance Engineer for Bayer Chemical in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/dcc4f0b4-633d-3ded-a0d6-25da5d10a9f5> ;
+        c:suffix     ".  After his retirement in 2002, he returned to" .
+
+<http://d.opencalais.com/genericHasher-1/496358e2-9c82-39ef-8a64-bac3062b6d72>
+        a                    <http://s.opencalais.com/1/type/em/e/Position> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Marshall" .
+
+<http://d.opencalais.com/genericHasher-1/8eade039-a4ea-3277-86f0-dccd360f428f>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Alva Municipal Cemetery" .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Instance/6>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[by one daughter, Angela Michelle Pittman of ]Marshall[, Missouri; one brother, Stanley Pittman of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:exact      "Marshall" ;
+        c:length     "8" ;
+        c:offset     "1273" ;
+        c:prefix     "by one daughter, Angela Michelle Pittman of " ;
+        c:subject    <http://d.opencalais.com/pershash-1/0824c880-7431-3846-b832-1042cfbe83e9> ;
+        c:suffix     ", Missouri; one brother, Stanley Pittman of" .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Instance/61>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[will be 10:00am Wednesday, May 27, 2009, at ]the Marshall[ Funeral Chapel with Rev. Bob Brown, pastor of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:exact      "the Marshall" ;
+        c:length     "12" ;
+        c:offset     "85" ;
+        c:prefix     "will be 10:00am Wednesday, May 27, 2009, at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/496358e2-9c82-39ef-8a64-bac3062b6d72> ;
+        c:suffix     " Funeral Chapel with Rev. Bob Brown, pastor of" .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Instance/40>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[  On August 7, 1974, he was united in marriage to ]Bonnie Louise Halphin[ at Independence, Missouri.  For 27 years until]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:exact      "Bonnie Louise Halphin" ;
+        c:length     "21" ;
+        c:offset     "829" ;
+        c:prefix     "  On August 7, 1974, he was united in marriage to " ;
+        c:subject    <http://d.opencalais.com/pershash-1/1ea61eef-7326-3ed8-bc79-8b7c4f5a4253> ;
+        c:suffix     " at Independence, Missouri.  For 27 years until" .
+
+<http://d.opencalais.com/pershash-1/fb184035-42ad-31c9-8c9e-c9f43d91549f>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Jimmie Lee Pittman" ;
+        c:confidencelevel    "0.987" ;
+        c:firstname          "Jimmie" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Pittman" ;
+        c:middlename         "Lee" ;
+        c:name               "Jimmie Lee Pittman" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Relevance/12>
+        a                <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId          <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:relevance      "0.2" ;
+        c:relevancecont  "0.03" ;
+        c:subject        <http://d.opencalais.com/comphash-1/88e26ced-f208-3b7e-b64d-b291880f167d> .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Instance/19>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of God officiating.  Interment will be in the ]Alva Municipal Cemetery[ under the direction of Marshall Funeral Home of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:exact      "Alva Municipal Cemetery" ;
+        c:length     "23" ;
+        c:offset     "206" ;
+        c:prefix     "of God officiating.  Interment will be in the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8eade039-a4ea-3277-86f0-dccd360f428f> ;
+        c:suffix     " under the direction of Marshall Funeral Home of" .
+
+<http://d.opencalais.com/pershash-1/45fe7ef7-3ce3-3a9b-b0a1-7a5a02ee3915>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Funeral Chapel" .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c>
+        a                  <http://s.opencalais.com/1/type/sys/DocInfo> ;
+        c:calaisRequestID  "79fa5267-2b16-6189-14d9-139781212501" ;
+        c:docDate          "2015-05-26 17:16:12.499" ;
+        c:docTitle         "" ;
+        c:document         "Funeral services for Jimmie Lee Pittman, will be 10:00am Wednesday, May 27, 2009, at the Marshall Funeral Chapel with Rev. Bob Brown, pastor of the Alva Church of God officiating.  Interment will be in the Alva Municipal Cemetery under the direction of Marshall Funeral Home of Alva.  \nJimmie Lee Pittman, son of the late Bobby Lee and Geraldine Maxine (Brown) Pittman , was born November 24, 1947, in Alva, Oklahoma, and passed away May 22, 2009, in Alva, Oklahoma, at the age of 61 years, 5 months, and 28 days.  \nJimmie attended school in Alva through the 4th grade and graduated from high school in Independence, Missouri.  He served in the United States Navy from 1968 to 1969.  Following  his military service he worked for Mack Truck and the Kansas City Southern Railroad.  On August 7, 1974, he was united in marriage to Bonnie Louise Halphin at Independence, Missouri.  For 27 years until his retirement he worked as a Maintenance Engineer for Bayer Chemical in Kansas City.  After his retirement in 2002, he returned to Alva.  \nHe was a member of the First Christian Church (Disciples of Christ).  He enjoyed gardening and hunting, but he really loved fishing and tending his acreage west of Alva.  \nJimmie is survived by one daughter, Angela Michelle Pittman of Marshall, Missouri; one brother, Stanley Pittman of Frisco, Texas; four grandchildren, Zachary, Alexi, Collin, and Brandon; other relatives and many friends.  \nMemorial contributions may be made through the funeral home to the National Rifle Association. \n\t\t\t" ;
+        c:id               "http://id.opencalais.com/0h6OAbc*Qay3MSVAuVcqug" ;
+        c:ontology         "http://163.231.4.65/owlschema/8.3/onecalais.owl.allmetadata.xml" .
+
+<http://d.opencalais.com/conf/pershash-1/0824c880-7431-3846-b832-1042cfbe83e9>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.768" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.858" ;
+        c:subject             <http://d.opencalais.com/pershash-1/0824c880-7431-3846-b832-1042cfbe83e9> .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Instance/48>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[2009, at the Marshall Funeral Chapel with Rev. ]Bob Brown[, pastor of the Alva Church of God officiating. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:exact      "Bob Brown" ;
+        c:length     "9" ;
+        c:offset     "123" ;
+        c:prefix     "2009, at the Marshall Funeral Chapel with Rev. " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6f91b867-29cb-3f04-96c6-96de4a086e59> ;
+        c:suffix     ", pastor of the Alva Church of God officiating. " .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Relevance/20>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/1ea61eef-7326-3ed8-bc79-8b7c4f5a4253> .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Instance/27>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[loved fishing and tending his acreage west of ]Alva[.  \nJimmie is survived by one daughter, Angela]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "1202" ;
+        c:prefix     "loved fishing and tending his acreage west of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:suffix     ".  \nJimmie is survived by one daughter, Angela" .
+
+<http://d.opencalais.com/conf/pershash-1/767c32d2-ed2b-39a3-b8a9-9d88a6e3f475>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.851" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.919" ;
+        c:subject             <http://d.opencalais.com/pershash-1/767c32d2-ed2b-39a3-b8a9-9d88a6e3f475> .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Instance/1>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Chapel with Rev. Bob Brown, pastor of the ]Alva Church of God[ officiating.  Interment will be in the Alva]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:exact      "Alva Church of God" ;
+        c:length     "18" ;
+        c:offset     "148" ;
+        c:prefix     "Chapel with Rev. Bob Brown, pastor of the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/003298db-635b-3436-aee3-9694dc09ac6a> ;
+        c:suffix     " officiating.  Interment will be in the Alva" .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Relevance/6>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/003ee128-350d-3839-8f23-3e2675a6b13a> .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Instance/56>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[his retirement in 2002, he returned to Alva.  \n]He[ was a member of the First Christian Church]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:exact      "He" ;
+        c:length     "2" ;
+        c:offset     "1038" ;
+        c:prefix     "his retirement in 2002, he returned to Alva.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/767c32d2-ed2b-39a3-b8a9-9d88a6e3f475> ;
+        c:suffix     " was a member of the First Christian Church" .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Relevance/28>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/841bf89e-912e-3055-9c67-6be5e0df87d1> .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Instance/35>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Alva.  \nJimmie is survived by one daughter, ]Angela Michelle Pittman[ of Marshall, Missouri; one brother, Stanley]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:exact      "Angela Michelle Pittman" ;
+        c:length     "23" ;
+        c:offset     "1246" ;
+        c:prefix     "of Alva.  \nJimmie is survived by one daughter, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/96cc47fd-78b7-3f34-8f5a-5aa1d4fefbed> ;
+        c:suffix     " of Marshall, Missouri; one brother, Stanley" .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Instance/14>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Alva.  \nJimmie Lee Pittman, son of the late ]Bobby Lee[ and Geraldine Maxine (Brown) Pittman , was born]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:exact      "Bobby Lee" ;
+        c:length     "9" ;
+        c:offset     "322" ;
+        c:prefix     "of Alva.  \nJimmie Lee Pittman, son of the late " ;
+        c:subject    <http://d.opencalais.com/pershash-1/3f6e7fce-e70e-36a9-8f6e-d496a3ca7925> ;
+        c:suffix     " and Geraldine Maxine (Brown) Pittman , was born" .
+
+<http://d.opencalais.com/comphash-1/82f12751-f6ab-3423-af71-4ab49dec6744>
+        a                    <http://s.opencalais.com/1/type/em/e/Company> ;
+        c:confidencelevel    "0.636" ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Bayer Chemical" ;
+        c:nationality        "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/4553933f-3337-3cef-a1c9-44e91fac29ef>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:forenduserdisplay  "true" ;
+        c:organization       <http://d.opencalais.com/genericHasher-1/e3b633f3-aa73-339f-b8c8-66b62e079ed6> ;
+        c:person             <http://d.opencalais.com/pershash-1/3f6e7fce-e70e-36a9-8f6e-d496a3ca7925> ;
+        c:status             "past" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/22a2e9d4-42cf-58a2-d8d3-3269b69ad67a>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:latitude            "38.5" ;
+        c:longitude           "-92.5" ;
+        c:name                "Missouri,United States" ;
+        c:permid              "100190" ;
+        c:rcscode             "G:45" ;
+        c:shortname           "Missouri" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/4b59c1ad-8092-34d5-b763-a43226a1836c> .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Instance/9>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[united in marriage to Bonnie Louise Halphin at ]Independence[, Missouri.  For 27 years until his retirement he]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:exact      "Independence" ;
+        c:length     "12" ;
+        c:offset     "854" ;
+        c:prefix     "united in marriage to Bonnie Louise Halphin at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/003ee128-350d-3839-8f23-3e2675a6b13a> ;
+        c:suffix     ", Missouri.  For 27 years until his retirement he" .
+
+<http://d.opencalais.com/genericHasher-1/b6bf2c0d-0ac3-3aaa-a334-e02dfcbc3358>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Alva" ;
+        c:person             <http://d.opencalais.com/pershash-1/0824c880-7431-3846-b832-1042cfbe83e9> .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Instance/64>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Pittman of Marshall, Missouri; one brother, ]Stanley Pittman[ of Frisco, Texas; four grandchildren, Zachary,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:exact      "Stanley Pittman" ;
+        c:length     "15" ;
+        c:offset     "1306" ;
+        c:prefix     "Pittman of Marshall, Missouri; one brother, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/39a19fc3-c967-3df1-ae6b-35664549cc3f> ;
+        c:suffix     " of Frisco, Texas; four grandchildren, Zachary," .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Instance/43>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Oklahoma, and passed away May 22, 2009, in Alva, ]Oklahoma[, at the age of 61 years, 5 months, and 28 days. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "457" ;
+        c:prefix     " Oklahoma, and passed away May 22, 2009, in Alva, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", at the age of 61 years, 5 months, and 28 days. " .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Relevance/15>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/pershash-1/fb184035-42ad-31c9-8c9e-c9f43d91549f> .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Instance/22>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[under the direction of Marshall Funeral Home of ]Alva[.  \nJimmie Lee Pittman, son of the late Bobby Lee]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "278" ;
+        c:prefix     "under the direction of Marshall Funeral Home of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:suffix     ".  \nJimmie Lee Pittman, son of the late Bobby Lee" .
+
+<http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Marshall Funeral Home of Alva" .
+
+<http://d.opencalais.com/genericHasher-1/e2deff92-b8cc-3b2c-84d9-fd339d585281>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:company            <http://d.opencalais.com/comphash-1/82f12751-f6ab-3423-af71-4ab49dec6744> ;
+        c:forenduserdisplay  "true" ;
+        c:person             <http://d.opencalais.com/pershash-1/767c32d2-ed2b-39a3-b8a9-9d88a6e3f475> ;
+        c:position           "Maintenance Engineer" ;
+        c:status             "past" .
+
+<http://d.opencalais.com/pershash-1/96cc47fd-78b7-3f34-8f5a-5aa1d4fefbed>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Angela Michelle Pittman" ;
+        c:confidencelevel    "0.994" ;
+        c:firstname          "Angela" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Pittman" ;
+        c:middlename         "Michelle" ;
+        c:name               "Angela Michelle Pittman" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/66832dfc-a7cc-34da-813d-518459853508>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Marshall Funeral Chapel" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/62914270-0a1c-1bcc-880e-6dbe9fb82eb9>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:latitude            "31.4484328889" ;
+        c:longitude           "-97.7816569778" ;
+        c:name                "Texas,United States" ;
+        c:permid              "100299" ;
+        c:rcscode             "G:50" ;
+        c:shortname           "Texas" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> .
+
+<http://d.opencalais.com/genericHasher-1/9c26400c-9836-36dc-88aa-d8770e9e8afc>
+        a                    <http://s.opencalais.com/1/type/em/e/Position> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Maintenance Engineer" .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Relevance/1>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/003298db-635b-3436-aee3-9694dc09ac6a> .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Instance/51>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[City Southern Railroad.  On August 7, 1974, ]he[ was united in marriage to Bonnie Louise Halphin]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:exact      "he" ;
+        c:length     "2" ;
+        c:offset     "800" ;
+        c:prefix     "City Southern Railroad.  On August 7, 1974, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/767c32d2-ed2b-39a3-b8a9-9d88a6e3f475> ;
+        c:suffix     " was united in marriage to Bonnie Louise Halphin" .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Relevance/23>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/42c207b0-1e39-325f-840b-4b590eaa36c3> .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Instance/30>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in Independence, Missouri.  He served in the ]United States[ Navy from 1968 to 1969.  Following  his military]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:exact      "United States" ;
+        c:length     "13" ;
+        c:offset     "645" ;
+        c:prefix     "in Independence, Missouri.  He served in the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a54ac18b-a956-3b5c-b235-0609ca899305> ;
+        c:suffix     " Navy from 1968 to 1969.  Following  his military" .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Instance/4>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[daughter, Angela Michelle Pittman of Marshall, ]Missouri[; one brother, Stanley Pittman of Frisco, Texas;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:exact      "Missouri" ;
+        c:length     "8" ;
+        c:offset     "1283" ;
+        c:prefix     "daughter, Angela Michelle Pittman of Marshall, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4b59c1ad-8092-34d5-b763-a43226a1836c> ;
+        c:suffix     "; one brother, Stanley Pittman of Frisco, Texas;" .
+
+<http://d.opencalais.com/genericHasher-1/1909c4c0-79e6-39c4-9e70-4483983f18a2>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Independence" ;
+        c:person             <http://d.opencalais.com/pershash-1/1ea61eef-7326-3ed8-bc79-8b7c4f5a4253> .
+
+<http://d.opencalais.com/pershash-1/1ea61eef-7326-3ed8-bc79-8b7c4f5a4253>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Bonnie Louise Halphin" ;
+        c:confidencelevel    "0.963" ;
+        c:firstname          "Bonnie" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Halphin" ;
+        c:middlename         "Louise" ;
+        c:name               "Bonnie Louise Halphin" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/11a6ccbe-144e-3ecf-ae9c-2447420c217e>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Frisco" ;
+        c:person             <http://d.opencalais.com/pershash-1/39a19fc3-c967-3df1-ae6b-35664549cc3f> .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Relevance/9>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/acb2c295-4f3b-3ed1-aac7-9726a46e4075> .
+
+<http://d.opencalais.com/conf/pershash-1/fb184035-42ad-31c9-8c9e-c9f43d91549f>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.987" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.992" ;
+        c:subject             <http://d.opencalais.com/pershash-1/fb184035-42ad-31c9-8c9e-c9f43d91549f> .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Instance/59>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ hunting, but he really loved fishing and tending ]his[ acreage west of Alva.  \nJimmie is survived by]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "1182" ;
+        c:prefix     " hunting, but he really loved fishing and tending " ;
+        c:subject    <http://d.opencalais.com/pershash-1/767c32d2-ed2b-39a3-b8a9-9d88a6e3f475> ;
+        c:suffix     " acreage west of Alva.  \nJimmie is survived by" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/454905cf-88c5-42fd-3704-7f532f65c613>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Missouri" ;
+        c:docId               <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:latitude            "39.0911" ;
+        c:longitude           "-94.4153" ;
+        c:name                "Independence,Missouri,United States" ;
+        c:shortname           "Independence" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/003ee128-350d-3839-8f23-3e2675a6b13a> .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Instance/38>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ returned to Alva.  \nHe was a member of the First ]Christian Church[ (Disciples of Christ).  He enjoyed gardening and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:exact      "Christian Church" ;
+        c:length     "16" ;
+        c:offset     "1067" ;
+        c:prefix     " returned to Alva.  \nHe was a member of the First " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c1e14c20-7ec2-3637-872f-855b5253364e> ;
+        c:suffix     " (Disciples of Christ).  He enjoyed gardening and" .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Relevance/10>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/3f6e7fce-e70e-36a9-8f6e-d496a3ca7925> .
+
+<http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Texas" .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Instance/17>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[1968 to 1969.  Following  his military service ]he[ worked for Mack Truck and the Kansas City]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:exact      "he" ;
+        c:length     "2" ;
+        c:offset     "716" ;
+        c:prefix     "1968 to 1969.  Following  his military service " ;
+        c:subject    <http://d.opencalais.com/pershash-1/3f6e7fce-e70e-36a9-8f6e-d496a3ca7925> ;
+        c:suffix     " worked for Mack Truck and the Kansas City" .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/SocialTag/2>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Pittman" ;
+        c:originalValue      "Pittman (surname)" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/6356aed8-6f15-3801-957b-368669d2a670> .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Instance/67>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ 10:00am Wednesday, May 27, 2009, at the Marshall ]Funeral Chapel[ with Rev. Bob Brown, pastor of the Alva Church]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:exact      "Funeral Chapel" ;
+        c:length     "14" ;
+        c:offset     "98" ;
+        c:prefix     " 10:00am Wednesday, May 27, 2009, at the Marshall " ;
+        c:subject    <http://d.opencalais.com/pershash-1/45fe7ef7-3ce3-3a9b-b0a1-7a5a02ee3915> ;
+        c:suffix     " with Rev. Bob Brown, pastor of the Alva Church" .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/meta>
+        a                 <http://s.opencalais.com/1/type/sys/DocInfoMeta> ;
+        c:contentType     "text/raw" ;
+        c:docId           <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:language        "English" ;
+        c:processingVer   "AllMetadata" ;
+        c:serverVersion   "OneCalais_8.3-RELEASE:364" ;
+        c:signature       "digestalg-1|uZMoT9Jnbxfgxq8wDkJ+QC5RVoI=|LQ9yOg19dVlfu1hfz1rOIq67NL8fEwET844LAP0rlPwoWcHAbUa0Hg==" ;
+        c:stagsVer        "OneCalais_8.3-RELEASE-b11-2015-03-25_18:29:00" ;
+        c:submissionDate  "2015-05-26 17:16:12.178" ;
+        c:submitterCode   "0ca6a864-5659-789d-5f32-f365f695e757" .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Instance/46>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[may be made through the funeral home to the ]National Rifle Association[. \n\t\t\t]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:exact      "National Rifle Association" ;
+        c:length     "26" ;
+        c:offset     "1500" ;
+        c:prefix     "may be made through the funeral home to the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/42c207b0-1e39-325f-840b-4b590eaa36c3> ;
+        c:suffix     ". \n\t\t\t" .
+
+<http://d.opencalais.com/genericHasher-1/003298db-635b-3436-aee3-9694dc09ac6a>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Alva Church of God" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Relevance/18>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee> .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Instance/25>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ months, and 28 days.  \nJimmie attended school in ]Alva[ through the 4th grade and graduated from high]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "542" ;
+        c:prefix     " months, and 28 days.  \nJimmie attended school in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:suffix     " through the 4th grade and graduated from high" .
+
+<http://d.opencalais.com/genericHasher-1/dcc4f0b4-633d-3ded-a0d6-25da5d10a9f5>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Kansas City" .
+
+<https://permid.org/1-4297192887>
+        a             <http://s.opencalais.com/1/type/er/Company> ;
+        c:commonname  "Bayer Chemicals" ;
+        c:docId       <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:legacyid    <http://d.opencalais.com/er/company/ralg-tr1r/4c5bbce7-852f-3859-bf3a-fc65a68f5133> ;
+        c:name        "Bayer Chemicals AG" ;
+        c:permid      "4297192887" ;
+        c:score       "0.16064715" ;
+        c:subject     <http://d.opencalais.com/comphash-1/82f12751-f6ab-3423-af71-4ab49dec6744> .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Relevance/4>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/0824c880-7431-3846-b832-1042cfbe83e9> .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Instance/54>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[for Bayer Chemical in Kansas City.  After ]his[ retirement in 2002, he returned to Alva.  \nHe]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "991" ;
+        c:prefix     "for Bayer Chemical in Kansas City.  After " ;
+        c:subject    <http://d.opencalais.com/pershash-1/767c32d2-ed2b-39a3-b8a9-9d88a6e3f475> ;
+        c:suffix     " retirement in 2002, he returned to Alva.  \nHe" .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Relevance/26>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/767c32d2-ed2b-39a3-b8a9-9d88a6e3f475> .
+
+<http://d.opencalais.com/conf/comphash-1/82f12751-f6ab-3423-af71-4ab49dec6744>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.636" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:resolution          "0.16064715" ;
+        c:statisticalfeature  "0.668" ;
+        c:subject             <http://d.opencalais.com/comphash-1/82f12751-f6ab-3423-af71-4ab49dec6744> .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Instance/33>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ at the age of 61 years, 5 months, and 28 days.  \n]Jimmie[ attended school in Alva through the 4th grade]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:exact      "Jimmie" ;
+        c:length     "6" ;
+        c:offset     "516" ;
+        c:prefix     " at the age of 61 years, 5 months, and 28 days.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/fb184035-42ad-31c9-8c9e-c9f43d91549f> ;
+        c:suffix     " attended school in Alva through the 4th grade" .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Instance/12>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Missouri.  For 27 years until his retirement ]he worked as a Maintenance Engineer for Bayer Chemical[ in Kansas City.  After his retirement in 2002,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:exact      "he worked as a Maintenance Engineer for Bayer Chemical" ;
+        c:length     "54" ;
+        c:offset     "913" ;
+        c:prefix     "Missouri.  For 27 years until his retirement " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e2deff92-b8cc-3b2c-84d9-fd339d585281> ;
+        c:suffix     " in Kansas City.  After his retirement in 2002," .
+
+<http://d.opencalais.com/genericHasher-1/4b59c1ad-8092-34d5-b763-a43226a1836c>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Missouri" .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Instance/7>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[one brother, Stanley Pittman of Frisco, ]Texas[; four grandchildren, Zachary, Alexi, Collin, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:exact      "Texas" ;
+        c:length     "5" ;
+        c:offset     "1333" ;
+        c:prefix     "one brother, Stanley Pittman of Frisco, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> ;
+        c:suffix     "; four grandchildren, Zachary, Alexi, Collin, and" .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/cat/1>
+        a                    <http://s.opencalais.com/1/type/cat/DocCat> ;
+        c:docId              <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Human Interest" ;
+        c:score              "1.000" .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Instance/62>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Missouri.  For 27 years until his retirement ]he worked as a Maintenance Engineer for Bayer Chemical in Kansas City[.  After his retirement in 2002, he returned to]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:exact      "he worked as a Maintenance Engineer for Bayer Chemical in Kansas City" ;
+        c:length     "69" ;
+        c:offset     "913" ;
+        c:prefix     "Missouri.  For 27 years until his retirement " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/554575ff-b2e9-3c91-b5ee-acdb73afa35b> ;
+        c:suffix     ".  After his retirement in 2002, he returned to" .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Instance/41>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[from high school in Independence, Missouri.  ]He served in the United States Navy from 1968 to 1969[.  Following  his military service he worked for]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:exact      "He served in the United States Navy from 1968 to 1969" ;
+        c:length     "53" ;
+        c:offset     "628" ;
+        c:prefix     "from high school in Independence, Missouri.  " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4553933f-3337-3cef-a1c9-44e91fac29ef> ;
+        c:suffix     ".  Following  his military service he worked for" .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Relevance/13>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Instance/20>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[service he worked for Mack Truck and the ]Kansas City Southern[ Railroad.  On August 7, 1974, he was united in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:exact      "Kansas City Southern" ;
+        c:length     "20" ;
+        c:offset     "749" ;
+        c:prefix     "service he worked for Mack Truck and the " ;
+        c:subject    <http://d.opencalais.com/comphash-1/88e26ced-f208-3b7e-b64d-b291880f167d> ;
+        c:suffix     " Railroad.  On August 7, 1974, he was united in" .
+
+<http://d.opencalais.com/pershash-1/3f6e7fce-e70e-36a9-8f6e-d496a3ca7925>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Bobby Lee" ;
+        c:confidencelevel    "0.999" ;
+        c:firstname          "Bobby" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Lee" ;
+        c:name               "Bobby Lee" ;
+        c:nationality        "N/A" ;
+        c:persontype         "entertainment" .
+
+<http://d.opencalais.com/conf/pershash-1/96cc47fd-78b7-3f34-8f5a-5aa1d4fefbed>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.994" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.996" ;
+        c:subject             <http://d.opencalais.com/pershash-1/96cc47fd-78b7-3f34-8f5a-5aa1d4fefbed> .
+
+<http://d.opencalais.com/pershash-1/6f91b867-29cb-3f04-96c6-96de4a086e59>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Bob Brown" ;
+        c:confidencelevel    "0.999" ;
+        c:firstname          "Bob" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Brown" ;
+        c:name               "Bob Brown" ;
+        c:nationality        "N/A" ;
+        c:persontype         "sports" .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Instance/49>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Chemical in Kansas City.  After his retirement ]in 2002, he returned to Alva[.  \nHe was a member of the First Christian Church]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:exact      "in 2002, he returned to Alva" ;
+        c:length     "28" ;
+        c:offset     "1006" ;
+        c:prefix     "Chemical in Kansas City.  After his retirement " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/871b24be-25c4-37f3-9053-a572e9020395> ;
+        c:suffix     ".  \nHe was a member of the First Christian Church" .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Relevance/21>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Instance/28>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Pittman of Marshall, Missouri; one brother, ]Stanley Pittman of Frisco, Texas[; four grandchildren, Zachary, Alexi, Collin, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:exact      "Stanley Pittman of Frisco, Texas" ;
+        c:length     "32" ;
+        c:offset     "1306" ;
+        c:prefix     "Pittman of Marshall, Missouri; one brother, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/11a6ccbe-144e-3ecf-ae9c-2447420c217e> ;
+        c:suffix     "; four grandchildren, Zachary, Alexi, Collin, and" .
+
+<http://d.opencalais.com/genericHasher-1/7394feae-ed48-3af8-badb-7fcbf169197f>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:forenduserdisplay  "true" ;
+        c:person             <http://d.opencalais.com/pershash-1/45fe7ef7-3ce3-3a9b-b0a1-7a5a02ee3915> ;
+        c:position           "Marshall" ;
+        c:status             "current" .
+
+<http://d.opencalais.com/genericHasher-1/1ff535f5-c323-3dab-a4a0-4f3ac361f1e1>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonAttributes> ;
+        c:birthdate          "1947-11-24" ;
+        c:birthplace         <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:forenduserdisplay  "false" ;
+        c:gender             "F" ;
+        c:person             <http://d.opencalais.com/pershash-1/acb2c295-4f3b-3ed1-aac7-9726a46e4075> .
+
+<http://d.opencalais.com/conf/pershash-1/1ea61eef-7326-3ed8-bc79-8b7c4f5a4253>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.963" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.978" ;
+        c:subject             <http://d.opencalais.com/pershash-1/1ea61eef-7326-3ed8-bc79-8b7c4f5a4253> .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Instance/2>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and graduated from high school in Independence, ]Missouri[.  He served in the United States Navy from 1968]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:exact      "Missouri" ;
+        c:length     "8" ;
+        c:offset     "617" ;
+        c:prefix     "and graduated from high school in Independence, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4b59c1ad-8092-34d5-b763-a43226a1836c> ;
+        c:suffix     ".  He served in the United States Navy from 1968" .
+
+<http://d.opencalais.com/genericHasher-1/841bf89e-912e-3055-9c67-6be5e0df87d1>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Frisco" .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Relevance/7>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9c26400c-9836-36dc-88aa-d8770e9e8afc> .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Instance/57>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[First Christian Church (Disciples of Christ).  ]He[ enjoyed gardening and hunting, but he really]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:exact      "He" ;
+        c:length     "2" ;
+        c:offset     "1108" ;
+        c:prefix     "First Christian Church (Disciples of Christ).  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/767c32d2-ed2b-39a3-b8a9-9d88a6e3f475> ;
+        c:suffix     " enjoyed gardening and hunting, but he really" .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Relevance/29>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/39a19fc3-c967-3df1-ae6b-35664549cc3f> .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Instance/36>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Alva Municipal Cemetery under the direction of ]Marshall Funeral Home of Alva[.  \nJimmie Lee Pittman, son of the late Bobby Lee]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:exact      "Marshall Funeral Home of Alva" ;
+        c:length     "29" ;
+        c:offset     "253" ;
+        c:prefix     "Alva Municipal Cemetery under the direction of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce> ;
+        c:suffix     ".  \nJimmie Lee Pittman, son of the late Bobby Lee" .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Instance/15>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[from high school in Independence, Missouri.  ]He[ served in the United States Navy from 1968 to]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:exact      "He" ;
+        c:length     "2" ;
+        c:offset     "628" ;
+        c:prefix     "from high school in Independence, Missouri.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/3f6e7fce-e70e-36a9-8f6e-d496a3ca7925> ;
+        c:suffix     " served in the United States Navy from 1968 to" .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Instance/65>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[will be 10:00am Wednesday, May 27, 2009, at ]the Marshall Funeral Chapel[ with Rev. Bob Brown, pastor of the Alva Church]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:exact      "the Marshall Funeral Chapel" ;
+        c:length     "27" ;
+        c:offset     "85" ;
+        c:prefix     "will be 10:00am Wednesday, May 27, 2009, at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/7394feae-ed48-3af8-badb-7fcbf169197f> ;
+        c:suffix     " with Rev. Bob Brown, pastor of the Alva Church" .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Instance/44>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[  On August 7, 1974, he was united in marriage to ]Bonnie Louise Halphin at Independence, Missouri[.  For 27 years until his retirement he worked as]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:exact      "Bonnie Louise Halphin at Independence, Missouri" ;
+        c:length     "47" ;
+        c:offset     "829" ;
+        c:prefix     "  On August 7, 1974, he was united in marriage to " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/1909c4c0-79e6-39c4-9e70-4483983f18a2> ;
+        c:suffix     ".  For 27 years until his retirement he worked as" .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Relevance/16>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/96cc47fd-78b7-3f34-8f5a-5aa1d4fefbed> .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Instance/23>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ (Brown) Pittman , was born November 24, 1947, in ]Alva[, Oklahoma, and passed away May 22, 2009, in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "402" ;
+        c:prefix     " (Brown) Pittman , was born November 24, 1947, in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:suffix     ", Oklahoma, and passed away May 22, 2009, in" .
+
+<http://d.opencalais.com/pershash-1/acb2c295-4f3b-3ed1-aac7-9726a46e4075>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Geraldine Maxine Pittman" ;
+        c:confidencelevel    "0.984" ;
+        c:firstname          "Geraldine" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Pittman" ;
+        c:middlename         "Maxine" ;
+        c:name               "Geraldine Maxine (Brown) Pittman" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/er/geo/country/ralg-geo1/152649df-347e-e289-1a9e-acc883e07d17>
+        a            <http://s.opencalais.com/1/type/er/Geo/Country> ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:latitude   "40.4230003233" ;
+        c:longitude  "-98.7372244786" ;
+        c:name       "United States" ;
+        c:permid     "100319" ;
+        c:rcscode    "G:6J" ;
+        c:shortname  "United States" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a54ac18b-a956-3b5c-b235-0609ca899305> .
+
+<http://d.opencalais.com/genericHasher-1/a54ac18b-a956-3b5c-b235-0609ca899305>
+        a                    <http://s.opencalais.com/1/type/em/e/Country> ;
+        c:forenduserdisplay  "true" ;
+        c:name               "United States" .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Relevance/2>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4b59c1ad-8092-34d5-b763-a43226a1836c> .
+
+<http://d.opencalais.com/genericHasher-1/554575ff-b2e9-3c91-b5ee-acdb73afa35b>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Kansas City" ;
+        c:person             <http://d.opencalais.com/pershash-1/767c32d2-ed2b-39a3-b8a9-9d88a6e3f475> .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Instance/52>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[at Independence, Missouri.  For 27 years until ]his[ retirement he worked as a Maintenance Engineer]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "898" ;
+        c:prefix     "at Independence, Missouri.  For 27 years until " ;
+        c:subject    <http://d.opencalais.com/pershash-1/767c32d2-ed2b-39a3-b8a9-9d88a6e3f475> ;
+        c:suffix     " retirement he worked as a Maintenance Engineer" .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/ComponentVersions>
+        a          <http://s.opencalais.com/1/type/sys/ComponentVersions> ;
+        c:docId    <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:version  "People Override:258:258" , "BlackList:264:264" , "config-cse:271:271" , "BrokerResearchIM:OneCalais_8.3-RELEASE:198" , "WatchDog:OneCalais_8.3-RELEASE:113" , "OA Index:201505252208:201505252208" , "config-refineries:258:258" , "config-negativeSignature:258:258" , "NextTags:OneCalais_8.3-RELEASE:113" , "config-drugs:258:258" , "com.clearforest.infoext.dial4j.plugins-basistechconfig:OneCalais_8.3-RELEASE:225" , "OneCalaisIM:OneCalais_8.3-RELEASE:198" , "OA Override:271:271" , "config-physicalAssets-ports:258:258" , "OneCalais:OneCalais_8.3-RELEASE:364" , "SECHeaderMetadataIM:OneCalais_8.3-RELEASE:198" , "People Index:201505261608:201505261608" , "config-sca-DataPackage:34:34" , "FrenchIM:OneCalais_8.3-RELEASE:198" , "SpanishIM:OneCalais_8.3-RELEASE:198" , "index-vessels:201505231718:201505231718" , "Housekeeper:OneCalais_8.3-RELEASE:113" , "SocialTags Index:201505191038:201505191038" , "Deals Index:201505261613:201505261613" , "Collector:OneCalais_8.3-RELEASE:113" , "AutocoderRuntimeIM:OneCalais_8.3-RELEASE:198" , "Dial4J:OneCalais_8.3-RELEASE:198" , "config-vessels:258:258" .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Relevance/24>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e3b633f3-aa73-339f-b8c8-66b62e079ed6> .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Instance/31>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Funeral services for ]Jimmie Lee Pittman[, will be 10:00am Wednesday, May 27, 2009, at the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:exact      "Jimmie Lee Pittman" ;
+        c:length     "18" ;
+        c:offset     "21" ;
+        c:prefix     "Funeral services for " ;
+        c:subject    <http://d.opencalais.com/pershash-1/fb184035-42ad-31c9-8c9e-c9f43d91549f> ;
+        c:suffix     ", will be 10:00am Wednesday, May 27, 2009, at the" .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Instance/10>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ For 27 years until his retirement he worked as ]a Maintenance Engineer[ for Bayer Chemical in Kansas City.  After his]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:exact      "a Maintenance Engineer" ;
+        c:length     "22" ;
+        c:offset     "926" ;
+        c:prefix     " For 27 years until his retirement he worked as " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9c26400c-9836-36dc-88aa-d8770e9e8afc> ;
+        c:suffix     " for Bayer Chemical in Kansas City.  After his" .
+
+<http://d.opencalais.com/genericHasher-1/c1e14c20-7ec2-3637-872f-855b5253364e>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Christian Church" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/b2493e88-9bfa-bc06-8163-325777c22a8b>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Missouri" ;
+        c:docId               <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:latitude            "36.7589429" ;
+        c:longitude           "-89.8623096" ;
+        c:name                "Frisco,Missouri,United States" ;
+        c:shortname           "Frisco" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/841bf89e-912e-3055-9c67-6be5e0df87d1> .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Instance/5>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[he worked as a Maintenance Engineer for ]Bayer Chemical[ in Kansas City.  After his retirement in 2002,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:exact      "Bayer Chemical" ;
+        c:length     "14" ;
+        c:offset     "953" ;
+        c:prefix     "he worked as a Maintenance Engineer for " ;
+        c:subject    <http://d.opencalais.com/comphash-1/82f12751-f6ab-3423-af71-4ab49dec6744> ;
+        c:suffix     " in Kansas City.  After his retirement in 2002," .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/aafdfcb5-2c36-08ae-5e6b-d414147c0658>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oregon" ;
+        c:docId               <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:latitude            "45.5959464" ;
+        c:longitude           "-123.147054" ;
+        c:name                "Kansas City,Oregon,United States" ;
+        c:rcscode             "G:1ET" ;
+        c:shortname           "Kansas City" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/dcc4f0b4-633d-3ded-a0d6-25da5d10a9f5> .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Instance/60>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Alva Municipal Cemetery under the direction of ]Marshall Funeral Home of Alva[.  \nJimmie Lee Pittman, son of the late Bobby Lee]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:exact      "Marshall Funeral Home of Alva" ;
+        c:length     "29" ;
+        c:offset     "253" ;
+        c:prefix     "Alva Municipal Cemetery under the direction of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6bf2c0d-0ac3-3aaa-a334-e02dfcbc3358> ;
+        c:suffix     ".  \nJimmie Lee Pittman, son of the late Bobby Lee" .
+
+<http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee>
+        a                    <http://s.opencalais.com/1/type/em/e/IndustryTerm> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Funeral services" .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Instance/39>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Truck and the Kansas City Southern Railroad.  ]On August 7, 1974, he was united in marriage to Bonnie Louise Halphin[ at Independence, Missouri.  For 27 years until]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:exact      "On August 7, 1974, he was united in marriage to Bonnie Louise Halphin" ;
+        c:length     "69" ;
+        c:offset     "781" ;
+        c:prefix     "Truck and the Kansas City Southern Railroad.  " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/41bcc504-a6cd-37a1-adbd-67ec7a83c801> ;
+        c:suffix     " at Independence, Missouri.  For 27 years until" .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Relevance/11>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8eade039-a4ea-3277-86f0-dccd360f428f> .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Instance/18>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Chemical in Kansas City.  After his retirement ]in 2002, he returned to Alva[.  \nHe was a member of the First Christian Church]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:exact      "in 2002, he returned to Alva" ;
+        c:length     "28" ;
+        c:offset     "1006" ;
+        c:prefix     "Chemical in Kansas City.  After his retirement " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ad081d65-dc56-3ec8-85f6-7d51377afef2> ;
+        c:suffix     ".  \nHe was a member of the First Christian Church" .
+
+<http://d.opencalais.com/conf/pershash-1/3f6e7fce-e70e-36a9-8f6e-d496a3ca7925>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.999" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.997" ;
+        c:subject             <http://d.opencalais.com/pershash-1/3f6e7fce-e70e-36a9-8f6e-d496a3ca7925> .
+
+<http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oklahoma" .
+
+<http://d.opencalais.com/conf/pershash-1/6f91b867-29cb-3f04-96c6-96de4a086e59>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.999" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.98" ;
+        c:subject             <http://d.opencalais.com/pershash-1/6f91b867-29cb-3f04-96c6-96de4a086e59> .
+
+<http://d.opencalais.com/comphash-1/88e26ced-f208-3b7e-b64d-b291880f167d>
+        a                    <http://s.opencalais.com/1/type/em/e/Company> ;
+        c:confidencelevel    "0.929" ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Kansas City Southern" ;
+        c:nationality        "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Alva" .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Instance/47>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in Independence, Missouri.  He served in the ]United States Navy[ from 1968 to 1969.  Following  his military]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:exact      "United States Navy" ;
+        c:length     "18" ;
+        c:offset     "645" ;
+        c:prefix     "in Independence, Missouri.  He served in the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e3b633f3-aa73-339f-b8c8-66b62e079ed6> ;
+        c:suffix     " from 1968 to 1969.  Following  his military" .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Relevance/19>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c1e14c20-7ec2-3637-872f-855b5253364e> .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Instance/26>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ After his retirement in 2002, he returned to ]Alva[.  \nHe was a member of the First Christian Church]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "1030" ;
+        c:prefix     " After his retirement in 2002, he returned to " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:suffix     ".  \nHe was a member of the First Christian Church" .
+
+<http://d.opencalais.com/genericHasher-1/2dfcb567-bb05-3607-81a2-4a55308aad52>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Alva, Oklahoma" ;
+        c:person             <http://d.opencalais.com/pershash-1/3f6e7fce-e70e-36a9-8f6e-d496a3ca7925> .
+
+<https://permid.org/1-4295912177>
+        a             <http://s.opencalais.com/1/type/er/Company> ;
+        c:commonname  "KCS US" ;
+        c:docId       <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:legacyid    <http://d.opencalais.com/er/company/ralg-tr1r/3d12bb14-daa4-3ebe-beef-1a299ab1a7e6> ;
+        c:name        "Kansas City Southern" ;
+        c:permid      "4295912177" ;
+        c:primaryric  "KSU.N" ;
+        c:score       "0.8018823" ;
+        c:subject     <http://d.opencalais.com/comphash-1/88e26ced-f208-3b7e-b64d-b291880f167d> ;
+        c:ticker      "KSU" .
+
+<http://d.opencalais.com/genericHasher-1/41bcc504-a6cd-37a1-adbd-67ec7a83c801>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:date                "1974-08-07" ;
+        c:datestring          "August 7, 1974" ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/1ea61eef-7326-3ed8-bc79-8b7c4f5a4253> , <http://d.opencalais.com/pershash-1/767c32d2-ed2b-39a3-b8a9-9d88a6e3f475> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Relevance/5>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Instance/55>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in Kansas City.  After his retirement in 2002, ]he[ returned to Alva.  \nHe was a member of the First]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:exact      "he" ;
+        c:length     "2" ;
+        c:offset     "1015" ;
+        c:prefix     "in Kansas City.  After his retirement in 2002, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/767c32d2-ed2b-39a3-b8a9-9d88a6e3f475> ;
+        c:suffix     " returned to Alva.  \nHe was a member of the First" .
+
+<http://d.opencalais.com/pershash-1/39a19fc3-c967-3df1-ae6b-35664549cc3f>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Stanley Pittman" ;
+        c:confidencelevel    "0.997" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Stanley Pittman" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Relevance/27>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/496358e2-9c82-39ef-8a64-bac3062b6d72> .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Instance/34>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[fishing and tending his acreage west of Alva.  \n]Jimmie[ is survived by one daughter, Angela Michelle]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:exact      "Jimmie" ;
+        c:length     "6" ;
+        c:offset     "1210" ;
+        c:prefix     "fishing and tending his acreage west of Alva.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/fb184035-42ad-31c9-8c9e-c9f43d91549f> ;
+        c:suffix     " is survived by one daughter, Angela Michelle" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/e9e27c26-4013-8712-a5f0-97dcdc412c26>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:latitude            "35.5607802899" ;
+        c:longitude           "-96.8460570462" ;
+        c:name                "Oklahoma,United States" ;
+        c:permid              "100229" ;
+        c:rcscode             "G:9H" ;
+        c:shortname           "Oklahoma" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Instance/13>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Lee Pittman, son of the late Bobby Lee and ]Geraldine Maxine (Brown) Pittman[ , was born November 24, 1947, in Alva, Oklahoma,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:exact      "Geraldine Maxine (Brown) Pittman" ;
+        c:length     "32" ;
+        c:offset     "336" ;
+        c:prefix     "Lee Pittman, son of the late Bobby Lee and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/acb2c295-4f3b-3ed1-aac7-9726a46e4075> ;
+        c:suffix     " , was born November 24, 1947, in Alva, Oklahoma," .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Instance/8>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[the 4th grade and graduated from high school in ]Independence[, Missouri.  He served in the United States Navy]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:exact      "Independence" ;
+        c:length     "12" ;
+        c:offset     "603" ;
+        c:prefix     "the 4th grade and graduated from high school in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/003ee128-350d-3839-8f23-3e2675a6b13a> ;
+        c:suffix     ", Missouri.  He served in the United States Navy" .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Instance/63>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Missouri; one brother, Stanley Pittman of ]Frisco[, Texas; four grandchildren, Zachary, Alexi,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:exact      "Frisco" ;
+        c:length     "6" ;
+        c:offset     "1325" ;
+        c:prefix     "Missouri; one brother, Stanley Pittman of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/841bf89e-912e-3055-9c67-6be5e0df87d1> ;
+        c:suffix     ", Texas; four grandchildren, Zachary, Alexi," .
+
+<http://d.opencalais.com/genericHasher-1/003ee128-350d-3839-8f23-3e2675a6b13a>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Independence" .
+
+<http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c/Instance/42>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Pittman , was born November 24, 1947, in Alva, ]Oklahoma[, and passed away May 22, 2009, in Alva,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/ec15ed96-ad57-3b9e-82da-a89acfe9104c> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "408" ;
+        c:prefix     "Pittman , was born November 24, 1947, in Alva, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", and passed away May 22, 2009, in Alva," .

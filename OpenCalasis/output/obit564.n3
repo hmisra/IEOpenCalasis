@@ -1,0 +1,1550 @@
+#Relations: FamilyRelation, PersonAttributes, PersonCareer, PersonEducation, PersonLocation, PersonRelation
+#City: Freedom, Granite
+#Facility: Marshall Funeral Home of Alva
+#IndustryTerm: Funeral services, brother-in-law
+#Organization: Christian Church, Freedom Ambulance Service, Freedom Public School
+#Person: Aidan, Ashton, Belinda Burton-Garinger, Bill Savely, Darlene (Savely) Burton, Dianne DeBenidictis, Giada, Jack Wilshire, John Garinger, Judy A. (Wilshire) Savely, Judy A. Savely, Lou Wilshire, Mark Kinkle, Michael Wilshire, Mike, Murna (Ridge) Chambers, Nick Burton, Ottie Savely
+#Position: Town Clerk, cosmetologist
+#ProvinceOrState: Oklahoma
+@prefix c:     <http://s.opencalais.com/1/pred/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Relevance/22>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/df74cc60-af38-3aba-b9ec-7db9e7e7c562> .
+
+<http://d.opencalais.com/pershash-1/1eab3590-bb8c-32af-bcd0-dc676db510e6>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Bill Savely" ;
+        c:confidencelevel    "0.984" ;
+        c:firstname          "Bill" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Savely" ;
+        c:name               "Bill Savely" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Instance/6>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of the Class of 1961.  \nShe married the love of ]her[ life, Ottie Savely, on July 7, 1962 and they]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "553" ;
+        c:prefix     "of the Class of 1961.  \nShe married the love of " ;
+        c:subject    <http://d.opencalais.com/pershash-1/0c609e40-355e-3977-b46c-77da657cbbd9> ;
+        c:suffix     " life, Ottie Savely, on July 7, 1962 and they" .
+
+<http://d.opencalais.com/conf/pershash-1/e4c59bcd-0e7e-3c4d-a662-829eb623d78f>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.999" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.999" ;
+        c:subject             <http://d.opencalais.com/pershash-1/e4c59bcd-0e7e-3c4d-a662-829eb623d78f> .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Instance/63>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[also survived by countless special friends and ]her[ \"children of the heart?.  \nIn lieu of flowers,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1601" ;
+        c:prefix     "also survived by countless special friends and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/400331b2-2070-3053-8ac7-b0fb2017c9c4> ;
+        c:suffix     " \"children of the heart?.  \nIn lieu of flowers," .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Instance/42>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ be 2:00 p.m. Thursday, February 23, 2012, at the ]Freedom[ First Christian Church with Rev. Mark Kinkle]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:exact      "Freedom" ;
+        c:length     "7" ;
+        c:offset     "90" ;
+        c:prefix     " be 2:00 p.m. Thursday, February 23, 2012, at the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b1859fdd-73f6-32ef-821a-b28e8c0c4ead> ;
+        c:suffix     " First Christian Church with Rev. Mark Kinkle" .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Instance/21>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ She worked at the Freedom Locker and later was ]a cosmetologist[.  Judy?s chosen career in her life was the town]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:exact      "a cosmetologist" ;
+        c:length     "15" ;
+        c:offset     "688" ;
+        c:prefix     " She worked at the Freedom Locker and later was " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/516e68c0-d0a3-33d6-b0aa-f639de1e0de3> ;
+        c:suffix     ".  Judy?s chosen career in her life was the town" .
+
+<http://d.opencalais.com/genericHasher-1/03935b52-b620-37a6-8ae8-b7a58e718c60>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Granite" .
+
+<http://d.opencalais.com/pershash-1/865a540f-a359-3734-9f73-e9f792589626>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Mark Kinkle" ;
+        c:confidencelevel    "0.896" ;
+        c:firstname          "Mark" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Kinkle" ;
+        c:name               "Mark Kinkle" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Instance/71>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Darlene (Savely) Burton.  \nShe is survived by ]her[ husband, Ottie, brother-in-law, Bill Savely;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1282" ;
+        c:prefix     "Darlene (Savely) Burton.  \nShe is survived by " ;
+        c:subject    <http://d.opencalais.com/pershash-1/7edd890e-e70f-39b7-b164-79d2b53630f6> ;
+        c:suffix     " husband, Ottie, brother-in-law, Bill Savely;" .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Instance/50>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ passed away unexpectedly at her home in Freedom, ]Oklahoma[, on February 19, 2012, at the age of 68 years, 9]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "372" ;
+        c:prefix     " passed away unexpectedly at her home in Freedom, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", on February 19, 2012, at the age of 68 years, 9" .
+
+<http://d.opencalais.com/pershash-1/69b7d408-c4df-36ca-93cb-97f0309e3f4b>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Judy Savely" ;
+        c:confidencelevel    "0.963" ;
+        c:firstname          "Judy" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Savely" ;
+        c:middlename         "A." ;
+        c:name               "Judy A. Savely" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Instance/29>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[will follow the service under the direction of ]Marshall Funeral Home of Alva[.  \nJudy A. (Wilshire) Savely was born May 15,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:exact      "Marshall Funeral Home of Alva" ;
+        c:length     "29" ;
+        c:offset     "214" ;
+        c:prefix     "will follow the service under the direction of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce> ;
+        c:suffix     ".  \nJudy A. (Wilshire) Savely was born May 15," .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Relevance/17>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c1e14c20-7ec2-3637-872f-855b5253364e> .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Relevance/8>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/ed0a7641-8952-3643-a1e0-67489e81b70a> .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Instance/1>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[direction of Marshall Funeral Home of Alva.  \n]Judy A. (Wilshire) Savely[ was born May 15, 1943, at Granite, Oklahoma. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:exact      "Judy A. (Wilshire) Savely" ;
+        c:length     "25" ;
+        c:offset     "247" ;
+        c:prefix     "direction of Marshall Funeral Home of Alva.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/0c609e40-355e-3977-b46c-77da657cbbd9> ;
+        c:suffix     " was born May 15, 1943, at Granite, Oklahoma. " .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Instance/58>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[her life was the town and community of Freedom. ]She was the Town Clerk[ for 28 years and was involved in numerable]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:exact      "She was the Town Clerk" ;
+        c:length     "22" ;
+        c:offset     "778" ;
+        c:prefix     "her life was the town and community of Freedom. " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/71d11c19-9b90-3800-a465-784237d75040> ;
+        c:suffix     " for 28 years and was involved in numerable" .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Instance/37>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[February 23, 2012, at the Freedom First ]Christian Church[ with Rev. Mark Kinkle officiating.  Cremation]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:exact      "Christian Church" ;
+        c:length     "16" ;
+        c:offset     "104" ;
+        c:prefix     "February 23, 2012, at the Freedom First " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c1e14c20-7ec2-3637-872f-855b5253364e> ;
+        c:suffix     " with Rev. Mark Kinkle officiating.  Cremation" .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Instance/16>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[medical services for the Town of Freedom.  \n]Judy[ is preceded in death by her parents, Jack]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:exact      "Judy" ;
+        c:length     "4" ;
+        c:offset     "1102" ;
+        c:prefix     "medical services for the Town of Freedom.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/0c609e40-355e-3977-b46c-77da657cbbd9> ;
+        c:suffix     " is preceded in death by her parents, Jack" .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Relevance/25>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/1eab3590-bb8c-32af-bcd0-dc676db510e6> .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/SocialTag/1>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Garinger High School" ;
+        c:originalValue      "Garinger High School" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/4c12bdf1-016a-34c8-9323-c41da8c4e5eb> .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Instance/66>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of 1961.  \nShe married the love of her life, ]Ottie Savely[, on July 7, 1962 and they made their home in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:exact      "Ottie Savely" ;
+        c:length     "12" ;
+        c:offset     "563" ;
+        c:prefix     "of 1961.  \nShe married the love of her life, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/8003251b-de6a-3e40-b490-decf95a18a9d> ;
+        c:suffix     ", on July 7, 1962 and they made their home in" .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Instance/9>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[was a cosmetologist.  Judy?s chosen career in ]her[ life was the town and community of Freedom. She]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "730" ;
+        c:prefix     "was a cosmetologist.  Judy?s chosen career in " ;
+        c:subject    <http://d.opencalais.com/pershash-1/0c609e40-355e-3977-b46c-77da657cbbd9> ;
+        c:suffix     " life was the town and community of Freedom. She" .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Instance/45>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[home in Freedom, Oklahoma.  She worked at the ]Freedom[ Locker and later was a cosmetologist.  Judy?s]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:exact      "Freedom" ;
+        c:length     "7" ;
+        c:offset     "659" ;
+        c:prefix     "home in Freedom, Oklahoma.  She worked at the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b1859fdd-73f6-32ef-821a-b28e8c0c4ead> ;
+        c:suffix     " Locker and later was a cosmetologist.  Judy?s" .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Instance/24>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and Murna (Ridge) Chambers; one brother, ]Michael Wilshire[; and sister-in-law, Darlene (Savely) Burton. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:exact      "Michael Wilshire" ;
+        c:length     "16" ;
+        c:offset     "1199" ;
+        c:prefix     "and Murna (Ridge) Chambers; one brother, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/ed0a7641-8952-3643-a1e0-67489e81b70a> ;
+        c:suffix     "; and sister-in-law, Darlene (Savely) Burton. " .
+
+<http://d.opencalais.com/pershash-1/0c609e40-355e-3977-b46c-77da657cbbd9>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Judy A. Savely" ;
+        c:confidencelevel    "0.99" ;
+        c:firstname          "Judy" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Savely" ;
+        c:middlename         "A." ;
+        c:name               "Judy A. (Wilshire) Savely" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Relevance/12>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce> .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Relevance/3>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/a4a44a65-2f72-3f85-ae73-edcf039f324e> .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Instance/53>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[direction of Marshall Funeral Home of Alva.  \n]Judy A. (Wilshire) Savely was born May 15, 1943, at Granite, Oklahoma[.  She passed away unexpectedly at her home in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:exact      "Judy A. (Wilshire) Savely was born May 15, 1943, at Granite, Oklahoma" ;
+        c:length     "69" ;
+        c:offset     "247" ;
+        c:prefix     "direction of Marshall Funeral Home of Alva.  \n" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/544715f6-e49b-3733-9529-9c245aecb16d> ;
+        c:suffix     ".  She passed away unexpectedly at her home in" .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Instance/32>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and her husband, Mike, and their three children ]Aidan[, Ashton, and Giada.  She is also survived by]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:exact      "Aidan" ;
+        c:length     "5" ;
+        c:offset     "1520" ;
+        c:prefix     "and her husband, Mike, and their three children " ;
+        c:subject    <http://d.opencalais.com/pershash-1/03b9b9a9-5f3e-3ef6-b0f1-f11a622b584c> ;
+        c:suffix     ", Ashton, and Giada.  She is also survived by" .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Instance/11>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[involved in numerable community activities.   \n]Judy[?s passions in her life were caring for her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:exact      "Judy" ;
+        c:length     "4" ;
+        c:offset     "869" ;
+        c:prefix     "involved in numerable community activities.   \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/0c609e40-355e-3977-b46c-77da657cbbd9> ;
+        c:suffix     "?s passions in her life were caring for her" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/6a16bd2d-cc04-20a2-9332-d40e866857df>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:latitude            "34.9622" ;
+        c:longitude           "-99.3803" ;
+        c:name                "Granite,Oklahoma,United States" ;
+        c:shortname           "Granite" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/03935b52-b620-37a6-8ae8-b7a58e718c60> .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Relevance/20>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b1859fdd-73f6-32ef-821a-b28e8c0c4ead> .
+
+<http://d.opencalais.com/conf/pershash-1/1eab3590-bb8c-32af-bcd0-dc676db510e6>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.984" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.989" ;
+        c:subject             <http://d.opencalais.com/pershash-1/1eab3590-bb8c-32af-bcd0-dc676db510e6> .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Instance/4>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[at the age of 68 years, 9 months and 4 days.  ]Judy[ attended Freedom Public School and was a]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:exact      "Judy" ;
+        c:length     "4" ;
+        c:offset     "450" ;
+        c:prefix     "at the age of 68 years, 9 months and 4 days.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/0c609e40-355e-3977-b46c-77da657cbbd9> ;
+        c:suffix     " attended Freedom Public School and was a" .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Instance/61>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[John Garinger and Dianne DeBenidictis and ]her[ husband, Mike, and their three children Aidan,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1476" ;
+        c:prefix     "John Garinger and Dianne DeBenidictis and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/400331b2-2070-3053-8ac7-b0fb2017c9c4> ;
+        c:suffix     " husband, Mike, and their three children Aidan," .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Instance/40>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Funeral services for ]Judy A. Savely[ will be 2:00 p.m. Thursday, February 23, 2012,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:exact      "Judy A. Savely" ;
+        c:length     "14" ;
+        c:offset     "21" ;
+        c:prefix     "Funeral services for " ;
+        c:subject    <http://d.opencalais.com/pershash-1/69b7d408-c4df-36ca-93cb-97f0309e3f4b> ;
+        c:suffix     " will be 2:00 p.m. Thursday, February 23, 2012," .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Instance/19>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Savely; sister-in-law, Lou Wilshire; nephew, ]Nick Burton[; and two nieces; Belinda Burton-Garinger and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:exact      "Nick Burton" ;
+        c:length     "11" ;
+        c:offset     "1368" ;
+        c:prefix     "Savely; sister-in-law, Lou Wilshire; nephew, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/a4a44a65-2f72-3f85-ae73-edcf039f324e> ;
+        c:suffix     "; and two nieces; Belinda Burton-Garinger and" .
+
+<http://d.opencalais.com/conf/pershash-1/865a540f-a359-3734-9f73-e9f792589626>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.896" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.934" ;
+        c:subject             <http://d.opencalais.com/pershash-1/865a540f-a359-3734-9f73-e9f792589626> .
+
+<http://d.opencalais.com/genericHasher-1/bf6c4e7c-dd5d-3d85-9549-4ad09c212539>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/8003251b-de6a-3e40-b490-decf95a18a9d> , <http://d.opencalais.com/pershash-1/7edd890e-e70f-39b7-b164-79d2b53630f6> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/genericHasher-1/df74cc60-af38-3aba-b9ec-7db9e7e7c562>
+        a                    <http://s.opencalais.com/1/type/em/e/IndustryTerm> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "brother-in-law" .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Relevance/28>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/39d55745-2f08-3117-a324-0c17b7ed3ced> .
+
+<http://d.opencalais.com/pershash-1/7edd890e-e70f-39b7-b164-79d2b53630f6>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Darlene Burton" ;
+        c:confidencelevel    "0.997" ;
+        c:firstname          "Darlene" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Burton" ;
+        c:name               "Darlene (Savely) Burton" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/b1859fdd-73f6-32ef-821a-b28e8c0c4ead>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Freedom" .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Instance/69>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[brother, Michael Wilshire; and sister-in-law, ]Darlene (Savely) Burton[.  \nShe is survived by her husband, Ottie,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:exact      "Darlene (Savely) Burton" ;
+        c:length     "23" ;
+        c:offset     "1236" ;
+        c:prefix     "brother, Michael Wilshire; and sister-in-law, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/7edd890e-e70f-39b7-b164-79d2b53630f6> ;
+        c:suffix     ".  \nShe is survived by her husband, Ottie," .
+
+<http://d.opencalais.com/genericHasher-1/2d19af25-3a16-3c3f-8d91-2d361beca337>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "husband" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/7edd890e-e70f-39b7-b164-79d2b53630f6> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/8003251b-de6a-3e40-b490-decf95a18a9d> .
+
+<http://d.opencalais.com/pershash-1/18210e39-ee33-3496-bb6c-a72854cb72c8>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Jack Wilshire" ;
+        c:confidencelevel    "0.999" ;
+        c:firstname          "Jack" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Wilshire" ;
+        c:name               "Jack Wilshire" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Instance/48>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[as obtaining medical services for the Town of ]Freedom[.  \nJudy is preceded in death by her parents,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:exact      "Freedom" ;
+        c:length     "7" ;
+        c:offset     "1091" ;
+        c:prefix     "as obtaining medical services for the Town of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b1859fdd-73f6-32ef-821a-b28e8c0c4ead> ;
+        c:suffix     ".  \nJudy is preceded in death by her parents," .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Instance/27>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Wilshire; nephew, Nick Burton; and two nieces; ]Belinda Burton-Garinger[ and husband, John Garinger and Dianne]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:exact      "Belinda Burton-Garinger" ;
+        c:length     "23" ;
+        c:offset     "1397" ;
+        c:prefix     "Wilshire; nephew, Nick Burton; and two nieces; " ;
+        c:subject    <http://d.opencalais.com/pershash-1/944a899c-0d70-3d62-968f-b4dc7a268617> ;
+        c:suffix     " and husband, John Garinger and Dianne" .
+
+<http://d.opencalais.com/genericHasher-1/ab8d1f4b-844c-313a-872c-105f0ef619c3>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/39d55745-2f08-3117-a324-0c17b7ed3ced> , <http://d.opencalais.com/pershash-1/400331b2-2070-3053-8ac7-b0fb2017c9c4> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/pershash-1/e021c5f7-2155-3757-a0f9-cc70585b0699>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "John Garinger" ;
+        c:confidencelevel    "0.993" ;
+        c:firstname          "John" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Garinger" ;
+        c:name               "John Garinger" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Relevance/15>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/18210e39-ee33-3496-bb6c-a72854cb72c8> .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Relevance/6>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/9bae7160-7fbf-315f-8e35-302fd37a1594> .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Instance/56>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[husband, Mike, and their three children Aidan, ]Ashton[, and Giada.  She is also survived by countless]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:exact      "Ashton" ;
+        c:length     "6" ;
+        c:offset     "1527" ;
+        c:prefix     "husband, Mike, and their three children Aidan, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/e4c59bcd-0e7e-3c4d-a662-829eb623d78f> ;
+        c:suffix     ", and Giada.  She is also survived by countless" .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Instance/35>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ \nJudy is preceded in death by her parents, ]Jack Wilshire[ and Murna (Ridge) Chambers; one brother, Michael]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:exact      "Jack Wilshire" ;
+        c:length     "13" ;
+        c:offset     "1144" ;
+        c:prefix     " \nJudy is preceded in death by her parents, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/18210e39-ee33-3496-bb6c-a72854cb72c8> ;
+        c:suffix     " and Murna (Ridge) Chambers; one brother, Michael" .
+
+<http://d.opencalais.com/genericHasher-1/a1695ebe-b07b-321c-9fe3-908478d5b7fd>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/8003251b-de6a-3e40-b490-decf95a18a9d> , <http://d.opencalais.com/pershash-1/0c609e40-355e-3977-b46c-77da657cbbd9> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Instance/14>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[for her husband, the community of Freedom and ]her[ many animals.  She was instrumental in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "955" ;
+        c:prefix     "for her husband, the community of Freedom and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/0c609e40-355e-3977-b46c-77da657cbbd9> ;
+        c:suffix     " many animals.  She was instrumental in" .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Relevance/23>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/e021c5f7-2155-3757-a0f9-cc70585b0699> .
+
+<http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Marshall Funeral Home of Alva" .
+
+<http://d.opencalais.com/genericHasher-1/01931cec-f545-3e89-b81a-5fae28fcc468>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "brother-in-law" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/7edd890e-e70f-39b7-b164-79d2b53630f6> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/1eab3590-bb8c-32af-bcd0-dc676db510e6> .
+
+<http://d.opencalais.com/genericHasher-1/58d6a3d1-a953-3c48-8914-f38016890c40>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Freedom" ;
+        c:person             <http://d.opencalais.com/pershash-1/0c609e40-355e-3977-b46c-77da657cbbd9> .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/ComponentVersions>
+        a          <http://s.opencalais.com/1/type/sys/ComponentVersions> ;
+        c:docId    <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:version  "OA Index:201505252208:201505252208" , "config-drugs:258:258" , "SocialTags Index:201505191038:201505191038" , "Dial4J:OneCalais_8.3-RELEASE:198" , "config-negativeSignature:258:258" , "Collector:OneCalais_8.3-RELEASE:113" , "com.clearforest.infoext.dial4j.plugins-basistechconfig:OneCalais_8.3-RELEASE:225" , "OneCalaisIM:OneCalais_8.3-RELEASE:198" , "config-physicalAssets-ports:258:258" , "Housekeeper:OneCalais_8.3-RELEASE:113" , "config-vessels:258:258" , "SpanishIM:OneCalais_8.3-RELEASE:198" , "AutocoderRuntimeIM:OneCalais_8.3-RELEASE:198" , "BrokerResearchIM:OneCalais_8.3-RELEASE:198" , "BlackList:264:264" , "config-refineries:258:258" , "OneCalais:OneCalais_8.3-RELEASE:364" , "config-cse:271:271" , "FrenchIM:OneCalais_8.3-RELEASE:198" , "index-vessels:201505231718:201505231718" , "config-sca-DataPackage:34:34" , "People Override:258:258" , "SECHeaderMetadataIM:OneCalais_8.3-RELEASE:198" , "Deals Index:201505261613:201505261613" , "People Index:201505261608:201505261608" , "OA Override:271:271" , "WatchDog:OneCalais_8.3-RELEASE:113" , "NextTags:OneCalais_8.3-RELEASE:113" .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Instance/64>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[John Garinger and Dianne DeBenidictis and ]her husband, Mike[, and their three children Aidan, Ashton, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:exact      "her husband, Mike" ;
+        c:length     "17" ;
+        c:offset     "1476" ;
+        c:prefix     "John Garinger and Dianne DeBenidictis and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/5956aed8-abe4-3f2b-a066-3a7c19110416> ;
+        c:suffix     ", and their three children Aidan, Ashton, and" .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Instance/7>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and they made their home in Freedom, Oklahoma.  ]She[ worked at the Freedom Locker and later was a]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "641" ;
+        c:prefix     "and they made their home in Freedom, Oklahoma.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/0c609e40-355e-3977-b46c-77da657cbbd9> ;
+        c:suffix     " worked at the Freedom Locker and later was a" .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Instance/43>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ She passed away unexpectedly at her home in ]Freedom[, Oklahoma, on February 19, 2012, at the age of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:exact      "Freedom" ;
+        c:length     "7" ;
+        c:offset     "363" ;
+        c:prefix     " She passed away unexpectedly at her home in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b1859fdd-73f6-32ef-821a-b28e8c0c4ead> ;
+        c:suffix     ", Oklahoma, on February 19, 2012, at the age of" .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Instance/22>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[brother-in-law, Bill Savely; sister-in-law, ]Lou Wilshire[; nephew, Nick Burton; and two nieces; Belinda]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:exact      "Lou Wilshire" ;
+        c:length     "12" ;
+        c:offset     "1346" ;
+        c:prefix     "brother-in-law, Bill Savely; sister-in-law, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9bae7160-7fbf-315f-8e35-302fd37a1594> ;
+        c:suffix     "; nephew, Nick Burton; and two nieces; Belinda" .
+
+<http://d.opencalais.com/conf/pershash-1/0c609e40-355e-3977-b46c-77da657cbbd9>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.99" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.994" ;
+        c:subject             <http://d.opencalais.com/pershash-1/0c609e40-355e-3977-b46c-77da657cbbd9> .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Relevance/10>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/944a899c-0d70-3d62-968f-b4dc7a268617> .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Relevance/1>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/0c609e40-355e-3977-b46c-77da657cbbd9> .
+
+<http://d.opencalais.com/pershash-1/ed0a7641-8952-3643-a1e0-67489e81b70a>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Michael Wilshire" ;
+        c:confidencelevel    "0.993" ;
+        c:firstname          "Michael" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Wilshire" ;
+        c:name               "Michael Wilshire" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Instance/51>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[7, 1962 and they made their home in Freedom, ]Oklahoma[.  She worked at the Freedom Locker and later was]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "630" ;
+        c:prefix     "7, 1962 and they made their home in Freedom, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ".  She worked at the Freedom Locker and later was" .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Instance/30>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Darlene (Savely) Burton.  \nShe is survived by ]her husband, Ottie, brother-in-law, Bill Savely[; sister-in-law, Lou Wilshire; nephew, Nick]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:exact      "her husband, Ottie, brother-in-law, Bill Savely" ;
+        c:length     "47" ;
+        c:offset     "1282" ;
+        c:prefix     "Darlene (Savely) Burton.  \nShe is survived by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/bf6c4e7c-dd5d-3d85-9549-4ad09c212539> ;
+        c:suffix     "; sister-in-law, Lou Wilshire; nephew, Nick" .
+
+<http://d.opencalais.com/genericHasher-1/4f2312e0-c523-398c-b563-4e3ae6a354e3>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Freedom Ambulance Service" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "governmental civilian" .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Relevance/18>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/865a540f-a359-3734-9f73-e9f792589626> .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Relevance/9>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/84a6d9a3-b52e-3c01-af39-7abef2351913> .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Instance/2>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[was born May 15, 1943, at Granite, Oklahoma.  ]She[ passed away unexpectedly at her home in Freedom,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "319" ;
+        c:prefix     "was born May 15, 1943, at Granite, Oklahoma.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/0c609e40-355e-3977-b46c-77da657cbbd9> ;
+        c:suffix     " passed away unexpectedly at her home in Freedom," .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Instance/59>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[survived by her husband, Ottie, brother-in-law, ]Bill Savely[; sister-in-law, Lou Wilshire; nephew, Nick]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:exact      "Bill Savely" ;
+        c:length     "11" ;
+        c:offset     "1318" ;
+        c:prefix     "survived by her husband, Ottie, brother-in-law, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/1eab3590-bb8c-32af-bcd0-dc676db510e6> ;
+        c:suffix     "; sister-in-law, Lou Wilshire; nephew, Nick" .
+
+<http://d.opencalais.com/pershash-1/0334db32-746a-3256-9bfd-5731d388b2b6>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Giada" ;
+        c:confidencelevel    "0.998" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Giada" ;
+        c:name               "Giada" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Instance/38>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Oklahoma.  She passed away unexpectedly at ]her home in Freedom, Oklahoma[, on February 19, 2012, at the age of 68 years, 9]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:exact      "her home in Freedom, Oklahoma" ;
+        c:length     "29" ;
+        c:offset     "351" ;
+        c:prefix     "Oklahoma.  She passed away unexpectedly at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/58d6a3d1-a953-3c48-8914-f38016890c40> ;
+        c:suffix     ", on February 19, 2012, at the age of 68 years, 9" .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Instance/17>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Town of Freedom.  \nJudy is preceded in death by ]her[ parents, Jack Wilshire and Murna (Ridge)]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1131" ;
+        c:prefix     "Town of Freedom.  \nJudy is preceded in death by " ;
+        c:subject    <http://d.opencalais.com/pershash-1/0c609e40-355e-3977-b46c-77da657cbbd9> ;
+        c:suffix     " parents, Jack Wilshire and Murna (Ridge)" .
+
+<http://d.opencalais.com/genericHasher-1/4096dda4-3e8c-3b45-9276-0711e6cb3ca6>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Freedom Public School" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/pershash-1/400331b2-2070-3053-8ac7-b0fb2017c9c4>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Dianne DeBenidictis" ;
+        c:confidencelevel    "0.992" ;
+        c:firstname          "Dianne" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "DeBenidictis" ;
+        c:name               "Dianne DeBenidictis" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/7edd890e-e70f-39b7-b164-79d2b53630f6>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.997" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.998" ;
+        c:subject             <http://d.opencalais.com/pershash-1/7edd890e-e70f-39b7-b164-79d2b53630f6> .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Relevance/26>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/400331b2-2070-3053-8ac7-b0fb2017c9c4> .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/SocialTag/2>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Wilshire" ;
+        c:originalValue      "Wilshire" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/a09c99e5-c727-35b0-971c-c0c1af85c29b> .
+
+<http://d.opencalais.com/conf/pershash-1/18210e39-ee33-3496-bb6c-a72854cb72c8>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.999" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.999" ;
+        c:subject             <http://d.opencalais.com/pershash-1/18210e39-ee33-3496-bb6c-a72854cb72c8> .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Instance/67>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Burton.  \nShe is survived by her husband, ]Ottie[, brother-in-law, Bill Savely; sister-in-law, Lou]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:exact      "Ottie" ;
+        c:length     "5" ;
+        c:offset     "1295" ;
+        c:prefix     "Burton.  \nShe is survived by her husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/8003251b-de6a-3e40-b490-decf95a18a9d> ;
+        c:suffix     ", brother-in-law, Bill Savely; sister-in-law, Lou" .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Instance/46>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ career in her life was the town and community of ]Freedom[. She was the Town Clerk for 28 years and was]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:exact      "Freedom" ;
+        c:length     "7" ;
+        c:offset     "769" ;
+        c:prefix     " career in her life was the town and community of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b1859fdd-73f6-32ef-821a-b28e8c0c4ead> ;
+        c:suffix     ". She was the Town Clerk for 28 years and was" .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Instance/25>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[was the town and community of Freedom. She was ]the Town Clerk[ for 28 years and was involved in numerable]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:exact      "the Town Clerk" ;
+        c:length     "14" ;
+        c:offset     "786" ;
+        c:prefix     "was the town and community of Freedom. She was " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/84a6d9a3-b52e-3c01-af39-7abef2351913> ;
+        c:suffix     " for 28 years and was involved in numerable" .
+
+<http://d.opencalais.com/pershash-1/9bae7160-7fbf-315f-8e35-302fd37a1594>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Lou Wilshire" ;
+        c:confidencelevel    "0.993" ;
+        c:firstname          "Lou" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Wilshire" ;
+        c:name               "Lou Wilshire" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/e021c5f7-2155-3757-a0f9-cc70585b0699>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.993" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.995" ;
+        c:subject             <http://d.opencalais.com/pershash-1/e021c5f7-2155-3757-a0f9-cc70585b0699> .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Relevance/13>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee> .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Relevance/4>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/e95e7264-1a2d-3349-b87b-dc562a983281> .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Instance/54>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ two nieces; Belinda Burton-Garinger and husband, ]John Garinger[ and Dianne DeBenidictis and her husband, Mike,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:exact      "John Garinger" ;
+        c:length     "13" ;
+        c:offset     "1434" ;
+        c:prefix     " two nieces; Belinda Burton-Garinger and husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/e021c5f7-2155-3757-a0f9-cc70585b0699> ;
+        c:suffix     " and Dianne DeBenidictis and her husband, Mike," .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Instance/33>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Darlene (Savely) Burton.  \nShe is survived by ]her husband, Ottie, brother-in-law, Bill Savely[; sister-in-law, Lou Wilshire; nephew, Nick]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:exact      "her husband, Ottie, brother-in-law, Bill Savely" ;
+        c:length     "47" ;
+        c:offset     "1282" ;
+        c:prefix     "Darlene (Savely) Burton.  \nShe is survived by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/01931cec-f545-3e89-b81a-5fae28fcc468> ;
+        c:suffix     "; sister-in-law, Lou Wilshire; nephew, Nick" .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Instance/12>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[community activities.   \nJudy?s passions in ]her[ life were caring for her husband, the community]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "888" ;
+        c:prefix     "community activities.   \nJudy?s passions in " ;
+        c:subject    <http://d.opencalais.com/pershash-1/0c609e40-355e-3977-b46c-77da657cbbd9> ;
+        c:suffix     " life were caring for her husband, the community" .
+
+<http://d.opencalais.com/genericHasher-1/50e988ea-39a0-37b6-8736-688ce7a37dbf>
+        a                       <http://s.opencalais.com/1/type/em/r/PersonEducation> ;
+        c:forenduserdisplay     "false" ;
+        c:person                <http://d.opencalais.com/pershash-1/0c609e40-355e-3977-b46c-77da657cbbd9> ;
+        c:schoolororganization  "Freedom Public School" .
+
+<http://d.opencalais.com/pershash-1/a4a44a65-2f72-3f85-ae73-edcf039f324e>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Nick Burton" ;
+        c:confidencelevel    "0.998" ;
+        c:firstname          "Nick" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Burton" ;
+        c:name               "Nick Burton" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Relevance/21>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Instance/62>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[their three children Aidan, Ashton, and Giada.  ]She[ is also survived by countless special friends]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "1547" ;
+        c:prefix     "their three children Aidan, Ashton, and Giada.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/400331b2-2070-3053-8ac7-b0fb2017c9c4> ;
+        c:suffix     " is also survived by countless special friends" .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Instance/5>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and was a graduate of the Class of 1961.  \n]She[ married the love of her life, Ottie Savely, on]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "529" ;
+        c:prefix     "and was a graduate of the Class of 1961.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/0c609e40-355e-3977-b46c-77da657cbbd9> ;
+        c:suffix     " married the love of her life, Ottie Savely, on" .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Instance/41>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[at the age of 68 years, 9 months and 4 days.  ]Judy attended Freedom Public School[ and was a graduate of the Class of 1961.  \nShe]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:exact      "Judy attended Freedom Public School" ;
+        c:length     "35" ;
+        c:offset     "450" ;
+        c:prefix     "at the age of 68 years, 9 months and 4 days.  " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/50e988ea-39a0-37b6-8736-688ce7a37dbf> ;
+        c:suffix     " and was a graduate of the Class of 1961.  \nShe" .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Instance/20>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in death by her parents, Jack Wilshire and ]Murna (Ridge) Chambers[; one brother, Michael Wilshire; and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:exact      "Murna (Ridge) Chambers" ;
+        c:length     "22" ;
+        c:offset     "1162" ;
+        c:prefix     "in death by her parents, Jack Wilshire and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/e95e7264-1a2d-3349-b87b-dc562a983281> ;
+        c:suffix     "; one brother, Michael Wilshire; and" .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/lid/DefaultLangId>
+        a                    <http://s.opencalais.com/1/type/lid/DefaultLangId> ;
+        c:docId              <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:forenduserdisplay  "false" ;
+        c:lang               <http://d.opencalais.com/lid/DefaultLangId/English> ;
+        c:permid             "505062" .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Relevance/29>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/7edd890e-e70f-39b7-b164-79d2b53630f6> .
+
+<http://d.opencalais.com/genericHasher-1/5fe3aed6-385d-307d-90cf-341358abbcb4>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:forenduserdisplay  "true" ;
+        c:organization       <http://d.opencalais.com/genericHasher-1/4096dda4-3e8c-3b45-9276-0711e6cb3ca6> ;
+        c:person             <http://d.opencalais.com/pershash-1/0c609e40-355e-3977-b46c-77da657cbbd9> ;
+        c:position           "cosmetologist" ;
+        c:status             "past" .
+
+<http://d.opencalais.com/genericHasher-1/84a6d9a3-b52e-3c01-af39-7abef2351913>
+        a                    <http://s.opencalais.com/1/type/em/e/Position> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Town Clerk" .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/cat/1>
+        a                    <http://s.opencalais.com/1/type/cat/DocCat> ;
+        c:docId              <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Human Interest" ;
+        c:score              "1.000" .
+
+<http://d.opencalais.com/conf/pershash-1/ed0a7641-8952-3643-a1e0-67489e81b70a>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.993" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.995" ;
+        c:subject             <http://d.opencalais.com/pershash-1/ed0a7641-8952-3643-a1e0-67489e81b70a> .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Instance/70>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and sister-in-law, Darlene (Savely) Burton.  \n]She[ is survived by her husband, Ottie,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "1263" ;
+        c:prefix     "and sister-in-law, Darlene (Savely) Burton.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/7edd890e-e70f-39b7-b164-79d2b53630f6> ;
+        c:suffix     " is survived by her husband, Ottie," .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Instance/49>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Savely was born May 15, 1943, at Granite, ]Oklahoma[.  She passed away unexpectedly at her home in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "308" ;
+        c:prefix     "Savely was born May 15, 1943, at Granite, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ".  She passed away unexpectedly at her home in" .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Instance/28>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[be made through the funeral home to the ]Freedom Ambulance Service[. \n\t\t\t]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:exact      "Freedom Ambulance Service" ;
+        c:length     "25" ;
+        c:offset     "1740" ;
+        c:prefix     "be made through the funeral home to the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4f2312e0-c523-398c-b563-4e3ae6a354e3> ;
+        c:suffix     ". \n\t\t\t" .
+
+<http://d.opencalais.com/genericHasher-1/516e68c0-d0a3-33d6-b0aa-f639de1e0de3>
+        a                    <http://s.opencalais.com/1/type/em/e/Position> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "cosmetologist" .
+
+<http://d.opencalais.com/pershash-1/8003251b-de6a-3e40-b490-decf95a18a9d>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Ottie Savely" ;
+        c:confidencelevel    "0.943" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Ottie Savely" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/pershash-1/39d55745-2f08-3117-a324-0c17b7ed3ced>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Mike" ;
+        c:confidencelevel    "0.973" ;
+        c:firstname          "Mike" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Mike" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Relevance/16>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/03935b52-b620-37a6-8ae8-b7a58e718c60> .
+
+<http://d.opencalais.com/pershash-1/944a899c-0d70-3d62-968f-b4dc7a268617>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Belinda Burton-Garinger" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Belinda" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Burton-Garinger" ;
+        c:name               "Belinda Burton-Garinger" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Relevance/7>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/0334db32-746a-3256-9bfd-5731d388b2b6> .
+
+<http://d.opencalais.com/conf/pershash-1/0334db32-746a-3256-9bfd-5731d388b2b6>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.998" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.998" ;
+        c:subject             <http://d.opencalais.com/pershash-1/0334db32-746a-3256-9bfd-5731d388b2b6> .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Instance/57>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[direction of Marshall Funeral Home of Alva.  \n]Judy A. (Wilshire) Savely was born May 15, 1943, at Granite, Oklahoma[.  She passed away unexpectedly at her home in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:exact      "Judy A. (Wilshire) Savely was born May 15, 1943, at Granite, Oklahoma" ;
+        c:length     "69" ;
+        c:offset     "247" ;
+        c:prefix     "direction of Marshall Funeral Home of Alva.  \n" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3e8b7de7-327b-3301-8a4b-32c6f179d3e6> ;
+        c:suffix     ".  She passed away unexpectedly at her home in" .
+
+<http://d.opencalais.com/pershash-1/03b9b9a9-5f3e-3ef6-b0f1-f11a622b584c>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Aidan" ;
+        c:confidencelevel    "0.999" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Aidan" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Instance/36>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[A. (Wilshire) Savely was born May 15, 1943, at ]Granite[, Oklahoma.  She passed away unexpectedly at her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:exact      "Granite" ;
+        c:length     "7" ;
+        c:offset     "299" ;
+        c:prefix     "A. (Wilshire) Savely was born May 15, 1943, at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/03935b52-b620-37a6-8ae8-b7a58e718c60> ;
+        c:suffix     ", Oklahoma.  She passed away unexpectedly at her" .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Instance/15>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[the community of Freedom and her many animals.  ]She[ was instrumental in establishing the EMT]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "974" ;
+        c:prefix     "the community of Freedom and her many animals.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/0c609e40-355e-3977-b46c-77da657cbbd9> ;
+        c:suffix     " was instrumental in establishing the EMT" .
+
+<http://d.opencalais.com/conf/pershash-1/400331b2-2070-3053-8ac7-b0fb2017c9c4>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.992" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.994" ;
+        c:subject             <http://d.opencalais.com/pershash-1/400331b2-2070-3053-8ac7-b0fb2017c9c4> .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Relevance/24>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/e4c59bcd-0e7e-3c4d-a662-829eb623d78f> .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Instance/65>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Darlene (Savely) Burton.  \nShe is survived by ]her husband, Ottie, brother-in-law, Bill Savely[; sister-in-law, Lou Wilshire; nephew, Nick]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:exact      "her husband, Ottie, brother-in-law, Bill Savely" ;
+        c:length     "47" ;
+        c:offset     "1282" ;
+        c:prefix     "Darlene (Savely) Burton.  \nShe is survived by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/2d19af25-3a16-3c3f-8d91-2d361beca337> ;
+        c:suffix     "; sister-in-law, Lou Wilshire; nephew, Nick" .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/meta>
+        a                 <http://s.opencalais.com/1/type/sys/DocInfoMeta> ;
+        c:contentType     "text/raw" ;
+        c:docId           <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:language        "English" ;
+        c:processingVer   "AllMetadata" ;
+        c:serverVersion   "OneCalais_8.3-RELEASE:364" ;
+        c:signature       "digestalg-1|FaB3nVTuGbFguF9FCRSey1YJ27c=|M/chcE4YYUhH1GssNqAiBh44qmVaNI2S+qYxH0qbfzVJe59rXg2lqA==" ;
+        c:stagsVer        "OneCalais_8.3-RELEASE-b11-2015-03-25_18:29:00" ;
+        c:submissionDate  "2015-05-26 17:25:28.647" ;
+        c:submitterCode   "0ca6a864-5659-789d-5f32-f365f695e757" .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Instance/8>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Freedom Locker and later was a cosmetologist.  ]Judy[?s chosen career in her life was the town and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:exact      "Judy" ;
+        c:length     "4" ;
+        c:offset     "706" ;
+        c:prefix     "Freedom Locker and later was a cosmetologist.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/0c609e40-355e-3977-b46c-77da657cbbd9> ;
+        c:suffix     "?s chosen career in her life was the town and" .
+
+<http://d.opencalais.com/conf/pershash-1/e95e7264-1a2d-3349-b87b-dc562a983281>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.67" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.771" ;
+        c:subject             <http://d.opencalais.com/pershash-1/e95e7264-1a2d-3349-b87b-dc562a983281> .
+
+<http://d.opencalais.com/pershash-1/e4c59bcd-0e7e-3c4d-a662-829eb623d78f>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Ashton" ;
+        c:confidencelevel    "0.999" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Ashton" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Instance/44>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[on July 7, 1962 and they made their home in ]Freedom[, Oklahoma.  She worked at the Freedom Locker and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:exact      "Freedom" ;
+        c:length     "7" ;
+        c:offset     "621" ;
+        c:prefix     "on July 7, 1962 and they made their home in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b1859fdd-73f6-32ef-821a-b28e8c0c4ead> ;
+        c:suffix     ", Oklahoma.  She worked at the Freedom Locker and" .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Instance/23>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and their three children Aidan, Ashton, and ]Giada[.  She is also survived by countless special]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:exact      "Giada" ;
+        c:length     "5" ;
+        c:offset     "1539" ;
+        c:prefix     "and their three children Aidan, Ashton, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/0334db32-746a-3256-9bfd-5731d388b2b6> ;
+        c:suffix     ".  She is also survived by countless special" .
+
+<http://d.opencalais.com/conf/pershash-1/9bae7160-7fbf-315f-8e35-302fd37a1594>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.993" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.995" ;
+        c:subject             <http://d.opencalais.com/pershash-1/9bae7160-7fbf-315f-8e35-302fd37a1594> .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Relevance/11>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4f2312e0-c523-398c-b563-4e3ae6a354e3> .
+
+<http://d.opencalais.com/genericHasher-1/c1e14c20-7ec2-3637-872f-855b5253364e>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Christian Church" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/544715f6-e49b-3733-9529-9c245aecb16d>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Granite" ;
+        c:person             <http://d.opencalais.com/pershash-1/0c609e40-355e-3977-b46c-77da657cbbd9> .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Relevance/2>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4096dda4-3e8c-3b45-9276-0711e6cb3ca6> .
+
+<http://d.opencalais.com/genericHasher-1/71d11c19-9b90-3800-a465-784237d75040>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:forenduserdisplay  "true" ;
+        c:person             <http://d.opencalais.com/pershash-1/0c609e40-355e-3977-b46c-77da657cbbd9> ;
+        c:position           "Town Clerk" ;
+        c:status             "past" .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Instance/52>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Burton.  \nShe is survived by her husband, Ottie, ]brother-in-law[, Bill Savely; sister-in-law, Lou Wilshire;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:exact      "brother-in-law" ;
+        c:length     "14" ;
+        c:offset     "1302" ;
+        c:prefix     " Burton.  \nShe is survived by her husband, Ottie, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/df74cc60-af38-3aba-b9ec-7db9e7e7c562> ;
+        c:suffix     ", Bill Savely; sister-in-law, Lou Wilshire;" .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Instance/31>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[]Funeral services[ for Judy A. Savely will be 2:00 p.m. Thursday,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:exact      "Funeral services" ;
+        c:length     "16" ;
+        c:offset     "0" ;
+        c:prefix     "" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee> ;
+        c:suffix     " for Judy A. Savely will be 2:00 p.m. Thursday," .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Instance/10>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[her life was the town and community of Freedom. ]She[ was the Town Clerk for 28 years and was involved]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "778" ;
+        c:prefix     "her life was the town and community of Freedom. " ;
+        c:subject    <http://d.opencalais.com/pershash-1/0c609e40-355e-3977-b46c-77da657cbbd9> ;
+        c:suffix     " was the Town Clerk for 28 years and was involved" .
+
+<http://d.opencalais.com/genericHasher-1/3e8b7de7-327b-3301-8a4b-32c6f179d3e6>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonAttributes> ;
+        c:birthdate          "1943-05-15" ;
+        c:birthplace         <http://d.opencalais.com/genericHasher-1/03935b52-b620-37a6-8ae8-b7a58e718c60> ;
+        c:forenduserdisplay  "false" ;
+        c:gender             "F" ;
+        c:person             <http://d.opencalais.com/pershash-1/0c609e40-355e-3977-b46c-77da657cbbd9> .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013>
+        a                  <http://s.opencalais.com/1/type/sys/DocInfo> ;
+        c:calaisRequestID  "96b3cdcc-ac0e-e91f-14d9-141f5c76fa60" ;
+        c:docDate          "2015-05-26 17:25:29.024" ;
+        c:docTitle         "" ;
+        c:document         "Funeral services for Judy A. Savely will be 2:00 p.m. Thursday, February 23, 2012, at the Freedom First Christian Church with Rev. Mark Kinkle officiating.  Cremation will follow the service under the direction of Marshall Funeral Home of Alva.  \nJudy A. (Wilshire) Savely was born May 15, 1943, at Granite, Oklahoma.  She passed away unexpectedly at her home in Freedom, Oklahoma, on February 19, 2012, at the age of 68 years, 9 months and 4 days.  Judy attended Freedom Public School and was a graduate of the Class of 1961.  \nShe married the love of her life, Ottie Savely, on July 7, 1962 and they made their home in Freedom, Oklahoma.  She worked at the Freedom Locker and later was a cosmetologist.  Judy?s chosen career in her life was the town and community of Freedom. She was the Town Clerk for 28 years and was involved in numerable community activities.   \nJudy?s passions in her life were caring for her husband, the community of Freedom and her many animals.  She was instrumental in establishing the EMT Ambulance service as well as obtaining medical services for the Town of Freedom.  \nJudy is preceded in death by her parents, Jack Wilshire and Murna (Ridge) Chambers; one brother, Michael Wilshire; and sister-in-law, Darlene (Savely) Burton.  \nShe is survived by her husband, Ottie, brother-in-law, Bill Savely; sister-in-law, Lou Wilshire; nephew, Nick Burton; and two nieces; Belinda Burton-Garinger and husband, John Garinger and Dianne DeBenidictis and her husband, Mike, and their three children Aidan, Ashton, and Giada.  She is also survived by countless special friends and her \"children of the heart?.  \nIn lieu of flowers, the family requests that memorial contributions be made through the funeral home to the Freedom Ambulance Service. \n\t\t\t" ;
+        c:id               "http://id.opencalais.com/jR2hjlOzAkv1gnRkEFjTWg" ;
+        c:ontology         "http://163.231.4.65/owlschema/8.3/onecalais.owl.allmetadata.xml" .
+
+<http://d.opencalais.com/conf/pershash-1/a4a44a65-2f72-3f85-ae73-edcf039f324e>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.998" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.995" ;
+        c:subject             <http://d.opencalais.com/pershash-1/a4a44a65-2f72-3f85-ae73-edcf039f324e> .
+
+<http://d.opencalais.com/conf/pershash-1/69b7d408-c4df-36ca-93cb-97f0309e3f4b>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.963" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.978" ;
+        c:subject             <http://d.opencalais.com/pershash-1/69b7d408-c4df-36ca-93cb-97f0309e3f4b> .
+
+<http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee>
+        a                    <http://s.opencalais.com/1/type/em/e/IndustryTerm> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Funeral services" .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Relevance/19>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/69b7d408-c4df-36ca-93cb-97f0309e3f4b> .
+
+<http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oklahoma" .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Instance/3>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Oklahoma.  She passed away unexpectedly at ]her[ home in Freedom, Oklahoma, on February 19, 2012,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "351" ;
+        c:prefix     "Oklahoma.  She passed away unexpectedly at " ;
+        c:subject    <http://d.opencalais.com/pershash-1/0c609e40-355e-3977-b46c-77da657cbbd9> ;
+        c:suffix     " home in Freedom, Oklahoma, on February 19, 2012," .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Instance/60>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Burton-Garinger and husband, John Garinger and ]Dianne DeBenidictis[ and her husband, Mike, and their three children]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:exact      "Dianne DeBenidictis" ;
+        c:length     "19" ;
+        c:offset     "1452" ;
+        c:prefix     "Burton-Garinger and husband, John Garinger and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/400331b2-2070-3053-8ac7-b0fb2017c9c4> ;
+        c:suffix     " and her husband, Mike, and their three children" .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Instance/39>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[at the Freedom First Christian Church with Rev. ]Mark Kinkle[ officiating.  Cremation will follow the service]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:exact      "Mark Kinkle" ;
+        c:length     "11" ;
+        c:offset     "131" ;
+        c:prefix     "at the Freedom First Christian Church with Rev. " ;
+        c:subject    <http://d.opencalais.com/pershash-1/865a540f-a359-3734-9f73-e9f792589626> ;
+        c:suffix     " officiating.  Cremation will follow the service" .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Instance/18>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ of 68 years, 9 months and 4 days.  Judy attended ]Freedom Public School[ and was a graduate of the Class of 1961.  \nShe]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:exact      "Freedom Public School" ;
+        c:length     "21" ;
+        c:offset     "464" ;
+        c:prefix     " of 68 years, 9 months and 4 days.  Judy attended " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4096dda4-3e8c-3b45-9276-0711e6cb3ca6> ;
+        c:suffix     " and was a graduate of the Class of 1961.  \nShe" .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Relevance/27>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/8003251b-de6a-3e40-b490-decf95a18a9d> .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/SocialTag/3>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Freedom, Oklahoma" ;
+        c:originalValue      "Freedom, Oklahoma" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/e411795c-9bcc-3c07-b316-ffd285cc9b10> .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Instance/68>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and Dianne DeBenidictis and her husband, ]Mike[, and their three children Aidan, Ashton, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:exact      "Mike" ;
+        c:length     "4" ;
+        c:offset     "1489" ;
+        c:prefix     "and Dianne DeBenidictis and her husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/39d55745-2f08-3117-a324-0c17b7ed3ced> ;
+        c:suffix     ", and their three children Aidan, Ashton, and" .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Instance/47>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[were caring for her husband, the community of ]Freedom[ and her many animals.  She was instrumental in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:exact      "Freedom" ;
+        c:length     "7" ;
+        c:offset     "943" ;
+        c:prefix     "were caring for her husband, the community of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b1859fdd-73f6-32ef-821a-b28e8c0c4ead> ;
+        c:suffix     " and her many animals.  She was instrumental in" .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Instance/26>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Burton-Garinger and husband, John Garinger and ]Dianne DeBenidictis and her husband, Mike[, and their three children Aidan, Ashton, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:exact      "Dianne DeBenidictis and her husband, Mike" ;
+        c:length     "41" ;
+        c:offset     "1452" ;
+        c:prefix     "Burton-Garinger and husband, John Garinger and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ab8d1f4b-844c-313a-872c-105f0ef619c3> ;
+        c:suffix     ", and their three children Aidan, Ashton, and" .
+
+<http://d.opencalais.com/conf/pershash-1/8003251b-de6a-3e40-b490-decf95a18a9d>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.943" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.951" ;
+        c:subject             <http://d.opencalais.com/pershash-1/8003251b-de6a-3e40-b490-decf95a18a9d> .
+
+<http://d.opencalais.com/conf/pershash-1/39d55745-2f08-3117-a324-0c17b7ed3ced>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.973" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/39d55745-2f08-3117-a324-0c17b7ed3ced> .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/e9e27c26-4013-8712-a5f0-97dcdc412c26>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:latitude            "35.5607802899" ;
+        c:longitude           "-96.8460570462" ;
+        c:name                "Oklahoma,United States" ;
+        c:permid              "100229" ;
+        c:rcscode             "G:9H" ;
+        c:shortname           "Oklahoma" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/conf/pershash-1/944a899c-0d70-3d62-968f-b4dc7a268617>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/944a899c-0d70-3d62-968f-b4dc7a268617> .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Relevance/14>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/03b9b9a9-5f3e-3ef6-b0f1-f11a622b584c> .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Relevance/5>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/516e68c0-d0a3-33d6-b0aa-f639de1e0de3> .
+
+<http://d.opencalais.com/conf/pershash-1/03b9b9a9-5f3e-3ef6-b0f1-f11a622b584c>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.999" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.999" ;
+        c:subject             <http://d.opencalais.com/pershash-1/03b9b9a9-5f3e-3ef6-b0f1-f11a622b584c> .
+
+<http://d.opencalais.com/genericHasher-1/5956aed8-abe4-3f2b-a066-3a7c19110416>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "husband" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/400331b2-2070-3053-8ac7-b0fb2017c9c4> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/39d55745-2f08-3117-a324-0c17b7ed3ced> .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Instance/55>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and was a graduate of the Class of 1961.  \n]She married the love of her life, Ottie Savely[, on July 7, 1962 and they made their home in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:exact      "She married the love of her life, Ottie Savely" ;
+        c:length     "46" ;
+        c:offset     "529" ;
+        c:prefix     "and was a graduate of the Class of 1961.  \n" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a1695ebe-b07b-321c-9fe3-908478d5b7fd> ;
+        c:suffix     ", on July 7, 1962 and they made their home in" .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Instance/34>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and they made their home in Freedom, Oklahoma.  ]She worked at the Freedom Locker and later was a cosmetologist[.  Judy?s chosen career in her life was the town]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:exact      "She worked at the Freedom Locker and later was a cosmetologist" ;
+        c:length     "62" ;
+        c:offset     "641" ;
+        c:prefix     "and they made their home in Freedom, Oklahoma.  " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/5fe3aed6-385d-307d-90cf-341358abbcb4> ;
+        c:suffix     ".  Judy?s chosen career in her life was the town" .
+
+<http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013/Instance/13>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[  \nJudy?s passions in her life were caring for ]her[ husband, the community of Freedom and her many]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b6557be5-0145-324a-b83a-1099c8811013> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "913" ;
+        c:prefix     "  \nJudy?s passions in her life were caring for " ;
+        c:subject    <http://d.opencalais.com/pershash-1/0c609e40-355e-3977-b46c-77da657cbbd9> ;
+        c:suffix     " husband, the community of Freedom and her many" .
+
+<http://d.opencalais.com/pershash-1/e95e7264-1a2d-3349-b87b-dc562a983281>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Murna Chambers" ;
+        c:confidencelevel    "0.67" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Murna (Ridge) Chambers" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .

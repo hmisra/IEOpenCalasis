@@ -1,0 +1,1130 @@
+#Relations: FamilyRelation, PersonAttributes, PersonCareer, PersonEducation, PersonLocation, PersonRelation
+#City: Enid
+#Company: Wentworth Mortuary LLC
+#Facility: Carmen City Cemetery
+#IndustryTerm: Funeral services
+#Organization: Dacoma High School, Methodist Church, United Methodist Church, United Methodist Church Building Fund
+#Person: Chris, Helen Ruth (Jeffries) Johnson, Jeanie Simpson, Jill , Jill Wheatley, John Bizzell, Lloyd Allen, Nelletta Stewart, Tim, Wesley Allen Johnson, Wesley Johnson
+#Position: farmer
+#ProvinceOrState: Kansas, Oklahoma
+@prefix c:     <http://s.opencalais.com/1/pred/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://d.opencalais.com/genericHasher-1/d39f3253-8420-3f7f-b77d-375c1971e22c>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Methodist Church" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961>
+        a                  <http://s.opencalais.com/1/type/sys/DocInfo> ;
+        c:calaisRequestID  "43195292-5143-c8ea-14d9-145dc3b6fa60" ;
+        c:docDate          "2015-05-26 17:29:44.533" ;
+        c:docTitle         "" ;
+        c:document         "Funeral services for Wesley Johnson will be 10:30 a.m. Friday, January 10, 2014, at the United Methodist Church in Carmen with Rev. John Bizzell officiating. Interment will be at Carmen City Cemetery under the direction of Wentworth Mortuary, LLC.  \t    \nWesley Allen Johnson, son of the late Lloyd Allen and Helen Ruth (Jeffries) Johnson, was born March 15, 1937, in Major County, Oklahoma, and passed away January 6, 2014, at Enid, Oklahoma, at the age of 76 years, 8 months, and 21 days.  \t    \nWesley attended school and graduated from Dacoma High School. He was united in marriage to Nelletta Stewart on October 8, 1961, at the Green Valley Free Methodist Church of rural Carmen. To this union two daughters were born: Jill and Jeanie. They made their home in Kansas for three years before returning to the Carmen area, making this their home for the past 45 years. He was a farmer and rancher. He enjoyed fishing, his grandchildren and taking care of his cattle.  \t    \nWesley was preceded in death by his parents.  \t    \nHe is survived by his wife, Nelletta of Carmen; two daughters, Jill Wheatley and her husband, Tim, of Perkins, and Jeanie Simpson and her husband, Chris, of Shawnee; five granddaughters, Lynlee, MaKinley, and Dailee Wheatley of Perkins, and Gracyn and Evy Simpson of Shawnee; other relatives and friends.  \t    \nMemorial contributions may be made through the funeral home to the United Methodist Church Building Fund. \n\t\t\t" ;
+        c:id               "http://id.opencalais.com/pZO-*V3taj9*gCCykF1lBQ" ;
+        c:ontology         "http://163.231.4.65/owlschema/8.3/onecalais.owl.allmetadata.xml" .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/Relevance/1>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/0b69481c-4e43-3331-8838-8d4e686fa9c2> .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/Instance/31>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Wheatley and her husband, Tim, of Perkins, and ]Jeanie Simpson[ and her husband, Chris, of Shawnee; five]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:exact      "Jeanie Simpson" ;
+        c:length     "14" ;
+        c:offset     "1143" ;
+        c:prefix     "Wheatley and her husband, Tim, of Perkins, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/18288be8-c43b-3343-a84a-ea125fa344f3> ;
+        c:suffix     " and her husband, Chris, of Shawnee; five" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/9abed97f-1f19-0004-aee6-0a06b0289f38>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:latitude            "36.3956" ;
+        c:longitude           "-97.8781" ;
+        c:name                "Enid,Oklahoma,United States" ;
+        c:shortname           "Enid" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/35a979c1-2108-3761-99bd-8c6f499ef6f2> .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/Instance/44>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Wheatley and her husband, Tim, of Perkins, and ]Jeanie Simpson and her husband, Chris[, of Shawnee; five granddaughters, Lynlee,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:exact      "Jeanie Simpson and her husband, Chris" ;
+        c:length     "37" ;
+        c:offset     "1143" ;
+        c:prefix     "Wheatley and her husband, Tim, of Perkins, and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/55c7e12f-c574-3564-b817-c80521c267eb> ;
+        c:suffix     ", of Shawnee; five granddaughters, Lynlee," .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/Instance/16>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[fishing, his grandchildren and taking care of ]his[ cattle.  \t    \nWesley was preceded in death by]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "957" ;
+        c:prefix     "fishing, his grandchildren and taking care of " ;
+        c:subject    <http://d.opencalais.com/pershash-1/01c9ac5e-58b9-3f34-a220-a0b83803db22> ;
+        c:suffix     " cattle.  \t    \nWesley was preceded in death by" .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/Instance/7>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and passed away January 6, 2014, at Enid, ]Oklahoma[, at the age of 76 years, 8 months, and 21 days. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "434" ;
+        c:prefix     "and passed away January 6, 2014, at Enid, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", at the age of 76 years, 8 months, and 21 days. " .
+
+<http://d.opencalais.com/conf/pershash-1/a1fa63d4-07df-3fc6-beb7-7910e526bc1f>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.992" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/a1fa63d4-07df-3fc6-beb7-7910e526bc1f> .
+
+<http://d.opencalais.com/conf/pershash-1/0b69481c-4e43-3331-8838-8d4e686fa9c2>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.813" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.838" ;
+        c:subject             <http://d.opencalais.com/pershash-1/0b69481c-4e43-3331-8838-8d4e686fa9c2> .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/Instance/29>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Allen Johnson, son of the late Lloyd Allen and ]Helen Ruth (Jeffries) Johnson, was born March 15, 1937, in Major County[, Oklahoma, and passed away January 6, 2014, at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:exact      "Helen Ruth (Jeffries) Johnson, was born March 15, 1937, in Major County" ;
+        c:length     "71" ;
+        c:offset     "309" ;
+        c:prefix     "Allen Johnson, son of the late Lloyd Allen and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/5783e9b4-cd95-3be2-a57f-957afcf4afcd> ;
+        c:suffix     ", Oklahoma, and passed away January 6, 2014, at" .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/Relevance/20>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/582c26f8-ea11-34d0-9505-a1ce62db4232> .
+
+<http://d.opencalais.com/genericHasher-1/eff9899f-01c0-3d5b-93f2-3167fe876f33>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/39ad2f5b-d2bb-3651-a0b3-169ed3001570> , <http://d.opencalais.com/pershash-1/cb07a458-9717-3dbb-9eb9-c30bed16aa15> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/Instance/1>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[death by his parents.  \t    \nHe is survived by ]his wife, Nelletta[ of Carmen; two daughters, Jill Wheatley and her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:exact      "his wife, Nelletta" ;
+        c:length     "18" ;
+        c:offset     "1046" ;
+        c:prefix     "death by his parents.  \t    \nHe is survived by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4826eb79-c8f2-3e47-b068-79123a3bb2ef> ;
+        c:suffix     " of Carmen; two daughters, Jill Wheatley and her" .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/Instance/10>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[  \t    \nWesley attended school and graduated from ]Dacoma High School[. He was united in marriage to Nelletta Stewart]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:exact      "Dacoma High School" ;
+        c:length     "18" ;
+        c:offset     "540" ;
+        c:prefix     "  \t    \nWesley attended school and graduated from " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/17149abd-e948-3832-8b0e-87d8db537189> ;
+        c:suffix     ". He was united in marriage to Nelletta Stewart" .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/Relevance/18>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b39b8300-f1d3-378f-8e31-b47615360c0b> .
+
+<http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Kansas" .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/Instance/23>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ \t    \nWesley Allen Johnson, son of the late ]Lloyd Allen and Helen Ruth (Jeffries) Johnson, was born March 15, 1937, in Major County, Oklahoma, and passed away January 6, 2014, at Enid, Oklahoma[, at the age of 76 years, 8 months, and 21 days. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:exact      "Lloyd Allen and Helen Ruth (Jeffries) Johnson, was born March 15, 1937, in Major County, Oklahoma, and passed away January 6, 2014, at Enid, Oklahoma" ;
+        c:length     "149" ;
+        c:offset     "293" ;
+        c:prefix     " \t    \nWesley Allen Johnson, son of the late " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3c7c7689-744e-351e-833c-1bfe36e5e163> ;
+        c:suffix     ", at the age of 76 years, 8 months, and 21 days. " .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/Relevance/6>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/17149abd-e948-3832-8b0e-87d8db537189> .
+
+<http://d.opencalais.com/conf/pershash-1/344f1549-341d-346c-9831-c558b59a73f6>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.997" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.996" ;
+        c:subject             <http://d.opencalais.com/pershash-1/344f1549-341d-346c-9831-c558b59a73f6> .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/Instance/36>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ the direction of Wentworth Mortuary, LLC.  \t    \n]Wesley Allen Johnson[, son of the late Lloyd Allen and Helen Ruth]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:exact      "Wesley Allen Johnson" ;
+        c:length     "20" ;
+        c:offset     "255" ;
+        c:prefix     " the direction of Wentworth Mortuary, LLC.  \t    \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/861b5837-ba9a-3641-b8e3-20a1be96a139> ;
+        c:suffix     ", son of the late Lloyd Allen and Helen Ruth" .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/Relevance/12>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/cb07a458-9717-3dbb-9eb9-c30bed16aa15> .
+
+<http://d.opencalais.com/genericHasher-1/5783e9b4-cd95-3be2-a57f-957afcf4afcd>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonAttributes> ;
+        c:birthdate          "1937-03-15" ;
+        c:birthplace         "Major County" ;
+        c:forenduserdisplay  "false" ;
+        c:gender             "F" ;
+        c:person             <http://d.opencalais.com/pershash-1/b1ede984-c1a8-3b0b-8575-a6ff46ac834e> .
+
+<http://d.opencalais.com/pershash-1/39ad2f5b-d2bb-3651-a0b3-169ed3001570>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Tim" ;
+        c:confidencelevel    "0.958" ;
+        c:firstname          "Tim" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Tim" ;
+        c:nationality        "N/A" ;
+        c:persontype         "entertainment" .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/Instance/30>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[To this union two daughters were born: Jill and ]Jeanie[. They made their home in Kansas for three years]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:exact      "Jeanie" ;
+        c:length     "6" ;
+        c:offset     "733" ;
+        c:prefix     "To this union two daughters were born: Jill and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/18288be8-c43b-3343-a84a-ea125fa344f3> ;
+        c:suffix     ". They made their home in Kansas for three years" .
+
+<http://d.opencalais.com/genericHasher-1/55c7e12f-c574-3564-b817-c80521c267eb>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/582c26f8-ea11-34d0-9505-a1ce62db4232> , <http://d.opencalais.com/pershash-1/18288be8-c43b-3343-a84a-ea125fa344f3> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/Instance/43>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Perkins, and Jeanie Simpson and her husband, ]Chris[, of Shawnee; five granddaughters, Lynlee,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:exact      "Chris" ;
+        c:length     "5" ;
+        c:offset     "1175" ;
+        c:prefix     "of Perkins, and Jeanie Simpson and her husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/582c26f8-ea11-34d0-9505-a1ce62db4232> ;
+        c:suffix     ", of Shawnee; five granddaughters, Lynlee," .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/Instance/15>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ He was a farmer and rancher. He enjoyed fishing, ]his[ grandchildren and taking care of his cattle.  \t ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "920" ;
+        c:prefix     " He was a farmer and rancher. He enjoyed fishing, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/01c9ac5e-58b9-3f34-a220-a0b83803db22> ;
+        c:suffix     " grandchildren and taking care of his cattle.  \t " .
+
+<http://d.opencalais.com/conf/pershash-1/b1ede984-c1a8-3b0b-8575-a6ff46ac834e>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.984" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.989" ;
+        c:subject             <http://d.opencalais.com/pershash-1/b1ede984-c1a8-3b0b-8575-a6ff46ac834e> .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/Instance/6>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[was born March 15, 1937, in Major County, ]Oklahoma[, and passed away January 6, 2014, at Enid,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "382" ;
+        c:prefix     "was born March 15, 1937, in Major County, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", and passed away January 6, 2014, at Enid," .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/Instance/28>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and 21 days.  \t    \nWesley attended school and ]graduated from Dacoma High School[. He was united in marriage to Nelletta Stewart]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:exact      "graduated from Dacoma High School" ;
+        c:length     "33" ;
+        c:offset     "525" ;
+        c:prefix     "and 21 days.  \t    \nWesley attended school and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/7440e348-34aa-3646-bc51-0cbbd57f052b> ;
+        c:suffix     ". He was united in marriage to Nelletta Stewart" .
+
+<http://d.opencalais.com/conf/pershash-1/18288be8-c43b-3343-a84a-ea125fa344f3>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.992" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.994" ;
+        c:subject             <http://d.opencalais.com/pershash-1/18288be8-c43b-3343-a84a-ea125fa344f3> .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/Relevance/17>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee> .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/Instance/22>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Carmen; two daughters, Jill Wheatley and ]her[ husband, Tim, of Perkins, and Jeanie Simpson and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1109" ;
+        c:prefix     "of Carmen; two daughters, Jill Wheatley and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/cb07a458-9717-3dbb-9eb9-c30bed16aa15> ;
+        c:suffix     " husband, Tim, of Perkins, and Jeanie Simpson and" .
+
+<http://d.opencalais.com/pershash-1/861b5837-ba9a-3641-b8e3-20a1be96a139>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Wesley Allen Johnson" ;
+        c:confidencelevel    "0.993" ;
+        c:firstname          "Wesley" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Johnson" ;
+        c:middlename         "Allen" ;
+        c:name               "Wesley Allen Johnson" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/Instance/35>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[may be made through the funeral home to the ]United Methodist Church Building Fund[. \n\t\t\t]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:exact      "United Methodist Church Building Fund" ;
+        c:length     "37" ;
+        c:offset     "1407" ;
+        c:prefix     "may be made through the funeral home to the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b39b8300-f1d3-378f-8e31-b47615360c0b> ;
+        c:suffix     ". \n\t\t\t" .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/Relevance/5>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/52f06da9-a2d1-3490-aa54-9f8b91e94324> .
+
+<http://d.opencalais.com/conf/pershash-1/582c26f8-ea11-34d0-9505-a1ce62db4232>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.965" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/582c26f8-ea11-34d0-9505-a1ce62db4232> .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/lid/DefaultLangId>
+        a                    <http://s.opencalais.com/1/type/lid/DefaultLangId> ;
+        c:docId              <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:forenduserdisplay  "false" ;
+        c:lang               <http://d.opencalais.com/lid/DefaultLangId/English> ;
+        c:permid             "505062" .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/SocialTag/2>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Dacoma, Oklahoma" ;
+        c:originalValue      "Dacoma, Oklahoma" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/ddcdf07d-7c67-342f-8a8c-f881f846c968> .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/Instance/48>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[school and graduated from Dacoma High School. ]He was united in marriage to Nelletta Stewart on October 8, 1961[, at the Green Valley Free Methodist Church of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:exact      "He was united in marriage to Nelletta Stewart on October 8, 1961" ;
+        c:length     "64" ;
+        c:offset     "560" ;
+        c:prefix     "school and graduated from Dacoma High School. " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b12ba024-56be-3d49-9122-7f95df30287e> ;
+        c:suffix     ", at the Green Valley Free Methodist Church of" .
+
+<http://d.opencalais.com/pershash-1/01c9ac5e-58b9-3f34-a220-a0b83803db22>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Nelletta Stewart" ;
+        c:confidencelevel    "0.903" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Nelletta Stewart" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/Relevance/11>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/344f1549-341d-346c-9831-c558b59a73f6> .
+
+<http://d.opencalais.com/conf/pershash-1/399374bb-b91e-33ea-99ac-2f4b57c4aef4>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.98" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/399374bb-b91e-33ea-99ac-2f4b57c4aef4> .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/Instance/42>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[death by his parents.  \t    \nHe is survived by ]his[ wife, Nelletta of Carmen; two daughters, Jill]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "1046" ;
+        c:prefix     "death by his parents.  \t    \nHe is survived by " ;
+        c:subject    <http://d.opencalais.com/pershash-1/861b5837-ba9a-3641-b8e3-20a1be96a139> ;
+        c:suffix     " wife, Nelletta of Carmen; two daughters, Jill" .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/Instance/14>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[the past 45 years. He was a farmer and rancher. ]He[ enjoyed fishing, his grandchildren and taking]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:exact      "He" ;
+        c:length     "2" ;
+        c:offset     "900" ;
+        c:prefix     "the past 45 years. He was a farmer and rancher. " ;
+        c:subject    <http://d.opencalais.com/pershash-1/01c9ac5e-58b9-3f34-a220-a0b83803db22> ;
+        c:suffix     " enjoyed fishing, his grandchildren and taking" .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/Instance/5>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[by his wife, Nelletta of Carmen; two daughters, ]Jill Wheatley and her husband, Tim[, of Perkins, and Jeanie Simpson and her husband,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:exact      "Jill Wheatley and her husband, Tim" ;
+        c:length     "34" ;
+        c:offset     "1091" ;
+        c:prefix     "by his wife, Nelletta of Carmen; two daughters, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/eff9899f-01c0-3d5b-93f2-3167fe876f33> ;
+        c:suffix     ", of Perkins, and Jeanie Simpson and her husband," .
+
+<http://d.opencalais.com/conf/comphash-1/a8ee0a81-b629-368a-b237-71a89306beec>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.558" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.788" ;
+        c:subject             <http://d.opencalais.com/comphash-1/a8ee0a81-b629-368a-b237-71a89306beec> .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/Instance/27>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Allen Johnson, son of the late Lloyd Allen and ]Helen Ruth (Jeffries) Johnson[, was born March 15, 1937, in Major County,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:exact      "Helen Ruth (Jeffries) Johnson" ;
+        c:length     "29" ;
+        c:offset     "309" ;
+        c:prefix     "Allen Johnson, son of the late Lloyd Allen and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b1ede984-c1a8-3b0b-8575-a6ff46ac834e> ;
+        c:suffix     ", was born March 15, 1937, in Major County," .
+
+<http://d.opencalais.com/genericHasher-1/3e65295a-22da-37c4-913c-ce15f0a335f0>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:forenduserdisplay  "true" ;
+        c:person             <http://d.opencalais.com/pershash-1/01c9ac5e-58b9-3f34-a220-a0b83803db22> ;
+        c:position           "farmer" ;
+        c:status             "past" .
+
+<http://d.opencalais.com/pershash-1/a1fa63d4-07df-3fc6-beb7-7910e526bc1f>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Wesley Johnson" ;
+        c:confidencelevel    "0.992" ;
+        c:firstname          "Wesley" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Johnson" ;
+        c:name               "Wesley Johnson" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/pershash-1/0b69481c-4e43-3331-8838-8d4e686fa9c2>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Jill" ;
+        c:confidencelevel    "0.813" ;
+        c:firstname          "Jeanie" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Jill" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/Relevance/16>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/18288be8-c43b-3343-a84a-ea125fa344f3> .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/Instance/21>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[by his wife, Nelletta of Carmen; two daughters, ]Jill Wheatley[ and her husband, Tim, of Perkins, and Jeanie]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:exact      "Jill Wheatley" ;
+        c:length     "13" ;
+        c:offset     "1091" ;
+        c:prefix     "by his wife, Nelletta of Carmen; two daughters, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/cb07a458-9717-3dbb-9eb9-c30bed16aa15> ;
+        c:suffix     " and her husband, Tim, of Perkins, and Jeanie" .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/Relevance/4>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/Instance/34>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Carmen; two daughters, Jill Wheatley and ]her husband, Tim[, of Perkins, and Jeanie Simpson and her husband,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:exact      "her husband, Tim" ;
+        c:length     "16" ;
+        c:offset     "1109" ;
+        c:prefix     "of Carmen; two daughters, Jill Wheatley and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/02250aad-c891-36de-8616-2ac61700bfda> ;
+        c:suffix     ", of Perkins, and Jeanie Simpson and her husband," .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/SocialTag/1>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Wesley" ;
+        c:originalValue      "Wesley (disambiguation)" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/b6c3d41b-a91f-3ca9-982d-39b4b63c7d3d> .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/Instance/47>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[be 10:30 a.m. Friday, January 10, 2014, at the ]United Methodist Church[ in Carmen with Rev. John Bizzell officiating.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:exact      "United Methodist Church" ;
+        c:length     "23" ;
+        c:offset     "88" ;
+        c:prefix     "be 10:30 a.m. Friday, January 10, 2014, at the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/73800505-7417-3498-8f51-f1357551f2b3> ;
+        c:suffix     " in Carmen with Rev. John Bizzell officiating." .
+
+<http://d.opencalais.com/pershash-1/344f1549-341d-346c-9831-c558b59a73f6>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Lloyd Allen" ;
+        c:confidencelevel    "0.997" ;
+        c:firstname          "Lloyd" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Allen" ;
+        c:name               "Lloyd Allen" ;
+        c:nationality        "N/A" ;
+        c:persontype         "sports" .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/Instance/19>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[on October 8, 1961, at the Green Valley Free ]Methodist Church[ of rural Carmen. To this union two daughters]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:exact      "Methodist Church" ;
+        c:length     "16" ;
+        c:offset     "651" ;
+        c:prefix     "on October 8, 1961, at the Green Valley Free " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/d39f3253-8420-3f7f-b77d-375c1971e22c> ;
+        c:suffix     " of rural Carmen. To this union two daughters" .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/Relevance/10>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/d39f3253-8420-3f7f-b77d-375c1971e22c> .
+
+<http://d.opencalais.com/genericHasher-1/17149abd-e948-3832-8b0e-87d8db537189>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Dacoma High School" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/3c7c7689-744e-351e-833c-1bfe36e5e163>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Enid, Oklahoma" ;
+        c:person             <http://d.opencalais.com/pershash-1/344f1549-341d-346c-9831-c558b59a73f6> .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/Instance/41>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[was preceded in death by his parents.  \t    \n]He[ is survived by his wife, Nelletta of Carmen; two]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:exact      "He" ;
+        c:length     "2" ;
+        c:offset     "1028" ;
+        c:prefix     "was preceded in death by his parents.  \t    \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/861b5837-ba9a-3641-b8e3-20a1be96a139> ;
+        c:suffix     " is survived by his wife, Nelletta of Carmen; two" .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/Instance/13>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[making this their home for the past 45 years. ]He[ was a farmer and rancher. He enjoyed fishing,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:exact      "He" ;
+        c:length     "2" ;
+        c:offset     "871" ;
+        c:prefix     "making this their home for the past 45 years. " ;
+        c:subject    <http://d.opencalais.com/pershash-1/01c9ac5e-58b9-3f34-a220-a0b83803db22> ;
+        c:suffix     " was a farmer and rancher. He enjoyed fishing," .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/Instance/4>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[making this their home for the past 45 years. ]He was a farmer[ and rancher. He enjoyed fishing, his]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:exact      "He was a farmer" ;
+        c:length     "15" ;
+        c:offset     "871" ;
+        c:prefix     "making this their home for the past 45 years. " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3e65295a-22da-37c4-913c-ce15f0a335f0> ;
+        c:suffix     " and rancher. He enjoyed fishing, his" .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/ComponentVersions>
+        a          <http://s.opencalais.com/1/type/sys/ComponentVersions> ;
+        c:docId    <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:version  "OA Index:201505252208:201505252208" , "People Index:201505261608:201505261608" , "config-negativeSignature:258:258" , "SECHeaderMetadataIM:OneCalais_8.3-RELEASE:198" , "config-vessels:258:258" , "OA Override:271:271" , "WatchDog:OneCalais_8.3-RELEASE:113" , "FrenchIM:OneCalais_8.3-RELEASE:198" , "config-drugs:258:258" , "Dial4J:OneCalais_8.3-RELEASE:198" , "OneCalaisIM:OneCalais_8.3-RELEASE:198" , "index-vessels:201505231718:201505231718" , "com.clearforest.infoext.dial4j.plugins-basistechconfig:OneCalais_8.3-RELEASE:225" , "SpanishIM:OneCalais_8.3-RELEASE:198" , "Deals Index:201505261613:201505261613" , "config-cse:271:271" , "SocialTags Index:201505191038:201505191038" , "config-physicalAssets-ports:258:258" , "BrokerResearchIM:OneCalais_8.3-RELEASE:198" , "Housekeeper:OneCalais_8.3-RELEASE:113" , "config-refineries:258:258" , "NextTags:OneCalais_8.3-RELEASE:113" , "Collector:OneCalais_8.3-RELEASE:113" , "BlackList:264:264" , "OneCalais:OneCalais_8.3-RELEASE:364" , "AutocoderRuntimeIM:OneCalais_8.3-RELEASE:198" , "config-sca-DataPackage:34:34" , "People Override:258:258" .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/Instance/26>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[this their home for the past 45 years. He was ]a farmer[ and rancher. He enjoyed fishing, his]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:exact      "a farmer" ;
+        c:length     "8" ;
+        c:offset     "878" ;
+        c:prefix     "this their home for the past 45 years. He was " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8cf981f3-0695-3f77-9258-bb4f79dc51d2> ;
+        c:suffix     " and rancher. He enjoyed fishing, his" .
+
+<http://d.opencalais.com/pershash-1/b1ede984-c1a8-3b0b-8575-a6ff46ac834e>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Helen Ruth Johnson" ;
+        c:confidencelevel    "0.984" ;
+        c:firstname          "Helen" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Johnson" ;
+        c:middlename         "Ruth" ;
+        c:name               "Helen Ruth (Jeffries) Johnson" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/Relevance/9>
+        a                <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId          <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:relevance      "0.2" ;
+        c:relevancecont  "0.03" ;
+        c:subject        <http://d.opencalais.com/comphash-1/a8ee0a81-b629-368a-b237-71a89306beec> .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/Instance/39>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and taking care of his cattle.  \t    \n]Wesley[ was preceded in death by his parents.  \t    \nHe]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:exact      "Wesley" ;
+        c:length     "6" ;
+        c:offset     "976" ;
+        c:prefix     "and taking care of his cattle.  \t    \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/861b5837-ba9a-3641-b8e3-20a1be96a139> ;
+        c:suffix     " was preceded in death by his parents.  \t    \nHe" .
+
+<http://d.opencalais.com/conf/pershash-1/cb07a458-9717-3dbb-9eb9-c30bed16aa15>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.992" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.994" ;
+        c:subject             <http://d.opencalais.com/pershash-1/cb07a458-9717-3dbb-9eb9-c30bed16aa15> .
+
+<http://d.opencalais.com/pershash-1/18288be8-c43b-3343-a84a-ea125fa344f3>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Jeanie Simpson" ;
+        c:confidencelevel    "0.992" ;
+        c:firstname          "Jeanie" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Jeanie Simpson" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/Relevance/15>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/b1ede984-c1a8-3b0b-8575-a6ff46ac834e> .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/Instance/20>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ \t    \nWesley Allen Johnson, son of the late ]Lloyd Allen[ and Helen Ruth (Jeffries) Johnson, was born]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:exact      "Lloyd Allen" ;
+        c:length     "11" ;
+        c:offset     "293" ;
+        c:prefix     " \t    \nWesley Allen Johnson, son of the late " ;
+        c:subject    <http://d.opencalais.com/pershash-1/344f1549-341d-346c-9831-c558b59a73f6> ;
+        c:suffix     " and Helen Ruth (Jeffries) Johnson, was born" .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/Relevance/3>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/meta>
+        a                 <http://s.opencalais.com/1/type/sys/DocInfoMeta> ;
+        c:contentType     "text/raw" ;
+        c:docId           <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:language        "English" ;
+        c:processingVer   "AllMetadata" ;
+        c:serverVersion   "OneCalais_8.3-RELEASE:364" ;
+        c:signature       "digestalg-1|2HHkhEaArInk4S9DLUViO5s4ru4=|CTvh0sWfZXih0fpUhLt301hRaWIr8E3OdcZAWZZt+oSJjfwvA/sN0Q==" ;
+        c:stagsVer        "OneCalais_8.3-RELEASE-b11-2015-03-25_18:29:00" ;
+        c:submissionDate  "2015-05-26 17:29:44.251" ;
+        c:submitterCode   "0ca6a864-5659-789d-5f32-f365f695e757" .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/Instance/33>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[]Funeral services[ for Wesley Johnson will be 10:30 a.m. Friday,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:exact      "Funeral services" ;
+        c:length     "16" ;
+        c:offset     "0" ;
+        c:prefix     "" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee> ;
+        c:suffix     " for Wesley Johnson will be 10:30 a.m. Friday," .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/Instance/46>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[death by his parents.  \t    \nHe is survived by ]his wife, Nelletta[ of Carmen; two daughters, Jill Wheatley and her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:exact      "his wife, Nelletta" ;
+        c:length     "18" ;
+        c:offset     "1046" ;
+        c:prefix     "death by his parents.  \t    \nHe is survived by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/7680bd27-d979-37db-83a8-53915a0d4f0c> ;
+        c:suffix     " of Carmen; two daughters, Jill Wheatley and her" .
+
+<http://d.opencalais.com/pershash-1/582c26f8-ea11-34d0-9505-a1ce62db4232>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Chris" ;
+        c:confidencelevel    "0.965" ;
+        c:firstname          "Chris" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Chris" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/Instance/18>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[at Carmen City Cemetery under the direction of ]Wentworth Mortuary, LLC[.  \t    \nWesley Allen Johnson, son of the late]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:exact      "Wentworth Mortuary, LLC" ;
+        c:length     "23" ;
+        c:offset     "223" ;
+        c:prefix     "at Carmen City Cemetery under the direction of " ;
+        c:subject    <http://d.opencalais.com/comphash-1/a8ee0a81-b629-368a-b237-71a89306beec> ;
+        c:suffix     ".  \t    \nWesley Allen Johnson, son of the late" .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/Instance/9>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[John Bizzell officiating. Interment will be at ]Carmen City Cemetery[ under the direction of Wentworth Mortuary, LLC. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:exact      "Carmen City Cemetery" ;
+        c:length     "20" ;
+        c:offset     "179" ;
+        c:prefix     "John Bizzell officiating. Interment will be at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/52f06da9-a2d1-3490-aa54-9f8b91e94324> ;
+        c:suffix     " under the direction of Wentworth Mortuary, LLC. " .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/Relevance/22>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/73800505-7417-3498-8f51-f1357551f2b3> .
+
+<http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee>
+        a                    <http://s.opencalais.com/1/type/em/e/IndustryTerm> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Funeral services" .
+
+<http://d.opencalais.com/genericHasher-1/90485814-659f-317a-967c-012dbcbb94c9>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "husband" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/18288be8-c43b-3343-a84a-ea125fa344f3> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/582c26f8-ea11-34d0-9505-a1ce62db4232> .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/Instance/40>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[cattle.  \t    \nWesley was preceded in death by ]his[ parents.  \t    \nHe is survived by his wife,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "1008" ;
+        c:prefix     "cattle.  \t    \nWesley was preceded in death by " ;
+        c:subject    <http://d.opencalais.com/pershash-1/861b5837-ba9a-3641-b8e3-20a1be96a139> ;
+        c:suffix     " parents.  \t    \nHe is survived by his wife," .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/Instance/12>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Dacoma High School. He was united in marriage to ]Nelletta Stewart[ on October 8, 1961, at the Green Valley Free]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:exact      "Nelletta Stewart" ;
+        c:length     "16" ;
+        c:offset     "589" ;
+        c:prefix     " Dacoma High School. He was united in marriage to " ;
+        c:subject    <http://d.opencalais.com/pershash-1/01c9ac5e-58b9-3f34-a220-a0b83803db22> ;
+        c:suffix     " on October 8, 1961, at the Green Valley Free" .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/Instance/3>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Oklahoma, and passed away January 6, 2014, at ]Enid[, Oklahoma, at the age of 76 years, 8 months, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:exact      "Enid" ;
+        c:length     "4" ;
+        c:offset     "428" ;
+        c:prefix     "Oklahoma, and passed away January 6, 2014, at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/35a979c1-2108-3761-99bd-8c6f499ef6f2> ;
+        c:suffix     ", Oklahoma, at the age of 76 years, 8 months, and" .
+
+<http://d.opencalais.com/pershash-1/399374bb-b91e-33ea-99ac-2f4b57c4aef4>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "John Bizzell" ;
+        c:confidencelevel    "0.98" ;
+        c:firstname          "John" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Bizzell" ;
+        c:name               "John Bizzell" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/Instance/25>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[two daughters, Jill Wheatley and her husband, ]Tim[, of Perkins, and Jeanie Simpson and her husband,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:exact      "Tim" ;
+        c:length     "3" ;
+        c:offset     "1122" ;
+        c:prefix     "two daughters, Jill Wheatley and her husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/39ad2f5b-d2bb-3651-a0b3-169ed3001570> ;
+        c:suffix     ", of Perkins, and Jeanie Simpson and her husband," .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/Relevance/8>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/01c9ac5e-58b9-3f34-a220-a0b83803db22> .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/Instance/38>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[school and graduated from Dacoma High School. ]He[ was united in marriage to Nelletta Stewart on]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:exact      "He" ;
+        c:length     "2" ;
+        c:offset     "560" ;
+        c:prefix     "school and graduated from Dacoma High School. " ;
+        c:subject    <http://d.opencalais.com/pershash-1/861b5837-ba9a-3641-b8e3-20a1be96a139> ;
+        c:suffix     " was united in marriage to Nelletta Stewart on" .
+
+<http://d.opencalais.com/genericHasher-1/4826eb79-c8f2-3e47-b068-79123a3bb2ef>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "wife" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/861b5837-ba9a-3641-b8e3-20a1be96a139> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/01c9ac5e-58b9-3f34-a220-a0b83803db22> .
+
+<http://d.opencalais.com/comphash-1/a8ee0a81-b629-368a-b237-71a89306beec>
+        a                    <http://s.opencalais.com/1/type/em/e/Company> ;
+        c:confidencelevel    "0.558" ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Wentworth Mortuary LLC" ;
+        c:nationality        "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/39ad2f5b-d2bb-3651-a0b3-169ed3001570>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.958" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/39ad2f5b-d2bb-3651-a0b3-169ed3001570> .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/Relevance/14>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8cf981f3-0695-3f77-9258-bb4f79dc51d2> .
+
+<http://d.opencalais.com/genericHasher-1/7440e348-34aa-3646-bc51-0cbbd57f052b>
+        a                       <http://s.opencalais.com/1/type/em/r/PersonEducation> ;
+        c:forenduserdisplay     "false" ;
+        c:person                <http://d.opencalais.com/pershash-1/861b5837-ba9a-3641-b8e3-20a1be96a139> ;
+        c:schoolororganization  "Dacoma High School" .
+
+<http://d.opencalais.com/genericHasher-1/8cf981f3-0695-3f77-9258-bb4f79dc51d2>
+        a                    <http://s.opencalais.com/1/type/em/e/Position> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "farmer" .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/Relevance/2>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/35a979c1-2108-3761-99bd-8c6f499ef6f2> .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/Instance/32>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ husband, Tim, of Perkins, and Jeanie Simpson and ]her[ husband, Chris, of Shawnee; five granddaughters,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1162" ;
+        c:prefix     " husband, Tim, of Perkins, and Jeanie Simpson and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/18288be8-c43b-3343-a84a-ea125fa344f3> ;
+        c:suffix     " husband, Chris, of Shawnee; five granddaughters," .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/ec80b062-8d1e-123a-1d6e-8bd0b7355690>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:latitude            "38.45" ;
+        c:longitude           "-96.5333" ;
+        c:name                "Kansas,United States" ;
+        c:permid              "100151" ;
+        c:rcscode             "G:6D" ;
+        c:shortname           "Kansas" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> .
+
+<http://d.opencalais.com/genericHasher-1/52f06da9-a2d1-3490-aa54-9f8b91e94324>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Carmen City Cemetery" .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/Instance/45>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[the United Methodist Church in Carmen with Rev. ]John Bizzell[ officiating. Interment will be at Carmen City]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:exact      "John Bizzell" ;
+        c:length     "12" ;
+        c:offset     "132" ;
+        c:prefix     "the United Methodist Church in Carmen with Rev. " ;
+        c:subject    <http://d.opencalais.com/pershash-1/399374bb-b91e-33ea-99ac-2f4b57c4aef4> ;
+        c:suffix     " officiating. Interment will be at Carmen City" .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/Instance/17>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[his parents.  \t    \nHe is survived by his wife, ]Nelletta[ of Carmen; two daughters, Jill Wheatley and her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:exact      "Nelletta" ;
+        c:length     "8" ;
+        c:offset     "1056" ;
+        c:prefix     "his parents.  \t    \nHe is survived by his wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/01c9ac5e-58b9-3f34-a220-a0b83803db22> ;
+        c:suffix     " of Carmen; two daughters, Jill Wheatley and her" .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/Instance/8>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[born: Jill and Jeanie. They made their home in ]Kansas[ for three years before returning to the Carmen]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:exact      "Kansas" ;
+        c:length     "6" ;
+        c:offset     "765" ;
+        c:prefix     "born: Jill and Jeanie. They made their home in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> ;
+        c:suffix     " for three years before returning to the Carmen" .
+
+<http://d.opencalais.com/genericHasher-1/7680bd27-d979-37db-83a8-53915a0d4f0c>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/01c9ac5e-58b9-3f34-a220-a0b83803db22> , <http://d.opencalais.com/pershash-1/861b5837-ba9a-3641-b8e3-20a1be96a139> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/Relevance/21>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/399374bb-b91e-33ea-99ac-2f4b57c4aef4> .
+
+<http://d.opencalais.com/genericHasher-1/b12ba024-56be-3d49-9122-7f95df30287e>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:date                "1961-10-08" ;
+        c:datestring          "October 8, 1961" ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/01c9ac5e-58b9-3f34-a220-a0b83803db22> , <http://d.opencalais.com/pershash-1/861b5837-ba9a-3641-b8e3-20a1be96a139> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/genericHasher-1/b39b8300-f1d3-378f-8e31-b47615360c0b>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "United Methodist Church Building Fund" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/cat/1>
+        a                    <http://s.opencalais.com/1/type/cat/DocCat> ;
+        c:docId              <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Human Interest" ;
+        c:score              "0.968" .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/Instance/11>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Funeral services for ]Wesley Johnson[ will be 10:30 a.m. Friday, January 10, 2014, at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:exact      "Wesley Johnson" ;
+        c:length     "14" ;
+        c:offset     "21" ;
+        c:prefix     "Funeral services for " ;
+        c:subject    <http://d.opencalais.com/pershash-1/a1fa63d4-07df-3fc6-beb7-7910e526bc1f> ;
+        c:suffix     " will be 10:30 a.m. Friday, January 10, 2014, at" .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/Instance/2>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Carmen. To this union two daughters were born: ]Jill[ and Jeanie. They made their home in Kansas for]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:exact      "Jill" ;
+        c:length     "4" ;
+        c:offset     "724" ;
+        c:prefix     "Carmen. To this union two daughters were born: " ;
+        c:subject    <http://d.opencalais.com/pershash-1/0b69481c-4e43-3331-8838-8d4e686fa9c2> ;
+        c:suffix     " and Jeanie. They made their home in Kansas for" .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/Relevance/19>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/861b5837-ba9a-3641-b8e3-20a1be96a139> .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/e9e27c26-4013-8712-a5f0-97dcdc412c26>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:latitude            "35.5607802899" ;
+        c:longitude           "-96.8460570462" ;
+        c:name                "Oklahoma,United States" ;
+        c:permid              "100229" ;
+        c:rcscode             "G:9H" ;
+        c:shortname           "Oklahoma" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/conf/pershash-1/861b5837-ba9a-3641-b8e3-20a1be96a139>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.993" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.995" ;
+        c:subject             <http://d.opencalais.com/pershash-1/861b5837-ba9a-3641-b8e3-20a1be96a139> .
+
+<http://d.opencalais.com/genericHasher-1/02250aad-c891-36de-8616-2ac61700bfda>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "husband" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/cb07a458-9717-3dbb-9eb9-c30bed16aa15> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/39ad2f5b-d2bb-3651-a0b3-169ed3001570> .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/Instance/24>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ husband, Tim, of Perkins, and Jeanie Simpson and ]her husband, Chris[, of Shawnee; five granddaughters, Lynlee,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:exact      "her husband, Chris" ;
+        c:length     "18" ;
+        c:offset     "1162" ;
+        c:prefix     " husband, Tim, of Perkins, and Jeanie Simpson and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/90485814-659f-317a-967c-012dbcbb94c9> ;
+        c:suffix     ", of Shawnee; five granddaughters, Lynlee," .
+
+<http://d.opencalais.com/genericHasher-1/73800505-7417-3498-8f51-f1357551f2b3>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "United Methodist Church" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/Relevance/7>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/a1fa63d4-07df-3fc6-beb7-7910e526bc1f> .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/Instance/37>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[age of 76 years, 8 months, and 21 days.  \t    \n]Wesley[ attended school and graduated from Dacoma High]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:exact      "Wesley" ;
+        c:length     "6" ;
+        c:offset     "498" ;
+        c:prefix     "age of 76 years, 8 months, and 21 days.  \t    \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/861b5837-ba9a-3641-b8e3-20a1be96a139> ;
+        c:suffix     " attended school and graduated from Dacoma High" .
+
+<http://d.opencalais.com/conf/pershash-1/01c9ac5e-58b9-3f34-a220-a0b83803db22>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.903" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.928" ;
+        c:subject             <http://d.opencalais.com/pershash-1/01c9ac5e-58b9-3f34-a220-a0b83803db22> .
+
+<http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961/Relevance/13>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/61c815a0-3c52-3f7a-876b-963ebb458961> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/39ad2f5b-d2bb-3651-a0b3-169ed3001570> .
+
+<http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oklahoma" .
+
+<http://d.opencalais.com/pershash-1/cb07a458-9717-3dbb-9eb9-c30bed16aa15>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Jill Wheatley" ;
+        c:confidencelevel    "0.992" ;
+        c:firstname          "Jill" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Wheatley" ;
+        c:name               "Jill Wheatley" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/35a979c1-2108-3761-99bd-8c6f499ef6f2>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Enid" .

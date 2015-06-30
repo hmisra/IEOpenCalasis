@@ -1,0 +1,1157 @@
+#Relations: FamilyRelation, PersonAttributes, PersonCareer, PersonLocation, PersonRelation
+#City: Amarillo, Del Rio, San Antonio
+#Company: Wentworth Mortuary LLC
+#Facility: Brentwood Chapel, Carmen Cemetery, Schooler Funeral Home
+#IndustryTerm: Funeral services
+#Person: Carolyn Arnold, Corwin Simmons, Dan, David, Ethel Barnett, Gladys Ethel Green, Jimmy, John Barnett, John Simmons, Kenneth Simmons, Raymond Barnett, Wilma Jane Simmons
+#Position: Nurse, s Aide
+#ProvinceOrState: Texas
+@prefix c:     <http://s.opencalais.com/1/pred/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://d.opencalais.com/conf/pershash-1/76728121-349c-343f-b987-4d5d41dfc750>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.958" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.889" ;
+        c:subject             <http://d.opencalais.com/pershash-1/76728121-349c-343f-b987-4d5d41dfc750> .
+
+<http://d.opencalais.com/genericHasher-1/a9ab0f21-ed45-3243-a2f8-8434f0746a32>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonAttributes> ;
+        c:birthdate          "1926-04-11" ;
+        c:birthplace         <http://d.opencalais.com/genericHasher-1/f56efff0-1285-317a-bf5f-7369d44c9310> ;
+        c:forenduserdisplay  "false" ;
+        c:gender             "F" ;
+        c:person             <http://d.opencalais.com/pershash-1/74521e73-2f16-35ae-887f-ca9ab6e94b32> .
+
+<http://d.opencalais.com/pershash-1/eebbaca8-501d-3335-9082-0998669a4729>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Kenneth Simmons" ;
+        c:confidencelevel    "0.98" ;
+        c:firstname          "Kenneth" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Simmons" ;
+        c:name               "Kenneth Simmons" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/Instance/33>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and John Simmons of Amarillo; one sister, ]Gladys Ethel Green of San Antonio, Texas[; 9 grandchildren; 21 great grandchildren; other]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:exact      "Gladys Ethel Green of San Antonio, Texas" ;
+        c:length     "40" ;
+        c:offset     "1074" ;
+        c:prefix     "and John Simmons of Amarillo; one sister, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b5b4e035-6637-3d23-9f15-2e6341ebd21f> ;
+        c:suffix     "; 9 grandchildren; 21 great grandchildren; other" .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/Instance/46>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[December 20, 2007 at Schooler Funeral Home, ]Brentwood Chapel[, in Amarillo with Rev. G. A. Roach officiating. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:exact      "Brentwood Chapel" ;
+        c:length     "16" ;
+        c:offset     "113" ;
+        c:prefix     "December 20, 2007 at Schooler Funeral Home, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e3708ee5-97a9-3bdb-827e-ea87c7f2bd1b> ;
+        c:suffix     ", in Amarillo with Rev. G. A. Roach officiating. " .
+
+<http://d.opencalais.com/genericHasher-1/67fcb5c6-ea0c-3daf-93e6-06c5caa36976>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Amarillo, Texas" ;
+        c:person             <http://d.opencalais.com/pershash-1/f0ddcc89-a13b-3d88-a29d-2434f1b24283> .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/Instance/18>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Rio, Texas, and passed away December 15, 2007 in ]Amarillo[, Texas, at the age of 81 years, 8 months and 4]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:exact      "Amarillo" ;
+        c:length     "8" ;
+        c:offset     "489" ;
+        c:prefix     " Rio, Texas, and passed away December 15, 2007 in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0a09ae8f-0456-38fc-b965-ff815c60f9d3> ;
+        c:suffix     ", Texas, at the age of 81 years, 8 months and 4" .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/Instance/7>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[an infant son, David; and three brothers, ]Dan[, Jimmy, and Raymond Barnett.  \nWilma is survived]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:exact      "Dan" ;
+        c:length     "3" ;
+        c:offset     "895" ;
+        c:prefix     "an infant son, David; and three brothers, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/3afafaa9-436a-3875-9c21-f4bacbc18dc0> ;
+        c:suffix     ", Jimmy, and Raymond Barnett.  \nWilma is survived" .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/Instance/40>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[an infant son, David; and three brothers, Dan, ]Jimmy[, and Raymond Barnett.  \nWilma is survived by one]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:exact      "Jimmy" ;
+        c:length     "5" ;
+        c:offset     "900" ;
+        c:prefix     "an infant son, David; and three brothers, Dan, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/76728121-349c-343f-b987-4d5d41dfc750> ;
+        c:suffix     ", and Raymond Barnett.  \nWilma is survived by one" .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/Relevance/4>
+        a                <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId          <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:relevance      "0.2" ;
+        c:relevancecont  "0.03" ;
+        c:subject        <http://d.opencalais.com/comphash-1/a8ee0a81-b629-368a-b237-71a89306beec> .
+
+<http://d.opencalais.com/pershash-1/c41cc9c9-73cf-3b71-b66f-8e8c2f4f3469>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Corwin Simmons" ;
+        c:confidencelevel    "0.992" ;
+        c:firstname          "Corwin" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Simmons" ;
+        c:name               "Corwin Simmons" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/Instance/12>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[to Corwin Simmons.  As a lifelong caregiver ]she[ worked as a Nurse???s Aide at Bivins Nursing]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "646" ;
+        c:prefix     "to Corwin Simmons.  As a lifelong caregiver " ;
+        c:subject    <http://d.opencalais.com/pershash-1/74521e73-2f16-35ae-887f-ca9ab6e94b32> ;
+        c:suffix     " worked as a Nurse???s Aide at Bivins Nursing" .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/SocialTag/1>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Amarillo, Texas" ;
+        c:originalValue      "Amarillo, Texas" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/7e9fd4d6-0a3c-3bb2-a7ef-078306db7b5a> .
+
+<http://d.opencalais.com/conf/pershash-1/9e443570-db90-3ec7-9c21-9885160f0e20>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.973" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/9e443570-db90-3ec7-9c21-9885160f0e20> .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/Relevance/17>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/76728121-349c-343f-b987-4d5d41dfc750> .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/Instance/25>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Barnett.  \nWilma is survived by one daughter, ]Carolyn Arnold of Amarillo[; two sons, Kenneth Simmons of Amarillo, and John]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:exact      "Carolyn Arnold of Amarillo" ;
+        c:length     "26" ;
+        c:offset     "965" ;
+        c:prefix     "Barnett.  \nWilma is survived by one daughter, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/57b67466-c929-3344-bef3-2420c9fad4ad> ;
+        c:suffix     "; two sons, Kenneth Simmons of Amarillo, and John" .
+
+<http://d.opencalais.com/pershash-1/f0ddcc89-a13b-3d88-a29d-2434f1b24283>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "John Barnett" ;
+        c:confidencelevel    "0.995" ;
+        c:firstname          "Ethel" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Barnett" ;
+        c:name               "John Barnett" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/Instance/1>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Funeral services for ]Wilma Jane Simmons[ will be 10:00 a.m. Thursday, December 20, 2007]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:exact      "Wilma Jane Simmons" ;
+        c:length     "18" ;
+        c:offset     "21" ;
+        c:prefix     "Funeral services for " ;
+        c:subject    <http://d.opencalais.com/pershash-1/04a920fa-0b59-3932-9131-087b31965e4b> ;
+        c:suffix     " will be 10:00 a.m. Thursday, December 20, 2007" .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/Instance/38>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[to Corwin Simmons.  As a lifelong caregiver ]she worked as a Nurse[???s Aide at Bivins Nursing Home for 27 years. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:exact      "she worked as a Nurse" ;
+        c:length     "21" ;
+        c:offset     "646" ;
+        c:prefix     "to Corwin Simmons.  As a lifelong caregiver " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/207a3e11-e888-35b0-ab2f-91931a75895c> ;
+        c:suffix     "???s Aide at Bivins Nursing Home for 27 years. " .
+
+<http://d.opencalais.com/conf/pershash-1/3afafaa9-436a-3875-9c21-f4bacbc18dc0>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.964" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.889" ;
+        c:subject             <http://d.opencalais.com/pershash-1/3afafaa9-436a-3875-9c21-f4bacbc18dc0> .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/Relevance/11>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/eba1e274-9af7-3d1c-99f8-cca234cdb665> .
+
+<http://d.opencalais.com/genericHasher-1/57b67466-c929-3344-bef3-2420c9fad4ad>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Amarillo" ;
+        c:person             <http://d.opencalais.com/pershash-1/03933656-b9be-3bb6-b597-86029ced281b> .
+
+<http://d.opencalais.com/conf/pershash-1/b1a5d533-20fc-3426-9501-2e9168b781c7>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.99" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.994" ;
+        c:subject             <http://d.opencalais.com/pershash-1/b1a5d533-20fc-3426-9501-2e9168b781c7> .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/Instance/32>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Amarillo; one sister, Gladys Ethel Green of ]San Antonio[, Texas; 9 grandchildren; 21 great grandchildren;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:exact      "San Antonio" ;
+        c:length     "11" ;
+        c:offset     "1096" ;
+        c:prefix     "of Amarillo; one sister, Gladys Ethel Green of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/f289dee9-8856-3718-9407-5d1346e4d472> ;
+        c:suffix     ", Texas; 9 grandchildren; 21 great grandchildren;" .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/Instance/45>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[  As a lifelong caregiver she worked as a Nurse???]s Aide[ at Bivins Nursing Home for 27 years.  She loved]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:exact      "s Aide" ;
+        c:length     "6" ;
+        c:offset     "670" ;
+        c:prefix     "  As a lifelong caregiver she worked as a Nurse???" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/2dc59467-0aeb-343f-b9fd-3f3b93b0da33> ;
+        c:suffix     " at Bivins Nursing Home for 27 years.  She loved" .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/Relevance/9>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/b1a5d533-20fc-3426-9501-2e9168b781c7> .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/Instance/17>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[at Schooler Funeral Home, Brentwood Chapel, in ]Amarillo[ with Rev. G. A. Roach officiating.  Graveside]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:exact      "Amarillo" ;
+        c:length     "8" ;
+        c:offset     "134" ;
+        c:prefix     "at Schooler Funeral Home, Brentwood Chapel, in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0a09ae8f-0456-38fc-b965-ff815c60f9d3> ;
+        c:suffix     " with Rev. G. A. Roach officiating.  Graveside" .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/cat/1>
+        a                    <http://s.opencalais.com/1/type/cat/DocCat> ;
+        c:docId              <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Human Interest" ;
+        c:score              "1.000" .
+
+<http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Texas" .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/Instance/6>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[one sister, Gladys Ethel Green of San Antonio, ]Texas[; 9 grandchildren; 21 great grandchildren; other]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:exact      "Texas" ;
+        c:length     "5" ;
+        c:offset     "1109" ;
+        c:prefix     "one sister, Gladys Ethel Green of San Antonio, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> ;
+        c:suffix     "; 9 grandchildren; 21 great grandchildren; other" .
+
+<http://d.opencalais.com/pershash-1/75fd4419-7a1f-32d6-a150-11efb6254798>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Raymond Barnett" ;
+        c:confidencelevel    "0.988" ;
+        c:firstname          "Raymond" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Barnett" ;
+        c:name               "Raymond Barnett" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/Relevance/3>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/3afafaa9-436a-3875-9c21-f4bacbc18dc0> .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/Instance/11>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[8 months and 4 days.  \nOn November 11, 1944, ]she[ was united in marriage to Corwin Simmons.  As a]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "575" ;
+        c:prefix     "8 months and 4 days.  \nOn November 11, 1944, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/74521e73-2f16-35ae-887f-ca9ab6e94b32> ;
+        c:suffix     " was united in marriage to Corwin Simmons.  As a" .
+
+<http://d.opencalais.com/conf/pershash-1/04a920fa-0b59-3932-9131-087b31965e4b>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.987" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.992" ;
+        c:subject             <http://d.opencalais.com/pershash-1/04a920fa-0b59-3932-9131-087b31965e4b> .
+
+<http://d.opencalais.com/genericHasher-1/e3708ee5-97a9-3bdb-827e-ea87c7f2bd1b>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Brentwood Chapel" .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/Relevance/16>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/eebbaca8-501d-3335-9082-0998669a4729> .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/Instance/24>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[]Funeral services[ for Wilma Jane Simmons will be 10:00 a.m.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:exact      "Funeral services" ;
+        c:length     "16" ;
+        c:offset     "0" ;
+        c:prefix     "" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee> ;
+        c:suffix     " for Wilma Jane Simmons will be 10:00 a.m." .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/62914270-0a1c-1bcc-880e-6dbe9fb82eb9>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:latitude            "31.4484328889" ;
+        c:longitude           "-97.7816569778" ;
+        c:name                "Texas,United States" ;
+        c:permid              "100299" ;
+        c:rcscode             "G:50" ;
+        c:shortname           "Texas" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> .
+
+<http://d.opencalais.com/genericHasher-1/0a09ae8f-0456-38fc-b965-ff815c60f9d3>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Amarillo" .
+
+<http://d.opencalais.com/genericHasher-1/2dc59467-0aeb-343f-b9fd-3f3b93b0da33>
+        a                    <http://s.opencalais.com/1/type/em/e/Position> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "s Aide" .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/Instance/37>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ \nShe was preceded in death by her husband, ]Corwin[; an infant son, David; and three brothers, Dan,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:exact      "Corwin" ;
+        c:length     "6" ;
+        c:offset     "845" ;
+        c:prefix     " \nShe was preceded in death by her husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/c41cc9c9-73cf-3b71-b66f-8e8c2f4f3469> ;
+        c:suffix     "; an infant son, David; and three brothers, Dan," .
+
+<http://d.opencalais.com/genericHasher-1/7a9a40fe-3304-395a-bebc-364f61ea0d44>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "husband" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/74521e73-2f16-35ae-887f-ca9ab6e94b32> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/c41cc9c9-73cf-3b71-b66f-8e8c2f4f3469> .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/Relevance/10>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4d10d257-2fc4-3ae9-ae20-7de5d327dfae> .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/Relevance/23>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/75fd4419-7a1f-32d6-a150-11efb6254798> .
+
+<http://d.opencalais.com/conf/pershash-1/74521e73-2f16-35ae-887f-ca9ab6e94b32>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.958" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.96" ;
+        c:subject             <http://d.opencalais.com/pershash-1/74521e73-2f16-35ae-887f-ca9ab6e94b32> .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/Instance/31>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in death by her husband, Corwin; an infant son, ]David[; and three brothers, Dan, Jimmy, and Raymond]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:exact      "David" ;
+        c:length     "5" ;
+        c:offset     "868" ;
+        c:prefix     "in death by her husband, Corwin; an infant son, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9e443570-db90-3ec7-9c21-9885160f0e20> ;
+        c:suffix     "; and three brothers, Dan, Jimmy, and Raymond" .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/Instance/44>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Barnett.  \nWilma is survived by one daughter, ]Carolyn Arnold[ of Amarillo; two sons, Kenneth Simmons of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:exact      "Carolyn Arnold" ;
+        c:length     "14" ;
+        c:offset     "965" ;
+        c:prefix     "Barnett.  \nWilma is survived by one daughter, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/03933656-b9be-3bb6-b597-86029ced281b> ;
+        c:suffix     " of Amarillo; two sons, Kenneth Simmons of" .
+
+<http://d.opencalais.com/pershash-1/76728121-349c-343f-b987-4d5d41dfc750>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Jimmy" ;
+        c:confidencelevel    "0.958" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Jimmy" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/Relevance/8>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee> .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/Instance/16>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[grandchildren.  \nShe was preceded in death by ]her[ husband, Corwin; an infant son, David; and three]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "832" ;
+        c:prefix     "grandchildren.  \nShe was preceded in death by " ;
+        c:subject    <http://d.opencalais.com/pershash-1/74521e73-2f16-35ae-887f-ca9ab6e94b32> ;
+        c:suffix     " husband, Corwin; an infant son, David; and three" .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/lid/DefaultLangId>
+        a                    <http://s.opencalais.com/1/type/lid/DefaultLangId> ;
+        c:docId              <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:forenduserdisplay  "false" ;
+        c:lang               <http://d.opencalais.com/lid/DefaultLangId/English> ;
+        c:permid             "505062" .
+
+<http://d.opencalais.com/genericHasher-1/f56efff0-1285-317a-bf5f-7369d44c9310>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Del Rio" .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/ComponentVersions>
+        a          <http://s.opencalais.com/1/type/sys/ComponentVersions> ;
+        c:docId    <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:version  "config-drugs:258:258" , "Housekeeper:OneCalais_8.3-RELEASE:113" , "config-vessels:258:258" , "OneCalaisIM:OneCalais_8.3-RELEASE:198" , "config-negativeSignature:258:258" , "config-physicalAssets-ports:258:258" , "OneCalais:OneCalais_8.3-RELEASE:364" , "People Index:201505261608:201505261608" , "SECHeaderMetadataIM:OneCalais_8.3-RELEASE:198" , "config-cse:271:271" , "Collector:OneCalais_8.3-RELEASE:113" , "Deals Index:201505261718:201505261718" , "NextTags:OneCalais_8.3-RELEASE:113" , "BlackList:264:264" , "People Override:258:258" , "OA Override:271:271" , "OA Index:201505252208:201505252208" , "config-sca-DataPackage:34:34" , "config-refineries:258:258" , "FrenchIM:OneCalais_8.3-RELEASE:198" , "WatchDog:OneCalais_8.3-RELEASE:113" , "BrokerResearchIM:OneCalais_8.3-RELEASE:198" , "Dial4J:OneCalais_8.3-RELEASE:198" , "index-vessels:201505231718:201505231718" , "com.clearforest.infoext.dial4j.plugins-basistechconfig:OneCalais_8.3-RELEASE:225" , "SpanishIM:OneCalais_8.3-RELEASE:198" , "SocialTags Index:201505191038:201505191038" , "AutocoderRuntimeIM:OneCalais_8.3-RELEASE:198" .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/Instance/29>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Simmons.  As a lifelong caregiver she worked as ]a Nurse[???s Aide at Bivins Nursing Home for 27 years. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:exact      "a Nurse" ;
+        c:length     "7" ;
+        c:offset     "660" ;
+        c:prefix     "Simmons.  As a lifelong caregiver she worked as " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4d10d257-2fc4-3ae9-ae20-7de5d327dfae> ;
+        c:suffix     "???s Aide at Bivins Nursing Home for 27 years. " .
+
+<http://d.opencalais.com/conf/comphash-1/a8ee0a81-b629-368a-b237-71a89306beec>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.558" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.788" ;
+        c:subject             <http://d.opencalais.com/comphash-1/a8ee0a81-b629-368a-b237-71a89306beec> .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/Instance/5>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and passed away December 15, 2007 in Amarillo, ]Texas[, at the age of 81 years, 8 months and 4 days. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:exact      "Texas" ;
+        c:length     "5" ;
+        c:offset     "499" ;
+        c:prefix     "and passed away December 15, 2007 in Amarillo, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> ;
+        c:suffix     ", at the age of 81 years, 8 months and 4 days. " .
+
+<http://d.opencalais.com/genericHasher-1/eba1e274-9af7-3d1c-99f8-cca234cdb665>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Carmen Cemetery" .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/Relevance/2>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/meta>
+        a                 <http://s.opencalais.com/1/type/sys/DocInfoMeta> ;
+        c:contentType     "text/raw" ;
+        c:docId           <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:language        "English" ;
+        c:processingVer   "AllMetadata" ;
+        c:serverVersion   "OneCalais_8.3-RELEASE:364" ;
+        c:signature       "digestalg-1|yICcMZ2Xvv+Hr3I7DS79UcwnzcY=|eND4ITyoN76duVGZdlCtc2p7v2hq6oTCuSiF/bwofZL0vZoDqQPJZA==" ;
+        c:stagsVer        "OneCalais_8.3-RELEASE-b11-2015-03-25_18:29:00" ;
+        c:submissionDate  "2015-05-26 17:24:31.787" ;
+        c:submitterCode   "0ca6a864-5659-789d-5f32-f365f695e757" .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/Instance/10>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Jane Simmons, daughter of the late John and ]Ethel Barnett[, was born April 11, 1926 in Del Rio, Texas, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:exact      "Ethel Barnett" ;
+        c:length     "13" ;
+        c:offset     "394" ;
+        c:prefix     "Jane Simmons, daughter of the late John and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/74521e73-2f16-35ae-887f-ca9ab6e94b32> ;
+        c:suffix     ", was born April 11, 1926 in Del Rio, Texas, and" .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/Relevance/15>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/c41cc9c9-73cf-3b71-b66f-8e8c2f4f3469> .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/Instance/23>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[grandchildren.  \nShe was preceded in death by ]her husband, Corwin[; an infant son, David; and three brothers, Dan,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:exact      "her husband, Corwin" ;
+        c:length     "19" ;
+        c:offset     "832" ;
+        c:prefix     "grandchildren.  \nShe was preceded in death by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/7a9a40fe-3304-395a-bebc-364f61ea0d44> ;
+        c:suffix     "; an infant son, David; and three brothers, Dan," .
+
+<http://d.opencalais.com/genericHasher-1/18c41463-569d-3b53-ad07-306d768efdb6>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:date                "1944-11-11" ;
+        c:datestring          "November 11, 1944" ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/c41cc9c9-73cf-3b71-b66f-8e8c2f4f3469> , <http://d.opencalais.com/pershash-1/74521e73-2f16-35ae-887f-ca9ab6e94b32> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/genericHasher-1/ad676b29-2655-3b79-a19f-fee12adaf5d3>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/c41cc9c9-73cf-3b71-b66f-8e8c2f4f3469> , <http://d.opencalais.com/pershash-1/74521e73-2f16-35ae-887f-ca9ab6e94b32> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/pershash-1/9e443570-db90-3ec7-9c21-9885160f0e20>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "David" ;
+        c:confidencelevel    "0.973" ;
+        c:firstname          "David" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "David" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/Instance/36>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ November 11, 1944, she was united in marriage to ]Corwin Simmons[.  As a lifelong caregiver she worked as a]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:exact      "Corwin Simmons" ;
+        c:length     "14" ;
+        c:offset     "605" ;
+        c:prefix     " November 11, 1944, she was united in marriage to " ;
+        c:subject    <http://d.opencalais.com/pershash-1/c41cc9c9-73cf-3b71-b66f-8e8c2f4f3469> ;
+        c:suffix     ".  As a lifelong caregiver she worked as a" .
+
+<http://d.opencalais.com/genericHasher-1/4d10d257-2fc4-3ae9-ae20-7de5d327dfae>
+        a                    <http://s.opencalais.com/1/type/em/e/Position> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Nurse" .
+
+<http://d.opencalais.com/pershash-1/3afafaa9-436a-3875-9c21-f4bacbc18dc0>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Dan" ;
+        c:confidencelevel    "0.964" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Dan" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/Relevance/22>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e3708ee5-97a9-3bdb-827e-ea87c7f2bd1b> .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/Instance/30>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[will be 2:00 p.m. Friday, December 21, 2007 at ]Carmen Cemetery[ in Carmen Oklahoma.  Interment is under the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:exact      "Carmen Cemetery" ;
+        c:length     "15" ;
+        c:offset     "244" ;
+        c:prefix     "will be 2:00 p.m. Friday, December 21, 2007 at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/eba1e274-9af7-3d1c-99f8-cca234cdb665> ;
+        c:suffix     " in Carmen Oklahoma.  Interment is under the" .
+
+<http://d.opencalais.com/conf/pershash-1/07f2702b-0737-32d3-99cc-c83fbc365531>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.999" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.996" ;
+        c:subject             <http://d.opencalais.com/pershash-1/07f2702b-0737-32d3-99cc-c83fbc365531> .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/Instance/43>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[grandchildren.  \nShe was preceded in death by ]her husband, Corwin[; an infant son, David; and three brothers, Dan,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:exact      "her husband, Corwin" ;
+        c:length     "19" ;
+        c:offset     "832" ;
+        c:prefix     "grandchildren.  \nShe was preceded in death by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ad676b29-2655-3b79-a19f-fee12adaf5d3> ;
+        c:suffix     "; an infant son, David; and three brothers, Dan," .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/Relevance/7>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/731f68a9-c88c-3e07-9264-4e7335fe5298> .
+
+<http://d.opencalais.com/pershash-1/b1a5d533-20fc-3426-9501-2e9168b781c7>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Gladys Ethel Green" ;
+        c:confidencelevel    "0.99" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Gladys Ethel Green" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/Instance/15>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[her grandchildren and great grandchildren.  \n]She[ was preceded in death by her husband, Corwin; an]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "803" ;
+        c:prefix     "her grandchildren and great grandchildren.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/74521e73-2f16-35ae-887f-ca9ab6e94b32> ;
+        c:suffix     " was preceded in death by her husband, Corwin; an" .
+
+<http://d.opencalais.com/conf/pershash-1/03933656-b9be-3bb6-b597-86029ced281b>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.993" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.995" ;
+        c:subject             <http://d.opencalais.com/pershash-1/03933656-b9be-3bb6-b597-86029ced281b> .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/Instance/28>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and John Simmons of Amarillo; one sister, ]Gladys Ethel Green[ of San Antonio, Texas; 9 grandchildren; 21 great]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:exact      "Gladys Ethel Green" ;
+        c:length     "18" ;
+        c:offset     "1074" ;
+        c:prefix     "and John Simmons of Amarillo; one sister, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b1a5d533-20fc-3426-9501-2e9168b781c7> ;
+        c:suffix     " of San Antonio, Texas; 9 grandchildren; 21 great" .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/Instance/4>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Barnett, was born April 11, 1926 in Del Rio, ]Texas[, and passed away December 15, 2007 in Amarillo,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:exact      "Texas" ;
+        c:length     "5" ;
+        c:offset     "445" ;
+        c:prefix     "Barnett, was born April 11, 1926 in Del Rio, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> ;
+        c:suffix     ", and passed away December 15, 2007 in Amarillo," .
+
+<http://d.opencalais.com/genericHasher-1/f289dee9-8856-3718-9407-5d1346e4d472>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "San Antonio" .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/Relevance/1>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/pershash-1/04a920fa-0b59-3932-9131-087b31965e4b> .
+
+<http://d.opencalais.com/genericHasher-1/b5b4e035-6637-3d23-9f15-2e6341ebd21f>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "San Antonio" ;
+        c:person             <http://d.opencalais.com/pershash-1/b1a5d533-20fc-3426-9501-2e9168b781c7> .
+
+<http://d.opencalais.com/conf/pershash-1/eebbaca8-501d-3335-9082-0998669a4729>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.98" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/eebbaca8-501d-3335-9082-0998669a4729> .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/Relevance/14>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/f0ddcc89-a13b-3d88-a29d-2434f1b24283> .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/Instance/22>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[be 10:00 a.m. Thursday, December 20, 2007 at ]Schooler Funeral Home[, Brentwood Chapel, in Amarillo with Rev. G. A.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:exact      "Schooler Funeral Home" ;
+        c:length     "21" ;
+        c:offset     "90" ;
+        c:prefix     "be 10:00 a.m. Thursday, December 20, 2007 at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/731f68a9-c88c-3e07-9264-4e7335fe5298> ;
+        c:suffix     ", Brentwood Chapel, in Amarillo with Rev. G. A." .
+
+<http://d.opencalais.com/pershash-1/04a920fa-0b59-3932-9131-087b31965e4b>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Wilma Jane Simmons" ;
+        c:confidencelevel    "0.987" ;
+        c:firstname          "Wilma" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Simmons" ;
+        c:middlename         "Jane" ;
+        c:name               "Wilma Jane Simmons" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/Instance/35>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[LLC.  \nWilma Jane Simmons, daughter of the late ]John[ and Ethel Barnett, was born April 11, 1926 in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:exact      "John" ;
+        c:length     "4" ;
+        c:offset     "385" ;
+        c:prefix     "LLC.  \nWilma Jane Simmons, daughter of the late " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f0ddcc89-a13b-3d88-a29d-2434f1b24283> ;
+        c:suffix     " and Ethel Barnett, was born April 11, 1926 in" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/fc14adbc-a896-12b9-8dd2-abb1ea14101b>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Texas" ;
+        c:docId               <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:latitude            "29.4239" ;
+        c:longitude           "-98.4933" ;
+        c:name                "San Antonio,Texas,United States" ;
+        c:shortname           "San Antonio" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/f289dee9-8856-3718-9407-5d1346e4d472> .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/Instance/48>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[at the age of 81 years, 8 months and 4 days.  \n]On November 11, 1944, she was united in marriage to Corwin Simmons[.  As a lifelong caregiver she worked as a]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:exact      "On November 11, 1944, she was united in marriage to Corwin Simmons" ;
+        c:length     "66" ;
+        c:offset     "553" ;
+        c:prefix     "at the age of 81 years, 8 months and 4 days.  \n" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/18c41463-569d-3b53-ad07-306d768efdb6> ;
+        c:suffix     ".  As a lifelong caregiver she worked as a" .
+
+<http://d.opencalais.com/genericHasher-1/d7fb4f15-d22a-39b4-94e8-83dbaef2462d>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Amarillo" ;
+        c:person             <http://d.opencalais.com/pershash-1/eebbaca8-501d-3335-9082-0998669a4729> .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/Relevance/21>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/2dc59467-0aeb-343f-b9fd-3f3b93b0da33> .
+
+<http://d.opencalais.com/conf/pershash-1/c41cc9c9-73cf-3b71-b66f-8e8c2f4f3469>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.992" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.995" ;
+        c:subject             <http://d.opencalais.com/pershash-1/c41cc9c9-73cf-3b71-b66f-8e8c2f4f3469> .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/Instance/9>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[daughter, Carolyn Arnold of Amarillo; two sons, ]Kenneth Simmons of Amarillo[, and John Simmons of Amarillo; one sister,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:exact      "Kenneth Simmons of Amarillo" ;
+        c:length     "27" ;
+        c:offset     "1003" ;
+        c:prefix     "daughter, Carolyn Arnold of Amarillo; two sons, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/d7fb4f15-d22a-39b4-94e8-83dbaef2462d> ;
+        c:suffix     ", and John Simmons of Amarillo; one sister," .
+
+<http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee>
+        a                    <http://s.opencalais.com/1/type/em/e/IndustryTerm> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Funeral services" .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/Instance/42>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and Ethel Barnett, was born April 11, 1926 in ]Del Rio[, Texas, and passed away December 15, 2007 in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:exact      "Del Rio" ;
+        c:length     "7" ;
+        c:offset     "436" ;
+        c:prefix     "and Ethel Barnett, was born April 11, 1926 in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/f56efff0-1285-317a-bf5f-7369d44c9310> ;
+        c:suffix     ", Texas, and passed away December 15, 2007 in" .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/Relevance/6>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0a09ae8f-0456-38fc-b965-ff815c60f9d3> .
+
+<http://d.opencalais.com/pershash-1/74521e73-2f16-35ae-887f-ca9ab6e94b32>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Ethel Barnett" ;
+        c:confidencelevel    "0.958" ;
+        c:firstname          "Ethel" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Barnett" ;
+        c:name               "Ethel Barnett" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/Instance/14>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ She loved taking pictures and playing with ]her[ grandchildren and great grandchildren.  \nShe was]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "758" ;
+        c:prefix     " She loved taking pictures and playing with " ;
+        c:subject    <http://d.opencalais.com/pershash-1/74521e73-2f16-35ae-887f-ca9ab6e94b32> ;
+        c:suffix     " grandchildren and great grandchildren.  \nShe was" .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/SocialTag/3>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Simmons" ;
+        c:originalValue      "Simmons (surname)" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/1d3999cb-eff4-3bec-be45-5d3e7cec8837> .
+
+<http://d.opencalais.com/conf/pershash-1/f0ddcc89-a13b-3d88-a29d-2434f1b24283>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.995" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.928" ;
+        c:subject             <http://d.opencalais.com/pershash-1/f0ddcc89-a13b-3d88-a29d-2434f1b24283> .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/Relevance/19>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/f56efff0-1285-317a-bf5f-7369d44c9310> .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/Instance/27>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[LLC.  \nWilma Jane Simmons, daughter of the late ]John and Ethel Barnett, was born April 11, 1926 in Del Rio, Texas, and passed away December 15, 2007 in Amarillo, Texas[, at the age of 81 years, 8 months and 4 days. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:exact      "John and Ethel Barnett, was born April 11, 1926 in Del Rio, Texas, and passed away December 15, 2007 in Amarillo, Texas" ;
+        c:length     "119" ;
+        c:offset     "385" ;
+        c:prefix     "LLC.  \nWilma Jane Simmons, daughter of the late " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/67fcb5c6-ea0c-3daf-93e6-06c5caa36976> ;
+        c:suffix     ", at the age of 81 years, 8 months and 4 days. " .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/9f77ff5d-fc7f-a8b0-014b-72ab90ea037f>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Texas" ;
+        c:docId               <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:latitude            "29.3625" ;
+        c:longitude           "-100.8964" ;
+        c:name                "Del Rio,Texas,United States" ;
+        c:shortname           "Del Rio" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/f56efff0-1285-317a-bf5f-7369d44c9310> .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/Instance/3>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[brothers, Dan, Jimmy, and Raymond Barnett.  \n]Wilma[ is survived by one daughter, Carolyn Arnold of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:exact      "Wilma" ;
+        c:length     "5" ;
+        c:offset     "930" ;
+        c:prefix     "brothers, Dan, Jimmy, and Raymond Barnett.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/04a920fa-0b59-3932-9131-087b31965e4b> ;
+        c:suffix     " is survived by one daughter, Carolyn Arnold of" .
+
+<http://d.opencalais.com/genericHasher-1/1d586df9-3c87-3302-90db-f405e7b97682>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Amarillo" ;
+        c:person             <http://d.opencalais.com/pershash-1/07f2702b-0737-32d3-99cc-c83fbc365531> .
+
+<http://d.opencalais.com/comphash-1/a8ee0a81-b629-368a-b237-71a89306beec>
+        a                    <http://s.opencalais.com/1/type/em/e/Company> ;
+        c:confidencelevel    "0.558" ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Wentworth Mortuary LLC" ;
+        c:nationality        "N/A" .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/Relevance/13>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/f289dee9-8856-3718-9407-5d1346e4d472> .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/Instance/21>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Kenneth Simmons of Amarillo, and John Simmons of ]Amarillo[; one sister, Gladys Ethel Green of San Antonio,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:exact      "Amarillo" ;
+        c:length     "8" ;
+        c:offset     "1052" ;
+        c:prefix     " Kenneth Simmons of Amarillo, and John Simmons of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0a09ae8f-0456-38fc-b965-ff815c60f9d3> ;
+        c:suffix     "; one sister, Gladys Ethel Green of San Antonio," .
+
+<http://d.opencalais.com/genericHasher-1/731f68a9-c88c-3e07-9264-4e7335fe5298>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Schooler Funeral Home" .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/Instance/34>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[two sons, Kenneth Simmons of Amarillo, and ]John Simmons of Amarillo[; one sister, Gladys Ethel Green of San Antonio,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:exact      "John Simmons of Amarillo" ;
+        c:length     "24" ;
+        c:offset     "1036" ;
+        c:prefix     "two sons, Kenneth Simmons of Amarillo, and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/1d586df9-3c87-3302-90db-f405e7b97682> ;
+        c:suffix     "; one sister, Gladys Ethel Green of San Antonio," .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/Instance/47>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[son, David; and three brothers, Dan, Jimmy, and ]Raymond Barnett[.  \nWilma is survived by one daughter, Carolyn]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:exact      "Raymond Barnett" ;
+        c:length     "15" ;
+        c:offset     "911" ;
+        c:prefix     "son, David; and three brothers, Dan, Jimmy, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/75fd4419-7a1f-32d6-a150-11efb6254798> ;
+        c:suffix     ".  \nWilma is survived by one daughter, Carolyn" .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/Instance/19>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[is survived by one daughter, Carolyn Arnold of ]Amarillo[; two sons, Kenneth Simmons of Amarillo, and John]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:exact      "Amarillo" ;
+        c:length     "8" ;
+        c:offset     "983" ;
+        c:prefix     "is survived by one daughter, Carolyn Arnold of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0a09ae8f-0456-38fc-b965-ff815c60f9d3> ;
+        c:suffix     "; two sons, Kenneth Simmons of Amarillo, and John" .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65>
+        a                  <http://s.opencalais.com/1/type/sys/DocInfo> ;
+        c:calaisRequestID  "1a24114c-2012-ab91-4d91-4117ab125013" ;
+        c:docDate          "2015-05-26 17:24:32.055" ;
+        c:docTitle         "" ;
+        c:document         "Funeral services for Wilma Jane Simmons will be 10:00 a.m. Thursday, December 20, 2007 at Schooler Funeral Home, Brentwood Chapel, in Amarillo with Rev. G. A. Roach officiating.  Graveside service will be 2:00 p.m. Friday, December 21, 2007 at Carmen Cemetery in Carmen Oklahoma.  Interment is under the direction of Wentworth Mortuary, LLC.  \nWilma Jane Simmons, daughter of the late John and Ethel Barnett, was born April 11, 1926 in Del Rio, Texas, and passed away December 15, 2007 in Amarillo, Texas, at the age of 81 years, 8 months and 4 days.  \nOn November 11, 1944, she was united in marriage to Corwin Simmons.  As a lifelong caregiver she worked as a Nurse???s Aide at Bivins Nursing Home for 27 years.  She loved taking pictures and playing with her grandchildren and great grandchildren.  \nShe was preceded in death by her husband, Corwin; an infant son, David; and three brothers, Dan, Jimmy, and Raymond Barnett.  \nWilma is survived by one daughter, Carolyn Arnold of Amarillo; two sons, Kenneth Simmons of Amarillo, and John Simmons of Amarillo; one sister, Gladys Ethel Green of San Antonio, Texas; 9 grandchildren; 21 great grandchildren; other relatives and friends. \n\t\t\t" ;
+        c:id               "http://id.opencalais.com/aHdTWS2tpqefgjaHlm461A" ;
+        c:ontology         "http://163.231.4.65/owlschema/8.3/onecalais.owl.allmetadata.xml" .
+
+<http://d.opencalais.com/conf/pershash-1/75fd4419-7a1f-32d6-a150-11efb6254798>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.988" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/75fd4419-7a1f-32d6-a150-11efb6254798> .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/Relevance/20>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/03933656-b9be-3bb6-b597-86029ced281b> .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/Instance/8>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Oklahoma.  Interment is under the direction of ]Wentworth Mortuary, LLC[.  \nWilma Jane Simmons, daughter of the late John]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:exact      "Wentworth Mortuary, LLC" ;
+        c:length     "23" ;
+        c:offset     "317" ;
+        c:prefix     "Oklahoma.  Interment is under the direction of " ;
+        c:subject    <http://d.opencalais.com/comphash-1/a8ee0a81-b629-368a-b237-71a89306beec> ;
+        c:suffix     ".  \nWilma Jane Simmons, daughter of the late John" .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/Instance/41>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[two sons, Kenneth Simmons of Amarillo, and ]John Simmons[ of Amarillo; one sister, Gladys Ethel Green of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:exact      "John Simmons" ;
+        c:length     "12" ;
+        c:offset     "1036" ;
+        c:prefix     "two sons, Kenneth Simmons of Amarillo, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/07f2702b-0737-32d3-99cc-c83fbc365531> ;
+        c:suffix     " of Amarillo; one sister, Gladys Ethel Green of" .
+
+<http://d.opencalais.com/genericHasher-1/207a3e11-e888-35b0-ab2f-91931a75895c>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:company            <http://d.opencalais.com/comphash-1/a8ee0a81-b629-368a-b237-71a89306beec> ;
+        c:forenduserdisplay  "true" ;
+        c:person             <http://d.opencalais.com/pershash-1/74521e73-2f16-35ae-887f-ca9ab6e94b32> ;
+        c:position           "Nurse" ;
+        c:status             "past" .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/Relevance/5>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/74521e73-2f16-35ae-887f-ca9ab6e94b32> .
+
+<http://d.opencalais.com/pershash-1/07f2702b-0737-32d3-99cc-c83fbc365531>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "John Simmons" ;
+        c:confidencelevel    "0.999" ;
+        c:firstname          "John" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Simmons" ;
+        c:name               "John Simmons" ;
+        c:nationality        "N/A" ;
+        c:persontype         "sports" .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/Instance/13>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Aide at Bivins Nursing Home for 27 years.  ]She[ loved taking pictures and playing with her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "715" ;
+        c:prefix     "Aide at Bivins Nursing Home for 27 years.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/74521e73-2f16-35ae-887f-ca9ab6e94b32> ;
+        c:suffix     " loved taking pictures and playing with her" .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/SocialTag/2>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Amarillo" ;
+        c:originalValue      "Amarillo (disambiguation)" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/1e65a1d5-3dbe-3f33-8b35-87284845fc00> .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/Relevance/18>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/07f2702b-0737-32d3-99cc-c83fbc365531> .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/Instance/26>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Jane Simmons, daughter of the late John and ]Ethel Barnett, was born April 11, 1926 in Del Rio, Texas[, and passed away December 15, 2007 in Amarillo,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:exact      "Ethel Barnett, was born April 11, 1926 in Del Rio, Texas" ;
+        c:length     "56" ;
+        c:offset     "394" ;
+        c:prefix     "Jane Simmons, daughter of the late John and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a9ab0f21-ed45-3243-a2f8-8434f0746a32> ;
+        c:suffix     ", and passed away December 15, 2007 in Amarillo," .
+
+<http://d.opencalais.com/pershash-1/03933656-b9be-3bb6-b597-86029ced281b>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Carolyn Arnold" ;
+        c:confidencelevel    "0.993" ;
+        c:firstname          "Carolyn" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Arnold" ;
+        c:name               "Carolyn Arnold" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/722d85ea-c4bf-360f-3723-c565a8f4bcc0>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Texas" ;
+        c:docId               <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:latitude            "35.2219" ;
+        c:longitude           "-101.8308" ;
+        c:name                "Amarillo,Texas,United States" ;
+        c:shortname           "Amarillo" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/0a09ae8f-0456-38fc-b965-ff815c60f9d3> .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/Instance/2>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[the direction of Wentworth Mortuary, LLC.  \n]Wilma Jane Simmons[, daughter of the late John and Ethel Barnett,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:exact      "Wilma Jane Simmons" ;
+        c:length     "18" ;
+        c:offset     "344" ;
+        c:prefix     "the direction of Wentworth Mortuary, LLC.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/04a920fa-0b59-3932-9131-087b31965e4b> ;
+        c:suffix     ", daughter of the late John and Ethel Barnett," .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/Instance/39>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[daughter, Carolyn Arnold of Amarillo; two sons, ]Kenneth Simmons[ of Amarillo, and John Simmons of Amarillo; one]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:exact      "Kenneth Simmons" ;
+        c:length     "15" ;
+        c:offset     "1003" ;
+        c:prefix     "daughter, Carolyn Arnold of Amarillo; two sons, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/eebbaca8-501d-3335-9082-0998669a4729> ;
+        c:suffix     " of Amarillo, and John Simmons of Amarillo; one" .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/Relevance/12>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/9e443570-db90-3ec7-9c21-9885160f0e20> .
+
+<http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65/Instance/20>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Arnold of Amarillo; two sons, Kenneth Simmons of ]Amarillo[, and John Simmons of Amarillo; one sister,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/413c2110-d7cd-3910-a0b7-e212c8d93b65> ;
+        c:exact      "Amarillo" ;
+        c:length     "8" ;
+        c:offset     "1022" ;
+        c:prefix     " Arnold of Amarillo; two sons, Kenneth Simmons of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0a09ae8f-0456-38fc-b965-ff815c60f9d3> ;
+        c:suffix     ", and John Simmons of Amarillo; one sister," .

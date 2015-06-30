@@ -1,0 +1,838 @@
+#Relations: FamilyRelation, PersonAttributes, PersonLocation, PersonRelation
+#City: Oklahoma City
+#Facility: Marshall Funeral Home
+#Person: Claudie Ray Davis, Garett Michael Freeman, Gunnar Ray Smith, Jack D. Graham, Norma Jean Graham, Paul Edward Freeman, Ray Freeman, Ruby Jule Leftwitch, Samual Paul Freeman
+#Position: handyman
+#ProvinceOrState: Missouri
+@prefix c:     <http://s.opencalais.com/1/pred/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://d.opencalais.com/conf/pershash-1/a0b2738b-e92b-35ce-b3c8-787037e2faee>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.963" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.978" ;
+        c:subject             <http://d.opencalais.com/pershash-1/a0b2738b-e92b-35ce-b3c8-787037e2faee> .
+
+<http://d.opencalais.com/genericHasher-1/b8620f48-da64-3b29-b094-f0b9edcda36f>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oklahoma City" .
+
+<http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54/Instance/8>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Davay Ray Freeman of Missouri, three grandsons ]Gunnar Ray Smith[, Samual Paul Freeman, and Garett Michael]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54> ;
+        c:exact      "Gunnar Ray Smith" ;
+        c:length     "16" ;
+        c:offset     "920" ;
+        c:prefix     "Davay Ray Freeman of Missouri, three grandsons " ;
+        c:subject    <http://d.opencalais.com/pershash-1/cdb9cfce-45f4-3299-babe-833399bfafa5> ;
+        c:suffix     ", Samual Paul Freeman, and Garett Michael" .
+
+<http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54/Instance/22>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Gunnar Ray Smith, Samual Paul Freeman, and ]Garett Michael Freeman[.  \t    \nMemorial contributions may be made]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54> ;
+        c:exact      "Garett Michael Freeman" ;
+        c:length     "22" ;
+        c:offset     "963" ;
+        c:prefix     "Gunnar Ray Smith, Samual Paul Freeman, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/8e1843da-eb53-35c0-894d-17d44bf1d405> ;
+        c:suffix     ".  \t    \nMemorial contributions may be made" .
+
+<http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54/Relevance/5>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/pershash-1/2fa9f2f0-dba2-3c47-a0a1-bb9725ce7d31> .
+
+<http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54/Instance/35>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ 1982 Norma met and married the love of her life, ]Jack D. Graham[ in Oklahoma City, OK.  The couple moved to]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54> ;
+        c:exact      "Jack D. Graham" ;
+        c:length     "14" ;
+        c:offset     "606" ;
+        c:prefix     " 1982 Norma met and married the love of her life, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/8d73cbf3-05cc-3566-ad71-c4c0e2eb5975> ;
+        c:suffix     " in Oklahoma City, OK.  The couple moved to" .
+
+<http://d.opencalais.com/genericHasher-1/d8db57ff-2dad-3353-932d-513b07bbd821>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "husband" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/2fa9f2f0-dba2-3c47-a0a1-bb9725ce7d31> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/8d73cbf3-05cc-3566-ad71-c4c0e2eb5975> .
+
+<http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54/SocialTag/2>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Norma Jean" ;
+        c:originalValue      "Norma Jean (singer)" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/b08637f8-9ac2-353c-9929-584d23af0d92> .
+
+<http://d.opencalais.com/genericHasher-1/33efd847-3e3c-3897-903a-7f2208735890>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Missouri" ;
+        c:person             <http://d.opencalais.com/pershash-1/1f191e97-942d-38ef-a074-ed2eb7020f4b> .
+
+<http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54/Instance/2>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Ray Davis was born on November 15, 1953 in ]Oklahoma City[, OK.  She passed away quietly in her Waynoka]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54> ;
+        c:exact      "Oklahoma City" ;
+        c:length     "13" ;
+        c:offset     "128" ;
+        c:prefix     "Ray Davis was born on November 15, 1953 in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b8620f48-da64-3b29-b094-f0b9edcda36f> ;
+        c:suffix     ", OK.  She passed away quietly in her Waynoka" .
+
+<http://d.opencalais.com/genericHasher-1/8d6a7d40-971e-3be5-9475-39cc57b4fa21>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:date                "1982-00-00" ;
+        c:datestring          "In 1982" ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/8d73cbf3-05cc-3566-ad71-c4c0e2eb5975> , <http://d.opencalais.com/pershash-1/2fa9f2f0-dba2-3c47-a0a1-bb9725ce7d31> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54>
+        a                  <http://s.opencalais.com/1/type/sys/DocInfo> ;
+        c:calaisRequestID  "ca55ea57-7cf3-8ef3-14d9-14338fb7848c" ;
+        c:docDate          "2015-05-26 17:26:51.675" ;
+        c:docTitle         "" ;
+        c:document         "Norma Jean Graham, the daughter of the late Ruby Jule Leftwitch and the late Claudie Ray Davis was born on November 15, 1953 in Oklahoma City, OK.  She passed away quietly in her Waynoka home on February 18, 2015, at the age of 61 years, three months and one day.  She was cremated at her request and no services are planned.  \t    \nNorma loved life, people and was gifted with the ability to serve and bring a smile to anyone’s face with her contagious laughter. Wherever Norma was, she was engaged in conversation, having fun and enjoying life.  \t    \nIn 1982 Norma met and married the love of her life, Jack D. Graham in Oklahoma City, OK.  The couple moved to Waynoka in 1991 where they established and worked together in their handyman service Jack-Of-All-Trades.  \t    \nNorma is survived by her husband, Jack of the home, two sons Paul Edward Freeman of Missouri and Davay Ray Freeman of Missouri, three grandsons Gunnar Ray Smith, Samual Paul Freeman, and Garett Michael Freeman.  \t    \nMemorial contributions may be made through Marshall Funeral Home to help with funeral expenses. \n\t\t\t" ;
+        c:id               "http://id.opencalais.com/O2VCeZnJX0W4GYODcbwDaA" ;
+        c:ontology         "http://163.231.4.65/owlschema/8.3/onecalais.owl.allmetadata.xml" .
+
+<http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54/cat/1>
+        a                    <http://s.opencalais.com/1/type/cat/DocCat> ;
+        c:docId              <http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Human Interest" ;
+        c:score              "1.000" .
+
+<http://d.opencalais.com/genericHasher-1/0a7f1dda-60c4-3a1c-8618-d3566f7aafc4>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonAttributes> ;
+        c:birthdate          "1953-11-15" ;
+        c:birthplace         <http://d.opencalais.com/genericHasher-1/b8620f48-da64-3b29-b094-f0b9edcda36f> ;
+        c:forenduserdisplay  "false" ;
+        c:gender             "M" ;
+        c:person             <http://d.opencalais.com/pershash-1/a0d41d6a-3f38-3af4-99b5-fff5cee364a3> .
+
+<http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54/Instance/14>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[her request and no services are planned.  \t    \n]Norma[ loved life, people and was gifted with the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54> ;
+        c:exact      "Norma" ;
+        c:length     "5" ;
+        c:offset     "333" ;
+        c:prefix     "her request and no services are planned.  \t    \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/2fa9f2f0-dba2-3c47-a0a1-bb9725ce7d31> ;
+        c:suffix     " loved life, people and was gifted with the" .
+
+<http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54/Instance/27>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ \t    \nMemorial contributions may be made through ]Marshall Funeral Home[ to help with funeral expenses.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54> ;
+        c:exact      "Marshall Funeral Home" ;
+        c:length     "21" ;
+        c:offset     "1037" ;
+        c:prefix     " \t    \nMemorial contributions may be made through " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9af9edc3-d610-36a5-b133-35e6d9110d33> ;
+        c:suffix     " to help with funeral expenses." .
+
+<http://d.opencalais.com/pershash-1/2fa9f2f0-dba2-3c47-a0a1-bb9725ce7d31>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Norma Jean Graham" ;
+        c:confidencelevel    "0.993" ;
+        c:firstname          "Norma" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Graham" ;
+        c:middlename         "Jean" ;
+        c:name               "Norma Jean Graham" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54/Relevance/13>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/8d73cbf3-05cc-3566-ad71-c4c0e2eb5975> .
+
+<http://d.opencalais.com/genericHasher-1/9af9edc3-d610-36a5-b133-35e6d9110d33>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Marshall Funeral Home" .
+
+<http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54/Instance/7>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[by her husband, Jack of the home, two sons ]Paul Edward Freeman of Missouri[ and Davay Ray Freeman of Missouri, three]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54> ;
+        c:exact      "Paul Edward Freeman of Missouri" ;
+        c:length     "31" ;
+        c:offset     "837" ;
+        c:prefix     "by her husband, Jack of the home, two sons " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/33efd847-3e3c-3897-903a-7f2208735890> ;
+        c:suffix     " and Davay Ray Freeman of Missouri, three" .
+
+<http://d.opencalais.com/conf/pershash-1/8e1843da-eb53-35c0-894d-17d44bf1d405>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.921" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.948" ;
+        c:subject             <http://d.opencalais.com/pershash-1/8e1843da-eb53-35c0-894d-17d44bf1d405> .
+
+<http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54/Instance/21>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Jack-Of-All-Trades.  \t    \nNorma is survived by ]her[ husband, Jack of the home, two sons Paul Edward]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "797" ;
+        c:prefix     "Jack-Of-All-Trades.  \t    \nNorma is survived by " ;
+        c:subject    <http://d.opencalais.com/pershash-1/2fa9f2f0-dba2-3c47-a0a1-bb9725ce7d31> ;
+        c:suffix     " husband, Jack of the home, two sons Paul Edward" .
+
+<http://d.opencalais.com/pershash-1/8178bce4-6258-36d5-864e-28492177565e>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Ray Freeman" ;
+        c:confidencelevel    "0.975" ;
+        c:firstname          "Ray" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Freeman" ;
+        c:name               "Ray Freeman" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54/lid/DefaultLangId>
+        a                    <http://s.opencalais.com/1/type/lid/DefaultLangId> ;
+        c:docId              <http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54> ;
+        c:forenduserdisplay  "false" ;
+        c:lang               <http://d.opencalais.com/lid/DefaultLangId/English> ;
+        c:permid             "505062" .
+
+<http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54/Instance/34>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Missouri, three grandsons Gunnar Ray Smith, ]Samual Paul Freeman[, and Garett Michael Freeman.  \t    \nMemorial]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54> ;
+        c:exact      "Samual Paul Freeman" ;
+        c:length     "19" ;
+        c:offset     "938" ;
+        c:prefix     "of Missouri, three grandsons Gunnar Ray Smith, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/5074b1e9-1e4c-35e3-ba00-03a985a60f91> ;
+        c:suffix     ", and Garett Michael Freeman.  \t    \nMemorial" .
+
+<http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54/Relevance/4>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/cdb9cfce-45f4-3299-babe-833399bfafa5> .
+
+<http://d.opencalais.com/genericHasher-1/9bc2db4c-6748-3019-aeb4-ec8499c5eb05>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Oklahoma City" ;
+        c:person             <http://d.opencalais.com/pershash-1/a0d41d6a-3f38-3af4-99b5-fff5cee364a3> .
+
+<http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54/ComponentVersions>
+        a          <http://s.opencalais.com/1/type/sys/ComponentVersions> ;
+        c:docId    <http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54> ;
+        c:version  "config-refineries:258:258" , "Dial4J:OneCalais_8.3-RELEASE:198" , "config-sca-DataPackage:34:34" , "OneCalais:OneCalais_8.3-RELEASE:364" , "AutocoderRuntimeIM:OneCalais_8.3-RELEASE:198" , "OA Override:271:271" , "SECHeaderMetadataIM:OneCalais_8.3-RELEASE:198" , "OA Index:201505252208:201505252208" , "SocialTags Index:201505191038:201505191038" , "config-vessels:258:258" , "config-drugs:258:258" , "Housekeeper:OneCalais_8.3-RELEASE:113" , "BrokerResearchIM:OneCalais_8.3-RELEASE:198" , "Deals Index:201505261613:201505261613" , "OneCalaisIM:OneCalais_8.3-RELEASE:198" , "NextTags:OneCalais_8.3-RELEASE:113" , "config-physicalAssets-ports:258:258" , "index-vessels:201505231718:201505231718" , "config-cse:271:271" , "People Override:258:258" , "WatchDog:OneCalais_8.3-RELEASE:113" , "Collector:OneCalais_8.3-RELEASE:113" , "FrenchIM:OneCalais_8.3-RELEASE:198" , "BlackList:264:264" , "config-negativeSignature:258:258" , "com.clearforest.infoext.dial4j.plugins-basistechconfig:OneCalais_8.3-RELEASE:225" , "People Index:201505261608:201505261608" , "SpanishIM:OneCalais_8.3-RELEASE:198" .
+
+<http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54/SocialTag/1>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Waynoka, Oklahoma" ;
+        c:originalValue      "Waynoka, Oklahoma" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/77bc8be5-12a7-326b-962f-52fbf8cf09dd> .
+
+<http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54/Instance/1>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ 1982 Norma met and married the love of her life, ]Jack D. Graham in Oklahoma City[, OK.  The couple moved to Waynoka in 1991 where]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54> ;
+        c:exact      "Jack D. Graham in Oklahoma City" ;
+        c:length     "31" ;
+        c:offset     "606" ;
+        c:prefix     " 1982 Norma met and married the love of her life, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/87a9fa32-cce4-3d21-a514-3f8d19bc0e4a> ;
+        c:suffix     ", OK.  The couple moved to Waynoka in 1991 where" .
+
+<http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54/Instance/19>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[  \t    \nIn 1982 Norma met and married the love of ]her[ life, Jack D. Graham in Oklahoma City, OK.  The]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "596" ;
+        c:prefix     "  \t    \nIn 1982 Norma met and married the love of " ;
+        c:subject    <http://d.opencalais.com/pershash-1/2fa9f2f0-dba2-3c47-a0a1-bb9725ce7d31> ;
+        c:suffix     " life, Jack D. Graham in Oklahoma City, OK.  The" .
+
+<http://d.opencalais.com/conf/pershash-1/1f191e97-942d-38ef-a074-ed2eb7020f4b>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.991" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.997" ;
+        c:subject             <http://d.opencalais.com/pershash-1/1f191e97-942d-38ef-a074-ed2eb7020f4b> .
+
+<http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54/Instance/13>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[three months and one day.  She was cremated at ]her[ request and no services are planned.  \t   ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "285" ;
+        c:prefix     "three months and one day.  She was cremated at " ;
+        c:subject    <http://d.opencalais.com/pershash-1/2fa9f2f0-dba2-3c47-a0a1-bb9725ce7d31> ;
+        c:suffix     " request and no services are planned.  \t   " .
+
+<http://d.opencalais.com/pershash-1/cdb9cfce-45f4-3299-babe-833399bfafa5>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Gunnar Ray Smith" ;
+        c:confidencelevel    "0.963" ;
+        c:firstname          "Gunnar" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Smith" ;
+        c:middlename         "Ray" ;
+        c:name               "Gunnar Ray Smith" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/22a2e9d4-42cf-58a2-d8d3-3269b69ad67a>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54> ;
+        c:latitude            "38.5" ;
+        c:longitude           "-92.5" ;
+        c:name                "Missouri,United States" ;
+        c:permid              "100190" ;
+        c:rcscode             "G:45" ;
+        c:shortname           "Missouri" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/4b59c1ad-8092-34d5-b763-a43226a1836c> .
+
+<http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54/Instance/26>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[by her husband, Jack of the home, two sons ]Paul Edward Freeman[ of Missouri and Davay Ray Freeman of Missouri,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54> ;
+        c:exact      "Paul Edward Freeman" ;
+        c:length     "19" ;
+        c:offset     "837" ;
+        c:prefix     "by her husband, Jack of the home, two sons " ;
+        c:subject    <http://d.opencalais.com/pershash-1/1f191e97-942d-38ef-a074-ed2eb7020f4b> ;
+        c:suffix     " of Missouri and Davay Ray Freeman of Missouri," .
+
+<http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54/Relevance/9>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9af9edc3-d610-36a5-b133-35e6d9110d33> .
+
+<http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54/Relevance/12>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/5074b1e9-1e4c-35e3-ba00-03a985a60f91> .
+
+<http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54/Instance/6>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Jean Graham, the daughter of the late ]Ruby Jule Leftwitch[ and the late Claudie Ray Davis was born on]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54> ;
+        c:exact      "Ruby Jule Leftwitch" ;
+        c:length     "19" ;
+        c:offset     "44" ;
+        c:prefix     "Jean Graham, the daughter of the late " ;
+        c:subject    <http://d.opencalais.com/pershash-1/a0b2738b-e92b-35ce-b3c8-787037e2faee> ;
+        c:suffix     " and the late Claudie Ray Davis was born on" .
+
+<http://d.opencalais.com/conf/pershash-1/8d73cbf3-05cc-3566-ad71-c4c0e2eb5975>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.994" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.996" ;
+        c:subject             <http://d.opencalais.com/pershash-1/8d73cbf3-05cc-3566-ad71-c4c0e2eb5975> .
+
+<http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54/Instance/20>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[handyman service Jack-Of-All-Trades.  \t    \n]Norma[ is survived by her husband, Jack of the home,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54> ;
+        c:exact      "Norma" ;
+        c:length     "5" ;
+        c:offset     "776" ;
+        c:prefix     "handyman service Jack-Of-All-Trades.  \t    \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/2fa9f2f0-dba2-3c47-a0a1-bb9725ce7d31> ;
+        c:suffix     " is survived by her husband, Jack of the home," .
+
+<http://d.opencalais.com/pershash-1/a0b2738b-e92b-35ce-b3c8-787037e2faee>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Ruby Jule Leftwitch" ;
+        c:confidencelevel    "0.963" ;
+        c:firstname          "Ruby" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Jule Leftwitch" ;
+        c:name               "Ruby Jule Leftwitch" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/5074b1e9-1e4c-35e3-ba00-03a985a60f91>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.921" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.948" ;
+        c:subject             <http://d.opencalais.com/pershash-1/5074b1e9-1e4c-35e3-ba00-03a985a60f91> .
+
+<http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54/Relevance/3>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/a0b2738b-e92b-35ce-b3c8-787037e2faee> .
+
+<http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54/Instance/33>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[handyman service Jack-Of-All-Trades.  \t    \n]Norma is survived by her husband, Jack[ of the home, two sons Paul Edward Freeman of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54> ;
+        c:exact      "Norma is survived by her husband, Jack" ;
+        c:length     "38" ;
+        c:offset     "776" ;
+        c:prefix     "handyman service Jack-Of-All-Trades.  \t    \n" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c278ba86-88d9-3bc2-acc3-d574f9a720ba> ;
+        c:suffix     " of the home, two sons Paul Edward Freeman of" .
+
+<http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54/Instance/18>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[having fun and enjoying life.  \t    \nIn 1982 ]Norma[ met and married the love of her life, Jack D.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54> ;
+        c:exact      "Norma" ;
+        c:length     "5" ;
+        c:offset     "562" ;
+        c:prefix     "having fun and enjoying life.  \t    \nIn 1982 " ;
+        c:subject    <http://d.opencalais.com/pershash-1/2fa9f2f0-dba2-3c47-a0a1-bb9725ce7d31> ;
+        c:suffix     " met and married the love of her life, Jack D." .
+
+<http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54/meta>
+        a                 <http://s.opencalais.com/1/type/sys/DocInfoMeta> ;
+        c:contentType     "text/raw" ;
+        c:docId           <http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54> ;
+        c:language        "English" ;
+        c:processingVer   "AllMetadata" ;
+        c:serverVersion   "OneCalais_8.3-RELEASE:364" ;
+        c:signature       "digestalg-1|mbPTz5tTa+z6F1Pl9QjjhYrtNmw=|Y1ZECU9CLTYaPaEBeMj2Yrqw1KFuSjgeFOV4bqyAHBjJOrjwVgb1UA==" ;
+        c:stagsVer        "OneCalais_8.3-RELEASE-b11-2015-03-25_18:29:00" ;
+        c:submissionDate  "2015-05-26 17:26:51.387" ;
+        c:submitterCode   "0ca6a864-5659-789d-5f32-f365f695e757" .
+
+<http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54/Instance/12>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[the age of 61 years, three months and one day.  ]She[ was cremated at her request and no services are]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "265" ;
+        c:prefix     "the age of 61 years, three months and one day.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/2fa9f2f0-dba2-3c47-a0a1-bb9725ce7d31> ;
+        c:suffix     " was cremated at her request and no services are" .
+
+<http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54/Instance/25>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[sons Paul Edward Freeman of Missouri and Davay ]Ray Freeman of Missouri[, three grandsons Gunnar Ray Smith, Samual Paul]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54> ;
+        c:exact      "Ray Freeman of Missouri" ;
+        c:length     "23" ;
+        c:offset     "879" ;
+        c:prefix     "sons Paul Edward Freeman of Missouri and Davay " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/22705bc6-9fef-33fe-ae7b-b74f12639ef1> ;
+        c:suffix     ", three grandsons Gunnar Ray Smith, Samual Paul" .
+
+<http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54/Relevance/8>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/1f191e97-942d-38ef-a074-ed2eb7020f4b> .
+
+<http://d.opencalais.com/conf/pershash-1/a0d41d6a-3f38-3af4-99b5-fff5cee364a3>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.98" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.986" ;
+        c:subject             <http://d.opencalais.com/pershash-1/a0d41d6a-3f38-3af4-99b5-fff5cee364a3> .
+
+<http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54/Relevance/11>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e874fa3f-80d0-3099-8730-7ad1072231d6> .
+
+<http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54/Instance/5>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Freeman of Missouri and Davay Ray Freeman of ]Missouri[, three grandsons Gunnar Ray Smith, Samual Paul]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54> ;
+        c:exact      "Missouri" ;
+        c:length     "8" ;
+        c:offset     "894" ;
+        c:prefix     "Freeman of Missouri and Davay Ray Freeman of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4b59c1ad-8092-34d5-b763-a43226a1836c> ;
+        c:suffix     ", three grandsons Gunnar Ray Smith, Samual Paul" .
+
+<http://d.opencalais.com/genericHasher-1/22705bc6-9fef-33fe-ae7b-b74f12639ef1>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Missouri" ;
+        c:person             <http://d.opencalais.com/pershash-1/8178bce4-6258-36d5-864e-28492177565e> .
+
+<http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54/Relevance/2>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4b59c1ad-8092-34d5-b763-a43226a1836c> .
+
+<http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54/Instance/32>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[they established and worked together in their ]handyman[ service Jack-Of-All-Trades.  \t    \nNorma is]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54> ;
+        c:exact      "handyman" ;
+        c:length     "8" ;
+        c:offset     "732" ;
+        c:prefix     "they established and worked together in their " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e874fa3f-80d0-3099-8730-7ad1072231d6> ;
+        c:suffix     " service Jack-Of-All-Trades.  \t    \nNorma is" .
+
+<http://d.opencalais.com/pershash-1/8e1843da-eb53-35c0-894d-17d44bf1d405>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Garett Michael Freeman" ;
+        c:confidencelevel    "0.921" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Garett Michael Freeman" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54/Instance/17>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[her contagious laughter. Wherever Norma was, ]she[ was engaged in conversation, having fun and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "484" ;
+        c:prefix     "her contagious laughter. Wherever Norma was, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/2fa9f2f0-dba2-3c47-a0a1-bb9725ce7d31> ;
+        c:suffix     " was engaged in conversation, having fun and" .
+
+<http://d.opencalais.com/genericHasher-1/87a9fa32-cce4-3d21-a514-3f8d19bc0e4a>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Oklahoma City" ;
+        c:person             <http://d.opencalais.com/pershash-1/8d73cbf3-05cc-3566-ad71-c4c0e2eb5975> .
+
+<http://d.opencalais.com/genericHasher-1/4b59c1ad-8092-34d5-b763-a43226a1836c>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Missouri" .
+
+<http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54/Instance/11>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Oklahoma City, OK.  She passed away quietly in ]her[ Waynoka home on February 18, 2015, at the age of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "175" ;
+        c:prefix     "Oklahoma City, OK.  She passed away quietly in " ;
+        c:subject    <http://d.opencalais.com/pershash-1/2fa9f2f0-dba2-3c47-a0a1-bb9725ce7d31> ;
+        c:suffix     " Waynoka home on February 18, 2015, at the age of" .
+
+<http://d.opencalais.com/genericHasher-1/c278ba86-88d9-3bc2-acc3-d574f9a720ba>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/8d73cbf3-05cc-3566-ad71-c4c0e2eb5975> , <http://d.opencalais.com/pershash-1/2fa9f2f0-dba2-3c47-a0a1-bb9725ce7d31> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54/Instance/24>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[having fun and enjoying life.  \t    \n]In 1982 Norma met and married the love of her life, Jack D. Graham[ in Oklahoma City, OK.  The couple moved to]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54> ;
+        c:exact      "In 1982 Norma met and married the love of her life, Jack D. Graham" ;
+        c:length     "66" ;
+        c:offset     "554" ;
+        c:prefix     "having fun and enjoying life.  \t    \n" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8d6a7d40-971e-3be5-9475-39cc57b4fa21> ;
+        c:suffix     " in Oklahoma City, OK.  The couple moved to" .
+
+<http://d.opencalais.com/pershash-1/1f191e97-942d-38ef-a074-ed2eb7020f4b>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Paul Edward Freeman" ;
+        c:confidencelevel    "0.991" ;
+        c:firstname          "Paul" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Freeman" ;
+        c:middlename         "Edward" ;
+        c:name               "Paul Edward Freeman" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54/Relevance/7>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/8178bce4-6258-36d5-864e-28492177565e> .
+
+<http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54/Instance/37>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ \t    \nNorma is survived by her husband, ]Jack[ of the home, two sons Paul Edward Freeman of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54> ;
+        c:exact      "Jack" ;
+        c:length     "4" ;
+        c:offset     "810" ;
+        c:prefix     " \t    \nNorma is survived by her husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/8d73cbf3-05cc-3566-ad71-c4c0e2eb5975> ;
+        c:suffix     " of the home, two sons Paul Edward Freeman of" .
+
+<http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54/Relevance/10>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/a0d41d6a-3f38-3af4-99b5-fff5cee364a3> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/f24ef023-f5ce-f4ba-d403-af6634f7297d>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54> ;
+        c:latitude            "35.4675" ;
+        c:longitude           "-97.5161" ;
+        c:name                "Oklahoma City,Oklahoma,United States" ;
+        c:rcscode             "G:2BF" ;
+        c:shortname           "Oklahoma City" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/b8620f48-da64-3b29-b094-f0b9edcda36f> .
+
+<http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54/Instance/4>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of the home, two sons Paul Edward Freeman of ]Missouri[ and Davay Ray Freeman of Missouri, three]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54> ;
+        c:exact      "Missouri" ;
+        c:length     "8" ;
+        c:offset     "860" ;
+        c:prefix     "of the home, two sons Paul Edward Freeman of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4b59c1ad-8092-34d5-b763-a43226a1836c> ;
+        c:suffix     " and Davay Ray Freeman of Missouri, three" .
+
+<http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54/Relevance/1>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b8620f48-da64-3b29-b094-f0b9edcda36f> .
+
+<http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54/Instance/31>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of the late Ruby Jule Leftwitch and the late ]Claudie Ray Davis was born on November 15, 1953 in Oklahoma City[, OK.  She passed away quietly in her Waynoka]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54> ;
+        c:exact      "Claudie Ray Davis was born on November 15, 1953 in Oklahoma City" ;
+        c:length     "64" ;
+        c:offset     "77" ;
+        c:prefix     "of the late Ruby Jule Leftwitch and the late " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9bc2db4c-6748-3019-aeb4-ec8499c5eb05> ;
+        c:suffix     ", OK.  She passed away quietly in her Waynoka" .
+
+<http://d.opencalais.com/pershash-1/8d73cbf3-05cc-3566-ad71-c4c0e2eb5975>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Jack Graham" ;
+        c:confidencelevel    "0.994" ;
+        c:firstname          "Jack" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Graham" ;
+        c:middlename         "D." ;
+        c:name               "Jack D. Graham" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/pershash-1/5074b1e9-1e4c-35e3-ba00-03a985a60f91>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Samual Paul Freeman" ;
+        c:confidencelevel    "0.921" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Samual Paul Freeman" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54/Instance/16>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[face with her contagious laughter. Wherever ]Norma[ was, she was engaged in conversation, having fun]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54> ;
+        c:exact      "Norma" ;
+        c:length     "5" ;
+        c:offset     "473" ;
+        c:prefix     "face with her contagious laughter. Wherever " ;
+        c:subject    <http://d.opencalais.com/pershash-1/2fa9f2f0-dba2-3c47-a0a1-bb9725ce7d31> ;
+        c:suffix     " was, she was engaged in conversation, having fun" .
+
+<http://d.opencalais.com/conf/pershash-1/2fa9f2f0-dba2-3c47-a0a1-bb9725ce7d31>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.993" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.995" ;
+        c:subject             <http://d.opencalais.com/pershash-1/2fa9f2f0-dba2-3c47-a0a1-bb9725ce7d31> .
+
+<http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54/Instance/29>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of the late Ruby Jule Leftwitch and the late ]Claudie Ray Davis[ was born on November 15, 1953 in Oklahoma City,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54> ;
+        c:exact      "Claudie Ray Davis" ;
+        c:length     "17" ;
+        c:offset     "77" ;
+        c:prefix     "of the late Ruby Jule Leftwitch and the late " ;
+        c:subject    <http://d.opencalais.com/pershash-1/a0d41d6a-3f38-3af4-99b5-fff5cee364a3> ;
+        c:suffix     " was born on November 15, 1953 in Oklahoma City," .
+
+<http://d.opencalais.com/conf/pershash-1/8178bce4-6258-36d5-864e-28492177565e>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.975" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.934" ;
+        c:subject             <http://d.opencalais.com/pershash-1/8178bce4-6258-36d5-864e-28492177565e> .
+
+<http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54/Instance/10>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ born on November 15, 1953 in Oklahoma City, OK.  ]She[ passed away quietly in her Waynoka home on]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "148" ;
+        c:prefix     " born on November 15, 1953 in Oklahoma City, OK.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/2fa9f2f0-dba2-3c47-a0a1-bb9725ce7d31> ;
+        c:suffix     " passed away quietly in her Waynoka home on" .
+
+<http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54/Instance/9>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[]Norma Jean Graham[, the daughter of the late Ruby Jule Leftwitch]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54> ;
+        c:exact      "Norma Jean Graham" ;
+        c:length     "17" ;
+        c:offset     "0" ;
+        c:prefix     "" ;
+        c:subject    <http://d.opencalais.com/pershash-1/2fa9f2f0-dba2-3c47-a0a1-bb9725ce7d31> ;
+        c:suffix     ", the daughter of the late Ruby Jule Leftwitch" .
+
+<http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54/Instance/23>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[sons Paul Edward Freeman of Missouri and Davay ]Ray Freeman[ of Missouri, three grandsons Gunnar Ray Smith,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54> ;
+        c:exact      "Ray Freeman" ;
+        c:length     "11" ;
+        c:offset     "879" ;
+        c:prefix     "sons Paul Edward Freeman of Missouri and Davay " ;
+        c:subject    <http://d.opencalais.com/pershash-1/8178bce4-6258-36d5-864e-28492177565e> ;
+        c:suffix     " of Missouri, three grandsons Gunnar Ray Smith," .
+
+<http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54/Relevance/6>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/8e1843da-eb53-35c0-894d-17d44bf1d405> .
+
+<http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54/Instance/36>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and worked together in their handyman service ]Jack[-Of-All-Trades.  \t    \nNorma is survived by her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54> ;
+        c:exact      "Jack" ;
+        c:length     "4" ;
+        c:offset     "749" ;
+        c:prefix     "and worked together in their handyman service " ;
+        c:subject    <http://d.opencalais.com/pershash-1/8d73cbf3-05cc-3566-ad71-c4c0e2eb5975> ;
+        c:suffix     "-Of-All-Trades.  \t    \nNorma is survived by her" .
+
+<http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54/SocialTag/3>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Freeman" ;
+        c:originalValue      "Freeman (surname)" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/183e824d-20bb-3d80-b861-31775a29c6fc> .
+
+<http://d.opencalais.com/genericHasher-1/e874fa3f-80d0-3099-8730-7ad1072231d6>
+        a                    <http://s.opencalais.com/1/type/em/e/Position> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "handyman" .
+
+<http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54/Instance/3>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[married the love of her life, Jack D. Graham in ]Oklahoma City[, OK.  The couple moved to Waynoka in 1991 where]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54> ;
+        c:exact      "Oklahoma City" ;
+        c:length     "13" ;
+        c:offset     "624" ;
+        c:prefix     "married the love of her life, Jack D. Graham in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b8620f48-da64-3b29-b094-f0b9edcda36f> ;
+        c:suffix     ", OK.  The couple moved to Waynoka in 1991 where" .
+
+<http://d.opencalais.com/pershash-1/a0d41d6a-3f38-3af4-99b5-fff5cee364a3>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Claudie Ray Davis" ;
+        c:confidencelevel    "0.98" ;
+        c:firstname          "Claudie" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Davis" ;
+        c:middlename         "Ray" ;
+        c:name               "Claudie Ray Davis" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54/Instance/30>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of the late Ruby Jule Leftwitch and the late ]Claudie Ray Davis was born on November 15, 1953 in Oklahoma City[, OK.  She passed away quietly in her Waynoka]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54> ;
+        c:exact      "Claudie Ray Davis was born on November 15, 1953 in Oklahoma City" ;
+        c:length     "64" ;
+        c:offset     "77" ;
+        c:prefix     "of the late Ruby Jule Leftwitch and the late " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0a7f1dda-60c4-3a1c-8618-d3566f7aafc4> ;
+        c:suffix     ", OK.  She passed away quietly in her Waynoka" .
+
+<http://d.opencalais.com/conf/pershash-1/cdb9cfce-45f4-3299-babe-833399bfafa5>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.963" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.978" ;
+        c:subject             <http://d.opencalais.com/pershash-1/cdb9cfce-45f4-3299-babe-833399bfafa5> .
+
+<http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54/Instance/15>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ to serve and bring a smile to anyone’s face with ]her[ contagious laughter. Wherever Norma was, she was]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "439" ;
+        c:prefix     " to serve and bring a smile to anyone’s face with " ;
+        c:subject    <http://d.opencalais.com/pershash-1/2fa9f2f0-dba2-3c47-a0a1-bb9725ce7d31> ;
+        c:suffix     " contagious laughter. Wherever Norma was, she was" .
+
+<http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54/Instance/28>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Jack-Of-All-Trades.  \t    \nNorma is survived by ]her husband, Jack[ of the home, two sons Paul Edward Freeman of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1556967b-17e1-3c37-9204-07965e1d5b54> ;
+        c:exact      "her husband, Jack" ;
+        c:length     "17" ;
+        c:offset     "797" ;
+        c:prefix     "Jack-Of-All-Trades.  \t    \nNorma is survived by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/d8db57ff-2dad-3353-932d-513b07bbd821> ;
+        c:suffix     " of the home, two sons Paul Edward Freeman of" .

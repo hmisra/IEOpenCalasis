@@ -1,0 +1,1315 @@
+#Relations: FamilyRelation, PersonAttributes, PersonEducation, PersonLocation, PersonRelation
+#City: Alva, Enid, Ramona
+#Facility: Marshall Funeral Home Chapel, Marshall Funeral Home of Alva, Memorial Hill Cemetery, Northwestern Oklahoma State University
+#IndustryTerm: Funeral services
+#Organization: Byron-Driftwood High School, Caney Valley School, Christian Church, Oklahoma Education Association, Oklahoma State University, Warner Robbins School in Georgia
+#Person: Byron Christian Church, Donna Lee Simmons, Karen Settle, Leroy Dave, Marshall Funeral, Robert Jake Simmons, Settle, Stephen Scott Simmons, Sue Settle
+#ProvinceOrState: Georgia, Oklahoma
+#Region: Northwestern Oklahoma
+@prefix c:     <http://s.opencalais.com/1/pred/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Instance/21>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[School in Ramona, Oklahoma, for several years.  ]She[ did not want to retire because she loved working]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "940" ;
+        c:prefix     "School in Ramona, Oklahoma, for several years.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/61868d59-2d11-38b7-88f6-0532c8aec2b2> ;
+        c:suffix     " did not want to retire because she loved working" .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Instance/62>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Memorial Hill Cemetery under the direction of ]Marshall Funeral[ Home of Alva.  \nDonna Lee Simmons, daughter of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:exact      "Marshall Funeral" ;
+        c:length     "16" ;
+        c:offset     "195" ;
+        c:prefix     "Memorial Hill Cemetery under the direction of " ;
+        c:subject    <http://d.opencalais.com/pershash-1/0824c880-7431-3846-b832-1042cfbe83e9> ;
+        c:suffix     " Home of Alva.  \nDonna Lee Simmons, daughter of" .
+
+<http://d.opencalais.com/pershash-1/2392f2eb-10f9-3507-a7cb-786455ad3631>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Robert Jake Simmons" ;
+        c:confidencelevel    "0.994" ;
+        c:firstname          "Robert" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Simmons" ;
+        c:middlename         "Jake" ;
+        c:name               "Robert Jake Simmons" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Instance/34>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[her parents, she was preceded in death by ]her husband, Robert Simmons[.  \nDonna is survived by one son, Stephen Scott]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:exact      "her husband, Robert Simmons" ;
+        c:length     "27" ;
+        c:offset     "1278" ;
+        c:prefix     "her parents, she was preceded in death by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/18ad0839-b824-3b35-b9ba-47336c882c54> ;
+        c:suffix     ".  \nDonna is survived by one son, Stephen Scott" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/9abed97f-1f19-0004-aee6-0a06b0289f38>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:latitude            "36.3956" ;
+        c:longitude           "-97.8781" ;
+        c:name                "Enid,Oklahoma,United States" ;
+        c:shortname           "Enid" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/35a979c1-2108-3761-99bd-8c6f499ef6f2> .
+
+<http://d.opencalais.com/genericHasher-1/e8fc3326-e1fe-3702-a131-86489de4e985>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Northwestern Oklahoma State University" .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Relevance/10>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e8fc3326-e1fe-3702-a131-86489de4e985> .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Instance/47>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Robert Simmons.  \nDonna is survived by one son, ]Stephen Scott Simmons of Enid[; two sisters, Sue and Karen Settle of Enid,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:exact      "Stephen Scott Simmons of Enid" ;
+        c:length     "29" ;
+        c:offset     "1339" ;
+        c:prefix     "Robert Simmons.  \nDonna is survived by one son, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/2d1e1f7f-5e59-38db-8eed-961ac9507d36> ;
+        c:suffix     "; two sisters, Sue and Karen Settle of Enid," .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Instance/19>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[State University.  On December 23, 1967, ]she[ was united in marriage to Robert Jake Simmons at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "678" ;
+        c:prefix     "State University.  On December 23, 1967, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/61868d59-2d11-38b7-88f6-0532c8aec2b2> ;
+        c:suffix     " was united in marriage to Robert Jake Simmons at" .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Relevance/23>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee> .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Instance/4>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Enid; two sisters, Sue and Karen Settle of ]Enid[, Oklahoma; other relatives and many friends. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:exact      "Enid" ;
+        c:length     "4" ;
+        c:offset     "1407" ;
+        c:prefix     "of Enid; two sisters, Sue and Karen Settle of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/35a979c1-2108-3761-99bd-8c6f499ef6f2> ;
+        c:suffix     ", Oklahoma; other relatives and many friends. " .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/d590be49-fe07-74b3-209e-7256d5b48fbd>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:latitude            "36.5303" ;
+        c:longitude           "-95.9233" ;
+        c:name                "Ramona,Oklahoma,United States" ;
+        c:shortname           "Ramona" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/a8122591-0753-3e06-8711-731147f014fd> .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Instance/41>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[under the direction of Marshall Funeral Home of ]Alva[.  \nDonna Lee Simmons, daughter of the late Leroy]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "220" ;
+        c:prefix     "under the direction of Marshall Funeral Home of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:suffix     ".  \nDonna Lee Simmons, daughter of the late Leroy" .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Relevance/5>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a8122591-0753-3e06-8711-731147f014fd> .
+
+<http://d.opencalais.com/conf/pershash-1/68a01e80-b380-3000-8b11-cd6fc8e1a681>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/68a01e80-b380-3000-8b11-cd6fc8e1a681> .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Instance/13>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Enid; two sisters, Sue and Karen Settle of Enid, ]Oklahoma[; other relatives and many friends.  \nMemorial]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "1413" ;
+        c:prefix     " Enid; two sisters, Sue and Karen Settle of Enid, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     "; other relatives and many friends.  \nMemorial" .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/SocialTag/2>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Enid" ;
+        c:originalValue      "Enid" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/63968db5-7d7b-3ecb-a2da-2dda55402eb0> .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Instance/54>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in 1964.  She received her Early Childhood ]Degree in Education from Northwestern Oklahoma State University[.  On December 23, 1967, she was united in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:exact      "Degree in Education from Northwestern Oklahoma State University" ;
+        c:length     "63" ;
+        c:offset     "590" ;
+        c:prefix     "in 1964.  She received her Early Childhood " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/dc39f0fc-1868-3a46-8a55-f40515d7ecf8> ;
+        c:suffix     ".  On December 23, 1967, she was united in" .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Instance/26>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[  All of her life, she loved caring for animals.  ]She[ was known by all who knew her as a kind, loving,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "1158" ;
+        c:prefix     "  All of her life, she loved caring for animals.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/61868d59-2d11-38b7-88f6-0532c8aec2b2> ;
+        c:suffix     " was known by all who knew her as a kind, loving," .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Instance/39>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Scott Simmons of Enid; two sisters, Sue and ]Karen Settle[ of Enid, Oklahoma; other relatives and many]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:exact      "Karen Settle" ;
+        c:length     "12" ;
+        c:offset     "1391" ;
+        c:prefix     "Scott Simmons of Enid; two sisters, Sue and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/203d1a22-ade4-3998-808c-367c237130db> ;
+        c:suffix     " of Enid, Oklahoma; other relatives and many" .
+
+<http://d.opencalais.com/genericHasher-1/9619e5e5-e2fa-3998-af42-dd842d61ff46>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Warner Robbins School in Georgia" ;
+        c:nationality        "Georgian" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/b9d4552f-76e4-000f-38b1-2d6d7ee32304>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:latitude            "123456.0" ;
+        c:longitude           "123456.0" ;
+        c:name                "Georgia,United States" ;
+        c:permid              "100112" ;
+        c:rcscode             "G:9F" ;
+        c:shortname           "Georgia" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/e4fe5e61-0000-3b15-9d70-d8c317ea934f> .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Relevance/15>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9619e5e5-e2fa-3998-af42-dd842d61ff46> .
+
+<http://d.opencalais.com/pershash-1/8416897d-51a2-38ad-9971-c6240f120bdc>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Byron Christian Church" ;
+        c:confidencelevel    "0.811" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Byron Christian Church" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Instance/20>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Jake Simmons at the Byron Christian Church.  ]She[ taught school in Warner Robbins School in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "760" ;
+        c:prefix     "Jake Simmons at the Byron Christian Church.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/61868d59-2d11-38b7-88f6-0532c8aec2b2> ;
+        c:suffix     " taught school in Warner Robbins School in" .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Instance/61>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[she was preceded in death by her husband, ]Robert Simmons[.  \nDonna is survived by one son, Stephen Scott]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:exact      "Robert Simmons" ;
+        c:length     "14" ;
+        c:offset     "1291" ;
+        c:prefix     "she was preceded in death by her husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/2392f2eb-10f9-3507-a7cb-786455ad3631> ;
+        c:suffix     ".  \nDonna is survived by one son, Stephen Scott" .
+
+<http://d.opencalais.com/genericHasher-1/52881fbe-bb37-35bb-8d66-39d132d2806b>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Caney Valley School" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/a8122591-0753-3e06-8711-731147f014fd>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Ramona" .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Instance/33>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[a member of the Byron Christian Church and the ]Oklahoma Education Association[.  All of her life, she loved caring for animals.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:exact      "Oklahoma Education Association" ;
+        c:length     "30" ;
+        c:offset     "1077" ;
+        c:prefix     "a member of the Byron Christian Church and the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/003e74c3-530a-3aa5-807a-43586ce6800a> ;
+        c:suffix     ".  All of her life, she loved caring for animals." .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Instance/9>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Settle, was born August 16, 1946, at Alva, ]Oklahoma[, and passed away December 17, 2010, at Enid,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "351" ;
+        c:prefix     "Settle, was born August 16, 1946, at Alva, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", and passed away December 17, 2010, at Enid," .
+
+<http://d.opencalais.com/conf/pershash-1/b6535e5b-fead-3cd8-b7bb-f72b81f03919>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.611" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.496" ;
+        c:subject             <http://d.opencalais.com/pershash-1/b6535e5b-fead-3cd8-b7bb-f72b81f03919> .
+
+<http://d.opencalais.com/genericHasher-1/687130b7-b7ad-3bbb-b213-97f8e9116e4c>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:date                "1967-12-23" ;
+        c:datestring          "December 23, 1967" ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/2392f2eb-10f9-3507-a7cb-786455ad3631> , <http://d.opencalais.com/pershash-1/61868d59-2d11-38b7-88f6-0532c8aec2b2> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Instance/46>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[her Early Childhood Degree in Education from ]Northwestern Oklahoma[ State University.  On December 23, 1967, she was]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:exact      "Northwestern Oklahoma" ;
+        c:length     "21" ;
+        c:offset     "615" ;
+        c:prefix     "her Early Childhood Degree in Education from " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8c173672-3a05-352d-b76a-862209e52161> ;
+        c:suffix     " State University.  On December 23, 1967, she was" .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Instance/18>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[High School, graduating in 1964.  She received ]her[ Early Childhood Degree in Education from]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "570" ;
+        c:prefix     "High School, graduating in 1964.  She received " ;
+        c:subject    <http://d.opencalais.com/pershash-1/61868d59-2d11-38b7-88f6-0532c8aec2b2> ;
+        c:suffix     " Early Childhood Degree in Education from" .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Relevance/22>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce> .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Instance/59>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Scott Simmons of Enid; two sisters, Sue and ]Karen Settle of Enid, Oklahoma[; other relatives and many friends.  \nMemorial]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:exact      "Karen Settle of Enid, Oklahoma" ;
+        c:length     "30" ;
+        c:offset     "1391" ;
+        c:prefix     "Scott Simmons of Enid; two sisters, Sue and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/df31dd86-ea60-3705-a972-f4196842bc53> ;
+        c:suffix     "; other relatives and many friends.  \nMemorial" .
+
+<http://d.opencalais.com/genericHasher-1/385e48ce-32dc-3d22-b17f-a231d6256f35>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonAttributes> ;
+        c:birthdate          "1946-08-16" ;
+        c:birthplace         <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:forenduserdisplay  "false" ;
+        c:gender             "M" ;
+        c:person             <http://d.opencalais.com/pershash-1/b6535e5b-fead-3cd8-b7bb-f72b81f03919> .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Instance/3>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ is survived by one son, Stephen Scott Simmons of ]Enid[; two sisters, Sue and Karen Settle of Enid,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:exact      "Enid" ;
+        c:length     "4" ;
+        c:offset     "1364" ;
+        c:prefix     " is survived by one son, Stephen Scott Simmons of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/35a979c1-2108-3761-99bd-8c6f499ef6f2> ;
+        c:suffix     "; two sisters, Sue and Karen Settle of Enid," .
+
+<http://d.opencalais.com/genericHasher-1/c1e14c20-7ec2-3637-872f-855b5253364e>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Christian Church" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Instance/40>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ son, Stephen Scott Simmons of Enid; two sisters, ]Sue[ and Karen Settle of Enid, Oklahoma; other]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:exact      "Sue" ;
+        c:length     "3" ;
+        c:offset     "1383" ;
+        c:prefix     " son, Stephen Scott Simmons of Enid; two sisters, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/0ccb3a21-02a7-3be2-a874-059be1134cd7> ;
+        c:suffix     " and Karen Settle of Enid, Oklahoma; other" .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Relevance/4>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/bb2b7d1d-34ec-3c64-8d2b-b49b76b46927> .
+
+<http://d.opencalais.com/genericHasher-1/52b347a0-21d1-3cd2-8a39-b44339da594c>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Enid, Oklahoma" ;
+        c:person             <http://d.opencalais.com/pershash-1/b6535e5b-fead-3cd8-b7bb-f72b81f03919> .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Instance/12>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[a member of the Byron Christian Church and the ]Oklahoma[ Education Association.  All of her life, she]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "1077" ;
+        c:prefix     "a member of the Byron Christian Church and the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     " Education Association.  All of her life, she" .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/SocialTag/1>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Enid, Oklahoma" ;
+        c:originalValue      "Enid, Oklahoma" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/f5fa812e-f6f9-3012-9738-ee9777929481> .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Instance/53>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Alva.  \nDonna Lee Simmons, daughter of the late ]Leroy Dave[ and Grace America (Thompson) Settle, was born]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:exact      "Leroy Dave" ;
+        c:length     "10" ;
+        c:offset     "268" ;
+        c:prefix     "Alva.  \nDonna Lee Simmons, daughter of the late " ;
+        c:subject    <http://d.opencalais.com/pershash-1/68a01e80-b380-3000-8b11-cd6fc8e1a681> ;
+        c:suffix     " and Grace America (Thompson) Settle, was born" .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Instance/25>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Education Association.  All of her life, ]she[ loved caring for animals.  She was known by all]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "1127" ;
+        c:prefix     "Education Association.  All of her life, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/61868d59-2d11-38b7-88f6-0532c8aec2b2> ;
+        c:suffix     " loved caring for animals.  She was known by all" .
+
+<http://d.opencalais.com/pershash-1/d413fd1a-a591-31c6-bad6-c22a74728a7a>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Stephen Scott Simmons" ;
+        c:confidencelevel    "0.994" ;
+        c:firstname          "Stephen" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Simmons" ;
+        c:middlename         "Scott" ;
+        c:name               "Stephen Scott Simmons" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Instance/38>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[the children so much.  \nShe was a member of the ]Byron Christian Church[ and the Oklahoma Education Association.  All of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:exact      "Byron Christian Church" ;
+        c:length     "22" ;
+        c:offset     "1046" ;
+        c:prefix     "the children so much.  \nShe was a member of the " ;
+        c:subject    <http://d.opencalais.com/pershash-1/8416897d-51a2-38ad-9971-c6240f120bdc> ;
+        c:suffix     " and the Oklahoma Education Association.  All of" .
+
+<http://d.opencalais.com/genericHasher-1/86006a8e-d4dc-382e-b9b9-e6eecf3dd241>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oklahoma State University" ;
+        c:nationality        "American" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Relevance/14>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> .
+
+<http://d.opencalais.com/conf/pershash-1/61868d59-2d11-38b7-88f6-0532c8aec2b2>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.993" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.995" ;
+        c:subject             <http://d.opencalais.com/pershash-1/61868d59-2d11-38b7-88f6-0532c8aec2b2> .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Instance/60>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ December 23, 1967, she was united in marriage to ]Robert Jake Simmons[ at the Byron Christian Church.  She taught]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:exact      "Robert Jake Simmons" ;
+        c:length     "19" ;
+        c:offset     "708" ;
+        c:prefix     " December 23, 1967, she was united in marriage to " ;
+        c:subject    <http://d.opencalais.com/pershash-1/2392f2eb-10f9-3507-a7cb-786455ad3631> ;
+        c:suffix     " at the Byron Christian Church.  She taught" .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Instance/32>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[from Northwestern Oklahoma State University.  ]On December 23, 1967, she was united in marriage to Robert Jake Simmons[ at the Byron Christian Church.  She taught]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:exact      "On December 23, 1967, she was united in marriage to Robert Jake Simmons" ;
+        c:length     "71" ;
+        c:offset     "656" ;
+        c:prefix     "from Northwestern Oklahoma State University.  " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/687130b7-b7ad-3bbb-b213-97f8e9116e4c> ;
+        c:suffix     " at the Byron Christian Church.  She taught" .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Instance/8>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[2:00 p.m. Wednesday, December 22, 2010, at the ]Marshall Funeral Home Chapel[. Interment will be in the Memorial Hill Cemetery]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:exact      "Marshall Funeral Home Chapel" ;
+        c:length     "28" ;
+        c:offset     "94" ;
+        c:prefix     "2:00 p.m. Wednesday, December 22, 2010, at the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ffe3480a-abe7-3145-bdfe-b1e4a35ad4cd> ;
+        c:suffix     ". Interment will be in the Memorial Hill Cemetery" .
+
+<http://d.opencalais.com/genericHasher-1/bb2b7d1d-34ec-3c64-8d2b-b49b76b46927>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Memorial Hill Cemetery" .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Instance/45>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Robert Simmons.  \nDonna is survived by one son, ]Stephen Scott Simmons[ of Enid; two sisters, Sue and Karen Settle of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:exact      "Stephen Scott Simmons" ;
+        c:length     "21" ;
+        c:offset     "1339" ;
+        c:prefix     "Robert Simmons.  \nDonna is survived by one son, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/d413fd1a-a591-31c6-bad6-c22a74728a7a> ;
+        c:suffix     " of Enid; two sisters, Sue and Karen Settle of" .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Relevance/9>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/003e74c3-530a-3aa5-807a-43586ce6800a> .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Instance/17>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[High School, graduating in 1964.  ]She[ received her Early Childhood Degree in Education]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "557" ;
+        c:prefix     "High School, graduating in 1964.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/61868d59-2d11-38b7-88f6-0532c8aec2b2> ;
+        c:suffix     " received her Early Childhood Degree in Education" .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/SocialTag/6>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "2" ;
+        c:name               "Oklahoma locations by per capita income" ;
+        c:originalValue      "Oklahoma locations by per capita income" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/3df83fde-9e4a-3994-a27a-41074d6ae1d8> .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Relevance/21>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/68a01e80-b380-3000-8b11-cd6fc8e1a681> .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Instance/58>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[so much.  \nShe was a member of the Byron ]Christian Church[ and the Oklahoma Education Association.  All of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:exact      "Christian Church" ;
+        c:length     "16" ;
+        c:offset     "1052" ;
+        c:prefix     "so much.  \nShe was a member of the Byron " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c1e14c20-7ec2-3637-872f-855b5253364e> ;
+        c:suffix     " and the Oklahoma Education Association.  All of" .
+
+<http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Alva" .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Instance/2>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Oklahoma, and passed away December 17, 2010, at ]Enid[, Oklahoma, at the age of 64 years, 4 months, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:exact      "Enid" ;
+        c:length     "4" ;
+        c:offset     "399" ;
+        c:prefix     "Oklahoma, and passed away December 17, 2010, at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/35a979c1-2108-3761-99bd-8c6f499ef6f2> ;
+        c:suffix     ", Oklahoma, at the age of 64 years, 4 months, and" .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Relevance/3>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/86006a8e-d4dc-382e-b9b9-e6eecf3dd241> .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Relevance/19>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/5dc6c7ff-e02a-3fcf-bf35-17fb641ec6ac> .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Instance/11>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ after teaching at Caney Valley School in Ramona, ]Oklahoma[, for several years.  She did not want to retire]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "910" ;
+        c:prefix     " after teaching at Caney Valley School in Ramona, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", for several years.  She did not want to retire" .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Instance/52>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ the late Leroy Dave and Grace America (Thompson) ]Settle[, was born August 16, 1946, at Alva, Oklahoma,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:exact      "Settle" ;
+        c:length     "6" ;
+        c:offset     "308" ;
+        c:prefix     " the late Leroy Dave and Grace America (Thompson) " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b6535e5b-fead-3cd8-b7bb-f72b81f03919> ;
+        c:suffix     ", was born August 16, 1946, at Alva, Oklahoma," .
+
+<http://d.opencalais.com/genericHasher-1/ffe3480a-abe7-3145-bdfe-b1e4a35ad4cd>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Marshall Funeral Home Chapel" .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Instance/24>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and the Oklahoma Education Association.  All of ]her[ life, she loved caring for animals.  She was]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1117" ;
+        c:prefix     "and the Oklahoma Education Association.  All of " ;
+        c:subject    <http://d.opencalais.com/pershash-1/61868d59-2d11-38b7-88f6-0532c8aec2b2> ;
+        c:suffix     " life, she loved caring for animals.  She was" .
+
+<http://d.opencalais.com/pershash-1/68a01e80-b380-3000-8b11-cd6fc8e1a681>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Leroy Dave" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Leroy" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Dave" ;
+        c:name               "Leroy Dave" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Instance/37>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ \nDonna was in the last class to graduate from ]Byron[-Driftwood High School, graduating in 1964.  She]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:exact      "Byron" ;
+        c:length     "5" ;
+        c:offset     "507" ;
+        c:prefix     " \nDonna was in the last class to graduate from " ;
+        c:subject    <http://d.opencalais.com/pershash-1/8416897d-51a2-38ad-9971-c6240f120bdc> ;
+        c:suffix     "-Driftwood High School, graduating in 1964.  She" .
+
+<http://d.opencalais.com/conf/pershash-1/203d1a22-ade4-3998-808c-367c237130db>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.788" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.832" ;
+        c:subject             <http://d.opencalais.com/pershash-1/203d1a22-ade4-3998-808c-367c237130db> .
+
+<http://d.opencalais.com/pershash-1/0824c880-7431-3846-b832-1042cfbe83e9>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Marshall Funeral" .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Relevance/13>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/0ccb3a21-02a7-3be2-a874-059be1134cd7> .
+
+<http://d.opencalais.com/genericHasher-1/5dc6c7ff-e02a-3fcf-bf35-17fb641ec6ac>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Byron-Driftwood High School" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Relevance/26>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/0824c880-7431-3846-b832-1042cfbe83e9> .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Instance/31>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in death by her husband, Robert Simmons.  \n]Donna[ is survived by one son, Stephen Scott Simmons of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:exact      "Donna" ;
+        c:length     "5" ;
+        c:offset     "1309" ;
+        c:prefix     "in death by her husband, Robert Simmons.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/61868d59-2d11-38b7-88f6-0532c8aec2b2> ;
+        c:suffix     " is survived by one son, Stephen Scott Simmons of" .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Instance/7>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ in 2006 after teaching at Caney Valley School in ]Ramona[, Oklahoma, for several years.  She did not want]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:exact      "Ramona" ;
+        c:length     "6" ;
+        c:offset     "902" ;
+        c:prefix     " in 2006 after teaching at Caney Valley School in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a8122591-0753-3e06-8711-731147f014fd> ;
+        c:suffix     ", Oklahoma, for several years.  She did not want" .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Relevance/20>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/b6535e5b-fead-3cd8-b7bb-f72b81f03919> .
+
+<http://d.opencalais.com/genericHasher-1/b6bf2c0d-0ac3-3aaa-a334-e02dfcbc3358>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Alva" ;
+        c:person             <http://d.opencalais.com/pershash-1/0824c880-7431-3846-b832-1042cfbe83e9> .
+
+<http://d.opencalais.com/pershash-1/0ccb3a21-02a7-3be2-a874-059be1134cd7>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Sue Settle" ;
+        c:confidencelevel    "0.539" ;
+        c:firstname          "Karen" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Settle" ;
+        c:name               "Sue Settle" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Instance/44>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[her parents, she was preceded in death by ]her husband, Robert Simmons[.  \nDonna is survived by one son, Stephen Scott]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:exact      "her husband, Robert Simmons" ;
+        c:length     "27" ;
+        c:offset     "1278" ;
+        c:prefix     "her parents, she was preceded in death by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0417e89f-5fc1-3024-aa5d-85200fb5603e> ;
+        c:suffix     ".  \nDonna is survived by one son, Stephen Scott" .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Relevance/8>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/pershash-1/61868d59-2d11-38b7-88f6-0532c8aec2b2> .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/lid/DefaultLangId>
+        a                    <http://s.opencalais.com/1/type/lid/DefaultLangId> ;
+        c:docId              <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:forenduserdisplay  "false" ;
+        c:lang               <http://d.opencalais.com/lid/DefaultLangId/English> ;
+        c:permid             "505062" .
+
+<http://d.opencalais.com/pershash-1/b6535e5b-fead-3cd8-b7bb-f72b81f03919>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Settle" ;
+        c:confidencelevel    "0.611" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Settle" ;
+        c:name               "Settle" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Instance/16>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[at the age of 64 years, 4 months, and 1 day.  \n]Donna[ was in the last class to graduate from]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:exact      "Donna" ;
+        c:length     "5" ;
+        c:offset     "462" ;
+        c:prefix     "at the age of 64 years, 4 months, and 1 day.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/61868d59-2d11-38b7-88f6-0532c8aec2b2> ;
+        c:suffix     " was in the last class to graduate from" .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/SocialTag/5>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "2" ;
+        c:name               "Simmons" ;
+        c:originalValue      "Simmons (surname)" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/1d3999cb-eff4-3bec-be45-5d3e7cec8837> .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/ComponentVersions>
+        a          <http://s.opencalais.com/1/type/sys/ComponentVersions> ;
+        c:docId    <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:version  "index-vessels:201505231718:201505231718" , "config-negativeSignature:258:258" , "People Index:201505261608:201505261608" , "config-physicalAssets-ports:258:258" , "config-refineries:258:258" , "NextTags:OneCalais_8.3-RELEASE:113" , "config-sca-DataPackage:34:34" , "Housekeeper:OneCalais_8.3-RELEASE:113" , "config-drugs:258:258" , "BlackList:264:264" , "OA Index:201505252208:201505252208" , "SECHeaderMetadataIM:OneCalais_8.3-RELEASE:198" , "People Override:258:258" , "BrokerResearchIM:OneCalais_8.3-RELEASE:198" , "Collector:OneCalais_8.3-RELEASE:113" , "SocialTags Index:201505191038:201505191038" , "Dial4J:OneCalais_8.3-RELEASE:198" , "OneCalaisIM:OneCalais_8.3-RELEASE:198" , "AutocoderRuntimeIM:OneCalais_8.3-RELEASE:198" , "WatchDog:OneCalais_8.3-RELEASE:113" , "Deals Index:201505261613:201505261613" , "FrenchIM:OneCalais_8.3-RELEASE:198" , "config-cse:271:271" , "OA Override:271:271" , "OneCalais:OneCalais_8.3-RELEASE:364" , "com.clearforest.infoext.dial4j.plugins-basistechconfig:OneCalais_8.3-RELEASE:225" , "SpanishIM:OneCalais_8.3-RELEASE:198" , "config-vessels:258:258" .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Instance/57>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in marriage to Robert Jake Simmons at the Byron ]Christian Church[.  She taught school in Warner Robbins School in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:exact      "Christian Church" ;
+        c:length     "16" ;
+        c:offset     "741" ;
+        c:prefix     "in marriage to Robert Jake Simmons at the Byron " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c1e14c20-7ec2-3637-872f-855b5253364e> ;
+        c:suffix     ".  She taught school in Warner Robbins School in" .
+
+<http://d.opencalais.com/genericHasher-1/df31dd86-ea60-3705-a972-f4196842bc53>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Enid" ;
+        c:person             <http://d.opencalais.com/pershash-1/203d1a22-ade4-3998-808c-367c237130db> .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Instance/29>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[loving, caring person.  \nBesides her parents, ]she[ was preceded in death by her husband, Robert]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "1249" ;
+        c:prefix     "loving, caring person.  \nBesides her parents, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/61868d59-2d11-38b7-88f6-0532c8aec2b2> ;
+        c:suffix     " was preceded in death by her husband, Robert" .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Instance/1>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[before retiring in 2006 after teaching at ]Caney Valley School[ in Ramona, Oklahoma, for several years.  She did]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:exact      "Caney Valley School" ;
+        c:length     "19" ;
+        c:offset     "879" ;
+        c:prefix     "before retiring in 2006 after teaching at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/52881fbe-bb37-35bb-8d66-39d132d2806b> ;
+        c:suffix     " in Ramona, Oklahoma, for several years.  She did" .
+
+<http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Marshall Funeral Home of Alva" .
+
+<http://d.opencalais.com/genericHasher-1/dc39f0fc-1868-3a46-8a55-f40515d7ecf8>
+        a                       <http://s.opencalais.com/1/type/em/r/PersonEducation> ;
+        c:degree                "Degree" ;
+        c:forenduserdisplay     "false" ;
+        c:person                <http://d.opencalais.com/pershash-1/61868d59-2d11-38b7-88f6-0532c8aec2b2> ;
+        c:schoolororganization  "Northwestern Oklahoma State University" .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494>
+        a                  <http://s.opencalais.com/1/type/sys/DocInfo> ;
+        c:calaisRequestID  "1a8469bf-d7c2-fc0b-14d9-13c91637848c" ;
+        c:docDate          "2015-05-26 17:19:35.612" ;
+        c:docTitle         "" ;
+        c:document         "Funeral services for Donna Lee Simmons will be 2:00 p.m. Wednesday, December 22, 2010, at the Marshall Funeral Home Chapel. Interment will be in the Memorial Hill Cemetery under the direction of Marshall Funeral Home of Alva.  \nDonna Lee Simmons, daughter of the late Leroy Dave and Grace America (Thompson) Settle, was born August 16, 1946, at Alva, Oklahoma, and passed away December 17, 2010, at Enid, Oklahoma, at the age of 64 years, 4 months, and 1 day.  \nDonna was in the last class to graduate from Byron-Driftwood High School, graduating in 1964.  She received her Early Childhood Degree in Education from Northwestern Oklahoma State University.  On December 23, 1967, she was united in marriage to Robert Jake Simmons at the Byron Christian Church.  She taught school in Warner Robbins School in Georgia, Tonkawa, and Cherokee before retiring in 2006 after teaching at Caney Valley School in Ramona, Oklahoma, for several years.  She did not want to retire because she loved working with the children so much.  \nShe was a member of the Byron Christian Church and the Oklahoma Education Association.  All of her life, she loved caring for animals.  She was known by all who knew her as a kind, loving, caring person.  \nBesides her parents, she was preceded in death by her husband, Robert Simmons.  \nDonna is survived by one son, Stephen Scott Simmons of Enid; two sisters, Sue and Karen Settle of Enid, Oklahoma; other relatives and many friends.  \nMemorial contributions may be made through the funeral home to Creature Concerns. \n\t\t\t" ;
+        c:id               "http://id.opencalais.com/f9h*ppXAaT5AQS7AEFFPxQ" ;
+        c:ontology         "http://163.231.4.65/owlschema/8.3/onecalais.owl.allmetadata.xml" .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Relevance/2>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/35a979c1-2108-3761-99bd-8c6f499ef6f2> .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Relevance/18>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e4fe5e61-0000-3b15-9d70-d8c317ea934f> .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Instance/10>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and passed away December 17, 2010, at Enid, ]Oklahoma[, at the age of 64 years, 4 months, and 1 day. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "405" ;
+        c:prefix     "and passed away December 17, 2010, at Enid, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", at the age of 64 years, 4 months, and 1 day. " .
+
+<http://d.opencalais.com/conf/pershash-1/2392f2eb-10f9-3507-a7cb-786455ad3631>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.994" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.996" ;
+        c:subject             <http://d.opencalais.com/pershash-1/2392f2eb-10f9-3507-a7cb-786455ad3631> .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Instance/51>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ the late Leroy Dave and Grace America (Thompson) ]Settle, was born August 16, 1946, at Alva, Oklahoma[, and passed away December 17, 2010, at Enid,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:exact      "Settle, was born August 16, 1946, at Alva, Oklahoma" ;
+        c:length     "51" ;
+        c:offset     "308" ;
+        c:prefix     " the late Leroy Dave and Grace America (Thompson) " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/385e48ce-32dc-3d22-b17f-a231d6256f35> ;
+        c:suffix     ", and passed away December 17, 2010, at Enid," .
+
+<http://d.opencalais.com/genericHasher-1/0417e89f-5fc1-3024-aa5d-85200fb5603e>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "husband" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/61868d59-2d11-38b7-88f6-0532c8aec2b2> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/2392f2eb-10f9-3507-a7cb-786455ad3631> .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Instance/23>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[she loved working with the children so much.  \n]She[ was a member of the Byron Christian Church and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "1022" ;
+        c:prefix     "she loved working with the children so much.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/61868d59-2d11-38b7-88f6-0532c8aec2b2> ;
+        c:suffix     " was a member of the Byron Christian Church and" .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Instance/36>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[her Early Childhood Degree in Education from ]Northwestern Oklahoma State University[.  On December 23, 1967, she was united in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:exact      "Northwestern Oklahoma State University" ;
+        c:length     "38" ;
+        c:offset     "615" ;
+        c:prefix     "her Early Childhood Degree in Education from " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e8fc3326-e1fe-3702-a131-86489de4e985> ;
+        c:suffix     ".  On December 23, 1967, she was united in" .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Relevance/12>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/203d1a22-ade4-3998-808c-367c237130db> .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Instance/49>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Memorial Hill Cemetery under the direction of ]Marshall Funeral Home of Alva[.  \nDonna Lee Simmons, daughter of the late Leroy]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:exact      "Marshall Funeral Home of Alva" ;
+        c:length     "29" ;
+        c:offset     "195" ;
+        c:prefix     "Memorial Hill Cemetery under the direction of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6bf2c0d-0ac3-3aaa-a334-e02dfcbc3358> ;
+        c:suffix     ".  \nDonna Lee Simmons, daughter of the late Leroy" .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Relevance/25>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/2392f2eb-10f9-3507-a7cb-786455ad3631> .
+
+<http://d.opencalais.com/genericHasher-1/18ad0839-b824-3b35-b9ba-47336c882c54>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/2392f2eb-10f9-3507-a7cb-786455ad3631> , <http://d.opencalais.com/pershash-1/61868d59-2d11-38b7-88f6-0532c8aec2b2> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee>
+        a                    <http://s.opencalais.com/1/type/em/e/IndustryTerm> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Funeral services" .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Instance/30>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[her parents, she was preceded in death by ]her[ husband, Robert Simmons.  \nDonna is survived by]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1278" ;
+        c:prefix     "her parents, she was preceded in death by " ;
+        c:subject    <http://d.opencalais.com/pershash-1/61868d59-2d11-38b7-88f6-0532c8aec2b2> ;
+        c:suffix     " husband, Robert Simmons.  \nDonna is survived by" .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/cat/2>
+        a                    <http://s.opencalais.com/1/type/cat/DocCat> ;
+        c:docId              <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Human Interest" ;
+        c:score              "1.000" .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Instance/6>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Funeral Home Chapel. Interment will be in the ]Memorial Hill Cemetery[ under the direction of Marshall Funeral Home of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:exact      "Memorial Hill Cemetery" ;
+        c:length     "22" ;
+        c:offset     "149" ;
+        c:prefix     "Funeral Home Chapel. Interment will be in the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/bb2b7d1d-34ec-3c64-8d2b-b49b76b46927> ;
+        c:suffix     " under the direction of Marshall Funeral Home of" .
+
+<http://d.opencalais.com/pershash-1/61868d59-2d11-38b7-88f6-0532c8aec2b2>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Donna Lee Simmons" ;
+        c:confidencelevel    "0.993" ;
+        c:firstname          "Donna" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Simmons" ;
+        c:middlename         "Lee" ;
+        c:name               "Donna Lee Simmons" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Instance/43>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Byron Christian Church.  She taught school in ]Warner Robbins School in Georgia[, Tonkawa, and Cherokee before retiring in 2006]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:exact      "Warner Robbins School in Georgia" ;
+        c:length     "32" ;
+        c:offset     "781" ;
+        c:prefix     "Byron Christian Church.  She taught school in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9619e5e5-e2fa-3998-af42-dd842d61ff46> ;
+        c:suffix     ", Tonkawa, and Cherokee before retiring in 2006" .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Relevance/7>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/genericHasher-1/8c173672-3a05-352d-b76a-862209e52161>
+        a                    <http://s.opencalais.com/1/type/em/e/Region> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Northwestern Oklahoma" .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Instance/15>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[direction of Marshall Funeral Home of Alva.  \n]Donna Lee Simmons[, daughter of the late Leroy Dave and Grace]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:exact      "Donna Lee Simmons" ;
+        c:length     "17" ;
+        c:offset     "228" ;
+        c:prefix     "direction of Marshall Funeral Home of Alva.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/61868d59-2d11-38b7-88f6-0532c8aec2b2> ;
+        c:suffix     ", daughter of the late Leroy Dave and Grace" .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/SocialTag/4>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "2" ;
+        c:name               "Northwestern Oklahoma" ;
+        c:originalValue      "Northwestern Oklahoma" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/c76425cf-bdfe-32cc-86ff-106154a3f7d7> .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Instance/56>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[]Funeral services[ for Donna Lee Simmons will be 2:00 p.m.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:exact      "Funeral services" ;
+        c:length     "16" ;
+        c:offset     "0" ;
+        c:prefix     "" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee> ;
+        c:suffix     " for Donna Lee Simmons will be 2:00 p.m." .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Instance/28>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[her as a kind, loving, caring person.  \nBesides ]her[ parents, she was preceded in death by her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1236" ;
+        c:prefix     "her as a kind, loving, caring person.  \nBesides " ;
+        c:subject    <http://d.opencalais.com/pershash-1/61868d59-2d11-38b7-88f6-0532c8aec2b2> ;
+        c:suffix     " parents, she was preceded in death by her" .
+
+<http://d.opencalais.com/conf/pershash-1/8416897d-51a2-38ad-9971-c6240f120bdc>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.811" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.895" ;
+        c:subject             <http://d.opencalais.com/pershash-1/8416897d-51a2-38ad-9971-c6240f120bdc> .
+
+<http://d.opencalais.com/genericHasher-1/2d1e1f7f-5e59-38db-8eed-961ac9507d36>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Enid" ;
+        c:person             <http://d.opencalais.com/pershash-1/d413fd1a-a591-31c6-bad6-c22a74728a7a> .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Relevance/1>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/52881fbe-bb37-35bb-8d66-39d132d2806b> .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Relevance/17>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8c173672-3a05-352d-b76a-862209e52161> .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Instance/50>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ \nDonna was in the last class to graduate from ]Byron-Driftwood High School[, graduating in 1964.  She received her Early]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:exact      "Byron-Driftwood High School" ;
+        c:length     "27" ;
+        c:offset     "507" ;
+        c:prefix     " \nDonna was in the last class to graduate from " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/5dc6c7ff-e02a-3fcf-bf35-17fb641ec6ac> ;
+        c:suffix     ", graduating in 1964.  She received her Early" .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Instance/22>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[years.  She did not want to retire because ]she[ loved working with the children so much.  \nShe]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "975" ;
+        c:prefix     "years.  She did not want to retire because " ;
+        c:subject    <http://d.opencalais.com/pershash-1/61868d59-2d11-38b7-88f6-0532c8aec2b2> ;
+        c:suffix     " loved working with the children so much.  \nShe" .
+
+<http://d.opencalais.com/genericHasher-1/e4fe5e61-0000-3b15-9d70-d8c317ea934f>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Georgia" .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Instance/35>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ the late Leroy Dave and Grace America (Thompson) ]Settle, was born August 16, 1946, at Alva, Oklahoma, and passed away December 17, 2010, at Enid, Oklahoma[, at the age of 64 years, 4 months, and 1 day. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:exact      "Settle, was born August 16, 1946, at Alva, Oklahoma, and passed away December 17, 2010, at Enid, Oklahoma" ;
+        c:length     "105" ;
+        c:offset     "308" ;
+        c:prefix     " the late Leroy Dave and Grace America (Thompson) " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/52b347a0-21d1-3cd2-8a39-b44339da594c> ;
+        c:suffix     ", at the age of 64 years, 4 months, and 1 day. " .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/meta>
+        a                 <http://s.opencalais.com/1/type/sys/DocInfoMeta> ;
+        c:contentType     "text/raw" ;
+        c:docId           <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:language        "English" ;
+        c:processingVer   "AllMetadata" ;
+        c:serverVersion   "OneCalais_8.3-RELEASE:364" ;
+        c:signature       "digestalg-1|QiLpWzVxTWSTbXK26E7TmYIBS+8=|WNnVf4POimzYICP5XXlr8sf8vk9zD57rL0OMqpu2/8Cvba4DIjF6JQ==" ;
+        c:stagsVer        "OneCalais_8.3-RELEASE-b11-2015-03-25_18:29:00" ;
+        c:submissionDate  "2015-05-26 17:19:35.267" ;
+        c:submitterCode   "0ca6a864-5659-789d-5f32-f365f695e757" .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Relevance/11>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/8416897d-51a2-38ad-9971-c6240f120bdc> .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Instance/48>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ She taught school in Warner Robbins School in ]Georgia[, Tonkawa, and Cherokee before retiring in 2006]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:exact      "Georgia" ;
+        c:length     "7" ;
+        c:offset     "806" ;
+        c:prefix     " She taught school in Warner Robbins School in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e4fe5e61-0000-3b15-9d70-d8c317ea934f> ;
+        c:suffix     ", Tonkawa, and Cherokee before retiring in 2006" .
+
+<http://d.opencalais.com/genericHasher-1/003e74c3-530a-3aa5-807a-43586ce6800a>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oklahoma Education Association" ;
+        c:nationality        "American" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Relevance/24>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c1e14c20-7ec2-3637-872f-855b5253364e> .
+
+<http://d.opencalais.com/pershash-1/203d1a22-ade4-3998-808c-367c237130db>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Karen Settle" ;
+        c:confidencelevel    "0.788" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Karen Settle" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/cat/1>
+        a                    <http://s.opencalais.com/1/type/cat/DocCat> ;
+        c:docId              <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Education" ;
+        c:score              "1.000" .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Instance/5>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Childhood Degree in Education from Northwestern ]Oklahoma State University[.  On December 23, 1967, she was united in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:exact      "Oklahoma State University" ;
+        c:length     "25" ;
+        c:offset     "628" ;
+        c:prefix     "Childhood Degree in Education from Northwestern " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/86006a8e-d4dc-382e-b9b9-e6eecf3dd241> ;
+        c:suffix     ".  On December 23, 1967, she was united in" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/e9e27c26-4013-8712-a5f0-97dcdc412c26>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:latitude            "35.5607802899" ;
+        c:longitude           "-96.8460570462" ;
+        c:name                "Oklahoma,United States" ;
+        c:permid              "100229" ;
+        c:rcscode             "G:9H" ;
+        c:shortname           "Oklahoma" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Instance/42>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[(Thompson) Settle, was born August 16, 1946, at ]Alva[, Oklahoma, and passed away December 17, 2010, at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "345" ;
+        c:prefix     "(Thompson) Settle, was born August 16, 1946, at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:suffix     ", Oklahoma, and passed away December 17, 2010, at" .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Relevance/6>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ffe3480a-abe7-3145-bdfe-b1e4a35ad4cd> .
+
+<http://d.opencalais.com/conf/pershash-1/0ccb3a21-02a7-3be2-a874-059be1134cd7>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.539" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.606" ;
+        c:subject             <http://d.opencalais.com/pershash-1/0ccb3a21-02a7-3be2-a874-059be1134cd7> .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Instance/14>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Funeral services for ]Donna Lee Simmons[ will be 2:00 p.m. Wednesday, December 22, 2010,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:exact      "Donna Lee Simmons" ;
+        c:length     "17" ;
+        c:offset     "21" ;
+        c:prefix     "Funeral services for " ;
+        c:subject    <http://d.opencalais.com/pershash-1/61868d59-2d11-38b7-88f6-0532c8aec2b2> ;
+        c:suffix     " will be 2:00 p.m. Wednesday, December 22, 2010," .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/SocialTag/3>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Alva" ;
+        c:originalValue      "Alva" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/17f61973-ed95-369b-b381-dec22ce26b2a> .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Instance/55>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Memorial Hill Cemetery under the direction of ]Marshall Funeral Home of Alva[.  \nDonna Lee Simmons, daughter of the late Leroy]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:exact      "Marshall Funeral Home of Alva" ;
+        c:length     "29" ;
+        c:offset     "195" ;
+        c:prefix     "Memorial Hill Cemetery under the direction of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce> ;
+        c:suffix     ".  \nDonna Lee Simmons, daughter of the late Leroy" .
+
+<http://d.opencalais.com/conf/pershash-1/d413fd1a-a591-31c6-bad6-c22a74728a7a>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.994" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.996" ;
+        c:subject             <http://d.opencalais.com/pershash-1/d413fd1a-a591-31c6-bad6-c22a74728a7a> .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Instance/27>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[for animals.  She was known by all who knew ]her[ as a kind, loving, caring person.  \nBesides her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1188" ;
+        c:prefix     "for animals.  She was known by all who knew " ;
+        c:subject    <http://d.opencalais.com/pershash-1/61868d59-2d11-38b7-88f6-0532c8aec2b2> ;
+        c:suffix     " as a kind, loving, caring person.  \nBesides her" .
+
+<http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494/Relevance/16>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/991873e4-7d91-3af7-8ce1-cc3894a1c494> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/d413fd1a-a591-31c6-bad6-c22a74728a7a> .
+
+<http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oklahoma" .
+
+<http://d.opencalais.com/genericHasher-1/35a979c1-2108-3761-99bd-8c6f499ef6f2>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Enid" .

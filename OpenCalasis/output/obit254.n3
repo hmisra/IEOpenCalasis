@@ -1,0 +1,2423 @@
+#Relations: FamilyRelation, PersonAttributes, PersonCareer, PersonLocation, PersonRelation
+#City: Cherokee, Derby, Kiowa, Lexington, Manchester, Norman, Rogers, Sulphur, Wichita, Winfield
+#Facility: Lutheran Cemetery, Marshall Funeral Home of Alva
+#IndustryTerm: Funeral services
+#Organization: Zion Lutheran Church
+#Person: Barry Wiechman, Brayden Wiechman, Cecil Garrett, Edwin Cecil Garrett, Gayle Garrett, Hannah Wiechman, Jerri, Jessica Wiechman, Jewell (Boydstun) Garrett, Josh Wiechman, Kenneth Garrett, Lisa, Mark Bersche, Myron Wiechman, Nadine Marie Wiechman, Nadine Wiechman, Richard Fischer, Robert Lee Wiechman, Roberta Fischer, Thomas Wiechman, Vanita, Vernon Garrett, Wesley Wiechman
+#Position: Certified Nurse
+#ProvinceOrState: Arkansas, Kansas, Oklahoma
+#Region: northwestern Oklahoma, southern Kansas
+@prefix c:     <http://s.opencalais.com/1/pred/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Relevance/18>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/9abb6981-4d2b-33f7-92a3-a69ea679e03c> .
+
+<http://d.opencalais.com/conf/pershash-1/29d54092-8ec3-390d-8dc4-381219b69a85>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.983" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.99" ;
+        c:subject             <http://d.opencalais.com/pershash-1/29d54092-8ec3-390d-8dc4-381219b69a85> .
+
+<http://d.opencalais.com/genericHasher-1/34ab8827-da22-33c9-9e50-ac4688b17191>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "wife" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/25c0ec8f-3859-3b95-ba4d-384b25741f6d> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/12f63262-d626-3e2e-8389-4f6ba295561c> .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/104>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Oklahoma; and one sister, Gayle Garrett of ]Norman[, Oklahoma.  \nAlso surviving are six]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Norman" ;
+        c:length     "6" ;
+        c:offset     "1481" ;
+        c:prefix     "Oklahoma; and one sister, Gayle Garrett of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9151e5e3-7516-3755-8254-43b22f814748> ;
+        c:suffix     ", Oklahoma.  \nAlso surviving are six" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/82>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[4 days.    \nShe graduated from high school in ]Lexington[, Oklahoma. She became a Certified Nurse?s Aid]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Lexington" ;
+        c:length     "9" ;
+        c:offset     "509" ;
+        c:prefix     "4 days.    \nShe graduated from high school in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/31c9f65f-1590-3775-8127-e101ae75a0da> ;
+        c:suffix     ", Oklahoma. She became a Certified Nurse?s Aid" .
+
+<http://d.opencalais.com/pershash-1/f5727ce6-cf66-3a4a-8a1a-017d07797a9a>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Nadine Marie Wiechman" ;
+        c:confidencelevel    "0.993" ;
+        c:firstname          "Nadine" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Wiechman" ;
+        c:middlename         "Marie" ;
+        c:name               "Nadine Marie Wiechman" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/pershash-1/12f63262-d626-3e2e-8389-4f6ba295561c>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Vanita" ;
+        c:confidencelevel    "0.914" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Vanita" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/61>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ They have lived the past two years in Kiowa.  \n]She[ was a member of the Zion Lutheran Church in Alva]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "846" ;
+        c:prefix     " They have lived the past two years in Kiowa.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/f5727ce6-cf66-3a4a-8a1a-017d07797a9a> ;
+        c:suffix     " was a member of the Zion Lutheran Church in Alva" .
+
+<http://d.opencalais.com/genericHasher-1/a3864c41-f2b6-3bdc-a244-f6817c5d2d22>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/a42aa847-bb87-321b-bc0b-dff3554d8fff> , <http://d.opencalais.com/pershash-1/f5727ce6-cf66-3a4a-8a1a-017d07797a9a> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/40>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Brayden Wiechman of Rogers, Arkansas and ]Richard Fischer[ of Kiowa, Kansas; two great grandchildren, other]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Richard Fischer" ;
+        c:length     "15" ;
+        c:offset     "1727" ;
+        c:prefix     "Brayden Wiechman of Rogers, Arkansas and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b4ee3ae1-8c1d-3eba-8b7f-dac5fd29f3c5> ;
+        c:suffix     " of Kiowa, Kansas; two great grandchildren, other" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/19>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ They have lived the past two years in Kiowa.  \n]She was a member of the Zion Lutheran Church[ in Alva and enjoyed reading, crocheting,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "She was a member of the Zion Lutheran Church" ;
+        c:length     "44" ;
+        c:offset     "846" ;
+        c:prefix     " They have lived the past two years in Kiowa.  \n" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3e1810e3-b2de-3423-b7ea-ed036af6d939> ;
+        c:suffix     " in Alva and enjoyed reading, crocheting," .
+
+<http://d.opencalais.com/genericHasher-1/068492c2-e160-354b-aa3f-67e63a3444b0>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/38b1a271-79e9-32e2-937e-46a7579caf58> , <http://d.opencalais.com/pershash-1/d2c6bfee-d630-33ef-8ae8-0b58cb17239f> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Relevance/26>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/f5727ce6-cf66-3a4a-8a1a-017d07797a9a> .
+
+<http://d.opencalais.com/genericHasher-1/b9d9dbd3-4a9f-3b14-aac5-702c0964adde>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "wife" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/afa1981d-6290-3386-bd45-ab9aee3e8926> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/50af9c50-fa7e-339e-aa06-e331ab0874fe> .
+
+<http://d.opencalais.com/genericHasher-1/c64fac22-afe6-3d7a-a992-54851a1026ea>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Kiowa, Kansas" ;
+        c:person             <http://d.opencalais.com/pershash-1/50757f48-b468-3e4d-b369-2e702e8e25c8> .
+
+<http://d.opencalais.com/conf/pershash-1/ddd9616c-cc37-3491-8e11-2e973f3f85cd>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.983" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.99" ;
+        c:subject             <http://d.opencalais.com/pershash-1/ddd9616c-cc37-3491-8e11-2e973f3f85cd> .
+
+<http://d.opencalais.com/pershash-1/50757f48-b468-3e4d-b369-2e702e8e25c8>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Cecil Garrett" ;
+        c:confidencelevel    "0.928" ;
+        c:firstname          "Jewell" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Garrett" ;
+        c:name               "Cecil Garrett" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/112>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Garrett of Sulphur, Oklahoma; and one sister, ]Gayle Garrett of Norman, Oklahoma[.  \nAlso surviving are six grandchildren, Josh]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Gayle Garrett of Norman, Oklahoma" ;
+        c:length     "33" ;
+        c:offset     "1464" ;
+        c:prefix     "Garrett of Sulphur, Oklahoma; and one sister, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c6e23762-f691-3618-bffc-f9b8c1277b68> ;
+        c:suffix     ".  \nAlso surviving are six grandchildren, Josh" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/SocialTag/4>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "2" ;
+        c:name               "Rogers" ;
+        c:originalValue      "Rogers" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/d3c2f5e3-5fd2-3b2f-86cd-598afcf26e57> .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/90>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and his wife, Jerri, of Manchester, Oklahoma, ]Barry Wiechman[ and his wife, Vanita, of Winfield, Kansas, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Barry Wiechman" ;
+        c:length     "14" ;
+        c:offset     "1186" ;
+        c:prefix     "and his wife, Jerri, of Manchester, Oklahoma, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/25c0ec8f-3859-3b95-ba4d-384b25741f6d> ;
+        c:suffix     " and his wife, Vanita, of Winfield, Kansas, and" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/69>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[made their home in northwestern Oklahoma and ]southern Kansas[ moving to Alva in 1994.  They have lived the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "southern Kansas" ;
+        c:length     "15" ;
+        c:offset     "758" ;
+        c:prefix     "made their home in northwestern Oklahoma and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/84a164c4-aa39-3678-82f9-06195aadcaf4> ;
+        c:suffix     " moving to Alva in 1994.  They have lived the" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/48>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and his wife, Vanita, of Winfield, Kansas, and ]Thomas Wiechman and his wife, Lisa, of Rogers, Arkansas[; one daughter, Roberta Fischer of Kiowa, Kansas;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Thomas Wiechman and his wife, Lisa, of Rogers, Arkansas" ;
+        c:length     "55" ;
+        c:offset     "1248" ;
+        c:prefix     "and his wife, Vanita, of Winfield, Kansas, and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/068492c2-e160-354b-aa3f-67e63a3444b0> ;
+        c:suffix     "; one daughter, Roberta Fischer of Kiowa, Kansas;" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/27>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Oklahoma, Barry Wiechman and his wife, ]Vanita, of Winfield, Kansas[, and Thomas Wiechman and his wife, Lisa, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Vanita, of Winfield, Kansas" ;
+        c:length     "27" ;
+        c:offset     "1215" ;
+        c:prefix     "Oklahoma, Barry Wiechman and his wife, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/1d485684-8f9d-3436-87aa-039c6e19ff00> ;
+        c:suffix     ", and Thomas Wiechman and his wife, Lisa, of" .
+
+<http://d.opencalais.com/conf/pershash-1/61a94c59-2b5e-3ab1-8225-e79f14cfd655>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/61a94c59-2b5e-3ab1-8225-e79f14cfd655> .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Relevance/34>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/1be89cab-3ede-3881-b26f-be89e5573164> .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Relevance/13>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/50757f48-b468-3e4d-b369-2e702e8e25c8> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/6bf111ab-b520-30cb-3ebb-a79952139bc0>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Arkansas" ;
+        c:docId               <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:latitude            "36.3319" ;
+        c:longitude           "-94.1183" ;
+        c:name                "Rogers,Arkansas,United States" ;
+        c:shortname           "Rogers" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/45967035-de02-34f6-9427-2bff754999e2> .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/98>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Wiechman of Rogers, Arkansas, Hannah Wiechman of ]Rogers[, Arkansas, Brayden Wiechman of Rogers, Arkansas]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Rogers" ;
+        c:length     "6" ;
+        c:offset     "1668" ;
+        c:prefix     " Wiechman of Rogers, Arkansas, Hannah Wiechman of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/45967035-de02-34f6-9427-2bff754999e2> ;
+        c:suffix     ", Arkansas, Brayden Wiechman of Rogers, Arkansas" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/77>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[two brothers, Vernon Garrett of Lexington, ]Oklahoma[, and Kenneth Garrett of Sulphur, Oklahoma; and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "1396" ;
+        c:prefix     "two brothers, Vernon Garrett of Lexington, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", and Kenneth Garrett of Sulphur, Oklahoma; and" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Relevance/6>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/85fa5df5-e8f8-3641-92a0-99164b1ed72a> .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/56>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Kansas; three sons, Myron Wiechman and his wife, ]Jerri[, of Manchester, Oklahoma, Barry Wiechman and his]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Jerri" ;
+        c:length     "5" ;
+        c:offset     "1154" ;
+        c:prefix     " Kansas; three sons, Myron Wiechman and his wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/50af9c50-fa7e-339e-aa06-e331ab0874fe> ;
+        c:suffix     ", of Manchester, Oklahoma, Barry Wiechman and his" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/35>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Lexington, Oklahoma, and Kenneth Garrett of ]Sulphur[, Oklahoma; and one sister, Gayle Garrett of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Sulphur" ;
+        c:length     "7" ;
+        c:offset     "1429" ;
+        c:prefix     "of Lexington, Oklahoma, and Kenneth Garrett of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8d535566-dce2-37be-a656-44b8c4e3ab7b> ;
+        c:suffix     ", Oklahoma; and one sister, Gayle Garrett of" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/5>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Oklahoma and died January 5, 2010, at Kiowa, ]Kansas[, at the age of 80 years, 4 months, and 4 days.  ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Kansas" ;
+        c:length     "6" ;
+        c:offset     "417" ;
+        c:prefix     "Oklahoma and died January 5, 2010, at Kiowa, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> ;
+        c:suffix     ", at the age of 80 years, 4 months, and 4 days.  " .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Relevance/42>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/693b9b27-4f42-328f-8fcd-34d3f5c08cc5> .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/14>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[husband, Robert of Kiowa, Kansas; three sons, ]Myron Wiechman[ and his wife, Jerri, of Manchester, Oklahoma,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Myron Wiechman" ;
+        c:length     "14" ;
+        c:offset     "1125" ;
+        c:prefix     "husband, Robert of Kiowa, Kansas; three sons, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/afa1981d-6290-3386-bd45-ab9aee3e8926> ;
+        c:suffix     " and his wife, Jerri, of Manchester, Oklahoma," .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Relevance/21>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/df9c2599-eca0-3989-af26-3d2576904b3b> .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/cat/1>
+        a                    <http://s.opencalais.com/1/type/cat/DocCat> ;
+        c:docId              <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Human Interest" ;
+        c:score              "0.928" .
+
+<http://d.opencalais.com/conf/pershash-1/85fa5df5-e8f8-3641-92a0-99164b1ed72a>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.983" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.99" ;
+        c:subject             <http://d.opencalais.com/pershash-1/85fa5df5-e8f8-3641-92a0-99164b1ed72a> .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/107>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Cherokee, Oklahoma, Wesley Wiechman of Rogers, ]Arkansas[, Hannah Wiechman of Rogers, Arkansas, Brayden]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Arkansas" ;
+        c:length     "8" ;
+        c:offset     "1639" ;
+        c:prefix     "Cherokee, Oklahoma, Wesley Wiechman of Rogers, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/693b9b27-4f42-328f-8fcd-34d3f5c08cc5> ;
+        c:suffix     ", Hannah Wiechman of Rogers, Arkansas, Brayden" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/85>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[wife, Lisa, of Rogers, Arkansas; one daughter, ]Roberta Fischer of Kiowa, Kansas[; two brothers, Vernon Garrett of Lexington,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Roberta Fischer of Kiowa, Kansas" ;
+        c:length     "32" ;
+        c:offset     "1319" ;
+        c:prefix     "wife, Lisa, of Rogers, Arkansas; one daughter, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/094d688d-ed24-3322-8ef1-5c29740d425c> ;
+        c:suffix     "; two brothers, Vernon Garrett of Lexington," .
+
+<http://d.opencalais.com/genericHasher-1/8d535566-dce2-37be-a656-44b8c4e3ab7b>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Sulphur" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/64>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in death by a brother Edwin Cecil Garrett.  \n]Nadine[ is survived by her husband, Robert of Kiowa,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Nadine" ;
+        c:length     "6" ;
+        c:offset     "1053" ;
+        c:prefix     "in death by a brother Edwin Cecil Garrett.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/f5727ce6-cf66-3a4a-8a1a-017d07797a9a> ;
+        c:suffix     " is survived by her husband, Robert of Kiowa," .
+
+<http://d.opencalais.com/genericHasher-1/bd4381d3-224c-33ee-8709-5d50488fdce4>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:forenduserdisplay  "true" ;
+        c:organization       <http://d.opencalais.com/genericHasher-1/df9c2599-eca0-3989-af26-3d2576904b3b> ;
+        c:person             <http://d.opencalais.com/pershash-1/4fdc90e4-0b25-369e-b010-c8d0f068a1af> ;
+        c:position           "Certified Nurse" ;
+        c:status             "past" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/43>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[from high school in Lexington, Oklahoma. ]She[ became a Certified Nurse?s Aid and worked in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "530" ;
+        c:prefix     "from high school in Lexington, Oklahoma. " ;
+        c:subject    <http://d.opencalais.com/pershash-1/4fdc90e4-0b25-369e-b010-c8d0f068a1af> ;
+        c:suffix     " became a Certified Nurse?s Aid and worked in" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/22>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Edwin Cecil Garrett.  \nNadine is survived by ]her husband, Robert of Kiowa, Kansas[; three sons, Myron Wiechman and his wife, Jerri,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "her husband, Robert of Kiowa, Kansas" ;
+        c:length     "36" ;
+        c:offset     "1075" ;
+        c:prefix     "Edwin Cecil Garrett.  \nNadine is survived by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/fa5493e4-d44e-3106-94e3-d7a9bea3255b> ;
+        c:suffix     "; three sons, Myron Wiechman and his wife, Jerri," .
+
+<http://d.opencalais.com/genericHasher-1/693b9b27-4f42-328f-8fcd-34d3f5c08cc5>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Arkansas" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Relevance/29>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/396df689-05ca-3395-95a7-d067a1624347> .
+
+<http://d.opencalais.com/pershash-1/9abb6981-4d2b-33f7-92a3-a69ea679e03c>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Gayle Garrett" ;
+        c:confidencelevel    "0.997" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Gayle Garrett" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/93>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Manchester, Oklahoma, Barry Wiechman and ]his wife, Vanita, of Winfield, Kansas[, and Thomas Wiechman and his wife, Lisa, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "his wife, Vanita, of Winfield, Kansas" ;
+        c:length     "37" ;
+        c:offset     "1205" ;
+        c:prefix     "of Manchester, Oklahoma, Barry Wiechman and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/34ab8827-da22-33c9-9e50-ac4688b17191> ;
+        c:suffix     ", and Thomas Wiechman and his wife, Lisa, of" .
+
+<http://d.opencalais.com/genericHasher-1/41b739c0-366f-3a3e-9e5c-e3ff9ec845b2>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Cherokee" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/72>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Winfield, Kansas, and Thomas Wiechman and ]his wife, Lisa, of Rogers, Arkansas[; one daughter, Roberta Fischer of Kiowa, Kansas;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "his wife, Lisa, of Rogers, Arkansas" ;
+        c:length     "35" ;
+        c:offset     "1268" ;
+        c:prefix     "of Winfield, Kansas, and Thomas Wiechman and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9bec6fbc-915f-3105-991e-ebb5e1a634f3> ;
+        c:suffix     "; one daughter, Roberta Fischer of Kiowa, Kansas;" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Relevance/1>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/afd8ff93-7063-39c2-abb9-d00822af3930> .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/51>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[may be made through the funeral home to the ]Zion Lutheran Church[. \n\t\t\t]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Zion Lutheran Church" ;
+        c:length     "20" ;
+        c:offset     "1871" ;
+        c:prefix     "may be made through the funeral home to the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/df9c2599-eca0-3989-af26-3d2576904b3b> ;
+        c:suffix     ". \n\t\t\t" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/37aaa6d7-a9d5-a7d3-40d2-803fc1fc6650>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:latitude            "36.9939" ;
+        c:longitude           "-98.0372" ;
+        c:name                "Manchester,Oklahoma,United States" ;
+        c:shortname           "Manchester" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/6989e300-ff00-34ec-b8c5-6d41c4c0c205> .
+
+<http://d.opencalais.com/pershash-1/afd8ff93-7063-39c2-abb9-d00822af3930>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Kenneth Garrett" ;
+        c:confidencelevel    "0.993" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Kenneth Garrett" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/30>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ \nNadine is survived by her husband, Robert of ]Kiowa[, Kansas; three sons, Myron Wiechman and his]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Kiowa" ;
+        c:length     "5" ;
+        c:offset     "1098" ;
+        c:prefix     " \nNadine is survived by her husband, Robert of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/41aa2c9e-1c06-3424-8975-776edcc48f27> ;
+        c:suffix     ", Kansas; three sons, Myron Wiechman and his" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Relevance/37>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/6266dcae-60d6-394c-96f1-903c4633ea41> .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Relevance/16>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/b4ee3ae1-8c1d-3eba-8b7f-dac5fd29f3c5> .
+
+<http://d.opencalais.com/pershash-1/b4ee3ae1-8c1d-3eba-8b7f-dac5fd29f3c5>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Richard Fischer" ;
+        c:confidencelevel    "0.983" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Richard Fischer" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/974add09-2a6d-3c9e-bc92-6100c8c2f2de>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Kiowa" ;
+        c:person             <http://d.opencalais.com/pershash-1/a42aa847-bb87-321b-bc0b-dff3554d8fff> .
+
+<http://d.opencalais.com/genericHasher-1/8a731019-4e03-3ad9-af1e-a49716d88520>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonAttributes> ;
+        c:birthdate          "1929-09-01" ;
+        c:birthplace         <http://d.opencalais.com/genericHasher-1/31c9f65f-1590-3775-8127-e101ae75a0da> ;
+        c:forenduserdisplay  "false" ;
+        c:gender             "F" ;
+        c:person             <http://d.opencalais.com/pershash-1/4fdc90e4-0b25-369e-b010-c8d0f068a1af> .
+
+<http://d.opencalais.com/conf/pershash-1/f5727ce6-cf66-3a4a-8a1a-017d07797a9a>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.993" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.995" ;
+        c:subject             <http://d.opencalais.com/pershash-1/f5727ce6-cf66-3a4a-8a1a-017d07797a9a> .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/102>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Garrett.  \nNadine is survived by her husband, ]Robert of Kiowa, Kansas[; three sons, Myron Wiechman and his wife, Jerri,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Robert of Kiowa, Kansas" ;
+        c:length     "23" ;
+        c:offset     "1088" ;
+        c:prefix     "Garrett.  \nNadine is survived by her husband, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/974add09-2a6d-3c9e-bc92-6100c8c2f2de> ;
+        c:suffix     "; three sons, Myron Wiechman and his wife, Jerri," .
+
+<http://d.opencalais.com/conf/pershash-1/12f63262-d626-3e2e-8389-4f6ba295561c>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.914" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.932" ;
+        c:subject             <http://d.opencalais.com/pershash-1/12f63262-d626-3e2e-8389-4f6ba295561c> .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/80>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Wichita, Kansas, Jessica Wiechman, Cherokee, ]Oklahoma[, Wesley Wiechman of Rogers, Arkansas, Hannah]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "1602" ;
+        c:prefix     "of Wichita, Kansas, Jessica Wiechman, Cherokee, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", Wesley Wiechman of Rogers, Arkansas, Hannah" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Relevance/9>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce> .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/59>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[direction of Marshall Funeral Home of Alva.  \n]Nadine Marie Wiechman[, daughter of the late Cecil and  Jewell]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Nadine Marie Wiechman" ;
+        c:length     "21" ;
+        c:offset     "246" ;
+        c:prefix     "direction of Marshall Funeral Home of Alva.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/f5727ce6-cf66-3a4a-8a1a-017d07797a9a> ;
+        c:suffix     ", daughter of the late Cecil and  Jewell" .
+
+<http://d.opencalais.com/genericHasher-1/41aa2c9e-1c06-3424-8975-776edcc48f27>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Kiowa" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/8>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[is survived by her husband, Robert of Kiowa, ]Kansas[; three sons, Myron Wiechman and his wife, Jerri,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Kansas" ;
+        c:length     "6" ;
+        c:offset     "1105" ;
+        c:prefix     "is survived by her husband, Robert of Kiowa, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> ;
+        c:suffix     "; three sons, Myron Wiechman and his wife, Jerri," .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/38>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[wife, Lisa, of Rogers, Arkansas; one daughter, ]Roberta Fischer[ of Kiowa, Kansas; two brothers, Vernon Garrett]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Roberta Fischer" ;
+        c:length     "15" ;
+        c:offset     "1319" ;
+        c:prefix     "wife, Lisa, of Rogers, Arkansas; one daughter, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/ed402a6a-c7b2-3b13-a6cc-d5a62f05e7e5> ;
+        c:suffix     " of Kiowa, Kansas; two brothers, Vernon Garrett" .
+
+<http://d.opencalais.com/genericHasher-1/94f58be5-84f7-30d4-bf3d-804d3f1942cb>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Derby" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/17>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Arkansas, Hannah Wiechman of Rogers, Arkansas, ]Brayden Wiechman[ of Rogers, Arkansas and Richard Fischer of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Brayden Wiechman" ;
+        c:length     "16" ;
+        c:offset     "1686" ;
+        c:prefix     "Arkansas, Hannah Wiechman of Rogers, Arkansas, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/85fa5df5-e8f8-3641-92a0-99164b1ed72a> ;
+        c:suffix     " of Rogers, Arkansas and Richard Fischer of" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Relevance/24>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/61a94c59-2b5e-3ab1-8225-e79f14cfd655> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/a18de4e8-aac7-af4b-8265-a1e27a7c1478>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:latitude            "35.0147" ;
+        c:longitude           "-97.3353" ;
+        c:name                "Lexington,Oklahoma,United States" ;
+        c:shortname           "Lexington" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/31c9f65f-1590-3775-8127-e101ae75a0da> .
+
+<http://d.opencalais.com/genericHasher-1/c6e23762-f691-3618-bffc-f9b8c1277b68>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Norman" ;
+        c:person             <http://d.opencalais.com/pershash-1/9abb6981-4d2b-33f7-92a3-a69ea679e03c> .
+
+<http://d.opencalais.com/conf/pershash-1/50757f48-b468-3e4d-b369-2e702e8e25c8>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.928" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.928" ;
+        c:subject             <http://d.opencalais.com/pershash-1/50757f48-b468-3e4d-b369-2e702e8e25c8> .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/110>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[husband, Robert of Kiowa, Kansas; three sons, ]Myron Wiechman and his wife, Jerri, of Manchester, Oklahoma[, Barry Wiechman and his wife, Vanita, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Myron Wiechman and his wife, Jerri, of Manchester, Oklahoma" ;
+        c:length     "59" ;
+        c:offset     "1125" ;
+        c:prefix     "husband, Robert of Kiowa, Kansas; three sons, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/2b79f01c-24d6-31f1-b2dc-b66a810c0bdc> ;
+        c:suffix     ", Barry Wiechman and his wife, Vanita, of" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/SocialTag/2>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Kiowa" ;
+        c:originalValue      "Kiowa" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/8489a9b5-948e-37fa-bc77-b0617a67499c> .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/88>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Winfield, Kansas, and Thomas Wiechman and ]his[ wife, Lisa, of Rogers, Arkansas; one daughter,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "1268" ;
+        c:prefix     "of Winfield, Kansas, and Thomas Wiechman and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/d2c6bfee-d630-33ef-8ae8-0b58cb17239f> ;
+        c:suffix     " wife, Lisa, of Rogers, Arkansas; one daughter," .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/67>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[high school in Lexington, Oklahoma. She became ]a Certified Nurse[?s Aid and worked in various hospitals and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "a Certified Nurse" ;
+        c:length     "17" ;
+        c:offset     "541" ;
+        c:prefix     "high school in Lexington, Oklahoma. She became " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8a73e98e-4b09-3fb4-b2aa-611fbd0ba288> ;
+        c:suffix     "?s Aid and worked in various hospitals and" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/46>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Robert Lee Wiechman on October 2, 1960, at ]Derby[, Kansas.  They made their home in northwestern]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Derby" ;
+        c:length     "5" ;
+        c:offset     "692" ;
+        c:prefix     "Robert Lee Wiechman on October 2, 1960, at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/94f58be5-84f7-30d4-bf3d-804d3f1942cb> ;
+        c:suffix     ", Kansas.  They made their home in northwestern" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/25>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ \nShe was a member of the Zion Lutheran Church in ]Alva[ and enjoyed reading, crocheting, cooking,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "894" ;
+        c:prefix     " \nShe was a member of the Zion Lutheran Church in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce> ;
+        c:suffix     " and enjoyed reading, crocheting, cooking," .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Relevance/32>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Relevance/11>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/41aa2c9e-1c06-3424-8975-776edcc48f27> .
+
+<http://d.opencalais.com/genericHasher-1/9bec6fbc-915f-3105-991e-ebb5e1a634f3>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "wife" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/d2c6bfee-d630-33ef-8ae8-0b58cb17239f> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/38b1a271-79e9-32e2-937e-46a7579caf58> .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/96>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and Thomas Wiechman and his wife, Lisa, of ]Rogers[, Arkansas; one daughter, Roberta Fischer of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Rogers" ;
+        c:length     "6" ;
+        c:offset     "1287" ;
+        c:prefix     "and Thomas Wiechman and his wife, Lisa, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/45967035-de02-34f6-9427-2bff754999e2> ;
+        c:suffix     ", Arkansas; one daughter, Roberta Fischer of" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/75>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Kansas.  They made their home in northwestern ]Oklahoma[ and southern Kansas moving to Alva in 1994. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "745" ;
+        c:prefix     "Kansas.  They made their home in northwestern " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     " and southern Kansas moving to Alva in 1994. " .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Relevance/4>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/38b1a271-79e9-32e2-937e-46a7579caf58> .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/54>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Josh Wiechman, of Wichita, Kansas, ]Jessica Wiechman[, Cherokee, Oklahoma, Wesley Wiechman of Rogers,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Jessica Wiechman" ;
+        c:length     "16" ;
+        c:offset     "1574" ;
+        c:prefix     "Josh Wiechman, of Wichita, Kansas, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/61a94c59-2b5e-3ab1-8225-e79f14cfd655> ;
+        c:suffix     ", Cherokee, Oklahoma, Wesley Wiechman of Rogers," .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/3>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Kansas, Jessica Wiechman, Cherokee, Oklahoma, ]Wesley Wiechman[ of Rogers, Arkansas, Hannah Wiechman of Rogers,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Wesley Wiechman" ;
+        c:length     "15" ;
+        c:offset     "1612" ;
+        c:prefix     "Kansas, Jessica Wiechman, Cherokee, Oklahoma, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/29d54092-8ec3-390d-8dc4-381219b69a85> ;
+        c:suffix     " of Rogers, Arkansas, Hannah Wiechman of Rogers," .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/33>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Barry Wiechman and his wife, Vanita, of ]Winfield[, Kansas, and Thomas Wiechman and his wife, Lisa,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Winfield" ;
+        c:length     "8" ;
+        c:offset     "1226" ;
+        c:prefix     "Barry Wiechman and his wife, Vanita, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ed9e3cc9-794e-35ce-ad89-d27ad80f549e> ;
+        c:suffix     ", Kansas, and Thomas Wiechman and his wife, Lisa," .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7>
+        a                  <http://s.opencalais.com/1/type/sys/DocInfo> ;
+        c:calaisRequestID  "3104553a-7a89-f2b8-14d9-13c53606fa60" ;
+        c:docDate          "2015-05-26 17:19:19.753" ;
+        c:docTitle         "" ;
+        c:document         "Funeral services for Nadine Wiechman will be 2:00 p.m. Friday, January 8, 2010, at the Zion Lutheran Church with Pastor Mark Bersche officiating.  Interment will be in the Lutheran Cemetery under the direction of Marshall Funeral Home of Alva.  \nNadine Marie Wiechman, daughter of the late Cecil and  Jewell (Boydstun) Garrett was born on September 1, 1929, at Lexington, Oklahoma and died January 5, 2010, at Kiowa, Kansas, at the age of 80 years, 4 months, and 4 days.    \nShe graduated from high school in Lexington, Oklahoma. She became a Certified Nurse?s Aid and worked in various hospitals and nursing homes  around the area.  Nadine married Robert Lee Wiechman on October 2, 1960, at Derby, Kansas.  They made their home in northwestern Oklahoma and southern Kansas moving to Alva in 1994.  They have lived the past two years in Kiowa.  \nShe was a member of the Zion Lutheran Church in Alva and enjoyed reading, crocheting, cooking, talking and story telling.  \nBesides her parents, she was preceded in death by a brother Edwin Cecil Garrett.  \nNadine is survived by her husband, Robert of Kiowa, Kansas; three sons, Myron Wiechman and his wife, Jerri, of Manchester, Oklahoma, Barry Wiechman and his wife, Vanita, of Winfield, Kansas, and Thomas Wiechman and his wife, Lisa, of Rogers, Arkansas; one daughter, Roberta Fischer of Kiowa, Kansas; two brothers, Vernon Garrett of Lexington, Oklahoma, and Kenneth Garrett of Sulphur, Oklahoma; and one sister, Gayle Garrett of Norman, Oklahoma.  \nAlso surviving are six grandchildren, Josh Wiechman, of Wichita, Kansas, Jessica Wiechman, Cherokee, Oklahoma, Wesley Wiechman of Rogers, Arkansas, Hannah Wiechman of Rogers, Arkansas, Brayden Wiechman of Rogers, Arkansas and Richard Fischer of Kiowa, Kansas; two great grandchildren, other relatives and friends.  \nMemorials may be made through the funeral home to the Zion Lutheran Church. \n\t\t\t" ;
+        c:id               "http://id.opencalais.com/mjc2gEAMi36za47PI5auQQ" ;
+        c:ontology         "http://163.231.4.65/owlschema/8.3/onecalais.owl.allmetadata.xml" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Relevance/40>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/3d0158b5-9f8f-3cc4-907b-e7539bb7d46e> .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/12>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Rogers, Arkansas and Richard Fischer of Kiowa, ]Kansas[; two great grandchildren, other relatives and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Kansas" ;
+        c:length     "6" ;
+        c:offset     "1753" ;
+        c:prefix     "Rogers, Arkansas and Richard Fischer of Kiowa, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> ;
+        c:suffix     "; two great grandchildren, other relatives and" .
+
+<http://d.opencalais.com/genericHasher-1/9151e5e3-7516-3755-8254-43b22f814748>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Norman" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Relevance/19>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/94f58be5-84f7-30d4-bf3d-804d3f1942cb> .
+
+<http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Marshall Funeral Home of Alva" .
+
+<http://d.opencalais.com/genericHasher-1/ed9e3cc9-794e-35ce-ad89-d27ad80f549e>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Winfield" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/105>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ of Kiowa, Kansas; three sons, Myron Wiechman and ]his wife, Jerri, of Manchester, Oklahoma[, Barry Wiechman and his wife, Vanita, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "his wife, Jerri, of Manchester, Oklahoma" ;
+        c:length     "40" ;
+        c:offset     "1144" ;
+        c:prefix     " of Kiowa, Kansas; three sons, Myron Wiechman and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b9d9dbd3-4a9f-3b14-aac5-702c0964adde> ;
+        c:suffix     ", Barry Wiechman and his wife, Vanita, of" .
+
+<http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Kansas" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/83>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Kiowa, Kansas; two brothers, Vernon Garrett of ]Lexington[, Oklahoma, and Kenneth Garrett of Sulphur,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Lexington" ;
+        c:length     "9" ;
+        c:offset     "1385" ;
+        c:prefix     "Kiowa, Kansas; two brothers, Vernon Garrett of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/31c9f65f-1590-3775-8127-e101ae75a0da> ;
+        c:suffix     ", Oklahoma, and Kenneth Garrett of Sulphur," .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/62>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[cooking, talking and story telling.  \nBesides ]her[ parents, she was preceded in death by a brother]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "978" ;
+        c:prefix     "cooking, talking and story telling.  \nBesides " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f5727ce6-cf66-3a4a-8a1a-017d07797a9a> ;
+        c:suffix     " parents, she was preceded in death by a brother" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/41>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Marie Wiechman, daughter of the late Cecil and  ]Jewell (Boydstun) Garrett[ was born on September 1, 1929, at Lexington,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Jewell (Boydstun) Garrett" ;
+        c:length     "25" ;
+        c:offset     "301" ;
+        c:prefix     "Marie Wiechman, daughter of the late Cecil and  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/4fdc90e4-0b25-369e-b010-c8d0f068a1af> ;
+        c:suffix     " was born on September 1, 1929, at Lexington," .
+
+<http://d.opencalais.com/genericHasher-1/1be89cab-3ede-3881-b26f-be89e5573164>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Wichita" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/20>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Roberta Fischer of Kiowa, Kansas; two brothers, ]Vernon Garrett[ of Lexington, Oklahoma, and Kenneth Garrett of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Vernon Garrett" ;
+        c:length     "14" ;
+        c:offset     "1367" ;
+        c:prefix     "Roberta Fischer of Kiowa, Kansas; two brothers, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/fcabc127-2a87-37f9-96eb-ec9ff2c0396f> ;
+        c:suffix     " of Lexington, Oklahoma, and Kenneth Garrett of" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Relevance/27>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/12f63262-d626-3e2e-8389-4f6ba295561c> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/73710012-058d-ad2b-a26b-ae426571d9df>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:latitude            "35.2225" ;
+        c:longitude           "-97.4392" ;
+        c:name                "Norman,Oklahoma,United States" ;
+        c:shortname           "Norman" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/9151e5e3-7516-3755-8254-43b22f814748> .
+
+<http://d.opencalais.com/conf/pershash-1/9abb6981-4d2b-33f7-92a3-a69ea679e03c>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.997" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.998" ;
+        c:subject             <http://d.opencalais.com/pershash-1/9abb6981-4d2b-33f7-92a3-a69ea679e03c> .
+
+<http://d.opencalais.com/genericHasher-1/0d3ea8a0-d1db-3e33-b15e-aef20d9cec03>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Rogers" ;
+        c:person             <http://d.opencalais.com/pershash-1/396df689-05ca-3395-95a7-d067a1624347> .
+
+<http://d.opencalais.com/genericHasher-1/17ec12d7-0cc3-366d-8e19-4fcfba65fc83>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Lexington" ;
+        c:person             <http://d.opencalais.com/pershash-1/fcabc127-2a87-37f9-96eb-ec9ff2c0396f> .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/91>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Manchester, Oklahoma, Barry Wiechman and ]his[ wife, Vanita, of Winfield, Kansas, and Thomas]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "1205" ;
+        c:prefix     "of Manchester, Oklahoma, Barry Wiechman and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/25c0ec8f-3859-3b95-ba4d-384b25741f6d> ;
+        c:suffix     " wife, Vanita, of Winfield, Kansas, and Thomas" .
+
+<http://d.opencalais.com/pershash-1/25c0ec8f-3859-3b95-ba4d-384b25741f6d>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Barry Wiechman" ;
+        c:confidencelevel    "0.992" ;
+        c:firstname          "Barry" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Wiechman" ;
+        c:name               "Barry Wiechman" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/pershash-1/96395930-1132-386a-840c-50cdd59d1444>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Edwin Cecil Garrett" ;
+        c:confidencelevel    "0.996" ;
+        c:firstname          "Edwin" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Garrett" ;
+        c:middlename         "Cecil" ;
+        c:name               "Edwin Cecil Garrett" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/afd8ff93-7063-39c2-abb9-d00822af3930>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.993" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.99" ;
+        c:subject             <http://d.opencalais.com/pershash-1/afd8ff93-7063-39c2-abb9-d00822af3930> .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/70>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[parents, she was preceded in death by a brother ]Edwin Cecil Garrett[.  \nNadine is survived by her husband, Robert of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Edwin Cecil Garrett" ;
+        c:length     "19" ;
+        c:offset     "1030" ;
+        c:prefix     "parents, she was preceded in death by a brother " ;
+        c:subject    <http://d.opencalais.com/pershash-1/96395930-1132-386a-840c-50cdd59d1444> ;
+        c:suffix     ".  \nNadine is survived by her husband, Robert of" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/49>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[be 2:00 p.m. Friday, January 8, 2010, at the ]Zion Lutheran Church[ with Pastor Mark Bersche officiating.  Interment]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Zion Lutheran Church" ;
+        c:length     "20" ;
+        c:offset     "87" ;
+        c:prefix     "be 2:00 p.m. Friday, January 8, 2010, at the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/df9c2599-eca0-3989-af26-3d2576904b3b> ;
+        c:suffix     " with Pastor Mark Bersche officiating.  Interment" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/28>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Lexington, Oklahoma and died January 5, 2010, at ]Kiowa[, Kansas, at the age of 80 years, 4 months, and 4]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Kiowa" ;
+        c:length     "5" ;
+        c:offset     "410" ;
+        c:prefix     " Lexington, Oklahoma and died January 5, 2010, at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/41aa2c9e-1c06-3424-8975-776edcc48f27> ;
+        c:suffix     ", Kansas, at the age of 80 years, 4 months, and 4" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Relevance/35>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/d2c6bfee-d630-33ef-8ae8-0b58cb17239f> .
+
+<http://d.opencalais.com/genericHasher-1/e651701c-06f9-3c82-b999-8ec11b693560>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Wichita" ;
+        c:person             <http://d.opencalais.com/pershash-1/ddd9616c-cc37-3491-8e11-2e973f3f85cd> .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Relevance/14>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8d535566-dce2-37be-a656-44b8c4e3ab7b> .
+
+<http://d.opencalais.com/conf/pershash-1/b4ee3ae1-8c1d-3eba-8b7f-dac5fd29f3c5>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.983" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.99" ;
+        c:subject             <http://d.opencalais.com/pershash-1/b4ee3ae1-8c1d-3eba-8b7f-dac5fd29f3c5> .
+
+<http://d.opencalais.com/pershash-1/38b1a271-79e9-32e2-937e-46a7579caf58>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Lisa" ;
+        c:confidencelevel    "0.988" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Lisa" ;
+        c:nationality        "American" ;
+        c:persontype         "entertainment" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/meta>
+        a                 <http://s.opencalais.com/1/type/sys/DocInfoMeta> ;
+        c:contentType     "text/raw" ;
+        c:docId           <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:language        "English" ;
+        c:processingVer   "AllMetadata" ;
+        c:serverVersion   "OneCalais_8.3-RELEASE:364" ;
+        c:signature       "digestalg-1|uWJ3/XEWYto4DYImXGfbmcNR5G4=|dLQ6Hb8dJ00SaVyutTtBAtoXAaKTmA988uoygv8igQEKZC61P9BCFA==" ;
+        c:stagsVer        "OneCalais_8.3-RELEASE-b11-2015-03-25_18:29:00" ;
+        c:submissionDate  "2015-05-26 17:19:19.392" ;
+        c:submitterCode   "0ca6a864-5659-789d-5f32-f365f695e757" .
+
+<http://d.opencalais.com/pershash-1/a42aa847-bb87-321b-bc0b-dff3554d8fff>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Robert Lee Wiechman" ;
+        c:confidencelevel    "0.998" ;
+        c:firstname          "Robert" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Wiechman" ;
+        c:middlename         "Lee" ;
+        c:name               "Robert Lee Wiechman" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/d6fdc282-96dc-3b88-b3c6-61dea569c123>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Rogers" ;
+        c:person             <http://d.opencalais.com/pershash-1/38b1a271-79e9-32e2-937e-46a7579caf58> .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/100>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[nursing homes  around the area.  Nadine married ]Robert Lee Wiechman[ on October 2, 1960, at Derby, Kansas.  They made]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Robert Lee Wiechman" ;
+        c:length     "19" ;
+        c:offset     "649" ;
+        c:prefix     "nursing homes  around the area.  Nadine married " ;
+        c:subject    <http://d.opencalais.com/pershash-1/a42aa847-bb87-321b-bc0b-dff3554d8fff> ;
+        c:suffix     " on October 2, 1960, at Derby, Kansas.  They made" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/99>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Rogers, Arkansas, Brayden Wiechman of ]Rogers[, Arkansas and Richard Fischer of Kiowa, Kansas;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Rogers" ;
+        c:length     "6" ;
+        c:offset     "1706" ;
+        c:prefix     "of Rogers, Arkansas, Brayden Wiechman of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/45967035-de02-34f6-9427-2bff754999e2> ;
+        c:suffix     ", Arkansas and Richard Fischer of Kiowa, Kansas;" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/78>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Oklahoma, and Kenneth Garrett of Sulphur, ]Oklahoma[; and one sister, Gayle Garrett of Norman,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "1438" ;
+        c:prefix     "Oklahoma, and Kenneth Garrett of Sulphur, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     "; and one sister, Gayle Garrett of Norman," .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Relevance/7>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8c173672-3a05-352d-b76a-862209e52161> .
+
+<http://d.opencalais.com/pershash-1/50af9c50-fa7e-339e-aa06-e331ab0874fe>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Jerri" ;
+        c:confidencelevel    "0.914" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Jerri" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/57>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Kansas; three sons, Myron Wiechman and his wife, ]Jerri, of Manchester, Oklahoma[, Barry Wiechman and his wife, Vanita, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Jerri, of Manchester, Oklahoma" ;
+        c:length     "30" ;
+        c:offset     "1154" ;
+        c:prefix     " Kansas; three sons, Myron Wiechman and his wife, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/cbf84ca4-ac4d-3480-be3d-2498bd68da70> ;
+        c:suffix     ", Barry Wiechman and his wife, Vanita, of" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/36>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Oklahoma, Wesley Wiechman of Rogers, Arkansas, ]Hannah Wiechman of Rogers, Arkansas[, Brayden Wiechman of Rogers, Arkansas and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Hannah Wiechman of Rogers, Arkansas" ;
+        c:length     "35" ;
+        c:offset     "1649" ;
+        c:prefix     "Oklahoma, Wesley Wiechman of Rogers, Arkansas, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0d3ea8a0-d1db-3e33-b15e-aef20d9cec03> ;
+        c:suffix     ", Brayden Wiechman of Rogers, Arkansas and" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/6>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Lee Wiechman on October 2, 1960, at Derby, ]Kansas[.  They made their home in northwestern Oklahoma]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Kansas" ;
+        c:length     "6" ;
+        c:offset     "699" ;
+        c:prefix     "Lee Wiechman on October 2, 1960, at Derby, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> ;
+        c:suffix     ".  They made their home in northwestern Oklahoma" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Relevance/43>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/ac7dbb19-9943-3942-9831-9837d2161afa> .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/15>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ of Kiowa, Kansas; three sons, Myron Wiechman and ]his[ wife, Jerri, of Manchester, Oklahoma, Barry]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "1144" ;
+        c:prefix     " of Kiowa, Kansas; three sons, Myron Wiechman and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/afa1981d-6290-3386-bd45-ab9aee3e8926> ;
+        c:suffix     " wife, Jerri, of Manchester, Oklahoma, Barry" .
+
+<http://d.opencalais.com/conf/pershash-1/3d0158b5-9f8f-3cc4-907b-e7539bb7d46e>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.896" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.934" ;
+        c:subject             <http://d.opencalais.com/pershash-1/3d0158b5-9f8f-3cc4-907b-e7539bb7d46e> .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Relevance/22>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/6989e300-ff00-34ec-b8c5-6d41c4c0c205> .
+
+<http://d.opencalais.com/genericHasher-1/32ace862-3039-3fea-9bae-bb80d8adeaaa>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Sulphur" ;
+        c:person             <http://d.opencalais.com/pershash-1/afd8ff93-7063-39c2-abb9-d00822af3930> .
+
+<http://d.opencalais.com/genericHasher-1/094d688d-ed24-3322-8ef1-5c29740d425c>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Kiowa" ;
+        c:person             <http://d.opencalais.com/pershash-1/ed402a6a-c7b2-3b13-a6cc-d5a62f05e7e5> .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/108>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Rogers, Arkansas, Hannah Wiechman of Rogers, ]Arkansas[, Brayden Wiechman of Rogers, Arkansas and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Arkansas" ;
+        c:length     "8" ;
+        c:offset     "1676" ;
+        c:prefix     "of Rogers, Arkansas, Hannah Wiechman of Rogers, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/693b9b27-4f42-328f-8fcd-34d3f5c08cc5> ;
+        c:suffix     ", Brayden Wiechman of Rogers, Arkansas and" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/86>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[are six grandchildren, Josh Wiechman, of ]Wichita[, Kansas, Jessica Wiechman, Cherokee, Oklahoma,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Wichita" ;
+        c:length     "7" ;
+        c:offset     "1557" ;
+        c:prefix     "are six grandchildren, Josh Wiechman, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/1be89cab-3ede-3881-b26f-be89e5573164> ;
+        c:suffix     ", Kansas, Jessica Wiechman, Cherokee, Oklahoma," .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/65>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Edwin Cecil Garrett.  \nNadine is survived by ]her[ husband, Robert of Kiowa, Kansas; three sons,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1075" ;
+        c:prefix     "Edwin Cecil Garrett.  \nNadine is survived by " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f5727ce6-cf66-3a4a-8a1a-017d07797a9a> ;
+        c:suffix     " husband, Robert of Kiowa, Kansas; three sons," .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/44>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[from high school in Lexington, Oklahoma. ]She became a Certified Nurse[?s Aid and worked in various hospitals and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "She became a Certified Nurse" ;
+        c:length     "28" ;
+        c:offset     "530" ;
+        c:prefix     "from high school in Lexington, Oklahoma. " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/bd4381d3-224c-33ee-8709-5d50488fdce4> ;
+        c:suffix     "?s Aid and worked in various hospitals and" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/23>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in the Lutheran Cemetery under the direction of ]Marshall Funeral Home of Alva[.  \nNadine Marie Wiechman, daughter of the late]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Marshall Funeral Home of Alva" ;
+        c:length     "29" ;
+        c:offset     "213" ;
+        c:prefix     "in the Lutheran Cemetery under the direction of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce> ;
+        c:suffix     ".  \nNadine Marie Wiechman, daughter of the late" .
+
+<http://d.opencalais.com/pershash-1/afa1981d-6290-3386-bd45-ab9aee3e8926>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Myron Wiechman" ;
+        c:confidencelevel    "0.992" ;
+        c:firstname          "Myron" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Wiechman" ;
+        c:name               "Myron Wiechman" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/1d485684-8f9d-3436-87aa-039c6e19ff00>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Winfield" ;
+        c:person             <http://d.opencalais.com/pershash-1/12f63262-d626-3e2e-8389-4f6ba295561c> .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Relevance/30>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/84a164c4-aa39-3678-82f9-06195aadcaf4> .
+
+<http://d.opencalais.com/genericHasher-1/a893543e-62ca-32e7-afa2-6c5e555c25aa>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/12f63262-d626-3e2e-8389-4f6ba295561c> , <http://d.opencalais.com/pershash-1/25c0ec8f-3859-3b95-ba4d-384b25741f6d> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/94>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Bersche officiating.  Interment will be in the ]Lutheran Cemetery[ under the direction of Marshall Funeral Home of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Lutheran Cemetery" ;
+        c:length     "17" ;
+        c:offset     "172" ;
+        c:prefix     "Bersche officiating.  Interment will be in the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/6266dcae-60d6-394c-96f1-903c4633ea41> ;
+        c:suffix     " under the direction of Marshall Funeral Home of" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/73>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[was born on September 1, 1929, at Lexington, ]Oklahoma[ and died January 5, 2010, at Kiowa, Kansas, at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "372" ;
+        c:prefix     "was born on September 1, 1929, at Lexington, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     " and died January 5, 2010, at Kiowa, Kansas, at" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Relevance/2>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/29d54092-8ec3-390d-8dc4-381219b69a85> .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/52>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[sons, Myron Wiechman and his wife, Jerri, of ]Manchester[, Oklahoma, Barry Wiechman and his wife, Vanita,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Manchester" ;
+        c:length     "10" ;
+        c:offset     "1164" ;
+        c:prefix     "sons, Myron Wiechman and his wife, Jerri, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/6989e300-ff00-34ec-b8c5-6d41c4c0c205> ;
+        c:suffix     ", Oklahoma, Barry Wiechman and his wife, Vanita," .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/31>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Arkansas; one daughter, Roberta Fischer of ]Kiowa[, Kansas; two brothers, Vernon Garrett of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Kiowa" ;
+        c:length     "5" ;
+        c:offset     "1338" ;
+        c:prefix     "Arkansas; one daughter, Roberta Fischer of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/41aa2c9e-1c06-3424-8975-776edcc48f27> ;
+        c:suffix     ", Kansas; two brothers, Vernon Garrett of" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/1>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Vernon Garrett of Lexington, Oklahoma, and ]Kenneth Garrett[ of Sulphur, Oklahoma; and one sister, Gayle]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Kenneth Garrett" ;
+        c:length     "15" ;
+        c:offset     "1410" ;
+        c:prefix     "Vernon Garrett of Lexington, Oklahoma, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/afd8ff93-7063-39c2-abb9-d00822af3930> ;
+        c:suffix     " of Sulphur, Oklahoma; and one sister, Gayle" .
+
+<http://d.opencalais.com/genericHasher-1/d91627ab-8a98-3bef-8a0b-289f54848b92>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Rogers" ;
+        c:person             <http://d.opencalais.com/pershash-1/29d54092-8ec3-390d-8dc4-381219b69a85> .
+
+<http://d.opencalais.com/pershash-1/ed402a6a-c7b2-3b13-a6cc-d5a62f05e7e5>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Roberta Fischer" ;
+        c:confidencelevel    "0.997" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Roberta Fischer" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/10>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[one daughter, Roberta Fischer of Kiowa, ]Kansas[; two brothers, Vernon Garrett of Lexington,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Kansas" ;
+        c:length     "6" ;
+        c:offset     "1345" ;
+        c:prefix     "one daughter, Roberta Fischer of Kiowa, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> ;
+        c:suffix     "; two brothers, Vernon Garrett of Lexington," .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Relevance/38>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/45967035-de02-34f6-9427-2bff754999e2> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/0c2d6e47-2218-0dd6-0e1a-37c1032ecb15>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:latitude            "34.5078" ;
+        c:longitude           "-96.9681" ;
+        c:name                "Sulphur,Oklahoma,United States" ;
+        c:shortname           "Sulphur" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/8d535566-dce2-37be-a656-44b8c4e3ab7b> .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Relevance/17>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/4fdc90e4-0b25-369e-b010-c8d0f068a1af> .
+
+<http://d.opencalais.com/pershash-1/4fdc90e4-0b25-369e-b010-c8d0f068a1af>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Jewell Garrett" ;
+        c:confidencelevel    "0.971" ;
+        c:firstname          "Jewell" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Garrett" ;
+        c:name               "Jewell (Boydstun) Garrett" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/df9c2599-eca0-3989-af26-3d2576904b3b>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Zion Lutheran Church" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/8c173672-3a05-352d-b76a-862209e52161>
+        a                    <http://s.opencalais.com/1/type/em/e/Region> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "northwestern Oklahoma" .
+
+<http://d.opencalais.com/genericHasher-1/c1d86475-23aa-39dd-a701-a27c6441364d>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:date                "1960-10-02" ;
+        c:datestring          "October 2, 1960" ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/a42aa847-bb87-321b-bc0b-dff3554d8fff> , <http://d.opencalais.com/pershash-1/f5727ce6-cf66-3a4a-8a1a-017d07797a9a> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/103>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ 8, 2010, at the Zion Lutheran Church with Pastor ]Mark Bersche[ officiating.  Interment will be in the Lutheran]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Mark Bersche" ;
+        c:length     "12" ;
+        c:offset     "120" ;
+        c:prefix     " 8, 2010, at the Zion Lutheran Church with Pastor " ;
+        c:subject    <http://d.opencalais.com/pershash-1/3d0158b5-9f8f-3cc4-907b-e7539bb7d46e> ;
+        c:suffix     " officiating.  Interment will be in the Lutheran" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/81>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Garrett was born on September 1, 1929, at ]Lexington[, Oklahoma and died January 5, 2010, at Kiowa,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Lexington" ;
+        c:length     "9" ;
+        c:offset     "361" ;
+        c:prefix     "Garrett was born on September 1, 1929, at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/31c9f65f-1590-3775-8127-e101ae75a0da> ;
+        c:suffix     ", Oklahoma and died January 5, 2010, at Kiowa," .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/60>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[hospitals and nursing homes  around the area.  ]Nadine[ married Robert Lee Wiechman on October 2, 1960,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Nadine" ;
+        c:length     "6" ;
+        c:offset     "634" ;
+        c:prefix     "hospitals and nursing homes  around the area.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f5727ce6-cf66-3a4a-8a1a-017d07797a9a> ;
+        c:suffix     " married Robert Lee Wiechman on October 2, 1960," .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/9>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Wiechman and his wife, Vanita, of Winfield, ]Kansas[, and Thomas Wiechman and his wife, Lisa, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Kansas" ;
+        c:length     "6" ;
+        c:offset     "1236" ;
+        c:prefix     "Wiechman and his wife, Vanita, of Winfield, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> ;
+        c:suffix     ", and Thomas Wiechman and his wife, Lisa, of" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/39>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Marie Wiechman, daughter of the late Cecil and  ]Jewell (Boydstun) Garrett was born on September 1, 1929, at Lexington, Oklahoma[ and died January 5, 2010, at Kiowa, Kansas, at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Jewell (Boydstun) Garrett was born on September 1, 1929, at Lexington, Oklahoma" ;
+        c:length     "79" ;
+        c:offset     "301" ;
+        c:prefix     "Marie Wiechman, daughter of the late Cecil and  " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8a731019-4e03-3ad9-af1e-a49716d88520> ;
+        c:suffix     " and died January 5, 2010, at Kiowa, Kansas, at" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/ComponentVersions>
+        a          <http://s.opencalais.com/1/type/sys/ComponentVersions> ;
+        c:docId    <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:version  "config-negativeSignature:258:258" , "FrenchIM:OneCalais_8.3-RELEASE:198" , "config-cse:271:271" , "OneCalais:OneCalais_8.3-RELEASE:364" , "OA Index:201505252208:201505252208" , "WatchDog:OneCalais_8.3-RELEASE:113" , "config-refineries:258:258" , "People Index:201505261608:201505261608" , "SECHeaderMetadataIM:OneCalais_8.3-RELEASE:198" , "Deals Index:201505261613:201505261613" , "index-vessels:201505231718:201505231718" , "config-vessels:258:258" , "Collector:OneCalais_8.3-RELEASE:113" , "NextTags:OneCalais_8.3-RELEASE:113" , "Housekeeper:OneCalais_8.3-RELEASE:113" , "SocialTags Index:201505191038:201505191038" , "config-physicalAssets-ports:258:258" , "OA Override:271:271" , "config-sca-DataPackage:34:34" , "Dial4J:OneCalais_8.3-RELEASE:198" , "BlackList:264:264" , "com.clearforest.infoext.dial4j.plugins-basistechconfig:OneCalais_8.3-RELEASE:225" , "BrokerResearchIM:OneCalais_8.3-RELEASE:198" , "OneCalaisIM:OneCalais_8.3-RELEASE:198" , "People Override:258:258" , "AutocoderRuntimeIM:OneCalais_8.3-RELEASE:198" , "SpanishIM:OneCalais_8.3-RELEASE:198" , "config-drugs:258:258" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/18>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ 1960, at Derby, Kansas.  They made their home in ]northwestern Oklahoma[ and southern Kansas moving to Alva in 1994. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "northwestern Oklahoma" ;
+        c:length     "21" ;
+        c:offset     "732" ;
+        c:prefix     " 1960, at Derby, Kansas.  They made their home in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8c173672-3a05-352d-b76a-862209e52161> ;
+        c:suffix     " and southern Kansas moving to Alva in 1994. " .
+
+<http://d.opencalais.com/genericHasher-1/e1bbcad8-00cc-3d3d-ae30-2cb90adf541a>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Kiowa" ;
+        c:person             <http://d.opencalais.com/pershash-1/b4ee3ae1-8c1d-3eba-8b7f-dac5fd29f3c5> .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Relevance/25>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/50af9c50-fa7e-339e-aa06-e331ab0874fe> .
+
+<http://d.opencalais.com/genericHasher-1/84a164c4-aa39-3678-82f9-06195aadcaf4>
+        a                    <http://s.opencalais.com/1/type/em/e/Region> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "southern Kansas" .
+
+<http://d.opencalais.com/pershash-1/fcabc127-2a87-37f9-96eb-ec9ff2c0396f>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Vernon Garrett" ;
+        c:confidencelevel    "0.983" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Vernon Garrett" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/25c0ec8f-3859-3b95-ba4d-384b25741f6d>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.992" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.994" ;
+        c:subject             <http://d.opencalais.com/pershash-1/25c0ec8f-3859-3b95-ba4d-384b25741f6d> .
+
+<http://d.opencalais.com/conf/pershash-1/96395930-1132-386a-840c-50cdd59d1444>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.996" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.997" ;
+        c:subject             <http://d.opencalais.com/pershash-1/96395930-1132-386a-840c-50cdd59d1444> .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/111>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Funeral services for ]Nadine Wiechman[ will be 2:00 p.m. Friday, January 8, 2010, at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Nadine Wiechman" ;
+        c:length     "15" ;
+        c:offset     "21" ;
+        c:prefix     "Funeral services for " ;
+        c:subject    <http://d.opencalais.com/pershash-1/ac7dbb19-9943-3942-9831-9837d2161afa> ;
+        c:suffix     " will be 2:00 p.m. Friday, January 8, 2010, at" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/SocialTag/3>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Northwestern Oklahoma" ;
+        c:originalValue      "Northwestern Oklahoma" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/c76425cf-bdfe-32cc-86ff-106154a3f7d7> .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/89>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Vernon Garrett of Lexington, Oklahoma, and ]Kenneth Garrett of Sulphur, Oklahoma[; and one sister, Gayle Garrett of Norman,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Kenneth Garrett of Sulphur, Oklahoma" ;
+        c:length     "36" ;
+        c:offset     "1410" ;
+        c:prefix     "Vernon Garrett of Lexington, Oklahoma, and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/32ace862-3039-3fea-9bae-bb80d8adeaaa> ;
+        c:suffix     "; and one sister, Gayle Garrett of Norman," .
+
+<http://d.opencalais.com/pershash-1/d2c6bfee-d630-33ef-8ae8-0b58cb17239f>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Thomas Wiechman" ;
+        c:confidencelevel    "0.992" ;
+        c:firstname          "Thomas" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Wiechman" ;
+        c:name               "Thomas Wiechman" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/68>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Oklahoma, Wesley Wiechman of Rogers, Arkansas, ]Hannah Wiechman[ of Rogers, Arkansas, Brayden Wiechman of Rogers,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Hannah Wiechman" ;
+        c:length     "15" ;
+        c:offset     "1649" ;
+        c:prefix     "Oklahoma, Wesley Wiechman of Rogers, Arkansas, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/396df689-05ca-3395-95a7-d067a1624347> ;
+        c:suffix     " of Rogers, Arkansas, Brayden Wiechman of Rogers," .
+
+<http://d.opencalais.com/genericHasher-1/fa5493e4-d44e-3106-94e3-d7a9bea3255b>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "husband" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/f5727ce6-cf66-3a4a-8a1a-017d07797a9a> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/a42aa847-bb87-321b-bc0b-dff3554d8fff> .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/47>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ \nAlso surviving are six grandchildren, ]Josh Wiechman[, of Wichita, Kansas, Jessica Wiechman, Cherokee,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Josh Wiechman" ;
+        c:length     "13" ;
+        c:offset     "1539" ;
+        c:prefix     " \nAlso surviving are six grandchildren, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/ddd9616c-cc37-3491-8e11-2e973f3f85cd> ;
+        c:suffix     ", of Wichita, Kansas, Jessica Wiechman, Cherokee," .
+
+<http://d.opencalais.com/pershash-1/ac7dbb19-9943-3942-9831-9837d2161afa>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Nadine Wiechman" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Nadine" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Wiechman" ;
+        c:name               "Nadine Wiechman" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/26>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[]Funeral services[ for Nadine Wiechman will be 2:00 p.m. Friday,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Funeral services" ;
+        c:length     "16" ;
+        c:offset     "0" ;
+        c:prefix     "" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee> ;
+        c:suffix     " for Nadine Wiechman will be 2:00 p.m. Friday," .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Relevance/33>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/31c9f65f-1590-3775-8127-e101ae75a0da> .
+
+<http://d.opencalais.com/conf/pershash-1/38b1a271-79e9-32e2-937e-46a7579caf58>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.988" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.932" ;
+        c:subject             <http://d.opencalais.com/pershash-1/38b1a271-79e9-32e2-937e-46a7579caf58> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/61f29abb-e794-d541-a717-7f9811b1ce02>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Kansas" ;
+        c:docId               <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:latitude            "37.6922" ;
+        c:longitude           "-97.3372" ;
+        c:name                "Wichita,Kansas,United States" ;
+        c:shortname           "Wichita" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/1be89cab-3ede-3881-b26f-be89e5573164> .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Relevance/12>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ed9e3cc9-794e-35ce-ad89-d27ad80f549e> .
+
+<http://d.opencalais.com/pershash-1/396df689-05ca-3395-95a7-d067a1624347>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Hannah Wiechman" ;
+        c:confidencelevel    "0.983" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Hannah Wiechman" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/a42aa847-bb87-321b-bc0b-dff3554d8fff>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.998" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.999" ;
+        c:subject             <http://d.opencalais.com/pershash-1/a42aa847-bb87-321b-bc0b-dff3554d8fff> .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/97>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Wiechman, Cherokee, Oklahoma, Wesley Wiechman of ]Rogers[, Arkansas, Hannah Wiechman of Rogers, Arkansas,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Rogers" ;
+        c:length     "6" ;
+        c:offset     "1631" ;
+        c:prefix     " Wiechman, Cherokee, Oklahoma, Wesley Wiechman of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/45967035-de02-34f6-9427-2bff754999e2> ;
+        c:suffix     ", Arkansas, Hannah Wiechman of Rogers, Arkansas," .
+
+<http://d.opencalais.com/conf/pershash-1/50af9c50-fa7e-339e-aa06-e331ab0874fe>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.914" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.932" ;
+        c:subject             <http://d.opencalais.com/pershash-1/50af9c50-fa7e-339e-aa06-e331ab0874fe> .
+
+<http://d.opencalais.com/pershash-1/3d0158b5-9f8f-3cc4-907b-e7539bb7d46e>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Mark Bersche" ;
+        c:confidencelevel    "0.896" ;
+        c:firstname          "Mark" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Bersche" ;
+        c:name               "Mark Bersche" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/76>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Wiechman and his wife, Jerri, of Manchester, ]Oklahoma[, Barry Wiechman and his wife, Vanita, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "1176" ;
+        c:prefix     "Wiechman and his wife, Jerri, of Manchester, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", Barry Wiechman and his wife, Vanita, of" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Relevance/5>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/afa1981d-6290-3386-bd45-ab9aee3e8926> .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/55>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Kansas, and Thomas Wiechman and his wife, ]Lisa, of Rogers, Arkansas[; one daughter, Roberta Fischer of Kiowa, Kansas;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Lisa, of Rogers, Arkansas" ;
+        c:length     "25" ;
+        c:offset     "1278" ;
+        c:prefix     "Kansas, and Thomas Wiechman and his wife, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/d6fdc282-96dc-3b88-b3c6-61dea569c123> ;
+        c:suffix     "; one daughter, Roberta Fischer of Kiowa, Kansas;" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/ded9f721-4214-61cc-b54b-1fe21ccd9065>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Kansas" ;
+        c:docId               <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:latitude            "37.5456" ;
+        c:longitude           "-97.2686" ;
+        c:name                "Derby,Kansas,United States" ;
+        c:shortname           "Derby" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/94f58be5-84f7-30d4-bf3d-804d3f1942cb> .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/4>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Kansas, Jessica Wiechman, Cherokee, Oklahoma, ]Wesley Wiechman of Rogers, Arkansas[, Hannah Wiechman of Rogers, Arkansas, Brayden]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Wesley Wiechman of Rogers, Arkansas" ;
+        c:length     "35" ;
+        c:offset     "1612" ;
+        c:prefix     "Kansas, Jessica Wiechman, Cherokee, Oklahoma, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/d91627ab-8a98-3bef-8a0b-289f54848b92> ;
+        c:suffix     ", Hannah Wiechman of Rogers, Arkansas, Brayden" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/34>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ \nNadine Marie Wiechman, daughter of the late ]Cecil[ and  Jewell (Boydstun) Garrett was born on]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Cecil" ;
+        c:length     "5" ;
+        c:offset     "290" ;
+        c:prefix     " \nNadine Marie Wiechman, daughter of the late " ;
+        c:subject    <http://d.opencalais.com/pershash-1/50757f48-b468-3e4d-b369-2e702e8e25c8> ;
+        c:suffix     " and  Jewell (Boydstun) Garrett was born on" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Relevance/41>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9151e5e3-7516-3755-8254-43b22f814748> .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/13>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Kansas, and Thomas Wiechman and his wife, ]Lisa[, of Rogers, Arkansas; one daughter, Roberta]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Lisa" ;
+        c:length     "4" ;
+        c:offset     "1278" ;
+        c:prefix     "Kansas, and Thomas Wiechman and his wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/38b1a271-79e9-32e2-937e-46a7579caf58> ;
+        c:suffix     ", of Rogers, Arkansas; one daughter, Roberta" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Relevance/20>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/ddd9616c-cc37-3491-8e11-2e973f3f85cd> .
+
+<http://d.opencalais.com/genericHasher-1/cbf84ca4-ac4d-3480-be3d-2498bd68da70>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Manchester" ;
+        c:person             <http://d.opencalais.com/pershash-1/50af9c50-fa7e-339e-aa06-e331ab0874fe> .
+
+<http://d.opencalais.com/pershash-1/29d54092-8ec3-390d-8dc4-381219b69a85>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Wesley Wiechman" ;
+        c:confidencelevel    "0.983" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Wesley Wiechman" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/106>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Thomas Wiechman and his wife, Lisa, of Rogers, ]Arkansas[; one daughter, Roberta Fischer of Kiowa, Kansas;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Arkansas" ;
+        c:length     "8" ;
+        c:offset     "1295" ;
+        c:prefix     "Thomas Wiechman and his wife, Lisa, of Rogers, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/693b9b27-4f42-328f-8fcd-34d3f5c08cc5> ;
+        c:suffix     "; one daughter, Roberta Fischer of Kiowa, Kansas;" .
+
+<http://d.opencalais.com/genericHasher-1/8a73e98e-4b09-3fb4-b2aa-611fbd0ba288>
+        a                    <http://s.opencalais.com/1/type/em/e/Position> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Certified Nurse" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/84>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[hospitals and nursing homes  around the area.  ]Nadine married Robert Lee Wiechman on October 2, 1960[, at Derby, Kansas.  They made their home in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Nadine married Robert Lee Wiechman on October 2, 1960" ;
+        c:length     "53" ;
+        c:offset     "634" ;
+        c:prefix     "hospitals and nursing homes  around the area.  " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c1d86475-23aa-39dd-a701-a27c6441364d> ;
+        c:suffix     ", at Derby, Kansas.  They made their home in" .
+
+<http://d.opencalais.com/genericHasher-1/45967035-de02-34f6-9427-2bff754999e2>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Rogers" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/63>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and story telling.  \nBesides her parents, ]she[ was preceded in death by a brother Edwin Cecil]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "991" ;
+        c:prefix     "and story telling.  \nBesides her parents, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f5727ce6-cf66-3a4a-8a1a-017d07797a9a> ;
+        c:suffix     " was preceded in death by a brother Edwin Cecil" .
+
+<http://d.opencalais.com/conf/pershash-1/afa1981d-6290-3386-bd45-ab9aee3e8926>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.992" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.994" ;
+        c:subject             <http://d.opencalais.com/pershash-1/afa1981d-6290-3386-bd45-ab9aee3e8926> .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/42>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[the age of 80 years, 4 months, and 4 days.    \n]She[ graduated from high school in Lexington,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "475" ;
+        c:prefix     "the age of 80 years, 4 months, and 4 days.    \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/4fdc90e4-0b25-369e-b010-c8d0f068a1af> ;
+        c:suffix     " graduated from high school in Lexington," .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/21>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[hospitals and nursing homes  around the area.  ]Nadine married Robert Lee Wiechman[ on October 2, 1960, at Derby, Kansas.  They made]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Nadine married Robert Lee Wiechman" ;
+        c:length     "34" ;
+        c:offset     "634" ;
+        c:prefix     "hospitals and nursing homes  around the area.  " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/fa5493e4-d44e-3106-94e3-d7a9bea3255b> ;
+        c:suffix     " on October 2, 1960, at Derby, Kansas.  They made" .
+
+<http://d.opencalais.com/genericHasher-1/2b79f01c-24d6-31f1-b2dc-b66a810c0bdc>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/50af9c50-fa7e-339e-aa06-e331ab0874fe> , <http://d.opencalais.com/pershash-1/afa1981d-6290-3386-bd45-ab9aee3e8926> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Relevance/28>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8a73e98e-4b09-3fb4-b2aa-611fbd0ba288> .
+
+<http://d.opencalais.com/pershash-1/ddd9616c-cc37-3491-8e11-2e973f3f85cd>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Josh Wiechman" ;
+        c:confidencelevel    "0.983" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Josh Wiechman" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/92>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Brayden Wiechman of Rogers, Arkansas and ]Richard Fischer of Kiowa, Kansas[; two great grandchildren, other relatives and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Richard Fischer of Kiowa, Kansas" ;
+        c:length     "32" ;
+        c:offset     "1727" ;
+        c:prefix     "Brayden Wiechman of Rogers, Arkansas and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e1bbcad8-00cc-3d3d-ae30-2cb90adf541a> ;
+        c:suffix     "; two great grandchildren, other relatives and" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/71>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Arkansas, Hannah Wiechman of Rogers, Arkansas, ]Brayden Wiechman of Rogers, Arkansas[ and Richard Fischer of Kiowa, Kansas; two great]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Brayden Wiechman of Rogers, Arkansas" ;
+        c:length     "36" ;
+        c:offset     "1686" ;
+        c:prefix     "Arkansas, Hannah Wiechman of Rogers, Arkansas, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c1b4bf8d-e4a7-30e4-8cac-e19064317991> ;
+        c:suffix     " and Richard Fischer of Kiowa, Kansas; two great" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/50>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[two years in Kiowa.  \nShe was a member of the ]Zion Lutheran Church[ in Alva and enjoyed reading, crocheting,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Zion Lutheran Church" ;
+        c:length     "20" ;
+        c:offset     "870" ;
+        c:prefix     "two years in Kiowa.  \nShe was a member of the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/df9c2599-eca0-3989-af26-3d2576904b3b> ;
+        c:suffix     " in Alva and enjoyed reading, crocheting," .
+
+<http://d.opencalais.com/conf/pershash-1/ed402a6a-c7b2-3b13-a6cc-d5a62f05e7e5>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.997" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.998" ;
+        c:subject             <http://d.opencalais.com/pershash-1/ed402a6a-c7b2-3b13-a6cc-d5a62f05e7e5> .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/29>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in 1994.  They have lived the past two years in ]Kiowa[.  \nShe was a member of the Zion Lutheran Church]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Kiowa" ;
+        c:length     "5" ;
+        c:offset     "837" ;
+        c:prefix     "in 1994.  They have lived the past two years in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/41aa2c9e-1c06-3424-8975-776edcc48f27> ;
+        c:suffix     ".  \nShe was a member of the Zion Lutheran Church" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Relevance/36>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/25c0ec8f-3859-3b95-ba4d-384b25741f6d> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/5368f5e0-5dba-d35d-391b-4a48276bbfaf>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Kansas" ;
+        c:docId               <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:latitude            "37.3458" ;
+        c:longitude           "-94.8086" ;
+        c:name                "Cherokee,Kansas,United States" ;
+        c:shortname           "Cherokee" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/41b739c0-366f-3a3e-9e5c-e3ff9ec845b2> .
+
+<http://d.opencalais.com/genericHasher-1/c1b4bf8d-e4a7-30e4-8cac-e19064317991>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Rogers" ;
+        c:person             <http://d.opencalais.com/pershash-1/85fa5df5-e8f8-3641-92a0-99164b1ed72a> .
+
+<http://d.opencalais.com/pershash-1/61a94c59-2b5e-3ab1-8225-e79f14cfd655>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Jessica Wiechman" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Jessica" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Wiechman" ;
+        c:name               "Jessica Wiechman" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Relevance/15>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/ed402a6a-c7b2-3b13-a6cc-d5a62f05e7e5> .
+
+<http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee>
+        a                    <http://s.opencalais.com/1/type/em/e/IndustryTerm> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Funeral services" .
+
+<http://d.opencalais.com/conf/pershash-1/4fdc90e4-0b25-369e-b010-c8d0f068a1af>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.971" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.971" ;
+        c:subject             <http://d.opencalais.com/pershash-1/4fdc90e4-0b25-369e-b010-c8d0f068a1af> .
+
+<http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oklahoma" .
+
+<http://d.opencalais.com/genericHasher-1/31c9f65f-1590-3775-8127-e101ae75a0da>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Lexington" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/101>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Garrett.  \nNadine is survived by her husband, ]Robert[ of Kiowa, Kansas; three sons, Myron Wiechman and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Robert" ;
+        c:length     "6" ;
+        c:offset     "1088" ;
+        c:prefix     "Garrett.  \nNadine is survived by her husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/a42aa847-bb87-321b-bc0b-dff3554d8fff> ;
+        c:suffix     " of Kiowa, Kansas; three sons, Myron Wiechman and" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/79>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and one sister, Gayle Garrett of Norman, ]Oklahoma[.  \nAlso surviving are six grandchildren, Josh]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "1489" ;
+        c:prefix     "and one sister, Gayle Garrett of Norman, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ".  \nAlso surviving are six grandchildren, Josh" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Relevance/8>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/fcabc127-2a87-37f9-96eb-ec9ff2c0396f> .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/58>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ \nAlso surviving are six grandchildren, ]Josh Wiechman, of Wichita, Kansas[, Jessica Wiechman, Cherokee, Oklahoma, Wesley]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Josh Wiechman, of Wichita, Kansas" ;
+        c:length     "33" ;
+        c:offset     "1539" ;
+        c:prefix     " \nAlso surviving are six grandchildren, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e651701c-06f9-3c82-b999-8ec11b693560> ;
+        c:suffix     ", Jessica Wiechman, Cherokee, Oklahoma, Wesley" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/37>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ \nNadine Marie Wiechman, daughter of the late ]Cecil and  Jewell (Boydstun) Garrett was born on September 1, 1929, at Lexington, Oklahoma and died January 5, 2010, at Kiowa, Kansas[, at the age of 80 years, 4 months, and 4 days.  ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Cecil and  Jewell (Boydstun) Garrett was born on September 1, 1929, at Lexington, Oklahoma and died January 5, 2010, at Kiowa, Kansas" ;
+        c:length     "133" ;
+        c:offset     "290" ;
+        c:prefix     " \nNadine Marie Wiechman, daughter of the late " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c64fac22-afe6-3d7a-a992-54851a1026ea> ;
+        c:suffix     ", at the age of 80 years, 4 months, and 4 days.  " .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/7>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ their home in northwestern Oklahoma and southern ]Kansas[ moving to Alva in 1994.  They have lived the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Kansas" ;
+        c:length     "6" ;
+        c:offset     "767" ;
+        c:prefix     " their home in northwestern Oklahoma and southern " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> ;
+        c:suffix     " moving to Alva in 1994.  They have lived the" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/16>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and his wife, Jerri, of Manchester, Oklahoma, ]Barry Wiechman and his wife, Vanita, of Winfield, Kansas[, and Thomas Wiechman and his wife, Lisa, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Barry Wiechman and his wife, Vanita, of Winfield, Kansas" ;
+        c:length     "56" ;
+        c:offset     "1186" ;
+        c:prefix     "and his wife, Jerri, of Manchester, Oklahoma, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a893543e-62ca-32e7-afa2-6c5e555c25aa> ;
+        c:suffix     ", and Thomas Wiechman and his wife, Lisa, of" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Relevance/23>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/41b739c0-366f-3a3e-9e5c-e3ff9ec845b2> .
+
+<http://d.opencalais.com/conf/pershash-1/fcabc127-2a87-37f9-96eb-ec9ff2c0396f>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.983" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.99" ;
+        c:subject             <http://d.opencalais.com/pershash-1/fcabc127-2a87-37f9-96eb-ec9ff2c0396f> .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/ec80b062-8d1e-123a-1d6e-8bd0b7355690>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:latitude            "38.45" ;
+        c:longitude           "-96.5333" ;
+        c:name                "Kansas,United States" ;
+        c:permid              "100151" ;
+        c:rcscode             "G:6D" ;
+        c:shortname           "Kansas" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> .
+
+<http://d.opencalais.com/pershash-1/85fa5df5-e8f8-3641-92a0-99164b1ed72a>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Brayden Wiechman" ;
+        c:confidencelevel    "0.983" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Brayden Wiechman" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/lid/DefaultLangId>
+        a                    <http://s.opencalais.com/1/type/lid/DefaultLangId> ;
+        c:docId              <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:forenduserdisplay  "false" ;
+        c:lang               <http://d.opencalais.com/lid/DefaultLangId/English> ;
+        c:permid             "505062" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/SocialTag/1>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Comanche Campaign" ;
+        c:originalValue      "Comanche Campaign" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/0ca622da-8ecc-3d20-9389-73b4e2511995> .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/109>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ of Rogers, Arkansas, Brayden Wiechman of Rogers, ]Arkansas[ and Richard Fischer of Kiowa, Kansas; two great]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Arkansas" ;
+        c:length     "8" ;
+        c:offset     "1714" ;
+        c:prefix     " of Rogers, Arkansas, Brayden Wiechman of Rogers, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/693b9b27-4f42-328f-8fcd-34d3f5c08cc5> ;
+        c:suffix     " and Richard Fischer of Kiowa, Kansas; two great" .
+
+<http://d.opencalais.com/conf/pershash-1/d2c6bfee-d630-33ef-8ae8-0b58cb17239f>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.992" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.994" ;
+        c:subject             <http://d.opencalais.com/pershash-1/d2c6bfee-d630-33ef-8ae8-0b58cb17239f> .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/87>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and his wife, Vanita, of Winfield, Kansas, and ]Thomas Wiechman[ and his wife, Lisa, of Rogers, Arkansas; one]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Thomas Wiechman" ;
+        c:length     "15" ;
+        c:offset     "1248" ;
+        c:prefix     "and his wife, Vanita, of Winfield, Kansas, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/d2c6bfee-d630-33ef-8ae8-0b58cb17239f> ;
+        c:suffix     " and his wife, Lisa, of Rogers, Arkansas; one" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/66>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Oklahoma, Barry Wiechman and his wife, ]Vanita[, of Winfield, Kansas, and Thomas Wiechman and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Vanita" ;
+        c:length     "6" ;
+        c:offset     "1215" ;
+        c:prefix     "Oklahoma, Barry Wiechman and his wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/12f63262-d626-3e2e-8389-4f6ba295561c> ;
+        c:suffix     ", of Winfield, Kansas, and Thomas Wiechman and" .
+
+<http://d.opencalais.com/conf/pershash-1/ac7dbb19-9943-3942-9831-9837d2161afa>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/ac7dbb19-9943-3942-9831-9837d2161afa> .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/45>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Garrett of Sulphur, Oklahoma; and one sister, ]Gayle Garrett[ of Norman, Oklahoma.  \nAlso surviving are six]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Gayle Garrett" ;
+        c:length     "13" ;
+        c:offset     "1464" ;
+        c:prefix     "Garrett of Sulphur, Oklahoma; and one sister, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9abb6981-4d2b-33f7-92a3-a69ea679e03c> ;
+        c:suffix     " of Norman, Oklahoma.  \nAlso surviving are six" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/24>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Oklahoma and southern Kansas moving to ]Alva[ in 1994.  They have lived the past two years in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "784" ;
+        c:prefix     "Oklahoma and southern Kansas moving to " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce> ;
+        c:suffix     " in 1994.  They have lived the past two years in" .
+
+<http://d.opencalais.com/genericHasher-1/6989e300-ff00-34ec-b8c5-6d41c4c0c205>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Manchester" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Relevance/31>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/96395930-1132-386a-840c-50cdd59d1444> .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Relevance/10>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee> .
+
+<http://d.opencalais.com/genericHasher-1/3e1810e3-b2de-3423-b7ea-ed036af6d939>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:forenduserdisplay  "true" ;
+        c:organization       <http://d.opencalais.com/genericHasher-1/df9c2599-eca0-3989-af26-3d2576904b3b> ;
+        c:person             <http://d.opencalais.com/pershash-1/f5727ce6-cf66-3a4a-8a1a-017d07797a9a> ;
+        c:position           "member" ;
+        c:status             "past" .
+
+<http://d.opencalais.com/conf/pershash-1/396df689-05ca-3395-95a7-d067a1624347>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.983" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.99" ;
+        c:subject             <http://d.opencalais.com/pershash-1/396df689-05ca-3395-95a7-d067a1624347> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/9d44dd4c-7689-67ab-1f84-75408aecb952>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:latitude            "34.7206" ;
+        c:longitude           "-95.8989" ;
+        c:name                "Kiowa,Oklahoma,United States" ;
+        c:shortname           "Kiowa" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/41aa2c9e-1c06-3424-8975-776edcc48f27> .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/e9e27c26-4013-8712-a5f0-97dcdc412c26>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:latitude            "35.5607802899" ;
+        c:longitude           "-96.8460570462" ;
+        c:name                "Oklahoma,United States" ;
+        c:permid              "100229" ;
+        c:rcscode             "G:9H" ;
+        c:shortname           "Oklahoma" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/95>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Roberta Fischer of Kiowa, Kansas; two brothers, ]Vernon Garrett of Lexington, Oklahoma[, and Kenneth Garrett of Sulphur, Oklahoma; and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Vernon Garrett of Lexington, Oklahoma" ;
+        c:length     "37" ;
+        c:offset     "1367" ;
+        c:prefix     "Roberta Fischer of Kiowa, Kansas; two brothers, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/17ec12d7-0cc3-366d-8e19-4fcfba65fc83> ;
+        c:suffix     ", and Kenneth Garrett of Sulphur, Oklahoma; and" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/74>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[    \nShe graduated from high school in Lexington, ]Oklahoma[. She became a Certified Nurse?s Aid and worked]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "520" ;
+        c:prefix     "    \nShe graduated from high school in Lexington, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ". She became a Certified Nurse?s Aid and worked" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Relevance/3>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> .
+
+<http://d.opencalais.com/genericHasher-1/6266dcae-60d6-394c-96f1-903c4633ea41>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Lutheran Cemetery" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/c8ff68c4-bb14-b2db-4b27-924496d2fa2f>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:latitude            "34.8" ;
+        c:longitude           "-92.2" ;
+        c:name                "Arkansas,United States" ;
+        c:permid              "100019" ;
+        c:rcscode             "G:6U" ;
+        c:shortname           "Arkansas" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/693b9b27-4f42-328f-8fcd-34d3f5c08cc5> .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/53>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Wiechman, of Wichita, Kansas, Jessica Wiechman, ]Cherokee[, Oklahoma, Wesley Wiechman of Rogers, Arkansas,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Cherokee" ;
+        c:length     "8" ;
+        c:offset     "1592" ;
+        c:prefix     "Wiechman, of Wichita, Kansas, Jessica Wiechman, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/41b739c0-366f-3a3e-9e5c-e3ff9ec845b2> ;
+        c:suffix     ", Oklahoma, Wesley Wiechman of Rogers, Arkansas," .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/32>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Rogers, Arkansas and Richard Fischer of ]Kiowa[, Kansas; two great grandchildren, other]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Kiowa" ;
+        c:length     "5" ;
+        c:offset     "1746" ;
+        c:prefix     "of Rogers, Arkansas and Richard Fischer of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/41aa2c9e-1c06-3424-8975-776edcc48f27> ;
+        c:suffix     ", Kansas; two great grandchildren, other" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/2>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in death by a brother Edwin Cecil Garrett.  \n]Nadine is survived by her husband, Robert of Kiowa, Kansas[; three sons, Myron Wiechman and his wife, Jerri,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Nadine is survived by her husband, Robert of Kiowa, Kansas" ;
+        c:length     "58" ;
+        c:offset     "1053" ;
+        c:prefix     "in death by a brother Edwin Cecil Garrett.  \n" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a3864c41-f2b6-3bdc-a244-f6817c5d2d22> ;
+        c:suffix     "; three sons, Myron Wiechman and his wife, Jerri," .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Instance/11>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[six grandchildren, Josh Wiechman, of Wichita, ]Kansas[, Jessica Wiechman, Cherokee, Oklahoma, Wesley]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:exact      "Kansas" ;
+        c:length     "6" ;
+        c:offset     "1566" ;
+        c:prefix     "six grandchildren, Josh Wiechman, of Wichita, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> ;
+        c:suffix     ", Jessica Wiechman, Cherokee, Oklahoma, Wesley" .
+
+<http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7/Relevance/39>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/186a800d-3453-3d99-8285-e52c65f396a7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/a42aa847-bb87-321b-bc0b-dff3554d8fff> .

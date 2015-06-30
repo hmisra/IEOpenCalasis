@@ -1,0 +1,686 @@
+#Relations: FamilyRelation, PersonAttributes, PersonLocation, PersonRelation
+#City: Alva, Belford
+#Facility: Alva Municipal Cemetery, Marshall Funeral Home of Alva
+#Person: Bonaparte Clark, Carolyn Tate, Kenneth Leon Patton, Lela Irene, Lela Irene (Wheelock) Clark, Marshall Funeral, Robert Patton
+#ProvinceOrState: New Jersey, Oklahoma
+@prefix c:     <http://s.opencalais.com/1/pred/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://d.opencalais.com/conf/pershash-1/62e591aa-e120-3a4e-8df8-cb07e54e8a8f>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.998" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.998" ;
+        c:subject             <http://d.opencalais.com/pershash-1/62e591aa-e120-3a4e-8df8-cb07e54e8a8f> .
+
+<http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff/Instance/21>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and 4 days. \t Carolyn was united in marriage to ]Kenneth Leon Patton[.  She worked as an electronic assembler. \t She]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff> ;
+        c:exact      "Kenneth Leon Patton" ;
+        c:length     "19" ;
+        c:offset     "442" ;
+        c:prefix     "and 4 days. \t Carolyn was united in marriage to " ;
+        c:subject    <http://d.opencalais.com/pershash-1/86a62e55-556c-3800-800e-c017b8152825> ;
+        c:suffix     ".  She worked as an electronic assembler. \t She" .
+
+<http://d.opencalais.com/genericHasher-1/37fc1f2f-80cb-340e-b19c-3f6856683530>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "son" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/0d434bd7-2a94-373b-bd79-b1a64feade84> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/62e591aa-e120-3a4e-8df8-cb07e54e8a8f> .
+
+<http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff/SocialTag/1>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Alva" ;
+        c:originalValue      "Alva" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/17f61973-ed95-369b-b381-dec22ce26b2a> .
+
+<http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff/Relevance/12>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce> .
+
+<http://d.opencalais.com/genericHasher-1/8eade039-a4ea-3277-86f0-dccd360f428f>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Alva Municipal Cemetery" .
+
+<http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff/Instance/19>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[\t She was preceded in death by her parents. \t ]Carolyn[ is survived by her son, Robert Patton of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff> ;
+        c:exact      "Carolyn" ;
+        c:length     "7" ;
+        c:offset     "549" ;
+        c:prefix     "\t She was preceded in death by her parents. \t " ;
+        c:subject    <http://d.opencalais.com/pershash-1/0d434bd7-2a94-373b-bd79-b1a64feade84> ;
+        c:suffix     " is survived by her son, Robert Patton of" .
+
+<http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff/Instance/5>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and passed away July 25, 2006, at Alva, ]Oklahoma[, at the age of 82 years, 11 months, and 4 days.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "349" ;
+        c:prefix     "and passed away July 25, 2006, at Alva, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", at the age of 82 years, 11 months, and 4 days." .
+
+<http://d.opencalais.com/conf/pershash-1/86a62e55-556c-3800-800e-c017b8152825>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.963" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.978" ;
+        c:subject             <http://d.opencalais.com/pershash-1/86a62e55-556c-3800-800e-c017b8152825> .
+
+<http://d.opencalais.com/genericHasher-1/0ae5cb6b-b05e-3bb3-95a2-33794b1d3b36>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Belford" .
+
+<http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff/Relevance/5>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/62e591aa-e120-3a4e-8df8-cb07e54e8a8f> .
+
+<http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff/Instance/13>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Graveside services for ]Carolyn Tate[, 82, will be 11:00 a.m. Saturday, July 29, 2006,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff> ;
+        c:exact      "Carolyn Tate" ;
+        c:length     "12" ;
+        c:offset     "23" ;
+        c:prefix     "Graveside services for " ;
+        c:subject    <http://d.opencalais.com/pershash-1/0d434bd7-2a94-373b-bd79-b1a64feade84> ;
+        c:suffix     ", 82, will be 11:00 a.m. Saturday, July 29, 2006," .
+
+<http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff/Instance/26>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[daughter of the late Bonaparte and Lela Irene (]Wheelock[) Clark, was born August 21, 1923 at Alva,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff> ;
+        c:exact      "Wheelock" ;
+        c:length     "8" ;
+        c:offset     "248" ;
+        c:prefix     "daughter of the late Bonaparte and Lela Irene (" ;
+        c:subject    <http://d.opencalais.com/pershash-1/5a110da7-5168-3a34-8637-5405d45087d3> ;
+        c:suffix     ") Clark, was born August 21, 1923 at Alva," .
+
+<http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff/Instance/20>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[death by her parents. \t Carolyn is survived by ]her[ son, Robert Patton of Belford, NJ; three]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "572" ;
+        c:prefix     "death by her parents. \t Carolyn is survived by " ;
+        c:subject    <http://d.opencalais.com/pershash-1/0d434bd7-2a94-373b-bd79-b1a64feade84> ;
+        c:suffix     " son, Robert Patton of Belford, NJ; three" .
+
+<http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff/Relevance/11>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/5a110da7-5168-3a34-8637-5405d45087d3> .
+
+<http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff/Instance/18>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[assembler. \t She was preceded in death by ]her[ parents. \t Carolyn is survived by her son,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "534" ;
+        c:prefix     "assembler. \t She was preceded in death by " ;
+        c:subject    <http://d.opencalais.com/pershash-1/0d434bd7-2a94-373b-bd79-b1a64feade84> ;
+        c:suffix     " parents. \t Carolyn is survived by her son," .
+
+<http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff/Instance/4>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Clark, was born August 21, 1923 at Alva, ]Oklahoma[, and passed away July 25, 2006, at Alva,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "299" ;
+        c:prefix     "Clark, was born August 21, 1923 at Alva, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", and passed away July 25, 2006, at Alva," .
+
+<http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff/Relevance/4>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/67b69b6d-8872-3300-a33a-6a5e13c110b9> .
+
+<http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff/Instance/12>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Graveside services for ]Carolyn Tate, 82[, will be 11:00 a.m. Saturday, July 29, 2006, at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff> ;
+        c:exact      "Carolyn Tate, 82" ;
+        c:length     "16" ;
+        c:offset     "23" ;
+        c:prefix     "Graveside services for " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c0781e19-c89e-343f-842c-5b95683bb471> ;
+        c:suffix     ", will be 11:00 a.m. Saturday, July 29, 2006, at" .
+
+<http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff/Instance/25>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Carolyn Tate, daughter of the late Bonaparte and ]Lela Irene[ (Wheelock) Clark, was born August 21, 1923 at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff> ;
+        c:exact      "Lela Irene" ;
+        c:length     "10" ;
+        c:offset     "236" ;
+        c:prefix     " Carolyn Tate, daughter of the late Bonaparte and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/80cc71d1-d9d6-35dc-9fd2-34edc87912be> ;
+        c:suffix     " (Wheelock) Clark, was born August 21, 1923 at" .
+
+<http://d.opencalais.com/conf/pershash-1/0d434bd7-2a94-373b-bd79-b1a64feade84>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.999" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.999" ;
+        c:subject             <http://d.opencalais.com/pershash-1/0d434bd7-2a94-373b-bd79-b1a64feade84> .
+
+<http://d.opencalais.com/genericHasher-1/c0781e19-c89e-343f-842c-5b95683bb471>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonAttributes> ;
+        c:age                "82" ;
+        c:forenduserdisplay  "false" ;
+        c:gender             "F" ;
+        c:person             <http://d.opencalais.com/pershash-1/0d434bd7-2a94-373b-bd79-b1a64feade84> .
+
+<http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff/Instance/9>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ at the age of 82 years, 11 months, and 4 days. \t ]Carolyn was united in marriage to Kenneth Leon Patton[.  She worked as an electronic assembler. \t She]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff> ;
+        c:exact      "Carolyn was united in marriage to Kenneth Leon Patton" ;
+        c:length     "53" ;
+        c:offset     "408" ;
+        c:prefix     " at the age of 82 years, 11 months, and 4 days. \t " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/2e7896ed-22f4-3de4-bc21-de3caf9c7e1e> ;
+        c:suffix     ".  She worked as an electronic assembler. \t She" .
+
+<http://d.opencalais.com/conf/pershash-1/5a110da7-5168-3a34-8637-5405d45087d3>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.957" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.959" ;
+        c:subject             <http://d.opencalais.com/pershash-1/5a110da7-5168-3a34-8637-5405d45087d3> .
+
+<http://d.opencalais.com/pershash-1/62e591aa-e120-3a4e-8df8-cb07e54e8a8f>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Robert Patton" ;
+        c:confidencelevel    "0.998" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Robert Patton" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff/Relevance/9>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> .
+
+<http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff/Relevance/10>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/80cc71d1-d9d6-35dc-9fd2-34edc87912be> .
+
+<http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff/Instance/17>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ She worked as an electronic assembler. \t ]She[ was preceded in death by her parents. \t Carolyn]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "505" ;
+        c:prefix     " She worked as an electronic assembler. \t " ;
+        c:subject    <http://d.opencalais.com/pershash-1/0d434bd7-2a94-373b-bd79-b1a64feade84> ;
+        c:suffix     " was preceded in death by her parents. \t Carolyn" .
+
+<http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff/Instance/3>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[her parents. \t Carolyn is survived by her son, ]Robert Patton of Belford, NJ[; three granddaughters; 15 great grandchildren; 4]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff> ;
+        c:exact      "Robert Patton of Belford, NJ" ;
+        c:length     "28" ;
+        c:offset     "581" ;
+        c:prefix     "her parents. \t Carolyn is survived by her son, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/30c32305-f7ec-3719-8e02-412fa5810886> ;
+        c:suffix     "; three granddaughters; 15 great grandchildren; 4" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/fd8cbc09-7438-389b-c8f2-6056b0d51856>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "New Jersey" ;
+        c:docId               <http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff> ;
+        c:latitude            "40.4258" ;
+        c:longitude           "-74.0872" ;
+        c:name                "Belford,New Jersey,United States" ;
+        c:shortname           "Belford" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/0ae5cb6b-b05e-3bb3-95a2-33794b1d3b36> .
+
+<http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Alva" .
+
+<http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff/Relevance/3>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0ae5cb6b-b05e-3bb3-95a2-33794b1d3b36> .
+
+<http://d.opencalais.com/pershash-1/86a62e55-556c-3800-800e-c017b8152825>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Kenneth Leon Patton" ;
+        c:confidencelevel    "0.963" ;
+        c:firstname          "Kenneth" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Patton" ;
+        c:middlename         "Leon" ;
+        c:name               "Kenneth Leon Patton" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff/Instance/11>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[be 11:00 a.m. Saturday, July 29, 2006, at the ]Alva Municipal Cemetery[.  Interment is under the direction of Marshall]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff> ;
+        c:exact      "Alva Municipal Cemetery" ;
+        c:length     "23" ;
+        c:offset     "92" ;
+        c:prefix     "be 11:00 a.m. Saturday, July 29, 2006, at the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8eade039-a4ea-3277-86f0-dccd360f428f> ;
+        c:suffix     ".  Interment is under the direction of Marshall" .
+
+<http://d.opencalais.com/genericHasher-1/67b69b6d-8872-3300-a33a-6a5e13c110b9>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "New Jersey" .
+
+<http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff/Instance/24>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Oklahoma, and passed away July 25, 2006, at ]Alva[, Oklahoma, at the age of 82 years, 11 months,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "343" ;
+        c:prefix     "Oklahoma, and passed away July 25, 2006, at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:suffix     ", Oklahoma, at the age of 82 years, 11 months," .
+
+<http://d.opencalais.com/pershash-1/0824c880-7431-3846-b832-1042cfbe83e9>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Marshall Funeral" .
+
+<http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff/Instance/8>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[her parents. \t Carolyn is survived by her son, ]Robert Patton[ of Belford, NJ; three granddaughters; 15 great]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff> ;
+        c:exact      "Robert Patton" ;
+        c:length     "13" ;
+        c:offset     "581" ;
+        c:prefix     "her parents. \t Carolyn is survived by her son, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/62e591aa-e120-3a4e-8df8-cb07e54e8a8f> ;
+        c:suffix     " of Belford, NJ; three granddaughters; 15 great" .
+
+<http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff/Relevance/8>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/86a62e55-556c-3800-800e-c017b8152825> .
+
+<http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff/Instance/16>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[was united in marriage to Kenneth Leon Patton.  ]She[ worked as an electronic assembler. \t She was]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "464" ;
+        c:prefix     "was united in marriage to Kenneth Leon Patton.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/0d434bd7-2a94-373b-bd79-b1a64feade84> ;
+        c:suffix     " worked as an electronic assembler. \t She was" .
+
+<http://d.opencalais.com/conf/pershash-1/f27759ec-b993-372d-82fb-d97638c6b02e>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.317" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.287" ;
+        c:subject             <http://d.opencalais.com/pershash-1/f27759ec-b993-372d-82fb-d97638c6b02e> .
+
+<http://d.opencalais.com/genericHasher-1/b6bf2c0d-0ac3-3aaa-a334-e02dfcbc3358>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Alva" ;
+        c:person             <http://d.opencalais.com/pershash-1/0824c880-7431-3846-b832-1042cfbe83e9> .
+
+<http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff/Instance/2>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Alva. \t Carolyn Tate, daughter of the late ]Bonaparte[ and Lela Irene (Wheelock) Clark, was born August]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff> ;
+        c:exact      "Bonaparte" ;
+        c:length     "9" ;
+        c:offset     "222" ;
+        c:prefix     "of Alva. \t Carolyn Tate, daughter of the late " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f27759ec-b993-372d-82fb-d97638c6b02e> ;
+        c:suffix     " and Lela Irene (Wheelock) Clark, was born August" .
+
+<http://d.opencalais.com/genericHasher-1/2e7896ed-22f4-3de4-bc21-de3caf9c7e1e>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/86a62e55-556c-3800-800e-c017b8152825> , <http://d.opencalais.com/pershash-1/0d434bd7-2a94-373b-bd79-b1a64feade84> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff/Instance/29>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Cemetery.  Interment is under the direction of ]Marshall Funeral[ Home of Alva. \t Carolyn Tate, daughter of the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff> ;
+        c:exact      "Marshall Funeral" ;
+        c:length     "16" ;
+        c:offset     "154" ;
+        c:prefix     "Cemetery.  Interment is under the direction of " ;
+        c:subject    <http://d.opencalais.com/pershash-1/0824c880-7431-3846-b832-1042cfbe83e9> ;
+        c:suffix     " Home of Alva. \t Carolyn Tate, daughter of the" .
+
+<http://d.opencalais.com/conf/pershash-1/80cc71d1-d9d6-35dc-9fd2-34edc87912be>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.995" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.997" ;
+        c:subject             <http://d.opencalais.com/pershash-1/80cc71d1-d9d6-35dc-9fd2-34edc87912be> .
+
+<http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Marshall Funeral Home of Alva" .
+
+<http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff/Relevance/2>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/genericHasher-1/a379df7d-4012-30af-8727-72e8a5ebc541>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Alva, Oklahoma" ;
+        c:person             <http://d.opencalais.com/pershash-1/5a110da7-5168-3a34-8637-5405d45087d3> .
+
+<http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff/Instance/10>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[daughter of the late Bonaparte and Lela Irene (]Wheelock) Clark, was born August 21, 1923 at Alva, Oklahoma, and passed away July 25, 2006, at Alva, Oklahoma[, at the age of 82 years, 11 months, and 4 days.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff> ;
+        c:exact      "Wheelock) Clark, was born August 21, 1923 at Alva, Oklahoma, and passed away July 25, 2006, at Alva, Oklahoma" ;
+        c:length     "109" ;
+        c:offset     "248" ;
+        c:prefix     "daughter of the late Bonaparte and Lela Irene (" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a379df7d-4012-30af-8727-72e8a5ebc541> ;
+        c:suffix     ", at the age of 82 years, 11 months, and 4 days." .
+
+<http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff/Instance/23>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[(Wheelock) Clark, was born August 21, 1923 at ]Alva[, Oklahoma, and passed away July 25, 2006, at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "293" ;
+        c:prefix     "(Wheelock) Clark, was born August 21, 1923 at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:suffix     ", Oklahoma, and passed away July 25, 2006, at" .
+
+<http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff>
+        a                  <http://s.opencalais.com/1/type/sys/DocInfo> ;
+        c:calaisRequestID  "b473258d-0d2a-df31-14d9-13f78e46fa60" ;
+        c:docDate          "2015-05-26 17:22:45.803" ;
+        c:docTitle         "" ;
+        c:document         "Graveside services for Carolyn Tate, 82, will be 11:00 a.m. Saturday, July 29, 2006, at the Alva Municipal Cemetery.  Interment is under the direction of Marshall Funeral Home of Alva. \t Carolyn Tate, daughter of the late Bonaparte and Lela Irene (Wheelock) Clark, was born August 21, 1923 at Alva, Oklahoma, and passed away July 25, 2006, at Alva, Oklahoma, at the age of 82 years, 11 months, and 4 days. \t Carolyn was united in marriage to Kenneth Leon Patton.  She worked as an electronic assembler. \t She was preceded in death by her parents. \t Carolyn is survived by her son, Robert Patton of Belford, NJ; three granddaughters; 15 great grandchildren; 4 great great grandchildren; other relatives and friends. \n\t\t\t" ;
+        c:id               "http://id.opencalais.com/*L-DcmDJvtpt*-Fm3AABRA" ;
+        c:ontology         "http://163.231.4.65/owlschema/8.3/onecalais.owl.allmetadata.xml" .
+
+<http://d.opencalais.com/pershash-1/0d434bd7-2a94-373b-bd79-b1a64feade84>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Carolyn Tate" ;
+        c:confidencelevel    "0.999" ;
+        c:firstname          "Carolyn" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Tate" ;
+        c:name               "Carolyn Tate" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff/Instance/7>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[survived by her son, Robert Patton of Belford, ]NJ[; three granddaughters; 15 great grandchildren; 4]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff> ;
+        c:exact      "NJ" ;
+        c:length     "2" ;
+        c:offset     "607" ;
+        c:prefix     "survived by her son, Robert Patton of Belford, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/67b69b6d-8872-3300-a33a-6a5e13c110b9> ;
+        c:suffix     "; three granddaughters; 15 great grandchildren; 4" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/dfb6543a-110b-dee0-2659-3fadffdc4aaf>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff> ;
+        c:latitude            "40.3278286374" ;
+        c:longitude           "-74.511843005" ;
+        c:name                "New Jersey,United States" ;
+        c:permid              "100209" ;
+        c:rcscode             "G:5V" ;
+        c:shortname           "New Jersey" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/67b69b6d-8872-3300-a33a-6a5e13c110b9> .
+
+<http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff/Relevance/7>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/pershash-1/0d434bd7-2a94-373b-bd79-b1a64feade84> .
+
+<http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff/Instance/15>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ at the age of 82 years, 11 months, and 4 days. \t ]Carolyn[ was united in marriage to Kenneth Leon Patton. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff> ;
+        c:exact      "Carolyn" ;
+        c:length     "7" ;
+        c:offset     "408" ;
+        c:prefix     " at the age of 82 years, 11 months, and 4 days. \t " ;
+        c:subject    <http://d.opencalais.com/pershash-1/0d434bd7-2a94-373b-bd79-b1a64feade84> ;
+        c:suffix     " was united in marriage to Kenneth Leon Patton. " .
+
+<http://d.opencalais.com/pershash-1/5a110da7-5168-3a34-8637-5405d45087d3>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Lela Irene Clark" ;
+        c:confidencelevel    "0.957" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Lela Irene (Wheelock) Clark" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff/Instance/1>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[death by her parents. \t Carolyn is survived by ]her son, Robert Patton of Belford, NJ[; three granddaughters; 15 great grandchildren; 4]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff> ;
+        c:exact      "her son, Robert Patton of Belford, NJ" ;
+        c:length     "37" ;
+        c:offset     "572" ;
+        c:prefix     "death by her parents. \t Carolyn is survived by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/37fc1f2f-80cb-340e-b19c-3f6856683530> ;
+        c:suffix     "; three granddaughters; 15 great grandchildren; 4" .
+
+<http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff/Instance/28>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Cemetery.  Interment is under the direction of ]Marshall Funeral Home of Alva[. \t Carolyn Tate, daughter of the late Bonaparte]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff> ;
+        c:exact      "Marshall Funeral Home of Alva" ;
+        c:length     "29" ;
+        c:offset     "154" ;
+        c:prefix     "Cemetery.  Interment is under the direction of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce> ;
+        c:suffix     ". \t Carolyn Tate, daughter of the late Bonaparte" .
+
+<http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff/Relevance/1>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/f27759ec-b993-372d-82fb-d97638c6b02e> .
+
+<http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff/Instance/22>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[under the direction of Marshall Funeral Home of ]Alva[. \t Carolyn Tate, daughter of the late Bonaparte]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "179" ;
+        c:prefix     "under the direction of Marshall Funeral Home of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:suffix     ". \t Carolyn Tate, daughter of the late Bonaparte" .
+
+<http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff/SocialTag/2>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "George S. Patton" ;
+        c:originalValue      "George S. Patton" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/0e82bc3e-ccfd-32d2-a96c-b44fc077f13c> .
+
+<http://d.opencalais.com/genericHasher-1/30c32305-f7ec-3719-8e02-412fa5810886>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Belford" ;
+        c:person             <http://d.opencalais.com/pershash-1/62e591aa-e120-3a4e-8df8-cb07e54e8a8f> .
+
+<http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff/Relevance/13>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/0824c880-7431-3846-b832-1042cfbe83e9> .
+
+<http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff/meta>
+        a                 <http://s.opencalais.com/1/type/sys/DocInfoMeta> ;
+        c:contentType     "text/raw" ;
+        c:docId           <http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff> ;
+        c:language        "English" ;
+        c:processingVer   "AllMetadata" ;
+        c:serverVersion   "OneCalais_8.3-RELEASE:364" ;
+        c:signature       "digestalg-1|H/q9bynho3QdXcm54AylhI2w6n0=|Rx5PyXPb+eElNtrs00z5mDr76lR5CKNE5LKUrdnarK/WKnKkcHuDQw==" ;
+        c:stagsVer        "OneCalais_8.3-RELEASE-b11-2015-03-25_18:29:00" ;
+        c:submissionDate  "2015-05-26 17:22:45.604" ;
+        c:submitterCode   "0ca6a864-5659-789d-5f32-f365f695e757" .
+
+<http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff/Instance/6>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Carolyn is survived by her son, Robert Patton of ]Belford[, NJ; three granddaughters; 15 great]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff> ;
+        c:exact      "Belford" ;
+        c:length     "7" ;
+        c:offset     "598" ;
+        c:prefix     " Carolyn is survived by her son, Robert Patton of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0ae5cb6b-b05e-3bb3-95a2-33794b1d3b36> ;
+        c:suffix     ", NJ; three granddaughters; 15 great" .
+
+<http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff/Relevance/6>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8eade039-a4ea-3277-86f0-dccd360f428f> .
+
+<http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff/Instance/14>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[direction of Marshall Funeral Home of Alva. \t ]Carolyn Tate[, daughter of the late Bonaparte and Lela Irene]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff> ;
+        c:exact      "Carolyn Tate" ;
+        c:length     "12" ;
+        c:offset     "187" ;
+        c:prefix     "direction of Marshall Funeral Home of Alva. \t " ;
+        c:subject    <http://d.opencalais.com/pershash-1/0d434bd7-2a94-373b-bd79-b1a64feade84> ;
+        c:suffix     ", daughter of the late Bonaparte and Lela Irene" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/e9e27c26-4013-8712-a5f0-97dcdc412c26>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff> ;
+        c:latitude            "35.5607802899" ;
+        c:longitude           "-96.8460570462" ;
+        c:name                "Oklahoma,United States" ;
+        c:permid              "100229" ;
+        c:rcscode             "G:9H" ;
+        c:shortname           "Oklahoma" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff/Instance/27>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Cemetery.  Interment is under the direction of ]Marshall Funeral Home of Alva[. \t Carolyn Tate, daughter of the late Bonaparte]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff> ;
+        c:exact      "Marshall Funeral Home of Alva" ;
+        c:length     "29" ;
+        c:offset     "154" ;
+        c:prefix     "Cemetery.  Interment is under the direction of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6bf2c0d-0ac3-3aaa-a334-e02dfcbc3358> ;
+        c:suffix     ". \t Carolyn Tate, daughter of the late Bonaparte" .
+
+<http://d.opencalais.com/pershash-1/f27759ec-b993-372d-82fb-d97638c6b02e>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Bonaparte Clark" ;
+        c:confidencelevel    "0.317" ;
+        c:firstname          "Lela" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Clark" ;
+        c:middlename         "Irene" ;
+        c:name               "Bonaparte Clark" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff/cat/1>
+        a                    <http://s.opencalais.com/1/type/cat/DocCat> ;
+        c:docId              <http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Human Interest" ;
+        c:score              "1.000" .
+
+<http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff/lid/DefaultLangId>
+        a                    <http://s.opencalais.com/1/type/lid/DefaultLangId> ;
+        c:docId              <http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff> ;
+        c:forenduserdisplay  "false" ;
+        c:lang               <http://d.opencalais.com/lid/DefaultLangId/English> ;
+        c:permid             "505062" .
+
+<http://d.opencalais.com/pershash-1/80cc71d1-d9d6-35dc-9fd2-34edc87912be>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Lela Irene" ;
+        c:confidencelevel    "0.995" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Lela Irene" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oklahoma" .
+
+<http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff/ComponentVersions>
+        a          <http://s.opencalais.com/1/type/sys/ComponentVersions> ;
+        c:docId    <http://d.opencalais.com/dochash-1/b290e173-ebdb-38a3-882e-1985d5beb1ff> ;
+        c:version  "config-cse:271:271" , "People Index:201505261608:201505261608" , "config-physicalAssets-ports:258:258" , "Housekeeper:OneCalais_8.3-RELEASE:113" , "NextTags:OneCalais_8.3-RELEASE:113" , "AutocoderRuntimeIM:OneCalais_8.3-RELEASE:198" , "config-negativeSignature:258:258" , "Deals Index:201505261613:201505261613" , "config-drugs:258:258" , "BlackList:264:264" , "SocialTags Index:201505191038:201505191038" , "Collector:OneCalais_8.3-RELEASE:113" , "BrokerResearchIM:OneCalais_8.3-RELEASE:198" , "com.clearforest.infoext.dial4j.plugins-basistechconfig:OneCalais_8.3-RELEASE:225" , "Dial4J:OneCalais_8.3-RELEASE:198" , "config-vessels:258:258" , "OA Override:271:271" , "WatchDog:OneCalais_8.3-RELEASE:113" , "SECHeaderMetadataIM:OneCalais_8.3-RELEASE:198" , "OneCalais:OneCalais_8.3-RELEASE:364" , "OA Index:201505252208:201505252208" , "OneCalaisIM:OneCalais_8.3-RELEASE:198" , "People Override:258:258" , "config-refineries:258:258" , "SpanishIM:OneCalais_8.3-RELEASE:198" , "index-vessels:201505231718:201505231718" , "config-sca-DataPackage:34:34" , "FrenchIM:OneCalais_8.3-RELEASE:198" .

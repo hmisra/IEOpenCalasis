@@ -1,0 +1,1452 @@
+#Relations: FamilyRelation, PersonAttributes, PersonCareer, PersonEducation, PersonLocation
+#City: Moore, Tacoma
+#Company: Wal-mart
+#Facility: Alva Municipal Cemetery, Marshall Funeral Home of Alva
+#IndustryTerm: Funeral services
+#Organization: Army, Carmen-Dacoma High School, Hopeton Wesleyan Church, United States Army
+#Person: Amanda, Butch Percival, Cami, Cindy Percival, Dalon Percival, Lexi Percival, Marion Hadsell, Neal Lavern, Sarah Lucinda (Miller) Percival, Serenity Marie, Susan G. Komen, Taryn Percival, Tina Marie Percival, Travis Percival, Trevon Percival, Tyler Percival
+#Position: Office Manager at Reynolds Ford
+#Product: suntan
+#ProvinceOrState: Oklahoma, Washington
+@prefix c:     <http://s.opencalais.com/1/pred/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/f561b7b4-283a-43db-2dfd-18ce63d65323>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Washington" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:latitude            "47.2531" ;
+        c:longitude           "-122.4431" ;
+        c:name                "Tacoma,Washington,United States" ;
+        c:shortname           "Tacoma" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/b4149400-a48e-34fc-ad0b-442d8df42fd4> .
+
+<http://d.opencalais.com/comphash-1/635090c5-1336-3e9a-b6ad-c86468c9c4c9>
+        a                    <http://s.opencalais.com/1/type/em/e/Company> ;
+        c:confidencelevel    "0.894" ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Wal-mart" ;
+        c:nationality        "N/A" .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Relevance/25>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/ffa2ec76-4621-3b46-a7ce-54ffe11092ba> .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Instance/60>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[be 2:00 p.m. Tuesday, October 16, 2012, at the ]Hopeton Wesleyan Church[ with Pastor Marion Hadsell officiating. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:exact      "Hopeton Wesleyan Church" ;
+        c:length     "23" ;
+        c:offset     "93" ;
+        c:prefix     "be 2:00 p.m. Tuesday, October 16, 2012, at the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3e8dfe5a-1461-38e5-8173-def40af28e54> ;
+        c:suffix     " with Pastor Marion Hadsell officiating. " .
+
+<http://d.opencalais.com/conf/pershash-1/ffa2ec76-4621-3b46-a7ce-54ffe11092ba>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/ffa2ec76-4621-3b46-a7ce-54ffe11092ba> .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Instance/39>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Amanda, of Luther, and T.J. Percival and wife, ]Cami[, of Hopeton; five nieces and nephews, Tyler]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:exact      "Cami" ;
+        c:length     "4" ;
+        c:offset     "1251" ;
+        c:prefix     "Amanda, of Luther, and T.J. Percival and wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/c9d5badc-a9f8-3d5c-9624-90f5b0ba1bb5> ;
+        c:suffix     ", of Hopeton; five nieces and nephews, Tyler" .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Instance/18>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in the United States Army, proudly serving ]her[ country.  After her discharge from the Army, she]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "673" ;
+        c:prefix     "in the United States Army, proudly serving " ;
+        c:subject    <http://d.opencalais.com/pershash-1/394f4c24-4fbd-37d0-b162-95d33b8f0e71> ;
+        c:suffix     " country.  After her discharge from the Army, she" .
+
+<http://d.opencalais.com/conf/pershash-1/4adb9f81-5742-3365-9677-684f6b731ede>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.974" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.983" ;
+        c:subject             <http://d.opencalais.com/pershash-1/4adb9f81-5742-3365-9677-684f6b731ede> .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Instance/4>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Sarah Lucinda (Miller) Percival and Neal Lavern \"]Butch[? Percival, Jr. was born January 27, 1971, at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:exact      "Butch" ;
+        c:length     "5" ;
+        c:offset     "345" ;
+        c:prefix     " Sarah Lucinda (Miller) Percival and Neal Lavern \"" ;
+        c:subject    <http://d.opencalais.com/pershash-1/f94c6a94-6d14-30c6-91a1-5e1489c6db45> ;
+        c:suffix     "? Percival, Jr. was born January 27, 1971, at" .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/SocialTag/3>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Hopeton" ;
+        c:originalValue      "Hopeton" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/8b93c218-1ff8-3b19-adc3-e4954640b94d> .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Relevance/12>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/dfc83987-1685-3f8f-8e7a-8e9a7e077824> .
+
+<http://d.opencalais.com/pershash-1/3f228881-df2e-3a1b-85bd-36b3f61a3e0b>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Neal Lavern" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Neal" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Lavern" ;
+        c:name               "Neal Lavern" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/1304fffe-f320-3911-ab13-659ed389c920>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Washington" .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Instance/47>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ \nShe moved to the Moore area where she was ]the Office Manager at Reynolds Ford[.  She was also a Registered Pharmacy Tech at the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:exact      "the Office Manager at Reynolds Ford" ;
+        c:length     "35" ;
+        c:offset     "858" ;
+        c:prefix     " \nShe moved to the Moore area where she was " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a86bb558-b4ff-3012-9c9b-16b4e0889d10> ;
+        c:suffix     ".  She was also a Registered Pharmacy Tech at the" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/4766a555-36b8-75a7-45f2-9ca0abd68559>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:latitude            "47.5" ;
+        c:longitude           "-120.5" ;
+        c:name                "Washington,United States" ;
+        c:permid              "100331" ;
+        c:rcscode             "G:27" ;
+        c:shortname           "Washington" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/1304fffe-f320-3911-ab13-659ed389c920> .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Instance/26>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[jet skis, motorcycling, and traveling, but ]her[ favorite hobby was the beach where she could]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1035" ;
+        c:prefix     "jet skis, motorcycling, and traveling, but " ;
+        c:subject    <http://d.opencalais.com/pershash-1/394f4c24-4fbd-37d0-b162-95d33b8f0e71> ;
+        c:suffix     " favorite hobby was the beach where she could" .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Relevance/20>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a86bb558-b4ff-3012-9c9b-16b4e0889d10> .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Relevance/5>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/7ed3d6c4-85f5-3b38-8a36-21fc1faa1ea9> .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Instance/55>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[her country.  After her discharge from the ]Army[, she returned to school at Northwestern and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:exact      "Army" ;
+        c:length     "4" ;
+        c:offset     "716" ;
+        c:prefix     "her country.  After her discharge from the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/7e89aa60-ed18-32e8-85bd-78f8d52d550f> ;
+        c:suffix     ", she returned to school at Northwestern and" .
+
+<http://d.opencalais.com/genericHasher-1/f91d3241-a5c2-3391-89d3-28cb03eb8b00>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "daughter" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/5f1d04b2-e103-3979-85df-e1e5b06e607a> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/394f4c24-4fbd-37d0-b162-95d33b8f0e71> .
+
+<http://d.opencalais.com/pershash-1/394f4c24-4fbd-37d0-b162-95d33b8f0e71>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Tina Marie Percival" ;
+        c:confidencelevel    "0.993" ;
+        c:firstname          "Tina" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Percival" ;
+        c:middlename         "Marie" ;
+        c:name               "Tina Marie Percival" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Instance/34>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Alva Municipal Cemetery under the direction of ]Marshall Funeral Home of Alva[.  \nTina Marie Percival, daughter of Sarah]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:exact      "Marshall Funeral Home of Alva" ;
+        c:length     "29" ;
+        c:offset     "230" ;
+        c:prefix     "Alva Municipal Cemetery under the direction of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce> ;
+        c:suffix     ".  \nTina Marie Percival, daughter of Sarah" .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Instance/13>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Funeral services for ]Tina Marie Percival[ will be 2:00 p.m. Tuesday, October 16, 2012, at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:exact      "Tina Marie Percival" ;
+        c:length     "19" ;
+        c:offset     "21" ;
+        c:prefix     "Funeral services for " ;
+        c:subject    <http://d.opencalais.com/pershash-1/394f4c24-4fbd-37d0-b162-95d33b8f0e71> ;
+        c:suffix     " will be 2:00 p.m. Tuesday, October 16, 2012, at" .
+
+<http://d.opencalais.com/conf/pershash-1/7ed3d6c4-85f5-3b38-8a36-21fc1faa1ea9>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/7ed3d6c4-85f5-3b38-8a36-21fc1faa1ea9> .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Relevance/28>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/3f228881-df2e-3a1b-85bd-36b3f61a3e0b> .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Instance/42>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and passed away October 11, 2012, at Moore, ]Oklahoma[, at the age of 41 years, 8 months, and 14 days. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "460" ;
+        c:prefix     "and passed away October 11, 2012, at Moore, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", at the age of 41 years, 8 months, and 14 days. " .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Instance/21>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ returned to school at Northwestern and completed ]her[ degree in Business Administration.  \nShe moved]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "775" ;
+        c:prefix     " returned to school at Northwestern and completed " ;
+        c:subject    <http://d.opencalais.com/pershash-1/394f4c24-4fbd-37d0-b162-95d33b8f0e71> ;
+        c:suffix     " degree in Business Administration.  \nShe moved" .
+
+<https://permid.org/1-4295905298>
+        a             <http://s.opencalais.com/1/type/er/Company> ;
+        c:commonname  "Wal Mart Stores" ;
+        c:docId       <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:legacyid    <http://d.opencalais.com/er/company/ralg-tr1r/557b142f-8242-3ccd-8a41-2448320ae445> ;
+        c:name        "Wal Mart Stores Inc" ;
+        c:permid      "4295905298" ;
+        c:primaryric  "WMT.N" ;
+        c:score       "0.89849156" ;
+        c:subject     <http://d.opencalais.com/comphash-1/635090c5-1336-3e9a-b6ad-c86468c9c4c9> ;
+        c:ticker      "WMT" .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Instance/7>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and Cindy Percival of Hopeton; two brothers, ]Travis Percival[ and wife, Amanda, of Luther, and T.J. Percival]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:exact      "Travis Percival" ;
+        c:length     "15" ;
+        c:offset     "1178" ;
+        c:prefix     "and Cindy Percival of Hopeton; two brothers, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/7ed3d6c4-85f5-3b38-8a36-21fc1faa1ea9> ;
+        c:suffix     " and wife, Amanda, of Luther, and T.J. Percival" .
+
+<http://d.opencalais.com/pershash-1/cdf6bf43-75b4-333b-85fe-4f1a1ddf06ed>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Dalon Percival" ;
+        c:confidencelevel    "0.891" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Dalon Percival" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Relevance/15>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/b25d2782-bf06-3fe2-9611-36145ed626c3> .
+
+<http://d.opencalais.com/genericHasher-1/8eade039-a4ea-3277-86f0-dccd360f428f>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Alva Municipal Cemetery" .
+
+<http://d.opencalais.com/pershash-1/f94c6a94-6d14-30c6-91a1-5e1489c6db45>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Butch Percival" ;
+        c:confidencelevel    "0.865" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Butch Percival" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Instance/50>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Washington, and passed away October 11, 2012, at ]Moore[, Oklahoma, at the age of 41 years, 8 months, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:exact      "Moore" ;
+        c:length     "5" ;
+        c:offset     "453" ;
+        c:prefix     " Washington, and passed away October 11, 2012, at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/beeb7e1a-17b9-304b-aaad-1cf65699bdcb> ;
+        c:suffix     ", Oklahoma, at the age of 41 years, 8 months, and" .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Instance/29>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[where she could suntan.  \nTina is survived by ]her[ parents, Butch and Cindy Percival of Hopeton;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1114" ;
+        c:prefix     "where she could suntan.  \nTina is survived by " ;
+        c:subject    <http://d.opencalais.com/pershash-1/394f4c24-4fbd-37d0-b162-95d33b8f0e71> ;
+        c:suffix     " parents, Butch and Cindy Percival of Hopeton;" .
+
+<http://d.opencalais.com/conf/comphash-1/635090c5-1336-3e9a-b6ad-c86468c9c4c9>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.894" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:resolution          "0.89849156" ;
+        c:statisticalfeature  "0.876" ;
+        c:subject             <http://d.opencalais.com/comphash-1/635090c5-1336-3e9a-b6ad-c86468c9c4c9> .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Relevance/23>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/90378b56-1050-31c5-b3e2-6c519e9e9933> .
+
+<http://d.opencalais.com/pershash-1/1493f1f7-1251-3ae6-a399-7fcda2d20b53>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Serenity Marie" ;
+        c:confidencelevel    "0.7" ;
+        c:firstname          "Serenity" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Marie" ;
+        c:name               "Serenity Marie" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Relevance/8>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/pershash-1/394f4c24-4fbd-37d0-b162-95d33b8f0e71> .
+
+<http://d.opencalais.com/pershash-1/755b511c-3da5-3a43-9b77-a3659198453c>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Cindy Percival" ;
+        c:confidencelevel    "0.983" ;
+        c:firstname          "Cindy" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Percival" ;
+        c:name               "Cindy Percival" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Instance/58>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Home of Alva.  \nTina Marie Percival, daughter of ]Sarah Lucinda (Miller) Percival[ and Neal Lavern \"Butch? Percival, Jr. was born]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:exact      "Sarah Lucinda (Miller) Percival" ;
+        c:length     "31" ;
+        c:offset     "296" ;
+        c:prefix     " Home of Alva.  \nTina Marie Percival, daughter of " ;
+        c:subject    <http://d.opencalais.com/pershash-1/5f1d04b2-e103-3979-85df-e1e5b06e607a> ;
+        c:suffix     " and Neal Lavern \"Butch? Percival, Jr. was born" .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Instance/37>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ She was also a Registered Pharmacy Tech at the ]Wal-mart[ Pharmacy in Moore.  \nShe enjoyed riding jet]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:exact      "Wal-mart" ;
+        c:length     "8" ;
+        c:offset     "943" ;
+        c:prefix     " She was also a Registered Pharmacy Tech at the " ;
+        c:subject    <http://d.opencalais.com/comphash-1/635090c5-1336-3e9a-b6ad-c86468c9c4c9> ;
+        c:suffix     " Pharmacy in Moore.  \nShe enjoyed riding jet" .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Instance/16>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ at the age of 41 years, 8 months, and 14 days.  \n]Tina[ graduated from Carmen-Dacoma High School with]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:exact      "Tina" ;
+        c:length     "4" ;
+        c:offset     "519" ;
+        c:prefix     " at the age of 41 years, 8 months, and 14 days.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/394f4c24-4fbd-37d0-b162-95d33b8f0e71> ;
+        c:suffix     " graduated from Carmen-Dacoma High School with" .
+
+<http://d.opencalais.com/pershash-1/6ed864bd-ce62-350c-bd5e-e2e0af5bc110>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Taryn Percival" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Taryn" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Percival" ;
+        c:name               "Taryn Percival" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Instance/2>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Percival; her son-by-choice, Jerrell Brewer and ]his[ daughter, Serenity Marie; other relatives and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "1416" ;
+        c:prefix     "Percival; her son-by-choice, Jerrell Brewer and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/7ee5eec9-4a4c-38e9-b741-c9d7ce77b70c> ;
+        c:suffix     " daughter, Serenity Marie; other relatives and" .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/SocialTag/1>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Percival" ;
+        c:originalValue      "Percival (disambiguation)" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/0a10225f-3907-3dec-8f04-4a70db109e5e> .
+
+<http://d.opencalais.com/conf/pershash-1/3f228881-df2e-3a1b-85bd-36b3f61a3e0b>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/3f228881-df2e-3a1b-85bd-36b3f61a3e0b> .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Relevance/10>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce> .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Instance/45>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ 2012, at the Hopeton Wesleyan Church with Pastor ]Marion Hadsell[ officiating.  Interment will be in the Alva]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:exact      "Marion Hadsell" ;
+        c:length     "14" ;
+        c:offset     "129" ;
+        c:prefix     " 2012, at the Hopeton Wesleyan Church with Pastor " ;
+        c:subject    <http://d.opencalais.com/pershash-1/44d6b48c-725b-3beb-8201-d3745d87d733> ;
+        c:suffix     " officiating.  Interment will be in the Alva" .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Instance/24>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[she was the Office Manager at Reynolds Ford.  ]She[ was also a Registered Pharmacy Tech at the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "896" ;
+        c:prefix     "she was the Office Manager at Reynolds Ford.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/394f4c24-4fbd-37d0-b162-95d33b8f0e71> ;
+        c:suffix     " was also a Registered Pharmacy Tech at the" .
+
+<http://d.opencalais.com/genericHasher-1/b155a44c-2e81-3671-a0f6-0e5b4b1dec80>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:forenduserdisplay  "true" ;
+        c:organization       <http://d.opencalais.com/genericHasher-1/7e89aa60-ed18-32e8-85bd-78f8d52d550f> ;
+        c:person             <http://d.opencalais.com/pershash-1/394f4c24-4fbd-37d0-b162-95d33b8f0e71> ;
+        c:position           "the Office Manager at Reynolds Ford" ;
+        c:status             "past" .
+
+<http://d.opencalais.com/pershash-1/90378b56-1050-31c5-b3e2-6c519e9e9933>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Susan Komen" ;
+        c:confidencelevel    "0.963" ;
+        c:firstname          "Susan" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Komen" ;
+        c:middlename         "G." ;
+        c:name               "Susan G. Komen" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/394f4c24-4fbd-37d0-b162-95d33b8f0e71>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.993" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.995" ;
+        c:subject             <http://d.opencalais.com/pershash-1/394f4c24-4fbd-37d0-b162-95d33b8f0e71> .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Relevance/18>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/1493f1f7-1251-3ae6-a399-7fcda2d20b53> .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Relevance/3>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/f94c6a94-6d14-30c6-91a1-5e1489c6db45> .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Instance/53>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Army, she returned to school at Northwestern and ]completed her degree in Business Administration[.  \nShe moved to the Moore area where she was the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:exact      "completed her degree in Business Administration" ;
+        c:length     "47" ;
+        c:offset     "765" ;
+        c:prefix     " Army, she returned to school at Northwestern and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/d36e5c7a-4daf-3ead-a030-b1694c942974> ;
+        c:suffix     ".  \nShe moved to the Moore area where she was the" .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Instance/32>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Percival and wife, Amanda, of Luther, and T.J. ]Percival[ and wife, Cami, of Hopeton; five nieces and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:exact      "Percival" ;
+        c:length     "8" ;
+        c:offset     "1232" ;
+        c:prefix     "Percival and wife, Amanda, of Luther, and T.J. " ;
+        c:subject    <http://d.opencalais.com/pershash-1/cdf6bf43-75b4-333b-85fe-4f1a1ddf06ed> ;
+        c:suffix     " and wife, Cami, of Hopeton; five nieces and" .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Instance/11>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ at the age of 41 years, 8 months, and 14 days.  \n]Tina graduated from Carmen-Dacoma High School[ with the Class of 1989.  After one year of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:exact      "Tina graduated from Carmen-Dacoma High School" ;
+        c:length     "45" ;
+        c:offset     "519" ;
+        c:prefix     " at the age of 41 years, 8 months, and 14 days.  \n" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/1d42d343-5377-3b75-8f32-ff7906caf4eb> ;
+        c:suffix     " with the Class of 1989.  After one year of" .
+
+<http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Marshall Funeral Home of Alva" .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Relevance/26>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/755b511c-3da5-3a43-9b77-a3659198453c> .
+
+<http://d.opencalais.com/genericHasher-1/b45dff68-cf67-390d-ac0a-e8bfcc49e098>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "daughter" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/5f1d04b2-e103-3979-85df-e1e5b06e607a> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/3f228881-df2e-3a1b-85bd-36b3f61a3e0b> .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Instance/61>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Jr. was born January 27, 1971, at Tacoma, ]Washington[, and passed away October 11, 2012, at Moore,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:exact      "Washington" ;
+        c:length     "10" ;
+        c:offset     "404" ;
+        c:prefix     "Jr. was born January 27, 1971, at Tacoma, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/1304fffe-f320-3911-ab13-659ed389c920> ;
+        c:suffix     ", and passed away October 11, 2012, at Moore," .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Instance/40>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Hopeton; two brothers, Travis Percival and wife, ]Amanda[, of Luther, and T.J. Percival and wife, Cami, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:exact      "Amanda" ;
+        c:length     "6" ;
+        c:offset     "1204" ;
+        c:prefix     " Hopeton; two brothers, Travis Percival and wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b25d2782-bf06-3fe2-9611-36145ed626c3> ;
+        c:suffix     ", of Luther, and T.J. Percival and wife, Cami, of" .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Instance/19>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ States Army, proudly serving her country.  After ]her[ discharge from the Army, she returned to school]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "693" ;
+        c:prefix     " States Army, proudly serving her country.  After " ;
+        c:subject    <http://d.opencalais.com/pershash-1/394f4c24-4fbd-37d0-b162-95d33b8f0e71> ;
+        c:suffix     " discharge from the Army, she returned to school" .
+
+<http://d.opencalais.com/genericHasher-1/4740458b-7c5a-30b3-9600-2feef9515741>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonAttributes> ;
+        c:birthdate          "1971-01-27" ;
+        c:birthplace         <http://d.opencalais.com/genericHasher-1/b4149400-a48e-34fc-ad0b-442d8df42fd4> ;
+        c:forenduserdisplay  "false" ;
+        c:gender             "F" ;
+        c:person             <http://d.opencalais.com/pershash-1/394f4c24-4fbd-37d0-b162-95d33b8f0e71> .
+
+<http://d.opencalais.com/conf/pershash-1/cdf6bf43-75b4-333b-85fe-4f1a1ddf06ed>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.891" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.929" ;
+        c:subject             <http://d.opencalais.com/pershash-1/cdf6bf43-75b4-333b-85fe-4f1a1ddf06ed> .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Instance/5>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ could suntan.  \nTina is survived by her parents, ]Butch[ and Cindy Percival of Hopeton; two brothers,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:exact      "Butch" ;
+        c:length     "5" ;
+        c:offset     "1127" ;
+        c:prefix     " could suntan.  \nTina is survived by her parents, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f94c6a94-6d14-30c6-91a1-5e1489c6db45> ;
+        c:suffix     " and Cindy Percival of Hopeton; two brothers," .
+
+<http://d.opencalais.com/conf/pershash-1/f94c6a94-6d14-30c6-91a1-5e1489c6db45>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.865" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.894" ;
+        c:subject             <http://d.opencalais.com/pershash-1/f94c6a94-6d14-30c6-91a1-5e1489c6db45> .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Relevance/13>
+        a                <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId          <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:relevance      "0.2" ;
+        c:relevancecont  "0.03" ;
+        c:subject        <http://d.opencalais.com/comphash-1/635090c5-1336-3e9a-b6ad-c86468c9c4c9> .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Instance/48>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Percival, Dalon Percival, Trevon Percival, and ]Lexi Percival[; her son-by-choice, Jerrell Brewer and his]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:exact      "Lexi Percival" ;
+        c:length     "13" ;
+        c:offset     "1363" ;
+        c:prefix     "Percival, Dalon Percival, Trevon Percival, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/4adb9f81-5742-3365-9677-684f6b731ede> ;
+        c:suffix     "; her son-by-choice, Jerrell Brewer and his" .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Instance/27>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[but her favorite hobby was the beach where ]she[ could suntan.  \nTina is survived by her parents,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "1074" ;
+        c:prefix     "but her favorite hobby was the beach where " ;
+        c:subject    <http://d.opencalais.com/pershash-1/394f4c24-4fbd-37d0-b162-95d33b8f0e71> ;
+        c:suffix     " could suntan.  \nTina is survived by her parents," .
+
+<http://d.opencalais.com/conf/pershash-1/1493f1f7-1251-3ae6-a399-7fcda2d20b53>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.7" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.75" ;
+        c:subject             <http://d.opencalais.com/pershash-1/1493f1f7-1251-3ae6-a399-7fcda2d20b53> .
+
+<http://d.opencalais.com/conf/pershash-1/755b511c-3da5-3a43-9b77-a3659198453c>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.983" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.985" ;
+        c:subject             <http://d.opencalais.com/pershash-1/755b511c-3da5-3a43-9b77-a3659198453c> .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Relevance/21>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/4adb9f81-5742-3365-9677-684f6b731ede> .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Relevance/6>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b4149400-a48e-34fc-ad0b-442d8df42fd4> .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Instance/56>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ wife, Cami, of Hopeton; five nieces and nephews, ]Tyler Percival[, Taryn Percival, Dalon Percival, Trevon]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:exact      "Tyler Percival" ;
+        c:length     "14" ;
+        c:offset     "1294" ;
+        c:prefix     " wife, Cami, of Hopeton; five nieces and nephews, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/ffa2ec76-4621-3b46-a7ce-54ffe11092ba> ;
+        c:suffix     ", Taryn Percival, Dalon Percival, Trevon" .
+
+<http://d.opencalais.com/pershash-1/5f1d04b2-e103-3979-85df-e1e5b06e607a>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Sarah Lucinda Percival" ;
+        c:confidencelevel    "0.996" ;
+        c:firstname          "Sarah" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Percival" ;
+        c:middlename         "Lucinda" ;
+        c:name               "Sarah Lucinda (Miller) Percival" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/dfc83987-1685-3f8f-8e7a-8e9a7e077824>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Carmen-Dacoma High School" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Instance/35>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[]Funeral services[ for Tina Marie Percival will be 2:00 p.m.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:exact      "Funeral services" ;
+        c:length     "16" ;
+        c:offset     "0" ;
+        c:prefix     "" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee> ;
+        c:suffix     " for Tina Marie Percival will be 2:00 p.m." .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Instance/14>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[direction of Marshall Funeral Home of Alva.  \n]Tina Marie Percival[, daughter of Sarah Lucinda (Miller) Percival and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:exact      "Tina Marie Percival" ;
+        c:length     "19" ;
+        c:offset     "263" ;
+        c:prefix     "direction of Marshall Funeral Home of Alva.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/394f4c24-4fbd-37d0-b162-95d33b8f0e71> ;
+        c:suffix     ", daughter of Sarah Lucinda (Miller) Percival and" .
+
+<http://d.opencalais.com/conf/pershash-1/6ed864bd-ce62-350c-bd5e-e2e0af5bc110>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/6ed864bd-ce62-350c-bd5e-e2e0af5bc110> .
+
+<http://d.opencalais.com/pershash-1/44d6b48c-725b-3beb-8201-d3745d87d733>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Marion Hadsell" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Marion" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Hadsell" ;
+        c:name               "Marion Hadsell" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/meta>
+        a                 <http://s.opencalais.com/1/type/sys/DocInfoMeta> ;
+        c:contentType     "text/raw" ;
+        c:docId           <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:language        "English" ;
+        c:processingVer   "AllMetadata" ;
+        c:serverVersion   "OneCalais_8.3-RELEASE:364" ;
+        c:signature       "digestalg-1|MiIt6c77t8ny/+lGroZhN9Fi78Q=|KFNLrTzaBvbJgvCSZK69P8uJlaUkUQcHE7Mb0DIcSwvZ0vGiCHdoRA==" ;
+        c:stagsVer        "OneCalais_8.3-RELEASE-b11-2015-03-25_18:29:00" ;
+        c:submissionDate  "2015-05-26 17:20:49.648" ;
+        c:submitterCode   "0ca6a864-5659-789d-5f32-f365f695e757" .
+
+<http://d.opencalais.com/pershash-1/7ee5eec9-4a4c-38e9-b741-c9d7ce77b70c>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Trevon Percival" ;
+        c:confidencelevel    "0.974" ;
+        c:firstname          "Trevon" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Percival" ;
+        c:name               "Trevon Percival" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97>
+        a                  <http://s.opencalais.com/1/type/sys/DocInfo> ;
+        c:calaisRequestID  "dc5f993e-be5e-24ac-14d9-13db3f012501" ;
+        c:docDate          "2015-05-26 17:20:49.952" ;
+        c:docTitle         "" ;
+        c:document         "Funeral services for Tina Marie Percival will be 2:00 p.m. Tuesday, October 16, 2012, at the Hopeton Wesleyan Church with Pastor Marion Hadsell officiating.  Interment will be in the Alva Municipal Cemetery under the direction of Marshall Funeral Home of Alva.  \nTina Marie Percival, daughter of Sarah Lucinda (Miller) Percival and Neal Lavern \"Butch? Percival, Jr. was born January 27, 1971, at Tacoma, Washington, and passed away October 11, 2012, at Moore, Oklahoma, at the age of 41 years, 8 months, and 14 days.  \nTina graduated from Carmen-Dacoma High School with the Class of 1989.  After one year of college, she enlisted in the United States Army, proudly serving her country.  After her discharge from the Army, she returned to school at Northwestern and completed her degree in Business Administration.  \nShe moved to the Moore area where she was the Office Manager at Reynolds Ford.  She was also a Registered Pharmacy Tech at the Wal-mart Pharmacy in Moore.  \nShe enjoyed riding jet skis, motorcycling, and traveling, but her favorite hobby was the beach where she could suntan.  \nTina is survived by her parents, Butch and Cindy Percival of Hopeton; two brothers, Travis Percival and wife, Amanda, of Luther, and T.J. Percival and wife, Cami, of Hopeton; five nieces and nephews, Tyler Percival, Taryn Percival, Dalon Percival, Trevon Percival, and Lexi Percival; her son-by-choice, Jerrell Brewer and his daughter, Serenity Marie; other relatives and many, many friends.  \nMemorial contributions may be made through Tina?s website, www. teamtina.net, to Susan G. Komen for the Cure.  \nRemembrances may be shared with the family at www.marshallfuneralhomes.com. \n\t\t\t" ;
+        c:id               "http://id.opencalais.com/tBPrzAvkX5GZNaN1K*1Hxg" ;
+        c:ontology         "http://163.231.4.65/owlschema/8.3/onecalais.owl.allmetadata.xml" .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Relevance/29>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3e8dfe5a-1461-38e5-8173-def40af28e54> .
+
+<http://d.opencalais.com/pershash-1/c9d5badc-a9f8-3d5c-9624-90f5b0ba1bb5>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Cami" ;
+        c:confidencelevel    "0.86" ;
+        c:firstname          "Cami" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Cami" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Instance/43>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[son-by-choice, Jerrell Brewer and his daughter, ]Serenity Marie[; other relatives and many, many friends. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:exact      "Serenity Marie" ;
+        c:length     "14" ;
+        c:offset     "1430" ;
+        c:prefix     "son-by-choice, Jerrell Brewer and his daughter, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/1493f1f7-1251-3ae6-a399-7fcda2d20b53> ;
+        c:suffix     "; other relatives and many, many friends. " .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Instance/22>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[her degree in Business Administration.  \n]She[ moved to the Moore area where she was the Office]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "816" ;
+        c:prefix     "her degree in Business Administration.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/394f4c24-4fbd-37d0-b162-95d33b8f0e71> ;
+        c:suffix     " moved to the Moore area where she was the Office" .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Instance/8>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[(Miller) Percival and Neal Lavern \"Butch? ]Percival, Jr. was born January 27, 1971, at Tacoma, Washington, and passed away October 11, 2012, at Moore, Oklahoma[, at the age of 41 years, 8 months, and 14 days. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:exact      "Percival, Jr. was born January 27, 1971, at Tacoma, Washington, and passed away October 11, 2012, at Moore, Oklahoma" ;
+        c:length     "116" ;
+        c:offset     "352" ;
+        c:prefix     "(Miller) Percival and Neal Lavern \"Butch? " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3726d1a3-eded-3b1b-92c6-1fdc91e82a9a> ;
+        c:suffix     ", at the age of 41 years, 8 months, and 14 days. " .
+
+<http://d.opencalais.com/conf/pershash-1/90378b56-1050-31c5-b3e2-6c519e9e9933>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.963" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.978" ;
+        c:subject             <http://d.opencalais.com/pershash-1/90378b56-1050-31c5-b3e2-6c519e9e9933> .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Relevance/16>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/6ed864bd-ce62-350c-bd5e-e2e0af5bc110> .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Relevance/1>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/7ee5eec9-4a4c-38e9-b741-c9d7ce77b70c> .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Instance/51>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in Business Administration.  \nShe moved to the ]Moore[ area where she was the Office Manager at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:exact      "Moore" ;
+        c:length     "5" ;
+        c:offset     "833" ;
+        c:prefix     "in Business Administration.  \nShe moved to the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/beeb7e1a-17b9-304b-aaad-1cf65699bdcb> ;
+        c:suffix     " area where she was the Office Manager at" .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Instance/30>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ \nMemorial contributions may be made through ]Tina[?s website, www. teamtina.net, to Susan G. Komen]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:exact      "Tina" ;
+        c:length     "4" ;
+        c:offset     "1531" ;
+        c:prefix     " \nMemorial contributions may be made through " ;
+        c:subject    <http://d.opencalais.com/pershash-1/394f4c24-4fbd-37d0-b162-95d33b8f0e71> ;
+        c:suffix     "?s website, www. teamtina.net, to Susan G. Komen" .
+
+<http://d.opencalais.com/genericHasher-1/1d42d343-5377-3b75-8f32-ff7906caf4eb>
+        a                       <http://s.opencalais.com/1/type/em/r/PersonEducation> ;
+        c:forenduserdisplay     "false" ;
+        c:person                <http://d.opencalais.com/pershash-1/394f4c24-4fbd-37d0-b162-95d33b8f0e71> ;
+        c:schoolororganization  "Carmen-Dacoma High School" .
+
+<http://d.opencalais.com/genericHasher-1/7e89aa60-ed18-32e8-85bd-78f8d52d550f>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Army" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "governmental military" .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Relevance/24>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/7e89aa60-ed18-32e8-85bd-78f8d52d550f> .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Relevance/9>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/cdf6bf43-75b4-333b-85fe-4f1a1ddf06ed> .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Instance/59>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[daughter of Sarah Lucinda (Miller) Percival and ]Neal Lavern[ \"Butch? Percival, Jr. was born January 27, 1971,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:exact      "Neal Lavern" ;
+        c:length     "11" ;
+        c:offset     "332" ;
+        c:prefix     "daughter of Sarah Lucinda (Miller) Percival and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/3f228881-df2e-3a1b-85bd-36b3f61a3e0b> ;
+        c:suffix     " \"Butch? Percival, Jr. was born January 27, 1971," .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Instance/38>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[(Miller) Percival and Neal Lavern \"Butch? ]Percival, Jr. was born January 27, 1971, at Tacoma, Washington[, and passed away October 11, 2012, at Moore,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:exact      "Percival, Jr. was born January 27, 1971, at Tacoma, Washington" ;
+        c:length     "62" ;
+        c:offset     "352" ;
+        c:prefix     "(Miller) Percival and Neal Lavern \"Butch? " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4740458b-7c5a-30b3-9600-2feef9515741> ;
+        c:suffix     ", and passed away October 11, 2012, at Moore," .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Instance/17>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[the Class of 1989.  After one year of college, ]she[ enlisted in the United States Army, proudly]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "617" ;
+        c:prefix     "the Class of 1989.  After one year of college, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/394f4c24-4fbd-37d0-b162-95d33b8f0e71> ;
+        c:suffix     " enlisted in the United States Army, proudly" .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Instance/3>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ her favorite hobby was the beach where she could ]suntan[.  \nTina is survived by her parents, Butch and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:exact      "suntan" ;
+        c:length     "6" ;
+        c:offset     "1084" ;
+        c:prefix     " her favorite hobby was the beach where she could " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/02157c02-b2ea-3af4-8b4d-35072a98066b> ;
+        c:suffix     ".  \nTina is survived by her parents, Butch and" .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/SocialTag/2>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Surnames" ;
+        c:originalValue      "Surnames" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/b552912d-28a6-395a-bafb-1e4217204132> .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Relevance/11>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee> .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/cat/1>
+        a                    <http://s.opencalais.com/1/type/cat/DocCat> ;
+        c:docId              <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Human Interest" ;
+        c:score              "0.892" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/e3d4a54f-29b1-2788-b076-4ed6aa23904d>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Washington" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:latitude            "48.2351369" ;
+        c:longitude           "-120.6159304" ;
+        c:name                "Moore,Washington,United States" ;
+        c:shortname           "Moore" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/beeb7e1a-17b9-304b-aaad-1cf65699bdcb> .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/ComponentVersions>
+        a          <http://s.opencalais.com/1/type/sys/ComponentVersions> ;
+        c:docId    <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:version  "OneCalais:OneCalais_8.3-RELEASE:364" , "config-drugs:258:258" , "OneCalaisIM:OneCalais_8.3-RELEASE:198" , "config-physicalAssets-ports:258:258" , "config-vessels:258:258" , "config-sca-DataPackage:34:34" , "People Index:201505261608:201505261608" , "SpanishIM:OneCalais_8.3-RELEASE:198" , "index-vessels:201505231718:201505231718" , "config-negativeSignature:258:258" , "com.clearforest.infoext.dial4j.plugins-basistechconfig:OneCalais_8.3-RELEASE:225" , "config-refineries:258:258" , "SocialTags Index:201505191038:201505191038" , "Housekeeper:OneCalais_8.3-RELEASE:113" , "SECHeaderMetadataIM:OneCalais_8.3-RELEASE:198" , "BlackList:264:264" , "FrenchIM:OneCalais_8.3-RELEASE:198" , "WatchDog:OneCalais_8.3-RELEASE:113" , "BrokerResearchIM:OneCalais_8.3-RELEASE:198" , "NextTags:OneCalais_8.3-RELEASE:113" , "People Override:258:258" , "AutocoderRuntimeIM:OneCalais_8.3-RELEASE:198" , "OA Index:201505252208:201505252208" , "OA Override:271:271" , "Collector:OneCalais_8.3-RELEASE:113" , "Deals Index:201505261613:201505261613" , "config-cse:271:271" , "Dial4J:OneCalais_8.3-RELEASE:198" .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Instance/46>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Percival; her son-by-choice, Jerrell Brewer and ]his daughter, Serenity Marie[; other relatives and many, many friends. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:exact      "his daughter, Serenity Marie" ;
+        c:length     "28" ;
+        c:offset     "1416" ;
+        c:prefix     "Percival; her son-by-choice, Jerrell Brewer and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ff9ae16a-58c8-3a01-a55c-993585f7877c> ;
+        c:suffix     "; other relatives and many, many friends. " .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Instance/25>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Tech at the Wal-mart Pharmacy in Moore.  \n]She[ enjoyed riding jet skis, motorcycling, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "973" ;
+        c:prefix     "Tech at the Wal-mart Pharmacy in Moore.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/394f4c24-4fbd-37d0-b162-95d33b8f0e71> ;
+        c:suffix     " enjoyed riding jet skis, motorcycling, and" .
+
+<http://d.opencalais.com/pershash-1/b25d2782-bf06-3fe2-9611-36145ed626c3>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Amanda" ;
+        c:confidencelevel    "0.954" ;
+        c:firstname          "Amanda" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Amanda" ;
+        c:nationality        "N/A" ;
+        c:persontype         "entertainment" .
+
+<http://d.opencalais.com/genericHasher-1/02157c02-b2ea-3af4-8b4d-35072a98066b>
+        a                    <http://s.opencalais.com/1/type/em/e/Product> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "suntan" ;
+        c:producttype        "Aircraft" .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Relevance/19>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/44d6b48c-725b-3beb-8201-d3745d87d733> .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Relevance/4>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8eade039-a4ea-3277-86f0-dccd360f428f> .
+
+<http://d.opencalais.com/conf/pershash-1/5f1d04b2-e103-3979-85df-e1e5b06e607a>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.996" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.998" ;
+        c:subject             <http://d.opencalais.com/pershash-1/5f1d04b2-e103-3979-85df-e1e5b06e607a> .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Instance/54>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[through Tina?s website, www. teamtina.net, to ]Susan G. Komen[ for the Cure.  \nRemembrances may be shared with]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:exact      "Susan G. Komen" ;
+        c:length     "14" ;
+        c:offset     "1569" ;
+        c:prefix     "through Tina?s website, www. teamtina.net, to " ;
+        c:subject    <http://d.opencalais.com/pershash-1/90378b56-1050-31c5-b3e2-6c519e9e9933> ;
+        c:suffix     " for the Cure.  \nRemembrances may be shared with" .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Instance/33>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and nephews, Tyler Percival, Taryn Percival, ]Dalon Percival[, Trevon Percival, and Lexi Percival; her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:exact      "Dalon Percival" ;
+        c:length     "14" ;
+        c:offset     "1326" ;
+        c:prefix     "and nephews, Tyler Percival, Taryn Percival, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/cdf6bf43-75b4-333b-85fe-4f1a1ddf06ed> ;
+        c:suffix     ", Trevon Percival, and Lexi Percival; her" .
+
+<http://d.opencalais.com/conf/pershash-1/44d6b48c-725b-3beb-8201-d3745d87d733>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/44d6b48c-725b-3beb-8201-d3745d87d733> .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Instance/12>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ After one year of college, she enlisted in the ]United States Army[, proudly serving her country.  After her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:exact      "United States Army" ;
+        c:length     "18" ;
+        c:offset     "637" ;
+        c:prefix     " After one year of college, she enlisted in the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/fce36612-627b-34d0-9874-611de4063865> ;
+        c:suffix     ", proudly serving her country.  After her" .
+
+<http://d.opencalais.com/conf/pershash-1/7ee5eec9-4a4c-38e9-b741-c9d7ce77b70c>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.974" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.983" ;
+        c:subject             <http://d.opencalais.com/pershash-1/7ee5eec9-4a4c-38e9-b741-c9d7ce77b70c> .
+
+<http://d.opencalais.com/conf/pershash-1/c9d5badc-a9f8-3d5c-9624-90f5b0ba1bb5>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.86" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/c9d5badc-a9f8-3d5c-9624-90f5b0ba1bb5> .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Relevance/27>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/5f1d04b2-e103-3979-85df-e1e5b06e607a> .
+
+<http://d.opencalais.com/genericHasher-1/3726d1a3-eded-3b1b-92c6-1fdc91e82a9a>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Moore, Oklahoma" ;
+        c:person             <http://d.opencalais.com/pershash-1/394f4c24-4fbd-37d0-b162-95d33b8f0e71> .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Instance/41>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[five nieces and nephews, Tyler Percival, ]Taryn Percival[, Dalon Percival, Trevon Percival, and Lexi]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:exact      "Taryn Percival" ;
+        c:length     "14" ;
+        c:offset     "1310" ;
+        c:prefix     "five nieces and nephews, Tyler Percival, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6ed864bd-ce62-350c-bd5e-e2e0af5bc110> ;
+        c:suffix     ", Dalon Percival, Trevon Percival, and Lexi" .
+
+<http://d.opencalais.com/pershash-1/ffa2ec76-4621-3b46-a7ce-54ffe11092ba>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Tyler Percival" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Tyler" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Percival" ;
+        c:name               "Tyler Percival" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Instance/20>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ her country.  After her discharge from the Army, ]she[ returned to school at Northwestern and completed]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "722" ;
+        c:prefix     " her country.  After her discharge from the Army, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/394f4c24-4fbd-37d0-b162-95d33b8f0e71> ;
+        c:suffix     " returned to school at Northwestern and completed" .
+
+<http://d.opencalais.com/genericHasher-1/3e8dfe5a-1461-38e5-8173-def40af28e54>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Hopeton Wesleyan Church" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/a86bb558-b4ff-3012-9c9b-16b4e0889d10>
+        a                    <http://s.opencalais.com/1/type/em/e/Position> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Office Manager at Reynolds Ford" .
+
+<http://d.opencalais.com/genericHasher-1/ff9ae16a-58c8-3a01-a55c-993585f7877c>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "daughter" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/7ee5eec9-4a4c-38e9-b741-c9d7ce77b70c> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/1493f1f7-1251-3ae6-a399-7fcda2d20b53> .
+
+<http://d.opencalais.com/pershash-1/4adb9f81-5742-3365-9677-684f6b731ede>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Lexi Percival" ;
+        c:confidencelevel    "0.974" ;
+        c:firstname          "Lexi" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Percival" ;
+        c:name               "Lexi Percival" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Instance/6>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Hadsell officiating.  Interment will be in the ]Alva Municipal Cemetery[ under the direction of Marshall Funeral Home of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:exact      "Alva Municipal Cemetery" ;
+        c:length     "23" ;
+        c:offset     "183" ;
+        c:prefix     "Hadsell officiating.  Interment will be in the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8eade039-a4ea-3277-86f0-dccd360f428f> ;
+        c:suffix     " under the direction of Marshall Funeral Home of" .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Relevance/14>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/c9d5badc-a9f8-3d5c-9624-90f5b0ba1bb5> .
+
+<http://d.opencalais.com/genericHasher-1/beeb7e1a-17b9-304b-aaad-1cf65699bdcb>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Moore" .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Instance/49>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Percival, Trevon Percival, and Lexi Percival; ]her[ son-by-choice, Jerrell Brewer and his daughter,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1378" ;
+        c:prefix     "Percival, Trevon Percival, and Lexi Percival; " ;
+        c:subject    <http://d.opencalais.com/pershash-1/4adb9f81-5742-3365-9677-684f6b731ede> ;
+        c:suffix     " son-by-choice, Jerrell Brewer and his daughter," .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Instance/28>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[hobby was the beach where she could suntan.  \n]Tina[ is survived by her parents, Butch and Cindy]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:exact      "Tina" ;
+        c:length     "4" ;
+        c:offset     "1094" ;
+        c:prefix     "hobby was the beach where she could suntan.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/394f4c24-4fbd-37d0-b162-95d33b8f0e71> ;
+        c:suffix     " is survived by her parents, Butch and Cindy" .
+
+<http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee>
+        a                    <http://s.opencalais.com/1/type/em/e/IndustryTerm> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Funeral services" .
+
+<http://d.opencalais.com/genericHasher-1/b4149400-a48e-34fc-ad0b-442d8df42fd4>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Tacoma" .
+
+<http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oklahoma" .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Relevance/22>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/beeb7e1a-17b9-304b-aaad-1cf65699bdcb> .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Relevance/7>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/fce36612-627b-34d0-9874-611de4063865> .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Instance/57>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ \nTina is survived by her parents, Butch and ]Cindy Percival[ of Hopeton; two brothers, Travis Percival and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:exact      "Cindy Percival" ;
+        c:length     "14" ;
+        c:offset     "1137" ;
+        c:prefix     " \nTina is survived by her parents, Butch and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/755b511c-3da5-3a43-9b77-a3659198453c> ;
+        c:suffix     " of Hopeton; two brothers, Travis Percival and" .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Instance/36>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[8 months, and 14 days.  \nTina graduated from ]Carmen-Dacoma High School[ with the Class of 1989.  After one year of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:exact      "Carmen-Dacoma High School" ;
+        c:length     "25" ;
+        c:offset     "539" ;
+        c:prefix     "8 months, and 14 days.  \nTina graduated from " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/dfc83987-1685-3f8f-8e7a-8e9a7e077824> ;
+        c:suffix     " with the Class of 1989.  After one year of" .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Instance/15>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[(Miller) Percival and Neal Lavern \"Butch? ]Percival[, Jr. was born January 27, 1971, at Tacoma,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:exact      "Percival" ;
+        c:length     "8" ;
+        c:offset     "352" ;
+        c:prefix     "(Miller) Percival and Neal Lavern \"Butch? " ;
+        c:subject    <http://d.opencalais.com/pershash-1/394f4c24-4fbd-37d0-b162-95d33b8f0e71> ;
+        c:suffix     ", Jr. was born January 27, 1971, at Tacoma," .
+
+<http://d.opencalais.com/pershash-1/7ed3d6c4-85f5-3b38-8a36-21fc1faa1ea9>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Travis Percival" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Travis" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Percival" ;
+        c:name               "Travis Percival" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Instance/1>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Tyler Percival, Taryn Percival, Dalon Percival, ]Trevon Percival[, and Lexi Percival; her son-by-choice, Jerrell]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:exact      "Trevon Percival" ;
+        c:length     "15" ;
+        c:offset     "1342" ;
+        c:prefix     "Tyler Percival, Taryn Percival, Dalon Percival, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/7ee5eec9-4a4c-38e9-b741-c9d7ce77b70c> ;
+        c:suffix     ", and Lexi Percival; her son-by-choice, Jerrell" .
+
+<http://d.opencalais.com/genericHasher-1/fce36612-627b-34d0-9874-611de4063865>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "United States Army" ;
+        c:nationality        "American" ;
+        c:organizationtype   "governmental military" .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Relevance/30>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/1304fffe-f320-3911-ab13-659ed389c920> .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Instance/44>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ \nShe moved to the Moore area where ]she was the Office Manager at Reynolds Ford[.  She was also a Registered Pharmacy Tech at the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:exact      "she was the Office Manager at Reynolds Ford" ;
+        c:length     "43" ;
+        c:offset     "850" ;
+        c:prefix     " \nShe moved to the Moore area where " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b155a44c-2e81-3671-a0f6-0e5b4b1dec80> ;
+        c:suffix     ".  She was also a Registered Pharmacy Tech at the" .
+
+<http://d.opencalais.com/genericHasher-1/d36e5c7a-4daf-3ead-a030-b1694c942974>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonEducation> ;
+        c:degree             "Degree" ;
+        c:forenduserdisplay  "false" ;
+        c:person             <http://d.opencalais.com/pershash-1/394f4c24-4fbd-37d0-b162-95d33b8f0e71> .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Instance/23>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ \nShe moved to the Moore area where ]she[ was the Office Manager at Reynolds Ford.  She]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "850" ;
+        c:prefix     " \nShe moved to the Moore area where " ;
+        c:subject    <http://d.opencalais.com/pershash-1/394f4c24-4fbd-37d0-b162-95d33b8f0e71> ;
+        c:suffix     " was the Office Manager at Reynolds Ford.  She" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/e9e27c26-4013-8712-a5f0-97dcdc412c26>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:latitude            "35.5607802899" ;
+        c:longitude           "-96.8460570462" ;
+        c:name                "Oklahoma,United States" ;
+        c:permid              "100229" ;
+        c:rcscode             "G:9H" ;
+        c:shortname           "Oklahoma" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/conf/pershash-1/b25d2782-bf06-3fe2-9611-36145ed626c3>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.954" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/b25d2782-bf06-3fe2-9611-36145ed626c3> .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Instance/9>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[direction of Marshall Funeral Home of Alva.  \n]Tina Marie Percival, daughter of Sarah Lucinda (Miller) Percival and Neal Lavern[ \"Butch? Percival, Jr. was born January 27, 1971,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:exact      "Tina Marie Percival, daughter of Sarah Lucinda (Miller) Percival and Neal Lavern" ;
+        c:length     "80" ;
+        c:offset     "263" ;
+        c:prefix     "direction of Marshall Funeral Home of Alva.  \n" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b45dff68-cf67-390d-ac0a-e8bfcc49e098> ;
+        c:suffix     " \"Butch? Percival, Jr. was born January 27, 1971," .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/lid/DefaultLangId>
+        a                    <http://s.opencalais.com/1/type/lid/DefaultLangId> ;
+        c:docId              <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:forenduserdisplay  "false" ;
+        c:lang               <http://d.opencalais.com/lid/DefaultLangId/English> ;
+        c:permid             "505062" .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Relevance/17>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Relevance/2>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/02157c02-b2ea-3af4-8b4d-35072a98066b> .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Instance/52>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Pharmacy Tech at the Wal-mart Pharmacy in ]Moore[.  \nShe enjoyed riding jet skis, motorcycling,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:exact      "Moore" ;
+        c:length     "5" ;
+        c:offset     "964" ;
+        c:prefix     "Pharmacy Tech at the Wal-mart Pharmacy in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/beeb7e1a-17b9-304b-aaad-1cf65699bdcb> ;
+        c:suffix     ".  \nShe enjoyed riding jet skis, motorcycling," .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Instance/31>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[direction of Marshall Funeral Home of Alva.  \n]Tina Marie Percival, daughter of Sarah Lucinda (Miller) Percival and Neal Lavern[ \"Butch? Percival, Jr. was born January 27, 1971,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:exact      "Tina Marie Percival, daughter of Sarah Lucinda (Miller) Percival and Neal Lavern" ;
+        c:length     "80" ;
+        c:offset     "263" ;
+        c:prefix     "direction of Marshall Funeral Home of Alva.  \n" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/f91d3241-a5c2-3391-89d3-28cb03eb8b00> ;
+        c:suffix     " \"Butch? Percival, Jr. was born January 27, 1971," .
+
+<http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97/Instance/10>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Percival, Jr. was born January 27, 1971, at ]Tacoma[, Washington, and passed away October 11, 2012,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/9e014435-621f-326a-b16e-2ff05adbcd97> ;
+        c:exact      "Tacoma" ;
+        c:length     "6" ;
+        c:offset     "396" ;
+        c:prefix     "Percival, Jr. was born January 27, 1971, at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b4149400-a48e-34fc-ad0b-442d8df42fd4> ;
+        c:suffix     ", Washington, and passed away October 11, 2012," .

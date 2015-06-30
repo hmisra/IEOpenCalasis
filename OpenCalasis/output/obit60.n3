@@ -1,0 +1,1940 @@
+#Relations: FamilyRelation, PersonAttributes, PersonCareer, PersonEducation, PersonLocation, PersonRelation
+#City: Blackwell, Dallas, Neodesha, Tulsa, Washington, D. C.
+#Company: Dairy Queen, Wal-Mart
+#Facility: Marshall Funeral Home of Alva, Zion Lutheran Cemetery
+#Organization: Air Force, Alva Zion Lutheran Church, Blackwell High School, Zion Lutheran Church of Independence
+#Person: Aaron Wagner, Adrienne, Bonnie (Johnson) Kurth, Charles Alan, Charles August Goodknight, Connie Burkhead, Edward Lewis Kurth, Gilbert Kurth, Glenda Joyce Goodknight, Glenda Joyce Goodnight, Hope Mills, Hoss, John Hare, Roger Kurth, Ronda Naifeh, Shelly Kurth, Stacey Kurth
+#ProvinceOrState: Kansas, North Carolina, Oklahoma
+@prefix c:     <http://s.opencalais.com/1/pred/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://d.opencalais.com/genericHasher-1/d0797776-04fe-3152-9327-eba5a891d67c>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "wife" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/0291ae45-f0f4-3678-8b98-4bba9b5cff0c> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/2f92f5b0-3d52-3283-851b-d2942872fedd> .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/90>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Goodknight of Washington, D. C.; one daughter, ]Ronda Naifeh[ of Tulsa; one brother, Roger Kurth of Tulsa; two]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "Ronda Naifeh" ;
+        c:length     "12" ;
+        c:offset     "1827" ;
+        c:prefix     "Goodknight of Washington, D. C.; one daughter, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/0291ae45-f0f4-3678-8b98-4bba9b5cff0c> ;
+        c:suffix     " of Tulsa; one brother, Roger Kurth of Tulsa; two" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Relevance/15>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8da39760-87db-3aa5-9369-142d08eb16f8> .
+
+<http://d.opencalais.com/genericHasher-1/21989726-c8c7-35ab-aa3d-3599d00ae9a1>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Neodesha" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/69>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ a hair dresser for a time.  On November 8, 1964, ]she[ was united in marriage to Charles August]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "711" ;
+        c:prefix     " a hair dresser for a time.  On November 8, 1964, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/7727d99f-4953-3cb5-91f7-7c52c6c40195> ;
+        c:suffix     " was united in marriage to Charles August" .
+
+<http://d.opencalais.com/comphash-1/635090c5-1336-3e9a-b6ad-c86468c9c4c9>
+        a                    <http://s.opencalais.com/1/type/em/e/Company> ;
+        c:confidencelevel    "0.894" ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Wal-Mart" ;
+        c:nationality        "N/A" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/48>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[she had such great grandkids.     \n  Besides ]her[ parents, she was preceded in death by her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1649" ;
+        c:prefix     "she had such great grandkids.     \n  Besides " ;
+        c:subject    <http://d.opencalais.com/pershash-1/2f92f5b0-3d52-3283-851b-d2942872fedd> ;
+        c:suffix     " parents, she was preceded in death by her" .
+
+<http://d.opencalais.com/conf/pershash-1/2f92f5b0-3d52-3283-851b-d2942872fedd>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.91" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.89" ;
+        c:subject             <http://d.opencalais.com/pershash-1/2f92f5b0-3d52-3283-851b-d2942872fedd> .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/27>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[family that ran deep within her.  She worked at ]Wal-Mart[, Dairy Queen and at a nursing home.    \n  She]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "Wal-Mart" ;
+        c:length     "8" ;
+        c:offset     "1352" ;
+        c:prefix     "family that ran deep within her.  She worked at " ;
+        c:subject    <http://d.opencalais.com/comphash-1/635090c5-1336-3e9a-b6ad-c86468c9c4c9> ;
+        c:suffix     ", Dairy Queen and at a nursing home.    \n  She" .
+
+<http://d.opencalais.com/genericHasher-1/f9418e99-544e-3904-a2c7-c9b46245b3c5>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Neodesha" ;
+        c:person             <http://d.opencalais.com/pershash-1/b4d05b00-4b27-31e9-ae4f-59175bae122d> .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/5>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[is survived by her son, Charles Alan “Hoss” ]Goodknight[ of Washington, D. C.; one daughter, Ronda Naifeh]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "Goodknight" ;
+        c:length     "10" ;
+        c:offset     "1780" ;
+        c:prefix     "is survived by her son, Charles Alan “Hoss” " ;
+        c:subject    <http://d.opencalais.com/pershash-1/5d90ba31-526e-3c13-913b-be3caa706869> ;
+        c:suffix     " of Washington, D. C.; one daughter, Ronda Naifeh" .
+
+<http://d.opencalais.com/comphash-1/65f125ab-caa1-3a77-8551-54eff7d775d2>
+        a                    <http://s.opencalais.com/1/type/em/e/Company> ;
+        c:confidencelevel    "0.724" ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Dairy Queen" ;
+        c:nationality        "N/A" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Relevance/23>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/eb0abdef-7e75-33c2-9b30-47b68cfa2c20> .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/77>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[  \n  Glenda Joyce Goodnight, daughter of the late ]Gilbert[ and Bonnie (Johnson) Kurth, was born January 7,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "Gilbert" ;
+        c:length     "7" ;
+        c:offset     "278" ;
+        c:prefix     "  \n  Glenda Joyce Goodnight, daughter of the late " ;
+        c:subject    <http://d.opencalais.com/pershash-1/e423e449-c4f9-3ecf-a011-77d18680a7ff> ;
+        c:suffix     " and Bonnie (Johnson) Kurth, was born January 7," .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/56>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[commitment to family that ran deep within her.  ]She worked at Wal-Mart, Dairy Queen[ and at a nursing home.    \n  She was a member of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "She worked at Wal-Mart, Dairy Queen" ;
+        c:length     "35" ;
+        c:offset     "1338" ;
+        c:prefix     "commitment to family that ran deep within her.  " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/d0341dd9-38d7-3b1f-a610-752c73326a15> ;
+        c:suffix     " and at a nursing home.    \n  She was a member of" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/35>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Tulsa; two nieces from her earlier marriage to ]Charles[, Connie Burkhead of Neodesha, Kansas, and John]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "Charles" ;
+        c:length     "7" ;
+        c:offset     "1988" ;
+        c:prefix     "Tulsa; two nieces from her earlier marriage to " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b4d05b00-4b27-31e9-ae4f-59175bae122d> ;
+        c:suffix     ", Connie Burkhead of Neodesha, Kansas, and John" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/14>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[her parents, she was preceded in death by ]her brother Edward Lewis Kurth[.    \n  Glenda is survived by her son, Charles]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "her brother Edward Lewis Kurth" ;
+        c:length     "30" ;
+        c:offset     "1691" ;
+        c:prefix     "her parents, she was preceded in death by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/da250737-987a-3fea-90f9-9d7de5c8f7ea> ;
+        c:suffix     ".    \n  Glenda is survived by her son, Charles" .
+
+<http://d.opencalais.com/pershash-1/5d90ba31-526e-3c13-913b-be3caa706869>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Glenda Joyce Goodknight" ;
+        c:confidencelevel    "0.987" ;
+        c:firstname          "Glenda" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Goodknight" ;
+        c:middlename         "Joyce" ;
+        c:name               "Glenda Joyce Goodknight" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/895cbd3f-3d05-3c5e-a799-e4882e0d3e08>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Tulsa, Oklahoma" ;
+        c:person             <http://d.opencalais.com/pershash-1/e423e449-c4f9-3ecf-a011-77d18680a7ff> .
+
+<http://d.opencalais.com/conf/pershash-1/eb0abdef-7e75-33c2-9b30-47b68cfa2c20>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.963" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.978" ;
+        c:subject             <http://d.opencalais.com/pershash-1/eb0abdef-7e75-33c2-9b30-47b68cfa2c20> .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Relevance/2>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/pershash-1/5d90ba31-526e-3c13-913b-be3caa706869> .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/meta>
+        a                 <http://s.opencalais.com/1/type/sys/DocInfoMeta> ;
+        c:contentType     "text/raw" ;
+        c:docId           <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:language        "English" ;
+        c:processingVer   "AllMetadata" ;
+        c:serverVersion   "OneCalais_8.3-RELEASE:364" ;
+        c:signature       "digestalg-1|EYY1qzlzGdCgwJ0HrGuY4T9MD3o=|BWo88lSnvjE3y+ctU9+elST41a5/sWxkqJmZ05fl70zJjDP1AeX/Jw==" ;
+        c:stagsVer        "OneCalais_8.3-RELEASE-b11-2015-03-25_18:29:00" ;
+        c:submissionDate  "2015-05-26 17:26:06.145" ;
+        c:submitterCode   "0ca6a864-5659-789d-5f32-f365f695e757" .
+
+<http://d.opencalais.com/genericHasher-1/604bf6c7-0744-32ed-b738-e7d3ea5ece50>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:forenduserdisplay  "true" ;
+        c:organization       <http://d.opencalais.com/genericHasher-1/e4554ac0-b6dc-36f7-98ad-f2a011d7078c> ;
+        c:person             <http://d.opencalais.com/pershash-1/2f92f5b0-3d52-3283-851b-d2942872fedd> ;
+        c:position           "member" ;
+        c:status             "past" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Relevance/31>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/2588ff94-c4d5-35b0-ba6c-514bb3d1f44b> .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/85>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[this union two children were born: Charles and ]Ronda[.    \n  As a great supporter of her daughter and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "Ronda" ;
+        c:length     "5" ;
+        c:offset     "819" ;
+        c:prefix     "this union two children were born: Charles and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/0291ae45-f0f4-3678-8b98-4bba9b5cff0c> ;
+        c:suffix     ".    \n  As a great supporter of her daughter and" .
+
+<http://d.opencalais.com/genericHasher-1/d4c3caaa-46d0-3ec9-aea5-37b43de96a33>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Tulsa" ;
+        c:person             <http://d.opencalais.com/pershash-1/5fe1ae89-47cc-3493-81d6-c61ed09f5cd4> .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Relevance/10>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/6356c1bd-9cd2-313c-8465-02f52769df55> .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/64>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[2015 at the Zion Lutheran Cemetery with Pastor ]Aaron Wagner[ officiating.  Interment is under the direction]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "Aaron Wagner" ;
+        c:length     "12" ;
+        c:offset     "133" ;
+        c:prefix     "2015 at the Zion Lutheran Cemetery with Pastor " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6b4da0cf-ceb9-39c1-8200-adfdf19d66b9> ;
+        c:suffix     " officiating.  Interment is under the direction" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/43>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[commitment to family that ran deep within her.  ]She[ worked at Wal-Mart, Dairy Queen and at a nursing]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "1338" ;
+        c:prefix     "commitment to family that ran deep within her.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/2f92f5b0-3d52-3283-851b-d2942872fedd> ;
+        c:suffix     " worked at Wal-Mart, Dairy Queen and at a nursing" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/22>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[may be made through the funeral home to the ]Alva Zion Lutheran Church[. \n\t\t\t]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "Alva Zion Lutheran Church" ;
+        c:length     "25" ;
+        c:offset     "2457" ;
+        c:prefix     "may be made through the funeral home to the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/6356c1bd-9cd2-313c-8465-02f52769df55> ;
+        c:suffix     ". \n\t\t\t" .
+
+<https://permid.org/1-4295910373>
+        a             <http://s.opencalais.com/1/type/er/Company> ;
+        c:commonname  "Intl Dairy Queen" ;
+        c:docId       <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:legacyid    <http://d.opencalais.com/er/company/ralg-tr1r/bb187cb5-dd70-32f5-a1bf-ec73f5acf1e7> ;
+        c:name        "International Dairy Queen Inc" ;
+        c:permid      "4295910373" ;
+        c:score       "0.027808843" ;
+        c:subject     <http://d.opencalais.com/comphash-1/65f125ab-caa1-3a77-8551-54eff7d775d2> .
+
+<http://d.opencalais.com/conf/pershash-1/0d5e2e82-dd7c-344d-be37-d3b00e6d4493>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.86" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/0d5e2e82-dd7c-344d-be37-d3b00e6d4493> .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/72>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ to spend a little time with her.  God bless you, ]Glenda[.  You will be greatly missed.    \n  Memorial]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "Glenda" ;
+        c:length     "6" ;
+        c:offset     "2347" ;
+        c:prefix     " to spend a little time with her.  God bless you, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/7727d99f-4953-3cb5-91f7-7c52c6c40195> ;
+        c:suffix     ".  You will be greatly missed.    \n  Memorial" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Relevance/18>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/51>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[  \n  Glenda Joyce Goodnight, daughter of the late ]Gilbert and Bonnie (Johnson) Kurth, was born January 7, 1945, in Blackwell, Oklahoma, and passed away March 21, 2015, in Tulsa, Oklahoma[, at the age of 70 years, 2 months, and 14 days. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "Gilbert and Bonnie (Johnson) Kurth, was born January 7, 1945, in Blackwell, Oklahoma, and passed away March 21, 2015, in Tulsa, Oklahoma" ;
+        c:length     "136" ;
+        c:offset     "278" ;
+        c:prefix     "  \n  Glenda Joyce Goodnight, daughter of the late " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/895cbd3f-3d05-3c5e-a799-e4882e0d3e08> ;
+        c:suffix     ", at the age of 70 years, 2 months, and 14 days. " .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/30>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Washington, D. C.; one daughter, Ronda Naifeh of ]Tulsa[; one brother, Roger Kurth of Tulsa; two nieces,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "Tulsa" ;
+        c:length     "5" ;
+        c:offset     "1843" ;
+        c:prefix     " Washington, D. C.; one daughter, Ronda Naifeh of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8da39760-87db-3aa5-9369-142d08eb16f8> ;
+        c:suffix     "; one brother, Roger Kurth of Tulsa; two nieces," .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/SocialTag/3>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Alva" ;
+        c:originalValue      "Alva" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/17f61973-ed95-369b-b381-dec22ce26b2a> .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/8>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[age of 70 years, 2 months, and 14 days.    \n  ]Glenda attended Blackwell High School[.  She played alto saxophone in high school and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "Glenda attended Blackwell High School" ;
+        c:length     "37" ;
+        c:offset     "469" ;
+        c:prefix     "age of 70 years, 2 months, and 14 days.    \n  " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/10ef28ad-91f2-36dd-9e17-4cc3b57d57fb> ;
+        c:suffix     ".  She played alto saxophone in high school and" .
+
+<http://d.opencalais.com/pershash-1/2588ff94-c4d5-35b0-ba6c-514bb3d1f44b>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Connie Burkhead" ;
+        c:confidencelevel    "0.991" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Connie Burkhead" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/pershash-1/0291ae45-f0f4-3678-8b98-4bba9b5cff0c>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Ronda Naifeh" ;
+        c:confidencelevel    "0.998" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Ronda Naifeh" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<https://permid.org/1-4295905298>
+        a             <http://s.opencalais.com/1/type/er/Company> ;
+        c:commonname  "Wal Mart Stores" ;
+        c:docId       <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:legacyid    <http://d.opencalais.com/er/company/ralg-tr1r/557b142f-8242-3ccd-8a41-2448320ae445> ;
+        c:name        "Wal Mart Stores Inc" ;
+        c:permid      "4295905298" ;
+        c:primaryric  "WMT.N" ;
+        c:score       "0.89849156" ;
+        c:subject     <http://d.opencalais.com/comphash-1/635090c5-1336-3e9a-b6ad-c86468c9c4c9> ;
+        c:ticker      "WMT" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/80>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[other relatives and friends.    \n  ]Her[ family wishes her to be remembered as the great]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "Her" ;
+        c:length     "3" ;
+        c:offset     "2154" ;
+        c:prefix     "other relatives and friends.    \n  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/2588ff94-c4d5-35b0-ba6c-514bb3d1f44b> ;
+        c:suffix     " family wishes her to be remembered as the great" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Relevance/26>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/pershash-1/7727d99f-4953-3cb5-91f7-7c52c6c40195> .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/59>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[(Johnson) Kurth, was born January 7, 1945, in ]Blackwell[, Oklahoma, and passed away March 21, 2015, in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "Blackwell" ;
+        c:length     "9" ;
+        c:offset     "343" ;
+        c:prefix     "(Johnson) Kurth, was born January 7, 1945, in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/950dbe4f-0861-352e-8434-6df369f28006> ;
+        c:suffix     ", Oklahoma, and passed away March 21, 2015, in" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/38>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[that she made such a connection with five of ]her[ eight grandkids.  She literally took over and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1066" ;
+        c:prefix     "that she made such a connection with five of " ;
+        c:subject    <http://d.opencalais.com/pershash-1/2f92f5b0-3d52-3283-851b-d2942872fedd> ;
+        c:suffix     " eight grandkids.  She literally took over and" .
+
+<http://d.opencalais.com/pershash-1/45861546-e7a9-34ad-b7ee-6413403fe6f2>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Roger Kurth" ;
+        c:confidencelevel    "0.997" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Roger Kurth" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/17>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[she stopped everything in her life to assist ]her son, Hoss and wife, Adrienne[, in two Air Force deployments to the War on]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "her son, Hoss and wife, Adrienne" ;
+        c:length     "32" ;
+        c:offset     "923" ;
+        c:prefix     "she stopped everything in her life to assist " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/fba5add2-c49b-36ce-98d8-8043d14c623b> ;
+        c:suffix     ", in two Air Force deployments to the War on" .
+
+<http://d.opencalais.com/pershash-1/6b4da0cf-ceb9-39c1-8200-adfdf19d66b9>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Aaron Wagner" ;
+        c:confidencelevel    "0.98" ;
+        c:firstname          "Aaron" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Wagner" ;
+        c:name               "Aaron Wagner" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Relevance/5>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/5fe1ae89-47cc-3493-81d6-c61ed09f5cd4> .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/88>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[her daughter and son, she stopped everything in ]her[ life to assist her son, Hoss and wife, Adrienne,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "904" ;
+        c:prefix     "her daughter and son, she stopped everything in " ;
+        c:subject    <http://d.opencalais.com/pershash-1/0291ae45-f0f4-3678-8b98-4bba9b5cff0c> ;
+        c:suffix     " life to assist her son, Hoss and wife, Adrienne," .
+
+<http://d.opencalais.com/conf/comphash-1/635090c5-1336-3e9a-b6ad-c86468c9c4c9>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.894" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:resolution          "0.89849156" ;
+        c:statisticalfeature  "0.876" ;
+        c:subject             <http://d.opencalais.com/comphash-1/635090c5-1336-3e9a-b6ad-c86468c9c4c9> .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Relevance/13>
+        a                <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId          <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:relevance      "0.2" ;
+        c:relevancecont  "0.03" ;
+        c:subject        <http://d.opencalais.com/comphash-1/635090c5-1336-3e9a-b6ad-c86468c9c4c9> .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/67>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[   \n  Glenda attended Blackwell High School.  ]She[ played alto saxophone in high school and the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "509" ;
+        c:prefix     "   \n  Glenda attended Blackwell High School.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/7727d99f-4953-3cb5-91f7-7c52c6c40195> ;
+        c:suffix     " played alto saxophone in high school and the" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/46>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[knitting, sewing, and of course, cooking.  ]She[ was a loving mother and grandmother, taking]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "1538" ;
+        c:prefix     "knitting, sewing, and of course, cooking.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/2f92f5b0-3d52-3283-851b-d2942872fedd> ;
+        c:suffix     " was a loving mother and grandmother, taking" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/25>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Goodknight of Washington, D. C.; one daughter, ]Ronda Naifeh of Tulsa[; one brother, Roger Kurth of Tulsa; two nieces,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "Ronda Naifeh of Tulsa" ;
+        c:length     "21" ;
+        c:offset     "1827" ;
+        c:prefix     "Goodknight of Washington, D. C.; one daughter, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a9c912d9-a98f-35f4-ae06-8af7ac2caa6f> ;
+        c:suffix     "; one brother, Roger Kurth of Tulsa; two nieces," .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/3>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Goodnight, daughter of the late Gilbert and ]Bonnie (Johnson) Kurth, was born January 7, 1945, in Blackwell, Oklahoma[, and passed away March 21, 2015, in Tulsa,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "Bonnie (Johnson) Kurth, was born January 7, 1945, in Blackwell, Oklahoma" ;
+        c:length     "72" ;
+        c:offset     "290" ;
+        c:prefix     "Goodnight, daughter of the late Gilbert and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a99b4d0e-6d14-33c1-83f0-3fd7070a42ec> ;
+        c:suffix     ", and passed away March 21, 2015, in Tulsa," .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/56e11c06-6ad9-7041-8d6e-70a5eff06454>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:latitude            "35.4833648675" ;
+        c:longitude           "-79.4002284439" ;
+        c:name                "North Carolina,United States" ;
+        c:permid              "100220" ;
+        c:rcscode             "G:7A" ;
+        c:shortname           "North Carolina" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/2c66e7d5-967b-3495-8e2a-6f535ace583c> .
+
+<http://d.opencalais.com/conf/comphash-1/65f125ab-caa1-3a77-8551-54eff7d775d2>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.724" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:resolution          "0.027808843" ;
+        c:statisticalfeature  "0.887" ;
+        c:subject             <http://d.opencalais.com/comphash-1/65f125ab-caa1-3a77-8551-54eff7d775d2> .
+
+<http://d.opencalais.com/genericHasher-1/e4554ac0-b6dc-36f7-98ad-f2a011d7078c>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Zion Lutheran Church of Independence" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/pershash-1/e423e449-c4f9-3ecf-a011-77d18680a7ff>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Gilbert Kurth" ;
+        c:confidencelevel    "0.928" ;
+        c:firstname          "Bonnie" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Kurth" ;
+        c:name               "Gilbert Kurth" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Relevance/21>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/0d5e2e82-dd7c-344d-be37-d3b00e6d4493> .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/75>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Edward Lewis Kurth.    \n  Glenda is survived by ]her son, Charles Alan[ “Hoss” Goodknight of Washington, D. C.; one]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "her son, Charles Alan" ;
+        c:length     "21" ;
+        c:offset     "1751" ;
+        c:prefix     "Edward Lewis Kurth.    \n  Glenda is survived by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/cdefc905-6022-3015-a05c-3af7a3b83292> ;
+        c:suffix     " “Hoss” Goodknight of Washington, D. C.; one" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/54>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[by her son, Charles Alan “Hoss” Goodknight of ]Washington, D. C.[; one daughter, Ronda Naifeh of Tulsa; one]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "Washington, D. C." ;
+        c:length     "17" ;
+        c:offset     "1794" ;
+        c:prefix     "by her son, Charles Alan “Hoss” Goodknight of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8a519835-56c5-3551-b5de-523534cafdd6> ;
+        c:suffix     "; one daughter, Ronda Naifeh of Tulsa; one" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/33>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ To this union two children were born: ]Charles[ and Ronda.    \n  As a great supporter of her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "Charles" ;
+        c:length     "7" ;
+        c:offset     "807" ;
+        c:prefix     " To this union two children were born: " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b4d05b00-4b27-31e9-ae4f-59175bae122d> ;
+        c:suffix     " and Ronda.    \n  As a great supporter of her" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/12>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and Stacey Kurth of Tulsa; two nieces from ]her[ earlier marriage to Charles, Connie Burkhead of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1964" ;
+        c:prefix     "and Stacey Kurth of Tulsa; two nieces from " ;
+        c:subject    <http://d.opencalais.com/pershash-1/5fe1ae89-47cc-3493-81d6-c61ed09f5cd4> ;
+        c:suffix     " earlier marriage to Charles, Connie Burkhead of" .
+
+<http://d.opencalais.com/genericHasher-1/82b8c016-34f7-3d31-9a9e-3b44a6ef2f08>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Dallas" .
+
+<http://d.opencalais.com/genericHasher-1/7b6567b8-5fcf-384d-a579-b5096e8adca2>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Tulsa" ;
+        c:person             <http://d.opencalais.com/pershash-1/45861546-e7a9-34ad-b7ee-6413403fe6f2> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/b0b503e0-e826-a6b3-0694-dfc899ebcbc9>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:latitude            "36.8044" ;
+        c:longitude           "-97.2825" ;
+        c:name                "Blackwell,Oklahoma,United States" ;
+        c:shortname           "Blackwell" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/950dbe4f-0861-352e-8434-6df369f28006> .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/83>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[to have been able to spend a little time with ]her[.  God bless you, Glenda.  You will be greatly]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "2326" ;
+        c:prefix     "to have been able to spend a little time with " ;
+        c:subject    <http://d.opencalais.com/pershash-1/2588ff94-c4d5-35b0-ba6c-514bb3d1f44b> ;
+        c:suffix     ".  God bless you, Glenda.  You will be greatly" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Relevance/29>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/fde4fb7c-172b-3ffa-9b8b-a6fb09d90a49> .
+
+<http://d.opencalais.com/genericHasher-1/c8ecdccc-1460-35f7-950c-d6ddd9bbf9d9>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Blackwell High School" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/62>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[assist her son, Hoss and wife, Adrienne, in two ]Air Force[ deployments to the War on Terror.  It was then]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "Air Force" ;
+        c:length     "9" ;
+        c:offset     "964" ;
+        c:prefix     "assist her son, Hoss and wife, Adrienne, in two " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/22cc490a-68a1-3320-9024-a72d57bc68f0> ;
+        c:suffix     " deployments to the War on Terror.  It was then" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/41>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[done.    \n  Later she moved to Alva to assist ]her[ parents as they were becoming older, showing the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1232" ;
+        c:prefix     "done.    \n  Later she moved to Alva to assist " ;
+        c:subject    <http://d.opencalais.com/pershash-1/2f92f5b0-3d52-3283-851b-d2942872fedd> ;
+        c:suffix     " parents as they were becoming older, showing the" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/20>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[one brother, Roger Kurth of Tulsa; two nieces, ]Shelly Kurth of Dallas, and Stacey Kurth of Tulsa; two nieces from her earlier marriage to Charles[, Connie Burkhead of Neodesha, Kansas, and John]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "Shelly Kurth of Dallas, and Stacey Kurth of Tulsa; two nieces from her earlier marriage to Charles" ;
+        c:length     "98" ;
+        c:offset     "1897" ;
+        c:prefix     "one brother, Roger Kurth of Tulsa; two nieces, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9757c751-f6ee-3b76-aacb-0c9ca7a94403> ;
+        c:suffix     ", Connie Burkhead of Neodesha, Kansas, and John" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/cat/1>
+        a                    <http://s.opencalais.com/1/type/cat/DocCat> ;
+        c:docId              <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Human Interest" ;
+        c:score              "0.917" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Relevance/8>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/cc3dc60b-d832-3a40-86c8-91b29493ce42> .
+
+<http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Marshall Funeral Home of Alva" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/91>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[2 months, and 14 days.    \n  Glenda attended ]Blackwell High School[.  She played alto saxophone in high school and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "Blackwell High School" ;
+        c:length     "21" ;
+        c:offset     "485" ;
+        c:prefix     "2 months, and 14 days.    \n  Glenda attended " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c8ecdccc-1460-35f7-950c-d6ddd9bbf9d9> ;
+        c:suffix     ".  She played alto saxophone in high school and" .
+
+<http://d.opencalais.com/genericHasher-1/d0341dd9-38d7-3b1f-a610-752c73326a15>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:company            <http://d.opencalais.com/comphash-1/635090c5-1336-3e9a-b6ad-c86468c9c4c9> ;
+        c:forenduserdisplay  "true" ;
+        c:person             <http://d.opencalais.com/pershash-1/2f92f5b0-3d52-3283-851b-d2942872fedd> ;
+        c:status             "past" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/70>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[death by her brother Edward Lewis Kurth.    \n  ]Glenda[ is survived by her son, Charles Alan “Hoss”]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "Glenda" ;
+        c:length     "6" ;
+        c:offset     "1729" ;
+        c:prefix     "death by her brother Edward Lewis Kurth.    \n  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/7727d99f-4953-3cb5-91f7-7c52c6c40195> ;
+        c:suffix     " is survived by her son, Charles Alan “Hoss”" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Relevance/16>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/b4d05b00-4b27-31e9-ae4f-59175bae122d> .
+
+<http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Kansas" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/49>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[great grandkids.     \n  Besides her parents, ]she[ was preceded in death by her brother Edward]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "1662" ;
+        c:prefix     "great grandkids.     \n  Besides her parents, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/2f92f5b0-3d52-3283-851b-d2942872fedd> ;
+        c:suffix     " was preceded in death by her brother Edward" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/28>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[one brother, Roger Kurth of Tulsa; two nieces, ]Shelly Kurth[ of Dallas, and Stacey Kurth of Tulsa; two nieces]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "Shelly Kurth" ;
+        c:length     "12" ;
+        c:offset     "1897" ;
+        c:prefix     "one brother, Roger Kurth of Tulsa; two nieces, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/c4078219-58af-363f-a8ca-112c5e3510a3> ;
+        c:suffix     " of Dallas, and Stacey Kurth of Tulsa; two nieces" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/SocialTag/1>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Tulsa Metropolitan Area" ;
+        c:originalValue      "Tulsa Metropolitan Area" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/b8697b6b-3ed1-3b82-afc2-e8afae9c446c> .
+
+<http://d.opencalais.com/conf/pershash-1/2588ff94-c4d5-35b0-ba6c-514bb3d1f44b>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.991" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.994" ;
+        c:subject             <http://d.opencalais.com/pershash-1/2588ff94-c4d5-35b0-ba6c-514bb3d1f44b> .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/6>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of the Zion Lutheran Church of Independence, ]Kansas[.  Her hobbies included knitting, sewing, and of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "Kansas" ;
+        c:length     "6" ;
+        c:offset     "1465" ;
+        c:prefix     "of the Zion Lutheran Church of Independence, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> ;
+        c:suffix     ".  Her hobbies included knitting, sewing, and of" .
+
+<http://d.opencalais.com/genericHasher-1/2c66e7d5-967b-3495-8e2a-6f535ace583c>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "North Carolina" .
+
+<http://d.opencalais.com/conf/pershash-1/0291ae45-f0f4-3678-8b98-4bba9b5cff0c>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.998" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.999" ;
+        c:subject             <http://d.opencalais.com/pershash-1/0291ae45-f0f4-3678-8b98-4bba9b5cff0c> .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Relevance/24>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/22cc490a-68a1-3320-9024-a72d57bc68f0> .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/78>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Tulsa; two nieces, Shelly Kurth of Dallas, and ]Stacey Kurth of Tulsa[; two nieces from her earlier marriage to]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "Stacey Kurth of Tulsa" ;
+        c:length     "21" ;
+        c:offset     "1925" ;
+        c:prefix     "Tulsa; two nieces, Shelly Kurth of Dallas, and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/d4c3caaa-46d0-3ec9-aea5-37b43de96a33> ;
+        c:suffix     "; two nieces from her earlier marriage to" .
+
+<http://d.opencalais.com/conf/pershash-1/45861546-e7a9-34ad-b7ee-6413403fe6f2>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.997" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.998" ;
+        c:subject             <http://d.opencalais.com/pershash-1/45861546-e7a9-34ad-b7ee-6413403fe6f2> .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/57>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ran deep within her.  She worked at Wal-Mart, ]Dairy Queen[ and at a nursing home.    \n  She was a member of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "Dairy Queen" ;
+        c:length     "11" ;
+        c:offset     "1362" ;
+        c:prefix     "ran deep within her.  She worked at Wal-Mart, " ;
+        c:subject    <http://d.opencalais.com/comphash-1/65f125ab-caa1-3a77-8551-54eff7d775d2> ;
+        c:suffix     " and at a nursing home.    \n  She was a member of" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/36>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in her life to assist her son, Hoss and wife, ]Adrienne[, in two Air Force deployments to the War on]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "Adrienne" ;
+        c:length     "8" ;
+        c:offset     "947" ;
+        c:prefix     "in her life to assist her son, Hoss and wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/2f92f5b0-3d52-3283-851b-d2942872fedd> ;
+        c:suffix     ", in two Air Force deployments to the War on" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/15>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ at a nursing home.    \n  She was a member of the ]Zion Lutheran Church of Independence[, Kansas.  Her hobbies included knitting, sewing,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "Zion Lutheran Church of Independence" ;
+        c:length     "36" ;
+        c:offset     "1427" ;
+        c:prefix     " at a nursing home.    \n  She was a member of the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e4554ac0-b6dc-36f7-98ad-f2a011d7078c> ;
+        c:suffix     ", Kansas.  Her hobbies included knitting, sewing," .
+
+<http://d.opencalais.com/conf/pershash-1/6b4da0cf-ceb9-39c1-8200-adfdf19d66b9>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.98" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/6b4da0cf-ceb9-39c1-8200-adfdf19d66b9> .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Relevance/3>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Relevance/32>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/0291ae45-f0f4-3678-8b98-4bba9b5cff0c> .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/86>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Charles and Ronda.    \n  As a great supporter of ]her[ daughter and son, she stopped everything in her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "856" ;
+        c:prefix     " Charles and Ronda.    \n  As a great supporter of " ;
+        c:subject    <http://d.opencalais.com/pershash-1/0291ae45-f0f4-3678-8b98-4bba9b5cff0c> ;
+        c:suffix     " daughter and son, she stopped everything in her" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Relevance/11>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce> .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/65>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Marshall Funeral Home of Alva.    \n  ]Glenda Joyce Goodnight[, daughter of the late Gilbert and Bonnie]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "Glenda Joyce Goodnight" ;
+        c:length     "22" ;
+        c:offset     "233" ;
+        c:prefix     "of Marshall Funeral Home of Alva.    \n  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/7727d99f-4953-3cb5-91f7-7c52c6c40195> ;
+        c:suffix     ", daughter of the late Gilbert and Bonnie" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/44>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Dairy Queen and at a nursing home.    \n  ]She[ was a member of the Zion Lutheran Church of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "1403" ;
+        c:prefix     "Dairy Queen and at a nursing home.    \n  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/2f92f5b0-3d52-3283-851b-d2942872fedd> ;
+        c:suffix     " was a member of the Zion Lutheran Church of" .
+
+<http://d.opencalais.com/genericHasher-1/6356c1bd-9cd2-313c-8465-02f52769df55>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Alva Zion Lutheran Church" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/da250737-987a-3fea-90f9-9d7de5c8f7ea>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "brother" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/2f92f5b0-3d52-3283-851b-d2942872fedd> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/e97cd407-3f82-319c-bf9d-dedf1b71364e> .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/23>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Interment is under the direction of ]Marshall Funeral Home of Alva[.    \n  Glenda Joyce Goodnight, daughter of the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "Marshall Funeral Home of Alva" ;
+        c:length     "29" ;
+        c:offset     "196" ;
+        c:prefix     " Interment is under the direction of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce> ;
+        c:suffix     ".    \n  Glenda Joyce Goodnight, daughter of the" .
+
+<http://d.opencalais.com/pershash-1/cc3dc60b-d832-3a40-86c8-91b29493ce42>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Bonnie Kurth" ;
+        c:confidencelevel    "0.946" ;
+        c:firstname          "Bonnie" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Kurth" ;
+        c:name               "Bonnie (Johnson) Kurth" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/1>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[earlier marriage to Charles, Connie Burkhead of ]Neodesha[, Kansas, and John Hare of Hope Mills, North]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "Neodesha" ;
+        c:length     "8" ;
+        c:offset     "2016" ;
+        c:prefix     "earlier marriage to Charles, Connie Burkhead of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/21989726-c8c7-35ab-aa3d-3599d00ae9a1> ;
+        c:suffix     ", Kansas, and John Hare of Hope Mills, North" .
+
+<http://d.opencalais.com/conf/pershash-1/e423e449-c4f9-3ecf-a011-77d18680a7ff>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.928" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.928" ;
+        c:subject             <http://d.opencalais.com/pershash-1/e423e449-c4f9-3ecf-a011-77d18680a7ff> .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/73>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[she was preceded in death by her brother ]Edward Lewis Kurth[.    \n  Glenda is survived by her son, Charles]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "Edward Lewis Kurth" ;
+        c:length     "18" ;
+        c:offset     "1703" ;
+        c:prefix     "she was preceded in death by her brother " ;
+        c:subject    <http://d.opencalais.com/pershash-1/e97cd407-3f82-319c-bf9d-dedf1b71364e> ;
+        c:suffix     ".    \n  Glenda is survived by her son, Charles" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Relevance/19>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8a519835-56c5-3551-b5de-523534cafdd6> .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/52>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Kurth, was born January 7, 1945, in Blackwell, ]Oklahoma[, and passed away March 21, 2015, in Tulsa,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "354" ;
+        c:prefix     "Kurth, was born January 7, 1945, in Blackwell, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", and passed away March 21, 2015, in Tulsa," .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/31>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Naifeh of Tulsa; one brother, Roger Kurth of ]Tulsa[; two nieces, Shelly Kurth of Dallas, and Stacey]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "Tulsa" ;
+        c:length     "5" ;
+        c:offset     "1878" ;
+        c:prefix     "Naifeh of Tulsa; one brother, Roger Kurth of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8da39760-87db-3aa5-9369-142d08eb16f8> ;
+        c:suffix     "; two nieces, Shelly Kurth of Dallas, and Stacey" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/10>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[be 1:00 p.m. Wednesday, March 25, 2015 at the ]Zion Lutheran Cemetery[ with Pastor Aaron Wagner officiating.  Interment]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "Zion Lutheran Cemetery" ;
+        c:length     "22" ;
+        c:offset     "98" ;
+        c:prefix     "be 1:00 p.m. Wednesday, March 25, 2015 at the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3e4cea32-3158-33e0-b8cb-7fb922cbcaa2> ;
+        c:suffix     " with Pastor Aaron Wagner officiating.  Interment" .
+
+<http://d.opencalais.com/pershash-1/b4d05b00-4b27-31e9-ae4f-59175bae122d>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Charles Alan" ;
+        c:confidencelevel    "0.997" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Charles Alan" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/9>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Dairy Queen and at a nursing home.    \n  ]She was a member of the Zion Lutheran Church of Independence[, Kansas.  Her hobbies included knitting, sewing,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "She was a member of the Zion Lutheran Church of Independence" ;
+        c:length     "60" ;
+        c:offset     "1403" ;
+        c:prefix     "Dairy Queen and at a nursing home.    \n  " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/604bf6c7-0744-32ed-b738-e7d3ea5ece50> ;
+        c:suffix     ", Kansas.  Her hobbies included knitting, sewing," .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/cdbe37bc-3af5-6ff0-3597-7615ea496cd1>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:latitude            "36.1539" ;
+        c:longitude           "-95.9925" ;
+        c:name                "Tulsa,Oklahoma,United States" ;
+        c:shortname           "Tulsa" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/8da39760-87db-3aa5-9369-142d08eb16f8> .
+
+<http://d.opencalais.com/genericHasher-1/9fb011c2-8861-3f71-9c26-6daafd5a268a>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "son" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/0291ae45-f0f4-3678-8b98-4bba9b5cff0c> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/0d5e2e82-dd7c-344d-be37-d3b00e6d4493> .
+
+<http://d.opencalais.com/pershash-1/e97cd407-3f82-319c-bf9d-dedf1b71364e>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Edward Lewis Kurth" ;
+        c:confidencelevel    "0.996" ;
+        c:firstname          "Edward" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Kurth" ;
+        c:middlename         "Lewis" ;
+        c:name               "Edward Lewis Kurth" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/81>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[relatives and friends.    \n  Her family wishes ]her[ to be remembered as the great person she was and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "2172" ;
+        c:prefix     "relatives and friends.    \n  Her family wishes " ;
+        c:subject    <http://d.opencalais.com/pershash-1/2588ff94-c4d5-35b0-ba6c-514bb3d1f44b> ;
+        c:suffix     " to be remembered as the great person she was and" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Relevance/27>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/e97cd407-3f82-319c-bf9d-dedf1b71364e> .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/60>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[November 8, 1964, she was united in marriage to ]Charles August Goodknight[.  To this union two children were born: Charles]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "Charles August Goodknight" ;
+        c:length     "25" ;
+        c:offset     "741" ;
+        c:prefix     "November 8, 1964, she was united in marriage to " ;
+        c:subject    <http://d.opencalais.com/pershash-1/eb0abdef-7e75-33c2-9b30-47b68cfa2c20> ;
+        c:suffix     ".  To this union two children were born: Charles" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/39>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[a connection with five of her eight grandkids.  ]She[ literally took over and saw to it that four kids]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "1088" ;
+        c:prefix     "a connection with five of her eight grandkids.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/2f92f5b0-3d52-3283-851b-d2942872fedd> ;
+        c:suffix     " literally took over and saw to it that four kids" .
+
+<http://d.opencalais.com/pershash-1/5fe1ae89-47cc-3493-81d6-c61ed09f5cd4>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Stacey Kurth" ;
+        c:confidencelevel    "0.991" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Stacey Kurth" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/18>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[is survived by her son, Charles Alan “Hoss” ]Goodknight of Washington, D. C.[; one daughter, Ronda Naifeh of Tulsa; one]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "Goodknight of Washington, D. C." ;
+        c:length     "31" ;
+        c:offset     "1780" ;
+        c:prefix     "is survived by her son, Charles Alan “Hoss” " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/85e4f82e-e6c9-3fbe-937b-e795f5ff00ca> ;
+        c:suffix     "; one daughter, Ronda Naifeh of Tulsa; one" .
+
+<http://d.opencalais.com/genericHasher-1/3e4cea32-3158-33e0-b8cb-7fb922cbcaa2>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Zion Lutheran Cemetery" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Relevance/6>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e4554ac0-b6dc-36f7-98ad-f2a011d7078c> .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da>
+        a                  <http://s.opencalais.com/1/type/sys/DocInfo> ;
+        c:calaisRequestID  "16c81718-8aa1-6282-14d9-14288417848c" ;
+        c:docDate          "2015-05-26 17:26:06.601" ;
+        c:docTitle         "" ;
+        c:document         "Graveside services for Glenda Joyce Goodknight will be 1:00 p.m. Wednesday, March 25, 2015 at the Zion Lutheran Cemetery with Pastor Aaron Wagner officiating.  Interment is under the direction of Marshall Funeral Home of Alva.    \n  Glenda Joyce Goodnight, daughter of the late Gilbert and Bonnie (Johnson) Kurth, was born January 7, 1945, in Blackwell, Oklahoma, and passed away March 21, 2015, in Tulsa, Oklahoma, at the age of 70 years, 2 months, and 14 days.    \n  Glenda attended Blackwell High School.  She played alto saxophone in high school and the band marched in the Rose Bowl parade in the early 1950's.  She then attended cosmetology school and was a hair dresser for a time.  On November 8, 1964, she was united in marriage to Charles August Goodknight.  To this union two children were born: Charles and Ronda.    \n  As a great supporter of her daughter and son, she stopped everything in her life to assist her son, Hoss and wife, Adrienne, in two Air Force deployments to the War on Terror.  It was then that she made such a connection with five of her eight grandkids.  She literally took over and saw to it that four kids got to school, were clothed and homework was done.    \n  Later she moved to Alva to assist her parents as they were becoming older, showing the deep commitment to family that ran deep within her.  She worked at Wal-Mart, Dairy Queen and at a nursing home.    \n  She was a member of the Zion Lutheran Church of Independence, Kansas.  Her hobbies included knitting, sewing, and of course, cooking.  She was a loving mother and grandmother, taking pride in the fact she had such great grandkids.     \n  Besides her parents, she was preceded in death by her brother Edward Lewis Kurth.    \n  Glenda is survived by her son, Charles Alan “Hoss” Goodknight of Washington, D. C.; one daughter, Ronda Naifeh of Tulsa; one brother, Roger Kurth of Tulsa; two nieces, Shelly Kurth of Dallas, and Stacey Kurth of Tulsa; two nieces from her earlier marriage to Charles, Connie Burkhead of Neodesha, Kansas, and John Hare of Hope Mills, North Carolina; 8 grandchildren; 2 great grandchildren; other relatives and friends.    \n  Her family wishes her to be remembered as the great person she was and the better we have all been for having the opportunity to have been able to spend a little time with her.  God bless you, Glenda.  You will be greatly missed.    \n  Memorial contributions may be made through the funeral home to the Alva Zion Lutheran Church. \n\t\t\t" ;
+        c:id               "http://id.opencalais.com/WpAAEJrgFK9sClxhwxVgUw" ;
+        c:ontology         "http://163.231.4.65/owlschema/8.3/onecalais.owl.allmetadata.xml" .
+
+<http://d.opencalais.com/pershash-1/6d85ef2c-ba18-3ad5-b2ac-22efdd4f7f1f>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "John Hare" ;
+        c:confidencelevel    "0.993" ;
+        c:firstname          "John" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Hare" ;
+        c:name               "John Hare" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/ComponentVersions>
+        a          <http://s.opencalais.com/1/type/sys/ComponentVersions> ;
+        c:docId    <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:version  "OneCalaisIM:OneCalais_8.3-RELEASE:198" , "Deals Index:201505261613:201505261613" , "Housekeeper:OneCalais_8.3-RELEASE:113" , "config-sca-DataPackage:34:34" , "SECHeaderMetadataIM:OneCalais_8.3-RELEASE:198" , "index-vessels:201505231718:201505231718" , "com.clearforest.infoext.dial4j.plugins-basistechconfig:OneCalais_8.3-RELEASE:225" , "AutocoderRuntimeIM:OneCalais_8.3-RELEASE:198" , "OA Index:201505252208:201505252208" , "BlackList:264:264" , "config-refineries:258:258" , "SocialTags Index:201505191038:201505191038" , "OA Override:271:271" , "NextTags:OneCalais_8.3-RELEASE:113" , "config-negativeSignature:258:258" , "config-drugs:258:258" , "WatchDog:OneCalais_8.3-RELEASE:113" , "FrenchIM:OneCalais_8.3-RELEASE:198" , "BrokerResearchIM:OneCalais_8.3-RELEASE:198" , "Collector:OneCalais_8.3-RELEASE:113" , "config-physicalAssets-ports:258:258" , "People Index:201505261608:201505261608" , "config-cse:271:271" , "Dial4J:OneCalais_8.3-RELEASE:198" , "OneCalais:OneCalais_8.3-RELEASE:364" , "People Override:258:258" , "SpanishIM:OneCalais_8.3-RELEASE:198" , "config-vessels:258:258" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/89>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[she stopped everything in her life to assist ]her[ son, Hoss and wife, Adrienne, in two Air Force]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "923" ;
+        c:prefix     "she stopped everything in her life to assist " ;
+        c:subject    <http://d.opencalais.com/pershash-1/0291ae45-f0f4-3678-8b98-4bba9b5cff0c> ;
+        c:suffix     " son, Hoss and wife, Adrienne, in two Air Force" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Relevance/14>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/c4078219-58af-363f-a8ca-112c5e3510a3> .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/68>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in the Rose Bowl parade in the early 1950's.  ]She[ then attended cosmetology school and was a hair]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "617" ;
+        c:prefix     "in the Rose Bowl parade in the early 1950's.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/7727d99f-4953-3cb5-91f7-7c52c6c40195> ;
+        c:suffix     " then attended cosmetology school and was a hair" .
+
+<http://d.opencalais.com/genericHasher-1/950dbe4f-0861-352e-8434-6df369f28006>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Blackwell" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/47>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ mother and grandmother, taking pride in the fact ]she[ had such great grandkids.     \n  Besides her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "1604" ;
+        c:prefix     " mother and grandmother, taking pride in the fact " ;
+        c:subject    <http://d.opencalais.com/pershash-1/2f92f5b0-3d52-3283-851b-d2942872fedd> ;
+        c:suffix     " had such great grandkids.     \n  Besides her" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/26>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[daughter, Ronda Naifeh of Tulsa; one brother, ]Roger Kurth[ of Tulsa; two nieces, Shelly Kurth of Dallas,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "Roger Kurth" ;
+        c:length     "11" ;
+        c:offset     "1863" ;
+        c:prefix     "daughter, Ronda Naifeh of Tulsa; one brother, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/45861546-e7a9-34ad-b7ee-6413403fe6f2> ;
+        c:suffix     " of Tulsa; two nieces, Shelly Kurth of Dallas," .
+
+<http://d.opencalais.com/genericHasher-1/9757c751-f6ee-3b76-aacb-0c9ca7a94403>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/b4d05b00-4b27-31e9-ae4f-59175bae122d> , <http://d.opencalais.com/pershash-1/c4078219-58af-363f-a8ca-112c5e3510a3> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/4>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Graveside services for ]Glenda Joyce Goodknight[ will be 1:00 p.m. Wednesday, March 25, 2015 at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "Glenda Joyce Goodknight" ;
+        c:length     "23" ;
+        c:offset     "23" ;
+        c:prefix     "Graveside services for " ;
+        c:subject    <http://d.opencalais.com/pershash-1/5d90ba31-526e-3c13-913b-be3caa706869> ;
+        c:suffix     " will be 1:00 p.m. Wednesday, March 25, 2015 at" .
+
+<http://d.opencalais.com/genericHasher-1/85e4f82e-e6c9-3fbe-937b-e795f5ff00ca>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Washington, D. C." ;
+        c:person             <http://d.opencalais.com/pershash-1/5d90ba31-526e-3c13-913b-be3caa706869> .
+
+<http://d.opencalais.com/pershash-1/fde4fb7c-172b-3ffa-9b8b-a6fb09d90a49>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Hope Mills" ;
+        c:confidencelevel    "0.6" ;
+        c:firstname          "Hope" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Mills" ;
+        c:name               "Hope Mills" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Relevance/22>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/950dbe4f-0861-352e-8434-6df369f28006> .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/76>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Burkhead of Neodesha, Kansas, and John Hare of ]Hope Mills[, North Carolina; 8 grandchildren; 2 great]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "Hope Mills" ;
+        c:length     "10" ;
+        c:offset     "2051" ;
+        c:prefix     "Burkhead of Neodesha, Kansas, and John Hare of " ;
+        c:subject    <http://d.opencalais.com/pershash-1/fde4fb7c-172b-3ffa-9b8b-a6fb09d90a49> ;
+        c:suffix     ", North Carolina; 8 grandchildren; 2 great" .
+
+<http://d.opencalais.com/pershash-1/c4078219-58af-363f-a8ca-112c5e3510a3>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Shelly Kurth" ;
+        c:confidencelevel    "0.983" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Shelly Kurth" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/55>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Tulsa; two nieces from her earlier marriage to ]Charles, Connie Burkhead of Neodesha, Kansas[, and John Hare of Hope Mills, North Carolina; 8]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "Charles, Connie Burkhead of Neodesha, Kansas" ;
+        c:length     "44" ;
+        c:offset     "1988" ;
+        c:prefix     "Tulsa; two nieces from her earlier marriage to " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/f9418e99-544e-3904-a2c7-c9b46245b3c5> ;
+        c:suffix     ", and John Hare of Hope Mills, North Carolina; 8" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/34>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Kurth.    \n  Glenda is survived by her son, ]Charles Alan[ “Hoss” Goodknight of Washington, D. C.; one]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "Charles Alan" ;
+        c:length     "12" ;
+        c:offset     "1760" ;
+        c:prefix     "Kurth.    \n  Glenda is survived by her son, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b4d05b00-4b27-31e9-ae4f-59175bae122d> ;
+        c:suffix     " “Hoss” Goodknight of Washington, D. C.; one" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/13>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[she stopped everything in her life to assist ]her son, Hoss and wife, Adrienne[, in two Air Force deployments to the War on]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "her son, Hoss and wife, Adrienne" ;
+        c:length     "32" ;
+        c:offset     "923" ;
+        c:prefix     "she stopped everything in her life to assist " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9fb011c2-8861-3f71-9c26-6daafd5a268a> ;
+        c:suffix     ", in two Air Force deployments to the War on" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Relevance/1>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/21989726-c8c7-35ab-aa3d-3599d00ae9a1> .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Relevance/30>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/e423e449-c4f9-3ecf-a011-77d18680a7ff> .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/84>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[one brother, Roger Kurth of Tulsa; two nieces, ]Shelly Kurth of Dallas[, and Stacey Kurth of Tulsa; two nieces from her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "Shelly Kurth of Dallas" ;
+        c:length     "22" ;
+        c:offset     "1897" ;
+        c:prefix     "one brother, Roger Kurth of Tulsa; two nieces, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e36be766-1686-313d-8431-513dbc5eab03> ;
+        c:suffix     ", and Stacey Kurth of Tulsa; two nieces from her" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/63>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[school and was a hair dresser for a time.  ]On November 8, 1964, she was united in marriage to Charles August Goodknight[.  To this union two children were born: Charles]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "On November 8, 1964, she was united in marriage to Charles August Goodknight" ;
+        c:length     "76" ;
+        c:offset     "690" ;
+        c:prefix     "school and was a hair dresser for a time.  " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/7cc3699b-eadd-3f93-aeda-17c950d85721> ;
+        c:suffix     ".  To this union two children were born: Charles" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/42>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[deep commitment to family that ran deep within ]her[.  She worked at Wal-Mart, Dairy Queen and at a]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1332" ;
+        c:prefix     "deep commitment to family that ran deep within " ;
+        c:subject    <http://d.opencalais.com/pershash-1/2f92f5b0-3d52-3283-851b-d2942872fedd> ;
+        c:suffix     ".  She worked at Wal-Mart, Dairy Queen and at a" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/56e164a8-ee81-df99-79ad-56dc584d26dd>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Texas" ;
+        c:docId               <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:latitude            "32.7833" ;
+        c:longitude           "-96.8" ;
+        c:name                "Dallas,Texas,United States" ;
+        c:rcscode             "G:13T" ;
+        c:shortname           "Dallas" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/82b8c016-34f7-3d31-9a9e-3b44a6ef2f08> .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/21>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Kurth of Tulsa; two nieces, Shelly Kurth of ]Dallas[, and Stacey Kurth of Tulsa; two nieces from her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "Dallas" ;
+        c:length     "6" ;
+        c:offset     "1913" ;
+        c:prefix     "Kurth of Tulsa; two nieces, Shelly Kurth of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/82b8c016-34f7-3d31-9a9e-3b44a6ef2f08> ;
+        c:suffix     ", and Stacey Kurth of Tulsa; two nieces from her" .
+
+<http://d.opencalais.com/conf/pershash-1/cc3dc60b-d832-3a40-86c8-91b29493ce42>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.946" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.947" ;
+        c:subject             <http://d.opencalais.com/pershash-1/cc3dc60b-d832-3a40-86c8-91b29493ce42> .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Relevance/9>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/82b8c016-34f7-3d31-9a9e-3b44a6ef2f08> .
+
+<http://d.opencalais.com/pershash-1/7727d99f-4953-3cb5-91f7-7c52c6c40195>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Glenda Joyce Goodnight" ;
+        c:confidencelevel    "0.993" ;
+        c:firstname          "Glenda" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Goodnight" ;
+        c:middlename         "Joyce" ;
+        c:name               "Glenda Joyce Goodnight" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/8da39760-87db-3aa5-9369-142d08eb16f8>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Tulsa" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/71>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Edward Lewis Kurth.    \n  Glenda is survived by ]her[ son, Charles Alan “Hoss” Goodknight of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1751" ;
+        c:prefix     "Edward Lewis Kurth.    \n  Glenda is survived by " ;
+        c:subject    <http://d.opencalais.com/pershash-1/7727d99f-4953-3cb5-91f7-7c52c6c40195> ;
+        c:suffix     " son, Charles Alan “Hoss” Goodknight of" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Relevance/17>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/2f92f5b0-3d52-3283-851b-d2942872fedd> .
+
+<http://d.opencalais.com/genericHasher-1/10ef28ad-91f2-36dd-9e17-4cc3b57d57fb>
+        a                       <http://s.opencalais.com/1/type/em/r/PersonEducation> ;
+        c:forenduserdisplay     "false" ;
+        c:person                <http://d.opencalais.com/pershash-1/7727d99f-4953-3cb5-91f7-7c52c6c40195> ;
+        c:schoolororganization  "Blackwell High School" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/50>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[her parents, she was preceded in death by ]her[ brother Edward Lewis Kurth.    \n  Glenda is]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1691" ;
+        c:prefix     "her parents, she was preceded in death by " ;
+        c:subject    <http://d.opencalais.com/pershash-1/2f92f5b0-3d52-3283-851b-d2942872fedd> ;
+        c:suffix     " brother Edward Lewis Kurth.    \n  Glenda is" .
+
+<http://d.opencalais.com/conf/pershash-1/b4d05b00-4b27-31e9-ae4f-59175bae122d>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.997" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.995" ;
+        c:subject             <http://d.opencalais.com/pershash-1/b4d05b00-4b27-31e9-ae4f-59175bae122d> .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/29>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Oklahoma, and passed away March 21, 2015, in ]Tulsa[, Oklahoma, at the age of 70 years, 2 months, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "Tulsa" ;
+        c:length     "5" ;
+        c:offset     "399" ;
+        c:prefix     "Oklahoma, and passed away March 21, 2015, in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8da39760-87db-3aa5-9369-142d08eb16f8> ;
+        c:suffix     ", Oklahoma, at the age of 70 years, 2 months, and" .
+
+<http://d.opencalais.com/pershash-1/2f92f5b0-3d52-3283-851b-d2942872fedd>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Adrienne" ;
+        c:confidencelevel    "0.91" ;
+        c:firstname          "Adrienne" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Adrienne" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/SocialTag/2>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Tulsa, Oklahoma" ;
+        c:originalValue      "Tulsa, Oklahoma" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/68c95496-de71-3171-a7af-e427351003f1> .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/7>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[to Charles, Connie Burkhead of Neodesha, ]Kansas[, and John Hare of Hope Mills, North Carolina; 8]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "Kansas" ;
+        c:length     "6" ;
+        c:offset     "2026" ;
+        c:prefix     "to Charles, Connie Burkhead of Neodesha, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> ;
+        c:suffix     ", and John Hare of Hope Mills, North Carolina; 8" .
+
+<http://d.opencalais.com/conf/pershash-1/e97cd407-3f82-319c-bf9d-dedf1b71364e>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.996" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.997" ;
+        c:subject             <http://d.opencalais.com/pershash-1/e97cd407-3f82-319c-bf9d-dedf1b71364e> .
+
+<http://d.opencalais.com/genericHasher-1/22cc490a-68a1-3320-9024-a72d57bc68f0>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Air Force" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "governmental military" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Relevance/25>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/6b4da0cf-ceb9-39c1-8200-adfdf19d66b9> .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/79>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ two nieces from her earlier marriage to Charles, ]Connie Burkhead[ of Neodesha, Kansas, and John Hare of Hope]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "Connie Burkhead" ;
+        c:length     "15" ;
+        c:offset     "1997" ;
+        c:prefix     " two nieces from her earlier marriage to Charles, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/2588ff94-c4d5-35b0-ba6c-514bb3d1f44b> ;
+        c:suffix     " of Neodesha, Kansas, and John Hare of Hope" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/58>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[everything in her life to assist her son, ]Hoss[ and wife, Adrienne, in two Air Force deployments]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "Hoss" ;
+        c:length     "4" ;
+        c:offset     "932" ;
+        c:prefix     "everything in her life to assist her son, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/0d5e2e82-dd7c-344d-be37-d3b00e6d4493> ;
+        c:suffix     " and wife, Adrienne, in two Air Force deployments" .
+
+<http://d.opencalais.com/conf/pershash-1/5fe1ae89-47cc-3493-81d6-c61ed09f5cd4>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.991" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.994" ;
+        c:subject             <http://d.opencalais.com/pershash-1/5fe1ae89-47cc-3493-81d6-c61ed09f5cd4> .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/37>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[to the War on Terror.  It was then that ]she[ made such a connection with five of her eight]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "1026" ;
+        c:prefix     "to the War on Terror.  It was then that " ;
+        c:subject    <http://d.opencalais.com/pershash-1/2f92f5b0-3d52-3283-851b-d2942872fedd> ;
+        c:suffix     " made such a connection with five of her eight" .
+
+<http://d.opencalais.com/genericHasher-1/a99b4d0e-6d14-33c1-83f0-3fd7070a42ec>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonAttributes> ;
+        c:birthdate          "1945-01-07" ;
+        c:birthplace         <http://d.opencalais.com/genericHasher-1/950dbe4f-0861-352e-8434-6df369f28006> ;
+        c:forenduserdisplay  "false" ;
+        c:gender             "F" ;
+        c:person             <http://d.opencalais.com/pershash-1/cc3dc60b-d832-3a40-86c8-91b29493ce42> .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/16>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Connie Burkhead of Neodesha, Kansas, and ]John Hare[ of Hope Mills, North Carolina; 8 grandchildren;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "John Hare" ;
+        c:length     "9" ;
+        c:offset     "2038" ;
+        c:prefix     "Connie Burkhead of Neodesha, Kansas, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6d85ef2c-ba18-3ad5-b2ac-22efdd4f7f1f> ;
+        c:suffix     " of Hope Mills, North Carolina; 8 grandchildren;" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Relevance/4>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3e4cea32-3158-33e0-b8cb-7fb922cbcaa2> .
+
+<http://d.opencalais.com/pershash-1/eb0abdef-7e75-33c2-9b30-47b68cfa2c20>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Charles August Goodknight" ;
+        c:confidencelevel    "0.963" ;
+        c:firstname          "Charles" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "August Goodknight" ;
+        c:name               "Charles August Goodknight" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/6d85ef2c-ba18-3ad5-b2ac-22efdd4f7f1f>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.993" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/6d85ef2c-ba18-3ad5-b2ac-22efdd4f7f1f> .
+
+<http://d.opencalais.com/conf/pershash-1/5d90ba31-526e-3c13-913b-be3caa706869>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.987" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.993" ;
+        c:subject             <http://d.opencalais.com/pershash-1/5d90ba31-526e-3c13-913b-be3caa706869> .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Relevance/33>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c8ecdccc-1460-35f7-950c-d6ddd9bbf9d9> .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/87>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ \n  As a great supporter of her daughter and son, ]she[ stopped everything in her life to assist her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "878" ;
+        c:prefix     " \n  As a great supporter of her daughter and son, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/0291ae45-f0f4-3678-8b98-4bba9b5cff0c> ;
+        c:suffix     " stopped everything in her life to assist her" .
+
+<http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oklahoma" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/76a4a2f1-6b3a-40d5-64a0-ee7bb3f9fa16>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Kansas" ;
+        c:docId               <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:latitude            "37.4183" ;
+        c:longitude           "-95.68" ;
+        c:name                "Neodesha,Kansas,United States" ;
+        c:shortname           "Neodesha" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/21989726-c8c7-35ab-aa3d-3599d00ae9a1> .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Relevance/12>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/45861546-e7a9-34ad-b7ee-6413403fe6f2> .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/66>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[age of 70 years, 2 months, and 14 days.    \n  ]Glenda[ attended Blackwell High School.  She played alto]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "Glenda" ;
+        c:length     "6" ;
+        c:offset     "469" ;
+        c:prefix     "age of 70 years, 2 months, and 14 days.    \n  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/7727d99f-4953-3cb5-91f7-7c52c6c40195> ;
+        c:suffix     " attended Blackwell High School.  She played alto" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/45>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Zion Lutheran Church of Independence, Kansas.  ]Her[ hobbies included knitting, sewing, and of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "Her" ;
+        c:length     "3" ;
+        c:offset     "1474" ;
+        c:prefix     "Zion Lutheran Church of Independence, Kansas.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/2f92f5b0-3d52-3283-851b-d2942872fedd> ;
+        c:suffix     " hobbies included knitting, sewing, and of" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/24>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and homework was done.    \n  Later she moved to ]Alva[ to assist her parents as they were becoming]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "1217" ;
+        c:prefix     "and homework was done.    \n  Later she moved to " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce> ;
+        c:suffix     " to assist her parents as they were becoming" .
+
+<http://d.opencalais.com/genericHasher-1/cdefc905-6022-3015-a05c-3af7a3b83292>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "son" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/7727d99f-4953-3cb5-91f7-7c52c6c40195> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/b4d05b00-4b27-31e9-ae4f-59175bae122d> .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/2>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[she stopped everything in her life to assist ]her son, Hoss and wife, Adrienne[, in two Air Force deployments to the War on]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "her son, Hoss and wife, Adrienne" ;
+        c:length     "32" ;
+        c:offset     "923" ;
+        c:prefix     "she stopped everything in her life to assist " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/d0797776-04fe-3152-9327-eba5a891d67c> ;
+        c:suffix     ", in two Air Force deployments to the War on" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/lid/DefaultLangId>
+        a                    <http://s.opencalais.com/1/type/lid/DefaultLangId> ;
+        c:docId              <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:forenduserdisplay  "false" ;
+        c:lang               <http://d.opencalais.com/lid/DefaultLangId/English> ;
+        c:permid             "505062" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/ec80b062-8d1e-123a-1d6e-8bd0b7355690>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:latitude            "38.45" ;
+        c:longitude           "-96.5333" ;
+        c:name                "Kansas,United States" ;
+        c:permid              "100151" ;
+        c:rcscode             "G:6D" ;
+        c:shortname           "Kansas" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> .
+
+<http://d.opencalais.com/conf/pershash-1/fde4fb7c-172b-3ffa-9b8b-a6fb09d90a49>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.6" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.724" ;
+        c:subject             <http://d.opencalais.com/pershash-1/fde4fb7c-172b-3ffa-9b8b-a6fb09d90a49> .
+
+<http://d.opencalais.com/genericHasher-1/e36be766-1686-313d-8431-513dbc5eab03>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Dallas" ;
+        c:person             <http://d.opencalais.com/pershash-1/c4078219-58af-363f-a8ca-112c5e3510a3> .
+
+<http://d.opencalais.com/conf/pershash-1/c4078219-58af-363f-a8ca-112c5e3510a3>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.983" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.99" ;
+        c:subject             <http://d.opencalais.com/pershash-1/c4078219-58af-363f-a8ca-112c5e3510a3> .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Relevance/20>
+        a                <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId          <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:relevance      "0.2" ;
+        c:relevancecont  "0.03" ;
+        c:subject        <http://d.opencalais.com/comphash-1/65f125ab-caa1-3a77-8551-54eff7d775d2> .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/74>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Neodesha, Kansas, and John Hare of Hope Mills, ]North Carolina[; 8 grandchildren; 2 great grandchildren; other]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "North Carolina" ;
+        c:length     "14" ;
+        c:offset     "2063" ;
+        c:prefix     "Neodesha, Kansas, and John Hare of Hope Mills, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/2c66e7d5-967b-3495-8e2a-6f535ace583c> ;
+        c:suffix     "; 8 grandchildren; 2 great grandchildren; other" .
+
+<http://d.opencalais.com/pershash-1/0d5e2e82-dd7c-344d-be37-d3b00e6d4493>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Hoss" ;
+        c:confidencelevel    "0.86" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Hoss" ;
+        c:name               "Hoss" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/53>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and passed away March 21, 2015, in Tulsa, ]Oklahoma[, at the age of 70 years, 2 months, and 14 days. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "406" ;
+        c:prefix     "and passed away March 21, 2015, in Tulsa, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", at the age of 70 years, 2 months, and 14 days. " .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/32>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Shelly Kurth of Dallas, and Stacey Kurth of ]Tulsa[; two nieces from her earlier marriage to]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "Tulsa" ;
+        c:length     "5" ;
+        c:offset     "1941" ;
+        c:prefix     "Shelly Kurth of Dallas, and Stacey Kurth of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8da39760-87db-3aa5-9369-142d08eb16f8> ;
+        c:suffix     "; two nieces from her earlier marriage to" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/11>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Tulsa; two nieces, Shelly Kurth of Dallas, and ]Stacey Kurth[ of Tulsa; two nieces from her earlier marriage]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "Stacey Kurth" ;
+        c:length     "12" ;
+        c:offset     "1925" ;
+        c:prefix     "Tulsa; two nieces, Shelly Kurth of Dallas, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/5fe1ae89-47cc-3493-81d6-c61ed09f5cd4> ;
+        c:suffix     " of Tulsa; two nieces from her earlier marriage" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/e9e27c26-4013-8712-a5f0-97dcdc412c26>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:latitude            "35.5607802899" ;
+        c:longitude           "-96.8460570462" ;
+        c:name                "Oklahoma,United States" ;
+        c:permid              "100229" ;
+        c:rcscode             "G:9H" ;
+        c:shortname           "Oklahoma" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/genericHasher-1/8a519835-56c5-3551-b5de-523534cafdd6>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Washington, D. C." .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/82>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[wishes her to be remembered as the great person ]she[ was and the better we have all been for having]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "2213" ;
+        c:prefix     "wishes her to be remembered as the great person " ;
+        c:subject    <http://d.opencalais.com/pershash-1/2588ff94-c4d5-35b0-ba6c-514bb3d1f44b> ;
+        c:suffix     " was and the better we have all been for having" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Relevance/28>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/2c66e7d5-967b-3495-8e2a-6f535ace583c> .
+
+<http://d.opencalais.com/genericHasher-1/7cc3699b-eadd-3f93-aeda-17c950d85721>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:date                "1964-11-08" ;
+        c:datestring          "November 8, 1964" ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/eb0abdef-7e75-33c2-9b30-47b68cfa2c20> , <http://d.opencalais.com/pershash-1/7727d99f-4953-3cb5-91f7-7c52c6c40195> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/genericHasher-1/fba5add2-c49b-36ce-98d8-8043d14c623b>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/2f92f5b0-3d52-3283-851b-d2942872fedd> , <http://d.opencalais.com/pershash-1/0291ae45-f0f4-3678-8b98-4bba9b5cff0c> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/61>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[daughter, Ronda Naifeh of Tulsa; one brother, ]Roger Kurth of Tulsa[; two nieces, Shelly Kurth of Dallas, and Stacey]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "Roger Kurth of Tulsa" ;
+        c:length     "20" ;
+        c:offset     "1863" ;
+        c:prefix     "daughter, Ronda Naifeh of Tulsa; one brother, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/7b6567b8-5fcf-384d-a579-b5096e8adca2> ;
+        c:suffix     "; two nieces, Shelly Kurth of Dallas, and Stacey" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/40>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[were clothed and homework was done.    \n  Later ]she[ moved to Alva to assist her parents as they were]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "1204" ;
+        c:prefix     "were clothed and homework was done.    \n  Later " ;
+        c:subject    <http://d.opencalais.com/pershash-1/2f92f5b0-3d52-3283-851b-d2942872fedd> ;
+        c:suffix     " moved to Alva to assist her parents as they were" .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Instance/19>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Goodnight, daughter of the late Gilbert and ]Bonnie (Johnson) Kurth[, was born January 7, 1945, in Blackwell,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:exact      "Bonnie (Johnson) Kurth" ;
+        c:length     "22" ;
+        c:offset     "290" ;
+        c:prefix     "Goodnight, daughter of the late Gilbert and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/cc3dc60b-d832-3a40-86c8-91b29493ce42> ;
+        c:suffix     ", was born January 7, 1945, in Blackwell," .
+
+<http://d.opencalais.com/genericHasher-1/a9c912d9-a98f-35f4-ae06-8af7ac2caa6f>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Tulsa" ;
+        c:person             <http://d.opencalais.com/pershash-1/0291ae45-f0f4-3678-8b98-4bba9b5cff0c> .
+
+<http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da/Relevance/7>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/6d85ef2c-ba18-3ad5-b2ac-22efdd4f7f1f> .
+
+<http://d.opencalais.com/conf/pershash-1/7727d99f-4953-3cb5-91f7-7c52c6c40195>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.993" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/0f00c1f5-5824-305f-8783-d43e8a3b97da> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.995" ;
+        c:subject             <http://d.opencalais.com/pershash-1/7727d99f-4953-3cb5-91f7-7c52c6c40195> .

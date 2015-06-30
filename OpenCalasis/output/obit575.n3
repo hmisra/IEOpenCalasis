@@ -1,0 +1,1225 @@
+#Relations: CompanyLocation, FamilyRelation, PersonEducation, PersonLocation, PersonRelation
+#City: Enid, Oklahoma City
+#Company: Waynoka LLC
+#Facility: Marshall Funeral Home of Waynoka, Waynoka Municipal Cemetery
+#Organization: God Church, Waynoka High School
+#Person: Erl F. Snyder , Sr., Erl Snyder , Jr., Frank Leo, Kenneth Clayton Green, Lester Lowry, Lucinda Parker, Raymond A. Snyder, Sheldon Snyder, Sherlene Coulter, Tracie Mae Green, Velma Mae Green, Virginia Winston, William Parker
+#ProvinceOrState: Oklahoma
+@prefix c:     <http://s.opencalais.com/1/pred/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/Instance/52>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[A. Snyder.  \t  Virgie was a member of the ]Waynoka[ Assembly of God Church where she taught Sunday]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:exact      "Waynoka" ;
+        c:length     "7" ;
+        c:offset     "709" ;
+        c:prefix     "A. Snyder.  \t  Virgie was a member of the " ;
+        c:subject    <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:suffix     " Assembly of God Church where she taught Sunday" .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/Instance/11>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Green, was born October 10, 1921, in Waynoka, ]Oklahoma[, and passed away September 3, 2013, at Enid,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "389" ;
+        c:prefix     "Green, was born October 10, 1921, in Waynoka, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", and passed away September 3, 2013, at Enid," .
+
+<http://d.opencalais.com/genericHasher-1/f6e1430a-bbbe-3483-b54c-9d4be60b74c2>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "niece" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/bc66626c-e2de-3ef1-9654-3ce333b68f34> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/2bdffad1-1563-3f40-87f0-4bed3c5cba2b> .
+
+<http://d.opencalais.com/genericHasher-1/b8620f48-da64-3b29-b094-f0b9edcda36f>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oklahoma City" .
+
+<http://d.opencalais.com/pershash-1/b3b95445-3b55-3757-830c-7a2b0e9e744c>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Lucinda Parker" ;
+        c:confidencelevel    "0.922" ;
+        c:firstname          "Lucinda" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Parker" ;
+        c:name               "Lucinda Parker" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/a54c1371-f05b-3523-8906-b8786f8707a4>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.819" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.895" ;
+        c:subject             <http://d.opencalais.com/pershash-1/a54c1371-f05b-3523-8906-b8786f8707a4> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/9abed97f-1f19-0004-aee6-0a06b0289f38>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:latitude            "36.3956" ;
+        c:longitude           "-97.8781" ;
+        c:name                "Enid,Oklahoma,United States" ;
+        c:shortname           "Enid" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/35a979c1-2108-3761-99bd-8c6f499ef6f2> .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/Instance/24>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Snyder.  \t  Virgie is survived by her nephew, ]Erl F. Snyder, Sr.[ of Duncan; several great nieces and nephews,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:exact      "Erl F. Snyder, Sr." ;
+        c:length     "18" ;
+        c:offset     "1211" ;
+        c:prefix     "Snyder.  \t  Virgie is survived by her nephew, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/0093fe60-66f3-3d5f-963b-bde4541103c2> ;
+        c:suffix     " of Duncan; several great nieces and nephews," .
+
+<http://d.opencalais.com/genericHasher-1/44a342a8-9d2c-37a0-8377-68750dd45af0>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Waynoka High School" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/06efd652-8ee3-3001-8626-c6f03e66b02a>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/06efd652-8ee3-3001-8626-c6f03e66b02a> .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/Relevance/7>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/d3cefc3b-028d-32ce-92ac-4ef4a278ef80> .
+
+<http://d.opencalais.com/genericHasher-1/c960096a-c52e-3cf1-9ef3-a4a18889d7c9>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Waynoka Municipal Cemetery" .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/Instance/37>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[children in Waynoka.  \t  Besides her parents, ]she[ was preceded in death by her husband, Raymond;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "974" ;
+        c:prefix     "children in Waynoka.  \t  Besides her parents, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b3b95445-3b55-3757-830c-7a2b0e9e744c> ;
+        c:suffix     " was preceded in death by her husband, Raymond;" .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/SocialTag/4>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "2" ;
+        c:name               "Virgie" ;
+        c:originalValue      "Virgie" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/47ca7a1a-8e88-399c-92e0-c532f1e5423a> .
+
+<http://d.opencalais.com/genericHasher-1/43c9ec97-e4e2-30a0-9eea-fc8789d59de7>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "husband" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/b3b95445-3b55-3757-830c-7a2b0e9e744c> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/ca429b18-290a-387d-9cb4-7c81af61adef> .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/Relevance/16>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/08c07a1b-e2ea-308d-9b8d-c8b7d14fbb39> .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/Instance/8>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Oklahoma, and passed away September 3, 2013, at ]Enid[, Oklahoma, at the age of 91 years, 10 months,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:exact      "Enid" ;
+        c:length     "4" ;
+        c:offset     "437" ;
+        c:prefix     "Oklahoma, and passed away September 3, 2013, at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/35a979c1-2108-3761-99bd-8c6f499ef6f2> ;
+        c:suffix     ", Oklahoma, at the age of 91 years, 10 months," .
+
+<http://d.opencalais.com/pershash-1/f1cc9cf5-20bc-3af5-b34c-b501519bb4c9>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Sheldon Snyder" ;
+        c:confidencelevel    "0.993" ;
+        c:firstname          "Sheldon" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Snyder" ;
+        c:name               "Sheldon Snyder" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/pershash-1/0093fe60-66f3-3d5f-963b-bde4541103c2>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Erl Snyder Sr." ;
+        c:confidencelevel    "0.999" ;
+        c:firstname          "Erl" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Snyder" ;
+        c:middlename         "F." ;
+        c:name               "Erl F. Snyder , Sr." ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/Relevance/1>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/pershash-1/ca429b18-290a-387d-9cb4-7c81af61adef> .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/Instance/31>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[  She was raised by her grandparents, William and ]Lucinda Parker[, and graduated from Waynoka High School.  On]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:exact      "Lucinda Parker" ;
+        c:length     "14" ;
+        c:offset     "553" ;
+        c:prefix     "  She was raised by her grandparents, William and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b3b95445-3b55-3757-830c-7a2b0e9e744c> ;
+        c:suffix     ", and graduated from Waynoka High School.  On" .
+
+<http://d.opencalais.com/genericHasher-1/87c0d938-b03e-3c05-bda3-941d9ae3c2b8>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "nephew" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/2bdffad1-1563-3f40-87f0-4bed3c5cba2b> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/0093fe60-66f3-3d5f-963b-bde4541103c2> .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/Instance/44>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Clayton Green; her niece, Sherlene Coulter; and ]her[ nephew, Sheldon Snyder.  \t  Virgie is survived]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1145" ;
+        c:prefix     "Clayton Green; her niece, Sherlene Coulter; and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/2bdffad1-1563-3f40-87f0-4bed3c5cba2b> ;
+        c:suffix     " nephew, Sheldon Snyder.  \t  Virgie is survived" .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/Relevance/10>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/f1cc9cf5-20bc-3af5-b34c-b501519bb4c9> .
+
+<http://d.opencalais.com/pershash-1/d3cefc3b-028d-32ce-92ac-4ef4a278ef80>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "William Parker" ;
+        c:confidencelevel    "0.996" ;
+        c:firstname          "Lucinda" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Parker" ;
+        c:name               "William Parker" ;
+        c:nationality        "N/A" ;
+        c:persontype         "entertainment" .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/Instance/2>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Waynoka, LLC.  \t  Virginia Winston “Virgie” ]Snyder[, daughter of the late Frank Leo and Lottie Mae]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:exact      "Snyder" ;
+        c:length     "6" ;
+        c:offset     "280" ;
+        c:prefix     "of Waynoka, LLC.  \t  Virginia Winston “Virgie” " ;
+        c:subject    <http://d.opencalais.com/pershash-1/ca429b18-290a-387d-9cb4-7c81af61adef> ;
+        c:suffix     ", daughter of the late Frank Leo and Lottie Mae" .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/Instance/16>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Graveside services for ]Virginia Winston[ “Virgie” Snyder will be 10:00 a.m. Saturday,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:exact      "Virginia Winston" ;
+        c:length     "16" ;
+        c:offset     "23" ;
+        c:prefix     "Graveside services for " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f84777a4-cd91-3a3c-b67a-14f35b728eec> ;
+        c:suffix     " “Virgie” Snyder will be 10:00 a.m. Saturday," .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/Instance/29>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[(Parker) Green, was born October 10, 1921, in ]Waynoka, Oklahoma[, and passed away September 3, 2013, at Enid,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:exact      "Waynoka, Oklahoma" ;
+        c:length     "17" ;
+        c:offset     "380" ;
+        c:prefix     "(Parker) Green, was born October 10, 1921, in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e7066147-31e8-3e47-b262-cbccccd7d7fc> ;
+        c:suffix     ", and passed away September 3, 2013, at Enid," .
+
+<http://d.opencalais.com/genericHasher-1/77ed8c43-7950-3fee-9465-5cd5f46d641f>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "nephew" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/2bdffad1-1563-3f40-87f0-4bed3c5cba2b> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/f1cc9cf5-20bc-3af5-b34c-b501519bb4c9> .
+
+<http://d.opencalais.com/pershash-1/08c07a1b-e2ea-308d-9b8d-c8b7d14fbb39>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Frank Leo" ;
+        c:confidencelevel    "0.958" ;
+        c:firstname          "Frank" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Leo" ;
+        c:name               "Frank Leo" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/Instance/10>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[  She was raised by her grandparents, William and ]Lucinda Parker, and graduated from Waynoka High School[.  On August 3, 1945, she was united in marriage]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:exact      "Lucinda Parker, and graduated from Waynoka High School" ;
+        c:length     "54" ;
+        c:offset     "553" ;
+        c:prefix     "  She was raised by her grandparents, William and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/7e38522e-15d7-397f-b57d-ce5d6e67a8a8> ;
+        c:suffix     ".  On August 3, 1945, she was united in marriage" .
+
+<http://d.opencalais.com/genericHasher-1/31fb6a60-f186-3b28-8377-c6358a096f05>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/ca429b18-290a-387d-9cb4-7c81af61adef> , <http://d.opencalais.com/pershash-1/b3b95445-3b55-3757-830c-7a2b0e9e744c> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/Instance/51>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[(Parker) Green, was born October 10, 1921, in ]Waynoka[, Oklahoma, and passed away September 3, 2013, at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:exact      "Waynoka" ;
+        c:length     "7" ;
+        c:offset     "380" ;
+        c:prefix     "(Parker) Green, was born October 10, 1921, in " ;
+        c:subject    <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:suffix     ", Oklahoma, and passed away September 3, 2013, at" .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/Instance/23>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[her parents, she was preceded in death by ]her husband, Raymond[; two sisters, Velma Mae Green and Tracie Mae]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:exact      "her husband, Raymond" ;
+        c:length     "20" ;
+        c:offset     "1003" ;
+        c:prefix     "her parents, she was preceded in death by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/31fb6a60-f186-3b28-8377-c6358a096f05> ;
+        c:suffix     "; two sisters, Velma Mae Green and Tracie Mae" .
+
+<http://d.opencalais.com/pershash-1/1a4351e2-aaf6-3303-a750-df6f4222fcef>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Erl Snyder Jr." ;
+        c:confidencelevel    "0.999" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Erl Snyder , Jr." ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/Relevance/6>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/1a4351e2-aaf6-3303-a750-df6f4222fcef> .
+
+<http://d.opencalais.com/conf/pershash-1/2bdffad1-1563-3f40-87f0-4bed3c5cba2b>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.996" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.997" ;
+        c:subject             <http://d.opencalais.com/pershash-1/2bdffad1-1563-3f40-87f0-4bed3c5cba2b> .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/Instance/36>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[music to many children in Waynoka.  \t  Besides ]her[ parents, she was preceded in death by her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "961" ;
+        c:prefix     "music to many children in Waynoka.  \t  Besides " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b3b95445-3b55-3757-830c-7a2b0e9e744c> ;
+        c:suffix     " parents, she was preceded in death by her" .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/SocialTag/3>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Velma" ;
+        c:originalValue      "Velma" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/0a85bf33-e547-35dd-94cc-3206a9f30104> .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/Instance/49>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[10:00 a.m. Saturday, September 7, 2013, at the ]Waynoka[ Municipal Cemetery with Rev. Lester Lowry]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:exact      "Waynoka" ;
+        c:length     "7" ;
+        c:offset     "111" ;
+        c:prefix     "10:00 a.m. Saturday, September 7, 2013, at the " ;
+        c:subject    <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:suffix     " Municipal Cemetery with Rev. Lester Lowry" .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/Relevance/15>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/fbfd2b67-dcba-3f6f-b079-6e257c34ade6> .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/Instance/7>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Sharesa Gregg of Enid, and Erl Snyder, Jr. of ]Oklahoma City[.  \t  Memorial contributions may be made to the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:exact      "Oklahoma City" ;
+        c:length     "13" ;
+        c:offset     "1331" ;
+        c:prefix     "Sharesa Gregg of Enid, and Erl Snyder, Jr. of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b8620f48-da64-3b29-b094-f0b9edcda36f> ;
+        c:suffix     ".  \t  Memorial contributions may be made to the" .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c>
+        a                  <http://s.opencalais.com/1/type/sys/DocInfo> ;
+        c:calaisRequestID  "5005bd92-7c4c-58d5-14d9-14223e36fa60" ;
+        c:docDate          "2015-05-26 17:25:40.733" ;
+        c:docTitle         "" ;
+        c:document         "Graveside services for Virginia Winston “Virgie” Snyder will be 10:00 a.m. Saturday, September 7, 2013, at the Waynoka Municipal Cemetery with Rev. Lester Lowry officiating.  Interment is under the direction of Marshall Funeral Home of Waynoka, LLC.  \t  Virginia Winston “Virgie” Snyder, daughter of the late Frank Leo and Lottie Mae (Parker) Green, was born October 10, 1921, in Waynoka, Oklahoma, and passed away September 3, 2013, at Enid, Oklahoma, at the age of 91 years, 10 months, and 23 days.  \t  She was raised by her grandparents, William and Lucinda Parker, and graduated from Waynoka High School.  On August 3, 1945, she was united in marriage to Raymond A. Snyder.  \t  Virgie was a member of the Waynoka Assembly of God Church where she taught Sunday School and had many interests in the youth groups of the church.  Her love of music and the ability to play all kinds of instruments led her to teach music to many children in Waynoka.  \t  Besides her parents, she was preceded in death by her husband, Raymond; two sisters, Velma Mae Green and Tracie Mae Green; one brother, Kenneth Clayton Green; her niece, Sherlene Coulter; and her nephew, Sheldon Snyder.  \t  Virgie is survived by her nephew, Erl F. Snyder, Sr. of Duncan; several great nieces and nephews, including Sharesa Gregg of Enid, and Erl Snyder, Jr. of Oklahoma City.  \t  Memorial contributions may be made to the funeral home to help with expenses.. \n\t\t\t" ;
+        c:id               "http://id.opencalais.com/HWUUlDQoB-Eo3Paz85IlwA" ;
+        c:ontology         "http://163.231.4.65/owlschema/8.3/onecalais.owl.allmetadata.xml" .
+
+<http://d.opencalais.com/genericHasher-1/0883abd9-1f7b-3fdd-a160-3d0832ab5913>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:date                "1945-08-03" ;
+        c:datestring          "August 3, 1945" ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/ca429b18-290a-387d-9cb4-7c81af61adef> , <http://d.opencalais.com/pershash-1/b3b95445-3b55-3757-830c-7a2b0e9e744c> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/conf/comphash-1/e6417933-98e8-365f-8f80-b92f05707205>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.805" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:resolution          "0.05522651" ;
+        c:statisticalfeature  "0.887" ;
+        c:subject             <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/Instance/30>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Winston “Virgie” Snyder, daughter of the late ]Frank Leo[ and Lottie Mae (Parker) Green, was born October]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:exact      "Frank Leo" ;
+        c:length     "9" ;
+        c:offset     "309" ;
+        c:prefix     "Winston “Virgie” Snyder, daughter of the late " ;
+        c:subject    <http://d.opencalais.com/pershash-1/08c07a1b-e2ea-308d-9b8d-c8b7d14fbb39> ;
+        c:suffix     " and Lottie Mae (Parker) Green, was born October" .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/Instance/43>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[one brother, Kenneth Clayton Green; her niece, ]Sherlene Coulter[; and her nephew, Sheldon Snyder.  \t  Virgie is]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:exact      "Sherlene Coulter" ;
+        c:length     "16" ;
+        c:offset     "1123" ;
+        c:prefix     "one brother, Kenneth Clayton Green; her niece, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/2bdffad1-1563-3f40-87f0-4bed3c5cba2b> ;
+        c:suffix     "; and her nephew, Sheldon Snyder.  \t  Virgie is" .
+
+<http://d.opencalais.com/pershash-1/bc66626c-e2de-3ef1-9654-3ce333b68f34>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Tracie Mae Green" ;
+        c:confidencelevel    "0.901" ;
+        c:firstname          "Tracie" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Green" ;
+        c:middlename         "Mae" ;
+        c:name               "Tracie Mae Green" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/Instance/1>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[services for Virginia Winston “Virgie” ]Snyder[ will be 10:00 a.m. Saturday, September 7, 2013,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:exact      "Snyder" ;
+        c:length     "6" ;
+        c:offset     "49" ;
+        c:prefix     "services for Virginia Winston “Virgie” " ;
+        c:subject    <http://d.opencalais.com/pershash-1/ca429b18-290a-387d-9cb4-7c81af61adef> ;
+        c:suffix     " will be 10:00 a.m. Saturday, September 7, 2013," .
+
+<http://d.opencalais.com/conf/pershash-1/f84777a4-cd91-3a3c-b67a-14f35b728eec>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.973" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.983" ;
+        c:subject             <http://d.opencalais.com/pershash-1/f84777a4-cd91-3a3c-b67a-14f35b728eec> .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/Instance/15>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ 23 days.  \t  She was raised by her grandparents, ]William[ and Lucinda Parker, and graduated from Waynoka]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:exact      "William" ;
+        c:length     "7" ;
+        c:offset     "541" ;
+        c:prefix     " 23 days.  \t  She was raised by her grandparents, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/d3cefc3b-028d-32ce-92ac-4ef4a278ef80> ;
+        c:suffix     " and Lucinda Parker, and graduated from Waynoka" .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/Instance/28>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Mae Green and Tracie Mae Green; one brother, ]Kenneth Clayton Green[; her niece, Sherlene Coulter; and her nephew,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:exact      "Kenneth Clayton Green" ;
+        c:length     "21" ;
+        c:offset     "1089" ;
+        c:prefix     "Mae Green and Tracie Mae Green; one brother, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/fbfd2b67-dcba-3f6f-b079-6e257c34ade6> ;
+        c:suffix     "; her niece, Sherlene Coulter; and her nephew," .
+
+<http://d.opencalais.com/pershash-1/ca429b18-290a-387d-9cb4-7c81af61adef>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Raymond Snyder" ;
+        c:confidencelevel    "0.998" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Raymond A. Snyder" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/Instance/50>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[under the direction of Marshall Funeral Home of ]Waynoka, LLC[.  \t  Virginia Winston “Virgie” Snyder, daughter]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:exact      "Waynoka, LLC" ;
+        c:length     "12" ;
+        c:offset     "236" ;
+        c:prefix     "under the direction of Marshall Funeral Home of " ;
+        c:subject    <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:suffix     ".  \t  Virginia Winston “Virgie” Snyder, daughter" .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/Instance/22>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[her niece, Sherlene Coulter; and her nephew, ]Sheldon Snyder[.  \t  Virgie is survived by her nephew, Erl F.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:exact      "Sheldon Snyder" ;
+        c:length     "14" ;
+        c:offset     "1157" ;
+        c:prefix     "her niece, Sherlene Coulter; and her nephew, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f1cc9cf5-20bc-3af5-b34c-b501519bb4c9> ;
+        c:suffix     ".  \t  Virgie is survived by her nephew, Erl F." .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/Relevance/5>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/Instance/35>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ the ability to play all kinds of instruments led ]her[ to teach music to many children in Waynoka.  \t ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "901" ;
+        c:prefix     " the ability to play all kinds of instruments led " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b3b95445-3b55-3757-830c-7a2b0e9e744c> ;
+        c:suffix     " to teach music to many children in Waynoka.  \t " .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/SocialTag/2>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Snyder" ;
+        c:originalValue      "Snyder" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/e2106d93-9509-3e35-a59a-85d7239e7655> .
+
+<http://d.opencalais.com/pershash-1/a54c1371-f05b-3523-8906-b8786f8707a4>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Velma Mae Green" ;
+        c:confidencelevel    "0.819" ;
+        c:firstname          "Velma" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Green" ;
+        c:middlename         "Mae" ;
+        c:name               "Velma Mae Green" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/Instance/48>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Sheldon Snyder.  \t  Virgie is survived by ]her nephew, Erl F. Snyder, Sr.[ of Duncan; several great nieces and nephews,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:exact      "her nephew, Erl F. Snyder, Sr." ;
+        c:length     "30" ;
+        c:offset     "1199" ;
+        c:prefix     "Sheldon Snyder.  \t  Virgie is survived by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/87c0d938-b03e-3c05-bda3-941d9ae3c2b8> ;
+        c:suffix     " of Duncan; several great nieces and nephews," .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/Relevance/14>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c960096a-c52e-3cf1-9ef3-a4a18889d7c9> .
+
+<http://d.opencalais.com/pershash-1/06efd652-8ee3-3001-8626-c6f03e66b02a>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Lester Lowry" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Lester" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Lowry" ;
+        c:name               "Lester Lowry" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/Instance/6>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[had many interests in the youth groups of the ]church[.  Her love of music and the ability to play all]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:exact      "church" ;
+        c:length     "6" ;
+        c:offset     "821" ;
+        c:prefix     "had many interests in the youth groups of the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/723f4787-65a4-39e5-8c86-78ae4e630aa9> ;
+        c:suffix     ".  Her love of music and the ability to play all" .
+
+<http://d.opencalais.com/conf/pershash-1/fbfd2b67-dcba-3f6f-b079-6e257c34ade6>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.971" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.982" ;
+        c:subject             <http://d.opencalais.com/pershash-1/fbfd2b67-dcba-3f6f-b079-6e257c34ade6> .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/lid/DefaultLangId>
+        a                    <http://s.opencalais.com/1/type/lid/DefaultLangId> ;
+        c:docId              <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:forenduserdisplay  "false" ;
+        c:lang               <http://d.opencalais.com/lid/DefaultLangId/English> ;
+        c:permid             "505062" .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/ComponentVersions>
+        a          <http://s.opencalais.com/1/type/sys/ComponentVersions> ;
+        c:docId    <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:version  "BlackList:264:264" , "config-refineries:258:258" , "BrokerResearchIM:OneCalais_8.3-RELEASE:198" , "SpanishIM:OneCalais_8.3-RELEASE:198" , "AutocoderRuntimeIM:OneCalais_8.3-RELEASE:198" , "Collector:OneCalais_8.3-RELEASE:113" , "Housekeeper:OneCalais_8.3-RELEASE:113" , "OneCalaisIM:OneCalais_8.3-RELEASE:198" , "com.clearforest.infoext.dial4j.plugins-basistechconfig:OneCalais_8.3-RELEASE:225" , "OA Index:201505252208:201505252208" , "NextTags:OneCalais_8.3-RELEASE:113" , "config-sca-DataPackage:34:34" , "Deals Index:201505261613:201505261613" , "FrenchIM:OneCalais_8.3-RELEASE:198" , "config-physicalAssets-ports:258:258" , "People Override:258:258" , "OA Override:271:271" , "OneCalais:OneCalais_8.3-RELEASE:364" , "SECHeaderMetadataIM:OneCalais_8.3-RELEASE:198" , "config-negativeSignature:258:258" , "Dial4J:OneCalais_8.3-RELEASE:198" , "index-vessels:201505231718:201505231718" , "config-cse:271:271" , "config-vessels:258:258" , "SocialTags Index:201505191038:201505191038" , "WatchDog:OneCalais_8.3-RELEASE:113" , "People Index:201505261608:201505261608" , "config-drugs:258:258" .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/Instance/42>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Mae Green; one brother, Kenneth Clayton Green; ]her niece, Sherlene Coulter[; and her nephew, Sheldon Snyder.  \t  Virgie is]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:exact      "her niece, Sherlene Coulter" ;
+        c:length     "27" ;
+        c:offset     "1112" ;
+        c:prefix     "Mae Green; one brother, Kenneth Clayton Green; " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/f6e1430a-bbbe-3483-b54c-9d4be60b74c2> ;
+        c:suffix     "; and her nephew, Sheldon Snyder.  \t  Virgie is" .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/Instance/14>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Parker, and graduated from Waynoka High School.  ]On August 3, 1945, she was united in marriage to Raymond A. Snyder[.  \t  Virgie was a member of the Waynoka Assembly]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:exact      "On August 3, 1945, she was united in marriage to Raymond A. Snyder" ;
+        c:length     "66" ;
+        c:offset     "610" ;
+        c:prefix     " Parker, and graduated from Waynoka High School.  " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0883abd9-1f7b-3fdd-a160-3d0832ab5913> ;
+        c:suffix     ".  \t  Virgie was a member of the Waynoka Assembly" .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/Relevance/21>
+        a                <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId          <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:relevance      "0.8" ;
+        c:relevancecont  "0.83" ;
+        c:subject        <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/Instance/27>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[10:00 a.m. Saturday, September 7, 2013, at the ]Waynoka Municipal Cemetery[ with Rev. Lester Lowry officiating.  Interment]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:exact      "Waynoka Municipal Cemetery" ;
+        c:length     "26" ;
+        c:offset     "111" ;
+        c:prefix     "10:00 a.m. Saturday, September 7, 2013, at the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c960096a-c52e-3cf1-9ef3-a4a18889d7c9> ;
+        c:suffix     " with Rev. Lester Lowry officiating.  Interment" .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/meta>
+        a                 <http://s.opencalais.com/1/type/sys/DocInfoMeta> ;
+        c:contentType     "text/raw" ;
+        c:docId           <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:language        "English" ;
+        c:processingVer   "AllMetadata" ;
+        c:serverVersion   "OneCalais_8.3-RELEASE:364" ;
+        c:signature       "digestalg-1|lAnJLExoZBnivfKkp5haEX66dZM=|Olpxbkd7/ZwSI+ZetJGKyKe7l+wYfuWeTzROF+Rq7X/cecGRnMtwGQ==" ;
+        c:stagsVer        "OneCalais_8.3-RELEASE-b11-2015-03-25_18:29:00" ;
+        c:submissionDate  "2015-05-26 17:25:40.451" ;
+        c:submitterCode   "0ca6a864-5659-789d-5f32-f365f695e757" .
+
+<https://permid.org/1-5035751620>
+        a             <http://s.opencalais.com/1/type/er/Company> ;
+        c:commonname  "Waynoka" ;
+        c:docId       <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:legacyid    <http://d.opencalais.com/er/company/ralg-tr1r/da554c4e-4d2b-3037-98bc-d26b5df2c525> ;
+        c:name        "Waynoka Utilities Authority" ;
+        c:permid      "5035751620" ;
+        c:score       "0.05522651" ;
+        c:subject     <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/Relevance/19>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/2bdffad1-1563-3f40-87f0-4bed3c5cba2b> .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/Instance/21>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[nephews, including Sharesa Gregg of Enid, and ]Erl Snyder, Jr. of Oklahoma City[.  \t  Memorial contributions may be made to the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:exact      "Erl Snyder, Jr. of Oklahoma City" ;
+        c:length     "32" ;
+        c:offset     "1312" ;
+        c:prefix     "nephews, including Sharesa Gregg of Enid, and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4b51878b-05e2-32a0-b5e7-f7d6e345bc90> ;
+        c:suffix     ".  \t  Memorial contributions may be made to the" .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/Relevance/4>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/35a979c1-2108-3761-99bd-8c6f499ef6f2> .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/Instance/34>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[interests in the youth groups of the church.  ]Her[ love of music and the ability to play all kinds]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:exact      "Her" ;
+        c:length     "3" ;
+        c:offset     "830" ;
+        c:prefix     "interests in the youth groups of the church.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b3b95445-3b55-3757-830c-7a2b0e9e744c> ;
+        c:suffix     " love of music and the ability to play all kinds" .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/SocialTag/1>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Waynoka, Oklahoma" ;
+        c:originalValue      "Waynoka, Oklahoma" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/77bc8be5-12a7-326b-962f-52fbf8cf09dd> .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/Instance/47>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Clayton Green; her niece, Sherlene Coulter; and ]her nephew, Sheldon Snyder[.  \t  Virgie is survived by her nephew, Erl F.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:exact      "her nephew, Sheldon Snyder" ;
+        c:length     "26" ;
+        c:offset     "1145" ;
+        c:prefix     "Clayton Green; her niece, Sherlene Coulter; and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/77ed8c43-7950-3fee-9465-5cd5f46d641f> ;
+        c:suffix     ".  \t  Virgie is survived by her nephew, Erl F." .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/Relevance/13>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/44a342a8-9d2c-37a0-8377-68750dd45af0> .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/Instance/5>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Virgie was a member of the Waynoka Assembly of ]God Church[ where she taught Sunday School and had many]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:exact      "God Church" ;
+        c:length     "10" ;
+        c:offset     "729" ;
+        c:prefix     " Virgie was a member of the Waynoka Assembly of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/723f4787-65a4-39e5-8c86-78ae4e630aa9> ;
+        c:suffix     " where she taught Sunday School and had many" .
+
+<http://d.opencalais.com/pershash-1/2bdffad1-1563-3f40-87f0-4bed3c5cba2b>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Sherlene Coulter" ;
+        c:confidencelevel    "0.996" ;
+        c:firstname          "Sherlene" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Coulter" ;
+        c:name               "Sherlene Coulter" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/Instance/19>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[10 months, and 23 days.  \t  She was raised by ]her[ grandparents, William and Lucinda Parker, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "523" ;
+        c:prefix     "10 months, and 23 days.  \t  She was raised by " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f84777a4-cd91-3a3c-b67a-14f35b728eec> ;
+        c:suffix     " grandparents, William and Lucinda Parker, and" .
+
+<http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205>
+        a                    <http://s.opencalais.com/1/type/em/e/Company> ;
+        c:confidencelevel    "0.805" ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Waynoka LLC" ;
+        c:nationality        "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/b3b95445-3b55-3757-830c-7a2b0e9e744c>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.922" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.94" ;
+        c:subject             <http://d.opencalais.com/pershash-1/b3b95445-3b55-3757-830c-7a2b0e9e744c> .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/Instance/41>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[her parents, she was preceded in death by ]her husband, Raymond[; two sisters, Velma Mae Green and Tracie Mae]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:exact      "her husband, Raymond" ;
+        c:length     "20" ;
+        c:offset     "1003" ;
+        c:prefix     "her parents, she was preceded in death by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/43c9ec97-e4e2-30a0-9eea-fc8789d59de7> ;
+        c:suffix     "; two sisters, Velma Mae Green and Tracie Mae" .
+
+<http://d.opencalais.com/genericHasher-1/e7066147-31e8-3e47-b262-cbccccd7d7fc>
+        a                      <http://s.opencalais.com/1/type/em/r/CompanyLocation> ;
+        c:company              <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:companylocationtype  "N/A" ;
+        c:forenduserdisplay    "true" ;
+        c:provinceorstate      <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/Instance/13>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[nephews, including Sharesa Gregg of Enid, and ]Erl Snyder, Jr.[ of Oklahoma City.  \t  Memorial contributions may]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:exact      "Erl Snyder, Jr." ;
+        c:length     "15" ;
+        c:offset     "1312" ;
+        c:prefix     "nephews, including Sharesa Gregg of Enid, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/1a4351e2-aaf6-3303-a750-df6f4222fcef> ;
+        c:suffix     " of Oklahoma City.  \t  Memorial contributions may" .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/Relevance/20>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/a54c1371-f05b-3523-8906-b8786f8707a4> .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/Instance/26>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[William and Lucinda Parker, and graduated from ]Waynoka High School[.  On August 3, 1945, she was united in marriage]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:exact      "Waynoka High School" ;
+        c:length     "19" ;
+        c:offset     "588" ;
+        c:prefix     "William and Lucinda Parker, and graduated from " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/44a342a8-9d2c-37a0-8377-68750dd45af0> ;
+        c:suffix     ".  On August 3, 1945, she was united in marriage" .
+
+<http://d.opencalais.com/genericHasher-1/7e38522e-15d7-397f-b57d-ce5d6e67a8a8>
+        a                       <http://s.opencalais.com/1/type/em/r/PersonEducation> ;
+        c:forenduserdisplay     "false" ;
+        c:person                <http://d.opencalais.com/pershash-1/b3b95445-3b55-3757-830c-7a2b0e9e744c> ;
+        c:schoolororganization  "Waynoka High School" .
+
+<http://d.opencalais.com/pershash-1/f84777a4-cd91-3a3c-b67a-14f35b728eec>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Virginia Winston" ;
+        c:confidencelevel    "0.973" ;
+        c:firstname          "Virginia" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Winston" ;
+        c:name               "Virginia Winston" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/Instance/39>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Raymond; two sisters, Velma Mae Green and ]Tracie Mae Green[; one brother, Kenneth Clayton Green; her niece,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:exact      "Tracie Mae Green" ;
+        c:length     "16" ;
+        c:offset     "1058" ;
+        c:prefix     "Raymond; two sisters, Velma Mae Green and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/bc66626c-e2de-3ef1-9654-3ce333b68f34> ;
+        c:suffix     "; one brother, Kenneth Clayton Green; her niece," .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/Relevance/9>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/84bb0714-85ab-39de-a7e7-f1ad2e79292b> .
+
+<http://d.opencalais.com/genericHasher-1/4b51878b-05e2-32a0-b5e7-f7d6e345bc90>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Oklahoma City" ;
+        c:person             <http://d.opencalais.com/pershash-1/1a4351e2-aaf6-3303-a750-df6f4222fcef> .
+
+<http://d.opencalais.com/conf/pershash-1/f1cc9cf5-20bc-3af5-b34c-b501519bb4c9>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.993" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.995" ;
+        c:subject             <http://d.opencalais.com/pershash-1/f1cc9cf5-20bc-3af5-b34c-b501519bb4c9> .
+
+<http://d.opencalais.com/conf/pershash-1/0093fe60-66f3-3d5f-963b-bde4541103c2>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.999" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.999" ;
+        c:subject             <http://d.opencalais.com/pershash-1/0093fe60-66f3-3d5f-963b-bde4541103c2> .
+
+<http://d.opencalais.com/genericHasher-1/84bb0714-85ab-39de-a7e7-f1ad2e79292b>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Marshall Funeral Home of Waynoka" .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/Relevance/18>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/bc66626c-e2de-3ef1-9654-3ce333b68f34> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/f24ef023-f5ce-f4ba-d403-af6634f7297d>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:latitude            "35.4675" ;
+        c:longitude           "-97.5161" ;
+        c:name                "Oklahoma City,Oklahoma,United States" ;
+        c:rcscode             "G:2BF" ;
+        c:shortname           "Oklahoma City" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/b8620f48-da64-3b29-b094-f0b9edcda36f> .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/Instance/20>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Interment is under the direction of ]Marshall Funeral Home of Waynoka[, LLC.  \t  Virginia Winston “Virgie” Snyder,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:exact      "Marshall Funeral Home of Waynoka" ;
+        c:length     "32" ;
+        c:offset     "211" ;
+        c:prefix     " Interment is under the direction of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/84bb0714-85ab-39de-a7e7-f1ad2e79292b> ;
+        c:suffix     ", LLC.  \t  Virginia Winston “Virgie” Snyder," .
+
+<http://d.opencalais.com/conf/pershash-1/d3cefc3b-028d-32ce-92ac-4ef4a278ef80>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.996" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.893" ;
+        c:subject             <http://d.opencalais.com/pershash-1/d3cefc3b-028d-32ce-92ac-4ef4a278ef80> .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/Relevance/3>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b8620f48-da64-3b29-b094-f0b9edcda36f> .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/Instance/33>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of the Waynoka Assembly of God Church where ]she[ taught Sunday School and had many interests in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "746" ;
+        c:prefix     "of the Waynoka Assembly of God Church where " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b3b95445-3b55-3757-830c-7a2b0e9e744c> ;
+        c:suffix     " taught Sunday School and had many interests in" .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/Instance/46>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in death by her husband, Raymond; two sisters, ]Velma Mae Green[ and Tracie Mae Green; one brother, Kenneth]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:exact      "Velma Mae Green" ;
+        c:length     "15" ;
+        c:offset     "1038" ;
+        c:prefix     "in death by her husband, Raymond; two sisters, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/a54c1371-f05b-3523-8906-b8786f8707a4> ;
+        c:suffix     " and Tracie Mae Green; one brother, Kenneth" .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/Relevance/12>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/06efd652-8ee3-3001-8626-c6f03e66b02a> .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/Instance/4>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[she was preceded in death by her husband, ]Raymond[; two sisters, Velma Mae Green and Tracie Mae]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:exact      "Raymond" ;
+        c:length     "7" ;
+        c:offset     "1016" ;
+        c:prefix     "she was preceded in death by her husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/ca429b18-290a-387d-9cb4-7c81af61adef> ;
+        c:suffix     "; two sisters, Velma Mae Green and Tracie Mae" .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/Instance/18>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ the age of 91 years, 10 months, and 23 days.  \t  ]She[ was raised by her grandparents, William and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "505" ;
+        c:prefix     " the age of 91 years, 10 months, and 23 days.  \t  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f84777a4-cd91-3a3c-b67a-14f35b728eec> ;
+        c:suffix     " was raised by her grandparents, William and" .
+
+<http://d.opencalais.com/conf/pershash-1/08c07a1b-e2ea-308d-9b8d-c8b7d14fbb39>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.958" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.934" ;
+        c:subject             <http://d.opencalais.com/pershash-1/08c07a1b-e2ea-308d-9b8d-c8b7d14fbb39> .
+
+<http://d.opencalais.com/pershash-1/fbfd2b67-dcba-3f6f-b079-6e257c34ade6>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Kenneth Clayton Green" ;
+        c:confidencelevel    "0.971" ;
+        c:firstname          "Kenneth" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Green" ;
+        c:middlename         "Clayton" ;
+        c:name               "Kenneth Clayton Green" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/Instance/40>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Mae Green; one brother, Kenneth Clayton Green; ]her[ niece, Sherlene Coulter; and her nephew, Sheldon]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1112" ;
+        c:prefix     "Mae Green; one brother, Kenneth Clayton Green; " ;
+        c:subject    <http://d.opencalais.com/pershash-1/bc66626c-e2de-3ef1-9654-3ce333b68f34> ;
+        c:suffix     " niece, Sherlene Coulter; and her nephew, Sheldon" .
+
+<http://d.opencalais.com/conf/pershash-1/1a4351e2-aaf6-3303-a750-df6f4222fcef>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.999" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.999" ;
+        c:subject             <http://d.opencalais.com/pershash-1/1a4351e2-aaf6-3303-a750-df6f4222fcef> .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/Instance/12>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and passed away September 3, 2013, at Enid, ]Oklahoma[, at the age of 91 years, 10 months, and 23 days.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "443" ;
+        c:prefix     "and passed away September 3, 2013, at Enid, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", at the age of 91 years, 10 months, and 23 days." .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/Instance/53>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[led her to teach music to many children in ]Waynoka[.  \t  Besides her parents, she was preceded in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:exact      "Waynoka" ;
+        c:length     "7" ;
+        c:offset     "940" ;
+        c:prefix     "led her to teach music to many children in " ;
+        c:subject    <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:suffix     ".  \t  Besides her parents, she was preceded in" .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/Instance/25>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[at the Waynoka Municipal Cemetery with Rev. ]Lester Lowry[ officiating.  Interment is under the direction]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:exact      "Lester Lowry" ;
+        c:length     "12" ;
+        c:offset     "148" ;
+        c:prefix     "at the Waynoka Municipal Cemetery with Rev. " ;
+        c:subject    <http://d.opencalais.com/pershash-1/06efd652-8ee3-3001-8626-c6f03e66b02a> ;
+        c:suffix     " officiating.  Interment is under the direction" .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/Relevance/8>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/f84777a4-cd91-3a3c-b67a-14f35b728eec> .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/Instance/38>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[her parents, she was preceded in death by ]her[ husband, Raymond; two sisters, Velma Mae Green]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1003" ;
+        c:prefix     "her parents, she was preceded in death by " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b3b95445-3b55-3757-830c-7a2b0e9e744c> ;
+        c:suffix     " husband, Raymond; two sisters, Velma Mae Green" .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/SocialTag/5>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "2" ;
+        c:name               "Enid, Oklahoma" ;
+        c:originalValue      "Enid, Oklahoma" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/f5fa812e-f6f9-3012-9738-ee9777929481> .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/cat/1>
+        a                    <http://s.opencalais.com/1/type/cat/DocCat> ;
+        c:docId              <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Human Interest" ;
+        c:score              "0.588" .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/Relevance/17>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/b3b95445-3b55-3757-830c-7a2b0e9e744c> .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/Instance/9>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[nieces and nephews, including Sharesa Gregg of ]Enid[, and Erl Snyder, Jr. of Oklahoma City.  \t ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:exact      "Enid" ;
+        c:length     "4" ;
+        c:offset     "1302" ;
+        c:prefix     "nieces and nephews, including Sharesa Gregg of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/35a979c1-2108-3761-99bd-8c6f499ef6f2> ;
+        c:suffix     ", and Erl Snyder, Jr. of Oklahoma City.  \t " .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/Instance/32>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[from Waynoka High School.  On August 3, 1945, ]she[ was united in marriage to Raymond A. Snyder.  \t ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "629" ;
+        c:prefix     "from Waynoka High School.  On August 3, 1945, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b3b95445-3b55-3757-830c-7a2b0e9e744c> ;
+        c:suffix     " was united in marriage to Raymond A. Snyder.  \t " .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/Relevance/2>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/723f4787-65a4-39e5-8c86-78ae4e630aa9> .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/e9e27c26-4013-8712-a5f0-97dcdc412c26>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:latitude            "35.5607802899" ;
+        c:longitude           "-96.8460570462" ;
+        c:name                "Oklahoma,United States" ;
+        c:permid              "100229" ;
+        c:rcscode             "G:9H" ;
+        c:shortname           "Oklahoma" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/conf/pershash-1/bc66626c-e2de-3ef1-9654-3ce333b68f34>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.901" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.94" ;
+        c:subject             <http://d.opencalais.com/pershash-1/bc66626c-e2de-3ef1-9654-3ce333b68f34> .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/Instance/45>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Sheldon Snyder.  \t  Virgie is survived by ]her[ nephew, Erl F. Snyder, Sr. of Duncan; several]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1199" ;
+        c:prefix     "Sheldon Snyder.  \t  Virgie is survived by " ;
+        c:subject    <http://d.opencalais.com/pershash-1/2bdffad1-1563-3f40-87f0-4bed3c5cba2b> ;
+        c:suffix     " nephew, Erl F. Snyder, Sr. of Duncan; several" .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/Relevance/11>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/0093fe60-66f3-3d5f-963b-bde4541103c2> .
+
+<http://d.opencalais.com/genericHasher-1/723f4787-65a4-39e5-8c86-78ae4e630aa9>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "God Church" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/Instance/3>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ On August 3, 1945, she was united in marriage to ]Raymond A. Snyder[.  \t  Virgie was a member of the Waynoka Assembly]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:exact      "Raymond A. Snyder" ;
+        c:length     "17" ;
+        c:offset     "659" ;
+        c:prefix     " On August 3, 1945, she was united in marriage to " ;
+        c:subject    <http://d.opencalais.com/pershash-1/ca429b18-290a-387d-9cb4-7c81af61adef> ;
+        c:suffix     ".  \t  Virgie was a member of the Waynoka Assembly" .
+
+<http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c/Instance/17>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Marshall Funeral Home of Waynoka, LLC.  \t  ]Virginia Winston[ “Virgie” Snyder, daughter of the late Frank Leo]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:exact      "Virginia Winston" ;
+        c:length     "16" ;
+        c:offset     "254" ;
+        c:prefix     "of Marshall Funeral Home of Waynoka, LLC.  \t  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f84777a4-cd91-3a3c-b67a-14f35b728eec> ;
+        c:suffix     " “Virgie” Snyder, daughter of the late Frank Leo" .
+
+<http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oklahoma" .
+
+<http://d.opencalais.com/conf/pershash-1/ca429b18-290a-387d-9cb4-7c81af61adef>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.998" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/1839f8a6-8d32-30ab-a97a-bcec57bc0a4c> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.998" ;
+        c:subject             <http://d.opencalais.com/pershash-1/ca429b18-290a-387d-9cb4-7c81af61adef> .
+
+<http://d.opencalais.com/genericHasher-1/35a979c1-2108-3761-99bd-8c6f499ef6f2>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Enid" .

@@ -1,0 +1,1551 @@
+#Relations: FamilyRelation, PersonAttributes, PersonCareer, PersonLocation, PersonRelation
+#City: Alva, Austin, Durant, Fairview, Kiowa
+#Facility: Clinton Cemetery, Marshall Funeral Home of Alva
+#IndustryTerm: Funeral services
+#Organization: Alva Senior Citizens Center, Baptist Church, Guy School
+#Person: Andrew Chester, Barbara Koch, Carol Osburn, Cleo Springs, Dolores Diggs, Iva Arnold, Jerry Coyle, Ken Bowden, Marshall Funeral, Olive L. Moore, Rebecca Elizabeth (Kitchens) Coyle, Tommy Coyle, Wayne, William Thomas
+#Position: auctioneer, mechanic
+#ProvinceOrState: Kansas, Oklahoma, Texas
+@prefix c:     <http://s.opencalais.com/1/pred/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://d.opencalais.com/conf/pershash-1/d6b9a5d6-962c-3d84-8682-2180c6cf1efc>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/d6b9a5d6-962c-3d84-8682-2180c6cf1efc> .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Relevance/7>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Relevance/15>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/903964ab-0b6c-3a2e-a1cb-b3cdc9635248> .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Instance/69>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Senior Citizens Center or the Kiowa Southern ]Baptist Church[. \n\t\t\t]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:exact      "Baptist Church" ;
+        c:length     "14" ;
+        c:offset     "1673" ;
+        c:prefix     "Senior Citizens Center or the Kiowa Southern " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a21a69b3-e9dd-341e-9fee-da93c550c744> ;
+        c:suffix     ". \n\t\t\t" .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Instance/48>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Coyle, was born October 19, 1915, at Durant, ]Oklahoma[, and passed away April 19, 2011, at Kiowa,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "438" ;
+        c:prefix     "Coyle, was born October 19, 1915, at Durant, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", and passed away April 19, 2011, at Kiowa," .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Instance/27>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[to Olive L. Moore at Waynoka.  They lived in ]Alva[ and then Kiowa, Kansas.  \nBesides his parents]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "1052" ;
+        c:prefix     "to Olive L. Moore at Waynoka.  They lived in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:suffix     " and then Kiowa, Kansas.  \nBesides his parents" .
+
+<http://d.opencalais.com/pershash-1/0824c880-7431-3846-b832-1042cfbe83e9>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Marshall Funeral" .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/ComponentVersions>
+        a          <http://s.opencalais.com/1/type/sys/ComponentVersions> ;
+        c:docId    <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:version  "config-cse:271:271" , "Deals Index:201505261613:201505261613" , "NextTags:OneCalais_8.3-RELEASE:113" , "com.clearforest.infoext.dial4j.plugins-basistechconfig:OneCalais_8.3-RELEASE:225" , "Collector:OneCalais_8.3-RELEASE:113" , "OA Index:201505252208:201505252208" , "OneCalais:OneCalais_8.3-RELEASE:364" , "index-vessels:201505231718:201505231718" , "People Index:201505261608:201505261608" , "config-negativeSignature:258:258" , "config-drugs:258:258" , "FrenchIM:OneCalais_8.3-RELEASE:198" , "config-vessels:258:258" , "OneCalaisIM:OneCalais_8.3-RELEASE:198" , "SpanishIM:OneCalais_8.3-RELEASE:198" , "SECHeaderMetadataIM:OneCalais_8.3-RELEASE:198" , "People Override:258:258" , "WatchDog:OneCalais_8.3-RELEASE:113" , "OA Override:271:271" , "AutocoderRuntimeIM:OneCalais_8.3-RELEASE:198" , "BlackList:264:264" , "config-physicalAssets-ports:258:258" , "BrokerResearchIM:OneCalais_8.3-RELEASE:198" , "config-sca-DataPackage:34:34" , "config-refineries:258:258" , "SocialTags Index:201505191038:201505191038" , "Dial4J:OneCalais_8.3-RELEASE:198" , "Housekeeper:OneCalais_8.3-RELEASE:113" .
+
+<http://d.opencalais.com/genericHasher-1/276c931a-bbd8-37bd-886b-02ffa3829955>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Fairview" .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Instance/2>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[sold advertising and was an auctioneer.  ]In 1970, he was united in marriage to Iva Arnold[ at Bouse Junction.  In 1986 she preceded him in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:exact      "In 1970, he was united in marriage to Iva Arnold" ;
+        c:length     "48" ;
+        c:offset     "853" ;
+        c:prefix     "sold advertising and was an auctioneer.  " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/d1e46459-5571-3b6b-a5ef-ac867bd94013> ;
+        c:suffix     " at Bouse Junction.  In 1986 she preceded him in" .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Relevance/23>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/402755aa-cbfa-3f0c-b2fe-101e52801227> .
+
+<http://d.opencalais.com/pershash-1/7c76c207-0b79-34d8-89f6-194886a958c4>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Andrew Chester" ;
+        c:confidencelevel    "0.979" ;
+        c:firstname          "Andrew" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Chester" ;
+        c:name               "Andrew Chester" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Instance/56>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[to Iva Arnold at Bouse Junction.  In 1986 ]she[ preceded him in death.  On, September 1, 1988,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "930" ;
+        c:prefix     "to Iva Arnold at Bouse Junction.  In 1986 " ;
+        c:subject    <http://d.opencalais.com/pershash-1/2117b9ab-cd03-370d-b14e-3e54f0f92954> ;
+        c:suffix     " preceded him in death.  On, September 1, 1988," .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Instance/35>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[]Funeral services[ for Andrew Chester \"Andy? Coyle will be 10:00]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:exact      "Funeral services" ;
+        c:length     "16" ;
+        c:offset     "0" ;
+        c:prefix     "" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee> ;
+        c:suffix     " for Andrew Chester \"Andy? Coyle will be 10:00" .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Instance/14>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Arnold at Bouse Junction.  In 1986 she preceded ]him[ in death.  On, September 1, 1988, he was united]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:exact      "him" ;
+        c:length     "3" ;
+        c:offset     "943" ;
+        c:prefix     "Arnold at Bouse Junction.  In 1986 she preceded " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9887f3c1-1a9b-3e12-96c2-6577eb213e4d> ;
+        c:suffix     " in death.  On, September 1, 1988, he was united" .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Relevance/2>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> .
+
+<http://d.opencalais.com/pershash-1/c2c69488-1b39-3730-8f9f-ef2084a4c853>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Tommy Coyle" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Tommy" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Coyle" ;
+        c:name               "Tommy Coyle" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Relevance/10>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/5c388879-3f5e-388b-9e8d-b8cb49064c25> .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Instance/64>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[at the Kiowa Southern Baptist Church with Rev. ]Ken Bowden[ officiating.  Interment will be 3:00 p.m.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:exact      "Ken Bowden" ;
+        c:length     "10" ;
+        c:offset     "141" ;
+        c:prefix     "at the Kiowa Southern Baptist Church with Rev. " ;
+        c:subject    <http://d.opencalais.com/pershash-1/74858e9e-86ef-3e18-a51f-69de6199a913> ;
+        c:suffix     " officiating.  Interment will be 3:00 p.m." .
+
+<http://d.opencalais.com/genericHasher-1/1b331568-42db-3e96-b3dc-3c3352355d76>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/698d61fd-3811-3b35-9a29-93790fd6f19b> , <http://d.opencalais.com/pershash-1/9887f3c1-1a9b-3e12-96c2-6577eb213e4d> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Instance/43>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Texas, and Tommy Coyle and wife, Carol, of ]Kiowa[, Kansas; 15 grandchildren; 31 great]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:exact      "Kiowa" ;
+        c:length     "5" ;
+        c:offset     "1442" ;
+        c:prefix     "Texas, and Tommy Coyle and wife, Carol, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/41aa2c9e-1c06-3424-8975-776edcc48f27> ;
+        c:suffix     ", Kansas; 15 grandchildren; 31 great" .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Instance/22>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ \"Andy? Coyle, son of the late William Thomas and ]Rebecca Elizabeth (Kitchens) Coyle, was born October 19, 1915, at Durant, Oklahoma[, and passed away April 19, 2011, at Kiowa,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:exact      "Rebecca Elizabeth (Kitchens) Coyle, was born October 19, 1915, at Durant, Oklahoma" ;
+        c:length     "82" ;
+        c:offset     "364" ;
+        c:prefix     " \"Andy? Coyle, son of the late William Thomas and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/01bbbc6e-0b45-3484-8256-480d93fb9d70> ;
+        c:suffix     ", and passed away April 19, 2011, at Kiowa," .
+
+<http://d.opencalais.com/genericHasher-1/e52b3d84-d29d-3a04-a72f-0b83c964bb29>
+        a                    <http://s.opencalais.com/1/type/em/e/Position> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "auctioneer" .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Relevance/18>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/276c931a-bbd8-37bd-886b-02ffa3829955> .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/meta>
+        a                 <http://s.opencalais.com/1/type/sys/DocInfoMeta> ;
+        c:contentType     "text/raw" ;
+        c:docId           <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:language        "English" ;
+        c:processingVer   "AllMetadata" ;
+        c:serverVersion   "OneCalais_8.3-RELEASE:364" ;
+        c:signature       "digestalg-1|jHS6dsQln3Ul1Mfq9OcOG7piJQQ=|LXYDY0U9QJRWT10jF1v1xptGRdZ8l158vs7WEa7S/5R/rhGEHrBq2A==" ;
+        c:stagsVer        "OneCalais_8.3-RELEASE-b11-2015-03-25_18:29:00" ;
+        c:submissionDate  "2015-05-26 17:25:25.769" ;
+        c:submitterCode   "0ca6a864-5659-789d-5f32-f365f695e757" .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Instance/51>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Junction where he operated a service station.  ]He also worked as mechanic, sold advertising and was an auctioneer[.  In 1970, he was united in marriage to Iva]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:exact      "He also worked as mechanic, sold advertising and was an auctioneer" ;
+        c:length     "66" ;
+        c:offset     "784" ;
+        c:prefix     "Junction where he operated a service station.  " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/66de7102-ee8d-3043-9012-b746d9bae66f> ;
+        c:suffix     ".  In 1970, he was united in marriage to Iva" .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Instance/30>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ In 1970, he was united in marriage to ]Iva Arnold[ at Bouse Junction.  In 1986 she preceded him in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:exact      "Iva Arnold" ;
+        c:length     "10" ;
+        c:offset     "891" ;
+        c:prefix     " In 1970, he was united in marriage to " ;
+        c:subject    <http://d.opencalais.com/pershash-1/5c388879-3f5e-388b-9e8d-b8cb49064c25> ;
+        c:suffix     " at Bouse Junction.  In 1986 she preceded him in" .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/SocialTag/3>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Alva" ;
+        c:originalValue      "Alva (surname)" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/17f61973-ed95-369b-b381-dec22ce26b2a> .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Instance/5>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and Tommy Coyle and wife, Carol, of Kiowa, ]Kansas[; 15 grandchildren; 31 great grandchildren; 10]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:exact      "Kansas" ;
+        c:length     "6" ;
+        c:offset     "1449" ;
+        c:prefix     "and Tommy Coyle and wife, Carol, of Kiowa, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> ;
+        c:suffix     "; 15 grandchildren; 31 great grandchildren; 10" .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Relevance/26>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/c2c69488-1b39-3730-8f9f-ef2084a4c853> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/4335b6d2-b947-a200-d222-5107d701b721>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:latitude            "33.9939" ;
+        c:longitude           "-96.3706" ;
+        c:name                "Durant,Oklahoma,United States" ;
+        c:shortname           "Durant" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/903964ab-0b6c-3a2e-a1cb-b3cdc9635248> .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Instance/59>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Austin, Texas, and Tommy Coyle and wife, ]Carol[, of Kiowa, Kansas; 15 grandchildren; 31 great]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:exact      "Carol" ;
+        c:length     "5" ;
+        c:offset     "1432" ;
+        c:prefix     "of Austin, Texas, and Tommy Coyle and wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/81480239-2c36-3fac-b8c0-22cb2f4a608b> ;
+        c:suffix     ", of Kiowa, Kansas; 15 grandchildren; 31 great" .
+
+<http://d.opencalais.com/genericHasher-1/402755aa-cbfa-3f0c-b2fe-101e52801227>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Austin" .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Instance/38>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[direction of Marshall Funeral Home of Alva.  \n]Andrew Chester[ \"Andy? Coyle, son of the late William Thomas and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:exact      "Andrew Chester" ;
+        c:length     "14" ;
+        c:offset     "300" ;
+        c:prefix     "direction of Marshall Funeral Home of Alva.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/7c76c207-0b79-34d8-89f6-194886a958c4> ;
+        c:suffix     " \"Andy? Coyle, son of the late William Thomas and" .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Instance/17>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[then Kiowa, Kansas.  \nBesides his parents and ]his[ wife, Iva, he was preceded in death by his wife,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "1107" ;
+        c:prefix     "then Kiowa, Kansas.  \nBesides his parents and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9887f3c1-1a9b-3e12-96c2-6577eb213e4d> ;
+        c:suffix     " wife, Iva, he was preceded in death by his wife," .
+
+<http://d.opencalais.com/pershash-1/81480239-2c36-3fac-b8c0-22cb2f4a608b>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Carol Osburn" ;
+        c:confidencelevel    "0.997" ;
+        c:firstname          "Carol" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Osburn" ;
+        c:name               "Carol Osburn" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Relevance/5>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/342cbcfc-1f75-3e84-9ed2-bc85c5c8e6a7> .
+
+<http://d.opencalais.com/pershash-1/9a5d3b56-7b7a-366e-ba28-153d1a6f3507>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Jerry Coyle" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Jerry" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Coyle" ;
+        c:name               "Jerry Coyle" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/pershash-1/74858e9e-86ef-3e18-a51f-69de6199a913>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Ken Bowden" ;
+        c:confidencelevel    "0.98" ;
+        c:firstname          "Ken" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Bowden" ;
+        c:name               "Ken Bowden" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Relevance/13>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee> .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Instance/67>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[be 3:00 p.m. Saturday, April 23, 2011, in the ]Clinton Cemetery[ under the direction of Marshall Funeral Home of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:exact      "Clinton Cemetery" ;
+        c:length     "16" ;
+        c:offset     "227" ;
+        c:prefix     "be 3:00 p.m. Saturday, April 23, 2011, in the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e5e7fe0e-baee-3bc1-8601-21fbff036100> ;
+        c:suffix     " under the direction of Marshall Funeral Home of" .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Instance/46>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ by five children, Dolores Diggs of Cleo Springs, ]Barbara Koch[ of Enid, Jerry Coyle of Turpin, Lovera Howerton]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:exact      "Barbara Koch" ;
+        c:length     "12" ;
+        c:offset     "1307" ;
+        c:prefix     " by five children, Dolores Diggs of Cleo Springs, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/d6b9a5d6-962c-3d84-8682-2180c6cf1efc> ;
+        c:suffix     " of Enid, Jerry Coyle of Turpin, Lovera Howerton" .
+
+<http://d.opencalais.com/genericHasher-1/41aa2c9e-1c06-3424-8975-776edcc48f27>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Kiowa" .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Instance/25>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[is survived by five children, Dolores Diggs of ]Cleo Springs[, Barbara Koch of Enid, Jerry Coyle of Turpin,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:exact      "Cleo Springs" ;
+        c:length     "12" ;
+        c:offset     "1293" ;
+        c:prefix     "is survived by five children, Dolores Diggs of " ;
+        c:subject    <http://d.opencalais.com/pershash-1/19094c52-fa40-3e58-9c96-a5d50babbb02> ;
+        c:suffix     ", Barbara Koch of Enid, Jerry Coyle of Turpin," .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7>
+        a                  <http://s.opencalais.com/1/type/sys/DocInfo> ;
+        c:calaisRequestID  "fd71f998-a637-b150-14d9-141ea897848c" ;
+        c:docDate          "2015-05-26 17:25:26.106" ;
+        c:docTitle         "" ;
+        c:document         "Funeral services for Andrew Chester \"Andy? Coyle will be 10:00 a.m. Saturday, April 23, 2011, at the Kiowa Southern Baptist Church with Rev. Ken Bowden officiating.  Interment will be 3:00 p.m. Saturday, April 23, 2011, in the Clinton Cemetery under the direction of Marshall Funeral Home of Alva.  \nAndrew Chester \"Andy? Coyle, son of the late William Thomas and Rebecca Elizabeth (Kitchens) Coyle, was born October 19, 1915, at Durant, Oklahoma, and passed away April 19, 2011, at Kiowa, Kansas, at the age of 95 years and 6 months.  \nAndy attended Guy School southeast of Seiling.  On July 7, 1935, he was united in marriage to Arzella Kopf at Taloga.  They lived in Fairview where he worked as a roughneck.  They then moved to Bouse Junction where he operated a service station.  He also worked as mechanic, sold advertising and was an auctioneer.  In 1970, he was united in marriage to Iva Arnold at Bouse Junction.  In 1986 she preceded him in death.  On, September 1, 1988, he was united in marriage to Olive L. Moore at Waynoka.  They lived in Alva and then Kiowa, Kansas.  \nBesides his parents and his wife, Iva, he was preceded in death by his wife, Olive; his daughter, Carol Osburn; 2 brothers; 3 sisters; and 4 grandchildren.  \nAndy is survived by five children, Dolores Diggs of Cleo Springs, Barbara Koch of Enid, Jerry Coyle of Turpin, Lovera Howerton and husband, Wayne, of Austin, Texas, and Tommy Coyle and wife, Carol, of Kiowa, Kansas; 15 grandchildren; 31 great grandchildren; 10 great great grandchildren; other relatives and friends.  \nMemorial contributions may be made through the funeral home to Alva Senior Citizens Center or the Kiowa Southern Baptist Church. \n\t\t\t" ;
+        c:id               "http://id.opencalais.com/2Hg6bpktQlaDGp5sA9YTZw" ;
+        c:ontology         "http://163.231.4.65/owlschema/8.3/onecalais.owl.allmetadata.xml" .
+
+<http://d.opencalais.com/pershash-1/9887f3c1-1a9b-3e12-96c2-6577eb213e4d>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "William Thomas" ;
+        c:confidencelevel    "0.999" ;
+        c:firstname          "William" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Thomas" ;
+        c:name               "William Thomas" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/pershash-1/2117b9ab-cd03-370d-b14e-3e54f0f92954>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Rebecca Elizabeth Coyle" ;
+        c:confidencelevel    "0.991" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Rebecca Elizabeth (Kitchens) Coyle" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Relevance/21>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/43979eca-23ba-38f2-85de-8eb0656078cd> .
+
+<http://d.opencalais.com/conf/pershash-1/7c76c207-0b79-34d8-89f6-194886a958c4>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.979" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/7c76c207-0b79-34d8-89f6-194886a958c4> .
+
+<http://d.opencalais.com/genericHasher-1/903964ab-0b6c-3a2e-a1cb-b3cdc9635248>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Durant" .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Instance/54>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Funeral Home of Alva.  \nAndrew Chester \"Andy? ]Coyle[, son of the late William Thomas and Rebecca]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:exact      "Coyle" ;
+        c:length     "5" ;
+        c:offset     "322" ;
+        c:prefix     "Funeral Home of Alva.  \nAndrew Chester \"Andy? " ;
+        c:subject    <http://d.opencalais.com/pershash-1/2117b9ab-cd03-370d-b14e-3e54f0f92954> ;
+        c:suffix     ", son of the late William Thomas and Rebecca" .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/lid/DefaultLangId>
+        a                    <http://s.opencalais.com/1/type/lid/DefaultLangId> ;
+        c:docId              <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:forenduserdisplay  "false" ;
+        c:lang               <http://d.opencalais.com/lid/DefaultLangId/English> ;
+        c:permid             "505062" .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Instance/33>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in the Clinton Cemetery under the direction of ]Marshall Funeral Home of Alva[.  \nAndrew Chester \"Andy? Coyle, son of the late]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:exact      "Marshall Funeral Home of Alva" ;
+        c:length     "29" ;
+        c:offset     "267" ;
+        c:prefix     "in the Clinton Cemetery under the direction of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce> ;
+        c:suffix     ".  \nAndrew Chester \"Andy? Coyle, son of the late" .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Instance/12>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Junction where he operated a service station.  ]He[ also worked as mechanic, sold advertising and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:exact      "He" ;
+        c:length     "2" ;
+        c:offset     "784" ;
+        c:prefix     "Junction where he operated a service station.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9887f3c1-1a9b-3e12-96c2-6577eb213e4d> ;
+        c:suffix     " also worked as mechanic, sold advertising and" .
+
+<http://d.opencalais.com/conf/pershash-1/c2c69488-1b39-3730-8f9f-ef2084a4c853>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/c2c69488-1b39-3730-8f9f-ef2084a4c853> .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Instance/8>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ \nAndrew Chester \"Andy? Coyle, son of the late ]William Thomas[ and Rebecca Elizabeth (Kitchens) Coyle, was born]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:exact      "William Thomas" ;
+        c:length     "14" ;
+        c:offset     "345" ;
+        c:prefix     " \nAndrew Chester \"Andy? Coyle, son of the late " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9887f3c1-1a9b-3e12-96c2-6577eb213e4d> ;
+        c:suffix     " and Rebecca Elizabeth (Kitchens) Coyle, was born" .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Relevance/29>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a21a69b3-e9dd-341e-9fee-da93c550c744> .
+
+<http://d.opencalais.com/genericHasher-1/342cbcfc-1f75-3e84-9ed2-bc85c5c8e6a7>
+        a                    <http://s.opencalais.com/1/type/em/e/Position> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "mechanic" .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Instance/62>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and husband, Wayne, of Austin, Texas, and ]Tommy Coyle[ and wife, Carol, of Kiowa, Kansas; 15]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:exact      "Tommy Coyle" ;
+        c:length     "11" ;
+        c:offset     "1410" ;
+        c:prefix     "and husband, Wayne, of Austin, Texas, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/c2c69488-1b39-3730-8f9f-ef2084a4c853> ;
+        c:suffix     " and wife, Carol, of Kiowa, Kansas; 15" .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Instance/41>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Oklahoma, and passed away April 19, 2011, at ]Kiowa[, Kansas, at the age of 95 years and 6 months. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:exact      "Kiowa" ;
+        c:length     "5" ;
+        c:offset     "483" ;
+        c:prefix     "Oklahoma, and passed away April 19, 2011, at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/41aa2c9e-1c06-3424-8975-776edcc48f27> ;
+        c:suffix     ", Kansas, at the age of 95 years and 6 months. " .
+
+<http://d.opencalais.com/genericHasher-1/b6bf2c0d-0ac3-3aaa-a334-e02dfcbc3358>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Alva" ;
+        c:person             <http://d.opencalais.com/pershash-1/0824c880-7431-3846-b832-1042cfbe83e9> .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Instance/20>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[he was preceded in death by his wife, Olive; ]his[ daughter, Carol Osburn; 2 brothers; 3 sisters;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "1167" ;
+        c:prefix     "he was preceded in death by his wife, Olive; " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9887f3c1-1a9b-3e12-96c2-6577eb213e4d> ;
+        c:suffix     " daughter, Carol Osburn; 2 brothers; 3 sisters;" .
+
+<http://d.opencalais.com/pershash-1/d9e33ad0-88f4-3dc9-8881-23afdee32536>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Wayne" ;
+        c:confidencelevel    "0.981" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Wayne" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Relevance/8>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/9a5d3b56-7b7a-366e-ba28-153d1a6f3507> .
+
+<http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Marshall Funeral Home of Alva" .
+
+<http://d.opencalais.com/pershash-1/19094c52-fa40-3e58-9c96-a5d50babbb02>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Cleo Springs" ;
+        c:confidencelevel    "0.768" ;
+        c:firstname          "Cleo" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Springs" ;
+        c:name               "Cleo Springs" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Kansas" .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Relevance/16>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/41aa2c9e-1c06-3424-8975-776edcc48f27> .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Instance/70>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Junction where he operated a service station.  ]He also worked as mechanic[, sold advertising and was an auctioneer.  In]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:exact      "He also worked as mechanic" ;
+        c:length     "26" ;
+        c:offset     "784" ;
+        c:prefix     "Junction where he operated a service station.  " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/bc11db03-8852-36d9-be7b-13b3064612d2> ;
+        c:suffix     ", sold advertising and was an auctioneer.  In" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/62914270-0a1c-1bcc-880e-6dbe9fb82eb9>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:latitude            "31.4484328889" ;
+        c:longitude           "-97.7816569778" ;
+        c:name                "Texas,United States" ;
+        c:permid              "100299" ;
+        c:rcscode             "G:50" ;
+        c:shortname           "Texas" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Instance/49>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[September 1, 1988, he was united in marriage to ]Olive L. Moore[ at Waynoka.  They lived in Alva and then Kiowa,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:exact      "Olive L. Moore" ;
+        c:length     "14" ;
+        c:offset     "1010" ;
+        c:prefix     "September 1, 1988, he was united in marriage to " ;
+        c:subject    <http://d.opencalais.com/pershash-1/698d61fd-3811-3b35-9a29-93790fd6f19b> ;
+        c:suffix     " at Waynoka.  They lived in Alva and then Kiowa," .
+
+<http://d.opencalais.com/genericHasher-1/3deb3e9e-d837-3349-b883-aace6432d0a4>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Kiowa" ;
+        c:person             <http://d.opencalais.com/pershash-1/81480239-2c36-3fac-b8c0-22cb2f4a608b> .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Instance/28>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Diggs of Cleo Springs, Barbara Koch of Enid, ]Jerry Coyle[ of Turpin, Lovera Howerton and husband, Wayne,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:exact      "Jerry Coyle" ;
+        c:length     "11" ;
+        c:offset     "1329" ;
+        c:prefix     "Diggs of Cleo Springs, Barbara Koch of Enid, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9a5d3b56-7b7a-366e-ba28-153d1a6f3507> ;
+        c:suffix     " of Turpin, Lovera Howerton and husband, Wayne," .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/SocialTag/1>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Kiowa, Kansas" ;
+        c:originalValue      "Kiowa, Kansas" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/71084f59-659c-33de-8e4c-0632a863fc61> .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/cat/1>
+        a                    <http://s.opencalais.com/1/type/cat/DocCat> ;
+        c:docId              <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Human Interest" ;
+        c:score              "0.974" .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Instance/3>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and passed away April 19, 2011, at Kiowa, ]Kansas[, at the age of 95 years and 6 months.  \nAndy]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:exact      "Kansas" ;
+        c:length     "6" ;
+        c:offset     "490" ;
+        c:prefix     "and passed away April 19, 2011, at Kiowa, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> ;
+        c:suffix     ", at the age of 95 years and 6 months.  \nAndy" .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Relevance/24>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/81480239-2c36-3fac-b8c0-22cb2f4a608b> .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Instance/57>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Turpin, Lovera Howerton and husband, Wayne, of ]Austin[, Texas, and Tommy Coyle and wife, Carol, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:exact      "Austin" ;
+        c:length     "6" ;
+        c:offset     "1391" ;
+        c:prefix     "Turpin, Lovera Howerton and husband, Wayne, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/402755aa-cbfa-3f0c-b2fe-101e52801227> ;
+        c:suffix     ", Texas, and Tommy Coyle and wife, Carol, of" .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Instance/36>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ In 1986 she preceded him in death.  On, ]September 1, 1988, he was united in marriage to Olive L. Moore[ at Waynoka.  They lived in Alva and then Kiowa,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:exact      "September 1, 1988, he was united in marriage to Olive L. Moore" ;
+        c:length     "62" ;
+        c:offset     "962" ;
+        c:prefix     " In 1986 she preceded him in death.  On, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/f18daebc-7251-3d26-8f7b-49225c3a036b> ;
+        c:suffix     " at Waynoka.  They lived in Alva and then Kiowa," .
+
+<http://d.opencalais.com/conf/pershash-1/81480239-2c36-3fac-b8c0-22cb2f4a608b>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.997" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.998" ;
+        c:subject             <http://d.opencalais.com/pershash-1/81480239-2c36-3fac-b8c0-22cb2f4a608b> .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Instance/15>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[preceded him in death.  On, September 1, 1988, ]he[ was united in marriage to Olive L. Moore at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:exact      "he" ;
+        c:length     "2" ;
+        c:offset     "981" ;
+        c:prefix     "preceded him in death.  On, September 1, 1988, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9887f3c1-1a9b-3e12-96c2-6577eb213e4d> ;
+        c:suffix     " was united in marriage to Olive L. Moore at" .
+
+<http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Texas" .
+
+<http://d.opencalais.com/conf/pershash-1/9a5d3b56-7b7a-366e-ba28-153d1a6f3507>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/9a5d3b56-7b7a-366e-ba28-153d1a6f3507> .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Relevance/3>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ff5d1cd0-8649-3353-9b3c-a07532f7605d> .
+
+<http://d.opencalais.com/pershash-1/97715003-1e54-3ff4-b4d7-8dcf075b2963>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Dolores Diggs" ;
+        c:confidencelevel    "0.993" ;
+        c:firstname          "Dolores" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Diggs" ;
+        c:name               "Dolores Diggs" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/74858e9e-86ef-3e18-a51f-69de6199a913>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.98" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/74858e9e-86ef-3e18-a51f-69de6199a913> .
+
+<http://d.opencalais.com/genericHasher-1/27e4f50e-1772-3d01-8630-5c4f5295724e>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "wife" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/9887f3c1-1a9b-3e12-96c2-6577eb213e4d> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/5c388879-3f5e-388b-9e8d-b8cb49064c25> .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Relevance/11>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/97715003-1e54-3ff4-b4d7-8dcf075b2963> .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Instance/65>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Austin, Texas, and Tommy Coyle and wife, ]Carol, of Kiowa, Kansas[; 15 grandchildren; 31 great grandchildren; 10]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:exact      "Carol, of Kiowa, Kansas" ;
+        c:length     "23" ;
+        c:offset     "1432" ;
+        c:prefix     "of Austin, Texas, and Tommy Coyle and wife, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3deb3e9e-d837-3349-b883-aace6432d0a4> ;
+        c:suffix     "; 15 grandchildren; 31 great grandchildren; 10" .
+
+<http://d.opencalais.com/pershash-1/5c388879-3f5e-388b-9e8d-b8cb49064c25>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Iva Arnold" ;
+        c:confidencelevel    "0.992" ;
+        c:firstname          "Iva" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Arnold" ;
+        c:name               "Iva Arnold" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Instance/44>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[home to Alva Senior Citizens Center or the ]Kiowa[ Southern Baptist Church.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:exact      "Kiowa" ;
+        c:length     "5" ;
+        c:offset     "1658" ;
+        c:prefix     "home to Alva Senior Citizens Center or the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/41aa2c9e-1c06-3424-8975-776edcc48f27> ;
+        c:suffix     " Southern Baptist Church." .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Instance/23>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[operated a service station.  He also worked as ]mechanic[, sold advertising and was an auctioneer.  In]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:exact      "mechanic" ;
+        c:length     "8" ;
+        c:offset     "802" ;
+        c:prefix     "operated a service station.  He also worked as " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/342cbcfc-1f75-3e84-9ed2-bc85c5c8e6a7> ;
+        c:suffix     ", sold advertising and was an auctioneer.  In" .
+
+<http://d.opencalais.com/conf/pershash-1/9887f3c1-1a9b-3e12-96c2-6577eb213e4d>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.999" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.998" ;
+        c:subject             <http://d.opencalais.com/pershash-1/9887f3c1-1a9b-3e12-96c2-6577eb213e4d> .
+
+<http://d.opencalais.com/conf/pershash-1/2117b9ab-cd03-370d-b14e-3e54f0f92954>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.991" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.994" ;
+        c:subject             <http://d.opencalais.com/pershash-1/2117b9ab-cd03-370d-b14e-3e54f0f92954> .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Relevance/19>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Instance/52>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[age of 95 years and 6 months.  \nAndy attended ]Guy School[ southeast of Seiling.  On July 7, 1935, he was]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:exact      "Guy School" ;
+        c:length     "10" ;
+        c:offset     "551" ;
+        c:prefix     "age of 95 years and 6 months.  \nAndy attended " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/43979eca-23ba-38f2-85de-8eb0656078cd> ;
+        c:suffix     " southeast of Seiling.  On July 7, 1935, he was" .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Instance/31>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Kansas.  \nBesides his parents and his wife, ]Iva[, he was preceded in death by his wife, Olive;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:exact      "Iva" ;
+        c:length     "3" ;
+        c:offset     "1117" ;
+        c:prefix     "Kansas.  \nBesides his parents and his wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/5c388879-3f5e-388b-9e8d-b8cb49064c25> ;
+        c:suffix     ", he was preceded in death by his wife, Olive;" .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Instance/10>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Kopf at Taloga.  They lived in Fairview where ]he[ worked as a roughneck.  They then moved to Bouse]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:exact      "he" ;
+        c:length     "2" ;
+        c:offset     "685" ;
+        c:prefix     "Kopf at Taloga.  They lived in Fairview where " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9887f3c1-1a9b-3e12-96c2-6577eb213e4d> ;
+        c:suffix     " worked as a roughneck.  They then moved to Bouse" .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Instance/6>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[may be made through the funeral home to ]Alva Senior Citizens Center[ or the Kiowa Southern Baptist Church.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:exact      "Alva Senior Citizens Center" ;
+        c:length     "27" ;
+        c:offset     "1623" ;
+        c:prefix     "may be made through the funeral home to " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ff5d1cd0-8649-3353-9b3c-a07532f7605d> ;
+        c:suffix     " or the Kiowa Southern Baptist Church." .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Relevance/27>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/74858e9e-86ef-3e18-a51f-69de6199a913> .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Instance/60>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[worked as mechanic, sold advertising and was ]an auctioneer[.  In 1970, he was united in marriage to Iva]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:exact      "an auctioneer" ;
+        c:length     "13" ;
+        c:offset     "837" ;
+        c:prefix     "worked as mechanic, sold advertising and was " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e52b3d84-d29d-3a04-a72f-0b83c964bb29> ;
+        c:suffix     ".  In 1970, he was united in marriage to Iva" .
+
+<http://d.opencalais.com/genericHasher-1/c7755dad-9be6-34a4-94a7-38bb220fc516>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Austin" ;
+        c:person             <http://d.opencalais.com/pershash-1/d9e33ad0-88f4-3dc9-8881-23afdee32536> .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Instance/39>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[(Kitchens) Coyle, was born October 19, 1915, at ]Durant[, Oklahoma, and passed away April 19, 2011, at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:exact      "Durant" ;
+        c:length     "6" ;
+        c:offset     "430" ;
+        c:prefix     "(Kitchens) Coyle, was born October 19, 1915, at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/903964ab-0b6c-3a2e-a1cb-b3cdc9635248> ;
+        c:suffix     ", Oklahoma, and passed away April 19, 2011, at" .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Instance/18>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Kansas.  \nBesides his parents and his wife, Iva, ]he[ was preceded in death by his wife, Olive; his]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:exact      "he" ;
+        c:length     "2" ;
+        c:offset     "1122" ;
+        c:prefix     " Kansas.  \nBesides his parents and his wife, Iva, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9887f3c1-1a9b-3e12-96c2-6577eb213e4d> ;
+        c:suffix     " was preceded in death by his wife, Olive; his" .
+
+<http://d.opencalais.com/conf/pershash-1/d9e33ad0-88f4-3dc9-8881-23afdee32536>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.981" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.932" ;
+        c:subject             <http://d.opencalais.com/pershash-1/d9e33ad0-88f4-3dc9-8881-23afdee32536> .
+
+<http://d.opencalais.com/conf/pershash-1/19094c52-fa40-3e58-9c96-a5d50babbb02>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.768" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.858" ;
+        c:subject             <http://d.opencalais.com/pershash-1/19094c52-fa40-3e58-9c96-a5d50babbb02> .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Relevance/6>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/19094c52-fa40-3e58-9c96-a5d50babbb02> .
+
+<http://d.opencalais.com/genericHasher-1/d1e46459-5571-3b6b-a5ef-ac867bd94013>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:date                "1970-00-00" ;
+        c:datestring          "In 1970" ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/5c388879-3f5e-388b-9e8d-b8cb49064c25> , <http://d.opencalais.com/pershash-1/9887f3c1-1a9b-3e12-96c2-6577eb213e4d> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Relevance/14>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/7c76c207-0b79-34d8-89f6-194886a958c4> .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Instance/68>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Saturday, April 23, 2011, at the Kiowa Southern ]Baptist Church[ with Rev. Ken Bowden officiating.  Interment]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:exact      "Baptist Church" ;
+        c:length     "14" ;
+        c:offset     "116" ;
+        c:prefix     "Saturday, April 23, 2011, at the Kiowa Southern " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a21a69b3-e9dd-341e-9fee-da93c550c744> ;
+        c:suffix     " with Rev. Ken Bowden officiating.  Interment" .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Instance/47>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[to Arzella Kopf at Taloga.  They lived in ]Fairview[ where he worked as a roughneck.  They then moved]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:exact      "Fairview" ;
+        c:length     "8" ;
+        c:offset     "670" ;
+        c:prefix     "to Arzella Kopf at Taloga.  They lived in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/276c931a-bbd8-37bd-886b-02ffa3829955> ;
+        c:suffix     " where he worked as a roughneck.  They then moved" .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Instance/26>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[under the direction of Marshall Funeral Home of ]Alva[.  \nAndrew Chester \"Andy? Coyle, son of the late]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "292" ;
+        c:prefix     "under the direction of Marshall Funeral Home of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:suffix     ".  \nAndrew Chester \"Andy? Coyle, son of the late" .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Instance/1>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Lovera Howerton and husband, Wayne, of Austin, ]Texas[, and Tommy Coyle and wife, Carol, of Kiowa,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:exact      "Texas" ;
+        c:length     "5" ;
+        c:offset     "1399" ;
+        c:prefix     "Lovera Howerton and husband, Wayne, of Austin, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> ;
+        c:suffix     ", and Tommy Coyle and wife, Carol, of Kiowa," .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Relevance/22>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/2117b9ab-cd03-370d-b14e-3e54f0f92954> .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Instance/55>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ \"Andy? Coyle, son of the late William Thomas and ]Rebecca Elizabeth (Kitchens) Coyle[, was born October 19, 1915, at Durant, Oklahoma,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:exact      "Rebecca Elizabeth (Kitchens) Coyle" ;
+        c:length     "34" ;
+        c:offset     "364" ;
+        c:prefix     " \"Andy? Coyle, son of the late William Thomas and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/2117b9ab-cd03-370d-b14e-3e54f0f92954> ;
+        c:suffix     ", was born October 19, 1915, at Durant, Oklahoma," .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Instance/34>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Coyle of Turpin, Lovera Howerton and husband, ]Wayne, of Austin, Texas[, and Tommy Coyle and wife, Carol, of Kiowa,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:exact      "Wayne, of Austin, Texas" ;
+        c:length     "23" ;
+        c:offset     "1381" ;
+        c:prefix     "Coyle of Turpin, Lovera Howerton and husband, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c7755dad-9be6-34a4-94a7-38bb220fc516> ;
+        c:suffix     ", and Tommy Coyle and wife, Carol, of Kiowa," .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Instance/13>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[advertising and was an auctioneer.  In 1970, ]he[ was united in marriage to Iva Arnold at Bouse]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:exact      "he" ;
+        c:length     "2" ;
+        c:offset     "862" ;
+        c:prefix     "advertising and was an auctioneer.  In 1970, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9887f3c1-1a9b-3e12-96c2-6577eb213e4d> ;
+        c:suffix     " was united in marriage to Iva Arnold at Bouse" .
+
+<http://d.opencalais.com/pershash-1/698d61fd-3811-3b35-9a29-93790fd6f19b>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Olive Moore" ;
+        c:confidencelevel    "0.988" ;
+        c:firstname          "Olive" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Moore" ;
+        c:middlename         "L." ;
+        c:name               "Olive L. Moore" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/97715003-1e54-3ff4-b4d7-8dcf075b2963>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.993" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.995" ;
+        c:subject             <http://d.opencalais.com/pershash-1/97715003-1e54-3ff4-b4d7-8dcf075b2963> .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Relevance/1>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Relevance/30>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/0824c880-7431-3846-b832-1042cfbe83e9> .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Instance/9>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[School southeast of Seiling.  On July 7, 1935, ]he[ was united in marriage to Arzella Kopf at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:exact      "he" ;
+        c:length     "2" ;
+        c:offset     "602" ;
+        c:prefix     "School southeast of Seiling.  On July 7, 1935, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9887f3c1-1a9b-3e12-96c2-6577eb213e4d> ;
+        c:suffix     " was united in marriage to Arzella Kopf at" .
+
+<http://d.opencalais.com/conf/pershash-1/5c388879-3f5e-388b-9e8d-b8cb49064c25>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.992" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.995" ;
+        c:subject             <http://d.opencalais.com/pershash-1/5c388879-3f5e-388b-9e8d-b8cb49064c25> .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Instance/63>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[he was preceded in death by his wife, Olive; ]his daughter, Carol Osburn[; 2 brothers; 3 sisters; and 4 grandchildren. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:exact      "his daughter, Carol Osburn" ;
+        c:length     "26" ;
+        c:offset     "1167" ;
+        c:prefix     "he was preceded in death by his wife, Olive; " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9c5317a8-df79-3939-b6ae-6d80d32688b6> ;
+        c:suffix     "; 2 brothers; 3 sisters; and 4 grandchildren. " .
+
+<http://d.opencalais.com/genericHasher-1/75b87e23-2d67-30d3-a4b0-0f7def168bf8>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Kiowa, Kansas" ;
+        c:person             <http://d.opencalais.com/pershash-1/9887f3c1-1a9b-3e12-96c2-6577eb213e4d> .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Instance/42>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Moore at Waynoka.  They lived in Alva and then ]Kiowa[, Kansas.  \nBesides his parents and his wife,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:exact      "Kiowa" ;
+        c:length     "5" ;
+        c:offset     "1066" ;
+        c:prefix     "Moore at Waynoka.  They lived in Alva and then " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/41aa2c9e-1c06-3424-8975-776edcc48f27> ;
+        c:suffix     ", Kansas.  \nBesides his parents and his wife," .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Instance/21>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[then Kiowa, Kansas.  \nBesides his parents and ]his wife, Iva[, he was preceded in death by his wife, Olive;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:exact      "his wife, Iva" ;
+        c:length     "13" ;
+        c:offset     "1107" ;
+        c:prefix     "then Kiowa, Kansas.  \nBesides his parents and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/d2a5ed34-ec15-3b0e-aa2a-2ef0dfc7b46e> ;
+        c:suffix     ", he was preceded in death by his wife, Olive;" .
+
+<http://d.opencalais.com/genericHasher-1/ff5d1cd0-8649-3353-9b3c-a07532f7605d>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Alva Senior Citizens Center" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Relevance/9>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/d9e33ad0-88f4-3dc9-8881-23afdee32536> .
+
+<http://d.opencalais.com/pershash-1/d6b9a5d6-962c-3d84-8682-2180c6cf1efc>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Barbara Koch" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Barbara" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Koch" ;
+        c:name               "Barbara Koch" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/f8d16c5c-8700-3111-b3c6-f5975fedeeda>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "wife" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/9887f3c1-1a9b-3e12-96c2-6577eb213e4d> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/698d61fd-3811-3b35-9a29-93790fd6f19b> .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Relevance/17>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/d6b9a5d6-962c-3d84-8682-2180c6cf1efc> .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Instance/71>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in the Clinton Cemetery under the direction of ]Marshall Funeral[ Home of Alva.  \nAndrew Chester \"Andy? Coyle, son]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:exact      "Marshall Funeral" ;
+        c:length     "16" ;
+        c:offset     "267" ;
+        c:prefix     "in the Clinton Cemetery under the direction of " ;
+        c:subject    <http://d.opencalais.com/pershash-1/0824c880-7431-3846-b832-1042cfbe83e9> ;
+        c:suffix     " Home of Alva.  \nAndrew Chester \"Andy? Coyle, son" .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Instance/50>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ wife, Iva, he was preceded in death by his wife, ]Olive[; his daughter, Carol Osburn; 2 brothers; 3]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:exact      "Olive" ;
+        c:length     "5" ;
+        c:offset     "1160" ;
+        c:prefix     " wife, Iva, he was preceded in death by his wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/698d61fd-3811-3b35-9a29-93790fd6f19b> ;
+        c:suffix     "; his daughter, Carol Osburn; 2 brothers; 3" .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Instance/29>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Coyle of Turpin, Lovera Howerton and husband, ]Wayne[, of Austin, Texas, and Tommy Coyle and wife,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:exact      "Wayne" ;
+        c:length     "5" ;
+        c:offset     "1381" ;
+        c:prefix     "Coyle of Turpin, Lovera Howerton and husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/d9e33ad0-88f4-3dc9-8881-23afdee32536> ;
+        c:suffix     ", of Austin, Texas, and Tommy Coyle and wife," .
+
+<http://d.opencalais.com/genericHasher-1/d2a5ed34-ec15-3b0e-aa2a-2ef0dfc7b46e>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/5c388879-3f5e-388b-9e8d-b8cb49064c25> , <http://d.opencalais.com/pershash-1/9887f3c1-1a9b-3e12-96c2-6577eb213e4d> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/SocialTag/2>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Kiowa" ;
+        c:originalValue      "Kiowa" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/8489a9b5-948e-37fa-bc77-b0617a67499c> .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/cat/2>
+        a                    <http://s.opencalais.com/1/type/cat/DocCat> ;
+        c:docId              <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Religion_Belief" ;
+        c:score              "0.857" .
+
+<http://d.opencalais.com/genericHasher-1/43979eca-23ba-38f2-85de-8eb0656078cd>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Guy School" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Instance/4>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[at Waynoka.  They lived in Alva and then Kiowa, ]Kansas[.  \nBesides his parents and his wife, Iva, he was]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:exact      "Kansas" ;
+        c:length     "6" ;
+        c:offset     "1073" ;
+        c:prefix     "at Waynoka.  They lived in Alva and then Kiowa, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> ;
+        c:suffix     ".  \nBesides his parents and his wife, Iva, he was" .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Relevance/25>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e52b3d84-d29d-3a04-a72f-0b83c964bb29> .
+
+<http://d.opencalais.com/genericHasher-1/a21a69b3-e9dd-341e-9fee-da93c550c744>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Baptist Church" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Instance/58>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in death by his wife, Olive; his daughter, ]Carol Osburn[; 2 brothers; 3 sisters; and 4 grandchildren. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:exact      "Carol Osburn" ;
+        c:length     "12" ;
+        c:offset     "1181" ;
+        c:prefix     "in death by his wife, Olive; his daughter, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/81480239-2c36-3fac-b8c0-22cb2f4a608b> ;
+        c:suffix     "; 2 brothers; 3 sisters; and 4 grandchildren. " .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Instance/37>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Funeral services for ]Andrew Chester[ \"Andy? Coyle will be 10:00 a.m. Saturday, April]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:exact      "Andrew Chester" ;
+        c:length     "14" ;
+        c:offset     "21" ;
+        c:prefix     "Funeral services for " ;
+        c:subject    <http://d.opencalais.com/pershash-1/7c76c207-0b79-34d8-89f6-194886a958c4> ;
+        c:suffix     " \"Andy? Coyle will be 10:00 a.m. Saturday, April" .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Instance/16>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[lived in Alva and then Kiowa, Kansas.  \nBesides ]his[ parents and his wife, Iva, he was preceded in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "1091" ;
+        c:prefix     "lived in Alva and then Kiowa, Kansas.  \nBesides " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9887f3c1-1a9b-3e12-96c2-6577eb213e4d> ;
+        c:suffix     " parents and his wife, Iva, he was preceded in" .
+
+<http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee>
+        a                    <http://s.opencalais.com/1/type/em/e/IndustryTerm> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Funeral services" .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Relevance/4>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/9887f3c1-1a9b-3e12-96c2-6577eb213e4d> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/88cfb7e5-94e8-a81d-8493-313ff411317f>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Texas" ;
+        c:docId               <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:latitude            "30.2669" ;
+        c:longitude           "-97.7428" ;
+        c:name                "Austin,Texas,United States" ;
+        c:rcscode             "G:24M" ;
+        c:shortname           "Austin" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/402755aa-cbfa-3f0c-b2fe-101e52801227> .
+
+<http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oklahoma" .
+
+<http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Alva" .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Relevance/12>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce> .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Instance/66>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ \nAndrew Chester \"Andy? Coyle, son of the late ]William Thomas and Rebecca Elizabeth (Kitchens) Coyle, was born October 19, 1915, at Durant, Oklahoma, and passed away April 19, 2011, at Kiowa, Kansas[, at the age of 95 years and 6 months.  \nAndy]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:exact      "William Thomas and Rebecca Elizabeth (Kitchens) Coyle, was born October 19, 1915, at Durant, Oklahoma, and passed away April 19, 2011, at Kiowa, Kansas" ;
+        c:length     "151" ;
+        c:offset     "345" ;
+        c:prefix     " \nAndrew Chester \"Andy? Coyle, son of the late " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/75b87e23-2d67-30d3-a4b0-0f7def168bf8> ;
+        c:suffix     ", at the age of 95 years and 6 months.  \nAndy" .
+
+<http://d.opencalais.com/genericHasher-1/9c5317a8-df79-3939-b6ae-6d80d32688b6>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "daughter" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/9887f3c1-1a9b-3e12-96c2-6577eb213e4d> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/81480239-2c36-3fac-b8c0-22cb2f4a608b> .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Instance/45>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and his wife, Iva, he was preceded in death by ]his wife, Olive[; his daughter, Carol Osburn; 2 brothers; 3]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:exact      "his wife, Olive" ;
+        c:length     "15" ;
+        c:offset     "1150" ;
+        c:prefix     "and his wife, Iva, he was preceded in death by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/f8d16c5c-8700-3111-b3c6-f5975fedeeda> ;
+        c:suffix     "; his daughter, Carol Osburn; 2 brothers; 3" .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Instance/24>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and his wife, Iva, he was preceded in death by ]his wife, Olive[; his daughter, Carol Osburn; 2 brothers; 3]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:exact      "his wife, Olive" ;
+        c:length     "15" ;
+        c:offset     "1150" ;
+        c:prefix     "and his wife, Iva, he was preceded in death by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/1b331568-42db-3e96-b3dc-3c3352355d76> ;
+        c:suffix     "; his daughter, Carol Osburn; 2 brothers; 3" .
+
+<http://d.opencalais.com/genericHasher-1/66de7102-ee8d-3043-9012-b746d9bae66f>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:forenduserdisplay  "true" ;
+        c:organization       <http://d.opencalais.com/genericHasher-1/43979eca-23ba-38f2-85de-8eb0656078cd> ;
+        c:person             <http://d.opencalais.com/pershash-1/9887f3c1-1a9b-3e12-96c2-6577eb213e4d> ;
+        c:position           "auctioneer" ;
+        c:status             "past" .
+
+<http://d.opencalais.com/genericHasher-1/f18daebc-7251-3d26-8f7b-49225c3a036b>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:date                "1988-09-01" ;
+        c:datestring          "September 1, 1988" ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/698d61fd-3811-3b35-9a29-93790fd6f19b> , <http://d.opencalais.com/pershash-1/9887f3c1-1a9b-3e12-96c2-6577eb213e4d> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/ec80b062-8d1e-123a-1d6e-8bd0b7355690>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:latitude            "38.45" ;
+        c:longitude           "-96.5333" ;
+        c:name                "Kansas,United States" ;
+        c:permid              "100151" ;
+        c:rcscode             "G:6D" ;
+        c:shortname           "Kansas" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> .
+
+<http://d.opencalais.com/genericHasher-1/bc11db03-8852-36d9-be7b-13b3064612d2>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:forenduserdisplay  "true" ;
+        c:organization       <http://d.opencalais.com/genericHasher-1/43979eca-23ba-38f2-85de-8eb0656078cd> ;
+        c:person             <http://d.opencalais.com/pershash-1/9887f3c1-1a9b-3e12-96c2-6577eb213e4d> ;
+        c:position           "mechanic" ;
+        c:status             "past" .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Relevance/20>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/698d61fd-3811-3b35-9a29-93790fd6f19b> .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Instance/53>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[services for Andrew Chester \"Andy? ]Coyle[ will be 10:00 a.m. Saturday, April 23, 2011, at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:exact      "Coyle" ;
+        c:length     "5" ;
+        c:offset     "43" ;
+        c:prefix     "services for Andrew Chester \"Andy? " ;
+        c:subject    <http://d.opencalais.com/pershash-1/2117b9ab-cd03-370d-b14e-3e54f0f92954> ;
+        c:suffix     " will be 10:00 a.m. Saturday, April 23, 2011, at" .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Instance/32>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ \nAndy is survived by five children, ]Dolores Diggs[ of Cleo Springs, Barbara Koch of Enid, Jerry]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:exact      "Dolores Diggs" ;
+        c:length     "13" ;
+        c:offset     "1276" ;
+        c:prefix     " \nAndy is survived by five children, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/97715003-1e54-3ff4-b4d7-8dcf075b2963> ;
+        c:suffix     " of Cleo Springs, Barbara Koch of Enid, Jerry" .
+
+<http://d.opencalais.com/conf/pershash-1/698d61fd-3811-3b35-9a29-93790fd6f19b>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.988" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.992" ;
+        c:subject             <http://d.opencalais.com/pershash-1/698d61fd-3811-3b35-9a29-93790fd6f19b> .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Instance/11>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ They then moved to Bouse Junction where ]he[ operated a service station.  He also worked as]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:exact      "he" ;
+        c:length     "2" ;
+        c:offset     "752" ;
+        c:prefix     " They then moved to Bouse Junction where " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9887f3c1-1a9b-3e12-96c2-6577eb213e4d> ;
+        c:suffix     " operated a service station.  He also worked as" .
+
+<http://d.opencalais.com/genericHasher-1/01bbbc6e-0b45-3484-8256-480d93fb9d70>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonAttributes> ;
+        c:birthdate          "1915-10-19" ;
+        c:birthplace         <http://d.opencalais.com/genericHasher-1/903964ab-0b6c-3a2e-a1cb-b3cdc9635248> ;
+        c:forenduserdisplay  "false" ;
+        c:gender             "F" ;
+        c:person             <http://d.opencalais.com/pershash-1/2117b9ab-cd03-370d-b14e-3e54f0f92954> .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/e9e27c26-4013-8712-a5f0-97dcdc412c26>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:latitude            "35.5607802899" ;
+        c:longitude           "-96.8460570462" ;
+        c:name                "Oklahoma,United States" ;
+        c:permid              "100229" ;
+        c:rcscode             "G:9H" ;
+        c:shortname           "Oklahoma" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Instance/7>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[then Kiowa, Kansas.  \nBesides his parents and ]his wife, Iva[, he was preceded in death by his wife, Olive;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:exact      "his wife, Iva" ;
+        c:length     "13" ;
+        c:offset     "1107" ;
+        c:prefix     "then Kiowa, Kansas.  \nBesides his parents and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/27e4f50e-1772-3d01-8630-5c4f5295724e> ;
+        c:suffix     ", he was preceded in death by his wife, Olive;" .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Relevance/28>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e5e7fe0e-baee-3bc1-8601-21fbff036100> .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Instance/61>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in the Clinton Cemetery under the direction of ]Marshall Funeral Home of Alva[.  \nAndrew Chester \"Andy? Coyle, son of the late]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:exact      "Marshall Funeral Home of Alva" ;
+        c:length     "29" ;
+        c:offset     "267" ;
+        c:prefix     "in the Clinton Cemetery under the direction of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6bf2c0d-0ac3-3aaa-a334-e02dfcbc3358> ;
+        c:suffix     ".  \nAndrew Chester \"Andy? Coyle, son of the late" .
+
+<http://d.opencalais.com/genericHasher-1/e5e7fe0e-baee-3bc1-8601-21fbff036100>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Clinton Cemetery" .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Instance/40>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[be 10:00 a.m. Saturday, April 23, 2011, at the ]Kiowa[ Southern Baptist Church with Rev. Ken Bowden]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:exact      "Kiowa" ;
+        c:length     "5" ;
+        c:offset     "101" ;
+        c:prefix     "be 10:00 a.m. Saturday, April 23, 2011, at the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/41aa2c9e-1c06-3424-8975-776edcc48f27> ;
+        c:suffix     " Southern Baptist Church with Rev. Ken Bowden" .
+
+<http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7/Instance/19>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and his wife, Iva, he was preceded in death by ]his[ wife, Olive; his daughter, Carol Osburn; 2]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2212aead-4485-3ff3-af12-5b7c8503eff7> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "1150" ;
+        c:prefix     "and his wife, Iva, he was preceded in death by " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9887f3c1-1a9b-3e12-96c2-6577eb213e4d> ;
+        c:suffix     " wife, Olive; his daughter, Carol Osburn; 2" .

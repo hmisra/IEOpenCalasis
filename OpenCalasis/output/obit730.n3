@@ -1,0 +1,2740 @@
+#Relations: CompanyLocation, FamilyRelation, PersonAttributes, PersonCareer, PersonCommunication, PersonEducation, PersonLocation, PersonRelation
+#City: Enid, Gorman, Guymon, Lakin, Los Angeles, Plainview, San Ramon, Terrell, Yukon
+#Company: Waynoka LLC
+#Facility: Kansas Cemetery, Marshall Funeral Home of Waynoka
+#IndustryTerm: Funeral services, daughter-in-law
+#Organization: Baptist Church, Church Clerk and Sunday School, Civic Study Club, Gorman High School, Lippert Business School, Neighborhood Coffee Club
+#Person: Beth, Bill, Clarence Lewis, David Shaw, Edith Bray, Gene Lewis, James Bevly, Janet Florence, Javier, Jerry Florence, Joy, Julie Bray, Kathy Alonzo, Kent Wilson, Olivia, Ricky, Robert, Stacey Solis, Texanna (McAdoo) Lewis, Viola Maudell Wilson, William Jason
+#Position: Teacher
+#ProvinceOrState: California, Kansas, Oklahoma, Texas
+@prefix c:     <http://s.opencalais.com/1/pred/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://d.opencalais.com/conf/pershash-1/f27cdb65-7c26-3a21-badf-c6e67bab569c>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/f27cdb65-7c26-3a21-badf-c6e67bab569c> .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/62>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[his wife, Beth, of Waynoka; two grandchildren, ]Kent Wilson and his wife, Joy, of Terrell, Texas[, and Julie Bray and her husband, Ricky, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Kent Wilson and his wife, Joy, of Terrell, Texas" ;
+        c:length     "48" ;
+        c:offset     "1968" ;
+        c:prefix     "his wife, Beth, of Waynoka; two grandchildren, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e1dc29b0-a45d-388a-a2fa-613a7f7435f0> ;
+        c:suffix     ", and Julie Bray and her husband, Ricky, of" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/41>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Plainview, Texas; four step-grandchildren, ]Jerry Florence and his wife, Olivia[, of Bay Point, California, Kathy Alonzo and her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Jerry Florence and his wife, Olivia" ;
+        c:length     "35" ;
+        c:offset     "2148" ;
+        c:prefix     "of Plainview, Texas; four step-grandchildren, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/1fc07d30-1cb2-35b8-b7e0-aaeb1c12b9ba> ;
+        c:suffix     ", of Bay Point, California, Kathy Alonzo and her" .
+
+<http://d.opencalais.com/genericHasher-1/3753912e-ec12-31b2-9d1f-dceebd40dc3f>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Terrell" ;
+        c:person             <http://d.opencalais.com/pershash-1/74773538-28a5-3542-aa1e-402d56d12c2d> .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/20>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Viola moved to Waynoka, Oklahoma, to be near ]her son, Bill and daughter-in-law, Beth[. \t Viola was baptized into the Baptist Church in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "her son, Bill and daughter-in-law, Beth" ;
+        c:length     "39" ;
+        c:offset     "1011" ;
+        c:prefix     "Viola moved to Waynoka, Oklahoma, to be near " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0c634150-5f18-3ea6-aa74-59407476d0e7> ;
+        c:suffix     ". \t Viola was baptized into the Baptist Church in" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/130>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ for 35 years until she retired.  After living in ]Lakin[ for 50 years, Viola moved to Waynoka, Oklahoma,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Lakin" ;
+        c:length     "5" ;
+        c:offset     "946" ;
+        c:prefix     " for 35 years until she retired.  After living in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0aca7f8a-1ed5-3df0-b79c-3123665ab7dc> ;
+        c:suffix     " for 50 years, Viola moved to Waynoka, Oklahoma," .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Relevance/35>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/35a979c1-2108-3761-99bd-8c6f499ef6f2> .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/109>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Wilson and they were married on June 6, 1934 in ]Plainview[, Texas.  After a few years, they moved to Garden]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Plainview" ;
+        c:length     "9" ;
+        c:offset     "760" ;
+        c:prefix     "Wilson and they were married on June 6, 1934 in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/2209a9f3-ec09-3efa-8934-7d8e12d1d2ba> ;
+        c:suffix     ", Texas.  After a few years, they moved to Garden" .
+
+<http://d.opencalais.com/pershash-1/6e08b251-afcb-37e0-a23e-a9bb10cb0b73>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Julie Bray" ;
+        c:confidencelevel    "0.992" ;
+        c:firstname          "Julie" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Bray" ;
+        c:name               "Julie Bray" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Relevance/14>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/6bb23263-7fc7-3569-952b-77b6a981f25d> .
+
+<http://d.opencalais.com/genericHasher-1/1703b13f-1a93-3bba-9e78-39fcf957fb61>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Gorman High School" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/8b849ed8-bce7-3ef9-8a40-3fca6752f753>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.994" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.957" ;
+        c:subject             <http://d.opencalais.com/pershash-1/8b849ed8-bce7-3ef9-8a40-3fca6752f753> .
+
+<http://d.opencalais.com/conf/pershash-1/ea88b8c3-2092-35ea-af6c-a820304b92be>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.977" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.932" ;
+        c:subject             <http://d.opencalais.com/pershash-1/ea88b8c3-2092-35ea-af6c-a820304b92be> .
+
+<http://d.opencalais.com/pershash-1/b060680c-27bf-3506-9dcb-1e7bf089d825>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Clarence Lewis" ;
+        c:confidencelevel    "0.98" ;
+        c:firstname          "Clarence" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Lewis" ;
+        c:name               "Clarence Lewis" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/SocialTag/5>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "2" ;
+        c:name               "Viola" ;
+        c:originalValue      "Viola (given name)" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/8ec4d73b-153f-321d-8931-46860db02418> .
+
+<http://d.opencalais.com/genericHasher-1/765023fc-d783-3bed-ab64-f40de5a8ee76>
+        a                       <http://s.opencalais.com/1/type/em/r/PersonEducation> ;
+        c:forenduserdisplay     "false" ;
+        c:person                <http://d.opencalais.com/pershash-1/00774565-bf68-31a9-9d18-1109b5d202f6> ;
+        c:schoolororganization  "Lippert Business School" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/91>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Golder Agers, and the Neighborhood Coffee Club.  ]Viola[ had a natural talent for needle work, such as]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Viola" ;
+        c:length     "5" ;
+        c:offset     "1413" ;
+        c:prefix     " Golder Agers, and the Neighborhood Coffee Club.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/00774565-bf68-31a9-9d18-1109b5d202f6> ;
+        c:suffix     " had a natural talent for needle work, such as" .
+
+<http://d.opencalais.com/conf/pershash-1/41267cde-50d8-3da2-81a9-c29a6a9acc4c>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.999" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.996" ;
+        c:subject             <http://d.opencalais.com/pershash-1/41267cde-50d8-3da2-81a9-c29a6a9acc4c> .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/70>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[moved to Waynoka, Oklahoma, to be near her son, ]Bill[ and daughter-in-law, Beth. \t Viola was baptized]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Bill" ;
+        c:length     "4" ;
+        c:offset     "1020" ;
+        c:prefix     "moved to Waynoka, Oklahoma, to be near her son, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/8b849ed8-bce7-3ef9-8a40-3fca6752f753> ;
+        c:suffix     " and daughter-in-law, Beth. \t Viola was baptized" .
+
+<http://d.opencalais.com/pershash-1/00774565-bf68-31a9-9d18-1109b5d202f6>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Viola Maudell Wilson" ;
+        c:confidencelevel    "0.992" ;
+        c:firstname          "Viola" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Maudell Wilson" ;
+        c:name               "Viola Maudell Wilson" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<https://permid.org/1-5035751620>
+        a             <http://s.opencalais.com/1/type/er/Company> ;
+        c:commonname  "Waynoka" ;
+        c:docId       <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:legacyid    <http://d.opencalais.com/er/company/ralg-tr1r/da554c4e-4d2b-3037-98bc-d26b5df2c525> ;
+        c:name        "Waynoka Utilities Authority" ;
+        c:permid      "5035751620" ;
+        c:score       "0.05522651" ;
+        c:subject     <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/49>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Funeral services for ]Viola Maudell Wilson, 101[, will be 10:00 a.m. Thursday  September 7, 2006,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Viola Maudell Wilson, 101" ;
+        c:length     "25" ;
+        c:offset     "21" ;
+        c:prefix     "Funeral services for " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/51d48053-407e-3ef3-9811-074e9b802bd2> ;
+        c:suffix     ", will be 10:00 a.m. Thursday  September 7, 2006," .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/28>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[may be made through the funeral home to the ]Waynoka[ Nursing Home. \n\t\t\t]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Waynoka" ;
+        c:length     "7" ;
+        c:offset     "2537" ;
+        c:prefix     "may be made through the funeral home to the " ;
+        c:subject    <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:suffix     " Nursing Home. \n\t\t\t" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Relevance/43>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/b58d3465-f8c4-3da6-aa89-1de2b4d407f1> .
+
+<http://d.opencalais.com/conf/pershash-1/37519c3d-b6d5-35d5-bd2c-d69f46ddc361>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.983" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.99" ;
+        c:subject             <http://d.opencalais.com/pershash-1/37519c3d-b6d5-35d5-bd2c-d69f46ddc361> .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/117>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Point, California, Kathy Alonzo and her husband, ]Javier[, of Los Angeles, California, Janet Florence of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Javier" ;
+        c:length     "6" ;
+        c:offset     "2241" ;
+        c:prefix     " Point, California, Kathy Alonzo and her husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b58d3465-f8c4-3da6-aa89-1de2b4d407f1> ;
+        c:suffix     ", of Los Angeles, California, Janet Florence of" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Relevance/22>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ba3ae489-26d6-381a-b7d1-d6fa5e8e86c0> .
+
+<http://d.opencalais.com/conf/pershash-1/ad638dc5-9d8e-378d-a783-c1bc40594e79>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.992" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.994" ;
+        c:subject             <http://d.opencalais.com/pershash-1/ad638dc5-9d8e-378d-a783-c1bc40594e79> .
+
+<http://d.opencalais.com/genericHasher-1/51d48053-407e-3ef3-9811-074e9b802bd2>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonAttributes> ;
+        c:age                "101" ;
+        c:forenduserdisplay  "false" ;
+        c:gender             "F" ;
+        c:person             <http://d.opencalais.com/pershash-1/00774565-bf68-31a9-9d18-1109b5d202f6> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/67c986ab-10cd-6d28-5d9d-6db27b97fc35>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Kansas" ;
+        c:docId               <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:latitude            "37.9406" ;
+        c:longitude           "-101.2544" ;
+        c:name                "Lakin,Kansas,United States" ;
+        c:shortname           "Lakin" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/0aca7f8a-1ed5-3df0-b79c-3123665ab7dc> .
+
+<http://d.opencalais.com/conf/pershash-1/88335d28-38f8-3fd1-acdc-a5d76bd1a1dc>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.854" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.811" ;
+        c:subject             <http://d.opencalais.com/pershash-1/88335d28-38f8-3fd1-acdc-a5d76bd1a1dc> .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/2>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Waynoka; two grandchildren, Kent Wilson and ]his wife, Joy, of Terrell, Texas[, and Julie Bray and her husband, Ricky, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "his wife, Joy, of Terrell, Texas" ;
+        c:length     "32" ;
+        c:offset     "1984" ;
+        c:prefix     "of Waynoka; two grandchildren, Kent Wilson and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9152220c-422f-3208-8138-ed221eef99f1> ;
+        c:suffix     ", and Julie Bray and her husband, Ricky, of" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/9abed97f-1f19-0004-aee6-0a06b0289f38>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:latitude            "36.3956" ;
+        c:longitude           "-97.8781" ;
+        c:name                "Enid,Oklahoma,United States" ;
+        c:shortname           "Enid" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/35a979c1-2108-3761-99bd-8c6f499ef6f2> .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/99>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[her parents, she was preceded in death by ]her[ husband, J. B.; three brothers, Vernon, Dale,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1782" ;
+        c:prefix     "her parents, she was preceded in death by " ;
+        c:subject    <http://d.opencalais.com/pershash-1/00774565-bf68-31a9-9d18-1109b5d202f6> ;
+        c:suffix     " husband, J. B.; three brothers, Vernon, Dale," .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/78>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[the age of 101 years, 2 months, and 28 days. \t ]Viola[ graduated from Gorman High School and Lippert]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Viola" ;
+        c:length     "5" ;
+        c:offset     "513" ;
+        c:prefix     "the age of 101 years, 2 months, and 28 days. \t " ;
+        c:subject    <http://d.opencalais.com/pershash-1/00774565-bf68-31a9-9d18-1109b5d202f6> ;
+        c:suffix     " graduated from Gorman High School and Lippert" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Relevance/7>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ab30ecac-b721-3601-9a65-ecca22c3b48f> .
+
+<http://d.opencalais.com/genericHasher-1/86eb5869-0c5b-3f62-a527-948d736d762f>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Yukon" ;
+        c:person             <http://d.opencalais.com/pershash-1/27c11fdf-d0d5-3930-8d64-78933a6ec2d9> .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/57>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ September 7, 2006, at the Waynoka First ]Baptist Church[ with Pastor David Shaw officiating.  Interment]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Baptist Church" ;
+        c:length     "14" ;
+        c:offset     "117" ;
+        c:prefix     " September 7, 2006, at the Waynoka First " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a21a69b3-e9dd-341e-9fee-da93c550c744> ;
+        c:suffix     " with Pastor David Shaw officiating.  Interment" .
+
+<http://d.opencalais.com/pershash-1/27c11fdf-d0d5-3930-8d64-78933a6ec2d9>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Ricky" ;
+        c:confidencelevel    "0.977" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Ricky" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/36>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Bay Point, California, Kathy Alonzo and ]her[ husband, Javier, of Los Angeles, California,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "2228" ;
+        c:prefix     "of Bay Point, California, Kathy Alonzo and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6bb23263-7fc7-3569-952b-77b6a981f25d> ;
+        c:suffix     " husband, Javier, of Los Angeles, California," .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/125>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ active member of the First Baptist Church, where ]she was Church Clerk and Sunday School Teacher[ for a number of years.  She was a member of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "she was Church Clerk and Sunday School Teacher" ;
+        c:length     "46" ;
+        c:offset     "1224" ;
+        c:prefix     " active member of the First Baptist Church, where " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e654ac99-0b50-3e68-8286-2b9061032045> ;
+        c:suffix     " for a number of years.  She was a member of" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/15>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Bray. \t Viola is survived by one son, Bill, and ]his wife, Beth, of Waynoka[; two grandchildren, Kent Wilson and his wife,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "his wife, Beth, of Waynoka" ;
+        c:length     "26" ;
+        c:offset     "1921" ;
+        c:prefix     "Bray. \t Viola is survived by one son, Bill, and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b36370e0-0ff6-30af-9fee-2e5c3a044676> ;
+        c:suffix     "; two grandchildren, Kent Wilson and his wife," .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Relevance/30>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/41267cde-50d8-3da2-81a9-c29a6a9acc4c> .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/104>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[into the Baptist Church in Bass Lake near ]Gorman[, Texas in 1917.  While living in Lakin, Viola]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Gorman" ;
+        c:length     "6" ;
+        c:offset     "1115" ;
+        c:prefix     "into the Baptist Church in Bass Lake near " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9e4504b4-6a72-30ed-b170-f460f380df10> ;
+        c:suffix     ", Texas in 1917.  While living in Lakin, Viola" .
+
+<http://d.opencalais.com/conf/pershash-1/de81537f-6cd3-379b-8989-3d57ebe463c4>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.992" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.994" ;
+        c:subject             <http://d.opencalais.com/pershash-1/de81537f-6cd3-379b-8989-3d57ebe463c4> .
+
+<http://d.opencalais.com/genericHasher-1/a9f9fb17-d789-3fd1-a8aa-436f3a177113>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Kansas Cemetery" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/86>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Viola moved to Waynoka, Oklahoma, to be near ]her[ son, Bill and daughter-in-law, Beth. \t Viola was]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1011" ;
+        c:prefix     "Viola moved to Waynoka, Oklahoma, to be near " ;
+        c:subject    <http://d.opencalais.com/pershash-1/00774565-bf68-31a9-9d18-1109b5d202f6> ;
+        c:suffix     " son, Bill and daughter-in-law, Beth. \t Viola was" .
+
+<http://d.opencalais.com/genericHasher-1/d5c87eb9-56be-3c43-a2f2-d0738991502e>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonAttributes> ;
+        c:birthdate          "1905-06-05" ;
+        c:forenduserdisplay  "false" ;
+        c:gender             "M" ;
+        c:person             <http://d.opencalais.com/pershash-1/caaadb80-96c9-3a08-9afa-a721680a592d> .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/65>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Wilson and his wife, Joy, of Terrell, Texas, and ]Julie Bray and her husband, Ricky, of Yukon, Oklahoma[; one brother, Gene Lewis, of Plainview, Texas;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Julie Bray and her husband, Ricky, of Yukon, Oklahoma" ;
+        c:length     "53" ;
+        c:offset     "2022" ;
+        c:prefix     " Wilson and his wife, Joy, of Terrell, Texas, and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0c8a704b-ddc2-3526-ac43-525584702263> ;
+        c:suffix     "; one brother, Gene Lewis, of Plainview, Texas;" .
+
+<http://d.opencalais.com/conf/pershash-1/fdc39ded-30e5-3ffb-9166-f4c1fb8c0e58>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.998" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.996" ;
+        c:subject             <http://d.opencalais.com/pershash-1/fdc39ded-30e5-3ffb-9166-f4c1fb8c0e58> .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/44>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[officiating.  Interment will be in the Lakin, ]Kansas Cemetery[ under the direction of Marshall Funeral Home of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Kansas Cemetery" ;
+        c:length     "15" ;
+        c:offset     "201" ;
+        c:prefix     "officiating.  Interment will be in the Lakin, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a9f9fb17-d789-3fd1-a8aa-436f3a177113> ;
+        c:suffix     " under the direction of Marshall Funeral Home of" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/23>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ for R. J. Keller Real Estate.  It was there that ]she met James Bevly[ \"J. B.? Wilson and they were married on June 6,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "she met James Bevly" ;
+        c:length     "19" ;
+        c:offset     "684" ;
+        c:prefix     " for R. J. Keller Real Estate.  It was there that " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b12bc3de-30bb-3d66-ab71-a99552e37868> ;
+        c:suffix     " \"J. B.? Wilson and they were married on June 6," .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Relevance/38>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/2209a9f3-ec09-3efa-8934-7d8e12d1d2ba> .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/112>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[the age of 101 years, 2 months, and 28 days. \t ]Viola graduated from Gorman High School and Lippert Business School[.  She then moved to Guymon, Oklahoma where she]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Viola graduated from Gorman High School and Lippert Business School" ;
+        c:length     "67" ;
+        c:offset     "513" ;
+        c:prefix     "the age of 101 years, 2 months, and 28 days. \t " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/765023fc-d783-3bed-ab64-f40de5a8ee76> ;
+        c:suffix     ".  She then moved to Guymon, Oklahoma where she" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Relevance/17>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/ea88b8c3-2092-35ea-af6c-a820304b92be> .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/lid/DefaultLangId>
+        a                    <http://s.opencalais.com/1/type/lid/DefaultLangId> ;
+        c:docId              <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:forenduserdisplay  "false" ;
+        c:lang               <http://d.opencalais.com/lid/DefaultLangId/English> ;
+        c:permid             "505062" .
+
+<http://d.opencalais.com/genericHasher-1/d0a067f4-c3c2-30c4-9437-7361127f8904>
+        a                    <http://s.opencalais.com/1/type/em/e/Position> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Teacher" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/94>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ enjoyed cooking, traveling, and playing games. \t ]Viola[ has always been an inspiration to all who have]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Viola" ;
+        c:length     "5" ;
+        c:offset     "1608" ;
+        c:prefix     " enjoyed cooking, traveling, and playing games. \t " ;
+        c:subject    <http://d.opencalais.com/pershash-1/00774565-bf68-31a9-9d18-1109b5d202f6> ;
+        c:suffix     " has always been an inspiration to all who have" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/73>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Wilson, daughter of the late William Jason and ]Texanna (McAdoo) Lewis[, was born June 5, 1905, near Gorman, Texas, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Texanna (McAdoo) Lewis" ;
+        c:length     "22" ;
+        c:offset     "342" ;
+        c:prefix     "Wilson, daughter of the late William Jason and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/caaadb80-96c9-3a08-9afa-a721680a592d> ;
+        c:suffix     ", was born June 5, 1905, near Gorman, Texas, and" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Relevance/2>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/37519c3d-b6d5-35d5-bd2c-d69f46ddc361> .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/52>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Viola moved to Waynoka, Oklahoma, to be near ]her son, Bill and daughter-in-law, Beth[. \t Viola was baptized into the Baptist Church in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "her son, Bill and daughter-in-law, Beth" ;
+        c:length     "39" ;
+        c:offset     "1011" ;
+        c:prefix     "Viola moved to Waynoka, Oklahoma, to be near " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/815f337e-3356-3fc4-820f-18341187e99f> ;
+        c:suffix     ". \t Viola was baptized into the Baptist Church in" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/31>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of San Ramon, California, and Stacey Solis and ]her[ husband, Robert, of Los Angeles, California; 3]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "2339" ;
+        c:prefix     "of San Ramon, California, and Stacey Solis and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/ad638dc5-9d8e-378d-a783-c1bc40594e79> ;
+        c:suffix     " husband, Robert, of Los Angeles, California; 3" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Relevance/46>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/fdc39ded-30e5-3ffb-9166-f4c1fb8c0e58> .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/10>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[officiating.  Interment will be in the Lakin, ]Kansas[ Cemetery under the direction of Marshall Funeral]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Kansas" ;
+        c:length     "6" ;
+        c:offset     "201" ;
+        c:prefix     "officiating.  Interment will be in the Lakin, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> ;
+        c:suffix     " Cemetery under the direction of Marshall Funeral" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/120>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[California, Janet Florence of San Ramon, ]California[, and Stacey Solis and her husband, Robert, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "California" ;
+        c:length     "10" ;
+        c:offset     "2306" ;
+        c:prefix     "California, Janet Florence of San Ramon, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9679b237-33e8-3478-ba13-d9af3c4b943e> ;
+        c:suffix     ", and Stacey Solis and her husband, Robert, of" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Relevance/25>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/75bfb839-67ef-3e24-82d1-1a30bde586ec> .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/5>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[the Baptist Church in Bass Lake near Gorman, ]Texas[ in 1917.  While living in Lakin, Viola was an]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Texas" ;
+        c:length     "5" ;
+        c:offset     "1123" ;
+        c:prefix     "the Baptist Church in Bass Lake near Gorman, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> ;
+        c:suffix     " in 1917.  While living in Lakin, Viola was an" .
+
+<http://d.opencalais.com/pershash-1/324873b0-9974-3256-8980-ebfd8b601c12>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "William Jason" ;
+        c:confidencelevel    "0.971" ;
+        c:firstname          "William" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Jason" ;
+        c:name               "William Jason" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/b58d3465-f8c4-3da6-aa89-1de2b4d407f1>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.965" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.932" ;
+        c:subject             <http://d.opencalais.com/pershash-1/b58d3465-f8c4-3da6-aa89-1de2b4d407f1> .
+
+<http://d.opencalais.com/genericHasher-1/9306a626-3ebe-33b8-8615-208cf9358756>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "husband" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/6bb23263-7fc7-3569-952b-77b6a981f25d> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/b58d3465-f8c4-3da6-aa89-1de2b4d407f1> .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/81>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ for R. J. Keller Real Estate.  It was there that ]she[ met James Bevly \"J. B.? Wilson and they were]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "684" ;
+        c:prefix     " for R. J. Keller Real Estate.  It was there that " ;
+        c:subject    <http://d.opencalais.com/pershash-1/00774565-bf68-31a9-9d18-1109b5d202f6> ;
+        c:suffix     " met James Bevly \"J. B.? Wilson and they were" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/60>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of the First Baptist Church, where she was ]Church Clerk and Sunday School[ Teacher for a number of years.  She was a member]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Church Clerk and Sunday School" ;
+        c:length     "30" ;
+        c:offset     "1232" ;
+        c:prefix     "of the First Baptist Church, where she was " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/75bfb839-67ef-3e24-82d1-1a30bde586ec> ;
+        c:suffix     " Teacher for a number of years.  She was a member" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/39>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Terrell, Texas, and Julie Bray and her husband, ]Ricky[, of Yukon, Oklahoma; one brother, Gene Lewis, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Ricky" ;
+        c:length     "5" ;
+        c:offset     "2050" ;
+        c:prefix     "Terrell, Texas, and Julie Bray and her husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/27c11fdf-d0d5-3930-8d64-78933a6ec2d9> ;
+        c:suffix     ", of Yukon, Oklahoma; one brother, Gene Lewis, of" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/128>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[a few years, they moved to Garden City, then to ]Lakin[, Kansas, where she owned and operated the Lakin]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Lakin" ;
+        c:length     "5" ;
+        c:offset     "833" ;
+        c:prefix     "a few years, they moved to Garden City, then to " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0aca7f8a-1ed5-3df0-b79c-3123665ab7dc> ;
+        c:suffix     ", Kansas, where she owned and operated the Lakin" .
+
+<http://d.opencalais.com/conf/pershash-1/6e08b251-afcb-37e0-a23e-a9bb10cb0b73>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.992" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.994" ;
+        c:subject             <http://d.opencalais.com/pershash-1/6e08b251-afcb-37e0-a23e-a9bb10cb0b73> .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/18>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[]Funeral services[ for Viola Maudell Wilson, 101, will be 10:00]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Funeral services" ;
+        c:length     "16" ;
+        c:offset     "0" ;
+        c:prefix     "" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee> ;
+        c:suffix     " for Viola Maudell Wilson, 101, will be 10:00" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Relevance/33>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/874eaab9-7b66-36e3-9650-8de7a5001cf9> .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/107>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in Lakin for 50 years, Viola moved to Waynoka, ]Oklahoma[, to be near her son, Bill and daughter-in-law,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "990" ;
+        c:prefix     "in Lakin for 50 years, Viola moved to Waynoka, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", to be near her son, Bill and daughter-in-law," .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Relevance/12>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/ad638dc5-9d8e-378d-a783-c1bc40594e79> .
+
+<http://d.opencalais.com/conf/pershash-1/b060680c-27bf-3506-9dcb-1e7bf089d825>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.98" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/b060680c-27bf-3506-9dcb-1e7bf089d825> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/bae0ef93-177f-4f9d-73c6-df9c3d76fca7>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "California" ;
+        c:docId               <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:latitude            "37.78" ;
+        c:longitude           "-121.9769" ;
+        c:name                "San Ramon,California,United States" ;
+        c:shortname           "San Ramon" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/e546038b-f7eb-3a46-a0b7-15b1be1a5302> .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/SocialTag/3>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Plainview" ;
+        c:originalValue      "Plainview" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/3c6154d9-715f-322f-8c60-8eb77bb7a10d> .
+
+<http://d.opencalais.com/genericHasher-1/14b6cb9b-65ca-3064-a575-3f526ac0c7c7>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:date                "1934-06-06" ;
+        c:datestring          "June 6, 1934" ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/caaadb80-96c9-3a08-9afa-a721680a592d> , <http://d.opencalais.com/pershash-1/324873b0-9974-3256-8980-ebfd8b601c12> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/conf/pershash-1/00774565-bf68-31a9-9d18-1109b5d202f6>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.992" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.995" ;
+        c:subject             <http://d.opencalais.com/pershash-1/00774565-bf68-31a9-9d18-1109b5d202f6> .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/89>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ active member of the First Baptist Church, where ]she[ was Church Clerk and Sunday School Teacher for a]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "1224" ;
+        c:prefix     " active member of the First Baptist Church, where " ;
+        c:subject    <http://d.opencalais.com/pershash-1/00774565-bf68-31a9-9d18-1109b5d202f6> ;
+        c:suffix     " was Church Clerk and Sunday School Teacher for a" .
+
+<http://d.opencalais.com/genericHasher-1/e546038b-f7eb-3a46-a0b7-15b1be1a5302>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "San Ramon" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/68>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[at the Waynoka First Baptist Church with Pastor ]David Shaw[ officiating.  Interment will be in the Lakin,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "David Shaw" ;
+        c:length     "10" ;
+        c:offset     "144" ;
+        c:prefix     "at the Waynoka First Baptist Church with Pastor " ;
+        c:subject    <http://d.opencalais.com/pershash-1/41267cde-50d8-3da2-81a9-c29a6a9acc4c> ;
+        c:suffix     " officiating.  Interment will be in the Lakin," .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/47>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[four step-grandchildren, Jerry Florence and ]his[ wife, Olivia, of Bay Point, California, Kathy]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "2167" ;
+        c:prefix     "four step-grandchildren, Jerry Florence and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/de81537f-6cd3-379b-8989-3d57ebe463c4> ;
+        c:suffix     " wife, Olivia, of Bay Point, California, Kathy" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/26>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[living in Lakin for 50 years, Viola moved to ]Waynoka[, Oklahoma, to be near her son, Bill and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Waynoka" ;
+        c:length     "7" ;
+        c:offset     "981" ;
+        c:prefix     "living in Lakin for 50 years, Viola moved to " ;
+        c:subject    <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:suffix     ", Oklahoma, to be near her son, Bill and" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Relevance/41>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/9d2fac7d-cf2f-31fe-a8ef-d25584493eec> .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/115>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[the age of 101 years, 2 months, and 28 days. \t ]Viola graduated from Gorman High School and Lippert Business School[.  She then moved to Guymon, Oklahoma where she]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Viola graduated from Gorman High School and Lippert Business School" ;
+        c:length     "67" ;
+        c:offset     "513" ;
+        c:prefix     "the age of 101 years, 2 months, and 28 days. \t " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/6ff13bee-88fb-30de-9fbf-d0b232a2df50> ;
+        c:suffix     ".  She then moved to Guymon, Oklahoma where she" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Relevance/20>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/f6f14f07-f453-35e1-a721-82cae585f9c5> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/4f7b8865-1099-132f-ebd3-6f9037d885c5>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Texas" ;
+        c:docId               <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:latitude            "32.7358" ;
+        c:longitude           "-96.275" ;
+        c:name                "Terrell,Texas,United States" ;
+        c:shortname           "Terrell" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/42576ffa-93fc-3a5f-a4de-33dcc7a36d23> .
+
+<http://d.opencalais.com/conf/pershash-1/27c11fdf-d0d5-3930-8d64-78933a6ec2d9>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.977" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.932" ;
+        c:subject             <http://d.opencalais.com/pershash-1/27c11fdf-d0d5-3930-8d64-78933a6ec2d9> .
+
+<http://d.opencalais.com/genericHasher-1/1fc07d30-1cb2-35b8-b7e0-aaeb1c12b9ba>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/ea88b8c3-2092-35ea-af6c-a820304b92be> , <http://d.opencalais.com/pershash-1/de81537f-6cd3-379b-8989-3d57ebe463c4> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/97>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[displaying a great deal of wisdom. \t Besides ]her[ parents, she was preceded in death by her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1740" ;
+        c:prefix     "displaying a great deal of wisdom. \t Besides " ;
+        c:subject    <http://d.opencalais.com/pershash-1/00774565-bf68-31a9-9d18-1109b5d202f6> ;
+        c:suffix     " parents, she was preceded in death by her" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/76>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Funeral services for ]Viola Maudell Wilson[, 101, will be 10:00 a.m. Thursday  September 7,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Viola Maudell Wilson" ;
+        c:length     "20" ;
+        c:offset     "21" ;
+        c:prefix     "Funeral services for " ;
+        c:subject    <http://d.opencalais.com/pershash-1/00774565-bf68-31a9-9d18-1109b5d202f6> ;
+        c:suffix     ", 101, will be 10:00 a.m. Thursday  September 7," .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/fd9e1e90-96a9-04ff-1397-445c4e93208b>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:latitude            "36.4885198674" ;
+        c:longitude           "-119.701379437" ;
+        c:name                "California,United States" ;
+        c:permid              "100049" ;
+        c:rcscode             "G:4V" ;
+        c:shortname           "California" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/9679b237-33e8-3478-ba13-d9af3c4b943e> .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Relevance/5>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/1703b13f-1a93-3bba-9e78-39fcf957fb61> .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/55>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Terrell, Texas, and Julie Bray and her husband, ]Ricky, of Yukon, Oklahoma[; one brother, Gene Lewis, of Plainview, Texas;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Ricky, of Yukon, Oklahoma" ;
+        c:length     "25" ;
+        c:offset     "2050" ;
+        c:prefix     "Terrell, Texas, and Julie Bray and her husband, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/86eb5869-0c5b-3f62-a527-948d736d762f> ;
+        c:suffix     "; one brother, Gene Lewis, of Plainview, Texas;" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/34>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[is survived by one son, Bill, and his wife, ]Beth[, of Waynoka; two grandchildren, Kent Wilson and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Beth" ;
+        c:length     "4" ;
+        c:offset     "1931" ;
+        c:prefix     "is survived by one son, Bill, and his wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/88335d28-38f8-3fd1-acdc-a5d76bd1a1dc> ;
+        c:suffix     ", of Waynoka; two grandchildren, Kent Wilson and" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/13>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[2 months, and 28 days. \t Viola graduated from ]Gorman High School[ and Lippert Business School.  She then moved to]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Gorman High School" ;
+        c:length     "18" ;
+        c:offset     "534" ;
+        c:prefix     "2 months, and 28 days. \t Viola graduated from " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/1703b13f-1a93-3bba-9e78-39fcf957fb61> ;
+        c:suffix     " and Lippert Business School.  She then moved to" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/123>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of San Ramon, California, and Stacey Solis and ]her husband, Robert, of Los Angeles, California[; 3 great grandchildren; 7 step great]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "her husband, Robert, of Los Angeles, California" ;
+        c:length     "47" ;
+        c:offset     "2339" ;
+        c:prefix     "of San Ramon, California, and Stacey Solis and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9a69fef1-f430-34a0-8192-744803e6d4a9> ;
+        c:suffix     "; 3 great grandchildren; 7 step great" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Relevance/28>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/84bb0714-85ab-39de-a7e7-f1ad2e79292b> .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/102>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Bay Point, California, Kathy Alonzo and ]her husband, Javier, of Los Angeles, California[, Janet Florence of San Ramon, California, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "her husband, Javier, of Los Angeles, California" ;
+        c:length     "47" ;
+        c:offset     "2228" ;
+        c:prefix     "of Bay Point, California, Kathy Alonzo and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9306a626-3ebe-33b8-8615-208cf9358756> ;
+        c:suffix     ", Janet Florence of San Ramon, California, and" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/8>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ her husband, Javier, of Los Angeles, California, ]Janet Florence[ of San Ramon, California, and Stacey Solis and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Janet Florence" ;
+        c:length     "14" ;
+        c:offset     "2277" ;
+        c:prefix     " her husband, Javier, of Los Angeles, California, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/37519c3d-b6d5-35d5-bd2c-d69f46ddc361> ;
+        c:suffix     " of San Ramon, California, and Stacey Solis and" .
+
+<http://d.opencalais.com/genericHasher-1/6ef93122-944c-35b1-b67d-0ad018590414>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Los Angeles" ;
+        c:person             <http://d.opencalais.com/pershash-1/9d2fac7d-cf2f-31fe-a8ef-d25584493eec> .
+
+<http://d.opencalais.com/genericHasher-1/6ff13bee-88fb-30de-9fbf-d0b232a2df50>
+        a                       <http://s.opencalais.com/1/type/em/r/PersonEducation> ;
+        c:forenduserdisplay     "false" ;
+        c:person                <http://d.opencalais.com/pershash-1/00774565-bf68-31a9-9d18-1109b5d202f6> ;
+        c:schoolororganization  "Gorman High School" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/84>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[operated the Lakin Gift Nook for 35 years until ]she[ retired.  After living in Lakin for 50 years,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "916" ;
+        c:prefix     "operated the Lakin Gift Nook for 35 years until " ;
+        c:subject    <http://d.opencalais.com/pershash-1/00774565-bf68-31a9-9d18-1109b5d202f6> ;
+        c:suffix     " retired.  After living in Lakin for 50 years," .
+
+<http://d.opencalais.com/genericHasher-1/974ab2fc-0c67-322b-b97f-934fd7abab7b>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Los Angeles" ;
+        c:person             <http://d.opencalais.com/pershash-1/b58d3465-f8c4-3da6-aa89-1de2b4d407f1> .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/63>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[J. B.; three brothers, Vernon, Dale, and ]Clarence Lewis[; and one sister Edith Bray. \t Viola is survived]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Clarence Lewis" ;
+        c:length     "14" ;
+        c:offset     "1836" ;
+        c:prefix     "J. B.; three brothers, Vernon, Dale, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b060680c-27bf-3506-9dcb-1e7bf089d825> ;
+        c:suffix     "; and one sister Edith Bray. \t Viola is survived" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/42>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Wilson and his wife, Joy, of Terrell, Texas, and ]Julie Bray[ and her husband, Ricky, of Yukon, Oklahoma; one]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Julie Bray" ;
+        c:length     "10" ;
+        c:offset     "2022" ;
+        c:prefix     " Wilson and his wife, Joy, of Terrell, Texas, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6e08b251-afcb-37e0-a23e-a9bb10cb0b73> ;
+        c:suffix     " and her husband, Ricky, of Yukon, Oklahoma; one" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/131>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[near Gorman, Texas in 1917.  While living in ]Lakin[, Viola was an active member of the First Baptist]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Lakin" ;
+        c:length     "5" ;
+        c:offset     "1155" ;
+        c:prefix     "near Gorman, Texas in 1917.  While living in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0aca7f8a-1ed5-3df0-b79c-3123665ab7dc> ;
+        c:suffix     ", Viola was an active member of the First Baptist" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/21>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[his wife, Beth, of Waynoka; two grandchildren, ]Kent Wilson[ and his wife, Joy, of Terrell, Texas, and Julie]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Kent Wilson" ;
+        c:length     "11" ;
+        c:offset     "1968" ;
+        c:prefix     "his wife, Beth, of Waynoka; two grandchildren, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/a3068196-0f99-3650-afc3-60a6c5de1e34> ;
+        c:suffix     " and his wife, Joy, of Terrell, Texas, and Julie" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088>
+        a                  <http://s.opencalais.com/1/type/sys/DocInfo> ;
+        c:calaisRequestID  "93e87f40-fda4-3962-14d9-144d27112501" ;
+        c:docDate          "2015-05-26 17:28:36.730" ;
+        c:docTitle         "" ;
+        c:document         "Funeral services for Viola Maudell Wilson, 101, will be 10:00 a.m. Thursday  September 7, 2006, at the Waynoka First Baptist Church with Pastor David Shaw officiating.  Interment will be in the Lakin, Kansas Cemetery under the direction of Marshall Funeral Home of Waynoka, LLC. \t Viola Maudell Wilson, daughter of the late William Jason and Texanna (McAdoo) Lewis, was born June 5, 1905, near Gorman, Texas, and passed away September 2, 2006, at Enid, Oklahoma, at the age of 101 years, 2 months, and 28 days. \t Viola graduated from Gorman High School and Lippert Business School.  She then moved to Guymon, Oklahoma where she worked for R. J. Keller Real Estate.  It was there that she met James Bevly \"J. B.? Wilson and they were married on June 6, 1934 in Plainview, Texas.  After a few years, they moved to Garden City, then to Lakin, Kansas, where she owned and operated the Lakin Gift Nook for 35 years until she retired.  After living in Lakin for 50 years, Viola moved to Waynoka, Oklahoma, to be near her son, Bill and daughter-in-law, Beth. \t Viola was baptized into the Baptist Church in Bass Lake near Gorman, Texas in 1917.  While living in Lakin, Viola was an active member of the First Baptist Church, where she was Church Clerk and Sunday School Teacher for a number of years.  She was a member of several civic clubs, including Civic Study Club, Golder Agers, and the Neighborhood Coffee Club.  Viola had a natural talent for needle work, such as knitting, crocheting, and quilting, which she did until arthritis set in at age 95.  She also enjoyed cooking, traveling, and playing games. \t Viola has always been an inspiration to all who have met her.  She was an amazing lady displaying a great deal of wisdom. \t Besides her parents, she was preceded in death by her husband, J. B.; three brothers, Vernon, Dale, and Clarence Lewis; and one sister Edith Bray. \t Viola is survived by one son, Bill, and his wife, Beth, of Waynoka; two grandchildren, Kent Wilson and his wife, Joy, of Terrell, Texas, and Julie Bray and her husband, Ricky, of Yukon, Oklahoma; one brother, Gene Lewis, of Plainview, Texas; four step-grandchildren, Jerry Florence and his wife, Olivia, of Bay Point, California, Kathy Alonzo and her husband, Javier, of Los Angeles, California, Janet Florence of San Ramon, California, and Stacey Solis and her husband, Robert, of Los Angeles, California; 3 great grandchildren; 7 step great grandchildren; other relatives and friends. \t Memorial contributions may be made through the funeral home to the Waynoka Nursing Home. \n\t\t\t" ;
+        c:id               "http://id.opencalais.com/vtkWpZLBwTNrKxFaHLT9fw" ;
+        c:ontology         "http://163.231.4.65/owlschema/8.3/onecalais.owl.allmetadata.xml" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Relevance/36>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9e4504b4-6a72-30ed-b170-f460f380df10> .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/110>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Yukon, Oklahoma; one brother, Gene Lewis, of ]Plainview[, Texas; four step-grandchildren, Jerry Florence]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Plainview" ;
+        c:length     "9" ;
+        c:offset     "2105" ;
+        c:prefix     "of Yukon, Oklahoma; one brother, Gene Lewis, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/2209a9f3-ec09-3efa-8934-7d8e12d1d2ba> ;
+        c:suffix     ", Texas; four step-grandchildren, Jerry Florence" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Relevance/15>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/151d352b-01c9-313f-9289-cd867a409822> .
+
+<http://d.opencalais.com/genericHasher-1/e7066147-31e8-3e47-b262-cbccccd7d7fc>
+        a                      <http://s.opencalais.com/1/type/em/r/CompanyLocation> ;
+        c:company              <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:companylocationtype  "N/A" ;
+        c:forenduserdisplay    "true" ;
+        c:provinceorstate      <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Kansas" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/62914270-0a1c-1bcc-880e-6dbe9fb82eb9>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:latitude            "31.4484328889" ;
+        c:longitude           "-97.7816569778" ;
+        c:name                "Texas,United States" ;
+        c:permid              "100299" ;
+        c:rcscode             "G:50" ;
+        c:shortname           "Texas" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/9c147196-160d-8555-537a-06b783fe54af>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "California" ;
+        c:docId               <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:latitude            "34.0522" ;
+        c:longitude           "-118.2428" ;
+        c:name                "Los Angeles,California,United States" ;
+        c:rcscode             "G:1S" ;
+        c:shortname           "Los Angeles" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/874eaab9-7b66-36e3-9650-8de7a5001cf9> .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/92>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[as knitting, crocheting, and quilting, which ]she[ did until arthritis set in at age 95.  She also]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "1507" ;
+        c:prefix     "as knitting, crocheting, and quilting, which " ;
+        c:subject    <http://d.opencalais.com/pershash-1/00774565-bf68-31a9-9d18-1109b5d202f6> ;
+        c:suffix     " did until arthritis set in at age 95.  She also" .
+
+<http://d.opencalais.com/genericHasher-1/e654ac99-0b50-3e68-8286-2b9061032045>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:forenduserdisplay  "true" ;
+        c:organization       <http://d.opencalais.com/genericHasher-1/75bfb839-67ef-3e24-82d1-1a30bde586ec> ;
+        c:person             <http://d.opencalais.com/pershash-1/00774565-bf68-31a9-9d18-1109b5d202f6> ;
+        c:position           "Teacher" ;
+        c:status             "past" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/71>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Edith Bray. \t Viola is survived by one son, ]Bill[, and his wife, Beth, of Waynoka; two]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Bill" ;
+        c:length     "4" ;
+        c:offset     "1911" ;
+        c:prefix     "Edith Bray. \t Viola is survived by one son, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/8b849ed8-bce7-3ef9-8a40-3fca6752f753> ;
+        c:suffix     ", and his wife, Beth, of Waynoka; two" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/50>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ wife, Joy, of Terrell, Texas, and Julie Bray and ]her husband, Ricky, of Yukon, Oklahoma[; one brother, Gene Lewis, of Plainview, Texas;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "her husband, Ricky, of Yukon, Oklahoma" ;
+        c:length     "38" ;
+        c:offset     "2037" ;
+        c:prefix     " wife, Joy, of Terrell, Texas, and Julie Bray and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/94daef28-ebd4-36c4-bd2d-408a466f4ad5> ;
+        c:suffix     "; one brother, Gene Lewis, of Plainview, Texas;" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Relevance/44>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9679b237-33e8-3478-ba13-d9af3c4b943e> .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/29>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Waynoka, Oklahoma, to be near her son, Bill and ]daughter-in-law[, Beth. \t Viola was baptized into the Baptist]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "daughter-in-law" ;
+        c:length     "15" ;
+        c:offset     "1029" ;
+        c:prefix     "Waynoka, Oklahoma, to be near her son, Bill and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/59574dc3-d51c-3de0-91fe-999824adfc26> ;
+        c:suffix     ", Beth. \t Viola was baptized into the Baptist" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/118>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Florence and his wife, Olivia, of Bay Point, ]California[, Kathy Alonzo and her husband, Javier, of Los]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "California" ;
+        c:length     "10" ;
+        c:offset     "2199" ;
+        c:prefix     "Florence and his wife, Olivia, of Bay Point, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9679b237-33e8-3478-ba13-d9af3c4b943e> ;
+        c:suffix     ", Kathy Alonzo and her husband, Javier, of Los" .
+
+<http://d.opencalais.com/genericHasher-1/874eaab9-7b66-36e3-9650-8de7a5001cf9>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Los Angeles" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/21d1ebb8-832d-01ea-c5e1-baa82d909c85>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:latitude            "36.6828" ;
+        c:longitude           "-101.4811" ;
+        c:name                "Guymon,Oklahoma,United States" ;
+        c:shortname           "Guymon" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/ba3ae489-26d6-381a-b7d1-d6fa5e8e86c0> .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Relevance/23>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/f27cdb65-7c26-3a21-badf-c6e67bab569c> .
+
+<http://d.opencalais.com/conf/pershash-1/324873b0-9974-3256-8980-ebfd8b601c12>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.971" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/324873b0-9974-3256-8980-ebfd8b601c12> .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/3>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Lewis, was born June 5, 1905, near Gorman, ]Texas[, and passed away September 2, 2006, at Enid,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Texas" ;
+        c:length     "5" ;
+        c:offset     "402" ;
+        c:prefix     "Lewis, was born June 5, 1905, near Gorman, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> ;
+        c:suffix     ", and passed away September 2, 2006, at Enid," .
+
+<http://d.opencalais.com/genericHasher-1/3abbfc9a-d787-3f44-8643-7e6820e75880>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:company            <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:forenduserdisplay  "true" ;
+        c:person             <http://d.opencalais.com/pershash-1/88335d28-38f8-3fd1-acdc-a5d76bd1a1dc> ;
+        c:status             "current" .
+
+<http://d.opencalais.com/pershash-1/9d2fac7d-cf2f-31fe-a8ef-d25584493eec>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Robert" ;
+        c:confidencelevel    "0.991" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Robert" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/79>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Gorman High School and Lippert Business School.  ]She[ then moved to Guymon, Oklahoma where she worked]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "583" ;
+        c:prefix     " Gorman High School and Lippert Business School.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/00774565-bf68-31a9-9d18-1109b5d202f6> ;
+        c:suffix     " then moved to Guymon, Oklahoma where she worked" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Relevance/8>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee> .
+
+<http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Texas" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/58>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Beth. \t Viola was baptized into the ]Baptist Church[ in Bass Lake near Gorman, Texas in 1917.  While]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Baptist Church" ;
+        c:length     "14" ;
+        c:offset     "1082" ;
+        c:prefix     "Beth. \t Viola was baptized into the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a21a69b3-e9dd-341e-9fee-da93c550c744> ;
+        c:suffix     " in Bass Lake near Gorman, Texas in 1917.  While" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/37>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Civic Study Club, Golder Agers, and the ]Neighborhood Coffee Club[.  Viola had a natural talent for needle work,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Neighborhood Coffee Club" ;
+        c:length     "24" ;
+        c:offset     "1386" ;
+        c:prefix     "Civic Study Club, Golder Agers, and the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/151d352b-01c9-313f-9289-cd867a409822> ;
+        c:suffix     ".  Viola had a natural talent for needle work," .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/126>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Wilson, daughter of the late William Jason and ]Texanna (McAdoo) Lewis, was born June 5, 1905[, near Gorman, Texas, and passed away September]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Texanna (McAdoo) Lewis, was born June 5, 1905" ;
+        c:length     "45" ;
+        c:offset     "342" ;
+        c:prefix     "Wilson, daughter of the late William Jason and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/d5c87eb9-56be-3c43-a2f2-d0738991502e> ;
+        c:suffix     ", near Gorman, Texas, and passed away September" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/16>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[was a member of several civic clubs, including ]Civic Study Club[, Golder Agers, and the Neighborhood Coffee Club.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Civic Study Club" ;
+        c:length     "16" ;
+        c:offset     "1346" ;
+        c:prefix     "was a member of several civic clubs, including " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ab30ecac-b721-3601-9a65-ecca22c3b48f> ;
+        c:suffix     ", Golder Agers, and the Neighborhood Coffee Club." .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Relevance/31>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/8b849ed8-bce7-3ef9-8a40-3fca6752f753> .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/105>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and passed away September 2, 2006, at Enid, ]Oklahoma[, at the age of 101 years, 2 months, and 28 days.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "453" ;
+        c:prefix     "and passed away September 2, 2006, at Enid, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", at the age of 101 years, 2 months, and 28 days." .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Relevance/10>
+        a                <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId          <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:relevance      "0.8" ;
+        c:relevancecont  "0.79" ;
+        c:subject        <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> .
+
+<http://d.opencalais.com/genericHasher-1/34d7efc1-ee09-3bc4-a59c-0e33955a5704>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Plainview" ;
+        c:person             <http://d.opencalais.com/pershash-1/fdc39ded-30e5-3ffb-9166-f4c1fb8c0e58> .
+
+<http://d.opencalais.com/genericHasher-1/e1dc29b0-a45d-388a-a2fa-613a7f7435f0>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/74773538-28a5-3542-aa1e-402d56d12c2d> , <http://d.opencalais.com/pershash-1/a3068196-0f99-3650-afc3-60a6c5de1e34> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/SocialTag/1>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Lakin, Kansas" ;
+        c:originalValue      "Lakin, Kansas" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/83abc762-df2d-384c-90c1-8471079ebacf> .
+
+<http://d.opencalais.com/pershash-1/a3068196-0f99-3650-afc3-60a6c5de1e34>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Kent Wilson" ;
+        c:confidencelevel    "0.997" ;
+        c:firstname          "Kent" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Wilson" ;
+        c:name               "Kent Wilson" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/2209a9f3-ec09-3efa-8934-7d8e12d1d2ba>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Plainview" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/87>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[near her son, Bill and daughter-in-law, Beth. \t ]Viola[ was baptized into the Baptist Church in Bass]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Viola" ;
+        c:length     "5" ;
+        c:offset     "1054" ;
+        c:prefix     "near her son, Bill and daughter-in-law, Beth. \t " ;
+        c:subject    <http://d.opencalais.com/pershash-1/00774565-bf68-31a9-9d18-1109b5d202f6> ;
+        c:suffix     " was baptized into the Baptist Church in Bass" .
+
+<http://d.opencalais.com/pershash-1/74773538-28a5-3542-aa1e-402d56d12c2d>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Joy" ;
+        c:confidencelevel    "0.973" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Joy" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/66>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ grandchildren, Kent Wilson and his wife, Joy, of ]Terrell[, Texas, and Julie Bray and her husband, Ricky,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Terrell" ;
+        c:length     "7" ;
+        c:offset     "2002" ;
+        c:prefix     " grandchildren, Kent Wilson and his wife, Joy, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/42576ffa-93fc-3a5f-a4de-33dcc7a36d23> ;
+        c:suffix     ", Texas, and Julie Bray and her husband, Ricky," .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/45>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Vernon, Dale, and Clarence Lewis; and one sister ]Edith Bray[. \t Viola is survived by one son, Bill, and his]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Edith Bray" ;
+        c:length     "10" ;
+        c:offset     "1867" ;
+        c:prefix     " Vernon, Dale, and Clarence Lewis; and one sister " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f6f14f07-f453-35e1-a721-82cae585f9c5> ;
+        c:suffix     ". \t Viola is survived by one son, Bill, and his" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/24>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[10:00 a.m. Thursday  September 7, 2006, at the ]Waynoka[ First Baptist Church with Pastor David Shaw]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Waynoka" ;
+        c:length     "7" ;
+        c:offset     "103" ;
+        c:prefix     "10:00 a.m. Thursday  September 7, 2006, at the " ;
+        c:subject    <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:suffix     " First Baptist Church with Pastor David Shaw" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Relevance/39>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/74773538-28a5-3542-aa1e-402d56d12c2d> .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/113>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Los Angeles, California, Janet Florence of ]San Ramon[, California, and Stacey Solis and her husband,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "San Ramon" ;
+        c:length     "9" ;
+        c:offset     "2295" ;
+        c:prefix     "of Los Angeles, California, Janet Florence of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e546038b-f7eb-3a46-a0b7-15b1be1a5302> ;
+        c:suffix     ", California, and Stacey Solis and her husband," .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Relevance/18>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/6e08b251-afcb-37e0-a23e-a9bb10cb0b73> .
+
+<http://d.opencalais.com/pershash-1/6bb23263-7fc7-3569-952b-77b6a981f25d>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Kathy Alonzo" ;
+        c:confidencelevel    "0.992" ;
+        c:firstname          "Kathy" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Alonzo" ;
+        c:name               "Kathy Alonzo" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/95>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[always been an inspiration to all who have met ]her[.  She was an amazing lady displaying a great]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1665" ;
+        c:prefix     "always been an inspiration to all who have met " ;
+        c:subject    <http://d.opencalais.com/pershash-1/00774565-bf68-31a9-9d18-1109b5d202f6> ;
+        c:suffix     ".  She was an amazing lady displaying a great" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/74>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Kathy Alonzo and her husband, Javier, of ]Los Angeles[, California, Janet Florence of San Ramon,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Los Angeles" ;
+        c:length     "11" ;
+        c:offset     "2252" ;
+        c:prefix     "Kathy Alonzo and her husband, Javier, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/874eaab9-7b66-36e3-9650-8de7a5001cf9> ;
+        c:suffix     ", California, Janet Florence of San Ramon," .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/cat/1>
+        a                    <http://s.opencalais.com/1/type/cat/DocCat> ;
+        c:docId              <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Human Interest" ;
+        c:score              "0.892" .
+
+<http://d.opencalais.com/genericHasher-1/0c634150-5f18-3ea6-aa74-59407476d0e7>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "son" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/00774565-bf68-31a9-9d18-1109b5d202f6> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/8b849ed8-bce7-3ef9-8a40-3fca6752f753> .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Relevance/3>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/324873b0-9974-3256-8980-ebfd8b601c12> .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/53>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and his wife, Olivia, of Bay Point, California, ]Kathy Alonzo and her husband, Javier, of Los Angeles, California[, Janet Florence of San Ramon, California, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Kathy Alonzo and her husband, Javier, of Los Angeles, California" ;
+        c:length     "64" ;
+        c:offset     "2211" ;
+        c:prefix     "and his wife, Olivia, of Bay Point, California, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b24e9dba-ec3f-3736-bf72-657b5525679b> ;
+        c:suffix     ", Janet Florence of San Ramon, California, and" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/32>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[four step-grandchildren, Jerry Florence and ]his wife, Olivia[, of Bay Point, California, Kathy Alonzo and her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "his wife, Olivia" ;
+        c:length     "16" ;
+        c:offset     "2167" ;
+        c:prefix     "four step-grandchildren, Jerry Florence and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/27ed7ce2-afc8-39c9-a6e3-c546fd4b7d9d> ;
+        c:suffix     ", of Bay Point, California, Kathy Alonzo and her" .
+
+<http://d.opencalais.com/pershash-1/f6f14f07-f453-35e1-a721-82cae585f9c5>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Edith Bray" ;
+        c:confidencelevel    "0.994" ;
+        c:firstname          "Edith" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Bray" ;
+        c:name               "Edith Bray" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/11>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ years, they moved to Garden City, then to Lakin, ]Kansas[, where she owned and operated the Lakin Gift]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Kansas" ;
+        c:length     "6" ;
+        c:offset     "840" ;
+        c:prefix     " years, they moved to Garden City, then to Lakin, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> ;
+        c:suffix     ", where she owned and operated the Lakin Gift" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/121>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Solis and her husband, Robert, of Los Angeles, ]California[; 3 great grandchildren; 7 step great]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "California" ;
+        c:length     "10" ;
+        c:offset     "2376" ;
+        c:prefix     "Solis and her husband, Robert, of Los Angeles, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9679b237-33e8-3478-ba13-d9af3c4b943e> ;
+        c:suffix     "; 3 great grandchildren; 7 step great" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Relevance/26>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/d0a067f4-c3c2-30c4-9437-7361127f8904> .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/100>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ and Clarence Lewis; and one sister Edith Bray. \t ]Viola[ is survived by one son, Bill, and his wife,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Viola" ;
+        c:length     "5" ;
+        c:offset     "1881" ;
+        c:prefix     " and Clarence Lewis; and one sister Edith Bray. \t " ;
+        c:subject    <http://d.opencalais.com/pershash-1/00774565-bf68-31a9-9d18-1109b5d202f6> ;
+        c:suffix     " is survived by one son, Bill, and his wife," .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/6>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Kent Wilson and his wife, Joy, of Terrell, ]Texas[, and Julie Bray and her husband, Ricky, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Texas" ;
+        c:length     "5" ;
+        c:offset     "2011" ;
+        c:prefix     "Kent Wilson and his wife, Joy, of Terrell, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> ;
+        c:suffix     ", and Julie Bray and her husband, Ricky, of" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/86dd9f3a-a122-970d-b2ff-8a0744d80277>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Texas" ;
+        c:docId               <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:latitude            "32.2136" ;
+        c:longitude           "-98.6703" ;
+        c:name                "Gorman,Texas,United States" ;
+        c:shortname           "Gorman" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/9e4504b4-6a72-30ed-b170-f460f380df10> .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/82>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ It was there that she met James Bevly \"J. B.? ]Wilson[ and they were married on June 6, 1934 in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Wilson" ;
+        c:length     "6" ;
+        c:offset     "712" ;
+        c:prefix     " It was there that she met James Bevly \"J. B.? " ;
+        c:subject    <http://d.opencalais.com/pershash-1/00774565-bf68-31a9-9d18-1109b5d202f6> ;
+        c:suffix     " and they were married on June 6, 1934 in" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/61>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[where she was Church Clerk and Sunday School ]Teacher[ for a number of years.  She was a member of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Teacher" ;
+        c:length     "7" ;
+        c:offset     "1263" ;
+        c:prefix     "where she was Church Clerk and Sunday School " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/d0a067f4-c3c2-30c4-9437-7361127f8904> ;
+        c:suffix     " for a number of years.  She was a member of" .
+
+<http://d.opencalais.com/genericHasher-1/59574dc3-d51c-3de0-91fe-999824adfc26>
+        a                    <http://s.opencalais.com/1/type/em/e/IndustryTerm> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "daughter-in-law" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/40>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ step-grandchildren, Jerry Florence and his wife, ]Olivia[, of Bay Point, California, Kathy Alonzo and her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Olivia" ;
+        c:length     "6" ;
+        c:offset     "2177" ;
+        c:prefix     " step-grandchildren, Jerry Florence and his wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/ea88b8c3-2092-35ea-af6c-a820304b92be> ;
+        c:suffix     ", of Bay Point, California, Kathy Alonzo and her" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/129>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Lakin, Kansas, where she owned and operated the ]Lakin[ Gift Nook for 35 years until she retired.  After]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Lakin" ;
+        c:length     "5" ;
+        c:offset     "881" ;
+        c:prefix     "Lakin, Kansas, where she owned and operated the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0aca7f8a-1ed5-3df0-b79c-3123665ab7dc> ;
+        c:suffix     " Gift Nook for 35 years until she retired.  After" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/19>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[is survived by one son, Bill, and his wife, ]Beth, of Waynoka[; two grandchildren, Kent Wilson and his wife,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Beth, of Waynoka" ;
+        c:length     "16" ;
+        c:offset     "1931" ;
+        c:prefix     "is survived by one son, Bill, and his wife, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3abbfc9a-d787-3f44-8643-7e6820e75880> ;
+        c:suffix     "; two grandchildren, Kent Wilson and his wife," .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Relevance/34>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/pershash-1/00774565-bf68-31a9-9d18-1109b5d202f6> .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/108>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ and Julie Bray and her husband, Ricky, of Yukon, ]Oklahoma[; one brother, Gene Lewis, of Plainview, Texas;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "2067" ;
+        c:prefix     " and Julie Bray and her husband, Ricky, of Yukon, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     "; one brother, Gene Lewis, of Plainview, Texas;" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Relevance/13>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/88335d28-38f8-3fd1-acdc-a5d76bd1a1dc> .
+
+<http://d.opencalais.com/genericHasher-1/35a979c1-2108-3761-99bd-8c6f499ef6f2>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Enid" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/SocialTag/4>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "2" ;
+        c:name               "Waynoka, Oklahoma" ;
+        c:originalValue      "Waynoka, Oklahoma" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/77bc8be5-12a7-326b-962f-52fbf8cf09dd> .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/90>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Sunday School Teacher for a number of years.  ]She[ was a member of several civic clubs, including]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "1295" ;
+        c:prefix     "Sunday School Teacher for a number of years.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/00774565-bf68-31a9-9d18-1109b5d202f6> ;
+        c:suffix     " was a member of several civic clubs, including" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/meta>
+        a                 <http://s.opencalais.com/1/type/sys/DocInfoMeta> ;
+        c:contentType     "text/raw" ;
+        c:docId           <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:language        "English" ;
+        c:processingVer   "AllMetadata" ;
+        c:serverVersion   "OneCalais_8.3-RELEASE:364" ;
+        c:signature       "digestalg-1|cvCB0DAFRvPRigxg9GJiUwrCUPo=|eZaJ3IE70EHSAP1NQoP0GFA8qMNNQimvqxjxTfkvyOGQegK4wlPMFA==" ;
+        c:stagsVer        "OneCalais_8.3-RELEASE-b11-2015-03-25_18:29:00" ;
+        c:submissionDate  "2015-05-26 17:28:36.209" ;
+        c:submitterCode   "0ca6a864-5659-789d-5f32-f365f695e757" .
+
+<http://d.opencalais.com/genericHasher-1/314a3dbb-297f-32c7-8ec0-7d7cb573b1e4>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Enid, Oklahoma" ;
+        c:person             <http://d.opencalais.com/pershash-1/324873b0-9974-3256-8980-ebfd8b601c12> .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/69>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ husband, Ricky, of Yukon, Oklahoma; one brother, ]Gene Lewis, of Plainview, Texas[; four step-grandchildren, Jerry Florence and his]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Gene Lewis, of Plainview, Texas" ;
+        c:length     "31" ;
+        c:offset     "2090" ;
+        c:prefix     " husband, Ricky, of Yukon, Oklahoma; one brother, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/34d7efc1-ee09-3bc4-a59c-0e33955a5704> ;
+        c:suffix     "; four step-grandchildren, Jerry Florence and his" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/48>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and Lippert Business School.  She then moved to ]Guymon[, Oklahoma where she worked for R. J. Keller Real]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Guymon" ;
+        c:length     "6" ;
+        c:offset     "601" ;
+        c:prefix     "and Lippert Business School.  She then moved to " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ba3ae489-26d6-381a-b7d1-d6fa5e8e86c0> ;
+        c:suffix     ", Oklahoma where she worked for R. J. Keller Real" .
+
+<http://d.opencalais.com/genericHasher-1/f72a6fef-7d78-3bf4-a612-4e36dc5d5b28>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/88335d28-38f8-3fd1-acdc-a5d76bd1a1dc> , <http://d.opencalais.com/pershash-1/8b849ed8-bce7-3ef9-8a40-3fca6752f753> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/27>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[by one son, Bill, and his wife, Beth, of ]Waynoka[; two grandchildren, Kent Wilson and his wife,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Waynoka" ;
+        c:length     "7" ;
+        c:offset     "1940" ;
+        c:prefix     "by one son, Bill, and his wife, Beth, of " ;
+        c:subject    <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:suffix     "; two grandchildren, Kent Wilson and his wife," .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Relevance/42>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c29faade-2b1a-3fb5-89fa-4c9f7e15d459> .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/116>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[\t Viola graduated from Gorman High School and ]Lippert Business School[.  She then moved to Guymon, Oklahoma where she]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Lippert Business School" ;
+        c:length     "23" ;
+        c:offset     "557" ;
+        c:prefix     "\t Viola graduated from Gorman High School and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c29faade-2b1a-3fb5-89fa-4c9f7e15d459> ;
+        c:suffix     ".  She then moved to Guymon, Oklahoma where she" .
+
+<http://d.opencalais.com/pershash-1/caaadb80-96c9-3a08-9afa-a721680a592d>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Texanna Lewis" ;
+        c:confidencelevel    "0.643" ;
+        c:firstname          "Texanna" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Lewis" ;
+        c:name               "Texanna (McAdoo) Lewis" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Relevance/21>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/de81537f-6cd3-379b-8989-3d57ebe463c4> .
+
+<http://d.opencalais.com/genericHasher-1/300c4ea8-3eb0-39d3-883b-2e08d6546116>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "San Ramon" ;
+        c:person             <http://d.opencalais.com/pershash-1/37519c3d-b6d5-35d5-bd2c-d69f46ddc361> .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/1>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[that she met James Bevly \"J. B.? Wilson and ]they were married on June 6, 1934[ in Plainview, Texas.  After a few years, they]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "they were married on June 6, 1934" ;
+        c:length     "33" ;
+        c:offset     "723" ;
+        c:prefix     "that she met James Bevly \"J. B.? Wilson and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/14b6cb9b-65ca-3064-a575-3f526ac0c7c7> ;
+        c:suffix     " in Plainview, Texas.  After a few years, they" .
+
+<http://d.opencalais.com/genericHasher-1/b36370e0-0ff6-30af-9fee-2e5c3a044676>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "wife" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/8b849ed8-bce7-3ef9-8a40-3fca6752f753> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/88335d28-38f8-3fd1-acdc-a5d76bd1a1dc> .
+
+<http://d.opencalais.com/conf/pershash-1/9d2fac7d-cf2f-31fe-a8ef-d25584493eec>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.991" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.932" ;
+        c:subject             <http://d.opencalais.com/pershash-1/9d2fac7d-cf2f-31fe-a8ef-d25584493eec> .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/98>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[a great deal of wisdom. \t Besides her parents, ]she[ was preceded in death by her husband, J. B.;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "1753" ;
+        c:prefix     "a great deal of wisdom. \t Besides her parents, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/00774565-bf68-31a9-9d18-1109b5d202f6> ;
+        c:suffix     " was preceded in death by her husband, J. B.;" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/77>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Marshall Funeral Home of Waynoka, LLC. \t ]Viola Maudell Wilson[, daughter of the late William Jason and Texanna]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Viola Maudell Wilson" ;
+        c:length     "20" ;
+        c:offset     "281" ;
+        c:prefix     "of Marshall Funeral Home of Waynoka, LLC. \t " ;
+        c:subject    <http://d.opencalais.com/pershash-1/00774565-bf68-31a9-9d18-1109b5d202f6> ;
+        c:suffix     ", daughter of the late William Jason and Texanna" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Relevance/6>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/2faac0a7-7ec5-3e13-89f0-cf19720f13be> .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/56>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Keller Real Estate.  It was there that she met ]James Bevly[ \"J. B.? Wilson and they were married on June 6,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "James Bevly" ;
+        c:length     "11" ;
+        c:offset     "692" ;
+        c:prefix     "Keller Real Estate.  It was there that she met " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f27cdb65-7c26-3a21-badf-c6e67bab569c> ;
+        c:suffix     " \"J. B.? Wilson and they were married on June 6," .
+
+<http://d.opencalais.com/genericHasher-1/b12bc3de-30bb-3d66-ab71-a99552e37868>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCommunication> ;
+        c:forenduserdisplay  "false" ;
+        c:person             <http://d.opencalais.com/pershash-1/f27cdb65-7c26-3a21-badf-c6e67bab569c> , <http://d.opencalais.com/pershash-1/00774565-bf68-31a9-9d18-1109b5d202f6> ;
+        c:status             "announced" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/35>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and his wife, Olivia, of Bay Point, California, ]Kathy Alonzo[ and her husband, Javier, of Los Angeles,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Kathy Alonzo" ;
+        c:length     "12" ;
+        c:offset     "2211" ;
+        c:prefix     "and his wife, Olivia, of Bay Point, California, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6bb23263-7fc7-3569-952b-77b6a981f25d> ;
+        c:suffix     " and her husband, Javier, of Los Angeles," .
+
+<http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205>
+        a                    <http://s.opencalais.com/1/type/em/e/Company> ;
+        c:confidencelevel    "0.805" ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Waynoka LLC" ;
+        c:nationality        "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/0aca7f8a-1ed5-3df0-b79c-3123665ab7dc>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Lakin" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/14>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Texas, and Julie Bray and her husband, Ricky, of ]Yukon[, Oklahoma; one brother, Gene Lewis, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Yukon" ;
+        c:length     "5" ;
+        c:offset     "2060" ;
+        c:prefix     " Texas, and Julie Bray and her husband, Ricky, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/2faac0a7-7ec5-3e13-89f0-cf19720f13be> ;
+        c:suffix     ", Oklahoma; one brother, Gene Lewis, of" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/124>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[living in Lakin for 50 years, Viola moved to ]Waynoka, Oklahoma[, to be near her son, Bill and daughter-in-law,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Waynoka, Oklahoma" ;
+        c:length     "17" ;
+        c:offset     "981" ;
+        c:prefix     "living in Lakin for 50 years, Viola moved to " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e7066147-31e8-3e47-b262-cbccccd7d7fc> ;
+        c:suffix     ", to be near her son, Bill and daughter-in-law," .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Relevance/29>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/42576ffa-93fc-3a5f-a4de-33dcc7a36d23> .
+
+<http://d.opencalais.com/genericHasher-1/75bfb839-67ef-3e24-82d1-1a30bde586ec>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Church Clerk and Sunday School" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/103>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[(McAdoo) Lewis, was born June 5, 1905, near ]Gorman[, Texas, and passed away September 2, 2006, at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Gorman" ;
+        c:length     "6" ;
+        c:offset     "394" ;
+        c:prefix     "(McAdoo) Lewis, was born June 5, 1905, near " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9e4504b4-6a72-30ed-b170-f460f380df10> ;
+        c:suffix     ", Texas, and passed away September 2, 2006, at" .
+
+<http://d.opencalais.com/genericHasher-1/9679b237-33e8-3478-ba13-d9af3c4b943e>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "California" .
+
+<http://d.opencalais.com/genericHasher-1/42576ffa-93fc-3a5f-a4de-33dcc7a36d23>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Terrell" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/9>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[\t Viola Maudell Wilson, daughter of the late ]William Jason[ and Texanna (McAdoo) Lewis, was born June 5,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "William Jason" ;
+        c:length     "13" ;
+        c:offset     "324" ;
+        c:prefix     "\t Viola Maudell Wilson, daughter of the late " ;
+        c:subject    <http://d.opencalais.com/pershash-1/324873b0-9974-3256-8980-ebfd8b601c12> ;
+        c:suffix     " and Texanna (McAdoo) Lewis, was born June 5," .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/0c84956f-8ec8-4fe8-a1cd-db4d9b9c5d4d>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Texas" ;
+        c:docId               <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:latitude            "31.5335152" ;
+        c:longitude           "-94.5746524" ;
+        c:name                "Plainview,Texas,United States" ;
+        c:shortname           "Plainview" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/2209a9f3-ec09-3efa-8934-7d8e12d1d2ba> .
+
+<http://d.opencalais.com/genericHasher-1/815f337e-3356-3fc4-820f-18341187e99f>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "daughter-in-law" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/00774565-bf68-31a9-9d18-1109b5d202f6> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/88335d28-38f8-3fd1-acdc-a5d76bd1a1dc> .
+
+<http://d.opencalais.com/genericHasher-1/0c8a704b-ddc2-3526-ac43-525584702263>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/27c11fdf-d0d5-3930-8d64-78933a6ec2d9> , <http://d.opencalais.com/pershash-1/6e08b251-afcb-37e0-a23e-a9bb10cb0b73> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/conf/pershash-1/a3068196-0f99-3650-afc3-60a6c5de1e34>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.997" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.994" ;
+        c:subject             <http://d.opencalais.com/pershash-1/a3068196-0f99-3650-afc3-60a6c5de1e34> .
+
+<http://d.opencalais.com/conf/pershash-1/74773538-28a5-3542-aa1e-402d56d12c2d>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.973" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.932" ;
+        c:subject             <http://d.opencalais.com/pershash-1/74773538-28a5-3542-aa1e-402d56d12c2d> .
+
+<http://d.opencalais.com/genericHasher-1/94daef28-ebd4-36c4-bd2d-408a466f4ad5>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "husband" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/6e08b251-afcb-37e0-a23e-a9bb10cb0b73> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/27c11fdf-d0d5-3930-8d64-78933a6ec2d9> .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/85>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[retired.  After living in Lakin for 50 years, ]Viola[ moved to Waynoka, Oklahoma, to be near her son,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Viola" ;
+        c:length     "5" ;
+        c:offset     "966" ;
+        c:prefix     "retired.  After living in Lakin for 50 years, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/00774565-bf68-31a9-9d18-1109b5d202f6> ;
+        c:suffix     " moved to Waynoka, Oklahoma, to be near her son," .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/64>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Lakin, Kansas Cemetery under the direction of ]Marshall Funeral Home of Waynoka[, LLC. \t Viola Maudell Wilson, daughter of the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Marshall Funeral Home of Waynoka" ;
+        c:length     "32" ;
+        c:offset     "240" ;
+        c:prefix     "Lakin, Kansas Cemetery under the direction of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/84bb0714-85ab-39de-a7e7-f1ad2e79292b> ;
+        c:suffix     ", LLC. \t Viola Maudell Wilson, daughter of the" .
+
+<http://d.opencalais.com/pershash-1/f27cdb65-7c26-3a21-badf-c6e67bab569c>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "James Bevly" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "James" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Bevly" ;
+        c:name               "James Bevly" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/43>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ wife, Joy, of Terrell, Texas, and Julie Bray and ]her[ husband, Ricky, of Yukon, Oklahoma; one brother,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "2037" ;
+        c:prefix     " wife, Joy, of Terrell, Texas, and Julie Bray and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6e08b251-afcb-37e0-a23e-a9bb10cb0b73> ;
+        c:suffix     " husband, Ricky, of Yukon, Oklahoma; one brother," .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/132>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ husband, Ricky, of Yukon, Oklahoma; one brother, ]Gene Lewis[, of Plainview, Texas; four step-grandchildren,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Gene Lewis" ;
+        c:length     "10" ;
+        c:offset     "2090" ;
+        c:prefix     " husband, Ricky, of Yukon, Oklahoma; one brother, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/fdc39ded-30e5-3ffb-9166-f4c1fb8c0e58> ;
+        c:suffix     ", of Plainview, Texas; four step-grandchildren," .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/22>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Waynoka; two grandchildren, Kent Wilson and ]his[ wife, Joy, of Terrell, Texas, and Julie Bray and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "1984" ;
+        c:prefix     "of Waynoka; two grandchildren, Kent Wilson and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/a3068196-0f99-3650-afc3-60a6c5de1e34> ;
+        c:suffix     " wife, Joy, of Terrell, Texas, and Julie Bray and" .
+
+<http://d.opencalais.com/genericHasher-1/6a0ed6cc-29e9-3feb-835f-60e190f628d2>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/9d2fac7d-cf2f-31fe-a8ef-d25584493eec> , <http://d.opencalais.com/pershash-1/ad638dc5-9d8e-378d-a783-c1bc40594e79> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Relevance/37>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/111>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[two grandchildren, Kent Wilson and his wife, ]Joy[, of Terrell, Texas, and Julie Bray and her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Joy" ;
+        c:length     "3" ;
+        c:offset     "1994" ;
+        c:prefix     "two grandchildren, Kent Wilson and his wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/74773538-28a5-3542-aa1e-402d56d12c2d> ;
+        c:suffix     ", of Terrell, Texas, and Julie Bray and her" .
+
+<http://d.opencalais.com/conf/pershash-1/6bb23263-7fc7-3569-952b-77b6a981f25d>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.992" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.994" ;
+        c:subject             <http://d.opencalais.com/pershash-1/6bb23263-7fc7-3569-952b-77b6a981f25d> .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Relevance/16>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/27c11fdf-d0d5-3930-8d64-78933a6ec2d9> .
+
+<http://d.opencalais.com/pershash-1/8b849ed8-bce7-3ef9-8a40-3fca6752f753>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Bill" ;
+        c:confidencelevel    "0.994" ;
+        c:firstname          "Bill" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Bill" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/93>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ which she did until arthritis set in at age 95.  ]She[ also enjoyed cooking, traveling, and playing]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "1550" ;
+        c:prefix     " which she did until arthritis set in at age 95.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/00774565-bf68-31a9-9d18-1109b5d202f6> ;
+        c:suffix     " also enjoyed cooking, traveling, and playing" .
+
+<http://d.opencalais.com/pershash-1/ea88b8c3-2092-35ea-af6c-a820304b92be>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Olivia" ;
+        c:confidencelevel    "0.977" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Olivia" ;
+        c:nationality        "American" ;
+        c:persontype         "entertainment" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/72>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Bray. \t Viola is survived by one son, Bill, and ]his[ wife, Beth, of Waynoka; two grandchildren, Kent]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "1921" ;
+        c:prefix     "Bray. \t Viola is survived by one son, Bill, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/8b849ed8-bce7-3ef9-8a40-3fca6752f753> ;
+        c:suffix     " wife, Beth, of Waynoka; two grandchildren, Kent" .
+
+<http://d.opencalais.com/genericHasher-1/84bb0714-85ab-39de-a7e7-f1ad2e79292b>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Marshall Funeral Home of Waynoka" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Relevance/1>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> .
+
+<http://d.opencalais.com/conf/pershash-1/f6f14f07-f453-35e1-a721-82cae585f9c5>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.994" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.996" ;
+        c:subject             <http://d.opencalais.com/pershash-1/f6f14f07-f453-35e1-a721-82cae585f9c5> .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/51>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[California, and Stacey Solis and her husband, ]Robert, of Los Angeles, California[; 3 great grandchildren; 7 step great]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Robert, of Los Angeles, California" ;
+        c:length     "34" ;
+        c:offset     "2352" ;
+        c:prefix     "California, and Stacey Solis and her husband, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/6ef93122-944c-35b1-b67d-0ad018590414> ;
+        c:suffix     "; 3 great grandchildren; 7 step great" .
+
+<http://d.opencalais.com/pershash-1/41267cde-50d8-3da2-81a9-c29a6a9acc4c>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "David Shaw" ;
+        c:confidencelevel    "0.999" ;
+        c:firstname          "David" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Shaw" ;
+        c:name               "David Shaw" ;
+        c:nationality        "N/A" ;
+        c:persontype         "sports" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/30>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Janet Florence of San Ramon, California, and ]Stacey Solis[ and her husband, Robert, of Los Angeles,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Stacey Solis" ;
+        c:length     "12" ;
+        c:offset     "2322" ;
+        c:prefix     "Janet Florence of San Ramon, California, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/ad638dc5-9d8e-378d-a783-c1bc40594e79> ;
+        c:suffix     " and her husband, Robert, of Los Angeles," .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Relevance/45>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0aca7f8a-1ed5-3df0-b79c-3123665ab7dc> .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/119>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Alonzo and her husband, Javier, of Los Angeles, ]California[, Janet Florence of San Ramon, California, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "California" ;
+        c:length     "10" ;
+        c:offset     "2265" ;
+        c:prefix     "Alonzo and her husband, Javier, of Los Angeles, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9679b237-33e8-3478-ba13-d9af3c4b943e> ;
+        c:suffix     ", Janet Florence of San Ramon, California, and" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Relevance/24>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a21a69b3-e9dd-341e-9fee-da93c550c744> .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/4>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[they were married on June 6, 1934 in Plainview, ]Texas[.  After a few years, they moved to Garden City,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Texas" ;
+        c:length     "5" ;
+        c:offset     "771" ;
+        c:prefix     "they were married on June 6, 1934 in Plainview, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> ;
+        c:suffix     ".  After a few years, they moved to Garden City," .
+
+<http://d.opencalais.com/pershash-1/37519c3d-b6d5-35d5-bd2c-d69f46ddc361>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Janet Florence" ;
+        c:confidencelevel    "0.983" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Janet Florence" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/151d352b-01c9-313f-9289-cd867a409822>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Neighborhood Coffee Club" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/27ed7ce2-afc8-39c9-a6e3-c546fd4b7d9d>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "wife" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/de81537f-6cd3-379b-8989-3d57ebe463c4> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/ea88b8c3-2092-35ea-af6c-a820304b92be> .
+
+<http://d.opencalais.com/pershash-1/ad638dc5-9d8e-378d-a783-c1bc40594e79>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Stacey Solis" ;
+        c:confidencelevel    "0.992" ;
+        c:firstname          "Stacey" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Solis" ;
+        c:name               "Stacey Solis" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/9152220c-422f-3208-8138-ed221eef99f1>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "wife" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/a3068196-0f99-3650-afc3-60a6c5de1e34> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/74773538-28a5-3542-aa1e-402d56d12c2d> .
+
+<http://d.opencalais.com/genericHasher-1/a21a69b3-e9dd-341e-9fee-da93c550c744>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Baptist Church" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/pershash-1/88335d28-38f8-3fd1-acdc-a5d76bd1a1dc>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Beth" ;
+        c:confidencelevel    "0.854" ;
+        c:firstname          "Beth" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Beth" ;
+        c:nationality        "N/A" ;
+        c:persontype         "entertainment" .
+
+<http://d.opencalais.com/genericHasher-1/b24e9dba-ec3f-3736-bf72-657b5525679b>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/b58d3465-f8c4-3da6-aa89-1de2b4d407f1> , <http://d.opencalais.com/pershash-1/6bb23263-7fc7-3569-952b-77b6a981f25d> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/80>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ She then moved to Guymon, Oklahoma where ]she[ worked for R. J. Keller Real Estate.  It was]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "624" ;
+        c:prefix     " She then moved to Guymon, Oklahoma where " ;
+        c:subject    <http://d.opencalais.com/pershash-1/00774565-bf68-31a9-9d18-1109b5d202f6> ;
+        c:suffix     " worked for R. J. Keller Real Estate.  It was" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Relevance/9>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/a3068196-0f99-3650-afc3-60a6c5de1e34> .
+
+<http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee>
+        a                    <http://s.opencalais.com/1/type/em/e/IndustryTerm> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Funeral services" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/59>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Lakin, Viola was an active member of the First ]Baptist Church[, where she was Church Clerk and Sunday School]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Baptist Church" ;
+        c:length     "14" ;
+        c:offset     "1202" ;
+        c:prefix     "Lakin, Viola was an active member of the First " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a21a69b3-e9dd-341e-9fee-da93c550c744> ;
+        c:suffix     ", where she was Church Clerk and Sunday School" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/38>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Janet Florence of San Ramon, California, and ]Stacey Solis and her husband, Robert, of Los Angeles, California[; 3 great grandchildren; 7 step great]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Stacey Solis and her husband, Robert, of Los Angeles, California" ;
+        c:length     "64" ;
+        c:offset     "2322" ;
+        c:prefix     "Janet Florence of San Ramon, California, and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/6a0ed6cc-29e9-3feb-835f-60e190f628d2> ;
+        c:suffix     "; 3 great grandchildren; 7 step great" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/127>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Shaw officiating.  Interment will be in the ]Lakin[, Kansas Cemetery under the direction of Marshall]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Lakin" ;
+        c:length     "5" ;
+        c:offset     "194" ;
+        c:prefix     "Shaw officiating.  Interment will be in the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0aca7f8a-1ed5-3df0-b79c-3123665ab7dc> ;
+        c:suffix     ", Kansas Cemetery under the direction of Marshall" .
+
+<http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oklahoma" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/17>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[two grandchildren, Kent Wilson and his wife, ]Joy, of Terrell, Texas[, and Julie Bray and her husband, Ricky, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Joy, of Terrell, Texas" ;
+        c:length     "22" ;
+        c:offset     "1994" ;
+        c:prefix     "two grandchildren, Kent Wilson and his wife, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3753912e-ec12-31b2-9d1f-dceebd40dc3f> ;
+        c:suffix     ", and Julie Bray and her husband, Ricky, of" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Relevance/32>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/caaadb80-96c9-3a08-9afa-a721680a592d> .
+
+<http://d.opencalais.com/genericHasher-1/9a69fef1-f430-34a0-8192-744803e6d4a9>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "husband" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/ad638dc5-9d8e-378d-a783-c1bc40594e79> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/9d2fac7d-cf2f-31fe-a8ef-d25584493eec> .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/106>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Business School.  She then moved to Guymon, ]Oklahoma[ where she worked for R. J. Keller Real Estate. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "609" ;
+        c:prefix     "Business School.  She then moved to Guymon, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     " where she worked for R. J. Keller Real Estate. " .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Relevance/11>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/59574dc3-d51c-3de0-91fe-999824adfc26> .
+
+<http://d.opencalais.com/genericHasher-1/2faac0a7-7ec5-3e13-89f0-cf19720f13be>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Yukon" .
+
+<http://d.opencalais.com/genericHasher-1/ba3ae489-26d6-381a-b7d1-d6fa5e8e86c0>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Guymon" .
+
+<http://d.opencalais.com/pershash-1/de81537f-6cd3-379b-8989-3d57ebe463c4>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Jerry Florence" ;
+        c:confidencelevel    "0.992" ;
+        c:firstname          "Jerry" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Florence" ;
+        c:name               "Jerry Florence" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/SocialTag/2>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Gorman" ;
+        c:originalValue      "Gorman" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/8b494a9b-c141-393c-98d8-754e78b5484a> .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/ComponentVersions>
+        a          <http://s.opencalais.com/1/type/sys/ComponentVersions> ;
+        c:docId    <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:version  "OneCalaisIM:OneCalais_8.3-RELEASE:198" , "config-refineries:258:258" , "com.clearforest.infoext.dial4j.plugins-basistechconfig:OneCalais_8.3-RELEASE:225" , "OneCalais:OneCalais_8.3-RELEASE:364" , "SocialTags Index:201505191038:201505191038" , "AutocoderRuntimeIM:OneCalais_8.3-RELEASE:198" , "Collector:OneCalais_8.3-RELEASE:113" , "OA Index:201505252208:201505252208" , "Housekeeper:OneCalais_8.3-RELEASE:113" , "config-vessels:258:258" , "FrenchIM:OneCalais_8.3-RELEASE:198" , "BrokerResearchIM:OneCalais_8.3-RELEASE:198" , "People Index:201505261608:201505261608" , "BlackList:264:264" , "People Override:258:258" , "config-negativeSignature:258:258" , "config-physicalAssets-ports:258:258" , "WatchDog:OneCalais_8.3-RELEASE:113" , "config-drugs:258:258" , "OA Override:271:271" , "SpanishIM:OneCalais_8.3-RELEASE:198" , "SECHeaderMetadataIM:OneCalais_8.3-RELEASE:198" , "config-sca-DataPackage:34:34" , "Deals Index:201505261718:201505261718" , "Dial4J:OneCalais_8.3-RELEASE:198" , "NextTags:OneCalais_8.3-RELEASE:113" , "config-cse:271:271" , "index-vessels:201505231718:201505231718" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/88>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Gorman, Texas in 1917.  While living in Lakin, ]Viola[ was an active member of the First Baptist]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Viola" ;
+        c:length     "5" ;
+        c:offset     "1162" ;
+        c:prefix     "Gorman, Texas in 1917.  While living in Lakin, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/00774565-bf68-31a9-9d18-1109b5d202f6> ;
+        c:suffix     " was an active member of the First Baptist" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/67>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[\t Viola Maudell Wilson, daughter of the late ]William Jason and Texanna (McAdoo) Lewis, was born June 5, 1905, near Gorman, Texas, and passed away September 2, 2006, at Enid, Oklahoma, at the age of 101 years,[ 2 months, and 28 days. \t Viola graduated from]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "William Jason and Texanna (McAdoo) Lewis, was born June 5, 1905, near Gorman, Texas, and passed away September 2, 2006, at Enid, Oklahoma, at the age of 101 years," ;
+        c:length     "163" ;
+        c:offset     "324" ;
+        c:prefix     "\t Viola Maudell Wilson, daughter of the late " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/314a3dbb-297f-32c7-8ec0-7d7cb573b1e4> ;
+        c:suffix     " 2 months, and 28 days. \t Viola graduated from" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/ec80b062-8d1e-123a-1d6e-8bd0b7355690>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:latitude            "38.45" ;
+        c:longitude           "-96.5333" ;
+        c:name                "Kansas,United States" ;
+        c:permid              "100151" ;
+        c:rcscode             "G:6D" ;
+        c:shortname           "Kansas" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> .
+
+<http://d.opencalais.com/genericHasher-1/ab30ecac-b721-3601-9a65-ecca22c3b48f>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Civic Study Club" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/46>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Plainview, Texas; four step-grandchildren, ]Jerry Florence[ and his wife, Olivia, of Bay Point, California,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Jerry Florence" ;
+        c:length     "14" ;
+        c:offset     "2148" ;
+        c:prefix     "of Plainview, Texas; four step-grandchildren, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/de81537f-6cd3-379b-8989-3d57ebe463c4> ;
+        c:suffix     " and his wife, Olivia, of Bay Point, California," .
+
+<http://d.opencalais.com/pershash-1/fdc39ded-30e5-3ffb-9166-f4c1fb8c0e58>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Gene Lewis" ;
+        c:confidencelevel    "0.998" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Gene Lewis" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/caaadb80-96c9-3a08-9afa-a721680a592d>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.643" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.691" ;
+        c:subject             <http://d.opencalais.com/pershash-1/caaadb80-96c9-3a08-9afa-a721680a592d> .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/25>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[under the direction of Marshall Funeral Home of ]Waynoka, LLC[. \t Viola Maudell Wilson, daughter of the late]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Waynoka, LLC" ;
+        c:length     "12" ;
+        c:offset     "265" ;
+        c:prefix     "under the direction of Marshall Funeral Home of " ;
+        c:subject    <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:suffix     ". \t Viola Maudell Wilson, daughter of the late" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Relevance/40>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e546038b-f7eb-3a46-a0b7-15b1be1a5302> .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/114>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[California, and Stacey Solis and her husband, ]Robert[, of Los Angeles, California; 3 great]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Robert" ;
+        c:length     "6" ;
+        c:offset     "2352" ;
+        c:prefix     "California, and Stacey Solis and her husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9d2fac7d-cf2f-31fe-a8ef-d25584493eec> ;
+        c:suffix     ", of Los Angeles, California; 3 great" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/c4ea0eb8-26a2-c495-be7c-3f5e2d5a2779>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Missouri" ;
+        c:docId               <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:latitude            "37.2731" ;
+        c:longitude           "-91.8481" ;
+        c:name                "Yukon,Missouri,United States" ;
+        c:shortname           "Yukon" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/2faac0a7-7ec5-3e13-89f0-cf19720f13be> .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Relevance/19>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a9f9fb17-d789-3fd1-a8aa-436f3a177113> .
+
+<http://d.opencalais.com/genericHasher-1/c29faade-2b1a-3fb5-89fa-4c9f7e15d459>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Lippert Business School" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/96>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[been an inspiration to all who have met her.  ]She[ was an amazing lady displaying a great deal of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "1671" ;
+        c:prefix     "been an inspiration to all who have met her.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/00774565-bf68-31a9-9d18-1109b5d202f6> ;
+        c:suffix     " was an amazing lady displaying a great deal of" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/75>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and Stacey Solis and her husband, Robert, of ]Los Angeles[, California; 3 great grandchildren; 7 step great]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Los Angeles" ;
+        c:length     "11" ;
+        c:offset     "2363" ;
+        c:prefix     "and Stacey Solis and her husband, Robert, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/874eaab9-7b66-36e3-9650-8de7a5001cf9> ;
+        c:suffix     ", California; 3 great grandchildren; 7 step great" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/cat/2>
+        a                    <http://s.opencalais.com/1/type/cat/DocCat> ;
+        c:docId              <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Religion_Belief" ;
+        c:score              "0.768" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Relevance/4>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> .
+
+<http://d.opencalais.com/conf/comphash-1/e6417933-98e8-365f-8f80-b92f05707205>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.805" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:resolution          "0.05522651" ;
+        c:statisticalfeature  "0.887" ;
+        c:subject             <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/54>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Edith Bray. \t Viola is survived by one son, ]Bill, and his wife, Beth, of Waynoka[; two grandchildren, Kent Wilson and his wife,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Bill, and his wife, Beth, of Waynoka" ;
+        c:length     "36" ;
+        c:offset     "1911" ;
+        c:prefix     "Edith Bray. \t Viola is survived by one son, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/f72a6fef-7d78-3bf4-a612-4e36dc5d5b28> ;
+        c:suffix     "; two grandchildren, Kent Wilson and his wife," .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/e9e27c26-4013-8712-a5f0-97dcdc412c26>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:latitude            "35.5607802899" ;
+        c:longitude           "-96.8460570462" ;
+        c:name                "Oklahoma,United States" ;
+        c:permid              "100229" ;
+        c:rcscode             "G:9H" ;
+        c:shortname           "Oklahoma" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/33>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[to be near her son, Bill and daughter-in-law, ]Beth[. \t Viola was baptized into the Baptist Church in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Beth" ;
+        c:length     "4" ;
+        c:offset     "1046" ;
+        c:prefix     "to be near her son, Bill and daughter-in-law, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/88335d28-38f8-3fd1-acdc-a5d76bd1a1dc> ;
+        c:suffix     ". \t Viola was baptized into the Baptist Church in" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/12>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ her husband, Javier, of Los Angeles, California, ]Janet Florence of San Ramon, California[, and Stacey Solis and her husband, Robert, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Janet Florence of San Ramon, California" ;
+        c:length     "39" ;
+        c:offset     "2277" ;
+        c:prefix     " her husband, Javier, of Los Angeles, California, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/300c4ea8-3eb0-39d3-883b-2e08d6546116> ;
+        c:suffix     ", and Stacey Solis and her husband, Robert, of" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/122>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Point, California, Kathy Alonzo and her husband, ]Javier, of Los Angeles, California[, Janet Florence of San Ramon, California, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Javier, of Los Angeles, California" ;
+        c:length     "34" ;
+        c:offset     "2241" ;
+        c:prefix     " Point, California, Kathy Alonzo and her husband, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/974ab2fc-0c67-322b-b97f-934fd7abab7b> ;
+        c:suffix     ", Janet Florence of San Ramon, California, and" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Relevance/27>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/b060680c-27bf-3506-9dcb-1e7bf089d825> .
+
+<http://d.opencalais.com/genericHasher-1/9e4504b4-6a72-30ed-b170-f460f380df10>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Gorman" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/101>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Texas, and passed away September 2, 2006, at ]Enid[, Oklahoma, at the age of 101 years, 2 months,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Enid" ;
+        c:length     "4" ;
+        c:offset     "447" ;
+        c:prefix     "Texas, and passed away September 2, 2006, at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/35a979c1-2108-3761-99bd-8c6f499ef6f2> ;
+        c:suffix     ", Oklahoma, at the age of 101 years, 2 months," .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/7>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Oklahoma; one brother, Gene Lewis, of Plainview, ]Texas[; four step-grandchildren, Jerry Florence and his]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "Texas" ;
+        c:length     "5" ;
+        c:offset     "2116" ;
+        c:prefix     " Oklahoma; one brother, Gene Lewis, of Plainview, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> ;
+        c:suffix     "; four step-grandchildren, Jerry Florence and his" .
+
+<http://d.opencalais.com/pershash-1/b58d3465-f8c4-3da6-aa89-1de2b4d407f1>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Javier" ;
+        c:confidencelevel    "0.965" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Javier" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088/Instance/83>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[to Garden City, then to Lakin, Kansas, where ]she[ owned and operated the Lakin Gift Nook for 35]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/dfb1f1e2-da2f-378e-aa06-0fd9c4b66088> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "854" ;
+        c:prefix     "to Garden City, then to Lakin, Kansas, where " ;
+        c:subject    <http://d.opencalais.com/pershash-1/00774565-bf68-31a9-9d18-1109b5d202f6> ;
+        c:suffix     " owned and operated the Lakin Gift Nook for 35" .

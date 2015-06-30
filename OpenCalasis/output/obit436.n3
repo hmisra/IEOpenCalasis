@@ -1,0 +1,2137 @@
+#Relations: FamilyRelation, PersonAttributes, PersonEducation, PersonLocation, PersonRelation
+#City: Dothan, Geary, Jones, Kinston, Oklahoma City, Quanah, Shawnee, Tampa
+#Company: Wentworth Mortuary LLC
+#Country: Columbia, Morocco, Philippines, Spain
+#Facility: Carmen City Cemetery, Seminole Junior College
+#IndustryTerm: Funeral services, studied accounting
+#Organization: American School of Chicago, Christian Church, Kirk Board, Norman Veterans Center, Seminole Junior College
+#Person: Barbara Lee Thomas, Barbara Thomas, Betty Lou Pinkard, Billy Joe Lawrence, Clifford Leo, David Boxley, Debra Clark, Debra Rose, Ed, Edward Ellis Thomas, Edward Lee, Michael Ellis, Michael Thomas, Murl (Lesperance)  Boxley, Robert Boxley, Rosie Murl (Lesperance), Sharon Fitzpatrick, Sharon Kay
+#ProvinceOrState: Alabama, Florida, Illinois, Kansas, Missouri, New York, Oklahoma, Texas, Washington
+@prefix c:     <http://s.opencalais.com/1/pred/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://d.opencalais.com/conf/comphash-1/a8ee0a81-b629-368a-b237-71a89306beec>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.558" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.788" ;
+        c:subject             <http://d.opencalais.com/comphash-1/a8ee0a81-b629-368a-b237-71a89306beec> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/fd6463c2-b1d4-e1b8-1112-c0b1b08f14f1>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Texas" ;
+        c:docId               <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:latitude            "34.2978" ;
+        c:longitude           "-99.74" ;
+        c:name                "Quanah,Texas,United States" ;
+        c:shortname           "Quanah" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/40924712-6849-3b4a-a7d3-658e47d2579c> .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/76>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[may be made through the funeral home to the ]Norman Veterans Center[. \n\t\t\t]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "Norman Veterans Center" ;
+        c:length     "22" ;
+        c:offset     "1846" ;
+        c:prefix     "may be made through the funeral home to the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/faa12147-c466-3e86-9878-37584197805a> ;
+        c:suffix     ". \n\t\t\t" .
+
+<http://d.opencalais.com/genericHasher-1/6a349840-e6b6-3bee-a851-bb4d7bd0aedf>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Quanah" ;
+        c:person             <http://d.opencalais.com/pershash-1/0eddd995-e940-3090-939a-6a2c8d892d3a> .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/55>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[New York, Florida, Kansas, Texas, and Oklahoma. ]She[ started her own business doing bookkeeping and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "986" ;
+        c:prefix     "New York, Florida, Kansas, Texas, and Oklahoma. " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9e1460c6-8957-38dd-bbfb-5948f6460be9> ;
+        c:suffix     " started her own business doing bookkeeping and" .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/34>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Billy Joe Lawrence of Shawnee, Oklahoma, ]Robert Boxley[ of Columbia, Missouri, and David Boxley of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "Robert Boxley" ;
+        c:length     "13" ;
+        c:offset     "1528" ;
+        c:prefix     "Billy Joe Lawrence of Shawnee, Oklahoma, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/5cf83d37-2ce7-38e5-be62-2b972786b5db> ;
+        c:suffix     " of Columbia, Missouri, and David Boxley of" .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/13>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ David Boxley of Kinston, Washington; one sister, ]Betty Lou Pinkard of Dothan, Alabama[; 6 grandchildren, Michelle, Heather, Chris,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "Betty Lou Pinkard of Dothan, Alabama" ;
+        c:length     "36" ;
+        c:offset     "1618" ;
+        c:prefix     " David Boxley of Kinston, Washington; one sister, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/dc65ac6f-7d9f-3732-878c-ed7d714c5aa5> ;
+        c:suffix     "; 6 grandchildren, Michelle, Heather, Chris," .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/1>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Billy Joe Lawrence of Shawnee, Oklahoma, ]Robert Boxley of Columbia[, Missouri, and David Boxley of Kinston,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "Robert Boxley of Columbia" ;
+        c:length     "25" ;
+        c:offset     "1528" ;
+        c:prefix     "Billy Joe Lawrence of Shawnee, Oklahoma, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/2e1edb27-4695-3b32-b76a-94f36d4a061f> ;
+        c:suffix     ", Missouri, and David Boxley of Kinston," .
+
+<http://d.opencalais.com/conf/pershash-1/5cf83d37-2ce7-38e5-be62-2b972786b5db>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/5cf83d37-2ce7-38e5-be62-2b972786b5db> .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Relevance/40>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8807c6a2-288b-371f-a9ec-6fef752ecdec> .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Relevance/1>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> .
+
+<http://d.opencalais.com/conf/pershash-1/6a3bf912-2f36-3236-a91d-7a1afb55992e>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.999" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.996" ;
+        c:subject             <http://d.opencalais.com/pershash-1/6a3bf912-2f36-3236-a91d-7a1afb55992e> .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Relevance/19>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/92f76ec9-104d-352f-ac0f-7bac76522a85> .
+
+<http://d.opencalais.com/genericHasher-1/ffa743a7-3835-3078-8cc6-0fb846035513>
+        a                    <http://s.opencalais.com/1/type/em/e/Country> ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Columbia" .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/84>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[is survived by two sons, Edward Thomas of ]Quanah[, Texas, and Michael Thomas of Edmond; two]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "Quanah" ;
+        c:length     "6" ;
+        c:offset     "1346" ;
+        c:prefix     "is survived by two sons, Edward Thomas of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/40924712-6849-3b4a-a7d3-658e47d2579c> ;
+        c:suffix     ", Texas, and Michael Thomas of Edmond; two" .
+
+<http://d.opencalais.com/genericHasher-1/e08bcc58-9e97-31e5-baca-f2cbf4f4d75b>
+        a                    <http://s.opencalais.com/1/type/em/e/Country> ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Philippines" .
+
+<http://d.opencalais.com/genericHasher-1/f12a5c54-6703-3bd6-a83d-8fa6973ef353>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Shawnee" .
+
+<http://d.opencalais.com/pershash-1/aadb5e49-8fad-3aa5-972a-1e529dd71950>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Clifford Leo" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Clifford" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Leo" ;
+        c:name               "Clifford Leo" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/63>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Boxley, was born October 11, 1935, at Geary, ]Oklahoma[, and passed away July 27, 2011, at her residence]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "370" ;
+        c:prefix     " Boxley, was born October 11, 1935, at Geary, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", and passed away July 27, 2011, at her residence" .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/42>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[American School of Chicago, Illinois, in 1954.  ]She[ attended college at Seminole Junior College and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "601" ;
+        c:prefix     "American School of Chicago, Illinois, in 1954.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/ccc687e8-0f21-39cb-a299-3a08062d15b1> ;
+        c:suffix     " attended college at Seminole Junior College and" .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/meta>
+        a                 <http://s.opencalais.com/1/type/sys/DocInfoMeta> ;
+        c:contentType     "text/raw" ;
+        c:docId           <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:language        "English" ;
+        c:processingVer   "AllMetadata" ;
+        c:serverVersion   "OneCalais_8.3-RELEASE:364" ;
+        c:signature       "digestalg-1|esQ9vN/8x1ttJvegeDpZYOvC9+s=|eIPguyyQlRobZbcRDDHC4Zx/HyxIiRQQnUQYi3EmAPvnKP11J1JYrw==" ;
+        c:stagsVer        "OneCalais_8.3-RELEASE-b11-2015-03-25_18:29:00" ;
+        c:submissionDate  "2015-05-26 17:23:06.940" ;
+        c:submitterCode   "0ca6a864-5659-789d-5f32-f365f695e757" .
+
+<http://d.opencalais.com/genericHasher-1/c3334933-1629-318e-8ccf-e973258bb3f2>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Shawnee" ;
+        c:person             <http://d.opencalais.com/pershash-1/6726cc56-a5a5-3db9-8f9c-fafb8eacbe95> .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/21>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[graduated from the American School of Chicago, ]Illinois[, in 1954.  She attended college at Seminole]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "Illinois" ;
+        c:length     "8" ;
+        c:offset     "581" ;
+        c:prefix     "graduated from the American School of Chicago, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/dd140cc8-655b-3f67-a3e2-54ed672db5a4> ;
+        c:suffix     ", in 1954.  She attended college at Seminole" .
+
+<http://d.opencalais.com/er/geo/country/ralg-geo1/217b6e5f-0a09-f648-b648-cc3d85d82da5>
+        a            <http://s.opencalais.com/1/type/er/Geo/Country> ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:latitude   "32.7502457516" ;
+        c:longitude  "-6.19156617647" ;
+        c:name       "Morocco" ;
+        c:permid     "100197" ;
+        c:rcscode    "G:8X" ;
+        c:shortname  "Morocco" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/af53f661-8673-31c2-8fb3-a6594c867308> .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Relevance/48>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/40924712-6849-3b4a-a7d3-658e47d2579c> .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/9>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[attended school in Geary and graduated from the ]American School of Chicago[, Illinois, in 1954.  She attended college at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "American School of Chicago" ;
+        c:length     "26" ;
+        c:offset     "553" ;
+        c:prefix     "attended school in Geary and graduated from the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4cf6904c-05aa-3744-9efc-095aab1c7bb0> ;
+        c:suffix     ", Illinois, in 1954.  She attended college at" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/4766a555-36b8-75a7-45f2-9ca0abd68559>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:latitude            "47.5" ;
+        c:longitude           "-120.5" ;
+        c:name                "Washington,United States" ;
+        c:permid              "100331" ;
+        c:rcscode             "G:27" ;
+        c:shortname           "Washington" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/1304fffe-f320-3911-ab13-659ed389c920> .
+
+<http://d.opencalais.com/genericHasher-1/1304fffe-f320-3911-ab13-659ed389c920>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Washington" .
+
+<http://d.opencalais.com/genericHasher-1/2e1edb27-4695-3b32-b76a-94f36d4a061f>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Columbia" ;
+        c:person             <http://d.opencalais.com/pershash-1/5cf83d37-2ce7-38e5-be62-2b972786b5db> .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Relevance/9>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/f670499a-66eb-387e-90ae-8070341237c4> .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Relevance/27>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/a2e52742-b6a2-3d56-b778-51e6c0b66481> .
+
+<http://d.opencalais.com/genericHasher-1/c6e918bf-e355-3743-9523-6ab6ec221002>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Kinston" .
+
+<http://d.opencalais.com/genericHasher-1/f670499a-66eb-387e-90ae-8070341237c4>
+        a                    <http://s.opencalais.com/1/type/em/e/IndustryTerm> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "studied accounting" .
+
+<http://d.opencalais.com/genericHasher-1/b8620f48-da64-3b29-b094-f0b9edcda36f>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oklahoma City" .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/71>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[they lived many places such as: Morocco, Spain, ]Philippines[, New York, Florida, Kansas, Texas, and Oklahoma.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "Philippines" ;
+        c:length     "11" ;
+        c:offset     "925" ;
+        c:prefix     "they lived many places such as: Morocco, Spain, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e08bcc58-9e97-31e5-baca-f2cbf4f4d75b> ;
+        c:suffix     ", New York, Florida, Kansas, Texas, and Oklahoma." .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/50>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[will be 3:00 p.m., July 30, 2011, at the Carmen ]Christian Church[ with Rev. Kirk Board officiating. Interment will]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "Christian Church" ;
+        c:length     "16" ;
+        c:offset     "84" ;
+        c:prefix     "will be 3:00 p.m., July 30, 2011, at the Carmen " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c1e14c20-7ec2-3637-872f-855b5253364e> ;
+        c:suffix     " with Rev. Kirk Board officiating. Interment will" .
+
+<http://d.opencalais.com/genericHasher-1/40924712-6849-3b4a-a7d3-658e47d2579c>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Quanah" .
+
+<http://d.opencalais.com/genericHasher-1/4629bb98-2174-34d0-9db3-27c1522d6426>
+        a                    <http://s.opencalais.com/1/type/em/e/Country> ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Spain" .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/ComponentVersions>
+        a          <http://s.opencalais.com/1/type/sys/ComponentVersions> ;
+        c:docId    <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:version  "config-physicalAssets-ports:258:258" , "config-drugs:258:258" , "BrokerResearchIM:OneCalais_8.3-RELEASE:198" , "OneCalais:OneCalais_8.3-RELEASE:364" , "People Override:258:258" , "SpanishIM:OneCalais_8.3-RELEASE:198" , "Collector:OneCalais_8.3-RELEASE:113" , "OneCalaisIM:OneCalais_8.3-RELEASE:198" , "AutocoderRuntimeIM:OneCalais_8.3-RELEASE:198" , "People Index:201505261608:201505261608" , "BlackList:264:264" , "com.clearforest.infoext.dial4j.plugins-basistechconfig:OneCalais_8.3-RELEASE:225" , "Deals Index:201505261718:201505261718" , "config-vessels:258:258" , "config-refineries:258:258" , "config-sca-DataPackage:34:34" , "SocialTags Index:201505191038:201505191038" , "OA Override:271:271" , "WatchDog:OneCalais_8.3-RELEASE:113" , "config-cse:271:271" , "Dial4J:OneCalais_8.3-RELEASE:198" , "config-negativeSignature:258:258" , "OA Index:201505252208:201505252208" , "SECHeaderMetadataIM:OneCalais_8.3-RELEASE:198" , "FrenchIM:OneCalais_8.3-RELEASE:198" , "NextTags:OneCalais_8.3-RELEASE:113" , "Housekeeper:OneCalais_8.3-RELEASE:113" , "index-vessels:201505231718:201505231718" .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/29>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[2011, at the Carmen Christian Church with Rev. ]Kirk Board[ officiating. Interment will be in the Carmen]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "Kirk Board" ;
+        c:length     "10" ;
+        c:offset     "111" ;
+        c:prefix     "2011, at the Carmen Christian Church with Rev. " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/92f76ec9-104d-352f-ac0f-7bac76522a85> ;
+        c:suffix     " officiating. Interment will be in the Carmen" .
+
+<http://d.opencalais.com/er/geo/country/ralg-geo1/c894df42-aa06-fcb0-e8e3-ff55b71b33fd>
+        a            <http://s.opencalais.com/1/type/er/Geo/Country> ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:latitude   "11.8727888889" ;
+        c:longitude  "122.861327877" ;
+        c:name       "Philippines" ;
+        c:permid     "100241" ;
+        c:rcscode    "G:7L" ;
+        c:shortname  "Philippines" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e08bcc58-9e97-31e5-baca-f2cbf4f4d75b> .
+
+<http://d.opencalais.com/conf/pershash-1/0eddd995-e940-3090-939a-6a2c8d892d3a>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.987" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.993" ;
+        c:subject             <http://d.opencalais.com/pershash-1/0eddd995-e940-3090-939a-6a2c8d892d3a> .
+
+<http://d.opencalais.com/genericHasher-1/f3762c62-9063-35c8-ac86-4174be527244>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Geary" ;
+        c:person             <http://d.opencalais.com/pershash-1/6920e242-133c-32cb-ab91-1ccd1ae83b46> .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Relevance/35>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ffa743a7-3835-3078-8cc6-0fb846035513> .
+
+<http://d.opencalais.com/pershash-1/9e1460c6-8957-38dd-bbfb-5948f6460be9>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Debra Rose" ;
+        c:confidencelevel    "0.854" ;
+        c:firstname          "Debra" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Rose" ;
+        c:name               "Debra Rose" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/7be162ca-be66-35b7-9b83-c68b63b5068e>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Geary" .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Relevance/14>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/dd140cc8-655b-3f67-a3e2-54ed672db5a4> .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/79>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Seminole Junior College and studied accounting.  ]On August 29, 1951, she was united in marriage to Edward Ellis Thomas[ in Oklahoma City. To this union four children]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "On August 29, 1951, she was united in marriage to Edward Ellis Thomas" ;
+        c:length     "69" ;
+        c:offset     "674" ;
+        c:prefix     " Seminole Junior College and studied accounting.  " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/f04f263f-952e-3b1b-8f07-e8fab814d2d0> ;
+        c:suffix     " in Oklahoma City. To this union four children" .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/58>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[before selling her business in 1995.  In 1997, ]she[ and Ed traveled full time in their RV before]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "1125" ;
+        c:prefix     "before selling her business in 1995.  In 1997, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9e1460c6-8957-38dd-bbfb-5948f6460be9> ;
+        c:suffix     " and Ed traveled full time in their RV before" .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/37>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Sharon Fitzpatrick of Tampa, Florida, and ]Debra Clark[ of Edmond; three brothers, Billy Joe Lawrence of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "Debra Clark" ;
+        c:length     "11" ;
+        c:offset     "1448" ;
+        c:prefix     "Sharon Fitzpatrick of Tampa, Florida, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/4ae31c48-fa42-338f-b237-5d55856e9079> ;
+        c:suffix     " of Edmond; three brothers, Billy Joe Lawrence of" .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/16>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ of Edmond; three brothers, Billy Joe Lawrence of ]Shawnee[, Oklahoma, Robert Boxley of Columbia, Missouri,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "Shawnee" ;
+        c:length     "7" ;
+        c:offset     "1509" ;
+        c:prefix     " of Edmond; three brothers, Billy Joe Lawrence of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/f12a5c54-6703-3bd6-a83d-8fa6973ef353> ;
+        c:suffix     ", Oklahoma, Robert Boxley of Columbia, Missouri," .
+
+<http://d.opencalais.com/genericHasher-1/b5bf3113-97ac-319c-a20d-308c716c8d7b>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Florida" .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/4>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Morocco, Spain, Philippines, New York, Florida, ]Kansas[, Texas, and Oklahoma. She started her own]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "Kansas" ;
+        c:length     "6" ;
+        c:offset     "957" ;
+        c:prefix     "Morocco, Spain, Philippines, New York, Florida, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> ;
+        c:suffix     ", Texas, and Oklahoma. She started her own" .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Relevance/43>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/faa12147-c466-3e86-9878-37584197805a> .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Relevance/4>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/d29f86a5-5dfe-3f84-9d1c-9013f481390b> .
+
+<http://d.opencalais.com/genericHasher-1/873dd82e-0874-3bb9-955e-dc0600362d72>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Alabama" .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Relevance/22>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/b7c6fd3e-d672-391a-95f1-026e301c40ae> .
+
+<http://d.opencalais.com/pershash-1/553fe5c5-2f78-3a4c-9dd2-5afbf9e8481c>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Betty Lou Pinkard" ;
+        c:confidencelevel    "0.998" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Betty Lou Pinkard" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/4cf6904c-05aa-3744-9efc-095aab1c7bb0>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "American School of Chicago" ;
+        c:nationality        "American" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/66>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ business doing bookkeeping and taxes in Shawnee, ]Oklahoma[, for 18 years before selling her business in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "1055" ;
+        c:prefix     " business doing bookkeeping and taxes in Shawnee, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", for 18 years before selling her business in" .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/45>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Robert Boxley of Columbia, Missouri, and ]David Boxley of Kinston, Washington[; one sister, Betty Lou Pinkard of Dothan,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "David Boxley of Kinston, Washington" ;
+        c:length     "35" ;
+        c:offset     "1569" ;
+        c:prefix     "Robert Boxley of Columbia, Missouri, and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/40821546-2fd1-367b-acc5-50e9b4c91fad> ;
+        c:suffix     "; one sister, Betty Lou Pinkard of Dothan," .
+
+<http://d.opencalais.com/conf/pershash-1/b7c6fd3e-d672-391a-95f1-026e301c40ae>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.998" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/b7c6fd3e-d672-391a-95f1-026e301c40ae> .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/24>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Columbia, Missouri, and David Boxley of ]Kinston[, Washington; one sister, Betty Lou Pinkard of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "Kinston" ;
+        c:length     "7" ;
+        c:offset     "1585" ;
+        c:prefix     "of Columbia, Missouri, and David Boxley of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c6e918bf-e355-3743-9523-6ab6ec221002> ;
+        c:suffix     ", Washington; one sister, Betty Lou Pinkard of" .
+
+<http://d.opencalais.com/genericHasher-1/7111db9b-e883-3b0d-a63d-bfc1384e6449>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Tampa" ;
+        c:person             <http://d.opencalais.com/pershash-1/a2e52742-b6a2-3d56-b778-51e6c0b66481> .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Relevance/30>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/bc308085-dc60-3857-87eb-12c06fccb34b> .
+
+<http://d.opencalais.com/genericHasher-1/2b9fdedf-9d7c-3951-ac06-b05911a2111d>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "husband" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/9e1460c6-8957-38dd-bbfb-5948f6460be9> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/44c9b3c9-cb69-36ca-9471-acac2c800557> .
+
+<http://d.opencalais.com/pershash-1/44c9b3c9-cb69-36ca-9471-acac2c800557>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Ed" ;
+        c:confidencelevel    "0.939" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Ed" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/pershash-1/6920e242-133c-32cb-ab91-1ccd1ae83b46>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Murl Boxley" ;
+        c:confidencelevel    "0.696" ;
+        c:firstname          "Murl" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Boxley" ;
+        c:name               "Murl (Lesperance) Boxley" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/74>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[military family they lived many places such as: ]Morocco[, Spain, Philippines, New York, Florida, Kansas,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "Morocco" ;
+        c:length     "7" ;
+        c:offset     "909" ;
+        c:prefix     "military family they lived many places such as: " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/af53f661-8673-31c2-8fb3-a6594c867308> ;
+        c:suffix     ", Spain, Philippines, New York, Florida, Kansas," .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/2464781f-2743-853b-bb3a-0b37152c849e>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:latitude            "42.3481810333" ;
+        c:longitude           "-75.1889929444" ;
+        c:name                "New York,United States" ;
+        c:permid              "100211" ;
+        c:rcscode             "G:6S" ;
+        c:shortname           "New York" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/5fc67ecf-e49d-3ab4-aaad-9cff97f00ffe> .
+
+<http://d.opencalais.com/genericHasher-1/f04f263f-952e-3b1b-8f07-e8fab814d2d0>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:date                "1951-08-29" ;
+        c:datestring          "August 29, 1951" ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/0eddd995-e940-3090-939a-6a2c8d892d3a> , <http://d.opencalais.com/pershash-1/ccc687e8-0f21-39cb-a299-3a08062d15b1> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/53>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[18, 2011. \t Barbara is survived by two sons, ]Edward Thomas[ of Quanah, Texas, and Michael Thomas of Edmond;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "Edward Thomas" ;
+        c:length     "13" ;
+        c:offset     "1329" ;
+        c:prefix     "18, 2011. \t Barbara is survived by two sons, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/0eddd995-e940-3090-939a-6a2c8d892d3a> ;
+        c:suffix     " of Quanah, Texas, and Michael Thomas of Edmond;" .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/32>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Columbia, Missouri, and David Boxley of Kinston, ]Washington[; one sister, Betty Lou Pinkard of Dothan,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "Washington" ;
+        c:length     "10" ;
+        c:offset     "1594" ;
+        c:prefix     " Columbia, Missouri, and David Boxley of Kinston, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/1304fffe-f320-3911-ab13-659ed389c920> ;
+        c:suffix     "; one sister, Betty Lou Pinkard of Dothan," .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/11>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[one sister, Betty Lou Pinkard of Dothan, ]Alabama[; 6 grandchildren, Michelle, Heather, Chris,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "Alabama" ;
+        c:length     "7" ;
+        c:offset     "1647" ;
+        c:prefix     "one sister, Betty Lou Pinkard of Dothan, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/873dd82e-0874-3bb9-955e-dc0600362d72> ;
+        c:suffix     "; 6 grandchildren, Michelle, Heather, Chris," .
+
+<http://d.opencalais.com/pershash-1/6726cc56-a5a5-3db9-8f9c-fafb8eacbe95>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Billy Joe Lawrence" ;
+        c:confidencelevel    "0.988" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Billy Joe Lawrence" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Relevance/38>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/1d913277-9046-32c1-8889-a3ea1ea9f995> .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Relevance/17>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/7be162ca-be66-35b7-9b83-c68b63b5068e> .
+
+<http://d.opencalais.com/conf/pershash-1/aadb5e49-8fad-3aa5-972a-1e529dd71950>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/aadb5e49-8fad-3aa5-972a-1e529dd71950> .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/82>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[family they lived many places such as: Morocco, ]Spain[, Philippines, New York, Florida, Kansas, Texas,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "Spain" ;
+        c:length     "5" ;
+        c:offset     "918" ;
+        c:prefix     "family they lived many places such as: Morocco, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4629bb98-2174-34d0-9db3-27c1522d6426> ;
+        c:suffix     ", Philippines, New York, Florida, Kansas, Texas," .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/61>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[her parents, she was preceded in death by ]her[ husband, Ed, on  March 18, 2011. \t Barbara is]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1257" ;
+        c:prefix     "her parents, she was preceded in death by " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9e1460c6-8957-38dd-bbfb-5948f6460be9> ;
+        c:suffix     " husband, Ed, on  March 18, 2011. \t Barbara is" .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/40>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Wentworth Mortuary, LLC, of Carmen. \t ]Barbara Lee Thomas[, daughter of the late Clifford Leo and Rosie]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "Barbara Lee Thomas" ;
+        c:length     "18" ;
+        c:offset     "242" ;
+        c:prefix     "of Wentworth Mortuary, LLC, of Carmen. \t " ;
+        c:subject    <http://d.opencalais.com/pershash-1/ccc687e8-0f21-39cb-a299-3a08062d15b1> ;
+        c:suffix     ", daughter of the late Clifford Leo and Rosie" .
+
+<http://d.opencalais.com/pershash-1/a2e52742-b6a2-3d56-b778-51e6c0b66481>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Sharon Fitzpatrick" ;
+        c:confidencelevel    "0.983" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Sharon Fitzpatrick" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/19>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Illinois, in 1954.  She attended college at ]Seminole Junior College[ and studied accounting.  On August 29, 1951, she]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "Seminole Junior College" ;
+        c:length     "23" ;
+        c:offset     "625" ;
+        c:prefix     "Illinois, in 1954.  She attended college at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/47307ba8-41d8-3063-bcb0-e9a9a64d9054> ;
+        c:suffix     " and studied accounting.  On August 29, 1951, she" .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/7>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Thomas, daughter of the late Clifford Leo and ]Rosie Murl (Lesperance)[  Boxley, was born October 11, 1935, at Geary,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "Rosie Murl (Lesperance)" ;
+        c:length     "23" ;
+        c:offset     "300" ;
+        c:prefix     "Thomas, daughter of the late Clifford Leo and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/d29f86a5-5dfe-3f84-9d1c-9013f481390b> ;
+        c:suffix     "  Boxley, was born October 11, 1935, at Geary," .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Relevance/46>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/6920e242-133c-32cb-ab91-1ccd1ae83b46> .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Relevance/7>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/873dd82e-0874-3bb9-955e-dc0600362d72> .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Relevance/25>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/4ae31c48-fa42-338f-b237-5d55856e9079> .
+
+<http://d.opencalais.com/pershash-1/0eddd995-e940-3090-939a-6a2c8d892d3a>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Edward Ellis Thomas" ;
+        c:confidencelevel    "0.987" ;
+        c:firstname          "Edward" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Thomas" ;
+        c:middlename         "Ellis" ;
+        c:name               "Edward Ellis Thomas" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/69>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[16 days. \t Barbara attended school in Geary and ]graduated from the American School of Chicago, Illinois, in 1954[.  She attended college at Seminole Junior]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "graduated from the American School of Chicago, Illinois, in 1954" ;
+        c:length     "64" ;
+        c:offset     "534" ;
+        c:prefix     "16 days. \t Barbara attended school in Geary and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/450064fe-427e-33e1-a4b4-f22f75ed6a96> ;
+        c:suffix     ".  She attended college at Seminole Junior" .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/48>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and Michael Thomas of Edmond; two daughters, ]Sharon Fitzpatrick of Tampa, Florida[, and Debra Clark of Edmond; three brothers,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "Sharon Fitzpatrick of Tampa, Florida" ;
+        c:length     "36" ;
+        c:offset     "1406" ;
+        c:prefix     "and Michael Thomas of Edmond; two daughters, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/7111db9b-e883-3b0d-a63d-bfc1384e6449> ;
+        c:suffix     ", and Debra Clark of Edmond; three brothers," .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/27>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[places such as: Morocco, Spain, Philippines, ]New York[, Florida, Kansas, Texas, and Oklahoma. She]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "New York" ;
+        c:length     "8" ;
+        c:offset     "938" ;
+        c:prefix     "places such as: Morocco, Spain, Philippines, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/5fc67ecf-e49d-3ab4-aaad-9cff97f00ffe> ;
+        c:suffix     ", Florida, Kansas, Texas, and Oklahoma. She" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/22a2e9d4-42cf-58a2-d8d3-3269b69ad67a>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:latitude            "38.5" ;
+        c:longitude           "-92.5" ;
+        c:name                "Missouri,United States" ;
+        c:permid              "100190" ;
+        c:rcscode             "G:45" ;
+        c:shortname           "Missouri" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/4b59c1ad-8092-34d5-b763-a43226a1836c> .
+
+<http://d.opencalais.com/conf/pershash-1/9e1460c6-8957-38dd-bbfb-5948f6460be9>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.854" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.919" ;
+        c:subject             <http://d.opencalais.com/pershash-1/9e1460c6-8957-38dd-bbfb-5948f6460be9> .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/8c0c06e3-21a3-0c87-67ee-6791af27a9ef>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:latitude            "32.9865857394" ;
+        c:longitude           "-86.7415782668" ;
+        c:name                "Alabama,United States" ;
+        c:permid              "100005" ;
+        c:rcscode             "G:9K" ;
+        c:shortname           "Alabama" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/873dd82e-0874-3bb9-955e-dc0600362d72> .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Relevance/33>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/0eddd995-e940-3090-939a-6a2c8d892d3a> .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Relevance/12>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b8620f48-da64-3b29-b094-f0b9edcda36f> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/f536b450-7ecc-ff72-a8d4-2adcb863ce02>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:latitude            "35.6311" ;
+        c:longitude           "-98.3169" ;
+        c:name                "Geary,Oklahoma,United States" ;
+        c:shortname           "Geary" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/7be162ca-be66-35b7-9b83-c68b63b5068e> .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/lid/DefaultLangId>
+        a                    <http://s.opencalais.com/1/type/lid/DefaultLangId> ;
+        c:docId              <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:forenduserdisplay  "false" ;
+        c:lang               <http://d.opencalais.com/lid/DefaultLangId/English> ;
+        c:permid             "505062" .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/77>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[such as: Morocco, Spain, Philippines, New York, ]Florida[, Kansas, Texas, and Oklahoma. She started her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "Florida" ;
+        c:length     "7" ;
+        c:offset     "948" ;
+        c:prefix     "such as: Morocco, Spain, Philippines, New York, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b5bf3113-97ac-319c-a20d-308c716c8d7b> ;
+        c:suffix     ", Kansas, Texas, and Oklahoma. She started her" .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/56>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Kansas, Texas, and Oklahoma. She started ]her[ own business doing bookkeeping and taxes in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "998" ;
+        c:prefix     "Kansas, Texas, and Oklahoma. She started " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9e1460c6-8957-38dd-bbfb-5948f6460be9> ;
+        c:suffix     " own business doing bookkeeping and taxes in" .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/35>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[selling her business in 1995.  In 1997, she and ]Ed[ traveled full time in their RV before moving]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "Ed" ;
+        c:length     "2" ;
+        c:offset     "1133" ;
+        c:prefix     "selling her business in 1995.  In 1997, she and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/44c9b3c9-cb69-36ca-9471-acac2c800557> ;
+        c:suffix     " traveled full time in their RV before moving" .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/14>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[attended college at Seminole Junior College and ]studied accounting[.  On August 29, 1951, she was united in marriage]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "studied accounting" ;
+        c:length     "18" ;
+        c:offset     "653" ;
+        c:prefix     "attended college at Seminole Junior College and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/f670499a-66eb-387e-90ae-8070341237c4> ;
+        c:suffix     ".  On August 29, 1951, she was united in marriage" .
+
+<http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Kansas" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/62914270-0a1c-1bcc-880e-6dbe9fb82eb9>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:latitude            "31.4484328889" ;
+        c:longitude           "-97.7816569778" ;
+        c:name                "Texas,United States" ;
+        c:permid              "100299" ;
+        c:rcscode             "G:50" ;
+        c:shortname           "Texas" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/2>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Spain, Philippines, New York, Florida, Kansas, ]Texas[, and Oklahoma. She started her own business]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "Texas" ;
+        c:length     "5" ;
+        c:offset     "965" ;
+        c:prefix     "Spain, Philippines, New York, Florida, Kansas, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> ;
+        c:suffix     ", and Oklahoma. She started her own business" .
+
+<http://d.opencalais.com/genericHasher-1/faa12147-c466-3e86-9878-37584197805a>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Norman Veterans Center" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Relevance/41>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/af53f661-8673-31c2-8fb3-a6594c867308> .
+
+<http://d.opencalais.com/conf/pershash-1/553fe5c5-2f78-3a4c-9dd2-5afbf9e8481c>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.998" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.999" ;
+        c:subject             <http://d.opencalais.com/pershash-1/553fe5c5-2f78-3a4c-9dd2-5afbf9e8481c> .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Relevance/2>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Relevance/20>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/f617b146-e783-3f57-ae11-ad97c5bca527> .
+
+<http://d.opencalais.com/pershash-1/1b7f6b3d-a8ad-39ae-85d4-48bdd6f3e02d>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Sharon Kay" ;
+        c:confidencelevel    "0.975" ;
+        c:firstname          "Sharon" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Kay" ;
+        c:name               "Sharon Kay" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/85>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Illinois, in 1954.  She attended college at ]Seminole Junior College[ and studied accounting.  On August 29, 1951, she]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "Seminole Junior College" ;
+        c:length     "23" ;
+        c:offset     "625" ;
+        c:prefix     "Illinois, in 1954.  She attended college at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/5efac0a8-d9e3-375a-b0c4-4640feab9f27> ;
+        c:suffix     " and studied accounting.  On August 29, 1951, she" .
+
+<http://d.opencalais.com/er/geo/country/ralg-geo1/1747d4b2-dd4b-cd66-6e2d-f31563d22dbe>
+        a            <http://s.opencalais.com/1/type/er/Geo/Country> ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:latitude   "40.6985822539" ;
+        c:longitude  "-3.29494619839" ;
+        c:name       "Spain" ;
+        c:permid     "100280" ;
+        c:rcscode    "G:55" ;
+        c:shortname  "Spain" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4629bb98-2174-34d0-9db3-27c1522d6426> .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/64>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[away July 27, 2011, at her residence in Jones, ]Oklahoma[, at the age of 75 years, 9 months, and 16 days.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "438" ;
+        c:prefix     "away July 27, 2011, at her residence in Jones, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", at the age of 75 years, 9 months, and 16 days." .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/43>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and studied accounting.  On August 29, 1951, ]she[ was united in marriage to Edward Ellis Thomas in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "694" ;
+        c:prefix     "and studied accounting.  On August 29, 1951, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/ccc687e8-0f21-39cb-a299-3a08062d15b1> ;
+        c:suffix     " was united in marriage to Edward Ellis Thomas in" .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/22>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[her parents, she was preceded in death by ]her husband, Ed[, on  March 18, 2011. \t Barbara is survived by]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "her husband, Ed" ;
+        c:length     "15" ;
+        c:offset     "1257" ;
+        c:prefix     "her parents, she was preceded in death by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9a61df26-b26f-3d8f-bdd2-2ba04e8b229a> ;
+        c:suffix     ", on  March 18, 2011. \t Barbara is survived by" .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Relevance/49>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/5efac0a8-d9e3-375a-b0c4-4640feab9f27> .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Relevance/28>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/ccc687e8-0f21-39cb-a299-3a08062d15b1> .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/cat/1>
+        a                    <http://s.opencalais.com/1/type/cat/DocCat> ;
+        c:docId              <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Human Interest" ;
+        c:score              "0.918" .
+
+<http://d.opencalais.com/conf/pershash-1/44c9b3c9-cb69-36ca-9471-acac2c800557>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.939" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.811" ;
+        c:subject             <http://d.opencalais.com/pershash-1/44c9b3c9-cb69-36ca-9471-acac2c800557> .
+
+<http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Texas" .
+
+<http://d.opencalais.com/conf/pershash-1/6920e242-133c-32cb-ab91-1ccd1ae83b46>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.696" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.744" ;
+        c:subject             <http://d.opencalais.com/pershash-1/6920e242-133c-32cb-ab91-1ccd1ae83b46> .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/72>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[passed away July 27, 2011, at her residence in ]Jones[, Oklahoma, at the age of 75 years, 9 months, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "Jones" ;
+        c:length     "5" ;
+        c:offset     "431" ;
+        c:prefix     "passed away July 27, 2011, at her residence in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8807c6a2-288b-371f-a9ec-6fef752ecdec> ;
+        c:suffix     ", Oklahoma, at the age of 75 years, 9 months, and" .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/51>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and Debra Clark of Edmond; three brothers, ]Billy Joe Lawrence of Shawnee, Oklahoma[, Robert Boxley of Columbia, Missouri, and David]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "Billy Joe Lawrence of Shawnee, Oklahoma" ;
+        c:length     "39" ;
+        c:offset     "1487" ;
+        c:prefix     "and Debra Clark of Edmond; three brothers, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c3334933-1629-318e-8ccf-e973258bb3f2> ;
+        c:suffix     ", Robert Boxley of Columbia, Missouri, and David" .
+
+<http://d.opencalais.com/genericHasher-1/40821546-2fd1-367b-acc5-50e9b4c91fad>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Kinston" ;
+        c:person             <http://d.opencalais.com/pershash-1/2440346b-70ca-3667-bdb9-af84c0bc20c6> .
+
+<http://d.opencalais.com/conf/pershash-1/6726cc56-a5a5-3db9-8f9c-fafb8eacbe95>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.988" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.993" ;
+        c:subject             <http://d.opencalais.com/pershash-1/6726cc56-a5a5-3db9-8f9c-fafb8eacbe95> .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/30>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[daughter of the late Clifford Leo and Rosie ]Murl (Lesperance)  Boxley, was born October 11, 1935, at Geary, Oklahoma[, and passed away July 27, 2011, at her residence]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "Murl (Lesperance)  Boxley, was born October 11, 1935, at Geary, Oklahoma" ;
+        c:length     "72" ;
+        c:offset     "306" ;
+        c:prefix     "daughter of the late Clifford Leo and Rosie " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/f3762c62-9063-35c8-ac86-4174be527244> ;
+        c:suffix     ", and passed away July 27, 2011, at her residence" .
+
+<http://d.opencalais.com/pershash-1/2440346b-70ca-3667-bdb9-af84c0bc20c6>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "David Boxley" ;
+        c:confidencelevel    "0.993" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "David Boxley" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/ead8a759-31d2-262c-540f-e93fc56b22eb>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:latitude            "28.0908069444" ;
+        c:longitude           "-81.960407533" ;
+        c:name                "Florida,United States" ;
+        c:permid              "100104" ;
+        c:rcscode             "G:4X" ;
+        c:shortname           "Florida" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/b5bf3113-97ac-319c-a20d-308c716c8d7b> .
+
+<http://d.opencalais.com/genericHasher-1/8807c6a2-288b-371f-a9ec-6fef752ecdec>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Jones" .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Relevance/36>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Relevance/15>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/52f06da9-a2d1-3490-aa54-9f8b91e94324> .
+
+<http://d.opencalais.com/genericHasher-1/5efac0a8-d9e3-375a-b0c4-4640feab9f27>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Seminole Junior College" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/80>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ David Boxley of Kinston, Washington; one sister, ]Betty Lou Pinkard[ of Dothan, Alabama; 6 grandchildren, Michelle,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "Betty Lou Pinkard" ;
+        c:length     "17" ;
+        c:offset     "1618" ;
+        c:prefix     " David Boxley of Kinston, Washington; one sister, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/553fe5c5-2f78-3a4c-9dd2-5afbf9e8481c> ;
+        c:suffix     " of Dothan, Alabama; 6 grandchildren, Michelle," .
+
+<http://d.opencalais.com/conf/pershash-1/a2e52742-b6a2-3d56-b778-51e6c0b66481>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.983" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.99" ;
+        c:subject             <http://d.opencalais.com/pershash-1/a2e52742-b6a2-3d56-b778-51e6c0b66481> .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/59>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[before moving back to Edmond in 2009. \t Besides ]her[ parents, she was preceded in death by her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1215" ;
+        c:prefix     "before moving back to Edmond in 2009. \t Besides " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9e1460c6-8957-38dd-bbfb-5948f6460be9> ;
+        c:suffix     " parents, she was preceded in death by her" .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/38>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ of Shawnee, Oklahoma, Robert Boxley of Columbia, ]Missouri[, and David Boxley of Kinston, Washington; one]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "Missouri" ;
+        c:length     "8" ;
+        c:offset     "1555" ;
+        c:prefix     " of Shawnee, Oklahoma, Robert Boxley of Columbia, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4b59c1ad-8092-34d5-b763-a43226a1836c> ;
+        c:suffix     ", and David Boxley of Kinston, Washington; one" .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/17>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and Debra Clark of Edmond; three brothers, ]Billy Joe Lawrence[ of Shawnee, Oklahoma, Robert Boxley of Columbia,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "Billy Joe Lawrence" ;
+        c:length     "18" ;
+        c:offset     "1487" ;
+        c:prefix     "and Debra Clark of Edmond; three brothers, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6726cc56-a5a5-3db9-8f9c-fafb8eacbe95> ;
+        c:suffix     " of Shawnee, Oklahoma, Robert Boxley of Columbia," .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/5>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[August 29, 1951, she was united in marriage to ]Edward Ellis Thomas in Oklahoma City[. To this union four children were born: Sharon]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "Edward Ellis Thomas in Oklahoma City" ;
+        c:length     "36" ;
+        c:offset     "724" ;
+        c:prefix     "August 29, 1951, she was united in marriage to " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c7cf1662-d497-364a-8bc9-ff6bde315a4e> ;
+        c:suffix     ". To this union four children were born: Sharon" .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Relevance/44>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b5bf3113-97ac-319c-a20d-308c716c8d7b> .
+
+<http://d.opencalais.com/genericHasher-1/45942f18-8a3b-3dd5-bc4b-1530d97afca3>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Dothan" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/8d84c3e5-eddc-ba86-388e-c37d20ca05da>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:latitude            "35.5658" ;
+        c:longitude           "-97.2867" ;
+        c:name                "Jones,Oklahoma,United States" ;
+        c:shortname           "Jones" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/8807c6a2-288b-371f-a9ec-6fef752ecdec> .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Relevance/5>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4cf6904c-05aa-3744-9efc-095aab1c7bb0> .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Relevance/23>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/5cf83d37-2ce7-38e5-be62-2b972786b5db> .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/67>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[three brothers, Billy Joe Lawrence of Shawnee, ]Oklahoma[, Robert Boxley of Columbia, Missouri, and David]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "1518" ;
+        c:prefix     "three brothers, Billy Joe Lawrence of Shawnee, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", Robert Boxley of Columbia, Missouri, and David" .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/46>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Robert Boxley of Columbia, Missouri, and ]David Boxley[ of Kinston, Washington; one sister, Betty Lou]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "David Boxley" ;
+        c:length     "12" ;
+        c:offset     "1569" ;
+        c:prefix     "Robert Boxley of Columbia, Missouri, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/2440346b-70ca-3667-bdb9-af84c0bc20c6> ;
+        c:suffix     " of Kinston, Washington; one sister, Betty Lou" .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/25>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Boxley, was born October 11, 1935, at ]Geary[, Oklahoma, and passed away July 27, 2011, at her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "Geary" ;
+        c:length     "5" ;
+        c:offset     "363" ;
+        c:prefix     " Boxley, was born October 11, 1935, at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/7be162ca-be66-35b7-9b83-c68b63b5068e> ;
+        c:suffix     ", Oklahoma, and passed away July 27, 2011, at her" .
+
+<http://d.opencalais.com/genericHasher-1/4b59c1ad-8092-34d5-b763-a43226a1836c>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Missouri" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/82e662d9-003c-9162-cb10-0da07ead1abc>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:latitude            "35.3272" ;
+        c:longitude           "-96.925" ;
+        c:name                "Shawnee,Oklahoma,United States" ;
+        c:shortname           "Shawnee" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/f12a5c54-6703-3bd6-a83d-8fa6973ef353> .
+
+<http://d.opencalais.com/genericHasher-1/1d913277-9046-32c1-8889-a3ea1ea9f995>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Tampa" .
+
+<http://d.opencalais.com/er/geo/country/ralg-geo1/25446782-e2cc-af0a-fdb0-3e5d61d0fbb9>
+        a            <http://s.opencalais.com/1/type/er/Geo/Country> ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:latitude   "5.06888975297" ;
+        c:longitude  "-74.5263342826" ;
+        c:name       "Colombia" ;
+        c:permid     "100067" ;
+        c:rcscode    "G:2S" ;
+        c:shortname  "Colombia" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ffa743a7-3835-3078-8cc6-0fb846035513> .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Relevance/31>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/45942f18-8a3b-3dd5-bc4b-1530d97afca3> .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Relevance/10>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/f12a5c54-6703-3bd6-a83d-8fa6973ef353> .
+
+<http://d.opencalais.com/genericHasher-1/47307ba8-41d8-3063-bcb0-e9a9a64d9054>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Seminole Junior College" .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/75>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ by two sons, Edward Thomas of Quanah, Texas, and ]Michael Thomas[ of Edmond; two daughters, Sharon Fitzpatrick of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "Michael Thomas" ;
+        c:length     "14" ;
+        c:offset     "1365" ;
+        c:prefix     " by two sons, Edward Thomas of Quanah, Texas, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6a3bf912-2f36-3236-a91d-7a1afb55992e> ;
+        c:suffix     " of Edmond; two daughters, Sharon Fitzpatrick of" .
+
+<http://d.opencalais.com/genericHasher-1/cada27b6-d2cc-371d-9e8e-938321875664>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonAttributes> ;
+        c:birthdate          "1935-10-11" ;
+        c:birthplace         <http://d.opencalais.com/genericHasher-1/7be162ca-be66-35b7-9b83-c68b63b5068e> ;
+        c:forenduserdisplay  "false" ;
+        c:gender             "M" ;
+        c:person             <http://d.opencalais.com/pershash-1/6920e242-133c-32cb-ab91-1ccd1ae83b46> .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/54>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[this union four children were born: Sharon Kay, ]Debra Rose[, Edward Lee, and Michael Ellis. As a military]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "Debra Rose" ;
+        c:length     "10" ;
+        c:offset     "813" ;
+        c:prefix     "this union four children were born: Sharon Kay, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9e1460c6-8957-38dd-bbfb-5948f6460be9> ;
+        c:suffix     ", Edward Lee, and Michael Ellis. As a military" .
+
+<http://d.opencalais.com/pershash-1/d29f86a5-5dfe-3f84-9d1c-9013f481390b>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Rosie Murl" ;
+        c:confidencelevel    "0.981" ;
+        c:firstname          "Rosie" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Murl" ;
+        c:name               "Rosie Murl (Lesperance)" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/pershash-1/ccc687e8-0f21-39cb-a299-3a08062d15b1>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Barbara Lee Thomas" ;
+        c:confidencelevel    "0.993" ;
+        c:firstname          "Barbara" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Thomas" ;
+        c:middlename         "Lee" ;
+        c:name               "Barbara Lee Thomas" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/33>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[born: Sharon Kay, Debra Rose, Edward Lee, and ]Michael Ellis[. As a military family they lived many places]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "Michael Ellis" ;
+        c:length     "13" ;
+        c:offset     "841" ;
+        c:prefix     "born: Sharon Kay, Debra Rose, Edward Lee, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b7c6fd3e-d672-391a-95f1-026e301c40ae> ;
+        c:suffix     ". As a military family they lived many places" .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/12>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[]Funeral services[ for Barbara Thomas will be 3:00 p.m., July 30,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "Funeral services" ;
+        c:length     "16" ;
+        c:offset     "0" ;
+        c:prefix     "" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee> ;
+        c:suffix     " for Barbara Thomas will be 3:00 p.m., July 30," .
+
+<http://d.opencalais.com/genericHasher-1/450064fe-427e-33e1-a4b4-f22f75ed6a96>
+        a                       <http://s.opencalais.com/1/type/em/r/PersonEducation> ;
+        c:forenduserdisplay     "false" ;
+        c:person                <http://d.opencalais.com/pershash-1/ccc687e8-0f21-39cb-a299-3a08062d15b1> ;
+        c:schoolororganization  "American School of Chicago" .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Relevance/39>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e08bcc58-9e97-31e5-baca-f2cbf4f4d75b> .
+
+<http://d.opencalais.com/conf/pershash-1/1b7f6b3d-a8ad-39ae-85d4-48bdd6f3e02d>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.975" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/1b7f6b3d-a8ad-39ae-85d4-48bdd6f3e02d> .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Relevance/18>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/5fc67ecf-e49d-3ab4-aaad-9cff97f00ffe> .
+
+<http://d.opencalais.com/genericHasher-1/e8057497-d098-3b9e-9aa8-79c39e0abf83>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Jones" ;
+        c:person             <http://d.opencalais.com/pershash-1/d29f86a5-5dfe-3f84-9d1c-9013f481390b> .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/83>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[her parents, she was preceded in death by ]her husband, Ed[, on  March 18, 2011. \t Barbara is survived by]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "her husband, Ed" ;
+        c:length     "15" ;
+        c:offset     "1257" ;
+        c:prefix     "her parents, she was preceded in death by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/2b9fdedf-9d7c-3951-ac06-b05911a2111d> ;
+        c:suffix     ", on  March 18, 2011. \t Barbara is survived by" .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/62>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Lawrence of Shawnee, Oklahoma, Robert Boxley of ]Columbia[, Missouri, and David Boxley of Kinston,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "Columbia" ;
+        c:length     "8" ;
+        c:offset     "1545" ;
+        c:prefix     "Lawrence of Shawnee, Oklahoma, Robert Boxley of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ffa743a7-3835-3078-8cc6-0fb846035513> ;
+        c:suffix     ", Missouri, and David Boxley of Kinston," .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/41>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ at the age of 75 years, 9 months, and 16 days. \t ]Barbara[ attended school in Geary and graduated from the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "Barbara" ;
+        c:length     "7" ;
+        c:offset     "497" ;
+        c:prefix     " at the age of 75 years, 9 months, and 16 days. \t " ;
+        c:subject    <http://d.opencalais.com/pershash-1/ccc687e8-0f21-39cb-a299-3a08062d15b1> ;
+        c:suffix     " attended school in Geary and graduated from the" .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/20>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[18, 2011. \t Barbara is survived by two sons, ]Edward Thomas of Quanah, Texas[, and Michael Thomas of Edmond; two daughters,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "Edward Thomas of Quanah, Texas" ;
+        c:length     "30" ;
+        c:offset     "1329" ;
+        c:prefix     "18, 2011. \t Barbara is survived by two sons, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/6a349840-e6b6-3bee-a851-bb4d7bd0aedf> ;
+        c:suffix     ", and Michael Thomas of Edmond; two daughters," .
+
+<http://d.opencalais.com/pershash-1/4ae31c48-fa42-338f-b237-5d55856e9079>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Debra Clark" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Debra" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Clark" ;
+        c:name               "Debra Clark" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/8>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Oklahoma, and passed away July 27, 2011, at ]her[ residence in Jones, Oklahoma, at the age of 75]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "414" ;
+        c:prefix     "Oklahoma, and passed away July 27, 2011, at " ;
+        c:subject    <http://d.opencalais.com/pershash-1/d29f86a5-5dfe-3f84-9d1c-9013f481390b> ;
+        c:suffix     " residence in Jones, Oklahoma, at the age of 75" .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Relevance/47>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4629bb98-2174-34d0-9db3-27c1522d6426> .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Relevance/8>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee> .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Relevance/26>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4b59c1ad-8092-34d5-b763-a43226a1836c> .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/70>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Edmond; two daughters, Sharon Fitzpatrick of ]Tampa[, Florida, and Debra Clark of Edmond; three]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "Tampa" ;
+        c:length     "5" ;
+        c:offset     "1428" ;
+        c:prefix     "of Edmond; two daughters, Sharon Fitzpatrick of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/1d913277-9046-32c1-8889-a3ea1ea9f995> ;
+        c:suffix     ", Florida, and Debra Clark of Edmond; three" .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/49>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Washington; one sister, Betty Lou Pinkard of ]Dothan[, Alabama; 6 grandchildren, Michelle, Heather,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "Dothan" ;
+        c:length     "6" ;
+        c:offset     "1639" ;
+        c:prefix     "Washington; one sister, Betty Lou Pinkard of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/45942f18-8a3b-3dd5-bc4b-1530d97afca3> ;
+        c:suffix     ", Alabama; 6 grandchildren, Michelle, Heather," .
+
+<http://d.opencalais.com/conf/pershash-1/2440346b-70ca-3667-bdb9-af84c0bc20c6>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.993" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.99" ;
+        c:subject             <http://d.opencalais.com/pershash-1/2440346b-70ca-3667-bdb9-af84c0bc20c6> .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/28>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[daughter of the late Clifford Leo and Rosie ]Murl (Lesperance)  Boxley, was born October 11, 1935, at Geary, Oklahoma[, and passed away July 27, 2011, at her residence]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "Murl (Lesperance)  Boxley, was born October 11, 1935, at Geary, Oklahoma" ;
+        c:length     "72" ;
+        c:offset     "306" ;
+        c:prefix     "daughter of the late Clifford Leo and Rosie " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/cada27b6-d2cc-371d-9e8e-938321875664> ;
+        c:suffix     ", and passed away July 27, 2011, at her residence" .
+
+<http://d.opencalais.com/pershash-1/f617b146-e783-3f57-ae11-ad97c5bca527>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Edward Lee" ;
+        c:confidencelevel    "0.998" ;
+        c:firstname          "Edward" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Lee" ;
+        c:name               "Edward Lee" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/SocialTag/1>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Oklahoma Legislature" ;
+        c:originalValue      "Oklahoma Legislature" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/d990fe97-2d3d-3a09-bd95-db7368b1a691> .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Relevance/34>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/9e1460c6-8957-38dd-bbfb-5948f6460be9> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/98ae08c6-2b58-213f-ae0d-442c1a7d98ba>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Alabama" ;
+        c:docId               <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:latitude            "31.2231" ;
+        c:longitude           "-85.3906" ;
+        c:name                "Dothan,Alabama,United States" ;
+        c:shortname           "Dothan" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/45942f18-8a3b-3dd5-bc4b-1530d97afca3> .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Relevance/13>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/47307ba8-41d8-3063-bcb0-e9a9a64d9054> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/61f0b8e3-9084-04d3-f853-964edfec1d08>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Florida" ;
+        c:docId               <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:latitude            "27.9472" ;
+        c:longitude           "-82.4586" ;
+        c:name                "Tampa,Florida,United States" ;
+        c:shortname           "Tampa" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/1d913277-9046-32c1-8889-a3ea1ea9f995> .
+
+<http://d.opencalais.com/pershash-1/bc308085-dc60-3857-87eb-12c06fccb34b>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Barbara Thomas" ;
+        c:confidencelevel    "0.991" ;
+        c:firstname          "Barbara" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Thomas" ;
+        c:name               "Barbara Thomas" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/78>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[two daughters, Sharon Fitzpatrick of Tampa, ]Florida[, and Debra Clark of Edmond; three brothers,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "Florida" ;
+        c:length     "7" ;
+        c:offset     "1435" ;
+        c:prefix     "two daughters, Sharon Fitzpatrick of Tampa, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b5bf3113-97ac-319c-a20d-308c716c8d7b> ;
+        c:suffix     ", and Debra Clark of Edmond; three brothers," .
+
+<http://d.opencalais.com/comphash-1/a8ee0a81-b629-368a-b237-71a89306beec>
+        a                    <http://s.opencalais.com/1/type/em/e/Company> ;
+        c:confidencelevel    "0.558" ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Wentworth Mortuary LLC" ;
+        c:nationality        "N/A" .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/57>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Shawnee, Oklahoma, for 18 years before selling ]her[ business in 1995.  In 1997, she and Ed traveled]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1093" ;
+        c:prefix     "Shawnee, Oklahoma, for 18 years before selling " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9e1460c6-8957-38dd-bbfb-5948f6460be9> ;
+        c:suffix     " business in 1995.  In 1997, she and Ed traveled" .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/36>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[she was preceded in death by her husband, ]Ed[, on  March 18, 2011. \t Barbara is survived by]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "Ed" ;
+        c:length     "2" ;
+        c:offset     "1270" ;
+        c:prefix     "she was preceded in death by her husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/44c9b3c9-cb69-36ca-9471-acac2c800557> ;
+        c:suffix     ", on  March 18, 2011. \t Barbara is survived by" .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/15>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[her own business doing bookkeeping and taxes in ]Shawnee[, Oklahoma, for 18 years before selling her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "Shawnee" ;
+        c:length     "7" ;
+        c:offset     "1046" ;
+        c:prefix     "her own business doing bookkeeping and taxes in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/f12a5c54-6703-3bd6-a83d-8fa6973ef353> ;
+        c:suffix     ", Oklahoma, for 18 years before selling her" .
+
+<http://d.opencalais.com/genericHasher-1/92f76ec9-104d-352f-ac0f-7bac76522a85>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Kirk Board" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/3>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[survived by two sons, Edward Thomas of Quanah, ]Texas[, and Michael Thomas of Edmond; two daughters,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "Texas" ;
+        c:length     "5" ;
+        c:offset     "1354" ;
+        c:prefix     "survived by two sons, Edward Thomas of Quanah, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> ;
+        c:suffix     ", and Michael Thomas of Edmond; two daughters," .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Relevance/42>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/6a3bf912-2f36-3236-a91d-7a1afb55992e> .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Relevance/3>
+        a                <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId          <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:relevance      "0.2" ;
+        c:relevancecont  "0.03" ;
+        c:subject        <http://d.opencalais.com/comphash-1/a8ee0a81-b629-368a-b237-71a89306beec> .
+
+<http://d.opencalais.com/pershash-1/5cf83d37-2ce7-38e5-be62-2b972786b5db>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Robert Boxley" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Robert" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Boxley" ;
+        c:name               "Robert Boxley" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Relevance/21>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/1304fffe-f320-3911-ab13-659ed389c920> .
+
+<http://d.opencalais.com/pershash-1/6a3bf912-2f36-3236-a91d-7a1afb55992e>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Michael Thomas" ;
+        c:confidencelevel    "0.999" ;
+        c:firstname          "Michael" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Thomas" ;
+        c:name               "Michael Thomas" ;
+        c:nationality        "N/A" ;
+        c:persontype         "sports" .
+
+<http://d.opencalais.com/genericHasher-1/dc65ac6f-7d9f-3732-878c-ed7d714c5aa5>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Dothan" ;
+        c:person             <http://d.opencalais.com/pershash-1/553fe5c5-2f78-3a4c-9dd2-5afbf9e8481c> .
+
+<http://d.opencalais.com/genericHasher-1/c1e14c20-7ec2-3637-872f-855b5253364e>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Christian Church" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/65>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[New York, Florida, Kansas, Texas, and ]Oklahoma[. She started her own business doing bookkeeping]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "976" ;
+        c:prefix     "New York, Florida, Kansas, Texas, and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ". She started her own business doing bookkeeping" .
+
+<http://d.opencalais.com/genericHasher-1/c7cf1662-d497-364a-8bc9-ff6bde315a4e>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Oklahoma City" ;
+        c:person             <http://d.opencalais.com/pershash-1/0eddd995-e940-3090-939a-6a2c8d892d3a> .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/44>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[death by her husband, Ed, on  March 18, 2011. \t ]Barbara[ is survived by two sons, Edward Thomas of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "Barbara" ;
+        c:length     "7" ;
+        c:offset     "1296" ;
+        c:prefix     "death by her husband, Ed, on  March 18, 2011. \t " ;
+        c:subject    <http://d.opencalais.com/pershash-1/ccc687e8-0f21-39cb-a299-3a08062d15b1> ;
+        c:suffix     " is survived by two sons, Edward Thomas of" .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/23>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Kirk Board officiating. Interment will be in the ]Carmen City Cemetery[ under the direction of Wentworth Mortuary, LLC,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "Carmen City Cemetery" ;
+        c:length     "20" ;
+        c:offset     "160" ;
+        c:prefix     " Kirk Board officiating. Interment will be in the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/52f06da9-a2d1-3490-aa54-9f8b91e94324> ;
+        c:suffix     " under the direction of Wentworth Mortuary, LLC," .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/f24ef023-f5ce-f4ba-d403-af6634f7297d>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:latitude            "35.4675" ;
+        c:longitude           "-97.5161" ;
+        c:name                "Oklahoma City,Oklahoma,United States" ;
+        c:rcscode             "G:2BF" ;
+        c:shortname           "Oklahoma City" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/b8620f48-da64-3b29-b094-f0b9edcda36f> .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Relevance/29>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/2440346b-70ca-3667-bdb9-af84c0bc20c6> .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376>
+        a                  <http://s.opencalais.com/1/type/sys/DocInfo> ;
+        c:calaisRequestID  "eb8b3fce-33b2-7ad6-14d9-13fcc3c12501" ;
+        c:docDate          "2015-05-26 17:23:07.290" ;
+        c:docTitle         "" ;
+        c:document         "Funeral services for Barbara Thomas will be 3:00 p.m., July 30, 2011, at the Carmen Christian Church with Rev. Kirk Board officiating. Interment will be in the Carmen City Cemetery under the direction of Wentworth Mortuary, LLC, of Carmen. \t Barbara Lee Thomas, daughter of the late Clifford Leo and Rosie Murl (Lesperance)  Boxley, was born October 11, 1935, at Geary, Oklahoma, and passed away July 27, 2011, at her residence in Jones, Oklahoma, at the age of 75 years, 9 months, and 16 days. \t Barbara attended school in Geary and graduated from the American School of Chicago, Illinois, in 1954.  She attended college at Seminole Junior College and studied accounting.  On August 29, 1951, she was united in marriage to Edward Ellis Thomas in Oklahoma City. To this union four children were born: Sharon Kay, Debra Rose, Edward Lee, and Michael Ellis. As a military family they lived many places such as: Morocco, Spain, Philippines, New York, Florida, Kansas, Texas, and Oklahoma. She started her own business doing bookkeeping and taxes in Shawnee, Oklahoma, for 18 years before selling her business in 1995.  In 1997, she and Ed traveled full time in their RV before moving back to Edmond in 2009. \t Besides her parents, she was preceded in death by her husband, Ed, on  March 18, 2011. \t Barbara is survived by two sons, Edward Thomas of Quanah, Texas, and Michael Thomas of Edmond; two daughters, Sharon Fitzpatrick of Tampa, Florida, and Debra Clark of Edmond; three brothers, Billy Joe Lawrence of Shawnee, Oklahoma, Robert Boxley of Columbia, Missouri, and David Boxley of Kinston, Washington; one sister, Betty Lou Pinkard of Dothan, Alabama; 6 grandchildren, Michelle, Heather, Chris, Heidi, Matt, and Ashley; 14 great grandchildren; other relatives and friends. \t Memorial contributions may be made through the funeral home to the Norman Veterans Center. \n\t\t\t" ;
+        c:id               "http://id.opencalais.com/P11CHS3XxtXLjZD-eoUeRQ" ;
+        c:ontology         "http://163.231.4.65/owlschema/8.3/onecalais.owl.allmetadata.xml" .
+
+<http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee>
+        a                    <http://s.opencalais.com/1/type/em/e/IndustryTerm> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Funeral services" .
+
+<http://d.opencalais.com/conf/pershash-1/d29f86a5-5dfe-3f84-9d1c-9013f481390b>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.981" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.988" ;
+        c:subject             <http://d.opencalais.com/pershash-1/d29f86a5-5dfe-3f84-9d1c-9013f481390b> .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/73>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Oklahoma, and passed away July 27, 2011, at ]her residence in Jones, Oklahoma[, at the age of 75 years, 9 months, and 16 days.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "her residence in Jones, Oklahoma" ;
+        c:length     "32" ;
+        c:offset     "414" ;
+        c:prefix     "Oklahoma, and passed away July 27, 2011, at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e8057497-d098-3b9e-9aa8-79c39e0abf83> ;
+        c:suffix     ", at the age of 75 years, 9 months, and 16 days." .
+
+<http://d.opencalais.com/conf/pershash-1/ccc687e8-0f21-39cb-a299-3a08062d15b1>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.993" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.995" ;
+        c:subject             <http://d.opencalais.com/pershash-1/ccc687e8-0f21-39cb-a299-3a08062d15b1> .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/52>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[August 29, 1951, she was united in marriage to ]Edward Ellis Thomas[ in Oklahoma City. To this union four children]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "Edward Ellis Thomas" ;
+        c:length     "19" ;
+        c:offset     "724" ;
+        c:prefix     "August 29, 1951, she was united in marriage to " ;
+        c:subject    <http://d.opencalais.com/pershash-1/0eddd995-e940-3090-939a-6a2c8d892d3a> ;
+        c:suffix     " in Oklahoma City. To this union four children" .
+
+<http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oklahoma" .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/31>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ four children were born: Sharon Kay, Debra Rose, ]Edward Lee[, and Michael Ellis. As a military family they]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "Edward Lee" ;
+        c:length     "10" ;
+        c:offset     "825" ;
+        c:prefix     " four children were born: Sharon Kay, Debra Rose, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f617b146-e783-3f57-ae11-ad97c5bca527> ;
+        c:suffix     ", and Michael Ellis. As a military family they" .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/10>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[City. To this union four children were born: ]Sharon Kay[, Debra Rose, Edward Lee, and Michael Ellis. As a]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "Sharon Kay" ;
+        c:length     "10" ;
+        c:offset     "801" ;
+        c:prefix     "City. To this union four children were born: " ;
+        c:subject    <http://d.opencalais.com/pershash-1/1b7f6b3d-a8ad-39ae-85d4-48bdd6f3e02d> ;
+        c:suffix     ", Debra Rose, Edward Lee, and Michael Ellis. As a" .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Relevance/37>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/aadb5e49-8fad-3aa5-972a-1e529dd71950> .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/73806811-b887-5ac5-d1d0-6db9c6526c74>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:latitude            "40.4298247444" ;
+        c:longitude           "-88.9244490556" ;
+        c:name                "Illinois,United States" ;
+        c:permid              "100135" ;
+        c:rcscode             "G:95" ;
+        c:shortname           "Illinois" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/dd140cc8-655b-3f67-a3e2-54ed672db5a4> .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Relevance/16>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c6e918bf-e355-3743-9523-6ab6ec221002> .
+
+<http://d.opencalais.com/genericHasher-1/af53f661-8673-31c2-8fb3-a6594c867308>
+        a                    <http://s.opencalais.com/1/type/em/e/Country> ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Morocco" .
+
+<http://d.opencalais.com/genericHasher-1/52f06da9-a2d1-3490-aa54-9f8b91e94324>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Carmen City Cemetery" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/ec80b062-8d1e-123a-1d6e-8bd0b7355690>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:latitude            "38.45" ;
+        c:longitude           "-96.5333" ;
+        c:name                "Kansas,United States" ;
+        c:permid              "100151" ;
+        c:rcscode             "G:6D" ;
+        c:shortname           "Kansas" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/81>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[daughter of the late Clifford Leo and Rosie ]Murl (Lesperance)  Boxley[, was born October 11, 1935, at Geary, Oklahoma,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "Murl (Lesperance)  Boxley" ;
+        c:length     "25" ;
+        c:offset     "306" ;
+        c:prefix     "daughter of the late Clifford Leo and Rosie " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6920e242-133c-32cb-ab91-1ccd1ae83b46> ;
+        c:suffix     ", was born October 11, 1935, at Geary, Oklahoma," .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/60>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[back to Edmond in 2009. \t Besides her parents, ]she[ was preceded in death by her husband, Ed, on ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "1228" ;
+        c:prefix     "back to Edmond in 2009. \t Besides her parents, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9e1460c6-8957-38dd-bbfb-5948f6460be9> ;
+        c:suffix     " was preceded in death by her husband, Ed, on " .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/39>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and Michael Thomas of Edmond; two daughters, ]Sharon Fitzpatrick[ of Tampa, Florida, and Debra Clark of Edmond;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "Sharon Fitzpatrick" ;
+        c:length     "18" ;
+        c:offset     "1406" ;
+        c:prefix     "and Michael Thomas of Edmond; two daughters, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/a2e52742-b6a2-3d56-b778-51e6c0b66481> ;
+        c:suffix     " of Tampa, Florida, and Debra Clark of Edmond;" .
+
+<http://d.opencalais.com/conf/pershash-1/4ae31c48-fa42-338f-b237-5d55856e9079>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/4ae31c48-fa42-338f-b237-5d55856e9079> .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/18>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ was united in marriage to Edward Ellis Thomas in ]Oklahoma City[. To this union four children were born: Sharon]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "Oklahoma City" ;
+        c:length     "13" ;
+        c:offset     "747" ;
+        c:prefix     " was united in marriage to Edward Ellis Thomas in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b8620f48-da64-3b29-b094-f0b9edcda36f> ;
+        c:suffix     ". To this union four children were born: Sharon" .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/6>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[the Carmen City Cemetery under the direction of ]Wentworth Mortuary, LLC[, of Carmen. \t Barbara Lee Thomas, daughter of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "Wentworth Mortuary, LLC" ;
+        c:length     "23" ;
+        c:offset     "204" ;
+        c:prefix     "the Carmen City Cemetery under the direction of " ;
+        c:subject    <http://d.opencalais.com/comphash-1/a8ee0a81-b629-368a-b237-71a89306beec> ;
+        c:suffix     ", of Carmen. \t Barbara Lee Thomas, daughter of" .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Relevance/45>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/553fe5c5-2f78-3a4c-9dd2-5afbf9e8481c> .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Relevance/6>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/1b7f6b3d-a8ad-39ae-85d4-48bdd6f3e02d> .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Relevance/24>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/44c9b3c9-cb69-36ca-9471-acac2c800557> .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/e9e27c26-4013-8712-a5f0-97dcdc412c26>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:latitude            "35.5607802899" ;
+        c:longitude           "-96.8460570462" ;
+        c:name                "Oklahoma,United States" ;
+        c:permid              "100229" ;
+        c:rcscode             "G:9H" ;
+        c:shortname           "Oklahoma" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/genericHasher-1/dd140cc8-655b-3f67-a3e2-54ed672db5a4>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Illinois" .
+
+<http://d.opencalais.com/genericHasher-1/5fc67ecf-e49d-3ab4-aaad-9cff97f00ffe>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "New York" .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/68>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[\t Barbara Lee Thomas, daughter of the late ]Clifford Leo[ and Rosie Murl (Lesperance)  Boxley, was born]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "Clifford Leo" ;
+        c:length     "12" ;
+        c:offset     "283" ;
+        c:prefix     "\t Barbara Lee Thomas, daughter of the late " ;
+        c:subject    <http://d.opencalais.com/pershash-1/aadb5e49-8fad-3aa5-972a-1e529dd71950> ;
+        c:suffix     " and Rosie Murl (Lesperance)  Boxley, was born" .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/47>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Funeral services for ]Barbara Thomas[ will be 3:00 p.m., July 30, 2011, at the Carmen]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "Barbara Thomas" ;
+        c:length     "14" ;
+        c:offset     "21" ;
+        c:prefix     "Funeral services for " ;
+        c:subject    <http://d.opencalais.com/pershash-1/bc308085-dc60-3857-87eb-12c06fccb34b> ;
+        c:suffix     " will be 3:00 p.m., July 30, 2011, at the Carmen" .
+
+<http://d.opencalais.com/conf/pershash-1/f617b146-e783-3f57-ae11-ad97c5bca527>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.998" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/f617b146-e783-3f57-ae11-ad97c5bca527> .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Instance/26>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and 16 days. \t Barbara attended school in ]Geary[ and graduated from the American School of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:exact      "Geary" ;
+        c:length     "5" ;
+        c:offset     "524" ;
+        c:prefix     "and 16 days. \t Barbara attended school in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/7be162ca-be66-35b7-9b83-c68b63b5068e> ;
+        c:suffix     " and graduated from the American School of" .
+
+<http://d.opencalais.com/pershash-1/b7c6fd3e-d672-391a-95f1-026e301c40ae>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Michael Ellis" ;
+        c:confidencelevel    "0.998" ;
+        c:firstname          "Michael" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Ellis" ;
+        c:name               "Michael Ellis" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/9a61df26-b26f-3d8f-bdd2-2ba04e8b229a>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/44c9b3c9-cb69-36ca-9471-acac2c800557> , <http://d.opencalais.com/pershash-1/9e1460c6-8957-38dd-bbfb-5948f6460be9> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Relevance/32>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c1e14c20-7ec2-3637-872f-855b5253364e> .
+
+<http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376/Relevance/11>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/6726cc56-a5a5-3db9-8f9c-fafb8eacbe95> .
+
+<http://d.opencalais.com/conf/pershash-1/bc308085-dc60-3857-87eb-12c06fccb34b>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.991" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/cb0dffa5-d0a6-3cd9-bc06-267d696b0376> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/bc308085-dc60-3857-87eb-12c06fccb34b> .

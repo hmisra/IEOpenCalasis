@@ -1,0 +1,2324 @@
+#Relations: FamilyRelation, PersonAttributes, PersonCareer, PersonEducation, PersonLocation, PersonRelation
+#City: Alva, Athens, Capron, Carmen, Enid, Escondido, Garden City, Leesville, San Francisco, Seattle, Tulsa
+#Country: Greece
+#Facility: Alva Library, North Texas State University, University of Colorado
+#IndustryTerm: daughter-in-law, sisters-in-law
+#Organization: Carmen High School, Delta Zeta Sorority, First United Methodist Church, Holly Club, North Texas State University, University of Colorado
+#Person: Audrey Presnall, Bob Wilson, Elsie Nixon, Harold W. Wilson, Howard Presnall, Jean Schwerdtfeger, Jill Kirk, Judy Kirk, Marlene Wilson, Mary Helen (Presnall) Wilson, Max, Melissa Wilson, Polly Baker, Robert, Scott Wilson, Vera Wilson, Virginia Kelley
+#Position: President, class teacher
+#ProvinceOrState: California, Colorado, Kansas, Oklahoma, South Carolina, Washington, Woods County
+#Region: North Texas
+@prefix c:     <http://s.opencalais.com/1/pred/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/12>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Marlene Wilson.  \nShe is survived by ]her daughter, Judy Kirk of Enid, Oklahoma[; her son, Bob Wilson of Garden City, Kansas;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "her daughter, Judy Kirk of Enid, Oklahoma" ;
+        c:length     "41" ;
+        c:offset     "1264" ;
+        c:prefix     "Marlene Wilson.  \nShe is survived by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/326dd837-4eaf-309a-838b-4ca02e56ca99> ;
+        c:suffix     "; her son, Bob Wilson of Garden City, Kansas;" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/5574c10f-3f7b-392c-626f-41b137c16676>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "California" ;
+        c:docId               <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:latitude            "33.1192" ;
+        c:longitude           "-117.0856" ;
+        c:name                "Escondido,California,United States" ;
+        c:shortname           "Escondido" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/11145360-a813-3f3e-ad2d-1592d7ebf01f> .
+
+<http://d.opencalais.com/conf/pershash-1/6523a884-d51b-36fb-9abb-34016440f672>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.963" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.978" ;
+        c:subject             <http://d.opencalais.com/pershash-1/6523a884-d51b-36fb-9abb-34016440f672> .
+
+<http://d.opencalais.com/genericHasher-1/831295f2-60f1-3d7d-9aae-12f74b935918>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "daughter-in-law" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/96d267b0-b63e-326a-aabc-e65ee5cfde5a> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/b37b2fb3-5cab-3a3e-8520-6c340bc64d92> .
+
+<http://d.opencalais.com/genericHasher-1/af5dc758-eda5-37dd-86d4-4fc4677d08f3>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Enid" ;
+        c:person             <http://d.opencalais.com/pershash-1/500b0a0e-bf50-37e1-a15b-c833e4212776> .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Relevance/43>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4dcd901a-d6eb-3ea7-ab03-906b2bdc1585> .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/83>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[South Carolina; and four sisters-in-law, ]Jean Schwerdtfeger of Capron, Oklahoma[, Audrey Presnall of Alva, Oklahoma, Vera Wilson]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "Jean Schwerdtfeger of Capron, Oklahoma" ;
+        c:length     "38" ;
+        c:offset     "1567" ;
+        c:prefix     "South Carolina; and four sisters-in-law, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/dcdbbc12-0455-3496-b185-d2fbcd64d70b> ;
+        c:suffix     ", Audrey Presnall of Alva, Oklahoma, Vera Wilson" .
+
+<http://d.opencalais.com/genericHasher-1/e190e5d1-5449-38af-9d95-f45ffda7db36>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "University of Colorado" ;
+        c:nationality        "American" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Relevance/22>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/2b3a3f5a-d7a3-39fa-8c71-5271063af001> .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/62>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[years was her participation in Friends of the ]Alva Library[ and its related book discussion groups.  \nShe]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "Alva Library" ;
+        c:length     "12" ;
+        c:offset     "1029" ;
+        c:prefix     "years was her participation in Friends of the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/871c96b2-d817-33d6-8fb4-efe4ae6d9ef8> ;
+        c:suffix     " and its related book discussion groups.  \nShe" .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/41>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Sunday School Class, in recent years having been ]the class teacher[.  \nA special interest for the past ten years was]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "the class teacher" ;
+        c:length     "17" ;
+        c:offset     "926" ;
+        c:prefix     " Sunday School Class, in recent years having been " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/85f9fc8c-e8fb-3fda-8a00-417359f534a9> ;
+        c:suffix     ".  \nA special interest for the past ten years was" .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/20>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and died November 4, 2012, in Alva, Oklahoma.  \n]She[ graduated from Carmen High School and attended]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "169" ;
+        c:prefix     "and died November 4, 2012, in Alva, Oklahoma.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/6260efaa-e971-3869-bd83-a9388c6b19d2> ;
+        c:suffix     " graduated from Carmen High School and attended" .
+
+<http://d.opencalais.com/genericHasher-1/5fdf3908-5e0e-3227-9583-b0eb133f2654>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:date                "1945-01-05" ;
+        c:datestring          "January 5, 1945" ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/6523a884-d51b-36fb-9abb-34016440f672> , <http://d.opencalais.com/pershash-1/6260efaa-e971-3869-bd83-a9388c6b19d2> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/genericHasher-1/07baf579-36e2-3c6f-9a61-3f8751e05722>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Escondido" ;
+        c:person             <http://d.opencalais.com/pershash-1/533691c1-b16a-3c54-afd4-f48c9ae9bc6c> .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Relevance/8>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ad004887-c581-3051-9f70-22f68e4b89e4> .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/91>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ in Woods County, Oklahoma, to Maude (Muncie) and ]Howard Presnall[ and died November 4, 2012, in Alva, Oklahoma. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "Howard Presnall" ;
+        c:length     "15" ;
+        c:offset     "105" ;
+        c:prefix     " in Woods County, Oklahoma, to Maude (Muncie) and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/a3e2dd5d-8421-3aa7-8339-02cc1037ed9d> ;
+        c:suffix     " and died November 4, 2012, in Alva, Oklahoma. " .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Relevance/30>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/533691c1-b16a-3c54-afd4-f48c9ae9bc6c> .
+
+<http://d.opencalais.com/genericHasher-1/1304fffe-f320-3911-ab13-659ed389c920>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Washington" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/9abed97f-1f19-0004-aee6-0a06b0289f38>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:latitude            "36.3956" ;
+        c:longitude           "-97.8781" ;
+        c:name                "Enid,Oklahoma,United States" ;
+        c:shortname           "Enid" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/35a979c1-2108-3761-99bd-8c6f499ef6f2> .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/4766a555-36b8-75a7-45f2-9ca0abd68559>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:latitude            "47.5" ;
+        c:longitude           "-120.5" ;
+        c:name                "Washington,United States" ;
+        c:permid              "100331" ;
+        c:rcscode             "G:27" ;
+        c:shortname           "Washington" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/1304fffe-f320-3911-ab13-659ed389c920> .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/70>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[graduate study at the University of Colorado, ]North Texas State University[, and a summer institute in Athens, Greece.  \nOn]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "North Texas State University" ;
+        c:length     "28" ;
+        c:offset     "354" ;
+        c:prefix     "graduate study at the University of Colorado, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8379bb71-2213-36d8-b031-4113e2079f93> ;
+        c:suffix     ", and a summer institute in Athens, Greece.  \nOn" .
+
+<http://d.opencalais.com/pershash-1/a3e2dd5d-8421-3aa7-8339-02cc1037ed9d>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Howard Presnall" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Howard" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Presnall" ;
+        c:name               "Howard Presnall" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/lid/DefaultLangId>
+        a                    <http://s.opencalais.com/1/type/lid/DefaultLangId> ;
+        c:docId              <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:forenduserdisplay  "false" ;
+        c:lang               <http://d.opencalais.com/lid/DefaultLangId/English> ;
+        c:permid             "505062" .
+
+<http://d.opencalais.com/genericHasher-1/cfef6888-0355-3cc1-93f0-01734d1fd671>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Leesville" ;
+        c:person             <http://d.opencalais.com/pershash-1/c07da172-5ef7-34f0-acd8-6fa5e2fdb1b6> .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/49>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[by her daughter, Judy Kirk of Enid, Oklahoma; ]her[ son, Bob Wilson of Garden City, Kansas; three]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1307" ;
+        c:prefix     "by her daughter, Judy Kirk of Enid, Oklahoma; " ;
+        c:subject    <http://d.opencalais.com/pershash-1/500b0a0e-bf50-37e1-a15b-c833e4212776> ;
+        c:suffix     " son, Bob Wilson of Garden City, Kansas; three" .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/28>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and its related book discussion groups.  \n]She[ was preceded in death by her parents, her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "1084" ;
+        c:prefix     "and its related book discussion groups.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/6260efaa-e971-3869-bd83-a9388c6b19d2> ;
+        c:suffix     " was preceded in death by her parents, her" .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/SocialTag/1>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Enid, Oklahoma" ;
+        c:originalValue      "Enid, Oklahoma" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/f5fa812e-f6f9-3012-9738-ee9777929481> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/789bc868-b4e9-8d25-7c8e-6eacd77d81f8>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "South Carolina" ;
+        c:docId               <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:latitude            "33.916532" ;
+        c:longitude           "-81.5134368" ;
+        c:name                "Leesville,South Carolina,United States" ;
+        c:shortname           "Leesville" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/d18ba0da-8e2e-30f1-a191-c2c59161022c> .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/8>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Marlene Wilson.  \nShe is survived by ]her[ daughter, Judy Kirk of Enid, Oklahoma; her son,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1264" ;
+        c:prefix     "Marlene Wilson.  \nShe is survived by " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b37b2fb3-5cab-3a3e-8520-6c340bc64d92> ;
+        c:suffix     " daughter, Judy Kirk of Enid, Oklahoma; her son," .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/99>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[her husband, three brothers, Dale, Bob, and ]Max[, a sister, Virginia Kelley, and her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "Max" ;
+        c:length     "3" ;
+        c:offset     "1170" ;
+        c:prefix     "her husband, three brothers, Dale, Bob, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/201f26c8-103f-3fd0-8a76-6345b5d94859> ;
+        c:suffix     ", a sister, Virginia Kelley, and her" .
+
+<http://d.opencalais.com/genericHasher-1/ca31e417-fa37-3c84-8a11-bfb4faa3c812>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Carmen" ;
+        c:person             <http://d.opencalais.com/pershash-1/6523a884-d51b-36fb-9abb-34016440f672> .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Relevance/38>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/91217818-a35b-3635-a461-1bf8ecab38a8> .
+
+<http://d.opencalais.com/genericHasher-1/a1c1ac3d-0c25-3fb1-ac74-cac9c8510afa>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "San Francisco" .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/78>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[is survived by her daughter, Judy Kirk of Enid, ]Oklahoma[; her son, Bob Wilson of Garden City, Kansas;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "1297" ;
+        c:prefix     "is survived by her daughter, Judy Kirk of Enid, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     "; her son, Bob Wilson of Garden City, Kansas;" .
+
+<http://d.opencalais.com/conf/pershash-1/ce62e1eb-40a4-323a-8a88-dc0b3ab20f35>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/ce62e1eb-40a4-323a-8a88-dc0b3ab20f35> .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Relevance/17>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/85f9fc8c-e8fb-3fda-8a00-417359f534a9> .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/57>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Howard Presnall and died November 4, 2012, in ]Alva[, Oklahoma.  \nShe graduated from Carmen High]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "151" ;
+        c:prefix     "Howard Presnall and died November 4, 2012, in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:suffix     ", Oklahoma.  \nShe graduated from Carmen High" .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/36>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ She pursued additional graduate study at the ]University of Colorado[, North Texas State University, and a summer]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "University of Colorado" ;
+        c:length     "22" ;
+        c:offset     "330" ;
+        c:prefix     " She pursued additional graduate study at the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e190e5d1-5449-38af-9d95-f45ffda7db36> ;
+        c:suffix     ", North Texas State University, and a summer" .
+
+<http://d.opencalais.com/genericHasher-1/dcdbbc12-0455-3496-b185-d2fbcd64d70b>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Capron" ;
+        c:person             <http://d.opencalais.com/pershash-1/24400180-efc5-3e83-a61c-d0718d568340> .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/15>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[a member of Delta Kappa Gamma, member and past ]President[ of Chapter C-PEO, Holly Club, and Delta Zeta]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "President" ;
+        c:length     "9" ;
+        c:offset     "721" ;
+        c:prefix     "a member of Delta Kappa Gamma, member and past " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0d87e8a5-fb41-33c9-a1fb-bedf134b384e> ;
+        c:suffix     " of Chapter C-PEO, Holly Club, and Delta Zeta" .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Relevance/3>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/b37b2fb3-5cab-3a3e-8520-6c340bc64d92> .
+
+<http://d.opencalais.com/er/geo/country/ralg-geo1/40bdb060-1848-7838-c520-ab7419d2accf>
+        a            <http://s.opencalais.com/1/type/er/Geo/Country> ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:latitude   "38.3228275976" ;
+        c:longitude  "22.2591633135" ;
+        c:name       "Greece" ;
+        c:permid     "100117" ;
+        c:rcscode    "G:6A" ;
+        c:shortname  "Greece" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ef744fb4-a174-3aba-8eb7-b5eb3d2334af> .
+
+<http://d.opencalais.com/pershash-1/bf632108-b142-3357-81ab-3918ddb58d81>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Bob Wilson" ;
+        c:confidencelevel    "0.999" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Bob Wilson" ;
+        c:nationality        "American" ;
+        c:persontype         "sports" .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Relevance/46>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/096a73ce-884f-33d7-9375-ac1c8ec74b16> .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/86>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Presnall of Alva, Oklahoma, Vera Wilson of ]Escondido[, California, and Elsie Nixon of California. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "Escondido" ;
+        c:length     "9" ;
+        c:offset     "1657" ;
+        c:prefix     "Presnall of Alva, Oklahoma, Vera Wilson of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/11145360-a813-3f3e-ad2d-1592d7ebf01f> ;
+        c:suffix     ", California, and Elsie Nixon of California. " .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Relevance/25>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/65>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Vera Wilson of Escondido, California, and ]Elsie Nixon[ of California.  \nMemorial contributions may be]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "Elsie Nixon" ;
+        c:length     "11" ;
+        c:offset     "1684" ;
+        c:prefix     "Vera Wilson of Escondido, California, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/060bd11f-83df-3e02-942b-4ca1065486a7> ;
+        c:suffix     " of California.  \nMemorial contributions may be" .
+
+<http://d.opencalais.com/genericHasher-1/096a73ce-884f-33d7-9375-ac1c8ec74b16>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Colorado" .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/44>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[she was married to Ensign Harold W. Wilson at ]Carmen[, Oklahoma.  To this union two children were]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "Carmen" ;
+        c:length     "6" ;
+        c:offset     "494" ;
+        c:prefix     "she was married to Ensign Harold W. Wilson at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/bdb71b6e-283b-31a4-9aee-7620fbb431be> ;
+        c:suffix     ", Oklahoma.  To this union two children were" .
+
+<http://d.opencalais.com/pershash-1/500b0a0e-bf50-37e1-a15b-c833e4212776>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Judy Kirk" ;
+        c:confidencelevel    "0.998" ;
+        c:firstname          "Judy" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Judy Kirk" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/23>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in Athens, Greece.  \nOn January 5, 1945, ]she[ was married to Ensign Harold W. Wilson at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "448" ;
+        c:prefix     "in Athens, Greece.  \nOn January 5, 1945, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6260efaa-e971-3869-bd83-a9388c6b19d2> ;
+        c:suffix     " was married to Ensign Harold W. Wilson at" .
+
+<http://d.opencalais.com/pershash-1/b37b2fb3-5cab-3a3e-8520-6c340bc64d92>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Marlene Wilson" ;
+        c:confidencelevel    "0.998" ;
+        c:firstname          "Marlene" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Wilson" ;
+        c:name               "Marlene Wilson" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/3>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and died November 4, 2012, in Alva, Oklahoma.  \n]She graduated from Carmen High School[ and attended NWOSU, receiving her B.A. and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "She graduated from Carmen High School" ;
+        c:length     "37" ;
+        c:offset     "169" ;
+        c:prefix     "and died November 4, 2012, in Alva, Oklahoma.  \n" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/bb93d165-4c78-3554-bda4-e19749b6e37f> ;
+        c:suffix     " and attended NWOSU, receiving her B.A. and" .
+
+<http://d.opencalais.com/genericHasher-1/ef744fb4-a174-3aba-8eb7-b5eb3d2334af>
+        a                    <http://s.opencalais.com/1/type/em/e/Country> ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Greece" .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/94>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Scott Wilson of Seattle, Washington, and ]Jill Kirk[ of Tulsa, Oklahoma; one sister, Polly Baker of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "Jill Kirk" ;
+        c:length     "9" ;
+        c:offset     "1458" ;
+        c:prefix     "Scott Wilson of Seattle, Washington, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9cf1fc15-f4f3-3fda-a30c-0c3e4cc7da6e> ;
+        c:suffix     " of Tulsa, Oklahoma; one sister, Polly Baker of" .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Relevance/33>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8379bb71-2213-36d8-b031-4113e2079f93> .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/73>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Oklahoma; one sister, Polly Baker of Leesville, ]South Carolina[; and four sisters-in-law, Jean Schwerdtfeger of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "South Carolina" ;
+        c:length     "14" ;
+        c:offset     "1526" ;
+        c:prefix     "Oklahoma; one sister, Polly Baker of Leesville, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/81682637-b3d2-39a3-bb31-31001f53d4f7> ;
+        c:suffix     "; and four sisters-in-law, Jean Schwerdtfeger of" .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Relevance/12>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8da39760-87db-3aa5-9369-142d08eb16f8> .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/52>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Oklahoma, Audrey Presnall of Alva, Oklahoma, ]Vera Wilson of Escondido, California[, and Elsie Nixon of California.  \nMemorial]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "Vera Wilson of Escondido, California" ;
+        c:length     "36" ;
+        c:offset     "1642" ;
+        c:prefix     "Oklahoma, Audrey Presnall of Alva, Oklahoma, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/07baf579-36e2-3c6f-9a61-3f8751e05722> ;
+        c:suffix     ", and Elsie Nixon of California.  \nMemorial" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/4db6df0c-25bb-592c-1ae6-b8a59c4b2921>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:latitude            "36.5789" ;
+        c:longitude           "-98.4619" ;
+        c:name                "Carmen,Oklahoma,United States" ;
+        c:shortname           "Carmen" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/bdb71b6e-283b-31a4-9aee-7620fbb431be> .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/31>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[]Mary Helen (Presnall) Wilson was born January 25, 1924, in Woods County[, Oklahoma, to Maude (Muncie) and Howard Presnall]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "Mary Helen (Presnall) Wilson was born January 25, 1924, in Woods County" ;
+        c:length     "71" ;
+        c:offset     "0" ;
+        c:prefix     "" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/196b97fd-e0d0-366b-8456-41aa3d0d367c> ;
+        c:suffix     ", Oklahoma, to Maude (Muncie) and Howard Presnall" .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/10>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[daughter, Judy Kirk of Enid, Oklahoma; her son, ]Bob Wilson[ of Garden City, Kansas; three grandchildren,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "Bob Wilson" ;
+        c:length     "10" ;
+        c:offset     "1316" ;
+        c:prefix     "daughter, Judy Kirk of Enid, Oklahoma; her son, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/bf632108-b142-3357-81ab-3918ddb58d81> ;
+        c:suffix     " of Garden City, Kansas; three grandchildren," .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/f56118da-0256-d097-ff73-1f5d0938031b>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "California" ;
+        c:docId               <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:latitude            "37.775" ;
+        c:longitude           "-122.4183" ;
+        c:name                "San Francisco,California,United States" ;
+        c:rcscode             "G:27F" ;
+        c:shortname           "San Francisco" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/a1c1ac3d-0c25-3fb1-ac74-cac9c8510afa> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/fc056bd3-a089-184a-bbe0-8f5764d31fc7>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Washington" ;
+        c:docId               <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:latitude            "47.6064" ;
+        c:longitude           "-122.3308" ;
+        c:name                "Seattle,Washington,United States" ;
+        c:rcscode             "G:1Y7" ;
+        c:shortname           "Seattle" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/ad004887-c581-3051-9f70-22f68e4b89e4> .
+
+<http://d.opencalais.com/genericHasher-1/1a8bd41e-cc0b-3425-9f96-687b5b2063c4>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "University of Colorado" .
+
+<http://d.opencalais.com/pershash-1/96d267b0-b63e-326a-aabc-e65ee5cfde5a>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Virginia Kelley" ;
+        c:confidencelevel    "0.999" ;
+        c:firstname          "Virginia" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Kelley" ;
+        c:name               "Virginia Kelley" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/bdb71b6e-283b-31a4-9aee-7620fbb431be>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Carmen" .
+
+<http://d.opencalais.com/genericHasher-1/0d87e8a5-fb41-33c9-a1fb-bedf134b384e>
+        a                    <http://s.opencalais.com/1/type/em/e/Position> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "President" .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Relevance/41>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/11145360-a813-3f3e-ad2d-1592d7ebf01f> .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/81>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Capron, Oklahoma, Audrey Presnall of Alva, ]Oklahoma[, Vera Wilson of Escondido, California, and Elsie]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "1632" ;
+        c:prefix     "of Capron, Oklahoma, Audrey Presnall of Alva, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", Vera Wilson of Escondido, California, and Elsie" .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Relevance/20>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/1304fffe-f320-3911-ab13-659ed389c920> .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/60>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Delta Zeta Sorority.  She was a member of the ]First United Methodist Church[ and a charter member of the Fidelis Sunday]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "First United Methodist Church" ;
+        c:length     "29" ;
+        c:offset     "811" ;
+        c:prefix     "Delta Zeta Sorority.  She was a member of the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/34d355d7-ce2f-37b5-8997-7666290fe245> ;
+        c:suffix     " and a charter member of the Fidelis Sunday" .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/39>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and Jill Kirk of Tulsa, Oklahoma; one sister, ]Polly Baker of Leesville, South Carolina[; and four sisters-in-law, Jean Schwerdtfeger of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "Polly Baker of Leesville, South Carolina" ;
+        c:length     "40" ;
+        c:offset     "1500" ;
+        c:prefix     "and Jill Kirk of Tulsa, Oklahoma; one sister, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/cfef6888-0355-3cc1-93f0-01734d1fd671> ;
+        c:suffix     "; and four sisters-in-law, Jean Schwerdtfeger of" .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/18>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Jean Schwerdtfeger of Capron, Oklahoma, ]Audrey Presnall[ of Alva, Oklahoma, Vera Wilson of Escondido,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "Audrey Presnall" ;
+        c:length     "15" ;
+        c:offset     "1607" ;
+        c:prefix     "Jean Schwerdtfeger of Capron, Oklahoma, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/ce62e1eb-40a4-323a-8a88-dc0b3ab20f35> ;
+        c:suffix     " of Alva, Oklahoma, Vera Wilson of Escondido," .
+
+<http://d.opencalais.com/pershash-1/77381125-6d48-36fd-b572-eeb6d0a7d009>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Scott Wilson" ;
+        c:confidencelevel    "0.999" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Scott Wilson" ;
+        c:nationality        "American" ;
+        c:persontype         "sports" .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Relevance/6>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/6523a884-d51b-36fb-9abb-34016440f672> .
+
+<http://d.opencalais.com/genericHasher-1/6127cc84-1e32-3f7a-9d00-ff60786ab453>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "North Texas State University" ;
+        c:nationality        "American" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Relevance/49>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/1a8bd41e-cc0b-3425-9f96-687b5b2063c4> .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/89>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Escondido, California, and Elsie Nixon of ]California[.  \nMemorial contributions may be made through]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "California" ;
+        c:length     "10" ;
+        c:offset     "1699" ;
+        c:prefix     "of Escondido, California, and Elsie Nixon of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9679b237-33e8-3478-ba13-d9af3c4b943e> ;
+        c:suffix     ".  \nMemorial contributions may be made through" .
+
+<http://d.opencalais.com/conf/pershash-1/a3e2dd5d-8421-3aa7-8339-02cc1037ed9d>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/a3e2dd5d-8421-3aa7-8339-02cc1037ed9d> .
+
+<http://d.opencalais.com/genericHasher-1/2d36d4be-5107-361b-9f90-16b8edd04330>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Carmen High School" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Relevance/28>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/871c96b2-d817-33d6-8fb4-efe4ae6d9ef8> .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/68>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[South Carolina; and four sisters-in-law, ]Jean Schwerdtfeger[ of Capron, Oklahoma, Audrey Presnall of Alva,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "Jean Schwerdtfeger" ;
+        c:length     "18" ;
+        c:offset     "1567" ;
+        c:prefix     "South Carolina; and four sisters-in-law, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/24400180-efc5-3e83-a61c-d0718d568340> ;
+        c:suffix     " of Capron, Oklahoma, Audrey Presnall of Alva," .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/47>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ To this union two children were born?a daughter, ]Judy[, and a son, Robert.  \nMrs. Wilson taught English]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "Judy" ;
+        c:length     "4" ;
+        c:offset     "562" ;
+        c:prefix     " To this union two children were born?a daughter, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/500b0a0e-bf50-37e1-a15b-c833e4212776> ;
+        c:suffix     ", and a son, Robert.  \nMrs. Wilson taught English" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/fd9e1e90-96a9-04ff-1397-445c4e93208b>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:latitude            "36.4885198674" ;
+        c:longitude           "-119.701379437" ;
+        c:name                "California,United States" ;
+        c:permid              "100049" ;
+        c:rcscode             "G:4V" ;
+        c:shortname           "California" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/9679b237-33e8-3478-ba13-d9af3c4b943e> .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/26>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[C-PEO, Holly Club, and Delta Zeta Sorority.  ]She[ was a member of the First United Methodist]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "787" ;
+        c:prefix     "C-PEO, Holly Club, and Delta Zeta Sorority.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6260efaa-e971-3869-bd83-a9388c6b19d2> ;
+        c:suffix     " was a member of the First United Methodist" .
+
+<http://d.opencalais.com/genericHasher-1/871c96b2-d817-33d6-8fb4-efe4ae6d9ef8>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Alva Library" .
+
+<http://d.opencalais.com/pershash-1/6260efaa-e971-3869-bd83-a9388c6b19d2>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Mary Helen Wilson" ;
+        c:confidencelevel    "0.998" ;
+        c:firstname          "Mary" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Wilson" ;
+        c:middlename         "Helen" ;
+        c:name               "Mary Helen (Presnall) Wilson" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/6>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Virginia Kelley, and her daughter-in-law, ]Marlene Wilson[.  \nShe is survived by her daughter, Judy Kirk of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "Marlene Wilson" ;
+        c:length     "14" ;
+        c:offset     "1227" ;
+        c:prefix     "Virginia Kelley, and her daughter-in-law, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b37b2fb3-5cab-3a3e-8520-6c340bc64d92> ;
+        c:suffix     ".  \nShe is survived by her daughter, Judy Kirk of" .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/97>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Wilson.  \nShe is survived by her daughter, ]Judy Kirk of Enid, Oklahoma[; her son, Bob Wilson of Garden City, Kansas;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "Judy Kirk of Enid, Oklahoma" ;
+        c:length     "27" ;
+        c:offset     "1278" ;
+        c:prefix     "Wilson.  \nShe is survived by her daughter, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/af5dc758-eda5-37dd-86d4-4fc4677d08f3> ;
+        c:suffix     "; her son, Bob Wilson of Garden City, Kansas;" .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Relevance/36>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/81682637-b3d2-39a3-bb31-31001f53d4f7> .
+
+<http://d.opencalais.com/genericHasher-1/881dfb2e-8e29-385a-9b09-c40a73d145ad>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Delta Zeta Sorority" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/76>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Presnall and died November 4, 2012, in Alva, ]Oklahoma[.  \nShe graduated from Carmen High School and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "157" ;
+        c:prefix     "Presnall and died November 4, 2012, in Alva, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ".  \nShe graduated from Carmen High School and" .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Relevance/15>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e190e5d1-5449-38af-9d95-f45ffda7db36> .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/55>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[graduate study at the University of Colorado, ]North Texas[ State University, and a summer institute in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "North Texas" ;
+        c:length     "11" ;
+        c:offset     "354" ;
+        c:prefix     "graduate study at the University of Colorado, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/bf604b36-c4dd-3861-acf1-7734a675d8a4> ;
+        c:suffix     " State University, and a summer institute in" .
+
+<http://d.opencalais.com/pershash-1/9cf1fc15-f4f3-3fda-a30c-0c3e4cc7da6e>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Jill Kirk" ;
+        c:confidencelevel    "0.983" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Jill Kirk" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/4dcd901a-d6eb-3ea7-ab03-906b2bdc1585>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Garden City" .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/34>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Bob, and Max, a sister, Virginia Kelley, and her ]daughter-in-law[, Marlene Wilson.  \nShe is survived by her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "daughter-in-law" ;
+        c:length     "15" ;
+        c:offset     "1210" ;
+        c:prefix     " Bob, and Max, a sister, Virginia Kelley, and her " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/59574dc3-d51c-3de0-91fe-999824adfc26> ;
+        c:suffix     ", Marlene Wilson.  \nShe is survived by her" .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/13>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ \nOn January 5, 1945, she was married to Ensign ]Harold W. Wilson[ at Carmen, Oklahoma.  To this union two children]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "Harold W. Wilson" ;
+        c:length     "16" ;
+        c:offset     "474" ;
+        c:prefix     " \nOn January 5, 1945, she was married to Ensign " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6523a884-d51b-36fb-9abb-34016440f672> ;
+        c:suffix     " at Carmen, Oklahoma.  To this union two children" .
+
+<http://d.opencalais.com/genericHasher-1/3ba5044e-3610-3c6d-a684-f862c5765c28>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "California" ;
+        c:person             <http://d.opencalais.com/pershash-1/060bd11f-83df-3e02-942b-4ca1065486a7> .
+
+<http://d.opencalais.com/conf/pershash-1/bf632108-b142-3357-81ab-3918ddb58d81>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.999" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.999" ;
+        c:subject             <http://d.opencalais.com/pershash-1/bf632108-b142-3357-81ab-3918ddb58d81> .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Relevance/1>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ce8de128-24bf-3473-ab18-361909e1197d> .
+
+<http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Kansas" .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Relevance/44>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/a3e2dd5d-8421-3aa7-8339-02cc1037ed9d> .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/84>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and Jill Kirk of Tulsa, Oklahoma; one sister, ]Polly Baker[ of Leesville, South Carolina; and four]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "Polly Baker" ;
+        c:length     "11" ;
+        c:offset     "1500" ;
+        c:prefix     "and Jill Kirk of Tulsa, Oklahoma; one sister, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/c07da172-5ef7-34f0-acd8-6fa5e2fdb1b6> ;
+        c:suffix     " of Leesville, South Carolina; and four" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/008c018b-588f-49c9-e7a9-f3f455266d2b>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "Greece" ;
+        c:docId               <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:latitude            "37.9777777778" ;
+        c:longitude           "23.7277777778" ;
+        c:name                "Athens,Greece" ;
+        c:rcscode             "G:23G" ;
+        c:shortname           "Athens" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/b00718a8-76d4-3967-b87a-dd6182cc2e4c> .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Relevance/23>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/bf604b36-c4dd-3861-acf1-7734a675d8a4> .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/63>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Capron, Oklahoma, Audrey Presnall of ]Alva[, Oklahoma, Vera Wilson of Escondido, California,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "1626" ;
+        c:prefix     "of Capron, Oklahoma, Audrey Presnall of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/871c96b2-d817-33d6-8fb4-efe4ae6d9ef8> ;
+        c:suffix     ", Oklahoma, Vera Wilson of Escondido, California," .
+
+<http://d.opencalais.com/genericHasher-1/ddf5cdc3-7dff-315e-aa49-c9a7bfe0d83f>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "son" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/500b0a0e-bf50-37e1-a15b-c833e4212776> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/bf632108-b142-3357-81ab-3918ddb58d81> .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/42>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Melissa Wilson of San Francisco, California, ]Scott Wilson of Seattle, Washington[, and Jill Kirk of Tulsa, Oklahoma; one sister,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "Scott Wilson of Seattle, Washington" ;
+        c:length     "35" ;
+        c:offset     "1417" ;
+        c:prefix     "Melissa Wilson of San Francisco, California, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/aa32eba5-8aec-387f-9763-21f798aa4700> ;
+        c:suffix     ", and Jill Kirk of Tulsa, Oklahoma; one sister," .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/21>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Carmen High School and attended NWOSU, receiving ]her[ B.A. and Master of Teaching degrees there.  She]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "237" ;
+        c:prefix     " Carmen High School and attended NWOSU, receiving " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6260efaa-e971-3869-bd83-a9388c6b19d2> ;
+        c:suffix     " B.A. and Master of Teaching degrees there.  She" .
+
+<http://d.opencalais.com/conf/pershash-1/b37b2fb3-5cab-3a3e-8520-6c340bc64d92>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.998" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.997" ;
+        c:subject             <http://d.opencalais.com/pershash-1/b37b2fb3-5cab-3a3e-8520-6c340bc64d92> .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Relevance/9>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/77381125-6d48-36fd-b572-eeb6d0a7d009> .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/1>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[(Presnall) Wilson was born January 25, 1924, in ]Woods County[, Oklahoma, to Maude (Muncie) and Howard Presnall]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "Woods County" ;
+        c:length     "12" ;
+        c:offset     "59" ;
+        c:prefix     "(Presnall) Wilson was born January 25, 1924, in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ce8de128-24bf-3473-ab18-361909e1197d> ;
+        c:suffix     ", Oklahoma, to Maude (Muncie) and Howard Presnall" .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/92>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[University, and a summer institute in Athens, ]Greece[.  \nOn January 5, 1945, she was married to Ensign]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "Greece" ;
+        c:length     "6" ;
+        c:offset     "418" ;
+        c:prefix     "University, and a summer institute in Athens, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ef744fb4-a174-3aba-8eb7-b5eb3d2334af> ;
+        c:suffix     ".  \nOn January 5, 1945, she was married to Ensign" .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Relevance/31>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/d18ba0da-8e2e-30f1-a191-c2c59161022c> .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/71>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ past President of Chapter C-PEO, Holly Club, and ]Delta Zeta Sorority[.  She was a member of the First United Methodist]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "Delta Zeta Sorority" ;
+        c:length     "19" ;
+        c:offset     "765" ;
+        c:prefix     " past President of Chapter C-PEO, Holly Club, and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/881dfb2e-8e29-385a-9b09-c40a73d145ad> ;
+        c:suffix     ".  She was a member of the First United Methodist" .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Relevance/10>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/ce62e1eb-40a4-323a-8a88-dc0b3ab20f35> .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/50>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[]Mary Helen (Presnall) Wilson was born January 25, 1924, in Woods County[, Oklahoma, to Maude (Muncie) and Howard Presnall]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "Mary Helen (Presnall) Wilson was born January 25, 1924, in Woods County" ;
+        c:length     "71" ;
+        c:offset     "0" ;
+        c:prefix     "" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/78fb7fe0-1c17-3192-a1d4-7263c355f3a5> ;
+        c:suffix     ", Oklahoma, to Maude (Muncie) and Howard Presnall" .
+
+<http://d.opencalais.com/pershash-1/9d2fac7d-cf2f-31fe-a8ef-d25584493eec>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Robert" ;
+        c:confidencelevel    "0.973" ;
+        c:firstname          "Robert" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Robert" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585>
+        a                  <http://s.opencalais.com/1/type/sys/DocInfo> ;
+        c:calaisRequestID  "8426f47f-0af6-82bb-14d9-13f48e27848c" ;
+        c:docDate          "2015-05-26 17:22:33.688" ;
+        c:docTitle         "" ;
+        c:document         "Mary Helen (Presnall) Wilson was born January 25, 1924, in Woods County, Oklahoma, to Maude (Muncie) and Howard Presnall and died November 4, 2012, in Alva, Oklahoma.  \nShe graduated from Carmen High School and attended NWOSU, receiving her B.A. and Master of Teaching degrees there.  She pursued additional graduate study at the University of Colorado, North Texas State University, and a summer institute in Athens, Greece.  \nOn January 5, 1945, she was married to Ensign Harold W. Wilson at Carmen, Oklahoma.  To this union two children were born?a daughter, Judy, and a son, Robert.  \nMrs. Wilson taught English at NWOSU for thirty-two years, retiring in 1987.  She was a member of Delta Kappa Gamma, member and past President of Chapter C-PEO, Holly Club, and Delta Zeta Sorority.  She was a member of the First United Methodist Church and a charter member of the Fidelis Sunday School Class, in recent years having been the class teacher.  \nA special interest for the past ten years was her participation in Friends of the Alva Library and its related book discussion groups.  \nShe was preceded in death by her parents, her husband, three brothers, Dale, Bob, and Max, a sister, Virginia Kelley, and her daughter-in-law, Marlene Wilson.  \nShe is survived by her daughter, Judy Kirk of Enid, Oklahoma; her son, Bob Wilson of Garden City, Kansas; three grandchildren, Melissa Wilson of San Francisco, California, Scott Wilson of Seattle, Washington, and Jill Kirk of Tulsa, Oklahoma; one sister, Polly Baker of Leesville, South Carolina; and four sisters-in-law, Jean Schwerdtfeger of Capron, Oklahoma, Audrey Presnall of Alva, Oklahoma, Vera Wilson of Escondido, California, and Elsie Nixon of California.  \nMemorial contributions may be made through the funeral home to First United Methodist Church. \n\t\t\t" ;
+        c:id               "http://id.opencalais.com/YtUeJ8TSBXLxCStplmyn8g" ;
+        c:ontology         "http://163.231.4.65/owlschema/8.3/onecalais.owl.allmetadata.xml" .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/29>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[groups.  \nShe was preceded in death by ]her[ parents, her husband, three brothers, Dale, Bob,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1113" ;
+        c:prefix     "groups.  \nShe was preceded in death by " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6260efaa-e971-3869-bd83-a9388c6b19d2> ;
+        c:suffix     " parents, her husband, three brothers, Dale, Bob," .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/SocialTag/2>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Alva, Oklahoma" ;
+        c:originalValue      "Alva, Oklahoma" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/8f6d9b32-a722-3385-aca6-1338c3a8d70f> .
+
+<http://d.opencalais.com/genericHasher-1/5c71500f-b01b-391c-bb39-4ca37fdbad6c>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Capron" .
+
+<http://d.opencalais.com/conf/pershash-1/96d267b0-b63e-326a-aabc-e65ee5cfde5a>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.999" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.999" ;
+        c:subject             <http://d.opencalais.com/pershash-1/96d267b0-b63e-326a-aabc-e65ee5cfde5a> .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/9>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[her parents, her husband, three brothers, Dale, ]Bob[, and Max, a sister, Virginia Kelley, and her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "Bob" ;
+        c:length     "3" ;
+        c:offset     "1161" ;
+        c:prefix     "her parents, her husband, three brothers, Dale, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/bf632108-b142-3357-81ab-3918ddb58d81> ;
+        c:suffix     ", and Max, a sister, Virginia Kelley, and her" .
+
+<http://d.opencalais.com/pershash-1/060bd11f-83df-3e02-942b-4ca1065486a7>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Elsie Nixon" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Elsie" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Nixon" ;
+        c:name               "Elsie Nixon" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/18413e1a-2c84-3b8f-9f2f-a5d7c50b65d4>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Tulsa" ;
+        c:person             <http://d.opencalais.com/pershash-1/9cf1fc15-f4f3-3fda-a30c-0c3e4cc7da6e> .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Relevance/39>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/c07da172-5ef7-34f0-acd8-6fa5e2fdb1b6> .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/79>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Seattle, Washington, and Jill Kirk of Tulsa, ]Oklahoma[; one sister, Polly Baker of Leesville, South]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "1478" ;
+        c:prefix     "of Seattle, Washington, and Jill Kirk of Tulsa, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     "; one sister, Polly Baker of Leesville, South" .
+
+<http://d.opencalais.com/genericHasher-1/bb93d165-4c78-3554-bda4-e19749b6e37f>
+        a                       <http://s.opencalais.com/1/type/em/r/PersonEducation> ;
+        c:forenduserdisplay     "false" ;
+        c:person                <http://d.opencalais.com/pershash-1/6260efaa-e971-3869-bd83-a9388c6b19d2> ;
+        c:schoolororganization  "Carmen High School" .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Relevance/18>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/cedbdd91-e7c0-35c7-b565-1a3740610147> .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/58>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Capron, Oklahoma, Audrey Presnall of ]Alva[, Oklahoma, Vera Wilson of Escondido, California,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "1626" ;
+        c:prefix     "of Capron, Oklahoma, Audrey Presnall of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:suffix     ", Oklahoma, Vera Wilson of Escondido, California," .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/37>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[three brothers, Dale, Bob, and Max, a sister, ]Virginia Kelley[, and her daughter-in-law, Marlene Wilson.  \nShe]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "Virginia Kelley" ;
+        c:length     "15" ;
+        c:offset     "1185" ;
+        c:prefix     "three brothers, Dale, Bob, and Max, a sister, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/96d267b0-b63e-326a-aabc-e65ee5cfde5a> ;
+        c:suffix     ", and her daughter-in-law, Marlene Wilson.  \nShe" .
+
+<http://d.opencalais.com/conf/pershash-1/77381125-6d48-36fd-b572-eeb6d0a7d009>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.999" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.998" ;
+        c:subject             <http://d.opencalais.com/pershash-1/77381125-6d48-36fd-b572-eeb6d0a7d009> .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/16>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of San Francisco, California, Scott Wilson of ]Seattle[, Washington, and Jill Kirk of Tulsa, Oklahoma;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "Seattle" ;
+        c:length     "7" ;
+        c:offset     "1433" ;
+        c:prefix     "of San Francisco, California, Scott Wilson of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ad004887-c581-3051-9f70-22f68e4b89e4> ;
+        c:suffix     ", Washington, and Jill Kirk of Tulsa, Oklahoma;" .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Relevance/4>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/bf632108-b142-3357-81ab-3918ddb58d81> .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Relevance/47>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/9cf1fc15-f4f3-3fda-a30c-0c3e4cc7da6e> .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/87>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[grandchildren, Melissa Wilson of San Francisco, ]California[, Scott Wilson of Seattle, Washington, and Jill]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "California" ;
+        c:length     "10" ;
+        c:offset     "1405" ;
+        c:prefix     "grandchildren, Melissa Wilson of San Francisco, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9679b237-33e8-3478-ba13-d9af3c4b943e> ;
+        c:suffix     ", Scott Wilson of Seattle, Washington, and Jill" .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Relevance/26>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/6127cc84-1e32-3f7a-9d00-ff60786ab453> .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/66>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Oklahoma, Audrey Presnall of Alva, Oklahoma, ]Vera Wilson[ of Escondido, California, and Elsie Nixon of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "Vera Wilson" ;
+        c:length     "11" ;
+        c:offset     "1642" ;
+        c:prefix     "Oklahoma, Audrey Presnall of Alva, Oklahoma, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/533691c1-b16a-3c54-afd4-f48c9ae9bc6c> ;
+        c:suffix     " of Escondido, California, and Elsie Nixon of" .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/45>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and a summer institute in Athens, Greece.  \n]On January 5, 1945, she was married to Ensign Harold W. Wilson[ at Carmen, Oklahoma.  To this union two children]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "On January 5, 1945, she was married to Ensign Harold W. Wilson" ;
+        c:length     "62" ;
+        c:offset     "428" ;
+        c:prefix     "and a summer institute in Athens, Greece.  \n" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/5fdf3908-5e0e-3227-9583-b0eb133f2654> ;
+        c:suffix     " at Carmen, Oklahoma.  To this union two children" .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/24>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ were born?a daughter, Judy, and a son, Robert.  \n]Mrs. Wilson[ taught English at NWOSU for thirty-two years,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "Mrs. Wilson" ;
+        c:length     "11" ;
+        c:offset     "589" ;
+        c:prefix     " were born?a daughter, Judy, and a son, Robert.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/6260efaa-e971-3869-bd83-a9388c6b19d2> ;
+        c:suffix     " taught English at NWOSU for thirty-two years," .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/cdbe37bc-3af5-6ff0-3597-7615ea496cd1>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:latitude            "36.1539" ;
+        c:longitude           "-95.9925" ;
+        c:name                "Tulsa,Oklahoma,United States" ;
+        c:shortname           "Tulsa" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/8da39760-87db-3aa5-9369-142d08eb16f8> .
+
+<http://d.opencalais.com/conf/pershash-1/6260efaa-e971-3869-bd83-a9388c6b19d2>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.998" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.999" ;
+        c:subject             <http://d.opencalais.com/pershash-1/6260efaa-e971-3869-bd83-a9388c6b19d2> .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/4>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Garden City, Kansas; three grandchildren, ]Melissa Wilson of San Francisco, California[, Scott Wilson of Seattle, Washington, and Jill]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "Melissa Wilson of San Francisco, California" ;
+        c:length     "43" ;
+        c:offset     "1372" ;
+        c:prefix     "of Garden City, Kansas; three grandchildren, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/13621b9d-c376-3d50-bd9c-29be49278203> ;
+        c:suffix     ", Scott Wilson of Seattle, Washington, and Jill" .
+
+<http://d.opencalais.com/pershash-1/24400180-efc5-3e83-a61c-d0718d568340>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Jean Schwerdtfeger" ;
+        c:confidencelevel    "0.983" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Jean Schwerdtfeger" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/95>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ 4, 2012, in Alva, Oklahoma.  \nShe graduated from ]Carmen High School[ and attended NWOSU, receiving her B.A. and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "Carmen High School" ;
+        c:length     "18" ;
+        c:offset     "188" ;
+        c:prefix     " 4, 2012, in Alva, Oklahoma.  \nShe graduated from " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/2d36d4be-5107-361b-9f90-16b8edd04330> ;
+        c:suffix     " and attended NWOSU, receiving her B.A. and" .
+
+<http://d.opencalais.com/genericHasher-1/bf604b36-c4dd-3861-acf1-7734a675d8a4>
+        a                    <http://s.opencalais.com/1/type/em/e/Region> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "North Texas" .
+
+<http://d.opencalais.com/genericHasher-1/11145360-a813-3f3e-ad2d-1592d7ebf01f>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Escondido" .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/74>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in Athens, Greece.  \nOn January 5, 1945, ]she was married to Ensign Harold W. Wilson[ at Carmen, Oklahoma.  To this union two children]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "she was married to Ensign Harold W. Wilson" ;
+        c:length     "42" ;
+        c:offset     "448" ;
+        c:prefix     "in Athens, Greece.  \nOn January 5, 1945, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b25b9ec4-9596-377b-9e8a-88eb6a3920da> ;
+        c:suffix     " at Carmen, Oklahoma.  To this union two children" .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Relevance/34>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/881dfb2e-8e29-385a-9b09-c40a73d145ad> .
+
+<http://d.opencalais.com/conf/pershash-1/9cf1fc15-f4f3-3fda-a30c-0c3e4cc7da6e>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.983" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.99" ;
+        c:subject             <http://d.opencalais.com/pershash-1/9cf1fc15-f4f3-3fda-a30c-0c3e4cc7da6e> .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Relevance/13>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/59574dc3-d51c-3de0-91fe-999824adfc26> .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/cat/1>
+        a                    <http://s.opencalais.com/1/type/cat/DocCat> ;
+        c:docId              <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Education" ;
+        c:score              "0.576" .
+
+<http://d.opencalais.com/pershash-1/cedbdd91-e7c0-35c7-b565-1a3740610147>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Melissa Wilson" ;
+        c:confidencelevel    "0.983" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Melissa Wilson" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/53>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[daughter, Judy Kirk of Enid, Oklahoma; her son, ]Bob Wilson of Garden City, Kansas[; three grandchildren, Melissa Wilson of San]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "Bob Wilson of Garden City, Kansas" ;
+        c:length     "33" ;
+        c:offset     "1316" ;
+        c:prefix     "daughter, Judy Kirk of Enid, Oklahoma; her son, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/d033a47c-cb85-3e34-9699-bd8876aca1fc> ;
+        c:suffix     "; three grandchildren, Melissa Wilson of San" .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/32>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Bob, and Max, a sister, Virginia Kelley, and ]her daughter-in-law, Marlene Wilson[.  \nShe is survived by her daughter, Judy Kirk of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "her daughter-in-law, Marlene Wilson" ;
+        c:length     "35" ;
+        c:offset     "1206" ;
+        c:prefix     "Bob, and Max, a sister, Virginia Kelley, and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/831295f2-60f1-3d7d-9aae-12f74b935918> ;
+        c:suffix     ".  \nShe is survived by her daughter, Judy Kirk of" .
+
+<http://d.opencalais.com/genericHasher-1/168ccd36-708e-3cd4-96c0-ea2771fbb94b>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:forenduserdisplay  "true" ;
+        c:organization       <http://d.opencalais.com/genericHasher-1/34d355d7-ce2f-37b5-8997-7666290fe245> ;
+        c:person             <http://d.opencalais.com/pershash-1/6260efaa-e971-3869-bd83-a9388c6b19d2> ;
+        c:position           "member" ;
+        c:status             "past" .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/11>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Kansas; three grandchildren, Melissa Wilson of ]San Francisco[, California, Scott Wilson of Seattle,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "San Francisco" ;
+        c:length     "13" ;
+        c:offset     "1390" ;
+        c:prefix     "Kansas; three grandchildren, Melissa Wilson of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a1c1ac3d-0c25-3fb1-ac74-cac9c8510afa> ;
+        c:suffix     ", California, Scott Wilson of Seattle," .
+
+<http://d.opencalais.com/genericHasher-1/d18ba0da-8e2e-30f1-a191-c2c59161022c>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Leesville" .
+
+<http://d.opencalais.com/genericHasher-1/59574dc3-d51c-3de0-91fe-999824adfc26>
+        a                    <http://s.opencalais.com/1/type/em/e/IndustryTerm> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "daughter-in-law" .
+
+<http://d.opencalais.com/genericHasher-1/ce8de128-24bf-3473-ab18-361909e1197d>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Woods County" .
+
+<http://d.opencalais.com/genericHasher-1/35a979c1-2108-3761-99bd-8c6f499ef6f2>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Enid" .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Relevance/42>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9679b237-33e8-3478-ba13-d9af3c4b943e> .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/82>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[member and past President of Chapter C-PEO, ]Holly Club[, and Delta Zeta Sorority.  She was a member of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "Holly Club" ;
+        c:length     "10" ;
+        c:offset     "749" ;
+        c:prefix     "member and past President of Chapter C-PEO, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/91217818-a35b-3635-a461-1bf8ecab38a8> ;
+        c:suffix     ", and Delta Zeta Sorority.  She was a member of" .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Relevance/21>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/500b0a0e-bf50-37e1-a15b-c833e4212776> .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/61>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[may be made through the funeral home to ]First United Methodist Church[. \n\t\t\t]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "First United Methodist Church" ;
+        c:length     "29" ;
+        c:offset     "1776" ;
+        c:prefix     "may be made through the funeral home to " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/34d355d7-ce2f-37b5-8997-7666290fe245> ;
+        c:suffix     ". \n\t\t\t" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/e088028d-cdce-c4fa-c28a-cf7a54cc36b7>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:latitude            "39.0473491002" ;
+        c:longitude           "-105.465397491" ;
+        c:name                "Colorado,United States" ;
+        c:permid              "100068" ;
+        c:rcscode             "G:7C" ;
+        c:shortname           "Colorado" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/096a73ce-884f-33d7-9375-ac1c8ec74b16> .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/40>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Greece.  \nOn January 5, 1945, she was married to ]Ensign Harold W. Wilson at Carmen, Oklahoma[.  To this union two children were born?a]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "Ensign Harold W. Wilson at Carmen, Oklahoma" ;
+        c:length     "43" ;
+        c:offset     "467" ;
+        c:prefix     " Greece.  \nOn January 5, 1945, she was married to " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ca31e417-fa37-3c84-8a11-bfb4faa3c812> ;
+        c:suffix     ".  To this union two children were born?a" .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/meta>
+        a                 <http://s.opencalais.com/1/type/sys/DocInfoMeta> ;
+        c:contentType     "text/raw" ;
+        c:docId           <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:language        "English" ;
+        c:processingVer   "AllMetadata" ;
+        c:serverVersion   "OneCalais_8.3-RELEASE:364" ;
+        c:signature       "digestalg-1|hjp6HtYmwYYWVvteNglnr1LLBf4=|b5MqJ8aZQCqklIT+tsl51uQ4eslSEoBwkuA4bbbUkNNpjnVH8CeH5A==" ;
+        c:stagsVer        "OneCalais_8.3-RELEASE-b11-2015-03-25_18:29:00" ;
+        c:submissionDate  "2015-05-26 17:22:33.314" ;
+        c:submitterCode   "0ca6a864-5659-789d-5f32-f365f695e757" .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/19>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[]Mary Helen (Presnall) Wilson[ was born January 25, 1924, in Woods County,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "Mary Helen (Presnall) Wilson" ;
+        c:length     "28" ;
+        c:offset     "0" ;
+        c:prefix     "" ;
+        c:subject    <http://d.opencalais.com/pershash-1/6260efaa-e971-3869-bd83-a9388c6b19d2> ;
+        c:suffix     " was born January 25, 1924, in Woods County," .
+
+<http://d.opencalais.com/genericHasher-1/196b97fd-e0d0-366b-8456-41aa3d0d367c>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Woods County" ;
+        c:person             <http://d.opencalais.com/pershash-1/6260efaa-e971-3869-bd83-a9388c6b19d2> .
+
+<http://d.opencalais.com/pershash-1/c07da172-5ef7-34f0-acd8-6fa5e2fdb1b6>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Polly Baker" ;
+        c:confidencelevel    "0.987" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Polly Baker" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Relevance/7>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0d87e8a5-fb41-33c9-a1fb-bedf134b384e> .
+
+<http://d.opencalais.com/genericHasher-1/ad004887-c581-3051-9f70-22f68e4b89e4>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Seattle" .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Relevance/50>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/201f26c8-103f-3fd0-8a76-6345b5d94859> .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/90>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Kirk of Enid, Oklahoma; her son, Bob Wilson of ]Garden City[, Kansas; three grandchildren, Melissa Wilson of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "Garden City" ;
+        c:length     "11" ;
+        c:offset     "1330" ;
+        c:prefix     "Kirk of Enid, Oklahoma; her son, Bob Wilson of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4dcd901a-d6eb-3ea7-ab03-906b2bdc1585> ;
+        c:suffix     ", Kansas; three grandchildren, Melissa Wilson of" .
+
+<http://d.opencalais.com/conf/pershash-1/9d2fac7d-cf2f-31fe-a8ef-d25584493eec>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.973" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/9d2fac7d-cf2f-31fe-a8ef-d25584493eec> .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Relevance/29>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/060bd11f-83df-3e02-942b-4ca1065486a7> .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/69>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[by her daughter, Judy Kirk of Enid, Oklahoma; ]her son, Bob Wilson of Garden City, Kansas[; three grandchildren, Melissa Wilson of San]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "her son, Bob Wilson of Garden City, Kansas" ;
+        c:length     "42" ;
+        c:offset     "1307" ;
+        c:prefix     "by her daughter, Judy Kirk of Enid, Oklahoma; " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ddf5cdc3-7dff-315e-aa49-c9a7bfe0d83f> ;
+        c:suffix     "; three grandchildren, Melissa Wilson of San" .
+
+<http://d.opencalais.com/genericHasher-1/b25b9ec4-9596-377b-9e8a-88eb6a3920da>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "husband" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/6260efaa-e971-3869-bd83-a9388c6b19d2> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/6523a884-d51b-36fb-9abb-34016440f672> .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/48>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Wilson.  \nShe is survived by her daughter, ]Judy Kirk[ of Enid, Oklahoma; her son, Bob Wilson of Garden]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "Judy Kirk" ;
+        c:length     "9" ;
+        c:offset     "1278" ;
+        c:prefix     "Wilson.  \nShe is survived by her daughter, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/500b0a0e-bf50-37e1-a15b-c833e4212776> ;
+        c:suffix     " of Enid, Oklahoma; her son, Bob Wilson of Garden" .
+
+<http://d.opencalais.com/genericHasher-1/78fb7fe0-1c17-3192-a1d4-7263c355f3a5>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonAttributes> ;
+        c:birthdate          "1924-01-25" ;
+        c:birthplace         <http://d.opencalais.com/genericHasher-1/ce8de128-24bf-3473-ab18-361909e1197d> ;
+        c:forenduserdisplay  "false" ;
+        c:gender             "F" ;
+        c:person             <http://d.opencalais.com/pershash-1/6260efaa-e971-3869-bd83-a9388c6b19d2> .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/27>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ \nA special interest for the past ten years was ]her[ participation in Friends of the Alva Library and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "993" ;
+        c:prefix     " \nA special interest for the past ten years was " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6260efaa-e971-3869-bd83-a9388c6b19d2> ;
+        c:suffix     " participation in Friends of the Alva Library and" .
+
+<http://d.opencalais.com/genericHasher-1/b00718a8-76d4-3967-b87a-dd6182cc2e4c>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Athens" .
+
+<http://d.opencalais.com/pershash-1/201f26c8-103f-3fd0-8a76-6345b5d94859>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Max" ;
+        c:confidencelevel    "0.945" ;
+        c:firstname          "Max" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Max" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/73c84ff3-d1d5-3349-8f91-6ca830b92f67>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Alva" ;
+        c:person             <http://d.opencalais.com/pershash-1/ce62e1eb-40a4-323a-8a88-dc0b3ab20f35> .
+
+<http://d.opencalais.com/conf/pershash-1/060bd11f-83df-3e02-942b-4ca1065486a7>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/060bd11f-83df-3e02-942b-4ca1065486a7> .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/7>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and her daughter-in-law, Marlene Wilson.  \n]She[ is survived by her daughter, Judy Kirk of Enid,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "1245" ;
+        c:prefix     "and her daughter-in-law, Marlene Wilson.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/b37b2fb3-5cab-3a3e-8520-6c340bc64d92> ;
+        c:suffix     " is survived by her daughter, Judy Kirk of Enid," .
+
+<http://d.opencalais.com/genericHasher-1/85f9fc8c-e8fb-3fda-8a00-417359f534a9>
+        a                    <http://s.opencalais.com/1/type/em/e/Position> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "class teacher" .
+
+<http://d.opencalais.com/genericHasher-1/9679b237-33e8-3478-ba13-d9af3c4b943e>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "California" .
+
+<http://d.opencalais.com/pershash-1/533691c1-b16a-3c54-afd4-f48c9ae9bc6c>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Vera Wilson" ;
+        c:confidencelevel    "0.983" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Vera Wilson" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/98>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Jean Schwerdtfeger of Capron, Oklahoma, ]Audrey Presnall of Alva, Oklahoma[, Vera Wilson of Escondido, California, and Elsie]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "Audrey Presnall of Alva, Oklahoma" ;
+        c:length     "33" ;
+        c:offset     "1607" ;
+        c:prefix     "Jean Schwerdtfeger of Capron, Oklahoma, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/73c84ff3-d1d5-3349-8f91-6ca830b92f67> ;
+        c:suffix     ", Vera Wilson of Escondido, California, and Elsie" .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Relevance/37>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/77>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[married to Ensign Harold W. Wilson at Carmen, ]Oklahoma[.  To this union two children were born?a]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "502" ;
+        c:prefix     "married to Ensign Harold W. Wilson at Carmen, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ".  To this union two children were born?a" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/dbd932ee-eb9e-14c6-5934-fa5c9cc7b96d>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:latitude            "34.0033149514" ;
+        c:longitude           "-81.0592258065" ;
+        c:name                "South Carolina,United States" ;
+        c:permid              "100272" ;
+        c:rcscode             "G:98" ;
+        c:shortname           "South Carolina" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/81682637-b3d2-39a3-bb31-31001f53d4f7> .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Relevance/16>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/96d267b0-b63e-326a-aabc-e65ee5cfde5a> .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/56>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[State University, and a summer institute in ]Athens[, Greece.  \nOn January 5, 1945, she was married]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "Athens" ;
+        c:length     "6" ;
+        c:offset     "410" ;
+        c:prefix     "State University, and a summer institute in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b00718a8-76d4-3967-b87a-dd6182cc2e4c> ;
+        c:suffix     ", Greece.  \nOn January 5, 1945, she was married" .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/35>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and four sisters-in-law, Jean Schwerdtfeger of ]Capron[, Oklahoma, Audrey Presnall of Alva, Oklahoma,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "Capron" ;
+        c:length     "6" ;
+        c:offset     "1589" ;
+        c:prefix     "and four sisters-in-law, Jean Schwerdtfeger of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/5c71500f-b01b-391c-bb39-4ca37fdbad6c> ;
+        c:suffix     ", Oklahoma, Audrey Presnall of Alva, Oklahoma," .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/14>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Vera Wilson of Escondido, California, and ]Elsie Nixon of California[.  \nMemorial contributions may be made through]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "Elsie Nixon of California" ;
+        c:length     "25" ;
+        c:offset     "1684" ;
+        c:prefix     "Vera Wilson of Escondido, California, and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3ba5044e-3610-3c6d-a684-f862c5765c28> ;
+        c:suffix     ".  \nMemorial contributions may be made through" .
+
+<http://d.opencalais.com/genericHasher-1/8da39760-87db-3aa5-9369-142d08eb16f8>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Tulsa" .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Relevance/2>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> .
+
+<http://d.opencalais.com/pershash-1/6523a884-d51b-36fb-9abb-34016440f672>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Harold Wilson" ;
+        c:confidencelevel    "0.963" ;
+        c:firstname          "Harold" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Wilson" ;
+        c:middlename         "W." ;
+        c:name               "Harold W. Wilson" ;
+        c:nationality        "N/A" ;
+        c:persontype         "military" .
+
+<http://d.opencalais.com/genericHasher-1/34d355d7-ce2f-37b5-8997-7666290fe245>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "First United Methodist Church" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Relevance/45>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ef744fb4-a174-3aba-8eb7-b5eb3d2334af> .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/85>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[children were born?a daughter, Judy, and a son, ]Robert[.  \nMrs. Wilson taught English at NWOSU for]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "Robert" ;
+        c:length     "6" ;
+        c:offset     "579" ;
+        c:prefix     "children were born?a daughter, Judy, and a son, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9d2fac7d-cf2f-31fe-a8ef-d25584493eec> ;
+        c:suffix     ".  \nMrs. Wilson taught English at NWOSU for" .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Relevance/24>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b00718a8-76d4-3967-b87a-dd6182cc2e4c> .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/64>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Scott Wilson of Seattle, Washington, and ]Jill Kirk of Tulsa, Oklahoma[; one sister, Polly Baker of Leesville, South]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "Jill Kirk of Tulsa, Oklahoma" ;
+        c:length     "28" ;
+        c:offset     "1458" ;
+        c:prefix     "Scott Wilson of Seattle, Washington, and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/18413e1a-2c84-3b8f-9f2f-a5d7c50b65d4> ;
+        c:suffix     "; one sister, Polly Baker of Leesville, South" .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/43>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Garden City, Kansas; three grandchildren, ]Melissa Wilson[ of San Francisco, California, Scott Wilson of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "Melissa Wilson" ;
+        c:length     "14" ;
+        c:offset     "1372" ;
+        c:prefix     "of Garden City, Kansas; three grandchildren, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/cedbdd91-e7c0-35c7-b565-1a3740610147> ;
+        c:suffix     " of San Francisco, California, Scott Wilson of" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/de098e0a-68c3-1f36-f88a-ab92193a93fd>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:latitude            "36.1106488" ;
+        c:longitude           "-96.0030527" ;
+        c:name                "Garden City,Oklahoma,United States" ;
+        c:shortname           "Garden City" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/4dcd901a-d6eb-3ea7-ab03-906b2bdc1585> .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/22>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[her B.A. and Master of Teaching degrees there.  ]She[ pursued additional graduate study at the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "285" ;
+        c:prefix     "her B.A. and Master of Teaching degrees there.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6260efaa-e971-3869-bd83-a9388c6b19d2> ;
+        c:suffix     " pursued additional graduate study at the" .
+
+<http://d.opencalais.com/genericHasher-1/aa32eba5-8aec-387f-9763-21f798aa4700>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Seattle" ;
+        c:person             <http://d.opencalais.com/pershash-1/77381125-6d48-36fd-b572-eeb6d0a7d009> .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/ComponentVersions>
+        a          <http://s.opencalais.com/1/type/sys/ComponentVersions> ;
+        c:docId    <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:version  "Deals Index:201505261613:201505261613" , "BrokerResearchIM:OneCalais_8.3-RELEASE:198" , "SpanishIM:OneCalais_8.3-RELEASE:198" , "Collector:OneCalais_8.3-RELEASE:113" , "com.clearforest.infoext.dial4j.plugins-basistechconfig:OneCalais_8.3-RELEASE:225" , "config-refineries:258:258" , "OA Override:271:271" , "SECHeaderMetadataIM:OneCalais_8.3-RELEASE:198" , "index-vessels:201505231718:201505231718" , "People Index:201505261608:201505261608" , "People Override:258:258" , "config-cse:271:271" , "config-negativeSignature:258:258" , "Housekeeper:OneCalais_8.3-RELEASE:113" , "WatchDog:OneCalais_8.3-RELEASE:113" , "config-drugs:258:258" , "BlackList:264:264" , "SocialTags Index:201505191038:201505191038" , "OA Index:201505252208:201505252208" , "OneCalais:OneCalais_8.3-RELEASE:364" , "FrenchIM:OneCalais_8.3-RELEASE:198" , "AutocoderRuntimeIM:OneCalais_8.3-RELEASE:198" , "config-physicalAssets-ports:258:258" , "OneCalaisIM:OneCalais_8.3-RELEASE:198" , "Dial4J:OneCalais_8.3-RELEASE:198" , "config-sca-DataPackage:34:34" , "NextTags:OneCalais_8.3-RELEASE:113" , "config-vessels:258:258" .
+
+<http://d.opencalais.com/conf/pershash-1/24400180-efc5-3e83-a61c-d0718d568340>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.983" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.99" ;
+        c:subject             <http://d.opencalais.com/pershash-1/24400180-efc5-3e83-a61c-d0718d568340> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/dc2c111d-ac51-adae-83e3-ffbe220e40a0>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:latitude            "36.8967" ;
+        c:longitude           "-98.5772" ;
+        c:name                "Capron,Oklahoma,United States" ;
+        c:shortname           "Capron" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/5c71500f-b01b-391c-bb39-4ca37fdbad6c> .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/2>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[C-PEO, Holly Club, and Delta Zeta Sorority.  ]She was a member of the First United Methodist Church[ and a charter member of the Fidelis Sunday]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "She was a member of the First United Methodist Church" ;
+        c:length     "53" ;
+        c:offset     "787" ;
+        c:prefix     "C-PEO, Holly Club, and Delta Zeta Sorority.  " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/168ccd36-708e-3cd4-96c0-ea2771fbb94b> ;
+        c:suffix     " and a charter member of the Fidelis Sunday" .
+
+<http://d.opencalais.com/genericHasher-1/e78389e0-a816-305a-8871-66c612fa5aaa>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Alva, Oklahoma" ;
+        c:person             <http://d.opencalais.com/pershash-1/a3e2dd5d-8421-3aa7-8339-02cc1037ed9d> .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/93>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[additional graduate study at the University of ]Colorado[, North Texas State University, and a summer]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "Colorado" ;
+        c:length     "8" ;
+        c:offset     "344" ;
+        c:prefix     "additional graduate study at the University of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/096a73ce-884f-33d7-9375-ac1c8ec74b16> ;
+        c:suffix     ", North Texas State University, and a summer" .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/72>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ \nShe is survived by her daughter, Judy Kirk of ]Enid[, Oklahoma; her son, Bob Wilson of Garden City,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "Enid" ;
+        c:length     "4" ;
+        c:offset     "1291" ;
+        c:prefix     " \nShe is survived by her daughter, Judy Kirk of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/35a979c1-2108-3761-99bd-8c6f499ef6f2> ;
+        c:suffix     ", Oklahoma; her son, Bob Wilson of Garden City," .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Relevance/32>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/24400180-efc5-3e83-a61c-d0718d568340> .
+
+<http://d.opencalais.com/conf/pershash-1/cedbdd91-e7c0-35c7-b565-1a3740610147>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.983" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.99" ;
+        c:subject             <http://d.opencalais.com/pershash-1/cedbdd91-e7c0-35c7-b565-1a3740610147> .
+
+<http://d.opencalais.com/genericHasher-1/13621b9d-c376-3d50-bd9c-29be49278203>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "San Francisco" ;
+        c:person             <http://d.opencalais.com/pershash-1/cedbdd91-e7c0-35c7-b565-1a3740610147> .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Relevance/11>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/pershash-1/6260efaa-e971-3869-bd83-a9388c6b19d2> .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/51>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Baker of Leesville, South Carolina; and four ]sisters-in-law[, Jean Schwerdtfeger of Capron, Oklahoma, Audrey]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "sisters-in-law" ;
+        c:length     "14" ;
+        c:offset     "1551" ;
+        c:prefix     "Baker of Leesville, South Carolina; and four " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/2b3a3f5a-d7a3-39fa-8c71-5271063af001> ;
+        c:suffix     ", Jean Schwerdtfeger of Capron, Oklahoma, Audrey" .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/30>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ \nShe was preceded in death by her parents, ]her[ husband, three brothers, Dale, Bob, and Max, a]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1126" ;
+        c:prefix     " \nShe was preceded in death by her parents, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6260efaa-e971-3869-bd83-a9388c6b19d2> ;
+        c:suffix     " husband, three brothers, Dale, Bob, and Max, a" .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/SocialTag/3>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Alva" ;
+        c:originalValue      "Alva" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/17f61973-ed95-369b-b381-dec22ce26b2a> .
+
+<http://d.opencalais.com/genericHasher-1/81682637-b3d2-39a3-bb31-31001f53d4f7>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "South Carolina" .
+
+<http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oklahoma" .
+
+<http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Alva" .
+
+<http://d.opencalais.com/genericHasher-1/91217818-a35b-3635-a461-1bf8ecab38a8>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Holly Club" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Relevance/40>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/9d2fac7d-cf2f-31fe-a8ef-d25584493eec> .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/1114fb0e-25a2-49dd-a619-369b5b536840>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:latitude            "36.746" ;
+        c:longitude           "-98.7527" ;
+        c:name                "Woods County,Oklahoma,United States" ;
+        c:shortname           "Woods County" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/ce8de128-24bf-3473-ab18-361909e1197d> .
+
+<http://d.opencalais.com/genericHasher-1/8379bb71-2213-36d8-b031-4113e2079f93>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "North Texas State University" .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/80>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[sisters-in-law, Jean Schwerdtfeger of Capron, ]Oklahoma[, Audrey Presnall of Alva, Oklahoma, Vera Wilson]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "1597" ;
+        c:prefix     "sisters-in-law, Jean Schwerdtfeger of Capron, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", Audrey Presnall of Alva, Oklahoma, Vera Wilson" .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Relevance/19>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/bdb71b6e-283b-31a4-9aee-7620fbb431be> .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/59>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[graduate study at the University of Colorado, ]North Texas State University[, and a summer institute in Athens, Greece.  \nOn]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "North Texas State University" ;
+        c:length     "28" ;
+        c:offset     "354" ;
+        c:prefix     "graduate study at the University of Colorado, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/6127cc84-1e32-3f7a-9d00-ff60786ab453> ;
+        c:suffix     ", and a summer institute in Athens, Greece.  \nOn" .
+
+<http://d.opencalais.com/pershash-1/ce62e1eb-40a4-323a-8a88-dc0b3ab20f35>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Audrey Presnall" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Audrey" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Presnall" ;
+        c:name               "Audrey Presnall" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/38>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Bob, and Max, a sister, Virginia Kelley, and ]her[ daughter-in-law, Marlene Wilson.  \nShe is]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1206" ;
+        c:prefix     "Bob, and Max, a sister, Virginia Kelley, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/96d267b0-b63e-326a-aabc-e65ee5cfde5a> ;
+        c:suffix     " daughter-in-law, Marlene Wilson.  \nShe is" .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/17>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Melissa Wilson of San Francisco, California, ]Scott Wilson[ of Seattle, Washington, and Jill Kirk of Tulsa,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "Scott Wilson" ;
+        c:length     "12" ;
+        c:offset     "1417" ;
+        c:prefix     "Melissa Wilson of San Francisco, California, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/77381125-6d48-36fd-b572-eeb6d0a7d009> ;
+        c:suffix     " of Seattle, Washington, and Jill Kirk of Tulsa," .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/ec80b062-8d1e-123a-1d6e-8bd0b7355690>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:latitude            "38.45" ;
+        c:longitude           "-96.5333" ;
+        c:name                "Kansas,United States" ;
+        c:permid              "100151" ;
+        c:rcscode             "G:6D" ;
+        c:shortname           "Kansas" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> .
+
+<http://d.opencalais.com/conf/pershash-1/c07da172-5ef7-34f0-acd8-6fa5e2fdb1b6>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.987" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.992" ;
+        c:subject             <http://d.opencalais.com/pershash-1/c07da172-5ef7-34f0-acd8-6fa5e2fdb1b6> .
+
+<http://d.opencalais.com/genericHasher-1/d033a47c-cb85-3e34-9699-bd8876aca1fc>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Garden City" ;
+        c:person             <http://d.opencalais.com/pershash-1/bf632108-b142-3357-81ab-3918ddb58d81> .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Relevance/5>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a1c1ac3d-0c25-3fb1-ac74-cac9c8510afa> .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Relevance/48>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/2d36d4be-5107-361b-9f90-16b8edd04330> .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/88>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Alva, Oklahoma, Vera Wilson of Escondido, ]California[, and Elsie Nixon of California.  \nMemorial]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "California" ;
+        c:length     "10" ;
+        c:offset     "1668" ;
+        c:prefix     "of Alva, Oklahoma, Vera Wilson of Escondido, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9679b237-33e8-3478-ba13-d9af3c4b943e> ;
+        c:suffix     ", and Elsie Nixon of California.  \nMemorial" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/8fac7585-3230-ed66-1dae-4ee48ac15a97>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:latitude            "36.805" ;
+        c:longitude           "-98.6661" ;
+        c:name                "Alva,Oklahoma,United States" ;
+        c:shortname           "Alva" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Relevance/27>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/34d355d7-ce2f-37b5-8997-7666290fe245> .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/67>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Tulsa, Oklahoma; one sister, Polly Baker of ]Leesville[, South Carolina; and four sisters-in-law, Jean]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "Leesville" ;
+        c:length     "9" ;
+        c:offset     "1515" ;
+        c:prefix     "of Tulsa, Oklahoma; one sister, Polly Baker of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/d18ba0da-8e2e-30f1-a191-c2c59161022c> ;
+        c:suffix     ", South Carolina; and four sisters-in-law, Jean" .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/46>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Francisco, California, Scott Wilson of Seattle, ]Washington[, and Jill Kirk of Tulsa, Oklahoma; one sister,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "Washington" ;
+        c:length     "10" ;
+        c:offset     "1442" ;
+        c:prefix     "Francisco, California, Scott Wilson of Seattle, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/1304fffe-f320-3911-ab13-659ed389c920> ;
+        c:suffix     ", and Jill Kirk of Tulsa, Oklahoma; one sister," .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/25>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[NWOSU for thirty-two years, retiring in 1987.  ]She[ was a member of Delta Kappa Gamma, member and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "666" ;
+        c:prefix     "NWOSU for thirty-two years, retiring in 1987.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6260efaa-e971-3869-bd83-a9388c6b19d2> ;
+        c:suffix     " was a member of Delta Kappa Gamma, member and" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/e9e27c26-4013-8712-a5f0-97dcdc412c26>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:latitude            "35.5607802899" ;
+        c:longitude           "-96.8460570462" ;
+        c:name                "Oklahoma,United States" ;
+        c:permid              "100229" ;
+        c:rcscode             "G:9H" ;
+        c:shortname           "Oklahoma" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/conf/pershash-1/201f26c8-103f-3fd0-8a76-6345b5d94859>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.945" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.641" ;
+        c:subject             <http://d.opencalais.com/pershash-1/201f26c8-103f-3fd0-8a76-6345b5d94859> .
+
+<http://d.opencalais.com/genericHasher-1/2b3a3f5a-d7a3-39fa-8c71-5271063af001>
+        a                    <http://s.opencalais.com/1/type/em/e/IndustryTerm> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "sisters-in-law" .
+
+<http://d.opencalais.com/genericHasher-1/326dd837-4eaf-309a-838b-4ca02e56ca99>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "daughter" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/b37b2fb3-5cab-3a3e-8520-6c340bc64d92> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/500b0a0e-bf50-37e1-a15b-c833e4212776> .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/5>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Oklahoma; her son, Bob Wilson of Garden City, ]Kansas[; three grandchildren, Melissa Wilson of San]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "Kansas" ;
+        c:length     "6" ;
+        c:offset     "1343" ;
+        c:prefix     "Oklahoma; her son, Bob Wilson of Garden City, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> ;
+        c:suffix     "; three grandchildren, Melissa Wilson of San" .
+
+<http://d.opencalais.com/conf/pershash-1/500b0a0e-bf50-37e1-a15b-c833e4212776>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.998" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.999" ;
+        c:subject             <http://d.opencalais.com/pershash-1/500b0a0e-bf50-37e1-a15b-c833e4212776> .
+
+<http://d.opencalais.com/conf/pershash-1/533691c1-b16a-3c54-afd4-f48c9ae9bc6c>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.983" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.99" ;
+        c:subject             <http://d.opencalais.com/pershash-1/533691c1-b16a-3c54-afd4-f48c9ae9bc6c> .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/96>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ She pursued additional graduate study at the ]University of Colorado[, North Texas State University, and a summer]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "University of Colorado" ;
+        c:length     "22" ;
+        c:offset     "330" ;
+        c:prefix     " She pursued additional graduate study at the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/1a8bd41e-cc0b-3425-9f96-687b5b2063c4> ;
+        c:suffix     ", North Texas State University, and a summer" .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Relevance/35>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/35a979c1-2108-3761-99bd-8c6f499ef6f2> .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/75>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[was born January 25, 1924, in Woods County, ]Oklahoma[, to Maude (Muncie) and Howard Presnall and died]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "73" ;
+        c:prefix     "was born January 25, 1924, in Woods County, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", to Maude (Muncie) and Howard Presnall and died" .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Relevance/14>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/5c71500f-b01b-391c-bb39-4ca37fdbad6c> .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/54>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ in Woods County, Oklahoma, to Maude (Muncie) and ]Howard Presnall and died November 4, 2012, in Alva, Oklahoma[.  \nShe graduated from Carmen High School and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "Howard Presnall and died November 4, 2012, in Alva, Oklahoma" ;
+        c:length     "60" ;
+        c:offset     "105" ;
+        c:prefix     " in Woods County, Oklahoma, to Maude (Muncie) and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e78389e0-a816-305a-8871-66c612fa5aaa> ;
+        c:suffix     ".  \nShe graduated from Carmen High School and" .
+
+<http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585/Instance/33>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Wilson of Seattle, Washington, and Jill Kirk of ]Tulsa[, Oklahoma; one sister, Polly Baker of Leesville,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f7bb2e65-4066-3043-9447-9b051fb71585> ;
+        c:exact      "Tulsa" ;
+        c:length     "5" ;
+        c:offset     "1471" ;
+        c:prefix     "Wilson of Seattle, Washington, and Jill Kirk of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8da39760-87db-3aa5-9369-142d08eb16f8> ;
+        c:suffix     ", Oklahoma; one sister, Polly Baker of Leesville," .

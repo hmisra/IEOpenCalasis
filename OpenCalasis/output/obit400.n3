@@ -1,0 +1,2441 @@
+#Relations: FamilyRelation, PersonAttributes, PersonCareer, PersonEducation, PersonLocation, PersonRelation
+#City: Alva, Derwood, Owasso, Pasadena, Seattle
+#Facility: Lutheran Cemetery, Marshall Funeral Home of Alva
+#IndustryTerm: Funeral services, sisters-in-law
+#Organization: Alva Senior Citizens Center, Mary Martha Guild, Mount Olive Lutheran Church, Pleasant View School, Zion Lutheran Church
+#Person: Aiden Schupbach, Austin Vandruff, Chad Pralle, Darrell, Darren Pralle, Debra, Doris Schupbach, Dorothy Otte, Elise Pralle, Ernest Otte, Fern Schupbach, Fern Weibke Elise Schupbach, Gina Vandruff, Helen Beisel, Jackson Vandruff, Janis, Joelle Randall, Johann Hermann Heinrick, Kyle, Liam Schupbach, Louis Schupbach, Mark Bersche, Marshall Funeral, Miles Pralle, Nhi, Phillip Randall, Ralph Abraham Schupbach, Ryan Schupbach, Sofia Pralle, Stephanie, Suzanne Pralle, Walter Otte, Whitney Randall
+#ProvinceOrState: California, Maryland, Oklahoma, Washington
+@prefix c:     <http://s.opencalais.com/1/pred/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/8ef3d355-4ded-03c6-be01-a171664f4566>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Maryland" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:latitude            "39.1172" ;
+        c:longitude           "-77.1611" ;
+        c:name                "Derwood,Maryland,United States" ;
+        c:shortname           "Derwood" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/6b7f346f-9b03-3596-bd2c-63a800ecff9d> .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/60>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and really enjoyed baking and cooking for ]her[ family and friends.  Spending time with her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1149" ;
+        c:prefix     "and really enjoyed baking and cooking for " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f27aa0b4-4ee7-312f-876a-830fca2239ea> ;
+        c:suffix     " family and friends.  Spending time with her" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/7>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Nhi, of Owasso, Oklahoma, Chad Pralle and wife, ]Debra, of Seattle, Washington[, and Darren Pralle and wife, Stephanie, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Debra, of Seattle, Washington" ;
+        c:length     "29" ;
+        c:offset     "1820" ;
+        c:prefix     "Nhi, of Owasso, Oklahoma, Chad Pralle and wife, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/81f13214-1509-3350-a099-729b6bc49623> ;
+        c:suffix     ", and Darren Pralle and wife, Stephanie, of" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Relevance/46>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/6266dcae-60d6-394c-96f1-903c4633ea41> .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/39>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Chad Pralle and wife, Debra, of Seattle, ]Washington[, and Darren Pralle and wife, Stephanie, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Washington" ;
+        c:length     "10" ;
+        c:offset     "1839" ;
+        c:prefix     "Chad Pralle and wife, Debra, of Seattle, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/1304fffe-f320-3911-ab13-659ed389c920> ;
+        c:suffix     ", and Darren Pralle and wife, Stephanie, of" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Relevance/25>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/1304fffe-f320-3911-ab13-659ed389c920> .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/18>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Alva. \t Fern Schupbach, daughter of the late ]Johann Hermann Heinrick[ \"Henry? and Clara Elisa \"Bertha? (Hinrichs)]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Johann Hermann Heinrick" ;
+        c:length     "23" ;
+        c:offset     "294" ;
+        c:prefix     "of Alva. \t Fern Schupbach, daughter of the late " ;
+        c:subject    <http://d.opencalais.com/pershash-1/95707cfb-5ce5-318b-aa7c-6630e148a845> ;
+        c:suffix     " \"Henry? and Clara Elisa \"Bertha? (Hinrichs)" .
+
+<http://d.opencalais.com/pershash-1/cf67b645-1e6b-3576-8167-3d99f7c605ad>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Darrell" ;
+        c:confidencelevel    "0.769" ;
+        c:firstname          "Darrell" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Darrell" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/SocialTag/3>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Zion" ;
+        c:originalValue      "Zion (disambiguation)" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/78d970fd-b125-3e0c-a047-9ec7cd8f59cf> .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/89>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[July 12, 2009, at Beadles Nursing Home in Alva, ]Oklahoma[, at the age of 99 years, 3 months, and 3 days. \t]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "497" ;
+        c:prefix     "July 12, 2009, at Beadles Nursing Home in Alva, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", at the age of 99 years, 3 months, and 3 days. \t" .
+
+<http://d.opencalais.com/pershash-1/0824c880-7431-3846-b832-1042cfbe83e9>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Marshall Funeral" .
+
+<http://d.opencalais.com/pershash-1/08c08bc2-040e-3d3e-ae8d-2066009b81be>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Fern Weibke Elise Schupbach" ;
+        c:confidencelevel    "0.97" ;
+        c:firstname          "Fern" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Weibke Elise Schupbach" ;
+        c:name               "Fern Weibke Elise Schupbach" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/68>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[she was preceded in death by her husband, ]Ralph[, on May 11, 2002; two brothers, Walter Otte and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Ralph" ;
+        c:length     "5" ;
+        c:offset     "1303" ;
+        c:prefix     "she was preceded in death by her husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/112ae1b4-4a2a-3dc8-aa32-d95ca2ec43ff> ;
+        c:suffix     ", on May 11, 2002; two brothers, Walter Otte and" .
+
+<http://d.opencalais.com/pershash-1/f6f9a678-6c23-323d-91b5-1d911a4ac3d5>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Chad Pralle" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Chad" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Pralle" ;
+        c:name               "Chad Pralle" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/47>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and Ernest Otte. \t Fern is survived by one son, ]Louis Schupbach[ and wife, Janis, of Alva; one daughter, Suzanne]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Louis Schupbach" ;
+        c:length     "15" ;
+        c:offset     "1401" ;
+        c:prefix     "and Ernest Otte. \t Fern is survived by one son, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/86c1c3e8-acf2-37f0-9807-fa86433cf740> ;
+        c:suffix     " and wife, Janis, of Alva; one daughter, Suzanne" .
+
+<http://d.opencalais.com/pershash-1/2c2dbf5f-ccdc-30db-9e50-e159b9f4a66b>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Elise Pralle" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Elise" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Pralle" ;
+        c:name               "Elise Pralle" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Relevance/33>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ff5d1cd0-8649-3353-9b3c-a07532f7605d> .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/26>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[\"Henry? and Clara Elisa \"Bertha? (Hinrichs) ]Otte, was born April 9, 1910[, on the farm northwest of Alva, Oklahoma, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Otte, was born April 9, 1910" ;
+        c:length     "28" ;
+        c:offset     "362" ;
+        c:prefix     "\"Henry? and Clara Elisa \"Bertha? (Hinrichs) " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9196f9da-3dce-3e49-8b60-b172200e97ec> ;
+        c:suffix     ", on the farm northwest of Alva, Oklahoma, and" .
+
+<http://d.opencalais.com/pershash-1/112ae1b4-4a2a-3dc8-aa32-d95ca2ec43ff>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Ralph Abraham Schupbach" ;
+        c:confidencelevel    "0.994" ;
+        c:firstname          "Ralph" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Schupbach" ;
+        c:middlename         "Abraham" ;
+        c:name               "Ralph Abraham Schupbach" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Relevance/12>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce> .
+
+<http://d.opencalais.com/conf/pershash-1/9e611a69-ce16-3b40-b806-e5cc41452dee>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.972" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.98" ;
+        c:subject             <http://d.opencalais.com/pershash-1/9e611a69-ce16-3b40-b806-e5cc41452dee> .
+
+<http://d.opencalais.com/genericHasher-1/1304fffe-f320-3911-ab13-659ed389c920>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Washington" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/4766a555-36b8-75a7-45f2-9ca0abd68559>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:latitude            "47.5" ;
+        c:longitude           "-120.5" ;
+        c:name                "Washington,United States" ;
+        c:permid              "100331" ;
+        c:rcscode             "G:27" ;
+        c:shortname           "Washington" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/1304fffe-f320-3911-ab13-659ed389c920> .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/97>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[at the Mount Olive Lutheran Church in Pasadena, ]California[.  They made their home on their farm northwest]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "California" ;
+        c:length     "10" ;
+        c:offset     "820" ;
+        c:prefix     "at the Mount Olive Lutheran Church in Pasadena, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9679b237-33e8-3478-ba13-d9af3c4b943e> ;
+        c:suffix     ".  They made their home on their farm northwest" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/76>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ In 1965, they moved into their new home in ]Alva[. \t She was a member of the Zion Lutheran Church]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "975" ;
+        c:prefix     " In 1965, they moved into their new home in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:suffix     ". \t She was a member of the Zion Lutheran Church" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Relevance/5>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/28a86f25-101a-3e33-a3d4-3fa3d70d734e> .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Relevance/41>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/467f189a-5f62-335d-8099-3048bab70999> .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/2>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Whitney and Phillip Randall of Alva, ]Austin[ and Jackson Vandruff of Yukon, Sofia and Miles]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Austin" ;
+        c:length     "6" ;
+        c:offset     "1975" ;
+        c:prefix     "Whitney and Phillip Randall of Alva, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/d33dc3d7-6324-3d56-b075-f83ee6fbcc57> ;
+        c:suffix     " and Jackson Vandruff of Yukon, Sofia and Miles" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/55>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[years, 3 months, and 3 days. \t On May 1, 1910, ]Fern[ was baptized into the Zion Lutheran Church and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Fern" ;
+        c:length     "4" ;
+        c:offset     "571" ;
+        c:prefix     "years, 3 months, and 3 days. \t On May 1, 1910, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f27aa0b4-4ee7-312f-876a-830fca2239ea> ;
+        c:suffix     " was baptized into the Zion Lutheran Church and" .
+
+<http://d.opencalais.com/pershash-1/f86d4b58-9d28-3498-91bf-dc079e29649b>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Ernest Otte" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Ernest" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Otte" ;
+        c:name               "Ernest Otte" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/e9c8a3ea-121e-3dc0-8722-489594988a36>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Alva" ;
+        c:person             <http://d.opencalais.com/pershash-1/28a86f25-101a-3e33-a3d4-3fa3d70d734e> .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/34>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Otte and Doris Schupbach, both of Alva. \t ]She[ is also survived by five grandchildren, Joelle]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "1616" ;
+        c:prefix     "Otte and Doris Schupbach, both of Alva. \t " ;
+        c:subject    <http://d.opencalais.com/pershash-1/7f51b674-08bf-3558-a4df-6c601eb74672> ;
+        c:suffix     " is also survived by five grandchildren, Joelle" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Relevance/20>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/cf67b645-1e6b-3576-8167-3d99f7c605ad> .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/13>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Vandruff of Yukon, Sofia and Miles Pralle of ]Seattle[, Washington, Elise Pralle of Derwood, Maryland,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Seattle" ;
+        c:length     "7" ;
+        c:offset     "2039" ;
+        c:prefix     "Vandruff of Yukon, Sofia and Miles Pralle of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ad004887-c581-3051-9f70-22f68e4b89e4> ;
+        c:suffix     ", Washington, Elise Pralle of Derwood, Maryland," .
+
+<http://d.opencalais.com/conf/pershash-1/a1bfc17a-8d11-3e66-aac2-dc0af7afa160>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/a1bfc17a-8d11-3e66-aac2-dc0af7afa160> .
+
+<http://d.opencalais.com/genericHasher-1/81f13214-1509-3350-a099-729b6bc49623>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Seattle" ;
+        c:person             <http://d.opencalais.com/pershash-1/7cc868fa-d8fe-3649-b1be-fbea5a93dee8> .
+
+<http://d.opencalais.com/genericHasher-1/35db21b3-668c-3901-b0ec-094c6b47a0e3>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Seattle" ;
+        c:person             <http://d.opencalais.com/pershash-1/bbbc6e78-0a5d-3f23-be05-c9c2b7d485bc> .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/84>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[survived by one son, Louis Schupbach and wife, ]Janis, of Alva[; one daughter, Suzanne Pralle and husband,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Janis, of Alva" ;
+        c:length     "14" ;
+        c:offset     "1427" ;
+        c:prefix     "survived by one son, Louis Schupbach and wife, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/bf0a7cb2-5a4b-32c1-9e78-1d5cee00bad4> ;
+        c:suffix     "; one daughter, Suzanne Pralle and husband," .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/63>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[was always very important to her. \t Besides ]her[ parents, she was preceded in death by her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1248" ;
+        c:prefix     "was always very important to her. \t Besides " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f27aa0b4-4ee7-312f-876a-830fca2239ea> ;
+        c:suffix     " parents, she was preceded in death by her" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/42>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ will be 10:00 a.m. Friday, July 17, 2009, at the ]Zion Lutheran Church[ with Pastor Mark Bersche officiating.  Interment]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Zion Lutheran Church" ;
+        c:length     "20" ;
+        c:offset     "98" ;
+        c:prefix     " will be 10:00 a.m. Friday, July 17, 2009, at the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/df9c2599-eca0-3989-af26-3d2576904b3b> ;
+        c:suffix     " with Pastor Mark Bersche officiating.  Interment" .
+
+<http://d.opencalais.com/genericHasher-1/afde11be-1cac-36fc-85cd-40864d1dd38d>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Owasso" ;
+        c:person             <http://d.opencalais.com/pershash-1/e3bfcd78-8edf-3c89-9dfa-65a759d5f6b1> .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Relevance/49>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/3d0158b5-9f8f-3cc4-907b-e7539bb7d46e> .
+
+<http://d.opencalais.com/genericHasher-1/e361d2bc-d140-3660-8678-ed44c21a17f3>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Alva" ;
+        c:person             <http://d.opencalais.com/pershash-1/7f51b674-08bf-3558-a4df-6c601eb74672> .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/21>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ She was a member of the Zion Lutheran Church and ]Mary Martha Guild[.  She loved knitting, crocheting, sewing, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Mary Martha Guild" ;
+        c:length     "17" ;
+        c:offset     "1032" ;
+        c:prefix     " She was a member of the Zion Lutheran Church and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/cc9ceb40-82c5-3b53-8ca7-a25fa7f5ca57> ;
+        c:suffix     ".  She loved knitting, crocheting, sewing, and" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Relevance/28>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/86c1c3e8-acf2-37f0-9807-fa86433cf740> .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/102>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in the Lutheran Cemetery under the direction of ]Marshall Funeral[ Home of Alva. \t Fern Schupbach, daughter of the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Marshall Funeral" ;
+        c:length     "16" ;
+        c:offset     "224" ;
+        c:prefix     "in the Lutheran Cemetery under the direction of " ;
+        c:subject    <http://d.opencalais.com/pershash-1/0824c880-7431-3846-b832-1042cfbe83e9> ;
+        c:suffix     " Home of Alva. \t Fern Schupbach, daughter of the" .
+
+<http://d.opencalais.com/pershash-1/7f51b674-08bf-3558-a4df-6c601eb74672>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Doris Schupbach" ;
+        c:confidencelevel    "0.974" ;
+        c:firstname          "Doris" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Schupbach" ;
+        c:name               "Doris Schupbach" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/pershash-1/c2eea5a2-d32c-3adc-b1bf-ff6738e7cc5e>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Joelle Randall" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Joelle" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Randall" ;
+        c:name               "Joelle Randall" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/92>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Nhi, of Owasso, Oklahoma, Chad Pralle and wife, ]Debra[, of Seattle, Washington, and Darren Pralle and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Debra" ;
+        c:length     "5" ;
+        c:offset     "1820" ;
+        c:prefix     "Nhi, of Owasso, Oklahoma, Chad Pralle and wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/7cc868fa-d8fe-3649-b1be-fbea5a93dee8> ;
+        c:suffix     ", of Seattle, Washington, and Darren Pralle and" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/71>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[husband, Ralph, on May 11, 2002; two brothers, ]Walter Otte[ and Ernest Otte. \t Fern is survived by one son,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Walter Otte" ;
+        c:length     "11" ;
+        c:offset     "1341" ;
+        c:prefix     "husband, Ralph, on May 11, 2002; two brothers, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9e611a69-ce16-3b40-b806-e5cc41452dee> ;
+        c:suffix     " and Ernest Otte. \t Fern is survived by one son," .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/50>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Kyle, of Yukon, Ryan Schupbach and wife, ]Nhi, of Owasso, Oklahoma, Chad[ Pralle and wife, Debra, of Seattle, Washington,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Nhi, of Owasso, Oklahoma, Chad" ;
+        c:length     "30" ;
+        c:offset     "1772" ;
+        c:prefix     "Kyle, of Yukon, Ryan Schupbach and wife, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b31075e7-0920-32c7-b46e-d97f1a933116> ;
+        c:suffix     " Pralle and wife, Debra, of Seattle, Washington," .
+
+<http://d.opencalais.com/conf/pershash-1/7ec0e88c-cf30-3493-bf99-2fe82d2289ed>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.914" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.932" ;
+        c:subject             <http://d.opencalais.com/pershash-1/7ec0e88c-cf30-3493-bf99-2fe82d2289ed> .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Relevance/36>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/0b85fce9-8b85-374b-9b3d-3c45d4d4f2df> .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/29>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Darren Pralle and wife, Stephanie, of Derwood, ]Maryland[; nine great grandchildren, Whitney and Phillip]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Maryland" ;
+        c:length     "8" ;
+        c:offset     "1902" ;
+        c:prefix     "Darren Pralle and wife, Stephanie, of Derwood, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/6cfe8438-b504-308c-9a4b-9c3c4248c334> ;
+        c:suffix     "; nine great grandchildren, Whitney and Phillip" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Relevance/15>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/28713b2b-e560-3eec-9b48-a2dd59d34469> .
+
+<http://d.opencalais.com/pershash-1/28713b2b-e560-3eec-9b48-a2dd59d34469>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Sofia Pralle" ;
+        c:confidencelevel    "0.752" ;
+        c:firstname          "Miles" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Pralle" ;
+        c:name               "Sofia Pralle" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/7cc868fa-d8fe-3649-b1be-fbea5a93dee8>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.951" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.932" ;
+        c:subject             <http://d.opencalais.com/pershash-1/7cc868fa-d8fe-3649-b1be-fbea5a93dee8> .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/79>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Joelle Randall and husband, J. P., of ]Alva[, Gina Vandruff and husband, Kyle, of Yukon, Ryan]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "1698" ;
+        c:prefix     "Joelle Randall and husband, J. P., of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:suffix     ", Gina Vandruff and husband, Kyle, of Yukon, Ryan" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/58>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[1965, they moved into their new home in Alva. \t ]She[ was a member of the Zion Lutheran Church and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "983" ;
+        c:prefix     "1965, they moved into their new home in Alva. \t " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f27aa0b4-4ee7-312f-876a-830fca2239ea> ;
+        c:suffix     " was a member of the Zion Lutheran Church and" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Relevance/8>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ad004887-c581-3051-9f70-22f68e4b89e4> .
+
+<http://d.opencalais.com/pershash-1/f27aa0b4-4ee7-312f-876a-830fca2239ea>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Fern Schupbach" ;
+        c:confidencelevel    "0.99" ;
+        c:firstname          "Fern" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Schupbach" ;
+        c:name               "Fern Schupbach" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/5>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[on May 11, 2002; two brothers, Walter Otte and ]Ernest Otte[. \t Fern is survived by one son, Louis Schupbach]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Ernest Otte" ;
+        c:length     "11" ;
+        c:offset     "1357" ;
+        c:prefix     "on May 11, 2002; two brothers, Walter Otte and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f86d4b58-9d28-3498-91bf-dc079e29649b> ;
+        c:suffix     ". \t Fern is survived by one son, Louis Schupbach" .
+
+<http://d.opencalais.com/pershash-1/86c1c3e8-acf2-37f0-9807-fa86433cf740>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Louis Schupbach" ;
+        c:confidencelevel    "0.993" ;
+        c:firstname          "Louis" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Schupbach" ;
+        c:name               "Louis Schupbach" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Relevance/44>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/08c08bc2-040e-3d3e-ae8d-2066009b81be> .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/37>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Elise Pralle of Derwood, Maryland, and Aiden and ]Liam Schupbach of Owasso[; other relatives and many friends. \t Memorial]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Liam Schupbach of Owasso" ;
+        c:length     "24" ;
+        c:offset     "2109" ;
+        c:prefix     " Elise Pralle of Derwood, Maryland, and Aiden and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/afde11be-1cac-36fc-85cd-40864d1dd38d> ;
+        c:suffix     "; other relatives and many friends. \t Memorial" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/16>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Maryland, and Aiden and Liam Schupbach of ]Owasso[; other relatives and many friends. \t Memorial]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Owasso" ;
+        c:length     "6" ;
+        c:offset     "2127" ;
+        c:prefix     "Maryland, and Aiden and Liam Schupbach of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/f814c395-69aa-3042-929e-34f570bf1954> ;
+        c:suffix     "; other relatives and many friends. \t Memorial" .
+
+<http://d.opencalais.com/genericHasher-1/8df2076d-1c00-3c98-bb75-81ed024aff9c>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "husband" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/f27aa0b4-4ee7-312f-876a-830fca2239ea> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/112ae1b4-4a2a-3dc8-aa32-d95ca2ec43ff> .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Relevance/23>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/58d6095a-60bc-3481-b5e5-d41a3626a851> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/fc056bd3-a089-184a-bbe0-8f5764d31fc7>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Washington" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:latitude            "47.6064" ;
+        c:longitude           "-122.3308" ;
+        c:name                "Seattle,Washington,United States" ;
+        c:rcscode             "G:1Y7" ;
+        c:shortname           "Seattle" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/ad004887-c581-3051-9f70-22f68e4b89e4> .
+
+<http://d.opencalais.com/conf/pershash-1/cf67b645-1e6b-3576-8167-3d99f7c605ad>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.769" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/cf67b645-1e6b-3576-8167-3d99f7c605ad> .
+
+<http://d.opencalais.com/pershash-1/28a86f25-101a-3e33-a3d4-3fa3d70d734e>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Phillip Randall" ;
+        c:confidencelevel    "0.906" ;
+        c:firstname          "Phillip" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Randall" ;
+        c:name               "Phillip Randall" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/pershash-1/c703fda5-8b8d-36f5-8be0-daaf921ec4f2>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Ryan Schupbach" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Ryan" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Schupbach" ;
+        c:name               "Ryan Schupbach" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/SocialTag/1>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Alva" ;
+        c:originalValue      "Alva" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/17f61973-ed95-369b-b381-dec22ce26b2a> .
+
+<http://d.opencalais.com/conf/pershash-1/f6f9a678-6c23-323d-91b5-1d911a4ac3d5>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/f6f9a678-6c23-323d-91b5-1d911a4ac3d5> .
+
+<http://d.opencalais.com/conf/pershash-1/08c08bc2-040e-3d3e-ae8d-2066009b81be>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.97" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.983" ;
+        c:subject             <http://d.opencalais.com/pershash-1/08c08bc2-040e-3d3e-ae8d-2066009b81be> .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/87>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Sofia and Miles Pralle of Seattle, Washington, ]Elise Pralle of Derwood[, Maryland, and Aiden and Liam Schupbach of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Elise Pralle of Derwood" ;
+        c:length     "23" ;
+        c:offset     "2060" ;
+        c:prefix     "Sofia and Miles Pralle of Seattle, Washington, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0a874cd8-63a0-3113-8754-6c8c025bbf56> ;
+        c:suffix     ", Maryland, and Aiden and Liam Schupbach of" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/66>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[two brothers, Walter Otte and Ernest Otte. \t ]Fern[ is survived by one son, Louis Schupbach and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Fern" ;
+        c:length     "4" ;
+        c:offset     "1372" ;
+        c:prefix     "two brothers, Walter Otte and Ernest Otte. \t " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f27aa0b4-4ee7-312f-876a-830fca2239ea> ;
+        c:suffix     " is survived by one son, Louis Schupbach and" .
+
+<http://d.opencalais.com/conf/pershash-1/2c2dbf5f-ccdc-30db-9e50-e159b9f4a66b>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/2c2dbf5f-ccdc-30db-9e50-e159b9f4a66b> .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Relevance/31>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/a1bfc17a-8d11-3e66-aac2-dc0af7afa160> .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/meta>
+        a                 <http://s.opencalais.com/1/type/sys/DocInfoMeta> ;
+        c:contentType     "text/raw" ;
+        c:docId           <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:language        "English" ;
+        c:processingVer   "AllMetadata" ;
+        c:serverVersion   "OneCalais_8.3-RELEASE:364" ;
+        c:signature       "digestalg-1|ISgeKVhLrdrFAhlmtigiTtsqRy4=|VPKYrU0Epfc9DCAgdQJ8s3XbcElX9Anxdr0lIE9jgBCRh2fAJtS+xQ==" ;
+        c:stagsVer        "OneCalais_8.3-RELEASE-b11-2015-03-25_18:29:00" ;
+        c:submissionDate  "2015-05-26 17:22:07.155" ;
+        c:submitterCode   "0ca6a864-5659-789d-5f32-f365f695e757" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/45>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[may be made through the funeral home to the ]Zion Lutheran Church[ or the Alva Senior Citizens Center.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Zion Lutheran Church" ;
+        c:length     "20" ;
+        c:offset     "2238" ;
+        c:prefix     "may be made through the funeral home to the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/df9c2599-eca0-3989-af26-3d2576904b3b> ;
+        c:suffix     " or the Alva Senior Citizens Center." .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/24>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Kyle, of Yukon, Ryan Schupbach and wife, ]Nhi[, of Owasso, Oklahoma, Chad Pralle and wife,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Nhi" ;
+        c:length     "3" ;
+        c:offset     "1772" ;
+        c:prefix     "Kyle, of Yukon, Ryan Schupbach and wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/7ec0e88c-cf30-3493-bf99-2fe82d2289ed> ;
+        c:suffix     ", of Owasso, Oklahoma, Chad Pralle and wife," .
+
+<http://d.opencalais.com/conf/pershash-1/112ae1b4-4a2a-3dc8-aa32-d95ca2ec43ff>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.994" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.996" ;
+        c:subject             <http://d.opencalais.com/pershash-1/112ae1b4-4a2a-3dc8-aa32-d95ca2ec43ff> .
+
+<http://d.opencalais.com/genericHasher-1/9196f9da-3dce-3e49-8b60-b172200e97ec>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonAttributes> ;
+        c:birthdate          "1910-04-09" ;
+        c:forenduserdisplay  "false" ;
+        c:gender             "M" ;
+        c:person             <http://d.opencalais.com/pershash-1/9e611a69-ce16-3b40-b806-e5cc41452dee> .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Relevance/10>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/f814c395-69aa-3042-929e-34f570bf1954> .
+
+<http://d.opencalais.com/pershash-1/95707cfb-5ce5-318b-aa7c-6630e148a845>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Johann Hermann Heinrick" ;
+        c:confidencelevel    "0.963" ;
+        c:firstname          "Johann" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Heinrick" ;
+        c:middlename         "Hermann" ;
+        c:name               "Johann Hermann Heinrick" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/95>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[1965, they moved into their new home in Alva. \t ]She was a member of the Zion Lutheran Church and Mary Martha Guild[.  She loved knitting, crocheting, sewing, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "She was a member of the Zion Lutheran Church and Mary Martha Guild" ;
+        c:length     "66" ;
+        c:offset     "983" ;
+        c:prefix     "1965, they moved into their new home in Alva. \t " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0b6a492f-b3f3-38a0-b598-69feef573037> ;
+        c:suffix     ".  She loved knitting, crocheting, sewing, and" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/74>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[away July 12, 2009, at Beadles Nursing Home in ]Alva[, Oklahoma, at the age of 99 years, 3 months, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "491" ;
+        c:prefix     "away July 12, 2009, at Beadles Nursing Home in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:suffix     ", Oklahoma, at the age of 99 years, 3 months, and" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/d05e2016-77c3-e1e4-f9f7-d61274efe181>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:latitude            "39.0616685311" ;
+        c:longitude           "-76.7854797575" ;
+        c:name                "Maryland,United States" ;
+        c:permid              "100179" ;
+        c:rcscode             "G:5S" ;
+        c:shortname           "Maryland" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/6cfe8438-b504-308c-9a4b-9c3c4248c334> .
+
+<http://d.opencalais.com/pershash-1/256f831c-7b84-39c4-8e23-3a76994df47c>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Gina Vandruff" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Gina" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Vandruff" ;
+        c:name               "Gina Vandruff" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/cc9ceb40-82c5-3b53-8ca7-a25fa7f5ca57>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Mary Martha Guild" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/fd9e1e90-96a9-04ff-1397-445c4e93208b>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:latitude            "36.4885198674" ;
+        c:longitude           "-119.701379437" ;
+        c:name                "California,United States" ;
+        c:permid              "100049" ;
+        c:rcscode             "G:4V" ;
+        c:shortname           "California" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/9679b237-33e8-3478-ba13-d9af3c4b943e> .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Relevance/3>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/256f831c-7b84-39c4-8e23-3a76994df47c> .
+
+<http://d.opencalais.com/conf/pershash-1/f86d4b58-9d28-3498-91bf-dc079e29649b>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/f86d4b58-9d28-3498-91bf-dc079e29649b> .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/53>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[funeral home to the Zion Lutheran Church or the ]Alva Senior Citizens Center[. \n\t\t\t]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Alva Senior Citizens Center" ;
+        c:length     "27" ;
+        c:offset     "2266" ;
+        c:prefix     "funeral home to the Zion Lutheran Church or the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ff5d1cd0-8649-3353-9b3c-a07532f7605d> ;
+        c:suffix     ". \n\t\t\t" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Relevance/39>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/6b7f346f-9b03-3596-bd2c-63a800ecff9d> .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/32>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Schupbach at the Mount Olive Lutheran Church in ]Pasadena[, California.  They made their home on their farm]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Pasadena" ;
+        c:length     "8" ;
+        c:offset     "810" ;
+        c:prefix     "Schupbach at the Mount Olive Lutheran Church in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/f4792b63-56d8-348c-bb98-c92988af4154> ;
+        c:suffix     ", California.  They made their home on their farm" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/ComponentVersions>
+        a          <http://s.opencalais.com/1/type/sys/ComponentVersions> ;
+        c:docId    <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:version  "People Index:201505261608:201505261608" , "config-negativeSignature:258:258" , "OA Override:271:271" , "config-refineries:258:258" , "People Override:258:258" , "SECHeaderMetadataIM:OneCalais_8.3-RELEASE:198" , "config-cse:271:271" , "config-vessels:258:258" , "AutocoderRuntimeIM:OneCalais_8.3-RELEASE:198" , "WatchDog:OneCalais_8.3-RELEASE:113" , "OneCalaisIM:OneCalais_8.3-RELEASE:198" , "Housekeeper:OneCalais_8.3-RELEASE:113" , "BlackList:264:264" , "FrenchIM:OneCalais_8.3-RELEASE:198" , "Dial4J:OneCalais_8.3-RELEASE:198" , "Deals Index:201505261613:201505261613" , "NextTags:OneCalais_8.3-RELEASE:113" , "SocialTags Index:201505191038:201505191038" , "com.clearforest.infoext.dial4j.plugins-basistechconfig:OneCalais_8.3-RELEASE:225" , "BrokerResearchIM:OneCalais_8.3-RELEASE:198" , "OA Index:201505252208:201505252208" , "config-sca-DataPackage:34:34" , "config-physicalAssets-ports:258:258" , "index-vessels:201505231718:201505231718" , "Collector:OneCalais_8.3-RELEASE:113" , "OneCalais:OneCalais_8.3-RELEASE:364" , "config-drugs:258:258" , "SpanishIM:OneCalais_8.3-RELEASE:198" .
+
+<http://d.opencalais.com/pershash-1/467f189a-5f62-335d-8099-3048bab70999>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Suzanne Pralle" ;
+        c:confidencelevel    "0.993" ;
+        c:firstname          "Suzanne" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Pralle" ;
+        c:name               "Suzanne Pralle" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/11>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[her parents, she was preceded in death by ]her husband, Ralph[, on May 11, 2002; two brothers, Walter Otte and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "her husband, Ralph" ;
+        c:length     "18" ;
+        c:offset     "1290" ;
+        c:prefix     "her parents, she was preceded in death by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/37dfc2f2-a92f-33b6-b347-0b1692b11658> ;
+        c:suffix     ", on May 11, 2002; two brothers, Walter Otte and" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Relevance/18>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/973ccdcf-3322-33f0-bed7-c92dcd8a3fef> .
+
+<http://d.opencalais.com/genericHasher-1/c53622bb-93bf-35f8-8930-a8b8d9734ff2>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Derwood" ;
+        c:person             <http://d.opencalais.com/pershash-1/69254dd4-0abe-37a4-b1ff-6170874885d8> .
+
+<http://d.opencalais.com/genericHasher-1/b6bf2c0d-0ac3-3aaa-a334-e02dfcbc3358>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Alva" ;
+        c:person             <http://d.opencalais.com/pershash-1/0824c880-7431-3846-b832-1042cfbe83e9> .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/82>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Pralle of Seattle, Washington, Elise Pralle of ]Derwood[, Maryland, and Aiden and Liam Schupbach of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Derwood" ;
+        c:length     "7" ;
+        c:offset     "2076" ;
+        c:prefix     "Pralle of Seattle, Washington, Elise Pralle of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/6b7f346f-9b03-3596-bd2c-63a800ecff9d> ;
+        c:suffix     ", Maryland, and Aiden and Liam Schupbach of" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/61>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[for her family and friends.  Spending time with ]her[ family was always very important to her. \t]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1193" ;
+        c:prefix     "for her family and friends.  Spending time with " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f27aa0b4-4ee7-312f-876a-830fca2239ea> ;
+        c:suffix     " family was always very important to her. \t" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/8>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Schupbach and wife, Nhi, of Owasso, Oklahoma, ]Chad Pralle[ and wife, Debra, of Seattle, Washington, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Chad Pralle" ;
+        c:length     "11" ;
+        c:offset     "1798" ;
+        c:prefix     "Schupbach and wife, Nhi, of Owasso, Oklahoma, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f6f9a678-6c23-323d-91b5-1d911a4ac3d5> ;
+        c:suffix     " and wife, Debra, of Seattle, Washington, and" .
+
+<http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Marshall Funeral Home of Alva" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/40>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Yukon, Sofia and Miles Pralle of Seattle, ]Washington[, Elise Pralle of Derwood, Maryland, and Aiden]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Washington" ;
+        c:length     "10" ;
+        c:offset     "2048" ;
+        c:prefix     "of Yukon, Sofia and Miles Pralle of Seattle, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/1304fffe-f320-3911-ab13-659ed389c920> ;
+        c:suffix     ", Elise Pralle of Derwood, Maryland, and Aiden" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Relevance/47>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9679b237-33e8-3478-ba13-d9af3c4b943e> .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Relevance/26>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/c2eea5a2-d32c-3adc-b1bf-ff6738e7cc5e> .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/19>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in the Lutheran Cemetery under the direction of ]Marshall Funeral Home of Alva[. \t Fern Schupbach, daughter of the late Johann]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Marshall Funeral Home of Alva" ;
+        c:length     "29" ;
+        c:offset     "224" ;
+        c:prefix     "in the Lutheran Cemetery under the direction of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce> ;
+        c:suffix     ". \t Fern Schupbach, daughter of the late Johann" .
+
+<http://d.opencalais.com/conf/pershash-1/7f51b674-08bf-3558-a4df-6c601eb74672>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.974" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.983" ;
+        c:subject             <http://d.opencalais.com/pershash-1/7f51b674-08bf-3558-a4df-6c601eb74672> .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/100>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[2009, at the Zion Lutheran Church with Pastor ]Mark Bersche[ officiating.  Interment will be in the Lutheran]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Mark Bersche" ;
+        c:length     "12" ;
+        c:offset     "131" ;
+        c:prefix     "2009, at the Zion Lutheran Church with Pastor " ;
+        c:subject    <http://d.opencalais.com/pershash-1/3d0158b5-9f8f-3cc4-907b-e7539bb7d46e> ;
+        c:suffix     " officiating.  Interment will be in the Lutheran" .
+
+<http://d.opencalais.com/genericHasher-1/6b7f346f-9b03-3596-bd2c-63a800ecff9d>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Derwood" .
+
+<http://d.opencalais.com/conf/pershash-1/c2eea5a2-d32c-3adc-b1bf-ff6738e7cc5e>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/c2eea5a2-d32c-3adc-b1bf-ff6738e7cc5e> .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/90>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Yukon, Ryan Schupbach and wife, Nhi, of Owasso, ]Oklahoma[, Chad Pralle and wife, Debra, of Seattle,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "1788" ;
+        c:prefix     "Yukon, Ryan Schupbach and wife, Nhi, of Owasso, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", Chad Pralle and wife, Debra, of Seattle," .
+
+<http://d.opencalais.com/pershash-1/2b2bab8a-e6d9-3da5-b26b-715e00152ce5>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Helen Beisel" ;
+        c:confidencelevel    "0.997" ;
+        c:firstname          "Helen" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Beisel" ;
+        c:name               "Helen Beisel" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/69>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Derwood, Maryland; nine great grandchildren, ]Whitney[ and Phillip Randall of Alva, Austin and Jackson]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Whitney" ;
+        c:length     "7" ;
+        c:offset     "1938" ;
+        c:prefix     "of Derwood, Maryland; nine great grandchildren, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/0b85fce9-8b85-374b-9b3d-3c45d4d4f2df> ;
+        c:suffix     " and Phillip Randall of Alva, Austin and Jackson" .
+
+<http://d.opencalais.com/genericHasher-1/0a874cd8-63a0-3113-8754-6c8c025bbf56>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Derwood" ;
+        c:person             <http://d.opencalais.com/pershash-1/2c2dbf5f-ccdc-30db-9e50-e159b9f4a66b> .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/48>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[one sister Helen Beisel of Burlington, and her ]sisters-in-law[, Dorothy Otte and Doris Schupbach, both of Alva.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "sisters-in-law" ;
+        c:length     "14" ;
+        c:offset     "1550" ;
+        c:prefix     "one sister Helen Beisel of Burlington, and her " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/2b3a3f5a-d7a3-39fa-8c71-5271063af001> ;
+        c:suffix     ", Dorothy Otte and Doris Schupbach, both of Alva." .
+
+<http://d.opencalais.com/conf/pershash-1/28713b2b-e560-3eec-9b48-a2dd59d34469>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.752" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.783" ;
+        c:subject             <http://d.opencalais.com/pershash-1/28713b2b-e560-3eec-9b48-a2dd59d34469> .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Relevance/34>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/f27aa0b4-4ee7-312f-876a-830fca2239ea> .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/27>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[her parents, she was preceded in death by ]her husband, Ralph[, on May 11, 2002; two brothers, Walter Otte and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "her husband, Ralph" ;
+        c:length     "18" ;
+        c:offset     "1290" ;
+        c:prefix     "her parents, she was preceded in death by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8df2076d-1c00-3c98-bb75-81ed024aff9c> ;
+        c:suffix     ", on May 11, 2002; two brothers, Walter Otte and" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Relevance/13>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee> .
+
+<http://d.opencalais.com/genericHasher-1/f4792b63-56d8-348c-bb98-c92988af4154>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Pasadena" .
+
+<http://d.opencalais.com/genericHasher-1/080dd091-35db-3496-8347-bee826ee364f>
+        a                       <http://s.opencalais.com/1/type/em/r/PersonEducation> ;
+        c:forenduserdisplay     "false" ;
+        c:person                <http://d.opencalais.com/pershash-1/f27aa0b4-4ee7-312f-876a-830fca2239ea> ;
+        c:schoolororganization  "Pleasant View School" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/98>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in the Lutheran Cemetery under the direction of ]Marshall Funeral Home of Alva[. \t Fern Schupbach, daughter of the late Johann]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Marshall Funeral Home of Alva" ;
+        c:length     "29" ;
+        c:offset     "224" ;
+        c:prefix     "in the Lutheran Cemetery under the direction of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6bf2c0d-0ac3-3aaa-a334-e02dfcbc3358> ;
+        c:suffix     ". \t Fern Schupbach, daughter of the late Johann" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/77>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[by one son, Louis Schupbach and wife, Janis, of ]Alva[; one daughter, Suzanne Pralle and husband,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "1437" ;
+        c:prefix     "by one son, Louis Schupbach and wife, Janis, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:suffix     "; one daughter, Suzanne Pralle and husband," .
+
+<http://d.opencalais.com/conf/pershash-1/86c1c3e8-acf2-37f0-9807-fa86433cf740>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.993" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.995" ;
+        c:subject             <http://d.opencalais.com/pershash-1/86c1c3e8-acf2-37f0-9807-fa86433cf740> .
+
+<http://d.opencalais.com/conf/pershash-1/f27aa0b4-4ee7-312f-876a-830fca2239ea>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.99" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.994" ;
+        c:subject             <http://d.opencalais.com/pershash-1/f27aa0b4-4ee7-312f-876a-830fca2239ea> .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Relevance/6>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/f6f9a678-6c23-323d-91b5-1d911a4ac3d5> .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/3>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[  later confirmed on May 20, 1923.  Fern attended ]Pleasant View School[.  On March 16, 1941, she was united in marriage]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Pleasant View School" ;
+        c:length     "20" ;
+        c:offset     "676" ;
+        c:prefix     "  later confirmed on May 20, 1923.  Fern attended " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/cd4cde6f-2042-3261-a769-625a05b4a49a> ;
+        c:suffix     ".  On March 16, 1941, she was united in marriage" .
+
+<http://d.opencalais.com/genericHasher-1/b1071954-dd59-3f1d-bb6b-eb7269269467>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:date                "1941-03-16" ;
+        c:datestring          "March 16, 1941" ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/112ae1b4-4a2a-3dc8-aa32-d95ca2ec43ff> , <http://d.opencalais.com/pershash-1/f27aa0b4-4ee7-312f-876a-830fca2239ea> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/56>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and was  later confirmed on May 20, 1923.  ]Fern[ attended Pleasant View School.  On March 16,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Fern" ;
+        c:length     "4" ;
+        c:offset     "662" ;
+        c:prefix     "and was  later confirmed on May 20, 1923.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f27aa0b4-4ee7-312f-876a-830fca2239ea> ;
+        c:suffix     " attended Pleasant View School.  On March 16," .
+
+<http://d.opencalais.com/pershash-1/bbbc6e78-0a5d-3f23-be05-c9c2b7d485bc>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Miles Pralle" ;
+        c:confidencelevel    "0.906" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Miles Pralle" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Relevance/42>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/35>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[J. P., of Alva, Gina Vandruff and husband, ]Kyle[, of Yukon, Ryan Schupbach and wife, Nhi, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Kyle" ;
+        c:length     "4" ;
+        c:offset     "1731" ;
+        c:prefix     "J. P., of Alva, Gina Vandruff and husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/58d6095a-60bc-3481-b5e5-d41a3626a851> ;
+        c:suffix     ", of Yukon, Ryan Schupbach and wife, Nhi, of" .
+
+<http://d.opencalais.com/genericHasher-1/6cfe8438-b504-308c-9a4b-9c3c4248c334>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Maryland" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/14>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and wife, Debra, of Seattle, Washington, and ]Darren Pralle[ and wife, Stephanie, of Derwood, Maryland; nine]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Darren Pralle" ;
+        c:length     "13" ;
+        c:offset     "1855" ;
+        c:prefix     "and wife, Debra, of Seattle, Washington, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/708aea73-085d-396f-8374-d29165b9cc43> ;
+        c:suffix     " and wife, Stephanie, of Derwood, Maryland; nine" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Relevance/21>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/f4792b63-56d8-348c-bb98-c92988af4154> .
+
+<http://d.opencalais.com/conf/pershash-1/28a86f25-101a-3e33-a3d4-3fa3d70d734e>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.906" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.893" ;
+        c:subject             <http://d.opencalais.com/pershash-1/28a86f25-101a-3e33-a3d4-3fa3d70d734e> .
+
+<http://d.opencalais.com/pershash-1/e3bfcd78-8edf-3c89-9dfa-65a759d5f6b1>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Liam Schupbach" ;
+        c:confidencelevel    "0.87" ;
+        c:firstname          "Liam" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Schupbach" ;
+        c:name               "Liam Schupbach" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/c703fda5-8b8d-36f5-8be0-daaf921ec4f2>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/c703fda5-8b8d-36f5-8be0-daaf921ec4f2> .
+
+<http://d.opencalais.com/pershash-1/0b85fce9-8b85-374b-9b3d-3c45d4d4f2df>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Whitney Randall" ;
+        c:confidencelevel    "0.87" ;
+        c:firstname          "Phillip" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Randall" ;
+        c:name               "Whitney Randall" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/3d0158b5-9f8f-3cc4-907b-e7539bb7d46e>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.896" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.934" ;
+        c:subject             <http://d.opencalais.com/pershash-1/3d0158b5-9f8f-3cc4-907b-e7539bb7d46e> .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/85>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Whitney and Phillip Randall of Alva, Austin and ]Jackson Vandruff[ of Yukon, Sofia and Miles Pralle of Seattle,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Jackson Vandruff" ;
+        c:length     "16" ;
+        c:offset     "1986" ;
+        c:prefix     "Whitney and Phillip Randall of Alva, Austin and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/ba572ab2-fce3-3c54-a3cb-359cf9a6299e> ;
+        c:suffix     " of Yukon, Sofia and Miles Pralle of Seattle," .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/64>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[very important to her. \t Besides her parents, ]she[ was preceded in death by her husband, Ralph, on]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "1261" ;
+        c:prefix     "very important to her. \t Besides her parents, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f27aa0b4-4ee7-312f-876a-830fca2239ea> ;
+        c:suffix     " was preceded in death by her husband, Ralph, on" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Relevance/50>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/69254dd4-0abe-37a4-b1ff-6170874885d8> .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/43>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[\t On May 1, 1910, Fern was baptized into the ]Zion Lutheran Church[ and was  later confirmed on May 20, 1923.  Fern]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Zion Lutheran Church" ;
+        c:length     "20" ;
+        c:offset     "598" ;
+        c:prefix     "\t On May 1, 1910, Fern was baptized into the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/df9c2599-eca0-3989-af26-3d2576904b3b> ;
+        c:suffix     " and was  later confirmed on May 20, 1923.  Fern" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/22>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Maryland; nine great grandchildren, Whitney and ]Phillip Randall of Alva[, Austin and Jackson Vandruff of Yukon, Sofia and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Phillip Randall of Alva" ;
+        c:length     "23" ;
+        c:offset     "1950" ;
+        c:prefix     "Maryland; nine great grandchildren, Whitney and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e9c8a3ea-121e-3dc0-8722-489594988a36> ;
+        c:suffix     ", Austin and Jackson Vandruff of Yukon, Sofia and" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Relevance/29>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/2b3a3f5a-d7a3-39fa-8c71-5271063af001> .
+
+<http://d.opencalais.com/conf/pershash-1/95707cfb-5ce5-318b-aa7c-6630e148a845>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.963" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.978" ;
+        c:subject             <http://d.opencalais.com/pershash-1/95707cfb-5ce5-318b-aa7c-6630e148a845> .
+
+<http://d.opencalais.com/pershash-1/708aea73-085d-396f-8374-d29165b9cc43>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Darren Pralle" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Darren" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Pralle" ;
+        c:name               "Darren Pralle" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/256f831c-7b84-39c4-8e23-3a76994df47c>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/256f831c-7b84-39c4-8e23-3a76994df47c> .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/93>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Funeral services for ]Fern Weibke Elise Schupbach[ will be 10:00 a.m. Friday, July 17, 2009, at the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Fern Weibke Elise Schupbach" ;
+        c:length     "27" ;
+        c:offset     "21" ;
+        c:prefix     "Funeral services for " ;
+        c:subject    <http://d.opencalais.com/pershash-1/08c08bc2-040e-3d3e-ae8d-2066009b81be> ;
+        c:suffix     " will be 10:00 a.m. Friday, July 17, 2009, at the" .
+
+<http://d.opencalais.com/genericHasher-1/bf0a7cb2-5a4b-32c1-9e78-1d5cee00bad4>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Alva" ;
+        c:person             <http://d.opencalais.com/pershash-1/de6ee7cd-38ee-331e-825e-c3d89a1fcb85> .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/72>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[under the direction of Marshall Funeral Home of ]Alva[. \t Fern Schupbach, daughter of the late Johann]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "249" ;
+        c:prefix     "under the direction of Marshall Funeral Home of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:suffix     ". \t Fern Schupbach, daughter of the late Johann" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Relevance/1>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/d33dc3d7-6324-3d56-b075-f83ee6fbcc57> .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/51>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Beisel of Burlington, and her sisters-in-law, ]Dorothy Otte[ and Doris Schupbach, both of Alva. \t She is also]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Dorothy Otte" ;
+        c:length     "12" ;
+        c:offset     "1566" ;
+        c:prefix     "Beisel of Burlington, and her sisters-in-law, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/a1bfc17a-8d11-3e66-aac2-dc0af7afa160> ;
+        c:suffix     " and Doris Schupbach, both of Alva. \t She is also" .
+
+<http://d.opencalais.com/genericHasher-1/b31075e7-0920-32c7-b46e-d97f1a933116>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Owasso" ;
+        c:person             <http://d.opencalais.com/pershash-1/7ec0e88c-cf30-3493-bf99-2fe82d2289ed> .
+
+<http://d.opencalais.com/conf/pershash-1/467f189a-5f62-335d-8099-3048bab70999>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.993" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.995" ;
+        c:subject             <http://d.opencalais.com/pershash-1/467f189a-5f62-335d-8099-3048bab70999> .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/30>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ of Seattle, Washington, Elise Pralle of Derwood, ]Maryland[, and Aiden and Liam Schupbach of Owasso; other]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Maryland" ;
+        c:length     "8" ;
+        c:offset     "2085" ;
+        c:prefix     " of Seattle, Washington, Elise Pralle of Derwood, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/6cfe8438-b504-308c-9a4b-9c3c4248c334> ;
+        c:suffix     ", and Aiden and Liam Schupbach of Owasso; other" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Relevance/37>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/9e611a69-ce16-3b40-b806-e5cc41452dee> .
+
+<http://d.opencalais.com/genericHasher-1/6c02ddba-2cfc-30ef-ac73-2568d301d130>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Alva, Oklahoma" ;
+        c:person             <http://d.opencalais.com/pershash-1/9e611a69-ce16-3b40-b806-e5cc41452dee> .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Relevance/16>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/7ec0e88c-cf30-3493-bf99-2fe82d2289ed> .
+
+<http://d.opencalais.com/pershash-1/58d6095a-60bc-3481-b5e5-d41a3626a851>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Kyle" ;
+        c:confidencelevel    "0.86" ;
+        c:firstname          "Kyle" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Kyle" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/lid/DefaultLangId>
+        a                    <http://s.opencalais.com/1/type/lid/DefaultLangId> ;
+        c:docId              <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:forenduserdisplay  "false" ;
+        c:lang               <http://d.opencalais.com/lid/DefaultLangId/English> ;
+        c:permid             "505062" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05>
+        a                  <http://s.opencalais.com/1/type/sys/DocInfo> ;
+        c:calaisRequestID  "8da8fbf6-053d-4a71-14d9-13ee2b312501" ;
+        c:docDate          "2015-05-26 17:22:07.593" ;
+        c:docTitle         "" ;
+        c:document         "Funeral services for Fern Weibke Elise Schupbach will be 10:00 a.m. Friday, July 17, 2009, at the Zion Lutheran Church with Pastor Mark Bersche officiating.  Interment will be in the Lutheran Cemetery under the direction of Marshall Funeral Home of Alva. \t Fern Schupbach, daughter of the late Johann Hermann Heinrick \"Henry? and Clara Elisa \"Bertha? (Hinrichs) Otte, was born April 9, 1910, on the farm northwest of Alva, Oklahoma, and passed away July 12, 2009, at Beadles Nursing Home in Alva, Oklahoma, at the age of 99 years, 3 months, and 3 days. \t On May 1, 1910, Fern was baptized into the Zion Lutheran Church and was  later confirmed on May 20, 1923.  Fern attended Pleasant View School.  On March 16, 1941, she was united in marriage to Ralph Abraham Schupbach at the Mount Olive Lutheran Church in Pasadena, California.  They made their home on their farm northwest of Alva, where they farmed and ranched for a living.  In 1965, they moved into their new home in Alva. \t She was a member of the Zion Lutheran Church and Mary Martha Guild.  She loved knitting, crocheting, sewing, and traveling, and really enjoyed baking and cooking for her family and friends.  Spending time with her family was always very important to her. \t Besides her parents, she was preceded in death by her husband, Ralph, on May 11, 2002; two brothers, Walter Otte and Ernest Otte. \t Fern is survived by one son, Louis Schupbach and wife, Janis, of Alva; one daughter, Suzanne Pralle and husband, Darrell, of Enid; one sister Helen Beisel of Burlington, and her sisters-in-law, Dorothy Otte and Doris Schupbach, both of Alva. \t She is also survived by five grandchildren, Joelle Randall and husband, J. P., of Alva, Gina Vandruff and husband, Kyle, of Yukon, Ryan Schupbach and wife, Nhi, of Owasso, Oklahoma, Chad Pralle and wife, Debra, of Seattle, Washington, and Darren Pralle and wife, Stephanie, of Derwood, Maryland; nine great grandchildren, Whitney and Phillip Randall of Alva, Austin and Jackson Vandruff of Yukon, Sofia and Miles Pralle of Seattle, Washington, Elise Pralle of Derwood, Maryland, and Aiden and Liam Schupbach of Owasso; other relatives and many friends. \t Memorial contributions may be made through the funeral home to the Zion Lutheran Church or the Alva Senior Citizens Center. \n\t\t\t" ;
+        c:id               "http://id.opencalais.com/45t7HS20cj*8BPJHR7W4nw" ;
+        c:ontology         "http://163.231.4.65/owlschema/8.3/onecalais.owl.allmetadata.xml" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/80>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[grandchildren, Whitney and Phillip Randall of ]Alva[, Austin and Jackson Vandruff of Yukon, Sofia and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "1969" ;
+        c:prefix     "grandchildren, Whitney and Phillip Randall of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:suffix     ", Austin and Jackson Vandruff of Yukon, Sofia and" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Relevance/9>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/708aea73-085d-396f-8374-d29165b9cc43> .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/6>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Maryland; nine great grandchildren, Whitney and ]Phillip Randall[ of Alva, Austin and Jackson Vandruff of Yukon,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Phillip Randall" ;
+        c:length     "15" ;
+        c:offset     "1950" ;
+        c:prefix     "Maryland; nine great grandchildren, Whitney and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/28a86f25-101a-3e33-a3d4-3fa3d70d734e> ;
+        c:suffix     " of Alva, Austin and Jackson Vandruff of Yukon," .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/59>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ the Zion Lutheran Church and Mary Martha Guild.  ]She[ loved knitting, crocheting, sewing, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "1052" ;
+        c:prefix     " the Zion Lutheran Church and Mary Martha Guild.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f27aa0b4-4ee7-312f-876a-830fca2239ea> ;
+        c:suffix     " loved knitting, crocheting, sewing, and" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Relevance/45>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/c703fda5-8b8d-36f5-8be0-daaf921ec4f2> .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/38>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[survived by one son, Louis Schupbach and wife, ]Janis[, of Alva; one daughter, Suzanne Pralle and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Janis" ;
+        c:length     "5" ;
+        c:offset     "1427" ;
+        c:prefix     "survived by one son, Louis Schupbach and wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/de6ee7cd-38ee-331e-825e-c3d89a1fcb85> ;
+        c:suffix     ", of Alva; one daughter, Suzanne Pralle and" .
+
+<http://d.opencalais.com/genericHasher-1/df9c2599-eca0-3989-af26-3d2576904b3b>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Zion Lutheran Church" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Relevance/24>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/de6ee7cd-38ee-331e-825e-c3d89a1fcb85> .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/17>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and her sisters-in-law, Dorothy Otte and ]Doris Schupbach, both of Alva[. \t She is also survived by five grandchildren,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Doris Schupbach, both of Alva" ;
+        c:length     "29" ;
+        c:offset     "1583" ;
+        c:prefix     "and her sisters-in-law, Dorothy Otte and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e361d2bc-d140-3660-8678-ed44c21a17f3> ;
+        c:suffix     ". \t She is also survived by five grandchildren," .
+
+<http://d.opencalais.com/pershash-1/de6ee7cd-38ee-331e-825e-c3d89a1fcb85>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Janis" ;
+        c:confidencelevel    "0.769" ;
+        c:firstname          "Janis" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Janis" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/pershash-1/aa60d2d8-ce81-3761-a505-e49ec48dc6e4>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Aiden Schupbach" ;
+        c:confidencelevel    "0.195" ;
+        c:firstname          "Liam" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Schupbach" ;
+        c:name               "Aiden Schupbach" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/pershash-1/d33dc3d7-6324-3d56-b075-f83ee6fbcc57>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Austin Vandruff" ;
+        c:confidencelevel    "0.87" ;
+        c:firstname          "Jackson" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Vandruff" ;
+        c:name               "Austin Vandruff" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/2b2bab8a-e6d9-3da5-b26b-715e00152ce5>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.997" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.998" ;
+        c:subject             <http://d.opencalais.com/pershash-1/2b2bab8a-e6d9-3da5-b26b-715e00152ce5> .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/SocialTag/2>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Zion Lutheran Church" ;
+        c:originalValue      "Zion Lutheran Church" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/5226dd3e-094b-356f-bfb8-99c02165e162> .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/88>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[April 9, 1910, on the farm northwest of Alva, ]Oklahoma[, and passed away July 12, 2009, at Beadles]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "423" ;
+        c:prefix     "April 9, 1910, on the farm northwest of Alva, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", and passed away July 12, 2009, at Beadles" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/384c8e18-dea8-8639-39cd-34f7816cbe23>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:latitude            "36.2694" ;
+        c:longitude           "-95.8544" ;
+        c:name                "Owasso,Oklahoma,United States" ;
+        c:shortname           "Owasso" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/f814c395-69aa-3042-929e-34f570bf1954> .
+
+<http://d.opencalais.com/genericHasher-1/37dfc2f2-a92f-33b6-b347-0b1692b11658>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/112ae1b4-4a2a-3dc8-aa32-d95ca2ec43ff> , <http://d.opencalais.com/pershash-1/f27aa0b4-4ee7-312f-876a-830fca2239ea> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/67>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ On March 16, 1941, she was united in marriage to ]Ralph Abraham Schupbach[ at the Mount Olive Lutheran Church in Pasadena,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Ralph Abraham Schupbach" ;
+        c:length     "23" ;
+        c:offset     "748" ;
+        c:prefix     " On March 16, 1941, she was united in marriage to " ;
+        c:subject    <http://d.opencalais.com/pershash-1/112ae1b4-4a2a-3dc8-aa32-d95ca2ec43ff> ;
+        c:suffix     " at the Mount Olive Lutheran Church in Pasadena," .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/46>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[\"Henry? and Clara Elisa \"Bertha? (Hinrichs) ]Otte, was born April 9, 1910, on the farm northwest of Alva, Oklahoma, and passed away July 12, 2009, at Beadles Nursing Home in Alva, Oklahoma[, at the age of 99 years, 3 months, and 3 days. \t]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Otte, was born April 9, 1910, on the farm northwest of Alva, Oklahoma, and passed away July 12, 2009, at Beadles Nursing Home in Alva, Oklahoma" ;
+        c:length     "143" ;
+        c:offset     "362" ;
+        c:prefix     "\"Henry? and Clara Elisa \"Bertha? (Hinrichs) " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/6c02ddba-2cfc-30ef-ac73-2568d301d130> ;
+        c:suffix     ", at the age of 99 years, 3 months, and 3 days. \t" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Relevance/32>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/2c2dbf5f-ccdc-30db-9e50-e159b9f4a66b> .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/25>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Elise Pralle of Derwood, Maryland, and Aiden and ]Liam Schupbach[ of Owasso; other relatives and many friends. \t]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Liam Schupbach" ;
+        c:length     "14" ;
+        c:offset     "2109" ;
+        c:prefix     " Elise Pralle of Derwood, Maryland, and Aiden and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/e3bfcd78-8edf-3c89-9dfa-65a759d5f6b1> ;
+        c:suffix     " of Owasso; other relatives and many friends. \t" .
+
+<http://d.opencalais.com/genericHasher-1/ad004887-c581-3051-9f70-22f68e4b89e4>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Seattle" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Relevance/11>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/95707cfb-5ce5-318b-aa7c-6630e148a845> .
+
+<http://d.opencalais.com/pershash-1/ba572ab2-fce3-3c54-a3cb-359cf9a6299e>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Jackson Vandruff" ;
+        c:confidencelevel    "0.87" ;
+        c:firstname          "Jackson" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Vandruff" ;
+        c:name               "Jackson Vandruff" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/96>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Bersche officiating.  Interment will be in the ]Lutheran Cemetery[ under the direction of Marshall Funeral Home of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Lutheran Cemetery" ;
+        c:length     "17" ;
+        c:offset     "183" ;
+        c:prefix     "Bersche officiating.  Interment will be in the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/6266dcae-60d6-394c-96f1-903c4633ea41> ;
+        c:suffix     " under the direction of Marshall Funeral Home of" .
+
+<http://d.opencalais.com/pershash-1/69254dd4-0abe-37a4-b1ff-6170874885d8>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Stephanie" ;
+        c:confidencelevel    "0.981" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Stephanie" ;
+        c:nationality        "American" ;
+        c:persontype         "entertainment" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/75>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[  They made their home on their farm northwest of ]Alva[, where they farmed and ranched for a living.  In]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "881" ;
+        c:prefix     "  They made their home on their farm northwest of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:suffix     ", where they farmed and ranched for a living.  In" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Relevance/4>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/f86d4b58-9d28-3498-91bf-dc079e29649b> .
+
+<http://d.opencalais.com/conf/pershash-1/bbbc6e78-0a5d-3f23-be05-c9c2b7d485bc>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.906" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.921" ;
+        c:subject             <http://d.opencalais.com/pershash-1/bbbc6e78-0a5d-3f23-be05-c9c2b7d485bc> .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/1>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and was  later confirmed on May 20, 1923.  ]Fern attended Pleasant View School[.  On March 16, 1941, she was united in marriage]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Fern attended Pleasant View School" ;
+        c:length     "34" ;
+        c:offset     "662" ;
+        c:prefix     "and was  later confirmed on May 20, 1923.  " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/080dd091-35db-3496-8347-bee826ee364f> ;
+        c:suffix     ".  On March 16, 1941, she was united in marriage" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/54>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[direction of Marshall Funeral Home of Alva. \t ]Fern Schupbach[, daughter of the late Johann Hermann Heinrick]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Fern Schupbach" ;
+        c:length     "14" ;
+        c:offset     "257" ;
+        c:prefix     "direction of Marshall Funeral Home of Alva. \t " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f27aa0b4-4ee7-312f-876a-830fca2239ea> ;
+        c:suffix     ", daughter of the late Johann Hermann Heinrick" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Relevance/40>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/ba572ab2-fce3-3c54-a3cb-359cf9a6299e> .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/33>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and her sisters-in-law, Dorothy Otte and ]Doris Schupbach[, both of Alva. \t She is also survived by five]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Doris Schupbach" ;
+        c:length     "15" ;
+        c:offset     "1583" ;
+        c:prefix     "and her sisters-in-law, Dorothy Otte and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/7f51b674-08bf-3558-a4df-6c601eb74672> ;
+        c:suffix     ", both of Alva. \t She is also survived by five" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/cat/1>
+        a                    <http://s.opencalais.com/1/type/cat/DocCat> ;
+        c:docId              <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Human Interest" ;
+        c:score              "0.899" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/12>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Oklahoma, Chad Pralle and wife, Debra, of ]Seattle[, Washington, and Darren Pralle and wife,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Seattle" ;
+        c:length     "7" ;
+        c:offset     "1830" ;
+        c:prefix     "Oklahoma, Chad Pralle and wife, Debra, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ad004887-c581-3051-9f70-22f68e4b89e4> ;
+        c:suffix     ", Washington, and Darren Pralle and wife," .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Relevance/19>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/6cfe8438-b504-308c-9a4b-9c3c4248c334> .
+
+<http://d.opencalais.com/conf/pershash-1/e3bfcd78-8edf-3c89-9dfa-65a759d5f6b1>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.87" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.893" ;
+        c:subject             <http://d.opencalais.com/pershash-1/e3bfcd78-8edf-3c89-9dfa-65a759d5f6b1> .
+
+<http://d.opencalais.com/pershash-1/3d0158b5-9f8f-3cc4-907b-e7539bb7d46e>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Mark Bersche" ;
+        c:confidencelevel    "0.896" ;
+        c:firstname          "Mark" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Bersche" ;
+        c:name               "Mark Bersche" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/0b85fce9-8b85-374b-9b3d-3c45d4d4f2df>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.87" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.893" ;
+        c:subject             <http://d.opencalais.com/pershash-1/0b85fce9-8b85-374b-9b3d-3c45d4d4f2df> .
+
+<http://d.opencalais.com/genericHasher-1/9679b237-33e8-3478-ba13-d9af3c4b943e>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "California" .
+
+<http://d.opencalais.com/genericHasher-1/0b6a492f-b3f3-38a0-b598-69feef573037>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:forenduserdisplay  "true" ;
+        c:organization       <http://d.opencalais.com/genericHasher-1/df9c2599-eca0-3989-af26-3d2576904b3b> ;
+        c:person             <http://d.opencalais.com/pershash-1/f27aa0b4-4ee7-312f-876a-830fca2239ea> ;
+        c:position           "member" ;
+        c:status             "past" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/83>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Austin and Jackson Vandruff of Yukon, Sofia and ]Miles Pralle of Seattle, Washington[, Elise Pralle of Derwood, Maryland, and Aiden]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Miles Pralle of Seattle, Washington" ;
+        c:length     "35" ;
+        c:offset     "2023" ;
+        c:prefix     "Austin and Jackson Vandruff of Yukon, Sofia and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/35db21b3-668c-3901-b0ec-094c6b47a0e3> ;
+        c:suffix     ", Elise Pralle of Derwood, Maryland, and Aiden" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/62>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[with her family was always very important to ]her[. \t Besides her parents, she was preceded in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1233" ;
+        c:prefix     "with her family was always very important to " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f27aa0b4-4ee7-312f-876a-830fca2239ea> ;
+        c:suffix     ". \t Besides her parents, she was preceded in" .
+
+<http://d.opencalais.com/genericHasher-1/ff5d1cd0-8649-3353-9b3c-a07532f7605d>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Alva Senior Citizens Center" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/9>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Pralle and husband, Darrell, of Enid; one sister ]Helen Beisel[ of Burlington, and her sisters-in-law, Dorothy]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Helen Beisel" ;
+        c:length     "12" ;
+        c:offset     "1514" ;
+        c:prefix     " Pralle and husband, Darrell, of Enid; one sister " ;
+        c:subject    <http://d.opencalais.com/pershash-1/2b2bab8a-e6d9-3da5-b26b-715e00152ce5> ;
+        c:suffix     " of Burlington, and her sisters-in-law, Dorothy" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/41>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[\t She is also survived by five grandchildren, ]Joelle Randall[ and husband, J. P., of Alva, Gina Vandruff and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Joelle Randall" ;
+        c:length     "14" ;
+        c:offset     "1660" ;
+        c:prefix     "\t She is also survived by five grandchildren, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/c2eea5a2-d32c-3adc-b1bf-ff6738e7cc5e> ;
+        c:suffix     " and husband, J. P., of Alva, Gina Vandruff and" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Relevance/48>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/bbbc6e78-0a5d-3f23-be05-c9c2b7d485bc> .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/20>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[]Funeral services[ for Fern Weibke Elise Schupbach will be 10:00]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Funeral services" ;
+        c:length     "16" ;
+        c:offset     "0" ;
+        c:prefix     "" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee> ;
+        c:suffix     " for Fern Weibke Elise Schupbach will be 10:00" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Relevance/27>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/df9c2599-eca0-3989-af26-3d2576904b3b> .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/101>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Seattle, Washington, and Darren Pralle and wife, ]Stephanie[, of Derwood, Maryland; nine great grandchildren,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Stephanie" ;
+        c:length     "9" ;
+        c:offset     "1879" ;
+        c:prefix     " Seattle, Washington, and Darren Pralle and wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/69254dd4-0abe-37a4-b1ff-6170874885d8> ;
+        c:suffix     ", of Derwood, Maryland; nine great grandchildren," .
+
+<http://d.opencalais.com/conf/pershash-1/708aea73-085d-396f-8374-d29165b9cc43>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/708aea73-085d-396f-8374-d29165b9cc43> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/863b02c9-a1e7-4abd-9d9c-4ee4d14af94d>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "California" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:latitude            "34.1478" ;
+        c:longitude           "-118.1436" ;
+        c:name                "Pasadena,California,United States" ;
+        c:shortname           "Pasadena" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/f4792b63-56d8-348c-bb98-c92988af4154> .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/91>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Seattle, Washington, and Darren Pralle and wife, ]Stephanie, of Derwood, Maryland[; nine great grandchildren, Whitney and Phillip]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Stephanie, of Derwood, Maryland" ;
+        c:length     "31" ;
+        c:offset     "1879" ;
+        c:prefix     " Seattle, Washington, and Darren Pralle and wife, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c53622bb-93bf-35f8-8930-a8b8d9734ff2> ;
+        c:suffix     "; nine great grandchildren, Whitney and Phillip" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/70>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[\"Henry? and Clara Elisa \"Bertha? (Hinrichs) ]Otte[, was born April 9, 1910, on the farm northwest]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Otte" ;
+        c:length     "4" ;
+        c:offset     "362" ;
+        c:prefix     "\"Henry? and Clara Elisa \"Bertha? (Hinrichs) " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9e611a69-ce16-3b40-b806-e5cc41452dee> ;
+        c:suffix     ", was born April 9, 1910, on the farm northwest" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/49>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Elise Pralle of Derwood, Maryland, and ]Aiden[ and Liam Schupbach of Owasso; other relatives]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Aiden" ;
+        c:length     "5" ;
+        c:offset     "2099" ;
+        c:prefix     "Elise Pralle of Derwood, Maryland, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/aa60d2d8-ce81-3761-a505-e49ec48dc6e4> ;
+        c:suffix     " and Liam Schupbach of Owasso; other relatives" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Relevance/35>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/112ae1b4-4a2a-3dc8-aa32-d95ca2ec43ff> .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/28>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in marriage to Ralph Abraham Schupbach at the ]Mount Olive Lutheran Church[ in Pasadena, California.  They made their home]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Mount Olive Lutheran Church" ;
+        c:length     "27" ;
+        c:offset     "779" ;
+        c:prefix     "in marriage to Ralph Abraham Schupbach at the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/973ccdcf-3322-33f0-bed7-c92dcd8a3fef> ;
+        c:suffix     " in Pasadena, California.  They made their home" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Relevance/14>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/cc9ceb40-82c5-3b53-8ca7-a25fa7f5ca57> .
+
+<http://d.opencalais.com/conf/pershash-1/58d6095a-60bc-3481-b5e5-d41a3626a851>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.86" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/58d6095a-60bc-3481-b5e5-d41a3626a851> .
+
+<http://d.opencalais.com/pershash-1/9e611a69-ce16-3b40-b806-e5cc41452dee>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Walter Otte" ;
+        c:confidencelevel    "0.972" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Otte" ;
+        c:name               "Walter Otte" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/973ccdcf-3322-33f0-bed7-c92dcd8a3fef>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Mount Olive Lutheran Church" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/99>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Austin and Jackson Vandruff of Yukon, Sofia and ]Miles Pralle[ of Seattle, Washington, Elise Pralle of Derwood,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Miles Pralle" ;
+        c:length     "12" ;
+        c:offset     "2023" ;
+        c:prefix     "Austin and Jackson Vandruff of Yukon, Sofia and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/bbbc6e78-0a5d-3f23-be05-c9c2b7d485bc> ;
+        c:suffix     " of Seattle, Washington, Elise Pralle of Derwood," .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/78>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Dorothy Otte and Doris Schupbach, both of ]Alva[. \t She is also survived by five grandchildren,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "1608" ;
+        c:prefix     "Dorothy Otte and Doris Schupbach, both of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:suffix     ". \t She is also survived by five grandchildren," .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Relevance/7>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/2b2bab8a-e6d9-3da5-b26b-715e00152ce5> .
+
+<http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee>
+        a                    <http://s.opencalais.com/1/type/em/e/IndustryTerm> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Funeral services" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/4>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Joelle Randall and husband, J. P., of Alva, ]Gina Vandruff[ and husband, Kyle, of Yukon, Ryan Schupbach and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Gina Vandruff" ;
+        c:length     "13" ;
+        c:offset     "1704" ;
+        c:prefix     "Joelle Randall and husband, J. P., of Alva, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/256f831c-7b84-39c4-8e23-3a76994df47c> ;
+        c:suffix     " and husband, Kyle, of Yukon, Ryan Schupbach and" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/57>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Pleasant View School.  On March 16, 1941, ]she[ was united in marriage to Ralph Abraham]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "718" ;
+        c:prefix     "Pleasant View School.  On March 16, 1941, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f27aa0b4-4ee7-312f-876a-830fca2239ea> ;
+        c:suffix     " was united in marriage to Ralph Abraham" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Relevance/43>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/7cc868fa-d8fe-3649-b1be-fbea5a93dee8> .
+
+<http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oklahoma" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/36>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[20, 1923.  Fern attended Pleasant View School.  ]On March 16, 1941, she was united in marriage to Ralph Abraham Schupbach[ at the Mount Olive Lutheran Church in Pasadena,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "On March 16, 1941, she was united in marriage to Ralph Abraham Schupbach" ;
+        c:length     "72" ;
+        c:offset     "699" ;
+        c:prefix     "20, 1923.  Fern attended Pleasant View School.  " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b1071954-dd59-3f1d-bb6b-eb7269269467> ;
+        c:suffix     " at the Mount Olive Lutheran Church in Pasadena," .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/15>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Kyle, of Yukon, Ryan Schupbach and wife, Nhi, of ]Owasso[, Oklahoma, Chad Pralle and wife, Debra, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Owasso" ;
+        c:length     "6" ;
+        c:offset     "1780" ;
+        c:prefix     " Kyle, of Yukon, Ryan Schupbach and wife, Nhi, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/f814c395-69aa-3042-929e-34f570bf1954> ;
+        c:suffix     ", Oklahoma, Chad Pralle and wife, Debra, of" .
+
+<http://d.opencalais.com/genericHasher-1/f814c395-69aa-3042-929e-34f570bf1954>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Owasso" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Relevance/22>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/7f51b674-08bf-3558-a4df-6c601eb74672> .
+
+<http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Alva" .
+
+<http://d.opencalais.com/conf/pershash-1/de6ee7cd-38ee-331e-825e-c3d89a1fcb85>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.769" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/de6ee7cd-38ee-331e-825e-c3d89a1fcb85> .
+
+<http://d.opencalais.com/conf/pershash-1/aa60d2d8-ce81-3761-a505-e49ec48dc6e4>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.195" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.207" ;
+        c:subject             <http://d.opencalais.com/pershash-1/aa60d2d8-ce81-3761-a505-e49ec48dc6e4> .
+
+<http://d.opencalais.com/pershash-1/a1bfc17a-8d11-3e66-aac2-dc0af7afa160>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Dorothy Otte" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Dorothy" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Otte" ;
+        c:name               "Dorothy Otte" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/d33dc3d7-6324-3d56-b075-f83ee6fbcc57>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.87" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.893" ;
+        c:subject             <http://d.opencalais.com/pershash-1/d33dc3d7-6324-3d56-b075-f83ee6fbcc57> .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/86>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and wife, Janis, of Alva; one daughter, ]Suzanne Pralle[ and husband, Darrell, of Enid; one sister Helen]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Suzanne Pralle" ;
+        c:length     "14" ;
+        c:offset     "1457" ;
+        c:prefix     "and wife, Janis, of Alva; one daughter, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/467f189a-5f62-335d-8099-3048bab70999> ;
+        c:suffix     " and husband, Darrell, of Enid; one sister Helen" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/65>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[her parents, she was preceded in death by ]her[ husband, Ralph, on May 11, 2002; two brothers,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1290" ;
+        c:prefix     "her parents, she was preceded in death by " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f27aa0b4-4ee7-312f-876a-830fca2239ea> ;
+        c:suffix     " husband, Ralph, on May 11, 2002; two brothers," .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Relevance/51>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/0824c880-7431-3846-b832-1042cfbe83e9> .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/44>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[new home in Alva. \t She was a member of the ]Zion Lutheran Church[ and Mary Martha Guild.  She loved knitting,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Zion Lutheran Church" ;
+        c:length     "20" ;
+        c:offset     "1007" ;
+        c:prefix     "new home in Alva. \t She was a member of the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/df9c2599-eca0-3989-af26-3d2576904b3b> ;
+        c:suffix     " and Mary Martha Guild.  She loved knitting," .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/23>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Alva, Austin and Jackson Vandruff of Yukon, ]Sofia[ and Miles Pralle of Seattle, Washington, Elise]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Sofia" ;
+        c:length     "5" ;
+        c:offset     "2013" ;
+        c:prefix     "of Alva, Austin and Jackson Vandruff of Yukon, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/28713b2b-e560-3eec-9b48-a2dd59d34469> ;
+        c:suffix     " and Miles Pralle of Seattle, Washington, Elise" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Relevance/30>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/aa60d2d8-ce81-3761-a505-e49ec48dc6e4> .
+
+<http://d.opencalais.com/conf/pershash-1/ba572ab2-fce3-3c54-a3cb-359cf9a6299e>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.87" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.893" ;
+        c:subject             <http://d.opencalais.com/pershash-1/ba572ab2-fce3-3c54-a3cb-359cf9a6299e> .
+
+<http://d.opencalais.com/conf/pershash-1/69254dd4-0abe-37a4-b1ff-6170874885d8>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.981" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.932" ;
+        c:subject             <http://d.opencalais.com/pershash-1/69254dd4-0abe-37a4-b1ff-6170874885d8> .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/94>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Alva, Gina Vandruff and husband, Kyle, of Yukon, ]Ryan Schupbach[ and wife, Nhi, of Owasso, Oklahoma, Chad Pralle]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Ryan Schupbach" ;
+        c:length     "14" ;
+        c:offset     "1747" ;
+        c:prefix     " Alva, Gina Vandruff and husband, Kyle, of Yukon, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/c703fda5-8b8d-36f5-8be0-daaf921ec4f2> ;
+        c:suffix     " and wife, Nhi, of Owasso, Oklahoma, Chad Pralle" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/73>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ was born April 9, 1910, on the farm northwest of ]Alva[, Oklahoma, and passed away July 12, 2009, at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "417" ;
+        c:prefix     " was born April 9, 1910, on the farm northwest of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:suffix     ", Oklahoma, and passed away July 12, 2009, at" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Relevance/2>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/cd4cde6f-2042-3261-a769-625a05b4a49a> .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/e9e27c26-4013-8712-a5f0-97dcdc412c26>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:latitude            "35.5607802899" ;
+        c:longitude           "-96.8460570462" ;
+        c:name                "Oklahoma,United States" ;
+        c:permid              "100229" ;
+        c:rcscode             "G:9H" ;
+        c:shortname           "Oklahoma" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/52>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Sofia and Miles Pralle of Seattle, Washington, ]Elise Pralle[ of Derwood, Maryland, and Aiden and Liam]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Elise Pralle" ;
+        c:length     "12" ;
+        c:offset     "2060" ;
+        c:prefix     "Sofia and Miles Pralle of Seattle, Washington, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/2c2dbf5f-ccdc-30db-9e50-e159b9f4a66b> ;
+        c:suffix     " of Derwood, Maryland, and Aiden and Liam" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Relevance/38>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> .
+
+<http://d.opencalais.com/pershash-1/7ec0e88c-cf30-3493-bf99-2fe82d2289ed>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Nhi" ;
+        c:confidencelevel    "0.914" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Nhi" ;
+        c:nationality        "Chadian" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/31>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Alva; one daughter, Suzanne Pralle and husband, ]Darrell[, of Enid; one sister Helen Beisel of Burlington,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Darrell" ;
+        c:length     "7" ;
+        c:offset     "1485" ;
+        c:prefix     "Alva; one daughter, Suzanne Pralle and husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/cf67b645-1e6b-3576-8167-3d99f7c605ad> ;
+        c:suffix     ", of Enid; one sister Helen Beisel of Burlington," .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/10>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Enid; one sister Helen Beisel of Burlington, and ]her[ sisters-in-law, Dorothy Otte and Doris]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1546" ;
+        c:prefix     " Enid; one sister Helen Beisel of Burlington, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/2b2bab8a-e6d9-3da5-b26b-715e00152ce5> ;
+        c:suffix     " sisters-in-law, Dorothy Otte and Doris" .
+
+<http://d.opencalais.com/genericHasher-1/2b3a3f5a-d7a3-39fa-8c71-5271063af001>
+        a                    <http://s.opencalais.com/1/type/em/e/IndustryTerm> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "sisters-in-law" .
+
+<http://d.opencalais.com/genericHasher-1/cd4cde6f-2042-3261-a769-625a05b4a49a>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Pleasant View School" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Relevance/17>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/e3bfcd78-8edf-3c89-9dfa-65a759d5f6b1> .
+
+<http://d.opencalais.com/genericHasher-1/6266dcae-60d6-394c-96f1-903c4633ea41>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Lutheran Cemetery" .
+
+<http://d.opencalais.com/pershash-1/7cc868fa-d8fe-3649-b1be-fbea5a93dee8>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Debra" ;
+        c:confidencelevel    "0.951" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Debra" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05/Instance/81>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and Darren Pralle and wife, Stephanie, of ]Derwood[, Maryland; nine great grandchildren, Whitney and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7228ce6e-9df1-35f3-9a56-c2a73d4dbb05> ;
+        c:exact      "Derwood" ;
+        c:length     "7" ;
+        c:offset     "1893" ;
+        c:prefix     "and Darren Pralle and wife, Stephanie, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/6b7f346f-9b03-3596-bd2c-63a800ecff9d> ;
+        c:suffix     ", Maryland; nine great grandchildren, Whitney and" .

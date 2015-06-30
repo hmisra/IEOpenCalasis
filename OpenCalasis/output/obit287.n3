@@ -1,0 +1,1829 @@
+#Relations: CompanyLocation, FamilyRelation, PersonAttributes, PersonEducation, PersonLocation, PersonRelation
+#City: Alva, Columbus, Magnolia, Okemah, Waynoka
+#Company: Clarion
+#Facility: Marshall Funeral Home of Waynoka, Miller&s Cafe, Waynoka Municipal Cemetery
+#IndustryTerm: Funeral services
+#Organization: Baptist Church, Morning Star School, Waynoka Church of God
+#Person: Anna May, Bessie Phillips, Billy Joe, Carol, Charles Newton, Claude Woolley, Claudette Pierce, Dwight Neff, Edward Wilson, Joe Virgil, Julie, Kenneth Wilson, Leona Morris, Margaret Windecker, Marshall Funeral, Mary, Richard Wilson, Stella Mae (Icke) Neff, Stella Marie "Dolly" Woolley
+#ProvinceOrState: Ohio, Oklahoma, Pennsylvania, Texas
+@prefix c:     <http://s.opencalais.com/1/pred/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://d.opencalais.com/genericHasher-1/f2bac89f-5378-3c4e-95d8-a52e39103547>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "husband" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/e42e82b7-d40e-3bef-9b57-7b3a86f66d30> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/8c342775-4d0d-3c43-a4a3-067c7f11a28d> .
+
+<http://d.opencalais.com/pershash-1/846aa3d9-5ab8-3c15-8d45-cd90a9ffe99b>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Mary" ;
+        c:confidencelevel    "0.971" ;
+        c:firstname          "Mary" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Mary" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/73>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Oklahoma, Richard Wilson and his wife, Mary, of ]Clarion, Pennsylvania[, and Edward Wilson and his wife, Julie, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "Clarion, Pennsylvania" ;
+        c:length     "21" ;
+        c:offset     "1120" ;
+        c:prefix     "Oklahoma, Richard Wilson and his wife, Mary, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/22d9654a-aa55-311e-bad9-bc2f2108bcd8> ;
+        c:suffix     ", and Edward Wilson and his wife, Julie, of" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/4e995033-70d0-4e35-245c-2de99045b623>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:latitude            "40.5" ;
+        c:longitude           "-82.5" ;
+        c:name                "Ohio,United States" ;
+        c:permid              "100228" ;
+        c:rcscode             "G:1D" ;
+        c:shortname           "Ohio" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/3464e47d-a869-3783-8fdc-d17cb8f13c2e> .
+
+<http://d.opencalais.com/genericHasher-1/e3b72b91-4c80-3b6b-9257-7bb74b00a86c>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Morning Star School" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Relevance/2>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/52>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[by three sons, Kenneth Wilson of Okemah, ]Oklahoma[, Richard Wilson and his wife, Mary, of Clarion,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "1072" ;
+        c:prefix     "by three sons, Kenneth Wilson of Okemah, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", Richard Wilson and his wife, Mary, of Clarion," .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/31>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[under the direction of Marshall Funeral Home of ]Waynoka[.  \nStella Marie \"Dolly\" Woolley, daughter of the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "Waynoka" ;
+        c:length     "7" ;
+        c:offset     "266" ;
+        c:prefix     "under the direction of Marshall Funeral Home of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/5cdb0ca2-a978-3b12-a2ae-6ff11510810c> ;
+        c:suffix     ".  \nStella Marie \"Dolly\" Woolley, daughter of the" .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Relevance/20>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/8c342775-4d0d-3c43-a4a3-067c7f11a28d> .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/10>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Municipal Cemetery under the direction of ]Marshall Funeral Home of Waynoka[.  \nStella Marie \"Dolly\" Woolley, daughter of the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "Marshall Funeral Home of Waynoka" ;
+        c:length     "32" ;
+        c:offset     "241" ;
+        c:prefix     "Municipal Cemetery under the direction of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/84bb0714-85ab-39de-a7e7-f1ad2e79292b> ;
+        c:suffix     ".  \nStella Marie \"Dolly\" Woolley, daughter of the" .
+
+<http://d.opencalais.com/pershash-1/0824c880-7431-3846-b832-1042cfbe83e9>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Marshall Funeral" .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/60>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Okemah, Oklahoma, Richard Wilson and his wife, ]Mary[, of Clarion, Pennsylvania, and Edward Wilson and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "Mary" ;
+        c:length     "4" ;
+        c:offset     "1111" ;
+        c:prefix     "Okemah, Oklahoma, Richard Wilson and his wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/846aa3d9-5ab8-3c15-8d45-cd90a9ffe99b> ;
+        c:suffix     ", of Clarion, Pennsylvania, and Edward Wilson and" .
+
+<http://d.opencalais.com/genericHasher-1/012470ad-88a3-3d08-9e7c-93b059a6fbc7>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Magnolia" ;
+        c:person             <http://d.opencalais.com/pershash-1/1f63034a-8302-314b-ba8a-4693832a4427> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/f6ce3662-5fe9-83fa-3a6d-8c65e2714094>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:latitude            "36.5822" ;
+        c:longitude           "-98.8794" ;
+        c:name                "Waynoka,Oklahoma,United States" ;
+        c:shortname           "Waynoka" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/5cdb0ca2-a978-3b12-a2ae-6ff11510810c> .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/lid/DefaultLangId>
+        a                    <http://s.opencalais.com/1/type/lid/DefaultLangId> ;
+        c:docId              <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:forenduserdisplay  "false" ;
+        c:lang               <http://d.opencalais.com/lid/DefaultLangId/English> ;
+        c:permid             "505062" .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/39>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Funeral services for ]Stella Marie \"Dolly\" Woolley[, 89 will be 10:30 a.m. Thursday, July 20, 2006,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "Stella Marie \"Dolly\" Woolley" ;
+        c:length     "28" ;
+        c:offset     "21" ;
+        c:prefix     "Funeral services for " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9725605c-e84d-353f-b471-5a70517b83f6> ;
+        c:suffix     ", 89 will be 10:30 a.m. Thursday, July 20, 2006," .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Relevance/28>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/db87892a-ed55-3f92-93fa-c951b73210ab> .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/1>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Pennsylvania, and Edward Wilson and his wife, ]Julie, of Magnolia, Texas[; one daughter, Claudette Pierce and her husband,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "Julie, of Magnolia, Texas" ;
+        c:length     "25" ;
+        c:offset     "1175" ;
+        c:prefix     "Pennsylvania, and Edward Wilson and his wife, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/012470ad-88a3-3d08-9e7c-93b059a6fbc7> ;
+        c:suffix     "; one daughter, Claudette Pierce and her husband," .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/18>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Mae (Icke) Neff, was born December 25, 1916, at ]Alva[, Oklahoma, and passed away July 17, 2006, at the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "398" ;
+        c:prefix     "Mae (Icke) Neff, was born December 25, 1916, at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:suffix     ", Oklahoma, and passed away July 17, 2006, at the" .
+
+<http://d.opencalais.com/genericHasher-1/d4773405-7557-332c-83ce-a9afda39902a>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Okemah" .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/68>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Texas; one daughter, Claudette Pierce and ]her husband, Carol, of Columbus, Ohio[; one sister, Margaret Windecker of Waynoka; 17]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "her husband, Carol, of Columbus, Ohio" ;
+        c:length     "37" ;
+        c:offset     "1237" ;
+        c:prefix     "Texas; one daughter, Claudette Pierce and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/f2bac89f-5378-3c4e-95d8-a52e39103547> ;
+        c:suffix     "; one sister, Margaret Windecker of Waynoka; 17" .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Relevance/36>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/0824c880-7431-3846-b832-1042cfbe83e9> .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/47>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and needle point.  \nBesides her parents, ]she[ was preceded in death by her husband, Claude;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "832" ;
+        c:prefix     "and needle point.  \nBesides her parents, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9725605c-e84d-353f-b471-5a70517b83f6> ;
+        c:suffix     " was preceded in death by her husband, Claude;" .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/26>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Richard Wilson and his wife, Mary, of Clarion, ]Pennsylvania[, and Edward Wilson and his wife, Julie, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "Pennsylvania" ;
+        c:length     "12" ;
+        c:offset     "1129" ;
+        c:prefix     "Richard Wilson and his wife, Mary, of Clarion, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/51bb10d7-d54c-3aed-8cf9-b7782e8eeda9> ;
+        c:suffix     ", and Edward Wilson and his wife, Julie, of" .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/9>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and Edward Wilson and his wife, Julie, of ]Magnolia[, Texas; one daughter, Claudette Pierce and her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "Magnolia" ;
+        c:length     "8" ;
+        c:offset     "1185" ;
+        c:prefix     "and Edward Wilson and his wife, Julie, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e364c016-fff4-3079-b076-41218ba6bc10> ;
+        c:suffix     ", Texas; one daughter, Claudette Pierce and her" .
+
+<http://d.opencalais.com/pershash-1/649a15ea-ce28-3a17-a2bd-b4e8157d76d6>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Edward Wilson" ;
+        c:confidencelevel    "0.999" ;
+        c:firstname          "Edward" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Wilson" ;
+        c:name               "Edward Wilson" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Relevance/15>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/971bc145-8c17-31e9-a6e8-b0e6e14f4706> .
+
+<http://d.opencalais.com/genericHasher-1/222c1e26-06bd-3bc1-a9e0-3f4c07ba980b>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Columbus" .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/76>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Municipal Cemetery under the direction of ]Marshall Funeral[ Home of Waynoka.  \nStella Marie \"Dolly\" Woolley,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "Marshall Funeral" ;
+        c:length     "16" ;
+        c:offset     "241" ;
+        c:prefix     "Municipal Cemetery under the direction of " ;
+        c:subject    <http://d.opencalais.com/pershash-1/0824c880-7431-3846-b832-1042cfbe83e9> ;
+        c:suffix     " Home of Waynoka.  \nStella Marie \"Dolly\" Woolley," .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Relevance/5>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e364c016-fff4-3079-b076-41218ba6bc10> .
+
+<http://d.opencalais.com/genericHasher-1/5cdb0ca2-a978-3b12-a2ae-6ff11510810c>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Waynoka" .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/55>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Clarion, Pennsylvania, and Edward Wilson and ]his wife, Julie, of Magnolia, Texas[; one daughter, Claudette Pierce and her husband,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "his wife, Julie, of Magnolia, Texas" ;
+        c:length     "35" ;
+        c:offset     "1165" ;
+        c:prefix     "of Clarion, Pennsylvania, and Edward Wilson and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/977330c6-f534-3eb2-b811-659f93f0b6c8> ;
+        c:suffix     "; one daughter, Claudette Pierce and her husband," .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/34>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Ohio; one sister, Margaret Windecker of ]Waynoka[; 17 grandchildren, numerous great grandchildren,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "Waynoka" ;
+        c:length     "7" ;
+        c:offset     "1310" ;
+        c:prefix     "Ohio; one sister, Margaret Windecker of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/5cdb0ca2-a978-3b12-a2ae-6ff11510810c> ;
+        c:suffix     "; 17 grandchildren, numerous great grandchildren," .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Relevance/23>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/13>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[May; one brother, Dwight Neff; and one sister, ]Bessie Phillips[.  \nDolly is survived by three sons, Kenneth]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "Bessie Phillips" ;
+        c:length     "15" ;
+        c:offset     "994" ;
+        c:prefix     "May; one brother, Dwight Neff; and one sister, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/c9580ae3-fffc-34a1-ae68-669d4e289256> ;
+        c:suffix     ".  \nDolly is survived by three sons, Kenneth" .
+
+<http://d.opencalais.com/comphash-1/06199735-1886-3dc7-8605-958ed70b1852>
+        a                    <http://s.opencalais.com/1/type/em/e/Company> ;
+        c:confidencelevel    "0.893" ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Clarion" ;
+        c:nationality        "N/A" .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/63>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Municipal Cemetery under the direction of ]Marshall Funeral Home of Waynoka[.  \nStella Marie \"Dolly\" Woolley, daughter of the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "Marshall Funeral Home of Waynoka" ;
+        c:length     "32" ;
+        c:offset     "241" ;
+        c:prefix     "Municipal Cemetery under the direction of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/34d46a9f-c536-3faa-8f19-d917ce4ddf63> ;
+        c:suffix     ".  \nStella Marie \"Dolly\" Woolley, daughter of the" .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Relevance/31>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/46bff9f0-c586-329d-afae-c66bf6981792> .
+
+<http://d.opencalais.com/genericHasher-1/c1606f74-13fe-3186-8084-3f5c1c466e4e>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Waynoka Church of God" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/42>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[attended Morning Star School.  On July 5, 1960, ]she[ was united in marriage to Claude Woolley at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "576" ;
+        c:prefix     "attended Morning Star School.  On July 5, 1960, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9725605c-e84d-353f-b471-5a70517b83f6> ;
+        c:suffix     " was united in marriage to Claude Woolley at" .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/21>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[is survived by three sons, Kenneth Wilson of ]Okemah[, Oklahoma, Richard Wilson and his wife, Mary, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "Okemah" ;
+        c:length     "6" ;
+        c:offset     "1064" ;
+        c:prefix     "is survived by three sons, Kenneth Wilson of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/d4773405-7557-332c-83ce-a9afda39902a> ;
+        c:suffix     ", Oklahoma, Richard Wilson and his wife, Mary, of" .
+
+<http://d.opencalais.com/pershash-1/e42e82b7-d40e-3bef-9b57-7b3a86f66d30>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Claudette Pierce" ;
+        c:confidencelevel    "0.999" ;
+        c:firstname          "Claudette" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Pierce" ;
+        c:name               "Claudette Pierce" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/4>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Edward Wilson and his wife, Julie, of Magnolia, ]Texas[; one daughter, Claudette Pierce and her husband,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "Texas" ;
+        c:length     "5" ;
+        c:offset     "1195" ;
+        c:prefix     "Edward Wilson and his wife, Julie, of Magnolia, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> ;
+        c:suffix     "; one daughter, Claudette Pierce and her husband," .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Relevance/10>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c1606f74-13fe-3186-8084-3f5c1c466e4e> .
+
+<http://d.opencalais.com/conf/pershash-1/1f63034a-8302-314b-ba8a-4693832a4427>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.951" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.932" ;
+        c:subject             <http://d.opencalais.com/pershash-1/1f63034a-8302-314b-ba8a-4693832a4427> .
+
+<http://d.opencalais.com/pershash-1/e99b03f1-3f4a-3733-a38a-716c7774c0d1>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Stella Mae Neff" ;
+        c:confidencelevel    "0.984" ;
+        c:firstname          "Stella" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Neff" ;
+        c:middlename         "Mae" ;
+        c:name               "Stella Mae (Icke) Neff" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/582eb466-0f1e-493f-4628-32e3b3ccdeef>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Ohio" ;
+        c:docId               <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:latitude            "39.9611" ;
+        c:longitude           "-82.9989" ;
+        c:name                "Columbus,Ohio,United States" ;
+        c:rcscode             "G:1E2" ;
+        c:shortname           "Columbus" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/222c1e26-06bd-3bc1-a9e0-3f4c07ba980b> .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/71>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[22 days.  \nDolly attended Morning Star School.  ]On July 5, 1960, she was united in marriage to Claude Woolley[ at Waynoka, Oklahoma.  She worked as a cook at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "On July 5, 1960, she was united in marriage to Claude Woolley" ;
+        c:length     "61" ;
+        c:offset     "559" ;
+        c:prefix     "22 days.  \nDolly attended Morning Star School.  " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/00516771-43c6-3617-8079-acb404ce24d9> ;
+        c:suffix     " at Waynoka, Oklahoma.  She worked as a cook at" .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/50>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Neff, was born December 25, 1916, at Alva, ]Oklahoma[, and passed away July 17, 2006, at the Waynoka]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "404" ;
+        c:prefix     "Neff, was born December 25, 1916, at Alva, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", and passed away July 17, 2006, at the Waynoka" .
+
+<http://d.opencalais.com/genericHasher-1/00516771-43c6-3617-8079-acb404ce24d9>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:date                "1960-07-05" ;
+        c:datestring          "July 5, 1960" ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/7599b430-1f0c-3481-b747-90986601ec7b> , <http://d.opencalais.com/pershash-1/9725605c-e84d-353f-b471-5a70517b83f6> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/genericHasher-1/7e4bb84d-19a2-33ea-ab00-22016dae47ae>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "wife" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/a469d38b-76f7-3366-bd5d-56fdb4337695> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/846aa3d9-5ab8-3c15-8d45-cd90a9ffe99b> .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/29>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[her parents, she was preceded in death by ]her husband, Claude[; one daughter, Leona Morris, and infant twins,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "her husband, Claude" ;
+        c:length     "19" ;
+        c:offset     "861" ;
+        c:prefix     "her parents, she was preceded in death by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c31609cf-238c-3ff6-bd98-78695aab54b4> ;
+        c:suffix     "; one daughter, Leona Morris, and infant twins," .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Relevance/18>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/a469d38b-76f7-3366-bd5d-56fdb4337695> .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/SocialTag/2>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Okemah, Oklahoma" ;
+        c:originalValue      "Okemah, Oklahoma" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/af99a5d9-25cc-39e4-ab0d-082eb6661d06> .
+
+<http://d.opencalais.com/genericHasher-1/c31609cf-238c-3ff6-bd98-78695aab54b4>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/7599b430-1f0c-3481-b747-90986601ec7b> , <http://d.opencalais.com/pershash-1/9725605c-e84d-353f-b471-5a70517b83f6> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/conf/pershash-1/9725605c-e84d-353f-b471-5a70517b83f6>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.994" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.996" ;
+        c:subject             <http://d.opencalais.com/pershash-1/9725605c-e84d-353f-b471-5a70517b83f6> .
+
+<http://d.opencalais.com/pershash-1/db87892a-ed55-3f92-93fa-c951b73210ab>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Billy Joe" ;
+        c:confidencelevel    "0.999" ;
+        c:firstname          "Billy" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Joe" ;
+        c:name               "Billy Joe" ;
+        c:nationality        "N/A" ;
+        c:persontype         "sports" .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Relevance/8>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/1e2fcb0d-1605-3109-88dc-3e4b6d47b42c> .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/58>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Woolley, daughter of the late Joe Virgil and ]Stella Mae (Icke) Neff[, was born December 25, 1916, at Alva, Oklahoma,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "Stella Mae (Icke) Neff" ;
+        c:length     "22" ;
+        c:offset     "343" ;
+        c:prefix     "Woolley, daughter of the late Joe Virgil and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/e99b03f1-3f4a-3733-a38a-716c7774c0d1> ;
+        c:suffix     ", was born December 25, 1916, at Alva, Oklahoma," .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/37>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[one daughter, Claudette Pierce and her husband, ]Carol, of Columbus, Ohio[; one sister, Margaret Windecker of Waynoka; 17]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "Carol, of Columbus, Ohio" ;
+        c:length     "24" ;
+        c:offset     "1250" ;
+        c:prefix     "one daughter, Claudette Pierce and her husband, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/44e8cf94-c9e3-3827-b00a-14f70e9cc0af> ;
+        c:suffix     "; one sister, Margaret Windecker of Waynoka; 17" .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Relevance/26>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/649a15ea-ce28-3a17-a2bd-b4e8157d76d6> .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/16>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Pierce and her husband, Carol, of Columbus, ]Ohio[; one sister, Margaret Windecker of Waynoka; 17]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "Ohio" ;
+        c:length     "4" ;
+        c:offset     "1270" ;
+        c:prefix     "Pierce and her husband, Carol, of Columbus, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3464e47d-a869-3783-8fdc-d17cb8f13c2e> ;
+        c:suffix     "; one sister, Margaret Windecker of Waynoka; 17" .
+
+<http://d.opencalais.com/pershash-1/46bff9f0-c586-329d-afae-c66bf6981792>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Margaret Windecker" ;
+        c:confidencelevel    "0.993" ;
+        c:firstname          "Margaret" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Windecker" ;
+        c:name               "Margaret Windecker" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/66>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Pennsylvania, and Edward Wilson and his wife, ]Julie[, of Magnolia, Texas; one daughter, Claudette]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "Julie" ;
+        c:length     "5" ;
+        c:offset     "1175" ;
+        c:prefix     "Pennsylvania, and Edward Wilson and his wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/1f63034a-8302-314b-ba8a-4693832a4427> ;
+        c:suffix     ", of Magnolia, Texas; one daughter, Claudette" .
+
+<http://d.opencalais.com/conf/pershash-1/649a15ea-ce28-3a17-a2bd-b4e8157d76d6>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.999" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.994" ;
+        c:subject             <http://d.opencalais.com/pershash-1/649a15ea-ce28-3a17-a2bd-b4e8157d76d6> .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/45>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[a member of the Morning Star Baptist Church.  ]She[ enjoyed quilting, gardening, and needle point. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "758" ;
+        c:prefix     "a member of the Morning Star Baptist Church.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9725605c-e84d-353f-b471-5a70517b83f6> ;
+        c:suffix     " enjoyed quilting, gardening, and needle point. " .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Relevance/34>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a21a69b3-e9dd-341e-9fee-da93c550c744> .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/24>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[]Funeral services[ for Stella Marie \"Dolly\" Woolley, 89 will be]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "Funeral services" ;
+        c:length     "16" ;
+        c:offset     "0" ;
+        c:prefix     "" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee> ;
+        c:suffix     " for Stella Marie \"Dolly\" Woolley, 89 will be" .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/7>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[wife, Julie, of Magnolia, Texas; one daughter, ]Claudette Pierce[ and her husband, Carol, of Columbus, Ohio; one]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "Claudette Pierce" ;
+        c:length     "16" ;
+        c:offset     "1216" ;
+        c:prefix     "wife, Julie, of Magnolia, Texas; one daughter, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/e42e82b7-d40e-3bef-9b57-7b3a86f66d30> ;
+        c:suffix     " and her husband, Carol, of Columbus, Ohio; one" .
+
+<http://d.opencalais.com/genericHasher-1/7ab5e1ab-7961-38cd-821b-69d0883799fc>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/8c342775-4d0d-3c43-a4a3-067c7f11a28d> , <http://d.opencalais.com/pershash-1/e42e82b7-d40e-3bef-9b57-7b3a86f66d30> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Relevance/13>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/222c1e26-06bd-3bc1-a9e0-3f4c07ba980b> .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/74>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ 40 years.  \nShe was a member of the Morning Star ]Baptist Church[.  She enjoyed quilting, gardening, and needle]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "Baptist Church" ;
+        c:length     "14" ;
+        c:offset     "741" ;
+        c:prefix     " 40 years.  \nShe was a member of the Morning Star " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a21a69b3-e9dd-341e-9fee-da93c550c744> ;
+        c:suffix     ".  She enjoyed quilting, gardening, and needle" .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Relevance/3>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/70a98561-caf3-3809-9ff0-cf5194b6070d> .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/53>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Leona Morris, and infant twins, Billy Joe and ]Anna May[; one brother, Dwight Neff; and one sister,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "Anna May" ;
+        c:length     "8" ;
+        c:offset     "942" ;
+        c:prefix     "Leona Morris, and infant twins, Billy Joe and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/1c9804e7-0407-3e7a-bf15-a147af5ad0d5> ;
+        c:suffix     "; one brother, Dwight Neff; and one sister," .
+
+<http://d.opencalais.com/genericHasher-1/c960096a-c52e-3cf1-9ef3-a4a18889d7c9>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Waynoka Municipal Cemetery" .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/32>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Oklahoma, and passed away July 17, 2006, at the ]Waynoka[ Nursing Home at the age of 89 years, 6 months,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "Waynoka" ;
+        c:length     "7" ;
+        c:offset     "452" ;
+        c:prefix     "Oklahoma, and passed away July 17, 2006, at the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/5cdb0ca2-a978-3b12-a2ae-6ff11510810c> ;
+        c:suffix     " Nursing Home at the age of 89 years, 6 months," .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/62914270-0a1c-1bcc-880e-6dbe9fb82eb9>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:latitude            "31.4484328889" ;
+        c:longitude           "-97.7816569778" ;
+        c:name                "Texas,United States" ;
+        c:permid              "100299" ;
+        c:rcscode             "G:50" ;
+        c:shortname           "Texas" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Relevance/21>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/e7186560-c57f-3ae1-b19b-b9575fd5ca25> .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/11>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Oklahoma, Richard Wilson and his wife, Mary, of ]Clarion[, Pennsylvania, and Edward Wilson and his wife,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "Clarion" ;
+        c:length     "7" ;
+        c:offset     "1120" ;
+        c:prefix     "Oklahoma, Richard Wilson and his wife, Mary, of " ;
+        c:subject    <http://d.opencalais.com/comphash-1/06199735-1886-3dc7-8605-958ed70b1852> ;
+        c:suffix     ", Pennsylvania, and Edward Wilson and his wife," .
+
+<http://d.opencalais.com/genericHasher-1/012c59bd-a3db-3ebd-8ce7-786d9a7a750a>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "husband" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/9725605c-e84d-353f-b471-5a70517b83f6> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/7599b430-1f0c-3481-b747-90986601ec7b> .
+
+<http://d.opencalais.com/genericHasher-1/34d46a9f-c536-3faa-8f19-d917ce4ddf63>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Waynoka" ;
+        c:person             <http://d.opencalais.com/pershash-1/0824c880-7431-3846-b832-1042cfbe83e9> .
+
+<http://d.opencalais.com/conf/comphash-1/06199735-1886-3dc7-8605-958ed70b1852>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.893" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:resolution          "0.8900638" ;
+        c:statisticalfeature  "0.876" ;
+        c:subject             <http://d.opencalais.com/comphash-1/06199735-1886-3dc7-8605-958ed70b1852> .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/61>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Phillips.  \nDolly is survived by three sons, ]Kenneth Wilson of Okemah, Oklahoma[, Richard Wilson and his wife, Mary, of Clarion,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "Kenneth Wilson of Okemah, Oklahoma" ;
+        c:length     "34" ;
+        c:offset     "1046" ;
+        c:prefix     "Phillips.  \nDolly is survived by three sons, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/1e596909-c05d-3abf-94ce-2a45d850be9e> ;
+        c:suffix     ", Richard Wilson and his wife, Mary, of Clarion," .
+
+<http://d.opencalais.com/conf/pershash-1/e42e82b7-d40e-3bef-9b57-7b3a86f66d30>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.999" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.999" ;
+        c:subject             <http://d.opencalais.com/pershash-1/e42e82b7-d40e-3bef-9b57-7b3a86f66d30> .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/40>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ direction of Marshall Funeral Home of Waynoka.  \n]Stella Marie \"Dolly\" Woolley[, daughter of the late Joe Virgil and Stella Mae]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "Stella Marie \"Dolly\" Woolley" ;
+        c:length     "28" ;
+        c:offset     "277" ;
+        c:prefix     " direction of Marshall Funeral Home of Waynoka.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/9725605c-e84d-353f-b471-5a70517b83f6> ;
+        c:suffix     ", daughter of the late Joe Virgil and Stella Mae" .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Relevance/29>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/846aa3d9-5ab8-3c15-8d45-cd90a9ffe99b> .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/meta>
+        a                 <http://s.opencalais.com/1/type/sys/DocInfoMeta> ;
+        c:contentType     "text/raw" ;
+        c:docId           <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:language        "English" ;
+        c:processingVer   "AllMetadata" ;
+        c:serverVersion   "OneCalais_8.3-RELEASE:364" ;
+        c:signature       "digestalg-1|48Lr+F0P83S9uiDTKByTU0utVyM=|Mn7ZW9ozPXSfcJq5mvMdEpViynmTznbzt7WVmxwspHOA4DG1drmbTQ==" ;
+        c:stagsVer        "OneCalais_8.3-RELEASE-b11-2015-03-25_18:29:00" ;
+        c:submissionDate  "2015-05-26 17:19:54.438" ;
+        c:submitterCode   "0ca6a864-5659-789d-5f32-f365f695e757" .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/2>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[his wife, Mary, of Clarion, Pennsylvania, and ]Edward Wilson and his wife, Julie, of Magnolia, Texas[; one daughter, Claudette Pierce and her husband,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "Edward Wilson and his wife, Julie, of Magnolia, Texas" ;
+        c:length     "53" ;
+        c:offset     "1147" ;
+        c:prefix     "his wife, Mary, of Clarion, Pennsylvania, and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ae613328-5230-3314-94fa-7e8455b14159> ;
+        c:suffix     "; one daughter, Claudette Pierce and her husband," .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/19>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[husband, Carol, of Columbus, Ohio; one sister, ]Margaret Windecker of Waynoka[; 17 grandchildren, numerous great grandchildren,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "Margaret Windecker of Waynoka" ;
+        c:length     "29" ;
+        c:offset     "1288" ;
+        c:prefix     "husband, Carol, of Columbus, Ohio; one sister, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b4fc3d19-fcc9-3f28-908e-c3016363ac2d> ;
+        c:suffix     "; 17 grandchildren, numerous great grandchildren," .
+
+<http://d.opencalais.com/pershash-1/88443798-0e4d-39da-a239-0f351e40dc82>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Kenneth Wilson" ;
+        c:confidencelevel    "0.997" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Kenneth Wilson" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/7fcd789c-2133-35a0-bb18-676539be801b>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/846aa3d9-5ab8-3c15-8d45-cd90a9ffe99b> , <http://d.opencalais.com/pershash-1/a469d38b-76f7-3366-bd5d-56fdb4337695> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/pershash-1/e7186560-c57f-3ae1-b19b-b9575fd5ca25>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Leona Morris" ;
+        c:confidencelevel    "0.993" ;
+        c:firstname          "Leona" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Morris" ;
+        c:name               "Leona Morris" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<https://permid.org/1-4295877675>
+        a             <http://s.opencalais.com/1/type/er/Company> ;
+        c:commonname  "Clarion" ;
+        c:docId       <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:legacyid    <http://d.opencalais.com/er/company/ralg-tr1r/ccf47665-eb27-348b-99b6-defbd1690b16> ;
+        c:name        "Clarion Co Ltd" ;
+        c:permid      "4295877675" ;
+        c:primaryric  "6796.T" ;
+        c:score       "0.8900638" ;
+        c:subject     <http://d.opencalais.com/comphash-1/06199735-1886-3dc7-8605-958ed70b1852> ;
+        c:ticker      "6796" .
+
+<http://d.opencalais.com/genericHasher-1/f7f1b6c9-9cf0-3312-99e2-b7e343ad26f7>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Waynoka" ;
+        c:person             <http://d.opencalais.com/pershash-1/7599b430-1f0c-3481-b747-90986601ec7b> .
+
+<http://d.opencalais.com/conf/pershash-1/e99b03f1-3f4a-3733-a38a-716c7774c0d1>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.984" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.989" ;
+        c:subject             <http://d.opencalais.com/pershash-1/e99b03f1-3f4a-3733-a38a-716c7774c0d1> .
+
+<http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Texas" .
+
+<http://d.opencalais.com/pershash-1/8c342775-4d0d-3c43-a4a3-067c7f11a28d>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Carol" ;
+        c:confidencelevel    "0.914" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Carol" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/1e596909-c05d-3abf-94ce-2a45d850be9e>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Okemah" ;
+        c:person             <http://d.opencalais.com/pershash-1/88443798-0e4d-39da-a239-0f351e40dc82> .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/69>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ On July 5, 1960, she was united in marriage to ]Claude Woolley[ at Waynoka, Oklahoma.  She worked as a cook at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "Claude Woolley" ;
+        c:length     "14" ;
+        c:offset     "606" ;
+        c:prefix     " On July 5, 1960, she was united in marriage to " ;
+        c:subject    <http://d.opencalais.com/pershash-1/7599b430-1f0c-3481-b747-90986601ec7b> ;
+        c:suffix     " at Waynoka, Oklahoma.  She worked as a cook at" .
+
+<http://d.opencalais.com/pershash-1/a469d38b-76f7-3366-bd5d-56fdb4337695>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Richard Wilson" ;
+        c:confidencelevel    "0.999" ;
+        c:firstname          "Richard" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Wilson" ;
+        c:name               "Richard Wilson" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/48>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[her parents, she was preceded in death by ]her[ husband, Claude; one daughter, Leona Morris, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "861" ;
+        c:prefix     "her parents, she was preceded in death by " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9725605c-e84d-353f-b471-5a70517b83f6> ;
+        c:suffix     " husband, Claude; one daughter, Leona Morris, and" .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/27>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[three sons, Kenneth Wilson of Okemah, Oklahoma, ]Richard Wilson[ and his wife, Mary, of Clarion, Pennsylvania,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "Richard Wilson" ;
+        c:length     "14" ;
+        c:offset     "1082" ;
+        c:prefix     "three sons, Kenneth Wilson of Okemah, Oklahoma, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/a469d38b-76f7-3366-bd5d-56fdb4337695> ;
+        c:suffix     " and his wife, Mary, of Clarion, Pennsylvania," .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Relevance/16>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee> .
+
+<http://d.opencalais.com/pershash-1/9725605c-e84d-353f-b471-5a70517b83f6>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Stella Marie Woolley" ;
+        c:confidencelevel    "0.994" ;
+        c:firstname          "Stella" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Woolley" ;
+        c:middlename         "Marie" ;
+        c:name               "Stella Marie \"Dolly\" Woolley" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/pershash-1/57baf103-e67a-39a7-896b-4b5942691828>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Charles Newton" ;
+        c:confidencelevel    "0.992" ;
+        c:firstname          "Charles" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Newton" ;
+        c:name               "Charles Newton" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/db87892a-ed55-3f92-93fa-c951b73210ab>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.999" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.999" ;
+        c:subject             <http://d.opencalais.com/pershash-1/db87892a-ed55-3f92-93fa-c951b73210ab> .
+
+<http://d.opencalais.com/pershash-1/971bc145-8c17-31e9-a6e8-b0e6e14f4706>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Joe Virgil" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Joe" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Virgil" ;
+        c:name               "Joe Virgil" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Relevance/6>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/84bb0714-85ab-39de-a7e7-f1ad2e79292b> .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/56>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[his wife, Mary, of Clarion, Pennsylvania, and ]Edward Wilson[ and his wife, Julie, of Magnolia, Texas; one]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "Edward Wilson" ;
+        c:length     "13" ;
+        c:offset     "1147" ;
+        c:prefix     "his wife, Mary, of Clarion, Pennsylvania, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/649a15ea-ce28-3a17-a2bd-b4e8157d76d6> ;
+        c:suffix     " and his wife, Julie, of Magnolia, Texas; one" .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/35>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[may be made through the funeral home to the ]Waynoka[ Nursing Home. \n\t\t\t]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "Waynoka" ;
+        c:length     "7" ;
+        c:offset     "1500" ;
+        c:prefix     "may be made through the funeral home to the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/5cdb0ca2-a978-3b12-a2ae-6ff11510810c> ;
+        c:suffix     " Nursing Home. \n\t\t\t" .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Relevance/24>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/1c9804e7-0407-3e7a-bf15-a147af5ad0d5> .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/14>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Wilson of Okemah, Oklahoma, Richard Wilson and ]his wife, Mary[, of Clarion, Pennsylvania, and Edward Wilson and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "his wife, Mary" ;
+        c:length     "14" ;
+        c:offset     "1101" ;
+        c:prefix     "Wilson of Okemah, Oklahoma, Richard Wilson and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/7e4bb84d-19a2-33ea-ab00-22016dae47ae> ;
+        c:suffix     ", of Clarion, Pennsylvania, and Edward Wilson and" .
+
+<http://d.opencalais.com/genericHasher-1/891defc1-5491-3b47-bb97-93c8f06057b7>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonAttributes> ;
+        c:age                "89" ;
+        c:forenduserdisplay  "false" ;
+        c:gender             "F" ;
+        c:person             <http://d.opencalais.com/pershash-1/9725605c-e84d-353f-b471-5a70517b83f6> .
+
+<http://d.opencalais.com/conf/pershash-1/46bff9f0-c586-329d-afae-c66bf6981792>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.993" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.995" ;
+        c:subject             <http://d.opencalais.com/pershash-1/46bff9f0-c586-329d-afae-c66bf6981792> .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/64>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[husband, Carol, of Columbus, Ohio; one sister, ]Margaret Windecker[ of Waynoka; 17 grandchildren, numerous great]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "Margaret Windecker" ;
+        c:length     "18" ;
+        c:offset     "1288" ;
+        c:prefix     "husband, Carol, of Columbus, Ohio; one sister, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/46bff9f0-c586-329d-afae-c66bf6981792> ;
+        c:suffix     " of Waynoka; 17 grandchildren, numerous great" .
+
+<http://d.opencalais.com/pershash-1/7599b430-1f0c-3481-b747-90986601ec7b>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Claude Woolley" ;
+        c:confidencelevel    "0.992" ;
+        c:firstname          "Claude" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Woolley" ;
+        c:name               "Claude Woolley" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/pershash-1/1c9804e7-0407-3e7a-bf15-a147af5ad0d5>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Anna May" ;
+        c:confidencelevel    "0.999" ;
+        c:firstname          "Anna" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "May" ;
+        c:name               "Anna May" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/43>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[to Claude Woolley at Waynoka, Oklahoma.  ]She[ worked as a cook at Miller&s Cafe?ÿ?for 40]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "644" ;
+        c:prefix     "to Claude Woolley at Waynoka, Oklahoma.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9725605c-e84d-353f-b471-5a70517b83f6> ;
+        c:suffix     " worked as a cook at Miller&s Cafe?ÿ?for 40" .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Relevance/32>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/1f63034a-8302-314b-ba8a-4693832a4427> .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/22>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ On July 5, 1960, she was united in marriage to ]Claude Woolley at Waynoka, Oklahoma[.  She worked as a cook at Miller&s]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "Claude Woolley at Waynoka, Oklahoma" ;
+        c:length     "35" ;
+        c:offset     "606" ;
+        c:prefix     " On July 5, 1960, she was united in marriage to " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/f7f1b6c9-9cf0-3312-99e2-b7e343ad26f7> ;
+        c:suffix     ".  She worked as a cook at Miller&s" .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/5>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ at the age of 89 years, 6 months, and 22 days.  \n]Dolly attended Morning Star School[.  On July 5, 1960, she was united in marriage to]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "Dolly attended Morning Star School" ;
+        c:length     "34" ;
+        c:offset     "522" ;
+        c:prefix     " at the age of 89 years, 6 months, and 22 days.  \n" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/1f95bf50-6d5d-3f29-95c0-93cd90ebb480> ;
+        c:suffix     ".  On July 5, 1960, she was united in marriage to" .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Relevance/11>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3464e47d-a869-3783-8fdc-d17cb8f13c2e> .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/72>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Funeral services for ]Stella Marie \"Dolly\" Woolley, 89[ will be 10:30 a.m. Thursday, July 20, 2006, at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "Stella Marie \"Dolly\" Woolley, 89" ;
+        c:length     "32" ;
+        c:offset     "21" ;
+        c:prefix     "Funeral services for " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/891defc1-5491-3b47-bb97-93c8f06057b7> ;
+        c:suffix     " will be 10:30 a.m. Thursday, July 20, 2006, at" .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Relevance/1>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/57baf103-e67a-39a7-896b-4b5942691828> .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/51>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ united in marriage to Claude Woolley at Waynoka, ]Oklahoma[.  She worked as a cook at Miller&s]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "633" ;
+        c:prefix     " united in marriage to Claude Woolley at Waynoka, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ".  She worked as a cook at Miller&s" .
+
+<http://d.opencalais.com/pershash-1/c9580ae3-fffc-34a1-ae68-669d4e289256>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Bessie Phillips" ;
+        c:confidencelevel    "0.993" ;
+        c:firstname          "Bessie" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Phillips" ;
+        c:name               "Bessie Phillips" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/30>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[wife, Julie, of Magnolia, Texas; one daughter, ]Claudette Pierce and her husband, Carol, of Columbus, Ohio[; one sister, Margaret Windecker of Waynoka; 17]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "Claudette Pierce and her husband, Carol, of Columbus, Ohio" ;
+        c:length     "58" ;
+        c:offset     "1216" ;
+        c:prefix     "wife, Julie, of Magnolia, Texas; one daughter, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/7ab5e1ab-7961-38cd-821b-69d0883799fc> ;
+        c:suffix     "; one sister, Margaret Windecker of Waynoka; 17" .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Relevance/19>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/5cdb0ca2-a978-3b12-a2ae-6ff11510810c> .
+
+<http://d.opencalais.com/genericHasher-1/1f95bf50-6d5d-3f29-95c0-93cd90ebb480>
+        a                       <http://s.opencalais.com/1/type/em/r/PersonEducation> ;
+        c:forenduserdisplay     "false" ;
+        c:person                <http://d.opencalais.com/pershash-1/9725605c-e84d-353f-b471-5a70517b83f6> ;
+        c:schoolororganization  "Morning Star School" .
+
+<http://d.opencalais.com/genericHasher-1/ae613328-5230-3314-94fa-7e8455b14159>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/1f63034a-8302-314b-ba8a-4693832a4427> , <http://d.opencalais.com/pershash-1/649a15ea-ce28-3a17-a2bd-b4e8157d76d6> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/cat/1>
+        a                    <http://s.opencalais.com/1/type/cat/DocCat> ;
+        c:docId              <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Human Interest" ;
+        c:score              "1.000" .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Relevance/9>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/c9580ae3-fffc-34a1-ae68-669d4e289256> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/3794b12d-e34e-5a89-3c1e-7fcc369be257>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Texas" ;
+        c:docId               <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:latitude            "30.483259" ;
+        c:longitude           "-95.193549" ;
+        c:name                "Magnolia,Texas,United States" ;
+        c:shortname           "Magnolia" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/e364c016-fff4-3079-b076-41218ba6bc10> .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/59>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[one daughter, Leona Morris, and infant twins, ]Billy Joe[ and Anna May; one brother, Dwight Neff; and one]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "Billy Joe" ;
+        c:length     "9" ;
+        c:offset     "928" ;
+        c:prefix     "one daughter, Leona Morris, and infant twins, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/db87892a-ed55-3f92-93fa-c951b73210ab> ;
+        c:suffix     " and Anna May; one brother, Dwight Neff; and one" .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/38>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in death by her husband, Claude; one daughter, ]Leona Morris[, and infant twins, Billy Joe and Anna May; one]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "Leona Morris" ;
+        c:length     "12" ;
+        c:offset     "896" ;
+        c:prefix     "in death by her husband, Claude; one daughter, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/e7186560-c57f-3ae1-b19b-b9575fd5ca25> ;
+        c:suffix     ", and infant twins, Billy Joe and Anna May; one" .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Relevance/27>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/e99b03f1-3f4a-3733-a38a-716c7774c0d1> .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/17>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[her parents, she was preceded in death by ]her husband, Claude[; one daughter, Leona Morris, and infant twins,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "her husband, Claude" ;
+        c:length     "19" ;
+        c:offset     "861" ;
+        c:prefix     "her parents, she was preceded in death by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/012c59bd-a3db-3ebd-8ce7-786d9a7a750a> ;
+        c:suffix     "; one daughter, Leona Morris, and infant twins," .
+
+<http://d.opencalais.com/conf/pershash-1/e7186560-c57f-3ae1-b19b-b9575fd5ca25>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.993" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.995" ;
+        c:subject             <http://d.opencalais.com/pershash-1/e7186560-c57f-3ae1-b19b-b9575fd5ca25> .
+
+<http://d.opencalais.com/conf/pershash-1/88443798-0e4d-39da-a239-0f351e40dc82>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.997" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.99" ;
+        c:subject             <http://d.opencalais.com/pershash-1/88443798-0e4d-39da-a239-0f351e40dc82> .
+
+<http://d.opencalais.com/pershash-1/70a98561-caf3-3809-9ff0-cf5194b6070d>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Dwight Neff" ;
+        c:confidencelevel    "0.993" ;
+        c:firstname          "Dwight" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Neff" ;
+        c:name               "Dwight Neff" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/8c342775-4d0d-3c43-a4a3-067c7f11a28d>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.914" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.932" ;
+        c:subject             <http://d.opencalais.com/pershash-1/8c342775-4d0d-3c43-a4a3-067c7f11a28d> .
+
+<http://d.opencalais.com/genericHasher-1/51bb10d7-d54c-3aed-8cf9-b7782e8eeda9>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Pennsylvania" .
+
+<http://d.opencalais.com/genericHasher-1/3464e47d-a869-3783-8fdc-d17cb8f13c2e>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Ohio" .
+
+<http://d.opencalais.com/conf/pershash-1/a469d38b-76f7-3366-bd5d-56fdb4337695>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.999" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.999" ;
+        c:subject             <http://d.opencalais.com/pershash-1/a469d38b-76f7-3366-bd5d-56fdb4337695> .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/67>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Marie \"Dolly\" Woolley, daughter of the late ]Joe Virgil and Stella Mae (Icke) Neff, was born December 25, 1916, at Alva, Oklahoma, and passed away July 17, 2006, at the Waynoka[ Nursing Home at the age of 89 years, 6 months,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "Joe Virgil and Stella Mae (Icke) Neff, was born December 25, 1916, at Alva, Oklahoma, and passed away July 17, 2006, at the Waynoka" ;
+        c:length     "131" ;
+        c:offset     "328" ;
+        c:prefix     "Marie \"Dolly\" Woolley, daughter of the late " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c3a56aff-88c9-3919-bf09-9fda800e917c> ;
+        c:suffix     " Nursing Home at the age of 89 years, 6 months," .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/46>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ quilting, gardening, and needle point.  \nBesides ]her[ parents, she was preceded in death by her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "819" ;
+        c:prefix     " quilting, gardening, and needle point.  \nBesides " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9725605c-e84d-353f-b471-5a70517b83f6> ;
+        c:suffix     " parents, she was preceded in death by her" .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Relevance/35>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/88443798-0e4d-39da-a239-0f351e40dc82> .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/8>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Texas; one daughter, Claudette Pierce and ]her[ husband, Carol, of Columbus, Ohio; one sister,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1237" ;
+        c:prefix     "Texas; one daughter, Claudette Pierce and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/e42e82b7-d40e-3bef-9b57-7b3a86f66d30> ;
+        c:suffix     " husband, Carol, of Columbus, Ohio; one sister," .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/25>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Woolley, daughter of the late Joe Virgil and ]Stella Mae (Icke) Neff, was born December 25, 1916, at Alva, Oklahoma[, and passed away July 17, 2006, at the Waynoka]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "Stella Mae (Icke) Neff, was born December 25, 1916, at Alva, Oklahoma" ;
+        c:length     "69" ;
+        c:offset     "343" ;
+        c:prefix     "Woolley, daughter of the late Joe Virgil and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/502ad8fc-a5f3-385e-880d-1f9d2be61e9a> ;
+        c:suffix     ", and passed away July 17, 2006, at the Waynoka" .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Relevance/14>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/d4773405-7557-332c-83ce-a9afda39902a> .
+
+<http://d.opencalais.com/conf/pershash-1/57baf103-e67a-39a7-896b-4b5942691828>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.992" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/57baf103-e67a-39a7-896b-4b5942691828> .
+
+<http://d.opencalais.com/conf/pershash-1/971bc145-8c17-31e9-a6e8-b0e6e14f4706>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/971bc145-8c17-31e9-a6e8-b0e6e14f4706> .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/75>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Phillips.  \nDolly is survived by three sons, ]Kenneth Wilson[ of Okemah, Oklahoma, Richard Wilson and his]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "Kenneth Wilson" ;
+        c:length     "14" ;
+        c:offset     "1046" ;
+        c:prefix     "Phillips.  \nDolly is survived by three sons, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/88443798-0e4d-39da-a239-0f351e40dc82> ;
+        c:suffix     " of Okemah, Oklahoma, Richard Wilson and his" .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Relevance/4>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/e42e82b7-d40e-3bef-9b57-7b3a86f66d30> .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/54>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[years, 6 months, and 22 days.  \nDolly attended ]Morning Star School[.  On July 5, 1960, she was united in marriage to]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "Morning Star School" ;
+        c:length     "19" ;
+        c:offset     "537" ;
+        c:prefix     "years, 6 months, and 22 days.  \nDolly attended " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e3b72b91-4c80-3b6b-9257-7bb74b00a86c> ;
+        c:suffix     ".  On July 5, 1960, she was united in marriage to" .
+
+<http://d.opencalais.com/genericHasher-1/22d9654a-aa55-311e-bad9-bc2f2108bcd8>
+        a                      <http://s.opencalais.com/1/type/em/r/CompanyLocation> ;
+        c:company              <http://d.opencalais.com/comphash-1/06199735-1886-3dc7-8605-958ed70b1852> ;
+        c:companylocationtype  "N/A" ;
+        c:forenduserdisplay    "true" ;
+        c:provinceorstate      <http://d.opencalais.com/genericHasher-1/51bb10d7-d54c-3aed-8cf9-b7782e8eeda9> .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/33>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[she was united in marriage to Claude Woolley at ]Waynoka[, Oklahoma.  She worked as a cook at Miller&s]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "Waynoka" ;
+        c:length     "7" ;
+        c:offset     "624" ;
+        c:prefix     "she was united in marriage to Claude Woolley at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/5cdb0ca2-a978-3b12-a2ae-6ff11510810c> ;
+        c:suffix     ", Oklahoma.  She worked as a cook at Miller&s" .
+
+<http://d.opencalais.com/conf/pershash-1/846aa3d9-5ab8-3c15-8d45-cd90a9ffe99b>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.971" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/846aa3d9-5ab8-3c15-8d45-cd90a9ffe99b> .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Relevance/22>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/pershash-1/9725605c-e84d-353f-b471-5a70517b83f6> .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/12>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[at Waynoka, Oklahoma.  She worked as a cook at ]Miller&s Cafe[?ÿ?for 40 years.  \nShe was a member of the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "Miller&s Cafe" ;
+        c:length     "17" ;
+        c:offset     "668" ;
+        c:prefix     "at Waynoka, Oklahoma.  She worked as a cook at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/1e2fcb0d-1605-3109-88dc-3e4b6d47b42c> ;
+        c:suffix     "?ÿ?for 40 years.  \nShe was a member of the" .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/ComponentVersions>
+        a          <http://s.opencalais.com/1/type/sys/ComponentVersions> ;
+        c:docId    <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:version  "FrenchIM:OneCalais_8.3-RELEASE:198" , "config-negativeSignature:258:258" , "com.clearforest.infoext.dial4j.plugins-basistechconfig:OneCalais_8.3-RELEASE:225" , "SECHeaderMetadataIM:OneCalais_8.3-RELEASE:198" , "Housekeeper:OneCalais_8.3-RELEASE:113" , "BlackList:264:264" , "index-vessels:201505231718:201505231718" , "OneCalaisIM:OneCalais_8.3-RELEASE:198" , "BrokerResearchIM:OneCalais_8.3-RELEASE:198" , "config-vessels:258:258" , "config-physicalAssets-ports:258:258" , "config-drugs:258:258" , "SocialTags Index:201505191038:201505191038" , "config-refineries:258:258" , "Dial4J:OneCalais_8.3-RELEASE:198" , "OA Index:201505252208:201505252208" , "Collector:OneCalais_8.3-RELEASE:113" , "NextTags:OneCalais_8.3-RELEASE:113" , "People Override:258:258" , "OA Override:271:271" , "People Index:201505261608:201505261608" , "config-cse:271:271" , "AutocoderRuntimeIM:OneCalais_8.3-RELEASE:198" , "config-sca-DataPackage:34:34" , "OneCalais:OneCalais_8.3-RELEASE:364" , "SpanishIM:OneCalais_8.3-RELEASE:198" , "Deals Index:201505261613:201505261613" , "WatchDog:OneCalais_8.3-RELEASE:113" .
+
+<http://d.opencalais.com/genericHasher-1/84bb0714-85ab-39de-a7e7-f1ad2e79292b>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Marshall Funeral Home of Waynoka" .
+
+<http://d.opencalais.com/genericHasher-1/a21a69b3-e9dd-341e-9fee-da93c550c744>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Baptist Church" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/1c9804e7-0407-3e7a-bf15-a147af5ad0d5>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.999" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.999" ;
+        c:subject             <http://d.opencalais.com/pershash-1/1c9804e7-0407-3e7a-bf15-a147af5ad0d5> .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/62>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Newton officiating.  Interment will be in the ]Waynoka Municipal Cemetery[ under the direction of Marshall Funeral Home of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "Waynoka Municipal Cemetery" ;
+        c:length     "26" ;
+        c:offset     "191" ;
+        c:prefix     "Newton officiating.  Interment will be in the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c960096a-c52e-3cf1-9ef3-a4a18889d7c9> ;
+        c:suffix     " under the direction of Marshall Funeral Home of" .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Relevance/30>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c960096a-c52e-3cf1-9ef3-a4a18889d7c9> .
+
+<http://d.opencalais.com/conf/pershash-1/7599b430-1f0c-3481-b747-90986601ec7b>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.992" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.995" ;
+        c:subject             <http://d.opencalais.com/pershash-1/7599b430-1f0c-3481-b747-90986601ec7b> .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/41>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ at the age of 89 years, 6 months, and 22 days.  \n]Dolly[ attended Morning Star School.  On July 5, 1960,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "Dolly" ;
+        c:length     "5" ;
+        c:offset     "522" ;
+        c:prefix     " at the age of 89 years, 6 months, and 22 days.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/9725605c-e84d-353f-b471-5a70517b83f6> ;
+        c:suffix     " attended Morning Star School.  On July 5, 1960," .
+
+<http://d.opencalais.com/genericHasher-1/44e8cf94-c9e3-3827-b00a-14f70e9cc0af>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Columbus" ;
+        c:person             <http://d.opencalais.com/pershash-1/8c342775-4d0d-3c43-a4a3-067c7f11a28d> .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/20>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Claudette Pierce and her husband, Carol, of ]Columbus[, Ohio; one sister, Margaret Windecker of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "Columbus" ;
+        c:length     "8" ;
+        c:offset     "1260" ;
+        c:prefix     "Claudette Pierce and her husband, Carol, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/222c1e26-06bd-3bc1-a9e0-3f4c07ba980b> ;
+        c:suffix     ", Ohio; one sister, Margaret Windecker of" .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/3>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ 20, 2006, at the Waynoka Church of God with Rev. ]Charles Newton[ officiating.  Interment will be in the Waynoka]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "Charles Newton" ;
+        c:length     "14" ;
+        c:offset     "137" ;
+        c:prefix     " 20, 2006, at the Waynoka Church of God with Rev. " ;
+        c:subject    <http://d.opencalais.com/pershash-1/57baf103-e67a-39a7-896b-4b5942691828> ;
+        c:suffix     " officiating.  Interment will be in the Waynoka" .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d>
+        a                  <http://s.opencalais.com/1/type/sys/DocInfo> ;
+        c:calaisRequestID  "61fed3af-9e78-e353-14d9-13cdc467848c" ;
+        c:docDate          "2015-05-26 17:19:54.836" ;
+        c:docTitle         "" ;
+        c:document         "Funeral services for Stella Marie \"Dolly\" Woolley, 89 will be 10:30 a.m. Thursday, July 20, 2006, at the Waynoka Church of God with Rev. Charles Newton officiating.  Interment will be in the Waynoka Municipal Cemetery under the direction of Marshall Funeral Home of Waynoka.  \nStella Marie \"Dolly\" Woolley, daughter of the late Joe Virgil and Stella Mae (Icke) Neff, was born December 25, 1916, at Alva, Oklahoma, and passed away July 17, 2006, at the Waynoka Nursing Home at the age of 89 years, 6 months, and 22 days.  \nDolly attended Morning Star School.  On July 5, 1960, she was united in marriage to Claude Woolley at Waynoka, Oklahoma.  She worked as a cook at Miller&amp;s Cafe?ÿ?for 40 years.  \nShe was a member of the Morning Star Baptist Church.  She enjoyed quilting, gardening, and needle point.  \nBesides her parents, she was preceded in death by her husband, Claude; one daughter, Leona Morris, and infant twins, Billy Joe and Anna May; one brother, Dwight Neff; and one sister, Bessie Phillips.  \nDolly is survived by three sons, Kenneth Wilson of Okemah, Oklahoma, Richard Wilson and his wife, Mary, of Clarion, Pennsylvania, and Edward Wilson and his wife, Julie, of Magnolia, Texas; one daughter, Claudette Pierce and her husband, Carol, of Columbus, Ohio; one sister, Margaret Windecker of Waynoka; 17 grandchildren, numerous great grandchildren, great great grandchildren and other relatives and many friends.  \nMemorial contributions may be made through the funeral home to the Waynoka Nursing Home. \n\t\t\t" ;
+        c:id               "http://id.opencalais.com/7Re5a9W8h*AEvSX6g0LFfw" ;
+        c:ontology         "http://163.231.4.65/owlschema/8.3/onecalais.owl.allmetadata.xml" .
+
+<http://d.opencalais.com/genericHasher-1/b4fc3d19-fcc9-3f28-908e-c3016363ac2d>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Waynoka" ;
+        c:person             <http://d.opencalais.com/pershash-1/46bff9f0-c586-329d-afae-c66bf6981792> .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/48598b5e-11b8-76fe-6b2c-43751bb9c9a9>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:latitude            "40.6649812556" ;
+        c:longitude           "-77.9064900333" ;
+        c:name                "Pennsylvania,United States" ;
+        c:permid              "100239" ;
+        c:rcscode             "G:3M" ;
+        c:shortname           "Pennsylvania" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/51bb10d7-d54c-3aed-8cf9-b7782e8eeda9> .
+
+<http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee>
+        a                    <http://s.opencalais.com/1/type/em/e/IndustryTerm> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Funeral services" .
+
+<http://d.opencalais.com/genericHasher-1/e364c016-fff4-3079-b076-41218ba6bc10>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Magnolia" .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/70>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[she was preceded in death by her husband, ]Claude[; one daughter, Leona Morris, and infant twins,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "Claude" ;
+        c:length     "6" ;
+        c:offset     "874" ;
+        c:prefix     "she was preceded in death by her husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/7599b430-1f0c-3481-b747-90986601ec7b> ;
+        c:suffix     "; one daughter, Leona Morris, and infant twins," .
+
+<http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oklahoma" .
+
+<http://d.opencalais.com/genericHasher-1/977330c6-f534-3eb2-b811-659f93f0b6c8>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "wife" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/649a15ea-ce28-3a17-a2bd-b4e8157d76d6> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/1f63034a-8302-314b-ba8a-4693832a4427> .
+
+<http://d.opencalais.com/conf/pershash-1/c9580ae3-fffc-34a1-ae68-669d4e289256>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.993" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.995" ;
+        c:subject             <http://d.opencalais.com/pershash-1/c9580ae3-fffc-34a1-ae68-669d4e289256> .
+
+<http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Alva" .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/49>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Dwight Neff; and one sister, Bessie Phillips.  \n]Dolly[ is survived by three sons, Kenneth Wilson of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "Dolly" ;
+        c:length     "5" ;
+        c:offset     "1013" ;
+        c:prefix     "Dwight Neff; and one sister, Bessie Phillips.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/9725605c-e84d-353f-b471-5a70517b83f6> ;
+        c:suffix     " is survived by three sons, Kenneth Wilson of" .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/28>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Wilson of Okemah, Oklahoma, Richard Wilson and ]his[ wife, Mary, of Clarion, Pennsylvania, and Edward]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "1101" ;
+        c:prefix     "Wilson of Okemah, Oklahoma, Richard Wilson and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/a469d38b-76f7-3366-bd5d-56fdb4337695> ;
+        c:suffix     " wife, Mary, of Clarion, Pennsylvania, and Edward" .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Relevance/17>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/51bb10d7-d54c-3aed-8cf9-b7782e8eeda9> .
+
+<http://d.opencalais.com/genericHasher-1/502ad8fc-a5f3-385e-880d-1f9d2be61e9a>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonAttributes> ;
+        c:birthdate          "1916-12-25" ;
+        c:birthplace         <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:forenduserdisplay  "false" ;
+        c:gender             "F" ;
+        c:person             <http://d.opencalais.com/pershash-1/e99b03f1-3f4a-3733-a38a-716c7774c0d1> .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/SocialTag/1>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Waynoka, Oklahoma" ;
+        c:originalValue      "Waynoka, Oklahoma" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/77bc8be5-12a7-326b-962f-52fbf8cf09dd> .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Relevance/7>
+        a                <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId          <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:relevance      "0.2" ;
+        c:relevancecont  "0.03" ;
+        c:subject        <http://d.opencalais.com/comphash-1/06199735-1886-3dc7-8605-958ed70b1852> .
+
+<http://d.opencalais.com/genericHasher-1/c3a56aff-88c9-3919-bf09-9fda800e917c>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Waynoka" ;
+        c:person             <http://d.opencalais.com/pershash-1/971bc145-8c17-31e9-a6e8-b0e6e14f4706> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/58711566-a77c-fdf3-1f4e-519bd3db7ed5>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:latitude            "35.4325" ;
+        c:longitude           "-96.3047" ;
+        c:name                "Okemah,Oklahoma,United States" ;
+        c:shortname           "Okemah" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/d4773405-7557-332c-83ce-a9afda39902a> .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/57>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Clarion, Pennsylvania, and Edward Wilson and ]his[ wife, Julie, of Magnolia, Texas; one daughter,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "1165" ;
+        c:prefix     "of Clarion, Pennsylvania, and Edward Wilson and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/649a15ea-ce28-3a17-a2bd-b4e8157d76d6> ;
+        c:suffix     " wife, Julie, of Magnolia, Texas; one daughter," .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/36>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[one daughter, Claudette Pierce and her husband, ]Carol[, of Columbus, Ohio; one sister, Margaret]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "Carol" ;
+        c:length     "5" ;
+        c:offset     "1250" ;
+        c:prefix     "one daughter, Claudette Pierce and her husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/8c342775-4d0d-3c43-a4a3-067c7f11a28d> ;
+        c:suffix     ", of Columbus, Ohio; one sister, Margaret" .
+
+<http://d.opencalais.com/genericHasher-1/1e2fcb0d-1605-3109-88dc-3e4b6d47b42c>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Miller&s Cafe" .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Relevance/25>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e3b72b91-4c80-3b6b-9257-7bb74b00a86c> .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/15>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[be 10:30 a.m. Thursday, July 20, 2006, at the ]Waynoka Church of God[ with Rev. Charles Newton officiating.  Interment]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "Waynoka Church of God" ;
+        c:length     "21" ;
+        c:offset     "105" ;
+        c:prefix     "be 10:30 a.m. Thursday, July 20, 2006, at the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c1606f74-13fe-3186-8084-3f5c1c466e4e> ;
+        c:suffix     " with Rev. Charles Newton officiating.  Interment" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/8fac7585-3230-ed66-1dae-4ee48ac15a97>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:latitude            "36.805" ;
+        c:longitude           "-98.6661" ;
+        c:name                "Alva,Oklahoma,United States" ;
+        c:shortname           "Alva" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> .
+
+<http://d.opencalais.com/conf/pershash-1/70a98561-caf3-3809-9ff0-cf5194b6070d>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.993" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.995" ;
+        c:subject             <http://d.opencalais.com/pershash-1/70a98561-caf3-3809-9ff0-cf5194b6070d> .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/e9e27c26-4013-8712-a5f0-97dcdc412c26>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:latitude            "35.5607802899" ;
+        c:longitude           "-96.8460570462" ;
+        c:name                "Oklahoma,United States" ;
+        c:permid              "100229" ;
+        c:rcscode             "G:9H" ;
+        c:shortname           "Oklahoma" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/65>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[three sons, Kenneth Wilson of Okemah, Oklahoma, ]Richard Wilson and his wife, Mary[, of Clarion, Pennsylvania, and Edward Wilson and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "Richard Wilson and his wife, Mary" ;
+        c:length     "33" ;
+        c:offset     "1082" ;
+        c:prefix     "three sons, Kenneth Wilson of Okemah, Oklahoma, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/7fcd789c-2133-35a0-bb18-676539be801b> ;
+        c:suffix     ", of Clarion, Pennsylvania, and Edward Wilson and" .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/44>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ as a cook at Miller&s Cafe?ÿ?for 40 years.  \n]She[ was a member of the Morning Star Baptist Church.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "704" ;
+        c:prefix     " as a cook at Miller&s Cafe?ÿ?for 40 years.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/9725605c-e84d-353f-b471-5a70517b83f6> ;
+        c:suffix     " was a member of the Morning Star Baptist Church." .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Relevance/33>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/7599b430-1f0c-3481-b747-90986601ec7b> .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/23>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Marie \"Dolly\" Woolley, daughter of the late ]Joe Virgil[ and Stella Mae (Icke) Neff, was born December]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "Joe Virgil" ;
+        c:length     "10" ;
+        c:offset     "328" ;
+        c:prefix     "Marie \"Dolly\" Woolley, daughter of the late " ;
+        c:subject    <http://d.opencalais.com/pershash-1/971bc145-8c17-31e9-a6e8-b0e6e14f4706> ;
+        c:suffix     " and Stella Mae (Icke) Neff, was born December" .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Instance/6>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[twins, Billy Joe and Anna May; one brother, ]Dwight Neff[; and one sister, Bessie Phillips.  \nDolly is]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:exact      "Dwight Neff" ;
+        c:length     "11" ;
+        c:offset     "965" ;
+        c:prefix     "twins, Billy Joe and Anna May; one brother, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/70a98561-caf3-3809-9ff0-cf5194b6070d> ;
+        c:suffix     "; and one sister, Bessie Phillips.  \nDolly is" .
+
+<http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d/Relevance/12>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/28d63312-be61-367c-965c-5bc70267d21d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> .
+
+<http://d.opencalais.com/pershash-1/1f63034a-8302-314b-ba8a-4693832a4427>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Julie" ;
+        c:confidencelevel    "0.951" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Julie" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .

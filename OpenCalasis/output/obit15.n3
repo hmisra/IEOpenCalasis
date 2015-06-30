@@ -1,0 +1,1682 @@
+#Relations: FamilyRelation, PersonAttributes, PersonCareer, PersonEducation, PersonLocation, PersonRelation, PersonTravel
+#City: Albuquerque, Burlington, Detroit, Omaha
+#Company: Starbucks
+#Continent: Asia
+#Country: Bolivia
+#Facility: Alva Municipal Cemetery, Marshall Funeral Home of Alva
+#IndustryTerm: Funeral services
+#Organization: Baptist Church, Benson High School, Desert Springs Church
+#Person: Alan Davis, Brent, Golda Prewett, Greg Hook, Janelle, Joanne, Judy, Kimberly, Linda, Margaret Davis, Margaret Lenora Prewett Davis, Nathan, Omer, Wendell Alan Davis, Wycliffe Bible Translators
+#Position: artist , speech therapist and teacher, private tutor, professional artist
+#ProvinceOrState: Nebraska, New Mexico, Oklahoma
+@prefix c:     <http://s.opencalais.com/1/pred/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Relevance/13>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/bda98540-abe3-38d5-a2b0-36f4509225c9> .
+
+<http://d.opencalais.com/conf/pershash-1/ee2ae544-fe7d-37a8-8101-2c375ee4017a>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.994" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.996" ;
+        c:subject             <http://d.opencalais.com/pershash-1/ee2ae544-fe7d-37a8-8101-2c375ee4017a> .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Instance/68>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Omer and wife Joanne, Roger and wife Judy, and ]her[ sister, Linda.  \nMemorial contributions may be]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1777" ;
+        c:prefix     "Omer and wife Joanne, Roger and wife Judy, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9956d8d6-eebe-3653-a3c3-cbe4217117e3> ;
+        c:suffix     " sister, Linda.  \nMemorial contributions may be" .
+
+<http://d.opencalais.com/genericHasher-1/badc7cee-6213-39d3-8d4b-099b7d794152>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Benson High School" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Instance/47>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ and Burlington, Oklahoma.   After leaving Omaha, ]she[ went on to get degrees in Speech Pathology, Fine]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "875" ;
+        c:prefix     " and Burlington, Oklahoma.   After leaving Omaha, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/ee2ae544-fe7d-37a8-8101-2c375ee4017a> ;
+        c:suffix     " went on to get degrees in Speech Pathology, Fine" .
+
+<http://d.opencalais.com/genericHasher-1/95c67e16-3230-3fb0-a367-7dc66e108748>
+        a                    <http://s.opencalais.com/1/type/em/e/Position> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "professional artist" .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Instance/26>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Alan Davis, and had three children, Brent, ]Nathan[, and Janelle.  She spent the last three years in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:exact      "Nathan" ;
+        c:length     "6" ;
+        c:offset     "1357" ;
+        c:prefix     "Alan Davis, and had three children, Brent, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/338d9416-9471-334e-83a7-cab80b69962c> ;
+        c:suffix     ", and Janelle.  She spent the last three years in" .
+
+<http://d.opencalais.com/genericHasher-1/81edf692-18a9-3f0d-9725-b64ad9293d69>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/bda98540-abe3-38d5-a2b0-36f4509225c9> , <http://d.opencalais.com/pershash-1/ee2ae544-fe7d-37a8-8101-2c375ee4017a> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Relevance/21>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/conf/pershash-1/b15bbdd8-ce8a-3cd5-b7bb-fc005f1000c8>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.94" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.972" ;
+        c:subject             <http://d.opencalais.com/pershash-1/b15bbdd8-ce8a-3cd5-b7bb-fc005f1000c8> .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Relevance/5>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a5359054-758f-3c20-ac97-d90fbc6a170e> .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Instance/55>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ had three children, Brent, Nathan, and Janelle.  ]She[ spent the last three years in Albuquerque,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "1379" ;
+        c:prefix     " had three children, Brent, Nathan, and Janelle.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/883e0c17-b66b-3c5e-b641-abe00e432d80> ;
+        c:suffix     " spent the last three years in Albuquerque," .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Instance/34>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[25, 2009, at the Alva First Baptist Church with ]Dr. Greg Hook[ officiating.  Interment will be in the Alva]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:exact      "Dr. Greg Hook" ;
+        c:length     "13" ;
+        c:offset     "118" ;
+        c:prefix     "25, 2009, at the Alva First Baptist Church with " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b15bbdd8-ce8a-3cd5-b7bb-fc005f1000c8> ;
+        c:suffix     " officiating.  Interment will be in the Alva" .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Instance/13>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and Golda Prewett, was born April 7th, 1941, in ]Omaha[, Nebraska.  She passed away April 21, 2009 in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:exact      "Omaha" ;
+        c:length     "5" ;
+        c:offset     "451" ;
+        c:prefix     "and Golda Prewett, was born April 7th, 1941, in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/46d0b461-240a-3f2d-a061-49658675f64c> ;
+        c:suffix     ", Nebraska.  She passed away April 21, 2009 in" .
+
+<http://d.opencalais.com/conf/pershash-1/a7638709-4c0a-3508-9efd-aeb637669926>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.961" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.979" ;
+        c:subject             <http://d.opencalais.com/pershash-1/a7638709-4c0a-3508-9efd-aeb637669926> .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Relevance/29>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4566fcda-40bf-37d6-b27d-9cc9786ade23> .
+
+<http://d.opencalais.com/conf/pershash-1/a10c8eaa-b028-31da-925b-f9b376b8bc6e>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.999" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.999" ;
+        c:subject             <http://d.opencalais.com/pershash-1/a10c8eaa-b028-31da-925b-f9b376b8bc6e> .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Instance/63>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Prewett Davis, daughter of the late C.H. and ]Golda Prewett[, was born April 7th, 1941, in Omaha, Nebraska. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:exact      "Golda Prewett" ;
+        c:length     "13" ;
+        c:offset     "407" ;
+        c:prefix     "Prewett Davis, daughter of the late C.H. and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/8bc7ee4c-d76e-30ff-aa84-0785de20e764> ;
+        c:suffix     ", was born April 7th, 1941, in Omaha, Nebraska. " .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/dee36aff-ead0-fdf0-03f2-f60d61b5877f>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "New Mexico" ;
+        c:docId               <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:latitude            "35.0844" ;
+        c:longitude           "-106.6506" ;
+        c:name                "Albuquerque,New Mexico,United States" ;
+        c:shortname           "Albuquerque" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/cb55f7bd-94cd-3b17-ab67-36bb9552401b> .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Instance/42>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[summers farming and ranching near Fargo and ]Burlington[, Oklahoma.   After leaving Omaha, she went on to]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:exact      "Burlington" ;
+        c:length     "10" ;
+        c:offset     "830" ;
+        c:prefix     "summers farming and ranching near Fargo and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c0f57d6a-059c-3ba5-99f4-557732c87bf0> ;
+        c:suffix     ", Oklahoma.   After leaving Omaha, she went on to" .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/cat/1>
+        a                    <http://s.opencalais.com/1/type/cat/DocCat> ;
+        c:docId              <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Human Interest" ;
+        c:score              "1.000" .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Instance/21>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[   \nMargaret grew up in Omaha, where she attended ]Benson High School[.  During the time the family lived in Omaha,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:exact      "Benson High School" ;
+        c:length     "18" ;
+        c:offset     "705" ;
+        c:prefix     "   \nMargaret grew up in Omaha, where she attended " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/badc7cee-6213-39d3-8d4b-099b7d794152> ;
+        c:suffix     ".  During the time the family lived in Omaha," .
+
+<http://d.opencalais.com/genericHasher-1/4566fcda-40bf-37d6-b27d-9cc9786ade23>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Desert Springs Church" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Instance/6>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Funeral services for ]Margaret Davis[ will be 2:00 p.m. Saturday, April 25, 2009, at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:exact      "Margaret Davis" ;
+        c:length     "14" ;
+        c:offset     "21" ;
+        c:prefix     "Funeral services for " ;
+        c:subject    <http://d.opencalais.com/pershash-1/951d5ea8-6fae-36a9-b2ed-09ac01310b6b> ;
+        c:suffix     " will be 2:00 p.m. Saturday, April 25, 2009, at" .
+
+<http://d.opencalais.com/er/geo/country/ralg-geo1/76781be1-c79d-f46b-096f-0cfb71f2bf82>
+        a            <http://s.opencalais.com/1/type/er/Geo/Country> ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:latitude   "-18.4258171994" ;
+        c:longitude  "-66.5303808219" ;
+        c:name       "Bolivia" ;
+        c:permid     "100038" ;
+        c:rcscode    "G:3J" ;
+        c:shortname  "Bolivia" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8aa2fde8-598e-30c5-b82b-943874f70b3f> .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Relevance/16>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee> .
+
+<http://d.opencalais.com/pershash-1/6ad9b3ef-5f7b-3dbe-909f-2842b1bc4839>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Omer" ;
+        c:confidencelevel    "0.881" ;
+        c:firstname          "Omer" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Omer" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/pershash-1/01d17573-5cce-3be3-83fc-d0faf27800e3>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Kimberly" ;
+        c:confidencelevel    "0.87" ;
+        c:firstname          "Kimberly" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Kimberly" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Instance/50>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[as a private tutor and in the public schools.  \n]She[ was married in 1973 to Wendell Alan Davis, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "1279" ;
+        c:prefix     "as a private tutor and in the public schools.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/ee2ae544-fe7d-37a8-8101-2c375ee4017a> ;
+        c:suffix     " was married in 1973 to Wendell Alan Davis, and" .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Instance/29>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Alva Municipal Cemetery under the direction of ]Marshall Funeral Home of Alva[.  There will be a visitation Friday, April 24,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:exact      "Marshall Funeral Home of Alva" ;
+        c:length     "29" ;
+        c:offset     "218" ;
+        c:prefix     "Alva Municipal Cemetery under the direction of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce> ;
+        c:suffix     ".  There will be a visitation Friday, April 24," .
+
+<http://d.opencalais.com/conf/pershash-1/338d9416-9471-334e-83a7-cab80b69962c>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.999" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.998" ;
+        c:subject             <http://d.opencalais.com/pershash-1/338d9416-9471-334e-83a7-cab80b69962c> .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/SocialTag/2>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Bible translators" ;
+        c:originalValue      "Bible translators" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/8f005c6c-1870-3886-8e11-ad1aaca4f7c9> .
+
+<http://d.opencalais.com/genericHasher-1/f0aa37ca-6a24-391c-8a35-e47517a63978>
+        a                       <http://s.opencalais.com/1/type/em/r/PersonEducation> ;
+        c:forenduserdisplay     "false" ;
+        c:person                <http://d.opencalais.com/pershash-1/ee2ae544-fe7d-37a8-8101-2c375ee4017a> ;
+        c:schoolororganization  "Benson High School" .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Relevance/24>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c0f57d6a-059c-3ba5-99f4-557732c87bf0> .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/ComponentVersions>
+        a          <http://s.opencalais.com/1/type/sys/ComponentVersions> ;
+        c:docId    <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:version  "Housekeeper:OneCalais_8.3-RELEASE:113" , "OneCalais:OneCalais_8.3-RELEASE:364" , "config-cse:271:271" , "OA Override:271:271" , "People Index:201505261608:201505261608" , "Deals Index:201505261613:201505261613" , "SocialTags Index:201505191038:201505191038" , "WatchDog:OneCalais_8.3-RELEASE:113" , "AutocoderRuntimeIM:OneCalais_8.3-RELEASE:198" , "BlackList:264:264" , "OA Index:201505252208:201505252208" , "FrenchIM:OneCalais_8.3-RELEASE:198" , "People Override:258:258" , "config-refineries:258:258" , "Dial4J:OneCalais_8.3-RELEASE:198" , "config-drugs:258:258" , "config-physicalAssets-ports:258:258" , "config-negativeSignature:258:258" , "NextTags:OneCalais_8.3-RELEASE:113" , "SECHeaderMetadataIM:OneCalais_8.3-RELEASE:198" , "OneCalaisIM:OneCalais_8.3-RELEASE:198" , "config-sca-DataPackage:34:34" , "com.clearforest.infoext.dial4j.plugins-basistechconfig:OneCalais_8.3-RELEASE:225" , "SpanishIM:OneCalais_8.3-RELEASE:198" , "Collector:OneCalais_8.3-RELEASE:113" , "BrokerResearchIM:OneCalais_8.3-RELEASE:198" , "config-vessels:258:258" , "index-vessels:201505231718:201505231718" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/4c547155-958b-6b45-c099-778cead258c6>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:latitude            "34.831864378" ;
+        c:longitude           "-106.295252344" ;
+        c:name                "New Mexico,United States" ;
+        c:permid              "100210" ;
+        c:rcscode             "G:4S" ;
+        c:shortname           "New Mexico" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/3d0928fd-64b3-3d17-9c4c-92638701503a> .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Relevance/8>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3d0928fd-64b3-3d17-9c4c-92638701503a> .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Instance/58>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ day at the local Starbucks.  She was a member of ]Desert Springs Church[ in Albuquerque, where she was dearly loved. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:exact      "Desert Springs Church" ;
+        c:length     "21" ;
+        c:offset     "1537" ;
+        c:prefix     " day at the local Starbucks.  She was a member of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4566fcda-40bf-37d6-b27d-9cc9786ade23> ;
+        c:suffix     " in Albuquerque, where she was dearly loved. " .
+
+<http://d.opencalais.com/genericHasher-1/cc163863-e7f9-3876-a9eb-794209ae4298>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Albuquerque" ;
+        c:person             <http://d.opencalais.com/pershash-1/883e0c17-b66b-3c5e-b641-abe00e432d80> .
+
+<http://d.opencalais.com/genericHasher-1/8eade039-a4ea-3277-86f0-dccd360f428f>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Alva Municipal Cemetery" .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Instance/37>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[farming and ranching near Fargo and Burlington, ]Oklahoma[.   After leaving Omaha, she went on to get]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "842" ;
+        c:prefix     "farming and ranching near Fargo and Burlington, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ".   After leaving Omaha, she went on to get" .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Instance/16>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Fargo and Burlington, Oklahoma.   After leaving ]Omaha[, she went on to get degrees in Speech Pathology,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:exact      "Omaha" ;
+        c:length     "5" ;
+        c:offset     "868" ;
+        c:prefix     "Fargo and Burlington, Oklahoma.   After leaving " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/46d0b461-240a-3f2d-a061-49658675f64c> ;
+        c:suffix     ", she went on to get degrees in Speech Pathology," .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Instance/1>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in Detroit,  traveling to Bolivia visiting with ]Wycliffe Bible Translators[, creating etchings, sculpture, and prints as a]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:exact      "Wycliffe Bible Translators" ;
+        c:length     "26" ;
+        c:offset     "1097" ;
+        c:prefix     "in Detroit,  traveling to Bolivia visiting with " ;
+        c:subject    <http://d.opencalais.com/pershash-1/a7638709-4c0a-3508-9efd-aeb637669926> ;
+        c:suffix     ", creating etchings, sculpture, and prints as a" .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7>
+        a                  <http://s.opencalais.com/1/type/sys/DocInfo> ;
+        c:calaisRequestID  "c54b6eb9-08ce-1c65-14d9-13a91946fa60" ;
+        c:docDate          "2015-05-26 17:17:24.629" ;
+        c:docTitle         "" ;
+        c:document         "Funeral services for Margaret Davis will be 2:00 p.m. Saturday, April 25, 2009, at the Alva First Baptist Church with Dr. Greg Hook officiating.  Interment will be in the Alva Municipal Cemetery under the direction of Marshall Funeral Home of Alva.  There will be a visitation Friday, April 24, from 6:30 p.m. to 8:30 p.m. at the funeral home.  \nMargaret Lenora Prewett Davis, daughter of the late C.H. and Golda Prewett, was born April 7th, 1941, in Omaha, Nebraska.  She passed away April 21, 2009 in Albuquerque, New Mexico, shortly after her 68th birthday.  She led a spirited and varied life as a mother, friend, artist, speech therapist and teacher.   \nMargaret grew up in Omaha, where she attended Benson High School.  During the time the family lived in Omaha, they spent their summers farming and ranching near Fargo and Burlington, Oklahoma.   After leaving Omaha, she went on to get degrees in Speech Pathology, Fine Arts, and Early Childhood Education.  Her interests took her in many directions, working with court-referred adolescents in Detroit,  traveling to Bolivia visiting with Wycliffe Bible Translators, creating etchings, sculpture, and prints as a professional artist, and teaching language and reading both as a private tutor and in the public schools.  \nShe was married in 1973 to Wendell Alan Davis, and had three children, Brent, Nathan, and Janelle.  She spent the last three years in Albuquerque, enjoying beautiful mountain sunsets and making a new friend a day at the local Starbucks.  She was a member of Desert Springs Church in Albuquerque, where she was dearly loved.  \nMargaret is survived by her husband, Alan; their three children, Brent and wife, Kimberly, Nathan, and Janelle; her brothers Omer and wife Joanne, Roger and wife Judy, and her sister, Linda.  \nMemorial contributions may be made through the funeral home to Wycliffe Bible Translators or Gospel for Asia. \n\t\t\t" ;
+        c:id               "http://id.opencalais.com/XG8tQvb9E2YLeQxL6fUe7w" ;
+        c:ontology         "http://163.231.4.65/owlschema/8.3/onecalais.owl.allmetadata.xml" .
+
+<http://d.opencalais.com/pershash-1/ee2ae544-fe7d-37a8-8101-2c375ee4017a>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Margaret Lenora Prewett Davis" ;
+        c:confidencelevel    "0.994" ;
+        c:firstname          "Margaret" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Prewett Davis" ;
+        c:middlename         "Lenora" ;
+        c:name               "Margaret Lenora Prewett Davis" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Relevance/32>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/9956d8d6-eebe-3653-a3c3-cbe4217117e3> .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Relevance/11>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/01d17573-5cce-3be3-83fc-d0faf27800e3> .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Instance/66>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[New Mexico, shortly after her 68th birthday.  ]She[ led a spirited and varied life as a mother,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "562" ;
+        c:prefix     "New Mexico, shortly after her 68th birthday.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/8bc7ee4c-d76e-30ff-aa84-0785de20e764> ;
+        c:suffix     " led a spirited and varied life as a mother," .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Instance/45>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ friend, artist, speech therapist and teacher.   \n]Margaret[ grew up in Omaha, where she attended Benson High]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:exact      "Margaret" ;
+        c:length     "8" ;
+        c:offset     "659" ;
+        c:prefix     " friend, artist, speech therapist and teacher.   \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/ee2ae544-fe7d-37a8-8101-2c375ee4017a> ;
+        c:suffix     " grew up in Omaha, where she attended Benson High" .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Instance/24>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Brent and wife, Kimberly, Nathan, and Janelle; ]her[ brothers Omer and wife Joanne, Roger and wife]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1717" ;
+        c:prefix     "Brent and wife, Kimberly, Nathan, and Janelle; " ;
+        c:subject    <http://d.opencalais.com/pershash-1/01d17573-5cce-3be3-83fc-d0faf27800e3> ;
+        c:suffix     " brothers Omer and wife Joanne, Roger and wife" .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Instance/9>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ home to Wycliffe Bible Translators or Gospel for ]Asia[. \n\t\t\t]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:exact      "Asia" ;
+        c:length     "4" ;
+        c:offset     "1902" ;
+        c:prefix     " home to Wycliffe Bible Translators or Gospel for " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a5359054-758f-3c20-ac97-d90fbc6a170e> ;
+        c:suffix     ". \n\t\t\t" .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/meta>
+        a                 <http://s.opencalais.com/1/type/sys/DocInfoMeta> ;
+        c:contentType     "text/raw" ;
+        c:docId           <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:language        "English" ;
+        c:processingVer   "AllMetadata" ;
+        c:serverVersion   "OneCalais_8.3-RELEASE:364" ;
+        c:signature       "digestalg-1|D0yQ1fZRfH3SExRuWfzny8g6+/Q=|X9ewilG6Gm2TBhj6Vw6T4MubHbQUD5EgVPKBVQ+8ioOFeTmPj9jrbA==" ;
+        c:stagsVer        "OneCalais_8.3-RELEASE-b11-2015-03-25_18:29:00" ;
+        c:submissionDate  "2015-05-26 17:17:24.244" ;
+        c:submitterCode   "0ca6a864-5659-789d-5f32-f365f695e757" .
+
+<http://d.opencalais.com/pershash-1/bda98540-abe3-38d5-a2b0-36f4509225c9>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Alan Davis" ;
+        c:confidencelevel    "0.973" ;
+        c:firstname          "Alan" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Alan Davis" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/4b3fba16-e07f-3456-9059-81db70dedf44>
+        a                    <http://s.opencalais.com/1/type/em/e/Position> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "artist , speech therapist and teacher" .
+
+<http://d.opencalais.com/comphash-1/6b2d9108-7924-3b86-bdba-7410d77d7a79>
+        a                    <http://s.opencalais.com/1/type/em/e/Company> ;
+        c:confidencelevel    "0.904" ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Starbucks" ;
+        c:nationality        "N/A" .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Relevance/19>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/b15bbdd8-ce8a-3cd5-b7bb-fc005f1000c8> .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Relevance/3>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/5eaa3b19-5be9-350d-a971-02153fd99b47> .
+
+<http://d.opencalais.com/pershash-1/883e0c17-b66b-3c5e-b641-abe00e432d80>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Janelle" ;
+        c:confidencelevel    "0.999" ;
+        c:firstname          "Janelle" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Janelle" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Instance/53>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[adolescents in Detroit,  traveling to ]Bolivia[ visiting with Wycliffe Bible Translators,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:exact      "Bolivia" ;
+        c:length     "7" ;
+        c:offset     "1075" ;
+        c:prefix     "adolescents in Detroit,  traveling to " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8aa2fde8-598e-30c5-b82b-943874f70b3f> ;
+        c:suffix     " visiting with Wycliffe Bible Translators," .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Instance/32>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[to Wendell Alan Davis, and had three children, ]Brent[, Nathan, and Janelle.  She spent the last three]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:exact      "Brent" ;
+        c:length     "5" ;
+        c:offset     "1350" ;
+        c:prefix     "to Wendell Alan Davis, and had three children, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/a10c8eaa-b028-31da-925b-f9b376b8bc6e> ;
+        c:suffix     ", Nathan, and Janelle.  She spent the last three" .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Instance/11>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and Janelle.  She spent the last three years in ]Albuquerque[, enjoying beautiful mountain sunsets and making]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:exact      "Albuquerque" ;
+        c:length     "11" ;
+        c:offset     "1413" ;
+        c:prefix     "and Janelle.  She spent the last three years in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/cb55f7bd-94cd-3b17-ab67-36bb9552401b> ;
+        c:suffix     ", enjoying beautiful mountain sunsets and making" .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/SocialTag/5>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "2" ;
+        c:name               "Wycliffe" ;
+        c:originalValue      "Wycliffe" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/34064286-71de-30f8-8af0-98abf789177f> .
+
+<http://d.opencalais.com/genericHasher-1/40d28cb2-8fb2-30f2-896c-8ebd7801e533>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "husband" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/ee2ae544-fe7d-37a8-8101-2c375ee4017a> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/bda98540-abe3-38d5-a2b0-36f4509225c9> .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Relevance/27>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8aa2fde8-598e-30c5-b82b-943874f70b3f> .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Instance/61>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[a new friend a day at the local Starbucks.  ]She was a member of Desert Springs Church in Albuquerque[, where she was dearly loved.  \nMargaret is]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:exact      "She was a member of Desert Springs Church in Albuquerque" ;
+        c:length     "56" ;
+        c:offset     "1517" ;
+        c:prefix     "a new friend a day at the local Starbucks.  " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/cc163863-e7f9-3876-a9eb-794209ae4298> ;
+        c:suffix     ", where she was dearly loved.  \nMargaret is" .
+
+<http://d.opencalais.com/genericHasher-1/9ba92363-28b4-3252-a0e3-0df9991e22e6>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Omaha" ;
+        c:person             <http://d.opencalais.com/pershash-1/8bc7ee4c-d76e-30ff-aa84-0785de20e764> .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Instance/40>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in Albuquerque, where she was dearly loved.  \n]Margaret is survived by her husband, Alan[; their three children, Brent and wife, Kimberly,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:exact      "Margaret is survived by her husband, Alan" ;
+        c:length     "41" ;
+        c:offset     "1605" ;
+        c:prefix     "in Albuquerque, where she was dearly loved.  \n" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/81edf692-18a9-3f0d-9725-b64ad9293d69> ;
+        c:suffix     "; their three children, Brent and wife, Kimberly," .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/e970c3a7-4047-ccd1-7e6c-e05ebed79bee>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:latitude            "36.9" ;
+        c:longitude           "-98.4225" ;
+        c:name                "Burlington,Oklahoma,United States" ;
+        c:shortname           "Burlington" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/c0f57d6a-059c-3ba5-99f4-557732c87bf0> .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Instance/19>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[a new friend a day at the local Starbucks.  ]She was a member of Desert Springs Church[ in Albuquerque, where she was dearly loved. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:exact      "She was a member of Desert Springs Church" ;
+        c:length     "41" ;
+        c:offset     "1517" ;
+        c:prefix     "a new friend a day at the local Starbucks.  " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/6d274ed5-4f08-3b10-8fe9-4a45bca079da> ;
+        c:suffix     " in Albuquerque, where she was dearly loved. " .
+
+<http://d.opencalais.com/genericHasher-1/257faf86-7647-35aa-8e3b-267ccc0e8857>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Detroit" .
+
+<http://d.opencalais.com/pershash-1/951d5ea8-6fae-36a9-b2ed-09ac01310b6b>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Margaret Davis" ;
+        c:confidencelevel    "0.994" ;
+        c:firstname          "Margaret" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Davis" ;
+        c:name               "Margaret Davis" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Instance/4>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[she was dearly loved.  \nMargaret is survived by ]her husband, Alan[; their three children, Brent and wife, Kimberly,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:exact      "her husband, Alan" ;
+        c:length     "17" ;
+        c:offset     "1629" ;
+        c:prefix     "she was dearly loved.  \nMargaret is survived by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/40d28cb2-8fb2-30f2-896c-8ebd7801e533> ;
+        c:suffix     "; their three children, Brent and wife, Kimberly," .
+
+<http://d.opencalais.com/conf/pershash-1/6ad9b3ef-5f7b-3dbe-909f-2842b1bc4839>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.881" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.841" ;
+        c:subject             <http://d.opencalais.com/pershash-1/6ad9b3ef-5f7b-3dbe-909f-2842b1bc4839> .
+
+<http://d.opencalais.com/conf/pershash-1/01d17573-5cce-3be3-83fc-d0faf27800e3>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.87" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.887" ;
+        c:subject             <http://d.opencalais.com/pershash-1/01d17573-5cce-3be3-83fc-d0faf27800e3> .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Relevance/14>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/95c67e16-3230-3fb0-a367-7dc66e108748> .
+
+<http://d.opencalais.com/genericHasher-1/cc8b0672-eb16-3f69-83c7-9cdbbf7e1da8>
+        a                    <http://s.opencalais.com/1/type/em/e/Position> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "private tutor" .
+
+<http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Marshall Funeral Home of Alva" .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Instance/69>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and making a new friend a day at the local ]Starbucks[.  She was a member of Desert Springs Church in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:exact      "Starbucks" ;
+        c:length     "9" ;
+        c:offset     "1505" ;
+        c:prefix     "and making a new friend a day at the local " ;
+        c:subject    <http://d.opencalais.com/comphash-1/6b2d9108-7924-3b86-bdba-7410d77d7a79> ;
+        c:suffix     ".  She was a member of Desert Springs Church in" .
+
+<http://d.opencalais.com/genericHasher-1/657ee2eb-7afa-3fa6-9a31-b08d3b6b7e74>
+        a                      <http://s.opencalais.com/1/type/em/r/PersonTravel> ;
+        c:forenduserdisplay    "false" ;
+        c:locationdestination  <http://d.opencalais.com/genericHasher-1/8aa2fde8-598e-30c5-b82b-943874f70b3f> ;
+        c:person               <http://d.opencalais.com/pershash-1/ee2ae544-fe7d-37a8-8101-2c375ee4017a> ;
+        c:status               "future" .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Instance/48>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Fine Arts, and Early Childhood Education.  ]Her[ interests took her in many directions, working]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:exact      "Her" ;
+        c:length     "3" ;
+        c:offset     "966" ;
+        c:prefix     "Fine Arts, and Early Childhood Education.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/ee2ae544-fe7d-37a8-8101-2c375ee4017a> ;
+        c:suffix     " interests took her in many directions, working" .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Instance/27>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[loved.  \nMargaret is survived by her husband, ]Alan[; their three children, Brent and wife, Kimberly,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:exact      "Alan" ;
+        c:length     "4" ;
+        c:offset     "1642" ;
+        c:prefix     "loved.  \nMargaret is survived by her husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/bda98540-abe3-38d5-a2b0-36f4509225c9> ;
+        c:suffix     "; their three children, Brent and wife, Kimberly," .
+
+<http://d.opencalais.com/genericHasher-1/a5359054-758f-3c20-ac97-d90fbc6a170e>
+        a                    <http://s.opencalais.com/1/type/em/e/Continent> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Asia" .
+
+<http://d.opencalais.com/genericHasher-1/b8998ba9-2475-3924-b134-a28ee1b93cb9>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonAttributes> ;
+        c:birthdate          "1941-04-07" ;
+        c:birthplace         <http://d.opencalais.com/genericHasher-1/46d0b461-240a-3f2d-a061-49658675f64c> ;
+        c:forenduserdisplay  "false" ;
+        c:gender             "F" ;
+        c:person             <http://d.opencalais.com/pershash-1/8bc7ee4c-d76e-30ff-aa84-0785de20e764> .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/21363c59-f8e7-4ec2-7c6a-f0de6f339763>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:latitude            "41.2324319335" ;
+        c:longitude           "-98.4159979703" ;
+        c:name                "Nebraska,United States" ;
+        c:permid              "100202" ;
+        c:rcscode             "G:4B" ;
+        c:shortname           "Nebraska" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/5eaa3b19-5be9-350d-a971-02153fd99b47> .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Relevance/22>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/8a51d6de-6fda-36f4-adfb-a66fe0bf05fa> .
+
+<http://d.opencalais.com/pershash-1/8bc7ee4c-d76e-30ff-aa84-0785de20e764>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Golda Prewett" ;
+        c:confidencelevel    "0.985" ;
+        c:firstname          "Golda" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Prewett" ;
+        c:name               "Golda Prewett" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Relevance/6>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/cb55f7bd-94cd-3b17-ab67-36bb9552401b> .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Instance/56>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[a new friend a day at the local Starbucks.  ]She[ was a member of Desert Springs Church in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "1517" ;
+        c:prefix     "a new friend a day at the local Starbucks.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/883e0c17-b66b-3c5e-b641-abe00e432d80> ;
+        c:suffix     " was a member of Desert Springs Church in" .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Instance/35>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Kimberly, Nathan, and Janelle; her brothers ]Omer[ and wife Joanne, Roger and wife Judy, and her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:exact      "Omer" ;
+        c:length     "4" ;
+        c:offset     "1730" ;
+        c:prefix     "Kimberly, Nathan, and Janelle; her brothers " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6ad9b3ef-5f7b-3dbe-909f-2842b1bc4839> ;
+        c:suffix     " and wife Joanne, Roger and wife Judy, and her" .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Instance/14>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[therapist and teacher.   \nMargaret grew up in ]Omaha[, where she attended Benson High School.  During]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:exact      "Omaha" ;
+        c:length     "5" ;
+        c:offset     "679" ;
+        c:prefix     "therapist and teacher.   \nMargaret grew up in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/46d0b461-240a-3f2d-a061-49658675f64c> ;
+        c:suffix     ", where she attended Benson High School.  During" .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/lid/DefaultLangId>
+        a                    <http://s.opencalais.com/1/type/lid/DefaultLangId> ;
+        c:docId              <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:forenduserdisplay  "false" ;
+        c:lang               <http://d.opencalais.com/lid/DefaultLangId/English> ;
+        c:permid             "505062" .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Relevance/30>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/86e9036f-cceb-3e46-90cf-d064fb82e1d2> .
+
+<http://d.opencalais.com/pershash-1/f1b06f5f-0bc1-3e15-bf8e-d600113a9e19>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Wendell Alan Davis" ;
+        c:confidencelevel    "0.963" ;
+        c:firstname          "Wendell" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Davis" ;
+        c:middlename         "Alan" ;
+        c:name               "Wendell Alan Davis" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Instance/64>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[was born April 7th, 1941, in Omaha, Nebraska.  ]She[ passed away April 21, 2009 in Albuquerque, New]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "469" ;
+        c:prefix     "was born April 7th, 1941, in Omaha, Nebraska.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/8bc7ee4c-d76e-30ff-aa84-0785de20e764> ;
+        c:suffix     " passed away April 21, 2009 in Albuquerque, New" .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Instance/43>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[a spirited and varied life as a mother, friend, ]artist, speech therapist and teacher[.   \nMargaret grew up in Omaha, where she]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:exact      "artist, speech therapist and teacher" ;
+        c:length     "36" ;
+        c:offset     "618" ;
+        c:prefix     "a spirited and varied life as a mother, friend, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4b3fba16-e07f-3456-9059-81db70dedf44> ;
+        c:suffix     ".   \nMargaret grew up in Omaha, where she" .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Instance/22>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[was born April 7th, 1941, in Omaha, Nebraska.  ]She passed away April 21, 2009 in Albuquerque, New Mexico[, shortly after her 68th birthday.  She led a]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:exact      "She passed away April 21, 2009 in Albuquerque, New Mexico" ;
+        c:length     "57" ;
+        c:offset     "469" ;
+        c:prefix     "was born April 7th, 1941, in Omaha, Nebraska.  " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/5de02327-8001-3b6c-9ad9-ef3386d32406> ;
+        c:suffix     ", shortly after her 68th birthday.  She led a" .
+
+<http://d.opencalais.com/conf/pershash-1/bda98540-abe3-38d5-a2b0-36f4509225c9>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.973" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.873" ;
+        c:subject             <http://d.opencalais.com/pershash-1/bda98540-abe3-38d5-a2b0-36f4509225c9> .
+
+<http://d.opencalais.com/conf/comphash-1/6b2d9108-7924-3b86-bdba-7410d77d7a79>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.904" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:resolution          "0.98617685" ;
+        c:statisticalfeature  "0.876" ;
+        c:subject             <http://d.opencalais.com/comphash-1/6b2d9108-7924-3b86-bdba-7410d77d7a79> .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Instance/7>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Prewett, was born April 7th, 1941, in Omaha, ]Nebraska[.  She passed away April 21, 2009 in Albuquerque,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:exact      "Nebraska" ;
+        c:length     "8" ;
+        c:offset     "458" ;
+        c:prefix     "Prewett, was born April 7th, 1941, in Omaha, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/5eaa3b19-5be9-350d-a971-02153fd99b47> ;
+        c:suffix     ".  She passed away April 21, 2009 in Albuquerque," .
+
+<http://d.opencalais.com/pershash-1/8a51d6de-6fda-36f4-adfb-a66fe0bf05fa>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Joanne" ;
+        c:confidencelevel    "0.918" ;
+        c:firstname          "Joanne" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Joanne" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Relevance/17>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/257faf86-7647-35aa-8e3b-267ccc0e8857> .
+
+<http://d.opencalais.com/conf/pershash-1/883e0c17-b66b-3c5e-b641-abe00e432d80>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.999" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.999" ;
+        c:subject             <http://d.opencalais.com/pershash-1/883e0c17-b66b-3c5e-b641-abe00e432d80> .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Relevance/1>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/a7638709-4c0a-3508-9efd-aeb637669926> .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Instance/51>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in Albuquerque, where she was dearly loved.  \n]Margaret[ is survived by her husband, Alan; their three]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:exact      "Margaret" ;
+        c:length     "8" ;
+        c:offset     "1605" ;
+        c:prefix     "in Albuquerque, where she was dearly loved.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/ee2ae544-fe7d-37a8-8101-2c375ee4017a> ;
+        c:suffix     " is survived by her husband, Alan; their three" .
+
+<http://d.opencalais.com/pershash-1/9956d8d6-eebe-3653-a3c3-cbe4217117e3>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Judy" ;
+        c:confidencelevel    "0.982" ;
+        c:firstname          "Judy" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Judy" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Instance/30>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[]Funeral services[ for Margaret Davis will be 2:00 p.m. Saturday,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:exact      "Funeral services" ;
+        c:length     "16" ;
+        c:offset     "0" ;
+        c:prefix     "" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee> ;
+        c:suffix     " for Margaret Davis will be 2:00 p.m. Saturday," .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/SocialTag/3>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Christian missions" ;
+        c:originalValue      "Christian missions" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/14d9330d-d387-3eca-bade-bc843fb0c20f> .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Relevance/25>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4b3fba16-e07f-3456-9059-81db70dedf44> .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Relevance/9>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8eade039-a4ea-3277-86f0-dccd360f428f> .
+
+<http://d.opencalais.com/genericHasher-1/4218e568-87cc-3f12-8391-96856f17c836>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:date                "1973-00-00" ;
+        c:datestring          "in 1973" ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/f1b06f5f-0bc1-3e15-bf8e-d600113a9e19> , <http://d.opencalais.com/pershash-1/ee2ae544-fe7d-37a8-8101-2c375ee4017a> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Instance/59>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ and teacher.   \nMargaret grew up in Omaha, where ]she attended Benson High School[.  During the time the family lived in Omaha,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:exact      "she attended Benson High School" ;
+        c:length     "31" ;
+        c:offset     "692" ;
+        c:prefix     " and teacher.   \nMargaret grew up in Omaha, where " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/f0aa37ca-6a24-391c-8a35-e47517a63978> ;
+        c:suffix     ".  During the time the family lived in Omaha," .
+
+<http://d.opencalais.com/genericHasher-1/5de02327-8001-3b6c-9ad9-ef3386d32406>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Albuquerque, New Mexico" ;
+        c:person             <http://d.opencalais.com/pershash-1/8bc7ee4c-d76e-30ff-aa84-0785de20e764> .
+
+<http://d.opencalais.com/pershash-1/86e9036f-cceb-3e46-90cf-d064fb82e1d2>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Linda" ;
+        c:confidencelevel    "0.958" ;
+        c:firstname          "Linda" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Linda" ;
+        c:nationality        "N/A" ;
+        c:persontype         "entertainment" .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Instance/38>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Nathan, and Janelle; her brothers Omer and wife ]Joanne[, Roger and wife Judy, and her sister, Linda. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:exact      "Joanne" ;
+        c:length     "6" ;
+        c:offset     "1744" ;
+        c:prefix     "Nathan, and Janelle; her brothers Omer and wife " ;
+        c:subject    <http://d.opencalais.com/pershash-1/8a51d6de-6fda-36f4-adfb-a66fe0bf05fa> ;
+        c:suffix     ", Roger and wife Judy, and her sister, Linda. " .
+
+<http://d.opencalais.com/conf/pershash-1/951d5ea8-6fae-36a9-b2ed-09ac01310b6b>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.994" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/951d5ea8-6fae-36a9-b2ed-09ac01310b6b> .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Instance/17>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ She passed away April 21, 2009 in Albuquerque, ]New Mexico[, shortly after her 68th birthday.  She led a]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:exact      "New Mexico" ;
+        c:length     "10" ;
+        c:offset     "516" ;
+        c:prefix     " She passed away April 21, 2009 in Albuquerque, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3d0928fd-64b3-3d17-9c4c-92638701503a> ;
+        c:suffix     ", shortly after her 68th birthday.  She led a" .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Instance/2>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[may be made through the funeral home to ]Wycliffe Bible Translators[ or Gospel for Asia. \n\t\t\t]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:exact      "Wycliffe Bible Translators" ;
+        c:length     "26" ;
+        c:offset     "1861" ;
+        c:prefix     "may be made through the funeral home to " ;
+        c:subject    <http://d.opencalais.com/pershash-1/a7638709-4c0a-3508-9efd-aeb637669926> ;
+        c:suffix     " or Gospel for Asia. \n\t\t\t" .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Relevance/33>
+        a                <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId          <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:relevance      "0.2" ;
+        c:relevancecont  "0.03" ;
+        c:subject        <http://d.opencalais.com/comphash-1/6b2d9108-7924-3b86-bdba-7410d77d7a79> .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Relevance/12>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/338d9416-9471-334e-83a7-cab80b69962c> .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Instance/67>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[brothers Omer and wife Joanne, Roger and wife ]Judy[, and her sister, Linda.  \nMemorial contributions]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:exact      "Judy" ;
+        c:length     "4" ;
+        c:offset     "1767" ;
+        c:prefix     "brothers Omer and wife Joanne, Roger and wife " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9956d8d6-eebe-3653-a3c3-cbe4217117e3> ;
+        c:suffix     ", and her sister, Linda.  \nMemorial contributions" .
+
+<http://d.opencalais.com/genericHasher-1/8aa2fde8-598e-30c5-b82b-943874f70b3f>
+        a                    <http://s.opencalais.com/1/type/em/e/Country> ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Bolivia" .
+
+<http://d.opencalais.com/genericHasher-1/cb55f7bd-94cd-3b17-ab67-36bb9552401b>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Albuquerque" .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Instance/46>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ and teacher.   \nMargaret grew up in Omaha, where ]she[ attended Benson High School.  During the time]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "692" ;
+        c:prefix     " and teacher.   \nMargaret grew up in Omaha, where " ;
+        c:subject    <http://d.opencalais.com/pershash-1/ee2ae544-fe7d-37a8-8101-2c375ee4017a> ;
+        c:suffix     " attended Benson High School.  During the time" .
+
+<http://d.opencalais.com/genericHasher-1/c0f57d6a-059c-3ba5-99f4-557732c87bf0>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Burlington" .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Instance/25>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Omer and wife Joanne, Roger and wife Judy, and ]her sister, Linda[.  \nMemorial contributions may be made through]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:exact      "her sister, Linda" ;
+        c:length     "17" ;
+        c:offset     "1777" ;
+        c:prefix     "Omer and wife Joanne, Roger and wife Judy, and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/d54b4f35-2342-39e5-b62e-8ac027a9b892> ;
+        c:suffix     ".  \nMemorial contributions may be made through" .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Relevance/20>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/6ad9b3ef-5f7b-3dbe-909f-2842b1bc4839> .
+
+<http://d.opencalais.com/conf/pershash-1/8bc7ee4c-d76e-30ff-aa84-0785de20e764>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.985" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.989" ;
+        c:subject             <http://d.opencalais.com/pershash-1/8bc7ee4c-d76e-30ff-aa84-0785de20e764> .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Relevance/4>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/cc8b0672-eb16-3f69-83c7-9cdbbf7e1da8> .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Instance/54>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and had three children, Brent, Nathan, and ]Janelle[.  She spent the last three years in Albuquerque,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:exact      "Janelle" ;
+        c:length     "7" ;
+        c:offset     "1369" ;
+        c:prefix     "and had three children, Brent, Nathan, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/883e0c17-b66b-3c5e-b641-abe00e432d80> ;
+        c:suffix     ".  She spent the last three years in Albuquerque," .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Instance/33>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[by her husband, Alan; their three children, ]Brent[ and wife, Kimberly, Nathan, and Janelle; her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:exact      "Brent" ;
+        c:length     "5" ;
+        c:offset     "1670" ;
+        c:prefix     "by her husband, Alan; their three children, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/a10c8eaa-b028-31da-925b-f9b376b8bc6e> ;
+        c:suffix     " and wife, Kimberly, Nathan, and Janelle; her" .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Instance/12>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ She was a member of Desert Springs Church in ]Albuquerque[, where she was dearly loved.  \nMargaret is]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:exact      "Albuquerque" ;
+        c:length     "11" ;
+        c:offset     "1562" ;
+        c:prefix     " She was a member of Desert Springs Church in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/cb55f7bd-94cd-3b17-ab67-36bb9552401b> ;
+        c:suffix     ", where she was dearly loved.  \nMargaret is" .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/SocialTag/6>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "2" ;
+        c:name               "Omaha, Nebraska" ;
+        c:originalValue      "Omaha, Nebraska" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/1e4d985a-4774-39d1-abad-1deb8b30b4e7> .
+
+<https://permid.org/1-4295908005>
+        a             <http://s.opencalais.com/1/type/er/Company> ;
+        c:commonname  "Starbucks" ;
+        c:docId       <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:legacyid    <http://d.opencalais.com/er/company/ralg-tr1r/f8512d2d-f016-3ad0-8084-a405e59139b3> ;
+        c:name        "Starbucks Corp" ;
+        c:permid      "4295908005" ;
+        c:primaryric  "SBUX.OQ" ;
+        c:score       "0.98617685" ;
+        c:subject     <http://d.opencalais.com/comphash-1/6b2d9108-7924-3b86-bdba-7410d77d7a79> ;
+        c:ticker      "SBUX" .
+
+<http://d.opencalais.com/genericHasher-1/3d0928fd-64b3-3d17-9c4c-92638701503a>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "New Mexico" .
+
+<http://d.opencalais.com/conf/pershash-1/f1b06f5f-0bc1-3e15-bf8e-d600113a9e19>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.963" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.978" ;
+        c:subject             <http://d.opencalais.com/pershash-1/f1b06f5f-0bc1-3e15-bf8e-d600113a9e19> .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Relevance/28>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/883e0c17-b66b-3c5e-b641-abe00e432d80> .
+
+<http://d.opencalais.com/genericHasher-1/d54b4f35-2342-39e5-b62e-8ac027a9b892>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "sister" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/9956d8d6-eebe-3653-a3c3-cbe4217117e3> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/86e9036f-cceb-3e46-90cf-d064fb82e1d2> .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Instance/62>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Joanne, Roger and wife Judy, and her sister, ]Linda[.  \nMemorial contributions may be made through]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:exact      "Linda" ;
+        c:length     "5" ;
+        c:offset     "1789" ;
+        c:prefix     "Joanne, Roger and wife Judy, and her sister, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/86e9036f-cceb-3e46-90cf-d064fb82e1d2> ;
+        c:suffix     ".  \nMemorial contributions may be made through" .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Instance/41>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ the public schools.  \nShe was married in 1973 to ]Wendell Alan Davis[, and had three children, Brent, Nathan, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:exact      "Wendell Alan Davis" ;
+        c:length     "18" ;
+        c:offset     "1306" ;
+        c:prefix     " the public schools.  \nShe was married in 1973 to " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f1b06f5f-0bc1-3e15-bf8e-d600113a9e19> ;
+        c:suffix     ", and had three children, Brent, Nathan, and" .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Instance/20>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Kimberly, Nathan, and Janelle; her brothers ]Omer[ and wife Joanne, Roger and wife Judy, and her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:exact      "Omer" ;
+        c:length     "4" ;
+        c:offset     "1730" ;
+        c:prefix     "Kimberly, Nathan, and Janelle; her brothers " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/78a60191-5927-3efc-9172-822bfbf1dc64> ;
+        c:suffix     " and wife Joanne, Roger and wife Judy, and her" .
+
+<http://d.opencalais.com/genericHasher-1/46d0b461-240a-3f2d-a061-49658675f64c>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Omaha" .
+
+<http://d.opencalais.com/conf/pershash-1/8a51d6de-6fda-36f4-adfb-a66fe0bf05fa>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.918" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.857" ;
+        c:subject             <http://d.opencalais.com/pershash-1/8a51d6de-6fda-36f4-adfb-a66fe0bf05fa> .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Instance/5>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[with court-referred adolescents in Detroit,  ]traveling to Bolivia[ visiting with Wycliffe Bible Translators,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:exact      "traveling to Bolivia" ;
+        c:length     "20" ;
+        c:offset     "1062" ;
+        c:prefix     "with court-referred adolescents in Detroit,  " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/657ee2eb-7afa-3fa6-9a31-b08d3b6b7e74> ;
+        c:suffix     " visiting with Wycliffe Bible Translators," .
+
+<http://d.opencalais.com/genericHasher-1/78a60191-5927-3efc-9172-822bfbf1dc64>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "brethren" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/01d17573-5cce-3be3-83fc-d0faf27800e3> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/6ad9b3ef-5f7b-3dbe-909f-2842b1bc4839> .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Relevance/15>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce> .
+
+<http://d.opencalais.com/genericHasher-1/5eaa3b19-5be9-350d-a971-02153fd99b47>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Nebraska" .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Instance/70>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ p.m. Saturday, April 25, 2009, at the Alva First ]Baptist Church[ with Dr. Greg Hook officiating.  Interment will]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:exact      "Baptist Church" ;
+        c:length     "14" ;
+        c:offset     "98" ;
+        c:prefix     " p.m. Saturday, April 25, 2009, at the Alva First " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a21a69b3-e9dd-341e-9fee-da93c550c744> ;
+        c:suffix     " with Dr. Greg Hook officiating.  Interment will" .
+
+<http://d.opencalais.com/conf/pershash-1/9956d8d6-eebe-3653-a3c3-cbe4217117e3>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.982" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.969" ;
+        c:subject             <http://d.opencalais.com/pershash-1/9956d8d6-eebe-3653-a3c3-cbe4217117e3> .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Instance/49>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Early Childhood Education.  Her interests took ]her[ in many directions, working with court-referred]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "985" ;
+        c:prefix     "Early Childhood Education.  Her interests took " ;
+        c:subject    <http://d.opencalais.com/pershash-1/ee2ae544-fe7d-37a8-8101-2c375ee4017a> ;
+        c:suffix     " in many directions, working with court-referred" .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Instance/28>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[creating etchings, sculpture, and prints as ]a professional artist[, and teaching language and reading both as a]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:exact      "a professional artist" ;
+        c:length     "21" ;
+        c:offset     "1169" ;
+        c:prefix     "creating etchings, sculpture, and prints as " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/95c67e16-3230-3fb0-a367-7dc66e108748> ;
+        c:suffix     ", and teaching language and reading both as a" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/f1841004-663e-a1ce-0a8c-91170c2f9175>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Nebraska" ;
+        c:docId               <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:latitude            "41.2586" ;
+        c:longitude           "-95.9375" ;
+        c:name                "Omaha,Nebraska,United States" ;
+        c:rcscode             "G:2DU" ;
+        c:shortname           "Omaha" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/46d0b461-240a-3f2d-a061-49658675f64c> .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/SocialTag/1>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Bible societies" ;
+        c:originalValue      "Bible societies" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/3936e2cb-1e54-3277-8213-512a11f84e2a> .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Relevance/23>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/f1b06f5f-0bc1-3e15-bf8e-d600113a9e19> .
+
+<http://d.opencalais.com/pershash-1/b15bbdd8-ce8a-3cd5-b7bb-fc005f1000c8>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Greg Hook" ;
+        c:confidencelevel    "0.94" ;
+        c:firstname          "Greg" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Hook" ;
+        c:name               "Greg Hook" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Relevance/7>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/46d0b461-240a-3f2d-a061-49658675f64c> .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Instance/57>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Desert Springs Church in Albuquerque, where ]she[ was dearly loved.  \nMargaret is survived by her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "1581" ;
+        c:prefix     "of Desert Springs Church in Albuquerque, where " ;
+        c:subject    <http://d.opencalais.com/pershash-1/883e0c17-b66b-3c5e-b641-abe00e432d80> ;
+        c:suffix     " was dearly loved.  \nMargaret is survived by her" .
+
+<http://d.opencalais.com/conf/pershash-1/86e9036f-cceb-3e46-90cf-d064fb82e1d2>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.958" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/86e9036f-cceb-3e46-90cf-d064fb82e1d2> .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Instance/36>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Prewett Davis, daughter of the late C.H. and ]Golda Prewett, was born April 7th, 1941, in Omaha, Nebraska[.  She passed away April 21, 2009 in Albuquerque,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:exact      "Golda Prewett, was born April 7th, 1941, in Omaha, Nebraska" ;
+        c:length     "59" ;
+        c:offset     "407" ;
+        c:prefix     "Prewett Davis, daughter of the late C.H. and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b8998ba9-2475-3924-b134-a28ee1b93cb9> ;
+        c:suffix     ".  She passed away April 21, 2009 in Albuquerque," .
+
+<http://d.opencalais.com/genericHasher-1/a21a69b3-e9dd-341e-9fee-da93c550c744>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Baptist Church" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Instance/15>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[School.  During the time the family lived in ]Omaha[, they spent their summers farming and ranching]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:exact      "Omaha" ;
+        c:length     "5" ;
+        c:offset     "762" ;
+        c:prefix     "School.  During the time the family lived in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/46d0b461-240a-3f2d-a061-49658675f64c> ;
+        c:suffix     ", they spent their summers farming and ranching" .
+
+<http://d.opencalais.com/pershash-1/a7638709-4c0a-3508-9efd-aeb637669926>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Wycliffe Bible Translators" ;
+        c:confidencelevel    "0.961" ;
+        c:firstname          "Wycliffe" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Bible Translators" ;
+        c:name               "Wycliffe Bible Translators" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Relevance/31>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/8bc7ee4c-d76e-30ff-aa84-0785de20e764> .
+
+<http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee>
+        a                    <http://s.opencalais.com/1/type/em/e/IndustryTerm> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Funeral services" .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Relevance/10>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/badc7cee-6213-39d3-8d4b-099b7d794152> .
+
+<http://d.opencalais.com/pershash-1/a10c8eaa-b028-31da-925b-f9b376b8bc6e>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Brent" ;
+        c:confidencelevel    "0.999" ;
+        c:firstname          "Brent" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Brent" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oklahoma" .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Instance/65>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[2009 in Albuquerque, New Mexico, shortly after ]her[ 68th birthday.  She led a spirited and varied]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "542" ;
+        c:prefix     "2009 in Albuquerque, New Mexico, shortly after " ;
+        c:subject    <http://d.opencalais.com/pershash-1/8bc7ee4c-d76e-30ff-aa84-0785de20e764> ;
+        c:suffix     " 68th birthday.  She led a spirited and varied" .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Instance/44>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[6:30 p.m. to 8:30 p.m. at the funeral home.  \n]Margaret Lenora Prewett Davis[, daughter of the late C.H. and Golda Prewett,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:exact      "Margaret Lenora Prewett Davis" ;
+        c:length     "29" ;
+        c:offset     "346" ;
+        c:prefix     "6:30 p.m. to 8:30 p.m. at the funeral home.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/ee2ae544-fe7d-37a8-8101-2c375ee4017a> ;
+        c:suffix     ", daughter of the late C.H. and Golda Prewett," .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Instance/23>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Alan; their three children, Brent and wife, ]Kimberly[, Nathan, and Janelle; her brothers Omer and wife]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:exact      "Kimberly" ;
+        c:length     "8" ;
+        c:offset     "1686" ;
+        c:prefix     "Alan; their three children, Brent and wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/01d17573-5cce-3be3-83fc-d0faf27800e3> ;
+        c:suffix     ", Nathan, and Janelle; her brothers Omer and wife" .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Instance/8>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and teaching language and reading both as ]a private tutor[ and in the public schools.  \nShe was married in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:exact      "a private tutor" ;
+        c:length     "15" ;
+        c:offset     "1234" ;
+        c:prefix     "and teaching language and reading both as " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/cc8b0672-eb16-3f69-83c7-9cdbbf7e1da8> ;
+        c:suffix     " and in the public schools.  \nShe was married in" .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Relevance/18>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/a10c8eaa-b028-31da-925b-f9b376b8bc6e> .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Relevance/2>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/951d5ea8-6fae-36a9-b2ed-09ac01310b6b> .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Instance/52>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[she was dearly loved.  \nMargaret is survived by ]her[ husband, Alan; their three children, Brent and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1629" ;
+        c:prefix     "she was dearly loved.  \nMargaret is survived by " ;
+        c:subject    <http://d.opencalais.com/pershash-1/ee2ae544-fe7d-37a8-8101-2c375ee4017a> ;
+        c:suffix     " husband, Alan; their three children, Brent and" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/419e9a6d-ff8d-9826-c1fe-63f0f8a9da23>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Michigan" ;
+        c:docId               <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:latitude            "42.3314" ;
+        c:longitude           "-83.0458" ;
+        c:name                "Detroit,Michigan,United States" ;
+        c:rcscode             "G:254" ;
+        c:shortname           "Detroit" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/257faf86-7647-35aa-8e3b-267ccc0e8857> .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Instance/31>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[working with court-referred adolescents in ]Detroit[,  traveling to Bolivia visiting with Wycliffe]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:exact      "Detroit" ;
+        c:length     "7" ;
+        c:offset     "1052" ;
+        c:prefix     "working with court-referred adolescents in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/257faf86-7647-35aa-8e3b-267ccc0e8857> ;
+        c:suffix     ",  traveling to Bolivia visiting with Wycliffe" .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Instance/10>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Nebraska.  She passed away April 21, 2009 in ]Albuquerque[, New Mexico, shortly after her 68th birthday. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:exact      "Albuquerque" ;
+        c:length     "11" ;
+        c:offset     "503" ;
+        c:prefix     "Nebraska.  She passed away April 21, 2009 in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/cb55f7bd-94cd-3b17-ab67-36bb9552401b> ;
+        c:suffix     ", New Mexico, shortly after her 68th birthday. " .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/SocialTag/4>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "2" ;
+        c:name               "Alva" ;
+        c:originalValue      "Alva (surname)" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/17f61973-ed95-369b-b381-dec22ce26b2a> .
+
+<http://d.opencalais.com/genericHasher-1/6d274ed5-4f08-3b10-8fe9-4a45bca079da>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:forenduserdisplay  "true" ;
+        c:organization       <http://d.opencalais.com/genericHasher-1/4566fcda-40bf-37d6-b27d-9cc9786ade23> ;
+        c:person             <http://d.opencalais.com/pershash-1/883e0c17-b66b-3c5e-b641-abe00e432d80> ;
+        c:position           "member" ;
+        c:status             "past" .
+
+<http://d.opencalais.com/pershash-1/338d9416-9471-334e-83a7-cab80b69962c>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Nathan" ;
+        c:confidencelevel    "0.999" ;
+        c:firstname          "Nathan" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Nathan" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Relevance/26>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/ee2ae544-fe7d-37a8-8101-2c375ee4017a> .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/e9e27c26-4013-8712-a5f0-97dcdc412c26>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:latitude            "35.5607802899" ;
+        c:longitude           "-96.8460570462" ;
+        c:name                "Oklahoma,United States" ;
+        c:permid              "100229" ;
+        c:rcscode             "G:9H" ;
+        c:shortname           "Oklahoma" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/genericHasher-1/28b742f1-8b75-3bd0-99b5-dd3fa3691a2f>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "brethren" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/01d17573-5cce-3be3-83fc-d0faf27800e3> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/8a51d6de-6fda-36f4-adfb-a66fe0bf05fa> .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Instance/60>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Nathan, and Janelle; her brothers Omer and ]wife Joanne[, Roger and wife Judy, and her sister, Linda. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:exact      "wife Joanne" ;
+        c:length     "11" ;
+        c:offset     "1739" ;
+        c:prefix     "Nathan, and Janelle; her brothers Omer and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/28b742f1-8b75-3bd0-99b5-dd3fa3691a2f> ;
+        c:suffix     ", Roger and wife Judy, and her sister, Linda. " .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Instance/39>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[as a private tutor and in the public schools.  \n]She was married in 1973 to Wendell Alan Davis[, and had three children, Brent, Nathan, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:exact      "She was married in 1973 to Wendell Alan Davis" ;
+        c:length     "45" ;
+        c:offset     "1279" ;
+        c:prefix     "as a private tutor and in the public schools.  \n" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4218e568-87cc-3f12-8391-96856f17c836> ;
+        c:suffix     ", and had three children, Brent, Nathan, and" .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Instance/18>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Greg Hook officiating.  Interment will be in the ]Alva Municipal Cemetery[ under the direction of Marshall Funeral Home of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:exact      "Alva Municipal Cemetery" ;
+        c:length     "23" ;
+        c:offset     "171" ;
+        c:prefix     " Greg Hook officiating.  Interment will be in the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8eade039-a4ea-3277-86f0-dccd360f428f> ;
+        c:suffix     " under the direction of Marshall Funeral Home of" .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Instance/3>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Prewett Davis, daughter of the late C.H. and ]Golda Prewett, was born April 7th, 1941, in Omaha, Nebraska[.  She passed away April 21, 2009 in Albuquerque,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:exact      "Golda Prewett, was born April 7th, 1941, in Omaha, Nebraska" ;
+        c:length     "59" ;
+        c:offset     "407" ;
+        c:prefix     "Prewett Davis, daughter of the late C.H. and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9ba92363-28b4-3252-a0e3-0df9991e22e6> ;
+        c:suffix     ".  She passed away April 21, 2009 in Albuquerque," .
+
+<http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7/Relevance/34>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/aa8bff7f-09ac-359e-b807-3fdbe12f47a7> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a21a69b3-e9dd-341e-9fee-da93c550c744> .

@@ -1,0 +1,1504 @@
+#Relations: FamilyRelation, PersonAttributes, PersonCareer, PersonLocation, PersonRelation
+#City: Alva, Jacksonville, Manteca, Milbrae, Salmon, San Francisco, St. Augustine, Suttercreek
+#Company: Waynoka LLC
+#Facility: Kingdom Hall, Marshall Funeral Home of Waynoka
+#IndustryTerm: Memorial services, care for her mother who had cancer
+#NaturalFeature: Clayton Forest
+#Organization: Jehovah
+#Person: Gilbert Thorneberry, Gladys Genevieve (Fogleman) Plaskett, Laurie Ruggiero, Linda Dorothy Solomon, Lloyd Edward, Marty Solomon, Matt Solomon, Michael Solomon, Terry Richard Solomon
+#ProvinceOrState: California, Florida, Idaho, Oklahoma
+@prefix c:     <http://s.opencalais.com/1/pred/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://d.opencalais.com/genericHasher-1/662d6446-7e42-34ca-b799-ae6420f80f21>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "husband" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/6cc04a16-98db-32ff-a843-02bf0add0fa4> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/92821a99-d5b6-3eb9-bdb9-dfe53bc52aec> .
+
+<http://d.opencalais.com/genericHasher-1/bcfc98cc-0238-385e-a066-491f391b421b>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:company            <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:forenduserdisplay  "true" ;
+        c:person             <http://d.opencalais.com/pershash-1/92821a99-d5b6-3eb9-bdb9-dfe53bc52aec> ;
+        c:status             "current" .
+
+<http://d.opencalais.com/genericHasher-1/2c2202b6-8cad-3c99-95ec-8bff0e37834c>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/92821a99-d5b6-3eb9-bdb9-dfe53bc52aec> , <http://d.opencalais.com/pershash-1/6cc04a16-98db-32ff-a843-02bf0add0fa4> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Relevance/2>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/fbb28b97-0445-382c-b7a1-d9031958f307> .
+
+<http://d.opencalais.com/genericHasher-1/dff8f9bc-a80d-3f61-8182-0a83dca67cfe>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Jehovah" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Instance/52>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in Alva with Clayton Forest officiating.  At ]her[ request, she was cremated under the direction of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "155" ;
+        c:prefix     "in Alva with Clayton Forest officiating.  At " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6cc04a16-98db-32ff-a843-02bf0add0fa4> ;
+        c:suffix     " request, she was cremated under the direction of" .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Relevance/22>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/5abfadce-3ab6-34ff-8447-587408019afb> .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Instance/31>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[sons, Marty Solomon of Manteca, California, and ]Michael Solomon[ of St. Augustine, Florida; one daughter, Laurie]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:exact      "Michael Solomon" ;
+        c:length     "15" ;
+        c:offset     "1286" ;
+        c:prefix     "sons, Marty Solomon of Manteca, California, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/697bee69-23a3-33c0-99c7-ab386d114ae0> ;
+        c:suffix     " of St. Augustine, Florida; one daughter, Laurie" .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Instance/10>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[age of two. \t Linda is survived by her husband, ]Terry, of Waynoka[; two sons, Marty Solomon of Manteca, California,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:exact      "Terry, of Waynoka" ;
+        c:length     "17" ;
+        c:offset     "1215" ;
+        c:prefix     "age of two. \t Linda is survived by her husband, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/bcfc98cc-0238-385e-a066-491f391b421b> ;
+        c:suffix     "; two sons, Marty Solomon of Manteca, California," .
+
+<https://permid.org/1-5035751620>
+        a             <http://s.opencalais.com/1/type/er/Company> ;
+        c:commonname  "Waynoka" ;
+        c:docId       <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:legacyid    <http://d.opencalais.com/er/company/ralg-tr1r/da554c4e-4d2b-3037-98bc-d26b5df2c525> ;
+        c:name        "Waynoka Utilities Authority" ;
+        c:permid      "5035751620" ;
+        c:score       "0.05522651" ;
+        c:subject     <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> .
+
+<http://d.opencalais.com/pershash-1/64d21f5a-9cfb-3e69-a2d5-e0b908fa4f53>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Gladys Genevieve Plaskett" ;
+        c:confidencelevel    "0.984" ;
+        c:firstname          "Gladys" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Plaskett" ;
+        c:middlename         "Genevieve" ;
+        c:name               "Gladys Genevieve (Fogleman) Plaskett" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Instance/5>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ request, she was cremated under the direction of ]Marshall Funeral Home of Waynoka[, LLC. \t Linda Dorothy Solomon, daughter of the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:exact      "Marshall Funeral Home of Waynoka" ;
+        c:length     "32" ;
+        c:offset     "208" ;
+        c:prefix     " request, she was cremated under the direction of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/84bb0714-85ab-39de-a7e7-f1ad2e79292b> ;
+        c:suffix     ", LLC. \t Linda Dorothy Solomon, daughter of the" .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Instance/60>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[20 years.  They moved to Waynoka 3 years ago. \t ]She[ was a member of Jehovah?s Witness.  She enjoyed]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "898" ;
+        c:prefix     "20 years.  They moved to Waynoka 3 years ago. \t " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6cc04a16-98db-32ff-a843-02bf0add0fa4> ;
+        c:suffix     " was a member of Jehovah?s Witness.  She enjoyed" .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Instance/39>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[was born November 26, 1941, at San Francisco, ]California[, and passed away November 1, 2009, at Alva,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:exact      "California" ;
+        c:length     "10" ;
+        c:offset     "394" ;
+        c:prefix     "was born November 26, 1941, at San Francisco, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9679b237-33e8-3478-ba13-d9af3c4b943e> ;
+        c:suffix     ", and passed away November 1, 2009, at Alva," .
+
+<http://d.opencalais.com/genericHasher-1/c25f2cb1-9705-3de1-8c42-2996a8ef39c7>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Idaho" .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Instance/18>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[under the direction of Marshall Funeral Home of ]Waynoka, LLC[. \t Linda Dorothy Solomon, daughter of the late]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:exact      "Waynoka, LLC" ;
+        c:length     "12" ;
+        c:offset     "233" ;
+        c:prefix     "under the direction of Marshall Funeral Home of " ;
+        c:subject    <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:suffix     ". \t Linda Dorothy Solomon, daughter of the late" .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/SocialTag/3>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Manteca" ;
+        c:originalValue      "Manteca" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/9d224a27-ef0f-3ae7-8a1f-eaa8e534c65b> .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Instance/68>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[her from the age of two. \t Linda is survived by ]her[ husband, Terry, of Waynoka; two sons, Marty]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1202" ;
+        c:prefix     "her from the age of two. \t Linda is survived by " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6cc04a16-98db-32ff-a843-02bf0add0fa4> ;
+        c:suffix     " husband, Terry, of Waynoka; two sons, Marty" .
+
+<http://d.opencalais.com/genericHasher-1/a1c1ac3d-0c25-3fb1-ac74-cac9c8510afa>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "San Francisco" .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Instance/47>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in Suttercreek, California, before moving to ]Jacksonville[, Florida, where they lived for 20 years.  They]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:exact      "Jacksonville" ;
+        c:length     "12" ;
+        c:offset     "806" ;
+        c:prefix     "in Suttercreek, California, before moving to " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/58e96598-3df6-321d-931e-f30a2f3290b5> ;
+        c:suffix     ", Florida, where they lived for 20 years.  They" .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Relevance/17>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Instance/26>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[January 16, 1975, she was united in marriage to ]Terry Richard Solomon[ at Milbrae, California.  They lived in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:exact      "Terry Richard Solomon" ;
+        c:length     "21" ;
+        c:offset     "703" ;
+        c:prefix     "January 16, 1975, she was united in marriage to " ;
+        c:subject    <http://d.opencalais.com/pershash-1/92821a99-d5b6-3eb9-bdb9-dfe53bc52aec> ;
+        c:suffix     " at Milbrae, California.  They lived in" .
+
+<http://d.opencalais.com/pershash-1/92821a99-d5b6-3eb9-bdb9-dfe53bc52aec>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Terry Richard Solomon" ;
+        c:confidencelevel    "0.994" ;
+        c:firstname          "Terry" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Solomon" ;
+        c:middlename         "Richard" ;
+        c:name               "Terry Richard Solomon" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/842c08d9-1d4c-4e01-5f3e-536ef7af4bb2>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:latitude            "44.5402146825" ;
+        c:longitude           "-114.690403175" ;
+        c:name                "Idaho,United States" ;
+        c:permid              "100134" ;
+        c:rcscode             "G:8E" ;
+        c:shortname           "Idaho" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/c25f2cb1-9705-3de1-8c42-2996a8ef39c7> .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Relevance/5>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/84bb0714-85ab-39de-a7e7-f1ad2e79292b> .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Relevance/25>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/58e96598-3df6-321d-931e-f30a2f3290b5> .
+
+<http://d.opencalais.com/genericHasher-1/b5bf3113-97ac-319c-a20d-308c716c8d7b>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Florida" .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Instance/55>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ at the age of 67 years, 11 months, and 5 days. \t ]Linda[ attended school in San Francisco, California. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:exact      "Linda" ;
+        c:length     "5" ;
+        c:offset     "508" ;
+        c:prefix     " at the age of 67 years, 11 months, and 5 days. \t " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6cc04a16-98db-32ff-a843-02bf0add0fa4> ;
+        c:suffix     " attended school in San Francisco, California. " .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Instance/34>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Florida; one daughter, Laurie Ruggiero of ]Salmon[, Idaho; seven grandchildren; two great]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:exact      "Salmon" ;
+        c:length     "6" ;
+        c:offset     "1362" ;
+        c:prefix     "Florida; one daughter, Laurie Ruggiero of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0359d3e9-9a1a-3681-a660-e654b7293c6a> ;
+        c:suffix     ", Idaho; seven grandchildren; two great" .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Instance/13>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[son, Matt Solomon.  She was, also, preceded by ]her stepfather, Gilbert Thorneberry[, who raised her from the age of two. \t Linda is]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:exact      "her stepfather, Gilbert Thorneberry" ;
+        c:length     "35" ;
+        c:offset     "1106" ;
+        c:prefix     "son, Matt Solomon.  She was, also, preceded by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3854c33b-9e3a-3825-8949-c91ad3efe218> ;
+        c:suffix     ", who raised her from the age of two. \t Linda is" .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Instance/8>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Manteca, California, and Michael Solomon of ]St. Augustine[, Florida; one daughter, Laurie Ruggiero of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:exact      "St. Augustine" ;
+        c:length     "13" ;
+        c:offset     "1305" ;
+        c:prefix     "of Manteca, California, and Michael Solomon of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/93c28626-ced4-3345-829b-a72bc3103e49> ;
+        c:suffix     ", Florida; one daughter, Laurie Ruggiero of" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/22fa9c45-ae10-8952-6753-73ebc531df26>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Florida" ;
+        c:docId               <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:latitude            "29.8944" ;
+        c:longitude           "-81.3147" ;
+        c:name                "St. Augustine,Florida,United States" ;
+        c:shortname           "St. Augustine" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/93c28626-ced4-3345-829b-a72bc3103e49> .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Instance/63>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[pictures of wildlife. \t Besides her parents, ]she[ was preceded in death by one son, Matt Solomon. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "1026" ;
+        c:prefix     "pictures of wildlife. \t Besides her parents, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6cc04a16-98db-32ff-a843-02bf0add0fa4> ;
+        c:suffix     " was preceded in death by one son, Matt Solomon. " .
+
+<http://d.opencalais.com/conf/pershash-1/697bee69-23a3-33c0-99c7-ab386d114ae0>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.999" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.998" ;
+        c:subject             <http://d.opencalais.com/pershash-1/697bee69-23a3-33c0-99c7-ab386d114ae0> .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Relevance/12>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/dff8f9bc-a80d-3f61-8182-0a83dca67cfe> .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Instance/42>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Milbrae, California.  They lived in Suttercreek, ]California[, before moving to Jacksonville, Florida, where]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:exact      "California" ;
+        c:length     "10" ;
+        c:offset     "777" ;
+        c:prefix     " Milbrae, California.  They lived in Suttercreek, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9679b237-33e8-3478-ba13-d9af3c4b943e> ;
+        c:suffix     ", before moving to Jacksonville, Florida, where" .
+
+<http://d.opencalais.com/conf/pershash-1/4594e616-4bd0-3128-847e-56c37fb7e9f3>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.999" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.999" ;
+        c:subject             <http://d.opencalais.com/pershash-1/4594e616-4bd0-3128-847e-56c37fb7e9f3> .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Instance/21>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[her from the age of two. \t Linda is survived by ]her husband, Terry, of Waynoka[; two sons, Marty Solomon of Manteca, California,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:exact      "her husband, Terry, of Waynoka" ;
+        c:length     "30" ;
+        c:offset     "1202" ;
+        c:prefix     "her from the age of two. \t Linda is survived by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/662d6446-7e42-34ca-b799-ae6420f80f21> ;
+        c:suffix     "; two sons, Marty Solomon of Manteca, California," .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/f56118da-0256-d097-ff73-1f5d0938031b>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "California" ;
+        c:docId               <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:latitude            "37.775" ;
+        c:longitude           "-122.4183" ;
+        c:name                "San Francisco,California,United States" ;
+        c:rcscode             "G:27F" ;
+        c:shortname           "San Francisco" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/a1c1ac3d-0c25-3fb1-ac74-cac9c8510afa> .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/SocialTag/6>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "2" ;
+        c:name               "Plaskett" ;
+        c:originalValue      "Plaskett" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/e48e9b54-5566-309f-8c9a-3809243b5b03> .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Instance/50>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[]Memorial services[ for Linda Dorothy Solomon will be 3:00 p.m.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:exact      "Memorial services" ;
+        c:length     "17" ;
+        c:offset     "0" ;
+        c:prefix     "" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3fc76fa0-2822-3a05-bc9a-d75c68ee10e1> ;
+        c:suffix     " for Linda Dorothy Solomon will be 3:00 p.m." .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Relevance/20>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b5bf3113-97ac-319c-a20d-308c716c8d7b> .
+
+<http://d.opencalais.com/genericHasher-1/3f3e86d0-992f-3c56-b9cb-7232799a6dcb>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:forenduserdisplay  "true" ;
+        c:organization       <http://d.opencalais.com/genericHasher-1/dff8f9bc-a80d-3f61-8182-0a83dca67cfe> ;
+        c:person             <http://d.opencalais.com/pershash-1/6cc04a16-98db-32ff-a843-02bf0add0fa4> ;
+        c:position           "member" ;
+        c:status             "past" .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Instance/29>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[sons, Marty Solomon of Manteca, California, and ]Michael Solomon of St. Augustine, Florida[; one daughter, Laurie Ruggiero of Salmon, Idaho;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:exact      "Michael Solomon of St. Augustine, Florida" ;
+        c:length     "41" ;
+        c:offset     "1286" ;
+        c:prefix     "sons, Marty Solomon of Manteca, California, and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/543c4563-9be2-3592-92cf-f3b99e42d1c0> ;
+        c:suffix     "; one daughter, Laurie Ruggiero of Salmon, Idaho;" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/aa4e9278-0402-c8d9-1718-9baa090827ec>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Florida" ;
+        c:docId               <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:latitude            "30.3319" ;
+        c:longitude           "-81.6558" ;
+        c:name                "Jacksonville,Florida,United States" ;
+        c:shortname           "Jacksonville" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/58e96598-3df6-321d-931e-f30a2f3290b5> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/d79cc9a3-8ecc-d06b-4b2c-30cc0614df3f>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Idaho" ;
+        c:docId               <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:latitude            "45.1758" ;
+        c:longitude           "-113.895" ;
+        c:name                "Salmon,Idaho,United States" ;
+        c:shortname           "Salmon" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/0359d3e9-9a1a-3681-a660-e654b7293c6a> .
+
+<http://d.opencalais.com/conf/pershash-1/64d21f5a-9cfb-3e69-a2d5-e0b908fa4f53>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.984" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.989" ;
+        c:subject             <http://d.opencalais.com/pershash-1/64d21f5a-9cfb-3e69-a2d5-e0b908fa4f53> .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Instance/3>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ She was, also, preceded by her stepfather, ]Gilbert Thorneberry[, who raised her from the age of two. \t Linda is]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:exact      "Gilbert Thorneberry" ;
+        c:length     "19" ;
+        c:offset     "1122" ;
+        c:prefix     " She was, also, preceded by her stepfather, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/4594e616-4bd0-3128-847e-56c37fb7e9f3> ;
+        c:suffix     ", who raised her from the age of two. \t Linda is" .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Relevance/8>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/c7bbbd81-8527-3089-8d57-8e6904c206b6> .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Relevance/28>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/pershash-1/6cc04a16-98db-32ff-a843-02bf0add0fa4> .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Instance/58>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[her mother who had cancer, but later received ]her[ GED.  On January 16, 1975, she was united in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "642" ;
+        c:prefix     "her mother who had cancer, but later received " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6cc04a16-98db-32ff-a843-02bf0add0fa4> ;
+        c:suffix     " GED.  On January 16, 1975, she was united in" .
+
+<http://d.opencalais.com/pershash-1/c7bbbd81-8527-3089-8d57-8e6904c206b6>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Marty Solomon" ;
+        c:confidencelevel    "0.983" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Marty Solomon" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Instance/37>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and Michael Solomon of St. Augustine, ]Florida[; one daughter, Laurie Ruggiero of Salmon, Idaho;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:exact      "Florida" ;
+        c:length     "7" ;
+        c:offset     "1320" ;
+        c:prefix     "and Michael Solomon of St. Augustine, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b5bf3113-97ac-319c-a20d-308c716c8d7b> ;
+        c:suffix     "; one daughter, Laurie Ruggiero of Salmon, Idaho;" .
+
+<http://d.opencalais.com/pershash-1/fbb28b97-0445-382c-b7a1-d9031958f307>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Matt Solomon" ;
+        c:confidencelevel    "0.997" ;
+        c:firstname          "Matt" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Solomon" ;
+        c:name               "Matt Solomon" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Instance/16>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[\t Linda Dorothy Solomon, daughter of the late ]Lloyd Edward[ and Gladys Genevieve (Fogleman) Plaskett, was]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:exact      "Lloyd Edward" ;
+        c:length     "12" ;
+        c:offset     "293" ;
+        c:prefix     "\t Linda Dorothy Solomon, daughter of the late " ;
+        c:subject    <http://d.opencalais.com/pershash-1/8ca188db-b7e3-3d25-9497-ef74ce9c9b2e> ;
+        c:suffix     " and Gladys Genevieve (Fogleman) Plaskett, was" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/fd9e1e90-96a9-04ff-1397-445c4e93208b>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:latitude            "36.4885198674" ;
+        c:longitude           "-119.701379437" ;
+        c:name                "California,United States" ;
+        c:permid              "100049" ;
+        c:rcscode             "G:4V" ;
+        c:shortname           "California" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/9679b237-33e8-3478-ba13-d9af3c4b943e> .
+
+<http://d.opencalais.com/genericHasher-1/93c28626-ced4-3345-829b-a72bc3103e49>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "St. Augustine" .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/SocialTag/1>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Linda" ;
+        c:originalValue      "Linda" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/49a73ded-b203-3e85-a151-57c1ed59bb46> .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Instance/66>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[her stepfather, Gilbert Thorneberry, who raised ]her[ from the age of two. \t Linda is survived by her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1154" ;
+        c:prefix     "her stepfather, Gilbert Thorneberry, who raised " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6cc04a16-98db-32ff-a843-02bf0add0fa4> ;
+        c:suffix     " from the age of two. \t Linda is survived by her" .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Instance/45>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[one daughter, Laurie Ruggiero of Salmon, ]Idaho[; seven grandchildren; two great grandchildren;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:exact      "Idaho" ;
+        c:length     "5" ;
+        c:offset     "1370" ;
+        c:prefix     "one daughter, Laurie Ruggiero of Salmon, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c25f2cb1-9705-3de1-8c42-2996a8ef39c7> ;
+        c:suffix     "; seven grandchildren; two great grandchildren;" .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Relevance/15>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/baf8f646-32cb-3402-8cd2-547307fe28a8> .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Instance/24>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[\t Linda Dorothy Solomon, daughter of the late ]Lloyd Edward and Gladys Genevieve (Fogleman) Plaskett, was born November 26, 1941, at San Francisco, California, and passed away November 1, 2009, at Alva, Oklahoma[, at the age of 67 years, 11 months, and 5 days.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:exact      "Lloyd Edward and Gladys Genevieve (Fogleman) Plaskett, was born November 26, 1941, at San Francisco, California, and passed away November 1, 2009, at Alva, Oklahoma" ;
+        c:length     "164" ;
+        c:offset     "293" ;
+        c:prefix     "\t Linda Dorothy Solomon, daughter of the late " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b42dea55-e18d-3475-89db-47d864936ff5> ;
+        c:suffix     ", at the age of 67 years, 11 months, and 5 days." .
+
+<http://d.opencalais.com/conf/pershash-1/92821a99-d5b6-3eb9-bdb9-dfe53bc52aec>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.994" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.996" ;
+        c:subject             <http://d.opencalais.com/pershash-1/92821a99-d5b6-3eb9-bdb9-dfe53bc52aec> .
+
+<http://d.opencalais.com/genericHasher-1/ae881fe1-129e-3d8b-b9ce-7bb6259a98c4>
+        a                    <http://s.opencalais.com/1/type/em/e/IndustryTerm> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "care for her mother who had cancer" .
+
+<http://d.opencalais.com/genericHasher-1/ea107094-58be-3519-a6ce-982c1b21975d>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Milbrae" .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/ComponentVersions>
+        a          <http://s.opencalais.com/1/type/sys/ComponentVersions> ;
+        c:docId    <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:version  "Dial4J:OneCalais_8.3-RELEASE:198" , "Housekeeper:OneCalais_8.3-RELEASE:113" , "FrenchIM:OneCalais_8.3-RELEASE:198" , "People Index:201505261608:201505261608" , "OneCalais:OneCalais_8.3-RELEASE:364" , "WatchDog:OneCalais_8.3-RELEASE:113" , "config-vessels:258:258" , "OA Override:271:271" , "BrokerResearchIM:OneCalais_8.3-RELEASE:198" , "People Override:258:258" , "index-vessels:201505231718:201505231718" , "SocialTags Index:201505191038:201505191038" , "BlackList:264:264" , "OneCalaisIM:OneCalais_8.3-RELEASE:198" , "config-sca-DataPackage:34:34" , "config-refineries:258:258" , "com.clearforest.infoext.dial4j.plugins-basistechconfig:OneCalais_8.3-RELEASE:225" , "NextTags:OneCalais_8.3-RELEASE:113" , "SECHeaderMetadataIM:OneCalais_8.3-RELEASE:198" , "config-cse:271:271" , "AutocoderRuntimeIM:OneCalais_8.3-RELEASE:198" , "config-negativeSignature:258:258" , "OA Index:201505252208:201505252208" , "config-physicalAssets-ports:258:258" , "Deals Index:201505261613:201505261613" , "SpanishIM:OneCalais_8.3-RELEASE:198" , "Collector:OneCalais_8.3-RELEASE:113" , "config-drugs:258:258" .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Relevance/3>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/4594e616-4bd0-3128-847e-56c37fb7e9f3> .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Instance/53>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Clayton Forest officiating.  At her request, ]she[ was cremated under the direction of Marshall]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "168" ;
+        c:prefix     "Clayton Forest officiating.  At her request, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6cc04a16-98db-32ff-a843-02bf0add0fa4> ;
+        c:suffix     " was cremated under the direction of Marshall" .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Relevance/23>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c25f2cb1-9705-3de1-8c42-2996a8ef39c7> .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Instance/32>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[who raised her from the age of two. \t ]Linda is survived by her husband, Terry, of Waynoka[; two sons, Marty Solomon of Manteca, California,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:exact      "Linda is survived by her husband, Terry, of Waynoka" ;
+        c:length     "51" ;
+        c:offset     "1181" ;
+        c:prefix     "who raised her from the age of two. \t " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/2c2202b6-8cad-3c99-95ec-8bff0e37834c> ;
+        c:suffix     "; two sons, Marty Solomon of Manteca, California," .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Instance/11>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[November 7, 2009, at the Kingdom Hall in ]Alva[ with Clayton Forest officiating.  At her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "113" ;
+        c:prefix     "November 7, 2009, at the Kingdom Hall in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:suffix     " with Clayton Forest officiating.  At her" .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Instance/6>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Plaskett, was born November 26, 1941, at ]San Francisco[, California, and passed away November 1, 2009,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:exact      "San Francisco" ;
+        c:length     "13" ;
+        c:offset     "379" ;
+        c:prefix     "Plaskett, was born November 26, 1941, at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a1c1ac3d-0c25-3fb1-ac74-cac9c8510afa> ;
+        c:suffix     ", California, and passed away November 1, 2009," .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Instance/61>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ago. \t She was a member of Jehovah?s Witness.  ]She[ enjoyed photography, especially taking pictures]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "938" ;
+        c:prefix     "ago. \t She was a member of Jehovah?s Witness.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6cc04a16-98db-32ff-a843-02bf0add0fa4> ;
+        c:suffix     " enjoyed photography, especially taking pictures" .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Instance/40>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[days. \t Linda attended school in San Francisco, ]California[.  She had to quit school to care for her mother]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:exact      "California" ;
+        c:length     "10" ;
+        c:offset     "548" ;
+        c:prefix     "days. \t Linda attended school in San Francisco, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9679b237-33e8-3478-ba13-d9af3c4b943e> ;
+        c:suffix     ".  She had to quit school to care for her mother" .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Relevance/10>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/af7f9467-82af-3853-b58b-7392ccd85e9d> .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Instance/19>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[where they lived for 20 years.  They moved to ]Waynoka[ 3 years ago. \t She was a member of Jehovah?s]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:exact      "Waynoka" ;
+        c:length     "7" ;
+        c:offset     "875" ;
+        c:prefix     "where they lived for 20 years.  They moved to " ;
+        c:subject    <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:suffix     " 3 years ago. \t She was a member of Jehovah?s" .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/SocialTag/4>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "2" ;
+        c:name               "Solomon" ;
+        c:originalValue      "Solomon (name)" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/bf5a968d-fdd2-37b9-879f-c73789304fe8> .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/cat/1>
+        a                    <http://s.opencalais.com/1/type/cat/DocCat> ;
+        c:docId              <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Human Interest" ;
+        c:score              "1.000" .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Relevance/18>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/697bee69-23a3-33c0-99c7-ab386d114ae0> .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/ead8a759-31d2-262c-540f-e93fc56b22eb>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:latitude            "28.0908069444" ;
+        c:longitude           "-81.960407533" ;
+        c:name                "Florida,United States" ;
+        c:permid              "100104" ;
+        c:rcscode             "G:4X" ;
+        c:shortname           "Florida" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/b5bf3113-97ac-319c-a20d-308c716c8d7b> .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Instance/48>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[be 3:00 p.m. Saturday, November 7, 2009, at the ]Kingdom Hall[ in Alva with Clayton Forest officiating.  At her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:exact      "Kingdom Hall" ;
+        c:length     "12" ;
+        c:offset     "97" ;
+        c:prefix     "be 3:00 p.m. Saturday, November 7, 2009, at the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3059e50f-467b-3f84-b473-8ca6171e1010> ;
+        c:suffix     " in Alva with Clayton Forest officiating.  At her" .
+
+<http://d.opencalais.com/pershash-1/5abfadce-3ab6-34ff-8447-587408019afb>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Laurie Ruggiero" ;
+        c:confidencelevel    "0.997" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Laurie Ruggiero" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Instance/27>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[age of two. \t Linda is survived by her husband, ]Terry[, of Waynoka; two sons, Marty Solomon of Manteca,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:exact      "Terry" ;
+        c:length     "5" ;
+        c:offset     "1215" ;
+        c:prefix     "age of two. \t Linda is survived by her husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/92821a99-d5b6-3eb9-bdb9-dfe53bc52aec> ;
+        c:suffix     ", of Waynoka; two sons, Marty Solomon of Manteca," .
+
+<http://d.opencalais.com/genericHasher-1/94cc0a75-948b-39f4-ab33-fd0845be279b>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Salmon" ;
+        c:person             <http://d.opencalais.com/pershash-1/5abfadce-3ab6-34ff-8447-587408019afb> .
+
+<http://d.opencalais.com/genericHasher-1/a94f59d3-b22a-3803-a7dd-0e43fcc9ad65>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonAttributes> ;
+        c:birthdate          "1941-11-26" ;
+        c:birthplace         <http://d.opencalais.com/genericHasher-1/a1c1ac3d-0c25-3fb1-ac74-cac9c8510afa> ;
+        c:forenduserdisplay  "false" ;
+        c:gender             "F" ;
+        c:person             <http://d.opencalais.com/pershash-1/64d21f5a-9cfb-3e69-a2d5-e0b908fa4f53> .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Instance/1>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Terry, of Waynoka; two sons, Marty Solomon of ]Manteca[, California, and Michael Solomon of St.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:exact      "Manteca" ;
+        c:length     "7" ;
+        c:offset     "1261" ;
+        c:prefix     "Terry, of Waynoka; two sons, Marty Solomon of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/d1579f59-ab0b-3056-84bb-a06933fac0bb> ;
+        c:suffix     ", California, and Michael Solomon of St." .
+
+<http://d.opencalais.com/conf/pershash-1/c7bbbd81-8527-3089-8d57-8e6904c206b6>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.983" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.99" ;
+        c:subject             <http://d.opencalais.com/pershash-1/c7bbbd81-8527-3089-8d57-8e6904c206b6> .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Relevance/6>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a1c1ac3d-0c25-3fb1-ac74-cac9c8510afa> .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Instance/56>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[attended school in San Francisco, California.  ]She[ had to quit school to care for her mother who]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "561" ;
+        c:prefix     "attended school in San Francisco, California.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6cc04a16-98db-32ff-a843-02bf0add0fa4> ;
+        c:suffix     " had to quit school to care for her mother who" .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Relevance/26>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3059e50f-467b-3f84-b473-8ca6171e1010> .
+
+<http://d.opencalais.com/conf/pershash-1/fbb28b97-0445-382c-b7a1-d9031958f307>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.997" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.995" ;
+        c:subject             <http://d.opencalais.com/pershash-1/fbb28b97-0445-382c-b7a1-d9031958f307> .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Instance/35>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[who had cancer, but later received her GED.  ]On January 16, 1975, she was united in marriage to Terry Richard Solomon[ at Milbrae, California.  They lived in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:exact      "On January 16, 1975, she was united in marriage to Terry Richard Solomon" ;
+        c:length     "72" ;
+        c:offset     "652" ;
+        c:prefix     "who had cancer, but later received her GED.  " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/530fdbdb-35e1-3478-9486-7c3814064fc7> ;
+        c:suffix     " at Milbrae, California.  They lived in" .
+
+<http://d.opencalais.com/genericHasher-1/530fdbdb-35e1-3478-9486-7c3814064fc7>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:date                "1975-01-16" ;
+        c:datestring          "January 16, 1975" ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/92821a99-d5b6-3eb9-bdb9-dfe53bc52aec> , <http://d.opencalais.com/pershash-1/6cc04a16-98db-32ff-a843-02bf0add0fa4> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/genericHasher-1/3854c33b-9e3a-3825-8949-c91ad3efe218>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "stepfather" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/6cc04a16-98db-32ff-a843-02bf0add0fa4> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/4594e616-4bd0-3128-847e-56c37fb7e9f3> .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Instance/14>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Solomon at Milbrae, California.  They lived in ]Suttercreek[, California, before moving to Jacksonville,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:exact      "Suttercreek" ;
+        c:length     "11" ;
+        c:offset     "764" ;
+        c:prefix     "Solomon at Milbrae, California.  They lived in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/af7f9467-82af-3853-b58b-7392ccd85e9d> ;
+        c:suffix     ", California, before moving to Jacksonville," .
+
+<http://d.opencalais.com/genericHasher-1/baf8f646-32cb-3402-8cd2-547307fe28a8>
+        a                    <http://s.opencalais.com/1/type/em/e/NaturalFeature> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Clayton Forest" .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Instance/9>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[by her husband, Terry, of Waynoka; two sons, ]Marty Solomon[ of Manteca, California, and Michael Solomon of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:exact      "Marty Solomon" ;
+        c:length     "13" ;
+        c:offset     "1244" ;
+        c:prefix     "by her husband, Terry, of Waynoka; two sons, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/c7bbbd81-8527-3089-8d57-8e6904c206b6> ;
+        c:suffix     " of Manteca, California, and Michael Solomon of" .
+
+<http://d.opencalais.com/pershash-1/8ca188db-b7e3-3d25-9497-ef74ce9c9b2e>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Lloyd Edward" ;
+        c:confidencelevel    "0.971" ;
+        c:firstname          "Lloyd" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Edward" ;
+        c:name               "Lloyd Edward" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Instance/64>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ was preceded in death by one son, Matt Solomon.  ]She[ was, also, preceded by her stepfather, Gilbert]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "1079" ;
+        c:prefix     " was preceded in death by one son, Matt Solomon.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6cc04a16-98db-32ff-a843-02bf0add0fa4> ;
+        c:suffix     " was, also, preceded by her stepfather, Gilbert" .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Instance/43>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Waynoka; two sons, Marty Solomon of Manteca, ]California[, and Michael Solomon of St. Augustine, Florida;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:exact      "California" ;
+        c:length     "10" ;
+        c:offset     "1270" ;
+        c:prefix     "of Waynoka; two sons, Marty Solomon of Manteca, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9679b237-33e8-3478-ba13-d9af3c4b943e> ;
+        c:suffix     ", and Michael Solomon of St. Augustine, Florida;" .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Relevance/13>
+        a                <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId          <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:relevance      "0.8" ;
+        c:relevancecont  "0.82" ;
+        c:subject        <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Instance/22>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[united in marriage to Terry Richard Solomon at ]Milbrae[, California.  They lived in Suttercreek,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:exact      "Milbrae" ;
+        c:length     "7" ;
+        c:offset     "728" ;
+        c:prefix     "united in marriage to Terry Richard Solomon at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ea107094-58be-3519-a6ce-982c1b21975d> ;
+        c:suffix     ", California.  They lived in Suttercreek," .
+
+<http://d.opencalais.com/genericHasher-1/58e96598-3df6-321d-931e-f30a2f3290b5>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Jacksonville" .
+
+<http://d.opencalais.com/genericHasher-1/3059e50f-467b-3f84-b473-8ca6171e1010>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Kingdom Hall" .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Relevance/1>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/d1579f59-ab0b-3056-84bb-a06933fac0bb> .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Instance/51>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Memorial services for ]Linda Dorothy Solomon[ will be 3:00 p.m. Saturday, November 7, 2009, at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:exact      "Linda Dorothy Solomon" ;
+        c:length     "21" ;
+        c:offset     "22" ;
+        c:prefix     "Memorial services for " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6cc04a16-98db-32ff-a843-02bf0add0fa4> ;
+        c:suffix     " will be 3:00 p.m. Saturday, November 7, 2009, at" .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Relevance/21>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9679b237-33e8-3478-ba13-d9af3c4b943e> .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Instance/30>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[by her husband, Terry, of Waynoka; two sons, ]Marty Solomon of Manteca, California[, and Michael Solomon of St. Augustine, Florida;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:exact      "Marty Solomon of Manteca, California" ;
+        c:length     "36" ;
+        c:offset     "1244" ;
+        c:prefix     "by her husband, Terry, of Waynoka; two sons, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/6f6a3a14-b580-3995-bd60-e2c35b50defc> ;
+        c:suffix     ", and Michael Solomon of St. Augustine, Florida;" .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/lid/DefaultLangId>
+        a                    <http://s.opencalais.com/1/type/lid/DefaultLangId> ;
+        c:docId              <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:forenduserdisplay  "false" ;
+        c:lang               <http://d.opencalais.com/lid/DefaultLangId/English> ;
+        c:permid             "505062" .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Instance/4>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[California.  She had to quit school to ]care for her mother who had cancer[, but later received her GED.  On January 16,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:exact      "care for her mother who had cancer" ;
+        c:length     "34" ;
+        c:offset     "587" ;
+        c:prefix     "California.  She had to quit school to " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ae881fe1-129e-3d8b-b9ce-7bb6259a98c4> ;
+        c:suffix     ", but later received her GED.  On January 16," .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Relevance/9>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Instance/59>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[later received her GED.  On January 16, 1975, ]she[ was united in marriage to Terry Richard Solomon]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "673" ;
+        c:prefix     "later received her GED.  On January 16, 1975, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6cc04a16-98db-32ff-a843-02bf0add0fa4> ;
+        c:suffix     " was united in marriage to Terry Richard Solomon" .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Instance/38>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Solomon of St. Augustine, Florida; one daughter, ]Laurie Ruggiero of Salmon, Idaho[; seven grandchildren; two great grandchildren;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:exact      "Laurie Ruggiero of Salmon, Idaho" ;
+        c:length     "32" ;
+        c:offset     "1343" ;
+        c:prefix     " Solomon of St. Augustine, Florida; one daughter, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/94cc0a75-948b-39f4-ab33-fd0845be279b> ;
+        c:suffix     "; seven grandchildren; two great grandchildren;" .
+
+<http://d.opencalais.com/genericHasher-1/543c4563-9be2-3592-92cf-f3b99e42d1c0>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "St. Augustine" ;
+        c:person             <http://d.opencalais.com/pershash-1/697bee69-23a3-33c0-99c7-ab386d114ae0> .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Instance/17>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[to Waynoka 3 years ago. \t She was a member of ]Jehovah[?s Witness.  She enjoyed photography, especially]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:exact      "Jehovah" ;
+        c:length     "7" ;
+        c:offset     "918" ;
+        c:prefix     "to Waynoka 3 years ago. \t She was a member of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/dff8f9bc-a80d-3f61-8182-0a83dca67cfe> ;
+        c:suffix     "?s Witness.  She enjoyed photography, especially" .
+
+<http://d.opencalais.com/pershash-1/6cc04a16-98db-32ff-a843-02bf0add0fa4>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Linda Dorothy Solomon" ;
+        c:confidencelevel    "0.993" ;
+        c:firstname          "Linda" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Solomon" ;
+        c:middlename         "Dorothy" ;
+        c:name               "Linda Dorothy Solomon" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205>
+        a                    <http://s.opencalais.com/1/type/em/e/Company> ;
+        c:confidencelevel    "0.765" ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Waynoka LLC" ;
+        c:nationality        "N/A" .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/SocialTag/2>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Manteca, California" ;
+        c:originalValue      "Manteca, California" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/a586cdc6-22ff-39d4-bd48-1c492241b779> .
+
+<http://d.opencalais.com/genericHasher-1/9679b237-33e8-3478-ba13-d9af3c4b943e>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "California" .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Instance/67>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[who raised her from the age of two. \t ]Linda[ is survived by her husband, Terry, of Waynoka;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:exact      "Linda" ;
+        c:length     "5" ;
+        c:offset     "1181" ;
+        c:prefix     "who raised her from the age of two. \t " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6cc04a16-98db-32ff-a843-02bf0add0fa4> ;
+        c:suffix     " is survived by her husband, Terry, of Waynoka;" .
+
+<http://d.opencalais.com/conf/pershash-1/5abfadce-3ab6-34ff-8447-587408019afb>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.997" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.998" ;
+        c:subject             <http://d.opencalais.com/pershash-1/5abfadce-3ab6-34ff-8447-587408019afb> .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Instance/46>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Solomon, daughter of the late Lloyd Edward and ]Gladys Genevieve (Fogleman) Plaskett[, was born November 26, 1941, at San Francisco,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:exact      "Gladys Genevieve (Fogleman) Plaskett" ;
+        c:length     "36" ;
+        c:offset     "310" ;
+        c:prefix     "Solomon, daughter of the late Lloyd Edward and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/64d21f5a-9cfb-3e69-a2d5-e0b908fa4f53> ;
+        c:suffix     ", was born November 26, 1941, at San Francisco," .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Relevance/16>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/92821a99-d5b6-3eb9-bdb9-dfe53bc52aec> .
+
+<http://d.opencalais.com/genericHasher-1/b42dea55-e18d-3475-89db-47d864936ff5>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Alva, Oklahoma" ;
+        c:person             <http://d.opencalais.com/pershash-1/8ca188db-b7e3-3d25-9497-ef74ce9c9b2e> .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Instance/25>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[7, 2009, at the Kingdom Hall in Alva with ]Clayton Forest[ officiating.  At her request, she was cremated]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:exact      "Clayton Forest" ;
+        c:length     "14" ;
+        c:offset     "123" ;
+        c:prefix     "7, 2009, at the Kingdom Hall in Alva with " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/baf8f646-32cb-3402-8cd2-547307fe28a8> ;
+        c:suffix     " officiating.  At her request, she was cremated" .
+
+<http://d.opencalais.com/genericHasher-1/99eb3036-2f4b-3d03-831d-28661ba4e822>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Milbrae" ;
+        c:person             <http://d.opencalais.com/pershash-1/92821a99-d5b6-3eb9-bdb9-dfe53bc52aec> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/009684a7-b3b7-6261-dac5-e182e48d40a4>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "California" ;
+        c:docId               <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:latitude            "37.7975" ;
+        c:longitude           "-121.215" ;
+        c:name                "Manteca,California,United States" ;
+        c:shortname           "Manteca" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/d1579f59-ab0b-3056-84bb-a06933fac0bb> .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Relevance/4>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ae881fe1-129e-3d8b-b9ce-7bb6259a98c4> .
+
+<http://d.opencalais.com/genericHasher-1/af7f9467-82af-3853-b58b-7392ccd85e9d>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Suttercreek" .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Instance/54>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Marshall Funeral Home of Waynoka, LLC. \t ]Linda Dorothy Solomon[, daughter of the late Lloyd Edward and Gladys]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:exact      "Linda Dorothy Solomon" ;
+        c:length     "21" ;
+        c:offset     "249" ;
+        c:prefix     "of Marshall Funeral Home of Waynoka, LLC. \t " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6cc04a16-98db-32ff-a843-02bf0add0fa4> ;
+        c:suffix     ", daughter of the late Lloyd Edward and Gladys" .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Relevance/24>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/64d21f5a-9cfb-3e69-a2d5-e0b908fa4f53> .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Instance/33>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[January 16, 1975, she was united in marriage to ]Terry Richard Solomon at Milbrae, California[.  They lived in Suttercreek, California, before]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:exact      "Terry Richard Solomon at Milbrae, California" ;
+        c:length     "44" ;
+        c:offset     "703" ;
+        c:prefix     "January 16, 1975, she was united in marriage to " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/99eb3036-2f4b-3d03-831d-28661ba4e822> ;
+        c:suffix     ".  They lived in Suttercreek, California, before" .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Instance/12>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ California, and passed away November 1, 2009, at ]Alva[, Oklahoma, at the age of 67 years, 11 months,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "443" ;
+        c:prefix     " California, and passed away November 1, 2009, at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:suffix     ", Oklahoma, at the age of 67 years, 11 months," .
+
+<http://d.opencalais.com/genericHasher-1/84bb0714-85ab-39de-a7e7-f1ad2e79292b>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Marshall Funeral Home of Waynoka" .
+
+<http://d.opencalais.com/genericHasher-1/d1579f59-ab0b-3056-84bb-a06933fac0bb>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Manteca" .
+
+<http://d.opencalais.com/conf/pershash-1/8ca188db-b7e3-3d25-9497-ef74ce9c9b2e>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.971" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/8ca188db-b7e3-3d25-9497-ef74ce9c9b2e> .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Instance/7>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[months, and 5 days. \t Linda attended school in ]San Francisco[, California.  She had to quit school to care for]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:exact      "San Francisco" ;
+        c:length     "13" ;
+        c:offset     "533" ;
+        c:prefix     "months, and 5 days. \t Linda attended school in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a1c1ac3d-0c25-3fb1-ac74-cac9c8510afa> ;
+        c:suffix     ", California.  She had to quit school to care for" .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Instance/62>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[taking pictures of wildlife. \t Besides ]her[ parents, she was preceded in death by one son,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1013" ;
+        c:prefix     "taking pictures of wildlife. \t Besides " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6cc04a16-98db-32ff-a843-02bf0add0fa4> ;
+        c:suffix     " parents, she was preceded in death by one son," .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Instance/41>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ in marriage to Terry Richard Solomon at Milbrae, ]California[.  They lived in Suttercreek, California, before]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:exact      "California" ;
+        c:length     "10" ;
+        c:offset     "737" ;
+        c:prefix     " in marriage to Terry Richard Solomon at Milbrae, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9679b237-33e8-3478-ba13-d9af3c4b943e> ;
+        c:suffix     ".  They lived in Suttercreek, California, before" .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Relevance/11>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/8ca188db-b7e3-3d25-9497-ef74ce9c9b2e> .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Instance/20>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[\t Linda is survived by her husband, Terry, of ]Waynoka[; two sons, Marty Solomon of Manteca, California,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:exact      "Waynoka" ;
+        c:length     "7" ;
+        c:offset     "1225" ;
+        c:prefix     "\t Linda is survived by her husband, Terry, of " ;
+        c:subject    <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:suffix     "; two sons, Marty Solomon of Manteca, California," .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f>
+        a                  <http://s.opencalais.com/1/type/sys/DocInfo> ;
+        c:calaisRequestID  "51e20314-5c0a-b59e-14d9-13be72612501" ;
+        c:docDate          "2015-05-26 17:18:52.013" ;
+        c:docTitle         "" ;
+        c:document         "Memorial services for Linda Dorothy Solomon will be 3:00 p.m. Saturday, November 7, 2009, at the Kingdom Hall in Alva with Clayton Forest officiating.  At her request, she was cremated under the direction of Marshall Funeral Home of Waynoka, LLC. \t Linda Dorothy Solomon, daughter of the late Lloyd Edward and Gladys Genevieve (Fogleman) Plaskett, was born November 26, 1941, at San Francisco, California, and passed away November 1, 2009, at Alva, Oklahoma, at the age of 67 years, 11 months, and 5 days. \t Linda attended school in San Francisco, California.  She had to quit school to care for her mother who had cancer, but later received her GED.  On January 16, 1975, she was united in marriage to Terry Richard Solomon at Milbrae, California.  They lived in Suttercreek, California, before moving to Jacksonville, Florida, where they lived for 20 years.  They moved to Waynoka 3 years ago. \t She was a member of Jehovah?s Witness.  She enjoyed photography, especially taking pictures of wildlife. \t Besides her parents, she was preceded in death by one son, Matt Solomon.  She was, also, preceded by her stepfather, Gilbert Thorneberry, who raised her from the age of two. \t Linda is survived by her husband, Terry, of Waynoka; two sons, Marty Solomon of Manteca, California, and Michael Solomon of St. Augustine, Florida; one daughter, Laurie Ruggiero of Salmon, Idaho; seven grandchildren; two great grandchildren; other relatives and friends. \t Memorial contributions may be made to the Kingdom Hall. \n\t\t\t" ;
+        c:id               "http://id.opencalais.com/52XAaWJrK2oAexBKVlrYdA" ;
+        c:ontology         "http://163.231.4.65/owlschema/8.3/onecalais.owl.allmetadata.xml" .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/meta>
+        a                 <http://s.opencalais.com/1/type/sys/DocInfoMeta> ;
+        c:contentType     "text/raw" ;
+        c:docId           <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:language        "English" ;
+        c:processingVer   "AllMetadata" ;
+        c:serverVersion   "OneCalais_8.3-RELEASE:364" ;
+        c:signature       "digestalg-1|px8o3AZ/FtgxxvjmON5CBjXv888=|DHxzbuHP5KMXBK8Pies2NtDJzNs1TK5tFb9wdy4llnBQ3/zLum624w==" ;
+        c:stagsVer        "OneCalais_8.3-RELEASE-b11-2015-03-25_18:29:00" ;
+        c:submissionDate  "2015-05-26 17:18:51.686" ;
+        c:submitterCode   "0ca6a864-5659-789d-5f32-f365f695e757" .
+
+<http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oklahoma" .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/SocialTag/5>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "2" ;
+        c:name               "Alva" ;
+        c:originalValue      "Alva" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/17f61973-ed95-369b-b381-dec22ce26b2a> .
+
+<http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Alva" .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Instance/49>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[\t Memorial contributions may be made to the ]Kingdom Hall[. \n\t\t\t]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:exact      "Kingdom Hall" ;
+        c:length     "12" ;
+        c:offset     "1496" ;
+        c:prefix     "\t Memorial contributions may be made to the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3059e50f-467b-3f84-b473-8ca6171e1010> ;
+        c:suffix     ". \n\t\t\t" .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Relevance/19>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0359d3e9-9a1a-3681-a660-e654b7293c6a> .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Instance/28>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and passed away November 1, 2009, at Alva, ]Oklahoma[, at the age of 67 years, 11 months, and 5 days.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "449" ;
+        c:prefix     "and passed away November 1, 2009, at Alva, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", at the age of 67 years, 11 months, and 5 days." .
+
+<http://d.opencalais.com/genericHasher-1/3fc76fa0-2822-3a05-bc9a-d75c68ee10e1>
+        a                    <http://s.opencalais.com/1/type/em/e/IndustryTerm> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Memorial services" .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Instance/2>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[parents, she was preceded in death by one son, ]Matt Solomon[.  She was, also, preceded by her stepfather,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:exact      "Matt Solomon" ;
+        c:length     "12" ;
+        c:offset     "1064" ;
+        c:prefix     "parents, she was preceded in death by one son, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/fbb28b97-0445-382c-b7a1-d9031958f307> ;
+        c:suffix     ".  She was, also, preceded by her stepfather," .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Relevance/7>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/93c28626-ced4-3345-829b-a72bc3103e49> .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Instance/57>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[California.  She had to quit school to care for ]her[ mother who had cancer, but later received her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "596" ;
+        c:prefix     "California.  She had to quit school to care for " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6cc04a16-98db-32ff-a843-02bf0add0fa4> ;
+        c:suffix     " mother who had cancer, but later received her" .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Relevance/27>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3fc76fa0-2822-3a05-bc9a-d75c68ee10e1> .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Instance/36>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[California, before moving to Jacksonville, ]Florida[, where they lived for 20 years.  They moved to]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:exact      "Florida" ;
+        c:length     "7" ;
+        c:offset     "820" ;
+        c:prefix     "California, before moving to Jacksonville, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b5bf3113-97ac-319c-a20d-308c716c8d7b> ;
+        c:suffix     ", where they lived for 20 years.  They moved to" .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Instance/15>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Solomon, daughter of the late Lloyd Edward and ]Gladys Genevieve (Fogleman) Plaskett, was born November 26, 1941, at San Francisco, California[, and passed away November 1, 2009, at Alva,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:exact      "Gladys Genevieve (Fogleman) Plaskett, was born November 26, 1941, at San Francisco, California" ;
+        c:length     "94" ;
+        c:offset     "310" ;
+        c:prefix     "Solomon, daughter of the late Lloyd Edward and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a94f59d3-b22a-3803-a7dd-0e43fcc9ad65> ;
+        c:suffix     ", and passed away November 1, 2009, at Alva," .
+
+<http://d.opencalais.com/conf/pershash-1/6cc04a16-98db-32ff-a843-02bf0add0fa4>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.993" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.995" ;
+        c:subject             <http://d.opencalais.com/pershash-1/6cc04a16-98db-32ff-a843-02bf0add0fa4> .
+
+<http://d.opencalais.com/genericHasher-1/0359d3e9-9a1a-3681-a660-e654b7293c6a>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Salmon" .
+
+<http://d.opencalais.com/conf/comphash-1/e6417933-98e8-365f-8f80-b92f05707205>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.765" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:resolution          "0.05522651" ;
+        c:statisticalfeature  "0.853" ;
+        c:subject             <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/e9e27c26-4013-8712-a5f0-97dcdc412c26>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:latitude            "35.5607802899" ;
+        c:longitude           "-96.8460570462" ;
+        c:name                "Oklahoma,United States" ;
+        c:permid              "100229" ;
+        c:rcscode             "G:9H" ;
+        c:shortname           "Oklahoma" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/genericHasher-1/6f6a3a14-b580-3995-bd60-e2c35b50defc>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Manteca" ;
+        c:person             <http://d.opencalais.com/pershash-1/c7bbbd81-8527-3089-8d57-8e6904c206b6> .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Instance/65>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[son, Matt Solomon.  She was, also, preceded by ]her[ stepfather, Gilbert Thorneberry, who raised her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1106" ;
+        c:prefix     "son, Matt Solomon.  She was, also, preceded by " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6cc04a16-98db-32ff-a843-02bf0add0fa4> ;
+        c:suffix     " stepfather, Gilbert Thorneberry, who raised her" .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Instance/44>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Solomon of St. Augustine, Florida; one daughter, ]Laurie Ruggiero[ of Salmon, Idaho; seven grandchildren; two great]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:exact      "Laurie Ruggiero" ;
+        c:length     "15" ;
+        c:offset     "1343" ;
+        c:prefix     " Solomon of St. Augustine, Florida; one daughter, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/5abfadce-3ab6-34ff-8447-587408019afb> ;
+        c:suffix     " of Salmon, Idaho; seven grandchildren; two great" .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Relevance/14>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ea107094-58be-3519-a6ce-982c1b21975d> .
+
+<http://d.opencalais.com/pershash-1/697bee69-23a3-33c0-99c7-ab386d114ae0>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Michael Solomon" ;
+        c:confidencelevel    "0.999" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Michael Solomon" ;
+        c:nationality        "American" ;
+        c:persontype         "sports" .
+
+<http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f/Instance/23>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[20 years.  They moved to Waynoka 3 years ago. \t ]She was a member of Jehovah[?s Witness.  She enjoyed photography, especially]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/e78e1637-0ff0-3d0e-83f4-5db2d2bfa33f> ;
+        c:exact      "She was a member of Jehovah" ;
+        c:length     "27" ;
+        c:offset     "898" ;
+        c:prefix     "20 years.  They moved to Waynoka 3 years ago. \t " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3f3e86d0-992f-3c56-b9cb-7232799a6dcb> ;
+        c:suffix     "?s Witness.  She enjoyed photography, especially" .
+
+<http://d.opencalais.com/pershash-1/4594e616-4bd0-3128-847e-56c37fb7e9f3>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Gilbert Thorneberry" ;
+        c:confidencelevel    "0.999" ;
+        c:firstname          "Gilbert" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Thorneberry" ;
+        c:name               "Gilbert Thorneberry" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .

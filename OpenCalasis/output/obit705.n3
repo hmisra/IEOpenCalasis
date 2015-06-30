@@ -1,0 +1,1326 @@
+#Relations: CompanyLocation, FamilyRelation, PersonCareer, PersonLocation, PersonRelation
+#City: Carmen, Hopeton, Oklahoma City, Yukon
+#Company: Wentworth Mortuary LLC
+#Facility: Carmen City Cemetery, Wentworth Chapel
+#IndustryTerm: Funeral services
+#Organization: s Office
+#Person: Danny Ging, Elvira Elizabeth, Elvira Elizabeth (Lee) Razey, Ernest Ging, Ervin E. Ging, Florence Adaline (Razey) Ging, Florence Ging, George Razey, Jerry Ging, Linda Shawn, Ron Olson, Theona Ging
+#Position: Alfalfa County Sheriff, janitor
+#ProvinceOrState: Oklahoma
+@prefix c:     <http://s.opencalais.com/1/pred/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://d.opencalais.com/conf/pershash-1/b94c5ade-4d43-307b-841f-b9f90152870d>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.994" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.996" ;
+        c:subject             <http://d.opencalais.com/pershash-1/b94c5ade-4d43-307b-841f-b9f90152870d> .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Instance/21>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Florence grew up and attended school in Carmen. ]On September 18, 1935, she was united in marriage to Ervin E. Ging[ at Hopeton, Oklahoma. She worked as a janitor]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:exact      "On September 18, 1935, she was united in marriage to Ervin E. Ging" ;
+        c:length     "66" ;
+        c:offset     "560" ;
+        c:prefix     "Florence grew up and attended school in Carmen. " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ffc2c83b-a61d-3d7a-b171-522d5eca5a31> ;
+        c:suffix     " at Hopeton, Oklahoma. She worked as a janitor" .
+
+<http://d.opencalais.com/pershash-1/2d47d66b-8272-3695-8b3e-5fa71a474782>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Florence Ging" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Florence" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Ging" ;
+        c:name               "Florence Ging" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/b8620f48-da64-3b29-b094-f0b9edcda36f>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oklahoma City" .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Relevance/21>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/bdb71b6e-283b-31a4-9aee-7620fbb431be> .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Instance/34>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[worked at the Alfalfa County Sheriff?s Office. ]Florence[ was living in Cherokee when her husband passed]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:exact      "Florence" ;
+        c:length     "8" ;
+        c:offset     "752" ;
+        c:prefix     "worked at the Alfalfa County Sheriff?s Office. " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b94c5ade-4d43-307b-841f-b9f90152870d> ;
+        c:suffix     " was living in Cherokee when her husband passed" .
+
+<http://d.opencalais.com/genericHasher-1/ffc2c83b-a61d-3d7a-b171-522d5eca5a31>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:date                "1935-09-18" ;
+        c:datestring          "September 18, 1935" ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/1dd59835-2736-3984-bcd6-97c4a9e54250> , <http://d.opencalais.com/pershash-1/b94c5ade-4d43-307b-841f-b9f90152870d> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Instance/47>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[July 6, 2010, at the Wentworth Chapel with Rev. ]Ron Olson[ officiating. Interment will be in the Carmen]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:exact      "Ron Olson" ;
+        c:length     "9" ;
+        c:offset     "111" ;
+        c:prefix     "July 6, 2010, at the Wentworth Chapel with Rev. " ;
+        c:subject    <http://d.opencalais.com/pershash-1/eeecf135-c855-310a-b43a-1807d23068d8> ;
+        c:suffix     " officiating. Interment will be in the Carmen" .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Instance/19>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in death by her infant daughter, Theona Ging, ]her[ son, Ernest Ging, two brothers, and four]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1024" ;
+        c:prefix     "in death by her infant daughter, Theona Ging, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/37b39cd0-be40-3fb7-bb4f-1ef9aea29e43> ;
+        c:suffix     " son, Ernest Ging, two brothers, and four" .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Relevance/19>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/cee58bb6-26b0-3a16-9468-a232b50ed857> .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Instance/7>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ is survived by her grandchildren, Linda Shawn of ]Yukon[, Danny Ging of Oklahoma City, and Jerry Ging of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:exact      "Yukon" ;
+        c:length     "5" ;
+        c:offset     "1138" ;
+        c:prefix     " is survived by her grandchildren, Linda Shawn of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/2faac0a7-7ec5-3e13-89f0-cf19720f13be> ;
+        c:suffix     ", Danny Ging of Oklahoma City, and Jerry Ging of" .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Instance/41>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Ernest Ging, two brothers, and four sisters. \t ]Florence[ is survived by her grandchildren, Linda Shawn of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:exact      "Florence" ;
+        c:length     "8" ;
+        c:offset     "1080" ;
+        c:prefix     "Ernest Ging, two brothers, and four sisters. \t " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b94c5ade-4d43-307b-841f-b9f90152870d> ;
+        c:suffix     " is survived by her grandchildren, Linda Shawn of" .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Relevance/5>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/20842283-0004-3531-8818-3fe48417c3a5> .
+
+<http://d.opencalais.com/genericHasher-1/a5383a94-309d-344b-8ac4-c77943b59e5e>
+        a                    <http://s.opencalais.com/1/type/em/e/Position> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Alfalfa County Sheriff" .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Instance/13>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[]Funeral services[ for Florence Ging will be 11:00 a.m. Tuesday,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:exact      "Funeral services" ;
+        c:length     "16" ;
+        c:offset     "0" ;
+        c:prefix     "" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee> ;
+        c:suffix     " for Florence Ging will be 11:00 a.m. Tuesday," .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/SocialTag/2>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Hopeton, Oklahoma" ;
+        c:originalValue      "Hopeton, Oklahoma" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/be0a4aa3-25e5-33f6-b23a-2b80c76c9487> .
+
+<http://d.opencalais.com/genericHasher-1/09d0eeba-1596-3d81-bd74-6e1a670543b9>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Wentworth Chapel" .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Instance/54>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[for the school system and later worked at ]the Alfalfa County Sheriff[?s Office. Florence was living in Cherokee when]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:exact      "the Alfalfa County Sheriff" ;
+        c:length     "26" ;
+        c:offset     "715" ;
+        c:prefix     "for the school system and later worked at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a5383a94-309d-344b-8ac4-c77943b59e5e> ;
+        c:suffix     "?s Office. Florence was living in Cherokee when" .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Relevance/13>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/52f06da9-a2d1-3490-aa54-9f8b91e94324> .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Instance/26>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and passed away on July 2, 2010, at Yukon, ]Oklahoma[, at the age of 91 years and 29 days. \t Florence]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "464" ;
+        c:prefix     "and passed away on July 2, 2010, at Yukon, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", at the age of 91 years and 29 days. \t Florence" .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Instance/1>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[the Carmen City Cemetery under the direction of ]Wentworth Mortuary, LLC, Carmen[. \t Florence Adaline (Razey) Ging, daughter of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:exact      "Wentworth Mortuary, LLC, Carmen" ;
+        c:length     "31" ;
+        c:offset     "203" ;
+        c:prefix     "the Carmen City Cemetery under the direction of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0627108e-2bc7-3a6e-a122-4598a226b9be> ;
+        c:suffix     ". \t Florence Adaline (Razey) Ging, daughter of" .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Instance/39>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[years. \t Besides her parents and her husband, ]she[ was preceded in death by her infant daughter,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "961" ;
+        c:prefix     "years. \t Besides her parents and her husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b94c5ade-4d43-307b-841f-b9f90152870d> ;
+        c:suffix     " was preceded in death by her infant daughter," .
+
+<http://d.opencalais.com/conf/pershash-1/1dd59835-2736-3984-bcd6-97c4a9e54250>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.963" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.978" ;
+        c:subject             <http://d.opencalais.com/pershash-1/1dd59835-2736-3984-bcd6-97c4a9e54250> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/d25262bd-697b-5fc0-05bc-7f931b69db7c>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:latitude            "36.6880876" ;
+        c:longitude           "-98.6659183" ;
+        c:name                "Hopeton,Oklahoma,United States" ;
+        c:shortname           "Hopeton" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/bc8a6deb-5bf7-3cbc-a1d2-8b69b594c13f> .
+
+<http://d.opencalais.com/pershash-1/d7ad3472-565b-3069-8373-ffe1954b6d0a>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Linda Shawn" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Linda" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Shawn" ;
+        c:name               "Linda Shawn" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Instance/20>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in death by her infant daughter, Theona Ging, ]her son, Ernest Ging[, two brothers, and four sisters. \t Florence is]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:exact      "her son, Ernest Ging" ;
+        c:length     "20" ;
+        c:offset     "1024" ;
+        c:prefix     "in death by her infant daughter, Theona Ging, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e5b5a17f-abbb-3cb1-87ce-4f46fda58a5f> ;
+        c:suffix     ", two brothers, and four sisters. \t Florence is" .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Relevance/20>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/38aa7fad-4ed8-3fe1-be54-5ec1c2efec9e> .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Instance/33>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[marriage to Ervin E. Ging at Hopeton, Oklahoma. ]She[ worked as a janitor for the school system and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "649" ;
+        c:prefix     "marriage to Ervin E. Ging at Hopeton, Oklahoma. " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b94c5ade-4d43-307b-841f-b9f90152870d> ;
+        c:suffix     " worked as a janitor for the school system and" .
+
+<http://d.opencalais.com/pershash-1/7614c63d-8bf9-355f-ab23-c23bb6e110d4>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Danny Ging" ;
+        c:confidencelevel    "0.983" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Danny Ging" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/cat/1>
+        a                    <http://s.opencalais.com/1/type/cat/DocCat> ;
+        c:docId              <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Human Interest" ;
+        c:score              "1.000" .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Instance/46>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[18, 1935, she was united in marriage to ]Ervin E. Ging[ at Hopeton, Oklahoma. She worked as a janitor]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:exact      "Ervin E. Ging" ;
+        c:length     "13" ;
+        c:offset     "613" ;
+        c:prefix     "18, 1935, she was united in marriage to " ;
+        c:subject    <http://d.opencalais.com/pershash-1/1dd59835-2736-3984-bcd6-97c4a9e54250> ;
+        c:suffix     " at Hopeton, Oklahoma. She worked as a janitor" .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Instance/18>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[was preceded in death by her infant daughter, ]Theona Ging[, her son, Ernest Ging, two brothers, and four]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:exact      "Theona Ging" ;
+        c:length     "11" ;
+        c:offset     "1011" ;
+        c:prefix     "was preceded in death by her infant daughter, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/37b39cd0-be40-3fb7-bb4f-1ef9aea29e43> ;
+        c:suffix     ", her son, Ernest Ging, two brothers, and four" .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Relevance/18>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/eeecf135-c855-310a-b43a-1807d23068d8> .
+
+<http://d.opencalais.com/conf/pershash-1/6ceb3306-b7a8-34a3-a62a-065a16d4f186>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.963" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.959" ;
+        c:subject             <http://d.opencalais.com/pershash-1/6ceb3306-b7a8-34a3-a62a-065a16d4f186> .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Instance/6>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[away in 2003. After his death she moved to ]Yukon[ for a couple of years and then to Enid for the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:exact      "Yukon" ;
+        c:length     "5" ;
+        c:offset     "851" ;
+        c:prefix     "away in 2003. After his death she moved to " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/2faac0a7-7ec5-3e13-89f0-cf19720f13be> ;
+        c:suffix     " for a couple of years and then to Enid for the" .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Instance/40>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and her husband, she was preceded in death by ]her[ infant daughter, Theona Ging, her son, Ernest]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "990" ;
+        c:prefix     "and her husband, she was preceded in death by " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b94c5ade-4d43-307b-841f-b9f90152870d> ;
+        c:suffix     " infant daughter, Theona Ging, her son, Ernest" .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Relevance/4>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/cf139f5d-e9ea-3189-ac67-dc82cdec546f> .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Instance/12>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[(Razey) Ging, daughter of the late George and ]Elvira Elizabeth[ (Lee) Razey, was born the youngest of seven]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:exact      "Elvira Elizabeth" ;
+        c:length     "16" ;
+        c:offset     "301" ;
+        c:prefix     "(Razey) Ging, daughter of the late George and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/20842283-0004-3531-8818-3fe48417c3a5> ;
+        c:suffix     " (Lee) Razey, was born the youngest of seven" .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/SocialTag/1>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Ging" ;
+        c:originalValue      "Ging (surname)" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/261c8244-2d12-3acd-8c9d-9ed84aa952e8> .
+
+<http://d.opencalais.com/conf/pershash-1/44dc24ec-0f6e-3f31-b44c-bf985741e867>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.957" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.959" ;
+        c:subject             <http://d.opencalais.com/pershash-1/44dc24ec-0f6e-3f31-b44c-bf985741e867> .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Instance/53>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[days. \t Florence grew up and attended school in ]Carmen[. On September 18, 1935, she was united in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:exact      "Carmen" ;
+        c:length     "6" ;
+        c:offset     "552" ;
+        c:prefix     "days. \t Florence grew up and attended school in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/bdb71b6e-283b-31a4-9aee-7620fbb431be> ;
+        c:suffix     ". On September 18, 1935, she was united in" .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Relevance/12>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Instance/25>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ children on June 3, 1919, on a farm near Carmen, ]Oklahoma[, and passed away on July 2, 2010, at Yukon,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "411" ;
+        c:prefix     " children on June 3, 1919, on a farm near Carmen, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", and passed away on July 2, 2010, at Yukon," .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Instance/38>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[the past three years. \t Besides her parents and ]her[ husband, she was preceded in death by her infant]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "948" ;
+        c:prefix     "the past three years. \t Besides her parents and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b94c5ade-4d43-307b-841f-b9f90152870d> ;
+        c:suffix     " husband, she was preceded in death by her infant" .
+
+<http://d.opencalais.com/pershash-1/eeecf135-c855-310a-b43a-1807d23068d8>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Ron Olson" ;
+        c:confidencelevel    "0.98" ;
+        c:firstname          "Ron" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Olson" ;
+        c:name               "Ron Olson" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/38aa7fad-4ed8-3fe1-be54-5ec1c2efec9e>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/38aa7fad-4ed8-3fe1-be54-5ec1c2efec9e> .
+
+<http://d.opencalais.com/genericHasher-1/bd398f0f-f6be-3a10-add2-80c938dccf66>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "grandchild" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/b94c5ade-4d43-307b-841f-b9f90152870d> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/38aa7fad-4ed8-3fe1-be54-5ec1c2efec9e> .
+
+<http://d.opencalais.com/pershash-1/20842283-0004-3531-8818-3fe48417c3a5>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Elvira Elizabeth" ;
+        c:confidencelevel    "0.995" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Elvira Elizabeth" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/pershash-1/b94c5ade-4d43-307b-841f-b9f90152870d>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Florence Adaline Ging" ;
+        c:confidencelevel    "0.994" ;
+        c:firstname          "Florence" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Ging" ;
+        c:middlename         "Adaline" ;
+        c:name               "Florence Adaline (Razey) Ging" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Instance/32>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[school in Carmen. On September 18, 1935, ]she[ was united in marriage to Ervin E. Ging at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "583" ;
+        c:prefix     "school in Carmen. On September 18, 1935, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b94c5ade-4d43-307b-841f-b9f90152870d> ;
+        c:suffix     " was united in marriage to Ervin E. Ging at" .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Instance/45>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ will be 11:00 a.m. Tuesday, July 6, 2010, at the ]Wentworth Chapel[ with Rev. Ron Olson officiating. Interment will]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:exact      "Wentworth Chapel" ;
+        c:length     "16" ;
+        c:offset     "84" ;
+        c:prefix     " will be 11:00 a.m. Tuesday, July 6, 2010, at the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/09d0eeba-1596-3d81-bd74-6e1a670543b9> ;
+        c:suffix     " with Rev. Ron Olson officiating. Interment will" .
+
+<http://d.opencalais.com/genericHasher-1/2faac0a7-7ec5-3e13-89f0-cf19720f13be>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Yukon" .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Relevance/9>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/37b39cd0-be40-3fb7-bb4f-1ef9aea29e43> .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847>
+        a                  <http://s.opencalais.com/1/type/sys/DocInfo> ;
+        c:calaisRequestID  "28e414e3-5e60-1ce4-14d9-14455f47848c" ;
+        c:docDate          "2015-05-26 17:28:04.605" ;
+        c:docTitle         "" ;
+        c:document         "Funeral services for Florence Ging will be 11:00 a.m. Tuesday, July 6, 2010, at the Wentworth Chapel with Rev. Ron Olson officiating. Interment will be in the Carmen City Cemetery under the direction of Wentworth Mortuary, LLC, Carmen. \t Florence Adaline (Razey) Ging, daughter of the late George and Elvira Elizabeth (Lee) Razey, was born the youngest of seven children on June 3, 1919, on a farm near Carmen, Oklahoma, and passed away on July 2, 2010, at Yukon, Oklahoma, at the age of 91 years and 29 days. \t Florence grew up and attended school in Carmen. On September 18, 1935, she was united in marriage to Ervin E. Ging at Hopeton, Oklahoma. She worked as a janitor for the school system and later worked at the Alfalfa County Sheriff?s Office. Florence was living in Cherokee when her husband passed away in 2003. After his death she moved to Yukon for a couple of years and then to Enid for the past three years. \t Besides her parents and her husband, she was preceded in death by her infant daughter, Theona Ging, her son, Ernest Ging, two brothers, and four sisters. \t Florence is survived by her grandchildren, Linda Shawn of Yukon, Danny Ging of Oklahoma City, and Jerry Ging of Bethany; four great grandchildren; one great great grandchild; other relatives and friends. \t Memorial contributions may be made through the funeral home to March of Dimes. \n\t\t\t" ;
+        c:id               "http://id.opencalais.com/mT9VZqPU1bo6YgPTqEBR8w" ;
+        c:ontology         "http://163.231.4.65/owlschema/8.3/onecalais.owl.allmetadata.xml" .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Instance/17>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Funeral services for ]Florence Ging[ will be 11:00 a.m. Tuesday, July 6, 2010, at the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:exact      "Florence Ging" ;
+        c:length     "13" ;
+        c:offset     "21" ;
+        c:prefix     "Funeral services for " ;
+        c:subject    <http://d.opencalais.com/pershash-1/2d47d66b-8272-3695-8b3e-5fa71a474782> ;
+        c:suffix     " will be 11:00 a.m. Tuesday, July 6, 2010, at the" .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/SocialTag/6>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "2" ;
+        c:name               "The Age of Adaline" ;
+        c:originalValue      "The Age of Adaline" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/01f2fa13-57af-396e-8f63-69a629123c0e> .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Instance/58>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of the late George and Elvira Elizabeth (]Lee[) Razey, was born the youngest of seven children]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:exact      "Lee" ;
+        c:length     "3" ;
+        c:offset     "319" ;
+        c:prefix     "of the late George and Elvira Elizabeth (" ;
+        c:subject    <http://d.opencalais.com/pershash-1/44dc24ec-0f6e-3f31-b44c-bf985741e867> ;
+        c:suffix     ") Razey, was born the youngest of seven children" .
+
+<http://d.opencalais.com/conf/comphash-1/a8ee0a81-b629-368a-b237-71a89306beec>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.615" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.834" ;
+        c:subject             <http://d.opencalais.com/comphash-1/a8ee0a81-b629-368a-b237-71a89306beec> .
+
+<http://d.opencalais.com/genericHasher-1/5b35f56e-ffad-3274-ab96-c00ce72fe3ab>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Oklahoma City" ;
+        c:person             <http://d.opencalais.com/pershash-1/7614c63d-8bf9-355f-ab23-c23bb6e110d4> .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Relevance/17>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/1dd59835-2736-3984-bcd6-97c4a9e54250> .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Instance/5>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Oklahoma, and passed away on July 2, 2010, at ]Yukon[, Oklahoma, at the age of 91 years and 29 days. \t]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:exact      "Yukon" ;
+        c:length     "5" ;
+        c:offset     "457" ;
+        c:prefix     "Oklahoma, and passed away on July 2, 2010, at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/2faac0a7-7ec5-3e13-89f0-cf19720f13be> ;
+        c:suffix     ", Oklahoma, at the age of 91 years and 29 days. \t" .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Relevance/3>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/2faac0a7-7ec5-3e13-89f0-cf19720f13be> .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Instance/11>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[by her grandchildren, Linda Shawn of Yukon, ]Danny Ging of Oklahoma City[, and Jerry Ging of Bethany; four great]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:exact      "Danny Ging of Oklahoma City" ;
+        c:length     "27" ;
+        c:offset     "1145" ;
+        c:prefix     "by her grandchildren, Linda Shawn of Yukon, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/09930889-15c6-34a6-a13e-b68b407a0c76> ;
+        c:suffix     ", and Jerry Ging of Bethany; four great" .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Instance/52>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[seven children on June 3, 1919, on a farm near ]Carmen[, Oklahoma, and passed away on July 2, 2010, at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:exact      "Carmen" ;
+        c:length     "6" ;
+        c:offset     "403" ;
+        c:prefix     "seven children on June 3, 1919, on a farm near " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/bdb71b6e-283b-31a4-9aee-7620fbb431be> ;
+        c:suffix     ", Oklahoma, and passed away on July 2, 2010, at" .
+
+<http://d.opencalais.com/genericHasher-1/bc8a6deb-5bf7-3cbc-a1d2-8b69b594c13f>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Hopeton" .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Relevance/11>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/bc8a6deb-5bf7-3cbc-a1d2-8b69b594c13f> .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Instance/24>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[she was united in marriage to Ervin E. Ging at ]Hopeton[, Oklahoma. She worked as a janitor for the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:exact      "Hopeton" ;
+        c:length     "7" ;
+        c:offset     "630" ;
+        c:prefix     "she was united in marriage to Ervin E. Ging at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/bc8a6deb-5bf7-3cbc-a1d2-8b69b594c13f> ;
+        c:suffix     ", Oklahoma. She worked as a janitor for the" .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Relevance/24>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/44dc24ec-0f6e-3f31-b44c-bf985741e867> .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Instance/37>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ then to Enid for the past three years. \t Besides ]her[ parents and her husband, she was preceded in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "932" ;
+        c:prefix     " then to Enid for the past three years. \t Besides " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b94c5ade-4d43-307b-841f-b9f90152870d> ;
+        c:suffix     " parents and her husband, she was preceded in" .
+
+<http://d.opencalais.com/pershash-1/1dd59835-2736-3984-bcd6-97c4a9e54250>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Ervin Ging" ;
+        c:confidencelevel    "0.963" ;
+        c:firstname          "Ervin" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Ging" ;
+        c:middlename         "E." ;
+        c:name               "Ervin E. Ging" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Instance/31>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Oklahoma, at the age of 91 years and 29 days. \t ]Florence[ grew up and attended school in Carmen. On]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:exact      "Florence" ;
+        c:length     "8" ;
+        c:offset     "512" ;
+        c:prefix     "Oklahoma, at the age of 91 years and 29 days. \t " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b94c5ade-4d43-307b-841f-b9f90152870d> ;
+        c:suffix     " grew up and attended school in Carmen. On" .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Instance/44>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[\t Florence is survived by her grandchildren, ]Linda Shawn of Yukon[, Danny Ging of Oklahoma City, and Jerry Ging of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:exact      "Linda Shawn of Yukon" ;
+        c:length     "20" ;
+        c:offset     "1123" ;
+        c:prefix     "\t Florence is survived by her grandchildren, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/76c839a2-86a9-3cae-9676-730ef7100443> ;
+        c:suffix     ", Danny Ging of Oklahoma City, and Jerry Ging of" .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Relevance/8>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/2d47d66b-8272-3695-8b3e-5fa71a474782> .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Instance/57>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[marriage to Ervin E. Ging at Hopeton, Oklahoma. ]She worked as a janitor[ for the school system and later worked at the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:exact      "She worked as a janitor" ;
+        c:length     "23" ;
+        c:offset     "649" ;
+        c:prefix     "marriage to Ervin E. Ging at Hopeton, Oklahoma. " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e111bd9e-c047-3391-8ab2-f1a361b50e63> ;
+        c:suffix     " for the school system and later worked at the" .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Instance/16>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of the late George and Elvira Elizabeth (Lee) ]Razey, was born the youngest of seven children on June 3, 1919, on a farm near Carmen, Oklahoma, and passed away on July 2, 2010, at Yukon, Oklahoma[, at the age of 91 years and 29 days. \t Florence]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:exact      "Razey, was born the youngest of seven children on June 3, 1919, on a farm near Carmen, Oklahoma, and passed away on July 2, 2010, at Yukon, Oklahoma" ;
+        c:length     "148" ;
+        c:offset     "324" ;
+        c:prefix     "of the late George and Elvira Elizabeth (Lee) " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/bbe426dc-45f4-3592-a05d-5ba8cdfdb6a0> ;
+        c:suffix     ", at the age of 91 years and 29 days. \t Florence" .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/SocialTag/5>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "2" ;
+        c:name               "Alfalfa County, Oklahoma" ;
+        c:originalValue      "Alfalfa County, Oklahoma" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/12ecbe3f-bedd-36aa-b22d-6b058d2b2657> .
+
+<http://d.opencalais.com/genericHasher-1/cf139f5d-e9ea-3189-ac67-dc82cdec546f>
+        a                    <http://s.opencalais.com/1/type/em/e/Position> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "janitor" .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Relevance/16>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/09d0eeba-1596-3d81-bd74-6e1a670543b9> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/a7ad4791-5e08-a908-a7ba-dbfca7dbe18f>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:latitude            "35.5067" ;
+        c:longitude           "-97.7622" ;
+        c:name                "Yukon,Oklahoma,United States" ;
+        c:shortname           "Yukon" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/2faac0a7-7ec5-3e13-89f0-cf19720f13be> .
+
+<http://d.opencalais.com/conf/pershash-1/37b39cd0-be40-3fb7-bb4f-1ef9aea29e43>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.972" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.972" ;
+        c:subject             <http://d.opencalais.com/pershash-1/37b39cd0-be40-3fb7-bb4f-1ef9aea29e43> .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Instance/29>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[direction of Wentworth Mortuary, LLC, Carmen. \t ]Florence Adaline (Razey) Ging[, daughter of the late George and Elvira]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:exact      "Florence Adaline (Razey) Ging" ;
+        c:length     "29" ;
+        c:offset     "238" ;
+        c:prefix     "direction of Wentworth Mortuary, LLC, Carmen. \t " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b94c5ade-4d43-307b-841f-b9f90152870d> ;
+        c:suffix     ", daughter of the late George and Elvira" .
+
+<http://d.opencalais.com/conf/pershash-1/f56edb10-1ee6-3748-a244-99d964444fa0>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.993" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.995" ;
+        c:subject             <http://d.opencalais.com/pershash-1/f56edb10-1ee6-3748-a244-99d964444fa0> .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Instance/4>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[the Carmen City Cemetery under the direction of ]Wentworth Mortuary, LLC[, Carmen. \t Florence Adaline (Razey) Ging,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:exact      "Wentworth Mortuary, LLC" ;
+        c:length     "23" ;
+        c:offset     "203" ;
+        c:prefix     "the Carmen City Cemetery under the direction of " ;
+        c:subject    <http://d.opencalais.com/comphash-1/a8ee0a81-b629-368a-b237-71a89306beec> ;
+        c:suffix     ", Carmen. \t Florence Adaline (Razey) Ging," .
+
+<http://d.opencalais.com/conf/pershash-1/2d47d66b-8272-3695-8b3e-5fa71a474782>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/2d47d66b-8272-3695-8b3e-5fa71a474782> .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Relevance/2>
+        a                <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId          <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:relevance      "0.8" ;
+        c:relevancecont  "0.67" ;
+        c:subject        <http://d.opencalais.com/comphash-1/a8ee0a81-b629-368a-b237-71a89306beec> .
+
+<http://d.opencalais.com/pershash-1/6ceb3306-b7a8-34a3-a62a-065a16d4f186>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "George Razey" ;
+        c:confidencelevel    "0.963" ;
+        c:firstname          "Elvira" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Razey" ;
+        c:middlename         "Elizabeth" ;
+        c:name               "George Razey" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Instance/10>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[\t Florence is survived by her grandchildren, ]Linda Shawn of Yukon[, Danny Ging of Oklahoma City, and Jerry Ging of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:exact      "Linda Shawn of Yukon" ;
+        c:length     "20" ;
+        c:offset     "1123" ;
+        c:prefix     "\t Florence is survived by her grandchildren, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/d9b49e64-90ab-3ce5-833a-3ca93abf6aff> ;
+        c:suffix     ", Danny Ging of Oklahoma City, and Jerry Ging of" .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Instance/51>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[under the direction of Wentworth Mortuary, LLC, ]Carmen[. \t Florence Adaline (Razey) Ging, daughter of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:exact      "Carmen" ;
+        c:length     "6" ;
+        c:offset     "228" ;
+        c:prefix     "under the direction of Wentworth Mortuary, LLC, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/bdb71b6e-283b-31a4-9aee-7620fbb431be> ;
+        c:suffix     ". \t Florence Adaline (Razey) Ging, daughter of" .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Relevance/10>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b8620f48-da64-3b29-b094-f0b9edcda36f> .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Instance/23>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Linda Shawn of Yukon, Danny Ging of ]Oklahoma City[, and Jerry Ging of Bethany; four great]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:exact      "Oklahoma City" ;
+        c:length     "13" ;
+        c:offset     "1159" ;
+        c:prefix     "Linda Shawn of Yukon, Danny Ging of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b8620f48-da64-3b29-b094-f0b9edcda36f> ;
+        c:suffix     ", and Jerry Ging of Bethany; four great" .
+
+<http://d.opencalais.com/pershash-1/44dc24ec-0f6e-3f31-b44c-bf985741e867>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Elvira Elizabeth Razey" ;
+        c:confidencelevel    "0.957" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Elvira Elizabeth (Lee) Razey" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Relevance/23>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/7614c63d-8bf9-355f-ab23-c23bb6e110d4> .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Instance/36>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ her husband passed away in 2003. After his death ]she[ moved to Yukon for a couple of years and then to]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "838" ;
+        c:prefix     " her husband passed away in 2003. After his death " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b94c5ade-4d43-307b-841f-b9f90152870d> ;
+        c:suffix     " moved to Yukon for a couple of years and then to" .
+
+<http://d.opencalais.com/genericHasher-1/0627108e-2bc7-3a6e-a122-4598a226b9be>
+        a                      <http://s.opencalais.com/1/type/em/r/CompanyLocation> ;
+        c:city                 <http://d.opencalais.com/genericHasher-1/bdb71b6e-283b-31a4-9aee-7620fbb431be> ;
+        c:company              <http://d.opencalais.com/comphash-1/a8ee0a81-b629-368a-b237-71a89306beec> ;
+        c:companylocationtype  "N/A" ;
+        c:forenduserdisplay    "true" .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Instance/49>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[18, 1935, she was united in marriage to ]Ervin E. Ging at Hopeton, Oklahoma[. She worked as a janitor for the school system]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:exact      "Ervin E. Ging at Hopeton, Oklahoma" ;
+        c:length     "34" ;
+        c:offset     "613" ;
+        c:prefix     "18, 1935, she was united in marriage to " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/488b09db-0bfc-3565-a270-e60db3606641> ;
+        c:suffix     ". She worked as a janitor for the school system" .
+
+<http://d.opencalais.com/genericHasher-1/76c839a2-86a9-3cae-9676-730ef7100443>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "grandchild" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/b94c5ade-4d43-307b-841f-b9f90152870d> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/d7ad3472-565b-3069-8373-ffe1954b6d0a> .
+
+<http://d.opencalais.com/genericHasher-1/cee58bb6-26b0-3a16-9468-a232b50ed857>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "s Office" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "governmental civilian" .
+
+<http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee>
+        a                    <http://s.opencalais.com/1/type/em/e/IndustryTerm> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Funeral services" .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/meta>
+        a                 <http://s.opencalais.com/1/type/sys/DocInfoMeta> ;
+        c:contentType     "text/raw" ;
+        c:docId           <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:language        "English" ;
+        c:processingVer   "AllMetadata" ;
+        c:serverVersion   "OneCalais_8.3-RELEASE:364" ;
+        c:signature       "digestalg-1|TTMu4k/NEnf4rwoyDljf+9rc5Tg=|jx3vVCWnSVGwHYcP9IQ1cNLKe5CHRkKFZZroTSL7fxnMAyIi9mT6cw==" ;
+        c:stagsVer        "OneCalais_8.3-RELEASE-b11-2015-03-25_18:29:00" ;
+        c:submissionDate  "2015-05-26 17:28:04.340" ;
+        c:submitterCode   "0ca6a864-5659-789d-5f32-f365f695e757" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/f24ef023-f5ce-f4ba-d403-af6634f7297d>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:latitude            "35.4675" ;
+        c:longitude           "-97.5161" ;
+        c:name                "Oklahoma City,Oklahoma,United States" ;
+        c:rcscode             "G:2BF" ;
+        c:shortname           "Oklahoma City" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/b8620f48-da64-3b29-b094-f0b9edcda36f> .
+
+<http://d.opencalais.com/pershash-1/38aa7fad-4ed8-3fe1-be54-5ec1c2efec9e>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Jerry Ging" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Jerry" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Ging" ;
+        c:name               "Jerry Ging" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Instance/30>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of the late George and Elvira Elizabeth (Lee) ]Razey[, was born the youngest of seven children on June]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:exact      "Razey" ;
+        c:length     "5" ;
+        c:offset     "324" ;
+        c:prefix     "of the late George and Elvira Elizabeth (Lee) " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b94c5ade-4d43-307b-841f-b9f90152870d> ;
+        c:suffix     ", was born the youngest of seven children on June" .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Instance/9>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[E. Ging at Hopeton, Oklahoma. She worked as ]a janitor[ for the school system and later worked at the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:exact      "a janitor" ;
+        c:length     "9" ;
+        c:offset     "663" ;
+        c:prefix     "E. Ging at Hopeton, Oklahoma. She worked as " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/cf139f5d-e9ea-3189-ac67-dc82cdec546f> ;
+        c:suffix     " for the school system and later worked at the" .
+
+<http://d.opencalais.com/genericHasher-1/b0bccdbc-77bc-3ae4-b8b7-027b371a2472>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "daughter" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/b94c5ade-4d43-307b-841f-b9f90152870d> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/37b39cd0-be40-3fb7-bb4f-1ef9aea29e43> .
+
+<http://d.opencalais.com/genericHasher-1/488b09db-0bfc-3565-a270-e60db3606641>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Hopeton" ;
+        c:person             <http://d.opencalais.com/pershash-1/1dd59835-2736-3984-bcd6-97c4a9e54250> .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Instance/43>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[by her infant daughter, Theona Ging, her son, ]Ernest Ging[, two brothers, and four sisters. \t Florence is]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:exact      "Ernest Ging" ;
+        c:length     "11" ;
+        c:offset     "1033" ;
+        c:prefix     "by her infant daughter, Theona Ging, her son, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f56edb10-1ee6-3748-a244-99d964444fa0> ;
+        c:suffix     ", two brothers, and four sisters. \t Florence is" .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Relevance/7>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/6ceb3306-b7a8-34a3-a62a-065a16d4f186> .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Instance/15>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[when her husband passed away in 2003. After ]his[ death she moved to Yukon for a couple of years]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "828" ;
+        c:prefix     "when her husband passed away in 2003. After " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6ceb3306-b7a8-34a3-a62a-065a16d4f186> ;
+        c:suffix     " death she moved to Yukon for a couple of years" .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/SocialTag/4>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "2" ;
+        c:name               "Carmen, Oklahoma" ;
+        c:originalValue      "Carmen, Oklahoma" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/aec227c0-97b3-3880-8005-d485cec7d612> .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Instance/56>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and her husband, she was preceded in death by ]her infant daughter, Theona Ging[, her son, Ernest Ging, two brothers, and four]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:exact      "her infant daughter, Theona Ging" ;
+        c:length     "32" ;
+        c:offset     "990" ;
+        c:prefix     "and her husband, she was preceded in death by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b0bccdbc-77bc-3ae4-b8b7-027b371a2472> ;
+        c:suffix     ", her son, Ernest Ging, two brothers, and four" .
+
+<http://d.opencalais.com/genericHasher-1/bdb71b6e-283b-31a4-9aee-7620fbb431be>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Carmen" .
+
+<http://d.opencalais.com/genericHasher-1/d9b49e64-90ab-3ce5-833a-3ca93abf6aff>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Yukon" ;
+        c:person             <http://d.opencalais.com/pershash-1/d7ad3472-565b-3069-8373-ffe1954b6d0a> .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Relevance/15>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/f56edb10-1ee6-3748-a244-99d964444fa0> .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Instance/28>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Ron Olson officiating. Interment will be in the ]Carmen City Cemetery[ under the direction of Wentworth Mortuary, LLC,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:exact      "Carmen City Cemetery" ;
+        c:length     "20" ;
+        c:offset     "159" ;
+        c:prefix     "Ron Olson officiating. Interment will be in the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/52f06da9-a2d1-3490-aa54-9f8b91e94324> ;
+        c:suffix     " under the direction of Wentworth Mortuary, LLC," .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Instance/3>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ will be 11:00 a.m. Tuesday, July 6, 2010, at the ]Wentworth[ Chapel with Rev. Ron Olson officiating.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:exact      "Wentworth" ;
+        c:length     "9" ;
+        c:offset     "84" ;
+        c:prefix     " will be 11:00 a.m. Tuesday, July 6, 2010, at the " ;
+        c:subject    <http://d.opencalais.com/comphash-1/a8ee0a81-b629-368a-b237-71a89306beec> ;
+        c:suffix     " Chapel with Rev. Ron Olson officiating." .
+
+<http://d.opencalais.com/comphash-1/a8ee0a81-b629-368a-b237-71a89306beec>
+        a                    <http://s.opencalais.com/1/type/em/e/Company> ;
+        c:confidencelevel    "0.615" ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Wentworth Mortuary LLC" ;
+        c:nationality        "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/d7ad3472-565b-3069-8373-ffe1954b6d0a>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/d7ad3472-565b-3069-8373-ffe1954b6d0a> .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Relevance/1>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/d7ad3472-565b-3069-8373-ffe1954b6d0a> .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Instance/50>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Shawn of Yukon, Danny Ging of Oklahoma City, and ]Jerry Ging[ of Bethany; four great grandchildren; one great]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:exact      "Jerry Ging" ;
+        c:length     "10" ;
+        c:offset     "1178" ;
+        c:prefix     " Shawn of Yukon, Danny Ging of Oklahoma City, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/38aa7fad-4ed8-3fe1-be54-5ec1c2efec9e> ;
+        c:suffix     " of Bethany; four great grandchildren; one great" .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Instance/22>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[by her grandchildren, Linda Shawn of Yukon, ]Danny Ging of Oklahoma City[, and Jerry Ging of Bethany; four great]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:exact      "Danny Ging of Oklahoma City" ;
+        c:length     "27" ;
+        c:offset     "1145" ;
+        c:prefix     "by her grandchildren, Linda Shawn of Yukon, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/5b35f56e-ffad-3274-ab96-c00ce72fe3ab> ;
+        c:suffix     ", and Jerry Ging of Bethany; four great" .
+
+<http://d.opencalais.com/conf/pershash-1/7614c63d-8bf9-355f-ab23-c23bb6e110d4>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.983" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.99" ;
+        c:subject             <http://d.opencalais.com/pershash-1/7614c63d-8bf9-355f-ab23-c23bb6e110d4> .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Relevance/22>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a5383a94-309d-344b-8ac4-c77943b59e5e> .
+
+<http://d.opencalais.com/genericHasher-1/52f06da9-a2d1-3490-aa54-9f8b91e94324>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Carmen City Cemetery" .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Instance/35>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Office. Florence was living in Cherokee when ]her[ husband passed away in 2003. After his death she]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "789" ;
+        c:prefix     "Office. Florence was living in Cherokee when " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b94c5ade-4d43-307b-841f-b9f90152870d> ;
+        c:suffix     " husband passed away in 2003. After his death she" .
+
+<http://d.opencalais.com/genericHasher-1/09930889-15c6-34a6-a13e-b68b407a0c76>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "grandchild" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/b94c5ade-4d43-307b-841f-b9f90152870d> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/7614c63d-8bf9-355f-ab23-c23bb6e110d4> .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Instance/48>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and later worked at the Alfalfa County Sheriff?]s Office[. Florence was living in Cherokee when her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:exact      "s Office" ;
+        c:length     "8" ;
+        c:offset     "742" ;
+        c:prefix     "and later worked at the Alfalfa County Sheriff?" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/cee58bb6-26b0-3a16-9468-a232b50ed857> ;
+        c:suffix     ". Florence was living in Cherokee when her" .
+
+<http://d.opencalais.com/genericHasher-1/e111bd9e-c047-3391-8ab2-f1a361b50e63>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:forenduserdisplay  "true" ;
+        c:person             <http://d.opencalais.com/pershash-1/b94c5ade-4d43-307b-841f-b9f90152870d> ;
+        c:position           "janitor" ;
+        c:status             "past" .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Instance/8>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Shawn of Yukon, Danny Ging of Oklahoma City, and ]Jerry Ging[ of Bethany; four great grandchildren; one great]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:exact      "Jerry Ging" ;
+        c:length     "10" ;
+        c:offset     "1178" ;
+        c:prefix     " Shawn of Yukon, Danny Ging of Oklahoma City, and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/bd398f0f-f6be-3a10-add2-80c938dccf66> ;
+        c:suffix     " of Bethany; four great grandchildren; one great" .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Instance/42>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and four sisters. \t Florence is survived by ]her[ grandchildren, Linda Shawn of Yukon, Danny Ging]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1104" ;
+        c:prefix     "and four sisters. \t Florence is survived by " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b94c5ade-4d43-307b-841f-b9f90152870d> ;
+        c:suffix     " grandchildren, Linda Shawn of Yukon, Danny Ging" .
+
+<http://d.opencalais.com/genericHasher-1/e5b5a17f-abbb-3cb1-87ce-4f46fda58a5f>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "son" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/37b39cd0-be40-3fb7-bb4f-1ef9aea29e43> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/f56edb10-1ee6-3748-a244-99d964444fa0> .
+
+<http://d.opencalais.com/genericHasher-1/bbe426dc-45f4-3592-a05d-5ba8cdfdb6a0>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Yukon, Oklahoma" ;
+        c:person             <http://d.opencalais.com/pershash-1/b94c5ade-4d43-307b-841f-b9f90152870d> .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Instance/14>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Adaline (Razey) Ging, daughter of the late ]George[ and Elvira Elizabeth (Lee) Razey, was born the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:exact      "George" ;
+        c:length     "6" ;
+        c:offset     "290" ;
+        c:prefix     "Adaline (Razey) Ging, daughter of the late " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6ceb3306-b7a8-34a3-a62a-065a16d4f186> ;
+        c:suffix     " and Elvira Elizabeth (Lee) Razey, was born the" .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/lid/DefaultLangId>
+        a                    <http://s.opencalais.com/1/type/lid/DefaultLangId> ;
+        c:docId              <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:forenduserdisplay  "false" ;
+        c:lang               <http://d.opencalais.com/lid/DefaultLangId/English> ;
+        c:permid             "505062" .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Relevance/6>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee> .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/e9e27c26-4013-8712-a5f0-97dcdc412c26>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:latitude            "35.5607802899" ;
+        c:longitude           "-96.8460570462" ;
+        c:name                "Oklahoma,United States" ;
+        c:permid              "100229" ;
+        c:rcscode             "G:9H" ;
+        c:shortname           "Oklahoma" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/SocialTag/3>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Theona" ;
+        c:originalValue      "Theona" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/01606263-41ac-386f-89e2-fd2b38f13102> .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/ComponentVersions>
+        a          <http://s.opencalais.com/1/type/sys/ComponentVersions> ;
+        c:docId    <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:version  "config-physicalAssets-ports:258:258" , "config-vessels:258:258" , "index-vessels:201505231718:201505231718" , "SpanishIM:OneCalais_8.3-RELEASE:198" , "NextTags:OneCalais_8.3-RELEASE:113" , "Deals Index:201505261613:201505261613" , "WatchDog:OneCalais_8.3-RELEASE:113" , "SECHeaderMetadataIM:OneCalais_8.3-RELEASE:198" , "Housekeeper:OneCalais_8.3-RELEASE:113" , "People Override:258:258" , "OneCalaisIM:OneCalais_8.3-RELEASE:198" , "FrenchIM:OneCalais_8.3-RELEASE:198" , "Collector:OneCalais_8.3-RELEASE:113" , "com.clearforest.infoext.dial4j.plugins-basistechconfig:OneCalais_8.3-RELEASE:225" , "config-sca-DataPackage:34:34" , "People Index:201505261608:201505261608" , "OA Index:201505252208:201505252208" , "config-negativeSignature:258:258" , "config-drugs:258:258" , "OA Override:271:271" , "Dial4J:OneCalais_8.3-RELEASE:198" , "AutocoderRuntimeIM:OneCalais_8.3-RELEASE:198" , "BlackList:264:264" , "config-cse:271:271" , "SocialTags Index:201505191038:201505191038" , "OneCalais:OneCalais_8.3-RELEASE:364" , "BrokerResearchIM:OneCalais_8.3-RELEASE:198" , "config-refineries:258:258" .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Instance/55>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[by her grandchildren, Linda Shawn of Yukon, ]Danny Ging[ of Oklahoma City, and Jerry Ging of Bethany;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:exact      "Danny Ging" ;
+        c:length     "10" ;
+        c:offset     "1145" ;
+        c:prefix     "by her grandchildren, Linda Shawn of Yukon, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/7614c63d-8bf9-355f-ab23-c23bb6e110d4> ;
+        c:suffix     " of Oklahoma City, and Jerry Ging of Bethany;" .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Relevance/14>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/b94c5ade-4d43-307b-841f-b9f90152870d> .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Instance/27>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[united in marriage to Ervin E. Ging at Hopeton, ]Oklahoma[. She worked as a janitor for the school system]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "639" ;
+        c:prefix     "united in marriage to Ervin E. Ging at Hopeton, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ". She worked as a janitor for the school system" .
+
+<http://d.opencalais.com/conf/pershash-1/eeecf135-c855-310a-b43a-1807d23068d8>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.98" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/eeecf135-c855-310a-b43a-1807d23068d8> .
+
+<http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847/Instance/2>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[\t Florence is survived by her grandchildren, ]Linda Shawn[ of Yukon, Danny Ging of Oklahoma City, and Jerry]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:exact      "Linda Shawn" ;
+        c:length     "11" ;
+        c:offset     "1123" ;
+        c:prefix     "\t Florence is survived by her grandchildren, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/d7ad3472-565b-3069-8373-ffe1954b6d0a> ;
+        c:suffix     " of Yukon, Danny Ging of Oklahoma City, and Jerry" .
+
+<http://d.opencalais.com/pershash-1/37b39cd0-be40-3fb7-bb4f-1ef9aea29e43>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Theona Ging" ;
+        c:confidencelevel    "0.972" ;
+        c:firstname          "Theona" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Ging" ;
+        c:name               "Theona Ging" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/20842283-0004-3531-8818-3fe48417c3a5>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.995" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/2636f92a-6205-33b3-abf3-559ddec94847> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.997" ;
+        c:subject             <http://d.opencalais.com/pershash-1/20842283-0004-3531-8818-3fe48417c3a5> .
+
+<http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oklahoma" .
+
+<http://d.opencalais.com/pershash-1/f56edb10-1ee6-3748-a244-99d964444fa0>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Ernest Ging" ;
+        c:confidencelevel    "0.993" ;
+        c:firstname          "Ernest" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Ging" ;
+        c:name               "Ernest Ging" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .

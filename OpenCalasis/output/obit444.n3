@@ -1,0 +1,948 @@
+#Relations: PersonAttributes, PersonLocation, PersonTravel
+#City: Enid, Hayesville, Haysville, Las Vegas
+#Company: Waynoka LLC
+#Facility: Bereavement Camp, Hospice Care, Marshall Funeral Home of Waynoka, Waynoka Municipal Cemetery
+#Organization: Waynoka Church of God
+#Person: Ethel Lucille (Bartlett) McGolden, Floyd Raymond, Floyd Raymond McGolden, Floyd Raymond McGolden , Jr., Ken Higgins, Mary Ethel McGolden
+#ProvinceOrState: Kansas, Oklahoma
+@prefix c:     <http://s.opencalais.com/1/pred/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://d.opencalais.com/pershash-1/f8b9666d-c9ef-304a-8128-84edfe22b8aa>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Floyd Raymond McGolden" ;
+        c:confidencelevel    "0.988" ;
+        c:firstname          "Floyd" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "McGolden" ;
+        c:middlename         "Raymond" ;
+        c:name               "Floyd Raymond McGolden" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95/Instance/32>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[to Hospice Care of Kansas for the Children?s ]Bereavement Camp[. \n\t\t\t]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:exact      "Bereavement Camp" ;
+        c:length     "16" ;
+        c:offset     "1021" ;
+        c:prefix     "to Hospice Care of Kansas for the Children?s " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/7a8a21e4-f8b0-30cb-a7e6-fc91528e2974> ;
+        c:suffix     ". \n\t\t\t" .
+
+<http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95/Relevance/18>
+        a                <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId          <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:relevance      "0.8" ;
+        c:relevancecont  "0.78" ;
+        c:subject        <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> .
+
+<http://d.opencalais.com/genericHasher-1/f1472554-9736-36e3-bf3f-af8f430d4815>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Haysville, Kansas" ;
+        c:person             <http://d.opencalais.com/pershash-1/ff9d2b17-8ed6-3cd5-bcda-a00c6d433d02> .
+
+<http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95/Relevance/9>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b451ae11-60ad-3ff6-8e32-839668223dec> .
+
+<http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95/Instance/17>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[going to Las Vegas.  \nBesides his parents, ]he[ was preceded in death by one sister, Mary Ethel]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:exact      "he" ;
+        c:length     "2" ;
+        c:offset     "813" ;
+        c:prefix     "going to Las Vegas.  \nBesides his parents, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/ff9d2b17-8ed6-3cd5-bcda-a00c6d433d02> ;
+        c:suffix     " was preceded in death by one sister, Mary Ethel" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/9abed97f-1f19-0004-aee6-0a06b0289f38>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:latitude            "36.3956" ;
+        c:longitude           "-97.8781" ;
+        c:name                "Enid,Oklahoma,United States" ;
+        c:shortname           "Enid" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/35a979c1-2108-3761-99bd-8c6f499ef6f2> .
+
+<http://d.opencalais.com/genericHasher-1/c960096a-c52e-3cf1-9ef3-a4a18889d7c9>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Waynoka Municipal Cemetery" .
+
+<http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95/Relevance/3>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/35a979c1-2108-3761-99bd-8c6f499ef6f2> .
+
+<http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95/Relevance/12>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c960096a-c52e-3cf1-9ef3-a4a18889d7c9> .
+
+<http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95/Instance/11>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Kansas with the Class of 1965.   He lived with ]his[ family in Enid and Wichita before moving to]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "615" ;
+        c:prefix     "Kansas with the Class of 1965.   He lived with " ;
+        c:subject    <http://d.opencalais.com/pershash-1/ff9d2b17-8ed6-3cd5-bcda-a00c6d433d02> ;
+        c:suffix     " family in Enid and Wichita before moving to" .
+
+<http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95/Instance/6>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[McGolden, son of the late Floyd Raymond and ]Ethel Lucille (Bartlett) McGolden, was born July 25, 1947, in Enid, Oklahoma[, and passed away December 31, 2009, at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:exact      "Ethel Lucille (Bartlett) McGolden, was born July 25, 1947, in Enid, Oklahoma" ;
+        c:length     "76" ;
+        c:offset     "337" ;
+        c:prefix     "McGolden, son of the late Floyd Raymond and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a8fb6dbc-8e4c-31a8-80c2-0f881ab2a42f> ;
+        c:suffix     ", and passed away December 31, 2009, at" .
+
+<http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95/Instance/24>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[may be made through the funeral home to ]Hospice Care[ of Kansas for the Children?s Bereavement Camp.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:exact      "Hospice Care" ;
+        c:length     "12" ;
+        c:offset     "979" ;
+        c:prefix     "may be made through the funeral home to " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b451ae11-60ad-3ff6-8e32-839668223dec> ;
+        c:suffix     " of Kansas for the Children?s Bereavement Camp." .
+
+<http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Kansas" .
+
+<http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95/Instance/37>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[be 1:00 p.m. Tuesday, January 5, 2009, at the ]Waynoka[ Municipal Cemetery with Rev. Ken Higgins, pastor]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:exact      "Waynoka" ;
+        c:length     "7" ;
+        c:offset     "102" ;
+        c:prefix     "be 1:00 p.m. Tuesday, January 5, 2009, at the " ;
+        c:subject    <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:suffix     " Municipal Cemetery with Rev. Ken Higgins, pastor" .
+
+<http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95>
+        a                  <http://s.opencalais.com/1/type/sys/DocInfo> ;
+        c:calaisRequestID  "fb273f6c-1a97-e57a-14d9-13fe7226fa60" ;
+        c:docDate          "2015-05-26 17:23:14.046" ;
+        c:docTitle         "" ;
+        c:document         "Graveside services for Floyd Raymond McGolden, Jr. will be 1:00 p.m. Tuesday, January 5, 2009, at the Waynoka Municipal Cemetery with Rev. Ken Higgins, pastor of the Waynoka Church of God officiating.  Interment is under the direction of Marshall Funeral Home of Waynoka, LLC.  \nFloyd Raymond McGolden, son of the late Floyd Raymond and Ethel Lucille (Bartlett) McGolden, was born July 25, 1947, in Enid, Oklahoma, and passed away December 31, 2009, at Haysville, Kansas, at the age of 62 years, 5 months, and 4 days.  \nFloyd graduated from high school at Hayesville, Kansas with the Class of 1965.   He lived with his family in Enid and Wichita before moving to Haysville, where he lived most of his life.  He worked as a machinist at Chance Manufacturing.  He enjoyed going to Las Vegas.  \nBesides his parents, he was preceded in death by one sister, Mary Ethel McGolden.  \nFloyd is survived by several cousins.  \nMemorial contributions may be made through the funeral home to Hospice Care of Kansas for the Children?s Bereavement Camp. \n\t\t\t" ;
+        c:id               "http://id.opencalais.com/jUsGdXJvaU4FXsVse4vGeA" ;
+        c:ontology         "http://163.231.4.65/owlschema/8.3/onecalais.owl.allmetadata.xml" .
+
+<http://d.opencalais.com/pershash-1/5ea0f4d8-2356-37f4-b97e-c2a86f5283d0>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Floyd Raymond McGolden Jr." ;
+        c:confidencelevel    "0.999" ;
+        c:firstname          "Floyd" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "McGolden" ;
+        c:middlename         "Raymond" ;
+        c:name               "Floyd Raymond McGolden , Jr." ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95/SocialTag/4>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "2" ;
+        c:name               "Floyd" ;
+        c:originalValue      "Floyd (surname)" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/af00697d-3aba-38c5-aba1-7e5d78e0b232> .
+
+<http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95/Instance/31>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ a machinist at Chance Manufacturing.  He enjoyed ]going to Las Vegas[.  \nBesides his parents, he was preceded in death]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:exact      "going to Las Vegas" ;
+        c:length     "18" ;
+        c:offset     "770" ;
+        c:prefix     " a machinist at Chance Manufacturing.  He enjoyed " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a918d7f5-c940-3842-9349-bb0e635eca10> ;
+        c:suffix     ".  \nBesides his parents, he was preceded in death" .
+
+<http://d.opencalais.com/genericHasher-1/c1606f74-13fe-3186-8084-3f5c1c466e4e>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Waynoka Church of God" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/b451ae11-60ad-3ff6-8e32-839668223dec>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Hospice Care" .
+
+<http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95/Relevance/8>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/5ea0f4d8-2356-37f4-b97e-c2a86f5283d0> .
+
+<http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95/Relevance/17>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/67c4a83b-9c44-32ad-b381-f9038b581f7a> .
+
+<http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95/Instance/16>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ He enjoyed going to Las Vegas.  \nBesides ]his[ parents, he was preceded in death by one sister,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "800" ;
+        c:prefix     " He enjoyed going to Las Vegas.  \nBesides " ;
+        c:subject    <http://d.opencalais.com/pershash-1/ff9d2b17-8ed6-3cd5-bcda-a00c6d433d02> ;
+        c:suffix     " parents, he was preceded in death by one sister," .
+
+<http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95/Instance/29>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[4 days.  \nFloyd graduated from high school at ]Hayesville[, Kansas with the Class of 1965.   He lived with]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:exact      "Hayesville" ;
+        c:length     "10" ;
+        c:offset     "556" ;
+        c:prefix     "4 days.  \nFloyd graduated from high school at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/72abef21-04e4-394f-b7a8-cc8953b82a8b> ;
+        c:suffix     ", Kansas with the Class of 1965.   He lived with" .
+
+<http://d.opencalais.com/pershash-1/d1aebe5b-c35b-3d03-b375-e917c4be9c7c>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Ken Higgins" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Ken" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Higgins" ;
+        c:name               "Ken Higgins" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/pershash-1/67c4a83b-9c44-32ad-b381-f9038b581f7a>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Mary Ethel McGolden" ;
+        c:confidencelevel    "0.994" ;
+        c:firstname          "Mary" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "McGolden" ;
+        c:middlename         "Ethel" ;
+        c:name               "Mary Ethel McGolden" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95/Relevance/2>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/68b3995c-a367-3369-83d5-d33266e60fde> .
+
+<http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95/Relevance/11>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c1606f74-13fe-3186-8084-3f5c1c466e4e> .
+
+<http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95/Instance/10>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[at Hayesville, Kansas with the Class of 1965.   ]He[ lived with his family in Enid and Wichita before]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:exact      "He" ;
+        c:length     "2" ;
+        c:offset     "601" ;
+        c:prefix     "at Hayesville, Kansas with the Class of 1965.   " ;
+        c:subject    <http://d.opencalais.com/pershash-1/ff9d2b17-8ed6-3cd5-bcda-a00c6d433d02> ;
+        c:suffix     " lived with his family in Enid and Wichita before" .
+
+<http://d.opencalais.com/conf/comphash-1/e6417933-98e8-365f-8f80-b92f05707205>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.765" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:resolution          "0.05522651" ;
+        c:statisticalfeature  "0.853" ;
+        c:subject             <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/2f8d8b25-2824-1d1e-4fab-b0622af2ff24>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Kansas" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:latitude            "37.5644" ;
+        c:longitude           "-97.3519" ;
+        c:name                "Haysville,Kansas,United States" ;
+        c:shortname           "Haysville" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/68b3995c-a367-3369-83d5-d33266e60fde> .
+
+<http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95/Instance/5>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ the Class of 1965.   He lived with his family in ]Enid[ and Wichita before moving to Haysville, where he]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:exact      "Enid" ;
+        c:length     "4" ;
+        c:offset     "629" ;
+        c:prefix     " the Class of 1965.   He lived with his family in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/35a979c1-2108-3761-99bd-8c6f499ef6f2> ;
+        c:suffix     " and Wichita before moving to Haysville, where he" .
+
+<http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95/Instance/23>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Graveside services for ]Floyd Raymond McGolden, Jr.[ will be 1:00 p.m. Tuesday, January 5, 2009, at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:exact      "Floyd Raymond McGolden, Jr." ;
+        c:length     "27" ;
+        c:offset     "23" ;
+        c:prefix     "Graveside services for " ;
+        c:subject    <http://d.opencalais.com/pershash-1/5ea0f4d8-2356-37f4-b97e-c2a86f5283d0> ;
+        c:suffix     " will be 1:00 p.m. Tuesday, January 5, 2009, at" .
+
+<http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95/Instance/36>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ parents, he was preceded in death by one sister, ]Mary Ethel McGolden[.  \nFloyd is survived by several cousins. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:exact      "Mary Ethel McGolden" ;
+        c:length     "19" ;
+        c:offset     "853" ;
+        c:prefix     " parents, he was preceded in death by one sister, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/67c4a83b-9c44-32ad-b381-f9038b581f7a> ;
+        c:suffix     ".  \nFloyd is survived by several cousins. " .
+
+<http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95/SocialTag/3>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Funeral" ;
+        c:originalValue      "Funeral" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/9dea56b7-f6f2-38b2-a804-b7dc5bdd4646> .
+
+<http://d.opencalais.com/conf/pershash-1/ff9d2b17-8ed6-3cd5-bcda-a00c6d433d02>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.97" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.984" ;
+        c:subject             <http://d.opencalais.com/pershash-1/ff9d2b17-8ed6-3cd5-bcda-a00c6d433d02> .
+
+<http://d.opencalais.com/genericHasher-1/74bedf45-09a4-371a-8090-6776d1276c1a>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Las Vegas" .
+
+<http://d.opencalais.com/genericHasher-1/72abef21-04e4-394f-b7a8-cc8953b82a8b>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Hayesville" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/c4dfaff1-af8c-0f92-ec4e-3b7af88d5ab4>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Nevada" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:latitude            "36.175" ;
+        c:longitude           "-115.1364" ;
+        c:name                "Las Vegas,Nevada,United States" ;
+        c:rcscode             "G:2DT" ;
+        c:shortname           "Las Vegas" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/74bedf45-09a4-371a-8090-6776d1276c1a> .
+
+<http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95/meta>
+        a                 <http://s.opencalais.com/1/type/sys/DocInfoMeta> ;
+        c:contentType     "text/raw" ;
+        c:docId           <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:language        "English" ;
+        c:processingVer   "AllMetadata" ;
+        c:serverVersion   "OneCalais_8.3-RELEASE:364" ;
+        c:signature       "digestalg-1|cqfaSpEWNNg9EGhvrErFfHXGF+I=|P7ysll7EZdR+IJdFxaot28+sJcaNyUQuMhS1uAOEm7dcySQqn0oOMw==" ;
+        c:stagsVer        "OneCalais_8.3-RELEASE-b11-2015-03-25_18:29:00" ;
+        c:submissionDate  "2015-05-26 17:23:13.826" ;
+        c:submitterCode   "0ca6a864-5659-789d-5f32-f365f695e757" .
+
+<http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95/Instance/30>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Kansas with the Class of 1965.   He lived with ]his family in Enid[ and Wichita before moving to Haysville, where he]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:exact      "his family in Enid" ;
+        c:length     "18" ;
+        c:offset     "615" ;
+        c:prefix     "Kansas with the Class of 1965.   He lived with " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/cf2560ff-134f-35a0-86aa-3411c74511d4> ;
+        c:suffix     " and Wichita before moving to Haysville, where he" .
+
+<http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95/Relevance/7>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> .
+
+<http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95/Relevance/16>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/d790ec68-7732-3ce1-a064-f621a8007df5> .
+
+<http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95/Instance/15>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[worked as a machinist at Chance Manufacturing.  ]He[ enjoyed going to Las Vegas.  \nBesides his]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:exact      "He" ;
+        c:length     "2" ;
+        c:offset     "759" ;
+        c:prefix     "worked as a machinist at Chance Manufacturing.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/ff9d2b17-8ed6-3cd5-bcda-a00c6d433d02> ;
+        c:suffix     " enjoyed going to Las Vegas.  \nBesides his" .
+
+<http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95/Instance/28>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[be 1:00 p.m. Tuesday, January 5, 2009, at the ]Waynoka Municipal Cemetery[ with Rev. Ken Higgins, pastor of the Waynoka]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:exact      "Waynoka Municipal Cemetery" ;
+        c:length     "26" ;
+        c:offset     "102" ;
+        c:prefix     "be 1:00 p.m. Tuesday, January 5, 2009, at the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c960096a-c52e-3cf1-9ef3-a4a18889d7c9> ;
+        c:suffix     " with Rev. Ken Higgins, pastor of the Waynoka" .
+
+<http://d.opencalais.com/genericHasher-1/5aa6e656-864d-3b2a-8536-b50c83b5ab5f>
+        a                      <http://s.opencalais.com/1/type/em/r/PersonTravel> ;
+        c:forenduserdisplay    "false" ;
+        c:locationdestination  <http://d.opencalais.com/genericHasher-1/74bedf45-09a4-371a-8090-6776d1276c1a> ;
+        c:person               <http://d.opencalais.com/pershash-1/ff9d2b17-8ed6-3cd5-bcda-a00c6d433d02> ;
+        c:status               "future" .
+
+<http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95/Relevance/1>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/f8b9666d-c9ef-304a-8128-84edfe22b8aa> .
+
+<http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95/Relevance/10>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/84bb0714-85ab-39de-a7e7-f1ad2e79292b> .
+
+<http://d.opencalais.com/conf/pershash-1/d790ec68-7732-3ce1-a064-f621a8007df5>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.984" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.989" ;
+        c:subject             <http://d.opencalais.com/pershash-1/d790ec68-7732-3ce1-a064-f621a8007df5> .
+
+<http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95/Instance/4>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[(Bartlett) McGolden, was born July 25, 1947, in ]Enid[, Oklahoma, and passed away December 31, 2009, at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:exact      "Enid" ;
+        c:length     "4" ;
+        c:offset     "399" ;
+        c:prefix     "(Bartlett) McGolden, was born July 25, 1947, in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/35a979c1-2108-3761-99bd-8c6f499ef6f2> ;
+        c:suffix     ", Oklahoma, and passed away December 31, 2009, at" .
+
+<http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95/Instance/22>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ made through the funeral home to Hospice Care of ]Kansas[ for the Children?s Bereavement Camp.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:exact      "Kansas" ;
+        c:length     "6" ;
+        c:offset     "995" ;
+        c:prefix     " made through the funeral home to Hospice Care of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> ;
+        c:suffix     " for the Children?s Bereavement Camp." .
+
+<http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95/Instance/35>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[McGolden, son of the late Floyd Raymond and ]Ethel Lucille (Bartlett) McGolden[, was born July 25, 1947, in Enid, Oklahoma, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:exact      "Ethel Lucille (Bartlett) McGolden" ;
+        c:length     "33" ;
+        c:offset     "337" ;
+        c:prefix     "McGolden, son of the late Floyd Raymond and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/d790ec68-7732-3ce1-a064-f621a8007df5> ;
+        c:suffix     ", was born July 25, 1947, in Enid, Oklahoma, and" .
+
+<http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95/SocialTag/2>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Haysville" ;
+        c:originalValue      "Haysville" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/cf1f5230-3779-3334-b8fd-8db4900e9f64> .
+
+<http://d.opencalais.com/genericHasher-1/7a8a21e4-f8b0-30cb-a7e6-fc91528e2974>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Bereavement Camp" .
+
+<http://d.opencalais.com/genericHasher-1/a8fb6dbc-8e4c-31a8-80c2-0f881ab2a42f>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonAttributes> ;
+        c:birthdate          "1947-07-25" ;
+        c:birthplace         <http://d.opencalais.com/genericHasher-1/35a979c1-2108-3761-99bd-8c6f499ef6f2> ;
+        c:forenduserdisplay  "false" ;
+        c:gender             "F" ;
+        c:person             <http://d.opencalais.com/pershash-1/d790ec68-7732-3ce1-a064-f621a8007df5> .
+
+<https://permid.org/1-5035751620>
+        a             <http://s.opencalais.com/1/type/er/Company> ;
+        c:commonname  "Waynoka" ;
+        c:docId       <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:legacyid    <http://d.opencalais.com/er/company/ralg-tr1r/da554c4e-4d2b-3037-98bc-d26b5df2c525> ;
+        c:name        "Waynoka Utilities Authority" ;
+        c:permid      "5035751620" ;
+        c:score       "0.05522651" ;
+        c:subject     <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> .
+
+<http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95/Relevance/6>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95/Relevance/15>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/d1aebe5b-c35b-3d03-b375-e917c4be9c7c> .
+
+<http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95/Instance/14>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[to Haysville, where he lived most of his life.  ]He[ worked as a machinist at Chance Manufacturing. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:exact      "He" ;
+        c:length     "2" ;
+        c:offset     "708" ;
+        c:prefix     "to Haysville, where he lived most of his life.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/ff9d2b17-8ed6-3cd5-bcda-a00c6d433d02> ;
+        c:suffix     " worked as a machinist at Chance Manufacturing. " .
+
+<http://d.opencalais.com/genericHasher-1/a918d7f5-c940-3842-9349-bb0e635eca10>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Las Vegas" ;
+        c:person             <http://d.opencalais.com/pershash-1/ff9d2b17-8ed6-3cd5-bcda-a00c6d433d02> .
+
+<http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95/Instance/9>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[at the age of 62 years, 5 months, and 4 days.  \n]Floyd[ graduated from high school at Hayesville, Kansas]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:exact      "Floyd" ;
+        c:length     "5" ;
+        c:offset     "520" ;
+        c:prefix     "at the age of 62 years, 5 months, and 4 days.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/ff9d2b17-8ed6-3cd5-bcda-a00c6d433d02> ;
+        c:suffix     " graduated from high school at Hayesville, Kansas" .
+
+<http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95/Instance/27>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[LLC.  \nFloyd Raymond McGolden, son of the late ]Floyd Raymond and Ethel Lucille (Bartlett) McGolden, was born July 25, 1947, in Enid, Oklahoma, and passed away December 31, 2009, at Haysville, Kansas[, at the age of 62 years, 5 months, and 4 days. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:exact      "Floyd Raymond and Ethel Lucille (Bartlett) McGolden, was born July 25, 1947, in Enid, Oklahoma, and passed away December 31, 2009, at Haysville, Kansas" ;
+        c:length     "151" ;
+        c:offset     "319" ;
+        c:prefix     "LLC.  \nFloyd Raymond McGolden, son of the late " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/f1472554-9736-36e3-bf3f-af8f430d4815> ;
+        c:suffix     ", at the age of 62 years, 5 months, and 4 days. " .
+
+<http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95/SocialTag/7>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "2" ;
+        c:name               "Waynoka, Oklahoma" ;
+        c:originalValue      "Waynoka, Oklahoma" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/77bc8be5-12a7-326b-962f-52fbf8cf09dd> .
+
+<http://d.opencalais.com/conf/pershash-1/f8b9666d-c9ef-304a-8128-84edfe22b8aa>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.988" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.992" ;
+        c:subject             <http://d.opencalais.com/pershash-1/f8b9666d-c9ef-304a-8128-84edfe22b8aa> .
+
+<http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95/Instance/3>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[his family in Enid and Wichita before moving to ]Haysville[, where he lived most of his life.  He worked as]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:exact      "Haysville" ;
+        c:length     "9" ;
+        c:offset     "663" ;
+        c:prefix     "his family in Enid and Wichita before moving to " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/68b3995c-a367-3369-83d5-d33266e60fde> ;
+        c:suffix     ", where he lived most of his life.  He worked as" .
+
+<http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95/Instance/21>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ \nFloyd graduated from high school at Hayesville, ]Kansas[ with the Class of 1965.   He lived with his]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:exact      "Kansas" ;
+        c:length     "6" ;
+        c:offset     "568" ;
+        c:prefix     " \nFloyd graduated from high school at Hayesville, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> ;
+        c:suffix     " with the Class of 1965.   He lived with his" .
+
+<http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205>
+        a                    <http://s.opencalais.com/1/type/em/e/Company> ;
+        c:confidencelevel    "0.765" ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Waynoka LLC" ;
+        c:nationality        "N/A" .
+
+<http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95/Instance/34>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[at the Waynoka Municipal Cemetery with Rev. ]Ken Higgins[, pastor of the Waynoka Church of God]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:exact      "Ken Higgins" ;
+        c:length     "11" ;
+        c:offset     "139" ;
+        c:prefix     "at the Waynoka Municipal Cemetery with Rev. " ;
+        c:subject    <http://d.opencalais.com/pershash-1/d1aebe5b-c35b-3d03-b375-e917c4be9c7c> ;
+        c:suffix     ", pastor of the Waynoka Church of God" .
+
+<http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95/SocialTag/1>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Wichita metropolitan area" ;
+        c:originalValue      "Wichita metropolitan area" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/753c4afe-acad-3304-a9a0-0815e4a16841> .
+
+<http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95/Instance/19>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[McGolden, was born July 25, 1947, in Enid, ]Oklahoma[, and passed away December 31, 2009, at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "405" ;
+        c:prefix     "McGolden, was born July 25, 1947, in Enid, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", and passed away December 31, 2009, at" .
+
+<http://d.opencalais.com/pershash-1/ff9d2b17-8ed6-3cd5-bcda-a00c6d433d02>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Floyd Raymond" ;
+        c:confidencelevel    "0.97" ;
+        c:firstname          "Floyd" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Raymond" ;
+        c:name               "Floyd Raymond" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/84bb0714-85ab-39de-a7e7-f1ad2e79292b>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Marshall Funeral Home of Waynoka" .
+
+<http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95/Relevance/5>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/ff9d2b17-8ed6-3cd5-bcda-a00c6d433d02> .
+
+<http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95/Relevance/14>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/7a8a21e4-f8b0-30cb-a7e6-fc91528e2974> .
+
+<http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95/Instance/13>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[moving to Haysville, where he lived most of ]his[ life.  He worked as a machinist at Chance]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "697" ;
+        c:prefix     "moving to Haysville, where he lived most of " ;
+        c:subject    <http://d.opencalais.com/pershash-1/ff9d2b17-8ed6-3cd5-bcda-a00c6d433d02> ;
+        c:suffix     " life.  He worked as a machinist at Chance" .
+
+<http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95/cat/1>
+        a                    <http://s.opencalais.com/1/type/cat/DocCat> ;
+        c:docId              <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Human Interest" ;
+        c:score              "1.000" .
+
+<http://d.opencalais.com/conf/pershash-1/5ea0f4d8-2356-37f4-b97e-c2a86f5283d0>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.999" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.999" ;
+        c:subject             <http://d.opencalais.com/pershash-1/5ea0f4d8-2356-37f4-b97e-c2a86f5283d0> .
+
+<http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95/Instance/8>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[LLC.  \nFloyd Raymond McGolden, son of the late ]Floyd Raymond[ and Ethel Lucille (Bartlett) McGolden, was born]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:exact      "Floyd Raymond" ;
+        c:length     "13" ;
+        c:offset     "319" ;
+        c:prefix     "LLC.  \nFloyd Raymond McGolden, son of the late " ;
+        c:subject    <http://d.opencalais.com/pershash-1/ff9d2b17-8ed6-3cd5-bcda-a00c6d433d02> ;
+        c:suffix     " and Ethel Lucille (Bartlett) McGolden, was born" .
+
+<http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95/Instance/26>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Cemetery with Rev. Ken Higgins, pastor of the ]Waynoka Church of God[ officiating.  Interment is under the direction]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:exact      "Waynoka Church of God" ;
+        c:length     "21" ;
+        c:offset     "166" ;
+        c:prefix     "Cemetery with Rev. Ken Higgins, pastor of the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c1606f74-13fe-3186-8084-3f5c1c466e4e> ;
+        c:suffix     " officiating.  Interment is under the direction" .
+
+<http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95/lid/DefaultLangId>
+        a                    <http://s.opencalais.com/1/type/lid/DefaultLangId> ;
+        c:docId              <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:forenduserdisplay  "false" ;
+        c:lang               <http://d.opencalais.com/lid/DefaultLangId/English> ;
+        c:permid             "505062" .
+
+<http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95/Instance/39>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[under the direction of Marshall Funeral Home of ]Waynoka, LLC[.  \nFloyd Raymond McGolden, son of the late Floyd]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:exact      "Waynoka, LLC" ;
+        c:length     "12" ;
+        c:offset     "263" ;
+        c:prefix     "under the direction of Marshall Funeral Home of " ;
+        c:subject    <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:suffix     ".  \nFloyd Raymond McGolden, son of the late Floyd" .
+
+<http://d.opencalais.com/genericHasher-1/cf2560ff-134f-35a0-86aa-3411c74511d4>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Enid" ;
+        c:persongroup        "his family" .
+
+<http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95/ComponentVersions>
+        a          <http://s.opencalais.com/1/type/sys/ComponentVersions> ;
+        c:docId    <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:version  "OneCalais:OneCalais_8.3-RELEASE:364" , "index-vessels:201505231718:201505231718" , "People Index:201505261608:201505261608" , "NextTags:OneCalais_8.3-RELEASE:113" , "Dial4J:OneCalais_8.3-RELEASE:198" , "OA Index:201505252208:201505252208" , "Housekeeper:OneCalais_8.3-RELEASE:113" , "FrenchIM:OneCalais_8.3-RELEASE:198" , "Deals Index:201505261613:201505261613" , "BrokerResearchIM:OneCalais_8.3-RELEASE:198" , "AutocoderRuntimeIM:OneCalais_8.3-RELEASE:198" , "SECHeaderMetadataIM:OneCalais_8.3-RELEASE:198" , "config-drugs:258:258" , "config-physicalAssets-ports:258:258" , "SpanishIM:OneCalais_8.3-RELEASE:198" , "OA Override:271:271" , "OneCalaisIM:OneCalais_8.3-RELEASE:198" , "config-negativeSignature:258:258" , "config-refineries:258:258" , "SocialTags Index:201505191038:201505191038" , "config-cse:271:271" , "com.clearforest.infoext.dial4j.plugins-basistechconfig:OneCalais_8.3-RELEASE:225" , "WatchDog:OneCalais_8.3-RELEASE:113" , "config-sca-DataPackage:34:34" , "Collector:OneCalais_8.3-RELEASE:113" , "config-vessels:258:258" , "People Override:258:258" , "BlackList:264:264" .
+
+<http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95/SocialTag/6>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "2" ;
+        c:name               "Enid, Oklahoma" ;
+        c:originalValue      "Enid, Oklahoma" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/f5fa812e-f6f9-3012-9738-ee9777929481> .
+
+<http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95/Instance/2>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Oklahoma, and passed away December 31, 2009, at ]Haysville[, Kansas, at the age of 62 years, 5 months, and 4]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:exact      "Haysville" ;
+        c:length     "9" ;
+        c:offset     "453" ;
+        c:prefix     "Oklahoma, and passed away December 31, 2009, at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/68b3995c-a367-3369-83d5-d33266e60fde> ;
+        c:suffix     ", Kansas, at the age of 62 years, 5 months, and 4" .
+
+<http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95/Instance/20>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ and passed away December 31, 2009, at Haysville, ]Kansas[, at the age of 62 years, 5 months, and 4 days. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:exact      "Kansas" ;
+        c:length     "6" ;
+        c:offset     "464" ;
+        c:prefix     " and passed away December 31, 2009, at Haysville, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> ;
+        c:suffix     ", at the age of 62 years, 5 months, and 4 days. " .
+
+<http://d.opencalais.com/pershash-1/d790ec68-7732-3ce1-a064-f621a8007df5>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Ethel Lucille McGolden" ;
+        c:confidencelevel    "0.984" ;
+        c:firstname          "Ethel" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "McGolden" ;
+        c:middlename         "Lucille" ;
+        c:name               "Ethel Lucille (Bartlett) McGolden" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95/Instance/33>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ a machinist at Chance Manufacturing.  He enjoyed ]going to Las Vegas[.  \nBesides his parents, he was preceded in death]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:exact      "going to Las Vegas" ;
+        c:length     "18" ;
+        c:offset     "770" ;
+        c:prefix     " a machinist at Chance Manufacturing.  He enjoyed " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/5aa6e656-864d-3b2a-8536-b50c83b5ab5f> ;
+        c:suffix     ".  \nBesides his parents, he was preceded in death" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/ec80b062-8d1e-123a-1d6e-8bd0b7355690>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:latitude            "38.45" ;
+        c:longitude           "-96.5333" ;
+        c:name                "Kansas,United States" ;
+        c:permid              "100151" ;
+        c:rcscode             "G:6D" ;
+        c:shortname           "Kansas" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> .
+
+<http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95/Instance/18>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in death by one sister, Mary Ethel McGolden.  \n]Floyd[ is survived by several cousins.  \nMemorial]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:exact      "Floyd" ;
+        c:length     "5" ;
+        c:offset     "876" ;
+        c:prefix     "in death by one sister, Mary Ethel McGolden.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/ff9d2b17-8ed6-3cd5-bcda-a00c6d433d02> ;
+        c:suffix     " is survived by several cousins.  \nMemorial" .
+
+<http://d.opencalais.com/conf/pershash-1/d1aebe5b-c35b-3d03-b375-e917c4be9c7c>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/d1aebe5b-c35b-3d03-b375-e917c4be9c7c> .
+
+<http://d.opencalais.com/conf/pershash-1/67c4a83b-9c44-32ad-b381-f9038b581f7a>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.994" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.996" ;
+        c:subject             <http://d.opencalais.com/pershash-1/67c4a83b-9c44-32ad-b381-f9038b581f7a> .
+
+<http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95/Relevance/4>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/74bedf45-09a4-371a-8090-6776d1276c1a> .
+
+<http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95/Relevance/13>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/72abef21-04e4-394f-b7a8-cc8953b82a8b> .
+
+<http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95/Instance/12>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and Wichita before moving to Haysville, where ]he[ lived most of his life.  He worked as a]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:exact      "he" ;
+        c:length     "2" ;
+        c:offset     "680" ;
+        c:prefix     "and Wichita before moving to Haysville, where " ;
+        c:subject    <http://d.opencalais.com/pershash-1/ff9d2b17-8ed6-3cd5-bcda-a00c6d433d02> ;
+        c:suffix     " lived most of his life.  He worked as a" .
+
+<http://d.opencalais.com/genericHasher-1/68b3995c-a367-3369-83d5-d33266e60fde>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Haysville" .
+
+<http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95/Instance/7>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[at Chance Manufacturing.  He enjoyed going to ]Las Vegas[.  \nBesides his parents, he was preceded in death]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:exact      "Las Vegas" ;
+        c:length     "9" ;
+        c:offset     "779" ;
+        c:prefix     "at Chance Manufacturing.  He enjoyed going to " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/74bedf45-09a4-371a-8090-6776d1276c1a> ;
+        c:suffix     ".  \nBesides his parents, he was preceded in death" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/e9e27c26-4013-8712-a5f0-97dcdc412c26>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:latitude            "35.5607802899" ;
+        c:longitude           "-96.8460570462" ;
+        c:name                "Oklahoma,United States" ;
+        c:permid              "100229" ;
+        c:rcscode             "G:9H" ;
+        c:shortname           "Oklahoma" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95/Instance/25>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Interment is under the direction of ]Marshall Funeral Home of Waynoka[, LLC.  \nFloyd Raymond McGolden, son of the late]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:exact      "Marshall Funeral Home of Waynoka" ;
+        c:length     "32" ;
+        c:offset     "238" ;
+        c:prefix     " Interment is under the direction of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/84bb0714-85ab-39de-a7e7-f1ad2e79292b> ;
+        c:suffix     ", LLC.  \nFloyd Raymond McGolden, son of the late" .
+
+<http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95/Instance/38>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Cemetery with Rev. Ken Higgins, pastor of the ]Waynoka[ Church of God officiating.  Interment is under]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:exact      "Waynoka" ;
+        c:length     "7" ;
+        c:offset     "166" ;
+        c:prefix     "Cemetery with Rev. Ken Higgins, pastor of the " ;
+        c:subject    <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:suffix     " Church of God officiating.  Interment is under" .
+
+<http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95/SocialTag/5>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "2" ;
+        c:name               "Wichita, Kansas" ;
+        c:originalValue      "Wichita, Kansas" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/0d212a1e-f67d-3af8-9bd4-a3e4ccea7b09> .
+
+<http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95/Instance/1>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Marshall Funeral Home of Waynoka, LLC.  \n]Floyd Raymond McGolden[, son of the late Floyd Raymond and Ethel Lucille]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7a4feed3-f16e-36be-b91f-1808251b8b95> ;
+        c:exact      "Floyd Raymond McGolden" ;
+        c:length     "22" ;
+        c:offset     "279" ;
+        c:prefix     "of Marshall Funeral Home of Waynoka, LLC.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/f8b9666d-c9ef-304a-8128-84edfe22b8aa> ;
+        c:suffix     ", son of the late Floyd Raymond and Ethel Lucille" .
+
+<http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oklahoma" .
+
+<http://d.opencalais.com/genericHasher-1/35a979c1-2108-3761-99bd-8c6f499ef6f2>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Enid" .

@@ -1,0 +1,985 @@
+#Relations: FamilyRelation, PersonAttributes, PersonCareer, PersonLocation
+#City: Eureka, Norman, Purcell, Wichita
+#Facility: Marshall Funeral Home of Alva, Sacred Heart Cemetery
+#Organization: Bishop Carroll High School, Catholic Church, United States Army
+#Person: Anita Craddock, Anthony Edward Ring, Damian Lawrence, Jim, Katherine Ring-Miller, Kim, Leo Ring, Philipp Eugene
+#ProvinceOrState: Kansas, Oklahoma
+@prefix c:     <http://s.opencalais.com/1/pred/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://d.opencalais.com/genericHasher-1/1a50627f-69c1-33d5-80ae-da5e2486eab2>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Eureka" ;
+        c:person             <http://d.opencalais.com/pershash-1/ee3234d0-fafd-398f-a68e-ec0a76363906> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/70a8fe3c-66d4-0ac3-196e-f3d5f6573d50>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Kansas" ;
+        c:docId               <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:latitude            "37.8239" ;
+        c:longitude           "-96.2889" ;
+        c:name                "Eureka,Kansas,United States" ;
+        c:shortname           "Eureka" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/f9d5b5ea-7a48-3e20-b2e3-4a4095ee9c81> .
+
+<http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d/Relevance/2>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> .
+
+<http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d/Instance/6>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[one brother, Leo Ring and wife, Kim, of Eureka, ]Kansas[, two sisters, Katherine Ring-Miller of Purcell,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:exact      "Kansas" ;
+        c:length     "6" ;
+        c:offset     "596" ;
+        c:prefix     "one brother, Leo Ring and wife, Kim, of Eureka, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> ;
+        c:suffix     ", two sisters, Katherine Ring-Miller of Purcell," .
+
+<http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d/Instance/10>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Lawrence officiating.  Inurnment will be in ]Sacred Heart Cemetery[ under the direction of Marshall Funeral Home of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:exact      "Sacred Heart Cemetery" ;
+        c:length     "21" ;
+        c:offset     "954" ;
+        c:prefix     "Lawrence officiating.  Inurnment will be in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/6ab12a6b-32ee-3fb6-8e54-20736b667d32> ;
+        c:suffix     " under the direction of Marshall Funeral Home of" .
+
+<http://d.opencalais.com/genericHasher-1/821f78e7-5f26-3a22-bb89-5c05ac05e851>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Catholic Church" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/6ab12a6b-32ee-3fb6-8e54-20736b667d32>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Sacred Heart Cemetery" .
+
+<http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d/Instance/23>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[one brother, Leo Ring and wife, Kim, of ]Eureka[, Kansas, two sisters, Katherine Ring-Miller of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:exact      "Eureka" ;
+        c:length     "6" ;
+        c:offset     "588" ;
+        c:prefix     "one brother, Leo Ring and wife, Kim, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/f9d5b5ea-7a48-3e20-b2e3-4a4095ee9c81> ;
+        c:suffix     ", Kansas, two sisters, Katherine Ring-Miller of" .
+
+<http://d.opencalais.com/pershash-1/ae40925e-32e6-3d64-b717-0bd6b6a39832>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Damian Lawrence" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Damian" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Lawrence" ;
+        c:name               "Damian Lawrence" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d/cat/1>
+        a                    <http://s.opencalais.com/1/type/cat/DocCat> ;
+        c:docId              <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Human Interest" ;
+        c:score              "1.000" .
+
+<http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d/Instance/36>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[son of Philipp Eugene and LaDonna Pearl (Berry) ]Ring[, was born March 30, 1958, in Wichita, Kansas,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:exact      "Ring" ;
+        c:length     "4" ;
+        c:offset     "69" ;
+        c:prefix     "son of Philipp Eugene and LaDonna Pearl (Berry) " ;
+        c:subject    <http://d.opencalais.com/pershash-1/966f1366-53b0-3eb1-b044-806760b7ed87> ;
+        c:suffix     ", was born March 30, 1958, in Wichita, Kansas," .
+
+<http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d/SocialTag/3>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Wichita, Kansas" ;
+        c:originalValue      "Wichita, Kansas" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/0d212a1e-f67d-3af8-9bd4-a3e4ccea7b09> .
+
+<http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d/meta>
+        a                 <http://s.opencalais.com/1/type/sys/DocInfoMeta> ;
+        c:contentType     "text/raw" ;
+        c:docId           <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:language        "English" ;
+        c:processingVer   "AllMetadata" ;
+        c:serverVersion   "OneCalais_8.3-RELEASE:364" ;
+        c:signature       "digestalg-1|kvx9sUFdOgbe7cAaBiLZYfXVlUw=|icyG4pZcbpEUaE0K5057Yxj9rOETFX3yPcJwx/PhYrxiC/Mkkmf6Gg==" ;
+        c:stagsVer        "OneCalais_8.3-RELEASE-b11-2015-03-25_18:29:00" ;
+        c:submissionDate  "2015-05-26 17:23:35.329" ;
+        c:submitterCode   "0ca6a864-5659-789d-5f32-f365f695e757" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/61f29abb-e794-d541-a717-7f9811b1ce02>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Kansas" ;
+        c:docId               <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:latitude            "37.6922" ;
+        c:longitude           "-97.3372" ;
+        c:name                "Wichita,Kansas,United States" ;
+        c:shortname           "Wichita" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/1be89cab-3ede-3881-b26f-be89e5573164> .
+
+<http://d.opencalais.com/pershash-1/8f2f434d-cb78-3ebe-a71b-d8837dfb799b>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Leo Ring" ;
+        c:confidencelevel    "0.961" ;
+        c:firstname          "Leo" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Ring" ;
+        c:name               "Leo Ring" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Kansas" .
+
+<http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d/Instance/30>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[three sons; one step-daughter; one brother, ]Leo Ring[ and wife, Kim, of Eureka, Kansas, two sisters,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:exact      "Leo Ring" ;
+        c:length     "8" ;
+        c:offset     "561" ;
+        c:prefix     "three sons; one step-daughter; one brother, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/8f2f434d-cb78-3ebe-a71b-d8837dfb799b> ;
+        c:suffix     " and wife, Kim, of Eureka, Kansas, two sisters," .
+
+<http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d/Relevance/14>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/8f2f434d-cb78-3ebe-a71b-d8837dfb799b> .
+
+<http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d/Relevance/7>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/23bb3a38-99b5-375b-90b3-36f2b76399e6> .
+
+<http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d/Instance/15>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and wife, Kim, of Eureka, Kansas, two sisters, ]Katherine Ring-Miller[ of Purcell, Oklahoma, and Anita Craddock and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:exact      "Katherine Ring-Miller" ;
+        c:length     "21" ;
+        c:offset     "617" ;
+        c:prefix     "and wife, Kim, of Eureka, Kansas, two sisters, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/23bb3a38-99b5-375b-90b3-36f2b76399e6> ;
+        c:suffix     " of Purcell, Oklahoma, and Anita Craddock and" .
+
+<http://d.opencalais.com/pershash-1/23bb3a38-99b5-375b-90b3-36f2b76399e6>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Katherine Ring-Miller" ;
+        c:confidencelevel    "0.983" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Katherine Ring-Miller" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/aa7d8223-fdf0-3ee2-aed6-1b7e54061cc5>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "son" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/c2f0aef3-6c75-3db3-bbae-8bdbafff7445> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/966f1366-53b0-3eb1-b044-806760b7ed87> .
+
+<http://d.opencalais.com/genericHasher-1/5c5224e4-d022-3b21-a5b2-a310240c7163>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Bishop Carroll High School" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d/Instance/28>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[the United States Army and was a member of the ]Catholic Church[ and loved to fish, hunt and camp out.\t  \nTony is]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:exact      "Catholic Church" ;
+        c:length     "15" ;
+        c:offset     "393" ;
+        c:prefix     "the United States Army and was a member of the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/821f78e7-5f26-3a22-bb89-5c05ac05e851> ;
+        c:suffix     " and loved to fish, hunt and camp out.\t  \nTony is" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/6dce363e-6a2f-dfd6-1b5b-75e2636f6409>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Arkansas" ;
+        c:docId               <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:latitude            "34.455" ;
+        c:longitude           "-93.68" ;
+        c:name                "Norman,Arkansas,United States" ;
+        c:shortname           "Norman" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/9151e5e3-7516-3755-8254-43b22f814748> .
+
+<http://d.opencalais.com/pershash-1/a2c2b6ef-2419-38b7-a69f-30c419696bef>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Jim" ;
+        c:confidencelevel    "0.994" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Jim" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d/Relevance/1>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d/Instance/5>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Ring, was born March 30, 1958, in Wichita, ]Kansas[, and passed away December 11, 2010, at Norman,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:exact      "Kansas" ;
+        c:length     "6" ;
+        c:offset     "112" ;
+        c:prefix     "Ring, was born March 30, 1958, in Wichita, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> ;
+        c:suffix     ", and passed away December 11, 2010, at Norman," .
+
+<http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d/Instance/22>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[camp out.\t  \nTony is survived by his parents, ]Philipp[ and LaDonna Ring of Alva; three sons; one]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:exact      "Philipp" ;
+        c:length     "7" ;
+        c:offset     "483" ;
+        c:prefix     "camp out.\t  \nTony is survived by his parents, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/c2f0aef3-6c75-3db3-bbae-8bdbafff7445> ;
+        c:suffix     " and LaDonna Ring of Alva; three sons; one" .
+
+<http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d/Instance/35>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[]Anthony Edward Ring[, son of Philipp Eugene and LaDonna Pearl (Berry)]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:exact      "Anthony Edward Ring" ;
+        c:length     "19" ;
+        c:offset     "0" ;
+        c:prefix     "" ;
+        c:subject    <http://d.opencalais.com/pershash-1/966f1366-53b0-3eb1-b044-806760b7ed87> ;
+        c:suffix     ", son of Philipp Eugene and LaDonna Pearl (Berry)" .
+
+<http://d.opencalais.com/genericHasher-1/f9d5b5ea-7a48-3e20-b2e3-4a4095ee9c81>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Eureka" .
+
+<http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d/SocialTag/2>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Sacred Heart Church" ;
+        c:originalValue      "Sacred Heart Church" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/729a5375-95c3-365e-a431-e2dfd0000241> .
+
+<http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d/Relevance/19>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/966f1366-53b0-3eb1-b044-806760b7ed87> .
+
+<http://d.opencalais.com/genericHasher-1/720e27af-f827-3dc6-929b-1a3a52770fb3>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Norman, Oklahoma" ;
+        c:person             <http://d.opencalais.com/pershash-1/966f1366-53b0-3eb1-b044-806760b7ed87> .
+
+<http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d/Relevance/13>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/821f78e7-5f26-3a22-bb89-5c05ac05e851> .
+
+<http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d/Relevance/6>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/1be89cab-3ede-3881-b26f-be89e5573164> .
+
+<http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d/Instance/14>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and worked as a tradesman throughout his life.  ]He served in the United States Army and was a member of the Catholic Church[ and loved to fish, hunt and camp out.\t  \nTony is]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:exact      "He served in the United States Army and was a member of the Catholic Church" ;
+        c:length     "75" ;
+        c:offset     "333" ;
+        c:prefix     "and worked as a tradesman throughout his life.  " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/99cca6bb-094a-3252-ad60-e3e3bea06a2a> ;
+        c:suffix     " and loved to fish, hunt and camp out.\t  \nTony is" .
+
+<http://d.opencalais.com/genericHasher-1/c1cf18a8-2628-3897-b073-624ecce48b23>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonAttributes> ;
+        c:birthdate          "1958-03-30" ;
+        c:birthplace         <http://d.opencalais.com/genericHasher-1/1be89cab-3ede-3881-b26f-be89e5573164> ;
+        c:forenduserdisplay  "false" ;
+        c:gender             "M" ;
+        c:person             <http://d.opencalais.com/pershash-1/966f1366-53b0-3eb1-b044-806760b7ed87> .
+
+<http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d/Instance/27>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[step-daughter; one brother, Leo Ring and wife, ]Kim, of Eureka, Kansas[, two sisters, Katherine Ring-Miller of Purcell,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:exact      "Kim, of Eureka, Kansas" ;
+        c:length     "22" ;
+        c:offset     "580" ;
+        c:prefix     "step-daughter; one brother, Leo Ring and wife, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/1a50627f-69c1-33d5-80ae-da5e2486eab2> ;
+        c:suffix     ", two sisters, Katherine Ring-Miller of Purcell," .
+
+<http://d.opencalais.com/genericHasher-1/fce36612-627b-34d0-9874-611de4063865>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "United States Army" ;
+        c:nationality        "American" ;
+        c:organizationtype   "governmental military" .
+
+<http://d.opencalais.com/genericHasher-1/36f521ff-687f-3ed7-848a-f42a084b2c17>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:forenduserdisplay  "true" ;
+        c:organization       <http://d.opencalais.com/genericHasher-1/fce36612-627b-34d0-9874-611de4063865> ;
+        c:person             <http://d.opencalais.com/pershash-1/966f1366-53b0-3eb1-b044-806760b7ed87> ;
+        c:status             "past" .
+
+<http://d.opencalais.com/conf/pershash-1/966f1366-53b0-3eb1-b044-806760b7ed87>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.965" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.978" ;
+        c:subject             <http://d.opencalais.com/pershash-1/966f1366-53b0-3eb1-b044-806760b7ed87> .
+
+<http://d.opencalais.com/genericHasher-1/7971b752-7c90-3077-8058-9b43370a64d2>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Wichita" ;
+        c:person             <http://d.opencalais.com/pershash-1/a2c2b6ef-2419-38b7-a69f-30c419696bef> .
+
+<http://d.opencalais.com/pershash-1/c2f0aef3-6c75-3db3-bbae-8bdbafff7445>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Philipp Eugene" ;
+        c:confidencelevel    "0.999" ;
+        c:firstname          "Philipp" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Eugene" ;
+        c:name               "Philipp Eugene" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/9151e5e3-7516-3755-8254-43b22f814748>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Norman" .
+
+<http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d/Instance/4>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and wife, Kim, of Eureka, Kansas, two sisters, ]Katherine Ring-Miller of Purcell, Oklahoma[, and Anita Craddock and husband, Jim, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:exact      "Katherine Ring-Miller of Purcell, Oklahoma" ;
+        c:length     "42" ;
+        c:offset     "617" ;
+        c:prefix     "and wife, Kim, of Eureka, Kansas, two sisters, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a90f2491-8aa4-3399-aa04-d0648fbf2a2b> ;
+        c:suffix     ", and Anita Craddock and husband, Jim, of" .
+
+<http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d/Instance/21>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Edward Ring, son of ]Philipp Eugene[ and LaDonna Pearl (Berry) Ring, was born March]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:exact      "Philipp Eugene" ;
+        c:length     "14" ;
+        c:offset     "28" ;
+        c:prefix     "Edward Ring, son of " ;
+        c:subject    <http://d.opencalais.com/pershash-1/c2f0aef3-6c75-3db3-bbae-8bdbafff7445> ;
+        c:suffix     " and LaDonna Pearl (Berry) Ring, was born March" .
+
+<http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d/Instance/34>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[at Sacred Heart Catholic Church with Father ]Damian Lawrence[ officiating.  Inurnment will be in Sacred Heart]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:exact      "Damian Lawrence" ;
+        c:length     "15" ;
+        c:offset     "903" ;
+        c:prefix     "at Sacred Heart Catholic Church with Father " ;
+        c:subject    <http://d.opencalais.com/pershash-1/ae40925e-32e6-3d64-b717-0bd6b6a39832> ;
+        c:suffix     " officiating.  Inurnment will be in Sacred Heart" .
+
+<http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d/SocialTag/1>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Alva" ;
+        c:originalValue      "Alva" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/17f61973-ed95-369b-b381-dec22ce26b2a> .
+
+<http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d/Relevance/18>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/ae40925e-32e6-3d64-b717-0bd6b6a39832> .
+
+<http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d/Instance/19>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Oklahoma, and Anita Craddock and husband, ]Jim[, of Wichita, Kansas; other relatives and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:exact      "Jim" ;
+        c:length     "3" ;
+        c:offset     "693" ;
+        c:prefix     "Oklahoma, and Anita Craddock and husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/a2c2b6ef-2419-38b7-a69f-30c419696bef> ;
+        c:suffix     ", of Wichita, Kansas; other relatives and" .
+
+<http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d/lid/DefaultLangId>
+        a                    <http://s.opencalais.com/1/type/lid/DefaultLangId> ;
+        c:docId              <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:forenduserdisplay  "false" ;
+        c:lang               <http://d.opencalais.com/lid/DefaultLangId/English> ;
+        c:permid             "505062" .
+
+<http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d>
+        a                  <http://s.opencalais.com/1/type/sys/DocInfo> ;
+        c:calaisRequestID  "353826c0-dcd2-92ec-14d9-1403b217848c" ;
+        c:docDate          "2015-05-26 17:23:35.623" ;
+        c:docTitle         "" ;
+        c:document         "Anthony Edward Ring, son of Philipp Eugene and LaDonna Pearl (Berry) Ring, was born March 30, 1958, in Wichita, Kansas, and passed away December 11, 2010, at Norman, Oklahoma, at the age of 52 years, 8 months, and 10 days.  \nHe attended school at Bishop Carroll High School in Wichita and worked as a tradesman throughout his life.  He served in the United States Army and was a member of the Catholic Church and loved to fish, hunt and camp out.\t  \nTony is survived by his parents, Philipp and LaDonna Ring of Alva; three sons; one step-daughter; one brother, Leo Ring and wife, Kim, of Eureka, Kansas, two sisters, Katherine Ring-Miller of Purcell, Oklahoma, and Anita Craddock and husband, Jim, of Wichita, Kansas; other relatives and friends.  \nTony was cremated at his request and a memorial service will be held at 11:00 a.m. Friday, December 17, 2010, at Sacred Heart Catholic Church with Father Damian Lawrence officiating.  Inurnment will be in Sacred Heart Cemetery under the direction of Marshall Funeral Home of Alva.  \nMemorial contributions may be made through the funeral home to the John 3:16 Mission.  \nRemembrances may be shared with the family at www.marshallfuneralhomes.com. \t \t\"Go rest high on that mountain, \tCause, Son, your work on earth is done; \tGo to heaven a shoutin? \tLove for the Father and the Son.? \n\t\t\t" ;
+        c:id               "http://id.opencalais.com/dDSO9yQPyx8O8IOmnVhrcA" ;
+        c:ontology         "http://163.231.4.65/owlschema/8.3/onecalais.owl.allmetadata.xml" .
+
+<http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d/ComponentVersions>
+        a          <http://s.opencalais.com/1/type/sys/ComponentVersions> ;
+        c:docId    <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:version  "SECHeaderMetadataIM:OneCalais_8.3-RELEASE:198" , "FrenchIM:OneCalais_8.3-RELEASE:198" , "OneCalais:OneCalais_8.3-RELEASE:364" , "People Override:258:258" , "People Index:201505261608:201505261608" , "config-sca-DataPackage:34:34" , "config-negativeSignature:258:258" , "BlackList:264:264" , "Deals Index:201505261613:201505261613" , "OA Override:271:271" , "config-physicalAssets-ports:258:258" , "SocialTags Index:201505191038:201505191038" , "AutocoderRuntimeIM:OneCalais_8.3-RELEASE:198" , "config-vessels:258:258" , "Collector:OneCalais_8.3-RELEASE:113" , "OA Index:201505252208:201505252208" , "Housekeeper:OneCalais_8.3-RELEASE:113" , "com.clearforest.infoext.dial4j.plugins-basistechconfig:OneCalais_8.3-RELEASE:225" , "config-refineries:258:258" , "BrokerResearchIM:OneCalais_8.3-RELEASE:198" , "index-vessels:201505231718:201505231718" , "config-drugs:258:258" , "NextTags:OneCalais_8.3-RELEASE:113" , "WatchDog:OneCalais_8.3-RELEASE:113" , "OneCalaisIM:OneCalais_8.3-RELEASE:198" , "Dial4J:OneCalais_8.3-RELEASE:198" , "SpanishIM:OneCalais_8.3-RELEASE:198" , "config-cse:271:271" .
+
+<http://d.opencalais.com/conf/pershash-1/feafa51f-1878-3520-8a35-973a685c364e>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/feafa51f-1878-3520-8a35-973a685c364e> .
+
+<http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d/Relevance/12>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/fce36612-627b-34d0-9874-611de4063865> .
+
+<http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d/Relevance/5>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/6ab12a6b-32ee-3fb6-8e54-20736b667d32> .
+
+<http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d/Instance/9>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[step-daughter; one brother, Leo Ring and wife, ]Kim[, of Eureka, Kansas, two sisters, Katherine]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:exact      "Kim" ;
+        c:length     "3" ;
+        c:offset     "580" ;
+        c:prefix     "step-daughter; one brother, Leo Ring and wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/ee3234d0-fafd-398f-a68e-ec0a76363906> ;
+        c:suffix     ", of Eureka, Kansas, two sisters, Katherine" .
+
+<http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d/Instance/13>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and Anita Craddock and husband, Jim, of ]Wichita[, Kansas; other relatives and friends.  \nTony was]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:exact      "Wichita" ;
+        c:length     "7" ;
+        c:offset     "701" ;
+        c:prefix     "and Anita Craddock and husband, Jim, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/1be89cab-3ede-3881-b26f-be89e5573164> ;
+        c:suffix     ", Kansas; other relatives and friends.  \nTony was" .
+
+<http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d/Instance/26>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ tradesman throughout his life.  He served in the ]United States Army[ and was a member of the Catholic Church and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:exact      "United States Army" ;
+        c:length     "18" ;
+        c:offset     "350" ;
+        c:prefix     " tradesman throughout his life.  He served in the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/fce36612-627b-34d0-9874-611de4063865> ;
+        c:suffix     " and was a member of the Catholic Church and" .
+
+<http://d.opencalais.com/conf/pershash-1/ee3234d0-fafd-398f-a68e-ec0a76363906>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.985" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.932" ;
+        c:subject             <http://d.opencalais.com/pershash-1/ee3234d0-fafd-398f-a68e-ec0a76363906> .
+
+<http://d.opencalais.com/genericHasher-1/99cca6bb-094a-3252-ad60-e3e3bea06a2a>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:forenduserdisplay  "true" ;
+        c:organization       <http://d.opencalais.com/genericHasher-1/821f78e7-5f26-3a22-bb89-5c05ac05e851> ;
+        c:person             <http://d.opencalais.com/pershash-1/966f1366-53b0-3eb1-b044-806760b7ed87> ;
+        c:position           "member" ;
+        c:status             "past" .
+
+<http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d/Instance/39>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and worked as a tradesman throughout his life.  ]He[ served in the United States Army and was a]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:exact      "He" ;
+        c:length     "2" ;
+        c:offset     "333" ;
+        c:prefix     "and worked as a tradesman throughout his life.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/966f1366-53b0-3eb1-b044-806760b7ed87> ;
+        c:suffix     " served in the United States Army and was a" .
+
+<http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d/Instance/3>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[two sisters, Katherine Ring-Miller of Purcell, ]Oklahoma[, and Anita Craddock and husband, Jim, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "651" ;
+        c:prefix     "two sisters, Katherine Ring-Miller of Purcell, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", and Anita Craddock and husband, Jim, of" .
+
+<http://d.opencalais.com/genericHasher-1/a90f2491-8aa4-3399-aa04-d0648fbf2a2b>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Purcell" ;
+        c:person             <http://d.opencalais.com/pershash-1/23bb3a38-99b5-375b-90b3-36f2b76399e6> .
+
+<http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d/Instance/20>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[relatives and friends.  \nTony was cremated at ]his[ request and a memorial service will be held at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "770" ;
+        c:prefix     "relatives and friends.  \nTony was cremated at " ;
+        c:subject    <http://d.opencalais.com/pershash-1/a2c2b6ef-2419-38b7-a69f-30c419696bef> ;
+        c:suffix     " request and a memorial service will be held at" .
+
+<http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d/Instance/33>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[8 months, and 10 days.  \nHe attended school at ]Bishop Carroll High School[ in Wichita and worked as a tradesman throughout]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:exact      "Bishop Carroll High School" ;
+        c:length     "26" ;
+        c:offset     "247" ;
+        c:prefix     "8 months, and 10 days.  \nHe attended school at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/5c5224e4-d022-3b21-a5b2-a310240c7163> ;
+        c:suffix     " in Wichita and worked as a tradesman throughout" .
+
+<http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d/Relevance/17>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/5c5224e4-d022-3b21-a5b2-a310240c7163> .
+
+<http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Marshall Funeral Home of Alva" .
+
+<http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d/Instance/18>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[]Anthony Edward Ring, son of Philipp Eugene[ and LaDonna Pearl (Berry) Ring, was born March]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:exact      "Anthony Edward Ring, son of Philipp Eugene" ;
+        c:length     "42" ;
+        c:offset     "0" ;
+        c:prefix     "" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/aa7d8223-fdf0-3ee2-aed6-1b7e54061cc5> ;
+        c:suffix     " and LaDonna Pearl (Berry) Ring, was born March" .
+
+<http://d.opencalais.com/genericHasher-1/1be89cab-3ede-3881-b26f-be89e5573164>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Wichita" .
+
+<http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d/Instance/40>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[fish, hunt and camp out.\t  \nTony is survived by ]his[ parents, Philipp and LaDonna Ring of Alva; three]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "470" ;
+        c:prefix     "fish, hunt and camp out.\t  \nTony is survived by " ;
+        c:subject    <http://d.opencalais.com/pershash-1/966f1366-53b0-3eb1-b044-806760b7ed87> ;
+        c:suffix     " parents, Philipp and LaDonna Ring of Alva; three" .
+
+<http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d/Relevance/11>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/f9d5b5ea-7a48-3e20-b2e3-4a4095ee9c81> .
+
+<http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d/Relevance/4>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/ee3234d0-fafd-398f-a68e-ec0a76363906> .
+
+<http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d/Instance/8>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Kansas, two sisters, Katherine Ring-Miller of ]Purcell[, Oklahoma, and Anita Craddock and husband, Jim,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:exact      "Purcell" ;
+        c:length     "7" ;
+        c:offset     "642" ;
+        c:prefix     "Kansas, two sisters, Katherine Ring-Miller of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0050e3a9-e306-3f4e-bae9-0f301f1d7198> ;
+        c:suffix     ", Oklahoma, and Anita Craddock and husband, Jim," .
+
+<http://d.opencalais.com/conf/pershash-1/ae40925e-32e6-3d64-b717-0bd6b6a39832>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/ae40925e-32e6-3d64-b717-0bd6b6a39832> .
+
+<http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d/Instance/12>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ attended school at Bishop Carroll High School in ]Wichita[ and worked as a tradesman throughout his life. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:exact      "Wichita" ;
+        c:length     "7" ;
+        c:offset     "277" ;
+        c:prefix     " attended school at Bishop Carroll High School in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/1be89cab-3ede-3881-b26f-be89e5573164> ;
+        c:suffix     " and worked as a tradesman throughout his life. " .
+
+<http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d/Instance/25>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[son of Philipp Eugene and LaDonna Pearl (Berry) ]Ring, was born March 30, 1958, in Wichita, Kansas, and passed away December 11, 2010, at Norman, Oklahoma[, at the age of 52 years, 8 months, and 10 days. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:exact      "Ring, was born March 30, 1958, in Wichita, Kansas, and passed away December 11, 2010, at Norman, Oklahoma" ;
+        c:length     "105" ;
+        c:offset     "69" ;
+        c:prefix     "son of Philipp Eugene and LaDonna Pearl (Berry) " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/720e27af-f827-3dc6-929b-1a3a52770fb3> ;
+        c:suffix     ", at the age of 52 years, 8 months, and 10 days. " .
+
+<http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d/Instance/38>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in Wichita and worked as a tradesman throughout ]his[ life.  He served in the United States Army and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "322" ;
+        c:prefix     "in Wichita and worked as a tradesman throughout " ;
+        c:subject    <http://d.opencalais.com/pershash-1/966f1366-53b0-3eb1-b044-806760b7ed87> ;
+        c:suffix     " life.  He served in the United States Army and" .
+
+<http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d/Instance/2>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and passed away December 11, 2010, at Norman, ]Oklahoma[, at the age of 52 years, 8 months, and 10 days. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "166" ;
+        c:prefix     "and passed away December 11, 2010, at Norman, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", at the age of 52 years, 8 months, and 10 days. " .
+
+<http://d.opencalais.com/pershash-1/966f1366-53b0-3eb1-b044-806760b7ed87>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Anthony Edward Ring" ;
+        c:confidencelevel    "0.965" ;
+        c:firstname          "Anthony" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Ring" ;
+        c:middlename         "Edward" ;
+        c:name               "Anthony Edward Ring" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/8f2f434d-cb78-3ebe-a71b-d8837dfb799b>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.961" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.976" ;
+        c:subject             <http://d.opencalais.com/pershash-1/8f2f434d-cb78-3ebe-a71b-d8837dfb799b> .
+
+<http://d.opencalais.com/genericHasher-1/0050e3a9-e306-3f4e-bae9-0f301f1d7198>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Purcell" .
+
+<http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d/Instance/32>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in Sacred Heart Cemetery under the direction of ]Marshall Funeral Home of Alva[.  \nMemorial contributions may be made through]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:exact      "Marshall Funeral Home of Alva" ;
+        c:length     "29" ;
+        c:offset     "999" ;
+        c:prefix     "in Sacred Heart Cemetery under the direction of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce> ;
+        c:suffix     ".  \nMemorial contributions may be made through" .
+
+<http://d.opencalais.com/conf/pershash-1/23bb3a38-99b5-375b-90b3-36f2b76399e6>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.983" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.99" ;
+        c:subject             <http://d.opencalais.com/pershash-1/23bb3a38-99b5-375b-90b3-36f2b76399e6> .
+
+<http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d/Relevance/16>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce> .
+
+<http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d/Relevance/9>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/a2c2b6ef-2419-38b7-a69f-30c419696bef> .
+
+<http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d/Instance/17>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Oklahoma, and Anita Craddock and husband, ]Jim, of Wichita, Kansas[; other relatives and friends.  \nTony was]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:exact      "Jim, of Wichita, Kansas" ;
+        c:length     "23" ;
+        c:offset     "693" ;
+        c:prefix     "Oklahoma, and Anita Craddock and husband, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/7971b752-7c90-3077-8058-9b43370a64d2> ;
+        c:suffix     "; other relatives and friends.  \nTony was" .
+
+<http://d.opencalais.com/conf/pershash-1/a2c2b6ef-2419-38b7-a69f-30c419696bef>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.994" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.962" ;
+        c:subject             <http://d.opencalais.com/pershash-1/a2c2b6ef-2419-38b7-a69f-30c419696bef> .
+
+<http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d/Relevance/10>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/c2f0aef3-6c75-3db3-bbae-8bdbafff7445> .
+
+<http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d/Relevance/3>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0050e3a9-e306-3f4e-bae9-0f301f1d7198> .
+
+<http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d/Instance/7>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ and Anita Craddock and husband, Jim, of Wichita, ]Kansas[; other relatives and friends.  \nTony was]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:exact      "Kansas" ;
+        c:length     "6" ;
+        c:offset     "710" ;
+        c:prefix     " and Anita Craddock and husband, Jim, of Wichita, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> ;
+        c:suffix     "; other relatives and friends.  \nTony was" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/ec80b062-8d1e-123a-1d6e-8bd0b7355690>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:latitude            "38.45" ;
+        c:longitude           "-96.5333" ;
+        c:name                "Kansas,United States" ;
+        c:permid              "100151" ;
+        c:rcscode             "G:6D" ;
+        c:shortname           "Kansas" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> .
+
+<http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d/Instance/11>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Pearl (Berry) Ring, was born March 30, 1958, in ]Wichita[, Kansas, and passed away December 11, 2010, at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:exact      "Wichita" ;
+        c:length     "7" ;
+        c:offset     "103" ;
+        c:prefix     "Pearl (Berry) Ring, was born March 30, 1958, in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/1be89cab-3ede-3881-b26f-be89e5573164> ;
+        c:suffix     ", Kansas, and passed away December 11, 2010, at" .
+
+<http://d.opencalais.com/pershash-1/feafa51f-1878-3520-8a35-973a685c364e>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Anita Craddock" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Anita" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Craddock" ;
+        c:name               "Anita Craddock" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d/Instance/24>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and worked as a tradesman throughout his life.  ]He served in the United States Army[ and was a member of the Catholic Church and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:exact      "He served in the United States Army" ;
+        c:length     "35" ;
+        c:offset     "333" ;
+        c:prefix     "and worked as a tradesman throughout his life.  " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/36f521ff-687f-3ed7-848a-f42a084b2c17> ;
+        c:suffix     " and was a member of the Catholic Church and" .
+
+<http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d/cat/2>
+        a                    <http://s.opencalais.com/1/type/cat/DocCat> ;
+        c:docId              <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Religion_Belief" ;
+        c:score              "0.959" .
+
+<http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d/Instance/37>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ at the age of 52 years, 8 months, and 10 days.  \n]He[ attended school at Bishop Carroll High School in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:exact      "He" ;
+        c:length     "2" ;
+        c:offset     "225" ;
+        c:prefix     " at the age of 52 years, 8 months, and 10 days.  \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/966f1366-53b0-3eb1-b044-806760b7ed87> ;
+        c:suffix     " attended school at Bishop Carroll High School in" .
+
+<http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d/SocialTag/4>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "2" ;
+        c:name               "Kansas" ;
+        c:originalValue      "Kansas" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/fe8a9768-c9a9-3d0f-a4be-26037ef4c6dc> .
+
+<http://d.opencalais.com/pershash-1/ee3234d0-fafd-398f-a68e-ec0a76363906>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Kim" ;
+        c:confidencelevel    "0.985" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Kim" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d/Instance/1>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[son of Philipp Eugene and LaDonna Pearl (Berry) ]Ring, was born March 30, 1958, in Wichita, Kansas[, and passed away December 11, 2010, at Norman,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:exact      "Ring, was born March 30, 1958, in Wichita, Kansas" ;
+        c:length     "49" ;
+        c:offset     "69" ;
+        c:prefix     "son of Philipp Eugene and LaDonna Pearl (Berry) " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c1cf18a8-2628-3897-b073-624ecce48b23> ;
+        c:suffix     ", and passed away December 11, 2010, at Norman," .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/e9e27c26-4013-8712-a5f0-97dcdc412c26>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:latitude            "35.5607802899" ;
+        c:longitude           "-96.8460570462" ;
+        c:name                "Oklahoma,United States" ;
+        c:permid              "100229" ;
+        c:rcscode             "G:9H" ;
+        c:shortname           "Oklahoma" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d/Instance/31>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Kansas, and passed away December 11, 2010, at ]Norman[, Oklahoma, at the age of 52 years, 8 months, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:exact      "Norman" ;
+        c:length     "6" ;
+        c:offset     "158" ;
+        c:prefix     "Kansas, and passed away December 11, 2010, at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9151e5e3-7516-3755-8254-43b22f814748> ;
+        c:suffix     ", Oklahoma, at the age of 52 years, 8 months, and" .
+
+<http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d/Relevance/15>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9151e5e3-7516-3755-8254-43b22f814748> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/623e7347-752d-bcb3-e287-9e5e45bd91b6>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Kansas" ;
+        c:docId               <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:latitude            "39.6805554" ;
+        c:longitude           "-95.3308091" ;
+        c:name                "Purcell,Kansas,United States" ;
+        c:shortname           "Purcell" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/0050e3a9-e306-3f4e-bae9-0f301f1d7198> .
+
+<http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d/Relevance/8>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/feafa51f-1878-3520-8a35-973a685c364e> .
+
+<http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d/Instance/16>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Katherine Ring-Miller of Purcell, Oklahoma, and ]Anita Craddock[ and husband, Jim, of Wichita, Kansas; other]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:exact      "Anita Craddock" ;
+        c:length     "14" ;
+        c:offset     "665" ;
+        c:prefix     "Katherine Ring-Miller of Purcell, Oklahoma, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/feafa51f-1878-3520-8a35-973a685c364e> ;
+        c:suffix     " and husband, Jim, of Wichita, Kansas; other" .
+
+<http://d.opencalais.com/conf/pershash-1/c2f0aef3-6c75-3db3-bbae-8bdbafff7445>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.999" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.999" ;
+        c:subject             <http://d.opencalais.com/pershash-1/c2f0aef3-6c75-3db3-bbae-8bdbafff7445> .
+
+<http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oklahoma" .
+
+<http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d/Instance/29>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[a.m. Friday, December 17, 2010, at Sacred Heart ]Catholic Church[ with Father Damian Lawrence officiating. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/eded810d-9b1a-3d87-9886-bbb9e999df5d> ;
+        c:exact      "Catholic Church" ;
+        c:length     "15" ;
+        c:offset     "875" ;
+        c:prefix     "a.m. Friday, December 17, 2010, at Sacred Heart " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/821f78e7-5f26-3a22-bb89-5c05ac05e851> ;
+        c:suffix     " with Father Damian Lawrence officiating. " .

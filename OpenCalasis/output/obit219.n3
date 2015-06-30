@@ -1,0 +1,1485 @@
+#Relations: CompanyLocation, FamilyRelation, PersonAttributes, PersonCareer, PersonEducation, PersonLocation, PersonRelation
+#City: Alva, Wichita
+#Company: Collie Oil Company, Ford
+#Facility: Alva Municipal Cemetery, Harry Hynes Hospice of Wichita, Marshall Funeral Home of Alva
+#Organization: Alva Wesleyan Church, Weber School
+#Person: Andrew James Collie, Arlin James Collie, Arlo Eugene Collie, Aubrey James, Aubrey James Collie, Dollie Bragg, Donna, Ethel Bennett, John Smith, Lucille Morsbach, Mamie Gertrude (Weber) Collie, Marshall Funeral, Mary Ann, Mary Ann Paph, Mickie White, Steve, Tom McDowell
+#Position: mechanic
+#ProvinceOrState: Kansas, Oklahoma
+@prefix c:     <http://s.opencalais.com/1/pred/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Relevance/26>
+        a                <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId          <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:relevance      "0.2" ;
+        c:relevancecont  "0.03" ;
+        c:subject        <http://d.opencalais.com/comphash-1/88615a23-d1e6-3b6e-90b2-b9b753e653f6> .
+
+<http://d.opencalais.com/conf/pershash-1/58a64d93-9f4a-3f10-8d37-7027e5444540>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.768" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.858" ;
+        c:subject             <http://d.opencalais.com/pershash-1/58a64d93-9f4a-3f10-8d37-7027e5444540> .
+
+<http://d.opencalais.com/conf/pershash-1/249c9a37-2d76-32a3-af0d-2c25fbfae9d3>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/249c9a37-2d76-32a3-af0d-2c25fbfae9d3> .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Instance/55>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Ford automobiles.    \nBesides his parents, ]he[ was preceded in death by one brother, Orville]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:exact      "he" ;
+        c:length     "2" ;
+        c:offset     "781" ;
+        c:prefix     "Ford automobiles.    \nBesides his parents, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9afe09b1-9f6c-38ef-88ef-96ba76d0eb62> ;
+        c:suffix     " was preceded in death by one brother, Orville" .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Instance/34>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[wife, Donna, of Wichita; two daughters, Talea ]Collie of Wichita[, and Reea Linck and husband, Steve, of Wichita;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:exact      "Collie of Wichita" ;
+        c:length     "17" ;
+        c:offset     "1042" ;
+        c:prefix     "wife, Donna, of Wichita; two daughters, Talea " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e1c3184e-bb25-37bd-bfbf-080ebbaf97a7> ;
+        c:suffix     ", and Reea Linck and husband, Steve, of Wichita;" .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Instance/13>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Dollie Bragg.    \nArlo is survived by his wife, ]Mary Ann[, of Wichita; one son, Arlin James Collie and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:exact      "Mary Ann" ;
+        c:length     "8" ;
+        c:offset     "942" ;
+        c:prefix     "Dollie Bragg.    \nArlo is survived by his wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/72268adc-e4cf-316c-9c53-f61a8c2bc8aa> ;
+        c:suffix     ", of Wichita; one son, Arlin James Collie and" .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/cat/1>
+        a                    <http://s.opencalais.com/1/type/cat/DocCat> ;
+        c:docId              <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Human Interest" ;
+        c:score              "0.884" .
+
+<http://d.opencalais.com/genericHasher-1/04aed9d0-248c-3d8a-9f11-2adaf5fe1321>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Wichita, Kansas" ;
+        c:person             <http://d.opencalais.com/pershash-1/249c9a37-2d76-32a3-af0d-2c25fbfae9d3> .
+
+<http://d.opencalais.com/pershash-1/0824c880-7431-3846-b832-1042cfbe83e9>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Marshall Funeral" .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Relevance/1>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/a0a213cc-c342-3de2-bf83-99815531652a> .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Relevance/13>
+        a                <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId          <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:relevance      "0" ;
+        c:relevancecont  "0.0" ;
+        c:subject        <http://d.opencalais.com/comphash-1/82c9c9f2-3216-3f14-be04-336b823ab6f1> .
+
+<http://d.opencalais.com/pershash-1/72268adc-e4cf-316c-9c53-f61a8c2bc8aa>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Mary Ann" ;
+        c:confidencelevel    "0.993" ;
+        c:firstname          "Mary" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Ann" ;
+        c:name               "Mary Ann" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Instance/42>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[worked as a mechanic and owned and operated the ]Collie Oil Company[.    \nHe enjoyed restoring antique Ford]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:exact      "Collie Oil Company" ;
+        c:length     "18" ;
+        c:offset     "685" ;
+        c:prefix     "worked as a mechanic and owned and operated the " ;
+        c:subject    <http://d.opencalais.com/comphash-1/88615a23-d1e6-3b6e-90b2-b9b753e653f6> ;
+        c:suffix     ".    \nHe enjoyed restoring antique Ford" .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Instance/21>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Interment is under the direction of ]Marshall Funeral Home of Alva[.    \nArlo Eugene Collie, son of the late Aubrey]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:exact      "Marshall Funeral Home of Alva" ;
+        c:length     "29" ;
+        c:offset     "226" ;
+        c:prefix     " Interment is under the direction of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce> ;
+        c:suffix     ".    \nArlo Eugene Collie, son of the late Aubrey" .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Instance/6>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[  They made their home in Alva where he worked as ]a mechanic[ and owned and operated the Collie Oil Company.  ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:exact      "a mechanic" ;
+        c:length     "10" ;
+        c:offset     "647" ;
+        c:prefix     "  They made their home in Alva where he worked as " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/342cbcfc-1f75-3e84-9ed2-bc85c5c8e6a7> ;
+        c:suffix     " and owned and operated the Collie Oil Company.  " .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Relevance/21>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/1be89cab-3ede-3881-b26f-be89e5573164> .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Relevance/9>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/72268adc-e4cf-316c-9c53-f61a8c2bc8aa> .
+
+<http://d.opencalais.com/comphash-1/82c9c9f2-3216-3f14-be04-336b823ab6f1>
+        a                    <http://s.opencalais.com/1/type/em/e/Company> ;
+        c:confidencelevel    "0.897" ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Ford" ;
+        c:nationality        "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/46247e2d-b571-3b90-8e66-0ed7d8fd6dce>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Wichita" ;
+        c:person             <http://d.opencalais.com/pershash-1/dad3066c-ec3e-3eea-be88-df4a5679ad69> .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Instance/50>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[the age of 84 years, 2 months, and 30 days.    \n]Arlo[ attended Weber School.  On April 21, 1950, he]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:exact      "Arlo" ;
+        c:length     "4" ;
+        c:offset     "494" ;
+        c:prefix     "the age of 84 years, 2 months, and 30 days.    \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/9afe09b1-9f6c-38ef-88ef-96ba76d0eb62> ;
+        c:suffix     " attended Weber School.  On April 21, 1950, he" .
+
+<http://d.opencalais.com/conf/pershash-1/e6d0e6a6-9d4d-3efd-8995-655a3293cbde>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.994" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.996" ;
+        c:subject             <http://d.opencalais.com/pershash-1/e6d0e6a6-9d4d-3efd-8995-655a3293cbde> .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Instance/29>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[   \nArlo is survived by his wife, Mary Ann, of ]Wichita[; one son, Arlin James Collie and wife, Donna, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:exact      "Wichita" ;
+        c:length     "7" ;
+        c:offset     "955" ;
+        c:prefix     "   \nArlo is survived by his wife, Mary Ann, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/1be89cab-3ede-3881-b26f-be89e5573164> ;
+        c:suffix     "; one son, Arlin James Collie and wife, Donna, of" .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/SocialTag/2>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Dog breeds" ;
+        c:originalValue      "Dog breeds" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/6c0da125-c4e1-30aa-bc35-0d658f088f7c> .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Relevance/29>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/0824c880-7431-3846-b832-1042cfbe83e9> .
+
+<http://d.opencalais.com/pershash-1/b122eea3-15db-3999-a94f-bf3daa43f9be>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Mamie Gertrude Collie" ;
+        c:confidencelevel    "0.984" ;
+        c:firstname          "Mamie" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Collie" ;
+        c:middlename         "Gertrude" ;
+        c:name               "Mamie Gertrude (Weber) Collie" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/b702e9aa-5e63-3845-a862-eb74484bb877>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/b702e9aa-5e63-3845-a862-eb74484bb877> .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Instance/58>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[for their invaluable help and support during ]Arlo[’s final days.    \nIn lieu of flowers memorial]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:exact      "Arlo" ;
+        c:length     "4" ;
+        c:offset     "1374" ;
+        c:prefix     "for their invaluable help and support during " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9afe09b1-9f6c-38ef-88ef-96ba76d0eb62> ;
+        c:suffix     "’s final days.    \nIn lieu of flowers memorial" .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Instance/37>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Wichita; two grandchildren, Aundrea Collie and ]Aubrey James Collie[; one great grandson, Andrew James Collie;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:exact      "Aubrey James Collie" ;
+        c:length     "19" ;
+        c:offset     "1146" ;
+        c:prefix     "Wichita; two grandchildren, Aundrea Collie and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/ded120bc-6a96-3e70-96ee-d52c811a5125> ;
+        c:suffix     "; one great grandson, Andrew James Collie;" .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Instance/16>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[one brother, Orville Collie; and three sisters, ]Lucille Morsbach[, Ethel Bennett, and Dollie Bragg.    \nArlo is]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:exact      "Lucille Morsbach" ;
+        c:length     "16" ;
+        c:offset     "857" ;
+        c:prefix     "one brother, Orville Collie; and three sisters, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/edff80d4-31ca-3eaf-a0f9-920de4f5393f> ;
+        c:suffix     ", Ethel Bennett, and Dollie Bragg.    \nArlo is" .
+
+<http://d.opencalais.com/comphash-1/88615a23-d1e6-3b6e-90b2-b9b753e653f6>
+        a                    <http://s.opencalais.com/1/type/em/e/Company> ;
+        c:confidencelevel    "0.81" ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Collie Oil Company" ;
+        c:nationality        "N/A" .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Instance/1>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[by his wife, Mary Ann, of Wichita; one son, ]Arlin James Collie[ and wife, Donna, of Wichita; two daughters,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:exact      "Arlin James Collie" ;
+        c:length     "18" ;
+        c:offset     "973" ;
+        c:prefix     "by his wife, Mary Ann, of Wichita; one son, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/a0a213cc-c342-3de2-bf83-99815531652a> ;
+        c:suffix     " and wife, Donna, of Wichita; two daughters," .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Relevance/16>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce> .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Relevance/4>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/b4c193fc-8b76-3932-984d-f1c190b9b1f0> .
+
+<http://d.opencalais.com/pershash-1/50aaad48-e2df-33c1-99ae-cf038c73f51c>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Ethel Bennett" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Ethel" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Bennett" ;
+        c:name               "Ethel Bennett" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/8eade039-a4ea-3277-86f0-dccd360f428f>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Alva Municipal Cemetery" .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Instance/45>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Interment is under the direction of ]Marshall Funeral Home of Alva[.    \nArlo Eugene Collie, son of the late Aubrey]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:exact      "Marshall Funeral Home of Alva" ;
+        c:length     "29" ;
+        c:offset     "226" ;
+        c:prefix     " Interment is under the direction of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6bf2c0d-0ac3-3aaa-a334-e02dfcbc3358> ;
+        c:suffix     ".    \nArlo Eugene Collie, son of the late Aubrey" .
+
+<http://d.opencalais.com/conf/pershash-1/a0a213cc-c342-3de2-bf83-99815531652a>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.875" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.906" ;
+        c:subject             <http://d.opencalais.com/pershash-1/a0a213cc-c342-3de2-bf83-99815531652a> .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Instance/24>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ of Alva.    \nArlo Eugene Collie, son of the late ]Aubrey James[ and Mamie Gertrude (Weber) Collie, was born]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:exact      "Aubrey James" ;
+        c:length     "12" ;
+        c:offset     "297" ;
+        c:prefix     " of Alva.    \nArlo Eugene Collie, son of the late " ;
+        c:subject    <http://d.opencalais.com/pershash-1/249c9a37-2d76-32a3-af0d-2c25fbfae9d3> ;
+        c:suffix     " and Mamie Gertrude (Weber) Collie, was born" .
+
+<http://d.opencalais.com/conf/pershash-1/edff80d4-31ca-3eaf-a0f9-920de4f5393f>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/edff80d4-31ca-3eaf-a0f9-920de4f5393f> .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Instance/9>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[under the direction of Marshall Funeral Home of ]Alva[.    \nArlo Eugene Collie, son of the late Aubrey]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "251" ;
+        c:prefix     "under the direction of Marshall Funeral Home of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:suffix     ".    \nArlo Eugene Collie, son of the late Aubrey" .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Relevance/24>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/14f8def2-ebd7-3575-8e9e-197b58f6b7f7> .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Instance/53>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[owned and operated the Collie Oil Company.    \n]He[ enjoyed restoring antique Ford automobiles.   ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:exact      "He" ;
+        c:length     "2" ;
+        c:offset     "709" ;
+        c:prefix     "owned and operated the Collie Oil Company.    \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/9afe09b1-9f6c-38ef-88ef-96ba76d0eb62> ;
+        c:suffix     " enjoyed restoring antique Ford automobiles.   " .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Instance/32>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Wichita, and Reea Linck and husband, Steve, of ]Wichita[; two grandchildren, Aundrea Collie and Aubrey]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:exact      "Wichita" ;
+        c:length     "7" ;
+        c:offset     "1099" ;
+        c:prefix     "Wichita, and Reea Linck and husband, Steve, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/1be89cab-3ede-3881-b26f-be89e5573164> ;
+        c:suffix     "; two grandchildren, Aundrea Collie and Aubrey" .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Instance/11>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Ann Paph at Fairview.  They made their home in ]Alva[ where he worked as a mechanic and owned and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "623" ;
+        c:prefix     "Ann Paph at Fairview.  They made their home in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:suffix     " where he worked as a mechanic and owned and" .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/SocialTag/5>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "2" ;
+        c:name               "Collie" ;
+        c:originalValue      "Collie" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/b3a31909-351e-3059-8ec0-a5aef957c727> .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Relevance/11>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/13108fbb-605d-3b6a-9121-8bd822c6e19a> .
+
+<http://d.opencalais.com/genericHasher-1/d454418f-8a15-3d56-a69f-416a2a7b1809>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Weber School" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/pershash-1/ded120bc-6a96-3e70-96ee-d52c811a5125>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Aubrey James Collie" ;
+        c:confidencelevel    "0.963" ;
+        c:firstname          "Aubrey" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Collie" ;
+        c:middlename         "James" ;
+        c:name               "Aubrey James Collie" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/72268adc-e4cf-316c-9c53-f61a8c2bc8aa>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.993" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.995" ;
+        c:subject             <http://d.opencalais.com/pershash-1/72268adc-e4cf-316c-9c53-f61a8c2bc8aa> .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Instance/61>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Interment is under the direction of ]Marshall Funeral[ Home of Alva.    \nArlo Eugene Collie, son of the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:exact      "Marshall Funeral" ;
+        c:length     "16" ;
+        c:offset     "226" ;
+        c:prefix     " Interment is under the direction of " ;
+        c:subject    <http://d.opencalais.com/pershash-1/0824c880-7431-3846-b832-1042cfbe83e9> ;
+        c:suffix     " Home of Alva.    \nArlo Eugene Collie, son of the" .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Instance/40>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Cemetery with Rev. John Smith, pastor of the ]Alva Wesleyan Church[ officiating.  Interment is under the direction]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:exact      "Alva Wesleyan Church" ;
+        c:length     "20" ;
+        c:offset     "155" ;
+        c:prefix     "Cemetery with Rev. John Smith, pastor of the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/14f8def2-ebd7-3575-8e9e-197b58f6b7f7> ;
+        c:suffix     " officiating.  Interment is under the direction" .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Instance/19>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Collie; and three sisters, Lucille Morsbach, ]Ethel Bennett[, and Dollie Bragg.    \nArlo is survived by his]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:exact      "Ethel Bennett" ;
+        c:length     "13" ;
+        c:offset     "875" ;
+        c:prefix     "Collie; and three sisters, Lucille Morsbach, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/50aaad48-e2df-33c1-99ae-cf038c73f51c> ;
+        c:suffix     ", and Dollie Bragg.    \nArlo is survived by his" .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Instance/4>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[home to the Harry Hynes Hospice of Wichita, ]Kansas[. \n\t\t\t]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:exact      "Kansas" ;
+        c:length     "6" ;
+        c:offset     "1515" ;
+        c:prefix     "home to the Harry Hynes Hospice of Wichita, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> ;
+        c:suffix     ". \n\t\t\t" .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Relevance/7>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8eade039-a4ea-3277-86f0-dccd360f428f> .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Relevance/19>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/d454418f-8a15-3d56-a69f-416a2a7b1809> .
+
+<http://d.opencalais.com/conf/comphash-1/82c9c9f2-3216-3f14-be04-336b823ab6f1>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.897" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:resolution          "0.93098897" ;
+        c:statisticalfeature  "0.876" ;
+        c:subject             <http://d.opencalais.com/comphash-1/82c9c9f2-3216-3f14-be04-336b823ab6f1> .
+
+<http://d.opencalais.com/genericHasher-1/342cbcfc-1f75-3e84-9ed2-bc85c5c8e6a7>
+        a                    <http://s.opencalais.com/1/type/em/e/Position> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "mechanic" .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Instance/48>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Graveside services for ]Arlo Eugene Collie[ will be 2:00 p.m. Wednesday, April, 17, 2013, at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:exact      "Arlo Eugene Collie" ;
+        c:length     "18" ;
+        c:offset     "23" ;
+        c:prefix     "Graveside services for " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9afe09b1-9f6c-38ef-88ef-96ba76d0eb62> ;
+        c:suffix     " will be 2:00 p.m. Wednesday, April, 17, 2013, at" .
+
+<http://d.opencalais.com/genericHasher-1/b6bf2c0d-0ac3-3aaa-a334-e02dfcbc3358>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Alva" ;
+        c:person             <http://d.opencalais.com/pershash-1/0824c880-7431-3846-b832-1042cfbe83e9> .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Instance/27>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Collie, was born January 14, 1929, at Alva, ]Oklahoma[, and passed away April 13, 2013, at Wichita,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "381" ;
+        c:prefix     "Collie, was born January 14, 1929, at Alva, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", and passed away April 13, 2013, at Wichita," .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Relevance/27>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/b702e9aa-5e63-3845-a862-eb74484bb877> .
+
+<http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Marshall Funeral Home of Alva" .
+
+<http://d.opencalais.com/conf/pershash-1/b122eea3-15db-3999-a94f-bf3daa43f9be>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.984" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.989" ;
+        c:subject             <http://d.opencalais.com/pershash-1/b122eea3-15db-3999-a94f-bf3daa43f9be> .
+
+<http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Kansas" .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Instance/56>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Morsbach, Ethel Bennett, and Dollie Bragg.    \n]Arlo[ is survived by his wife, Mary Ann, of Wichita;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:exact      "Arlo" ;
+        c:length     "4" ;
+        c:offset     "912" ;
+        c:prefix     "Morsbach, Ethel Bennett, and Dollie Bragg.    \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/9afe09b1-9f6c-38ef-88ef-96ba76d0eb62> ;
+        c:suffix     " is survived by his wife, Mary Ann, of Wichita;" .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Instance/35>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[the age of 84 years, 2 months, and 30 days.    \n]Arlo attended Weber School[.  On April 21, 1950, he was united in marriage]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:exact      "Arlo attended Weber School" ;
+        c:length     "26" ;
+        c:offset     "494" ;
+        c:prefix     "the age of 84 years, 2 months, and 30 days.    \n" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4b963b2a-2567-32bb-840a-b85829a1a07b> ;
+        c:suffix     ".  On April 21, 1950, he was united in marriage" .
+
+<http://d.opencalais.com/conf/comphash-1/88615a23-d1e6-3b6e-90b2-b9b753e653f6>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.81" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.946" ;
+        c:subject             <http://d.opencalais.com/comphash-1/88615a23-d1e6-3b6e-90b2-b9b753e653f6> .
+
+<http://d.opencalais.com/genericHasher-1/1be89cab-3ede-3881-b26f-be89e5573164>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Wichita" .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Instance/14>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Collie of Wichita, and Reea Linck and husband, ]Steve[, of Wichita; two grandchildren, Aundrea Collie]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:exact      "Steve" ;
+        c:length     "5" ;
+        c:offset     "1089" ;
+        c:prefix     "Collie of Wichita, and Reea Linck and husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/dad3066c-ec3e-3eea-be88-df4a5679ad69> ;
+        c:suffix     ", of Wichita; two grandchildren, Aundrea Collie" .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Relevance/2>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/58a64d93-9f4a-3f10-8d37-7027e5444540> .
+
+<http://d.opencalais.com/genericHasher-1/15dbd34a-002f-3a68-a783-2bcf6712fc3a>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "wife" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/9afe09b1-9f6c-38ef-88ef-96ba76d0eb62> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/72268adc-e4cf-316c-9c53-f61a8c2bc8aa> .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Relevance/14>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/50aaad48-e2df-33c1-99ae-cf038c73f51c> .
+
+<http://d.opencalais.com/pershash-1/b4c193fc-8b76-3932-984d-f1c190b9b1f0>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "John Smith" ;
+        c:confidencelevel    "0.999" ;
+        c:firstname          "John" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Smith" ;
+        c:name               "John Smith" ;
+        c:nationality        "N/A" ;
+        c:persontype         "sports" .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Instance/43>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ he was preceded in death by one brother, Orville ]Collie[; and three sisters, Lucille Morsbach, Ethel]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:exact      "Collie" ;
+        c:length     "6" ;
+        c:offset     "830" ;
+        c:prefix     " he was preceded in death by one brother, Orville " ;
+        c:subject    <http://d.opencalais.com/comphash-1/88615a23-d1e6-3b6e-90b2-b9b753e653f6> ;
+        c:suffix     "; and three sisters, Lucille Morsbach, Ethel" .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Instance/22>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ at Fairview.  They made their home in Alva where ]he worked as a mechanic[ and owned and operated the Collie Oil Company.  ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:exact      "he worked as a mechanic" ;
+        c:length     "23" ;
+        c:offset     "634" ;
+        c:prefix     " at Fairview.  They made their home in Alva where " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/6bc18647-d46e-3622-82ce-7b68c00f1a58> ;
+        c:suffix     " and owned and operated the Collie Oil Company.  " .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Instance/7>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[sisters, Lucille Morsbach, Ethel Bennett, and ]Dollie Bragg[.    \nArlo is survived by his wife, Mary Ann, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:exact      "Dollie Bragg" ;
+        c:length     "12" ;
+        c:offset     "894" ;
+        c:prefix     "sisters, Lucille Morsbach, Ethel Bennett, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/309afba7-fec6-3a56-9824-5d3c45802b4f> ;
+        c:suffix     ".    \nArlo is survived by his wife, Mary Ann, of" .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Relevance/22>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/7929aed4-5199-30ce-90dc-e0a69b4994de> .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/ComponentVersions>
+        a          <http://s.opencalais.com/1/type/sys/ComponentVersions> ;
+        c:docId    <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:version  "config-cse:271:271" , "config-vessels:258:258" , "FrenchIM:OneCalais_8.3-RELEASE:198" , "Dial4J:OneCalais_8.3-RELEASE:198" , "NextTags:OneCalais_8.3-RELEASE:113" , "OA Override:271:271" , "OneCalaisIM:OneCalais_8.3-RELEASE:198" , "Deals Index:201505261613:201505261613" , "config-physicalAssets-ports:258:258" , "SocialTags Index:201505191038:201505191038" , "WatchDog:OneCalais_8.3-RELEASE:113" , "config-sca-DataPackage:34:34" , "People Override:258:258" , "OA Index:201505252208:201505252208" , "Housekeeper:OneCalais_8.3-RELEASE:113" , "AutocoderRuntimeIM:OneCalais_8.3-RELEASE:198" , "Collector:OneCalais_8.3-RELEASE:113" , "config-negativeSignature:258:258" , "config-refineries:258:258" , "OneCalais:OneCalais_8.3-RELEASE:364" , "People Index:201505261608:201505261608" , "SECHeaderMetadataIM:OneCalais_8.3-RELEASE:198" , "SpanishIM:OneCalais_8.3-RELEASE:198" , "com.clearforest.infoext.dial4j.plugins-basistechconfig:OneCalais_8.3-RELEASE:225" , "BrokerResearchIM:OneCalais_8.3-RELEASE:198" , "BlackList:264:264" , "config-drugs:258:258" , "index-vessels:201505231718:201505231718" .
+
+<http://d.opencalais.com/genericHasher-1/14f8def2-ebd7-3575-8e9e-197b58f6b7f7>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Alva Wesleyan Church" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/pershash-1/13108fbb-605d-3b6a-9121-8bd822c6e19a>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Mary Ann Paph" ;
+        c:confidencelevel    "0.963" ;
+        c:firstname          "Mary" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Paph" ;
+        c:middlename         "Ann" ;
+        c:name               "Mary Ann Paph" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Instance/51>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ \nArlo attended Weber School.  On April 21, 1950, ]he[ was united in marriage to Mary Ann Paph at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:exact      "he" ;
+        c:length     "2" ;
+        c:offset     "542" ;
+        c:prefix     " \nArlo attended Weber School.  On April 21, 1950, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9afe09b1-9f6c-38ef-88ef-96ba76d0eb62> ;
+        c:suffix     " was united in marriage to Mary Ann Paph at" .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Instance/30>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[one son, Arlin James Collie and wife, Donna, of ]Wichita[; two daughters, Talea Collie of Wichita, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:exact      "Wichita" ;
+        c:length     "7" ;
+        c:offset     "1012" ;
+        c:prefix     "one son, Arlin James Collie and wife, Donna, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/1be89cab-3ede-3881-b26f-be89e5573164> ;
+        c:suffix     "; two daughters, Talea Collie of Wichita, and" .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/SocialTag/3>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Rough Collie" ;
+        c:originalValue      "Rough Collie" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/13cd6e15-08d8-3fcf-9f1c-bac9adfaaf0a> .
+
+<http://d.opencalais.com/conf/pershash-1/ded120bc-6a96-3e70-96ee-d52c811a5125>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.963" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.978" ;
+        c:subject             <http://d.opencalais.com/pershash-1/ded120bc-6a96-3e70-96ee-d52c811a5125> .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Instance/59>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Wichita; one son, Arlin James Collie and wife, ]Donna, of Wichita[; two daughters, Talea Collie of Wichita, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:exact      "Donna, of Wichita" ;
+        c:length     "17" ;
+        c:offset     "1002" ;
+        c:prefix     "Wichita; one son, Arlin James Collie and wife, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/53f7f183-221d-3506-9cda-5ba112580e1d> ;
+        c:suffix     "; two daughters, Talea Collie of Wichita, and" .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Instance/38>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Eugene Collie, son of the late Aubrey James and ]Mamie Gertrude (Weber) Collie, was born January 14, 1929, at Alva, Oklahoma[, and passed away April 13, 2013, at Wichita,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:exact      "Mamie Gertrude (Weber) Collie, was born January 14, 1929, at Alva, Oklahoma" ;
+        c:length     "75" ;
+        c:offset     "314" ;
+        c:prefix     "Eugene Collie, son of the late Aubrey James and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/d3be3616-ae38-36ab-991b-8f49197871bd> ;
+        c:suffix     ", and passed away April 13, 2013, at Wichita," .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Instance/17>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Oil Company.    \nHe enjoyed restoring antique ]Ford[ automobiles.    \nBesides his parents, he was]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:exact      "Ford" ;
+        c:length     "4" ;
+        c:offset     "738" ;
+        c:prefix     "Oil Company.    \nHe enjoyed restoring antique " ;
+        c:subject    <http://d.opencalais.com/comphash-1/82c9c9f2-3216-3f14-be04-336b823ab6f1> ;
+        c:suffix     " automobiles.    \nBesides his parents, he was" .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Instance/2>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ and nephews.    \nSpecial thanks to Tom McDowell, ]Mickie White[ and other friends throughout the community for]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:exact      "Mickie White" ;
+        c:length     "12" ;
+        c:offset     "1273" ;
+        c:prefix     " and nephews.    \nSpecial thanks to Tom McDowell, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/58a64d93-9f4a-3f10-8d37-7027e5444540> ;
+        c:suffix     " and other friends throughout the community for" .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Relevance/17>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/249c9a37-2d76-32a3-af0d-2c25fbfae9d3> .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Relevance/5>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/342cbcfc-1f75-3e84-9ed2-bc85c5c8e6a7> .
+
+<http://d.opencalais.com/genericHasher-1/11c84a9d-e206-393a-9319-2458f5191de2>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:date                "1950-04-21" ;
+        c:datestring          "April 21, 1950" ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/13108fbb-605d-3b6a-9121-8bd822c6e19a> , <http://d.opencalais.com/pershash-1/9afe09b1-9f6c-38ef-88ef-96ba76d0eb62> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Instance/46>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[nieces and nephews.    \nSpecial thanks to ]Tom McDowell[, Mickie White and other friends throughout the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:exact      "Tom McDowell" ;
+        c:length     "12" ;
+        c:offset     "1259" ;
+        c:prefix     "nieces and nephews.    \nSpecial thanks to " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b702e9aa-5e63-3845-a862-eb74484bb877> ;
+        c:suffix     ", Mickie White and other friends throughout the" .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Instance/25>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[may be made through the funeral home to the ]Harry Hynes Hospice of Wichita[, Kansas. \n\t\t\t]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:exact      "Harry Hynes Hospice of Wichita" ;
+        c:length     "30" ;
+        c:offset     "1483" ;
+        c:prefix     "may be made through the funeral home to the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/03e5968c-b06f-3680-b288-5f27e830c893> ;
+        c:suffix     ", Kansas. \n\t\t\t" .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Relevance/25>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/e6d0e6a6-9d4d-3efd-8995-655a3293cbde> .
+
+<http://d.opencalais.com/genericHasher-1/53f7f183-221d-3506-9cda-5ba112580e1d>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Wichita" ;
+        c:person             <http://d.opencalais.com/pershash-1/7929aed4-5199-30ce-90dc-e0a69b4994de> .
+
+<http://d.opencalais.com/genericHasher-1/e1c3184e-bb25-37bd-bfbf-080ebbaf97a7>
+        a                      <http://s.opencalais.com/1/type/em/r/CompanyLocation> ;
+        c:city                 <http://d.opencalais.com/genericHasher-1/1be89cab-3ede-3881-b26f-be89e5573164> ;
+        c:company              <http://d.opencalais.com/comphash-1/88615a23-d1e6-3b6e-90b2-b9b753e653f6> ;
+        c:companylocationtype  "N/A" ;
+        c:forenduserdisplay    "true" .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Instance/54>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[restoring antique Ford automobiles.    \nBesides ]his[ parents, he was preceded in death by one]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "768" ;
+        c:prefix     "restoring antique Ford automobiles.    \nBesides " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9afe09b1-9f6c-38ef-88ef-96ba76d0eb62> ;
+        c:suffix     " parents, he was preceded in death by one" .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Instance/33>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[the funeral home to the Harry Hynes Hospice of ]Wichita[, Kansas. \n\t\t\t]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:exact      "Wichita" ;
+        c:length     "7" ;
+        c:offset     "1506" ;
+        c:prefix     "the funeral home to the Harry Hynes Hospice of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/1be89cab-3ede-3881-b26f-be89e5573164> ;
+        c:suffix     ", Kansas. \n\t\t\t" .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Instance/12>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ of Alva.    \nArlo Eugene Collie, son of the late ]Aubrey James and Mamie Gertrude (Weber) Collie, was born January 14, 1929, at Alva, Oklahoma, and passed away April 13, 2013, at Wichita, Kansas[, at the age of 84 years, 2 months, and 30 days. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:exact      "Aubrey James and Mamie Gertrude (Weber) Collie, was born January 14, 1929, at Alva, Oklahoma, and passed away April 13, 2013, at Wichita, Kansas" ;
+        c:length     "144" ;
+        c:offset     "297" ;
+        c:prefix     " of Alva.    \nArlo Eugene Collie, son of the late " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/04aed9d0-248c-3d8a-9f11-2adaf5fe1321> ;
+        c:suffix     ", at the age of 84 years, 2 months, and 30 days. " .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Relevance/12>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/edff80d4-31ca-3eaf-a0f9-920de4f5393f> .
+
+<http://d.opencalais.com/conf/pershash-1/b4c193fc-8b76-3932-984d-f1c190b9b1f0>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.999" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.996" ;
+        c:subject             <http://d.opencalais.com/pershash-1/b4c193fc-8b76-3932-984d-f1c190b9b1f0> .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Instance/41>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and Aubrey James Collie; one great grandson, ]Andrew James Collie[; numerous nieces and nephews.    \nSpecial thanks]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:exact      "Andrew James Collie" ;
+        c:length     "19" ;
+        c:offset     "1187" ;
+        c:prefix     "and Aubrey James Collie; one great grandson, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/e6d0e6a6-9d4d-3efd-8995-655a3293cbde> ;
+        c:suffix     "; numerous nieces and nephews.    \nSpecial thanks" .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Instance/20>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Eugene Collie, son of the late Aubrey James and ]Mamie Gertrude (Weber) Collie[, was born January 14, 1929, at Alva, Oklahoma,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:exact      "Mamie Gertrude (Weber) Collie" ;
+        c:length     "29" ;
+        c:offset     "314" ;
+        c:prefix     "Eugene Collie, son of the late Aubrey James and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b122eea3-15db-3999-a94f-bf3daa43f9be> ;
+        c:suffix     ", was born January 14, 1929, at Alva, Oklahoma," .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Instance/5>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[2013, at the Alva Municipal Cemetery with Rev. ]John Smith[, pastor of the Alva Wesleyan Church officiating.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:exact      "John Smith" ;
+        c:length     "10" ;
+        c:offset     "129" ;
+        c:prefix     "2013, at the Alva Municipal Cemetery with Rev. " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b4c193fc-8b76-3932-984d-f1c190b9b1f0> ;
+        c:suffix     ", pastor of the Alva Wesleyan Church officiating." .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/61f29abb-e794-d541-a717-7f9811b1ce02>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Kansas" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:latitude            "37.6922" ;
+        c:longitude           "-97.3372" ;
+        c:name                "Wichita,Kansas,United States" ;
+        c:shortname           "Wichita" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/1be89cab-3ede-3881-b26f-be89e5573164> .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Relevance/20>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Relevance/8>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf>
+        a                  <http://s.opencalais.com/1/type/sys/DocInfo> ;
+        c:calaisRequestID  "8ce52572-ec14-6f45-14d9-13bd2076fa60" ;
+        c:docDate          "2015-05-26 17:18:46.638" ;
+        c:docTitle         "" ;
+        c:document         "Graveside services for Arlo Eugene Collie will be 2:00 p.m. Wednesday, April, 17, 2013, at the Alva Municipal Cemetery with Rev. John Smith, pastor of the Alva Wesleyan Church officiating.  Interment is under the direction of Marshall Funeral Home of Alva.    \nArlo Eugene Collie, son of the late Aubrey James and Mamie Gertrude (Weber) Collie, was born January 14, 1929, at Alva, Oklahoma, and passed away April 13, 2013, at Wichita, Kansas, at the age of 84 years, 2 months, and 30 days.    \nArlo attended Weber School.  On April 21, 1950, he was united in marriage to Mary Ann Paph at Fairview.  They made their home in Alva where he worked as a mechanic and owned and operated the Collie Oil Company.    \nHe enjoyed restoring antique Ford automobiles.    \nBesides his parents, he was preceded in death by one brother, Orville Collie; and three sisters, Lucille Morsbach, Ethel Bennett, and Dollie Bragg.    \nArlo is survived by his wife, Mary Ann, of Wichita; one son, Arlin James Collie and wife, Donna, of Wichita; two daughters, Talea Collie of Wichita, and Reea Linck and husband, Steve, of Wichita; two grandchildren, Aundrea Collie and Aubrey James Collie; one great grandson, Andrew James Collie; numerous nieces and nephews.    \nSpecial thanks to Tom McDowell, Mickie White and other friends throughout the community for their invaluable help and support during Arlo’s final days.    \nIn lieu of flowers memorial contributions may be made through the funeral home to the Harry Hynes Hospice of Wichita, Kansas. \n\t\t\t" ;
+        c:id               "http://id.opencalais.com/xVBKgwBROn4l2vvWeqT3pA" ;
+        c:ontology         "http://163.231.4.65/owlschema/8.3/onecalais.owl.allmetadata.xml" .
+
+<http://d.opencalais.com/conf/pershash-1/13108fbb-605d-3b6a-9121-8bd822c6e19a>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.963" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.978" ;
+        c:subject             <http://d.opencalais.com/pershash-1/13108fbb-605d-3b6a-9121-8bd822c6e19a> .
+
+<http://d.opencalais.com/pershash-1/dad3066c-ec3e-3eea-be88-df4a5679ad69>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Steve" ;
+        c:confidencelevel    "0.958" ;
+        c:firstname          "Steve" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Steve" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/pershash-1/9afe09b1-9f6c-38ef-88ef-96ba76d0eb62>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Arlo Eugene Collie" ;
+        c:confidencelevel    "0.993" ;
+        c:firstname          "Arlo" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Collie" ;
+        c:middlename         "Eugene" ;
+        c:name               "Arlo Eugene Collie" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Instance/49>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[direction of Marshall Funeral Home of Alva.    \n]Arlo Eugene Collie[, son of the late Aubrey James and Mamie Gertrude]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:exact      "Arlo Eugene Collie" ;
+        c:length     "18" ;
+        c:offset     "261" ;
+        c:prefix     "direction of Marshall Funeral Home of Alva.    \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/9afe09b1-9f6c-38ef-88ef-96ba76d0eb62> ;
+        c:suffix     ", son of the late Aubrey James and Mamie Gertrude" .
+
+<http://d.opencalais.com/pershash-1/7929aed4-5199-30ce-90dc-e0a69b4994de>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Donna" ;
+        c:confidencelevel    "0.932" ;
+        c:firstname          "Donna" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Donna" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/pershash-1/309afba7-fec6-3a56-9824-5d3c45802b4f>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Dollie Bragg" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Dollie" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Bragg" ;
+        c:name               "Dollie Bragg" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Instance/28>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Oklahoma, and passed away April 13, 2013, at ]Wichita[, Kansas, at the age of 84 years, 2 months, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:exact      "Wichita" ;
+        c:length     "7" ;
+        c:offset     "426" ;
+        c:prefix     "Oklahoma, and passed away April 13, 2013, at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/1be89cab-3ede-3881-b26f-be89e5573164> ;
+        c:suffix     ", Kansas, at the age of 84 years, 2 months, and" .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/lid/DefaultLangId>
+        a                    <http://s.opencalais.com/1/type/lid/DefaultLangId> ;
+        c:docId              <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:forenduserdisplay  "false" ;
+        c:lang               <http://d.opencalais.com/lid/DefaultLangId/English> ;
+        c:permid             "505062" .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/SocialTag/1>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Herding dogs" ;
+        c:originalValue      "Herding dogs" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/099df384-9842-3872-92d6-c78899b1e04b> .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Relevance/28>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/pershash-1/9afe09b1-9f6c-38ef-88ef-96ba76d0eb62> .
+
+<http://d.opencalais.com/pershash-1/58a64d93-9f4a-3f10-8d37-7027e5444540>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Mickie White" ;
+        c:confidencelevel    "0.768" ;
+        c:firstname          "Mickie" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "White" ;
+        c:name               "Mickie White" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/pershash-1/249c9a37-2d76-32a3-af0d-2c25fbfae9d3>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Aubrey James" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Aubrey" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "James" ;
+        c:name               "Aubrey James" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/fed9d1a1-abed-3344-819e-28e6883ff59a>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Wichita" ;
+        c:person             <http://d.opencalais.com/pershash-1/72268adc-e4cf-316c-9c53-f61a8c2bc8aa> .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Instance/57>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and Dollie Bragg.    \nArlo is survived by ]his[ wife, Mary Ann, of Wichita; one son, Arlin James]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "932" ;
+        c:prefix     "and Dollie Bragg.    \nArlo is survived by " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9afe09b1-9f6c-38ef-88ef-96ba76d0eb62> ;
+        c:suffix     " wife, Mary Ann, of Wichita; one son, Arlin James" .
+
+<http://d.opencalais.com/genericHasher-1/293fefaa-2105-3134-8f39-1266e0b3258c>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/72268adc-e4cf-316c-9c53-f61a8c2bc8aa> , <http://d.opencalais.com/pershash-1/9afe09b1-9f6c-38ef-88ef-96ba76d0eb62> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Instance/36>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Wichita; one son, Arlin James Collie and wife, ]Donna[, of Wichita; two daughters, Talea Collie of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:exact      "Donna" ;
+        c:length     "5" ;
+        c:offset     "1002" ;
+        c:prefix     "Wichita; one son, Arlin James Collie and wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/7929aed4-5199-30ce-90dc-e0a69b4994de> ;
+        c:suffix     ", of Wichita; two daughters, Talea Collie of" .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Instance/15>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[  On April 21, 1950, he was united in marriage to ]Mary Ann Paph[ at Fairview.  They made their home in Alva where]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:exact      "Mary Ann Paph" ;
+        c:length     "13" ;
+        c:offset     "571" ;
+        c:prefix     "  On April 21, 1950, he was united in marriage to " ;
+        c:subject    <http://d.opencalais.com/pershash-1/13108fbb-605d-3b6a-9121-8bd822c6e19a> ;
+        c:suffix     " at Fairview.  They made their home in Alva where" .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/meta>
+        a                 <http://s.opencalais.com/1/type/sys/DocInfoMeta> ;
+        c:contentType     "text/raw" ;
+        c:docId           <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:language        "English" ;
+        c:processingVer   "AllMetadata" ;
+        c:serverVersion   "OneCalais_8.3-RELEASE:364" ;
+        c:signature       "digestalg-1|nNRKR1xt+sERRW2shDvRTT5HPHI=|HyK4kJRH+2+Vh1NhA9agpnRpwo8ZZtWozzX4Ml7ySXiEHskfq/6DKg==" ;
+        c:stagsVer        "OneCalais_8.3-RELEASE-b11-2015-03-25_18:29:00" ;
+        c:submissionDate  "2015-05-26 17:18:46.279" ;
+        c:submitterCode   "0ca6a864-5659-789d-5f32-f365f695e757" .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Relevance/15>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/b122eea3-15db-3999-a94f-bf3daa43f9be> .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Relevance/3>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Instance/44>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[wife, Donna, of Wichita; two daughters, Talea ]Collie[ of Wichita, and Reea Linck and husband, Steve,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:exact      "Collie" ;
+        c:length     "6" ;
+        c:offset     "1042" ;
+        c:prefix     "wife, Donna, of Wichita; two daughters, Talea " ;
+        c:subject    <http://d.opencalais.com/comphash-1/88615a23-d1e6-3b6e-90b2-b9b753e653f6> ;
+        c:suffix     " of Wichita, and Reea Linck and husband, Steve," .
+
+<http://d.opencalais.com/genericHasher-1/d3be3616-ae38-36ab-991b-8f49197871bd>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonAttributes> ;
+        c:birthdate          "1929-01-14" ;
+        c:birthplace         <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:forenduserdisplay  "false" ;
+        c:gender             "F" ;
+        c:person             <http://d.opencalais.com/pershash-1/b122eea3-15db-3999-a94f-bf3daa43f9be> .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Instance/23>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Morsbach, Ethel Bennett, and Dollie Bragg.    \n]Arlo is survived by his wife, Mary Ann, of Wichita[; one son, Arlin James Collie and wife, Donna, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:exact      "Arlo is survived by his wife, Mary Ann, of Wichita" ;
+        c:length     "50" ;
+        c:offset     "912" ;
+        c:prefix     "Morsbach, Ethel Bennett, and Dollie Bragg.    \n" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/293fefaa-2105-3134-8f39-1266e0b3258c> ;
+        c:suffix     "; one son, Arlin James Collie and wife, Donna, of" .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Instance/8>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[be 2:00 p.m. Wednesday, April, 17, 2013, at the ]Alva Municipal Cemetery[ with Rev. John Smith, pastor of the Alva]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:exact      "Alva Municipal Cemetery" ;
+        c:length     "23" ;
+        c:offset     "95" ;
+        c:prefix     "be 2:00 p.m. Wednesday, April, 17, 2013, at the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8eade039-a4ea-3277-86f0-dccd360f428f> ;
+        c:suffix     " with Rev. John Smith, pastor of the Alva" .
+
+<http://d.opencalais.com/genericHasher-1/03e5968c-b06f-3680-b288-5f27e830c893>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Harry Hynes Hospice of Wichita" .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Relevance/23>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/ded120bc-6a96-3e70-96ee-d52c811a5125> .
+
+<http://d.opencalais.com/genericHasher-1/6bc18647-d46e-3622-82ce-7b68c00f1a58>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:forenduserdisplay  "true" ;
+        c:organization       <http://d.opencalais.com/genericHasher-1/d454418f-8a15-3d56-a69f-416a2a7b1809> ;
+        c:person             <http://d.opencalais.com/pershash-1/9afe09b1-9f6c-38ef-88ef-96ba76d0eb62> ;
+        c:position           "mechanic" ;
+        c:status             "past" .
+
+<http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oklahoma" .
+
+<http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Alva" .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Instance/52>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ at Fairview.  They made their home in Alva where ]he[ worked as a mechanic and owned and operated the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:exact      "he" ;
+        c:length     "2" ;
+        c:offset     "634" ;
+        c:prefix     " at Fairview.  They made their home in Alva where " ;
+        c:subject    <http://d.opencalais.com/pershash-1/9afe09b1-9f6c-38ef-88ef-96ba76d0eb62> ;
+        c:suffix     " worked as a mechanic and owned and operated the" .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Instance/31>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Wichita; two daughters, Talea Collie of ]Wichita[, and Reea Linck and husband, Steve, of Wichita;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:exact      "Wichita" ;
+        c:length     "7" ;
+        c:offset     "1052" ;
+        c:prefix     "of Wichita; two daughters, Talea Collie of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/1be89cab-3ede-3881-b26f-be89e5573164> ;
+        c:suffix     ", and Reea Linck and husband, Steve, of Wichita;" .
+
+<http://d.opencalais.com/genericHasher-1/4b963b2a-2567-32bb-840a-b85829a1a07b>
+        a                       <http://s.opencalais.com/1/type/em/r/PersonEducation> ;
+        c:forenduserdisplay     "false" ;
+        c:person                <http://d.opencalais.com/pershash-1/9afe09b1-9f6c-38ef-88ef-96ba76d0eb62> ;
+        c:schoolororganization  "Weber School" .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Instance/10>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[(Weber) Collie, was born January 14, 1929, at ]Alva[, Oklahoma, and passed away April 13, 2013, at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "375" ;
+        c:prefix     "(Weber) Collie, was born January 14, 1929, at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:suffix     ", Oklahoma, and passed away April 13, 2013, at" .
+
+<http://d.opencalais.com/pershash-1/e6d0e6a6-9d4d-3efd-8995-655a3293cbde>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Andrew James Collie" ;
+        c:confidencelevel    "0.994" ;
+        c:firstname          "Andrew" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Collie" ;
+        c:middlename         "James" ;
+        c:name               "Andrew James Collie" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/SocialTag/4>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "2" ;
+        c:name               "Wichita, Kansas" ;
+        c:originalValue      "Wichita, Kansas" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/0d212a1e-f67d-3af8-9bd4-a3e4ccea7b09> .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/ec80b062-8d1e-123a-1d6e-8bd0b7355690>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:latitude            "38.45" ;
+        c:longitude           "-96.5333" ;
+        c:name                "Kansas,United States" ;
+        c:permid              "100151" ;
+        c:rcscode             "G:6D" ;
+        c:shortname           "Kansas" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Relevance/10>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/dad3066c-ec3e-3eea-be88-df4a5679ad69> .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Instance/60>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Collie of Wichita, and Reea Linck and husband, ]Steve, of Wichita[; two grandchildren, Aundrea Collie and Aubrey]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:exact      "Steve, of Wichita" ;
+        c:length     "17" ;
+        c:offset     "1089" ;
+        c:prefix     "Collie of Wichita, and Reea Linck and husband, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/46247e2d-b571-3b90-8e66-0ed7d8fd6dce> ;
+        c:suffix     "; two grandchildren, Aundrea Collie and Aubrey" .
+
+<http://d.opencalais.com/pershash-1/b702e9aa-5e63-3845-a862-eb74484bb877>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Tom McDowell" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Tom" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "McDowell" ;
+        c:name               "Tom McDowell" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Instance/39>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Dollie Bragg.    \nArlo is survived by his wife, ]Mary Ann, of Wichita[; one son, Arlin James Collie and wife, Donna, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:exact      "Mary Ann, of Wichita" ;
+        c:length     "20" ;
+        c:offset     "942" ;
+        c:prefix     "Dollie Bragg.    \nArlo is survived by his wife, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/fed9d1a1-abed-3344-819e-28e6883ff59a> ;
+        c:suffix     "; one son, Arlin James Collie and wife, Donna, of" .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Instance/18>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and Dollie Bragg.    \nArlo is survived by ]his wife, Mary Ann, of Wichita[; one son, Arlin James Collie and wife, Donna, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:exact      "his wife, Mary Ann, of Wichita" ;
+        c:length     "30" ;
+        c:offset     "932" ;
+        c:prefix     "and Dollie Bragg.    \nArlo is survived by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/15dbd34a-002f-3a68-a783-2bcf6712fc3a> ;
+        c:suffix     "; one son, Arlin James Collie and wife, Donna, of" .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Instance/3>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and passed away April 13, 2013, at Wichita, ]Kansas[, at the age of 84 years, 2 months, and 30 days. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:exact      "Kansas" ;
+        c:length     "6" ;
+        c:offset     "435" ;
+        c:prefix     "and passed away April 13, 2013, at Wichita, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0e994c42-381c-3dcf-a6e5-40beb24ef51d> ;
+        c:suffix     ", at the age of 84 years, 2 months, and 30 days. " .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Relevance/6>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/309afba7-fec6-3a56-9824-5d3c45802b4f> .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Relevance/18>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/03e5968c-b06f-3680-b288-5f27e830c893> .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/e9e27c26-4013-8712-a5f0-97dcdc412c26>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:latitude            "35.5607802899" ;
+        c:longitude           "-96.8460570462" ;
+        c:name                "Oklahoma,United States" ;
+        c:permid              "100229" ;
+        c:rcscode             "G:9H" ;
+        c:shortname           "Oklahoma" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/conf/pershash-1/9afe09b1-9f6c-38ef-88ef-96ba76d0eb62>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.993" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.995" ;
+        c:subject             <http://d.opencalais.com/pershash-1/9afe09b1-9f6c-38ef-88ef-96ba76d0eb62> .
+
+<http://d.opencalais.com/conf/pershash-1/dad3066c-ec3e-3eea-be88-df4a5679ad69>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.958" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/dad3066c-ec3e-3eea-be88-df4a5679ad69> .
+
+<https://permid.org/1-4295903068>
+        a             <http://s.opencalais.com/1/type/er/Company> ;
+        c:commonname  "Ford Motor" ;
+        c:docId       <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:legacyid    <http://d.opencalais.com/er/company/ralg-tr1r/b5814221-0cc1-38ed-ad1d-fc746da3bcf9> ;
+        c:name        "Ford Motor Co" ;
+        c:permid      "4295903068" ;
+        c:primaryric  "F.N" ;
+        c:score       "0.93098897" ;
+        c:subject     <http://d.opencalais.com/comphash-1/82c9c9f2-3216-3f14-be04-336b823ab6f1> ;
+        c:ticker      "F" .
+
+<http://d.opencalais.com/conf/pershash-1/7929aed4-5199-30ce-90dc-e0a69b4994de>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.932" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/7929aed4-5199-30ce-90dc-e0a69b4994de> .
+
+<http://d.opencalais.com/conf/pershash-1/50aaad48-e2df-33c1-99ae-cf038c73f51c>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/50aaad48-e2df-33c1-99ae-cf038c73f51c> .
+
+<http://d.opencalais.com/conf/pershash-1/309afba7-fec6-3a56-9824-5d3c45802b4f>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/309afba7-fec6-3a56-9824-5d3c45802b4f> .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Instance/47>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and 30 days.    \nArlo attended Weber School.  ]On April 21, 1950, he was united in marriage to Mary Ann Paph[ at Fairview.  They made their home in Alva where]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:exact      "On April 21, 1950, he was united in marriage to Mary Ann Paph" ;
+        c:length     "61" ;
+        c:offset     "523" ;
+        c:prefix     "and 30 days.    \nArlo attended Weber School.  " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/11c84a9d-e206-393a-9319-2458f5191de2> ;
+        c:suffix     " at Fairview.  They made their home in Alva where" .
+
+<http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf/Instance/26>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[years, 2 months, and 30 days.    \nArlo attended ]Weber School[.  On April 21, 1950, he was united in marriage]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/7d5297fa-7bc5-3b01-b4ea-cca42663becf> ;
+        c:exact      "Weber School" ;
+        c:length     "12" ;
+        c:offset     "508" ;
+        c:prefix     "years, 2 months, and 30 days.    \nArlo attended " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/d454418f-8a15-3d56-a69f-416a2a7b1809> ;
+        c:suffix     ".  On April 21, 1950, he was united in marriage" .
+
+<http://d.opencalais.com/pershash-1/a0a213cc-c342-3de2-bf83-99815531652a>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Arlin James Collie" ;
+        c:confidencelevel    "0.875" ;
+        c:firstname          "Arlin" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Collie" ;
+        c:middlename         "James" ;
+        c:name               "Arlin James Collie" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/pershash-1/edff80d4-31ca-3eaf-a0f9-920de4f5393f>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Lucille Morsbach" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Lucille" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Morsbach" ;
+        c:name               "Lucille Morsbach" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .

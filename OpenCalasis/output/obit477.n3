@@ -1,0 +1,1280 @@
+#Relations: FamilyRelation, PersonAttributes, PersonLocation, PersonRelation
+#City: Amarillo, Carrollton, Oklahoma City, Tulsa
+#Country: Vietnam
+#Facility: ANR Pipeline
+#Organization: Army
+#Person: Asher George, Fred, Freddie Lee Parsons, Lisa , Lisa George, Marva, Myrna Ossola, Nancy Barker, Regina Scribner, Roland, Rudy Parsons, Stephanie, Todd Parsons, Travis, Virginia Kathryn (Zook) Parsons
+#Position: janitor
+#ProvinceOrState: North Dakota, Texas
+@prefix c:     <http://s.opencalais.com/1/pred/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://d.opencalais.com/genericHasher-1/69f43f62-fe46-373f-b062-60ed1ec6e99b>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/bda04f49-0a0c-35c3-a305-761f822a7d54> , <http://d.opencalais.com/pershash-1/df7ec8f7-c049-3260-bb13-9f85e8a4e6c2> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Instance/18>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Lee Parsons, son of the late Ralph L. and ]Virginia Kathryn (Zook) Parsons[, was born December 18, 1946, in Alva, and passed]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:exact      "Virginia Kathryn (Zook) Parsons" ;
+        c:length     "31" ;
+        c:offset     "61" ;
+        c:prefix     "Lee Parsons, son of the late Ralph L. and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/a3c61615-74e9-3140-a8fe-b48caf61bca6> ;
+        c:suffix     ", was born December 18, 1946, in Alva, and passed" .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Relevance/17>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/88944939-5852-34bc-af2d-e592a6703085> .
+
+<http://d.opencalais.com/pershash-1/2207e073-3942-3afb-a9c1-86bc75acb9e7>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Asher George" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Asher" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "George" ;
+        c:name               "Asher George" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/pershash-1/f54fbac9-ff46-3d81-b769-9bd8a65ccfd3>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Marva" ;
+        c:confidencelevel    "0.951" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Marva" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/b8620f48-da64-3b29-b094-f0b9edcda36f>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oklahoma City" .
+
+<http://d.opencalais.com/conf/pershash-1/45c52edb-7f35-3c75-a674-43b678014fd8>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.998" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.999" ;
+        c:subject             <http://d.opencalais.com/pershash-1/45c52edb-7f35-3c75-a674-43b678014fd8> .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Instance/40>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[one son, Todd Parsons and wife, Stephanie, of ]Oklahoma City[; his brother, Rudy Parsons and wife, Marva, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:exact      "Oklahoma City" ;
+        c:length     "13" ;
+        c:offset     "1073" ;
+        c:prefix     "one son, Todd Parsons and wife, Stephanie, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b8620f48-da64-3b29-b094-f0b9edcda36f> ;
+        c:suffix     "; his brother, Rudy Parsons and wife, Marva, of" .
+
+<http://d.opencalais.com/pershash-1/a3c61615-74e9-3140-a8fe-b48caf61bca6>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Virginia Kathryn Parsons" ;
+        c:confidencelevel    "0.984" ;
+        c:firstname          "Virginia" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Parsons" ;
+        c:middlename         "Kathryn" ;
+        c:name               "Virginia Kathryn (Zook) Parsons" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Instance/12>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Fred attended Spartan Aviation in Tulsa until ]he[ was drafted by the Army in April, 1968.  After a]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:exact      "he" ;
+        c:length     "2" ;
+        c:offset     "366" ;
+        c:prefix     "Fred attended Spartan Aviation in Tulsa until " ;
+        c:subject    <http://d.opencalais.com/pershash-1/819c9ca5-d3fa-3eef-91db-5b138b4c9bb6> ;
+        c:suffix     " was drafted by the Army in April, 1968.  After a" .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Relevance/11>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/cf139f5d-e9ea-3189-ac67-dc82cdec546f> .
+
+<http://d.opencalais.com/genericHasher-1/7902e94d-c3ef-36c0-89fd-815fef1ccda6>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "wife" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/3d88154d-d2d5-3f61-ac4b-84fa0d7f6e53> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/f54fbac9-ff46-3d81-b769-9bd8a65ccfd3> .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Instance/25>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Mooreland for 19 years at ANR Pipeline, then as ]a janitor[ for Waynoka Public Schools until his retirement.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:exact      "a janitor" ;
+        c:length     "9" ;
+        c:offset     "882" ;
+        c:prefix     "Mooreland for 19 years at ANR Pipeline, then as " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/cf139f5d-e9ea-3189-ac67-dc82cdec546f> ;
+        c:suffix     " for Waynoka Public Schools until his retirement." .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Relevance/24>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/7e89aa60-ed18-32e8-85bd-78f8d52d550f> .
+
+<http://d.opencalais.com/pershash-1/5717817c-786d-35f3-bf80-3e9b25292416>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Rudy Parsons" ;
+        c:confidencelevel    "0.996" ;
+        c:firstname          "Rudy" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Parsons" ;
+        c:name               "Rudy Parsons" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Relevance/8>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/a3c61615-74e9-3140-a8fe-b48caf61bca6> .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Instance/6>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ until his retirement.  \t    \nFred is survived by ]his daughter, Lisa George and husband, Travis[, of Waynoka; one son, Todd Parsons and wife,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:exact      "his daughter, Lisa George and husband, Travis" ;
+        c:length     "45" ;
+        c:offset     "968" ;
+        c:prefix     " until his retirement.  \t    \nFred is survived by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/01aabfae-a4bb-3a6a-a0a1-cb11ed903ca8> ;
+        c:suffix     ", of Waynoka; one son, Todd Parsons and wife," .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Instance/38>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[graduation, Fred attended Spartan Aviation in ]Tulsa[ until he was drafted by the Army in April, 1968.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:exact      "Tulsa" ;
+        c:length     "5" ;
+        c:offset     "354" ;
+        c:prefix     "graduation, Fred attended Spartan Aviation in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8da39760-87db-3aa5-9369-142d08eb16f8> ;
+        c:suffix     " until he was drafted by the Army in April, 1968." .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/lid/DefaultLangId>
+        a                    <http://s.opencalais.com/1/type/lid/DefaultLangId> ;
+        c:docId              <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:forenduserdisplay  "false" ;
+        c:lang               <http://d.opencalais.com/lid/DefaultLangId/English> ;
+        c:permid             "505062" .
+
+<http://d.opencalais.com/genericHasher-1/14a4d697-e8f0-34dc-882f-93caaef657f4>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Carrollton" .
+
+<http://d.opencalais.com/genericHasher-1/01aabfae-a4bb-3a6a-a0a1-cb11ed903ca8>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "husband" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/df7ec8f7-c049-3260-bb13-9f85e8a4e6c2> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/bda04f49-0a0c-35c3-a305-761f822a7d54> .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/ComponentVersions>
+        a          <http://s.opencalais.com/1/type/sys/ComponentVersions> ;
+        c:docId    <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:version  "config-vessels:258:258" , "Housekeeper:OneCalais_8.3-RELEASE:113" , "config-negativeSignature:258:258" , "index-vessels:201505231718:201505231718" , "Dial4J:OneCalais_8.3-RELEASE:198" , "config-sca-DataPackage:34:34" , "SECHeaderMetadataIM:OneCalais_8.3-RELEASE:198" , "BlackList:264:264" , "com.clearforest.infoext.dial4j.plugins-basistechconfig:OneCalais_8.3-RELEASE:225" , "People Index:201505261608:201505261608" , "FrenchIM:OneCalais_8.3-RELEASE:198" , "OA Index:201505252208:201505252208" , "config-drugs:258:258" , "WatchDog:OneCalais_8.3-RELEASE:113" , "OA Override:271:271" , "SpanishIM:OneCalais_8.3-RELEASE:198" , "config-cse:271:271" , "config-refineries:258:258" , "People Override:258:258" , "BrokerResearchIM:OneCalais_8.3-RELEASE:198" , "AutocoderRuntimeIM:OneCalais_8.3-RELEASE:198" , "Deals Index:201505261613:201505261613" , "SocialTags Index:201505191038:201505191038" , "config-physicalAssets-ports:258:258" , "OneCalaisIM:OneCalais_8.3-RELEASE:198" , "Collector:OneCalais_8.3-RELEASE:113" , "OneCalais:OneCalais_8.3-RELEASE:364" , "NextTags:OneCalais_8.3-RELEASE:113" .
+
+<http://d.opencalais.com/pershash-1/6f8f8b99-ecd8-364d-8557-3164ffcfa996>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Nancy Barker" ;
+        c:confidencelevel    "0.98" ;
+        c:firstname          "Nancy" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Barker" ;
+        c:name               "Nancy Barker" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Relevance/2>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/14a4d697-e8f0-34dc-882f-93caaef657f4> .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Instance/32>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[as a janitor for Waynoka Public Schools until ]his[ retirement.  \t    \nFred is survived by his]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "925" ;
+        c:prefix     "as a janitor for Waynoka Public Schools until " ;
+        c:subject    <http://d.opencalais.com/pershash-1/df7ec8f7-c049-3260-bb13-9f85e8a4e6c2> ;
+        c:suffix     " retirement.  \t    \nFred is survived by his" .
+
+<http://d.opencalais.com/conf/pershash-1/819c9ca5-d3fa-3eef-91db-5b138b4c9bb6>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.993" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.995" ;
+        c:subject             <http://d.opencalais.com/pershash-1/819c9ca5-d3fa-3eef-91db-5b138b4c9bb6> .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Instance/45>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ \t    \nFred is survived by his daughter, ]Lisa George[ and husband, Travis, of Waynoka; one son, Todd]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:exact      "Lisa George" ;
+        c:length     "11" ;
+        c:offset     "982" ;
+        c:prefix     " \t    \nFred is survived by his daughter, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/7d1c90a7-8f7a-3f35-b1f2-61355ccc077c> ;
+        c:suffix     " and husband, Travis, of Waynoka; one son, Todd" .
+
+<http://d.opencalais.com/pershash-1/7d1c90a7-8f7a-3f35-b1f2-61355ccc077c>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Lisa George" ;
+        c:confidencelevel    "0.993" ;
+        c:firstname          "Lisa" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "George" ;
+        c:name               "Lisa George" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Instance/17>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[by his daughter, Lisa George and husband, ]Travis[, of Waynoka; one son, Todd Parsons and wife,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:exact      "Travis" ;
+        c:length     "6" ;
+        c:offset     "1007" ;
+        c:prefix     "by his daughter, Lisa George and husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/bda04f49-0a0c-35c3-a305-761f822a7d54> ;
+        c:suffix     ", of Waynoka; one son, Todd Parsons and wife," .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Relevance/16>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/44e7a00f-f0f6-380d-bc26-0892ecfbda84> .
+
+<http://d.opencalais.com/er/geo/country/ralg-geo1/5f8f9e33-bb5e-1384-8af2-622b66b2308c>
+        a            <http://s.opencalais.com/1/type/er/Geo/Country> ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:latitude   "15.4548637037" ;
+        c:longitude  "106.576013518" ;
+        c:name       "Vietnam" ;
+        c:permid     "100327" ;
+        c:rcscode    "G:5Z" ;
+        c:shortname  "Vietnam" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/44e7a00f-f0f6-380d-bc26-0892ecfbda84> .
+
+<http://d.opencalais.com/conf/pershash-1/88944939-5852-34bc-af2d-e592a6703085>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/88944939-5852-34bc-af2d-e592a6703085> .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Instance/11>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[\n\t\t\t\t\t\n\t\t\t\t]Freddie Lee Parsons[, son of the late Ralph L. and Virginia Kathryn]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:exact      "Freddie Lee Parsons" ;
+        c:length     "19" ;
+        c:offset     "11" ;
+        c:prefix     "\n\t\t\t\t\t\n\t\t\t\t" ;
+        c:subject    <http://d.opencalais.com/pershash-1/819c9ca5-d3fa-3eef-91db-5b138b4c9bb6> ;
+        c:suffix     ", son of the late Ralph L. and Virginia Kathryn" .
+
+<http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Texas" .
+
+<http://d.opencalais.com/genericHasher-1/6a78507e-eec7-3db9-8927-00d4ec6487b3>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Carrollton" ;
+        c:person             <http://d.opencalais.com/pershash-1/45c52edb-7f35-3c75-a674-43b678014fd8> .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Relevance/10>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/45c52edb-7f35-3c75-a674-43b678014fd8> .
+
+<http://d.opencalais.com/conf/pershash-1/df7ec8f7-c049-3260-bb13-9f85e8a4e6c2>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.912" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.645" ;
+        c:subject             <http://d.opencalais.com/pershash-1/df7ec8f7-c049-3260-bb13-9f85e8a4e6c2> .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Instance/24>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ until his retirement.  \t    \nFred is survived by ]his daughter, Lisa George and husband, Travis[, of Waynoka; one son, Todd Parsons and wife,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:exact      "his daughter, Lisa George and husband, Travis" ;
+        c:length     "45" ;
+        c:offset     "968" ;
+        c:prefix     " until his retirement.  \t    \nFred is survived by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/69f43f62-fe46-373f-b062-60ed1ec6e99b> ;
+        c:suffix     ", of Waynoka; one son, Todd Parsons and wife," .
+
+<http://d.opencalais.com/conf/pershash-1/38b1a271-79e9-32e2-937e-46a7579caf58>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.813" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.838" ;
+        c:subject             <http://d.opencalais.com/pershash-1/38b1a271-79e9-32e2-937e-46a7579caf58> .
+
+<http://d.opencalais.com/genericHasher-1/8da39760-87db-3aa5-9369-142d08eb16f8>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Tulsa" .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Relevance/23>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/7d1c90a7-8f7a-3f35-b1f2-61355ccc077c> .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Relevance/7>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/bda04f49-0a0c-35c3-a305-761f822a7d54> .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Instance/5>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Parsons and wife, Stephanie, of Oklahoma City; ]his brother, Rudy Parsons and wife, Marva, of Oklahoma City[; his sister Regina Scribner of Carrollton,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:exact      "his brother, Rudy Parsons and wife, Marva, of Oklahoma City" ;
+        c:length     "59" ;
+        c:offset     "1088" ;
+        c:prefix     "Parsons and wife, Stephanie, of Oklahoma City; " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/7902e94d-c3ef-36c0-89fd-815fef1ccda6> ;
+        c:suffix     "; his sister Regina Scribner of Carrollton," .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Instance/37>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[aunts, Marijess Parsons of Amarillo, Texas, and ]Myrna Ossola[ of Colorado Springs; other relatives and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:exact      "Myrna Ossola" ;
+        c:length     "12" ;
+        c:offset     "1319" ;
+        c:prefix     "aunts, Marijess Parsons of Amarillo, Texas, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/88944939-5852-34bc-af2d-e592a6703085> ;
+        c:suffix     " of Colorado Springs; other relatives and" .
+
+<http://d.opencalais.com/pershash-1/14922e22-85d9-3f10-b2f7-41cd835794da>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Roland" ;
+        c:confidencelevel    "0.949" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Roland" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/62914270-0a1c-1bcc-880e-6dbe9fb82eb9>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:latitude            "31.4484328889" ;
+        c:longitude           "-97.7816569778" ;
+        c:name                "Texas,United States" ;
+        c:permid              "100299" ;
+        c:rcscode             "G:50" ;
+        c:shortname           "Texas" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> .
+
+<http://d.opencalais.com/genericHasher-1/0a09ae8f-0456-38fc-b965-ff815c60f9d3>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Amarillo" .
+
+<http://d.opencalais.com/genericHasher-1/d8177c84-192b-3b4b-896c-ed0db194de23>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Oklahoma City" ;
+        c:person             <http://d.opencalais.com/pershash-1/f54fbac9-ff46-3d81-b769-9bd8a65ccfd3> .
+
+<http://d.opencalais.com/genericHasher-1/44e7a00f-f0f6-380d-bc26-0892ecfbda84>
+        a                    <http://s.opencalais.com/1/type/em/e/Country> ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Vietnam" .
+
+<http://d.opencalais.com/genericHasher-1/3ab9a67f-8e89-3f15-80ba-7a3e612096d2>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "daughter" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/df7ec8f7-c049-3260-bb13-9f85e8a4e6c2> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/7d1c90a7-8f7a-3f35-b1f2-61355ccc077c> .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Relevance/1>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Instance/31>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[two children were born, Lisa and Todd.  \t    \n]Fred[ worked in Mooreland for 19 years at ANR]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:exact      "Fred" ;
+        c:length     "4" ;
+        c:offset     "819" ;
+        c:prefix     "two children were born, Lisa and Todd.  \t    \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/df7ec8f7-c049-3260-bb13-9f85e8a4e6c2> ;
+        c:suffix     " worked in Mooreland for 19 years at ANR" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/cdbe37bc-3af5-6ff0-3597-7615ea496cd1>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:latitude            "36.1539" ;
+        c:longitude           "-95.9925" ;
+        c:name                "Tulsa,Oklahoma,United States" ;
+        c:shortname           "Tulsa" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/8da39760-87db-3aa5-9369-142d08eb16f8> .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Instance/44>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[family in their custom harvesting business from ]North Dakota[ to Texas for many years.  On January 10, 1976,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:exact      "North Dakota" ;
+        c:length     "12" ;
+        c:offset     "655" ;
+        c:prefix     "family in their custom harvesting business from " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/24972414-7420-31e3-a46a-6ec7e4af6c31> ;
+        c:suffix     " to Texas for many years.  On January 10, 1976," .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Instance/16>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[to Texas for many years.  On January 10, 1976, ]he[ was united in marriage to Nancy Barker.  To this]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:exact      "he" ;
+        c:length     "2" ;
+        c:offset     "715" ;
+        c:prefix     "to Texas for many years.  On January 10, 1976, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/819c9ca5-d3fa-3eef-91db-5b138b4c9bb6> ;
+        c:suffix     " was united in marriage to Nancy Barker.  To this" .
+
+<http://d.opencalais.com/genericHasher-1/fd3db9c6-cacd-3d90-9a30-eb2383812d2c>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "ANR Pipeline" .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Relevance/15>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/df7ec8f7-c049-3260-bb13-9f85e8a4e6c2> .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Instance/29>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[City; his brother, Rudy Parsons and wife, ]Marva[, of Oklahoma City; his sister Regina Scribner of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:exact      "Marva" ;
+        c:length     "5" ;
+        c:offset     "1124" ;
+        c:prefix     "City; his brother, Rudy Parsons and wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f54fbac9-ff46-3d81-b769-9bd8a65ccfd3> ;
+        c:suffix     ", of Oklahoma City; his sister Regina Scribner of" .
+
+<http://d.opencalais.com/conf/pershash-1/69254dd4-0abe-37a4-b1ff-6170874885d8>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.981" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.932" ;
+        c:subject             <http://d.opencalais.com/pershash-1/69254dd4-0abe-37a4-b1ff-6170874885d8> .
+
+<http://d.opencalais.com/pershash-1/45c52edb-7f35-3c75-a674-43b678014fd8>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Regina Scribner" ;
+        c:confidencelevel    "0.998" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Regina Scribner" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Instance/10>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ \t    \nFred worked in Mooreland for 19 years at ]ANR Pipeline[, then as a janitor for Waynoka Public Schools]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:exact      "ANR Pipeline" ;
+        c:length     "12" ;
+        c:offset     "860" ;
+        c:prefix     " \t    \nFred worked in Mooreland for 19 years at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/fd3db9c6-cacd-3d90-9a30-eb2383812d2c> ;
+        c:suffix     ", then as a janitor for Waynoka Public Schools" .
+
+<http://d.opencalais.com/genericHasher-1/60a0e8b5-8cf1-34ef-b214-f355cb521e6b>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "sister" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/5717817c-786d-35f3-bf80-3e9b25292416> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/45c52edb-7f35-3c75-a674-43b678014fd8> .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Instance/23>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[from North Dakota to Texas for many years.  ]On January 10, 1976, he was united in marriage to Nancy Barker[.  To this union two children were born, Lisa and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:exact      "On January 10, 1976, he was united in marriage to Nancy Barker" ;
+        c:length     "62" ;
+        c:offset     "694" ;
+        c:prefix     "from North Dakota to Texas for many years.  " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/d8cd9e54-1082-3d6d-b8d1-539c89211aec> ;
+        c:suffix     ".  To this union two children were born, Lisa and" .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Relevance/22>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/24972414-7420-31e3-a46a-6ec7e4af6c31> .
+
+<http://d.opencalais.com/conf/pershash-1/bda04f49-0a0c-35c3-a305-761f822a7d54>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.86" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/bda04f49-0a0c-35c3-a305-761f822a7d54> .
+
+<http://d.opencalais.com/genericHasher-1/6962a453-182e-3d7d-867a-3578cc19214d>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "brother" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/3d88154d-d2d5-3f61-ac4b-84fa0d7f6e53> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/5717817c-786d-35f3-bf80-3e9b25292416> .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Relevance/6>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/819c9ca5-d3fa-3eef-91db-5b138b4c9bb6> .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Instance/4>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Oklahoma City; his sister Regina Scribner of ]Carrollton[, Texas; three grandsons, Garrison, Roland, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:exact      "Carrollton" ;
+        c:length     "10" ;
+        c:offset     "1179" ;
+        c:prefix     "of Oklahoma City; his sister Regina Scribner of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/14a4d697-e8f0-34dc-882f-93caaef657f4> ;
+        c:suffix     ", Texas; three grandsons, Garrison, Roland, and" .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Instance/36>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and wife, Marva, of Oklahoma City; his sister ]Regina Scribner of Carrollton, Texas[; three grandsons, Garrison, Roland, and Asher]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:exact      "Regina Scribner of Carrollton, Texas" ;
+        c:length     "36" ;
+        c:offset     "1160" ;
+        c:prefix     "and wife, Marva, of Oklahoma City; his sister " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/6a78507e-eec7-3db9-8927-00d4ec6487b3> ;
+        c:suffix     "; three grandsons, Garrison, Roland, and Asher" .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/SocialTag/3>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Parsons" ;
+        c:originalValue      "Parsons" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/18b69132-df1a-30df-9049-7b0267200837> .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Instance/49>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Waynoka; one son, Todd Parsons and wife, ]Stephanie[, of Oklahoma City; his brother, Rudy Parsons and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:exact      "Stephanie" ;
+        c:length     "9" ;
+        c:offset     "1059" ;
+        c:prefix     "of Waynoka; one son, Todd Parsons and wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/69254dd4-0abe-37a4-b1ff-6170874885d8> ;
+        c:suffix     ", of Oklahoma City; his brother, Rudy Parsons and" .
+
+<http://d.opencalais.com/conf/pershash-1/3d88154d-d2d5-3f61-ac4b-84fa0d7f6e53>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.996" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.997" ;
+        c:subject             <http://d.opencalais.com/pershash-1/3d88154d-d2d5-3f61-ac4b-84fa0d7f6e53> .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Instance/30>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[January 10, 1976, he was united in marriage to ]Nancy Barker[.  To this union two children were born, Lisa and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:exact      "Nancy Barker" ;
+        c:length     "12" ;
+        c:offset     "744" ;
+        c:prefix     "January 10, 1976, he was united in marriage to " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6f8f8b99-ecd8-364d-8557-3164ffcfa996> ;
+        c:suffix     ".  To this union two children were born, Lisa and" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/a146bdce-cbb7-857d-0971-bb89b3b90953>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:latitude            "47.5" ;
+        c:longitude           "-100.5" ;
+        c:name                "North Dakota,United States" ;
+        c:permid              "100221" ;
+        c:rcscode             "G:63" ;
+        c:shortname           "North Dakota" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/24972414-7420-31e3-a46a-6ec7e4af6c31> .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Instance/43>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Rudy Parsons and wife, Marva, of Oklahoma City; ]his[ sister Regina Scribner of Carrollton, Texas;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "1149" ;
+        c:prefix     "Rudy Parsons and wife, Marva, of Oklahoma City; " ;
+        c:subject    <http://d.opencalais.com/pershash-1/5717817c-786d-35f3-bf80-3e9b25292416> ;
+        c:suffix     " sister Regina Scribner of Carrollton, Texas;" .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Instance/15>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[combat in the Vietnam War.  \t    \nHe helped ]his[ family in their custom harvesting business from]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "603" ;
+        c:prefix     "combat in the Vietnam War.  \t    \nHe helped " ;
+        c:subject    <http://d.opencalais.com/pershash-1/819c9ca5-d3fa-3eef-91db-5b138b4c9bb6> ;
+        c:suffix     " family in their custom harvesting business from" .
+
+<http://d.opencalais.com/pershash-1/819c9ca5-d3fa-3eef-91db-5b138b4c9bb6>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Freddie Lee Parsons" ;
+        c:confidencelevel    "0.993" ;
+        c:firstname          "Freddie" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Parsons" ;
+        c:middlename         "Lee" ;
+        c:name               "Freddie Lee Parsons" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Relevance/14>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/6f8f8b99-ecd8-364d-8557-3164ffcfa996> .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Instance/28>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[all of Waynoka; two aunts, Marijess Parsons of ]Amarillo[, Texas, and Myrna Ossola of Colorado Springs;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:exact      "Amarillo" ;
+        c:length     "8" ;
+        c:offset     "1298" ;
+        c:prefix     "all of Waynoka; two aunts, Marijess Parsons of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0a09ae8f-0456-38fc-b965-ff815c60f9d3> ;
+        c:suffix     ", Texas, and Myrna Ossola of Colorado Springs;" .
+
+<http://d.opencalais.com/genericHasher-1/8de06c48-f7a5-3684-807b-565abd18dfa1>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Oklahoma City" ;
+        c:person             <http://d.opencalais.com/pershash-1/69254dd4-0abe-37a4-b1ff-6170874885d8> .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Instance/9>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ of Carrollton, Texas; three grandsons, Garrison, ]Roland[, and Asher George, all of Waynoka; two aunts,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:exact      "Roland" ;
+        c:length     "6" ;
+        c:offset     "1225" ;
+        c:prefix     " of Carrollton, Texas; three grandsons, Garrison, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/14922e22-85d9-3f10-b2f7-41cd835794da> ;
+        c:suffix     ", and Asher George, all of Waynoka; two aunts," .
+
+<http://d.opencalais.com/genericHasher-1/bd743fad-0e5b-3120-aa2b-d47b714e4202>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/f54fbac9-ff46-3d81-b769-9bd8a65ccfd3> , <http://d.opencalais.com/pershash-1/3d88154d-d2d5-3f61-ac4b-84fa0d7f6e53> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/pershash-1/88944939-5852-34bc-af2d-e592a6703085>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Myrna Ossola" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Myrna" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Ossola" ;
+        c:name               "Myrna Ossola" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/cf139f5d-e9ea-3189-ac67-dc82cdec546f>
+        a                    <http://s.opencalais.com/1/type/em/e/Position> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "janitor" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/0bc5aa60-d577-f12e-d90f-3847d5d452c9>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Texas" ;
+        c:docId               <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:latitude            "32.9536" ;
+        c:longitude           "-96.89" ;
+        c:name                "Carrollton,Texas,United States" ;
+        c:shortname           "Carrollton" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/14a4d697-e8f0-34dc-882f-93caaef657f4> .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Instance/50>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Parsons and wife, Stephanie, of Oklahoma City; ]his brother, Rudy Parsons and wife, Marva, of Oklahoma City[; his sister Regina Scribner of Carrollton,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:exact      "his brother, Rudy Parsons and wife, Marva, of Oklahoma City" ;
+        c:length     "59" ;
+        c:offset     "1088" ;
+        c:prefix     "Parsons and wife, Stephanie, of Oklahoma City; " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/bd743fad-0e5b-3120-aa2b-d47b714e4202> ;
+        c:suffix     "; his sister Regina Scribner of Carrollton," .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Instance/22>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and wife, Marva, of Oklahoma City; his sister ]Regina Scribner[ of Carrollton, Texas; three grandsons, Garrison,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:exact      "Regina Scribner" ;
+        c:length     "15" ;
+        c:offset     "1160" ;
+        c:prefix     "and wife, Marva, of Oklahoma City; his sister " ;
+        c:subject    <http://d.opencalais.com/pershash-1/45c52edb-7f35-3c75-a674-43b678014fd8> ;
+        c:suffix     " of Carrollton, Texas; three grandsons, Garrison," .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Relevance/21>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/5717817c-786d-35f3-bf80-3e9b25292416> .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Instance/35>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[by the Army in April, 1968.  After a tour in ]Vietnam[, he was honorably discharged in June, 1969.  On]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:exact      "Vietnam" ;
+        c:length     "7" ;
+        c:offset     "426" ;
+        c:prefix     "by the Army in April, 1968.  After a tour in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/44e7a00f-f0f6-380d-bc26-0892ecfbda84> ;
+        c:suffix     ", he was honorably discharged in June, 1969.  On" .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Relevance/5>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/fd3db9c6-cacd-3d90-9a30-eb2383812d2c> .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Instance/3>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[two aunts, Marijess Parsons of Amarillo, ]Texas[, and Myrna Ossola of Colorado Springs; other]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:exact      "Texas" ;
+        c:length     "5" ;
+        c:offset     "1308" ;
+        c:prefix     "two aunts, Marijess Parsons of Amarillo, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> ;
+        c:suffix     ", and Myrna Ossola of Colorado Springs; other" .
+
+<http://d.opencalais.com/pershash-1/df7ec8f7-c049-3260-bb13-9f85e8a4e6c2>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Fred" ;
+        c:confidencelevel    "0.912" ;
+        c:firstname          "Fred" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Fred" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/SocialTag/2>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Mooreland" ;
+        c:originalValue      "Mooreland" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/3bade30e-3e6b-3ad6-8302-a85ee39057d1> .
+
+<http://d.opencalais.com/genericHasher-1/7e89aa60-ed18-32e8-85bd-78f8d52d550f>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Army" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "governmental military" .
+
+<http://d.opencalais.com/pershash-1/38b1a271-79e9-32e2-937e-46a7579caf58>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Lisa" ;
+        c:confidencelevel    "0.813" ;
+        c:firstname          "Todd" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Lisa" ;
+        c:nationality        "N/A" ;
+        c:persontype         "entertainment" .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Instance/48>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ until his retirement.  \t    \nFred is survived by ]his daughter, Lisa George and husband, Travis[, of Waynoka; one son, Todd Parsons and wife,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:exact      "his daughter, Lisa George and husband, Travis" ;
+        c:length     "45" ;
+        c:offset     "968" ;
+        c:prefix     " until his retirement.  \t    \nFred is survived by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3ab9a67f-8e89-3f15-80ba-7a3e612096d2> ;
+        c:suffix     ", of Waynoka; one son, Todd Parsons and wife," .
+
+<http://d.opencalais.com/conf/pershash-1/2207e073-3942-3afb-a9c1-86bc75acb9e7>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/2207e073-3942-3afb-a9c1-86bc75acb9e7> .
+
+<http://d.opencalais.com/conf/pershash-1/f54fbac9-ff46-3d81-b769-9bd8a65ccfd3>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.951" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.932" ;
+        c:subject             <http://d.opencalais.com/pershash-1/f54fbac9-ff46-3d81-b769-9bd8a65ccfd3> .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/meta>
+        a                 <http://s.opencalais.com/1/type/sys/DocInfoMeta> ;
+        c:contentType     "text/raw" ;
+        c:docId           <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:language        "English" ;
+        c:processingVer   "AllMetadata" ;
+        c:serverVersion   "OneCalais_8.3-RELEASE:364" ;
+        c:signature       "digestalg-1|tflPejel/vm5wGJPLweesQVWYAk=|j2eDy/QmJoZ769/gHeb9kx3QUsklb1jeGsXhHJkbyxVpRcnNRnjEAg==" ;
+        c:stagsVer        "OneCalais_8.3-RELEASE-b11-2015-03-25_18:29:00" ;
+        c:submissionDate  "2015-05-26 17:23:44.747" ;
+        c:submitterCode   "0ca6a864-5659-789d-5f32-f365f695e757" .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Relevance/19>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/2207e073-3942-3afb-a9c1-86bc75acb9e7> .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/cat/1>
+        a                    <http://s.opencalais.com/1/type/cat/DocCat> ;
+        c:docId              <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Human Interest" ;
+        c:score              "0.550" .
+
+<http://d.opencalais.com/conf/pershash-1/a3c61615-74e9-3140-a8fe-b48caf61bca6>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.984" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.989" ;
+        c:subject             <http://d.opencalais.com/pershash-1/a3c61615-74e9-3140-a8fe-b48caf61bca6> .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Instance/42>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[wife, Stephanie, of Oklahoma City; his brother, ]Rudy Parsons[ and wife, Marva, of Oklahoma City; his sister]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:exact      "Rudy Parsons" ;
+        c:length     "12" ;
+        c:offset     "1101" ;
+        c:prefix     "wife, Stephanie, of Oklahoma City; his brother, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/5717817c-786d-35f3-bf80-3e9b25292416> ;
+        c:suffix     " and wife, Marva, of Oklahoma City; his sister" .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Instance/14>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[during combat in the Vietnam War.  \t    \n]He[ helped his family in their custom harvesting]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:exact      "He" ;
+        c:length     "2" ;
+        c:offset     "593" ;
+        c:prefix     "during combat in the Vietnam War.  \t    \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/819c9ca5-d3fa-3eef-91db-5b138b4c9bb6> ;
+        c:suffix     " helped his family in their custom harvesting" .
+
+<http://d.opencalais.com/conf/pershash-1/5717817c-786d-35f3-bf80-3e9b25292416>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.996" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.997" ;
+        c:subject             <http://d.opencalais.com/pershash-1/5717817c-786d-35f3-bf80-3e9b25292416> .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Relevance/13>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/f54fbac9-ff46-3d81-b769-9bd8a65ccfd3> .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Instance/27>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Parsons and wife, Stephanie, of Oklahoma City; ]his brother, Rudy Parsons and wife, Marva, of Oklahoma City[; his sister Regina Scribner of Carrollton,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:exact      "his brother, Rudy Parsons and wife, Marva, of Oklahoma City" ;
+        c:length     "59" ;
+        c:offset     "1088" ;
+        c:prefix     "Parsons and wife, Stephanie, of Oklahoma City; " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/6962a453-182e-3d7d-867a-3578cc19214d> ;
+        c:suffix     "; his sister Regina Scribner of Carrollton," .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/f24ef023-f5ce-f4ba-d403-af6634f7297d>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:latitude            "35.4675" ;
+        c:longitude           "-97.5161" ;
+        c:name                "Oklahoma City,Oklahoma,United States" ;
+        c:rcscode             "G:2BF" ;
+        c:shortname           "Oklahoma City" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/b8620f48-da64-3b29-b094-f0b9edcda36f> .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Instance/8>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Barker.  To this union two children were born, ]Lisa[ and Todd.  \t    \nFred worked in Mooreland for 19]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:exact      "Lisa" ;
+        c:length     "4" ;
+        c:offset     "797" ;
+        c:prefix     "Barker.  To this union two children were born, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/38b1a271-79e9-32e2-937e-46a7579caf58> ;
+        c:suffix     " and Todd.  \t    \nFred worked in Mooreland for 19" .
+
+<http://d.opencalais.com/pershash-1/69254dd4-0abe-37a4-b1ff-6170874885d8>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Stephanie" ;
+        c:confidencelevel    "0.981" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Stephanie" ;
+        c:nationality        "American" ;
+        c:persontype         "entertainment" .
+
+<http://d.opencalais.com/conf/pershash-1/6f8f8b99-ecd8-364d-8557-3164ffcfa996>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.98" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/6f8f8b99-ecd8-364d-8557-3164ffcfa996> .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Instance/21>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Parsons and wife, Stephanie, of Oklahoma City; ]his[ brother, Rudy Parsons and wife, Marva, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "1088" ;
+        c:prefix     "Parsons and wife, Stephanie, of Oklahoma City; " ;
+        c:subject    <http://d.opencalais.com/pershash-1/3d88154d-d2d5-3f61-ac4b-84fa0d7f6e53> ;
+        c:suffix     " brother, Rudy Parsons and wife, Marva, of" .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Relevance/20>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b8620f48-da64-3b29-b094-f0b9edcda36f> .
+
+<http://d.opencalais.com/conf/pershash-1/7d1c90a7-8f7a-3f35-b1f2-61355ccc077c>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.993" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.995" ;
+        c:subject             <http://d.opencalais.com/pershash-1/7d1c90a7-8f7a-3f35-b1f2-61355ccc077c> .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Relevance/4>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/14922e22-85d9-3f10-b2f7-41cd835794da> .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Instance/2>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[City; his sister Regina Scribner of Carrollton, ]Texas[; three grandsons, Garrison, Roland, and Asher]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:exact      "Texas" ;
+        c:length     "5" ;
+        c:offset     "1191" ;
+        c:prefix     "City; his sister Regina Scribner of Carrollton, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> ;
+        c:suffix     "; three grandsons, Garrison, Roland, and Asher" .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Instance/34>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Lee Parsons, son of the late Ralph L. and ]Virginia Kathryn (Zook) Parsons, was born December 18, 1946, in Alva[, and passed away September 17, 2014, in Waynoka,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:exact      "Virginia Kathryn (Zook) Parsons, was born December 18, 1946, in Alva" ;
+        c:length     "68" ;
+        c:offset     "61" ;
+        c:prefix     "Lee Parsons, son of the late Ralph L. and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8e33a18d-d81a-3fd9-a193-3f01b197d6e8> ;
+        c:suffix     ", and passed away September 17, 2014, in Waynoka," .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/SocialTag/1>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Waynoka, Oklahoma" ;
+        c:originalValue      "Waynoka, Oklahoma" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/77bc8be5-12a7-326b-962f-52fbf8cf09dd> .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Instance/47>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Waynoka; one son, Todd Parsons and wife, ]Stephanie, of Oklahoma City[; his brother, Rudy Parsons and wife, Marva, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:exact      "Stephanie, of Oklahoma City" ;
+        c:length     "27" ;
+        c:offset     "1059" ;
+        c:prefix     "of Waynoka; one son, Todd Parsons and wife, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8de06c48-f7a5-3684-807b-565abd18dfa1> ;
+        c:suffix     "; his brother, Rudy Parsons and wife, Marva, of" .
+
+<http://d.opencalais.com/pershash-1/bda04f49-0a0c-35c3-a305-761f822a7d54>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Travis" ;
+        c:confidencelevel    "0.86" ;
+        c:firstname          "Travis" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Travis" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Instance/19>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ To this union two children were born, Lisa and ]Todd[.  \t    \nFred worked in Mooreland for 19 years at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:exact      "Todd" ;
+        c:length     "4" ;
+        c:offset     "806" ;
+        c:prefix     " To this union two children were born, Lisa and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/3d88154d-d2d5-3f61-ac4b-84fa0d7f6e53> ;
+        c:suffix     ".  \t    \nFred worked in Mooreland for 19 years at" .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Relevance/18>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8da39760-87db-3aa5-9369-142d08eb16f8> .
+
+<http://d.opencalais.com/genericHasher-1/8e33a18d-d81a-3fd9-a193-3f01b197d6e8>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonAttributes> ;
+        c:birthdate          "1946-12-18" ;
+        c:birthplace         "Alva" ;
+        c:forenduserdisplay  "false" ;
+        c:gender             "F" ;
+        c:person             <http://d.opencalais.com/pershash-1/a3c61615-74e9-3140-a8fe-b48caf61bca6> .
+
+<http://d.opencalais.com/pershash-1/3d88154d-d2d5-3f61-ac4b-84fa0d7f6e53>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Todd Parsons" ;
+        c:confidencelevel    "0.996" ;
+        c:firstname          "Todd" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Todd Parsons" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b>
+        a                  <http://s.opencalais.com/1/type/sys/DocInfo> ;
+        c:calaisRequestID  "fea81472-622a-afa1-14d9-1405feb7848c" ;
+        c:docDate          "2015-05-26 17:23:45.032" ;
+        c:docTitle         "" ;
+        c:document         "\n\t\t\t\t\t\n\t\t\t\tFreddie Lee Parsons, son of the late Ralph L. and Virginia Kathryn (Zook) Parsons, was born December 18, 1946, in Alva, and passed away September 17, 2014, in Waynoka, at the age of 67 years, 8 months, and 29 days.  \t    \nFred attended Waynoka Schools and graduated with the Class of 1966.  After graduation, Fred attended Spartan Aviation in Tulsa until he was drafted by the Army in April, 1968.  After a tour in Vietnam, he was honorably discharged in June, 1969.  On July 4, 1995, Fred was awarded the Purple Heart for injuries received during combat in the Vietnam War.  \t    \nHe helped his family in their custom harvesting business from North Dakota to Texas for many years.  On January 10, 1976, he was united in marriage to Nancy Barker.  To this union two children were born, Lisa and Todd.  \t    \nFred worked in Mooreland for 19 years at ANR Pipeline, then as a janitor for Waynoka Public Schools until his retirement.  \t    \nFred is survived by his daughter, Lisa George and husband, Travis, of Waynoka; one son, Todd Parsons and wife, Stephanie, of Oklahoma City; his brother, Rudy Parsons and wife, Marva, of Oklahoma City; his sister Regina Scribner of Carrollton, Texas; three grandsons, Garrison, Roland, and Asher George, all of Waynoka; two aunts, Marijess Parsons of Amarillo, Texas, and Myrna Ossola of Colorado Springs; other relatives and friends.  \t    \nMemorial contributions may be made through the funeral home to the Wounded Warriors Project. \n\t\t\t" ;
+        c:id               "http://id.opencalais.com/-HJHA7-81P8i*b4lVpI26A" ;
+        c:ontology         "http://163.231.4.65/owlschema/8.3/onecalais.owl.allmetadata.xml" .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Instance/41>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[his brother, Rudy Parsons and wife, Marva, of ]Oklahoma City[; his sister Regina Scribner of Carrollton,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:exact      "Oklahoma City" ;
+        c:length     "13" ;
+        c:offset     "1134" ;
+        c:prefix     "his brother, Rudy Parsons and wife, Marva, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b8620f48-da64-3b29-b094-f0b9edcda36f> ;
+        c:suffix     "; his sister Regina Scribner of Carrollton," .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Instance/13>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Army in April, 1968.  After a tour in Vietnam, ]he[ was honorably discharged in June, 1969.  On July]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:exact      "he" ;
+        c:length     "2" ;
+        c:offset     "435" ;
+        c:prefix     "Army in April, 1968.  After a tour in Vietnam, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/819c9ca5-d3fa-3eef-91db-5b138b4c9bb6> ;
+        c:suffix     " was honorably discharged in June, 1969.  On July" .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Relevance/12>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0a09ae8f-0456-38fc-b965-ff815c60f9d3> .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Instance/26>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Rudy Parsons and wife, Marva, of Oklahoma City; ]his sister Regina Scribner of Carrollton, Texas[; three grandsons, Garrison, Roland, and Asher]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:exact      "his sister Regina Scribner of Carrollton, Texas" ;
+        c:length     "47" ;
+        c:offset     "1149" ;
+        c:prefix     "Rudy Parsons and wife, Marva, of Oklahoma City; " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/60a0e8b5-8cf1-34ef-b214-f355cb521e6b> ;
+        c:suffix     "; three grandsons, Garrison, Roland, and Asher" .
+
+<http://d.opencalais.com/genericHasher-1/d8cd9e54-1082-3d6d-b8d1-539c89211aec>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:date                "1976-01-10" ;
+        c:datestring          "January 10, 1976" ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/6f8f8b99-ecd8-364d-8557-3164ffcfa996> , <http://d.opencalais.com/pershash-1/819c9ca5-d3fa-3eef-91db-5b138b4c9bb6> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/conf/pershash-1/14922e22-85d9-3f10-b2f7-41cd835794da>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.949" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.889" ;
+        c:subject             <http://d.opencalais.com/pershash-1/14922e22-85d9-3f10-b2f7-41cd835794da> .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Relevance/25>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/69254dd4-0abe-37a4-b1ff-6170874885d8> .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Relevance/9>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/3d88154d-d2d5-3f61-ac4b-84fa0d7f6e53> .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Instance/7>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[City; his brother, Rudy Parsons and wife, ]Marva, of Oklahoma City[; his sister Regina Scribner of Carrollton,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:exact      "Marva, of Oklahoma City" ;
+        c:length     "23" ;
+        c:offset     "1124" ;
+        c:prefix     "City; his brother, Rudy Parsons and wife, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/d8177c84-192b-3b4b-896c-ed0db194de23> ;
+        c:suffix     "; his sister Regina Scribner of Carrollton," .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Instance/39>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Texas; three grandsons, Garrison, Roland, and ]Asher George[, all of Waynoka; two aunts, Marijess Parsons of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:exact      "Asher George" ;
+        c:length     "12" ;
+        c:offset     "1237" ;
+        c:prefix     "Texas; three grandsons, Garrison, Roland, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/2207e073-3942-3afb-a9c1-86bc75acb9e7> ;
+        c:suffix     ", all of Waynoka; two aunts, Marijess Parsons of" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/722d85ea-c4bf-360f-3723-c565a8f4bcc0>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Texas" ;
+        c:docId               <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:latitude            "35.2219" ;
+        c:longitude           "-101.8308" ;
+        c:name                "Amarillo,Texas,United States" ;
+        c:shortname           "Amarillo" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/0a09ae8f-0456-38fc-b965-ff815c60f9d3> .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Instance/20>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ George and husband, Travis, of Waynoka; one son, ]Todd Parsons[ and wife, Stephanie, of Oklahoma City; his]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:exact      "Todd Parsons" ;
+        c:length     "12" ;
+        c:offset     "1036" ;
+        c:prefix     " George and husband, Travis, of Waynoka; one son, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/3d88154d-d2d5-3f61-ac4b-84fa0d7f6e53> ;
+        c:suffix     " and wife, Stephanie, of Oklahoma City; his" .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Relevance/3>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/38b1a271-79e9-32e2-937e-46a7579caf58> .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Instance/1>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[custom harvesting business from North Dakota to ]Texas[ for many years.  On January 10, 1976, he was]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:exact      "Texas" ;
+        c:length     "5" ;
+        c:offset     "671" ;
+        c:prefix     "custom harvesting business from North Dakota to " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> ;
+        c:suffix     " for many years.  On January 10, 1976, he was" .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Instance/33>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ until his retirement.  \t    \nFred is survived by ]his[ daughter, Lisa George and husband, Travis, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "968" ;
+        c:prefix     " until his retirement.  \t    \nFred is survived by " ;
+        c:subject    <http://d.opencalais.com/pershash-1/df7ec8f7-c049-3260-bb13-9f85e8a4e6c2> ;
+        c:suffix     " daughter, Lisa George and husband, Travis, of" .
+
+<http://d.opencalais.com/genericHasher-1/24972414-7420-31e3-a46a-6ec7e4af6c31>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "North Dakota" .
+
+<http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b/Instance/46>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Aviation in Tulsa until he was drafted by the ]Army[ in April, 1968.  After a tour in Vietnam, he was]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/71035019-c52e-31b4-a140-99abda0f750b> ;
+        c:exact      "Army" ;
+        c:length     "4" ;
+        c:offset     "388" ;
+        c:prefix     "Aviation in Tulsa until he was drafted by the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/7e89aa60-ed18-32e8-85bd-78f8d52d550f> ;
+        c:suffix     " in April, 1968.  After a tour in Vietnam, he was" .

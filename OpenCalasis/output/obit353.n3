@@ -1,0 +1,1406 @@
+#Relations: FamilyRelation, PersonAttributes, PersonCareer, PersonLocation, PersonRelation
+#City: Altus, Clarksville, Cullman, Dardanelle, Heartland, Oklahoma City
+#Company: Tyson foods
+#Country: Vietnam
+#Facility: Marshall Funeral Home of Alva
+#Organization: Dacoma Church of God, United States Army
+#Person: Abigail Middleton, Charles Brasfield, Charles Rickey Brasfield, Charles William, Cynthia Reubin, Debbie Middleton, Dillon Middleton, Jason Middleton, Katie McKinney, Logan Powers, Margaret Clark, Ray, Valera Faye (McKwon) Brasfield
+#Position: helicopter gunner
+#ProvinceOrState: Alabama, Arkansas
+@prefix c:     <http://s.opencalais.com/1/pred/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://d.opencalais.com/pershash-1/42ca36e9-e0bf-3a60-9884-6cfce8b19d29>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Cynthia Reubin" ;
+        c:confidencelevel    "0.992" ;
+        c:firstname          "Cynthia" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Reubin" ;
+        c:name               "Cynthia Reubin" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/pershash-1/4becf5f2-5f58-3b20-a40c-e6db0f788ad3>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Dillon Middleton" ;
+        c:confidencelevel    "0.983" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Dillon Middleton" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/b53f4062-d91e-3e3e-90ea-9bb7879d72ea>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.966" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.977" ;
+        c:subject             <http://d.opencalais.com/pershash-1/b53f4062-d91e-3e3e-90ea-9bb7879d72ea> .
+
+<http://d.opencalais.com/pershash-1/4b9145db-8f9f-36d9-b10e-895e0bfe06a4>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Logan Powers" ;
+        c:confidencelevel    "0.913" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Logan Powers" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Instance/44>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Debbie Middleton, of Woodward; a sister, ]Margaret Clark[ and husband, Ray, of Altus, Arkansas; six]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:exact      "Margaret Clark" ;
+        c:length     "14" ;
+        c:offset     "989" ;
+        c:prefix     "Debbie Middleton, of Woodward; a sister, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/63c3a565-1f66-378e-899e-6f40a4920d23> ;
+        c:suffix     " and husband, Ray, of Altus, Arkansas; six" .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Instance/23>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[arrangements are under the direction of ]Marshall Funeral Home of Alva[.     \nCharles Rickey Brasfield was born November]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:exact      "Marshall Funeral Home of Alva" ;
+        c:length     "29" ;
+        c:offset     "211" ;
+        c:prefix     "arrangements are under the direction of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce> ;
+        c:suffix     ".     \nCharles Rickey Brasfield was born November" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/04e6b29d-00d5-cd11-3a35-d943bc781999>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Arkansas" ;
+        c:docId               <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:latitude            "35.4547222222" ;
+        c:longitude           "-93.7719444444" ;
+        c:name                "Altus,Arkansas,United States" ;
+        c:shortname           "Altus" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/5bc683fc-0278-33db-b099-91b4408e743b> .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Relevance/21>
+        a                <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId          <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:relevance      "0.2" ;
+        c:relevancecont  "0.03" ;
+        c:subject        <http://d.opencalais.com/comphash-1/dc61bed8-cc96-3f1d-b3d7-67ec49efb3bb> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/92791cb5-fea3-2128-7f04-6f73db5b99c8>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Arkansas" ;
+        c:docId               <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:latitude            "35.4714" ;
+        c:longitude           "-93.4664" ;
+        c:name                "Clarksville,Arkansas,United States" ;
+        c:shortname           "Clarksville" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/3272d7a6-e36d-3eb0-b243-acda58eb822e> .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Instance/8>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[born November 22, 1951, at Cullman, Alabama, to ]Charles William[ and Valera Faye (McKwon) Brasfield, and passed]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:exact      "Charles William" ;
+        c:length     "15" ;
+        c:offset     "324" ;
+        c:prefix     "born November 22, 1951, at Cullman, Alabama, to " ;
+        c:subject    <http://d.opencalais.com/pershash-1/5f30d16e-0f50-3489-8056-68733013f04a> ;
+        c:suffix     " and Valera Faye (McKwon) Brasfield, and passed" .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Instance/52>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[August 16, 2014, at the Dacoma Church of God. ]He[ was cremated at his request and cremation]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:exact      "He" ;
+        c:length     "2" ;
+        c:offset     "126" ;
+        c:prefix     "August 16, 2014, at the Dacoma Church of God. " ;
+        c:subject    <http://d.opencalais.com/pershash-1/bcac749b-2941-3a98-83f2-0b637deb3f4b> ;
+        c:suffix     " was cremated at his request and cremation" .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/lid/DefaultLangId>
+        a                    <http://s.opencalais.com/1/type/lid/DefaultLangId> ;
+        c:docId              <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:forenduserdisplay  "false" ;
+        c:lang               <http://d.opencalais.com/lid/DefaultLangId/English> ;
+        c:permid             "505062" .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Instance/31>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Woodward; a sister, Margaret Clark and husband, ]Ray[, of Altus, Arkansas; six grandchildren, Logan]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:exact      "Ray" ;
+        c:length     "3" ;
+        c:offset     "1017" ;
+        c:prefix     "Woodward; a sister, Margaret Clark and husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/a563bce3-547e-3b86-9d0a-31748d174ece> ;
+        c:suffix     ", of Altus, Arkansas; six grandchildren, Logan" .
+
+<http://d.opencalais.com/pershash-1/4b58fe51-1c1e-3106-8a4b-625746df1ac2>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Debbie Middleton" ;
+        c:confidencelevel    "0.993" ;
+        c:firstname          "Debbie" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Middleton" ;
+        c:name               "Debbie Middleton" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/e6f7a6ee-13e4-325a-b368-d58ea10cc0f8>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:forenduserdisplay  "true" ;
+        c:organization       <http://d.opencalais.com/genericHasher-1/fce36612-627b-34d0-9874-611de4063865> ;
+        c:person             <http://d.opencalais.com/pershash-1/b53f4062-d91e-3e3e-90ea-9bb7879d72ea> ;
+        c:position           "helicopter gunner,in Vietnam" ;
+        c:status             "past" .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Instance/10>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[to Cynthia Reubin at Clarksville, Arkansas.    \n]Charles[ worked for many years at Tyson foods. He and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:exact      "Charles" ;
+        c:length     "7" ;
+        c:offset     "653" ;
+        c:prefix     "to Cynthia Reubin at Clarksville, Arkansas.    \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/5f30d16e-0f50-3489-8056-68733013f04a> ;
+        c:suffix     " worked for many years at Tyson foods. He and" .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/SocialTag/4>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "2" ;
+        c:name               "Brasfield" ;
+        c:originalValue      "Brasfield" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/0e6e5eb6-2ed8-3548-a323-e4f8f48d95dd> .
+
+<http://d.opencalais.com/genericHasher-1/b8620f48-da64-3b29-b094-f0b9edcda36f>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oklahoma City" .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Instance/39>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Woodward; a sister, Margaret Clark and husband, ]Ray, of Altus, Arkansas[; six grandchildren, Logan Powers of Oklahoma]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:exact      "Ray, of Altus, Arkansas" ;
+        c:length     "23" ;
+        c:offset     "1017" ;
+        c:prefix     "Woodward; a sister, Margaret Clark and husband, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8c1d4b4c-e721-3abf-ae4f-1bf64cf92e89> ;
+        c:suffix     "; six grandchildren, Logan Powers of Oklahoma" .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Instance/18>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[the age of 62 years, 8 months, and 20 days.    \n]He[ served in the United States Army in Vietnam as a]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:exact      "He" ;
+        c:length     "2" ;
+        c:offset     "485" ;
+        c:prefix     "the age of 62 years, 8 months, and 20 days.    \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/b53f4062-d91e-3e3e-90ea-9bb7879d72ea> ;
+        c:suffix     " served in the United States Army in Vietnam as a" .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Relevance/16>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/3ca7080e-5555-3294-88d5-9a2077088414> .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Instance/3>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[worked for many years at Tyson foods. He and ]Cynthia[ have lived the past 8 years at Dacoma since]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:exact      "Cynthia" ;
+        c:length     "7" ;
+        c:offset     "706" ;
+        c:prefix     "worked for many years at Tyson foods. He and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/42ca36e9-e0bf-3a60-9884-6cfce8b19d29> ;
+        c:suffix     " have lived the past 8 years at Dacoma since" .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Relevance/6>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/b53f4062-d91e-3e3e-90ea-9bb7879d72ea> .
+
+<http://d.opencalais.com/genericHasher-1/dbed3d0f-b79e-3370-9baa-1424de364390>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Vietnam" ;
+        c:person             <http://d.opencalais.com/pershash-1/b53f4062-d91e-3e3e-90ea-9bb7879d72ea> .
+
+<http://d.opencalais.com/pershash-1/5f30d16e-0f50-3489-8056-68733013f04a>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Charles William" ;
+        c:confidencelevel    "0.984" ;
+        c:firstname          "Charles" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "William" ;
+        c:name               "Charles William" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/pershash-1/a563bce3-547e-3b86-9d0a-31748d174ece>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Ray" ;
+        c:confidencelevel    "0.981" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Ray" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Instance/47>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ April 1, 1994, to Cynthia Reubin at Clarksville, ]Arkansas[.    \nCharles worked for many years at Tyson]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:exact      "Arkansas" ;
+        c:length     "8" ;
+        c:offset     "639" ;
+        c:prefix     " April 1, 1994, to Cynthia Reubin at Clarksville, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/693b9b27-4f42-328f-8fcd-34d3f5c08cc5> ;
+        c:suffix     ".    \nCharles worked for many years at Tyson" .
+
+<http://d.opencalais.com/genericHasher-1/192d1d56-314e-3cdb-87fd-fc04ece00975>
+        a                    <http://s.opencalais.com/1/type/em/e/Position> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "helicopter gunner" .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Instance/26>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Arkansas; six grandchildren, Logan Powers of ]Oklahoma City[, Katie McKinney of Dacoma, Dillon Middleton of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:exact      "Oklahoma City" ;
+        c:length     "13" ;
+        c:offset     "1077" ;
+        c:prefix     "Arkansas; six grandchildren, Logan Powers of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b8620f48-da64-3b29-b094-f0b9edcda36f> ;
+        c:suffix     ", Katie McKinney of Dacoma, Dillon Middleton of" .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Relevance/24>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/693b9b27-4f42-328f-8fcd-34d3f5c08cc5> .
+
+<http://d.opencalais.com/genericHasher-1/873dd82e-0874-3bb9-955e-dc0600362d72>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Alabama" .
+
+<http://d.opencalais.com/genericHasher-1/86fbafa3-f637-3d28-9f62-9dce3c28dcae>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Heartland" .
+
+<http://d.opencalais.com/genericHasher-1/693b9b27-4f42-328f-8fcd-34d3f5c08cc5>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Arkansas" .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Instance/55>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Oklahoma City, Katie McKinney of Dacoma, ]Dillon Middleton of Oklahoma City[, McKayla Bittle of Heartland, Arkansas, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:exact      "Dillon Middleton of Oklahoma City" ;
+        c:length     "33" ;
+        c:offset     "1118" ;
+        c:prefix     "of Oklahoma City, Katie McKinney of Dacoma, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b42ac39b-c6cc-3c03-abc9-faf206753fbe> ;
+        c:suffix     ", McKayla Bittle of Heartland, Arkansas, and" .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Instance/34>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[by his wife, Cynthia, of Dacoma; a stepson, ]Jason Middleton[, of Dacoma; a stepdaughter, Debbie Middleton, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:exact      "Jason Middleton" ;
+        c:length     "15" ;
+        c:offset     "904" ;
+        c:prefix     "by his wife, Cynthia, of Dacoma; a stepson, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/3ca7080e-5555-3294-88d5-9a2077088414> ;
+        c:suffix     ", of Dacoma; a stepdaughter, Debbie Middleton, of" .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Instance/13>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Arkansas.    \nCharles is preceded in death by ]his[ parents.    \nHe is survived by his wife,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "828" ;
+        c:prefix     "Arkansas.    \nCharles is preceded in death by " ;
+        c:subject    <http://d.opencalais.com/pershash-1/5f30d16e-0f50-3489-8056-68733013f04a> ;
+        c:suffix     " parents.    \nHe is survived by his wife," .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/SocialTag/7>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "2" ;
+        c:name               "Dardanelle, Arkansas" ;
+        c:originalValue      "Dardanelle, Arkansas" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/dcbc1b28-fa92-3a8c-a51e-b32c3c3a8b9b> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/f31b7932-a782-9439-474c-9eec51cd803b>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Alabama" ;
+        c:docId               <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:latitude            "34.1747" ;
+        c:longitude           "-86.8436" ;
+        c:name                "Cullman,Alabama,United States" ;
+        c:shortname           "Cullman" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/bb137949-44e0-3d02-8c65-24ca82b4d761> .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Relevance/11>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/44e7a00f-f0f6-380d-bc26-0892ecfbda84> .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Relevance/1>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/1f4f9c18-5a64-3319-96d7-bcb7b760f2e8> .
+
+<http://d.opencalais.com/conf/pershash-1/42ca36e9-e0bf-3a60-9884-6cfce8b19d29>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.992" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.995" ;
+        c:subject             <http://d.opencalais.com/pershash-1/42ca36e9-e0bf-3a60-9884-6cfce8b19d29> .
+
+<http://d.opencalais.com/conf/pershash-1/4becf5f2-5f58-3b20-a40c-e6db0f788ad3>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.983" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.99" ;
+        c:subject             <http://d.opencalais.com/pershash-1/4becf5f2-5f58-3b20-a40c-e6db0f788ad3> .
+
+<http://d.opencalais.com/conf/pershash-1/4b9145db-8f9f-36d9-b10e-895e0bfe06a4>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.913" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.951" ;
+        c:subject             <http://d.opencalais.com/pershash-1/4b9145db-8f9f-36d9-b10e-895e0bfe06a4> .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Instance/42>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ direction of Marshall Funeral Home of Alva.     \n]Charles Rickey Brasfield was born November 22, 1951, at Cullman, Alabama[, to Charles William and Valera Faye (McKwon)]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:exact      "Charles Rickey Brasfield was born November 22, 1951, at Cullman, Alabama" ;
+        c:length     "72" ;
+        c:offset     "247" ;
+        c:prefix     " direction of Marshall Funeral Home of Alva.     \n" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/d38238b1-d419-3e14-a52c-ea522d9aa5be> ;
+        c:suffix     ", to Charles William and Valera Faye (McKwon)" .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Instance/21>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[8 months, and 20 days.    \nHe served in the ]United States Army[ in Vietnam as a helicopter gunner. Charles was]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:exact      "United States Army" ;
+        c:length     "18" ;
+        c:offset     "502" ;
+        c:prefix     "8 months, and 20 days.    \nHe served in the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/fce36612-627b-34d0-9874-611de4063865> ;
+        c:suffix     " in Vietnam as a helicopter gunner. Charles was" .
+
+<http://d.opencalais.com/genericHasher-1/b42ac39b-c6cc-3c03-abc9-faf206753fbe>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Oklahoma City" ;
+        c:person             <http://d.opencalais.com/pershash-1/4becf5f2-5f58-3b20-a40c-e6db0f788ad3> .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Instance/6>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in death by his parents.    \nHe is survived by ]his wife, Cynthia[, of Dacoma; a stepson, Jason Middleton, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:exact      "his wife, Cynthia" ;
+        c:length     "17" ;
+        c:offset     "863" ;
+        c:prefix     "in death by his parents.    \nHe is survived by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e3e77bcd-6dc0-3c1e-94cc-0dffb3f07595> ;
+        c:suffix     ", of Dacoma; a stepson, Jason Middleton, of" .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Relevance/19>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/5bc683fc-0278-33db-b099-91b4408e743b> .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Relevance/9>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/fce36612-627b-34d0-9874-611de4063865> .
+
+<http://d.opencalais.com/pershash-1/25c225b7-49c2-34aa-a0b7-0877cb88120c>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Abigail Middleton" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Abigail" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Middleton" ;
+        c:name               "Abigail Middleton" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/44e7a00f-f0f6-380d-bc26-0892ecfbda84>
+        a                    <http://s.opencalais.com/1/type/em/e/Country> ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Vietnam" .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Instance/50>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Oklahoma City, McKayla Bittle of Heartland, ]Arkansas[, and Margaret and Abigail Middleton, both of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:exact      "Arkansas" ;
+        c:length     "8" ;
+        c:offset     "1182" ;
+        c:prefix     "of Oklahoma City, McKayla Bittle of Heartland, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/693b9b27-4f42-328f-8fcd-34d3f5c08cc5> ;
+        c:suffix     ", and Margaret and Abigail Middleton, both of" .
+
+<http://d.opencalais.com/conf/pershash-1/4b58fe51-1c1e-3106-8a4b-625746df1ac2>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.993" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.995" ;
+        c:subject             <http://d.opencalais.com/pershash-1/4b58fe51-1c1e-3106-8a4b-625746df1ac2> .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Instance/29>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in death by his parents.    \nHe is survived by ]his wife, Cynthia[, of Dacoma; a stepson, Jason Middleton, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:exact      "his wife, Cynthia" ;
+        c:length     "17" ;
+        c:offset     "863" ;
+        c:prefix     "in death by his parents.    \nHe is survived by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/261963ab-c7b3-3adc-b256-31a103bdd804> ;
+        c:suffix     ", of Dacoma; a stepson, Jason Middleton, of" .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Relevance/27>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/4b58fe51-1c1e-3106-8a4b-625746df1ac2> .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/SocialTag/2>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Middleton" ;
+        c:originalValue      "Middleton (name)" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/893d94f6-18b6-381a-9a85-40176bde1bfc> .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Instance/37>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ direction of Marshall Funeral Home of Alva.     \n]Charles Rickey Brasfield[ was born November 22, 1951, at Cullman, Alabama,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:exact      "Charles Rickey Brasfield" ;
+        c:length     "24" ;
+        c:offset     "247" ;
+        c:prefix     " direction of Marshall Funeral Home of Alva.     \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/c9dee015-81c5-340b-ba6e-f39dfca249fc> ;
+        c:suffix     " was born November 22, 1951, at Cullman, Alabama," .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Instance/16>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[at Cullman, Alabama, to Charles William and ]Valera Faye (McKwon) Brasfield[, and passed away at his home in Dacoma on August]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:exact      "Valera Faye (McKwon) Brasfield" ;
+        c:length     "30" ;
+        c:offset     "344" ;
+        c:prefix     "at Cullman, Alabama, to Charles William and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b53f4062-d91e-3e3e-90ea-9bb7879d72ea> ;
+        c:suffix     ", and passed away at his home in Dacoma on August" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/8c0c06e3-21a3-0c87-67ee-6791af27a9ef>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:latitude            "32.9865857394" ;
+        c:longitude           "-86.7415782668" ;
+        c:name                "Alabama,United States" ;
+        c:permid              "100005" ;
+        c:rcscode             "G:9K" ;
+        c:shortname           "Alabama" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/873dd82e-0874-3bb9-955e-dc0600362d72> .
+
+<http://d.opencalais.com/genericHasher-1/1f4f9c18-5a64-3319-96d7-bcb7b760f2e8>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Dacoma Church of God" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Instance/1>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ at 10:00 a.m., Saturday, August 16, 2014, at the ]Dacoma Church of God[. He was cremated at his request and cremation]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:exact      "Dacoma Church of God" ;
+        c:length     "20" ;
+        c:offset     "104" ;
+        c:prefix     " at 10:00 a.m., Saturday, August 16, 2014, at the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/1f4f9c18-5a64-3319-96d7-bcb7b760f2e8> ;
+        c:suffix     ". He was cremated at his request and cremation" .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Relevance/14>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/4b9145db-8f9f-36d9-b10e-895e0bfe06a4> .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Relevance/4>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/bb137949-44e0-3d02-8c65-24ca82b4d761> .
+
+<http://d.opencalais.com/genericHasher-1/4d9adf51-fe56-3670-a922-ac6c660d010b>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Dardanelle" .
+
+<http://d.opencalais.com/conf/pershash-1/5f30d16e-0f50-3489-8056-68733013f04a>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.984" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.989" ;
+        c:subject             <http://d.opencalais.com/pershash-1/5f30d16e-0f50-3489-8056-68733013f04a> .
+
+<http://d.opencalais.com/conf/pershash-1/a563bce3-547e-3b86-9d0a-31748d174ece>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.981" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.932" ;
+        c:subject             <http://d.opencalais.com/pershash-1/a563bce3-547e-3b86-9d0a-31748d174ece> .
+
+<http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Marshall Funeral Home of Alva" .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Instance/45>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ City, McKayla Bittle of Heartland, Arkansas, and ]Margaret[ and Abigail Middleton, both of Dacoma; other]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:exact      "Margaret" ;
+        c:length     "8" ;
+        c:offset     "1196" ;
+        c:prefix     " City, McKayla Bittle of Heartland, Arkansas, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/63c3a565-1f66-378e-899e-6f40a4920d23> ;
+        c:suffix     " and Abigail Middleton, both of Dacoma; other" .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98>
+        a                  <http://s.opencalais.com/1/type/sys/DocInfo> ;
+        c:calaisRequestID  "fac20b15-e12e-2d1a-14d9-13e36b612501" ;
+        c:docDate          "2015-05-26 17:21:23.367" ;
+        c:docTitle         "" ;
+        c:document         "There will be a memorial service for Charles Brasfield at 10:00 a.m., Saturday, August 16, 2014, at the Dacoma Church of God. He was cremated at his request and cremation arrangements are under the direction of Marshall Funeral Home of Alva.     \nCharles Rickey Brasfield was born November 22, 1951, at Cullman, Alabama, to Charles William and Valera Faye (McKwon) Brasfield, and passed away at his home in Dacoma on August 12, 2014, at the age of 62 years, 8 months, and 20 days.    \nHe served in the United States Army in Vietnam as a helicopter gunner. Charles was united in marriage on April 1, 1994, to Cynthia Reubin at Clarksville, Arkansas.    \nCharles worked for many years at Tyson foods. He and Cynthia have lived the past 8 years at Dacoma since moving from Dardanelle, Arkansas.    \nCharles is preceded in death by his parents.    \nHe is survived by his wife, Cynthia, of Dacoma; a stepson, Jason Middleton, of Dacoma; a stepdaughter, Debbie Middleton, of Woodward; a sister, Margaret Clark and husband, Ray, of Altus, Arkansas; six grandchildren, Logan Powers of Oklahoma City, Katie McKinney of Dacoma, Dillon Middleton of Oklahoma City, McKayla Bittle of Heartland, Arkansas, and Margaret and Abigail Middleton, both of Dacoma; other relatives and friends. \n\t\t\t" ;
+        c:id               "http://id.opencalais.com/wO4R533Gltnp0IHs6Q61SA" ;
+        c:ontology         "http://163.231.4.65/owlschema/8.3/onecalais.owl.allmetadata.xml" .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Instance/24>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[the age of 62 years, 8 months, and 20 days.    \n]He served in the United States Army in Vietnam as a helicopter gunner[. Charles was united in marriage on April 1,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:exact      "He served in the United States Army in Vietnam as a helicopter gunner" ;
+        c:length     "69" ;
+        c:offset     "485" ;
+        c:prefix     "the age of 62 years, 8 months, and 20 days.    \n" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e6f7a6ee-13e4-325a-b368-d58ea10cc0f8> ;
+        c:suffix     ". Charles was united in marriage on April 1," .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Relevance/22>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/63c3a565-1f66-378e-899e-6f40a4920d23> .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Instance/9>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[States Army in Vietnam as a helicopter gunner. ]Charles[ was united in marriage on April 1, 1994, to]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:exact      "Charles" ;
+        c:length     "7" ;
+        c:offset     "556" ;
+        c:prefix     "States Army in Vietnam as a helicopter gunner. " ;
+        c:subject    <http://d.opencalais.com/pershash-1/5f30d16e-0f50-3489-8056-68733013f04a> ;
+        c:suffix     " was united in marriage on April 1, 1994, to" .
+
+<http://d.opencalais.com/pershash-1/3ca7080e-5555-3294-88d5-9a2077088414>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Jason Middleton" ;
+        c:confidencelevel    "0.993" ;
+        c:firstname          "Jason" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Middleton" ;
+        c:name               "Jason Middleton" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Instance/53>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[at the Dacoma Church of God. He was cremated at ]his[ request and cremation arrangements are under the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "145" ;
+        c:prefix     "at the Dacoma Church of God. He was cremated at " ;
+        c:subject    <http://d.opencalais.com/pershash-1/bcac749b-2941-3a98-83f2-0b637deb3f4b> ;
+        c:suffix     " request and cremation arrangements are under the" .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Instance/32>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Ray, of Altus, Arkansas; six grandchildren, ]Logan Powers[ of Oklahoma City, Katie McKinney of Dacoma,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:exact      "Logan Powers" ;
+        c:length     "12" ;
+        c:offset     "1061" ;
+        c:prefix     "Ray, of Altus, Arkansas; six grandchildren, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/4b9145db-8f9f-36d9-b10e-895e0bfe06a4> ;
+        c:suffix     " of Oklahoma City, Katie McKinney of Dacoma," .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Instance/11>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[   \nCharles worked for many years at Tyson foods. ]He[ and Cynthia have lived the past 8 years at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:exact      "He" ;
+        c:length     "2" ;
+        c:offset     "699" ;
+        c:prefix     "   \nCharles worked for many years at Tyson foods. " ;
+        c:subject    <http://d.opencalais.com/pershash-1/5f30d16e-0f50-3489-8056-68733013f04a> ;
+        c:suffix     " and Cynthia have lived the past 8 years at" .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/meta>
+        a                 <http://s.opencalais.com/1/type/sys/DocInfoMeta> ;
+        c:contentType     "text/raw" ;
+        c:docId           <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:language        "English" ;
+        c:processingVer   "AllMetadata" ;
+        c:serverVersion   "OneCalais_8.3-RELEASE:364" ;
+        c:signature       "digestalg-1|Tmnh/lIEC+IqG2nF/qMWGvyCQ14=|W6mv5mi2/1Z88+ANyPAEwAX9c4FmRNNU16VzxtRfzafsnck0jYfIZQ==" ;
+        c:stagsVer        "OneCalais_8.3-RELEASE-b11-2015-03-25_18:29:00" ;
+        c:submissionDate  "2015-05-26 17:21:23.126" ;
+        c:submitterCode   "0ca6a864-5659-789d-5f32-f365f695e757" .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/SocialTag/5>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "2" ;
+        c:name               "Altus, Arkansas" ;
+        c:originalValue      "Altus, Arkansas" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/322b966d-408c-3e7f-a57b-2c303ea0b73d> .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Instance/40>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[a sister, Margaret Clark and husband, Ray, of ]Altus[, Arkansas; six grandchildren, Logan Powers of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:exact      "Altus" ;
+        c:length     "5" ;
+        c:offset     "1025" ;
+        c:prefix     "a sister, Margaret Clark and husband, Ray, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/5bc683fc-0278-33db-b099-91b4408e743b> ;
+        c:suffix     ", Arkansas; six grandchildren, Logan Powers of" .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Instance/19>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Oklahoma City, Katie McKinney of Dacoma, ]Dillon Middleton[ of Oklahoma City, McKayla Bittle of Heartland,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:exact      "Dillon Middleton" ;
+        c:length     "16" ;
+        c:offset     "1118" ;
+        c:prefix     "of Oklahoma City, Katie McKinney of Dacoma, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/4becf5f2-5f58-3b20-a40c-e6db0f788ad3> ;
+        c:suffix     " of Oklahoma City, McKayla Bittle of Heartland," .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Relevance/17>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3272d7a6-e36d-3eb0-b243-acda58eb822e> .
+
+<http://d.opencalais.com/genericHasher-1/261963ab-c7b3-3adc-b256-31a103bdd804>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/42ca36e9-e0bf-3a60-9884-6cfce8b19d29> , <http://d.opencalais.com/pershash-1/5f30d16e-0f50-3489-8056-68733013f04a> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Instance/4>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[by his parents.    \nHe is survived by his wife, ]Cynthia[, of Dacoma; a stepson, Jason Middleton, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:exact      "Cynthia" ;
+        c:length     "7" ;
+        c:offset     "873" ;
+        c:prefix     "by his parents.    \nHe is survived by his wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/42ca36e9-e0bf-3a60-9884-6cfce8b19d29> ;
+        c:suffix     ", of Dacoma; a stepson, Jason Middleton, of" .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Relevance/7>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/4becf5f2-5f58-3b20-a40c-e6db0f788ad3> .
+
+<http://d.opencalais.com/genericHasher-1/e3e77bcd-6dc0-3c1e-94cc-0dffb3f07595>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "wife" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/5f30d16e-0f50-3489-8056-68733013f04a> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/42ca36e9-e0bf-3a60-9884-6cfce8b19d29> .
+
+<http://d.opencalais.com/pershash-1/c9dee015-81c5-340b-ba6e-f39dfca249fc>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Charles Rickey Brasfield" ;
+        c:confidencelevel    "0.98" ;
+        c:firstname          "Charles" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Brasfield" ;
+        c:middlename         "Rickey" ;
+        c:name               "Charles Rickey Brasfield" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/25c225b7-49c2-34aa-a0b7-0877cb88120c>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/25c225b7-49c2-34aa-a0b7-0877cb88120c> .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Instance/48>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[8 years at Dacoma since moving from Dardanelle, ]Arkansas[.    \nCharles is preceded in death by his]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:exact      "Arkansas" ;
+        c:length     "8" ;
+        c:offset     "782" ;
+        c:prefix     "8 years at Dacoma since moving from Dardanelle, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/693b9b27-4f42-328f-8fcd-34d3f5c08cc5> ;
+        c:suffix     ".    \nCharles is preceded in death by his" .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Instance/27>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Katie McKinney of Dacoma, Dillon Middleton of ]Oklahoma City[, McKayla Bittle of Heartland, Arkansas, and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:exact      "Oklahoma City" ;
+        c:length     "13" ;
+        c:offset     "1138" ;
+        c:prefix     "Katie McKinney of Dacoma, Dillon Middleton of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b8620f48-da64-3b29-b094-f0b9edcda36f> ;
+        c:suffix     ", McKayla Bittle of Heartland, Arkansas, and" .
+
+<http://d.opencalais.com/pershash-1/66a14e59-02ad-3645-b9a4-8151c88e3b7d>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Katie McKinney" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Katie" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "McKinney" ;
+        c:name               "Katie McKinney" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Relevance/25>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/bcac749b-2941-3a98-83f2-0b637deb3f4b> .
+
+<http://d.opencalais.com/genericHasher-1/3272d7a6-e36d-3eb0-b243-acda58eb822e>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Clarksville" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/da319bea-24d2-4d84-46b9-a96e9d1f9367>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Arkansas" ;
+        c:docId               <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:latitude            "35.2231" ;
+        c:longitude           "-93.1578" ;
+        c:name                "Dardanelle,Arkansas,United States" ;
+        c:shortname           "Dardanelle" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/4d9adf51-fe56-3670-a922-ac6c660d010b> .
+
+<http://d.opencalais.com/genericHasher-1/5bc683fc-0278-33db-b099-91b4408e743b>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Altus" .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Instance/56>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Jason Middleton, of Dacoma; a stepdaughter, ]Debbie Middleton[, of Woodward; a sister, Margaret Clark and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:exact      "Debbie Middleton" ;
+        c:length     "16" ;
+        c:offset     "948" ;
+        c:prefix     "Jason Middleton, of Dacoma; a stepdaughter, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/4b58fe51-1c1e-3106-8a4b-625746df1ac2> ;
+        c:suffix     ", of Woodward; a sister, Margaret Clark and" .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Instance/35>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[marriage on April 1, 1994, to Cynthia Reubin at ]Clarksville[, Arkansas.    \nCharles worked for many years at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:exact      "Clarksville" ;
+        c:length     "11" ;
+        c:offset     "626" ;
+        c:prefix     "marriage on April 1, 1994, to Cynthia Reubin at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3272d7a6-e36d-3eb0-b243-acda58eb822e> ;
+        c:suffix     ", Arkansas.    \nCharles worked for many years at" .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Instance/14>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[is preceded in death by his parents.    \n]He[ is survived by his wife, Cynthia, of Dacoma; a]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:exact      "He" ;
+        c:length     "2" ;
+        c:offset     "845" ;
+        c:prefix     "is preceded in death by his parents.    \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/5f30d16e-0f50-3489-8056-68733013f04a> ;
+        c:suffix     " is survived by his wife, Cynthia, of Dacoma; a" .
+
+<http://d.opencalais.com/pershash-1/63c3a565-1f66-378e-899e-6f40a4920d23>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Margaret Clark" ;
+        c:confidencelevel    "0.999" ;
+        c:firstname          "Margaret" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Clark" ;
+        c:name               "Margaret Clark" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/0088ff6e-94b9-3018-a468-f18fdf4de3e4>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:date                "1994-04-01" ;
+        c:datestring          "April 1, 1994" ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/42ca36e9-e0bf-3a60-9884-6cfce8b19d29> , <http://d.opencalais.com/pershash-1/5f30d16e-0f50-3489-8056-68733013f04a> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Relevance/12>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b8620f48-da64-3b29-b094-f0b9edcda36f> .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Relevance/2>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/42ca36e9-e0bf-3a60-9884-6cfce8b19d29> .
+
+<http://d.opencalais.com/genericHasher-1/d38238b1-d419-3e14-a52c-ea522d9aa5be>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Cullman" ;
+        c:person             <http://d.opencalais.com/pershash-1/c9dee015-81c5-340b-ba6e-f39dfca249fc> .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Instance/43>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Arkansas.    \nCharles worked for many years at ]Tyson foods[. He and Cynthia have lived the past 8 years at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:exact      "Tyson foods" ;
+        c:length     "11" ;
+        c:offset     "686" ;
+        c:prefix     "Arkansas.    \nCharles worked for many years at " ;
+        c:subject    <http://d.opencalais.com/comphash-1/dc61bed8-cc96-3f1d-b3d7-67ec49efb3bb> ;
+        c:suffix     ". He and Cynthia have lived the past 8 years at" .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Instance/22>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[States Army in Vietnam as a helicopter gunner. ]Charles was united in marriage on April 1, 1994, to Cynthia Reubin[ at Clarksville, Arkansas.    \nCharles worked for]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:exact      "Charles was united in marriage on April 1, 1994, to Cynthia Reubin" ;
+        c:length     "66" ;
+        c:offset     "556" ;
+        c:prefix     "States Army in Vietnam as a helicopter gunner. " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0088ff6e-94b9-3018-a468-f18fdf4de3e4> ;
+        c:suffix     " at Clarksville, Arkansas.    \nCharles worked for" .
+
+<http://d.opencalais.com/conf/pershash-1/3ca7080e-5555-3294-88d5-9a2077088414>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.993" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.995" ;
+        c:subject             <http://d.opencalais.com/pershash-1/3ca7080e-5555-3294-88d5-9a2077088414> .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Relevance/20>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/86fbafa3-f637-3d28-9f62-9dce3c28dcae> .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Instance/7>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Rickey Brasfield was born November 22, 1951, at ]Cullman[, Alabama, to Charles William and Valera Faye]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:exact      "Cullman" ;
+        c:length     "7" ;
+        c:offset     "303" ;
+        c:prefix     "Rickey Brasfield was born November 22, 1951, at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/bb137949-44e0-3d02-8c65-24ca82b4d761> ;
+        c:suffix     ", Alabama, to Charles William and Valera Faye" .
+
+<http://d.opencalais.com/genericHasher-1/4ea35a88-e809-36b8-9bd2-195396ceaed2>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Clarksville" ;
+        c:person             <http://d.opencalais.com/pershash-1/42ca36e9-e0bf-3a60-9884-6cfce8b19d29> .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Instance/51>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[will be a memorial service for ]Charles Brasfield[ at 10:00 a.m., Saturday, August 16, 2014, at the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:exact      "Charles Brasfield" ;
+        c:length     "17" ;
+        c:offset     "37" ;
+        c:prefix     "will be a memorial service for " ;
+        c:subject    <http://d.opencalais.com/pershash-1/bcac749b-2941-3a98-83f2-0b637deb3f4b> ;
+        c:suffix     " at 10:00 a.m., Saturday, August 16, 2014, at the" .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Instance/30>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ direction of Marshall Funeral Home of Alva.     \n]Charles Rickey Brasfield was born November 22, 1951, at Cullman, Alabama[, to Charles William and Valera Faye (McKwon)]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:exact      "Charles Rickey Brasfield was born November 22, 1951, at Cullman, Alabama" ;
+        c:length     "72" ;
+        c:offset     "247" ;
+        c:prefix     " direction of Marshall Funeral Home of Alva.     \n" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/09952450-1704-30a0-84d7-2627ead0cdb6> ;
+        c:suffix     ", to Charles William and Valera Faye (McKwon)" .
+
+<http://d.opencalais.com/comphash-1/dc61bed8-cc96-3f1d-b3d7-67ec49efb3bb>
+        a                    <http://s.opencalais.com/1/type/em/e/Company> ;
+        c:confidencelevel    "0.717" ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Tyson foods" ;
+        c:nationality        "N/A" .
+
+<http://d.opencalais.com/pershash-1/bcac749b-2941-3a98-83f2-0b637deb3f4b>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Charles Brasfield" ;
+        c:confidencelevel    "0.973" ;
+        c:firstname          "Charles" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Brasfield" ;
+        c:name               "Charles Brasfield" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/SocialTag/3>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Clarksville" ;
+        c:originalValue      "Clarksville" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/beae7c04-88ca-3322-902c-504a5d879ac7> .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Instance/38>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[was united in marriage on April 1, 1994, to ]Cynthia Reubin at Clarksville, Arkansas[.    \nCharles worked for many years at Tyson]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:exact      "Cynthia Reubin at Clarksville, Arkansas" ;
+        c:length     "39" ;
+        c:offset     "608" ;
+        c:prefix     "was united in marriage on April 1, 1994, to " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4ea35a88-e809-36b8-9bd2-195396ceaed2> ;
+        c:suffix     ".    \nCharles worked for many years at Tyson" .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Instance/17>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Faye (McKwon) Brasfield, and passed away at ]his[ home in Dacoma on August 12, 2014, at the age of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "395" ;
+        c:prefix     "Faye (McKwon) Brasfield, and passed away at " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b53f4062-d91e-3e3e-90ea-9bb7879d72ea> ;
+        c:suffix     " home in Dacoma on August 12, 2014, at the age of" .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Instance/2>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[was united in marriage on April 1, 1994, to ]Cynthia Reubin[ at Clarksville, Arkansas.    \nCharles worked for]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:exact      "Cynthia Reubin" ;
+        c:length     "14" ;
+        c:offset     "608" ;
+        c:prefix     "was united in marriage on April 1, 1994, to " ;
+        c:subject    <http://d.opencalais.com/pershash-1/42ca36e9-e0bf-3a60-9884-6cfce8b19d29> ;
+        c:suffix     " at Clarksville, Arkansas.    \nCharles worked for" .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Relevance/15>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4d9adf51-fe56-3670-a922-ac6c660d010b> .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Relevance/5>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/5f30d16e-0f50-3489-8056-68733013f04a> .
+
+<http://d.opencalais.com/conf/pershash-1/c9dee015-81c5-340b-ba6e-f39dfca249fc>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.98" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.986" ;
+        c:subject             <http://d.opencalais.com/pershash-1/c9dee015-81c5-340b-ba6e-f39dfca249fc> .
+
+<http://d.opencalais.com/pershash-1/b53f4062-d91e-3e3e-90ea-9bb7879d72ea>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Valera Faye Brasfield" ;
+        c:confidencelevel    "0.966" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Valera Faye (McKwon) Brasfield" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Instance/46>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[grandchildren, Logan Powers of Oklahoma City, ]Katie McKinney[ of Dacoma, Dillon Middleton of Oklahoma City,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:exact      "Katie McKinney" ;
+        c:length     "14" ;
+        c:offset     "1092" ;
+        c:prefix     "grandchildren, Logan Powers of Oklahoma City, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/66a14e59-02ad-3645-b9a4-8151c88e3b7d> ;
+        c:suffix     " of Dacoma, Dillon Middleton of Oklahoma City," .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Instance/25>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ days.    \nHe served in the United States Army in ]Vietnam[ as a helicopter gunner. Charles was united in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:exact      "Vietnam" ;
+        c:length     "7" ;
+        c:offset     "524" ;
+        c:prefix     " days.    \nHe served in the United States Army in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/44e7a00f-f0f6-380d-bc26-0892ecfbda84> ;
+        c:suffix     " as a helicopter gunner. Charles was united in" .
+
+<http://d.opencalais.com/conf/pershash-1/66a14e59-02ad-3645-b9a4-8151c88e3b7d>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/66a14e59-02ad-3645-b9a4-8151c88e3b7d> .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Relevance/23>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/66a14e59-02ad-3645-b9a4-8151c88e3b7d> .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/ComponentVersions>
+        a          <http://s.opencalais.com/1/type/sys/ComponentVersions> ;
+        c:docId    <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:version  "config-sca-DataPackage:34:34" , "SpanishIM:OneCalais_8.3-RELEASE:198" , "config-vessels:258:258" , "OneCalaisIM:OneCalais_8.3-RELEASE:198" , "config-cse:271:271" , "OA Override:271:271" , "com.clearforest.infoext.dial4j.plugins-basistechconfig:OneCalais_8.3-RELEASE:225" , "Collector:OneCalais_8.3-RELEASE:113" , "Housekeeper:OneCalais_8.3-RELEASE:113" , "SocialTags Index:201505191038:201505191038" , "BlackList:264:264" , "WatchDog:OneCalais_8.3-RELEASE:113" , "OneCalais:OneCalais_8.3-RELEASE:364" , "NextTags:OneCalais_8.3-RELEASE:113" , "SECHeaderMetadataIM:OneCalais_8.3-RELEASE:198" , "Deals Index:201505261613:201505261613" , "BrokerResearchIM:OneCalais_8.3-RELEASE:198" , "config-refineries:258:258" , "index-vessels:201505231718:201505231718" , "OA Index:201505252208:201505252208" , "config-drugs:258:258" , "Dial4J:OneCalais_8.3-RELEASE:198" , "People Index:201505261608:201505261608" , "People Override:258:258" , "AutocoderRuntimeIM:OneCalais_8.3-RELEASE:198" , "config-negativeSignature:258:258" , "FrenchIM:OneCalais_8.3-RELEASE:198" , "config-physicalAssets-ports:258:258" .
+
+<http://d.opencalais.com/genericHasher-1/8c1d4b4c-e721-3abf-ae4f-1bf64cf92e89>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Altus" ;
+        c:person             <http://d.opencalais.com/pershash-1/a563bce3-547e-3b86-9d0a-31748d174ece> .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Instance/54>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[served in the United States Army in Vietnam as ]a helicopter gunner[. Charles was united in marriage on April 1,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:exact      "a helicopter gunner" ;
+        c:length     "19" ;
+        c:offset     "535" ;
+        c:prefix     "served in the United States Army in Vietnam as " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/192d1d56-314e-3cdb-87fd-fc04ece00975> ;
+        c:suffix     ". Charles was united in marriage on April 1," .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Instance/33>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[the past 8 years at Dacoma since moving from ]Dardanelle[, Arkansas.    \nCharles is preceded in death by]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:exact      "Dardanelle" ;
+        c:length     "10" ;
+        c:offset     "770" ;
+        c:prefix     "the past 8 years at Dacoma since moving from " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4d9adf51-fe56-3670-a922-ac6c660d010b> ;
+        c:suffix     ", Arkansas.    \nCharles is preceded in death by" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/f24ef023-f5ce-f4ba-d403-af6634f7297d>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:latitude            "35.4675" ;
+        c:longitude           "-97.5161" ;
+        c:name                "Oklahoma City,Oklahoma,United States" ;
+        c:rcscode             "G:2BF" ;
+        c:shortname           "Oklahoma City" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/b8620f48-da64-3b29-b094-f0b9edcda36f> .
+
+<http://d.opencalais.com/conf/pershash-1/63c3a565-1f66-378e-899e-6f40a4920d23>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.999" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.995" ;
+        c:subject             <http://d.opencalais.com/pershash-1/63c3a565-1f66-378e-899e-6f40a4920d23> .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Instance/12>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[since moving from Dardanelle, Arkansas.    \n]Charles[ is preceded in death by his parents.    \nHe is]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:exact      "Charles" ;
+        c:length     "7" ;
+        c:offset     "796" ;
+        c:prefix     "since moving from Dardanelle, Arkansas.    \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/5f30d16e-0f50-3489-8056-68733013f04a> ;
+        c:suffix     " is preceded in death by his parents.    \nHe is" .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/SocialTag/6>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "2" ;
+        c:name               "Altus" ;
+        c:originalValue      "Altus" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/567beb98-f745-3cae-ae30-79737cf78005> .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Relevance/10>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce> .
+
+<https://permid.org/1-5000588909>
+        a             <http://s.opencalais.com/1/type/er/Company> ;
+        c:commonname  "Godrej Tyson" ;
+        c:docId       <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:legacyid    <http://d.opencalais.com/er/company/ralg-tr1r/852085ea-80a9-345f-911e-6a9d5ee81c7e> ;
+        c:name        "Godrej Tyson Foods Ltd" ;
+        c:permid      "5000588909" ;
+        c:score       "0.012646197" ;
+        c:subject     <http://d.opencalais.com/comphash-1/dc61bed8-cc96-3f1d-b3d7-67ec49efb3bb> .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Instance/41>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Middleton of Oklahoma City, McKayla Bittle of ]Heartland[, Arkansas, and Margaret and Abigail Middleton,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:exact      "Heartland" ;
+        c:length     "9" ;
+        c:offset     "1171" ;
+        c:prefix     "Middleton of Oklahoma City, McKayla Bittle of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/86fbafa3-f637-3d28-9f62-9dce3c28dcae> ;
+        c:suffix     ", Arkansas, and Margaret and Abigail Middleton," .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Instance/20>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[was born November 22, 1951, at Cullman, ]Alabama[, to Charles William and Valera Faye (McKwon)]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:exact      "Alabama" ;
+        c:length     "7" ;
+        c:offset     "312" ;
+        c:prefix     "was born November 22, 1951, at Cullman, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/873dd82e-0874-3bb9-955e-dc0600362d72> ;
+        c:suffix     ", to Charles William and Valera Faye (McKwon)" .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Relevance/18>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/c9dee015-81c5-340b-ba6e-f39dfca249fc> .
+
+<http://d.opencalais.com/genericHasher-1/1ed80701-ae4e-397a-b9a6-6b8af794744f>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Oklahoma City" ;
+        c:person             <http://d.opencalais.com/pershash-1/4b9145db-8f9f-36d9-b10e-895e0bfe06a4> .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Instance/5>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Bittle of Heartland, Arkansas, and Margaret and ]Abigail Middleton[, both of Dacoma; other relatives and friends.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:exact      "Abigail Middleton" ;
+        c:length     "17" ;
+        c:offset     "1209" ;
+        c:prefix     "Bittle of Heartland, Arkansas, and Margaret and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/25c225b7-49c2-34aa-a0b7-0877cb88120c> ;
+        c:suffix     ", both of Dacoma; other relatives and friends." .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Relevance/8>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/873dd82e-0874-3bb9-955e-dc0600362d72> .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Instance/49>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Margaret Clark and husband, Ray, of Altus, ]Arkansas[; six grandchildren, Logan Powers of Oklahoma]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:exact      "Arkansas" ;
+        c:length     "8" ;
+        c:offset     "1032" ;
+        c:prefix     "Margaret Clark and husband, Ray, of Altus, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/693b9b27-4f42-328f-8fcd-34d3f5c08cc5> ;
+        c:suffix     "; six grandchildren, Logan Powers of Oklahoma" .
+
+<http://d.opencalais.com/genericHasher-1/fce36612-627b-34d0-9874-611de4063865>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "United States Army" ;
+        c:nationality        "American" ;
+        c:organizationtype   "governmental military" .
+
+<http://d.opencalais.com/conf/comphash-1/dc61bed8-cc96-3f1d-b3d7-67ec49efb3bb>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.717" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:resolution          "0.012646197" ;
+        c:statisticalfeature  "0.887" ;
+        c:subject             <http://d.opencalais.com/comphash-1/dc61bed8-cc96-3f1d-b3d7-67ec49efb3bb> .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Instance/28>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[the age of 62 years, 8 months, and 20 days.    \n]He served in the United States Army in Vietnam as a helicopter gunner[. Charles was united in marriage on April 1,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:exact      "He served in the United States Army in Vietnam as a helicopter gunner" ;
+        c:length     "69" ;
+        c:offset     "485" ;
+        c:prefix     "the age of 62 years, 8 months, and 20 days.    \n" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/dbed3d0f-b79e-3370-9baa-1424de364390> ;
+        c:suffix     ". Charles was united in marriage on April 1," .
+
+<http://d.opencalais.com/conf/pershash-1/bcac749b-2941-3a98-83f2-0b637deb3f4b>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.973" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.983" ;
+        c:subject             <http://d.opencalais.com/pershash-1/bcac749b-2941-3a98-83f2-0b637deb3f4b> .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Relevance/26>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/192d1d56-314e-3cdb-87fd-fc04ece00975> .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/SocialTag/1>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Dacoma, Oklahoma" ;
+        c:originalValue      "Dacoma, Oklahoma" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/ddcdf07d-7c67-342f-8a8c-f881f846c968> .
+
+<http://d.opencalais.com/genericHasher-1/bb137949-44e0-3d02-8c65-24ca82b4d761>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Cullman" .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Instance/36>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Ray, of Altus, Arkansas; six grandchildren, ]Logan Powers of Oklahoma City[, Katie McKinney of Dacoma, Dillon Middleton of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:exact      "Logan Powers of Oklahoma City" ;
+        c:length     "29" ;
+        c:offset     "1061" ;
+        c:prefix     "Ray, of Altus, Arkansas; six grandchildren, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/1ed80701-ae4e-397a-b9a6-6b8af794744f> ;
+        c:suffix     ", Katie McKinney of Dacoma, Dillon Middleton of" .
+
+<http://d.opencalais.com/er/geo/country/ralg-geo1/5f8f9e33-bb5e-1384-8af2-622b66b2308c>
+        a            <http://s.opencalais.com/1/type/er/Geo/Country> ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:latitude   "15.4548637037" ;
+        c:longitude  "106.576013518" ;
+        c:name       "Vietnam" ;
+        c:permid     "100327" ;
+        c:rcscode    "G:5Z" ;
+        c:shortname  "Vietnam" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/44e7a00f-f0f6-380d-bc26-0892ecfbda84> .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Instance/15>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in death by his parents.    \nHe is survived by ]his[ wife, Cynthia, of Dacoma; a stepson, Jason]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "863" ;
+        c:prefix     "in death by his parents.    \nHe is survived by " ;
+        c:subject    <http://d.opencalais.com/pershash-1/5f30d16e-0f50-3489-8056-68733013f04a> ;
+        c:suffix     " wife, Cynthia, of Dacoma; a stepson, Jason" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/c8ff68c4-bb14-b2db-4b27-924496d2fa2f>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:latitude            "34.8" ;
+        c:longitude           "-92.2" ;
+        c:name                "Arkansas,United States" ;
+        c:permid              "100019" ;
+        c:rcscode             "G:6U" ;
+        c:shortname           "Arkansas" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/693b9b27-4f42-328f-8fcd-34d3f5c08cc5> .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/cat/1>
+        a                    <http://s.opencalais.com/1/type/cat/DocCat> ;
+        c:docId              <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Human Interest" ;
+        c:score              "1.000" .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Relevance/13>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/a563bce3-547e-3b86-9d0a-31748d174ece> .
+
+<http://d.opencalais.com/genericHasher-1/09952450-1704-30a0-84d7-2627ead0cdb6>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonAttributes> ;
+        c:birthdate          "1951-11-22" ;
+        c:birthplace         <http://d.opencalais.com/genericHasher-1/bb137949-44e0-3d02-8c65-24ca82b4d761> ;
+        c:forenduserdisplay  "false" ;
+        c:gender             "M" ;
+        c:person             <http://d.opencalais.com/pershash-1/c9dee015-81c5-340b-ba6e-f39dfca249fc> .
+
+<http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98/Relevance/3>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/d006b11d-2906-3b75-8a68-870f919e8b98> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/25c225b7-49c2-34aa-a0b7-0877cb88120c> .

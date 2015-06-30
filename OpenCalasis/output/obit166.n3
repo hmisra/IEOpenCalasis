@@ -1,0 +1,264 @@
+#Relations: FamilyRelation, PersonAttributes
+#Facility: Marshall Funeral Home of Alva
+#Person: Carma (Compton)Waterman, Harry Jennings, Harry Waterman Sr.
+@prefix c:     <http://s.opencalais.com/1/pred/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://d.opencalais.com/conf/pershash-1/79ff034d-f1f7-34d0-97b8-1d67761abf35>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.995" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/f2366190-990d-3dc9-94af-07997a7a6cb6> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.996" ;
+        c:subject             <http://d.opencalais.com/pershash-1/79ff034d-f1f7-34d0-97b8-1d67761abf35> .
+
+<http://d.opencalais.com/dochash-1/f2366190-990d-3dc9-94af-07997a7a6cb6/Relevance/3>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/f2366190-990d-3dc9-94af-07997a7a6cb6> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/25aa0b2b-8a7a-3ebf-95f2-dc6f13dacae8> .
+
+<http://d.opencalais.com/dochash-1/f2366190-990d-3dc9-94af-07997a7a6cb6/Instance/5>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Waterman Sr., son of Harry Jennings and ]Carma (Compton)Waterman[, was born October 7, 1930, in Alva and passed]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f2366190-990d-3dc9-94af-07997a7a6cb6> ;
+        c:exact      "Carma (Compton)Waterman" ;
+        c:length     "23" ;
+        c:offset     "46" ;
+        c:prefix     "Waterman Sr., son of Harry Jennings and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/25aa0b2b-8a7a-3ebf-95f2-dc6f13dacae8> ;
+        c:suffix     ", was born October 7, 1930, in Alva and passed" .
+
+<http://d.opencalais.com/pershash-1/25aa0b2b-8a7a-3ebf-95f2-dc6f13dacae8>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Carma Waterman" ;
+        c:confidencelevel    "0.973" ;
+        c:firstname          "Carma" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Waterman" ;
+        c:name               "Carma (Compton)Waterman" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/ce780943-9c9c-3661-a7f4-1100c5320d32>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonAttributes> ;
+        c:birthdate          "1930-10-07" ;
+        c:birthplace         "Alva" ;
+        c:forenduserdisplay  "false" ;
+        c:gender             "F" ;
+        c:person             <http://d.opencalais.com/pershash-1/25aa0b2b-8a7a-3ebf-95f2-dc6f13dacae8> .
+
+<http://d.opencalais.com/dochash-1/f2366190-990d-3dc9-94af-07997a7a6cb6/Relevance/2>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/f2366190-990d-3dc9-94af-07997a7a6cb6> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/79ff034d-f1f7-34d0-97b8-1d67761abf35> .
+
+<http://d.opencalais.com/dochash-1/f2366190-990d-3dc9-94af-07997a7a6cb6/Instance/4>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[]Harry Waterman Sr., son of Harry Jennings and Carma (Compton)Waterman[, was born October 7, 1930, in Alva and passed]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f2366190-990d-3dc9-94af-07997a7a6cb6> ;
+        c:exact      "Harry Waterman Sr., son of Harry Jennings and Carma (Compton)Waterman" ;
+        c:length     "69" ;
+        c:offset     "0" ;
+        c:prefix     "" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/48385bf3-3467-31f8-8892-91235ca4d494> ;
+        c:suffix     ", was born October 7, 1930, in Alva and passed" .
+
+<http://d.opencalais.com/pershash-1/c0472a6f-57e5-32fe-87aa-32f686b432e6>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Harry Waterman Sr." ;
+        c:confidencelevel    "0.999" ;
+        c:firstname          "Harry" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Waterman" ;
+        c:name               "Harry Waterman Sr." ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/f2366190-990d-3dc9-94af-07997a7a6cb6>
+        a                  <http://s.opencalais.com/1/type/sys/DocInfo> ;
+        c:calaisRequestID  "acf6bdf8-937c-8e78-14d9-13aea9e7848c" ;
+        c:docDate          "2015-05-26 17:17:47.297" ;
+        c:docTitle         "" ;
+        c:document         "Harry Waterman Sr., son of Harry Jennings and Carma (Compton)Waterman, was born October 7, 1930, in Alva and passed away February 28, 2015, in Alva. He was cremated at his request under the direction of Marshall Funeral Home of Alva and no services are planned. \n\t\t\t" ;
+        c:id               "http://id.opencalais.com/vvJr9AWYgW5sBCF94nBiEQ" ;
+        c:ontology         "http://163.231.4.65/owlschema/8.3/onecalais.owl.allmetadata.xml" .
+
+<http://d.opencalais.com/dochash-1/f2366190-990d-3dc9-94af-07997a7a6cb6/Relevance/1>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/f2366190-990d-3dc9-94af-07997a7a6cb6> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce> .
+
+<http://d.opencalais.com/dochash-1/f2366190-990d-3dc9-94af-07997a7a6cb6/Instance/3>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Waterman Sr., son of ]Harry Jennings[ and Carma (Compton)Waterman, was born October 7,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f2366190-990d-3dc9-94af-07997a7a6cb6> ;
+        c:exact      "Harry Jennings" ;
+        c:length     "14" ;
+        c:offset     "27" ;
+        c:prefix     "Waterman Sr., son of " ;
+        c:subject    <http://d.opencalais.com/pershash-1/79ff034d-f1f7-34d0-97b8-1d67761abf35> ;
+        c:suffix     " and Carma (Compton)Waterman, was born October 7," .
+
+<http://d.opencalais.com/dochash-1/f2366190-990d-3dc9-94af-07997a7a6cb6/Instance/9>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[February 28, 2015, in Alva. He was cremated at ]his[ request under the direction of Marshall Funeral]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f2366190-990d-3dc9-94af-07997a7a6cb6> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "168" ;
+        c:prefix     "February 28, 2015, in Alva. He was cremated at " ;
+        c:subject    <http://d.opencalais.com/pershash-1/c0472a6f-57e5-32fe-87aa-32f686b432e6> ;
+        c:suffix     " request under the direction of Marshall Funeral" .
+
+<http://d.opencalais.com/dochash-1/f2366190-990d-3dc9-94af-07997a7a6cb6/meta>
+        a                 <http://s.opencalais.com/1/type/sys/DocInfoMeta> ;
+        c:contentType     "text/raw" ;
+        c:docId           <http://d.opencalais.com/dochash-1/f2366190-990d-3dc9-94af-07997a7a6cb6> ;
+        c:language        "English" ;
+        c:processingVer   "AllMetadata" ;
+        c:serverVersion   "OneCalais_8.3-RELEASE:364" ;
+        c:signature       "digestalg-1|Fz28dx9Dm6aPJXM77EqseTEK37A=|kM5ahFLDNH0fV5lbDPjtlpgcMCZsdLDtKhHdw20VPOVlXncJoUf12w==" ;
+        c:stagsVer        "OneCalais_8.3-RELEASE-b11-2015-03-25_18:29:00" ;
+        c:submissionDate  "2015-05-26 17:17:47.038" ;
+        c:submitterCode   "0ca6a864-5659-789d-5f32-f365f695e757" .
+
+<http://d.opencalais.com/conf/pershash-1/25aa0b2b-8a7a-3ebf-95f2-dc6f13dacae8>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.973" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/f2366190-990d-3dc9-94af-07997a7a6cb6> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.98" ;
+        c:subject             <http://d.opencalais.com/pershash-1/25aa0b2b-8a7a-3ebf-95f2-dc6f13dacae8> .
+
+<http://d.opencalais.com/pershash-1/79ff034d-f1f7-34d0-97b8-1d67761abf35>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Harry Jennings" ;
+        c:confidencelevel    "0.995" ;
+        c:firstname          "Harry" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Jennings" ;
+        c:name               "Harry Jennings" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/f2366190-990d-3dc9-94af-07997a7a6cb6/Instance/8>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Alva and passed away February 28, 2015, in Alva. ]He[ was cremated at his request under the direction]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f2366190-990d-3dc9-94af-07997a7a6cb6> ;
+        c:exact      "He" ;
+        c:length     "2" ;
+        c:offset     "149" ;
+        c:prefix     " Alva and passed away February 28, 2015, in Alva. " ;
+        c:subject    <http://d.opencalais.com/pershash-1/c0472a6f-57e5-32fe-87aa-32f686b432e6> ;
+        c:suffix     " was cremated at his request under the direction" .
+
+<http://d.opencalais.com/dochash-1/f2366190-990d-3dc9-94af-07997a7a6cb6/Instance/2>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Waterman Sr., son of Harry Jennings and ]Carma (Compton)Waterman, was born October 7, 1930, in Alva[ and passed away February 28, 2015, in Alva. He]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f2366190-990d-3dc9-94af-07997a7a6cb6> ;
+        c:exact      "Carma (Compton)Waterman, was born October 7, 1930, in Alva" ;
+        c:length     "58" ;
+        c:offset     "46" ;
+        c:prefix     "Waterman Sr., son of Harry Jennings and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ce780943-9c9c-3661-a7f4-1100c5320d32> ;
+        c:suffix     " and passed away February 28, 2015, in Alva. He" .
+
+<http://d.opencalais.com/dochash-1/f2366190-990d-3dc9-94af-07997a7a6cb6/lid/DefaultLangId>
+        a                    <http://s.opencalais.com/1/type/lid/DefaultLangId> ;
+        c:docId              <http://d.opencalais.com/dochash-1/f2366190-990d-3dc9-94af-07997a7a6cb6> ;
+        c:forenduserdisplay  "false" ;
+        c:lang               <http://d.opencalais.com/lid/DefaultLangId/English> ;
+        c:permid             "505062" .
+
+<http://d.opencalais.com/genericHasher-1/7f13775c-0a4b-3a3c-96e2-de0d91489788>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "son" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/79ff034d-f1f7-34d0-97b8-1d67761abf35> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/c0472a6f-57e5-32fe-87aa-32f686b432e6> .
+
+<http://d.opencalais.com/dochash-1/f2366190-990d-3dc9-94af-07997a7a6cb6/SocialTag/1>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/f2366190-990d-3dc9-94af-07997a7a6cb6> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Alva" ;
+        c:originalValue      "Alva (given name)" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/17f61973-ed95-369b-b381-dec22ce26b2a> .
+
+<http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Marshall Funeral Home of Alva" .
+
+<http://d.opencalais.com/dochash-1/f2366190-990d-3dc9-94af-07997a7a6cb6/cat/1>
+        a                    <http://s.opencalais.com/1/type/cat/DocCat> ;
+        c:docId              <http://d.opencalais.com/dochash-1/f2366190-990d-3dc9-94af-07997a7a6cb6> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Human Interest" ;
+        c:score              "1.000" .
+
+<http://d.opencalais.com/dochash-1/f2366190-990d-3dc9-94af-07997a7a6cb6/ComponentVersions>
+        a          <http://s.opencalais.com/1/type/sys/ComponentVersions> ;
+        c:docId    <http://d.opencalais.com/dochash-1/f2366190-990d-3dc9-94af-07997a7a6cb6> ;
+        c:version  "SocialTags Index:201505191038:201505191038" , "Collector:OneCalais_8.3-RELEASE:113" , "config-negativeSignature:258:258" , "config-sca-DataPackage:34:34" , "Deals Index:201505261613:201505261613" , "OA Override:271:271" , "OneCalaisIM:OneCalais_8.3-RELEASE:198" , "OA Index:201505252208:201505252208" , "config-vessels:258:258" , "Housekeeper:OneCalais_8.3-RELEASE:113" , "Dial4J:OneCalais_8.3-RELEASE:198" , "People Index:201505261608:201505261608" , "BlackList:264:264" , "BrokerResearchIM:OneCalais_8.3-RELEASE:198" , "config-drugs:258:258" , "index-vessels:201505231718:201505231718" , "SECHeaderMetadataIM:OneCalais_8.3-RELEASE:198" , "WatchDog:OneCalais_8.3-RELEASE:113" , "People Override:258:258" , "config-physicalAssets-ports:258:258" , "AutocoderRuntimeIM:OneCalais_8.3-RELEASE:198" , "NextTags:OneCalais_8.3-RELEASE:113" , "FrenchIM:OneCalais_8.3-RELEASE:198" , "config-refineries:258:258" , "SpanishIM:OneCalais_8.3-RELEASE:198" , "com.clearforest.infoext.dial4j.plugins-basistechconfig:OneCalais_8.3-RELEASE:225" , "config-cse:271:271" , "OneCalais:OneCalais_8.3-RELEASE:364" .
+
+<http://d.opencalais.com/conf/pershash-1/c0472a6f-57e5-32fe-87aa-32f686b432e6>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.999" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/f2366190-990d-3dc9-94af-07997a7a6cb6> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.999" ;
+        c:subject             <http://d.opencalais.com/pershash-1/c0472a6f-57e5-32fe-87aa-32f686b432e6> .
+
+<http://d.opencalais.com/dochash-1/f2366190-990d-3dc9-94af-07997a7a6cb6/Instance/1>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[cremated at his request under the direction of ]Marshall Funeral Home of Alva[ and no services are planned.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f2366190-990d-3dc9-94af-07997a7a6cb6> ;
+        c:exact      "Marshall Funeral Home of Alva" ;
+        c:length     "29" ;
+        c:offset     "203" ;
+        c:prefix     "cremated at his request under the direction of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/58b7dc5a-a046-31cb-aa1b-b87bae8650ce> ;
+        c:suffix     " and no services are planned." .
+
+<http://d.opencalais.com/dochash-1/f2366190-990d-3dc9-94af-07997a7a6cb6/Instance/7>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[]Harry Waterman Sr.[, son of Harry Jennings and Carma]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f2366190-990d-3dc9-94af-07997a7a6cb6> ;
+        c:exact      "Harry Waterman Sr." ;
+        c:length     "18" ;
+        c:offset     "0" ;
+        c:prefix     "" ;
+        c:subject    <http://d.opencalais.com/pershash-1/c0472a6f-57e5-32fe-87aa-32f686b432e6> ;
+        c:suffix     ", son of Harry Jennings and Carma" .
+
+<http://d.opencalais.com/dochash-1/f2366190-990d-3dc9-94af-07997a7a6cb6/Relevance/4>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/f2366190-990d-3dc9-94af-07997a7a6cb6> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/c0472a6f-57e5-32fe-87aa-32f686b432e6> .
+
+<http://d.opencalais.com/dochash-1/f2366190-990d-3dc9-94af-07997a7a6cb6/Instance/6>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[]Harry Waterman Sr., son of Harry Jennings and Carma (Compton)Waterman[, was born October 7, 1930, in Alva and passed]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/f2366190-990d-3dc9-94af-07997a7a6cb6> ;
+        c:exact      "Harry Waterman Sr., son of Harry Jennings and Carma (Compton)Waterman" ;
+        c:length     "69" ;
+        c:offset     "0" ;
+        c:prefix     "" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/7f13775c-0a4b-3a3c-96e2-de0d91489788> ;
+        c:suffix     ", was born October 7, 1930, in Alva and passed" .
+
+<http://d.opencalais.com/genericHasher-1/48385bf3-3467-31f8-8892-91235ca4d494>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "son" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/79ff034d-f1f7-34d0-97b8-1d67761abf35> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/25aa0b2b-8a7a-3ebf-95f2-dc6f13dacae8> .

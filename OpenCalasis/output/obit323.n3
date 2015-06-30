@@ -1,0 +1,1596 @@
+#Relations: FamilyRelation, PersonAttributes, PersonCareer, PersonEducation, PersonLocation, PersonRelation
+#City: Collinsville
+#Company: Carmen Children Park Fund, Wentworth Mortuary LLC
+#Facility: Northwestern Oklahoma State University, Sacred Heart  Cemetery
+#Organization: Aline Chamber of Commerce, Aline-Cleo School board, Carmen Children Park Fund, Carmen-Dacoma High School, Catholic Church, Oklahoma State University, Sacred Heart Church
+#Person: Alice, Bridget, Carol Elaine Johnson, Christyn, Cleo Springs, Cole , Devin, Donna, Duane, James Wickersham, Jerry, Julie, Larry Dean, Linda, Neil, Ryan
+#Position: life long farmer
+#Region: Northwestern Oklahoma
+@prefix c:     <http://s.opencalais.com/1/pred/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://d.opencalais.com/conf/comphash-1/a8ee0a81-b629-368a-b237-71a89306beec>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.615" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.834" ;
+        c:subject             <http://d.opencalais.com/comphash-1/a8ee0a81-b629-368a-b237-71a89306beec> .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Relevance/12>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/dfc83987-1685-3f8f-8e7a-8e9a7e077824> .
+
+<http://d.opencalais.com/genericHasher-1/e8fc3326-e1fe-3702-a131-86489de4e985>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Northwestern Oklahoma State University" .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/75>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[    \nCharles is survived by his wife, Carol, of ]Carmen[; four sons, Brandy and wife, Christyn, of Aline,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "Carmen" ;
+        c:length     "6" ;
+        c:offset     "1451" ;
+        c:prefix     "    \nCharles is survived by his wife, Carol, of " ;
+        c:subject    <http://d.opencalais.com/comphash-1/88c1bea7-096c-3dcd-824c-14e9c4901456> ;
+        c:suffix     "; four sons, Brandy and wife, Christyn, of Aline," .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Relevance/4>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e8fc3326-e1fe-3702-a131-86489de4e985> .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/54>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Conservation District for many years.     \n]He[ was a member of the Sacred Heart Church in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "He" ;
+        c:length     "2" ;
+        c:offset     "1059" ;
+        c:prefix     "Conservation District for many years.     \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/d0431921-1ce2-3f83-84e8-c39a5b4b7ef9> ;
+        c:suffix     " was a member of the Sacred Heart Church in" .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/33>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in our lives.    \nMemorials may be made to the ]Aline Chamber of Commerce[ (soup dinner) or Carmen Children Park Fund.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "Aline Chamber of Commerce" ;
+        c:length     "25" ;
+        c:offset     "2507" ;
+        c:prefix     "in our lives.    \nMemorials may be made to the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/1bac2d6f-f7dd-3632-96dc-bad9a27a9a32> ;
+        c:suffix     " (soup dinner) or Carmen Children Park Fund." .
+
+<http://d.opencalais.com/genericHasher-1/b44ed0a9-b4bc-352a-9e60-f68a8715d05b>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "mother" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/d0431921-1ce2-3f83-84e8-c39a5b4b7ef9> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/2200b271-d670-32d3-9f36-7bcbf3abcc44> .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/12>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[    \nCharles K. O’Neil,  son of Jerry and Alice O’]Neil[ was born on September 27, 1952.  He departed]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "Neil" ;
+        c:length     "4" ;
+        c:offset     "441" ;
+        c:prefix     "    \nCharles K. O’Neil,  son of Jerry and Alice O’" ;
+        c:subject    <http://d.opencalais.com/pershash-1/3fc22cf4-8226-37cb-a8d5-2545a9976dcb> ;
+        c:suffix     " was born on September 27, 1952.  He departed" .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Relevance/20>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8ef82431-5343-3d0e-8c93-41f6d3697764> .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/8>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Dean.     \nCharles is survived by his wife, ]Carol, of Carmen[; four sons, Brandy and wife, Christyn, of Aline,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "Carol, of Carmen" ;
+        c:length     "16" ;
+        c:offset     "1441" ;
+        c:prefix     "Dean.     \nCharles is survived by his wife, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9c9da0d4-ba94-3ba7-ac4d-5680c7152d37> ;
+        c:suffix     "; four sons, Brandy and wife, Christyn, of Aline," .
+
+<http://d.opencalais.com/genericHasher-1/1bac2d6f-f7dd-3632-96dc-bad9a27a9a32>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Aline Chamber of Commerce" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/62>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Linda of Cleo Springs.    \nCharles never gave up ]his[ love of the farm. He was a very special man who]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "1784" ;
+        c:prefix     " Linda of Cleo Springs.    \nCharles never gave up " ;
+        c:subject    <http://d.opencalais.com/pershash-1/7e73c6b1-6ddf-37c2-b30f-b70c888cae2f> ;
+        c:suffix     " love of the farm. He was a very special man who" .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/41>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Dean.     \nCharles is survived by his wife, ]Carol[, of Carmen; four sons, Brandy and wife,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "Carol" ;
+        c:length     "5" ;
+        c:offset     "1441" ;
+        c:prefix     "Dean.     \nCharles is survived by his wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/90ba08da-4b34-3075-bfb8-7023c1295bfe> ;
+        c:suffix     ", of Carmen; four sons, Brandy and wife," .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/20>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ resides.    \nPreceding his death was his mother, ]Alice[; father, Jerry; and brother Larry Dean.    ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "Alice" ;
+        c:length     "5" ;
+        c:offset     "1357" ;
+        c:prefix     " resides.    \nPreceding his death was his mother, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/2200b271-d670-32d3-9f36-7bcbf3abcc44> ;
+        c:suffix     "; father, Jerry; and brother Larry Dean.    " .
+
+<http://d.opencalais.com/pershash-1/e5f586ca-6276-3e86-b826-cda0967fad62>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Larry Dean" ;
+        c:confidencelevel    "0.993" ;
+        c:firstname          "Larry" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Dean" ;
+        c:name               "Larry Dean" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Relevance/28>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/dd67fb05-e722-3a04-ae3b-faf1a796dc43> .
+
+<http://d.opencalais.com/genericHasher-1/8871f3e9-f914-3457-8f63-a0d36115370a>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:date                "1973-07-04" ;
+        c:datestring          "July 4, 1973" ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/90ba08da-4b34-3075-bfb8-7023c1295bfe> , <http://d.opencalais.com/pershash-1/3fc22cf4-8226-37cb-a8d5-2545a9976dcb> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/SocialTag/5>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "2" ;
+        c:name               "Alfalfa County, Oklahoma" ;
+        c:originalValue      "Alfalfa County, Oklahoma" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/12ecbe3f-bedd-36aa-b22d-6b058d2b2657> .
+
+<http://d.opencalais.com/genericHasher-1/86006a8e-d4dc-382e-b9b9-e6eecf3dd241>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oklahoma State University" ;
+        c:nationality        "American" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/70>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[with the respect he wished to receive himself.  ]He[ will never be forgotten by those who knew and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "He" ;
+        c:length     "2" ;
+        c:offset     "2143" ;
+        c:prefix     "with the respect he wished to receive himself.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/7e73c6b1-6ddf-37c2-b30f-b70c888cae2f> ;
+        c:suffix     " will never be forgotten by those who knew and" .
+
+<http://d.opencalais.com/genericHasher-1/6ab12a6b-32ee-3fb6-8e54-20736b667d32>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Sacred Heart Cemetery" .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/49>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[union 4 boys were born, Brandy, Ryan, Cole and ]Devin[.    \nCharles was a life long farmer in the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "Devin" ;
+        c:length     "5" ;
+        c:offset     "799" ;
+        c:prefix     "union 4 boys were born, Brandy, Ryan, Cole and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/bf0140ef-f9d3-369a-b270-c4c18a448f3c> ;
+        c:suffix     ".    \nCharles was a life long farmer in the" .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/28>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[his mother, Alice; father, Jerry; and brother ]Larry Dean[.     \nCharles is survived by his wife, Carol, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "Larry Dean" ;
+        c:length     "10" ;
+        c:offset     "1391" ;
+        c:prefix     "his mother, Alice; father, Jerry; and brother " ;
+        c:subject    <http://d.opencalais.com/pershash-1/e5f586ca-6276-3e86-b826-cda0967fad62> ;
+        c:suffix     ".     \nCharles is survived by his wife, Carol, of" .
+
+<http://d.opencalais.com/pershash-1/3fc22cf4-8226-37cb-a8d5-2545a9976dcb>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Neil" ;
+        c:confidencelevel    "0.832" ;
+        c:firstname          "Neil" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Neil" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/7e73c6b1-6ddf-37c2-b30f-b70c888cae2f>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.847" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.889" ;
+        c:subject             <http://d.opencalais.com/pershash-1/7e73c6b1-6ddf-37c2-b30f-b70c888cae2f> .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Relevance/15>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/86006a8e-d4dc-382e-b9b9-e6eecf3dd241> .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/3>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Sacred Heart Catholic Church in Alva with Father ]James Wickersham[ serving as the celebrant.  Burial will follow in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "James Wickersham" ;
+        c:length     "16" ;
+        c:offset     "140" ;
+        c:prefix     " Sacred Heart Catholic Church in Alva with Father " ;
+        c:subject    <http://d.opencalais.com/pershash-1/41bd4a67-21c0-3f1a-99d8-7fb83e04adf7> ;
+        c:suffix     " serving as the celebrant.  Burial will follow in" .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Relevance/7>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/19094c52-fa40-3e58-9c96-a5d50babbb02> .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/57>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ of Aline, Ryan and wife, Donna, of Collinsville, ]Cole[ and wife, Bridget, of Medford, Devin and wife,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "Cole" ;
+        c:length     "4" ;
+        c:offset     "1546" ;
+        c:prefix     " of Aline, Ryan and wife, Donna, of Collinsville, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/d0431921-1ce2-3f83-84e8-c39a5b4b7ef9> ;
+        c:suffix     " and wife, Bridget, of Medford, Devin and wife," .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/36>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Sunday evening.    \nCharles K. O’Neil,  son of ]Jerry[ and Alice O’Neil was born on September 27, 1952.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "Jerry" ;
+        c:length     "5" ;
+        c:offset     "423" ;
+        c:prefix     "Sunday evening.    \nCharles K. O’Neil,  son of " ;
+        c:subject    <http://d.opencalais.com/pershash-1/7748040b-3017-3c50-ba96-3808f153b4a7> ;
+        c:suffix     " and Alice O’Neil was born on September 27, 1952." .
+
+<http://d.opencalais.com/conf/pershash-1/5e4e3c09-a72b-3240-b7d7-42308d2510a1>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.769" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/5e4e3c09-a72b-3240-b7d7-42308d2510a1> .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/15>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[    \nCharles was raised on a farm outside Carmen. ]He[ graduated from Carmen-Dacoma High School and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "He" ;
+        c:length     "2" ;
+        c:offset     "602" ;
+        c:prefix     "    \nCharles was raised on a farm outside Carmen. " ;
+        c:subject    <http://d.opencalais.com/pershash-1/3fc22cf4-8226-37cb-a8d5-2545a9976dcb> ;
+        c:suffix     " graduated from Carmen-Dacoma High School and" .
+
+<http://d.opencalais.com/conf/pershash-1/bf0140ef-f9d3-369a-b270-c4c18a448f3c>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.989" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.985" ;
+        c:subject             <http://d.opencalais.com/pershash-1/bf0140ef-f9d3-369a-b270-c4c18a448f3c> .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Relevance/23>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3b70b467-e648-3807-a525-c190ee67a323> .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/65>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[for his smile, laughter and constant joking.  ]He[ was one to put a smile on your face and always]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "He" ;
+        c:length     "2" ;
+        c:offset     "1908" ;
+        c:prefix     "for his smile, laughter and constant joking.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/7e73c6b1-6ddf-37c2-b30f-b70c888cae2f> ;
+        c:suffix     " was one to put a smile on your face and always" .
+
+<http://d.opencalais.com/genericHasher-1/8ef82431-5343-3d0e-8c93-41f6d3697764>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Aline-Cleo School board" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/7ef64ccf-807e-35d6-9113-85a628b70ba0>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.86" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/7ef64ccf-807e-35d6-9113-85a628b70ba0> .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/44>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Brandy, Ryan, Cole and Devin.    \nCharles was ]a life long farmer[ in the Carmen area and he served on the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "a life long farmer" ;
+        c:length     "18" ;
+        c:offset     "822" ;
+        c:prefix     "Brandy, Ryan, Cole and Devin.    \nCharles was " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3b70b467-e648-3807-a525-c190ee67a323> ;
+        c:suffix     " in the Carmen area and he served on the" .
+
+<http://d.opencalais.com/conf/pershash-1/7748040b-3017-3c50-ba96-3808f153b4a7>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.981" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.972" ;
+        c:subject             <http://d.opencalais.com/pershash-1/7748040b-3017-3c50-ba96-3808f153b4a7> .
+
+<http://d.opencalais.com/conf/pershash-1/1f63034a-8302-314b-ba8a-4693832a4427>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.86" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/1f63034a-8302-314b-ba8a-4693832a4427> .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/23>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Carol, of Carmen; four sons, Brandy and wife, ]Christyn[, of Aline, Ryan and wife, Donna, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "Christyn" ;
+        c:length     "8" ;
+        c:offset     "1487" ;
+        c:prefix     "Carol, of Carmen; four sons, Brandy and wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/5e4e3c09-a72b-3240-b7d7-42308d2510a1> ;
+        c:suffix     ", of Aline, Ryan and wife, Donna, of" .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/ComponentVersions>
+        a          <http://s.opencalais.com/1/type/sys/ComponentVersions> ;
+        c:docId    <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:version  "OA Index:201505252208:201505252208" , "BrokerResearchIM:OneCalais_8.3-RELEASE:198" , "People Index:201505261608:201505261608" , "NextTags:OneCalais_8.3-RELEASE:113" , "OneCalais:OneCalais_8.3-RELEASE:364" , "Housekeeper:OneCalais_8.3-RELEASE:113" , "config-refineries:258:258" , "Dial4J:OneCalais_8.3-RELEASE:198" , "config-negativeSignature:258:258" , "config-sca-DataPackage:34:34" , "People Override:258:258" , "SECHeaderMetadataIM:OneCalais_8.3-RELEASE:198" , "WatchDog:OneCalais_8.3-RELEASE:113" , "OneCalaisIM:OneCalais_8.3-RELEASE:198" , "SpanishIM:OneCalais_8.3-RELEASE:198" , "config-cse:271:271" , "index-vessels:201505231718:201505231718" , "FrenchIM:OneCalais_8.3-RELEASE:198" , "Deals Index:201505261613:201505261613" , "config-drugs:258:258" , "AutocoderRuntimeIM:OneCalais_8.3-RELEASE:198" , "Collector:OneCalais_8.3-RELEASE:113" , "config-vessels:258:258" , "OA Override:271:271" , "com.clearforest.infoext.dial4j.plugins-basistechconfig:OneCalais_8.3-RELEASE:225" , "SocialTags Index:201505191038:201505191038" , "BlackList:264:264" , "config-physicalAssets-ports:258:258" .
+
+<http://d.opencalais.com/pershash-1/2200b271-d670-32d3-9f36-7bcbf3abcc44>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Alice" ;
+        c:confidencelevel    "0.898" ;
+        c:firstname          "Alice" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Alice" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Relevance/10>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/821f78e7-5f26-3a22-bb89-5c05ac05e851> .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/73>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[     \nHis greatest accomplishment was raising ]his[ four boys and being a dedicated husband, father]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "2249" ;
+        c:prefix     "     \nHis greatest accomplishment was raising " ;
+        c:subject    <http://d.opencalais.com/pershash-1/7e73c6b1-6ddf-37c2-b30f-b70c888cae2f> ;
+        c:suffix     " four boys and being a dedicated husband, father" .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Relevance/2>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/41bd4a67-21c0-3f1a-99d8-7fb83e04adf7> .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/52>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[was a life long farmer in the Carmen area and ]he[ served on the Aline-Cleo School board for eleven]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "he" ;
+        c:length     "2" ;
+        c:offset     "864" ;
+        c:prefix     "was a life long farmer in the Carmen area and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/d0431921-1ce2-3f83-84e8-c39a5b4b7ef9> ;
+        c:suffix     " served on the Aline-Cleo School board for eleven" .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/31>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and was active in all the church work.  When ]Sacred Heart Church[ moved to St. Cornelius Catholic Church in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "Sacred Heart Church" ;
+        c:length     "19" ;
+        c:offset     "1157" ;
+        c:prefix     "and was active in all the church work.  When " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/799bca2d-7985-3c97-94fd-fa4c13645b3e> ;
+        c:suffix     " moved to St. Cornelius Catholic Church in" .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/10>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and wife, Christyn, of Aline, Ryan and wife, ]Donna, of Collinsville[, Cole and wife, Bridget, of Medford, Devin and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "Donna, of Collinsville" ;
+        c:length     "22" ;
+        c:offset     "1522" ;
+        c:prefix     "and wife, Christyn, of Aline, Ryan and wife, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/424e231a-3d9d-3cff-a6be-6e61d337b597> ;
+        c:suffix     ", Cole and wife, Bridget, of Medford, Devin and" .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Relevance/18>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/7929aed4-5199-30ce-90dc-e0a69b4994de> .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/6>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[He graduated from Carmen-Dacoma High School and ]Northwestern Oklahoma State University[.  He married Carol Elaine Johnson on July 4,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "Northwestern Oklahoma State University" ;
+        c:length     "38" ;
+        c:offset     "650" ;
+        c:prefix     "He graduated from Carmen-Dacoma High School and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e8fc3326-e1fe-3702-a131-86489de4e985> ;
+        c:suffix     ".  He married Carol Elaine Johnson on July 4," .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/60>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[brother Larry Dean.     \nCharles is survived by ]his wife, Carol, of Carmen[; four sons, Brandy and wife, Christyn, of Aline,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "his wife, Carol, of Carmen" ;
+        c:length     "26" ;
+        c:offset     "1431" ;
+        c:prefix     "brother Larry Dean.     \nCharles is survived by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/1ff12948-e174-3384-a05f-84f841efb351> ;
+        c:suffix     "; four sons, Brandy and wife, Christyn, of Aline," .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/39>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[farmer in the Carmen area and he served on the ]Aline-Cleo School board[ for eleven years. He was an active member of the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "Aline-Cleo School board" ;
+        c:length     "23" ;
+        c:offset     "881" ;
+        c:prefix     "farmer in the Carmen area and he served on the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8ef82431-5343-3d0e-8c93-41f6d3697764> ;
+        c:suffix     " for eleven years. He was an active member of the" .
+
+<http://d.opencalais.com/comphash-1/88c1bea7-096c-3dcd-824c-14e9c4901456>
+        a                    <http://s.opencalais.com/1/type/em/e/Company> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Carmen Children Park Fund" .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/18>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[He graduated from Carmen-Dacoma High School and ]Northwestern Oklahoma[ State University.  He married Carol Elaine]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "Northwestern Oklahoma" ;
+        c:length     "21" ;
+        c:offset     "650" ;
+        c:prefix     "He graduated from Carmen-Dacoma High School and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8c173672-3a05-352d-b76a-862209e52161> ;
+        c:suffix     " State University.  He married Carol Elaine" .
+
+<http://d.opencalais.com/conf/pershash-1/e5f586ca-6276-3e86-b826-cda0967fad62>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.993" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.99" ;
+        c:subject             <http://d.opencalais.com/pershash-1/e5f586ca-6276-3e86-b826-cda0967fad62> .
+
+<http://d.opencalais.com/pershash-1/d92ebd41-b766-3cbe-8af1-f0a87ad6b4e3>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Ryan" ;
+        c:confidencelevel    "0.947" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Ryan" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Relevance/26>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/bf0140ef-f9d3-369a-b270-c4c18a448f3c> .
+
+<http://d.opencalais.com/genericHasher-1/799bca2d-7985-3c97-94fd-fa4c13645b3e>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Sacred Heart Church" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/SocialTag/3>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Wentworth" ;
+        c:originalValue      "Wentworth (surname)" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/6fbf049d-b62c-3af9-9a9e-0f3042d88563> .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/68>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[compass and commitment to treating those around ]him[ with the respect he wished to receive himself. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "him" ;
+        c:length     "3" ;
+        c:offset     "2091" ;
+        c:prefix     "compass and commitment to treating those around " ;
+        c:subject    <http://d.opencalais.com/pershash-1/7e73c6b1-6ddf-37c2-b30f-b70c888cae2f> ;
+        c:suffix     " with the respect he wished to receive himself. " .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/47>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ and wife, Donna, of Collinsville, Cole and wife, ]Bridget[, of Medford, Devin and wife, Julie, of Edmond. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "Bridget" ;
+        c:length     "7" ;
+        c:offset     "1561" ;
+        c:prefix     " and wife, Donna, of Collinsville, Cole and wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/7ef64ccf-807e-35d6-9113-85a628b70ba0> ;
+        c:suffix     ", of Medford, Devin and wife, Julie, of Edmond. " .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/26>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[currently resides.    \nPreceding his death was ]his mother, Alice[; father, Jerry; and brother Larry Dean.    ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "his mother, Alice" ;
+        c:length     "17" ;
+        c:offset     "1345" ;
+        c:prefix     "currently resides.    \nPreceding his death was " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b44ed0a9-b4bc-352a-9e60-f68a8715d05b> ;
+        c:suffix     "; father, Jerry; and brother Larry Dean.    " .
+
+<http://d.opencalais.com/pershash-1/19094c52-fa40-3e58-9c96-a5d50babbb02>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Cleo Springs" ;
+        c:confidencelevel    "0.768" ;
+        c:firstname          "Cleo" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Springs" ;
+        c:name               "Cleo Springs" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Relevance/13>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/e5f586ca-6276-3e86-b826-cda0967fad62> .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/1>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and to this union 4 boys were born, Brandy, ]Ryan[, Cole and Devin.    \nCharles was a life long]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "Ryan" ;
+        c:length     "4" ;
+        c:offset     "784" ;
+        c:prefix     "and to this union 4 boys were born, Brandy, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/d92ebd41-b766-3cbe-8af1-f0a87ad6b4e3> ;
+        c:suffix     ", Cole and Devin.    \nCharles was a life long" .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Relevance/5>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/7121a730-a7d6-3305-b2e8-06d03e3260de> .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/55>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[where it currently resides.    \nPreceding ]his[ death was his mother, Alice; father, Jerry; and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "1331" ;
+        c:prefix     "where it currently resides.    \nPreceding " ;
+        c:subject    <http://d.opencalais.com/pershash-1/d0431921-1ce2-3f83-84e8-c39a5b4b7ef9> ;
+        c:suffix     " death was his mother, Alice; father, Jerry; and" .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/34>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[as the celebrant.  Burial will follow in the ]Sacred Heart  Cemetery[ in Alva under the direction of Wentworth]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "Sacred Heart  Cemetery" ;
+        c:length     "22" ;
+        c:offset     "210" ;
+        c:prefix     "as the celebrant.  Burial will follow in the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/6ab12a6b-32ee-3fb6-8e54-20736b667d32> ;
+        c:suffix     " in Alva under the direction of Wentworth" .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/13>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Alice O’Neil was born on September 27, 1952.  ]He[ departed this life on February 20, 2014, at his]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "He" ;
+        c:length     "2" ;
+        c:offset     "479" ;
+        c:prefix     "Alice O’Neil was born on September 27, 1952.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/3fc22cf4-8226-37cb-a8d5-2545a9976dcb> ;
+        c:suffix     " departed this life on February 20, 2014, at his" .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Relevance/21>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/90ba08da-4b34-3075-bfb8-7023c1295bfe> .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/9>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[the Aline Chamber of Commerce (soup dinner) or ]Carmen Children Park Fund[. \n\t\t\t]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "Carmen Children Park Fund" ;
+        c:length     "25" ;
+        c:offset     "2550" ;
+        c:prefix     "the Aline Chamber of Commerce (soup dinner) or " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/7121a730-a7d6-3305-b2e8-06d03e3260de> ;
+        c:suffix     ". \n\t\t\t" .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/63>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[   \nCharles never gave up his love of the farm. ]He[ was a very special man who will always be]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "He" ;
+        c:length     "2" ;
+        c:offset     "1806" ;
+        c:prefix     "   \nCharles never gave up his love of the farm. " ;
+        c:subject    <http://d.opencalais.com/pershash-1/7e73c6b1-6ddf-37c2-b30f-b70c888cae2f> ;
+        c:suffix     " was a very special man who will always be" .
+
+<http://d.opencalais.com/pershash-1/41bd4a67-21c0-3f1a-99d8-7fb83e04adf7>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "James Wickersham" ;
+        c:confidencelevel    "0.98" ;
+        c:firstname          "James" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Wickersham" ;
+        c:name               "James Wickersham" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/42>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and Northwestern Oklahoma State University.  ]He married Carol Elaine Johnson on July 4, 1973[, and to this union 4 boys were born, Brandy,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "He married Carol Elaine Johnson on July 4, 1973" ;
+        c:length     "47" ;
+        c:offset     "691" ;
+        c:prefix     "and Northwestern Oklahoma State University.  " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8871f3e9-f914-3457-8f63-a0d36115370a> ;
+        c:suffix     ", and to this union 4 boys were born, Brandy," .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/21>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[a.m. Monday, February 24, 2014, at Sacred Heart ]Catholic Church[ in Alva with Father James Wickersham serving as]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "Catholic Church" ;
+        c:length     "15" ;
+        c:offset     "104" ;
+        c:prefix     "a.m. Monday, February 24, 2014, at Sacred Heart " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/821f78e7-5f26-3a22-bb89-5c05ac05e851> ;
+        c:suffix     " in Alva with Father James Wickersham serving as" .
+
+<http://d.opencalais.com/conf/pershash-1/2200b271-d670-32d3-9f36-7bcbf3abcc44>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.898" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/2200b271-d670-32d3-9f36-7bcbf3abcc44> .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Relevance/29>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/7e73c6b1-6ddf-37c2-b30f-b70c888cae2f> .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/SocialTag/6>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "2" ;
+        c:name               "Sacred Heart" ;
+        c:originalValue      "Sacred Heart (disambiguation)" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/979a8a29-10e0-3e08-bcb5-87556fae9511> .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/71>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[never be forgotten by those who knew and loved ]him[.      \nHis greatest accomplishment was raising]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "him" ;
+        c:length     "3" ;
+        c:offset     "2198" ;
+        c:prefix     "never be forgotten by those who knew and loved " ;
+        c:subject    <http://d.opencalais.com/pershash-1/7e73c6b1-6ddf-37c2-b30f-b70c888cae2f> ;
+        c:suffix     ".      \nHis greatest accomplishment was raising" .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/lid/DefaultLangId>
+        a                    <http://s.opencalais.com/1/type/lid/DefaultLangId> ;
+        c:docId              <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:forenduserdisplay  "false" ;
+        c:lang               <http://d.opencalais.com/lid/DefaultLangId/English> ;
+        c:permid             "505062" .
+
+<http://d.opencalais.com/genericHasher-1/dfc83987-1685-3f8f-8e7a-8e9a7e077824>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Carmen-Dacoma High School" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/50>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Cole and wife, Bridget, of Medford, ]Devin[ and wife, Julie, of Edmond.  He has six]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "Devin" ;
+        c:length     "5" ;
+        c:offset     "1582" ;
+        c:prefix     "Cole and wife, Bridget, of Medford, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/bf0140ef-f9d3-369a-b270-c4c18a448f3c> ;
+        c:suffix     " and wife, Julie, of Edmond.  He has six" .
+
+<http://d.opencalais.com/genericHasher-1/9c9da0d4-ba94-3ba7-ac4d-5680c7152d37>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:company            <http://d.opencalais.com/comphash-1/88c1bea7-096c-3dcd-824c-14e9c4901456> ;
+        c:forenduserdisplay  "true" ;
+        c:person             <http://d.opencalais.com/pershash-1/90ba08da-4b34-3075-bfb8-7023c1295bfe> ;
+        c:status             "current" .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/29>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[brother Larry Dean.     \nCharles is survived by ]his[ wife, Carol, of Carmen; four sons, Brandy and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "1431" ;
+        c:prefix     "brother Larry Dean.     \nCharles is survived by " ;
+        c:subject    <http://d.opencalais.com/pershash-1/e5f586ca-6276-3e86-b826-cda0967fad62> ;
+        c:suffix     " wife, Carol, of Carmen; four sons, Brandy and" .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Relevance/16>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/1bac2d6f-f7dd-3632-96dc-bad9a27a9a32> .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/4>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Heart  Cemetery in Alva under the direction of ]Wentworth Mortuary, LLC[.  There will be visitation with the family at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "Wentworth Mortuary, LLC" ;
+        c:length     "23" ;
+        c:offset     "264" ;
+        c:prefix     "Heart  Cemetery in Alva under the direction of " ;
+        c:subject    <http://d.opencalais.com/comphash-1/a8ee0a81-b629-368a-b237-71a89306beec> ;
+        c:suffix     ".  There will be visitation with the family at" .
+
+<http://d.opencalais.com/genericHasher-1/81178fec-fe74-393c-9dda-128df2f98621>
+        a                       <http://s.opencalais.com/1/type/em/r/PersonEducation> ;
+        c:forenduserdisplay     "false" ;
+        c:person                <http://d.opencalais.com/pershash-1/3fc22cf4-8226-37cb-a8d5-2545a9976dcb> ;
+        c:schoolororganization  "Northwestern Oklahoma State University" .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Relevance/8>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8c173672-3a05-352d-b76a-862209e52161> .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/58>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Medford, Devin and wife, Julie, of Edmond.  ]He[ has six grandchildren, Payton, Brody, Linley,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "He" ;
+        c:length     "2" ;
+        c:offset     "1617" ;
+        c:prefix     "of Medford, Devin and wife, Julie, of Edmond.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/d0431921-1ce2-3f83-84e8-c39a5b4b7ef9> ;
+        c:suffix     " has six grandchildren, Payton, Brody, Linley," .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/37>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[his death was his mother, Alice; father, ]Jerry[; and brother Larry Dean.     \nCharles is]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "Jerry" ;
+        c:length     "5" ;
+        c:offset     "1372" ;
+        c:prefix     "his death was his mother, Alice; father, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/7748040b-3017-3c50-ba96-3808f153b4a7> ;
+        c:suffix     "; and brother Larry Dean.     \nCharles is" .
+
+<http://d.opencalais.com/pershash-1/90ba08da-4b34-3075-bfb8-7023c1295bfe>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Carol Elaine Johnson" ;
+        c:confidencelevel    "0.994" ;
+        c:firstname          "Carol" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Johnson" ;
+        c:middlename         "Elaine" ;
+        c:name               "Carol Elaine Johnson" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/16>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and Northwestern Oklahoma State University.  ]He[ married Carol Elaine Johnson on July 4, 1973,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "He" ;
+        c:length     "2" ;
+        c:offset     "691" ;
+        c:prefix     "and Northwestern Oklahoma State University.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/3fc22cf4-8226-37cb-a8d5-2545a9976dcb> ;
+        c:suffix     " married Carol Elaine Johnson on July 4, 1973," .
+
+<http://d.opencalais.com/conf/pershash-1/d92ebd41-b766-3cbe-8af1-f0a87ad6b4e3>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.947" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.89" ;
+        c:subject             <http://d.opencalais.com/pershash-1/d92ebd41-b766-3cbe-8af1-f0a87ad6b4e3> .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Relevance/24>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/7ef64ccf-807e-35d6-9113-85a628b70ba0> .
+
+<http://d.opencalais.com/genericHasher-1/dd67fb05-e722-3a04-ae3b-faf1a796dc43>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Collinsville" .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/SocialTag/1>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Sacred Heart Church" ;
+        c:originalValue      "Sacred Heart Church" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/729a5375-95c3-365e-a431-e2dfd0000241> .
+
+<http://d.opencalais.com/pershash-1/86e9036f-cceb-3e46-90cf-d064fb82e1d2>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Linda" ;
+        c:confidencelevel    "0.958" ;
+        c:firstname          "Linda" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Linda" ;
+        c:nationality        "N/A" ;
+        c:persontype         "entertainment" .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/66>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and always lend a hand when one was needed.  ]He[ touched a lot of lives by his work ethic, moral]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "He" ;
+        c:length     "2" ;
+        c:offset     "1992" ;
+        c:prefix     "and always lend a hand when one was needed.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/7e73c6b1-6ddf-37c2-b30f-b70c888cae2f> ;
+        c:suffix     " touched a lot of lives by his work ethic, moral" .
+
+<http://d.opencalais.com/conf/pershash-1/d0431921-1ce2-3f83-84e8-c39a5b4b7ef9>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.884" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.906" ;
+        c:subject             <http://d.opencalais.com/pershash-1/d0431921-1ce2-3f83-84e8-c39a5b4b7ef9> .
+
+<http://d.opencalais.com/genericHasher-1/3b70b467-e648-3807-a525-c190ee67a323>
+        a                    <http://s.opencalais.com/1/type/em/e/Position> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "life long farmer" .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/45>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[    \nCharles was raised on a farm outside Carmen. ]He graduated from Carmen-Dacoma High School and Northwestern Oklahoma State University[.  He married Carol Elaine Johnson on July 4,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "He graduated from Carmen-Dacoma High School and Northwestern Oklahoma State University" ;
+        c:length     "86" ;
+        c:offset     "602" ;
+        c:prefix     "    \nCharles was raised on a farm outside Carmen. " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/0d4f60cb-0dd4-354f-8b13-94558e50ff78> ;
+        c:suffix     ".  He married Carol Elaine Johnson on July 4," .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/24>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Conservation District for many years.     \n]He was a member of the Sacred Heart Church[ in Carmen and was active in all the church work.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "He was a member of the Sacred Heart Church" ;
+        c:length     "42" ;
+        c:offset     "1059" ;
+        c:prefix     "Conservation District for many years.     \n" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a5b85584-f8a9-3107-8893-4950b5c8b314> ;
+        c:suffix     " in Carmen and was active in all the church work." .
+
+<http://d.opencalais.com/conf/pershash-1/19094c52-fa40-3e58-9c96-a5d50babbb02>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.768" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.858" ;
+        c:subject             <http://d.opencalais.com/pershash-1/19094c52-fa40-3e58-9c96-a5d50babbb02> .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Relevance/11>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/5e4e3c09-a72b-3240-b7d7-42308d2510a1> .
+
+<http://d.opencalais.com/genericHasher-1/8c173672-3a05-352d-b76a-862209e52161>
+        a                    <http://s.opencalais.com/1/type/em/e/Region> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Northwestern Oklahoma" .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/74>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[wit and goodness shall continue through ]his[ sons and grandchildren. May a bit of Charles]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "2368" ;
+        c:prefix     "wit and goodness shall continue through " ;
+        c:subject    <http://d.opencalais.com/pershash-1/7e73c6b1-6ddf-37c2-b30f-b70c888cae2f> ;
+        c:suffix     " sons and grandchildren. May a bit of Charles" .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Relevance/3>
+        a                <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId          <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:relevance      "0.8" ;
+        c:relevancecont  "0.65" ;
+        c:subject        <http://d.opencalais.com/comphash-1/a8ee0a81-b629-368a-b237-71a89306beec> .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/53>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ on the Aline-Cleo School board for eleven years. ]He[ was an active member of the National Resources]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "He" ;
+        c:length     "2" ;
+        c:offset     "923" ;
+        c:prefix     " on the Aline-Cleo School board for eleven years. " ;
+        c:subject    <http://d.opencalais.com/pershash-1/d0431921-1ce2-3f83-84e8-c39a5b4b7ef9> ;
+        c:suffix     " was an active member of the National Resources" .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/32>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[from Carmen-Dacoma High School and Northwestern ]Oklahoma State University[.  He married Carol Elaine Johnson on July 4,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "Oklahoma State University" ;
+        c:length     "25" ;
+        c:offset     "663" ;
+        c:prefix     "from Carmen-Dacoma High School and Northwestern " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/86006a8e-d4dc-382e-b9b9-e6eecf3dd241> ;
+        c:suffix     ".  He married Carol Elaine Johnson on July 4," .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/11>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[to 7:00 p.m. Sunday evening.    \nCharles K. O’]Neil[,  son of Jerry and Alice O’Neil was born on]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "Neil" ;
+        c:length     "4" ;
+        c:offset     "409" ;
+        c:prefix     "to 7:00 p.m. Sunday evening.    \nCharles K. O’" ;
+        c:subject    <http://d.opencalais.com/pershash-1/3fc22cf4-8226-37cb-a8d5-2545a9976dcb> ;
+        c:suffix     ",  son of Jerry and Alice O’Neil was born on" .
+
+<http://d.opencalais.com/genericHasher-1/0d4f60cb-0dd4-354f-8b13-94558e50ff78>
+        a                       <http://s.opencalais.com/1/type/em/r/PersonEducation> ;
+        c:forenduserdisplay     "false" ;
+        c:person                <http://d.opencalais.com/pershash-1/3fc22cf4-8226-37cb-a8d5-2545a9976dcb> ;
+        c:schoolororganization  "Carmen-Dacoma High School" .
+
+<http://d.opencalais.com/genericHasher-1/a5b85584-f8a9-3107-8893-4950b5c8b314>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:forenduserdisplay  "true" ;
+        c:organization       <http://d.opencalais.com/genericHasher-1/799bca2d-7985-3c97-94fd-fa4c13645b3e> ;
+        c:person             <http://d.opencalais.com/pershash-1/d0431921-1ce2-3f83-84e8-c39a5b4b7ef9> ;
+        c:position           "member" ;
+        c:status             "past" .
+
+<http://d.opencalais.com/genericHasher-1/9b37ec8f-a1a6-38cd-ae7d-65c4a0fdd10e>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonAttributes> ;
+        c:birthdate          "1952-09-27" ;
+        c:forenduserdisplay  "false" ;
+        c:gender             "M" ;
+        c:person             <http://d.opencalais.com/pershash-1/3fc22cf4-8226-37cb-a8d5-2545a9976dcb> .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Relevance/19>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/7748040b-3017-3c50-ba96-3808f153b4a7> .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/7>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[to 7:00 p.m. Sunday evening.    \nCharles K. O’]Neil,  son of Jerry[ and Alice O’Neil was born on September 27, 1952.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "Neil,  son of Jerry" ;
+        c:length     "19" ;
+        c:offset     "409" ;
+        c:prefix     "to 7:00 p.m. Sunday evening.    \nCharles K. O’" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e3181c0b-70c7-32aa-90e3-16246d577aba> ;
+        c:suffix     " and Alice O’Neil was born on September 27, 1952." .
+
+<http://d.opencalais.com/conf/pershash-1/41bd4a67-21c0-3f1a-99d8-7fb83e04adf7>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.98" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/41bd4a67-21c0-3f1a-99d8-7fb83e04adf7> .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/61>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Carson, Kynlee and one on the way; a brother, ]Duane[ and wife, Linda of Cleo Springs.    \nCharles]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "Duane" ;
+        c:length     "5" ;
+        c:offset     "1719" ;
+        c:prefix     "Carson, Kynlee and one on the way; a brother, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/7e73c6b1-6ddf-37c2-b30f-b70c888cae2f> ;
+        c:suffix     " and wife, Linda of Cleo Springs.    \nCharles" .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/40>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Oklahoma State University.  He married ]Carol Elaine Johnson[ on July 4, 1973, and to this union 4 boys were]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "Carol Elaine Johnson" ;
+        c:length     "20" ;
+        c:offset     "702" ;
+        c:prefix     "Oklahoma State University.  He married " ;
+        c:subject    <http://d.opencalais.com/pershash-1/90ba08da-4b34-3075-bfb8-7023c1295bfe> ;
+        c:suffix     " on July 4, 1973, and to this union 4 boys were" .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/19>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[    \nCharles K. O’Neil,  son of Jerry and Alice O’]Neil was born on September 27, 1952[.  He departed this life on February 20, 2014, at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "Neil was born on September 27, 1952" ;
+        c:length     "35" ;
+        c:offset     "441" ;
+        c:prefix     "    \nCharles K. O’Neil,  son of Jerry and Alice O’" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9b37ec8f-a1a6-38cd-ae7d-65c4a0fdd10e> ;
+        c:suffix     ".  He departed this life on February 20, 2014, at" .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Relevance/27>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/d0431921-1ce2-3f83-84e8-c39a5b4b7ef9> .
+
+<http://d.opencalais.com/genericHasher-1/42b91adf-330f-3c50-a5eb-a641a35624f5>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "wife" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/e5f586ca-6276-3e86-b826-cda0967fad62> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/90ba08da-4b34-3075-bfb8-7023c1295bfe> .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/SocialTag/4>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "2" ;
+        c:name               "Aline" ;
+        c:originalValue      "Aline" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/750062f8-3e07-33da-ac1f-2d1a409e6ff5> .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/69>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[to treating those around him with the respect ]he[ wished to receive himself.  He will never be]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "he" ;
+        c:length     "2" ;
+        c:offset     "2112" ;
+        c:prefix     "to treating those around him with the respect " ;
+        c:subject    <http://d.opencalais.com/pershash-1/7e73c6b1-6ddf-37c2-b30f-b70c888cae2f> ;
+        c:suffix     " wished to receive himself.  He will never be" .
+
+<http://d.opencalais.com/pershash-1/7929aed4-5199-30ce-90dc-e0a69b4994de>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Donna" ;
+        c:confidencelevel    "0.932" ;
+        c:firstname          "Donna" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Donna" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/48>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and one on the way; a brother, Duane and wife, ]Linda[ of Cleo Springs.    \nCharles never gave up his]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "Linda" ;
+        c:length     "5" ;
+        c:offset     "1735" ;
+        c:prefix     "and one on the way; a brother, Duane and wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/86e9036f-cceb-3e46-90cf-d064fb82e1d2> ;
+        c:suffix     " of Cleo Springs.    \nCharles never gave up his" .
+
+<http://d.opencalais.com/genericHasher-1/7121a730-a7d6-3305-b2e8-06d03e3260de>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Carmen Children Park Fund" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/27>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[on a farm outside Carmen. He graduated from ]Carmen-Dacoma High School[ and Northwestern Oklahoma State University.  He]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "Carmen-Dacoma High School" ;
+        c:length     "25" ;
+        c:offset     "620" ;
+        c:prefix     "on a farm outside Carmen. He graduated from " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/dfc83987-1685-3f8f-8e7a-8e9a7e077824> ;
+        c:suffix     " and Northwestern Oklahoma State University.  He" .
+
+<http://d.opencalais.com/comphash-1/a8ee0a81-b629-368a-b237-71a89306beec>
+        a                    <http://s.opencalais.com/1/type/em/e/Company> ;
+        c:confidencelevel    "0.615" ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Wentworth Mortuary LLC" ;
+        c:nationality        "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/b410b752-2cb2-374a-bd60-ddfa45f851b3>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "wife" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/3fc22cf4-8226-37cb-a8d5-2545a9976dcb> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/90ba08da-4b34-3075-bfb8-7023c1295bfe> .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Relevance/14>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/799bca2d-7985-3c97-94fd-fa4c13645b3e> .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/2>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[four sons, Brandy and wife, Christyn, of Aline, ]Ryan[ and wife, Donna, of Collinsville, Cole and wife,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "Ryan" ;
+        c:length     "4" ;
+        c:offset     "1507" ;
+        c:prefix     "four sons, Brandy and wife, Christyn, of Aline, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/d92ebd41-b766-3cbe-8af1-f0a87ad6b4e3> ;
+        c:suffix     " and wife, Donna, of Collinsville, Cole and wife," .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Relevance/6>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/3fc22cf4-8226-37cb-a8d5-2545a9976dcb> .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/56>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[currently resides.    \nPreceding his death was ]his[ mother, Alice; father, Jerry; and brother Larry]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "1345" ;
+        c:prefix     "currently resides.    \nPreceding his death was " ;
+        c:subject    <http://d.opencalais.com/pershash-1/d0431921-1ce2-3f83-84e8-c39a5b4b7ef9> ;
+        c:suffix     " mother, Alice; father, Jerry; and brother Larry" .
+
+<http://d.opencalais.com/conf/pershash-1/90ba08da-4b34-3075-bfb8-7023c1295bfe>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.994" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.996" ;
+        c:subject             <http://d.opencalais.com/pershash-1/90ba08da-4b34-3075-bfb8-7023c1295bfe> .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/35>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and wife, Christyn, of Aline, Ryan and wife, ]Donna[, of Collinsville, Cole and wife, Bridget, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "Donna" ;
+        c:length     "5" ;
+        c:offset     "1522" ;
+        c:prefix     "and wife, Christyn, of Aline, Ryan and wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/7929aed4-5199-30ce-90dc-e0a69b4994de> ;
+        c:suffix     ", of Collinsville, Cole and wife, Bridget, of" .
+
+<http://d.opencalais.com/genericHasher-1/1ff12948-e174-3384-a05f-84f841efb351>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/90ba08da-4b34-3075-bfb8-7023c1295bfe> , <http://d.opencalais.com/pershash-1/e5f586ca-6276-3e86-b826-cda0967fad62> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/14>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ He departed this life on February 20, 2014, at ]his[ home at the age of 61.    \nCharles was raised on]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "526" ;
+        c:prefix     " He departed this life on February 20, 2014, at " ;
+        c:subject    <http://d.opencalais.com/pershash-1/3fc22cf4-8226-37cb-a8d5-2545a9976dcb> ;
+        c:suffix     " home at the age of 61.    \nCharles was raised on" .
+
+<http://d.opencalais.com/pershash-1/d0431921-1ce2-3f83-84e8-c39a5b4b7ef9>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Cole" ;
+        c:confidencelevel    "0.884" ;
+        c:firstname          "Devin" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Cole" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Relevance/22>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/1f63034a-8302-314b-ba8a-4693832a4427> .
+
+<http://d.opencalais.com/conf/pershash-1/86e9036f-cceb-3e46-90cf-d064fb82e1d2>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.958" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/86e9036f-cceb-3e46-90cf-d064fb82e1d2> .
+
+<http://d.opencalais.com/genericHasher-1/821f78e7-5f26-3a22-bb89-5c05ac05e851>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Catholic Church" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/64>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[special man who will always be remembered for ]his[ smile, laughter and constant joking.  He was one]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "1866" ;
+        c:prefix     "special man who will always be remembered for " ;
+        c:subject    <http://d.opencalais.com/pershash-1/7e73c6b1-6ddf-37c2-b30f-b70c888cae2f> ;
+        c:suffix     " smile, laughter and constant joking.  He was one" .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/43>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and wife, Bridget, of Medford, Devin and wife, ]Julie[, of Edmond.  He has six grandchildren, Payton,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "Julie" ;
+        c:length     "5" ;
+        c:offset     "1598" ;
+        c:prefix     "and wife, Bridget, of Medford, Devin and wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/1f63034a-8302-314b-ba8a-4693832a4427> ;
+        c:suffix     ", of Edmond.  He has six grandchildren, Payton," .
+
+<http://d.opencalais.com/genericHasher-1/e3181c0b-70c7-32aa-90e3-16246d577aba>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "son" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/7748040b-3017-3c50-ba96-3808f153b4a7> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/3fc22cf4-8226-37cb-a8d5-2545a9976dcb> .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/22>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[  When Sacred Heart Church moved to St. Cornelius ]Catholic Church[ in Cherokee, Charles relocated the Carmen church]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "Catholic Church" ;
+        c:length     "15" ;
+        c:offset     "1200" ;
+        c:prefix     "  When Sacred Heart Church moved to St. Cornelius " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/821f78e7-5f26-3a22-bb89-5c05ac05e851> ;
+        c:suffix     " in Cherokee, Charles relocated the Carmen church" .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/cat/1>
+        a                    <http://s.opencalais.com/1/type/cat/DocCat> ;
+        c:docId              <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Human Interest" ;
+        c:score              "0.532" .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Relevance/30>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/comphash-1/88c1bea7-096c-3dcd-824c-14e9c4901456> .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/72>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ forgotten by those who knew and loved him.      \n]His[ greatest accomplishment was raising his four]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "His" ;
+        c:length     "3" ;
+        c:offset     "2209" ;
+        c:prefix     " forgotten by those who knew and loved him.      \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/7e73c6b1-6ddf-37c2-b30f-b70c888cae2f> ;
+        c:suffix     " greatest accomplishment was raising his four" .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Relevance/1>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/d92ebd41-b766-3cbe-8af1-f0a87ad6b4e3> .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/51>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[to this union 4 boys were born, Brandy, Ryan, ]Cole[ and Devin.    \nCharles was a life long farmer in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "Cole" ;
+        c:length     "4" ;
+        c:offset     "790" ;
+        c:prefix     "to this union 4 boys were born, Brandy, Ryan, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/d0431921-1ce2-3f83-84e8-c39a5b4b7ef9> ;
+        c:suffix     " and Devin.    \nCharles was a life long farmer in" .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4>
+        a                  <http://s.opencalais.com/1/type/sys/DocInfo> ;
+        c:calaisRequestID  "f39e79c0-16a4-47c0-14d9-13dab2a7848c" ;
+        c:docDate          "2015-05-26 17:20:47.901" ;
+        c:docTitle         "" ;
+        c:document         "The funeral mass for Charles K. O’Neil will be at 11:00 a.m. Monday, February 24, 2014, at Sacred Heart Catholic Church in Alva with Father James Wickersham serving as the celebrant.  Burial will follow in the Sacred Heart  Cemetery in Alva under the direction of Wentworth Mortuary, LLC.  There will be visitation with the family at Wentworth Mortuary from 6:00 to 7:00 p.m. Sunday evening.    \nCharles K. O’Neil,  son of Jerry and Alice O’Neil was born on September 27, 1952.  He departed this life on February 20, 2014, at his home at the age of 61.    \nCharles was raised on a farm outside Carmen. He graduated from Carmen-Dacoma High School and Northwestern Oklahoma State University.  He married Carol Elaine Johnson on July 4, 1973, and to this union 4 boys were born, Brandy, Ryan, Cole and Devin.    \nCharles was a life long farmer in the Carmen area and he served on the Aline-Cleo School board for eleven years. He was an active member of the National Resources Conservation Services &amp; Alfalfa County Conservation District for many years.     \nHe was a member of the Sacred Heart Church in Carmen and was active in all the church work.  When Sacred Heart Church moved to St. Cornelius Catholic Church in Cherokee, Charles relocated the Carmen church bell into St. Cornelius where it currently resides.    \nPreceding his death was his mother, Alice; father, Jerry; and brother Larry Dean.     \nCharles is survived by his wife, Carol, of Carmen; four sons, Brandy and wife, Christyn, of Aline, Ryan and wife, Donna, of Collinsville, Cole and wife, Bridget, of Medford, Devin and wife, Julie, of Edmond.  He has six grandchildren, Payton, Brody, Linley, Riley, Carson, Kynlee and one on the way; a brother, Duane and wife, Linda of Cleo Springs.    \nCharles never gave up his love of the farm. He was a very special man who will always be remembered for his smile, laughter and constant joking.  He was one to put a smile on your face and always lend a hand when one was needed.  He touched a lot of lives by his work ethic, moral compass and commitment to treating those around him with the respect he wished to receive himself.  He will never be forgotten by those who knew and loved him.      \nHis greatest accomplishment was raising his four boys and being a dedicated husband, father and grandparent. Charles’s wit and goodness shall continue through his sons and grandchildren. May a bit of Charles show up in each of them to keep some spark in our lives.    \nMemorials may be made to the Aline Chamber of Commerce (soup dinner) or Carmen Children Park Fund. \n\t\t\t" ;
+        c:id               "http://id.opencalais.com/cqPvh7R2c94f3cJqV8z8ZA" ;
+        c:ontology         "http://163.231.4.65/owlschema/8.3/onecalais.owl.allmetadata.xml" .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/30>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[for many years.     \nHe was a member of the ]Sacred Heart Church[ in Carmen and was active in all the church work.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "Sacred Heart Church" ;
+        c:length     "19" ;
+        c:offset     "1082" ;
+        c:prefix     "for many years.     \nHe was a member of the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/799bca2d-7985-3c97-94fd-fa4c13645b3e> ;
+        c:suffix     " in Carmen and was active in all the church work." .
+
+<http://d.opencalais.com/pershash-1/7e73c6b1-6ddf-37c2-b30f-b70c888cae2f>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Duane" ;
+        c:confidencelevel    "0.847" ;
+        c:firstname          "Duane" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Duane" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Relevance/17>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/6ab12a6b-32ee-3fb6-8e54-20736b667d32> .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/5>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ There will be visitation with the family at ]Wentworth Mortuary[ from 6:00 to 7:00 p.m. Sunday evening.   ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "Wentworth Mortuary" ;
+        c:length     "18" ;
+        c:offset     "334" ;
+        c:prefix     " There will be visitation with the family at " ;
+        c:subject    <http://d.opencalais.com/comphash-1/a8ee0a81-b629-368a-b237-71a89306beec> ;
+        c:suffix     " from 6:00 to 7:00 p.m. Sunday evening.   " .
+
+<http://d.opencalais.com/conf/pershash-1/3fc22cf4-8226-37cb-a8d5-2545a9976dcb>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.832" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.645" ;
+        c:subject             <http://d.opencalais.com/pershash-1/3fc22cf4-8226-37cb-a8d5-2545a9976dcb> .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Relevance/9>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/2200b271-d670-32d3-9f36-7bcbf3abcc44> .
+
+<http://d.opencalais.com/genericHasher-1/424e231a-3d9d-3cff-a6be-6e61d337b597>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Collinsville" ;
+        c:person             <http://d.opencalais.com/pershash-1/7929aed4-5199-30ce-90dc-e0a69b4994de> .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/59>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Christyn, of Aline, Ryan and wife, Donna, of ]Collinsville[, Cole and wife, Bridget, of Medford, Devin and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "Collinsville" ;
+        c:length     "12" ;
+        c:offset     "1532" ;
+        c:prefix     "Christyn, of Aline, Ryan and wife, Donna, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/dd67fb05-e722-3a04-ae3b-faf1a796dc43> ;
+        c:suffix     ", Cole and wife, Bridget, of Medford, Devin and" .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/38>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[    \nCharles was raised on a farm outside Carmen. ]He graduated from Carmen-Dacoma High School and Northwestern Oklahoma State University[.  He married Carol Elaine Johnson on July 4,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "He graduated from Carmen-Dacoma High School and Northwestern Oklahoma State University" ;
+        c:length     "86" ;
+        c:offset     "602" ;
+        c:prefix     "    \nCharles was raised on a farm outside Carmen. " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/81178fec-fe74-393c-9dda-128df2f98621> ;
+        c:suffix     ".  He married Carol Elaine Johnson on July 4," .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/17>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[on the way; a brother, Duane and wife, Linda of ]Cleo Springs[.    \nCharles never gave up his love of the farm.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "Cleo Springs" ;
+        c:length     "12" ;
+        c:offset     "1744" ;
+        c:prefix     "on the way; a brother, Duane and wife, Linda of " ;
+        c:subject    <http://d.opencalais.com/pershash-1/19094c52-fa40-3e58-9c96-a5d50babbb02> ;
+        c:suffix     ".    \nCharles never gave up his love of the farm." .
+
+<http://d.opencalais.com/pershash-1/5e4e3c09-a72b-3240-b7d7-42308d2510a1>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Christyn" ;
+        c:confidencelevel    "0.769" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Christyn" ;
+        c:name               "Christyn" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/pershash-1/bf0140ef-f9d3-369a-b270-c4c18a448f3c>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Devin" ;
+        c:confidencelevel    "0.989" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Devin" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Relevance/25>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/86e9036f-cceb-3e46-90cf-d064fb82e1d2> .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/SocialTag/2>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Dacoma, Oklahoma" ;
+        c:originalValue      "Dacoma, Oklahoma" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/ddcdf07d-7c67-342f-8a8c-f881f846c968> .
+
+<http://d.opencalais.com/conf/pershash-1/7929aed4-5199-30ce-90dc-e0a69b4994de>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.932" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/7929aed4-5199-30ce-90dc-e0a69b4994de> .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/meta>
+        a                 <http://s.opencalais.com/1/type/sys/DocInfoMeta> ;
+        c:contentType     "text/raw" ;
+        c:docId           <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:language        "English" ;
+        c:processingVer   "AllMetadata" ;
+        c:serverVersion   "OneCalais_8.3-RELEASE:364" ;
+        c:signature       "digestalg-1|ufIBm60lJVOL3VYn7cqKOP0Ijow=|jkcUKXHDZ/GCdN/YiDifp1+NOhEYhTX7HYyLHqOsPtZqOZrj5dC3wA==" ;
+        c:stagsVer        "OneCalais_8.3-RELEASE-b11-2015-03-25_18:29:00" ;
+        c:submissionDate  "2015-05-26 17:20:47.402" ;
+        c:submitterCode   "0ca6a864-5659-789d-5f32-f365f695e757" .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/67>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[one was needed.  He touched a lot of lives by ]his[ work ethic, moral compass and commitment to]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "his" ;
+        c:length     "3" ;
+        c:offset     "2021" ;
+        c:prefix     "one was needed.  He touched a lot of lives by " ;
+        c:subject    <http://d.opencalais.com/pershash-1/7e73c6b1-6ddf-37c2-b30f-b70c888cae2f> ;
+        c:suffix     " work ethic, moral compass and commitment to" .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/46>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[brother Larry Dean.     \nCharles is survived by ]his wife, Carol, of Carmen[; four sons, Brandy and wife, Christyn, of Aline,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "his wife, Carol, of Carmen" ;
+        c:length     "26" ;
+        c:offset     "1431" ;
+        c:prefix     "brother Larry Dean.     \nCharles is survived by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/42b91adf-330f-3c50-a5eb-a641a35624f5> ;
+        c:suffix     "; four sons, Brandy and wife, Christyn, of Aline," .
+
+<http://d.opencalais.com/pershash-1/7ef64ccf-807e-35d6-9113-85a628b70ba0>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Bridget" ;
+        c:confidencelevel    "0.86" ;
+        c:firstname          "Bridget" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Bridget" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4/Instance/25>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and Northwestern Oklahoma State University.  ]He married Carol Elaine Johnson[ on July 4, 1973, and to this union 4 boys were]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/1082533b-5a16-3827-9fcd-73b1cc9cd3a4> ;
+        c:exact      "He married Carol Elaine Johnson" ;
+        c:length     "31" ;
+        c:offset     "691" ;
+        c:prefix     "and Northwestern Oklahoma State University.  " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b410b752-2cb2-374a-bd60-ddfa45f851b3> ;
+        c:suffix     " on July 4, 1973, and to this union 4 boys were" .
+
+<http://d.opencalais.com/pershash-1/7748040b-3017-3c50-ba96-3808f153b4a7>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Jerry" ;
+        c:confidencelevel    "0.981" ;
+        c:firstname          "Jerry" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Jerry" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/pershash-1/1f63034a-8302-314b-ba8a-4693832a4427>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Julie" ;
+        c:confidencelevel    "0.86" ;
+        c:firstname          "Julie" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Julie" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .

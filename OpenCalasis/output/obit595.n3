@@ -1,0 +1,2611 @@
+#Relations: FamilyRelation, PersonAttributes, PersonCareer, PersonEducation, PersonLocation, PersonRelation
+#City: Alva, Midland, Redlands, Tulsa
+#Company: Morningstar, Waynoka LLC
+#Facility: Marshall Funeral Home of Waynoka, Memorial Hill Cemetery, Smitty’s IGA Store
+#IndustryTerm: Funeral services
+#Organization: Baptist Church, Convalescent Center, Hopeton Wesleyan Church, Manila School, Northside Church of Christ, Waynoka High School
+#Person: Alyssa, Blake, Bobby Watson, Cathy Hummel, Chelsea Bixler, Cindy Ann Nutter, Conner Smith, Ellie Waggoner, Elsie Shipley, Floyd Golbek, Garret, Georgia Irene, Georgia Irene (Shearer) Golbek, Gerald Edward, James, Josh Inman, Karen Watson, Marvin, Mary Haltom, Otto Golbek, Payton Smith, Pete, Raychel, Ruth Ella Nutter, Sam, Sharon Inman, Shawna McKinley, Taylor Waggoner, Tonya Esquibel, Whitney Gum
+#Position: Dairy Maid, Nurses Aide
+#ProvinceOrState: California, Oklahoma, Texas, Woods County
+@prefix c:     <http://s.opencalais.com/1/pred/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://d.opencalais.com/genericHasher-1/09b6e108-0d9b-3564-9e1b-63fc4bd40def>
+        a                       <http://s.opencalais.com/1/type/em/r/PersonEducation> ;
+        c:forenduserdisplay     "false" ;
+        c:person                <http://d.opencalais.com/pershash-1/f266c227-290b-3418-91e0-b7571b1f7c3a> ;
+        c:schoolororganization  "Manila School" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/21>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Chelsea Bixler and husband, Blake, of Midland, ]Texas[, Taylor Waggoner of Waynoka, Payton Smith of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Texas" ;
+        c:length     "5" ;
+        c:offset     "1938" ;
+        c:prefix     "Chelsea Bixler and husband, Blake, of Midland, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> ;
+        c:suffix     ", Taylor Waggoner of Waynoka, Payton Smith of" .
+
+<http://d.opencalais.com/conf/pershash-1/1741ad50-8a12-332e-a22d-5fc6356d6c27>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.769" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/1741ad50-8a12-332e-a22d-5fc6356d6c27> .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Relevance/47>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c142ea67-b7e5-3f14-84f8-86e2fe486760> .
+
+<http://d.opencalais.com/genericHasher-1/5769b035-444e-3624-ac63-fa1b5bf730e1>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Alva" ;
+        c:person             <http://d.opencalais.com/pershash-1/0b7d4d2e-101f-3f77-80fc-1d2d3c15d289> .
+
+<http://d.opencalais.com/genericHasher-1/40a04cb1-97e8-3cb9-996d-e7be39c2d7ad>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonAttributes> ;
+        c:birthdate          "1938-02-13" ;
+        c:birthplace         <http://d.opencalais.com/genericHasher-1/ce8de128-24bf-3473-ab18-361909e1197d> ;
+        c:forenduserdisplay  "false" ;
+        c:gender             "M" ;
+        c:person             <http://d.opencalais.com/pershash-1/b0debce2-0fd9-3225-9d31-13668beefe02> .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Relevance/26>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3e8dfe5a-1461-38e5-8173-def40af28e54> .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/100>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Midland, Texas, Taylor Waggoner of Waynoka, ]Payton Smith of Tulsa[, and Conner Smith of Redlands, California; 10]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Payton Smith of Tulsa" ;
+        c:length     "21" ;
+        c:offset     "1973" ;
+        c:prefix     "of Midland, Texas, Taylor Waggoner of Waynoka, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a7c8c2cc-35bf-39c8-bce3-1dc6640ebd79> ;
+        c:suffix     ", and Conner Smith of Redlands, California; 10" .
+
+<http://d.opencalais.com/conf/pershash-1/c2d8936c-372b-3837-9750-b6e92e07355c>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/c2d8936c-372b-3837-9750-b6e92e07355c> .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/92>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[  On July21,  1955, she was united in marriage to ]Gerald Edward[ “Pete” Nutter in Alva.  They made their home on]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Gerald Edward" ;
+        c:length     "13" ;
+        c:offset     "558" ;
+        c:prefix     "  On July21,  1955, she was united in marriage to " ;
+        c:subject    <http://d.opencalais.com/pershash-1/d5c140fa-d100-3fa5-954d-f29f07de2219> ;
+        c:suffix     " “Pete” Nutter in Alva.  They made their home on" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/71>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Waynoka; one sister, Elsie Shipley and husband, ]Marvin[, of Alva; nine grandchildren, Shawna McKinley of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Marvin" ;
+        c:length     "6" ;
+        c:offset     "1672" ;
+        c:prefix     "Waynoka; one sister, Elsie Shipley and husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/06433dcb-1f5a-307a-aea4-88d269f4b08d> ;
+        c:suffix     ", of Alva; nine grandchildren, Shawna McKinley of" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/50>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Payton Smith of Tulsa, and Conner Smith of ]Redlands[, California; 10 great grandchildren, other]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Redlands" ;
+        c:length     "8" ;
+        c:offset     "2016" ;
+        c:prefix     "Payton Smith of Tulsa, and Conner Smith of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b9d0618e-6525-33ec-a843-7ad85da928f9> ;
+        c:suffix     ", California; 10 great grandchildren, other" .
+
+<https://permid.org/1-5035751620>
+        a             <http://s.opencalais.com/1/type/er/Company> ;
+        c:commonname  "Waynoka" ;
+        c:docId       <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:legacyid    <http://d.opencalais.com/er/company/ralg-tr1r/da554c4e-4d2b-3037-98bc-d26b5df2c525> ;
+        c:name        "Waynoka Utilities Authority" ;
+        c:permid      "5035751620" ;
+        c:score       "0.05522651" ;
+        c:subject     <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/29>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[one brother, Floyd Golbek; and one sister, ]Mary Haltom[.    \nRuth is survived by three daughters, Cathy]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Mary Haltom" ;
+        c:length     "11" ;
+        c:offset     "1466" ;
+        c:prefix     "one brother, Floyd Golbek; and one sister, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/4cbe6401-99cf-3775-9fa7-5aa7855fc781> ;
+        c:suffix     ".    \nRuth is survived by three daughters, Cathy" .
+
+<http://d.opencalais.com/genericHasher-1/ba3ae813-870b-30fa-92ce-4c4c902ded12>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:company            <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:forenduserdisplay  "true" ;
+        c:person             <http://d.opencalais.com/pershash-1/e04c01bc-f221-3375-98df-fa12b6a49eb4> ;
+        c:status             "current" .
+
+<http://d.opencalais.com/er/person/ralg-pa1/34413250844>
+        a             <http://s.opencalais.com/1/type/er/Person> ;
+        c:commonname  "Karen Watson" ;
+        c:docId       <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:name        "Karen M. Watson" ;
+        c:officerid   "N/A" ;
+        c:paid        "34413250844" ;
+        c:personid    "174907" ;
+        c:score       "0.8625539" ;
+        c:subject     <http://d.opencalais.com/pershash-1/4c3342bf-d6f9-30bf-a75a-19cf00e00284> .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Relevance/34>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/b0debce2-0fd9-3225-9d31-13668beefe02> .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/108>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ \nRuth Ella Nutter, daughter of the late Otto and ]Georgia Irene[ (Shearer) Golbek, was born February 13, 1938, in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Georgia Irene" ;
+        c:length     "13" ;
+        c:offset     "278" ;
+        c:prefix     " \nRuth Ella Nutter, daughter of the late Otto and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/59d8dd52-7398-3e22-ac42-61a925724258> ;
+        c:suffix     " (Shearer) Golbek, was born February 13, 1938, in" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Relevance/13>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/c10b8670-37eb-3cce-b362-b45fc9196cc1> .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/79>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Waggoner and Cindy Ann Nutter; one brother, ]Floyd Golbek[; and one sister, Mary Haltom.    \nRuth is]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Floyd Golbek" ;
+        c:length     "12" ;
+        c:offset     "1436" ;
+        c:prefix     "Waggoner and Cindy Ann Nutter; one brother, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b0debce2-0fd9-3225-9d31-13668beefe02> ;
+        c:suffix     "; and one sister, Mary Haltom.    \nRuth is" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Relevance/8>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/44a342a8-9d2c-37a0-8377-68750dd45af0> .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/58>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Nursing Home, at Smitty’s IGA Store, and at ]the Dairy Maid[, as well as cleaning houses for people.      She]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "the Dairy Maid" ;
+        c:length     "14" ;
+        c:offset     "731" ;
+        c:prefix     "Nursing Home, at Smitty’s IGA Store, and at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8af07aa1-c076-3799-aa82-f76efd4bb164> ;
+        c:suffix     ", as well as cleaning houses for people.      She" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/37>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[husband, Marvin, of Alva; nine grandchildren, ]Shawna McKinley of Waynoka[, Bobby Watson and wife, Raychel, of Waynoka,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Shawna McKinley of Waynoka" ;
+        c:length     "26" ;
+        c:offset     "1709" ;
+        c:prefix     "husband, Marvin, of Alva; nine grandchildren, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/d8632ef5-4308-3081-8bda-b7d7cc95b2e2> ;
+        c:suffix     ", Bobby Watson and wife, Raychel, of Waynoka," .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/16>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[doing whatever needed to be done.    \nBesides ]her[ parents, she was preceded in death by her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1310" ;
+        c:prefix     "doing whatever needed to be done.    \nBesides " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f266c227-290b-3418-91e0-b7571b1f7c3a> ;
+        c:suffix     " parents, she was preceded in death by her" .
+
+<http://d.opencalais.com/conf/pershash-1/d5c140fa-d100-3fa5-954d-f29f07de2219>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.977" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/d5c140fa-d100-3fa5-954d-f29f07de2219> .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Relevance/42>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Relevance/21>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/6dab9eb2-8f8f-3119-8c89-dff19ef95243> .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/SocialTag/1>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Woods County, Oklahoma" ;
+        c:originalValue      "Woods County, Oklahoma" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/1fcae946-086d-3a26-bc84-7ee7397b8b27> .
+
+<http://d.opencalais.com/pershash-1/f9bcba78-f1da-3a99-8f2d-b2f05ae13236>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Conner Smith" ;
+        c:confidencelevel    "0.983" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Conner Smith" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/0fc44f0c-0110-3099-a6c5-457e4f04401b>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.768" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.858" ;
+        c:subject             <http://d.opencalais.com/pershash-1/0fc44f0c-0110-3099-a6c5-457e4f04401b> .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/87>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Church until it closed.  She then attended the ]Northside Church of Christ[ and the Hopeton Wesleyan Church.  As a family]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Northside Church of Christ" ;
+        c:length     "26" ;
+        c:offset     "882" ;
+        c:prefix     "Church until it closed.  She then attended the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/f08f056d-cc9b-34f1-8431-db8e22bb78b3> ;
+        c:suffix     " and the Hopeton Wesleyan Church.  As a family" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/6>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[was united in marriage to Gerald Edward “Pete” ]Nutter[ in Alva.  They made their home on the farm north]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Nutter" ;
+        c:length     "6" ;
+        c:offset     "579" ;
+        c:prefix     "was united in marriage to Gerald Edward “Pete” " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f266c227-290b-3418-91e0-b7571b1f7c3a> ;
+        c:suffix     " in Alva.  They made their home on the farm north" .
+
+<http://d.opencalais.com/pershash-1/0b7d4d2e-101f-3f77-80fc-1d2d3c15d289>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Tonya Esquibel" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Tonya" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Esquibel" ;
+        c:name               "Tonya Esquibel" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/66>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Waynoka; one sister, Elsie Shipley and husband, ]Marvin, of Alva[; nine grandchildren, Shawna McKinley of Waynoka,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Marvin, of Alva" ;
+        c:length     "15" ;
+        c:offset     "1672" ;
+        c:prefix     "Waynoka; one sister, Elsie Shipley and husband, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/56ce9475-7f76-35b2-8614-2026ccafa660> ;
+        c:suffix     "; nine grandchildren, Shawna McKinley of Waynoka," .
+
+<http://d.opencalais.com/genericHasher-1/c142ea67-b7e5-3f14-84f8-86e2fe486760>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Manila School" ;
+        c:nationality        "Philippine" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/45>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Waynoka, Sharon Inman and husband, James, of ]Waynoka[; one sister, Elsie Shipley and husband, Marvin,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Waynoka" ;
+        c:length     "7" ;
+        c:offset     "1624" ;
+        c:prefix     "of Waynoka, Sharon Inman and husband, James, of " ;
+        c:subject    <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:suffix     "; one sister, Elsie Shipley and husband, Marvin," .
+
+<http://d.opencalais.com/pershash-1/6dab9eb2-8f8f-3119-8c89-dff19ef95243>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Garret" ;
+        c:confidencelevel    "0.769" ;
+        c:firstname          "Garret" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Garret" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/pershash-1/e04c01bc-f221-3375-98df-fa12b6a49eb4>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "James" ;
+        c:confidencelevel    "0.973" ;
+        c:firstname          "James" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "James" ;
+        c:nationality        "N/A" ;
+        c:persontype         "economic" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/24>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Garret, of Guthrie, Chelsea Bixler and husband, ]Blake[, of Midland, Texas, Taylor Waggoner of Waynoka,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Blake" ;
+        c:length     "5" ;
+        c:offset     "1919" ;
+        c:prefix     "Garret, of Guthrie, Chelsea Bixler and husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b768331b-790a-3e83-bea7-b6b8e55fdd28> ;
+        c:suffix     ", of Midland, Texas, Taylor Waggoner of Waynoka," .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Relevance/50>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/f9bcba78-f1da-3a99-8f2d-b2f05ae13236> .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Relevance/29>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/06433dcb-1f5a-307a-aea4-88d269f4b08d> .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/103>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Guthrie, Chelsea Bixler and husband, Blake, of ]Midland[, Texas, Taylor Waggoner of Waynoka, Payton Smith]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Midland" ;
+        c:length     "7" ;
+        c:offset     "1929" ;
+        c:prefix     "Guthrie, Chelsea Bixler and husband, Blake, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4cef2930-172e-325c-b3fe-c3e7a14dd7d2> ;
+        c:suffix     ", Texas, Taylor Waggoner of Waynoka, Payton Smith" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/95>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[as well as cleaning houses for people.      ]She was a member of the Morningstar Baptist Church[ until it closed.  She then attended the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "She was a member of the Morningstar Baptist Church" ;
+        c:length     "50" ;
+        c:offset     "791" ;
+        c:prefix     "as well as cleaning houses for people.      " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/5c68113e-9890-343e-99b7-9ac072c2f4c9> ;
+        c:suffix     " until it closed.  She then attended the" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/74>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[at the age of 76 years and 4 months.    \n]Ruth attended Manila School and Waynoka High School[.  On July21,  1955, she was united in marriage]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Ruth attended Manila School and Waynoka High School" ;
+        c:length     "51" ;
+        c:offset     "456" ;
+        c:prefix     "at the age of 76 years and 4 months.    \n" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c48fad86-a2a4-3d82-bb8e-f8995d73ff82> ;
+        c:suffix     ".  On July21,  1955, she was united in marriage" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Relevance/3>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/bb2b7d1d-34ec-3c64-8d2b-b49b76b46927> .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/53>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[she was preceded in death by her husband, ]Pete[; two daughters, Ellie Waggoner and Cindy Ann]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Pete" ;
+        c:length     "4" ;
+        c:offset     "1365" ;
+        c:prefix     "she was preceded in death by her husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/da27e5e0-8369-3277-9f62-2daf356d444b> ;
+        c:suffix     "; two daughters, Ellie Waggoner and Cindy Ann" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/lid/DefaultLangId>
+        a                    <http://s.opencalais.com/1/type/lid/DefaultLangId> ;
+        c:docId              <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:forenduserdisplay  "false" ;
+        c:lang               <http://d.opencalais.com/lid/DefaultLangId/English> ;
+        c:permid             "505062" .
+
+<http://d.opencalais.com/pershash-1/51f7a8f9-39c0-35d9-9f34-f31e4eefcd9e>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Raychel" ;
+        c:confidencelevel    "0.769" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Raychel" ;
+        c:name               "Raychel" ;
+        c:nationality        "N/A" ;
+        c:persontype         "economic" .
+
+<http://d.opencalais.com/conf/pershash-1/4c3342bf-d6f9-30bf-a75a-19cf00e00284>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.975" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:resolution          "0.8625539" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/4c3342bf-d6f9-30bf-a75a-19cf00e00284> .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/32>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Waggoner of Waynoka, Payton Smith of Tulsa, and ]Conner Smith of Redlands, California[; 10 great grandchildren, other relatives and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Conner Smith of Redlands, California" ;
+        c:length     "36" ;
+        c:offset     "2000" ;
+        c:prefix     "Waggoner of Waynoka, Payton Smith of Tulsa, and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/04c96fde-13c8-3272-aeec-b08a6bf8a12c> ;
+        c:suffix     "; 10 great grandchildren, other relatives and" .
+
+<http://d.opencalais.com/pershash-1/f266c227-290b-3418-91e0-b7571b1f7c3a>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Ruth Ella Nutter" ;
+        c:confidencelevel    "0.993" ;
+        c:firstname          "Ruth" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Nutter" ;
+        c:middlename         "Ella" ;
+        c:name               "Ruth Ella Nutter" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/pershash-1/75a7ca51-5002-3386-a5e7-482afaebd2a5>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Payton Smith" ;
+        c:confidencelevel    "0.994" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Payton Smith" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/11>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Church.  As a family woman, she was devoted to ]her[ husband and committed to her kids and grandkids.]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "981" ;
+        c:prefix     "Church.  As a family woman, she was devoted to " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f266c227-290b-3418-91e0-b7571b1f7c3a> ;
+        c:suffix     " husband and committed to her kids and grandkids." .
+
+<http://d.opencalais.com/conf/pershash-1/59d8dd52-7398-3e22-ac42-61a925724258>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.895" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.928" ;
+        c:subject             <http://d.opencalais.com/pershash-1/59d8dd52-7398-3e22-ac42-61a925724258> .
+
+<http://d.opencalais.com/genericHasher-1/f64b841e-05a8-3bac-9150-4b9dab08ec1e>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:company            <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:forenduserdisplay  "true" ;
+        c:person             <http://d.opencalais.com/pershash-1/1741ad50-8a12-332e-a22d-5fc6356d6c27> ;
+        c:status             "current" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Relevance/37>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/95f73c18-9b05-36aa-8bf0-95b867ee275f> .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/cat/1>
+        a                    <http://s.opencalais.com/1/type/cat/DocCat> ;
+        c:docId              <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Human Interest" ;
+        c:score              "0.978" .
+
+<http://d.opencalais.com/genericHasher-1/987fe3dd-0324-3b1b-b48b-0e77d6d20a9c>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Midland" ;
+        c:person             <http://d.opencalais.com/pershash-1/b768331b-790a-3e83-bea7-b6b8e55fdd28> .
+
+<http://d.opencalais.com/conf/pershash-1/bfdc4076-21a3-3a89-826b-6b63c417c4eb>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.988" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/bfdc4076-21a3-3a89-826b-6b63c417c4eb> .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Relevance/16>
+        a                <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId          <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:relevance      "0.8" ;
+        c:relevancecont  "0.85" ;
+        c:subject        <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> .
+
+<http://d.opencalais.com/pershash-1/cfc64897-1496-35bf-ba4c-8e60bd4b34fb>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Sam" ;
+        c:confidencelevel    "0.954" ;
+        c:firstname          "Sam" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Sam" ;
+        c:nationality        "N/A" ;
+        c:persontype         "economic" .
+
+<http://d.opencalais.com/conf/pershash-1/ac7e514e-2c4a-3207-a73a-3127ed4f4c4f>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/ac7e514e-2c4a-3207-a73a-3127ed4f4c4f> .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/82>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[sister, Elsie Shipley and husband, Marvin, of ]Alva[; nine grandchildren, Shawna McKinley of Waynoka,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "1683" ;
+        c:prefix     "sister, Elsie Shipley and husband, Marvin, of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:suffix     "; nine grandchildren, Shawna McKinley of Waynoka," .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/1>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ (Shearer) Golbek, was born February 13, 1938, in ]Woods County[, Oklahoma, and passed away June 13, 2014, at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Woods County" ;
+        c:length     "12" ;
+        c:offset     "341" ;
+        c:prefix     " (Shearer) Golbek, was born February 13, 1938, in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ce8de128-24bf-3473-ab18-361909e1197d> ;
+        c:suffix     ", Oklahoma, and passed away June 13, 2014, at" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/61>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Tonya Esquibel of Alva, Josh Inman and wife, ]Alyssa, of Waynoka[, Whitney Gum and husband, Garret, of Guthrie,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Alyssa, of Waynoka" ;
+        c:length     "18" ;
+        c:offset     "1826" ;
+        c:prefix     "Tonya Esquibel of Alva, Josh Inman and wife, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/f64b841e-05a8-3bac-9150-4b9dab08ec1e> ;
+        c:suffix     ", Whitney Gum and husband, Garret, of Guthrie," .
+
+<http://d.opencalais.com/genericHasher-1/bb2b7d1d-34ec-3c64-8d2b-b49b76b46927>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Memorial Hill Cemetery" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/40>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[under the direction of Marshall Funeral Home of ]Waynoka, LLC[.    \nRuth Ella Nutter, daughter of the late Otto]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Waynoka, LLC" ;
+        c:length     "12" ;
+        c:offset     "212" ;
+        c:prefix     "under the direction of Marshall Funeral Home of " ;
+        c:subject    <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:suffix     ".    \nRuth Ella Nutter, daughter of the late Otto" .
+
+<http://d.opencalais.com/genericHasher-1/8af07aa1-c076-3799-aa82-f76efd4bb164>
+        a                    <http://s.opencalais.com/1/type/em/e/Position> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Dairy Maid" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/19>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Floyd Golbek; and one sister, Mary Haltom.    \n]Ruth[ is survived by three daughters, Cathy Hummel and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Ruth" ;
+        c:length     "4" ;
+        c:offset     "1483" ;
+        c:prefix     "Floyd Golbek; and one sister, Mary Haltom.    \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/f266c227-290b-3418-91e0-b7571b1f7c3a> ;
+        c:suffix     " is survived by three daughters, Cathy Hummel and" .
+
+<http://d.opencalais.com/genericHasher-1/c48fad86-a2a4-3d82-bb8e-f8995d73ff82>
+        a                       <http://s.opencalais.com/1/type/em/r/PersonEducation> ;
+        c:forenduserdisplay     "false" ;
+        c:person                <http://d.opencalais.com/pershash-1/f266c227-290b-3418-91e0-b7571b1f7c3a> ;
+        c:schoolororganization  "Waynoka High School" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Relevance/45>
+        a                <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId          <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:relevance      "0.2" ;
+        c:relevancecont  "0.03" ;
+        c:subject        <http://d.opencalais.com/comphash-1/5c23bed7-9d07-3afb-9db1-63e2244ac6a5> .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Relevance/24>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8af07aa1-c076-3799-aa82-f76efd4bb164> .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/SocialTag/4>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "2" ;
+        c:name               "Nutter" ;
+        c:originalValue      "Nutter (surname)" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/cd039eba-77ec-319a-b19e-937e0ae4c97a> .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/90>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[McKinley of Waynoka, Bobby Watson and wife, ]Raychel, of Waynoka[, Tonya Esquibel of Alva, Josh Inman and wife,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Raychel, of Waynoka" ;
+        c:length     "19" ;
+        c:offset     "1760" ;
+        c:prefix     "McKinley of Waynoka, Bobby Watson and wife, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/5efccba4-79cd-3674-bf6f-81e98ec2a7c0> ;
+        c:suffix     ", Tonya Esquibel of Alva, Josh Inman and wife," .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/69>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Garret, of Guthrie, Chelsea Bixler and husband, ]Blake, of Midland, Texas[, Taylor Waggoner of Waynoka, Payton Smith of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Blake, of Midland, Texas" ;
+        c:length     "24" ;
+        c:offset     "1919" ;
+        c:prefix     "Garret, of Guthrie, Chelsea Bixler and husband, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/987fe3dd-0324-3b1b-b48b-0e77d6d20a9c> ;
+        c:suffix     ", Taylor Waggoner of Waynoka, Payton Smith of" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/9>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ the Morningstar Baptist Church until it closed.  ]She[ then attended the Northside Church of Christ and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "860" ;
+        c:prefix     " the Morningstar Baptist Church until it closed.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f266c227-290b-3418-91e0-b7571b1f7c3a> ;
+        c:suffix     " then attended the Northside Church of Christ and" .
+
+<http://d.opencalais.com/genericHasher-1/c20398bb-c7f5-3d70-b562-2f7a6bfd393f>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Alva" ;
+        c:person             <http://d.opencalais.com/pershash-1/f266c227-290b-3418-91e0-b7571b1f7c3a> .
+
+<http://d.opencalais.com/genericHasher-1/56ce9475-7f76-35b2-8614-2026ccafa660>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Alva" ;
+        c:person             <http://d.opencalais.com/pershash-1/06433dcb-1f5a-307a-aea4-88d269f4b08d> .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/48>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Alva, Josh Inman and wife, Alyssa, of ]Waynoka[, Whitney Gum and husband, Garret, of Guthrie,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Waynoka" ;
+        c:length     "7" ;
+        c:offset     "1837" ;
+        c:prefix     "of Alva, Josh Inman and wife, Alyssa, of " ;
+        c:subject    <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:suffix     ", Whitney Gum and husband, Garret, of Guthrie," .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/27>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[4 months.    \nRuth attended Manila School and ]Waynoka High School[.  On July21,  1955, she was united in marriage]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Waynoka High School" ;
+        c:length     "19" ;
+        c:offset     "488" ;
+        c:prefix     "4 months.    \nRuth attended Manila School and " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/44a342a8-9d2c-37a0-8377-68750dd45af0> ;
+        c:suffix     ".  On July21,  1955, she was united in marriage" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76>
+        a                  <http://s.opencalais.com/1/type/sys/DocInfo> ;
+        c:calaisRequestID  "f1fc1c8a-0c46-b197-14d9-1426ba06fa60" ;
+        c:docDate          "2015-05-26 17:25:59.250" ;
+        c:docTitle         "" ;
+        c:document         "Funeral services for Ruth Ella Nutter will be 2:00 p.m. Friday, June 20, 2014, at the Waynoka First Baptist Church. Interment will be in the Memorial Hill Cemetery under the direction of Marshall Funeral Home of Waynoka, LLC.    \nRuth Ella Nutter, daughter of the late Otto and Georgia Irene (Shearer) Golbek, was born February 13, 1938, in Woods County, Oklahoma, and passed away June 13, 2014, at Alva, Oklahoma, at the age of 76 years and 4 months.    \nRuth attended Manila School and Waynoka High School.  On July21,  1955, she was united in marriage to Gerald Edward “Pete” Nutter in Alva.  They made their home on the farm north of Waynoka.  She worked as a Nurses Aide at Waynoka Nursing Home, at Smitty’s IGA Store, and at the Dairy Maid, as well as cleaning houses for people.      She was a member of the Morningstar Baptist Church until it closed.  She then attended the Northside Church of Christ and the Hopeton Wesleyan Church.  As a family woman, she was devoted to her husband and committed to her kids and grandkids.  She loved cooking for her family and insisted they have a clean house in which to gather.  She always helped around the farm, milking cows, taking care of the baby ostriches, cooking for the farmhands, cleaning the equipment and doing whatever needed to be done.    \nBesides her parents, she was preceded in death by her husband, Pete; two daughters, Ellie Waggoner and Cindy Ann Nutter; one brother, Floyd Golbek; and one sister, Mary Haltom.    \nRuth is survived by three daughters, Cathy Hummel and husband, Sam, of Waynoka, Karen Watson of Waynoka, Sharon Inman and husband, James, of Waynoka; one sister, Elsie Shipley and husband, Marvin, of Alva; nine grandchildren, Shawna McKinley of Waynoka, Bobby Watson and wife, Raychel, of Waynoka, Tonya Esquibel of Alva, Josh Inman and wife, Alyssa, of Waynoka, Whitney Gum and husband, Garret, of Guthrie, Chelsea Bixler and husband, Blake, of Midland, Texas, Taylor Waggoner of Waynoka, Payton Smith of Tulsa, and Conner Smith of Redlands, California; 10 great grandchildren, other relatives and friends.    \nMemorial contributions may be made through the funeral home to the Share Convalescent Center activity fund. \n\t\t\t" ;
+        c:id               "http://id.opencalais.com/AHlZkwyU0ztocZlkvfuQWg" ;
+        c:ontology         "http://163.231.4.65/owlschema/8.3/onecalais.owl.allmetadata.xml" .
+
+<http://d.opencalais.com/genericHasher-1/3da8795c-cd02-338e-85a8-f9482eabf9c5>
+        a                     <http://s.opencalais.com/1/type/em/r/FamilyRelation> ;
+        c:familyrelationtype  "husband" ;
+        c:forenduserdisplay   "true" ;
+        c:person              <http://d.opencalais.com/pershash-1/f266c227-290b-3418-91e0-b7571b1f7c3a> ;
+        c:person_relative     <http://d.opencalais.com/pershash-1/da27e5e0-8369-3277-9f62-2daf356d444b> .
+
+<http://d.opencalais.com/genericHasher-1/d8632ef5-4308-3081-8bda-b7d7cc95b2e2>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:company            <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:forenduserdisplay  "true" ;
+        c:person             <http://d.opencalais.com/pershash-1/ac7e514e-2c4a-3207-a73a-3127ed4f4c4f> ;
+        c:status             "current" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Relevance/32>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/84bb0714-85ab-39de-a7e7-f1ad2e79292b> .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/106>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Whitney Gum and husband, Garret, of Guthrie, ]Chelsea Bixler[ and husband, Blake, of Midland, Texas, Taylor]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Chelsea Bixler" ;
+        c:length     "14" ;
+        c:offset     "1891" ;
+        c:prefix     "Whitney Gum and husband, Garret, of Guthrie, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/a629902d-2751-311c-8046-41bf8b9b4e15> ;
+        c:suffix     " and husband, Blake, of Midland, Texas, Taylor" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Relevance/11>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee> .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/98>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[houses for people.      She was a member of the ]Morningstar[ Baptist Church until it closed.  She then]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Morningstar" ;
+        c:length     "11" ;
+        c:offset     "815" ;
+        c:prefix     "houses for people.      She was a member of the " ;
+        c:subject    <http://d.opencalais.com/comphash-1/5c23bed7-9d07-3afb-9db1-63e2244ac6a5> ;
+        c:suffix     " Baptist Church until it closed.  She then" .
+
+<http://d.opencalais.com/pershash-1/b0debce2-0fd9-3225-9d31-13668beefe02>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Floyd Golbek" ;
+        c:confidencelevel    "0.992" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Floyd Golbek" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/77>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and husband, James, of Waynoka; one sister, ]Elsie Shipley[ and husband, Marvin, of Alva; nine]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Elsie Shipley" ;
+        c:length     "13" ;
+        c:offset     "1645" ;
+        c:prefix     "and husband, James, of Waynoka; one sister, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/a03b5bf4-ec53-394b-b09d-837451c4cb36> ;
+        c:suffix     " and husband, Marvin, of Alva; nine" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Relevance/6>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/b768331b-790a-3e83-bea7-b6b8e55fdd28> .
+
+<http://d.opencalais.com/comphash-1/5c23bed7-9d07-3afb-9db1-63e2244ac6a5>
+        a                    <http://s.opencalais.com/1/type/em/e/Company> ;
+        c:confidencelevel    "0.865" ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Morningstar" ;
+        c:nationality        "N/A" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/56>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of the late Otto and Georgia Irene (Shearer) ]Golbek, was born February 13, 1938, in Woods County, Oklahoma, and passed away June 13, 2014, at Alva, Oklahoma[, at the age of 76 years and 4 months.    \nRuth]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Golbek, was born February 13, 1938, in Woods County, Oklahoma, and passed away June 13, 2014, at Alva, Oklahoma" ;
+        c:length     "111" ;
+        c:offset     "302" ;
+        c:prefix     "of the late Otto and Georgia Irene (Shearer) " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/27dc43af-0898-3cdc-82a0-6ebb57a0de7c> ;
+        c:suffix     ", at the age of 76 years and 4 months.    \nRuth" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/fd9e1e90-96a9-04ff-1397-445c4e93208b>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:latitude            "36.4885198674" ;
+        c:longitude           "-119.701379437" ;
+        c:name                "California,United States" ;
+        c:permid              "100049" ;
+        c:rcscode             "G:4V" ;
+        c:shortname           "California" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/9679b237-33e8-3478-ba13-d9af3c4b943e> .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/35>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[nine grandchildren, Shawna McKinley of Waynoka, ]Bobby Watson[ and wife, Raychel, of Waynoka, Tonya Esquibel of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Bobby Watson" ;
+        c:length     "12" ;
+        c:offset     "1737" ;
+        c:prefix     "nine grandchildren, Shawna McKinley of Waynoka, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/c10b8670-37eb-3cce-b362-b45fc9196cc1> ;
+        c:suffix     " and wife, Raychel, of Waynoka, Tonya Esquibel of" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/14>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[her kids and grandkids.  She loved cooking for ]her[ family and insisted they have a clean house in]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1057" ;
+        c:prefix     "her kids and grandkids.  She loved cooking for " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f266c227-290b-3418-91e0-b7571b1f7c3a> ;
+        c:suffix     " family and insisted they have a clean house in" .
+
+<http://d.opencalais.com/genericHasher-1/a2db4717-023d-3911-b71f-9f5bd37bb234>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/d5c140fa-d100-3fa5-954d-f29f07de2219> , <http://d.opencalais.com/pershash-1/f266c227-290b-3418-91e0-b7571b1f7c3a> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Relevance/40>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/87cb5604-b30f-3cc1-8c5b-f4880c2440fa> .
+
+<http://d.opencalais.com/pershash-1/c10b8670-37eb-3cce-b362-b45fc9196cc1>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Bobby Watson" ;
+        c:confidencelevel    "0.998" ;
+        c:firstname          "Bobby" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Watson" ;
+        c:name               "Bobby Watson" ;
+        c:nationality        "N/A" ;
+        c:persontype         "entertainment" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Relevance/19>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/1368063f-dd24-3c84-9518-2736f4e387d6> .
+
+<http://d.opencalais.com/pershash-1/06433dcb-1f5a-307a-aea4-88d269f4b08d>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Marvin" ;
+        c:confidencelevel    "0.919" ;
+        c:firstname          "Marvin" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Marvin" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/0b7d4d2e-101f-3f77-80fc-1d2d3c15d289>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/0b7d4d2e-101f-3f77-80fc-1d2d3c15d289> .
+
+<http://d.opencalais.com/pershash-1/4cbe6401-99cf-3775-9fa7-5aa7855fc781>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Mary Haltom" ;
+        c:confidencelevel    "0.993" ;
+        c:firstname          "Mary" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Haltom" ;
+        c:name               "Mary Haltom" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/85>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Bixler and husband, Blake, of Midland, Texas, ]Taylor Waggoner of Waynoka[, Payton Smith of Tulsa, and Conner Smith of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Taylor Waggoner of Waynoka" ;
+        c:length     "26" ;
+        c:offset     "1945" ;
+        c:prefix     "Bixler and husband, Blake, of Midland, Texas, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/41f2e1e0-603c-373c-acd9-84623c6e07b8> ;
+        c:suffix     ", Payton Smith of Tulsa, and Conner Smith of" .
+
+<http://d.opencalais.com/conf/pershash-1/f9bcba78-f1da-3a99-8f2d-b2f05ae13236>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.983" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.99" ;
+        c:subject             <http://d.opencalais.com/pershash-1/f9bcba78-f1da-3a99-8f2d-b2f05ae13236> .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/64>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[attended the Northside Church of Christ and the ]Hopeton Wesleyan Church[.  As a family woman, she was devoted to her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Hopeton Wesleyan Church" ;
+        c:length     "23" ;
+        c:offset     "917" ;
+        c:prefix     "attended the Northside Church of Christ and the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3e8dfe5a-1461-38e5-8173-def40af28e54> ;
+        c:suffix     ".  As a family woman, she was devoted to her" .
+
+<http://d.opencalais.com/conf/pershash-1/6dab9eb2-8f8f-3119-8c89-dff19ef95243>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.769" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/6dab9eb2-8f8f-3119-8c89-dff19ef95243> .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/4>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[at the age of 76 years and 4 months.    \n]Ruth[ attended Manila School and Waynoka High School. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Ruth" ;
+        c:length     "4" ;
+        c:offset     "456" ;
+        c:prefix     "at the age of 76 years and 4 months.    \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/f266c227-290b-3418-91e0-b7571b1f7c3a> ;
+        c:suffix     " attended Manila School and Waynoka High School. " .
+
+<http://d.opencalais.com/conf/pershash-1/e04c01bc-f221-3375-98df-fa12b6a49eb4>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.973" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/e04c01bc-f221-3375-98df-fa12b6a49eb4> .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/meta>
+        a                 <http://s.opencalais.com/1/type/sys/DocInfoMeta> ;
+        c:contentType     "text/raw" ;
+        c:docId           <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:language        "English" ;
+        c:processingVer   "AllMetadata" ;
+        c:serverVersion   "OneCalais_8.3-RELEASE:364" ;
+        c:signature       "digestalg-1|vp8lu6DBU5fb4eOFMe0LjOtC77Y=|gZudabvgr4gz6gVQMYZUIWDWgW8/zyxyCEkfvbXdwacoQq9RFzFq5g==" ;
+        c:stagsVer        "OneCalais_8.3-RELEASE-b11-2015-03-25_18:29:00" ;
+        c:submissionDate  "2015-05-26 17:25:58.816" ;
+        c:submitterCode   "0ca6a864-5659-789d-5f32-f365f695e757" .
+
+<http://d.opencalais.com/pershash-1/da27e5e0-8369-3277-9f62-2daf356d444b>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Pete" ;
+        c:confidencelevel    "0.932" ;
+        c:firstname          "Pete" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Pete" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/3445fe6d-d5f9-3ae8-ac4b-a2247f32bd22>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:company            <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:forenduserdisplay  "true" ;
+        c:person             <http://d.opencalais.com/pershash-1/4c3342bf-d6f9-30bf-a75a-19cf00e00284> ;
+        c:status             "current" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/43>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[daughters, Cathy Hummel and husband, Sam, of ]Waynoka[, Karen Watson of Waynoka, Sharon Inman and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Waynoka" ;
+        c:length     "7" ;
+        c:offset     "1554" ;
+        c:prefix     "daughters, Cathy Hummel and husband, Sam, of " ;
+        c:subject    <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:suffix     ", Karen Watson of Waynoka, Sharon Inman and" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/22>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[made their home on the farm north of Waynoka.  ]She worked as a Nurses Aide at Waynoka[ Nursing Home, at Smitty’s IGA Store, and at the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "She worked as a Nurses Aide at Waynoka" ;
+        c:length     "38" ;
+        c:offset     "648" ;
+        c:prefix     "made their home on the farm north of Waynoka.  " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/cc76fcac-8abe-339b-acac-5cad431d6e58> ;
+        c:suffix     " Nursing Home, at Smitty’s IGA Store, and at the" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Relevance/48>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4cef2930-172e-325c-b3fe-c3e7a14dd7d2> .
+
+<http://d.opencalais.com/genericHasher-1/c30df577-20ce-3bee-bb48-d8e5fe134bcb>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:company            <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:forenduserdisplay  "true" ;
+        c:person             <http://d.opencalais.com/pershash-1/cfc64897-1496-35bf-ba4c-8e60bd4b34fb> ;
+        c:status             "current" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Relevance/27>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/cfc64897-1496-35bf-ba4c-8e60bd4b34fb> .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/101>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[age of 76 years and 4 months.    \nRuth attended ]Manila School[ and Waynoka High School.  On July21,  1955, she]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Manila School" ;
+        c:length     "13" ;
+        c:offset     "470" ;
+        c:prefix     "age of 76 years and 4 months.    \nRuth attended " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c142ea67-b7e5-3f14-84f8-86e2fe486760> ;
+        c:suffix     " and Waynoka High School.  On July21,  1955, she" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/62914270-0a1c-1bcc-880e-6dbe9fb82eb9>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:latitude            "31.4484328889" ;
+        c:longitude           "-97.7816569778" ;
+        c:name                "Texas,United States" ;
+        c:permid              "100299" ;
+        c:rcscode             "G:50" ;
+        c:shortname           "Texas" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/93>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[was born February 13, 1938, in Woods County, ]Oklahoma[, and passed away June 13, 2014, at Alva,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "355" ;
+        c:prefix     "was born February 13, 1938, in Woods County, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", and passed away June 13, 2014, at Alva," .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/72>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[husband, Marvin, of Alva; nine grandchildren, ]Shawna McKinley[ of Waynoka, Bobby Watson and wife, Raychel, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Shawna McKinley" ;
+        c:length     "15" ;
+        c:offset     "1709" ;
+        c:prefix     "husband, Marvin, of Alva; nine grandchildren, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/ac7e514e-2c4a-3207-a73a-3127ed4f4c4f> ;
+        c:suffix     " of Waynoka, Bobby Watson and wife, Raychel, of" .
+
+<http://d.opencalais.com/conf/pershash-1/51f7a8f9-39c0-35d9-9f34-f31e4eefcd9e>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.769" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/51f7a8f9-39c0-35d9-9f34-f31e4eefcd9e> .
+
+<http://d.opencalais.com/pershash-1/87d21e6a-b92a-3756-839a-324344a8e054>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Cindy Ann Nutter" ;
+        c:confidencelevel    "0.963" ;
+        c:firstname          "Cindy" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Nutter" ;
+        c:middlename         "Ann" ;
+        c:name               "Cindy Ann Nutter" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Relevance/1>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ce8de128-24bf-3473-ab18-361909e1197d> .
+
+<http://d.opencalais.com/genericHasher-1/5c68113e-9890-343e-99b7-9ac072c2f4c9>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:forenduserdisplay  "true" ;
+        c:organization       <http://d.opencalais.com/genericHasher-1/a21a69b3-e9dd-341e-9fee-da93c550c744> ;
+        c:person             <http://d.opencalais.com/pershash-1/f266c227-290b-3418-91e0-b7571b1f7c3a> ;
+        c:position           "member" ;
+        c:status             "past" .
+
+<http://d.opencalais.com/conf/pershash-1/f266c227-290b-3418-91e0-b7571b1f7c3a>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.993" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.995" ;
+        c:subject             <http://d.opencalais.com/pershash-1/f266c227-290b-3418-91e0-b7571b1f7c3a> .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/51>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Raychel, of Waynoka, Tonya Esquibel of Alva, ]Josh Inman[ and wife, Alyssa, of Waynoka, Whitney Gum and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Josh Inman" ;
+        c:length     "10" ;
+        c:offset     "1805" ;
+        c:prefix     "Raychel, of Waynoka, Tonya Esquibel of Alva, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/bfdc4076-21a3-3a89-826b-6b63c417c4eb> ;
+        c:suffix     " and wife, Alyssa, of Waynoka, Whitney Gum and" .
+
+<http://d.opencalais.com/conf/pershash-1/75a7ca51-5002-3386-a5e7-482afaebd2a5>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.994" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.99" ;
+        c:subject             <http://d.opencalais.com/pershash-1/75a7ca51-5002-3386-a5e7-482afaebd2a5> .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/30>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Sam, of Waynoka, Karen Watson of Waynoka, ]Sharon Inman[ and husband, James, of Waynoka; one sister,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Sharon Inman" ;
+        c:length     "12" ;
+        c:offset     "1588" ;
+        c:prefix     "Sam, of Waynoka, Karen Watson of Waynoka, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/c2d8936c-372b-3837-9750-b6e92e07355c> ;
+        c:suffix     " and husband, James, of Waynoka; one sister," .
+
+<http://d.opencalais.com/pershash-1/95f73c18-9b05-36aa-8bf0-95b867ee275f>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Ellie Waggoner" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Ellie" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Waggoner" ;
+        c:name               "Ellie Waggoner" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Relevance/35>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> .
+
+<http://d.opencalais.com/conf/pershash-1/cfc64897-1496-35bf-ba4c-8e60bd4b34fb>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.954" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/cfc64897-1496-35bf-ba4c-8e60bd4b34fb> .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Relevance/14>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8da39760-87db-3aa5-9369-142d08eb16f8> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/91814d7e-3b43-40cb-685f-52e6293a9d02>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "California" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:latitude            "34.0566666667" ;
+        c:longitude           "-117.171388889" ;
+        c:name                "Redlands,California,United States" ;
+        c:shortname           "Redlands" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/b9d0618e-6525-33ec-a843-7ad85da928f9> .
+
+<http://d.opencalais.com/pershash-1/a629902d-2751-311c-8046-41bf8b9b4e15>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Chelsea Bixler" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Chelsea" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Bixler" ;
+        c:name               "Chelsea Bixler" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/80>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Oklahoma, and passed away June 13, 2014, at ]Alva[, Oklahoma, at the age of 76 years and 4 months. ]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "399" ;
+        c:prefix     "Oklahoma, and passed away June 13, 2014, at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:suffix     ", Oklahoma, at the age of 76 years and 4 months. " .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Relevance/9>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/4cbe6401-99cf-3775-9fa7-5aa7855fc781> .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/59>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and Waynoka High School.  On July21,  1955, ]she was united in marriage to Gerald Edward[ “Pete” Nutter in Alva.  They made their home on]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "she was united in marriage to Gerald Edward" ;
+        c:length     "43" ;
+        c:offset     "528" ;
+        c:prefix     "and Waynoka High School.  On July21,  1955, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a2db4717-023d-3911-b71f-9f5bd37bb234> ;
+        c:suffix     " “Pete” Nutter in Alva.  They made their home on" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/38>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Alva, Josh Inman and wife, Alyssa, of Waynoka, ]Whitney Gum[ and husband, Garret, of Guthrie, Chelsea Bixler]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Whitney Gum" ;
+        c:length     "11" ;
+        c:offset     "1846" ;
+        c:prefix     "Alva, Josh Inman and wife, Alyssa, of Waynoka, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/0fc44f0c-0110-3099-a6c5-457e4f04401b> ;
+        c:suffix     " and husband, Garret, of Guthrie, Chelsea Bixler" .
+
+<http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Texas" .
+
+<http://d.opencalais.com/pershash-1/178dd1e4-7105-3e14-8ea1-6f361786ee0f>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Otto Golbek" ;
+        c:confidencelevel    "0.928" ;
+        c:firstname          "Georgia" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Golbek" ;
+        c:middlename         "Irene" ;
+        c:name               "Otto Golbek" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/17>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[needed to be done.    \nBesides her parents, ]she[ was preceded in death by her husband, Pete; two]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "1323" ;
+        c:prefix     "needed to be done.    \nBesides her parents, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f266c227-290b-3418-91e0-b7571b1f7c3a> ;
+        c:suffix     " was preceded in death by her husband, Pete; two" .
+
+<http://d.opencalais.com/pershash-1/b47b5638-fe62-3297-a63e-16554e73f4fb>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Georgia Irene Golbek" ;
+        c:confidencelevel    "0.957" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Georgia Irene (Shearer) Golbek" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/b7e1c575-8872-35a8-bf98-577d71943472>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Smitty’s IGA Store" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Relevance/43>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b7e1c575-8872-35a8-bf98-577d71943472> .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Relevance/22>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c273b936-cf52-36ab-8c72-2ec25dd41680> .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/SocialTag/2>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Waynoka, Oklahoma" ;
+        c:originalValue      "Waynoka, Oklahoma" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/77bc8be5-12a7-326b-962f-52fbf8cf09dd> .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/88>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ the Morningstar Baptist Church until it closed.  ]She then attended the Northside Church of Christ[ and the Hopeton Wesleyan Church.  As a family]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "She then attended the Northside Church of Christ" ;
+        c:length     "48" ;
+        c:offset     "860" ;
+        c:prefix     " the Morningstar Baptist Church until it closed.  " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b73f357d-914b-32cd-a4dc-5d4a50a44d9e> ;
+        c:suffix     " and the Hopeton Wesleyan Church.  As a family" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/7>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[made their home on the farm north of Waynoka.  ]She[ worked as a Nurses Aide at Waynoka Nursing Home,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "648" ;
+        c:prefix     "made their home on the farm north of Waynoka.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f266c227-290b-3418-91e0-b7571b1f7c3a> ;
+        c:suffix     " worked as a Nurses Aide at Waynoka Nursing Home," .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/67>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ p.m. Friday, June 20, 2014, at the Waynoka First ]Baptist Church[. Interment will be in the Memorial Hill Cemetery]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Baptist Church" ;
+        c:length     "14" ;
+        c:offset     "100" ;
+        c:prefix     " p.m. Friday, June 20, 2014, at the Waynoka First " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a21a69b3-e9dd-341e-9fee-da93c550c744> ;
+        c:suffix     ". Interment will be in the Memorial Hill Cemetery" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/46>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Alva; nine grandchildren, Shawna McKinley of ]Waynoka[, Bobby Watson and wife, Raychel, of Waynoka,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Waynoka" ;
+        c:length     "7" ;
+        c:offset     "1728" ;
+        c:prefix     "of Alva; nine grandchildren, Shawna McKinley of " ;
+        c:subject    <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:suffix     ", Bobby Watson and wife, Raychel, of Waynoka," .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/25>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[be made through the funeral home to the Share ]Convalescent Center[ activity fund. \n\t\t\t]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Convalescent Center" ;
+        c:length     "19" ;
+        c:offset     "2168" ;
+        c:prefix     "be made through the funeral home to the Share " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/eca28c4b-5b80-387c-8a6e-3d3003f7a93e> ;
+        c:suffix     " activity fund. \n\t\t\t" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Relevance/51>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/a629902d-2751-311c-8046-41bf8b9b4e15> .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Relevance/30>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/ac7e514e-2c4a-3207-a73a-3127ed4f4c4f> .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/104>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Smith of Tulsa, and Conner Smith of Redlands, ]California[; 10 great grandchildren, other relatives and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "California" ;
+        c:length     "10" ;
+        c:offset     "2026" ;
+        c:prefix     "Smith of Tulsa, and Conner Smith of Redlands, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9679b237-33e8-3478-ba13-d9af3c4b943e> ;
+        c:suffix     "; 10 great grandchildren, other relatives and" .
+
+<http://d.opencalais.com/conf/pershash-1/b0debce2-0fd9-3225-9d31-13668beefe02>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.992" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.995" ;
+        c:subject             <http://d.opencalais.com/pershash-1/b0debce2-0fd9-3225-9d31-13668beefe02> .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/96>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[as a Nurses Aide at Waynoka Nursing Home, at ]Smitty’s IGA Store[, and at the Dairy Maid, as well as cleaning]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Smitty’s IGA Store" ;
+        c:length     "18" ;
+        c:offset     "704" ;
+        c:prefix     "as a Nurses Aide at Waynoka Nursing Home, at " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b7e1c575-8872-35a8-bf98-577d71943472> ;
+        c:suffix     ", and at the Dairy Maid, as well as cleaning" .
+
+<http://d.opencalais.com/conf/comphash-1/5c23bed7-9d07-3afb-9db1-63e2244ac6a5>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.865" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:resolution          "0.81442827" ;
+        c:statisticalfeature  "0.799" ;
+        c:subject             <http://d.opencalais.com/comphash-1/5c23bed7-9d07-3afb-9db1-63e2244ac6a5> .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/75>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Bobby Watson and wife, Raychel, of Waynoka, ]Tonya Esquibel[ of Alva, Josh Inman and wife, Alyssa, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Tonya Esquibel" ;
+        c:length     "14" ;
+        c:offset     "1781" ;
+        c:prefix     "Bobby Watson and wife, Raychel, of Waynoka, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/0b7d4d2e-101f-3f77-80fc-1d2d3c15d289> ;
+        c:suffix     " of Alva, Josh Inman and wife, Alyssa, of" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Relevance/4>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b6607136-0945-32d7-b4fa-a99019467fd9> .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/54>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Alyssa, of Waynoka, Whitney Gum and husband, ]Garret[, of Guthrie, Chelsea Bixler and husband, Blake,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Garret" ;
+        c:length     "6" ;
+        c:offset     "1871" ;
+        c:prefix     "Alyssa, of Waynoka, Whitney Gum and husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/6dab9eb2-8f8f-3119-8c89-dff19ef95243> ;
+        c:suffix     ", of Guthrie, Chelsea Bixler and husband, Blake," .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/33>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[by three daughters, Cathy Hummel and husband, ]Sam, of Waynoka[, Karen Watson of Waynoka, Sharon Inman and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Sam, of Waynoka" ;
+        c:length     "15" ;
+        c:offset     "1546" ;
+        c:prefix     "by three daughters, Cathy Hummel and husband, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c30df577-20ce-3bee-bb48-d8e5fe134bcb> ;
+        c:suffix     ", Karen Watson of Waynoka, Sharon Inman and" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/cdbe37bc-3af5-6ff0-3597-7615ea496cd1>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:latitude            "36.1539" ;
+        c:longitude           "-95.9925" ;
+        c:name                "Tulsa,Oklahoma,United States" ;
+        c:shortname           "Tulsa" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/8da39760-87db-3aa5-9369-142d08eb16f8> .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/12>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[she was devoted to her husband and committed to ]her[ kids and grandkids.  She loved cooking for her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1010" ;
+        c:prefix     "she was devoted to her husband and committed to " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f266c227-290b-3418-91e0-b7571b1f7c3a> ;
+        c:suffix     " kids and grandkids.  She loved cooking for her" .
+
+<http://d.opencalais.com/genericHasher-1/a7c8c2cc-35bf-39c8-bce3-1dc6640ebd79>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Tulsa" ;
+        c:person             <http://d.opencalais.com/pershash-1/75a7ca51-5002-3386-a5e7-482afaebd2a5> .
+
+<http://d.opencalais.com/conf/pershash-1/c10b8670-37eb-3cce-b362-b45fc9196cc1>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.998" ;
+        c:dblookup            "0.95" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.996" ;
+        c:subject             <http://d.opencalais.com/pershash-1/c10b8670-37eb-3cce-b362-b45fc9196cc1> .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Relevance/38>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/f08f056d-cc9b-34f1-8431-db8e22bb78b3> .
+
+<http://d.opencalais.com/genericHasher-1/5efccba4-79cd-3674-bf6f-81e98ec2a7c0>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:company            <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:forenduserdisplay  "true" ;
+        c:person             <http://d.opencalais.com/pershash-1/51f7a8f9-39c0-35d9-9f34-f31e4eefcd9e> ;
+        c:status             "current" .
+
+<http://d.opencalais.com/conf/pershash-1/06433dcb-1f5a-307a-aea4-88d269f4b08d>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.919" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/06433dcb-1f5a-307a-aea4-88d269f4b08d> .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Relevance/17>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/b9d0618e-6525-33ec-a843-7ad85da928f9> .
+
+<http://d.opencalais.com/conf/pershash-1/4cbe6401-99cf-3775-9fa7-5aa7855fc781>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.993" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.995" ;
+        c:subject             <http://d.opencalais.com/pershash-1/4cbe6401-99cf-3775-9fa7-5aa7855fc781> .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/83>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ and wife, Raychel, of Waynoka, Tonya Esquibel of ]Alva[, Josh Inman and wife, Alyssa, of Waynoka,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "1799" ;
+        c:prefix     " and wife, Raychel, of Waynoka, Tonya Esquibel of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:suffix     ", Josh Inman and wife, Alyssa, of Waynoka," .
+
+<http://d.opencalais.com/conf/pershash-1/da27e5e0-8369-3277-9f62-2daf356d444b>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.932" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.81" ;
+        c:subject             <http://d.opencalais.com/pershash-1/da27e5e0-8369-3277-9f62-2daf356d444b> .
+
+<http://d.opencalais.com/pershash-1/1368063f-dd24-3c84-9518-2736f4e387d6>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Cathy Hummel" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Cathy" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Hummel" ;
+        c:name               "Cathy Hummel" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/2>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Funeral services for ]Ruth Ella Nutter[ will be 2:00 p.m. Friday, June 20, 2014, at the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Ruth Ella Nutter" ;
+        c:length     "16" ;
+        c:offset     "21" ;
+        c:prefix     "Funeral services for " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f266c227-290b-3418-91e0-b7571b1f7c3a> ;
+        c:suffix     " will be 2:00 p.m. Friday, June 20, 2014, at the" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/62>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Tonya Esquibel of Alva, Josh Inman and wife, ]Alyssa[, of Waynoka, Whitney Gum and husband, Garret, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Alyssa" ;
+        c:length     "6" ;
+        c:offset     "1826" ;
+        c:prefix     "Tonya Esquibel of Alva, Josh Inman and wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/1741ad50-8a12-332e-a22d-5fc6356d6c27> ;
+        c:suffix     ", of Waynoka, Whitney Gum and husband, Garret, of" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/41>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Alva.  They made their home on the farm north of ]Waynoka[.  She worked as a Nurses Aide at Waynoka Nursing]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Waynoka" ;
+        c:length     "7" ;
+        c:offset     "638" ;
+        c:prefix     " Alva.  They made their home on the farm north of " ;
+        c:subject    <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:suffix     ".  She worked as a Nurses Aide at Waynoka Nursing" .
+
+<http://d.opencalais.com/genericHasher-1/13eb4bd3-949a-3d4a-87ec-ee6384ec4a88>
+        a                     <http://s.opencalais.com/1/type/em/r/PersonRelation> ;
+        c:forenduserdisplay   "false" ;
+        c:person              <http://d.opencalais.com/pershash-1/da27e5e0-8369-3277-9f62-2daf356d444b> , <http://d.opencalais.com/pershash-1/f266c227-290b-3418-91e0-b7571b1f7c3a> ;
+        c:personrelationtype  "romantic" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/20>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[First Baptist Church. Interment will be in the ]Memorial Hill Cemetery[ under the direction of Marshall Funeral Home of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Memorial Hill Cemetery" ;
+        c:length     "22" ;
+        c:offset     "141" ;
+        c:prefix     "First Baptist Church. Interment will be in the " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/bb2b7d1d-34ec-3c64-8d2b-b49b76b46927> ;
+        c:suffix     " under the direction of Marshall Funeral Home of" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Relevance/46>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/51f7a8f9-39c0-35d9-9f34-f31e4eefcd9e> .
+
+<http://d.opencalais.com/pershash-1/b768331b-790a-3e83-bea7-b6b8e55fdd28>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Blake" ;
+        c:confidencelevel    "0.965" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Blake" ;
+        c:nationality        "American" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Relevance/25>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/1741ad50-8a12-332e-a22d-5fc6356d6c27> .
+
+<http://d.opencalais.com/genericHasher-1/ce8de128-24bf-3473-ab18-361909e1197d>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Woods County" .
+
+<http://d.opencalais.com/pershash-1/a03b5bf4-ec53-394b-b09d-837451c4cb36>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Elsie Shipley" ;
+        c:confidencelevel    "0.993" ;
+        c:firstname          "Elsie" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Shipley" ;
+        c:name               "Elsie Shipley" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/87d21e6a-b92a-3756-839a-324344a8e054>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.963" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.978" ;
+        c:subject             <http://d.opencalais.com/pershash-1/87d21e6a-b92a-3756-839a-324344a8e054> .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/SocialTag/5>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "2" ;
+        c:name               "Waggoner" ;
+        c:originalValue      "Waggoner" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/d745a80a-ace3-3194-b0cf-7f46154a7471> .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/91>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Bixler and husband, Blake, of Midland, Texas, ]Taylor Waggoner[ of Waynoka, Payton Smith of Tulsa, and Conner]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Taylor Waggoner" ;
+        c:length     "15" ;
+        c:offset     "1945" ;
+        c:prefix     "Bixler and husband, Blake, of Midland, Texas, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/87cb5604-b30f-3cc1-8c5b-f4880c2440fa> ;
+        c:suffix     " of Waynoka, Payton Smith of Tulsa, and Conner" .
+
+<http://d.opencalais.com/genericHasher-1/f08f056d-cc9b-34f1-8431-db8e22bb78b3>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Northside Church of Christ" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/70>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Bobby Watson and wife, Raychel, of Waynoka, ]Tonya Esquibel of Alva[, Josh Inman and wife, Alyssa, of Waynoka,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Tonya Esquibel of Alva" ;
+        c:length     "22" ;
+        c:offset     "1781" ;
+        c:prefix     "Bobby Watson and wife, Raychel, of Waynoka, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/5769b035-444e-3624-ac63-fa1b5bf730e1> ;
+        c:suffix     ", Josh Inman and wife, Alyssa, of Waynoka," .
+
+<http://d.opencalais.com/genericHasher-1/cc76fcac-8abe-339b-acac-5cad431d6e58>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:company            <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:forenduserdisplay  "true" ;
+        c:person             <http://d.opencalais.com/pershash-1/f266c227-290b-3418-91e0-b7571b1f7c3a> ;
+        c:position           "Nurses Aide" ;
+        c:status             "past" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/49>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Blake, of Midland, Texas, Taylor Waggoner of ]Waynoka[, Payton Smith of Tulsa, and Conner Smith of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Waynoka" ;
+        c:length     "7" ;
+        c:offset     "1964" ;
+        c:prefix     "Blake, of Midland, Texas, Taylor Waggoner of " ;
+        c:subject    <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:suffix     ", Payton Smith of Tulsa, and Conner Smith of" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/28>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[her parents, she was preceded in death by ]her husband, Pete[; two daughters, Ellie Waggoner and Cindy Ann]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "her husband, Pete" ;
+        c:length     "17" ;
+        c:offset     "1352" ;
+        c:prefix     "her parents, she was preceded in death by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3da8795c-cd02-338e-85a8-f9482eabf9c5> ;
+        c:suffix     "; two daughters, Ellie Waggoner and Cindy Ann" .
+
+<http://d.opencalais.com/conf/pershash-1/95f73c18-9b05-36aa-8bf0-95b867ee275f>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/95f73c18-9b05-36aa-8bf0-95b867ee275f> .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Relevance/33>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/a03b5bf4-ec53-394b-b09d-837451c4cb36> .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/107>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Watson of Waynoka, Sharon Inman and husband, ]James, of Waynoka[; one sister, Elsie Shipley and husband, Marvin,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "James, of Waynoka" ;
+        c:length     "17" ;
+        c:offset     "1614" ;
+        c:prefix     "Watson of Waynoka, Sharon Inman and husband, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ba3ae813-870b-30fa-92ce-4c4c902ded12> ;
+        c:suffix     "; one sister, Elsie Shipley and husband, Marvin," .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Relevance/12>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/4c3342bf-d6f9-30bf-a75a-19cf00e00284> .
+
+<http://d.opencalais.com/conf/pershash-1/a629902d-2751-311c-8046-41bf8b9b4e15>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/a629902d-2751-311c-8046-41bf8b9b4e15> .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/99>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[McKinley of Waynoka, Bobby Watson and wife, ]Raychel[, of Waynoka, Tonya Esquibel of Alva, Josh Inman]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Raychel" ;
+        c:length     "7" ;
+        c:offset     "1760" ;
+        c:prefix     "McKinley of Waynoka, Bobby Watson and wife, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/51f7a8f9-39c0-35d9-9f34-f31e4eefcd9e> ;
+        c:suffix     ", of Waynoka, Tonya Esquibel of Alva, Josh Inman" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/78>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of the late Otto and Georgia Irene (Shearer) ]Golbek[, was born February 13, 1938, in Woods County,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Golbek" ;
+        c:length     "6" ;
+        c:offset     "302" ;
+        c:prefix     "of the late Otto and Georgia Irene (Shearer) " ;
+        c:subject    <http://d.opencalais.com/pershash-1/b0debce2-0fd9-3225-9d31-13668beefe02> ;
+        c:suffix     ", was born February 13, 1938, in Woods County," .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Relevance/7>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/eca28c4b-5b80-387c-8a6e-3d3003f7a93e> .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/57>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[daughter of the late Otto and Georgia Irene (]Shearer[) Golbek, was born February 13, 1938, in Woods]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Shearer" ;
+        c:length     "7" ;
+        c:offset     "293" ;
+        c:prefix     "daughter of the late Otto and Georgia Irene (" ;
+        c:subject    <http://d.opencalais.com/pershash-1/b47b5638-fe62-3297-a63e-16554e73f4fb> ;
+        c:suffix     ") Golbek, was born February 13, 1938, in Woods" .
+
+<http://d.opencalais.com/conf/pershash-1/178dd1e4-7105-3e14-8ea1-6f361786ee0f>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.928" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.928" ;
+        c:subject             <http://d.opencalais.com/pershash-1/178dd1e4-7105-3e14-8ea1-6f361786ee0f> .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/36>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Taylor Waggoner of Waynoka, Payton Smith of ]Tulsa[, and Conner Smith of Redlands, California; 10]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Tulsa" ;
+        c:length     "5" ;
+        c:offset     "1989" ;
+        c:prefix     "Taylor Waggoner of Waynoka, Payton Smith of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/8da39760-87db-3aa5-9369-142d08eb16f8> ;
+        c:suffix     ", and Conner Smith of Redlands, California; 10" .
+
+<http://d.opencalais.com/conf/pershash-1/b47b5638-fe62-3297-a63e-16554e73f4fb>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.957" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.959" ;
+        c:subject             <http://d.opencalais.com/pershash-1/b47b5638-fe62-3297-a63e-16554e73f4fb> .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/15>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[they have a clean house in which to gather.  ]She[ always helped around the farm, milking cows,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "1126" ;
+        c:prefix     "they have a clean house in which to gather.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f266c227-290b-3418-91e0-b7571b1f7c3a> ;
+        c:suffix     " always helped around the farm, milking cows," .
+
+<http://d.opencalais.com/pershash-1/87cb5604-b30f-3cc1-8c5b-f4880c2440fa>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Taylor Waggoner" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Taylor" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Waggoner" ;
+        c:name               "Taylor Waggoner" ;
+        c:nationality        "N/A" ;
+        c:persontype         "economic" .
+
+<http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205>
+        a                    <http://s.opencalais.com/1/type/em/e/Company> ;
+        c:confidencelevel    "0.861" ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Waynoka LLC" ;
+        c:nationality        "N/A" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Relevance/41>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/d5c140fa-d100-3fa5-954d-f29f07de2219> .
+
+<http://d.opencalais.com/genericHasher-1/b9d0618e-6525-33ec-a843-7ad85da928f9>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Redlands" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Relevance/20>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/da27e5e0-8369-3277-9f62-2daf356d444b> .
+
+<http://d.opencalais.com/genericHasher-1/9679b237-33e8-3478-ba13-d9af3c4b943e>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "California" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/86>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in death by her husband, Pete; two daughters, ]Ellie Waggoner[ and Cindy Ann Nutter; one brother, Floyd Golbek;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Ellie Waggoner" ;
+        c:length     "14" ;
+        c:offset     "1386" ;
+        c:prefix     "in death by her husband, Pete; two daughters, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/95f73c18-9b05-36aa-8bf0-95b867ee275f> ;
+        c:suffix     " and Cindy Ann Nutter; one brother, Floyd Golbek;" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/5>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and Waynoka High School.  On July21,  1955, ]she[ was united in marriage to Gerald Edward “Pete”]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "528" ;
+        c:prefix     "and Waynoka High School.  On July21,  1955, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f266c227-290b-3418-91e0-b7571b1f7c3a> ;
+        c:suffix     " was united in marriage to Gerald Edward “Pete”" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/65>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[by three daughters, Cathy Hummel and husband, ]Sam[, of Waynoka, Karen Watson of Waynoka, Sharon]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Sam" ;
+        c:length     "3" ;
+        c:offset     "1546" ;
+        c:prefix     "by three daughters, Cathy Hummel and husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/cfc64897-1496-35bf-ba4c-8e60bd4b34fb> ;
+        c:suffix     ", of Waynoka, Karen Watson of Waynoka, Sharon" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/44>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and husband, Sam, of Waynoka, Karen Watson of ]Waynoka[, Sharon Inman and husband, James, of Waynoka;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Waynoka" ;
+        c:length     "7" ;
+        c:offset     "1579" ;
+        c:prefix     "and husband, Sam, of Waynoka, Karen Watson of " ;
+        c:subject    <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:suffix     ", Sharon Inman and husband, James, of Waynoka;" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/23>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ husband, Pete; two daughters, Ellie Waggoner and ]Cindy Ann Nutter[; one brother, Floyd Golbek; and one sister, Mary]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Cindy Ann Nutter" ;
+        c:length     "16" ;
+        c:offset     "1405" ;
+        c:prefix     " husband, Pete; two daughters, Ellie Waggoner and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/87d21e6a-b92a-3756-839a-324344a8e054> ;
+        c:suffix     "; one brother, Floyd Golbek; and one sister, Mary" .
+
+<http://d.opencalais.com/genericHasher-1/eca28c4b-5b80-387c-8a6e-3d3003f7a93e>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Convalescent Center" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/5b0bbf75-c4b8-c9cb-4de8-57c8f37a165a>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Texas" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:latitude            "31.9972" ;
+        c:longitude           "-102.0775" ;
+        c:name                "Midland,Texas,United States" ;
+        c:shortname           "Midland" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/4cef2930-172e-325c-b3fe-c3e7a14dd7d2> .
+
+<http://d.opencalais.com/pershash-1/1741ad50-8a12-332e-a22d-5fc6356d6c27>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Alyssa" ;
+        c:confidencelevel    "0.769" ;
+        c:firstname          "Alyssa" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Alyssa" ;
+        c:nationality        "N/A" ;
+        c:persontype         "economic" .
+
+<http://d.opencalais.com/genericHasher-1/8da39760-87db-3aa5-9369-142d08eb16f8>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Tulsa" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Relevance/49>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/9679b237-33e8-3478-ba13-d9af3c4b943e> .
+
+<http://d.opencalais.com/genericHasher-1/44a342a8-9d2c-37a0-8377-68750dd45af0>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Waynoka High School" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Relevance/28>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a21a69b3-e9dd-341e-9fee-da93c550c744> .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/102>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[at the age of 76 years and 4 months.    \n]Ruth attended Manila School and Waynoka High School[.  On July21,  1955, she was united in marriage]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Ruth attended Manila School and Waynoka High School" ;
+        c:length     "51" ;
+        c:offset     "456" ;
+        c:prefix     "at the age of 76 years and 4 months.    \n" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/09b6e108-0d9b-3564-9e1b-63fc4bd40def> ;
+        c:suffix     ".  On July21,  1955, she was united in marriage" .
+
+<http://d.opencalais.com/pershash-1/c2d8936c-372b-3837-9750-b6e92e07355c>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Sharon Inman" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Sharon" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Inman" ;
+        c:name               "Sharon Inman" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/94>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and passed away June 13, 2014, at Alva, ]Oklahoma[, at the age of 76 years and 4 months.    \nRuth]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Oklahoma" ;
+        c:length     "8" ;
+        c:offset     "405" ;
+        c:prefix     "and passed away June 13, 2014, at Alva, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> ;
+        c:suffix     ", at the age of 76 years and 4 months.    \nRuth" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/73>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[her parents, she was preceded in death by ]her husband, Pete[; two daughters, Ellie Waggoner and Cindy Ann]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "her husband, Pete" ;
+        c:length     "17" ;
+        c:offset     "1352" ;
+        c:prefix     "her parents, she was preceded in death by " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/13eb4bd3-949a-3d4a-87ec-ee6384ec4a88> ;
+        c:suffix     "; two daughters, Ellie Waggoner and Cindy Ann" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Relevance/2>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:relevance  "0.8" ;
+        c:subject    <http://d.opencalais.com/pershash-1/f266c227-290b-3418-91e0-b7571b1f7c3a> .
+
+<http://d.opencalais.com/genericHasher-1/3e8dfe5a-1461-38e5-8173-def40af28e54>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Hopeton Wesleyan Church" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/52>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ Haltom.    \nRuth is survived by three daughters, ]Cathy Hummel[ and husband, Sam, of Waynoka, Karen Watson of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Cathy Hummel" ;
+        c:length     "12" ;
+        c:offset     "1520" ;
+        c:prefix     " Haltom.    \nRuth is survived by three daughters, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/1368063f-dd24-3c84-9518-2736f4e387d6> ;
+        c:suffix     " and husband, Sam, of Waynoka, Karen Watson of" .
+
+<http://d.opencalais.com/genericHasher-1/84bb0714-85ab-39de-a7e7-f1ad2e79292b>
+        a                    <http://s.opencalais.com/1/type/em/e/Facility> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Marshall Funeral Home of Waynoka" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/31>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[]Funeral services[ for Ruth Ella Nutter will be 2:00 p.m. Friday,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Funeral services" ;
+        c:length     "16" ;
+        c:offset     "0" ;
+        c:prefix     "" ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee> ;
+        c:suffix     " for Ruth Ella Nutter will be 2:00 p.m. Friday," .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/10>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ the Hopeton Wesleyan Church.  As a family woman, ]she[ was devoted to her husband and committed to her]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "she" ;
+        c:length     "3" ;
+        c:offset     "962" ;
+        c:prefix     " the Hopeton Wesleyan Church.  As a family woman, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f266c227-290b-3418-91e0-b7571b1f7c3a> ;
+        c:suffix     " was devoted to her husband and committed to her" .
+
+<https://permid.org/1-4295911047>
+        a             <http://s.opencalais.com/1/type/er/Company> ;
+        c:commonname  "Morningstar" ;
+        c:docId       <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:legacyid    <http://d.opencalais.com/er/company/ralg-tr1r/04806a55-28e7-394a-90a4-0b1f49ebe48d> ;
+        c:name        "Morningstar Inc" ;
+        c:permid      "4295911047" ;
+        c:primaryric  "MORN.OQ" ;
+        c:score       "0.81442827" ;
+        c:subject     <http://d.opencalais.com/comphash-1/5c23bed7-9d07-3afb-9db1-63e2244ac6a5> ;
+        c:ticker      "MORN" .
+
+<http://d.opencalais.com/genericHasher-1/27dc43af-0898-3cdc-82a0-6ebb57a0de7c>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Alva, Oklahoma" ;
+        c:person             <http://d.opencalais.com/pershash-1/b0debce2-0fd9-3225-9d31-13668beefe02> .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Relevance/36>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/e04c01bc-f221-3375-98df-fa12b6a49eb4> .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Relevance/15>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/0fc44f0c-0110-3099-a6c5-457e4f04401b> .
+
+<http://d.opencalais.com/genericHasher-1/a21a69b3-e9dd-341e-9fee-da93c550c744>
+        a                    <http://s.opencalais.com/1/type/em/e/Organization> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Baptist Church" ;
+        c:nationality        "N/A" ;
+        c:organizationtype   "N/A" .
+
+<http://d.opencalais.com/conf/pershash-1/1368063f-dd24-3c84-9518-2736f4e387d6>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/1368063f-dd24-3c84-9518-2736f4e387d6> .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/81>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[in marriage to Gerald Edward “Pete” Nutter in ]Alva[.  They made their home on the farm north of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Alva" ;
+        c:length     "4" ;
+        c:offset     "589" ;
+        c:prefix     "in marriage to Gerald Edward “Pete” Nutter in " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> ;
+        c:suffix     ".  They made their home on the farm north of" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/60>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[was united in marriage to Gerald Edward “Pete” ]Nutter in Alva[.  They made their home on the farm north of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Nutter in Alva" ;
+        c:length     "14" ;
+        c:offset     "579" ;
+        c:prefix     "was united in marriage to Gerald Edward “Pete” " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c20398bb-c7f5-3d70-b562-2f7a6bfd393f> ;
+        c:suffix     ".  They made their home on the farm north of" .
+
+<http://d.opencalais.com/genericHasher-1/ee895375-d5c5-3e73-9646-a371947e65ee>
+        a                    <http://s.opencalais.com/1/type/em/e/IndustryTerm> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Funeral services" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/39>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[will be 2:00 p.m. Friday, June 20, 2014, at the ]Waynoka[ First Baptist Church. Interment will be in the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Waynoka" ;
+        c:length     "7" ;
+        c:offset     "86" ;
+        c:prefix     "will be 2:00 p.m. Friday, June 20, 2014, at the " ;
+        c:subject    <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:suffix     " First Baptist Church. Interment will be in the" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/18>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[her parents, she was preceded in death by ]her[ husband, Pete; two daughters, Ellie Waggoner and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "her" ;
+        c:length     "3" ;
+        c:offset     "1352" ;
+        c:prefix     "her parents, she was preceded in death by " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f266c227-290b-3418-91e0-b7571b1f7c3a> ;
+        c:suffix     " husband, Pete; two daughters, Ellie Waggoner and" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Relevance/44>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/75a7ca51-5002-3386-a5e7-482afaebd2a5> .
+
+<http://d.opencalais.com/conf/pershash-1/b768331b-790a-3e83-bea7-b6b8e55fdd28>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.965" ;
+        c:dblookup            "0.97" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.932" ;
+        c:subject             <http://d.opencalais.com/pershash-1/b768331b-790a-3e83-bea7-b6b8e55fdd28> .
+
+<http://d.opencalais.com/pershash-1/d5c140fa-d100-3fa5-954d-f29f07de2219>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Gerald Edward" ;
+        c:confidencelevel    "0.977" ;
+        c:firstname          "Gerald" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Edward" ;
+        c:name               "Gerald Edward" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959>
+        a                    <http://s.opencalais.com/1/type/em/e/ProvinceOrState> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Oklahoma" .
+
+<http://d.opencalais.com/conf/pershash-1/a03b5bf4-ec53-394b-b09d-837451c4cb36>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.993" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.995" ;
+        c:subject             <http://d.opencalais.com/pershash-1/a03b5bf4-ec53-394b-b09d-837451c4cb36> .
+
+<http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Alva" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Relevance/23>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/b47b5638-fe62-3297-a63e-16554e73f4fb> .
+
+<http://d.opencalais.com/genericHasher-1/41f2e1e0-603c-373c-acd9-84623c6e07b8>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonCareer> ;
+        c:careertype         "professional" ;
+        c:company            <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:forenduserdisplay  "true" ;
+        c:person             <http://d.opencalais.com/pershash-1/87cb5604-b30f-3cc1-8c5b-f4880c2440fa> ;
+        c:status             "current" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/SocialTag/3>
+        a                    <http://s.opencalais.com/1/type/tag/SocialTag> ;
+        c:docId              <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:forenduserdisplay  "true" ;
+        c:importance         "1" ;
+        c:name               "Alva" ;
+        c:originalValue      "Alva" ;
+        c:socialtag          <http://d.opencalais.com/genericHasher-1/17f61973-ed95-369b-b381-dec22ce26b2a> .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/1114fb0e-25a2-49dd-a619-369b5b536840>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:latitude            "36.746" ;
+        c:longitude           "-98.7527" ;
+        c:name                "Woods County,Oklahoma,United States" ;
+        c:shortname           "Woods County" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/ce8de128-24bf-3473-ab18-361909e1197d> .
+
+<http://d.opencalais.com/genericHasher-1/04c96fde-13c8-3272-aeec-b08a6bf8a12c>
+        a                    <http://s.opencalais.com/1/type/em/r/PersonLocation> ;
+        c:forenduserdisplay  "false" ;
+        c:locationstring     "Redlands" ;
+        c:person             <http://d.opencalais.com/pershash-1/f9bcba78-f1da-3a99-8f2d-b2f05ae13236> .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/89>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[LLC.    \nRuth Ella Nutter, daughter of the late ]Otto[ and Georgia Irene (Shearer) Golbek, was born]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Otto" ;
+        c:length     "4" ;
+        c:offset     "269" ;
+        c:prefix     "LLC.    \nRuth Ella Nutter, daughter of the late " ;
+        c:subject    <http://d.opencalais.com/pershash-1/178dd1e4-7105-3e14-8ea1-6f361786ee0f> ;
+        c:suffix     " and Georgia Irene (Shearer) Golbek, was born" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/8>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[as well as cleaning houses for people.      ]She[ was a member of the Morningstar Baptist Church]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "791" ;
+        c:prefix     "as well as cleaning houses for people.      " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f266c227-290b-3418-91e0-b7571b1f7c3a> ;
+        c:suffix     " was a member of the Morningstar Baptist Church" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/68>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[ people.      She was a member of the Morningstar ]Baptist Church[ until it closed.  She then attended the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Baptist Church" ;
+        c:length     "14" ;
+        c:offset     "827" ;
+        c:prefix     " people.      She was a member of the Morningstar " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/a21a69b3-e9dd-341e-9fee-da93c550c744> ;
+        c:suffix     " until it closed.  She then attended the" .
+
+<http://d.opencalais.com/pershash-1/0fc44f0c-0110-3099-a6c5-457e4f04401b>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Whitney Gum" ;
+        c:confidencelevel    "0.768" ;
+        c:firstname          "Whitney" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Gum" ;
+        c:name               "Whitney Gum" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/47>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Waynoka, Bobby Watson and wife, Raychel, of ]Waynoka[, Tonya Esquibel of Alva, Josh Inman and wife,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Waynoka" ;
+        c:length     "7" ;
+        c:offset     "1772" ;
+        c:prefix     "of Waynoka, Bobby Watson and wife, Raychel, of " ;
+        c:subject    <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:suffix     ", Tonya Esquibel of Alva, Josh Inman and wife," .
+
+<http://d.opencalais.com/genericHasher-1/4cef2930-172e-325c-b3fe-c3e7a14dd7d2>
+        a                    <http://s.opencalais.com/1/type/em/e/City> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Midland" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/26>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Cathy Hummel and husband, Sam, of Waynoka, ]Karen Watson of Waynoka[, Sharon Inman and husband, James, of Waynoka;]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Karen Watson of Waynoka" ;
+        c:length     "23" ;
+        c:offset     "1563" ;
+        c:prefix     "Cathy Hummel and husband, Sam, of Waynoka, " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/3445fe6d-d5f9-3ae8-ac4b-a2247f32bd22> ;
+        c:suffix     ", Sharon Inman and husband, James, of Waynoka;" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Relevance/52>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/59d8dd52-7398-3e22-ac42-61a925724258> .
+
+<http://d.opencalais.com/genericHasher-1/b73f357d-914b-32cd-a4dc-5d4a50a44d9e>
+        a                       <http://s.opencalais.com/1/type/em/r/PersonEducation> ;
+        c:forenduserdisplay     "false" ;
+        c:person                <http://d.opencalais.com/pershash-1/f266c227-290b-3418-91e0-b7571b1f7c3a> ;
+        c:schoolororganization  "Northside Church of Christ" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/ComponentVersions>
+        a          <http://s.opencalais.com/1/type/sys/ComponentVersions> ;
+        c:docId    <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:version  "WatchDog:OneCalais_8.3-RELEASE:113" , "OA Override:271:271" , "OneCalaisIM:OneCalais_8.3-RELEASE:198" , "Collector:OneCalais_8.3-RELEASE:113" , "config-drugs:258:258" , "OneCalais:OneCalais_8.3-RELEASE:364" , "FrenchIM:OneCalais_8.3-RELEASE:198" , "config-cse:271:271" , "BlackList:264:264" , "Deals Index:201505261613:201505261613" , "config-refineries:258:258" , "SpanishIM:OneCalais_8.3-RELEASE:198" , "AutocoderRuntimeIM:OneCalais_8.3-RELEASE:198" , "config-vessels:258:258" , "config-sca-DataPackage:34:34" , "People Index:201505261608:201505261608" , "config-physicalAssets-ports:258:258" , "OA Index:201505252208:201505252208" , "BrokerResearchIM:OneCalais_8.3-RELEASE:198" , "index-vessels:201505231718:201505231718" , "SocialTags Index:201505191038:201505191038" , "com.clearforest.infoext.dial4j.plugins-basistechconfig:OneCalais_8.3-RELEASE:225" , "NextTags:OneCalais_8.3-RELEASE:113" , "SECHeaderMetadataIM:OneCalais_8.3-RELEASE:198" , "Dial4J:OneCalais_8.3-RELEASE:198" , "Housekeeper:OneCalais_8.3-RELEASE:113" , "People Override:258:258" , "config-negativeSignature:258:258" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Relevance/31>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/0b7d4d2e-101f-3f77-80fc-1d2d3c15d289> .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/105>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Waggoner of Waynoka, Payton Smith of Tulsa, and ]Conner Smith[ of Redlands, California; 10 great grandchildren,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Conner Smith" ;
+        c:length     "12" ;
+        c:offset     "2000" ;
+        c:prefix     "Waggoner of Waynoka, Payton Smith of Tulsa, and " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f9bcba78-f1da-3a99-8f2d-b2f05ae13236> ;
+        c:suffix     " of Redlands, California; 10 great grandchildren," .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Relevance/10>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/c2d8936c-372b-3837-9750-b6e92e07355c> .
+
+<http://d.opencalais.com/er/geo/city/ralg-geo1/8fac7585-3230-ed66-1dae-4ee48ac15a97>
+        a                     <http://s.opencalais.com/1/type/er/Geo/City> ;
+        c:containedbycountry  "United States" ;
+        c:containedbystate    "Oklahoma" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:latitude            "36.805" ;
+        c:longitude           "-98.6661" ;
+        c:name                "Alva,Oklahoma,United States" ;
+        c:shortname           "Alva" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/e683bcf4-9171-31ad-a72e-85bb4583b883> .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/97>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Midland, Texas, Taylor Waggoner of Waynoka, ]Payton Smith[ of Tulsa, and Conner Smith of Redlands,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Payton Smith" ;
+        c:length     "12" ;
+        c:offset     "1973" ;
+        c:prefix     "of Midland, Texas, Taylor Waggoner of Waynoka, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/75a7ca51-5002-3386-a5e7-482afaebd2a5> ;
+        c:suffix     " of Tulsa, and Conner Smith of Redlands," .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/76>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Memorial Hill Cemetery under the direction of ]Marshall Funeral Home of Waynoka[, LLC.    \nRuth Ella Nutter, daughter of the late]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Marshall Funeral Home of Waynoka" ;
+        c:length     "32" ;
+        c:offset     "187" ;
+        c:prefix     "Memorial Hill Cemetery under the direction of " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/84bb0714-85ab-39de-a7e7-f1ad2e79292b> ;
+        c:suffix     ", LLC.    \nRuth Ella Nutter, daughter of the late" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Relevance/5>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/87d21e6a-b92a-3756-839a-324344a8e054> .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/55>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[on the farm north of Waynoka.  She worked as ]a Nurses Aide[ at Waynoka Nursing Home, at Smitty’s IGA Store,]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "a Nurses Aide" ;
+        c:length     "13" ;
+        c:offset     "662" ;
+        c:prefix     "on the farm north of Waynoka.  She worked as " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/c273b936-cf52-36ab-8c72-2ec25dd41680> ;
+        c:suffix     " at Waynoka Nursing Home, at Smitty’s IGA Store," .
+
+<http://d.opencalais.com/conf/pershash-1/87cb5604-b30f-3cc1-8c5b-f4880c2440fa>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.95" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:resolution          "0.0" ;
+        c:statisticalfeature  "0.97" ;
+        c:subject             <http://d.opencalais.com/pershash-1/87cb5604-b30f-3cc1-8c5b-f4880c2440fa> .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/34>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Cathy Hummel and husband, Sam, of Waynoka, ]Karen Watson[ of Waynoka, Sharon Inman and husband, James, of]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Karen Watson" ;
+        c:length     "12" ;
+        c:offset     "1563" ;
+        c:prefix     "Cathy Hummel and husband, Sam, of Waynoka, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/4c3342bf-d6f9-30bf-a75a-19cf00e00284> ;
+        c:suffix     " of Waynoka, Sharon Inman and husband, James, of" .
+
+<http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/e9e27c26-4013-8712-a5f0-97dcdc412c26>
+        a                     <http://s.opencalais.com/1/type/er/Geo/ProvinceOrState> ;
+        c:containedbycountry  "United States" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:latitude            "35.5607802899" ;
+        c:longitude           "-96.8460570462" ;
+        c:name                "Oklahoma,United States" ;
+        c:permid              "100229" ;
+        c:rcscode             "G:9H" ;
+        c:shortname           "Oklahoma" ;
+        c:subject             <http://d.opencalais.com/genericHasher-1/4e31417f-0912-362e-b8c9-1aea70d89959> .
+
+<http://d.opencalais.com/conf/comphash-1/e6417933-98e8-365f-8f80-b92f05707205>
+        a                     <http://s.opencalais.com/1/type/tag/Confidence> ;
+        c:aggregate           "0.861" ;
+        c:dblookup            "0.0" ;
+        c:docId               <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:resolution          "0.05522651" ;
+        c:statisticalfeature  "0.929" ;
+        c:subject             <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/13>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[and committed to her kids and grandkids.  ]She[ loved cooking for her family and insisted they]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "She" ;
+        c:length     "3" ;
+        c:offset     "1035" ;
+        c:prefix     "and committed to her kids and grandkids.  " ;
+        c:subject    <http://d.opencalais.com/pershash-1/f266c227-290b-3418-91e0-b7571b1f7c3a> ;
+        c:suffix     " loved cooking for her family and insisted they" .
+
+<http://d.opencalais.com/pershash-1/4c3342bf-d6f9-30bf-a75a-19cf00e00284>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Karen Watson" ;
+        c:confidencelevel    "0.975" ;
+        c:firstname          "Karen" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Watson" ;
+        c:name               "Karen Watson" ;
+        c:nationality        "N/A" ;
+        c:persontype         "economic" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Relevance/39>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/178dd1e4-7105-3e14-8ea1-6f361786ee0f> .
+
+<http://d.opencalais.com/pershash-1/59d8dd52-7398-3e22-ac42-61a925724258>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Georgia Irene" ;
+        c:confidencelevel    "0.895" ;
+        c:forenduserdisplay  "true" ;
+        c:name               "Georgia Irene" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Relevance/18>
+        a            <http://s.opencalais.com/1/type/sys/RelevanceInfo> ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:relevance  "0.2" ;
+        c:subject    <http://d.opencalais.com/pershash-1/bfdc4076-21a3-3a89-826b-6b63c417c4eb> .
+
+<http://d.opencalais.com/genericHasher-1/c273b936-cf52-36ab-8c72-2ec25dd41680>
+        a                    <http://s.opencalais.com/1/type/em/e/Position> ;
+        c:forenduserdisplay  "false" ;
+        c:name               "Nurses Aide" .
+
+<http://d.opencalais.com/pershash-1/bfdc4076-21a3-3a89-826b-6b63c417c4eb>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Josh Inman" ;
+        c:confidencelevel    "0.988" ;
+        c:firstname          "Josh" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "Inman" ;
+        c:name               "Josh Inman" ;
+        c:nationality        "N/A" ;
+        c:persontype         "N/A" .
+
+<http://d.opencalais.com/pershash-1/ac7e514e-2c4a-3207-a73a-3127ed4f4c4f>
+        a                    <http://s.opencalais.com/1/type/em/e/Person> ;
+        c:commonname         "Shawna McKinley" ;
+        c:confidencelevel    "0.95" ;
+        c:firstname          "Shawna" ;
+        c:forenduserdisplay  "true" ;
+        c:lastname           "McKinley" ;
+        c:name               "Shawna McKinley" ;
+        c:nationality        "N/A" ;
+        c:persontype         "economic" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/84>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[Watson of Waynoka, Sharon Inman and husband, ]James[, of Waynoka; one sister, Elsie Shipley and]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "James" ;
+        c:length     "5" ;
+        c:offset     "1614" ;
+        c:prefix     "Watson of Waynoka, Sharon Inman and husband, " ;
+        c:subject    <http://d.opencalais.com/pershash-1/e04c01bc-f221-3375-98df-fa12b6a49eb4> ;
+        c:suffix     ", of Waynoka; one sister, Elsie Shipley and" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/3>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Marshall Funeral Home of Waynoka, LLC.    \n]Ruth Ella Nutter[, daughter of the late Otto and Georgia Irene]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Ruth Ella Nutter" ;
+        c:length     "16" ;
+        c:offset     "230" ;
+        c:prefix     "of Marshall Funeral Home of Waynoka, LLC.    \n" ;
+        c:subject    <http://d.opencalais.com/pershash-1/f266c227-290b-3418-91e0-b7571b1f7c3a> ;
+        c:suffix     ", daughter of the late Otto and Georgia Irene" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/63>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of the late Otto and Georgia Irene (Shearer) ]Golbek, was born February 13, 1938, in Woods County[, Oklahoma, and passed away June 13, 2014, at]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Golbek, was born February 13, 1938, in Woods County" ;
+        c:length     "51" ;
+        c:offset     "302" ;
+        c:prefix     "of the late Otto and Georgia Irene (Shearer) " ;
+        c:subject    <http://d.opencalais.com/genericHasher-1/40a04cb1-97e8-3cb9-996d-e7be39c2d7ad> ;
+        c:suffix     ", Oklahoma, and passed away June 13, 2014, at" .
+
+<http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76/Instance/42>
+        a            <http://s.opencalais.com/1/type/sys/InstanceInfo> ;
+        c:detection  "[of Waynoka.  She worked as a Nurses Aide at ]Waynoka[ Nursing Home, at Smitty’s IGA Store, and at the]" ;
+        c:docId      <http://d.opencalais.com/dochash-1/6b87367a-01f2-3125-a90f-00499aacad76> ;
+        c:exact      "Waynoka" ;
+        c:length     "7" ;
+        c:offset     "679" ;
+        c:prefix     "of Waynoka.  She worked as a Nurses Aide at " ;
+        c:subject    <http://d.opencalais.com/comphash-1/e6417933-98e8-365f-8f80-b92f05707205> ;
+        c:suffix     " Nursing Home, at Smitty’s IGA Store, and at the" .
