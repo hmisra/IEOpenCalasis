@@ -25,10 +25,19 @@ public class DataObject {
 	String militaryInformation;
 	String isLifeCompanion;
 	String donationDetails;
+	ArrayList<String> noise;
 	ArrayList<String[]> sentencesInObits=new ArrayList<String[]>();
 	ArrayList<String[]> tags=new ArrayList<String[]>();
 	boolean tagged=false;
 	boolean dataLoaded=false;
+	
+	
+	public ArrayList<String> getNoise() {
+		return noise;
+	}
+	public void setNoise(ArrayList<String> noise) {
+		this.noise = noise;
+	}
 	public void setDataLoaded(boolean f)
 	{
 		dataLoaded=f;

@@ -6,6 +6,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStream;
 import java.text.Normalizer;
@@ -58,6 +59,7 @@ import com.json.parsers.JsonParserFactory;
 
 public class GeneralPurposeFunctions {
 
+	static ArrayList<String> noise=new ArrayList<String>();
 	public static String genderize(String firstName, String lastName) {
 		try {
 			DefaultHttpClient httpclient = new DefaultHttpClient();
@@ -278,6 +280,19 @@ public class GeneralPurposeFunctions {
 
 			}
 			obj.setDataLoaded(true);
+			
+			//write noise in file
+			
+			if(noise.size()>0)
+			{
+				obj.noise=noise;
+			}
+			
+
+			//clear noise
+			noise=new ArrayList<String>();
+			
+			
 		}
 		catch (FileNotFoundException e)
 		{
@@ -322,6 +337,7 @@ public class GeneralPurposeFunctions {
 		int index=original.indexOf(pattern);
 		if(index!=-1)
 		{
+			noise.add(original.substring(index, original.length())+"\n");
 			original=original.substring(0, index);
 		}
 		return original;
@@ -331,6 +347,7 @@ public class GeneralPurposeFunctions {
 			int index=original.indexOf(pattern);
 			if(index!=-1)
 			{
+				noise.add(original.substring(0, index)+"\n");
 				original=original.substring(index+pattern.length(), original.length());
 			}
 			return original;
@@ -340,6 +357,8 @@ public class GeneralPurposeFunctions {
 			int index=getRegexIndex(original, pattern);
 			if(index!=-1)
 			{
+
+				noise.add(original.substring(0, index+pattern.length())+"\n");
 				original=original.substring(index+pattern.length(), original.length());
 			}
 			return original;
@@ -349,6 +368,7 @@ public class GeneralPurposeFunctions {
 		int index=getRegexIndex(original, pattern);
 		if(index!=-1)
 		{
+			noise.add(original.substring(index, original.length())+"\n");
 			original=original.substring(0, index);
 		}
 		return original;

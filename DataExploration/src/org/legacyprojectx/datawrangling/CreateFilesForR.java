@@ -41,6 +41,7 @@ public static void main(String[] args) throws Exception {
         	{
         	createFile(militaryPath+"/"+file.getName(), obj.getMilitaryInformation());
         	}
+        	
         }
         else
         {

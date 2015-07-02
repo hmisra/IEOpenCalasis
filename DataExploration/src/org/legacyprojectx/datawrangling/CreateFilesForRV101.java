@@ -1,7 +1,6 @@
 package org.legacyprojectx.datawrangling;
 
 import java.io.*;
-
 import java.util.*;
 
 import org.legacyprojectx.datastructures.StringSimilarityHeapEntity;
@@ -43,6 +42,17 @@ public class CreateFilesForRV101 {
 				{
 					createFile(path+"/"+fileName, obj.getMilitaryInformation(),"3");
 				}
+				//add label for noise
+				if(obj.getNoise()!=null && obj.getNoise().size()>0)
+	        	{
+	        		StringBuilder noise=new StringBuilder();
+	        		for(String str:obj.getNoise())
+	        		{
+	        			noise.append(str);
+	        		}
+	        		createFile(path+"/"+file.getName(), noise.toString(), "4");
+	        		
+	        	}
 			}
 			else
 			{
@@ -160,8 +170,16 @@ public class CreateFilesForRV101 {
 		}
 		int count=0;
 		int number=0;
+		int initialSentCount=0;
 		for(String s: ooarray)
 		{
+			//initial sentences classified as personal information possibly contains fact
+			if(initialSentCount<3)
+			{
+				bw.write("\""+s+"\", \""+"5"+"\"");
+				bw.newLine();
+			}
+			initialSentCount++;
 			if(number<=matcharrayIndex.size()+2)
 			{
 				if(!matcharrayIndex.contains(count))
